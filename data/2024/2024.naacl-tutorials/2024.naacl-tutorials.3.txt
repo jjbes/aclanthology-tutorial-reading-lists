@@ -1,0 +1,112 @@
+In addition to the papers cited in this proposal, we
+also recommend this reading list on Notion and
+previous relevant tutorials: Belinkov et al. (2020)
+presented approaches to interpret the structures
+and behavior of neural network models; Wallace
+et al. (2020) described approaches to understanding
+the predictions of neural network models; Boyd-
+Graber et al. (2022) focused on the human aspect of
+explanation evaluation. Compared to the previous
+tutorials, our tutorial covers some new topics, in-
+cluding free-text / CoT explanations, and structured
+explanations, etc. We will present perspectives that
+connect the explanations as model interpretation
+tools and the explanations as communication pro-
+cedures.
+
+# Explanations reading list
+
+## Preface
+
+This reading list contains some materials for a seminar. The audience include graduate students from CompSci and other disciplines.
+
+Prerequisite: An NLP lecture would be nice to have.
+
+## Psychology of reasoning and explanations
+
+- R. C. Cummins (2000) "How does it work" versus "what are the laws?": Two conceptions of psychological explanation. https://philpapers.org/rec/CUMHDI
+- Lombrozo, Holyoak, Morrison (2012) Explanation and abductive inference. https://cognition.princeton.edu/publications/explanation-and-abductive-inference
+    - This is a chapter of the Oxford Handbook of Thinking and Reasoning, reviewing evidence concerning the structure and function of explanations.
+- Keil (2011) Explanation and understanding. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3034737/
+- Chapter 1 of the XAI-HCEE tutorial: https://xai-hcee.github.io/chapter_1.html
+- Miller (2019) Explanation in artificial intelligence: Insights from the social sciences https://doi.org/10.1016/j.artint.2018.07.007
+    - Many explanations are contrastive. They are selected. Explanations are social.
+
+## Quality of explanations
+
+- Lombrozo (2016) Explanatory preferences shape learning and inference https://doi.org/10.1016/j.tics.2016.08.001
+    - Simplicity and breadth.
+- Vrantsidis and Lombrozo (2022) Simplicity as a cue to probability: multiple roles for simplicity in evaluating explanations. https://cognition.princeton.edu/publications/simplicity-cue-probability-multiple-roles-simplicity-evaluating-explanations
+- Vasil, Blanchard, Lombrozo (2018) Stable causal relationships are better causal relationships. https://cognition.princeton.edu/publications/stable-causal-relationships-are-better-causal-relationships
+- ERASER (2020) (sufficiency and comprehensiveness): https://aclanthology.org/2020.acl-main.408.pdf
+    - Fidelity curve (sufficiency vs occlusion, comprehensiveness vs occlusion) https://arxiv.org/pdf/2010.04736.pdf
+- Chen et al (2021) What makes a good explanation? A harmonized view of properties of explanations https://arxiv.org/abs/2211.05667
+    - Sensitivity, faithfulness, complexity, homogeneity.
+- Liao et al., (2022) Connecting algorithmic research and usage contexts: a perspective of contextualized evaluation for explainable AI https://arxiv.org/abs/2206.10847
+- Lyu et al (2022) Towards Faithful Model Explanation in NLP: A Survey https://arxiv.org/abs/2209.11326
+- ALMANACS: A simulatability benchmark for LM explainability https://arxiv.org/abs/2312.12747
+    - Uses LM to simulate the LM explanations.
+    - When averaged across topics, no explanation method outperforms the explanation-free control.
+
+## How are explanations useful to humans?
+
+- Hase and Bansal (2020) Evaluating Explainable AI: Which algorithmic explanations help users predict model behavior? https://aclanthology.org/2020.acl-main.491.pdf
+    - Simultability: a model has high simultability (with this explanation) if a person can predict its behavior on new inputs.
+- Mercier and Sperber (2011) Why do humans reason? Arguments for an argumentative theory. https://pubmed.ncbi.nlm.nih.gov/21447233/
+    - This paper argues for reasoning. Explanations can be seen as a special form of reasoning. Mercier also wrote a book (Enigma of Reasons) elaborating on the human utility of explanations.
+- Lombrozo (2016) Explanatory preferences shape learning and inference https://www.sciencedirect.com/science/article/pii/S136466131630105X
+    - The roles of explanation in learning / inference.
+- Davoodi and Lombrozo (2022). Explaining the existential: scientific and religious explanations play different functional roles. https://cognition.princeton.edu/publications/explaining-existential-scientific-and-religious-explanations-play-different
+    - The roles of explanation beyond learning / inference.
+- Vasil and Lombrozo (2022). Explanations and causal judgments are differentially sensitive to covariation and mechanism information. https://cognition.princeton.edu/publications/explanations-and-causal-judgments-are-differentially-sensitive-covariation-0
+    - The role of explanations in supporting generalization.
+- Liquin and Lombrozo (2022) Motivated to learn: An account of explanatory satisfaction https://cognition.princeton.edu/publications/motivated-learn-account-explanatory-satisfaction
+    - “Receiving or generating explanations feels satisfying […] satisfaction is likely to guide individuals towards lines of inquiry that support perceptions of learning, whether or not individuals actually are learning.”
+- Chen et al (2022) Machine explanations and human understanding https://arxiv.org/pdf/2202.04092.pdf
+- Wadhwa et al (2023) Using NLE to rescale human judgments https://arxiv.org/pdf/2305.14770.pdf
+- Saha etal (2023) Can LM teach weaker agents? Teacher explanations improve students via ToM [https://arxiv.org/](https://arxiv.org/pdf/2306.09299)pdf/2306.09299.pdf
+- Das et al (2023) State2Explanation: Concept-based Explanations to Benefit Agent Learning and User Understanding [https://arxiv.org/abs/2309.12482](https://arxiv.org/pdf/2309.12482.pdf)
+- Hsu et al (2023) Is Explanation the Cure? Misinformation Mitigation in the Short Term and Long Term https://arxiv.org/abs/2310.17711
+    - Adding warning labels or GPT-4 explanations (for debunking misinformation) can both significantly decrease participants’ self-reported belief in fake claims.
+- Im, Andreas, Zhou (2023) https://arxiv.org/pdf/2312.06032.pdf Evaluating the utility of model explanations for model development
+    - “In this work, we evaluate whether explanations can improve human decision-making in practical scenarios of machine learning model development. […] To our surprise, we did not find evidence of significant improvement on these tasks when users were provided with any of the saliency maps, even the synthetic oracle explanation designed to be simple to understand and highly indicative of the answer.”
+
+## Different kinds of explanations
+
+- (From Explanation and Abductive Inference): There is a taxonomy: (1) mechanistic explanations, (2) teleological / functional explanations, (3) formal explanations which cites category membership.
+- Davoodi and Lombrozo (2022) Explaining the existential: scientific and religious explanations play different functional roles. https://cognition.princeton.edu/publications/explaining-existential-scientific-and-religious-explanations-play-different
+- Lombrozo, Wikenfeld, Grimm (2019) Mechanistic versus functional understanding. https://cognition.princeton.edu/publications/mechanistic-versus-functional-understanding-0
+    - Chapter 11 in the book Varieties of Understanding: New Perspectives from Philosophy, Psychology, and Theology
+- Aronowitz and Lombrozo (2020) Experiential explanation. https://cognition.princeton.edu/publications/experiential-explanation
+    - Abstractive and experiential explanations differ not only in level of abstraction, but also in structure. Each form of explanation contributes to the epistemic goals of individual learners and of science.
+- Stanford Encyclopedia of Philosophy: Scientific explanation
+- [[1908.05739] Abductive Commonsense Reasoning (arxiv.org)](https://arxiv.org/abs/1908.05739)
+- [Thinking Like a Skeptic: Defeasible Inference in Natural Language - ACL Anthology](https://aclanthology.org/2020.findings-emnlp.418/)
+- Semifactual explanation (Kenny and Huang, NeurIPS 2023) https://arxiv.org/pdf/2310.18937.pdf
+- Sample-based Explanations via Generalized Representers (NeurIPS 2023) https://openreview.net/pdf?id=fX64q0SNfL
+    - Explanation can be importance scores
+- Towards self-interpretable graph-level anomaly detection (NeurIPS 2023) https://openreview.net/pdf?id=SAzaC8f3cM
+    - Explanation as a subgraph that leads to the predictions
+- Interpretable by Design: Wrapper Boxes Combine Neural Performance with Faithful Explanations https://arxiv.org/pdf/2311.08644.pdf
+    - Example-based explanations
+
+## Datasets and automatic methods to generate explanations
+
+- Camburu et al., (2018) e-SNLI: Natural Language Inference with Natural Language Explanations.
+- Wiegreffe et al., (2022) Reframing human-AI collaboration for generating free-text explanations https://aclanthology.org/2022.naacl-main.47/
+- Wiegreffe and Marasovic (2022) Teach me to Explain: https://exnlpdatasets.github.io/
+- Rationalization for Explainable NLP: a survey (2023) https://arxiv.org/pdf/2301.08912.pdf
+- Explanation dialogues: [[2310.05592] InterroLang: Exploring NLP Models and Datasets through Dialogue-based Explanations (arxiv.org)](https://arxiv.org/abs/2310.05592)
+
+## Failure modes of machine-generated explanations
+
+- Ehsan & Riedl, (2022) Explainability Pitfalls: beyond dark patterns in Explainable AI https://arxiv.org/abs/2109.12480
+- Jin et al., (2022) Logical fallacy detection https://arxiv.org/pdf/2202.13758.pdf
+- Tan (2022) On the diversity and limits of human explanations https://aclanthology.org/2022.naacl-main.158/
+- Turpin et al (2023) LMs don’t always say what they think: unfaithful explanations in CoT prompting https://arxiv.org/pdf/2305.04388.pdf
+
+---
+
+This reading list is maintained by [Zining Zhu](https://ziningzhu.github.io). Any suggestions for related papers are welcome.
+
+Last updated: October 2023

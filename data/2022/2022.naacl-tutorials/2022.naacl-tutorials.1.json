@@ -1,0 +1,38 @@
+{
+    "2022.naacl-tutorials.1": {
+        "title": "Text Generation with Text-Editing Models",
+        "author": "Eric Malmi, Yue Dong, Jonathan Mallinson, Aleksandr Chuklin, Jakub Adamek, Daniil Mirylenka, Felix Stahlberg, Sebastian Krause, Shankar Kumar, Aliaksei Severyn",
+        "year": 2022,
+        "url": "https://aclanthology.org/2022.naacl-tutorials.1",
+        "doi": "10.18653/v1/2022.naacl-tutorials.1",
+        "abstract": "Text-editing models have recently become a prominent alternative to seq2seq models for monolingual text-generation tasks such as grammatical error correction, text simplification, and style transfer. These tasks share a common trait – they exhibit a large amount of textual overlap between the source and target texts. Text-editing models take advantage of this observation and learn to generate the output by predicting edit operations applied to the source sequence. In contrast, seq2seq models generate outputs word-by-word from scratch thus making them slow at inference time. Text-editing models provide several benefits over seq2seq models including faster inference speed, higher sample efficiency, and better control and interpretability of the outputs. This tutorial provides a comprehensive overview of the text-edit based models and current state-of-the-art approaches analyzing their pros and cons. We discuss challenges related to deployment and how these models help to mitigate hallucination and bias, both pressing challenges in the field of text generation.",
+        "readingList": [
+            {
+                "sectionName": "background",
+                "subsectionName": null,
+                "referencesIds": [
+                    "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+                    "df2b0e26d0599ce3e70df8a9da02e51594e0e992"
+                ]
+            },
+            {
+                "sectionName": "text-editing works",
+                "subsectionName": null,
+                "referencesIds": [
+                    "8ba66cb690ff3a37c63ff0f67b595f03dd78dc75",
+                    "340b59e6ee93d30c055b5e89a7cfbc88874c9958",
+                    "8c881df7a42e6798bf69b6ecb26b9d0792a378e7",
+                    "9f6b659033da6fff11da1af64fea7c0d728ab433",
+                    "f327a27515c72d0c7c92e8d2e83475477e68f877",
+                    "a3707f5ce5cde48960475f6c6013f10d2e851f15",
+                    "f87de21b46683b5743c4d82af3c9cb8bbcd26f21",
+                    "fd90d2d2853c5b550eab7db203db9f4e7e5a2aaa",
+                    "9616236d5b19006d30cd512001bb217d88c1f830",
+                    "9da95e99afd4ea899bd1fb40dd350e0be0a12a84",
+                    "58ef9f9682c0ae4561dc30079a52867f108f704e",
+                    "a1765ca8c4aa99a0d35f82d9e310ec3f79004e62"
+                ]
+            }
+        ]
+    }
+}

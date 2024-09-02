@@ -1,0 +1,51 @@
+{
+    "2022.emnlp-tutorials.1": {
+        "title": "Meaning Representations for Natural Languages: Design, Models and Applications",
+        "author": "Jeffrey Flanigan, Ishan Jindal, Yunyao Li, Tim O’Gorman, Martha Palmer, Nianwen Xue",
+        "year": 2022,
+        "url": "https://aclanthology.org/2022.emnlp-tutorials.1",
+        "doi": "10.18653/v1/2022.emnlp-tutorials.1",
+        "abstract": "This tutorial reviews the design of common meaning representations, SoTA models for predicting meaning representations, and the applications of meaning representations in a wide range of downstream NLP tasks and real-world applications. Reporting by a diverse team of NLP researchers from academia and industry with extensive experience in designing, building and using meaning representations, our tutorial has three components: (1) an introduction to common meaning representations, including basic concepts and design challenges; (2) a review of SoTA methods on building models for meaning representations; and (3) an overview of applications of meaning representations in downstream NLP tasks and real-world applications. We will also present qualitative comparisons of common meaning representations and a quantitative study on how their differences impact model performance. Finally, we will share best practices in choosing the right meaning representation for downstream tasks.",
+        "readingList": [
+            {
+                "sectionName": "PropBank",
+                "subsectionName": null,
+                "referencesIds": [
+                    "99d2dcdcf4cf05facaa101a48c7e31d140b4736d"
+                ]
+            },
+            {
+                "sectionName": "AMR",
+                "subsectionName": null,
+                "referencesIds": [
+                    "e72e5ee5de14fd463ab58ce830474157258e3578"
+                ]
+            },
+            {
+                "sectionName": "UMR",
+                "subsectionName": null,
+                "referencesIds": [
+                    "b1c1bfe5f7a5696909c0ee7de7fbb4092a04c907"
+                ]
+            },
+            {
+                "sectionName": "SRL models",
+                "subsectionName": null,
+                "referencesIds": [
+                    "1ae5c1646ea445a670fe6cc8bf72b589dd9f6e5c",
+                    "a4dd3beea286a20c4e4f66436875932d597190bc"
+                ]
+            },
+            {
+                "sectionName": "AMR models",
+                "subsectionName": null,
+                "referencesIds": [
+                    "33a9d1a702eb75da709d26c44aaeb7c2015c870b",
+                    "63ef50238ba765edf47c86e3e3fe9f608d8ea00b",
+                    "12b28c2d1b58234daa0f06ab43353c401eda1958"
+                ]
+            }
+        ]
+    }
+}
+

@@ -1,0 +1,706 @@
+[
+  {
+    "author": [
+      {
+        "given": "Certainly!"
+      }
+    ],
+    "title": [
+      "Here's a reading list of 20 articles up to 2023 that cover security challenges in natural language processing (NLP), with a focus on black-box models, data leakage, backdoors, and imitation attacks"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "author": [
+      {
+        "family": "Black-Box NLP Systems\"",
+        "given": "Adversarial Attacks",
+        "particle": "on"
+      }
+    ],
+    "title": [
+      "This paper explores various adversarial attack techniques on black-box NLP systems and their implications"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Authors",
+        "given": "Jia"
+      },
+      {
+        "family": "Robin"
+      },
+      {
+        "family": "Liang",
+        "given": "Percy"
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "location": [
+      "Conference"
+    ],
+    "publisher": [
+      "ACL"
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": "book"
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "title": [
+      "**\"Universal Adversarial Triggers for Attacking and Analyzing NLP\"** - Discusses the creation of universal adversarial triggers that can fool NLP models across different tasks"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Authors: Wallace, Eric, et al"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "location": [
+      "Conference"
+    ],
+    "publisher": [
+      "EMNLP"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": "book"
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "title": [
+      "**\"Backdoor Attacks on Deep Learning Models\"** - A comprehensive study on backdoor attacks in deep learning, including NLP models"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Authors: Gu, Tianyu, et al"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "container-title": [
+      "Conference: NIPS 2017"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "title": [
+      "**\"Data Leakage in Machine Learning: A Survey\"** - Reviews various forms of data leakage in machine learning, including NLP applications"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Authors: Kaufman, Shachar, et al"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "location": [
+      "Journal"
+    ],
+    "publisher": [
+      "ACM Computing Surveys"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": "book"
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "title": [
+      "**\"Mitigating Data Leakage in Machine Learning\"** - Proposes methods to detect and mitigate data leakage in machine learning models"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Authors: Liu, Yang, et al"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "Journal: IEEE Transactions on Knowledge and Data Engineering"
+    ]
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "title": [
+      "**\"Defending Against Neural Network Model Stealing Attacks Using Deceptive Perturbations\"** - Discusses defense mechanisms against model stealing attacks in NLP"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Authors: Orekondy, Tribhuvanesh, et al"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "- Conference: CVPR 2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "title": [
+      "**\"Black-Box Adversarial Attacks with Transferability and Surrogate Ensemble\"** - Explores black-box adversarial attacks using transferability and surrogate models"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Authors: Dong, Yinpeng, et al"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "location": [
+      "Journal"
+    ],
+    "publisher": [
+      "IEEE Transactions on Cybernetics"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": "book"
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "title": [
+      "**\"Practical Black-Box Attacks against Machine Learning\"** - A practical guide to executing black-box attacks on machine learning models, including NLP"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Authors: Papernot, Nicolas, et al"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "container-title": [
+      "Conference: ASIACCS 2017"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "title": [
+      "**\"Hidden Trigger Backdoor Attacks\"** - Investigates hidden trigger backdoor attacks in NLP models"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Authors: Saha, Aniruddha, et al"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "location": [
+      "Conference"
+    ],
+    "publisher": [
+      "AAAI"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": "book"
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "title": [
+      "**\"Adversarial Examples in the Physical World\"** - Examines the feasibility of adversarial examples in real-world scenarios, including NLP"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Authors",
+        "given": "Kurakin"
+      },
+      {
+        "given": "Alexey"
+      },
+      {
+        "others": true
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "location": [
+      "Conference"
+    ],
+    "publisher": [
+      "ICLR"
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": "book"
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "title": [
+      "**\"Model Extraction Attacks on BERT-Based APIs\"** - Focuses on model extraction attacks specifically targeting BERT-based NLP APIs"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Authors: Krishna, Kalpesh, et al"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "location": [
+      "Conference"
+    ],
+    "publisher": [
+      "EMNLP"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": "book"
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "title": [
+      "**\"Data Poisoning Attacks on Neural Networks\"** - Discusses data poisoning attacks and their impact on neural network models, including NLP"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Authors: Biggio, Battista, et al"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "location": [
+      "Journal"
+    ],
+    "publisher": [
+      "IEEE Transactions on Neural Networks and Learning Systems"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": "book"
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "title": [
+      "**\"Adversarial Training for Free!\"** - Proposes methods for adversarial training without significant computational overhead"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Authors",
+        "given": "Shafahi"
+      },
+      {
+        "given": "Ali"
+      },
+      {
+        "others": true
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "container-title": [
+      "Conference: NIPS 2019"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "title": [
+      "**\"Mitigating Backdoor Attacks in Machine Learning\"** - Reviews techniques for detecting and mitigating backdoor attacks in machine learning models"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Authors: Liu, Kang, et al"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "location": [
+      "Journal"
+    ],
+    "publisher": [
+      "IEEE Transactions on Neural Networks and Learning Systems"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": "book"
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "title": [
+      "**\"Adversarial Examples Are Not Bugs, They Are Features\"** - Argues that adversarial examples exploit inherent features in data rather than being mere bugs"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Authors: Ilyas, Andrew, et al"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "container-title": [
+      "Conference: NIPS 2019"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "title": [
+      "**\"Stealing Machine Learning Models via Prediction APIs\"** - Explores how machine learning models can be stolen through prediction APIs"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Authors: Tramer, Florian, et al"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "container-title": [
+      "Conference: USENIX Security Symposium 2016"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "title": [
+      "**\"Exploring the Vulnerability of Deep Neural Networks: A Study of Parameter Corruption\"** - Investigates the vulnerability of deep neural networks to parameter corruption"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Authors: Chen, Pin-Yu, et al"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "location": [
+      "Journal"
+    ],
+    "publisher": [
+      "IEEE Transactions on Neural Networks and Learning Systems"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": "book"
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "title": [
+      "**\"Adversarial Attacks on Neural Network Policies\"** - Discusses adversarial attacks on neural network policies, including those used in NLP"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "location": [
+      "Authors",
+      "Sandy"
+    ],
+    "publisher": [
+      "Huang"
+    ],
+    "author": [
+      {
+        "others": true
+      }
+    ],
+    "type": "book"
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "location": [
+      "Conference"
+    ],
+    "publisher": [
+      "ICLR"
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": "book"
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "title": [
+      "**\"A Survey of Model Extraction Attacks and Defenses\"** - A comprehensive survey of model extraction attacks and the corresponding defenses"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Authors: Chandrasekaran, Varun, et al"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "location": [
+      "Journal"
+    ],
+    "publisher": [
+      "ACM Computing Surveys"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": "book"
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "title": [
+      "**\"Adversarial Attacks and Defenses in Images, Graphs and Text: A Review\"** - Reviews adversarial attacks and defenses across different domains, including text"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Authors: Sun, Lichao, et al"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "location": [
+      "Journal"
+    ],
+    "publisher": [
+      "IEEE Transactions on Big Data"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": "book"
+  },
+  {
+    "title": [
+      "These articles provide a broad overview of the current challenges and research directions in securing NLP models against various types of attacks"
+    ],
+    "type": null
+  }
+]

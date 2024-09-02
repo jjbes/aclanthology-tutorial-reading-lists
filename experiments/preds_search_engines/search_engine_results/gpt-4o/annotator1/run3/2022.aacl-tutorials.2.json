@@ -1,0 +1,705 @@
+[
+  {
+    "author": [
+      {
+        "given": "Certainly!"
+      }
+    ],
+    "title": [
+      "Here's a curated list of 20 articles up to 2022 that focus on the usage of pre-trained language models (PLMs) for downstream tasks, particularly under data scarcity and parameter efficiency scenarios"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "author": [
+      {
+        "family": "Howard",
+        "given": "J."
+      },
+      {
+        "family": "Ruder",
+        "given": "S."
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "title": [
+      "Universal Language Model Fine-tuning for Text Classification"
+    ],
+    "note": [
+      "*arXiv preprint arXiv:1801.06146*."
+    ],
+    "arxiv": [
+      "1801.06146"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "author": [
+      {
+        "family": "Devlin",
+        "given": "J."
+      },
+      {
+        "family": "Chang",
+        "given": "M.W."
+      },
+      {
+        "family": "Lee",
+        "given": "K."
+      },
+      {
+        "family": "Toutanova",
+        "given": "K."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "location": [
+      "BERT"
+    ],
+    "publisher": [
+      "Pre-training of Deep Bidirectional Transformers for Language Understanding. *NAACL-HLT*"
+    ],
+    "type": "book"
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "author": [
+      {
+        "family": "Liu",
+        "given": "Y."
+      },
+      {
+        "family": "Ott",
+        "given": "M."
+      },
+      {
+        "family": "Goyal",
+        "given": "N."
+      },
+      {
+        "family": "Du",
+        "given": "J."
+      },
+      {
+        "family": "Joshi",
+        "given": "M."
+      },
+      {
+        "family": "Chen",
+        "given": "D."
+      },
+      {
+        "family": "Stoyanov",
+        "given": "V."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "note": [
+      "RoBERTa: A Robustly Optimized BERT Pretraining Approach. *arXiv preprint arXiv:1907.11692*."
+    ],
+    "arxiv": [
+      "1907.11692"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "author": [
+      {
+        "family": "Lan",
+        "given": "Z."
+      },
+      {
+        "family": "Chen",
+        "given": "M."
+      },
+      {
+        "family": "Goodman",
+        "given": "S."
+      },
+      {
+        "family": "Gimpel",
+        "given": "K."
+      },
+      {
+        "family": "Sharma",
+        "given": "P."
+      },
+      {
+        "family": "Soricut",
+        "given": "R."
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "location": [
+      "ALBERT"
+    ],
+    "publisher": [
+      "A Lite BERT for Self-supervised Learning of Language Representations. *ICLR*"
+    ],
+    "type": "book"
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "author": [
+      {
+        "family": "Sanh",
+        "given": "V."
+      },
+      {
+        "family": "Debut",
+        "given": "L."
+      },
+      {
+        "family": "Chaumond",
+        "given": "J."
+      },
+      {
+        "family": "Wolf",
+        "given": "T."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "title": [
+      "DistilBERT, a distilled version of BERT"
+    ],
+    "note": [
+      "smaller, faster, cheaper and lighter. *arXiv preprint arXiv:1910.01108*."
+    ],
+    "arxiv": [
+      "1910.01108"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "author": [
+      {
+        "family": "Sun",
+        "given": "C."
+      },
+      {
+        "family": "Qiu",
+        "given": "X."
+      },
+      {
+        "family": "Xu",
+        "given": "Y."
+      },
+      {
+        "family": "Huang",
+        "given": "X."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "title": [
+      "How to Fine-Tune BERT for Text Classification?"
+    ],
+    "container-title": [
+      "*China National Conference on Chinese Computational Linguistics*"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "author": [
+      {
+        "family": "Houlsby",
+        "given": "N."
+      },
+      {
+        "family": "Giurgiu",
+        "given": "A."
+      },
+      {
+        "family": "Jastrzebski",
+        "given": "S."
+      },
+      {
+        "family": "Morrone",
+        "given": "B."
+      },
+      {
+        "family": "Laroussilhe",
+        "given": "Q.",
+        "particle": "de"
+      },
+      {
+        "family": "Gesmundo",
+        "given": "A."
+      },
+      {
+        "family": "Gelly",
+        "given": "S."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "publisher": [
+      "Parameter-Efficient Transfer Learning for NLP. *ICML*"
+    ],
+    "type": "book"
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "author": [
+      {
+        "family": "Peters",
+        "given": "M.E."
+      },
+      {
+        "family": "Neumann",
+        "given": "M."
+      },
+      {
+        "family": "Iyyer",
+        "given": "M."
+      },
+      {
+        "family": "Gardner",
+        "given": "M."
+      },
+      {
+        "family": "Clark",
+        "given": "C."
+      },
+      {
+        "family": "Lee",
+        "given": "K."
+      },
+      {
+        "family": "Zettlemoyer",
+        "given": "L."
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "title": [
+      "Deep contextualized word representations"
+    ],
+    "publisher": [
+      "*NAACL-HLT*"
+    ],
+    "type": "book"
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "author": [
+      {
+        "family": "Radford",
+        "given": "A."
+      },
+      {
+        "family": "Wu",
+        "given": "J."
+      },
+      {
+        "family": "Child",
+        "given": "R."
+      },
+      {
+        "family": "Luan",
+        "given": "D."
+      },
+      {
+        "family": "Amodei",
+        "given": "D."
+      },
+      {
+        "family": "Sutskever",
+        "given": "I."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "title": [
+      "Language Models are Unsupervised Multitask Learners"
+    ],
+    "publisher": [
+      "*OpenAI Blog*"
+    ],
+    "type": "book"
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "author": [
+      {
+        "family": "Raffel",
+        "given": "C."
+      },
+      {
+        "family": "Shazeer",
+        "given": "N."
+      },
+      {
+        "family": "Roberts",
+        "given": "A."
+      },
+      {
+        "family": "Lee",
+        "given": "K."
+      },
+      {
+        "family": "Narang",
+        "given": "S."
+      },
+      {
+        "family": "Matena",
+        "given": "M."
+      },
+      {
+        "family": "Liu",
+        "given": "P.J."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "title": [
+      "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer"
+    ],
+    "publisher": [
+      "*JMLR*"
+    ],
+    "type": "book"
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "author": [
+      {
+        "family": "Li",
+        "given": "X.L."
+      },
+      {
+        "family": "Liang",
+        "given": "P."
+      }
+    ],
+    "date": [
+      "2021"
+    ],
+    "title": [
+      "Prefix-Tuning: Optimizing Continuous Prompts for Generation"
+    ],
+    "publisher": [
+      "*ACL*"
+    ],
+    "type": "book"
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "author": [
+      {
+        "family": "Zaken",
+        "given": "E.M."
+      },
+      {
+        "family": "Ravfogel",
+        "given": "S."
+      },
+      {
+        "family": "Goldberg",
+        "given": "Y."
+      }
+    ],
+    "date": [
+      "2021"
+    ],
+    "note": [
+      "BitFit: Simple Parameter-efficient Fine-tuning for Transformer-based Masked Language-models. *arXiv preprint arXiv:2106.10199*."
+    ],
+    "arxiv": [
+      "2106.10199"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "author": [
+      {
+        "family": "He",
+        "given": "J."
+      },
+      {
+        "family": "Liu",
+        "given": "M."
+      },
+      {
+        "family": "Liu",
+        "given": "Y."
+      },
+      {
+        "family": "Gao",
+        "given": "J."
+      }
+    ],
+    "date": [
+      "2021"
+    ],
+    "title": [
+      "On the Effectiveness of Adapter-based Tuning for Pretrained Language Model Adaptation"
+    ],
+    "publisher": [
+      "*ACL*"
+    ],
+    "type": "book"
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "author": [
+      {
+        "family": "Gao",
+        "given": "T."
+      },
+      {
+        "family": "Fisch",
+        "given": "A."
+      },
+      {
+        "family": "Chen",
+        "given": "D."
+      }
+    ],
+    "date": [
+      "2021"
+    ],
+    "title": [
+      "Making Pre-trained Language Models Better Few-shot Learners"
+    ],
+    "publisher": [
+      "*ACL*"
+    ],
+    "type": "book"
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "author": [
+      {
+        "family": "Schick",
+        "given": "T."
+      },
+      {
+        "family": "Schütze",
+        "given": "H."
+      }
+    ],
+    "date": [
+      "2021"
+    ],
+    "title": [
+      "Exploiting Cloze-Questions for Few-Shot Text Classification and Natural Language Inference"
+    ],
+    "publisher": [
+      "*EACL*"
+    ],
+    "type": "book"
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "author": [
+      {
+        "family": "Zhang",
+        "given": "T."
+      },
+      {
+        "family": "Sun",
+        "given": "Y."
+      },
+      {
+        "family": "Kong",
+        "given": "X."
+      },
+      {
+        "family": "Du",
+        "given": "J."
+      },
+      {
+        "family": "Zhang",
+        "given": "Y."
+      }
+    ],
+    "date": [
+      "2021"
+    ],
+    "publisher": [
+      "Revisiting Few-sample BERT Fine-tuning. *ICLR*"
+    ],
+    "type": "book"
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "author": [
+      {
+        "family": "Lester",
+        "given": "B."
+      },
+      {
+        "family": "Al-Rfou",
+        "given": "R."
+      },
+      {
+        "family": "Constant",
+        "given": "N."
+      }
+    ],
+    "date": [
+      "2021"
+    ],
+    "title": [
+      "The Power of Scale for Parameter-Efficient Prompt Tuning"
+    ],
+    "publisher": [
+      "*EMNLP*"
+    ],
+    "type": "book"
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "author": [
+      {
+        "family": "Li",
+        "given": "X.L."
+      },
+      {
+        "family": "Liang",
+        "given": "P."
+      }
+    ],
+    "date": [
+      "2021"
+    ],
+    "title": [
+      "Prefix-Tuning: Optimizing Continuous Prompts for Generation"
+    ],
+    "publisher": [
+      "*ACL*"
+    ],
+    "type": "book"
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "author": [
+      {
+        "family": "Ben-Zaken",
+        "given": "E."
+      },
+      {
+        "family": "Ravfogel",
+        "given": "S."
+      },
+      {
+        "family": "Goldberg",
+        "given": "Y."
+      }
+    ],
+    "date": [
+      "2021"
+    ],
+    "note": [
+      "BitFit: Simple Parameter-efficient Fine-tuning for Transformer-based Masked Language-models. *arXiv preprint arXiv:2106.10199*."
+    ],
+    "arxiv": [
+      "2106.10199"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "author": [
+      {
+        "family": "Zaken",
+        "given": "E.M."
+      },
+      {
+        "family": "Ravfogel",
+        "given": "S."
+      },
+      {
+        "family": "Goldberg",
+        "given": "Y."
+      }
+    ],
+    "date": [
+      "2021"
+    ],
+    "note": [
+      "BitFit: Simple Parameter-efficient Fine-tuning for Transformer-based Masked Language-models. *arXiv preprint arXiv:2106.10199*."
+    ],
+    "arxiv": [
+      "2106.10199"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "These articles cover a range of approaches and techniques for leveraging pre-trained language models in scenarios where data is scarce and parameter efficiency is crucial. They include foundational works, as well as more recent advancements in fine-tuning, prompt tuning, and efficient transfer learning methods"
+    ],
+    "type": null
+  }
+]

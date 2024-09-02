@@ -1,0 +1,746 @@
+[
+  {
+    "author": [
+      {
+        "given": "Certainly!"
+      }
+    ],
+    "title": [
+      "Here is a list of 20 influential articles on Graph Neural Networks (GNNs) published before 2022. These papers cover a range of topics including foundational theories, various GNN architectures, and applications"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "author": [
+      {
+        "family": "Scarselli",
+        "given": "F."
+      },
+      {
+        "family": "Gori",
+        "given": "M."
+      },
+      {
+        "family": "Tsoi",
+        "given": "A.C."
+      },
+      {
+        "family": "Hagenbuchner",
+        "given": "M."
+      },
+      {
+        "family": "Monfardini",
+        "given": "G."
+      }
+    ],
+    "date": [
+      "2009"
+    ],
+    "title": [
+      "The Graph Neural Network Model"
+    ],
+    "volume": [
+      "20"
+    ],
+    "pages": [
+      "61–80"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "*IEEE Transactions on Neural Networks*"
+    ],
+    "issue": [
+      "1"
+    ]
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "author": [
+      {
+        "family": "Bruna",
+        "given": "J."
+      },
+      {
+        "family": "Zaremba",
+        "given": "W."
+      },
+      {
+        "family": "Szlam",
+        "given": "A."
+      },
+      {
+        "family": "LeCun",
+        "given": "Y."
+      }
+    ],
+    "date": [
+      "2014"
+    ],
+    "title": [
+      "Spectral Networks and Locally Connected Networks on Graphs"
+    ],
+    "container-title": [
+      "*International Conference on Learning Representations (ICLR)*"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "author": [
+      {
+        "family": "Defferrard",
+        "given": "M."
+      },
+      {
+        "family": "Bresson",
+        "given": "X."
+      },
+      {
+        "family": "Vandergheynst",
+        "given": "P."
+      }
+    ],
+    "date": [
+      "2016"
+    ],
+    "title": [
+      "Convolutional Neural Networks on Graphs with Fast Localized Spectral Filtering"
+    ],
+    "container-title": [
+      "*Advances in Neural Information Processing Systems (NeurIPS)*"
+    ],
+    "volume": [
+      "29"
+    ],
+    "pages": [
+      "3844–3852"
+    ],
+    "type": "chapter"
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "author": [
+      {
+        "family": "Kipf",
+        "given": "T.N."
+      },
+      {
+        "family": "Welling",
+        "given": "M."
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "title": [
+      "Semi-Supervised Classification with Graph Convolutional Networks"
+    ],
+    "container-title": [
+      "*International Conference on Learning Representations (ICLR)*"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "author": [
+      {
+        "family": "Hamilton",
+        "given": "W."
+      },
+      {
+        "family": "Ying",
+        "given": "Z."
+      },
+      {
+        "family": "Leskovec",
+        "given": "J."
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "title": [
+      "Inductive Representation Learning on Large Graphs"
+    ],
+    "container-title": [
+      "*Advances in Neural Information Processing Systems (NeurIPS)*"
+    ],
+    "volume": [
+      "30"
+    ],
+    "pages": [
+      "1024–1034"
+    ],
+    "type": "chapter"
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "author": [
+      {
+        "family": "Velickovic",
+        "given": "P."
+      },
+      {
+        "family": "Cucurull",
+        "given": "G."
+      },
+      {
+        "family": "Casanova",
+        "given": "A."
+      },
+      {
+        "family": "Romero",
+        "given": "A."
+      },
+      {
+        "family": "Lio",
+        "given": "P."
+      },
+      {
+        "family": "Bengio",
+        "given": "Y."
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "title": [
+      "Graph Attention Networks"
+    ],
+    "container-title": [
+      "*International Conference on Learning Representations (ICLR)*"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "author": [
+      {
+        "family": "Gilmer",
+        "given": "J."
+      },
+      {
+        "family": "Schoenholz",
+        "given": "S.S."
+      },
+      {
+        "family": "Riley",
+        "given": "P.F."
+      },
+      {
+        "family": "Vinyals",
+        "given": "O."
+      },
+      {
+        "family": "Dahl",
+        "given": "G.E."
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "title": [
+      "Neural Message Passing for Quantum Chemistry"
+    ],
+    "container-title": [
+      "*International Conference on Machine Learning (ICML)*"
+    ],
+    "pages": [
+      "1263–1272"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "author": [
+      {
+        "family": "Xu",
+        "given": "K."
+      },
+      {
+        "family": "Hu",
+        "given": "W."
+      },
+      {
+        "family": "Leskovec",
+        "given": "J."
+      },
+      {
+        "family": "Jegelka",
+        "given": "S."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "title": [
+      "How Powerful are Graph Neural Networks?"
+    ],
+    "container-title": [
+      "*International Conference on Learning Representations (ICLR)*"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "author": [
+      {
+        "family": "Li",
+        "given": "Y."
+      },
+      {
+        "family": "Tarlow",
+        "given": "D."
+      },
+      {
+        "family": "Brockschmidt",
+        "given": "M."
+      },
+      {
+        "family": "Zemel",
+        "given": "R."
+      }
+    ],
+    "date": [
+      "2016"
+    ],
+    "title": [
+      "Gated Graph Sequence Neural Networks"
+    ],
+    "container-title": [
+      "*International Conference on Learning Representations (ICLR)*"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "author": [
+      {
+        "family": "Battaglia",
+        "given": "P.W."
+      },
+      {
+        "family": "Hamrick",
+        "given": "J.B."
+      },
+      {
+        "family": "Bapst",
+        "given": "V."
+      },
+      {
+        "family": "Sanchez-Gonzalez",
+        "given": "A."
+      },
+      {
+        "family": "Zambaldi",
+        "given": "V."
+      },
+      {
+        "family": "Malinowski",
+        "given": "M."
+      },
+      {
+        "family": "Pascanu",
+        "given": "R."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "title": [
+      "Relational inductive biases, deep learning, and graph networks"
+    ],
+    "note": [
+      "*arXiv preprint arXiv:1806.01261*."
+    ],
+    "arxiv": [
+      "1806.01261"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "author": [
+      {
+        "family": "Ying",
+        "given": "R."
+      },
+      {
+        "family": "He",
+        "given": "R."
+      },
+      {
+        "family": "Chen",
+        "given": "K."
+      },
+      {
+        "family": "Eksombatchai",
+        "given": "P."
+      },
+      {
+        "family": "Hamilton",
+        "given": "W.L."
+      },
+      {
+        "family": "Leskovec",
+        "given": "J."
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "title": [
+      "Graph Convolutional Neural Networks for Web-Scale Recommender Systems"
+    ],
+    "container-title": [
+      "*Proceedings of the 24th ACM SIGKDD International Conference on Knowledge Discovery & Data Mining (KDD)*"
+    ],
+    "pages": [
+      "974–983"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "author": [
+      {
+        "family": "Zhang",
+        "given": "M."
+      },
+      {
+        "family": "Chen",
+        "given": "Y."
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "title": [
+      "Link Prediction Based on Graph Neural Networks"
+    ],
+    "container-title": [
+      "*Advances in Neural Information Processing Systems (NeurIPS)*"
+    ],
+    "volume": [
+      "31"
+    ],
+    "pages": [
+      "5165–5175"
+    ],
+    "type": "chapter"
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "author": [
+      {
+        "family": "Wu",
+        "given": "Z."
+      },
+      {
+        "family": "Pan",
+        "given": "S."
+      },
+      {
+        "family": "Chen",
+        "given": "F."
+      },
+      {
+        "family": "Long",
+        "given": "G."
+      },
+      {
+        "family": "Zhang",
+        "given": "C."
+      },
+      {
+        "family": "Yu",
+        "given": "P.S."
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "title": [
+      "A Comprehensive Survey on Graph Neural Networks"
+    ],
+    "volume": [
+      "32"
+    ],
+    "pages": [
+      "4–24"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "*IEEE Transactions on Neural Networks and Learning Systems*"
+    ],
+    "issue": [
+      "1"
+    ]
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "author": [
+      {
+        "family": "Chen",
+        "given": "J."
+      },
+      {
+        "family": "Ma",
+        "given": "T."
+      },
+      {
+        "family": "Xiao",
+        "given": "C."
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "title": [
+      "FastGCN: Fast Learning with Graph Convolutional Networks via Importance Sampling"
+    ],
+    "container-title": [
+      "*International Conference on Learning Representations (ICLR)*"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "author": [
+      {
+        "family": "Klicpera",
+        "given": "J."
+      },
+      {
+        "family": "Bojchevski",
+        "given": "A."
+      },
+      {
+        "family": "Günnemann",
+        "given": "S."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "title": [
+      "Predict then Propagate: Graph Neural Networks meet Personalized PageRank"
+    ],
+    "container-title": [
+      "*International Conference on Learning Representations (ICLR)*"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "author": [
+      {
+        "family": "Veličković",
+        "given": "P."
+      },
+      {
+        "family": "Fedus",
+        "given": "W."
+      },
+      {
+        "family": "Hamilton",
+        "given": "W.L."
+      },
+      {
+        "family": "Liò",
+        "given": "P."
+      },
+      {
+        "family": "Bengio",
+        "given": "Y."
+      },
+      {
+        "family": "Hjelm",
+        "given": "R.D."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "title": [
+      "Deep Graph Infomax"
+    ],
+    "container-title": [
+      "*International Conference on Learning Representations (ICLR)*"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "author": [
+      {
+        "family": "You",
+        "given": "J."
+      },
+      {
+        "family": "Ying",
+        "given": "R."
+      },
+      {
+        "family": "Leskovec",
+        "given": "J."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "title": [
+      "Position-aware Graph Neural Networks"
+    ],
+    "container-title": [
+      "*International Conference on Machine Learning (ICML)*"
+    ],
+    "pages": [
+      "7134–7143"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "author": [
+      {
+        "family": "Gao",
+        "given": "H."
+      },
+      {
+        "family": "Wang",
+        "given": "Z."
+      },
+      {
+        "family": "Ji",
+        "given": "S."
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "title": [
+      "Large-Scale Learnable Graph Convolutional Networks"
+    ],
+    "container-title": [
+      "*Proceedings of the 24th ACM SIGKDD International Conference on Knowledge Discovery & Data Mining (KDD)*"
+    ],
+    "pages": [
+      "1416–1424"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "author": [
+      {
+        "family": "Chen",
+        "given": "Z."
+      },
+      {
+        "family": "Zhang",
+        "given": "Y."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "title": [
+      "On the Variance of the Adaptive Learning Rate and Beyond"
+    ],
+    "container-title": [
+      "*International Conference on Learning Representations (ICLR)*"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "author": [
+      {
+        "family": "Liu",
+        "given": "Q."
+      },
+      {
+        "family": "Allamanis",
+        "given": "M."
+      },
+      {
+        "family": "Brockschmidt",
+        "given": "M."
+      },
+      {
+        "family": "Gaunt",
+        "given": "A.L."
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "title": [
+      "Constrained Graph Variational Autoencoders for Molecule Design"
+    ],
+    "container-title": [
+      "*Advances in Neural Information Processing Systems (NeurIPS)*"
+    ],
+    "volume": [
+      "31"
+    ],
+    "pages": [
+      "7795–7804"
+    ],
+    "type": "chapter"
+  },
+  {
+    "title": [
+      "These articles provide a solid foundation for understanding the development and application of Graph Neural Networks up to"
+    ],
+    "date": [
+      "2022"
+    ],
+    "type": null
+  }
+]

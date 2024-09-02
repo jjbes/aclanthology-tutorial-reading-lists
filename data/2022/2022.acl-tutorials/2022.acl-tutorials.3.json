@@ -1,0 +1,59 @@
+{
+    "2022.acl-tutorials.3": {
+        "title": "Knowledge-Augmented Methods for Natural Language Processing",
+        "author": "Chenguang Zhu, Yichong Xu, Xiang Ren, Bill Yuchen Lin, Meng Jiang, Wenhao Yu",
+        "year": 2022,
+        "url": "https://aclanthology.org/2022.acl-tutorials.3",
+        "doi": "10.18653/v1/2022.acl-tutorials.3",
+        "abstract": "Knowledge in natural language processing (NLP) has been a rising trend especially after the advent of large scale pre-trained models. NLP models with attention to knowledge can i) access unlimited amount of external information; ii) delegate the task of storing knowledge from its parameter space to knowledge sources; iii) obtain up-to-date information; iv) make prediction results more explainable via selected knowledge. In this tutorial, we will introduce the key steps in integrating knowledge into NLP, including knowledge grounding from text, knowledge representation and fusing. In addition, we will introduce recent state-of-the-art applications in fusing knowledge into language understanding, language generation and commonsense reasoning.",
+        "readingList": [
+            {
+                "sectionName": "Knowledge-augmented NLU",
+                "subsectionName": null,
+                "referencesIds": [
+                    "5f994dc8cae24ca9d1ed629e517fcc652660ddde",
+                    "bfeb827d06c1a3583b5cc6d25241203a81f6af09",
+                    "06a73ad09664435f8b3cd90293f4e05a047cf375",
+                    "5728919676a85553b3c3063626c220fe7a5634e4",
+                    "693dcbf7a78dc80c9d36eaf968625810655e4e0b",
+                    "37bf0bf34603145246c3311df19e2afdf6e0270a"
+                ]
+            },
+            {
+                "sectionName": "Knowledge-augmented NLG",
+                "subsectionName": null,
+                "referencesIds": [
+                    "05cf65bea06b26d11a6324113bb4d6219e495a7b",
+                    "57ff1baa79ea7d52f64989358d673fa2da0eccbb",
+                    "7e8457393ff1b40ddd099f195af9d3b14c5a934f",
+                    "58ed1fbaabe027345f7bb3a6312d41c5aac63e22",
+                    "5c95de51ac81569fd515df1a91fe0a6617536fd9"
+                ]
+            },
+            {
+                "sectionName": "Commonsense Knowledge and Reasoning for NLP",
+                "subsectionName": null,
+                "referencesIds": [
+                    "710d183174844da5b7f392667f3cc25d2b098dde",
+                    "a078d53c1eff50123e2b065276663de539a40aa1",
+                    "023b508aca0e776f6face93548fedb8921cf35ab",
+                    "baa8f524c82735f174b8d1ab512ac5750146d67e",
+                    "5c95de51ac81569fd515df1a91fe0a6617536fd9",
+                    "d03d24241fc95e018517d6b1e3be40c5dc31ee66",
+                    "c6a84615bc36486cd0170f8a3e1b7e5ec8f5344e"
+                ]
+            },
+            {
+                "sectionName": "Relevant Survey",
+                "subsectionName": null,
+                "referencesIds": [
+                    "c845494445f3bfa01d8245a4759b144e27aa3788",
+                    "b5148f8324570a845a7ae9a5843102d0693d006f",
+                    "42b103b6b4d4f6ba58d13ab9b3c3f201bb65dd1e",
+                    "290867638c5ca520de5c48aa4336f196d426c226"
+                ]
+            }
+        ]
+    }
+}
+

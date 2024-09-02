@@ -1,0 +1,13 @@
+Reading List  
+
+We recommend attendees to read the following papers before the tutorial: 
+
+• Vaswani et al. (2017): the parallelizable Transformer network based on attention mecha nisms. 
+• Gu et al. (2018): first propose non autoregressive generation for parallel decod ing and point out the multi-modality problem. 
+• Kim and Rush (2016): train the student model with the teacher output, alleviating the multi modality by reducing data complexity. 
+• Shao et al. (2021): train NAR models with sequence-level objectives, which evaluate model outputs as a whole and optimize the overall translation quality. 
+• Shu et al. (2020): use latent variables to model the non-determinism in the translation process. 
+• Ghazvininejad et al. (2019): iteratively refine model outputs by repeatedly masking out and regenerating partial target tokens. 
+• Graves et al. (2006): the early exploration of non-autoregressive generation, and the proposed CTC loss is widely used in recent NAR models. 
+• Ren et al. (2019): non-autoregressive text-to speech model, which matches autoregressive models in terms of speech quality. 
+• Ren et al. (2020b): a study on NAR models that analyzes the difficulty of NAR generation on different generation tasks

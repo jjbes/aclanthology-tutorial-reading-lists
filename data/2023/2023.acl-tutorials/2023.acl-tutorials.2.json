@@ -1,0 +1,26 @@
+{
+    "2023.acl-tutorials.2": {
+        "title": "Complex Reasoning in Natural Language",
+        "author": "Wenting Zhao, Mor Geva, Bill Yuchen Lin, Michihiro Yasunaga, Aman Madaan, Tao Yu",
+        "year": 2023,
+        "url": "https://aclanthology.org/2023.acl-tutorials.2",
+        "doi": "10.18653/v1/2023.acl-tutorials.2",
+        "abstract": "Teaching machines to reason over texts has been a long-standing goal of natural language processing (NLP). To this end, researchers have designed a diverse set of complex reasoning tasks that involve compositional reasoning, knowledge retrieval, grounding, commonsense reasoning, etc. A standard choice for building systems that perform a desired type of reasoning is to fine-tune a pretrained language model (LM) on specific downstream tasks. However, recent research has demonstrated that such a straightforward approach is often brittle. For example, Elazar et al. (2021) and Branco et al. (2021) show that, on question-answering (QA) tasks, similar performance can be achieved with questions removed from the inputs. Min et al. (2019), Chen and Durrett (2019), and Tang et al. (2021) show that models trained on multi-hop QA do not generalize to answer single-hop questions. The reasoning capabilities of these models thus remain at a surface level, i.e., exploiting data patterns. Consequently, augmenting LMs with techniques that make them robust and effective becomes an active research area. We will start the tutorial by providing an overview of complex reasoning tasks where the standard application of pretrained language models fails. This tutorial then reviews recent promising directions for tackling these tasks. Specifically, we focus on the following groups of approaches that explicitly consider problem structures: (1) knowledge-augmented methods, where the knowledge is either incorporated during fine-tuning or pretraining; (2) few-shot prompting methods, which effectively guide the models to follow instructions; (3) neuro-symbolic methods, which produce explicit intermediate representations; and, (4) rationale-based methods, one of the most popular forms of the neuro-symbolic methods, which highlight subsets of input as explanations for individual model predictions.",
+        "readingList": [
+            {
+                "sectionName": null,
+                "subsectionName": null,
+                "referencesIds": [
+                    "0e6e8274d0dcbc1c3c1ccdbd87f3e5d53fdf62b4",
+                    "4043a936960de8e149dc208178fe1bcb157c7fa4",
+                    "28692beece311a90f5fa1ca2ec9d0c2ce293d069",
+                    "285d13bf3cbe6a8a0f164f584d84f8b74067271f",
+                    "962aa5b847f1692af058bd14fc0e8c3f0a0fee73",
+                    "21c99706bb26e9012bfb4d8d48009a3d45af59b2",
+                    "f58ca7ba4a08b7082e86b7a5989b4b0fda2107ab",
+                    "6c1e1cc1e0e1f8fd026fe517607b2d4535565fa7"
+                ]
+            }
+        ]
+    }
+}

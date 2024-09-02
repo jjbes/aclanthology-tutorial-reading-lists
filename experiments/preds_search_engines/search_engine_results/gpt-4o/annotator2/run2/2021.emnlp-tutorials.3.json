@@ -1,0 +1,636 @@
+[
+  {
+    "title": [
+      "Sure, here's a reading list of 20 articles on knowledge-enriched text generation up to 2021. These articles cover various aspects of integrating external knowledge into text generation models, including methods, applications, and evaluations"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "title": [
+      "**\"Language Models are Few-Shot Learners\"**"
+    ],
+    "publisher": [
+      "Brown et al"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Introduces GPT-3, a large language model capable of few-shot learning, demonstrating the potential of large-scale pre-trained models in knowledge-enriched text generation"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "- [Link](https://arxiv.org/abs/2005.14165"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "author": [
+      {
+        "given": "B.E.R.T."
+      }
+    ],
+    "title": [
+      "Pre-training of Deep Bidirectional Transformers for Language Understanding\"** - Devlin et al"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Presents BERT, a transformer-based model pre-trained on a large corpus, which can be fine-tuned for various NLP tasks, including text generation with enriched knowledge"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "- [Link](https://arxiv.org/abs/1810.04805"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "title": [
+      "**\"Unified Language Model Pre-training for Natural Language Understanding and Generation\"**"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "Dong et al"
+    ]
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Proposes the Unified Language Model (UniLM) that can handle both NLU and NLG tasks, leveraging shared knowledge across tasks"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "- [Link](https://arxiv.org/abs/1905.03197"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "title": [
+      "**\"CTRL: A Conditional Transformer Language Model for Controllable Generation\"** - Keskar et al"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Introduces CTRL, a language model that generates text conditioned on control codes, enabling knowledge-enriched and controllable text generation"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "- [Link](https://arxiv.org/abs/1909.05858"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "title": [
+      "**\"Knowledge-Enhanced Text Generation with Pre-trained Language Models\"** - Liu et al"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Explores methods to enhance text generation by integrating external knowledge into pre-trained language models"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "- [Link](https://arxiv.org/abs/2010.13076"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "title": [
+      "**\"Plug and Play Language Models: A Simple Approach to Controlled Text Generation\"**"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "Dathathri et al"
+    ]
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Proposes a method to control text generation by conditioning on external knowledge without fine-tuning the language model"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "- [Link](https://arxiv.org/abs/1912.02164"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "title": [
+      "**\"Knowledge-Aware Graph-Enhanced GPT-2 for Dialogue State Tracking\"** - Zhang et al"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Enhances GPT-2 with knowledge graphs to improve dialogue state tracking and generate more informed responses"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "- [Link](https://arxiv.org/abs/2009.09708"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "author": [
+      {
+        "given": "K.-B.E.R.T."
+      }
+    ],
+    "title": [
+      "Enabling Language Representation with Knowledge Graph\"** - Liu et al"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Integrates knowledge graphs into BERT to enhance its language representation capabilities for knowledge-enriched text generation"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "- [Link](https://arxiv.org/abs/1909.07606"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "title": [
+      "**\"Commonsense Knowledge-Aware Conversation Generation with Graph Attention\"** - Zhou et al"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Utilizes commonsense knowledge graphs to improve conversation generation through graph attention mechanisms"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "- [Link](https://arxiv.org/abs/1811.00625"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "title": [
+      "**\"Towards Knowledge-Based Recommender Dialog System\"** - Chen et al"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Proposes a recommender dialog system that leverages external knowledge to generate more relevant and informed recommendations"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "- [Link](https://arxiv.org/abs/1908.05391"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "title": [
+      "**\"Knowledge-Grounded Dialogue Generation with Pre-trained Language Models\"** - Zhao et al"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Investigates the integration of external knowledge into pre-trained language models for generating more informative dialogues"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "- [Link](https://arxiv.org/abs/2010.08824"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "author": [
+      {
+        "given": "K.G.P.T."
+      }
+    ],
+    "title": [
+      "Knowledge-Grounded Pre-Training for Data-to-Text Generation\"** - Chen et al"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Introduces KGPT, a pre-trained model that incorporates knowledge graphs for data-to-text generation tasks"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "- [Link](https://arxiv.org/abs/2010.02307"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "title": [
+      "**\"Enhancing Pre-trained Language Representations with Rich Knowledge for Machine Reading Comprehension\"**"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "Zhang et al"
+    ]
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Enhances pre-trained language models with rich external knowledge to improve performance on machine reading comprehension tasks"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "- [Link](https://arxiv.org/abs/1905.10125"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "title": [
+      "**\"Graph-to-Sequence Learning using Gated Graph Neural Networks\"**"
+    ],
+    "publisher": [
+      "Beck et al"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Proposes a method for graph-to-sequence learning using gated graph neural networks, useful for incorporating structured knowledge into text generation"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "- [Link](https://arxiv.org/abs/1806.06442"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "title": [
+      "**\"Generating Fact Checking Explanations\"** - Atanasova et al"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Explores methods for generating explanations for fact-checking using external knowledge sources"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "- [Link](https://arxiv.org/abs/2004.05773"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "title": [
+      "**\"Commonsense Knowledge Enhanced Embeddings for Solving Pronoun Disambiguation\"** - Zhang et al"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Enhances word embeddings with commonsense knowledge to improve performance on pronoun disambiguation tasks"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "- [Link](https://arxiv.org/abs/1904.03035"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "title": [
+      "**\"Knowledge Graph-Augmented Abstractive Summarization with Semantic-Driven Cloze Reward\"** - Huang et al"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Integrates knowledge graphs into abstractive summarization models to generate more informative summaries"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "- [Link](https://arxiv.org/abs/2005.01159"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "title": [
+      "**\"Improving Neural Story Generation by Targeted Common Sense Grounding\"**"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "Guan et al"
+    ]
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Enhances neural story generation models by grounding them with targeted commonsense knowledge"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "- [Link](https://arxiv.org/abs/2005.05899"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "title": [
+      "**\"Commonsense Knowledge-Aware Concept Selection for Diverse and Informative Visual Storytelling\"**"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "Hsu et al"
+    ]
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Utilizes commonsense knowledge to select concepts for generating diverse and informative visual stories"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "- [Link](https://arxiv.org/abs/2005.10824"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "title": [
+      "**\"A Knowledge-Enhanced Pretraining Model for Commonsense Story Generation\"**"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "Guan et al"
+    ]
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Proposes a pretraining model that incorporates commonsense knowledge for generating coherent and sensible stories"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "- [Link](https://arxiv.org/abs/2001.05139"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "These articles should provide a comprehensive overview of the state-of-the-art methods and approaches in knowledge-enriched text generation up to"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  }
+]

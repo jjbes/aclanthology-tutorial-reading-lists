@@ -1,0 +1,567 @@
+[
+  {
+    "author": [
+      {
+        "given": "Sure!"
+      }
+    ],
+    "title": [
+      "Here is a reading list of 20 articles up to 2023 that discuss conditioning large language models (LLMs) using task instructions, including various methods of creating such instructions"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "author": [
+      {
+        "family": "Brown",
+        "given": "T.B."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "title": [
+      "Language Models are Few-Shot Learners"
+    ],
+    "note": [
+      "*arXiv preprint arXiv:2005.14165.*"
+    ],
+    "arxiv": [
+      "2005.14165"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "author": [
+      {
+        "family": "Raffel",
+        "given": "C."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "title": [
+      "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer"
+    ],
+    "volume": [
+      "21"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "*Journal of Machine Learning Research"
+    ],
+    "issue": [
+      "140"
+    ],
+    "pages": [
+      "1–67"
+    ]
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "author": [
+      {
+        "family": "Wei",
+        "given": "J."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2021"
+    ],
+    "title": [
+      "Finetuned Language Models Are Zero-Shot Learners"
+    ],
+    "note": [
+      "*arXiv preprint arXiv:2109.01652.*"
+    ],
+    "arxiv": [
+      "2109.01652"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "author": [
+      {
+        "family": "Zhang",
+        "given": "T."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2021"
+    ],
+    "title": [
+      "Pointer: Constrained Text Generation via Insertion-based Generative Pre-training"
+    ],
+    "note": [
+      "*arXiv preprint arXiv:2104.08696.*"
+    ],
+    "arxiv": [
+      "2104.08696"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "author": [
+      {
+        "family": "Gao",
+        "given": "T."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2021"
+    ],
+    "title": [
+      "Making Pre-trained Language Models Better Few-shot Learners"
+    ],
+    "note": [
+      "*arXiv preprint arXiv:2012.15723.*"
+    ],
+    "arxiv": [
+      "2012.15723"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "author": [
+      {
+        "family": "Schick",
+        "given": "T."
+      },
+      {
+        "family": "Schütze",
+        "given": "H."
+      }
+    ],
+    "date": [
+      "2021"
+    ],
+    "title": [
+      "It's Not Just Size That Matters: Small Language Models Are Also Few-Shot Learners"
+    ],
+    "note": [
+      "*arXiv preprint arXiv:2009.07118.*"
+    ],
+    "arxiv": [
+      "2009.07118"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "author": [
+      {
+        "family": "Liu",
+        "given": "P."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2021"
+    ],
+    "title": [
+      "Pre-train, Prompt, and Predict: A Systematic Survey of Prompting Methods in Natural Language Processing"
+    ],
+    "note": [
+      "*arXiv preprint arXiv:2107.13586.*"
+    ],
+    "arxiv": [
+      "2107.13586"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "author": [
+      {
+        "family": "Sanh",
+        "given": "V."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2021"
+    ],
+    "title": [
+      "Multitask Prompted Training Enables Zero-Shot Task Generalization"
+    ],
+    "note": [
+      "*arXiv preprint arXiv:2110.08207.*"
+    ],
+    "arxiv": [
+      "2110.08207"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "author": [
+      {
+        "family": "Zhao",
+        "given": "W."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2021"
+    ],
+    "title": [
+      "Calibrate Before Use: Improving Few-Shot Performance of Language Models"
+    ],
+    "note": [
+      "*arXiv preprint arXiv:2102.09690.*"
+    ],
+    "arxiv": [
+      "2102.09690"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "author": [
+      {
+        "family": "Reynolds",
+        "given": "L."
+      },
+      {
+        "family": "McDonell",
+        "given": "K."
+      }
+    ],
+    "date": [
+      "2021"
+    ],
+    "title": [
+      "Prompt Programming for Large Language Models: Beyond the Few-Shot Paradigm"
+    ],
+    "note": [
+      "*arXiv preprint arXiv:2102.07350.*"
+    ],
+    "arxiv": [
+      "2102.07350"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "author": [
+      {
+        "family": "Mishra",
+        "given": "S."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2022"
+    ],
+    "title": [
+      "Cross-Task Generalization via Natural Language Crowdsourcing Instructions"
+    ],
+    "note": [
+      "*arXiv preprint arXiv:2104.08773.*"
+    ],
+    "arxiv": [
+      "2104.08773"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "author": [
+      {
+        "family": "Wang",
+        "given": "X."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2022"
+    ],
+    "title": [
+      "Instruction Induction: From Few Examples to Natural Language Task Descriptions"
+    ],
+    "note": [
+      "*arXiv preprint arXiv:2205.10782.*"
+    ],
+    "arxiv": [
+      "2205.10782"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "author": [
+      {
+        "family": "Min",
+        "given": "S."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2022"
+    ],
+    "title": [
+      "MetaICL: Learning to Learn In Context"
+    ],
+    "note": [
+      "*arXiv preprint arXiv:2110.15943.*"
+    ],
+    "arxiv": [
+      "2110.15943"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "author": [
+      {
+        "family": "Khashabi",
+        "given": "D."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2022"
+    ],
+    "title": [
+      "UnifiedQA: Crossing Format Boundaries with a Single QA System"
+    ],
+    "note": [
+      "*arXiv preprint arXiv:2005.00700.*"
+    ],
+    "arxiv": [
+      "2005.00700"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "author": [
+      {
+        "family": "Zhong",
+        "given": "Z."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2022"
+    ],
+    "title": [
+      "Adapting Language Models for Zero-Shot Learning by Meta-Tuning on Dataset and Prompt Collections"
+    ],
+    "note": [
+      "*arXiv preprint arXiv:2104.04670.*"
+    ],
+    "arxiv": [
+      "2104.04670"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "author": [
+      {
+        "family": "Kumar",
+        "given": "A."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2022"
+    ],
+    "title": [
+      "Fine-tuning Language Models to Find Agreement Among Humans with Diverse Preferences"
+    ],
+    "note": [
+      "*arXiv preprint arXiv:2205.12410.*"
+    ],
+    "arxiv": [
+      "2205.12410"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "author": [
+      {
+        "family": "Wei",
+        "given": "J."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2022"
+    ],
+    "title": [
+      "Chain of Thought Prompting Elicits Reasoning in Large Language Models"
+    ],
+    "note": [
+      "*arXiv preprint arXiv:2201.11903.*"
+    ],
+    "arxiv": [
+      "2201.11903"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "author": [
+      {
+        "family": "Ouyang",
+        "given": "L."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2022"
+    ],
+    "title": [
+      "Training language models to follow instructions with human feedback"
+    ],
+    "note": [
+      "*arXiv preprint arXiv:2203.02155.*"
+    ],
+    "arxiv": [
+      "2203.02155"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "author": [
+      {
+        "family": "Sanh",
+        "given": "V."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2022"
+    ],
+    "title": [
+      "T0: Multitask Prompted Training Enables Zero-Shot Task Generalization"
+    ],
+    "note": [
+      "*arXiv preprint arXiv:2110.08207.*"
+    ],
+    "arxiv": [
+      "2110.08207"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "author": [
+      {
+        "family": "Chowdhery",
+        "given": "A."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2022"
+    ],
+    "title": [
+      "PaLM: Scaling Language Modeling with Pathways"
+    ],
+    "note": [
+      "*arXiv preprint arXiv:2204.02311.*"
+    ],
+    "arxiv": [
+      "2204.02311"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "These articles cover a range of topics related to conditioning LLMs using task instructions, including few-shot learning, prompt engineering, multi-task learning, and zero-shot generalization"
+    ],
+    "type": null
+  }
+]

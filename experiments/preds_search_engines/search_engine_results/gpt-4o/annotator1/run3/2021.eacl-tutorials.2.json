@@ -1,0 +1,959 @@
+[
+  {
+    "title": [
+      "Sure, here is a reading list of 20 articles up to 2021 that cover topics related to dataset annotation aggregation and interpreting multiple expert annotators"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "author": [
+      {
+        "family": "Dawid",
+        "given": "A.P."
+      },
+      {
+        "family": "Skene",
+        "given": "A.M."
+      }
+    ],
+    "date": [
+      "1979"
+    ],
+    "title": [
+      "Maximum likelihood estimation of observer error-rates using the EM algorithm"
+    ],
+    "note": [
+      "Series C (Applied Statistics),"
+    ],
+    "volume": [
+      "28"
+    ],
+    "pages": [
+      "20–28"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "Journal of the Royal Statistical Society"
+    ],
+    "issue": [
+      "1"
+    ]
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "This seminal paper introduces a method for estimating the error rates of different annotators using the EM algorithm"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "author": [
+      {
+        "family": "Snow",
+        "given": "R."
+      },
+      {
+        "family": "O'Connor",
+        "given": "B."
+      },
+      {
+        "family": "Jurafsky",
+        "given": "D."
+      },
+      {
+        "family": "Ng",
+        "given": "A.Y."
+      }
+    ],
+    "date": [
+      "2008"
+    ],
+    "title": [
+      "Cheap and fast—but is it good? Evaluating non-expert annotations for natural language tasks"
+    ],
+    "container-title": [
+      "Proceedings of the 2008 Conference on Empirical Methods in Natural Language Processing"
+    ],
+    "pages": [
+      "254–263"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "This paper evaluates the quality of non-expert annotations and discusses methods for aggregating them"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "author": [
+      {
+        "family": "Raykar",
+        "given": "V.C."
+      },
+      {
+        "family": "Yu",
+        "given": "S."
+      },
+      {
+        "family": "Zhao",
+        "given": "L.H."
+      },
+      {
+        "family": "Valadez",
+        "given": "G.H."
+      },
+      {
+        "family": "Florin",
+        "given": "C."
+      },
+      {
+        "family": "Bogoni",
+        "given": "L."
+      },
+      {
+        "family": "Moy",
+        "given": "L."
+      }
+    ],
+    "date": [
+      "2010"
+    ],
+    "title": [
+      "Learning from crowds"
+    ],
+    "volume": [
+      "11"
+    ],
+    "pages": [
+      "1297–1322"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "Journal of Machine Learning Research"
+    ],
+    "issue": [
+      "Apr"
+    ]
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "This article presents a probabilistic model for learning from multiple annotators with varying expertise"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "author": [
+      {
+        "family": "Sheng",
+        "given": "V.S."
+      },
+      {
+        "family": "Provost",
+        "given": "F."
+      },
+      {
+        "family": "Ipeirotis",
+        "given": "P.G."
+      }
+    ],
+    "date": [
+      "2008"
+    ],
+    "title": [
+      "Get another label? Improving data quality and data mining using multiple, noisy labelers"
+    ],
+    "container-title": [
+      "Proceedings of the 14th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining"
+    ],
+    "pages": [
+      "614–622"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "The authors discuss strategies for improving data quality by aggregating labels from multiple annotators"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "author": [
+      {
+        "family": "Welinder",
+        "given": "P."
+      },
+      {
+        "family": "Branson",
+        "given": "S."
+      },
+      {
+        "family": "Belongie",
+        "given": "S."
+      },
+      {
+        "family": "Perona",
+        "given": "P."
+      }
+    ],
+    "date": [
+      "2010"
+    ],
+    "title": [
+      "The multidimensional wisdom of crowds"
+    ],
+    "volume": [
+      "23"
+    ],
+    "pages": [
+      "2424–2432"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "Advances in Neural Information Processing Systems"
+    ]
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "This paper explores the aggregation of annotations in multi-dimensional tasks"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "author": [
+      {
+        "family": "Whitehill",
+        "given": "J."
+      },
+      {
+        "family": "Wu",
+        "given": "T.F."
+      },
+      {
+        "family": "Bergsma",
+        "given": "J."
+      },
+      {
+        "family": "Movellan",
+        "given": "J.R."
+      },
+      {
+        "family": "Ruvolo",
+        "given": "P.L."
+      }
+    ],
+    "date": [
+      "2009"
+    ],
+    "title": [
+      "Whose vote should count more: Optimal integration of labels from labelers of unknown expertise"
+    ],
+    "volume": [
+      "22"
+    ],
+    "pages": [
+      "2035–2043"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "Advances in Neural Information Processing Systems"
+    ]
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "The authors propose a model for weighting annotators' votes based on their estimated expertise"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "author": [
+      {
+        "family": "Ipeirotis",
+        "given": "P.G."
+      },
+      {
+        "family": "Provost",
+        "given": "F."
+      },
+      {
+        "family": "Wang",
+        "given": "J."
+      }
+    ],
+    "date": [
+      "2010"
+    ],
+    "title": [
+      "Quality management on Amazon Mechanical Turk"
+    ],
+    "container-title": [
+      "Proceedings of the ACM SIGKDD Workshop on Human Computation"
+    ],
+    "pages": [
+      "64–67"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "This paper discusses quality management techniques for crowdsourced annotations"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "author": [
+      {
+        "family": "Zheng",
+        "given": "Y."
+      },
+      {
+        "family": "Scott",
+        "given": "S."
+      },
+      {
+        "family": "Deng",
+        "given": "H."
+      }
+    ],
+    "date": [
+      "2010"
+    ],
+    "title": [
+      "Active learning from multiple noisy labelers with varied costs"
+    ],
+    "container-title": [
+      "Proceedings of the 2010 IEEE 10th International Conference on Data Mining"
+    ],
+    "pages": [
+      "639–648"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "The authors present an active learning framework that considers the costs and noise levels of different annotators"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "author": [
+      {
+        "family": "Hovy",
+        "given": "D."
+      },
+      {
+        "family": "Spruit",
+        "given": "S.L."
+      }
+    ],
+    "date": [
+      "2016"
+    ],
+    "title": [
+      "The social impact of natural language processing"
+    ],
+    "container-title": [
+      "Proceedings of the 54th Annual Meeting of the Association for Computational Linguistics"
+    ],
+    "pages": [
+      "591–598"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "This article discusses the ethical implications of NLP, including issues related to annotation and bias"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "author": [
+      {
+        "family": "Karger",
+        "given": "D.R."
+      },
+      {
+        "family": "Oh",
+        "given": "S."
+      },
+      {
+        "family": "Shah",
+        "given": "D."
+      }
+    ],
+    "date": [
+      "2011"
+    ],
+    "title": [
+      "Iterative learning for reliable crowdsourcing systems"
+    ],
+    "volume": [
+      "24"
+    ],
+    "pages": [
+      "1953–1961"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "Advances in Neural Information Processing Systems"
+    ]
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "The paper introduces an iterative algorithm for improving the reliability of crowdsourced annotations"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "author": [
+      {
+        "family": "Liu",
+        "given": "Q."
+      },
+      {
+        "family": "Peng",
+        "given": "J."
+      },
+      {
+        "family": "Ihler",
+        "given": "A."
+      }
+    ],
+    "date": [
+      "2012"
+    ],
+    "title": [
+      "Variational inference for crowdsourcing"
+    ],
+    "volume": [
+      "25"
+    ],
+    "pages": [
+      "692–700"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "Advances in Neural Information Processing Systems"
+    ]
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "This work presents a variational inference approach to model the reliability of crowdsourced annotations"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "author": [
+      {
+        "family": "Paun",
+        "given": "S."
+      },
+      {
+        "family": "Carpenter",
+        "given": "B."
+      },
+      {
+        "family": "Chamberlain",
+        "given": "J."
+      },
+      {
+        "family": "Hovy",
+        "given": "D."
+      },
+      {
+        "family": "Kruschwitz",
+        "given": "U."
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "title": [
+      "Comparing Bayesian models of annotation"
+    ],
+    "volume": [
+      "6"
+    ],
+    "pages": [
+      "571–585"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "Transactions of the Association for Computational Linguistics"
+    ]
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "The authors compare different Bayesian models for aggregating annotations from multiple annotators"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "author": [
+      {
+        "family": "Zhang",
+        "given": "Y."
+      },
+      {
+        "family": "Chen",
+        "given": "X."
+      },
+      {
+        "family": "Zhou",
+        "given": "D."
+      }
+    ],
+    "date": [
+      "2014"
+    ],
+    "title": [
+      "Spectral methods meet EM: A provably optimal algorithm for crowdsourcing"
+    ],
+    "volume": [
+      "27"
+    ],
+    "pages": [
+      "1260–1268"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "Advances in Neural Information Processing Systems"
+    ]
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "This paper combines spectral methods with the EM algorithm for optimal annotation aggregation"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "author": [
+      {
+        "family": "Guan",
+        "given": "M.Y."
+      },
+      {
+        "family": "Gulshan",
+        "given": "V."
+      },
+      {
+        "family": "Dai",
+        "given": "A.M."
+      },
+      {
+        "family": "Hinton",
+        "given": "G.E."
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "title": [
+      "Who said what: Modeling individual labelers improves classification"
+    ],
+    "container-title": [
+      "Proceedings of the AAAI Conference on Artificial Intelligence"
+    ],
+    "volume": [
+      "32"
+    ],
+    "issue": [
+      "1"
+    ],
+    "type": "article-journal"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "The authors propose a model that accounts for individual annotator characteristics to improve classification performance"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "author": [
+      {
+        "family": "Rodrigues",
+        "given": "F."
+      },
+      {
+        "family": "Pereira",
+        "given": "F.C."
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "title": [
+      "Deep learning from crowds"
+    ],
+    "container-title": [
+      "Proceedings of the AAAI Conference on Artificial Intelligence"
+    ],
+    "volume": [
+      "32"
+    ],
+    "issue": [
+      "1"
+    ],
+    "type": "article-journal"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "This paper explores deep learning methods for aggregating annotations from crowds"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "author": [
+      {
+        "family": "Zhang",
+        "given": "C."
+      },
+      {
+        "family": "Schaar",
+        "given": "M.",
+        "particle": "Van Der"
+      }
+    ],
+    "date": [
+      "2014"
+    ],
+    "title": [
+      "Reputation-based systems for crowdsourcing"
+    ],
+    "container-title": [
+      "Proceedings of the IEEE"
+    ],
+    "volume": [
+      "102"
+    ],
+    "pages": [
+      "1664–1678"
+    ],
+    "issue": [
+      "10"
+    ],
+    "type": "article-journal"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "The authors discuss reputation-based systems to improve the quality of crowdsourced annotations"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "author": [
+      {
+        "family": "Veit",
+        "given": "A."
+      },
+      {
+        "family": "Alldrin",
+        "given": "N."
+      },
+      {
+        "family": "Chechik",
+        "given": "G."
+      },
+      {
+        "family": "Krasin",
+        "given": "I."
+      },
+      {
+        "family": "Gupta",
+        "given": "A."
+      },
+      {
+        "family": "Belongie",
+        "given": "S."
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "title": [
+      "Learning from noisy large-scale datasets with minimal supervision"
+    ],
+    "container-title": [
+      "Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition"
+    ],
+    "pages": [
+      "839–847"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "This paper addresses learning from large-scale datasets with noisy annotations"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "author": [
+      {
+        "family": "Laws",
+        "given": "F."
+      },
+      {
+        "family": "Schütze",
+        "given": "H."
+      }
+    ],
+    "date": [
+      "2008"
+    ],
+    "title": [
+      "Stopping criteria for active learning of named entity recognition"
+    ],
+    "container-title": [
+      "Proceedings of the 22nd International Conference on Computational Linguistics"
+    ],
+    "pages": [
+      "465–472"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "The authors propose stopping criteria for active learning in the context of named entity recognition"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "author": [
+      {
+        "family": "Zhou",
+        "given": "D."
+      },
+      {
+        "family": "Platt",
+        "given": "J.C."
+      },
+      {
+        "family": "Basu",
+        "given": "S."
+      },
+      {
+        "family": "Mao",
+        "given": "Y."
+      }
+    ],
+    "date": [
+      "2012"
+    ],
+    "title": [
+      "Learning from the wisdom of crowds by minimax entropy"
+    ],
+    "volume": [
+      "25"
+    ],
+    "pages": [
+      "2204–2212"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "Advances in Neural Information Processing Systems"
+    ]
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "This paper introduces a minimax entropy principle for aggregating annotations from crowds"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "author": [
+      {
+        "family": "Kim",
+        "given": "B."
+      },
+      {
+        "family": "Ghahramani",
+        "given": "Z."
+      }
+    ],
+    "date": [
+      "2012"
+    ],
+    "title": [
+      "Bayesian classifier combination"
+    ],
+    "container-title": [
+      "Proceedings of the 15th International Conference on Artificial Intelligence and Statistics"
+    ],
+    "pages": [
+      "619–627"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "The authors present a Bayesian approach to combining classifiers, which can be applied to aggregating annotations"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "These articles provide a comprehensive overview of various methods and considerations for aggregating annotations from multiple experts and crowdsourced annotators. They cover statistical models, machine learning approaches, and practical considerations for improving annotation quality"
+    ],
+    "type": null
+  }
+]

@@ -1,0 +1,457 @@
+[
+  {
+    "author": [
+      {
+        "given": "Sure!"
+      }
+    ],
+    "title": [
+      "Here's a curated list of 20 articles up to 2020 that cover various aspects of commonsense reasoning, including different types of commonsense knowledge, methods to capture it, and ways to measure the commonsense reasoning abilities of models"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "### Types of Commonsense Knowledge"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "author": [
+      {
+        "literal": "**\"Commonsense Knowledge Acquisition and Representation\"** - Davis, E., & Marcus, G."
+      }
+    ],
+    "date": [
+      "2015"
+    ],
+    "title": [
+      "*AI Magazine*. This article provides an overview of the types of commonsense knowledge and their importance in AI"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "title": [
+      "**\"ConceptNet 5: A Large Semantic Network for Relational Knowledge\"**",
+      "*The People’s Web Meets NLP*. Discusses the ConceptNet project and its role in capturing commonsense knowledge"
+    ],
+    "author": [
+      {
+        "family": "Speer",
+        "given": "R."
+      },
+      {
+        "family": "Havasi",
+        "given": "C."
+      }
+    ],
+    "date": [
+      "2012"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "author": [
+      {
+        "literal": "**\"Commonsense Reasoning and Commonsense Knowledge in Artificial Intelligence\"** - Davis, E."
+      }
+    ],
+    "date": [
+      "1990"
+    ],
+    "title": [
+      "*Morgan Kaufmann*. A foundational book that explores various types of commonsense knowledge and reasoning"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "author": [
+      {
+        "literal": "**\"Learning Commonsense Knowledge from Text\"** - Tandon, N., de Melo, G., & Weikum, G."
+      }
+    ],
+    "date": [
+      "2011"
+    ],
+    "container-title": [
+      "*Proceedings of the 22nd International Joint Conference on Artificial Intelligence (IJCAI)*. Focuses on extracting commonsense knowledge from textual data"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "author": [
+      {
+        "literal": "**\"Commonsense Knowledge Representation with Conceptual Graphs\"** - Sowa, J. F."
+      }
+    ],
+    "date": [
+      "2000"
+    ],
+    "title": [
+      "*Handbook of Knowledge Representation*. Discusses the use of conceptual graphs for representing commonsense knowledge"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "### Capturing Commonsense Knowledge"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "author": [
+      {
+        "literal": "**\"Open Mind Common Sense: Knowledge Acquisition from the General Public\"** - Singh, P."
+      }
+    ],
+    "date": [
+      "2002"
+    ],
+    "title": [
+      "*Lecture Notes in Computer Science*. Describes the Open Mind Common Sense project and its approach to crowdsourcing commonsense knowledge"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "author": [
+      {
+        "literal": "**\"WebChild: Harvesting and Organizing Commonsense Knowledge from the Web\"** - Tandon, N., de Melo, G., Suchanek, F., & Weikum, G."
+      }
+    ],
+    "date": [
+      "2014"
+    ],
+    "container-title": [
+      "*Proceedings of the 7th ACM International Conference on Web Search and Data Mining (WSDM)*"
+    ],
+    "note": [
+      "Discusses the WebChild project for extracting commonsense knowledge from the web."
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "author": [
+      {
+        "literal": "**\"Never-Ending Learning\"** - Mitchell, T. M., et al."
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "title": [
+      "*Communications of the ACM*. Describes the NELL (Never-Ending Language Learning) system for continuously acquiring commonsense knowledge"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "author": [
+      {
+        "literal": "**\"Commonsense Knowledge Extraction with Semantic Networks\"** - Cambria, E., & Hussain, A."
+      }
+    ],
+    "date": [
+      "2012"
+    ],
+    "container-title": [
+      "*Proceedings of the 20th ACM International Conference on Information and Knowledge Management (CIKM)*. Explores methods for extracting commonsense knowledge using semantic networks"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "title": [
+      "**\"Atomic: An Atlas of Machine Commonsense for If-Then Reasoning\"**"
+    ],
+    "editor": [
+      {
+        "family": "Sap",
+        "given": "M."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "container-title": [
+      "*Proceedings of the AAAI Conference on Artificial Intelligence*. Introduces the ATOMIC dataset for capturing commonsense if-then reasoning"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "container-title": [
+      "### Measuring Commonsense Reasoning Abilities"
+    ],
+    "type": "chapter"
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "author": [
+      {
+        "literal": "**\"Winograd Schema Challenge\"** - Levesque, H. J., Davis, E., & Morgenstern, L."
+      }
+    ],
+    "date": [
+      "2012"
+    ],
+    "container-title": [
+      "*Proceedings of the Thirteenth International Conference on Principles of Knowledge Representation and Reasoning (KR)*. Proposes the Winograd Schema Challenge as a test for commonsense reasoning"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "title": [
+      "**\"CommonsenseQA: A Question Answering Challenge Targeting Commonsense Knowledge\"**"
+    ],
+    "author": [
+      {
+        "family": "Talmor",
+        "given": "A."
+      },
+      {
+        "family": "Berant",
+        "given": "J."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "container-title": [
+      "*Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics (NAACL)*. Introduces the CommonsenseQA dataset for evaluating commonsense reasoning"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "title": [
+      "**\"SWAG: A Large-Scale Adversarial Dataset for Grounded Commonsense Inference\"**"
+    ],
+    "editor": [
+      {
+        "family": "Zellers",
+        "given": "R."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "container-title": [
+      "*Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing (EMNLP)*. Presents the SWAG dataset for testing grounded commonsense inference"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "title": [
+      "**\"The Story Cloze Test: A Corpus and Cloze Evaluation for Deeper Understanding of Commonsense Stories\"**"
+    ],
+    "editor": [
+      {
+        "family": "Mostafazadeh",
+        "given": "N."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2016"
+    ],
+    "container-title": [
+      "*Proceedings of the 2016 Conference of the North American Chapter of the Association for Computational Linguistics (NAACL)*. Introduces the Story Cloze Test for evaluating narrative understanding"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "author": [
+      {
+        "literal": "**\"Evaluating Commonsense Reasoning in Language Models\"** - Trinh, T. H., & Le, Q. V."
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "note": [
+      "*arXiv preprint arXiv:1808.00582*. Discusses methods for evaluating commonsense reasoning in language models."
+    ],
+    "arxiv": [
+      "1808.00582"
+    ],
+    "type": null
+  },
+  {
+    "container-title": [
+      "### Integrative Approaches"
+    ],
+    "type": "chapter"
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "author": [
+      {
+        "given": "C.O.M.E.T."
+      },
+      {
+        "family": "Bosselut",
+        "given": "A."
+      },
+      {
+        "others": true
+      }
+    ],
+    "title": [
+      "Commonsense Transformers for Automatic Knowledge Graph Construction\"**"
+    ],
+    "date": [
+      "2019"
+    ],
+    "container-title": [
+      "*Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics (ACL)*. Describes the COMET model for generating commonsense knowledge using transformers"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "title": [
+      "**\"Learning to Reason: End-to-End Module Networks for Visual Question Answering\"**"
+    ],
+    "author": [
+      {
+        "family": "Hu",
+        "given": "R."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "container-title": [
+      "*Proceedings of the IEEE International Conference on Computer Vision (ICCV)*. Discusses an approach to integrating commonsense reasoning in visual question answering"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "author": [
+      {
+        "literal": "**\"BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding\"** - Devlin, J., et al."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "container-title": [
+      "*Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics (NAACL)*. While not exclusively about commonsense reasoning"
+    ],
+    "note": [
+      "BERT's pre-training approach has implications for capturing and utilizing commonsense knowledge."
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "author": [
+      {
+        "literal": "**\"RoBERTa: A Robustly Optimized BERT Pretraining Approach\"** - Liu, Y., et al."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "note": [
+      "*arXiv preprint arXiv:1907.11692*. Similar to BERT, RoBERTa's improvements in pre-training techniques contribute to better commonsense reasoning capabilities."
+    ],
+    "arxiv": [
+      "1907.11692"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "title": [
+      "**\"UnifiedQA: Crossing Format Boundaries with a Single QA System\"**"
+    ],
+    "author": [
+      {
+        "family": "Khashabi",
+        "given": "D."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "note": [
+      "*arXiv preprint arXiv:2005.00700*. Discusses a unified approach to question answering that leverages commonsense reasoning across different formats."
+    ],
+    "arxiv": [
+      "2005.00700"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "These articles provide a comprehensive overview of the field of commonsense reasoning, from foundational concepts to state-of-the-art methods and evaluation techniques"
+    ],
+    "type": null
+  }
+]

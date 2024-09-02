@@ -1,0 +1,875 @@
+[
+  {
+    "author": [
+      {
+        "given": "Certainly!"
+      }
+    ],
+    "title": [
+      "Here is a curated reading list of 20 articles up to 2023 that focus on security concerns associated with NLP models, particularly backdoor attacks, private data leakage, and imitation attacks"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Attacks",
+        "given": "Backdoor"
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "author": [
+      {
+        "family": "NLP Models\"",
+        "given": "Backdoor Attacks",
+        "particle": "on"
+      }
+    ],
+    "title": [
+      "This paper provides an overview of backdoor attacks specifically targeting NLP models and discusses various methodologies"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Authors",
+        "given": "X.Chen"
+      },
+      {
+        "family": "Liu",
+        "given": "C."
+      },
+      {
+        "family": "Li",
+        "given": "B."
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "location": [
+      "Conference"
+    ],
+    "publisher": [
+      "ACL"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": "book"
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "title": [
+      "**\"BadNL: Backdoor Attacks Against NLP Models with Semantic-preserving Modifications\"** - This research introduces BadNL, a novel backdoor attack method for NLP models"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Authors",
+        "given": "Y.Dai"
+      },
+      {
+        "family": "Chen",
+        "given": "C."
+      },
+      {
+        "family": "Li",
+        "given": "H."
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "location": [
+      "Journal"
+    ],
+    "publisher": [
+      "IEEE Transactions on Information Forensics and Security"
+    ],
+    "date": [
+      "2022"
+    ],
+    "type": "book"
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "author": [
+      {
+        "family": "Killer",
+        "given": "Hidden"
+      }
+    ],
+    "title": [
+      "Invisible Textual Backdoor Attacks with Syntactic Trigger\"** - The paper explores the use of syntactic triggers to perform backdoor attacks on NLP models"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Authors",
+        "given": "J.Qi"
+      },
+      {
+        "family": "Liu",
+        "given": "Z."
+      },
+      {
+        "family": "Wang",
+        "given": "H."
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "container-title": [
+      "Conference: NeurIPS 2020"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "title": [
+      "**\"Trojaning Language Models for Fun and Profit\"** - This article discusses the feasibility and implications of trojaning large-scale language models"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      },
+      {
+        "family": "Kurita",
+        "given": "P.Michel"
+      },
+      {
+        "family": "Neubig",
+        "given": "G."
+      }
+    ],
+    "title": [
+      "Authors: A"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "location": [
+      "Conference"
+    ],
+    "publisher": [
+      "EMNLP"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": "book"
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "title": [
+      "**\"Backdoor Attacks on Pre-trained Models by Layerwise Weight Poisoning\"** - This study investigates backdoor attacks through layerwise weight poisoning in pre-trained models"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Authors",
+        "given": "S.Zhang"
+      },
+      {
+        "family": "Zhang",
+        "given": "X."
+      },
+      {
+        "family": "Wang",
+        "given": "M."
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "location": [
+      "Journal"
+    ],
+    "publisher": [
+      "IEEE Transactions on Neural Networks and Learning Systems"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": "book"
+  },
+  {
+    "container-title": [
+      "### Private Data Leakage"
+    ],
+    "type": "chapter"
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "title": [
+      "**\"Privacy Risks of Pre-trained Language Models\"** - This paper discusses various privacy risks associated with pre-trained language models, including data leakage"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Authors",
+        "given": "N.Carlini"
+      },
+      {
+        "family": "Liu",
+        "given": "C."
+      },
+      {
+        "family": "Kos",
+        "given": "J."
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "location": [
+      "Conference"
+    ],
+    "publisher": [
+      "IEEE Symposium on Security and Privacy"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": "book"
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "title": [
+      "**\"Membership Inference Attacks Against NLP Models\"** - The study explores membership inference attacks, which can reveal whether a particular data point was used in training"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Authors",
+        "given": "M.Song"
+      },
+      {
+        "family": "Ristenpart",
+        "given": "Y."
+      },
+      {
+        "family": "Shmatikov",
+        "given": "V."
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "location": [
+      "Conference"
+    ],
+    "publisher": [
+      "ICLR"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": "book"
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "title": [
+      "**\"Analyzing Leakage of Personally Identifiable Information in Language Models\"** - This research focuses on the leakage of personally identifiable information (PII) in language models"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Authors",
+        "given": "E.Lyu"
+      },
+      {
+        "family": "Zhang",
+        "given": "H."
+      },
+      {
+        "family": "Sun",
+        "given": "J."
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "location": [
+      "Journal"
+    ],
+    "publisher": [
+      "ACM Transactions on Privacy and Security"
+    ],
+    "date": [
+      "2022"
+    ],
+    "type": "book"
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "title": [
+      "**\"Data Leakage in Machine Learning Models: A Survey\"** - A comprehensive survey on data leakage issues in machine learning models, with a section dedicated to NLP"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      },
+      {
+        "family": "Shokri",
+        "given": "C.Song"
+      },
+      {
+        "family": "Shmatikov",
+        "given": "V."
+      }
+    ],
+    "title": [
+      "Authors: A"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "Journal: Journal of Machine Learning Research"
+    ]
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "title": [
+      "**\"Mitigating Unintended Memorization in Language Models\"** - This paper proposes techniques to mitigate unintended memorization in language models to prevent data leakage"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Authors",
+        "given": "N.Carlini"
+      },
+      {
+        "family": "Tramer",
+        "given": "F."
+      },
+      {
+        "family": "Wallace",
+        "given": "E."
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "container-title": [
+      "Conference: NeurIPS 2020"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "author": [
+      {
+        "family": "Attacks",
+        "given": "Imitation"
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "author": [
+      {
+        "family": "NLP Models\"",
+        "given": "Model Extraction Attacks",
+        "particle": "on"
+      }
+    ],
+    "title": [
+      "This article discusses model extraction attacks where adversaries aim to replicate the functionality of NLP models"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Authors",
+        "given": "J.Wallace"
+      },
+      {
+        "family": "Feng",
+        "given": "S."
+      },
+      {
+        "family": "Kandpal",
+        "given": "M."
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "location": [
+      "Conference"
+    ],
+    "publisher": [
+      "ACL"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": "book"
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "author": [
+      {
+        "family": "Stealing",
+        "given": "B.E.R.T."
+      }
+    ],
+    "title": [
+      "Model Extraction Attacks Against Transformer-based NLP Models\"** - The study focuses on model extraction attacks specifically targeting transformer-based models like BERT"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Authors",
+        "given": "H.He"
+      },
+      {
+        "family": "Zhang",
+        "given": "Z."
+      },
+      {
+        "family": "Wang",
+        "given": "J."
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "location": [
+      "Journal"
+    ],
+    "publisher": [
+      "IEEE Transactions on Information Forensics and Security"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": "book"
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "title": [
+      "**\"Practical Model Stealing Attacks Against Machine Learning in the Real World\"** - This paper provides practical insights into model stealing attacks and their implications"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Authors",
+        "given": "F.Tramer"
+      },
+      {
+        "family": "Kurakin",
+        "given": "A."
+      },
+      {
+        "family": "Papernot",
+        "given": "N."
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "container-title": [
+      "Conference: USENIX Security Symposium"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "title": [
+      "**\"Adversarial Imitation Attacks on Text Generation Models\"** - The research explores adversarial imitation attacks on text generation models"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Authors",
+        "given": "Y.Zhang"
+      },
+      {
+        "family": "He",
+        "given": "X."
+      },
+      {
+        "family": "Wang",
+        "given": "L."
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "location": [
+      "Conference"
+    ],
+    "publisher": [
+      "EMNLP"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": "book"
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "title": [
+      "**\"Copycat: Imitation Attacks on NLP APIs\"** - This paper examines imitation attacks on commercial NLP APIs, highlighting the risks and potential defenses"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Authors",
+        "given": "M.Orekondy"
+      },
+      {
+        "family": "Schiele",
+        "given": "B."
+      },
+      {
+        "family": "Fritz",
+        "given": "C."
+      }
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "- Conference: CVPR 2020"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "### General Security Concerns in NLP Models"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "title": [
+      "**\"Adversarial Attacks on Neural Networks for NLP: A Survey\"** - A comprehensive survey covering various adversarial attacks on NLP models, including backdoor and imitation attacks"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Authors",
+        "given": "J.Zhang"
+      },
+      {
+        "family": "Li",
+        "given": "X."
+      },
+      {
+        "family": "Wang",
+        "given": "H."
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "location": [
+      "Journal"
+    ],
+    "publisher": [
+      "ACM Computing Surveys"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": "book"
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "title": [
+      "**\"Security and Privacy in NLP: A Survey\"** - This survey provides an extensive overview of security and privacy issues in NLP, including data leakage and model extraction"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      },
+      {
+        "family": "Abadi",
+        "given": "M.Goldstein"
+      },
+      {
+        "family": "Shokri",
+        "given": "R."
+      }
+    ],
+    "title": [
+      "Authors: A"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "location": [
+      "Journal"
+    ],
+    "publisher": [
+      "IEEE Access"
+    ],
+    "date": [
+      "2022"
+    ],
+    "type": "book"
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "title": [
+      "**\"Adversarial Examples for NLP: A Comprehensive Survey\"** - The paper surveys adversarial examples in NLP, discussing their impact on model security"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Authors",
+        "given": "M.Zhang"
+      },
+      {
+        "family": "Li",
+        "given": "Y."
+      },
+      {
+        "family": "Wang",
+        "given": "S."
+      }
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "Journal: Journal of Artificial Intelligence Research"
+    ]
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "title": [
+      "**\"Challenges and Opportunities in Securing NLP Models\"** - This article discusses the challenges and opportunities in securing NLP models against various types of attacks"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Authors",
+        "given": "L.Huang"
+      },
+      {
+        "family": "Joseph",
+        "given": "A."
+      },
+      {
+        "family": "Nelson",
+        "given": "B."
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "location": [
+      "Conference"
+    ],
+    "publisher": [
+      "AAAI"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": "book"
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "title": [
+      "**\"Towards Robust and Secure NLP: A Review\"** - A review article that provides insights into making NLP models more robust and secure against different types of attacks"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Authors",
+        "given": "K.Xu"
+      },
+      {
+        "family": "Sun",
+        "given": "H."
+      },
+      {
+        "family": "Wang",
+        "given": "J."
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "location": [
+      "Journal"
+    ],
+    "publisher": [
+      "IEEE Transactions on Dependable and Secure Computing"
+    ],
+    "date": [
+      "2023"
+    ],
+    "type": "book"
+  },
+  {
+    "title": [
+      "These articles should provide a comprehensive understanding of the various security concerns associated with NLP models, focusing on backdoor attacks, private data leakage, and imitation attacks"
+    ],
+    "type": null
+  }
+]

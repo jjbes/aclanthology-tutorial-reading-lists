@@ -1,0 +1,42 @@
+{
+    "2024.eacl-tutorials.5": {
+        "title": "LLMs for Low Resource Languages in Multilingual, Multimodal and Dialectal Settings",
+        "author": "Firoj Alam, Shammur Absar Chowdhury, Sabri Boughorbel, Maram Hasanain",
+        "year": 2024,
+        "url": "https://aclanthology.org/2024.eacl-tutorials.5",
+        "doi": null,
+        "abstract": "The recent breakthroughs in Artificial Intelligence (AI) can be attributed to the remarkable performance of Large Language Models (LLMs) across a spectrum of research areas (e.g., machine translation, question-answering, automatic speech recognition, text-to-speech generation) and application domains (e.g., business, law, healthcare, education, and psychology). The success of these LLMs largely de- pends on specific training techniques, most notably instruction tuning, RLHF, and subsequent prompting to achieve the desired output. As the development of such LLMs continues to increase in both closed and open settings, evaluation has become crucial for understanding their generalization capabilities across different tasks, modalities, languages, and dialects. This evaluation process is tightly coupled with prompting, which plays a key role in obtain- ing better outputs. There has been attempts to evaluate such models focusing on diverse tasks, languages, and dialects, which suggests that the capabilities of LLMs are still limited to medium-to-low-resource languages due to the lack of representative datasets. The tutorial offers an overview of this emerging research area. We explore the capabilities of LLMs in terms of their performance, zero- and few-shot settings, fine-tuning, instructions tuning, and close vs. open models with a special emphasis on low-resource settings. In addition to LLMs for standard NLP tasks, we will focus on speech and multimodality.",
+        "readingList": [
+            {
+                "sectionName": "an overview of LLMs",
+                "subsectionName": null,
+                "referencesIds": [
+                    "c61d54644e9aedcfc756e5d6fe4cc8b78c87755d"
+                ]
+            },
+            {
+                "sectionName": "prompt engineering",
+                "subsectionName": null,
+                "referencesIds": [
+                    "28692beece311a90f5fa1ca2ec9d0c2ce293d069",
+                    "06d8562831c32844285a691c5250d04726df3c61"
+                ]
+            },
+            {
+                "sectionName": "in-context learning",
+                "subsectionName": null,
+                "referencesIds": [
+                    "8aa98fbfb6f1e979dead13ce24075503fe47658e"
+                ]
+            },
+            {
+                "sectionName": "evaluation of LLMs",
+                "subsectionName": null,
+                "referencesIds": [
+                    "ce913026f693101e54d3ab9152e107034d81fce1"
+                ]
+            }
+        ]
+    }
+}
+

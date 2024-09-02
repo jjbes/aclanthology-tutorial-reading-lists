@@ -1,0 +1,48 @@
+{
+    "2021.emnlp-tutorials.3": {
+        "title": "Knowledge-Enriched Natural Language Generation",
+        "author": "Wenhao Yu, Meng Jiang, Zhiting Hu, Qingyun Wang, Heng Ji, Nazneen Rajani",
+        "year": 2021,
+        "url": "https://aclanthology.org/2021.emnlp-tutorials.3",
+        "doi": "10.18653/v1/2021.emnlp-tutorials.3",
+        "abstract": "Knowledge-enriched text generation poses unique challenges in modeling and learning, driving active research in several core directions, ranging from integrated modeling of neural representations and symbolic information in the sequential/hierarchical/graphical structures, learning without direct supervisions due to the cost of structured annotation, efficient optimization and inference with massive and global constraints, to language grounding on multiple modalities, and generative reasoning with implicit commonsense knowledge and background knowledge. In this tutorial we will present a roadmap to line up the state-of-the-art methods to tackle these challenges on this cutting-edge problem. We will dive deep into various technical components: how to represent knowledge, how to feed knowledge into a generation model, how to evaluate generation results, and what are the remaining challenges?",
+        "readingList": [
+            {
+                "sectionName": "Survey",
+                "subsectionName": null,
+                "referencesIds": [
+                    "c845494445f3bfa01d8245a4759b144e27aa3788"
+                ]
+            },
+            {
+                "sectionName": "General learning and NLG frameworks",
+                "subsectionName": null,
+                "referencesIds": [
+                    "fa72afa9b2cbc8f0d7b05d52548906610ffbb9c5",
+                    "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+                    "02534853626c18c9a097c2712f1ddf3613257d35"
+                ]
+            },
+            {
+                "sectionName": "Semantic knowledge for enhancing NLG",
+                "subsectionName": null,
+                "referencesIds": [
+                    "d95069ee71bc2c3e171832872f437caa2e53432f",
+                    "2a215755d7548ffc82079ce734c4ac60b62f6f56",
+                    "7b221cce8fdbc1105956b27c938730fce8c1fc10"
+                ]
+            },
+            {
+                "sectionName": "Structured knowledge for enhancing NLG",
+                "subsectionName": null,
+                "referencesIds": [
+                    "3580d8a5e7584e98d547ebfed900749d347f6714",
+                    "13395213d47f78672ab4e81573f2b0fa0cfc8c6d",
+                    "05cf65bea06b26d11a6324113bb4d6219e495a7b",
+                    "cb15c1c51e8a7da42d5b2ebac955bf1cd9dd4022"
+                ]
+            }
+        ]
+    }
+}
+

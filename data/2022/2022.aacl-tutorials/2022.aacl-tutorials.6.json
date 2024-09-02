@@ -1,0 +1,42 @@
+{
+    "2022.aacl-tutorials.6": {
+        "title": "A Tour of Explicit Multilingual Semantics: Word Sense Disambiguation, Semantic Role Labeling and Semantic Parsing",
+        "author": "Roberto Navigli, Edoardo Barba, Simone Conia, Rexhina Blloshmi",
+        "year": 2022,
+        "url": "https://aclanthology.org/2022.aacl-tutorials.6",
+        "doi": null,
+        "abstract": "The recent advent of modern pretrained language models has sparked a revolution in Natural Language Processing (NLP), especially in multilingual and cross-lingual applications. Today, such language models have become the de facto standard for providing rich input representations to neural systems, achieving unprecedented results in an increasing range of benchmarks. However, questions that often arise are: firstly, whether current language models are, indeed, able to capture explicit, symbolic meaning; secondly, if they are, to what extent; thirdly, and perhaps more importantly, whether current approaches are capable of scaling across languages. In this cutting-edge tutorial, we will review recent efforts that have aimed at shedding light on meaning in NLP, with a focus on three key open problems in lexical and sentence-level semantics: Word Sense Disambiguation, Semantic Role Labeling, and Semantic Parsing. After a brief introduction, we will spotlight how state-of-the-art models tackle these tasks in multiple languages, showing where they excel and where they fail. We hope that this tutorial will broaden the audience interested in multilingual semantics and inspire researchers to further advance the field.",
+        "readingList": [
+            {
+                "sectionName": "WSD",
+                "subsectionName": null,
+                "referencesIds": [
+                    "b0fe3bf02e16bbea17df617fed6d367a0cc5e739",
+                    "9a25609275bb1113aaf7c92b28477ed7ff0677a8",
+                    "486df033e3689be451a5e6137b88493d01c8de43"
+                ]
+            },
+            {
+                "sectionName": "SRL",
+                "subsectionName": null,
+                "referencesIds": [
+                    "a39037a10127dac9469867d054b1c522b10316c9",
+                    "c7d3f610b528226f1c862c4f9cd6b37623f7390f",
+                    "e6ae88330fcc31ff744d8669c9f2f51114494418",
+                    "2172c289b97e4d709f1c54683a242ce9a4c2f37c"
+                ]
+            },
+            {
+                "sectionName": "SP",
+                "subsectionName": null,
+                "referencesIds": [
+                    "5fd6339f299304a7541c805c5ee443fbfb0bac3c",
+                    "dff49c89b2d15704b7122c309e76bf7c545200b2",
+                    "e72e5ee5de14fd463ab58ce830474157258e3578",
+                    "25e7c9dcc294d77d184c4c1122c8304cdb58c69d"
+                ]
+            }
+        ]
+    }
+}
+

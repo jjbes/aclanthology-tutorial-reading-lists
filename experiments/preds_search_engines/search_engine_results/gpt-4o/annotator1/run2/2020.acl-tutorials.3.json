@@ -1,0 +1,406 @@
+[
+  {
+    "author": [
+      {
+        "given": "Certainly!"
+      }
+    ],
+    "title": [
+      "Here is a reading list of 20 articles up to 2020 focusing on multi-modal dialogue grounding and its application in dialogue systems and conversational agents"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "author": [
+      {
+        "literal": "**\"Deep Reinforcement Learning for Dialogue Generation\"** - Li, Jiwei, et al."
+      }
+    ],
+    "date": [
+      "2016"
+    ],
+    "title": [
+      "This paper explores the use of deep reinforcement learning for generating dialogues, emphasizing the importance of context and grounding"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "author": [
+      {
+        "literal": "**\"Visual Dialog\"** - Das, Abhishek, et al."
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "title": [
+      "This paper introduces the Visual Dialog task and dataset, where an AI agent must hold a meaningful conversation about visual content"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "title": [
+      "**\"Multimodal Machine Learning: A Survey and Taxonomy\"**",
+      "A comprehensive survey of multimodal machine learning, including applications in dialogue systems"
+    ],
+    "author": [
+      {
+        "family": "Baltrušaitis",
+        "given": "Tadas"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "container-title": [
+      "**\"End-to-End Multimodal Dialog Systems with Hierarchical Multimodal Attention\"**"
+    ],
+    "author": [
+      {
+        "family": "Hori",
+        "given": "Chiori"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "title": [
+      "This paper presents a method for integrating multimodal inputs in dialogue systems using hierarchical attention mechanisms"
+    ],
+    "type": "chapter"
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "author": [
+      {
+        "literal": "**\"Towards a Neural Conversational Model\"** - Vinyals, Oriol, and Quoc V. Le"
+      }
+    ],
+    "date": [
+      "2015"
+    ],
+    "title": [
+      "An early influential paper on neural network-based conversational models, discussing the potential for multimodal grounding"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "author": [
+      {
+        "literal": "**\"Multimodal Conversational Search and Recommendation\"** - Radlinski, Filip, and Nick Craswell"
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "title": [
+      "This paper discusses the integration of multimodal inputs for improving search and recommendation systems in conversational agents"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "title": [
+      "**\"Learning to Ground Visual Objects for Visual Dialog\"**",
+      "This paper focuses on grounding visual objects in the context of visual dialogue tasks"
+    ],
+    "author": [
+      {
+        "family": "Lu",
+        "given": "Jiasen"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "title": [
+      "**\"Multimodal Dialogue State Tracking for Shopping Assistants\"**",
+      "This paper explores dialogue state tracking using multimodal inputs in the context of shopping assistants"
+    ],
+    "author": [
+      {
+        "family": "Kim",
+        "given": "Byeongchang"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "title": [
+      "**\"Multimodal Sentiment Analysis: Addressing Key Issues and Setting Up the Baselines\"**",
+      "Discusses the challenges and methodologies for multimodal sentiment analysis, relevant for dialogue systems"
+    ],
+    "author": [
+      {
+        "family": "Zadeh",
+        "given": "Amir"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2016"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "author": [
+      {
+        "literal": "**\"Deep Contextualized Word Representations\"** - Peters, Matthew E., et al."
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "title": [
+      "While not exclusively about multimodal grounding, this paper introduces ELMo, which has implications for context-aware dialogue systems"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "author": [
+      {
+        "literal": "**\"Multimodal Fusion for Video Search\"** - Snoek, Cees GM, et al."
+      }
+    ],
+    "date": [
+      "2005"
+    ],
+    "title": [
+      "An early work on multimodal fusion techniques, applicable to dialogue systems that process video content"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "title": [
+      "**\"Multimodal Transformer Networks for End-to-End Video-Grounded Dialogue Systems\"**",
+      "This paper presents a transformer-based approach for integrating video and text in dialogue systems"
+    ],
+    "author": [
+      {
+        "family": "Le",
+        "given": "Hieu"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "title": [
+      "**\"Grounded Language Learning in a Simulated 3D",
+      "Discusses grounded language learning in a 3D environment, relevant for multimodal dialogue systems"
+    ],
+    "author": [
+      {
+        "literal": "World\"** - Hermann, Karl Moritz, et al."
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "author": [
+      {
+        "literal": "**\"Multimodal Neural Machine Translation\"** - Elliott, Desmond, et al."
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "title": [
+      "Explores the use of multimodal inputs for machine translation, with implications for dialogue systems"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "author": [
+      {
+        "literal": "**\"Conversational Agents for the Museum Visit\"** - Damiano, Rossana, et al."
+      }
+    ],
+    "date": [
+      "2012"
+    ],
+    "title": [
+      "Discusses the design of multimodal conversational agents for enhancing museum visits"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "author": [
+      {
+        "literal": "**\"Attention is All You Need\"** - Vaswani, Ashish, et al."
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "title": [
+      "Introduces the transformer model, which has been adapted for multimodal dialogue systems"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "title": [
+      "**\"Multimodal Sentiment Analysis Using Hierarchical Fusion with Context Modeling\"** - Poria",
+      "Discusses hierarchical fusion techniques for multimodal sentiment analysis in dialogue systems"
+    ],
+    "author": [
+      {
+        "given": "Soujanya"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "author": [
+      {
+        "literal": "**\"Deep Learning for Chatbots\"** - Serban, Iulian V., et al."
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "title": [
+      "Reviews deep learning techniques for building chatbots, including multimodal approaches"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "author": [
+      {
+        "literal": "**\"Grounding Language in Play\"** - Yu, Haonan, et al."
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "title": [
+      "Explores language grounding in the context of interactive play, relevant for multimodal dialogue systems"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "title": [
+      "**\"A Survey on Dialogue Systems: Recent Advances and New Frontiers\"**",
+      "Provides an overview of recent advances in dialogue systems, including multimodal approaches"
+    ],
+    "location": [
+      "Gao"
+    ],
+    "author": [
+      {
+        "given": "Jianfeng"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "These articles should give you a comprehensive understanding of the state of research in multi-modal dialogue grounding and its applications in dialogue systems and conversational agents up to"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  }
+]

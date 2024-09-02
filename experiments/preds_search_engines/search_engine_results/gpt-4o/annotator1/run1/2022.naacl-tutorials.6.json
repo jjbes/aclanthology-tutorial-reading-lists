@@ -1,0 +1,646 @@
+[
+  {
+    "author": [
+      {
+        "given": "Sure!"
+      }
+    ],
+    "title": [
+      "Here is a list of 20 influential articles on contrastive learning and contrastive data for natural language processing"
+    ],
+    "note": [
+      "NLP) published before 2023:"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "title": [
+      "**\"A Simple Framework for Contrastive Learning of Visual Representations\"**"
+    ],
+    "note": [
+      "Ting Chen, Simon Kornblith, Mohammad Norouzi, Geoffrey Hinton (2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Although primarily focused on visual representations, this paper laid the groundwork for contrastive learning frameworks that have been adapted for NLP"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "title": [
+      "**\"SimCSE: Simple Contrastive Learning of Sentence Embeddings\"**"
+    ],
+    "editor": [
+      {
+        "family": "Chen",
+        "given": "Ting"
+      },
+      {
+        "family": "Clark",
+        "given": "Kevin"
+      },
+      {
+        "family": "Le",
+        "given": "Quoc V."
+      },
+      {
+        "family": "Wei",
+        "given": "Kai"
+      }
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Introduces SimCSE, a simple contrastive learning framework for sentence embeddings"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "title": [
+      "**\"Unsupervised Data Augmentation for Consistency Training\"** - Qizhe Xie, Zihang Dai"
+    ],
+    "editor": [
+      {
+        "family": "Hovy",
+        "given": "Eduard"
+      },
+      {
+        "family": "Luong",
+        "given": "Minh-Thang"
+      },
+      {
+        "family": "Le",
+        "given": "Quoc V."
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Discusses data augmentation techniques that are relevant for contrastive learning in NLP"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "title": [
+      "**\"Contrastive Learning of Structured World Models\"** - Ilya Kostrikov"
+    ],
+    "editor": [
+      {
+        "family": "Yarats",
+        "given": "Denis"
+      },
+      {
+        "family": "Fergus",
+        "given": "Rob"
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Explores contrastive learning in the context of structured world models, with implications for NLP"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "title": [
+      "**\"MoCo: Momentum Contrast for Unsupervised Visual Representation Learning\"** - Kaiming He, Haoqi Fan, Yuxin Wu, Saining Xie, Ross Girshick"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Another foundational paper in contrastive learning, with techniques that have been adapted for NLP"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "title": [
+      "**\"InfoNCE: A Mutual Information Maximization Perspective of Contrastive Learning\"** - Aaron van den Oord, Yazhe Li, Oriol Vinyals"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Introduces the InfoNCE loss, which is widely used in contrastive learning"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "title": [
+      "**\"Learning Deep Representations by Mutual Information Estimation and Maximization\"**"
+    ],
+    "author": [
+      {
+        "family": "Hjelm",
+        "given": "R.Devon"
+      },
+      {
+        "family": "Fedorov",
+        "given": "Alex"
+      },
+      {
+        "family": "Lavoie-Marchildon",
+        "given": "Samuel"
+      }
+    ],
+    "publisher": [
+      "Karan Grewal, Phil Bachman, Adam Trischler, Yoshua Bengio"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Discusses mutual information maximization, a key concept in contrastive learning"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "title": [
+      "**\"Contrastive Learning of Sentence Representations\"**"
+    ],
+    "editor": [
+      {
+        "family": "Philip Bachman",
+        "given": "R.Devon Hjelm"
+      },
+      {
+        "family": "Buchwalter",
+        "given": "William"
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Focuses on contrastive learning techniques specifically for sentence representations"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "title": [
+      "**\"A Simple and Effective Framework for Pairwise Unsupervised Representation Learning\"** - Xinlei Chen, Kaiming He"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Proposes a simple framework for unsupervised representation learning that has been influential in NLP"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "title": [
+      "**\"Unsupervised Learning of Visual Features by Contrasting Cluster Assignments\"**"
+    ],
+    "note": [
+      "Mathilde Caron, Piotr Bojanowski, Armand Joulin, Matthijs Douze (2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Discusses clustering-based contrastive learning, with potential applications in NLP"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "title": [
+      "**\"Contrastive Learning with Hard Negative Samples\"** - Kaiming He, Haoqi Fan, Yuxin Wu, Saining Xie, Ross Girshick"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Explores the use of hard negative samples in contrastive learning, relevant for NLP tasks"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "author": [
+      {
+        "literal": "**\"Self-Supervised Learning of Pretext-Invariant Representations\"** - Jean-Bastien Grill, Florian Strub, Florent Altché, Corentin Tallec, Pierre H. Richemond, Elena Buchatskaya, Carl Doersch, Bernardo Avila Pires"
+      }
+    ],
+    "note": [
+      "Zhaohan Daniel Guo, Mohammad Gheshlaghi Azar, Bilal Piot, Koray Kavukcuoglu, Rémi Munos, Michal Valko (2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Introduces a self-supervised learning method that can be adapted for NLP"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "title": [
+      "**\"Bootstrap Your Own Latent: A New Approach to Self-Supervised Learning\"**"
+    ],
+    "editor": [
+      {
+        "family": "Grill",
+        "given": "Jean-Bastien"
+      },
+      {
+        "family": "Strub",
+        "given": "Florian"
+      },
+      {
+        "family": "Altché",
+        "given": "Florent"
+      },
+      {
+        "family": "Tallec",
+        "given": "Corentin"
+      },
+      {
+        "family": "Richemond",
+        "given": "Pierre H."
+      },
+      {
+        "family": "Buchatskaya",
+        "given": "Elena"
+      },
+      {
+        "family": "Doersch",
+        "given": "Carl"
+      },
+      {
+        "family": "Pires",
+        "given": "Bernardo Avila"
+      },
+      {
+        "family": "Guo",
+        "given": "Zhaohan Daniel"
+      },
+      {
+        "family": "Azar",
+        "given": "Mohammad Gheshlaghi"
+      }
+    ],
+    "note": [
+      "Bilal Piot, Koray Kavukcuoglu, Rémi Munos, Michal Valko (2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Proposes a new self-supervised learning approach with implications for NLP"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "title": [
+      "**\"Learning Representations by Maximizing Mutual Information Across Views\"**"
+    ],
+    "editor": [
+      {
+        "family": "Hjelm",
+        "given": "R.Devon"
+      },
+      {
+        "family": "Fedorov",
+        "given": "Alex"
+      },
+      {
+        "family": "Lavoie-Marchildon",
+        "given": "Samuel"
+      },
+      {
+        "family": "Grewal",
+        "given": "Karan"
+      },
+      {
+        "family": "Bachman",
+        "given": "Phil"
+      },
+      {
+        "family": "Trischler",
+        "given": "Adam"
+      },
+      {
+        "family": "Bengio",
+        "given": "Yoshua"
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Discusses mutual information maximization across different views, relevant for contrastive learning in NLP"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "author": [
+      {
+        "literal": "**\"Deep InfoMax\"** - R Devon Hjelm, Alex Fedorov, Samuel Lavoie-Marchildon, Karan Grewal, Phil Bachman, Adam Trischler, Yoshua Bengio"
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Introduces Deep InfoMax, a method for learning representations by maximizing mutual information"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "title": [
+      "**\"Representation Learning with Contrastive Predictive Coding\"** - Aaron van den Oord, Yazhe Li, Oriol Vinyals"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Proposes Contrastive Predictive Coding (CPC), a method for unsupervised representation learning"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "author": [
+      {
+        "literal": "**\"Self-Supervised Learning of Pretext-Invariant Representations\"** - Jean-Bastien Grill, Florian Strub, Florent Altché, Corentin Tallec, Pierre H. Richemond, Elena Buchatskaya, Carl Doersch, Bernardo Avila Pires"
+      }
+    ],
+    "note": [
+      "Zhaohan Daniel Guo, Mohammad Gheshlaghi Azar, Bilal Piot, Koray Kavukcuoglu, Rémi Munos, Michal Valko (2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Discusses self-supervised learning methods that can be adapted for NLP"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "author": [
+      {
+        "literal": "**\"Contrastive Multiview Coding\"** - Yonglong Tian, Dilip Krishnan, Phillip Isola"
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Introduces Contrastive Multiview Coding (CMC), a method for learning representations from multiple views"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "author": [
+      {
+        "literal": "**\"Self-Supervised Learning of Pretext-Invariant Representations\"** - Jean-Bastien Grill, Florian Strub, Florent Altché, Corentin Tallec, Pierre H. Richemond, Elena Buchatskaya, Carl Doersch, Bernardo Avila Pires"
+      }
+    ],
+    "note": [
+      "Zhaohan Daniel Guo, Mohammad Gheshlaghi Azar, Bilal Piot, Koray Kavukcuoglu, Rémi Munos, Michal Valko (2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Proposes a self-supervised learning method with potential applications in NLP"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "title": [
+      "**\"Contrastive Learning of Structured World Models\"** - Ilya Kostrikov"
+    ],
+    "editor": [
+      {
+        "family": "Yarats",
+        "given": "Denis"
+      },
+      {
+        "family": "Fergus",
+        "given": "Rob"
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Explores contrastive learning in the context of structured world models, with implications for NLP"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "These articles cover a range of topics related to contrastive learning and its applications in NLP, providing a comprehensive overview of the field up to"
+    ],
+    "date": [
+      "2023"
+    ],
+    "type": null
+  }
+]

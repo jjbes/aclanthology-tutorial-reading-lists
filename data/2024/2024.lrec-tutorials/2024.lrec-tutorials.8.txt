@@ -1,0 +1,19 @@
+Reading List and Tools
+
+In this section we highlight the key literature pointers the audience should be aware of for a better understanding of this tutorial. We also point at some basic software tools. Readers are invited to click on the hyper-links.
+
+Key papers 
+While all papers cited earlier are useful, we suggest to start with 
+(Sun et al., 2011), which covers well the problems in chemical text mining, as well as approaches that precede deep learning. Is also important to understand chemical representation formats. Regarding text mining, we suggest 
+(He et al., 2021) and (Lu and Zhang, 2022a) for distributional models. 
+Lastly, (Bran et al.,2023) for recent applications (large language models).
+
+Key software tools 
+The main open source software tool used in the cheminformatics community is perhaps RDkit, a Python library that we will be using in our demos and Jupyter notebooks.
+For a more extensive overview of all software tools (including tools written in languages other than Python), please check this GitHub repository. It also contains links to predictive models beyond NLP. These tools are sometimes essential for (pre)processing chemical data.
+
+Key models 
+Regarding word embeddings, we suggest to check out the ChELMo embeddings, pre-trained on chemical patents (even if not transformer-based) Regarding text mining models, many are closed-source. We will provide some Elsevier deep learning -based demonstration models as part of this tutorial. An open source –if dated and written in Java– starting point is ChemSpot (based on conditional random fields and manual features,). Regarding distributional models over SMILES, we recommend T5Chem.
+
+Key chemical NLP benchmarks 
+While the papers cited mention multiple benchmarks, we suggest to focus on the following four: (a) The chemical NER BioSemantics corpus. (b) The chemical NER CHEMDNER corpus. (c) The ChEMU benchmarks. (d) Lastly, the USPTO-50k collection of chemical reactions, the most important public benchmark for computational chemistry.

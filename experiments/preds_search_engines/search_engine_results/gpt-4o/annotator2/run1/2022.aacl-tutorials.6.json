@@ -1,0 +1,903 @@
+[
+  {
+    "author": [
+      {
+        "given": "Sure!"
+      }
+    ],
+    "title": [
+      "Here is a reading list of 20 articles on multilingual semantics"
+    ],
+    "note": [
+      "focusing on word sense disambiguation (WSD), semantic role labeling (SRL), and semantic parsing, published before 2023:"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "author": [
+      {
+        "family": "Navigli",
+        "given": "R."
+      }
+    ],
+    "date": [
+      "2009"
+    ],
+    "title": [
+      "Word Sense Disambiguation: A Survey"
+    ],
+    "volume": [
+      "41"
+    ],
+    "pages": [
+      "1–69"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "ACM Computing Surveys (CSUR"
+    ],
+    "issue": [
+      "2"
+    ]
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "A comprehensive survey on WSD techniques and their applications"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "author": [
+      {
+        "family": "Moro",
+        "given": "A."
+      },
+      {
+        "family": "Raganato",
+        "given": "A."
+      },
+      {
+        "family": "Navigli",
+        "given": "R."
+      }
+    ],
+    "date": [
+      "2014"
+    ],
+    "title": [
+      "Entity Linking meets Word Sense Disambiguation: A Unified Approach"
+    ],
+    "volume": [
+      "2"
+    ],
+    "pages": [
+      "231–244"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "Transactions of the Association for Computational Linguistics"
+    ]
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Discusses a unified approach to entity linking and WSD"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "author": [
+      {
+        "family": "Raganato",
+        "given": "A."
+      },
+      {
+        "family": "Camacho-Collados",
+        "given": "J."
+      },
+      {
+        "family": "Navigli",
+        "given": "R."
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "title": [
+      "Word Sense Disambiguation: A Unified Evaluation Framework and Empirical Comparison"
+    ],
+    "container-title": [
+      "Proceedings of the 15th Conference of the European Chapter of the Association for Computational Linguistics (EACL"
+    ],
+    "pages": [
+      "99–110"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Proposes a unified evaluation framework for WSD"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "author": [
+      {
+        "family": "Palmer",
+        "given": "M."
+      },
+      {
+        "family": "Gildea",
+        "given": "D."
+      },
+      {
+        "family": "Kingsbury",
+        "given": "P."
+      }
+    ],
+    "date": [
+      "2005"
+    ],
+    "title": [
+      "The Proposition Bank: An Annotated Corpus of Semantic Roles"
+    ],
+    "volume": [
+      "31"
+    ],
+    "pages": [
+      "71–106"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "Computational Linguistics"
+    ],
+    "issue": [
+      "1"
+    ]
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Introduces the Proposition Bank, a resource for SRL"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "author": [
+      {
+        "family": "Carreras",
+        "given": "X."
+      },
+      {
+        "family": "Màrquez",
+        "given": "L."
+      }
+    ],
+    "date": [
+      "2005"
+    ],
+    "title": [
+      "Introduction to the CoNLL-2005 Shared Task: Semantic Role Labeling"
+    ],
+    "container-title": [
+      "Proceedings of the Ninth Conference on Computational Natural Language Learning (CoNLL"
+    ],
+    "pages": [
+      "152–164"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Overview of the CoNLL-2005 shared task on SRL"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "author": [
+      {
+        "family": "Punyakanok",
+        "given": "V."
+      },
+      {
+        "family": "Roth",
+        "given": "D."
+      },
+      {
+        "family": "Yih",
+        "given": "W."
+      },
+      {
+        "family": "Zimak",
+        "given": "D."
+      }
+    ],
+    "date": [
+      "2008"
+    ],
+    "title": [
+      "Learning and Inference over Constrained Output"
+    ],
+    "container-title": [
+      "Proceedings of the 23rd National Conference on Artificial Intelligence (AAAI"
+    ],
+    "pages": [
+      "1124–1129"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Discusses learning and inference techniques for SRL"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "author": [
+      {
+        "family": "Baker",
+        "given": "C.F."
+      },
+      {
+        "family": "Fillmore",
+        "given": "C.J."
+      },
+      {
+        "family": "Lowe",
+        "given": "J.B."
+      }
+    ],
+    "date": [
+      "1998"
+    ],
+    "title": [
+      "The Berkeley FrameNet Project"
+    ],
+    "container-title": [
+      "Proceedings of the 17th International Conference on Computational Linguistics (COLING"
+    ],
+    "pages": [
+      "86–90"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Introduction to the FrameNet project, a resource for SRL"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "author": [
+      {
+        "family": "Das",
+        "given": "D."
+      },
+      {
+        "family": "Smith",
+        "given": "N.A."
+      }
+    ],
+    "date": [
+      "2011"
+    ],
+    "title": [
+      "Semi-Supervised Frame-Semantic Parsing for Unknown Predicates"
+    ],
+    "container-title": [
+      "Proceedings of the 49th Annual Meeting of the Association for Computational Linguistics (ACL"
+    ],
+    "pages": [
+      "1435–1444"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Discusses semi-supervised methods for frame-semantic parsing"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "author": [
+      {
+        "family": "Hajic",
+        "given": "J."
+      },
+      {
+        "family": "Ciaramita",
+        "given": "M."
+      },
+      {
+        "family": "Johansson",
+        "given": "R."
+      },
+      {
+        "family": "Kawahara",
+        "given": "D."
+      },
+      {
+        "family": "Marti",
+        "given": "M.A."
+      },
+      {
+        "family": "Màrquez",
+        "given": "L."
+      }
+    ],
+    "date": [
+      "2009"
+    ],
+    "title": [
+      "The CoNLL-2009 Shared Task: Syntactic and Semantic Dependencies in Multiple Languages"
+    ],
+    "container-title": [
+      "Proceedings of the Thirteenth Conference on Computational Natural Language Learning (CoNLL"
+    ],
+    "pages": [
+      "1–18"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Overview of the CoNLL-2009 shared task on syntactic and semantic dependencies"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "author": [
+      {
+        "family": "Swayamdipta",
+        "given": "S."
+      },
+      {
+        "family": "Thomson",
+        "given": "S."
+      },
+      {
+        "family": "Dyer",
+        "given": "C."
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "title": [
+      "Frame-Semantic Parsing with Softmax-Margin Segmental RNNs and a Syntactic Scaffold"
+    ],
+    "container-title": [
+      "Proceedings of the 2017 Conference on Empirical Methods in Natural Language Processing (EMNLP"
+    ],
+    "pages": [
+      "117–128"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Discusses frame-semantic parsing using segmental RNNs"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "author": [
+      {
+        "family": "Pustejovsky",
+        "given": "J."
+      },
+      {
+        "family": "Moszkowicz",
+        "given": "J.L."
+      }
+    ],
+    "date": [
+      "2011"
+    ],
+    "title": [
+      "The Role of Model-Theoretic Semantics in the Annotation of Temporal Expressions"
+    ],
+    "container-title": [
+      "Proceedings of the 5th Linguistic Annotation Workshop"
+    ],
+    "pages": [
+      "1–10"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Discusses the annotation of temporal expressions in semantic parsing"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "author": [
+      {
+        "family": "Klein",
+        "given": "D."
+      },
+      {
+        "family": "Manning",
+        "given": "C.D."
+      }
+    ],
+    "date": [
+      "2003"
+    ],
+    "title": [
+      "Accurate Unlexicalized Parsing"
+    ],
+    "container-title": [
+      "Proceedings of the 41st Annual Meeting of the Association for Computational Linguistics (ACL"
+    ],
+    "pages": [
+      "423–430"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Discusses parsing techniques relevant to semantic parsing"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "author": [
+      {
+        "family": "Zhou",
+        "given": "J."
+      },
+      {
+        "family": "Xu",
+        "given": "W."
+      }
+    ],
+    "date": [
+      "2015"
+    ],
+    "title": [
+      "End-to-End Learning of Semantic Role Labeling Using Recurrent Neural Networks"
+    ],
+    "container-title": [
+      "Proceedings of the 53rd Annual Meeting of the Association for Computational Linguistics (ACL"
+    ],
+    "pages": [
+      "1127–1137"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Discusses end-to-end learning for SRL using RNNs"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "author": [
+      {
+        "family": "Chen",
+        "given": "D."
+      },
+      {
+        "family": "Manning",
+        "given": "C.D."
+      }
+    ],
+    "date": [
+      "2014"
+    ],
+    "title": [
+      "A Fast and Accurate Dependency Parser using Neural Networks"
+    ],
+    "container-title": [
+      "Proceedings of the 2014 Conference on Empirical Methods in Natural Language Processing (EMNLP"
+    ],
+    "pages": [
+      "740–750"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Discusses a neural network-based dependency parser relevant to semantic parsing"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "author": [
+      {
+        "family": "Roth",
+        "given": "M."
+      },
+      {
+        "family": "Lapata",
+        "given": "M."
+      }
+    ],
+    "date": [
+      "2016"
+    ],
+    "title": [
+      "Neural Semantic Role Labeling with Dependency Path Embeddings"
+    ],
+    "container-title": [
+      "Proceedings of the 54th Annual Meeting of the Association for Computational Linguistics (ACL"
+    ],
+    "pages": [
+      "1192–1202"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Discusses neural SRL with dependency path embeddings"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "author": [
+      {
+        "family": "Titov",
+        "given": "I."
+      },
+      {
+        "family": "Klementiev",
+        "given": "A."
+      }
+    ],
+    "date": [
+      "2012"
+    ],
+    "title": [
+      "Crosslingual Induction of Semantic Roles"
+    ],
+    "container-title": [
+      "Proceedings of the 50th Annual Meeting of the Association for Computational Linguistics (ACL"
+    ],
+    "pages": [
+      "647–656"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Discusses crosslingual induction techniques for SRL"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "author": [
+      {
+        "family": "FitzGerald",
+        "given": "N."
+      },
+      {
+        "family": "Täckström",
+        "given": "O."
+      },
+      {
+        "family": "Ganchev",
+        "given": "K."
+      },
+      {
+        "family": "Das",
+        "given": "D."
+      }
+    ],
+    "date": [
+      "2015"
+    ],
+    "title": [
+      "Semantic Role Labeling with Neural Network Factors"
+    ],
+    "container-title": [
+      "Proceedings of the 2015 Conference on Empirical Methods in Natural Language Processing (EMNLP"
+    ],
+    "pages": [
+      "960–970"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Discusses SRL using neural network factors"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "author": [
+      {
+        "family": "Snyder",
+        "given": "B."
+      },
+      {
+        "family": "Palmer",
+        "given": "M."
+      }
+    ],
+    "date": [
+      "2004"
+    ],
+    "title": [
+      "The English all-words task"
+    ],
+    "container-title": [
+      "Proceedings of the Third International Workshop on the Evaluation of Systems for the Semantic Analysis of Text"
+    ],
+    "volume": [
+      "SENSEVAL-3"
+    ],
+    "pages": [
+      "41–43"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Overview of the English all-words WSD task"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "author": [
+      {
+        "family": "Pradhan",
+        "given": "S."
+      },
+      {
+        "family": "Hovy",
+        "given": "E."
+      },
+      {
+        "family": "Marcus",
+        "given": "M."
+      },
+      {
+        "family": "Palmer",
+        "given": "M."
+      },
+      {
+        "family": "Ramshaw",
+        "given": "L."
+      },
+      {
+        "family": "Weischedel",
+        "given": "R."
+      }
+    ],
+    "date": [
+      "2007"
+    ],
+    "title": [
+      "OntoNotes: A Unified Relational Semantic Representation"
+    ],
+    "container-title": [
+      "International Conference on Semantic Computing (ICSC"
+    ],
+    "pages": [
+      "517–526"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Introduction to the OntoNotes project, a resource for SRL and semantic parsing"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "author": [
+      {
+        "family": "Collobert",
+        "given": "R."
+      },
+      {
+        "family": "Weston",
+        "given": "J."
+      },
+      {
+        "family": "Bottou",
+        "given": "L."
+      },
+      {
+        "family": "Karlen",
+        "given": "M."
+      },
+      {
+        "family": "Kavukcuoglu",
+        "given": "K."
+      },
+      {
+        "family": "Kuksa",
+        "given": "P."
+      }
+    ],
+    "date": [
+      "2011"
+    ],
+    "title": [
+      "Natural Language Processing (Almost) from Scratch"
+    ],
+    "volume": [
+      "12"
+    ],
+    "pages": [
+      "2493–2537"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "Journal of Machine Learning Research"
+    ]
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Discusses a unified neural network approach to various NLP tasks, including WSD and SRL"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "These articles cover a range of foundational and advanced topics in multilingual semantics, with a particular focus on WSD, SRL, and semantic parsing"
+    ],
+    "type": null
+  }
+]

@@ -1,0 +1,29 @@
+{
+    "2022.aacl-tutorials.2": {
+        "title": "Recent Advances in Pre-trained Language Models: Why Do They Work and How Do They Work",
+        "author": "Cheng-Han Chiang, Yung-Sung Chuang, Hung-yi Lee",
+        "year": 2022,
+        "url": "https://aclanthology.org/2022.aacl-tutorials.2",
+        "doi": null,
+        "abstract": "Pre-trained language models (PLMs) are language models that are pre-trained on large-scaled corpora in a self-supervised fashion. These PLMs have fundamentally changed the natural language processing community in the past few years. In this tutorial, we aim to provide a broad and comprehensive introduction from two perspectives: why those PLMs work, and how to use them in NLP tasks. The first part of the tutorial shows some insightful analysis on PLMs that partially explain their exceptional downstream performance. The second part first focuses on emerging pre-training methods that enable PLMs to perform diverse downstream tasks and then illustrates how one can apply those PLMs to downstream tasks under different circumstances. These circumstances include fine-tuning PLMs when under data scarcity, and using PLMs with parameter efficiency. We believe that attendees of different backgrounds would find this tutorial informative and useful.",
+        "readingList": [
+            {
+                "sectionName": "Transformer model",
+                "subsectionName": null,
+                "referencesIds": [
+                    "204e3073870fae3d05bcbc2f6a8e263d9b72e776"
+                ]
+            },
+            {
+                "sectionName": "PLMs",
+                "subsectionName": null,
+                "referencesIds": [
+                    "cd18800a0fe0b668a1cc19f2ec95b5003d0a5035",
+                    "df2b0e26d0599ce3e70df8a9da02e51594e0e992",
+                    "6c4b76232bb72897685d19b3d264c6ee3005bc2b"
+                ]
+            }
+        ]
+    }
+}
+

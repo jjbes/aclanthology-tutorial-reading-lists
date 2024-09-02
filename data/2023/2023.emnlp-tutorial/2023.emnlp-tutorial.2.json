@@ -1,0 +1,60 @@
+{
+    "2023.emnlp-tutorial.2": {
+        "title": "Security Challenges in Natural Language Processing Models",
+        "author": "Qiongkai Xu, Xuanli He",
+        "year": 2023,
+        "url": "https://aclanthology.org/2023.emnlp-tutorial.2",
+        "doi": "10.18653/v1/2023.emnlp-tutorial.2",
+        "abstract": "Large-scale natural language processing models have been developed and integrated into numerous applications, given the advantage of their remarkable performance. Nonetheless, the security concerns associated with these models prevent the widespread adoption of these black-box machine learning models. In this tutorial, we will dive into three emerging security issues in NLP research, i.e., backdoor attacks, private data leakage, and imitation attacks. These threats will be introduced in accordance with their threatening usage scenarios, attack methodologies, and defense technologies.",
+        "readingList": [
+            {
+                "sectionName": "Backdoor Attack",
+                "subsectionName": null,
+                "referencesIds": [
+                    "573fd2ce97c70bb29097e8efb28a27af791225ca",
+                    "f182ccbc90c1d20d358e3d197b340691f277428f",
+                    "0d360a1256ccdfca58cf98d12243df8407fd442d"
+                ]
+            },
+            {
+                "sectionName": "Privacy and Data Leakage",
+                "subsectionName": null,
+                "referencesIds": [
+                    "30e0ffeb519a4df2d4a2067e899c5fb5c5e85e70",
+                    "df7d26339adf4eb0c07160947b9d2973c24911ba",
+                    "eb39dda2df56270599f2a28bc6433c84c1704949"
+                ]
+            },
+            {
+                "sectionName": "Imitation Attack",
+                "subsectionName": null,
+                "referencesIds": [
+                    "d73561ab8318ce343f5cb15f96c74f210b6b24fa",
+                    "975e8d7065161d3dc0020ef343aa1db2a3db5a7b"
+                ]
+            },
+            {
+                "sectionName": "Defense using",
+                "subsectionName": "differential privacy",
+                "referencesIds": [
+                    "8a027e49b3e961e1a9cd8e842281d112ab2698c9",
+                    "bda3fe4ae1cb73ef99f48add40967179577d29e8"
+                ]
+            },
+            {
+                "sectionName": "Defense using",
+                "subsectionName": "machine unlearning",
+                "referencesIds": [
+                    "8e58dc63817a2a26e5a2ddad38d8b1d19d1c3795"
+                ]
+            },
+            {
+                "sectionName": "Defense using",
+                "subsectionName": "watermarking",
+                "referencesIds": [
+                    "2569a7309142e40815cf556b6417059df9abbda8"
+                ]
+            }
+        ]
+    }
+}

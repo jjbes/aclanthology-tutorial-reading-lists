@@ -1,0 +1,25 @@
+{
+    "2021.eacl-tutorials.2": {
+        "title": "Aggregating and Learning from Multiple Annotators",
+        "author": "Silviu Paun, Edwin Simpson",
+        "year": 2021,
+        "url": "https://aclanthology.org/2021.eacl-tutorials.2",
+        "doi": "10.18653/v1/2021.eacl-tutorials.2",
+        "abstract": "The success of NLP research is founded on high-quality annotated datasets, which are usually obtained from multiple expert annotators or crowd workers. The standard practice to training machine learning models is to first adjudicate the disagreements and then perform the training. To this end, there has been a lot of work on aggregating annotations, particularly for classification tasks. However, many other tasks, particularly in NLP, have unique characteristics not considered by standard models of annotation, e.g., label interdependencies in sequence labelling tasks, unrestricted labels for anaphoric annotation, or preference labels for ranking texts. In recent years, researchers have picked up on this and are covering the gap. A first objective of this tutorial is to connect NLP researchers with state-of-the-art aggregation models for a diverse set of canonical language annotation tasks. There is also a growing body of recent work arguing that following the convention and training with adjudicated labels ignores any uncertainty the labellers had in their classifications, which results in models with poorer generalisation capabilities. Therefore, a second objective of this tutorial is to teach NLP workers how they can augment their (deep) neural models to learn from data with multiple interpretations.",
+        "readingList": [
+            {
+                "sectionName": null,
+                "subsectionName": null,
+                "referencesIds": [
+                    "919aa58480ac34f6b7ea433d5fa6368745aa572b",
+                    "6806f6aba9170a4d6e8a6ebeb25c539fe756aebb",
+                    "8905e237469322e921d6a1bc7e8e0269a99b4fc1",
+                    "83d322146d7558124bf6052a16adff4fe22a9412",
+                    "d2a2be6ce932a0f1939f31cfff4d64ea3d76723d",
+                    "a464e45d17da3e60bffb87290fab46f89607b7be"
+                ]
+            }
+        ]
+    }
+}
+

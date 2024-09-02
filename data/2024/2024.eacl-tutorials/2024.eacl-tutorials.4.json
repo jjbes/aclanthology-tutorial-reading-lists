@@ -1,0 +1,23 @@
+{
+    "2024.eacl-tutorials.4": {
+        "title": "Transformer-specific Interpretability",
+        "author": "Hosein Mohebbi, Jaap Jumelet, Michael Hanna, Afra Alishahi, Willem Zuidema",
+        "year": 2024,
+        "url": "https://aclanthology.org/2024.eacl-tutorials.4",
+        "doi": null,
+        "abstract": "Transformers have emerged as dominant play- ers in various scientific fields, especially NLP. However, their inner workings, like many other neural networks, remain opaque. In spite of the widespread use of model-agnostic interpretability techniques, including gradient-based and occlusion-based, their shortcomings are becoming increasingly apparent for Transformer interpretation, making the field of interpretability more demanding today. In this tutorial, we will present Transformer-specific interpretability methods, a new trending approach, that make use of specific features of the Transformer architecture and are deemed more promising for understanding Transformer-based models. We start by discussing the potential pitfalls and misleading results model-agnostic approaches may produce when interpreting Transformers. Next, we discuss Transformer-specific methods, including those designed to quantify context- mixing interactions among all input pairs (as the fundamental property of the Transformer architecture) and those that combine causal methods with low-level Transformer analysis to identify particular subnetworks within a model that are responsible for specific tasks. By the end of the tutorial, we hope participants will understand the advantages (as well as current limitations) of Transformer-specific interpretability methods, along with how these can be applied to their own research.",
+        "readingList": [
+            {
+                "sectionName": null,
+                "subsectionName": null,
+                "referencesIds": [
+                    "668f42a4d4094f0a66d402a16087e14269b31a1f",
+                    "eadb1e7da375939e25083ae3936c4f4ef1f2a719",
+                    "2c709ef6186bd607494a3344c903552ea500e449",
+                    "285d13bf3cbe6a8a0f164f584d84f8b74067271f"
+                ]
+            }
+        ]
+    }
+}
+

@@ -1,0 +1,80 @@
+{
+    "2024.lrec-tutorials.4": {
+        "title": "Navigating the Modern Evaluation Landscape: Considerations in Benchmarks and Frameworks for Large Language Models (LLMs)",
+        "author": "Leshem Choshen, Ariel Gera, Yotam Perlitz, Michal Shmueli-Scheuer, Gabriel Stanovsky",
+        "year": 2024,
+        "url": "https://aclanthology.org/2024.lrec-tutorials.4",
+        "doi": null,
+        "abstract": "General-Purpose Language Models have changed the world of Natural Language Processing, if not the world itself. The evaluation of such versatile models, while supposedly similar to evaluation of generation models before them, in fact presents a host of new evaluation challenges and opportunities. In this Tutorial, we will start from the building blocks of evaluation. The tutorial welcomes people from diverse backgrounds and assumes little familiarity with metrics, datasets, prompts and benchmarks. It will lay the foundations and explain the basics and their importance, while touching on the major points and breakthroughs of the recent era of evaluation. It will also compare traditional evaluation methods – which are still widely used – to newly developed methods. We will contrast new to old approaches, from evaluating on many-task benchmarks rather than on dedicated datasets to efficiency constraints, and from testing stability and prompts on in-context learning to using the models themselves as evaluation metrics. Finally, the tutorial will cover practical issues, ranging from reviewing widely-used benchmarks and prompt banks to efficient evaluation.",
+        "readingList": [
+            {
+                "sectionName": "Surveys on evaluation of LLMs",
+                "subsectionName": null,
+                "referencesIds": [
+                    "33a9d1a702eb75da709d26c44aaeb7c2015c870b",
+                    "451a657dabf80ebc43f6a3be518250b2cd5dfe1a",
+                    "e4e9d556e9725a5fdb2e133b61243ff7c1ca8aeb"
+                ]
+            },
+            {
+                "sectionName": "Pre-training paradigms",
+                "subsectionName": null,
+                "referencesIds": [
+                    "c23d9d44e8bc68408cea9f305d1f24d915bc0d0d"
+                ]
+            },
+            {
+                "sectionName": "Current benchmarks",
+                "subsectionName": null,
+                "referencesIds": [
+                    "ce913026f693101e54d3ab9152e107034d81fce1",
+                    "bd1331b233e84bab7eba503abc60b31ac08e7881",
+                    null
+                ]
+            },
+            {
+                "sectionName": "Prompts",
+                "subsectionName": "creating paraphrases",
+                "referencesIds": [
+                    "ffdbd7f0b03b85747b001b4734d5ee31b5229aa4",
+                    "d03a9b2a0e090cc9fd2ba0a457ecea35372f1018",
+                    "6f4cc536f9ed83d0dbf7e919dc609be12aa0848a"
+                ]
+            },
+            {
+                "sectionName": "Prompts",
+                "subsectionName": "robustness to paraphrases",
+                "referencesIds": [
+                    "37255b091317aedc6854383104b3343e67ab5c80",
+                    "b0bac6aca93021105c8a4f165184a097a249fbce",
+                    "8dce168f723158b771b526401113064c36fc875e"
+                ]
+            },
+            {
+                "sectionName": "Metrics",
+                "subsectionName": null,
+                "referencesIds": [
+                    "c6d38e105562ae0a5d9b21fb4333212f36a3e041",
+                    "a0a79dad89857a96f8f71b14238e5237cbfc4787"
+                ]
+            },
+            {
+                "sectionName": "Efficient-benchmarking",
+                "subsectionName": null,
+                "referencesIds": [
+                    "9a4765547cb43ab221fe262df7405f6795557d8c",
+                    "d4085ae0f004624a3141734d3a88a9ebbc803a55",
+                    "ce913026f693101e54d3ab9152e107034d81fce1"
+                ]
+            },
+            {
+                "sectionName": "Manual Evaluation",
+                "subsectionName": null,
+                "referencesIds": [
+                    "a56c93747666afd534ed8f5c019869bdda673236",
+                    "d0e67f3a8047547a5e3503a30a21f2896eb0fa85"
+                ]
+            }
+        ]
+    }
+}

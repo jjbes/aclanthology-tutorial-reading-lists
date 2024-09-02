@@ -1,0 +1,638 @@
+[
+  {
+    "author": [
+      {
+        "given": "Sure!"
+      }
+    ],
+    "title": [
+      "Here's a reading list of 20 articles on commonsense reasoning, covering different types of commonsense knowledge, methods to capture it, and ways to measure the commonsense reasoning abilities of models"
+    ],
+    "note": [
+      "These articles were published before 2021:"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "publisher": [
+      "**Types of Commonsense Knowledge:**"
+    ],
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "family": "Davis",
+        "given": "E."
+      },
+      {
+        "family": "Marcus",
+        "given": "G."
+      }
+    ],
+    "date": [
+      "2015"
+    ],
+    "title": [
+      "Commonsense reasoning and commonsense knowledge in artificial intelligence"
+    ],
+    "volume": [
+      "58"
+    ],
+    "pages": [
+      "92–103"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "*Communications of the ACM*"
+    ],
+    "issue": [
+      "9"
+    ]
+  },
+  {
+    "author": [
+      {
+        "family": "Gordon",
+        "given": "A.S."
+      },
+      {
+        "family": "Hobbs",
+        "given": "J.R."
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "title": [
+      "A formal theory of commonsense psychology: How people think people think"
+    ],
+    "publisher": [
+      "*Cambridge University Press*"
+    ],
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "family": "Speer",
+        "given": "R."
+      },
+      {
+        "family": "Havasi",
+        "given": "C."
+      }
+    ],
+    "date": [
+      "2012"
+    ],
+    "title": [
+      "Representing general relational knowledge in ConceptNet 5"
+    ],
+    "publisher": [
+      "*LREC*"
+    ],
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "family": "Sap",
+        "given": "M."
+      },
+      {
+        "family": "Le Bras",
+        "given": "R."
+      },
+      {
+        "family": "Allaway",
+        "given": "E."
+      },
+      {
+        "family": "Bhagavatula",
+        "given": "C."
+      },
+      {
+        "family": "Lourie",
+        "given": "N."
+      },
+      {
+        "family": "Rashkin",
+        "given": "H."
+      },
+      {
+        "family": "Choi",
+        "given": "Y."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "title": [
+      "ATOMIC: An atlas of machine commonsense for if-then reasoning"
+    ],
+    "publisher": [
+      "*AAAI*"
+    ],
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "family": "Tandon",
+        "given": "N."
+      },
+      {
+        "family": "Melo",
+        "given": "G.",
+        "particle": "de"
+      },
+      {
+        "family": "Suchanek",
+        "given": "F.M."
+      },
+      {
+        "family": "Weikum",
+        "given": "G."
+      }
+    ],
+    "date": [
+      "2014"
+    ],
+    "title": [
+      "WebChild: Harvesting and organizing commonsense knowledge from the web"
+    ],
+    "publisher": [
+      "*WSDM*"
+    ],
+    "type": "book"
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "note": [
+      "**Capturing Commonsense Knowledge:**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Liu",
+        "given": "H."
+      },
+      {
+        "family": "Singh",
+        "given": "P."
+      }
+    ],
+    "date": [
+      "2004"
+    ],
+    "title": [
+      "ConceptNet—a practical commonsense reasoning tool-kit"
+    ],
+    "volume": [
+      "22"
+    ],
+    "pages": [
+      "211–226"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "*BT technology journal*"
+    ],
+    "issue": [
+      "4"
+    ]
+  },
+  {
+    "author": [
+      {
+        "literal": "- Carlson, A., Betteridge, J., Kisiel, B., Settles, B., Hruschka Jr, E. R., & Mitchell, T. M."
+      }
+    ],
+    "date": [
+      "2010"
+    ],
+    "title": [
+      "Toward an architecture for never-ending language learning"
+    ],
+    "publisher": [
+      "*AAAI*"
+    ],
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "family": "Schubert",
+        "given": "L.K."
+      }
+    ],
+    "date": [
+      "2002"
+    ],
+    "title": [
+      "Can we derive general world knowledge from texts?"
+    ],
+    "publisher": [
+      "*HLT*"
+    ],
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "family": "Lenat",
+        "given": "D.B."
+      }
+    ],
+    "date": [
+      "1995"
+    ],
+    "title": [
+      "CYC: A large-scale investment in knowledge infrastructure"
+    ],
+    "volume": [
+      "38"
+    ],
+    "pages": [
+      "33–38"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "*Communications of the ACM*"
+    ],
+    "issue": [
+      "11"
+    ]
+  },
+  {
+    "author": [
+      {
+        "literal": "- Mitchell, T. M., Cohen, W. W., Hruschka Jr, E. R., Talukdar, P. P., Betteridge, J., Carlson, A., ... & Wang, R."
+      }
+    ],
+    "date": [
+      "2015"
+    ],
+    "title": [
+      "Never-ending learning"
+    ],
+    "volume": [
+      "61"
+    ],
+    "pages": [
+      "103–115"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "*Communications of the ACM*"
+    ],
+    "issue": [
+      "5"
+    ]
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "title": [
+      "**Measuring Commonsense Reasoning Abilities:**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Levesque",
+        "given": "H.J."
+      },
+      {
+        "family": "Davis",
+        "given": "E."
+      },
+      {
+        "family": "Morgenstern",
+        "given": "L."
+      }
+    ],
+    "date": [
+      "2012"
+    ],
+    "title": [
+      "The Winograd schema challenge"
+    ],
+    "publisher": [
+      "*AAAI*"
+    ],
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "family": "Talmor",
+        "given": "A."
+      },
+      {
+        "family": "Herzig",
+        "given": "J."
+      },
+      {
+        "family": "Lourie",
+        "given": "N."
+      },
+      {
+        "family": "Berant",
+        "given": "J."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "title": [
+      "CommonsenseQA: A question answering challenge targeting commonsense knowledge"
+    ],
+    "publisher": [
+      "*NAACL*"
+    ],
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "family": "Zellers",
+        "given": "R."
+      },
+      {
+        "family": "Bisk",
+        "given": "Y."
+      },
+      {
+        "family": "Schwartz",
+        "given": "R."
+      },
+      {
+        "family": "Choi",
+        "given": "Y."
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "title": [
+      "SWAG: A large-scale adversarial dataset for grounded commonsense inference"
+    ],
+    "publisher": [
+      "*EMNLP*"
+    ],
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "family": "Sakaguchi",
+        "given": "K."
+      },
+      {
+        "family": "Bras",
+        "given": "R.L."
+      },
+      {
+        "family": "Bhagavatula",
+        "given": "C."
+      },
+      {
+        "family": "Choi",
+        "given": "Y."
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "title": [
+      "WINOGRANDE: An adversarial Winograd schema challenge at scale"
+    ],
+    "publisher": [
+      "*AAAI*"
+    ],
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "family": "Trinh",
+        "given": "T.H."
+      },
+      {
+        "family": "Le",
+        "given": "Q.V."
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "title": [
+      "A simple method for commonsense reasoning"
+    ],
+    "note": [
+      "*arXiv preprint arXiv:1806.02847*."
+    ],
+    "arxiv": [
+      "1806.02847"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "title": [
+      "**General Approaches and Surveys:**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Storks",
+        "given": "S."
+      },
+      {
+        "family": "Gao",
+        "given": "Q."
+      },
+      {
+        "family": "Chai",
+        "given": "J.Y."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "title": [
+      "Commonsense reasoning for natural language understanding: A survey of benchmarks, resources, and approaches"
+    ],
+    "note": [
+      "*arXiv preprint arXiv:1904.01172*."
+    ],
+    "arxiv": [
+      "1904.01172"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Sap",
+        "given": "M."
+      },
+      {
+        "family": "Rashkin",
+        "given": "H."
+      },
+      {
+        "family": "Chen",
+        "given": "D."
+      },
+      {
+        "family": "Le Bras",
+        "given": "R."
+      },
+      {
+        "family": "Choi",
+        "given": "Y."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "title": [
+      "Social IQa: Commonsense reasoning about social interactions"
+    ],
+    "publisher": [
+      "*EMNLP*"
+    ],
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "family": "Bosselut",
+        "given": "A."
+      },
+      {
+        "family": "Rashkin",
+        "given": "H."
+      },
+      {
+        "family": "Sap",
+        "given": "M."
+      },
+      {
+        "family": "Malaviya",
+        "given": "C."
+      },
+      {
+        "family": "Celikyilmaz",
+        "given": "A."
+      },
+      {
+        "family": "Choi",
+        "given": "Y."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "title": [
+      "COMET: Commonsense transformers for automatic knowledge graph construction"
+    ],
+    "publisher": [
+      "*ACL*"
+    ],
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "family": "Bisk",
+        "given": "Y."
+      },
+      {
+        "family": "Zellers",
+        "given": "R."
+      },
+      {
+        "family": "Bras",
+        "given": "R.L."
+      },
+      {
+        "family": "Gao",
+        "given": "J."
+      },
+      {
+        "family": "Choi",
+        "given": "Y."
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "title": [
+      "PIQA: Reasoning about physical commonsense in natural language"
+    ],
+    "publisher": [
+      "*AAAI*"
+    ],
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "family": "Rashkin",
+        "given": "H."
+      },
+      {
+        "family": "Bosselut",
+        "given": "A."
+      },
+      {
+        "family": "Sap",
+        "given": "M."
+      },
+      {
+        "family": "Knight",
+        "given": "K."
+      },
+      {
+        "family": "Choi",
+        "given": "Y."
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "title": [
+      "Modeling naive psychology of characters in simple commonsense stories"
+    ],
+    "publisher": [
+      "*ACL*"
+    ],
+    "type": "book"
+  },
+  {
+    "title": [
+      "These articles provide a comprehensive overview of the field of commonsense reasoning, including the types of commonsense knowledge, methods to capture it, and ways to evaluate the reasoning abilities of models"
+    ],
+    "type": null
+  }
+]

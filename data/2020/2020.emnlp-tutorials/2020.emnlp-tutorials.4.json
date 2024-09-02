@@ -1,0 +1,80 @@
+{
+    "2020.emnlp-tutorials.4": {
+        "title": "High Performance Natural Language Processing",
+        "author": "Gabriel Ilharco, Cesar Ilharco, Iulia Turc, Tim Dettmers, Felipe Ferreira, Kenton Lee",
+        "year": 2020,
+        "url": "https://aclanthology.org/2020.emnlp-tutorials.4",
+        "doi": "10.18653/v1/2020.emnlp-tutorials.4",
+        "abstract": "Scale has played a central role in the rapid progress natural language processing has enjoyed in recent years. While benchmarks are dominated by ever larger models, efficient hardware use is critical for their widespread adoption and further progress in the field. In this cutting-edge tutorial, we will recapitulate the state-of-the-art in natural language processing with scale in perspective. After establishing these foundations, we will cover a wide range of techniques for improving efficiency, including knowledge distillation, quantization, pruning, more efficient architectures, along with case studies and practical implementation tricks.",
+        "readingList": [
+            {
+                "sectionName": "Fundamentals",
+                "subsectionName": null,
+                "referencesIds": [
+                    "fa72afa9b2cbc8f0d7b05d52548906610ffbb9c5",
+                    "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+                    "df2b0e26d0599ce3e70df8a9da02e51594e0e992",
+                    "90abbc2cf38462b954ae1b772fac9532e2ccd8b0",
+                    "1882f194cb43828852cc052887671e55a80f945a",
+                    "ea415809bf87ef4b99966c6c50de6cb996a02a97"
+                ]
+            },
+            {
+                "sectionName": "Core techniques",
+                "subsectionName": null,
+                "referencesIds": [
+                    "0c908739fbff75f03469d13d4a1a07de3414ee19",
+                    "7402b604f14b8b91c53ed6eed04af92c59636c97",
+                    "0cbf97173391b0430140117027edcaf1a37968c7",
+                    "4fb8fd55b476909a26a8dc594e0ae98d4923ad4d",
+                    "ce106590145e89ea4b621c99665862967ccf5dac",
+                    "21937ecd9d66567184b83eca3d3e09eb4e6fbd60",
+                    "143b0bd73e7e765945e0b8620f84f52878617560",
+                    "66f0f35fc78bdf2af9de46093d49a428970cde2e"
+                ]
+            },
+            {
+                "sectionName": "Efficient attention",
+                "subsectionName": null,
+                "referencesIds": [
+                    "925ad2897d1b5decbea320d07e99afa9110e09b2",
+                    "055fd6a9f7293269f1b22c1470e63bd02d8d9500",
+                    "c0b79e6a5fd88ef13aa4780df5aae0aaa6b2be87",
+                    null,
+                    "f6390beca54411b06f3bde424fb983a451789733",
+                    "cd4ffe5e014601a3d6b64121355d29a730591490",
+                    "6f68e1bb253925d8431588555d3010419f322e04",
+                    "044e13d7dd4e0655eb76f0bd00b2c1bdb44e2be3"
+                ]
+            },
+            {
+                "sectionName": "Case studies",
+                "subsectionName": null,
+                "referencesIds": [
+                    "3e27529f55fa966201613b2d8b56b1934ce6af54",
+                    "16c844fd4d97f3c6eb38b0d6527c87d184efedc3",
+                    "2573af4e13d9a5dddb257d22cd38a600528d9a8b",
+                    "66ceae37af0e7ace4755a5e8f41162d0f6cf7677",
+                    "ef8d788a904ed66bd8e30ffa69bc3ea1fe57dda7",
+                    "eb1602ecba96beadeb7d2f05e1b57fa6b339fc69",
+                    "b08c360ddf899923aebf25913706b4f03e54eccd",
+                    "93d63ec754f29fa22572615320afe0521f7ec66d",
+                    "7be8c119dbe065c52125ee7716601751f3116844",
+                    "832fff14d2ed50eb7969c4c4b976c35776548f56"
+                ]
+            },
+            {
+                "sectionName": "Scaling in practice",
+                "subsectionName": null,
+                "referencesIds": [
+                    "832fff14d2ed50eb7969c4c4b976c35776548f56",
+                    "80d800dfadbe2e6c7b2367d9229cc82912d55889",
+                    "0b5d7a79205b44952e24025ce5d46e9f3aa401a1",
+                    "e6c561d02500b2596a230b341a8eb8b921ca5bf2",
+                    "1882f194cb43828852cc052887671e55a80f945a"
+                ]
+            }
+        ]
+    }
+}
+

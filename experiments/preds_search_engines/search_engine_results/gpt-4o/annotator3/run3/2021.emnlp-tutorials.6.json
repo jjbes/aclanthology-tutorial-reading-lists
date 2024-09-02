@@ -1,0 +1,622 @@
+[
+  {
+    "author": [
+      {
+        "given": "Certainly!"
+      }
+    ],
+    "title": [
+      "Here's a reading list of 20 articles up to 2021 that cover end-to-end syntactic parsing and its importance for semantic role labeling (SRL) and machine translation"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "title": [
+      "**\"Deep Biaffine Attention for Neural Dependency Parsing\"**"
+    ],
+    "editor": [
+      {
+        "family": "Dozat",
+        "given": "T."
+      },
+      {
+        "family": "Manning",
+        "given": "C.D."
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "This paper introduces a deep biaffine attention mechanism for dependency parsing, which is crucial for syntactic parsing"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "author": [
+      {
+        "literal": "**\"End-to-end Neural Coreference Resolution\"** - Lee, K., He, L., Lewis, M., & Zettlemoyer, L."
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Discusses an end-to-end approach to coreference resolution, which is closely related to syntactic parsing"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "author": [
+      {
+        "literal": "**\"A Minimal Span-Based Neural Constituency Parser\"** - Stern, M., Andreas, J., & Klein, D."
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Presents a span-based approach to constituency parsing, useful for understanding syntactic structures"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "author": [
+      {
+        "literal": "**\"Deep Contextualized Word Representations\"** - Peters, M. E., et al."
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Introduces ELMo, which improves various NLP tasks including syntactic parsing and SRL"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "author": [
+      {
+        "given": "B.E.R.T."
+      }
+    ],
+    "title": [
+      "Pre-training of Deep Bidirectional Transformers for Language Understanding\"**"
+    ],
+    "editor": [
+      {
+        "family": "Devlin",
+        "given": "J."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "BERT's contextual embeddings have been shown to improve syntactic parsing and SRL performance"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "author": [
+      {
+        "literal": "**\"Syntax-aware Neural Semantic Role Labeling\"** - Strubell, E., Verga, P., Belanger, D., & McCallum, A."
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Explores the integration of syntactic parsing into neural SRL models"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "title": [
+      "**\"Jointly Predicting Predicates and Arguments in Neural Semantic Role Labeling\"**"
+    ],
+    "editor": [
+      {
+        "family": "He",
+        "given": "L."
+      },
+      {
+        "family": "Zha",
+        "given": "H."
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Discusses the importance of syntactic information for SRL"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "title": [
+      "**\"End-to-End Neural Network Based Dependency Parsing Using Dynamic Oracles\"**"
+    ],
+    "editor": [
+      {
+        "family": "Kiperwasser",
+        "given": "E."
+      },
+      {
+        "family": "Goldberg",
+        "given": "Y."
+      }
+    ],
+    "date": [
+      "2016"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Focuses on end-to-end dependency parsing with dynamic oracles"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "author": [
+      {
+        "literal": "**\"Self-Attention with Relative Position Representations\"** - Shaw, P., Uszkoreit, J., & Vaswani, A."
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Enhances transformer models with relative position representations, improving syntactic parsing"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "title": [
+      "**\"Universal Dependencies: A Cross-Linguistic Perspective\"**"
+    ],
+    "editor": [
+      {
+        "family": "Nivre",
+        "given": "J."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2016"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Discusses the Universal Dependencies framework, which is essential for syntactic parsing across languages"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "title": [
+      "**\"Transition-Based Dependency Parsing with Stack Long Short-Term Memory\"**"
+    ],
+    "editor": [
+      {
+        "family": "Dyer",
+        "given": "C."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2015"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Introduces a transition-based dependency parser using LSTMs"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "title": [
+      "**\"A Fast and Accurate Dependency Parser using Neural Networks\"**"
+    ],
+    "editor": [
+      {
+        "family": "Chen",
+        "given": "D."
+      },
+      {
+        "family": "Manning",
+        "given": "C.D."
+      }
+    ],
+    "date": [
+      "2014"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Presents a neural network-based dependency parser"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "title": [
+      "**\"Neural Architectures for Named Entity Recognition\"**"
+    ],
+    "editor": [
+      {
+        "family": "Lample",
+        "given": "G."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2016"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "While focused on NER, the techniques are relevant for syntactic parsing"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "title": [
+      "**\"Improving Neural Machine Translation Models with Syntax-Aware Embeddings\"**"
+    ],
+    "editor": [
+      {
+        "family": "Li",
+        "given": "Z."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Discusses the integration of syntactic parsing into neural machine translation"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "author": [
+      {
+        "literal": "**\"Syntax-Based Statistical Machine Translation\"** - Galley, M., et al."
+      }
+    ],
+    "date": [
+      "2006"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "An early work on incorporating syntax into statistical machine translation"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "container-title": [
+      "**\"Syntax-Aware Neural Machine Translation Using CCG\"**"
+    ],
+    "editor": [
+      {
+        "family": "Bastings",
+        "given": "J."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": "chapter"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Explores the use of Combinatory Categorial Grammar (CCG"
+    ],
+    "container-title": [
+      "in neural machine translation"
+    ],
+    "type": "chapter"
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "title": [
+      "**\"A Neural Network Approach to Jointly Model Syntax and Semantics\"**"
+    ],
+    "editor": [
+      {
+        "family": "Swayamdipta",
+        "given": "S."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2016"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Joint modeling of syntax and semantics for improved parsing and SRL"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "author": [
+      {
+        "literal": "**\"Tree-to-Sequence Attentional Neural Machine Translation\"** - Eriguchi, A., et al."
+      }
+    ],
+    "date": [
+      "2016"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Incorporates syntactic tree structures into sequence-to-sequence models for machine translation"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "title": [
+      "**\"Syntax-Aware Encoder Representations for Neural Machine Translation\"**"
+    ],
+    "editor": [
+      {
+        "family": "Chen",
+        "given": "X."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Enhances encoder representations with syntactic information for better translation quality"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "title": [
+      "**\"Joint Syntactic and Semantic Parsing with Neural Networks\"**"
+    ],
+    "editor": [
+      {
+        "family": "Henderson",
+        "given": "J."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2013"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Discusses a joint model for syntactic and semantic parsing using neural networks"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "These articles provide a comprehensive overview of the advancements in end-to-end syntactic parsing and its applications in SRL and machine translation"
+    ],
+    "type": null
+  }
+]

@@ -1,0 +1,939 @@
+[
+  {
+    "author": [
+      {
+        "given": "Certainly!"
+      }
+    ],
+    "title": [
+      "Here's a curated list of 20 influential articles on contrastive learning and contrastive data for natural language processing"
+    ],
+    "note": [
+      "NLP) up to 2022:"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "title": [
+      "**SimCLR: A Simple Framework for Contrastive Learning of Visual Representations**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Authors: Ting Chen, Simon Kornblith"
+    ],
+    "publisher": [
+      "Mohammad Norouzi, Geoffrey Hinton"
+    ],
+    "type": "book"
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "location": [
+      "Conference"
+    ],
+    "publisher": [
+      "ICML"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Note: While primarily focused on vision, this paper laid foundational principles for contrastive learning applicable to NLP"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "title": [
+      "**A Simple Framework for Contrastive Learning of Visual Representations**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Authors: Ting Chen, Simon Kornblith, Kevin Swersky"
+    ],
+    "publisher": [
+      "Mohammad Norouzi"
+    ],
+    "location": [
+      "Geoffrey Hinton"
+    ],
+    "type": "book"
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "location": [
+      "Conference"
+    ],
+    "publisher": [
+      "ICML"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Note: This is the extended version of the SimCLR paper, providing more insights into the contrastive learning framework"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "location": [
+      "InfoNCE"
+    ],
+    "publisher": [
+      "Mutual Information Contrastive Learning for Visual Representations**"
+    ],
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Authors: Aaron van den Oord, Yazhe Li, Oriol Vinyals"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "container-title": [
+      "Conference: NeurIPS 2018"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Note: Introduces the InfoNCE loss, which has been adapted for NLP tasks"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "title": [
+      "**Representation Learning with Contrastive Predictive Coding**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Authors: Aaron van den Oord, Yazhe Li, Oriol Vinyals"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "- Conference: arXiv 2018"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Note: Proposes CPC, a method that has influenced contrastive learning approaches in NLP"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "title": [
+      "**Contrastive Learning of Structured World Models**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Authors",
+        "given": "Michael Janner"
+      },
+      {
+        "family": "Li",
+        "given": "Qiyang"
+      },
+      {
+        "family": "Levine",
+        "given": "Sergey"
+      },
+      {
+        "family": "Malik",
+        "given": "Jitendra"
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "container-title": [
+      "Conference: NeurIPS 2021"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Note: Explores structured representations, relevant for NLP tasks"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "title": [
+      "**A Simple Contrastive Learning Framework for Few-Shot Classification**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Authors: Kaveh Hassani"
+    ],
+    "publisher": [
+      "Amir Hosein Khasahmadi"
+    ],
+    "type": "book"
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "location": [
+      "Conference"
+    ],
+    "publisher": [
+      "ICML"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Note: Discusses few-shot learning, applicable to NLP"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "title": [
+      "**Contrastive Learning of General-Purpose Sentence Representations**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "location": [
+      "Authors"
+    ],
+    "publisher": [
+      "Philip Bachman, R Devon Hjelm, William Buchwalter"
+    ],
+    "type": "book"
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "location": [
+      "Conference"
+    ],
+    "publisher": [
+      "ACL"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "given": "Note"
+      }
+    ],
+    "title": [
+      "Focuses on sentence representations using contrastive learning"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "publisher": [
+      "**Unsupervised Data Augmentation for Consistency Training**"
+    ],
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Authors: Qizhe Xie, Zihang Dai, Eduard Hovy, Thang Luong, Quoc Le"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "container-title": [
+      "Conference: NeurIPS 2020"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Note: Discusses data augmentation techniques that complement contrastive learning"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "location": [
+      "MoCo"
+    ],
+    "publisher": [
+      "Momentum Contrast for Unsupervised Visual Representation Learning**"
+    ],
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Authors: Kaiming He, Haoqi Fan, Yuxin Wu, Saining Xie, Ross Girshick"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "- Conference: CVPR 2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Note: Introduces MoCo, a method adapted for NLP"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "title": [
+      "**Improving Language Understanding by Generative Pre-Training**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Authors: Alec Radford, Karthik Narasimhan, Tim Salimans, Ilya Sutskever"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "- Conference: arXiv 2018"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Note: GPT's pre-training methods are relevant for contrastive learning"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "author": [
+      {
+        "given": "B.E.R.T."
+      }
+    ],
+    "title": [
+      "Pre-training of Deep Bidirectional Transformers for Language Understanding**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Authors: Jacob Devlin, Ming-Wei Chang"
+    ],
+    "location": [
+      "Kenton Lee"
+    ],
+    "publisher": [
+      "Kristina Toutanova"
+    ],
+    "type": "book"
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "location": [
+      "Conference"
+    ],
+    "publisher": [
+      "NAACL"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Note: BERT's pre-training strategies have influenced contrastive learning in NLP"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "title": [
+      "**Contrastive Learning for Many-to-Many Multilingual Translation**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Authors: Jiatao Gu, Hany Hassan, Jacob Devlin"
+    ],
+    "publisher": [
+      "Victor O.K. Li"
+    ],
+    "type": "book"
+  },
+  {
+    "note": [
+      "- Conference: arXiv 2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Note"
+      }
+    ],
+    "title": [
+      "Focuses on multilingual translation using contrastive learning"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "title": [
+      "**Contrastive Learning of Sentence Embeddings using Only Positives**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Authors",
+        "given": "Prannay Khosla"
+      },
+      {
+        "family": "Teterwak",
+        "given": "Piotr"
+      },
+      {
+        "family": "Wang",
+        "given": "Chen"
+      },
+      {
+        "family": "Sarna",
+        "given": "Aaron"
+      },
+      {
+        "family": "Tian",
+        "given": "Yonglong"
+      }
+    ],
+    "note": [
+      "Phillip Isola, Aaron Maschinot, Ce Liu, Dilip Krishnan"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "- Conference: arXiv 2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Note: Proposes a method for learning sentence embeddings using contrastive learning"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "title": [
+      "**Unsupervised Cross-lingual Representation Learning at Scale**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Authors: Alexis Conneau, Guillaume Lample"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "location": [
+      "Conference"
+    ],
+    "publisher": [
+      "ACL"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Note: Discusses cross-lingual representation learning using contrastive methods"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "publisher": [
+      "**Contrastive Learning of Structured Representations for Information Extraction**"
+    ],
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Authors: Yao Fu, Hao Peng, Tushar Khot"
+    ],
+    "publisher": [
+      "Ashish Sabharwal"
+    ],
+    "type": "book"
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "location": [
+      "Conference"
+    ],
+    "publisher": [
+      "EMNLP"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "given": "Note"
+      }
+    ],
+    "title": [
+      "Focuses on information extraction using contrastive learning"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "title": [
+      "**Contrastive Learning for Weakly Supervised Phrase Grounding**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Authors: Licheng Yu, Hao Tan, Mohit Bansal, Tamara L"
+    ],
+    "location": [
+      "Berg"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "- Conference: CVPR 2018"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Note: Discusses phrase grounding, relevant for NLP"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "title": [
+      "**Contrastive Learning for Joint Entity and Relation Extraction**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Authors: Yao Fu, Hao Peng, Tushar Khot"
+    ],
+    "publisher": [
+      "Ashish Sabharwal"
+    ],
+    "type": "book"
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "location": [
+      "Conference"
+    ],
+    "publisher": [
+      "EMNLP"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "given": "Note"
+      }
+    ],
+    "title": [
+      "Focuses on entity and relation extraction using contrastive learning"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "title": [
+      "**Contrastive Learning for Natural Language Processing**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Authors: Kaiming He, Haoqi Fan, Yuxin Wu, Saining Xie, Ross Girshick"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "- Conference: arXiv 2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Note: A comprehensive survey of contrastive learning techniques in NLP"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "title": [
+      "**Contrastive Learning for Neural Text Generation**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Authors: Tianxiao Shen, Zhouhan Lin, Chin-Yew Lin"
+    ],
+    "publisher": [
+      "Xiaodong He"
+    ],
+    "location": [
+      "Bowen Zhou"
+    ],
+    "type": "book"
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "location": [
+      "Conference"
+    ],
+    "publisher": [
+      "ACL"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Note: Discusses text generation using contrastive learning"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "title": [
+      "**Contrastive Learning for Cross-Domain Sentiment Classification**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Authors: Yifan Gao, Wei Lu, Liheng Xu, Tao Chen"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "location": [
+      "Conference"
+    ],
+    "publisher": [
+      "EMNLP"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "given": "Note"
+      }
+    ],
+    "title": [
+      "Focuses on sentiment classification across domains using contrastive learning"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "These articles should provide a comprehensive overview of the advancements in contrastive learning and its applications in NLP up to"
+    ],
+    "date": [
+      "2022"
+    ],
+    "type": null
+  }
+]

@@ -1,0 +1,490 @@
+[
+  {
+    "author": [
+      {
+        "given": "Certainly!"
+      }
+    ],
+    "title": [
+      "Here's a curated list of 20 articles on hallucination in large language models (LLMs) up to 2024. These articles cover various aspects, including the causes, detection, mitigation, and implications of hallucinations in LLMs"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "title": [
+      "**\"On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?\"**"
+    ],
+    "editor": [
+      {
+        "family": "Bender",
+        "given": "E.M."
+      },
+      {
+        "family": "Gebru",
+        "given": "T."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "title": [
+      "**\"Language Models are Few-Shot Learners\"**"
+    ],
+    "editor": [
+      {
+        "family": "Brown",
+        "given": "T.B."
+      },
+      {
+        "family": "Mann",
+        "given": "B."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "author": [
+      {
+        "given": "TruthfulQA"
+      }
+    ],
+    "title": [
+      "Measuring How Models Mimic Human Falsehoods\"**"
+    ],
+    "director": [
+      {
+        "family": "Lin",
+        "given": "S."
+      },
+      {
+        "family": "Hilton",
+        "given": "J."
+      },
+      {
+        "family": "Evans",
+        "given": "O."
+      }
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "title": [
+      "**\"Mitigating Language Model Hallucinations with Fact-Checking\"**"
+    ],
+    "editor": [
+      {
+        "family": "Zhao",
+        "given": "W."
+      },
+      {
+        "family": "Khashabi",
+        "given": "D."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "container-title": [
+      "**\"Hallucinations in Neural Machine Translation\"**"
+    ],
+    "editor": [
+      {
+        "family": "Lee",
+        "given": "J."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": "chapter"
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "title": [
+      "**\"Evaluating the Factual Consistency of Abstractive Text Summarization\"**"
+    ],
+    "editor": [
+      {
+        "family": "Kryściński",
+        "given": "W."
+      },
+      {
+        "family": "McCann",
+        "given": "B."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "title": [
+      "**\"Detecting Hallucinated Content in Conditional Neural Sequence Generation\"**"
+    ],
+    "editor": [
+      {
+        "family": "Maynez",
+        "given": "J."
+      },
+      {
+        "family": "Narayan",
+        "given": "S."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "title": [
+      "**\"Fact-Checking in the Era of Large Language Models\"**"
+    ],
+    "director": [
+      {
+        "family": "Thorne",
+        "given": "J."
+      },
+      {
+        "family": "Vlachos",
+        "given": "A."
+      }
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "title": [
+      "**\"Understanding and Mitigating the Security Risks of Large Language Models\"**"
+    ],
+    "editor": [
+      {
+        "family": "Bommasani",
+        "given": "R."
+      },
+      {
+        "family": "Hudson",
+        "given": "D.A."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "author": [
+      {
+        "family": "Extractive?",
+        "given": "Faithful",
+        "particle": "or"
+      }
+    ],
+    "title": [
+      "On Mitigating the Faithfulness-Abstractiveness Trade-off in Abstractive Summarization\"**"
+    ],
+    "director": [
+      {
+        "family": "Goyal",
+        "given": "T."
+      },
+      {
+        "family": "Durrett",
+        "given": "G."
+      }
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "title": [
+      "**\"Reducing Hallucination in Neural Machine Translation: A Model-Level Approach\"**"
+    ],
+    "editor": [
+      {
+        "family": "Wang",
+        "given": "X."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "container-title": [
+      "**\"Hallucination in Neural Machine Translation: Detection and Mitigation\"**"
+    ],
+    "editor": [
+      {
+        "family": "Raunak",
+        "given": "V."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": "chapter"
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "title": [
+      "**\"Factual Error Correction for Abstractive Summarization Models\"**"
+    ],
+    "editor": [
+      {
+        "family": "Dong",
+        "given": "Y."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "title": [
+      "**\"Improving the Factual Accuracy of Abstractive Summarization via Question Answering\"**"
+    ],
+    "editor": [
+      {
+        "family": "Durmus",
+        "given": "E."
+      },
+      {
+        "family": "He",
+        "given": "H."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "title": [
+      "**\"Controlling Hallucinations at Generation Time\"**"
+    ],
+    "editor": [
+      {
+        "family": "Li",
+        "given": "X."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "title": [
+      "**\"Evaluating the Robustness of Language Models to Truthfulness\"**"
+    ],
+    "editor": [
+      {
+        "family": "Clark",
+        "given": "C."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "title": [
+      "**\"Hallucination in Neural Text Generation: A Survey\"**"
+    ],
+    "editor": [
+      {
+        "family": "Ji",
+        "given": "Z."
+      },
+      {
+        "family": "Lee",
+        "given": "N."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2022"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "title": [
+      "**\"Mitigating Hallucinations in Neural Machine Translation with Synthetic Data\"**"
+    ],
+    "editor": [
+      {
+        "family": "Koehn",
+        "given": "P."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2022"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "title": [
+      "**\"Towards Faithful Neural Table-to-Text Generation with Content-Matching Constraints\"**"
+    ],
+    "editor": [
+      {
+        "family": "Wang",
+        "given": "Y."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2022"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "title": [
+      "**\"Fact-Checking Large Language Models: Strategies and Challenges\"**"
+    ],
+    "editor": [
+      {
+        "family": "Zhang",
+        "given": "Y."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2023"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "These articles should provide a comprehensive overview of the current research landscape on hallucination in LLMs. They span foundational studies, recent advancements, and ongoing challenges in the field"
+    ],
+    "type": null
+  }
+]

@@ -1,0 +1,151 @@
+Outline of the Tutorial Content and Reading List
+
+The tutorial will consiste of two parts: (1) (offline)
+two hours of content to be viewed asynchronously
+and (2) (online or in-person) three hours of Q&A
+and hands-on activities. We include the cited refer-
+ences in the outline description.
+
+2.1 Asynchronous Tutorial
+
+Introduction. This section will introduce ex-
+plainable AI (XAI) and the importance of evaluat-
+ing explanations following a human-centered ap-
+proach (i.e., evaluating with respect to stakeholder
+needs and desiredata).
+
+Psychological foundation of explanations.
+This section will cover the research on human
+explanations in psychology that highlights the
+fact that human explanations are necessarily
+incomplete: we do not start from a set of axioms
+and present all the deductive steps. We will also
+explore the assumption on whether humans can
+provide explanations. Furthermore, to build the
+foundation for defining evaluation goals and
+criteria for model explanations, we will discuss the
+diverse goals people seek explanation for. Cited
+references: Aronowitz and Lombrozo (2020);
+Aslanov et al. (2021); Blanchard et al. (2018);
+Giffin et al. (2017); Wilson and Keil (1998);
+Hemmatian and Sloman (2018); Keil (2003); Kuhn
+(2001); Lipton (1990); Lombrozo (2012, 2016);
+Lombrozo et al. (2019); Woodward and Ross
+(2021).
+
+Explanation methods. The design of evaluation
+studies is a primary focus of this tutorial. And
+the subject of these user studies is machine ex-
+planations. This section provides the necessary
+background knowledge on the generation and pre-
+sentation of machine explanations. We will present
+a high-level taxonomy of explanation methods and
+the challenges each category presents to the eval-
+uation. We cover both local explanations such as
+feature attribution (Ribeiro et al., 2016; Lundberg
+and Lee, 2017; Li et al., 2016) and counterfactu-
+als (Goyal et al., 2019; Verma et al., 2020), and
+global explanations such as prototypes (Snell et al.,
+2017; Gurumoorthy et al., 2019) and adversarial
+rules (Ribeiro et al., 2018; Wallace et al., 2019).
+Our overview will omit technical details such as
+how to computate the input gradient for a specific
+neural network architecture. Instead, we will dis-
+cuss the various design choices behind the presen-
+tation of explanations, such as color mapping, in-
+teractivity, and customizability. For example, lo-
+cal feature importance might be presented as high-
+lighted words in a text classifier, whereas model
+uncertainty (or prediction probability) can be ex-
+posed as either a numerical value or pie chart. Ex-
+planations may be provided either alongside every
+prediction or only on demand. Explanations might
+be static information displays or interactive, sup-
+porting drilling in for more detail, questioning the
+system, or even providing feedback to improve it.
+We will also discuss the limitation of these expla-
+nation methods (Guo et al., 2017; Feng et al., 2018;
+Ye et al., 2021).
+
+Evaluating explanations . We will then pro-
+vide an overview of human-centered evaluation
+approaches.
+
+AppliHuman-subjects evaluation . We will
+start by distinguishing between application-
+grounded evaluation, based on the success of target
+users’ end goal, and simplified evaluation, such as
+asking people to simulate the model predictions
+based on its explanations (Doshi-Velez and Kim,
+2017). While it is currently more common for
+NLP researchers to use simplified evaluation tasks,
+a recent HCI study pointed out their limitations
+and lack of evaluative power to predict the actual
+success in deployment (Buçinca et al., 2020). To
+encourage NLP researchers to move towards per-
+forming application-grounded evaluation, and in a
+principled and efficient fashion, we will introduce a
+taxonomy of common applications of explanations,
+user types and user goals (e.g., model diagnosis,
+decision improvement, trust calibration, auditing
+for biases) based on recent HCI work (Suresh et al.,
+2021; Liao et al., 2020). Using this framework,
+NLP researchers can articulate the user type(s) and
+user goal(s) that a given explanation method is
+meant to serve, and based on that define the eval-
+uation tasks, criteria, subjects to recruit, and so
+on. We will cover common evaluation criteria re-
+garding both the reception of explanations (e.g.,
+easiness to understand, cognitive workload) and
+satisfaction of users’ end goals, and discuss exist-
+ing methods to measure them, such as survey scales
+and behavioral measures. We will also provide
+introductory contents on how to conduct human-
+subjects studies, such as how to recruit participants,
+design tasks and instructions, prevent data noises
+and biases, and common ethical concerns. We will
+also give case studies such as Dodge et al. (2019)
+and Lai and Tan (2019). This tutorial aims to pro-
+mote important considerations in this nascent area
+and introduce existing methods from HCI to in-
+spire establishing best practices. Additional ref-
+erences: (Liao and Varshney, 2021; Zhang et al.,
+2020; Wang and Yin, 2021; McKnight et al., 2002;
+Cheng et al., 2019; Lai et al., 2021; Kaur et al.,
+2020; Jacobs et al., 2020).
+
+Evaluation based on human-provided explana-
+tions. We discuss the advantages and disadvan-
+tages of human-annotated explanations as a means
+for evaluating model explanations.
+Numerous NLP datasets have been released
+with both labels and human-provided explanations.
+These come mostly in the form of rationales in-
+dicating which tokens within a text are important
+or causal for the true label, e.g., (Zaidan et al.,
+2007; Khashabi et al., 2018; Thorne et al., 2018),
+but sometimes consist of natural language e.g.,
+(Camburu et al., 2018). DeYoung et al. (2019) ag-
+gregates several such datasets into one collection,
+while Wiegreffe and Marasovi´c (2021) gives an
+overview of these datasets in the wider literature.
+We discuss the metrics by which human-
+annotated explanations are used to evaluate model-
+generated explanations. This is a relatively straight-
+forward sequence classification-style evaluation for
+rationale-type explanations (F1, MSE, etc.), but a
+more nuanced NLG-style evaluation for natural
+language explanations (Garbacea and Mei, 2020).
+We conclude with a discussion of the validity of
+human-explanations as a gold standard for model
+explanations. Recent work has investigated the in-
+formational properties of human-annotated expla-
+nations, finding that there are gaps between what in-
+formation humans believe is sufficient or necessary
+for prediction (i.e. human-annotated explanations),
+and what actually is so in practice for trained NLP
+models Carton et al. (2020); Hase et al. (2020). We
+discuss the implications of these analyses on the
+validity question, as well as on the future of this style of evaluation.
+
+Summary and future directions . We will conclude by comparing these two main types of human-centered evaluations, recommending best practices, and discussing future directions.

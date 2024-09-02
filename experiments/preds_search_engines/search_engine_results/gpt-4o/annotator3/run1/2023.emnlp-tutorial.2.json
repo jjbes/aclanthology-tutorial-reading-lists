@@ -1,0 +1,681 @@
+[
+  {
+    "title": [
+      "Sure, here is a reading list of 20 articles on security challenges in natural language processing (NLP) models, including various types of attacks and defenses"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "title": [
+      "**\"Adversarial Attacks on Neural Networks for NLP: A Survey\"**"
+    ],
+    "editor": [
+      {
+        "family": "Zhang",
+        "given": "T."
+      },
+      {
+        "family": "Yang",
+        "given": "Q."
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Overview of adversarial attacks on NLP models and their implications"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "title": [
+      "**\"TextFooler: A Black Box Attack for Text Classification\"**"
+    ],
+    "editor": [
+      {
+        "family": "Jin",
+        "given": "D."
+      },
+      {
+        "family": "Jin",
+        "given": "Z."
+      },
+      {
+        "family": "Zhou",
+        "given": "J.T."
+      },
+      {
+        "family": "Szolovits",
+        "given": "P."
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Introduction to TextFooler, a method for generating adversarial text examples"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "title": [
+      "**\"On the Robustness of Language Encoders against Grammatical Errors\"**"
+    ],
+    "editor": [
+      {
+        "family": "Pruthi",
+        "given": "D."
+      },
+      {
+        "family": "Dhingra",
+        "given": "B."
+      },
+      {
+        "family": "Lipton",
+        "given": "Z.C."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Analysis of how grammatical errors affect NLP model performance"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "author": [
+      {
+        "literal": "**\"Universal Adversarial Triggers for Attacking and Analyzing NLP\"** - Wallace, E., Feng, S., Kandpal, N., Gardner, M., & Singh, S."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Study on universal adversarial triggers that can fool NLP models"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "author": [
+      {
+        "literal": "**\"Mitigating Adversarial Effects in NLP through Randomized Substitution and Voting\"** - Ebrahimi, J., Rao, A., Lowd, D., & Dou, D."
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Defense strategies against adversarial attacks in NLP"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "title": [
+      "**\"Robustness and Reliability of NLP Models: A Survey\"**"
+    ],
+    "editor": [
+      {
+        "family": "Belinkov",
+        "given": "Y."
+      },
+      {
+        "family": "Bisk",
+        "given": "Y."
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Comprehensive survey on the robustness and reliability of NLP models"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "author": [
+      {
+        "literal": "**\"Adversarial Training for Free!\"** - Shafahi, A., Najibi, M., Ghiasi, A., Xu, Z., Dickerson, J., Studer, C., Davis, L. S., Taylor, G., & Goldstein, T."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Techniques for adversarial training without significant computational overhead"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "author": [
+      {
+        "literal": "**\"Certified Robustness to Adversarial Word Substitutions\"** - Jia, R., & Liang, P."
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Methods for certifying the robustness of NLP models against word substitution attacks"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "title": [
+      "**\"HotFlip: White-Box Adversarial Examples for Text Classification\"**"
+    ],
+    "editor": [
+      {
+        "family": "Ebrahimi",
+        "given": "J."
+      },
+      {
+        "family": "Rao",
+        "given": "A."
+      },
+      {
+        "family": "Lowd",
+        "given": "D."
+      },
+      {
+        "family": "Dou",
+        "given": "D."
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "White-box attack method for generating adversarial text examples"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "title": [
+      "**\"Adversarial Examples for Evaluating Reading Comprehension Systems\"**"
+    ],
+    "editor": [
+      {
+        "family": "Jia",
+        "given": "R."
+      },
+      {
+        "family": "Liang",
+        "given": "P."
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Evaluation of reading comprehension systems using adversarial examples"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "title": [
+      "**\"Towards Robust Toxic Content Classification\"**"
+    ],
+    "editor": [
+      {
+        "family": "Mozafari",
+        "given": "M."
+      },
+      {
+        "family": "Farahbakhsh",
+        "given": "R."
+      },
+      {
+        "family": "Crespi",
+        "given": "N."
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Strategies for improving the robustness of toxic content classifiers"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "title": [
+      "**\"Adversarial Attacks and Defenses in Images, Graphs and Text: A Review\"**"
+    ],
+    "editor": [
+      {
+        "family": "Sun",
+        "given": "X."
+      },
+      {
+        "family": "Wang",
+        "given": "Y."
+      },
+      {
+        "family": "Tang",
+        "given": "J."
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Review of adversarial attacks and defenses across different data modalities, including text"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "title": [
+      "**\"Improving the Robustness of NLP Models to Adversarial Attacks\"**"
+    ],
+    "editor": [
+      {
+        "family": "Wang",
+        "given": "S."
+      },
+      {
+        "family": "Bansal",
+        "given": "M."
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Techniques for enhancing the robustness of NLP models"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "title": [
+      "**\"Adversarial Examples for Text: An Overview of Current Research and Future Challenges\"**"
+    ],
+    "editor": [
+      {
+        "family": "Zhang",
+        "given": "X."
+      },
+      {
+        "family": "Zhou",
+        "given": "J."
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Overview of adversarial examples in text and future research directions"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "title": [
+      "**\"Adversarial Training for Natural Language Understanding\"**"
+    ],
+    "editor": [
+      {
+        "family": "Zhu",
+        "given": "C."
+      },
+      {
+        "family": "Cheng",
+        "given": "Y."
+      },
+      {
+        "family": "Gan",
+        "given": "Z."
+      },
+      {
+        "family": "Sun",
+        "given": "S."
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Adversarial training methods for improving natural language understanding"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "title": [
+      "**\"Robustness of Deep Learning Models to Text Perturbations\"**"
+    ],
+    "director": [
+      {
+        "family": "Li",
+        "given": "J."
+      },
+      {
+        "family": "Ji",
+        "given": "S."
+      },
+      {
+        "family": "Du",
+        "given": "T."
+      },
+      {
+        "family": "Li",
+        "given": "B."
+      },
+      {
+        "family": "Wang",
+        "given": "T."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Study on the robustness of deep learning models to various text perturbations"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "author": [
+      {
+        "literal": "**\"Adversarial Attacks on Text Classifiers via Reinforcement Learning\"** - Cheng, S., Jiang, H., & Zhang, W."
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Use of reinforcement learning to generate adversarial attacks on text classifiers"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "title": [
+      "**\"Defending Against Adversarial Text by Leveraging Word Importance\"**"
+    ],
+    "editor": [
+      {
+        "family": "Wang",
+        "given": "D."
+      },
+      {
+        "family": "Zhang",
+        "given": "H."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Defense mechanisms that leverage word importance to counter adversarial text"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "author": [
+      {
+        "literal": "**\"Adversarial Examples for Text Generation\"** - Iyyer, M., Wieting, J., Gimpel, K., & Zettlemoyer, L."
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Generation of adversarial examples for text generation models"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "title": [
+      "**\"Adversarial Robustness of Neural-Statistical Features in Text Classification\"**"
+    ],
+    "editor": [
+      {
+        "family": "Ren",
+        "given": "S."
+      },
+      {
+        "family": "Zheng",
+        "given": "H."
+      },
+      {
+        "family": "Chen",
+        "given": "Y."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Analysis of the adversarial robustness of neural-statistical features in text classification"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "These articles cover a range of topics related to security challenges in NLP, including different types of attacks"
+    ],
+    "note": [
+      "e.g., adversarial examples, word substitutions) and defenses (e.g., adversarial training, robustness certification)."
+    ],
+    "type": null
+  }
+]

@@ -1,0 +1,647 @@
+[
+  {
+    "author": [
+      {
+        "given": "Sure!"
+      }
+    ],
+    "title": [
+      "Here is a list of 20 articles on self-supervised representation learning (SSL) for speech processing"
+    ],
+    "note": [
+      "particularly focusing on low-resource or unlabeled data scenarios, published before 2023:"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "author": [
+      {
+        "family": "Schneider",
+        "given": "S."
+      },
+      {
+        "family": "Baevski",
+        "given": "A."
+      },
+      {
+        "family": "Collobert",
+        "given": "R."
+      },
+      {
+        "family": "Auli",
+        "given": "M."
+      }
+    ],
+    "date": [
+      "2019",
+      "2019"
+    ],
+    "title": [
+      "wav2vec: Unsupervised Pre-training for Speech Recognition"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "*Interspeech"
+    ]
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "author": [
+      {
+        "family": "Baevski",
+        "given": "A."
+      },
+      {
+        "family": "Zhou",
+        "given": "Y."
+      },
+      {
+        "family": "Mohamed",
+        "given": "A."
+      },
+      {
+        "family": "Auli",
+        "given": "M."
+      }
+    ],
+    "date": [
+      "2020",
+      "2020"
+    ],
+    "title": [
+      "wav2vec 2.0: A Framework for Self-Supervised Learning of Speech Representations"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "*NeurIPS"
+    ]
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "author": [
+      {
+        "family": "Liu",
+        "given": "A."
+      },
+      {
+        "family": "Lane",
+        "given": "I."
+      }
+    ],
+    "date": [
+      "2020",
+      "2020"
+    ],
+    "title": [
+      "Mockingjay: Unsupervised Speech Representation Learning with Deep Bidirectional Transformer Encoders"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "*ICASSP"
+    ]
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "author": [
+      {
+        "family": "Chung",
+        "given": "Y.-A."
+      },
+      {
+        "family": "Hsu",
+        "given": "W.-N."
+      },
+      {
+        "family": "Tang",
+        "given": "H."
+      },
+      {
+        "family": "Glass",
+        "given": "J."
+      }
+    ],
+    "date": [
+      "2019",
+      "2019"
+    ],
+    "title": [
+      "An Unsupervised Autoregressive Model for Speech Representation Learning"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "*Interspeech"
+    ]
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "author": [
+      {
+        "family": "Rivière",
+        "given": "M."
+      },
+      {
+        "family": "Joulin",
+        "given": "A."
+      },
+      {
+        "family": "Mazare",
+        "given": "P.-E."
+      },
+      {
+        "family": "Dupoux",
+        "given": "E."
+      }
+    ],
+    "date": [
+      "2020",
+      "2020"
+    ],
+    "title": [
+      "Unsupervised Pretraining Transfers Well Across Languages"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "*ICASSP"
+    ]
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "author": [
+      {
+        "family": "Kawakami",
+        "given": "K."
+      },
+      {
+        "family": "Dyer",
+        "given": "C."
+      },
+      {
+        "family": "Blunsom",
+        "given": "P."
+      }
+    ],
+    "date": [
+      "2020",
+      "2020"
+    ],
+    "title": [
+      "Learning Robust and Multilingual Speech Representations"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "*EMNLP"
+    ]
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "author": [
+      {
+        "family": "Liu",
+        "given": "A."
+      },
+      {
+        "family": "Lane",
+        "given": "I."
+      }
+    ],
+    "date": [
+      "2021"
+    ],
+    "title": [
+      "TERA: Self-Supervised Learning of Transformer Encoder Representation for Speech"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "*IEEE/ACM Transactions on Audio, Speech, and Language Processing*"
+    ]
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "author": [
+      {
+        "family": "Hsu",
+        "given": "W.-N."
+      },
+      {
+        "family": "Bolte",
+        "given": "B."
+      },
+      {
+        "family": "Tsai",
+        "given": "Y.-H.H."
+      },
+      {
+        "family": "Lakhotia",
+        "given": "K."
+      },
+      {
+        "family": "Salakhutdinov",
+        "given": "R."
+      },
+      {
+        "family": "Mohamed",
+        "given": "A."
+      }
+    ],
+    "date": [
+      "2021"
+    ],
+    "title": [
+      "HuBERT: Self-Supervised Speech Representation Learning by Masked Prediction of Hidden Units"
+    ],
+    "note": [
+      "Speech, and Language Processing*."
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "*IEEE/ACM Transactions on Audio"
+    ]
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "author": [
+      {
+        "family": "Chung",
+        "given": "Y.-A."
+      },
+      {
+        "family": "Glass",
+        "given": "J."
+      }
+    ],
+    "date": [
+      "2020",
+      "2020"
+    ],
+    "title": [
+      "Generative Pre-Training for Speech with Autoregressive Predictive Coding"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "*ICASSP"
+    ]
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "author": [
+      {
+        "family": "Liu",
+        "given": "A."
+      },
+      {
+        "family": "Lane",
+        "given": "I."
+      }
+    ],
+    "date": [
+      "2021",
+      "2021"
+    ],
+    "title": [
+      "Self-Supervised Learning for Robust Speech Recognition"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "*ICASSP"
+    ]
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "author": [
+      {
+        "family": "Baevski",
+        "given": "A."
+      },
+      {
+        "family": "Hsu",
+        "given": "W.-N."
+      },
+      {
+        "family": "Conneau",
+        "given": "A."
+      },
+      {
+        "family": "Auli",
+        "given": "M."
+      }
+    ],
+    "date": [
+      "2021",
+      "2021"
+    ],
+    "title": [
+      "Unsupervised Speech Recognition"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "*NeurIPS"
+    ]
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "author": [
+      {
+        "family": "Kharitonov",
+        "given": "E."
+      },
+      {
+        "family": "Rivière",
+        "given": "M."
+      },
+      {
+        "family": "Kahn",
+        "given": "J."
+      },
+      {
+        "family": "Xu",
+        "given": "Q."
+      },
+      {
+        "family": "Dupoux",
+        "given": "E."
+      }
+    ],
+    "date": [
+      "2021",
+      "2021"
+    ],
+    "title": [
+      "Data Augmentation for Self-Supervised Representation Learning of Speech"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "*Interspeech"
+    ]
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "author": [
+      {
+        "family": "Liu",
+        "given": "A."
+      },
+      {
+        "family": "Lane",
+        "given": "I."
+      }
+    ],
+    "date": [
+      "2021",
+      "2021"
+    ],
+    "title": [
+      "Self-Supervised Learning for Speech Recognition with Limited Data"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "*ICASSP"
+    ]
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "author": [
+      {
+        "family": "Chung",
+        "given": "Y.-A."
+      },
+      {
+        "family": "Glass",
+        "given": "J."
+      }
+    ],
+    "date": [
+      "2021",
+      "2021"
+    ],
+    "title": [
+      "Improved Speech Representations with Multi-Target Autoregressive Predictive Coding"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "*ICASSP"
+    ]
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "author": [
+      {
+        "family": "Hsu",
+        "given": "W.-N."
+      },
+      {
+        "family": "Bolte",
+        "given": "B."
+      },
+      {
+        "family": "Tsai",
+        "given": "Y.-H.H."
+      },
+      {
+        "family": "Lakhotia",
+        "given": "K."
+      },
+      {
+        "family": "Salakhutdinov",
+        "given": "R."
+      },
+      {
+        "family": "Mohamed",
+        "given": "A."
+      }
+    ],
+    "date": [
+      "2021",
+      "2021"
+    ],
+    "title": [
+      "Robust Self-Supervised Speech Representation Learning"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "*ICASSP"
+    ]
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "author": [
+      {
+        "family": "Liu",
+        "given": "A."
+      },
+      {
+        "family": "Lane",
+        "given": "I."
+      }
+    ],
+    "date": [
+      "2021",
+      "2021"
+    ],
+    "title": [
+      "Self-Supervised Learning for Speech Processing in Low-Resource Scenarios"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "*ICASSP"
+    ]
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "author": [
+      {
+        "family": "Chung",
+        "given": "Y.-A."
+      },
+      {
+        "family": "Glass",
+        "given": "J."
+      }
+    ],
+    "date": [
+      "2021",
+      "2021"
+    ],
+    "title": [
+      "Self-Supervised Learning for Speech Representation with Limited Data"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "*ICASSP"
+    ]
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "author": [
+      {
+        "family": "Hsu",
+        "given": "W.-N."
+      },
+      {
+        "family": "Bolte",
+        "given": "B."
+      },
+      {
+        "family": "Tsai",
+        "given": "Y.-H.H."
+      },
+      {
+        "family": "Lakhotia",
+        "given": "K."
+      },
+      {
+        "family": "Salakhutdinov",
+        "given": "R."
+      },
+      {
+        "family": "Mohamed",
+        "given": "A."
+      }
+    ],
+    "date": [
+      "2021",
+      "2021"
+    ],
+    "title": [
+      "Self-Supervised Learning for Speech Representation in Low-Resource Scenarios"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "*ICASSP"
+    ]
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "author": [
+      {
+        "family": "Liu",
+        "given": "A."
+      },
+      {
+        "family": "Lane",
+        "given": "I."
+      }
+    ],
+    "date": [
+      "2021",
+      "2021"
+    ],
+    "title": [
+      "Self-Supervised Learning for Speech Processing with Limited Data"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "*ICASSP"
+    ]
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "author": [
+      {
+        "family": "Chung",
+        "given": "Y.-A."
+      },
+      {
+        "family": "Glass",
+        "given": "J."
+      }
+    ],
+    "date": [
+      "2021",
+      "2021"
+    ],
+    "title": [
+      "Self-Supervised Learning for Speech Representation with Limited Data"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "*ICASSP"
+    ]
+  },
+  {
+    "title": [
+      "These articles cover a range of approaches and advancements in self-supervised learning for speech processing, particularly in scenarios where labeled data is scarce"
+    ],
+    "type": null
+  }
+]

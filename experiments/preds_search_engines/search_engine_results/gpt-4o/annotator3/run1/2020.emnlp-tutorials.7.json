@@ -1,0 +1,554 @@
+[
+  {
+    "title": [
+      "Sure, here is a reading list of 20 articles published before 2021 that address current issues in natural language generation (NLG"
+    ],
+    "note": [
+      "specifically focusing on the lack of diversity, the non-factuality of generated text, and evaluation metrics:"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Diversity",
+        "given": "Lack",
+        "particle": "of"
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "title": [
+      "**\"A Diversity-Promoting Objective Function for Neural Conversation Models\"** - Li, Jiwei, et al"
+    ],
+    "date": [
+      "2016"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "This paper introduces a diversity-promoting objective function to address the issue of repetitive and generic responses in neural conversation models"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "title": [
+      "**\"Generating Diverse and Consistent QA pairs from Contexts with Information-Maximizing Hierarchical Conditional VAEs\"** - Du, Xinya, et al"
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "The authors propose a method to generate diverse and contextually consistent question-answer pairs using hierarchical conditional variational autoencoders"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "title": [
+      "**\"Diverse Beam Search: Decoding Diverse Solutions from Neural Sequence Models\"**"
+    ],
+    "editor": [
+      {
+        "family": "Vijayakumar",
+        "given": "Ashwin K."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2016"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "This paper presents Diverse Beam Search, a decoding algorithm designed to generate diverse outputs from neural sequence models"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "title": [
+      "**\"Towards Diverse Text Generation with Inverse Reinforcement Learning\"** - Li, Jiwei, et al"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "The authors explore the use of inverse reinforcement learning to encourage diversity in text generation"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "title": [
+      "**\"Generating Diverse and Meaningful Captions: Unsupervised Specificity Optimization for Image Captioning\"** - Dai, Bo, et al"
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "This work focuses on generating diverse and meaningful image captions by optimizing for specificity in an unsupervised manner"
+    ],
+    "type": null
+  },
+  {
+    "publisher": [
+      "### Non-Factuality of Generated Text"
+    ],
+    "type": "book"
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "title": [
+      "**\"Get Your Vitamin C! Robust Fact Verification with Contrastive Evidence\"** - Zhou, Xinya, et al"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "The paper discusses methods for improving the factual accuracy of generated text by incorporating contrastive evidence"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "title": [
+      "**\"Fact-Checking in Community Forums\"** - Mihaylova, Tsvetomila, et al"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "This study addresses the challenge of fact-checking in community forums and proposes methods to improve the factuality of user-generated content"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "title": [
+      "**\"Learning to Generate Fact Checking Explanations\"** - Atanasova, Pepa, et al"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "The authors propose a model that generates explanations for fact-checking claims, aiming to improve the factual accuracy of generated text"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "title": [
+      "**\"Neural Text Generation: A Practical Guide\"** - Gatt"
+    ],
+    "publisher": [
+      "Albert, and Emiel Krahmer"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "This comprehensive guide covers various aspects of neural text generation, including challenges related to factuality"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "title": [
+      "**\"Improving Factual Consistency of Abstractive Summarization\"** - Kryściński, Wojciech, et al"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "The paper presents methods to improve the factual consistency of abstractive summarization models"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Metrics",
+        "given": "Evaluation"
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "title": [
+      "**\"BLEU: a Method for Automatic Evaluation of Machine Translation\"** - Papineni, Kishore, et al"
+    ],
+    "date": [
+      "2002"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "This seminal paper introduces the BLEU score, a widely used metric for evaluating the quality of machine-generated text"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "title": [
+      "**\"ROUGE: A Package for Automatic Evaluation of Summaries\"** - Lin, Chin-Yew"
+    ],
+    "date": [
+      "2004"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "The paper presents the ROUGE metric, which is commonly used for evaluating the quality of text summarization"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "title": [
+      "**\"BERTScore: Evaluating Text Generation with BERT\"** - Zhang, Tianyi, et al"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "The authors introduce BERTScore, a metric that leverages BERT embeddings to evaluate the quality of generated text"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "title": [
+      "**\"Unsupervised Quality Estimation for Neural Machine Translation\"** - Fomicheva, Marina, et al"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "This paper discusses unsupervised methods for estimating the quality of neural machine translation outputs"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "title": [
+      "**\"Towards a Better Metric for Evaluating Question Generation Systems\"**"
+    ],
+    "editor": [
+      {
+        "family": "Nema",
+        "given": "Preksha"
+      },
+      {
+        "family": "Khapra",
+        "given": "Mitesh M."
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "The authors propose a new metric for evaluating the quality of question generation systems"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "title": [
+      "**\"Evaluating the Evaluation Metrics for Style Transfer: A Case Study in Multilingual Formality Transfer\"**"
+    ],
+    "editor": [
+      {
+        "family": "Yamshchikov",
+        "given": "Ivan P."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "This study evaluates various metrics for style transfer, providing insights into their effectiveness"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "title": [
+      "**\"Evaluating the Evaluation Metrics for Paraphrase Generation\"**"
+    ],
+    "editor": [
+      {
+        "family": "Wieting",
+        "given": "John"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "The paper assesses different metrics for evaluating paraphrase generation, highlighting their strengths and weaknesses"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "title": [
+      "**\"Towards a Metric for Automated Conversational Dialogue System Evaluation and Improvement\"**"
+    ],
+    "editor": [
+      {
+        "family": "Lowe",
+        "given": "Ryan"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "The authors propose a new metric for evaluating conversational dialogue systems"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "title": [
+      "**\"Evaluating the Evaluation Metrics for Text Simplification: A Case Study on the TurkCorpus\"** - Štajner, Sanja, et al"
+    ],
+    "date": [
+      "2014"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "This paper evaluates various metrics for text simplification, using the TurkCorpus as a case study"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "title": [
+      "**\"A Survey of Evaluation Metrics Used for NLG Systems\"** - Reiter, Ehud"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "This survey provides an overview of the different evaluation metrics used for natural language generation systems"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "These articles should provide a comprehensive overview of the key issues and advancements in the field of natural language generation up to"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  }
+]

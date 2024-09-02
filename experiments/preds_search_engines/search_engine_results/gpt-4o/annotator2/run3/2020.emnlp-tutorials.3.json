@@ -1,0 +1,587 @@
+[
+  {
+    "author": [
+      {
+        "given": "Sure!"
+      }
+    ],
+    "title": [
+      "Here's a reading list of 20 articles on the interpretability of NLP models, up to the year 2020"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "title": [
+      "**\"Attention is not Explanation\"** by Jain"
+    ],
+    "editor": [
+      {
+        "family": "Sarthak"
+      },
+      {
+        "family": "Wallace",
+        "given": "Byron C."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "This paper questions the common assumption that attention weights can be used as explanations for model predictions"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "title": [
+      "**\"Interpretable and Explainable Deep Learning for Medical Image Analysis: Survey, Applications, and Future Directions\"** by Tjoa"
+    ],
+    "editor": [
+      {
+        "family": "Meutia",
+        "given": "Ernesta"
+      },
+      {
+        "family": "Guan",
+        "given": "Cuntai"
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Although focused on medical image analysis, this survey provides insights into interpretability techniques that are applicable to NLP"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "author": [
+      {
+        "family": "Lei",
+        "given": "Rationalizing Neural Predictions\"",
+        "particle": "by"
+      },
+      {
+        "family": "Tao",
+        "given": "Regina Barzilay"
+      },
+      {
+        "family": "Jaakkola",
+        "given": "Tommi"
+      }
+    ],
+    "date": [
+      "2016"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Introduces a framework for generating rationales, which are subsets of input text that justify the model's predictions"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "author": [
+      {
+        "given": "L.I.M.E."
+      }
+    ],
+    "title": [
+      "Local Interpretable Model-Agnostic Explanations\"** by Ribeiro, Marco Tulio, Sameer Singh, and Carlos Guestrin"
+    ],
+    "date": [
+      "2016"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Proposes a model-agnostic approach to explain individual predictions, applicable to NLP models"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "title": [
+      "**\"Anchors: High-Precision Model-Agnostic Explanations\"** by Ribeiro, Marco Tulio, Sameer Singh, and Carlos Guestrin"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Extends LIME by providing high-precision explanations using anchors, which are conditions that almost always guarantee a particular prediction"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "author": [
+      {
+        "family": "You?\"",
+        "given": "Why Should I.Trust"
+      }
+    ],
+    "title": [
+      "Explaining the Predictions of Any Classifier\"** by Ribeiro, Marco Tulio, Sameer Singh, and Carlos Guestrin"
+    ],
+    "date": [
+      "2016"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Discusses the importance of model interpretability and introduces techniques to explain classifier predictions"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "title": [
+      "**\"A Unified Approach to Interpreting Model Predictions\"** by Lundberg"
+    ],
+    "editor": [
+      {
+        "family": "M.",
+        "given": "Scott"
+      },
+      {
+        "family": "Lee",
+        "given": "Su-In"
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Introduces SHAP (SHapley Additive exPlanations), a unified framework for interpreting predictions"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "title": [
+      "**\"Visualizing and Understanding Neural Models in NLP\"** by Karpathy"
+    ],
+    "editor": [
+      {
+        "family": "Andrej",
+        "given": "Justin Johnson"
+      },
+      {
+        "family": "Fei-Fei",
+        "given": "Li"
+      }
+    ],
+    "date": [
+      "2015"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Uses visualization techniques to understand the inner workings of neural networks in NLP"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "title": [
+      "**\"Evaluating the Interpretability of Generative Models by Interactive Reconstruction\"** by Kim"
+    ],
+    "editor": [
+      {
+        "family": "Been",
+        "given": "Rajiv Khanna"
+      },
+      {
+        "family": "Koyejo",
+        "given": "Oluwasanmi"
+      }
+    ],
+    "date": [
+      "2016"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Proposes methods to evaluate the interpretability of generative models through interactive reconstruction"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "title": [
+      "**\"Interpretability Beyond Feature Attribution: Quantitative Testing with Concept Activation Vectors (TCAV)\"** by Kim, Been, et al"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Introduces TCAV, a method to test the influence of high-level concepts on model predictions"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "title": [
+      "**\"Interpretability of Deep Learning Models: A Survey of Results\"** by Gilpin"
+    ],
+    "editor": [
+      {
+        "family": "Leilani",
+        "given": "H."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Surveys various interpretability methods for deep learning models, including those used in NLP"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "title": [
+      "**\"Learning to Explain: An Information-Theoretic Perspective on Model Interpretation\"** by Chen, Jianbo, et al"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Proposes an information-theoretic approach to model interpretation"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "title": [
+      "**\"Contextual Decomposition for Neural Network Interpretability\"** by Murdoch"
+    ],
+    "editor": [
+      {
+        "family": "James",
+        "given": "W."
+      },
+      {
+        "family": "Yu",
+        "given": "Bin"
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Introduces contextual decomposition, a method to interpret individual predictions by decomposing the network's output"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "author": [
+      {
+        "family": "Lipton",
+        "given": "The Mythos",
+        "particle": "of Model Interpretability\" by"
+      },
+      {
+        "family": "C",
+        "given": "Zachary"
+      }
+    ],
+    "date": [
+      "2016"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Discusses the challenges and misconceptions surrounding model interpretability"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "title": [
+      "**\"Attention is All You Need\"** by Vaswani, Ashish, et al"
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "While primarily introducing the Transformer model, this paper has significant implications for interpretability in NLP"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "title": [
+      "**\"Explainable Artificial Intelligence (XAI): Concepts, Taxonomies, Opportunities and Challenges toward Responsible AI\"** by Arrieta, Alejandro Barredo, et al"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Provides a comprehensive overview of explainable AI, including techniques relevant to NLP"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "title": [
+      "**\"A Survey of Methods for Explaining Black Box Models\"** by Guidotti, Riccardo, et al"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Surveys various methods for explaining black-box models, including those used in NLP"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "title": [
+      "**\"Interpretability for NLP: State of the Art and Challenges\"** by Danilevsky, Marina, et al"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "A survey specifically focused on interpretability techniques in NLP"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "title": [
+      "**\"Towards a Rigorous Science of Interpretable Machine Learning\"** by Doshi-Velez, Finale, and Been Kim"
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Discusses the need for rigorous scientific methods in the study of interpretable machine learning"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "title": [
+      "**\"From Word Embeddings to Document Distances\"** by Kusner"
+    ],
+    "editor": [
+      {
+        "family": "Matt",
+        "given": "J."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2015"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Introduces the Word Mover's Distance, a method that can be used to interpret word embeddings in NLP models"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "These articles cover a range of techniques and perspectives on the interpretability of NLP models, providing a solid foundation for understanding this important area of research"
+    ],
+    "type": null
+  }
+]

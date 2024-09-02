@@ -1,0 +1,647 @@
+[
+  {
+    "author": [
+      {
+        "given": "Sure!"
+      }
+    ],
+    "title": [
+      "Here's a reading list of 20 articles on the interpretability of Natural Language Processing (NLP) models up to 2020"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "author": [
+      {
+        "literal": "**\"Attention is not Explanation\"** - Jain, S., & Wallace, B. C."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "*Findings*: This paper questions the common assumption that attention weights in neural networks provide meaningful explanations"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "title": [
+      "**\"Interpretable and Compositional Relation Learning by Joint Training with an Autoencoder\"**"
+    ],
+    "editor": [
+      {
+        "family": "Zhang",
+        "given": "Y."
+      },
+      {
+        "family": "Yang",
+        "given": "Q."
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "*Findings*: Discusses a method for learning interpretable relations in NLP models using joint training with an autoencoder"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "author": [
+      {
+        "literal": "**\"Rationalizing Neural Predictions\"** - Lei, T., Barzilay, R., & Jaakkola, T."
+      }
+    ],
+    "date": [
+      "2016"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "*Findings*: Proposes a method to generate rationales for model predictions, making the decision process more interpretable"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "title": [
+      "**\"A Hierarchical Latent Variable Encoder-Decoder Model for Generating Dialogues\"**"
+    ],
+    "editor": [
+      {
+        "family": "Serban",
+        "given": "I.V."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "*Findings*: Introduces a hierarchical model for dialogue generation that includes interpretable latent variables"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "author": [
+      {
+        "given": "L.I.M.E."
+      }
+    ],
+    "title": [
+      "Local Interpretable Model-agnostic Explanations\"**"
+    ],
+    "editor": [
+      {
+        "family": "Ribeiro",
+        "given": "M.T."
+      },
+      {
+        "family": "Singh",
+        "given": "S."
+      },
+      {
+        "family": "Guestrin",
+        "given": "C."
+      }
+    ],
+    "date": [
+      "2016"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "*Findings*: Presents LIME, a technique for explaining the predictions of any classifier in an interpretable manner"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "author": [
+      {
+        "literal": "**\"Anchors: High-Precision Model-Agnostic Explanations\"** - Ribeiro, M. T., Singh, S., & Guestrin, C."
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "*Findings*: Extends LIME by introducing anchors, which are high-precision rules that explain model predictions"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "title": [
+      "**\"Interpretable Neural Architectures for Attributing an Ad’s Performance to its Writing Style\"**"
+    ],
+    "editor": [
+      {
+        "family": "Yang",
+        "given": "D."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "*Findings*: Develops interpretable neural models to attribute the performance of advertisements to their writing style"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "title": [
+      "**\"A Unified Approach to Interpreting Model Predictions\"**"
+    ],
+    "editor": [
+      {
+        "family": "Lundberg",
+        "given": "S.M."
+      }
+    ],
+    "location": [
+      "Lee, S.-I"
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "*Findings*: Proposes SHAP (SHapley Additive exPlanations), a unified framework for interpreting predictions"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "title": [
+      "**\"Learning to Explain: An Information-Theoretic Perspective on Model Interpretation\"**"
+    ],
+    "editor": [
+      {
+        "family": "Chen",
+        "given": "J."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "*Findings*: Introduces an information-theoretic approach to model interpretation, focusing on learning to explain"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "title": [
+      "**\"Interpretability Beyond Feature Attribution: Quantitative Testing with Concept Activation Vectors (TCAV)\"**"
+    ],
+    "editor": [
+      {
+        "family": "Kim",
+        "given": "B."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "*Findings*: Proposes TCAV, a method for testing model interpretability using concept activation vectors"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "title": [
+      "**\"Contextual Decomposition for Neural Network Interpretability\"**"
+    ],
+    "editor": [
+      {
+        "family": "Murdoch",
+        "given": "W.J."
+      },
+      {
+        "family": "Szlam",
+        "given": "A."
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "*Findings*: Introduces contextual decomposition, a method to interpret individual predictions of neural networks"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "title": [
+      "**\"Explaining the Predictions of Any Classifier\"**"
+    ],
+    "editor": [
+      {
+        "family": "Ribeiro",
+        "given": "M.T."
+      },
+      {
+        "family": "Singh",
+        "given": "S."
+      },
+      {
+        "family": "Guestrin",
+        "given": "C."
+      }
+    ],
+    "date": [
+      "2016"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "*Findings*: Discusses a model-agnostic approach to explain classifier predictions using interpretable approximations"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "title": [
+      "**\"Visualizing and Understanding Neural Models in NLP\"**"
+    ],
+    "editor": [
+      {
+        "family": "Li",
+        "given": "J."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2016"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "*Findings*: Provides techniques for visualizing and understanding the inner workings of neural models in NLP"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "title": [
+      "**\"Towards a Rigorous Science of Interpretable Machine Learning\"**"
+    ],
+    "editor": [
+      {
+        "family": "Doshi-Velez",
+        "given": "F."
+      },
+      {
+        "family": "Kim",
+        "given": "B."
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "*Findings*: Discusses the need for rigorous scientific methods to evaluate interpretability in machine learning"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "title": [
+      "**\"Evaluating and Enhancing the Robustness of Dialogue Systems: A Case Study on a Negotiation Agent\"**"
+    ],
+    "editor": [
+      {
+        "family": "He",
+        "given": "H."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "*Findings*: Evaluates the robustness and interpretability of dialogue systems, focusing on a negotiation agent"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "title": [
+      "**\"Interpretability of Deep Learning Models: A Survey of Results\"**"
+    ],
+    "editor": [
+      {
+        "family": "Gilpin",
+        "given": "L.H."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "*Findings*: Surveys various methods and results related to the interpretability of deep learning models"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "author": [
+      {
+        "literal": "**\"Attention is All You Need\"** - Vaswani, A., et al."
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "*Findings*: Introduces the Transformer model, which relies on self-attention mechanisms that can be interpreted to some extent"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "author": [
+      {
+        "literal": "**\"The Mythos of Model Interpretability\"** - Lipton, Z. C."
+      }
+    ],
+    "date": [
+      "2016"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "*Findings*: Discusses the challenges and misconceptions surrounding the interpretability of machine learning models"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "title": [
+      "**\"Learning Important Features Through Propagating Activation Differences\"**"
+    ],
+    "author": [
+      {
+        "family": "Shrikumar",
+        "given": "A."
+      },
+      {
+        "family": "Greenside",
+        "given": "P."
+      },
+      {
+        "family": "Kundaje",
+        "given": "A."
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "*Findings*: Proposes DeepLIFT, a method for attributing the importance of input features in neural networks"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "title": [
+      "**\"Explainable Artificial Intelligence (XAI): Concepts, Taxonomies, Opportunities and Challenges toward Responsible AI\"**"
+    ],
+    "editor": [
+      {
+        "family": "Arrieta",
+        "given": "A.B."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "*Findings*: Provides a comprehensive overview of explainable AI, including concepts, taxonomies, and challenges"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "These articles cover a range of approaches and perspectives on the interpretability of NLP models, from theoretical discussions to practical techniques and evaluations"
+    ],
+    "type": null
+  }
+]

@@ -1,0 +1,823 @@
+[
+  {
+    "author": [
+      {
+        "given": "Certainly!"
+      }
+    ],
+    "title": [
+      "Here's a curated list of 20 articles up to 2022 that cover various aspects of information extraction (IE) from unstructured, noisy, or insufficient text sources"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "title": [
+      "**\"DeepDive: A Data Management System for Automatic Knowledge Base Construction\"**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Authors: Ce Zhang, Christopher Ré"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "location": [
+      "Conference"
+    ],
+    "publisher": [
+      "VLDB"
+    ],
+    "date": [
+      "2014"
+    ],
+    "type": "book"
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "title": [
+      "**\"Bootstrapping Named Entity Recognition with Weak Supervision\"**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Authors: Alan Akbik"
+    ],
+    "location": [
+      "Duncan Blythe, Roland Vollgraf"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "location": [
+      "Conference"
+    ],
+    "publisher": [
+      "ACL"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": "book"
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "title": [
+      "**\"Distant Supervision for Relation Extraction via Piecewise Convolutional Neural Networks\"**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Authors"
+    ],
+    "editor": [
+      {
+        "family": "Zhang",
+        "given": "Yuhao"
+      },
+      {
+        "family": "Zhong",
+        "given": "Victor"
+      },
+      {
+        "family": "Chen",
+        "given": "Danqi"
+      },
+      {
+        "family": "Angeli",
+        "given": "Gabor"
+      },
+      {
+        "family": "Manning",
+        "given": "Christopher D."
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "location": [
+      "Conference"
+    ],
+    "publisher": [
+      "EMNLP"
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": "book"
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "title": [
+      "**\"Joint Extraction of Entities and Relations Based on a Novel Tagging Scheme\"**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Authors",
+        "given": "Xiaotian Jiang"
+      },
+      {
+        "family": "Wang",
+        "given": "Quan"
+      },
+      {
+        "family": "Li",
+        "given": "Peng"
+      },
+      {
+        "family": "Wang",
+        "given": "Bin"
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "location": [
+      "Conference"
+    ],
+    "publisher": [
+      "ACL"
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": "book"
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "title": [
+      "**\"Open Information Extraction from the Web\"**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Authors",
+        "given": "Michele Banko"
+      },
+      {
+        "family": "Cafarella",
+        "given": "Michael J."
+      },
+      {
+        "family": "Soderland",
+        "given": "Stephen"
+      },
+      {
+        "family": "Broadhead",
+        "given": "Matt"
+      },
+      {
+        "family": "Etzioni",
+        "given": "Oren"
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "location": [
+      "Conference"
+    ],
+    "publisher": [
+      "IJCAI"
+    ],
+    "date": [
+      "2007"
+    ],
+    "type": "book"
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "title": [
+      "**\"Bootstrapping Information Extraction from Semi-Structured Web Pages\"**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Authors: Eugene Agichtein, Luis Gravano"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "location": [
+      "Conference"
+    ],
+    "publisher": [
+      "SIGMOD"
+    ],
+    "date": [
+      "2000"
+    ],
+    "type": "book"
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "title": [
+      "**\"Fine-Grained Opinion Extraction from Rotten Tomatoes Reviews\"**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Authors",
+        "given": "Richard Socher"
+      },
+      {
+        "family": "Perelygin",
+        "given": "Alex"
+      },
+      {
+        "family": "Wu",
+        "given": "Jean"
+      },
+      {
+        "family": "Chuang",
+        "given": "Jason"
+      },
+      {
+        "family": "Manning",
+        "given": "Christopher D."
+      },
+      {
+        "family": "Ng",
+        "given": "Andrew Y."
+      },
+      {
+        "family": "Potts",
+        "given": "Christopher"
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "location": [
+      "Conference"
+    ],
+    "publisher": [
+      "ACL"
+    ],
+    "date": [
+      "2013"
+    ],
+    "type": "book"
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "title": [
+      "**\"Noise-Aware Training for Neural Sequence Labeling\"**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "location": [
+      "Authors"
+    ],
+    "publisher": [
+      "Zihan Wang, Wei Lu, Thien Huu Nguyen"
+    ],
+    "type": "book"
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "location": [
+      "Conference"
+    ],
+    "publisher": [
+      "NAACL"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": "book"
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "title": [
+      "**\"Extracting Structured Data from Web Pages\"**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Authors",
+        "given": "Michael J.Cafarella"
+      },
+      {
+        "family": "Halevy",
+        "given": "Alon Y."
+      },
+      {
+        "family": "Wang",
+        "given": "Daisy Zhe"
+      },
+      {
+        "family": "Wu",
+        "given": "Eugene"
+      },
+      {
+        "family": "Zhang",
+        "given": "Yang"
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "location": [
+      "Conference"
+    ],
+    "publisher": [
+      "VLDB"
+    ],
+    "date": [
+      "2008"
+    ],
+    "type": "book"
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "title": [
+      "**\"A Survey on Relation Extraction\"**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Authors: Heng Ji, Ralph Grishman"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "location": [
+      "Journal"
+    ],
+    "publisher": [
+      "ACM Computing Surveys"
+    ],
+    "date": [
+      "2011"
+    ],
+    "type": "book"
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "title": [
+      "**\"Joint Extraction of Entities and Relations Using Reinforcement Learning and Deep Learning\"**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Authors: Yaqing Wang, Wei Lu"
+    ],
+    "publisher": [
+      "Thien Huu Nguyen, Guodong Zhou"
+    ],
+    "type": "book"
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "location": [
+      "Conference"
+    ],
+    "publisher": [
+      "AAAI"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": "book"
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "title": [
+      "**\"Information Extraction from Social Media Texts\"**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Authors: Amitava Das, Björn Gambäck"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "location": [
+      "Conference"
+    ],
+    "publisher": [
+      "WASSA"
+    ],
+    "date": [
+      "2014"
+    ],
+    "type": "book"
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "note": [
+      "**\"Extracting Structured Information from User-Generated Content\"**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "location": [
+      "Authors"
+    ],
+    "publisher": [
+      "Aria Haghighi, Dan Klein"
+    ],
+    "type": "book"
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "location": [
+      "Conference"
+    ],
+    "publisher": [
+      "IJCAI"
+    ],
+    "date": [
+      "2010"
+    ],
+    "type": "book"
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "title": [
+      "**\"Learning to Extract Information from Semi-Structured Text Using a Discriminative Context-Free Grammar\"**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Authors",
+        "given": "Percy Liang"
+      },
+      {
+        "family": "Jordan",
+        "given": "Michael I."
+      },
+      {
+        "family": "Klein",
+        "given": "Dan"
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "location": [
+      "Conference"
+    ],
+    "publisher": [
+      "NAACL"
+    ],
+    "date": [
+      "2009"
+    ],
+    "type": "book"
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "publisher": [
+      "**\"Extracting Relations from Noisy Data\"**"
+    ],
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "family": "Authors",
+        "given": "Razvan C.Bunescu"
+      },
+      {
+        "family": "Mooney",
+        "given": "Raymond J."
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "location": [
+      "Conference"
+    ],
+    "publisher": [
+      "HLT-EMNLP"
+    ],
+    "date": [
+      "2005"
+    ],
+    "type": "book"
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "title": [
+      "**\"Cross-Sentence N-ary Relation Extraction with Graph LSTMs\"**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Authors: Makoto Miwa, Mohit Bansal"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "location": [
+      "Conference"
+    ],
+    "publisher": [
+      "TACL"
+    ],
+    "date": [
+      "2016"
+    ],
+    "type": "book"
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "title": [
+      "**\"Open Information Extraction using Wikipedia\"**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Authors",
+        "given": "Fei Wu"
+      },
+      {
+        "family": "Weld",
+        "given": "Daniel S."
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "location": [
+      "Conference"
+    ],
+    "publisher": [
+      "ACL"
+    ],
+    "date": [
+      "2010"
+    ],
+    "type": "book"
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "title": [
+      "**\"Information Extraction from Unstructured Text for Generating High-Quality Training Data\"**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "location": [
+      "Authors"
+    ],
+    "publisher": [
+      "Michael J. Paul, Mark Dredze"
+    ],
+    "type": "book"
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "location": [
+      "Conference"
+    ],
+    "publisher": [
+      "ACL"
+    ],
+    "date": [
+      "2011"
+    ],
+    "type": "book"
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "title": [
+      "**\"Extracting Structured Information from Text: A Survey\"**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Authors: R"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "Grishman"
+    ]
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "date": [
+      "1997"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "Journal: AI Magazine"
+    ]
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "title": [
+      "**\"Extracting Structured Information from User Reviews\"**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "location": [
+      "Authors"
+    ],
+    "publisher": [
+      "Ivan Titov, Ryan McDonald"
+    ],
+    "type": "book"
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "location": [
+      "Conference"
+    ],
+    "publisher": [
+      "ACL"
+    ],
+    "date": [
+      "2008"
+    ],
+    "type": "book"
+  },
+  {
+    "title": [
+      "These articles cover a range of techniques and challenges in the field of information extraction, including deep learning approaches, distant supervision, reinforcement learning, and handling noisy data. They provide a comprehensive overview of the progress and ongoing challenges in extracting structured information from unstructured text sources"
+    ],
+    "type": null
+  }
+]

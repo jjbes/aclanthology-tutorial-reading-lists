@@ -1,0 +1,562 @@
+[
+  {
+    "title": [
+      "Sure, here is a list of 20 articles on non-autoregressive sequence generation in the context of natural language processing (NLP"
+    ],
+    "container-title": [
+      "with a focus on improving sequence generation speed"
+    ],
+    "type": "chapter"
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "author": [
+      {
+        "family": "Gu",
+        "given": "Jiatao"
+      },
+      {
+        "others": true
+      }
+    ],
+    "title": [
+      "Non-autoregressive neural machine translation.\"**"
+    ],
+    "note": [
+      "arXiv preprint arXiv:1711.02281"
+    ],
+    "date": [
+      "2017"
+    ],
+    "arxiv": [
+      "1711.02281"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "author": [
+      {
+        "family": "Lee",
+        "given": "Jason"
+      },
+      {
+        "family": "Mansimov",
+        "given": "Elman"
+      },
+      {
+        "family": "Cho",
+        "given": "Kyunghyun"
+      }
+    ],
+    "title": [
+      "Deterministic non-autoregressive neural sequence modeling by iterative refinement.\"**"
+    ],
+    "note": [
+      "arXiv preprint arXiv:1802.06901"
+    ],
+    "date": [
+      "2018"
+    ],
+    "arxiv": [
+      "1802.06901"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "author": [
+      {
+        "family": "Kaiser",
+        "given": "Łukasz"
+      },
+      {
+        "others": true
+      }
+    ],
+    "title": [
+      "Fast decoding in sequence models using discrete latent variables.\"**"
+    ],
+    "note": [
+      "arXiv preprint arXiv:1803.03382"
+    ],
+    "date": [
+      "2018"
+    ],
+    "arxiv": [
+      "1803.03382"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "author": [
+      {
+        "family": "Ghazvininejad",
+        "given": "Marjan"
+      },
+      {
+        "others": true
+      }
+    ],
+    "title": [
+      "Mask-predict: Parallel decoding of conditional masked language models.\"**"
+    ],
+    "note": [
+      "arXiv preprint arXiv:1904.09324"
+    ],
+    "date": [
+      "2019"
+    ],
+    "arxiv": [
+      "1904.09324"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "author": [
+      {
+        "family": "Stern",
+        "given": "Mitchell"
+      },
+      {
+        "others": true
+      }
+    ],
+    "title": [
+      "Insertion transformer: Flexible sequence generation via insertion operations.\"**"
+    ],
+    "note": [
+      "arXiv preprint arXiv:1902.03249"
+    ],
+    "date": [
+      "2019"
+    ],
+    "arxiv": [
+      "1902.03249"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "author": [
+      {
+        "family": "Guo",
+        "given": "Han"
+      },
+      {
+        "others": true
+      }
+    ],
+    "title": [
+      "Non-autoregressive neural machine translation with enhanced decoder input.\"**"
+    ],
+    "note": [
+      "arXiv preprint arXiv:1911.01397"
+    ],
+    "date": [
+      "2019"
+    ],
+    "arxiv": [
+      "1911.01397"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "author": [
+      {
+        "family": "Sun",
+        "given": "Zhiqing"
+      },
+      {
+        "others": true
+      }
+    ],
+    "title": [
+      "Fast structured decoding for sequence models.\"**"
+    ],
+    "note": [
+      "arXiv preprint arXiv:1910.11555"
+    ],
+    "date": [
+      "2019"
+    ],
+    "arxiv": [
+      "1910.11555"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "author": [
+      {
+        "family": "Wang",
+        "given": "Rui"
+      },
+      {
+        "others": true
+      }
+    ],
+    "title": [
+      "Non-autoregressive machine translation with auxiliary regularization.\"**"
+    ],
+    "note": [
+      "arXiv preprint arXiv:1902.10245"
+    ],
+    "date": [
+      "2019"
+    ],
+    "arxiv": [
+      "1902.10245"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "author": [
+      {
+        "family": "Saharia",
+        "given": "Chitwan"
+      },
+      {
+        "others": true
+      }
+    ],
+    "title": [
+      "Non-autoregressive machine translation with latent alignments.\"**"
+    ],
+    "note": [
+      "arXiv preprint arXiv:2004.07437"
+    ],
+    "date": [
+      "2020"
+    ],
+    "arxiv": [
+      "2004.07437"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "author": [
+      {
+        "family": "Qian",
+        "given": "Yiren"
+      },
+      {
+        "others": true
+      }
+    ],
+    "title": [
+      "Glancing transformer for non-autoregressive neural machine translation.\"**"
+    ],
+    "note": [
+      "arXiv preprint arXiv:2008.07905"
+    ],
+    "date": [
+      "2020"
+    ],
+    "arxiv": [
+      "2008.07905"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "author": [
+      {
+        "family": "Kasai",
+        "given": "Jungo"
+      },
+      {
+        "others": true
+      }
+    ],
+    "title": [
+      "Parallel machine translation with disentangled context transformer.\"**"
+    ],
+    "note": [
+      "arXiv preprint arXiv:2001.05136"
+    ],
+    "date": [
+      "2020"
+    ],
+    "arxiv": [
+      "2001.05136"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "author": [
+      {
+        "family": "Ran",
+        "given": "Qian"
+      },
+      {
+        "others": true
+      }
+    ],
+    "title": [
+      "Guiding non-autoregressive neural machine translation decoding with reordering information.\"**"
+    ],
+    "note": [
+      "arXiv preprint arXiv:2010.12762"
+    ],
+    "date": [
+      "2020"
+    ],
+    "arxiv": [
+      "2010.12762"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "author": [
+      {
+        "family": "Ghazvininejad",
+        "given": "Marjan"
+      },
+      {
+        "others": true
+      }
+    ],
+    "title": [
+      "Aligned cross entropy for non-autoregressive machine translation.\"**"
+    ],
+    "note": [
+      "arXiv preprint arXiv:2004.01655"
+    ],
+    "date": [
+      "2020"
+    ],
+    "arxiv": [
+      "2004.01655"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "author": [
+      {
+        "family": "Saharia",
+        "given": "Chitwan"
+      },
+      {
+        "others": true
+      }
+    ],
+    "title": [
+      "Non-autoregressive text-to-speech synthesis with conditional variational autoencoders.\"**"
+    ],
+    "note": [
+      "arXiv preprint arXiv:2008.12527"
+    ],
+    "date": [
+      "2020"
+    ],
+    "arxiv": [
+      "2008.12527"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "author": [
+      {
+        "family": "Gu",
+        "given": "Jiatao"
+      },
+      {
+        "others": true
+      }
+    ],
+    "title": [
+      "Fully non-autoregressive neural machine translation"
+    ],
+    "note": [
+      "Tricks of the trade.\"** arXiv preprint arXiv:2004.10454"
+    ],
+    "date": [
+      "2020"
+    ],
+    "arxiv": [
+      "2004.10454"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "author": [
+      {
+        "family": "Song",
+        "given": "Linfeng"
+      },
+      {
+        "others": true
+      }
+    ],
+    "title": [
+      "Align-Refine: Non-Autoregressive Speech Recognition via Iterative Realignment.\"**"
+    ],
+    "note": [
+      "arXiv preprint arXiv:2005.11072"
+    ],
+    "date": [
+      "2020"
+    ],
+    "arxiv": [
+      "2005.11072"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "author": [
+      {
+        "family": "Huang",
+        "given": "Po-Sen"
+      },
+      {
+        "others": true
+      }
+    ],
+    "title": [
+      "Non-Autoregressive Conditional Sequence Generation with Local Contextual Loss.\"**"
+    ],
+    "note": [
+      "arXiv preprint arXiv:2002.03518"
+    ],
+    "date": [
+      "2020"
+    ],
+    "arxiv": [
+      "2002.03518"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "author": [
+      {
+        "family": "Libovický",
+        "given": "Jindřich"
+      },
+      {
+        "others": true
+      }
+    ],
+    "title": [
+      "Variational Non-Autoregressive Neural Sequence Generation.\"**"
+    ],
+    "note": [
+      "arXiv preprint arXiv:2008.11522"
+    ],
+    "date": [
+      "2020"
+    ],
+    "arxiv": [
+      "2008.11522"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "author": [
+      {
+        "family": "Zhou",
+        "given": "Hao"
+      },
+      {
+        "others": true
+      }
+    ],
+    "title": [
+      "Understanding Knowledge Distillation"
+    ],
+    "note": [
+      "in Non-autoregressive Machine Translation.\"** arXiv preprint arXiv:2012.15324"
+    ],
+    "date": [
+      "2020"
+    ],
+    "arxiv": [
+      "2012.15324"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "author": [
+      {
+        "family": "Qian",
+        "given": "Yiren"
+      },
+      {
+        "others": true
+      }
+    ],
+    "title": [
+      "Non-Autoregressive Neural Machine Translation with Enhanced Decoder Input.\"**"
+    ],
+    "note": [
+      "arXiv preprint arXiv:1911.01397"
+    ],
+    "date": [
+      "2019"
+    ],
+    "arxiv": [
+      "1911.01397"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "These articles cover a range of techniques and improvements in non-autoregressive sequence generation, particularly focusing on speed and efficiency in NLP tasks"
+    ],
+    "type": null
+  }
+]

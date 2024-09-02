@@ -1,0 +1,904 @@
+[
+  {
+    "author": [
+      {
+        "given": "Sure!"
+      }
+    ],
+    "title": [
+      "Here's a reading list of 20 articles on Graph Neural Networks (GNNs"
+    ],
+    "container-title": [
+      "for solving Natural Language Processing (NLP) tasks, up to the year 2021"
+    ],
+    "type": "chapter"
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "author": [
+      {
+        "family": "Kipf",
+        "given": "T.N."
+      },
+      {
+        "family": "Welling",
+        "given": "M."
+      }
+    ],
+    "date": [
+      "2017",
+      "2017"
+    ],
+    "title": [
+      "Semi-Supervised Classification with Graph Convolutional Networks"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "*ICLR"
+    ]
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "This foundational paper introduces Graph Convolutional Networks (GCNs), which have been widely adopted in various NLP tasks"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "author": [
+      {
+        "family": "Velickovic",
+        "given": "P."
+      },
+      {
+        "family": "Cucurull",
+        "given": "G."
+      },
+      {
+        "family": "Casanova",
+        "given": "A."
+      },
+      {
+        "family": "Romero",
+        "given": "A."
+      },
+      {
+        "family": "Lio",
+        "given": "P."
+      },
+      {
+        "family": "Bengio",
+        "given": "Y."
+      }
+    ],
+    "date": [
+      "2018",
+      "2018"
+    ],
+    "title": [
+      "Graph Attention Networks"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "*ICLR"
+    ]
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Introduces Graph Attention Networks (GATs), which leverage attention mechanisms in GNNs"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "author": [
+      {
+        "family": "Yao",
+        "given": "L."
+      },
+      {
+        "family": "Mao",
+        "given": "C."
+      },
+      {
+        "family": "Luo",
+        "given": "Y."
+      }
+    ],
+    "date": [
+      "2019",
+      "2019"
+    ],
+    "title": [
+      "Graph Convolutional Networks for Text Classification"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "*AAAI"
+    ]
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Demonstrates the application of GCNs for text classification tasks"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "author": [
+      {
+        "family": "Zhang",
+        "given": "Y."
+      },
+      {
+        "family": "Yang",
+        "given": "Q."
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "title": [
+      "An Overview of Multi-Task Learning in Deep Neural Networks"
+    ],
+    "note": [
+      "*arXiv preprint arXiv:1706.05098.*"
+    ],
+    "arxiv": [
+      "1706.05098"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Provides a comprehensive overview of multi-task learning, including the use of GNNs in NLP"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "author": [
+      {
+        "family": "Wu",
+        "given": "Z."
+      },
+      {
+        "family": "Pan",
+        "given": "S."
+      },
+      {
+        "family": "Chen",
+        "given": "F."
+      },
+      {
+        "family": "Long",
+        "given": "G."
+      },
+      {
+        "family": "Zhang",
+        "given": "C."
+      },
+      {
+        "family": "Yu",
+        "given": "P.S."
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "title": [
+      "A Comprehensive Survey on Graph Neural Networks"
+    ],
+    "container-title": [
+      "*IEEE Transactions on Neural Networks and Learning Systems.*"
+    ],
+    "type": "chapter"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "A detailed survey covering various GNN architectures and their applications, including NLP"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "author": [
+      {
+        "family": "Zhang",
+        "given": "M."
+      },
+      {
+        "family": "Chen",
+        "given": "Y."
+      }
+    ],
+    "date": [
+      "2018",
+      "2018"
+    ],
+    "title": [
+      "Link Prediction Based on Graph Neural Networks"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "*NeurIPS"
+    ]
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Discusses link prediction in graphs, which is relevant for NLP tasks like knowledge graph completion"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "author": [
+      {
+        "family": "Xu",
+        "given": "K."
+      },
+      {
+        "family": "Hu",
+        "given": "W."
+      },
+      {
+        "family": "Leskovec",
+        "given": "J."
+      },
+      {
+        "family": "Jegelka",
+        "given": "S."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "container-title": [
+      "\"How Powerful are Graph Neural Networks?\" *ICLR 2019.*"
+    ],
+    "type": "chapter"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Analyzes the representational power of GNNs, providing insights into their application in NLP"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "author": [
+      {
+        "family": "Nathani",
+        "given": "D."
+      },
+      {
+        "family": "Chauhan",
+        "given": "J."
+      },
+      {
+        "family": "Sharma",
+        "given": "C."
+      },
+      {
+        "family": "Kaul",
+        "given": "M."
+      }
+    ],
+    "date": [
+      "2019",
+      "2019"
+    ],
+    "title": [
+      "Learning Attention-based Embeddings for Relation Prediction in Knowledge Graphs"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "*ACL"
+    ]
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Explores the use of attention mechanisms in GNNs for relation prediction in knowledge graphs"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "author": [
+      {
+        "family": "Bastings",
+        "given": "J."
+      },
+      {
+        "family": "Titov",
+        "given": "I."
+      },
+      {
+        "family": "Aziz",
+        "given": "W."
+      },
+      {
+        "family": "Marcheggiani",
+        "given": "D."
+      },
+      {
+        "family": "Sima'an",
+        "given": "K."
+      }
+    ],
+    "date": [
+      "2017",
+      "2017"
+    ],
+    "title": [
+      "Graph Convolutional Encoders for Syntax-aware Neural Machine Translation"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "*EMNLP"
+    ]
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Applies GCNs to neural machine translation, incorporating syntactic information"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "author": [
+      {
+        "family": "Marcheggiani",
+        "given": "D."
+      },
+      {
+        "family": "Titov",
+        "given": "I."
+      }
+    ],
+    "date": [
+      "2017",
+      "2017"
+    ],
+    "title": [
+      "Encoding Sentences with Graph Convolutional Networks for Semantic Role Labeling"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "*EMNLP"
+    ]
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Uses GCNs for semantic role labeling, showing the effectiveness of GNNs in capturing semantic structures"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "author": [
+      {
+        "family": "Zhang",
+        "given": "S."
+      },
+      {
+        "family": "Yao",
+        "given": "L."
+      },
+      {
+        "family": "Sun",
+        "given": "A."
+      },
+      {
+        "family": "Tay",
+        "given": "Y."
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "title": [
+      "Deep Learning Based Recommender System: A Survey and New Perspectives"
+    ],
+    "container-title": [
+      "*ACM Computing Surveys.*"
+    ],
+    "type": "chapter"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Surveys deep learning approaches in recommender systems, including GNNs, which have applications in NLP-based recommendation"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "author": [
+      {
+        "family": "Zhu",
+        "given": "J."
+      },
+      {
+        "family": "Xu",
+        "given": "Z."
+      },
+      {
+        "family": "Zhang",
+        "given": "Y."
+      }
+    ],
+    "date": [
+      "2019",
+      "2019"
+    ],
+    "title": [
+      "Graph Neural Networks with Generated Parameters for Relation Extraction"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "*ACL"
+    ]
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Investigates the use of GNNs for relation extraction tasks in NLP"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "author": [
+      {
+        "family": "Chen",
+        "given": "M."
+      },
+      {
+        "family": "Tian",
+        "given": "Y."
+      },
+      {
+        "family": "Zhang",
+        "given": "K."
+      },
+      {
+        "family": "Shi",
+        "given": "W."
+      },
+      {
+        "family": "Yang",
+        "given": "Q."
+      }
+    ],
+    "date": [
+      "2020",
+      "2020"
+    ],
+    "title": [
+      "Multi-Label Text Classification with Graph Convolutional Networks"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "*AAAI"
+    ]
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Applies GCNs to multi-label text classification, demonstrating their utility in handling complex NLP tasks"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "author": [
+      {
+        "family": "Zhang",
+        "given": "Y."
+      },
+      {
+        "family": "Qi",
+        "given": "P."
+      },
+      {
+        "family": "Manning",
+        "given": "C.D."
+      }
+    ],
+    "date": [
+      "2018",
+      "2018"
+    ],
+    "title": [
+      "Graph Convolution over Pruned Dependency Trees Improves Relation Extraction"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "*EMNLP"
+    ]
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Uses GCNs over dependency trees for relation extraction, showing the benefits of syntactic information"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "author": [
+      {
+        "family": "Wang",
+        "given": "X."
+      },
+      {
+        "family": "Ji",
+        "given": "H."
+      },
+      {
+        "family": "Shi",
+        "given": "B."
+      },
+      {
+        "family": "Wang",
+        "given": "P."
+      },
+      {
+        "family": "Li",
+        "given": "J."
+      }
+    ],
+    "date": [
+      "2019",
+      "2019"
+    ],
+    "title": [
+      "Heterogeneous Graph Neural Network for Graph-based Semi-Supervised Learning"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "*KDD"
+    ]
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Discusses heterogeneous GNNs, which can be applied to various NLP tasks involving different types of nodes and edges"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "author": [
+      {
+        "family": "Qin",
+        "given": "Y."
+      },
+      {
+        "family": "Zhang",
+        "given": "W."
+      },
+      {
+        "family": "Wang",
+        "given": "J."
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "title": [
+      "A Survey on Knowledge Graphs: Representation, Acquisition, and Applications"
+    ],
+    "container-title": [
+      "*IEEE Transactions on Neural Networks and Learning Systems.*"
+    ],
+    "type": "chapter"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Surveys knowledge graphs and their applications, including the use of GNNs for knowledge graph tasks in NLP"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "author": [
+      {
+        "family": "Zhou",
+        "given": "J."
+      },
+      {
+        "family": "Cui",
+        "given": "G."
+      },
+      {
+        "family": "Zhang",
+        "given": "Z."
+      },
+      {
+        "family": "Yang",
+        "given": "C."
+      },
+      {
+        "family": "Liu",
+        "given": "Z."
+      },
+      {
+        "family": "Wang",
+        "given": "L."
+      },
+      {
+        "family": "Sun",
+        "given": "M."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "title": [
+      "Graph Neural Networks"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "A Review of Methods and Applications.\" *AI Open.*"
+    ]
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "A comprehensive review of GNN methods and their applications, including several NLP tasks"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "author": [
+      {
+        "family": "Li",
+        "given": "Y."
+      },
+      {
+        "family": "Zhang",
+        "given": "C."
+      },
+      {
+        "family": "Song",
+        "given": "D."
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "title": [
+      "Sentiment Analysis for Short Texts with Long Short-Term Memory"
+    ],
+    "note": [
+      "*arXiv preprint arXiv:1808.07258.*"
+    ],
+    "arxiv": [
+      "1808.07258"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Explores sentiment analysis using LSTM, with discussions on integrating GNNs for improved performance"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "author": [
+      {
+        "family": "Cai",
+        "given": "H."
+      },
+      {
+        "family": "Zheng",
+        "given": "V.W."
+      },
+      {
+        "family": "Chang",
+        "given": "K.C.C."
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "title": [
+      "A Comprehensive Survey of Graph Embedding: Problems, Techniques, and Applications"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "*IEEE Transactions on Knowledge and Data Engineering.*"
+    ]
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Surveys graph embedding techniques, which are crucial for GNN applications in NLP"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "author": [
+      {
+        "family": "Liu",
+        "given": "X."
+      },
+      {
+        "family": "Li",
+        "given": "H."
+      },
+      {
+        "family": "Ren",
+        "given": "X."
+      },
+      {
+        "family": "Sun",
+        "given": "M."
+      }
+    ],
+    "date": [
+      "2019",
+      "2019"
+    ],
+    "title": [
+      "Heterogeneous Graph Neural Networks for Extractive Document Summarization"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "*ACL"
+    ]
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Applies heterogeneous GNNs to document summarization, showcasing their potential in complex NLP tasks"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "These articles provide a broad overview of the application of GNNs in NLP, covering foundational concepts, specific tasks, and various GNN architectures"
+    ],
+    "type": null
+  }
+]

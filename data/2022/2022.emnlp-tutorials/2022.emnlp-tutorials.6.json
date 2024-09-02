@@ -1,0 +1,28 @@
+{
+    "2022.emnlp-tutorials.6": {
+        "title": "Non-Autoregressive Models for Fast Sequence Generation",
+        "author": "Yang Feng, Chenze Shao",
+        "year": 2022,
+        "url": "https://aclanthology.org/2022.emnlp-tutorials.6",
+        "doi": "10.18653/v1/2022.emnlp-tutorials.6",
+        "abstract": "Autoregressive (AR) models have achieved great success in various sequence generation tasks. However, AR models can only generate target sequence word-by-word due to the AR mechanism and hence suffer from slow inference. Recently, non-autoregressive (NAR) models, which generate all the tokens in parallel by removing the sequential dependencies within the target sequence, have received increasing attention in sequence generation tasks such as neural machine translation (NMT), automatic speech recognition (ASR), and text to speech (TTS). In this tutorial, we will provide a comprehensive introduction to non-autoregressive sequence generation.",
+        "readingList": [
+            {
+                "sectionName": null,
+                "subsectionName": null,
+                "referencesIds": [
+                    "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+                    "15e81c8d1c21f9e928c72721ac46d458f3341454",
+                    "57a10537978600fd33dcdd48922c791609a4851a",
+                    "128b6540b23cb8316edc496a2c532ea194dbf10e",
+                    "d6cfb4e345b1031040ccd3683730854c560a2b0d",
+                    "5efadc9019ce3378a0eb6c8f939cdde6c8918b1e",
+                    "261a056f8b21918e8616a429b2df6e1d5d33be41",
+                    null,
+                    "bed87e8fb3e7e9bc87e1c2ee459ae405a35d3267"
+                ]
+            }
+        ]
+    }
+}
+

@@ -1,0 +1,64 @@
+Overview of Topics
+
+We give a presentation plan next. For most topics, we highlight application areas or detailed questions we aim to address (see: ⋆ and italicized text), and also provide potential reading lists (see:).
+
+1. Inclusive Generation: Setup and Motivation
+• Language Models and Data Sources ⋆ Which end-users are left behind?
+Brown et al. (2020)
+• Example: Summarizing Medical Records ⋆ Are domains with limited data impacted?
+Phan et al. (2023)
+• Example: Personalized Education ⋆ Can we personalize generative models for individualized student experiences?
+Hu et al. (2008)
+• Example: Assistive Legal Technologies ⋆ Can generative models be robust to specification (e.g., locality) in legal applications?
+Abdallah et al. (2023)
+• Example: Inclusive and Accessible Dialogue ⋆ Can generative models support users with different preferences and capabilities?
+Sicilia et al. (2023); Inan et al. (2022)
+
+2. Domain Adaptation Theory: The Basics
+• Learning Theory and Adaptation Bounds
+Redko et al. (2020)
+• Classifier-based Statistical Distances
+Ben-David et al. (2010); Sicilia et al. (2022a);
+• Measuring Model Data-Efficiency
+Shalev-Shwartz and Ben-David (2014); Sicilia et al. (2021c)
+• Domain Adaptation for Generative Models
+Sicilia and Alikhani (2022)
+
+3. Inclusive Text-Generation Algorithms
+• Adversarial Training for Domain Alignment ⋆ Application Areas: Unsupervised and Semi-supervised Summarization
+Ganin et al. (2016); Chen and Chen (2019)
+• Other Ways to Align: Semantics and Tokens ⋆ Application Areas: Out-of-Domain Machine Translation and Low Resource Languages
+Štefánik et al. (2023); Phan et al. (2023)
+• Adapters and Adapter Soups ⋆ Application Area: Adapting Language Models to New Domains without Training
+Chronopoulou et al. (2022, 2023)
+• Augmentation with Generative Models ⋆ Applications: Semi-supervised Question-Answering, Accessible Dialogue, Counseling
+Yang et al. (2017); Parthasarathi et al. (2020); Shen et al. (2020); Inan et al. (2022)
+• Instance Weighting for Generative AI ⋆ Applications: Out-of-Domain Machine Translation and Personalized Dialogue
+Wang et al. (2017); Welch et al. (2022)
+• Domain Adaptive MLM Objectives ⋆ Applications: Mental Health Risk Prediction and other Healthcare Tasks
+Aragon et al. (2023); Lu et al. (2023)
+
+4. Computational Techniques (Activity)
+• Confidence intervals and significance ⋆ Is my test set large enough?
+Shalev-Shwartz and Ben-David (2014)
+• Uncertainty and Confidence for Fairness ⋆ Is my model fair to protected demographics? Do I even have enough data to determine this?
+Ethayarajh (2020)
+• Transferring Models across Text-Genres ⋆ How can I pick datasets when transferring models to small data regimes like medicine?
+Blitzer et al. (2007); Atwell et al. (2022)
+• Supplementing Expertise with Bronze labels ⋆ What’s the best annotation protocol when (domain expert) gold labels are too expensive?
+Hao and Paul (2019); Elsahar and Gallé (2019); He et al. (2021)
+
+5. Equitable Text-Generation
+• Bias, Representational Harm, & Task Success
+Mayfield et al. (2019); Harrington and Egede (2023)
+• Defining Bias and Equity in Text-Generation
+Hendricks et al. (2018); Das and Balke (2022); Sicilia and Alikhani (2023)
+• Representation Learning and Bias Projection ⋆ Applications: Mitigating Social Bias in Text Embedding and Masked Language Modeling
+Vargas and Cotterell (2020); Yu et al. (2023); Kumar et al. (2023)
+• Data Augmentation and Interventions ⋆ Applications: Toxicity Reduction in Masked
+Language Models and Equitable Distillation
+Sun et al. (2019); Thakur et al. (2023)
+• Reinforcement Learning and Self-Play ⋆ Applications: Morality, Toxicity, and Bias in Language Models; Bias in Dialogue Systems
+Liu et al. (2022); Madanagopal and Caver lee (2023); Sicilia and Alikhani (2023)
+
+6. Future Work: TBA, Time Permitting

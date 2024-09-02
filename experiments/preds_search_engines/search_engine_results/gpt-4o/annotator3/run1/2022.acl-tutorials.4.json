@@ -1,0 +1,747 @@
+[
+  {
+    "author": [
+      {
+        "given": "Sure!"
+      }
+    ],
+    "title": [
+      "Here's a reading list of 20 articles that cover non-autoregressive sequence generation, contrasting it with other sequence generation techniques, and exploring different methods of generating or decoding sequences. These articles span various aspects of the topic, including theoretical foundations, practical implementations, and comparative analyses"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "publisher": [
+      "**Non-Autoregressive Neural Machine Translation**"
+    ],
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "family": "Gu",
+        "given": "Jiatao"
+      },
+      {
+        "others": true
+      }
+    ],
+    "title": [
+      "Non-autoregressive neural machine translation"
+    ],
+    "container-title": [
+      "*International Conference on Learning Representations (ICLR)*"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "note": [
+      "Link](https://arxiv.org/abs/1711.02281"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "container-title": [
+      "**Improving Non-Autoregressive Neural Machine Translation with Monotonic Alignment Search**"
+    ],
+    "type": "chapter"
+  },
+  {
+    "author": [
+      {
+        "family": "Li",
+        "given": "Junnan"
+      },
+      {
+        "others": true
+      }
+    ],
+    "title": [
+      "Improving non-autoregressive neural machine translation with monotonic alignment search"
+    ],
+    "container-title": [
+      "*Association for Computational Linguistics (ACL)*"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": "chapter"
+  },
+  {
+    "note": [
+      "Link](https://arxiv.org/abs/1903.10035"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "publisher": [
+      "**Levenshtein Transformer**"
+    ],
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "family": "Gu",
+        "given": "Jiatao"
+      },
+      {
+        "others": true
+      }
+    ],
+    "title": [
+      "Levenshtein transformer"
+    ],
+    "container-title": [
+      "*Advances in Neural Information Processing Systems (NeurIPS)*"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": "chapter"
+  },
+  {
+    "note": [
+      "Link](https://arxiv.org/abs/1905.11006"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "title": [
+      "**Mask-Predict: Parallel Decoding of Conditional Masked Language Models**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Ghazvininejad",
+        "given": "Marjan"
+      },
+      {
+        "others": true
+      }
+    ],
+    "title": [
+      "Mask-predict: Parallel decoding of conditional masked language models"
+    ],
+    "container-title": [
+      "*Empirical Methods in Natural Language Processing (EMNLP)*"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": "chapter"
+  },
+  {
+    "note": [
+      "Link](https://arxiv.org/abs/1904.09324"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "author": [
+      {
+        "given": "FlowSeq"
+      }
+    ],
+    "title": [
+      "Non-Autoregressive Conditional Sequence Generation with Generative Flow**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Ma",
+        "given": "Xuezhe"
+      },
+      {
+        "others": true
+      }
+    ],
+    "title": [
+      "FlowSeq: Non-autoregressive conditional sequence generation with generative flow"
+    ],
+    "container-title": [
+      "*Empirical Methods in Natural Language Processing (EMNLP)*"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": "chapter"
+  },
+  {
+    "note": [
+      "Link](https://arxiv.org/abs/1909.02480"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "title": [
+      "**Fast Structured Decoding for Sequence Models**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Stern",
+        "given": "Mitchell"
+      },
+      {
+        "others": true
+      }
+    ],
+    "title": [
+      "Fast structured decoding for sequence models"
+    ],
+    "container-title": [
+      "*Advances in Neural Information Processing Systems (NeurIPS)*"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": "chapter"
+  },
+  {
+    "note": [
+      "Link](https://arxiv.org/abs/1905.04226"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "container-title": [
+      "**Non-Autoregressive Machine Translation with Auxiliary Regularization**"
+    ],
+    "type": "chapter"
+  },
+  {
+    "author": [
+      {
+        "family": "Ran",
+        "given": "Qian"
+      },
+      {
+        "others": true
+      }
+    ],
+    "title": [
+      "Non-autoregressive machine translation with auxiliary regularization"
+    ],
+    "container-title": [
+      "*Association for Computational Linguistics (ACL)*"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": "chapter"
+  },
+  {
+    "note": [
+      "Link](https://arxiv.org/abs/2004.02877"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "container-title": [
+      "**CMLM: Conditional Masked Language Model for Neural Machine Translation**"
+    ],
+    "type": "chapter"
+  },
+  {
+    "author": [
+      {
+        "family": "Ghazvininejad",
+        "given": "Marjan"
+      },
+      {
+        "others": true
+      }
+    ],
+    "title": [
+      "CMLM: Conditional masked language model for neural machine translation"
+    ],
+    "container-title": [
+      "*Association for Computational Linguistics (ACL)*"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": "chapter"
+  },
+  {
+    "note": [
+      "Link](https://arxiv.org/abs/1906.00782"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "location": [
+      "Reformer"
+    ],
+    "publisher": [
+      "The Efficient Transformer**"
+    ],
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "family": "Kitaev",
+        "given": "Nikita"
+      },
+      {
+        "others": true
+      }
+    ],
+    "title": [
+      "Reformer: The efficient transformer"
+    ],
+    "container-title": [
+      "*International Conference on Learning Representations (ICLR)*"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "note": [
+      "Link](https://arxiv.org/abs/2001.04451"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "title": [
+      "**Improving Non-Autoregressive Translation Models Without Distillation**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Saharia",
+        "given": "Chitwan"
+      },
+      {
+        "others": true
+      }
+    ],
+    "title": [
+      "Improving non-autoregressive translation models without distillation"
+    ],
+    "container-title": [
+      "*Association for Computational Linguistics (ACL)*"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": "chapter"
+  },
+  {
+    "note": [
+      "Link](https://arxiv.org/abs/2004.07437"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "title": [
+      "**Non-Autoregressive Neural Sequence Modeling by Directly Learning the Alignment**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Ran",
+        "given": "Qian"
+      },
+      {
+        "others": true
+      }
+    ],
+    "title": [
+      "Non-autoregressive neural sequence modeling by directly learning the alignment"
+    ],
+    "container-title": [
+      "*Empirical Methods in Natural Language Processing (EMNLP)*"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": "chapter"
+  },
+  {
+    "note": [
+      "Link](https://arxiv.org/abs/2004.07437"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "publisher": [
+      "**Parallel Decoding for Non-Autoregressive Translation**"
+    ],
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "family": "Kasai",
+        "given": "Jungo"
+      },
+      {
+        "others": true
+      }
+    ],
+    "title": [
+      "Parallel decoding for non-autoregressive translation"
+    ],
+    "container-title": [
+      "*Empirical Methods in Natural Language Processing (EMNLP)*"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": "chapter"
+  },
+  {
+    "note": [
+      "Link](https://arxiv.org/abs/2004.14864"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "title": [
+      "**Non-Autoregressive Neural Machine Translation: A Call for Clarity**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Zhou",
+        "given": "Chunting"
+      },
+      {
+        "others": true
+      }
+    ],
+    "title": [
+      "Non-autoregressive neural machine translation: A call for clarity"
+    ],
+    "container-title": [
+      "*Empirical Methods in Natural Language Processing (EMNLP)*"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": "chapter"
+  },
+  {
+    "note": [
+      "Link](https://arxiv.org/abs/2004.05738"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "title": [
+      "**FastSeq: Make Sequence Generation Faster**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Guo",
+        "given": "Jiacheng"
+      },
+      {
+        "others": true
+      }
+    ],
+    "title": [
+      "FastSeq: Make sequence generation faster"
+    ],
+    "container-title": [
+      "*Empirical Methods in Natural Language Processing (EMNLP)*"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": "chapter"
+  },
+  {
+    "note": [
+      "Link](https://arxiv.org/abs/2010.11306"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "title": [
+      "**Non-Autoregressive Sequence Generation with Iterative Refinement**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Lee",
+        "given": "Jason"
+      },
+      {
+        "others": true
+      }
+    ],
+    "title": [
+      "Non-autoregressive sequence generation with iterative refinement"
+    ],
+    "container-title": [
+      "*International Conference on Machine Learning (ICML)*"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "note": [
+      "Link](https://arxiv.org/abs/1802.06901"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "container-title": [
+      "**Latent-Variable Non-Autoregressive Neural Machine Translation with Deterministic Inference Using a Delta Posterior**"
+    ],
+    "type": "chapter"
+  },
+  {
+    "author": [
+      {
+        "family": "Shu",
+        "given": "Raphael"
+      },
+      {
+        "others": true
+      }
+    ],
+    "title": [
+      "Latent-variable non-autoregressive neural machine translation with deterministic inference using a delta posterior"
+    ],
+    "container-title": [
+      "*Association for Computational Linguistics (ACL)*"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": "chapter"
+  },
+  {
+    "note": [
+      "Link](https://arxiv.org/abs/2002.01394"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "container-title": [
+      "**Non-Autoregressive Neural Machine Translation with Enhanced Decoder Input**"
+    ],
+    "type": "chapter"
+  },
+  {
+    "author": [
+      {
+        "family": "Sun",
+        "given": "Fei"
+      },
+      {
+        "others": true
+      }
+    ],
+    "title": [
+      "Non-autoregressive neural machine translation with enhanced decoder input"
+    ],
+    "container-title": [
+      "*Association for Computational Linguistics (ACL)*"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": "chapter"
+  },
+  {
+    "note": [
+      "Link](https://arxiv.org/abs/1906.03485"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "container-title": [
+      "**Non-Autoregressive Neural Machine Translation with Latent Alignments**"
+    ],
+    "type": "chapter"
+  },
+  {
+    "author": [
+      {
+        "family": "Kaiser",
+        "given": "Łukasz"
+      },
+      {
+        "others": true
+      }
+    ],
+    "title": [
+      "Non-autoregressive neural machine translation with latent alignments"
+    ],
+    "container-title": [
+      "*International Conference on Learning Representations (ICLR)*"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "note": [
+      "Link](https://arxiv.org/abs/1804.07461"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "container-title": [
+      "**Non-Autoregressive Neural Machine Translation with Auxiliary Regularization**"
+    ],
+    "type": "chapter"
+  },
+  {
+    "author": [
+      {
+        "family": "Ran",
+        "given": "Qian"
+      },
+      {
+        "others": true
+      }
+    ],
+    "title": [
+      "Non-autoregressive neural machine translation with auxiliary regularization"
+    ],
+    "container-title": [
+      "*Association for Computational Linguistics (ACL)*"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": "chapter"
+  },
+  {
+    "note": [
+      "Link](https://arxiv.org/abs/2004.02877"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "container-title": [
+      "**Non-Autoregressive Neural Machine Translation with Enhanced Decoder Input**"
+    ],
+    "type": "chapter"
+  },
+  {
+    "author": [
+      {
+        "family": "Sun",
+        "given": "Fei"
+      },
+      {
+        "others": true
+      }
+    ],
+    "title": [
+      "Non-autoregressive neural machine translation with enhanced decoder input"
+    ],
+    "container-title": [
+      "*Association for Computational Linguistics (ACL)*"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": "chapter"
+  },
+  {
+    "note": [
+      "Link](https://arxiv.org/abs/1906.03485"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "These articles should provide a comprehensive overview of non-autoregressive sequence generation, its comparison with autoregressive methods, and various decoding strategies"
+    ],
+    "type": null
+  }
+]

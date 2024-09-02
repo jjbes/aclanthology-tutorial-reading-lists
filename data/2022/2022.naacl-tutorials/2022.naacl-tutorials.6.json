@@ -1,0 +1,22 @@
+{
+    "2022.naacl-tutorials.6": {
+        "title": "Contrastive Data and Learning for Natural Language Processing",
+        "author": "Rui Zhang, Yangfeng Ji, Yue Zhang, Rebecca J. Passonneau",
+        "year": 2022,
+        "url": "https://aclanthology.org/2022.naacl-tutorials.6",
+        "doi": "10.18653/v1/2022.naacl-tutorials.6",
+        "abstract": "Current NLP models heavily rely on effective representation learning algorithms. Contrastive learning is one such technique to learn an embedding space such that similar data sample pairs have close representations while dissimilar samples stay far apart from each other. It can be used in supervised or unsupervised settings using different loss functions to produce task-specific or general-purpose representations. While it has originally enabled the success for vision tasks, recent years have seen a growing number of publications in contrastive NLP. This first line of works not only delivers promising performance improvements in various NLP tasks, but also provides desired characteristics such as task-agnostic sentence representation, faithful text generation, data-efficient learning in zero-shot and few-shot settings, interpretability and explainability. In this tutorial, we aim to provide a gentle introduction to the fundamentals of contrastive learning approaches and the theory behind them. We then survey the benefits and the best practices of contrastive learning for various downstream NLP applications including Text Classification, Question Answering, Summarization, Text Generation, Interpretability and Explainability, Commonsense Knowledge and Reasoning, Vision-and-Language.This tutorial intends to help researchers in the NLP and computational linguistics community to understand this emerging topic and promote future research directions of using contrastive learning for NLP applications.",
+        "readingList": [
+            {
+                "sectionName": null,
+                "subsectionName": null,
+                "referencesIds": [
+                    "7af72a461ed7cda180e7eab878efd5f35d79bbf4",
+                    "6f870f7f02a8c59c3e23f407f3ef00dd1dcf8fc4",
+                    "c26759e6c701201af2f62f7ee4eb68742b5bf085",
+                    "3f9514630194a9fba9505b594ec921b247fecb48"
+                ]
+            }
+        ]
+    }
+}

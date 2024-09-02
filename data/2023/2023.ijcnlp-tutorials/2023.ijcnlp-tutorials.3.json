@@ -1,0 +1,202 @@
+{
+    "2023.ijcnlp-tutorials.3": {
+        "title": "Practical Tools from Domain Adaptation for Designing Inclusive, Equitable, and Robust Generative AI",
+        "author": "Anthony Sicilia, Malihe Alikhani",
+        "year": 2023,
+        "url": "https://aclanthology.org/2023.ijcnlp-tutorials.3",
+        "doi": "10.18653/v1/2023.ijcnlp-tutorials.3",
+        "abstract": "Generative language technologies have become integral to everyday communication, shaping social interactions and informing critical decision-making processes in areas such as recruitment, healthcare, and education. However, they often struggle to grasp the “long tail” of data distributions — concepts less frequently observed during training — which could have significant repercussions. These models may marginalize underrepresented groups by failing to comprehend preferred communication styles, such as code-switching, or perpetuating societal biases like gender bias. Sectors like health-care, education, and law, requiring personalization and exhibiting nuanced linguistic features, are also particularly affected when pre-trained models misconstrue or overlook “long tail” data concepts. While methods like distillation of smaller language models, active learning, and other bias mitigation strategies can augment traditional training techniques, a careful statistical analysis is essential for their effective application. This tutorial offers a comprehensive examination of how to develop equitable, robust, and inclusive language technologies using statistical tools from Domain Adaptation (DA) that catalyze positive social change. We will delve into strategies for bias mitigation, explore how to measure bias, and examine open problems in creating culturally-grounded and inclusive language technologies. Accompanying code notebooks and packages will be provided.",
+        "readingList": [
+            {
+                "sectionName": "Inclusive Generation: Setup and Motivation",
+                "subsectionName": "Language Models and Data Sources",
+                "referencesIds": [
+                    "90abbc2cf38462b954ae1b772fac9532e2ccd8b0"
+                ]
+            },
+            {
+                "sectionName": "Inclusive Generation: Setup and Motivation",
+                "subsectionName": "Example: Summarizing Medical Records",
+                "referencesIds": [
+                    "54772ffae642a87b9a6122a6f1bae76b926a7230"
+                ]
+            },
+            {
+                "sectionName": "Inclusive Generation: Setup and Motivation",
+                "subsectionName": "Example: Personalized Education",
+                "referencesIds": [
+                    "2c8449865745c63c8541c5321fbce741b646b665"
+                ]
+            },
+            {
+                "sectionName": "Inclusive Generation: Setup and Motivation",
+                "subsectionName": "Example: Assistive Legal Technologies",
+                "referencesIds": [
+                    null
+                ]
+            },
+            {
+                "sectionName": "Inclusive Generation: Setup and Motivation",
+                "subsectionName": "Example: Inclusive and Accessible Dialogue",
+                "referencesIds": [
+                    "ca1e3ef6211f2d867d9b9b7055c17734ac5b431d",
+                    "94272b4b82df42004d095391ec8f34047bd915dc"
+                ]
+            },
+            {
+                "sectionName": "Domain Adaptation Theory: The Basics",
+                "subsectionName": "Learning Theory and Adaptation Bounds",
+                "referencesIds": [
+                    "082d70e93af82d3ad289795312c717e7f1858e5f"
+                ]
+            },
+            {
+                "sectionName": "Domain Adaptation Theory: The Basics",
+                "subsectionName": "Classifier-based Statistical Distances",
+                "referencesIds": [
+                    "66d398aeaeb7ec24ededb1adaa4b4f09a6c1bcde",
+                    "726377ee402a032ff06eaf8fa9d6ef6f39858860"
+                ]
+            },
+            {
+                "sectionName": "Domain Adaptation Theory: The Basics",
+                "subsectionName": "Measuring Model Data-Efficiency",
+                "referencesIds": [
+                    "20f63033e8775cbab0692aed92d38da7e725d64e",
+                    "5694cdabf62b4e605e181c27819a24ee33c69ca4"
+                ]
+            },
+            {
+                "sectionName": "Domain Adaptation Theory: The Basics",
+                "subsectionName": "Domain Adaptation for Generative Models",
+                "referencesIds": [
+                    "016cbbfeb1803134eea5b18c0fe7d8c448e53449"
+                ]
+            },
+            {
+                "sectionName": "Inclusive Text-Generation Algorithms",
+                "subsectionName": "Adversarial Training for Domain Alignment",
+                "referencesIds": [
+                    "1d5972b32a9b5a455a6eef389de5b7fca25771ad",
+                    "7babff88d77beb97e38eb067d097d1522b3dfc49"
+                ]
+            },
+            {
+                "sectionName": "Inclusive Text-Generation Algorithms",
+                "subsectionName": "Other Ways to Align: Semantics and Tokens",
+                "referencesIds": [
+                    "c00f716e5a852c144cb1be6f6b27ea8d4e1fe9bb",
+                    "54772ffae642a87b9a6122a6f1bae76b926a7230"
+                ]
+            },
+            {
+                "sectionName": "Inclusive Text-Generation Algorithms",
+                "subsectionName": "Adapters and Adapter Soups",
+                "referencesIds": [
+                    "5b0cfef3ebb8f709a4cf2e4718e8440cc5890bab",
+                    "629bc57782bb4326a3eb5f89314e350729c5f417"
+                ]
+            },
+            {
+                "sectionName": "Inclusive Text-Generation Algorithms",
+                "subsectionName": "Augmentation with Generative Models",
+                "referencesIds": [
+                    "807e421679d4a9d629d2fad1f60f28787dca60e7",
+                    "9d8cd6c25d28026d41b2b07be06810c4dabf4715",
+                    "33c7da49a60255677ab0f4568c27dec7a8257d5e",
+                    "94272b4b82df42004d095391ec8f34047bd915dc"
+                ]
+            },
+            {
+                "sectionName": "Inclusive Text-Generation Algorithms",
+                "subsectionName": "Instance Weighting for Generative AI",
+                "referencesIds": [
+                    "c80725ad0c0cd06416f3c01a78b7c419359d3fe2",
+                    "55739eaba9f3f954996bd72a27ac5ee0cfec8520"
+                ]
+            },
+            {
+                "sectionName": "Inclusive Text-Generation Algorithms",
+                "subsectionName": "Domain Adaptive MLM Objectives",
+                "referencesIds": [
+                    "847e106814753600f5029b8dbaa4255bf1f716e2",
+                    "690b43567b5b60d5edc708458dd142603d438b23"
+                ]
+            },
+            {
+                "sectionName": "Computational Techniques (Activity)",
+                "subsectionName": "Confidence intervals and significance",
+                "referencesIds": [
+                    "20f63033e8775cbab0692aed92d38da7e725d64e"
+                ]
+            },
+            {
+                "sectionName": "Computational Techniques (Activity)",
+                "subsectionName": "Uncertainty and Confidence for Fairness",
+                "referencesIds": [
+                    "6b3e271e60df9825542374ee5e31e4a1ec2ee1bc"
+                ]
+            },
+            {
+                "sectionName": "Computational Techniques (Activity)",
+                "subsectionName": "Transferring Models across Text-Genres",
+                "referencesIds": [
+                    "d895647b4a80861703851ef55930a2627fe19492",
+                    "a243f87588a2381257d325c40c9709b0e4d03ada"
+                ]
+            },
+            {
+                "sectionName": "Computational Techniques (Activity)",
+                "subsectionName": "Supplementing Expertise with Bronze labels",
+                "referencesIds": [
+                    "e0ea4598f2c44a00784a7952ed11eae670faacc9",
+                    "024841e69db9274e708731d9b3e97040a1bac773",
+                    "0cdc27a99c1520c2ec604b97470ae75227e096ee"
+                ]
+            },
+            {
+                "sectionName": "Equitable Text-Generation",
+                "subsectionName": "Bias, Representational Harm, & Task Success",
+                "referencesIds": [
+                    "f8a13e94260373d2904f32616decce817b388990",
+                    "efa6a639cb13b924dd008728db8755ae40065127"
+                ]
+            },
+            {
+                "sectionName": "Equitable Text-Generation",
+                "subsectionName": "Defining Bias and Equity in Text-Generation",
+                "referencesIds": [
+                    "b0c5dc3fa19a2bc97606ccb6f55226b913984395",
+                    "85f40f11e6dea79210aabc579feaf7b20b4bc92f",
+                    "2386c6a7c40b5129960f2eb3c6be27db65b04c1f"
+                ]
+            },
+            {
+                "sectionName": "Equitable Text-Generation",
+                "subsectionName": "Representation Learning and Bias Projection",
+                "referencesIds": [
+                    "56fdad6964cf6da35d836f9b4777ad0f94c2b487",
+                    "c373c792bcf5d0add8de812425d384ff101ef070",
+                    "fe7a0612b24b48fe09304af39cdb27d8e33697c6"
+                ]
+            },
+            {
+                "sectionName": "Equitable Text-Generation",
+                "subsectionName": "Data Augmentation and Interventions",
+                "referencesIds": [
+                    "493fac37cea49afb98c52c2f5dd75c303a325b25",
+                    "f891e9eeedbf20cdc54429ffcc0402a10f48494e"
+                ]
+            },
+            {
+                "sectionName": "Equitable Text-Generation",
+                "subsectionName": "Reinforcement Learning and Self-Play",
+                "referencesIds": [
+                    "2a83a92b08e0f3873d07162c73c67e533321112e",
+                    "f6ee3544b8c53ef2f1015e5c29269ae36c428352",
+                    "2386c6a7c40b5129960f2eb3c6be27db65b04c1f"
+                ]
+            }
+        ]
+    }
+}

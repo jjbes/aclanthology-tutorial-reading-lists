@@ -1,0 +1,551 @@
+[
+  {
+    "author": [
+      {
+        "given": "Sure!"
+      }
+    ],
+    "title": [
+      "Here's a reading list of 20 articles up to 2021 that cover various aspects of performing speech-to-text translation in an end-to-end fashion"
+    ],
+    "note": [
+      "as well as other related speech-to-text tasks:"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "author": [
+      {
+        "given": "Listen"
+      }
+    ],
+    "title": [
+      "Attend and Spell\"** by William Chan, Navdeep Jaitly, Quoc Le, Oriol Vinyals"
+    ],
+    "date": [
+      "2016"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "This paper introduces an end-to-end speech recognition model using attention mechanisms"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "title": [
+      "**\"Deep Speech: Scaling up end-to-end speech recognition\"** by Dario Amodei et al"
+    ],
+    "date": [
+      "2016"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "This work presents the Deep Speech 2 system, which scales up end-to-end speech recognition models"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "title": [
+      "**\"Sequence to Sequence Learning with Neural Networks\"** by Ilya Sutskever, Oriol Vinyals, Quoc V"
+    ],
+    "date": [
+      "2014"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "Le"
+    ]
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Although not specific to speech-to-text, this foundational paper introduces the sequence-to-sequence framework used in many speech-to-text models"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "title": [
+      "**\"Attention-Based Models for Speech Recognition\"** by Jan Chorowski"
+    ],
+    "editor": [
+      {
+        "family": "Bahdanau",
+        "given": "Dzmitry"
+      },
+      {
+        "family": "Serdyuk",
+        "given": "Dmitriy"
+      },
+      {
+        "family": "Cho",
+        "given": "Kyunghyun"
+      },
+      {
+        "family": "Bengio",
+        "given": "Yoshua"
+      }
+    ],
+    "date": [
+      "2015"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "This paper explores attention mechanisms in the context of speech recognition"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "title": [
+      "**\"End-to-End Speech Recognition with Connectionist Temporal Classification\"** by Alex Graves"
+    ],
+    "editor": [
+      {
+        "family": "Fernández",
+        "given": "Santiago"
+      },
+      {
+        "family": "Gomez",
+        "given": "Faustino"
+      },
+      {
+        "family": "Schmidhuber",
+        "given": "Jürgen"
+      }
+    ],
+    "date": [
+      "2006"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Introduces the CTC loss function, which is crucial for many end-to-end speech recognition systems"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "title": [
+      "**\"WaveNet: A Generative Model for Raw Audio\"** by Aaron van den Oord et al"
+    ],
+    "date": [
+      "2016"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "While primarily focused on audio generation, WaveNet's architecture has influenced many speech-to-text models"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "title": [
+      "**\"Joint CTC-Attention Models for Speech Recognition\"** by Takaaki Hori, Shinji Watanabe"
+    ],
+    "publisher": [
+      "Yu Zhang, William Chan"
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "This paper combines CTC and attention mechanisms for improved end-to-end speech recognition"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "title": [
+      "**\"Speech Recognition with Deep Recurrent Neural Networks\"** by Alex Graves"
+    ],
+    "editor": [
+      {
+        "family": "Mohamed",
+        "given": "Abdel-rahman"
+      },
+      {
+        "family": "Hinton",
+        "given": "Geoffrey"
+      }
+    ],
+    "date": [
+      "2013"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Discusses the use of deep RNNs for speech recognition tasks"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "title": [
+      "**\"Deep Speech 2: End-to-End Speech Recognition in English and Mandarin\"** by Dario Amodei et al"
+    ],
+    "date": [
+      "2016"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Extends the Deep Speech model to multiple languages and introduces several improvements"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "title": [
+      "**\"End-to-End Speech Translation with the Transformer\"** by Ye Jia et al"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Applies the Transformer architecture to the task of end-to-end speech translation"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "title": [
+      "**\"SpecAugment: A Simple Data Augmentation Method for Automatic Speech Recognition\"** by Daniel S"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "Park et al"
+    ]
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Introduces a data augmentation technique that has become standard in training robust speech recognition models"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "title": [
+      "**\"ESPnet: End-to-End Speech Processing Toolkit\"** by Shinji Watanabe et al"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Describes an open-source toolkit for end-to-end speech processing, including speech recognition and translation"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "title": [
+      "**\"Transformer Transducer: A Streamable Speech Recognition Model with Transformer Encoders and RNN-T Loss\"** by Anmol Gulati et al"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Combines Transformer encoders with the RNN-T loss for streamable speech recognition"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "title": [
+      "**\"Improving End-to-End Speech Recognition with Policy Learning\"** by Anirudh Raju et al"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Explores the use of reinforcement learning to improve end-to-end speech recognition models"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "title": [
+      "**\"End-to-End Speech Recognition and Translation with the Transformer\"** by Matthias Sperber et al"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Investigates the use of the Transformer model for both speech recognition and translation"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "author": [
+      {
+        "literal": "**\"End-to-End Speech Translation\"** by Matthias Sperber, Jan Niehues, Graham Neubig, Alex Waibel"
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "A comprehensive survey on end-to-end speech translation"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "title": [
+      "**\"Self-Supervised Learning for Speech Recognition: A Survey\"** by Yatharth Saraf et al"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Reviews self-supervised learning techniques for speech recognition, which are crucial for reducing dependency on labeled data"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "author": [
+      {
+        "given": "Wav2vec"
+      }
+    ],
+    "title": [
+      "Unsupervised Pre-training for Speech Recognition\"** by Alexei Baevski"
+    ],
+    "publisher": [
+      "Steffen Schneider, Michael Auli"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Introduces an unsupervised pre-training method for speech recognition"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "title": [
+      "**\"Wav2vec 2.0: A Framework for Self-Supervised Learning of Speech Representations\"** by Alexei Baevski"
+    ],
+    "note": [
+      "Yuhao Zhou, Abdelrahman Mohamed, Michael Auli (2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Extends the Wav2vec framework to improve performance on speech recognition tasks"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "title": [
+      "**\"Conformer: Convolution-augmented Transformer for Speech Recognition\"** by Anmol Gulati et al"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Combines convolutional neural networks with Transformers to create a powerful model for speech recognition"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "These articles provide a comprehensive overview of the advancements in end-to-end speech-to-text translation and related tasks up to"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  }
+]

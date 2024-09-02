@@ -1,0 +1,658 @@
+[
+  {
+    "author": [
+      {
+        "given": "Certainly!"
+      }
+    ],
+    "title": [
+      "Here's a curated list of 20 articles on meta-learning applied to natural language processing"
+    ],
+    "note": [
+      "NLP) problems up to 2021:"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "author": [
+      {
+        "family": "Finn",
+        "given": "C."
+      },
+      {
+        "family": "Abbeel",
+        "given": "P."
+      },
+      {
+        "family": "Levine",
+        "given": "S."
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "title": [
+      "Model-Agnostic Meta-Learning for Fast Adaptation of Deep Networks"
+    ],
+    "container-title": [
+      "*Proceedings of the 34th International Conference on Machine Learning (ICML)*"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "author": [
+      {
+        "family": "Gu",
+        "given": "S."
+      },
+      {
+        "family": "Ghahramani",
+        "given": "Z."
+      },
+      {
+        "family": "Turner",
+        "given": "R.E."
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "title": [
+      "Neural Adaptive Sequential Monte Carlo"
+    ],
+    "container-title": [
+      "*Proceedings of the 32nd International Conference on Neural Information Processing Systems (NeurIPS)*"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "author": [
+      {
+        "family": "Qian",
+        "given": "Q."
+      },
+      {
+        "family": "Yu",
+        "given": "H.F."
+      },
+      {
+        "family": "Guo",
+        "given": "Y."
+      },
+      {
+        "family": "Hsieh",
+        "given": "C.J."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "title": [
+      "L2 Meta-Learning: Differentiable Meta-Learner Optimization with L2 Regularization"
+    ],
+    "container-title": [
+      "*Proceedings of the 36th International Conference on Machine Learning (ICML)*"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "author": [
+      {
+        "family": "Yin",
+        "given": "W."
+      },
+      {
+        "family": "Neubig",
+        "given": "G."
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "title": [
+      "A Meta-Learning Approach to Low-Resource Neural Machine Translation"
+    ],
+    "container-title": [
+      "*Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing (EMNLP)*"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "author": [
+      {
+        "family": "Gu",
+        "given": "J."
+      },
+      {
+        "family": "Wang",
+        "given": "Y."
+      },
+      {
+        "family": "Chen",
+        "given": "Y."
+      },
+      {
+        "family": "Cho",
+        "given": "K."
+      },
+      {
+        "family": "Li",
+        "given": "V.O."
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "title": [
+      "Meta-Learning for Low-Resource Neural Machine Translation"
+    ],
+    "container-title": [
+      "*Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing (EMNLP)*"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "author": [
+      {
+        "family": "Dou",
+        "given": "Z."
+      },
+      {
+        "family": "Yu",
+        "given": "Z."
+      },
+      {
+        "family": "Anastasopoulos",
+        "given": "A."
+      },
+      {
+        "family": "Neubig",
+        "given": "G."
+      },
+      {
+        "family": "Berg-Kirkpatrick",
+        "given": "T."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "title": [
+      "Unsupervised Domain Adaptation for Neural Machine Translation with Domain-Aware Feature Embeddings"
+    ],
+    "container-title": [
+      "*Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics (ACL)*"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "author": [
+      {
+        "family": "Bansal",
+        "given": "T."
+      },
+      {
+        "family": "Nandwani",
+        "given": "A."
+      },
+      {
+        "family": "Goyal",
+        "given": "N."
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "title": [
+      "Self-Supervised Meta-Learning for Few-Shot Natural Language Classification Tasks"
+    ],
+    "container-title": [
+      "*Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)*"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "author": [
+      {
+        "family": "Chen",
+        "given": "Y."
+      },
+      {
+        "family": "Li",
+        "given": "L."
+      },
+      {
+        "family": "Guestrin",
+        "given": "C."
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "title": [
+      "Meta-Learning for Few-Shot NER"
+    ],
+    "container-title": [
+      "*Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing (EMNLP)*"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "author": [
+      {
+        "family": "Geng",
+        "given": "R."
+      },
+      {
+        "family": "Li",
+        "given": "B."
+      },
+      {
+        "family": "Yang",
+        "given": "Y."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "title": [
+      "Induction Networks for Few-Shot Text Classification"
+    ],
+    "container-title": [
+      "*Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing (EMNLP)*"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "author": [
+      {
+        "family": "Han",
+        "given": "X."
+      },
+      {
+        "family": "Zhao",
+        "given": "Z."
+      },
+      {
+        "family": "Yu",
+        "given": "X."
+      },
+      {
+        "family": "Sun",
+        "given": "L."
+      },
+      {
+        "family": "Liu",
+        "given": "Z."
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "title": [
+      "FewRel: A Large-Scale Supervised Few-Shot Relation Classification Dataset with State-of-the-Art Evaluation"
+    ],
+    "container-title": [
+      "*Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing (EMNLP)*"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "author": [
+      {
+        "family": "Bansal",
+        "given": "T."
+      },
+      {
+        "family": "Nandwani",
+        "given": "A."
+      },
+      {
+        "family": "Goyal",
+        "given": "N."
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "title": [
+      "Learning to Few-Shot Learn Across Diverse Natural Language Processing Tasks"
+    ],
+    "container-title": [
+      "*Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)*"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "author": [
+      {
+        "family": "Lee",
+        "given": "J."
+      },
+      {
+        "family": "Lee",
+        "given": "S."
+      },
+      {
+        "family": "Kim",
+        "given": "J."
+      },
+      {
+        "family": "Kosiorek",
+        "given": "A.R."
+      },
+      {
+        "family": "Choi",
+        "given": "S."
+      },
+      {
+        "family": "Teh",
+        "given": "Y.W."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "title": [
+      "Meta-Learning Update Rules for Unsupervised Representation Learning"
+    ],
+    "container-title": [
+      "*Proceedings of the 36th International Conference on Machine Learning (ICML)*"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "author": [
+      {
+        "family": "Dou",
+        "given": "Z.Y."
+      },
+      {
+        "family": "Yu",
+        "given": "Z."
+      },
+      {
+        "family": "Anastasopoulos",
+        "given": "A."
+      },
+      {
+        "family": "Neubig",
+        "given": "G."
+      },
+      {
+        "family": "Berg-Kirkpatrick",
+        "given": "T."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "title": [
+      "Domain-Aware Self-Supervised Learning for Few-Shot Text Classification"
+    ],
+    "container-title": [
+      "*Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing (EMNLP)*"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "author": [
+      {
+        "family": "Sun",
+        "given": "Y."
+      },
+      {
+        "family": "Wang",
+        "given": "S."
+      },
+      {
+        "family": "Li",
+        "given": "Y."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "title": [
+      "Meta-Transfer Learning for Few-Shot Text Classification"
+    ],
+    "container-title": [
+      "*Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing (EMNLP)*"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "author": [
+      {
+        "family": "Bao",
+        "given": "H."
+      },
+      {
+        "family": "Dong",
+        "given": "L."
+      },
+      {
+        "family": "Wei",
+        "given": "F."
+      },
+      {
+        "family": "Wang",
+        "given": "W."
+      },
+      {
+        "family": "Yang",
+        "given": "N."
+      },
+      {
+        "family": "Zhou",
+        "given": "M."
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "title": [
+      "Few-Shot Text Classification with Distributional Signatures"
+    ],
+    "container-title": [
+      "*Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)*"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "author": [
+      {
+        "family": "Gao",
+        "given": "T."
+      },
+      {
+        "family": "Han",
+        "given": "X."
+      },
+      {
+        "family": "Liu",
+        "given": "Z."
+      },
+      {
+        "family": "Sun",
+        "given": "M."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "title": [
+      "Hybrid Attention-Based Prototypical Networks for Noisy Few-Shot Relation Classification"
+    ],
+    "container-title": [
+      "*Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics (ACL)*"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "author": [
+      {
+        "family": "Yu",
+        "given": "L."
+      },
+      {
+        "family": "Zhang",
+        "given": "Y."
+      },
+      {
+        "family": "Jiang",
+        "given": "J."
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "title": [
+      "Learning Sentence Embeddings with Auxiliary Tasks for Cross-Domain Sentiment Classification"
+    ],
+    "container-title": [
+      "*Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing (EMNLP)*"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "author": [
+      {
+        "family": "Zhang",
+        "given": "H."
+      },
+      {
+        "family": "Yang",
+        "given": "Y."
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "title": [
+      "Few-Shot Dialogue State Tracking"
+    ],
+    "container-title": [
+      "*Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)*"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "author": [
+      {
+        "family": "Wu",
+        "given": "Y."
+      },
+      {
+        "family": "Wu",
+        "given": "F."
+      },
+      {
+        "family": "Huang",
+        "given": "Y."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "title": [
+      "Learning to Extract Coarse-Grained and Fine-Grained Information for Few-Shot Relation Classification"
+    ],
+    "container-title": [
+      "*Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing (EMNLP)*"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "author": [
+      {
+        "family": "Bansal",
+        "given": "T."
+      },
+      {
+        "family": "Nandwani",
+        "given": "A."
+      },
+      {
+        "family": "Goyal",
+        "given": "N."
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "title": [
+      "Meta-Learning for Few-Shot Named Entity Recognition"
+    ],
+    "container-title": [
+      "*Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)*"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "title": [
+      "These articles cover a range of meta-learning techniques and their applications to various NLP tasks, including text classification, machine translation, named entity recognition, and relation classification"
+    ],
+    "type": null
+  }
+]

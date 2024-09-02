@@ -1,0 +1,746 @@
+[
+  {
+    "title": [
+      "Sure, here is a reading list of 20 articles focused on interpretability methods for transformer models. These articles cover a range of techniques and approaches to understand and interpret the inner workings of transformer-based architectures like BERT, GPT, and others"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "author": [
+      {
+        "family": "Jain",
+        "given": "S.",
+        "particle": "Attention is not Explanation\" by"
+      },
+      {
+        "family": "Wallace",
+        "given": "B.C."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "This paper critically examines the use of attention mechanisms as explanations for model predictions"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "title": [
+      "**\"A Survey of Methods for Interpreting"
+    ],
+    "author": [
+      {
+        "family": "Rogers",
+        "given": "B.E.R.T.\"",
+        "particle": "by"
+      },
+      {
+        "family": "A.",
+        "given": "Kovaleva"
+      },
+      {
+        "family": "O."
+      },
+      {
+        "family": "Rumshisky",
+        "given": "A."
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "A comprehensive survey of various interpretability methods applied to BERT"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "author": [
+      {
+        "family": "Dissecting",
+        "given": "B.E.R.T."
+      },
+      {
+        "family": "Clark",
+        "given": "K.",
+        "particle": "Attention-based Diagnostic Probes\" by"
+      },
+      {
+        "family": "Khandelwal",
+        "given": "U."
+      },
+      {
+        "family": "Levy",
+        "given": "O."
+      },
+      {
+        "family": "Manning",
+        "given": "C.D."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "This paper introduces diagnostic probes to understand what BERT's attention heads are learning"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "author": [
+      {
+        "literal": "**\"Visualizing and Understanding Neural Machine Translation\"** by Ding, D., Liu, Y., and Liu, J."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Focuses on visualizing attention mechanisms in transformer models used for machine translation"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "title": [
+      "**\"Analyzing the Structure of Attention in a Transformer Language Model\"** by Voita"
+    ],
+    "editor": [
+      {
+        "family": "E.",
+        "given": "Talbot"
+      },
+      {
+        "family": "D.",
+        "given": "Moiseev"
+      },
+      {
+        "family": "F.",
+        "given": "Sennrich"
+      },
+      {
+        "family": "R."
+      },
+      {
+        "family": "Titov",
+        "given": "I."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Analyzes the structure and roles of different attention heads in transformer models"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "title": [
+      "**\"Interpreting Pretrained Contextualized Representations via Reductions to Static Embeddings\"** by Ethayarajh, K"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Proposes methods to interpret contextualized word representations by reducing them to static embeddings"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "author": [
+      {
+        "family": "At?",
+        "given": "What Does B.E.R.T.Look"
+      }
+    ],
+    "title": [
+      "An Analysis of BERT's Attention\"** by Vig"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "J"
+    ]
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Uses visualization techniques to analyze the attention patterns in BERT"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "author": [
+      {
+        "family": "Tenney",
+        "given": "B.E.R.T.Rediscovers",
+        "particle": "the Classical NLP Pipeline\" by"
+      },
+      {
+        "family": "I.",
+        "given": "Das"
+      },
+      {
+        "family": "D."
+      },
+      {
+        "family": "Pavlick",
+        "given": "E."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Investigates how BERT's layers correspond to traditional NLP tasks"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "author": [
+      {
+        "given": "Explaining"
+      },
+      {
+        "family": "Karpathy",
+        "given": "A.",
+        "particle": "Interpreting LSTMs\" by"
+      },
+      {
+        "family": "Johnson",
+        "given": "J."
+      },
+      {
+        "family": "Fei-Fei",
+        "given": "L."
+      }
+    ],
+    "date": [
+      "2015"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Although focused on LSTMs, the techniques can be adapted for transformers"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "author": [
+      {
+        "family": "Wiegreffe",
+        "given": "Attention Interpretability Across N.L.P.Tasks\"",
+        "particle": "by"
+      },
+      {
+        "given": "S."
+      },
+      {
+        "family": "Pinter",
+        "given": "Y."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Examines the interpretability of attention mechanisms across different NLP tasks"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "title": [
+      "**\"Probing Classifiers: Promises, Shortcomings, and Advances\"** by Belinkov"
+    ],
+    "editor": [
+      {
+        "given": "Y."
+      }
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Discusses the use of probing classifiers to interpret transformer models"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "title": [
+      "**\"Layer-wise Analysis of a Deep Transformer Model\"** by Hao"
+    ],
+    "editor": [
+      {
+        "family": "Y.",
+        "given": "Liu"
+      },
+      {
+        "family": "Y."
+      },
+      {
+        "family": "Liu",
+        "given": "J."
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Analyzes the contributions of different layers in a deep transformer model"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "title": [
+      "**\"Transformer Interpretability Beyond Attention Visualization\"** by Chefer"
+    ],
+    "editor": [
+      {
+        "family": "H.",
+        "given": "Gur"
+      },
+      {
+        "family": "S."
+      },
+      {
+        "family": "Wolf",
+        "given": "L."
+      }
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Proposes new methods for transformer interpretability beyond simple attention visualization"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "title": [
+      "**\"Understanding Pre-trained BERT for Aspect-based Sentiment Analysis\"** by Xu"
+    ],
+    "editor": [
+      {
+        "family": "H.",
+        "given": "Liu"
+      },
+      {
+        "family": "B.",
+        "given": "Shu"
+      },
+      {
+        "family": "L."
+      },
+      {
+        "family": "Yu",
+        "given": "P.S."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Focuses on interpreting BERT in the context of aspect-based sentiment analysis"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "author": [
+      {
+        "given": "Analyzing"
+      },
+      {
+        "family": "Li",
+        "given": "Interpreting B.E.R.T.",
+        "particle": "for Text Generation\" by"
+      },
+      {
+        "family": "J.",
+        "given": "Sun"
+      },
+      {
+        "family": "A.",
+        "given": "Han"
+      },
+      {
+        "family": "J."
+      },
+      {
+        "family": "Li",
+        "given": "C."
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Investigates how BERT can be interpreted for text generation tasks"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "title": [
+      "**\"Explaining Transformers for Text Classification\"** by"
+    ],
+    "author": [
+      {
+        "family": "Serrano",
+        "given": "S."
+      },
+      {
+        "family": "Smith",
+        "given": "N.A."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Proposes methods to explain transformer models used for text classification"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "title": [
+      "**\"Towards Transparent and Explainable Attention Models\"**"
+    ],
+    "editor": [
+      {
+        "family": "Jain",
+        "given": "S.",
+        "particle": "by"
+      },
+      {
+        "family": "Wallace",
+        "given": "B.C."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Discusses the transparency and explainability of attention models"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "title": [
+      "**\"Attention Head Masking for Transformer Interpretability\"**"
+    ],
+    "editor": [
+      {
+        "family": "Michel",
+        "given": "P.",
+        "particle": "by"
+      },
+      {
+        "family": "Levy",
+        "given": "O."
+      },
+      {
+        "family": "Neubig",
+        "given": "G."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Introduces attention head masking as a method for interpreting transformers"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "title": [
+      "**\"Analyzing the Role of Self-Attention for Sentence Representation\"** by Lin"
+    ],
+    "editor": [
+      {
+        "family": "Z.",
+        "given": "Feng"
+      },
+      {
+        "family": "M.",
+        "given": "Santos"
+      },
+      {
+        "family": "C.N.d.",
+        "given": "Yu"
+      },
+      {
+        "family": "M.",
+        "given": "Xiang"
+      },
+      {
+        "family": "B.",
+        "given": "Zhou"
+      },
+      {
+        "family": "B."
+      },
+      {
+        "family": "Bengio",
+        "given": "Y."
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Analyzes the role of self-attention in sentence representation"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "author": [
+      {
+        "family": "Cao",
+        "given": "Explaining B.E.R.T.",
+        "particle": "with Concept Attribution\" by De"
+      },
+      {
+        "family": "N.",
+        "given": "Aziz"
+      },
+      {
+        "family": "W."
+      },
+      {
+        "family": "Titov",
+        "given": "I."
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Uses concept attribution methods to explain BERT's predictions"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "These articles should provide a solid foundation for understanding the various interpretability methods applied to transformer models"
+    ],
+    "type": null
+  }
+]

@@ -1,0 +1,703 @@
+[
+  {
+    "author": [
+      {
+        "given": "Sure!"
+      }
+    ],
+    "title": [
+      "Here is a list of 20 articles published before 2023 that focus on data augmentation and semi-supervised learning, particularly in the context of limited text data"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "author": [
+      {
+        "family": "Xie",
+        "given": "Q."
+      },
+      {
+        "family": "Dai",
+        "given": "Z."
+      },
+      {
+        "family": "Hovy",
+        "given": "E."
+      },
+      {
+        "family": "Luong",
+        "given": "M.-T."
+      },
+      {
+        "family": "Le",
+        "given": "Q.V."
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "title": [
+      "Unsupervised Data Augmentation for Consistency Training"
+    ],
+    "container-title": [
+      "*Advances in Neural Information Processing Systems (NeurIPS)*"
+    ],
+    "type": "chapter"
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "author": [
+      {
+        "family": "Wei",
+        "given": "J."
+      },
+      {
+        "family": "Zou",
+        "given": "K."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "title": [
+      "EDA: Easy Data Augmentation Techniques for Boosting Performance on Text Classification Tasks"
+    ],
+    "container-title": [
+      "*Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing (EMNLP)*"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "author": [
+      {
+        "family": "Sennrich",
+        "given": "R."
+      },
+      {
+        "family": "Haddow",
+        "given": "B."
+      },
+      {
+        "family": "Birch",
+        "given": "A."
+      }
+    ],
+    "date": [
+      "2016"
+    ],
+    "title": [
+      "Improving Neural Machine Translation Models with Monolingual Data"
+    ],
+    "container-title": [
+      "*Proceedings of the 54th Annual Meeting of the Association for Computational Linguistics (ACL)*"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "author": [
+      {
+        "family": "Miyato",
+        "given": "T."
+      },
+      {
+        "family": "Dai",
+        "given": "A.M."
+      },
+      {
+        "family": "Goodfellow",
+        "given": "I."
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "title": [
+      "Adversarial Training Methods for Semi-Supervised Text Classification"
+    ],
+    "container-title": [
+      "*International Conference on Learning Representations (ICLR)*"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "author": [
+      {
+        "family": "Clark",
+        "given": "K."
+      },
+      {
+        "family": "Luong",
+        "given": "M.-T."
+      },
+      {
+        "family": "Le",
+        "given": "Q.V."
+      },
+      {
+        "family": "Manning",
+        "given": "C.D."
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "title": [
+      "Electra: Pre-training Text Encoders as Discriminators Rather Than Generators"
+    ],
+    "container-title": [
+      "*International Conference on Learning Representations (ICLR)*"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "author": [
+      {
+        "family": "Berthelot",
+        "given": "D."
+      },
+      {
+        "family": "Carlini",
+        "given": "N."
+      },
+      {
+        "family": "Goodfellow",
+        "given": "I."
+      },
+      {
+        "family": "Papernot",
+        "given": "N."
+      },
+      {
+        "family": "Oliver",
+        "given": "A."
+      },
+      {
+        "family": "Raffel",
+        "given": "C."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "title": [
+      "MixMatch: A Holistic Approach to Semi-Supervised Learning"
+    ],
+    "container-title": [
+      "*Advances in Neural Information Processing Systems (NeurIPS)*"
+    ],
+    "type": "chapter"
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "author": [
+      {
+        "family": "Zhang",
+        "given": "X."
+      },
+      {
+        "family": "Zhao",
+        "given": "J."
+      },
+      {
+        "family": "LeCun",
+        "given": "Y."
+      }
+    ],
+    "date": [
+      "2015"
+    ],
+    "title": [
+      "Character-level Convolutional Networks for Text Classification"
+    ],
+    "container-title": [
+      "*Advances in Neural Information Processing Systems (NeurIPS)*"
+    ],
+    "type": "chapter"
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "author": [
+      {
+        "family": "Sohn",
+        "given": "K."
+      },
+      {
+        "family": "Berthelot",
+        "given": "D."
+      },
+      {
+        "family": "Li",
+        "given": "C.-L."
+      },
+      {
+        "family": "Zhang",
+        "given": "Z."
+      },
+      {
+        "family": "Carlini",
+        "given": "N."
+      },
+      {
+        "family": "Cubuk",
+        "given": "E.D."
+      },
+      {
+        "family": "Raffel",
+        "given": "C."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "title": [
+      "FixMatch: Simplifying Semi-Supervised Learning with Consistency and Confidence"
+    ],
+    "container-title": [
+      "*Advances in Neural Information Processing Systems (NeurIPS)*"
+    ],
+    "type": "chapter"
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "author": [
+      {
+        "family": "He",
+        "given": "K."
+      },
+      {
+        "family": "Zhang",
+        "given": "X."
+      },
+      {
+        "family": "Ren",
+        "given": "S."
+      },
+      {
+        "family": "Sun",
+        "given": "J."
+      }
+    ],
+    "date": [
+      "2016"
+    ],
+    "title": [
+      "Deep Residual Learning for Image Recognition"
+    ],
+    "container-title": [
+      "*Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)*"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "author": [
+      {
+        "family": "Yalniz",
+        "given": "I.Z."
+      },
+      {
+        "family": "Jégou",
+        "given": "H."
+      },
+      {
+        "family": "Chen",
+        "given": "K."
+      },
+      {
+        "family": "Paluri",
+        "given": "M."
+      },
+      {
+        "family": "Mahajan",
+        "given": "D."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "title": [
+      "Billion-scale Semi-Supervised Learning for Image Classification"
+    ],
+    "note": [
+      "*arXiv preprint arXiv:1905.00546*."
+    ],
+    "arxiv": [
+      "1905.00546"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "author": [
+      {
+        "family": "Kumar",
+        "given": "A."
+      },
+      {
+        "family": "Tsvetkov",
+        "given": "Y."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "title": [
+      "Von Mises-Fisher Loss for Training Sequence to Sequence Models with Continuous Outputs"
+    ],
+    "container-title": [
+      "*Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics (ACL)*"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "author": [
+      {
+        "family": "Saito",
+        "given": "K."
+      },
+      {
+        "family": "Ushiku",
+        "given": "Y."
+      },
+      {
+        "family": "Harada",
+        "given": "T."
+      },
+      {
+        "family": "Saenko",
+        "given": "K."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "title": [
+      "Strong-Weak Distribution Alignment for Adaptive Object Detection"
+    ],
+    "container-title": [
+      "*Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)*"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "author": [
+      {
+        "family": "Zhu",
+        "given": "X."
+      },
+      {
+        "family": "Goldberg",
+        "given": "A.B."
+      }
+    ],
+    "date": [
+      "2009"
+    ],
+    "title": [
+      "Introduction to Semi-Supervised Learning"
+    ],
+    "container-title": [
+      "*Synthesis Lectures on Artificial Intelligence and Machine Learning*"
+    ],
+    "type": "chapter"
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "author": [
+      {
+        "family": "Ruder",
+        "given": "S."
+      },
+      {
+        "family": "Peters",
+        "given": "M.E."
+      },
+      {
+        "family": "Swayamdipta",
+        "given": "S."
+      },
+      {
+        "family": "Wolf",
+        "given": "T."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "title": [
+      "Transfer Learning in Natural Language Processing"
+    ],
+    "container-title": [
+      "*Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics (NAACL)*"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "author": [
+      {
+        "family": "Chen",
+        "given": "T."
+      },
+      {
+        "family": "Kornblith",
+        "given": "S."
+      },
+      {
+        "family": "Norouzi",
+        "given": "M."
+      },
+      {
+        "family": "Hinton",
+        "given": "G."
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "title": [
+      "A Simple Framework for Contrastive Learning of Visual Representations"
+    ],
+    "container-title": [
+      "*International Conference on Machine Learning (ICML)*"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "author": [
+      {
+        "family": "Devlin",
+        "given": "J."
+      },
+      {
+        "family": "Chang",
+        "given": "M.-W."
+      },
+      {
+        "family": "Lee",
+        "given": "K."
+      },
+      {
+        "family": "Toutanova",
+        "given": "K."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "title": [
+      "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding"
+    ],
+    "container-title": [
+      "*Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics (NAACL)*"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "author": [
+      {
+        "family": "Sohn",
+        "given": "K."
+      },
+      {
+        "family": "Berthelot",
+        "given": "D."
+      },
+      {
+        "family": "Li",
+        "given": "C.-L."
+      },
+      {
+        "family": "Zhang",
+        "given": "Z."
+      },
+      {
+        "family": "Carlini",
+        "given": "N."
+      },
+      {
+        "family": "Cubuk",
+        "given": "E.D."
+      },
+      {
+        "family": "Raffel",
+        "given": "C."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "title": [
+      "FixMatch: Simplifying Semi-Supervised Learning with Consistency and Confidence"
+    ],
+    "container-title": [
+      "*Advances in Neural Information Processing Systems (NeurIPS)*"
+    ],
+    "type": "chapter"
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "author": [
+      {
+        "family": "Xie",
+        "given": "Q."
+      },
+      {
+        "family": "Dai",
+        "given": "Z."
+      },
+      {
+        "family": "Hovy",
+        "given": "E."
+      },
+      {
+        "family": "Luong",
+        "given": "M.-T."
+      },
+      {
+        "family": "Le",
+        "given": "Q.V."
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "title": [
+      "Unsupervised Data Augmentation for Consistency Training"
+    ],
+    "container-title": [
+      "*Advances in Neural Information Processing Systems (NeurIPS)*"
+    ],
+    "type": "chapter"
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "author": [
+      {
+        "family": "He",
+        "given": "K."
+      },
+      {
+        "family": "Zhang",
+        "given": "X."
+      },
+      {
+        "family": "Ren",
+        "given": "S."
+      },
+      {
+        "family": "Sun",
+        "given": "J."
+      }
+    ],
+    "date": [
+      "2016"
+    ],
+    "title": [
+      "Deep Residual Learning for Image Recognition"
+    ],
+    "container-title": [
+      "*Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)*"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "author": [
+      {
+        "family": "Yalniz",
+        "given": "I.Z."
+      },
+      {
+        "family": "Jégou",
+        "given": "H."
+      },
+      {
+        "family": "Chen",
+        "given": "K."
+      },
+      {
+        "family": "Paluri",
+        "given": "M."
+      },
+      {
+        "family": "Mahajan",
+        "given": "D."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "title": [
+      "Billion-scale Semi-Supervised Learning for Image Classification"
+    ],
+    "note": [
+      "*arXiv preprint arXiv:1905.00546*."
+    ],
+    "arxiv": [
+      "1905.00546"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "These articles cover a range of techniques and methodologies in data augmentation and semi-supervised learning, providing a comprehensive overview of the field as it pertains to limited text data"
+    ],
+    "type": null
+  }
+]

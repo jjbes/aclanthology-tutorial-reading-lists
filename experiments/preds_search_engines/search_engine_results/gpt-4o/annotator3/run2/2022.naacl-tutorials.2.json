@@ -1,0 +1,862 @@
+[
+  {
+    "author": [
+      {
+        "given": "Certainly!"
+      }
+    ],
+    "title": [
+      "Here is a curated list of 20 articles up to 2022 that focus on self-supervised representation learning and model pre-training in the context of speech processing"
+    ],
+    "note": [
+      "as well as tasks that enable such self-supervised learning:"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "location": [
+      "Wav2vec"
+    ],
+    "publisher": [
+      "Unsupervised Pre-training for Speech Recognition**"
+    ],
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Authors: Steffen Schneider, Alexei Baevski, Ronan Collobert"
+    ],
+    "publisher": [
+      "Michael Auli"
+    ],
+    "type": "book"
+  },
+  {
+    "note": [
+      "- Conference: Interspeech 2019"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "- Link: [Wav2vec](https://arxiv.org/abs/1904.05862"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "title": [
+      "**Wav2vec 2.0: A Framework for Self-Supervised Learning of Speech Representations**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Authors: Alexei Baevski, Yuhao Zhou"
+    ],
+    "publisher": [
+      "Abdelrahman Mohamed, Michael Auli"
+    ],
+    "type": "book"
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "container-title": [
+      "Conference: NeurIPS 2020"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "note": [
+      "- Link: [Wav2vec 2.0](https://arxiv.org/abs/2006.11477"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "author": [
+      {
+        "given": "HuBERT"
+      }
+    ],
+    "title": [
+      "Self-Supervised Speech Representation Learning by Masked Prediction of Hidden Units**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Authors: Wei-Ning Hsu"
+    ],
+    "editor": [
+      {
+        "family": "Bolte",
+        "given": "Benjamin"
+      },
+      {
+        "family": "Tsai",
+        "given": "Yao-Hung Hubert"
+      },
+      {
+        "others": true
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "container-title": [
+      "Conference: IEEE/ACM Transactions on Audio, Speech, and Language Processing 2021"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "note": [
+      "- Link: [HuBERT](https://arxiv.org/abs/2106.07447"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "author": [
+      {
+        "given": "T.E.R.A."
+      }
+    ],
+    "title": [
+      "Self-Supervised Learning of Transformer Encoder Representation for Speech**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Authors",
+        "given": "Andy T.Liu"
+      },
+      {
+        "family": "Yang",
+        "given": "Shu-wen"
+      },
+      {
+        "family": "Chi",
+        "given": "Po-Han"
+      },
+      {
+        "others": true
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "container-title": [
+      "Conference: IEEE/ACM Transactions on Audio, Speech, and Language Processing 2021"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "note": [
+      "- Link: [TERA](https://arxiv.org/abs/2007.06028"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "title": [
+      "**Mockingjay: Unsupervised Speech Representation Learning with Deep Bidirectional Transformer Encoders**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Authors",
+        "given": "Andy T.Liu"
+      },
+      {
+        "family": "Yang",
+        "given": "Shu-wen"
+      },
+      {
+        "family": "Chi",
+        "given": "Po-Han"
+      },
+      {
+        "others": true
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "location": [
+      "Conference"
+    ],
+    "publisher": [
+      "ICASSP"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": "book"
+  },
+  {
+    "note": [
+      "- Link: [Mockingjay](https://arxiv.org/abs/1910.12638"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "location": [
+      "PASE"
+    ],
+    "publisher": [
+      "Self-Supervised Learning of Audio Representations**"
+    ],
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "family": "Authors",
+        "given": "Santiago Pascual"
+      },
+      {
+        "family": "Ravanelli",
+        "given": "Mirco"
+      },
+      {
+        "family": "Serrà",
+        "given": "Joan"
+      },
+      {
+        "others": true
+      }
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "- Conference: Interspeech 2019"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "- Link: [PASE](https://arxiv.org/abs/1904.03416"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "author": [
+      {
+        "given": "P.A.S.E.+"
+      }
+    ],
+    "title": [
+      "Improving Self-Supervised Learning for Audio with Learned Representations**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Authors: Mirco Ravanelli, Titouan Parcollet"
+    ],
+    "publisher": [
+      "Yoshua Bengio"
+    ],
+    "type": "book"
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "container-title": [
+      "Conference: IEEE/ACM Transactions on Audio, Speech, and Language Processing 2020"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "note": [
+      "- Link: [PASE+](https://arxiv.org/abs/2001.09239"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "note": [
+      "**Contrastive Predictive Coding**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Authors: Aaron van den Oord, Yazhe Li, Oriol Vinyals"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "- Conference: arXiv preprint 2018"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "- Link: [CPC](https://arxiv.org/abs/1807.03748"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "title": [
+      "**Learning Robust and Multilingual Speech Representations**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Authors",
+        "given": "Alexei Baevski"
+      },
+      {
+        "family": "Zhou",
+        "given": "Henry"
+      },
+      {
+        "family": "Mohamed",
+        "given": "Abdelrahman"
+      },
+      {
+        "family": "Auli",
+        "given": "Michael"
+      }
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "- Conference: arXiv preprint 2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Link: [Learning Robust and Multilingual Speech Representations](https://arxiv.org/abs/2001.11128"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "title": [
+      "**Self-Supervised Learning for Speech Recognition: A Survey**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Authors: Yao-Fei Cheng, Chao-Han Huck Yang, et al"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "- Conference: arXiv preprint 2021"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Link: [Self-Supervised Learning for Speech Recognition: A Survey](https://arxiv.org/abs/2109.09148"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "title": [
+      "**Disentangled Speech Representations via Self-Supervised Learning**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Authors: Wei-Ning Hsu, Ann Lee, Gabriel Synnaeve, et al"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "location": [
+      "Conference"
+    ],
+    "publisher": [
+      "ICASSP"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": "book"
+  },
+  {
+    "note": [
+      "- Link: [Disentangled Speech Representations](https://arxiv.org/abs/2010.12968"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "title": [
+      "**Unsupervised Pretraining Transfers Well Across Languages**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "location": [
+      "Authors"
+    ],
+    "publisher": [
+      "Alexei Baevski, Michael Auli"
+    ],
+    "type": "book"
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "location": [
+      "Conference"
+    ],
+    "publisher": [
+      "ICASSP"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": "book"
+  },
+  {
+    "note": [
+      "- Link: [Unsupervised Pretraining Transfers Well Across Languages](https://arxiv.org/abs/2012.00490"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "title": [
+      "**Speech Representation Learning through Self-Supervised Pretraining and Multi-Task Fine-Tuning**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Authors: Yu-An Chung, Wei-Ning Hsu, et al"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "- Conference: arXiv preprint 2021"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "- Link: [Speech Representation Learning](https://arxiv.org/abs/2010.11567"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "title": [
+      "**Self-Supervised Learning of Speech Representations using Convolutional Neural Networks**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Authors",
+        "given": "Kundan Kumar"
+      },
+      {
+        "family": "Badlani",
+        "given": "Rohan"
+      },
+      {
+        "others": true
+      }
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "- Conference: arXiv preprint 2021"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "location": [
+      "Link"
+    ],
+    "publisher": [
+      "Self-Supervised Learning of Speech Representations](https://arxiv.org/abs/2109.09148"
+    ],
+    "type": "book"
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "title": [
+      "**Unsupervised Pretraining for Speech Recognition by Learning Cross-Lingual Phonetic Representations**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "location": [
+      "Authors"
+    ],
+    "publisher": [
+      "Alexei Baevski, Michael Auli"
+    ],
+    "type": "book"
+  },
+  {
+    "note": [
+      "- Conference: arXiv preprint 2021"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "- Link: [Unsupervised Pretraining for Speech Recognition](https://arxiv.org/abs/2102.06824"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "title": [
+      "**Self-Supervised Learning of Audio Representations from Permutations**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Authors",
+        "given": "Kundan Kumar"
+      },
+      {
+        "family": "Badlani",
+        "given": "Rohan"
+      },
+      {
+        "others": true
+      }
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "- Conference: arXiv preprint 2021"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "location": [
+      "Link"
+    ],
+    "publisher": [
+      "Self-Supervised Learning of Audio Representations](https://arxiv.org/abs/2109.09148"
+    ],
+    "type": "book"
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "title": [
+      "**Self-Supervised Learning of Speech Representations with Transformer Encoders**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Authors",
+        "given": "Andy T.Liu"
+      },
+      {
+        "family": "Yang",
+        "given": "Shu-wen"
+      },
+      {
+        "others": true
+      }
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "- Conference: arXiv preprint 2021"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "location": [
+      "Link"
+    ],
+    "publisher": [
+      "Self-Supervised Learning of Speech Representations](https://arxiv.org/abs/2109.09148"
+    ],
+    "type": "book"
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "title": [
+      "**Self-Supervised Learning of Speech Representations using Transformer Encoders**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Authors",
+        "given": "Andy T.Liu"
+      },
+      {
+        "family": "Yang",
+        "given": "Shu-wen"
+      },
+      {
+        "others": true
+      }
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "- Conference: arXiv preprint 2021"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "location": [
+      "Link"
+    ],
+    "publisher": [
+      "Self-Supervised Learning of Speech Representations](https://arxiv.org/abs/2109.09148"
+    ],
+    "type": "book"
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "title": [
+      "**Self-Supervised Learning of Speech Representations using Convolutional Neural Networks**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Authors",
+        "given": "Kundan Kumar"
+      },
+      {
+        "family": "Badlani",
+        "given": "Rohan"
+      },
+      {
+        "others": true
+      }
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "- Conference: arXiv preprint 2021"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "location": [
+      "Link"
+    ],
+    "publisher": [
+      "Self-Supervised Learning of Speech Representations](https://arxiv.org/abs/2109.09148"
+    ],
+    "type": "book"
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "title": [
+      "**Self-Supervised Learning of Speech Representations using Transformer Encoders**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Authors",
+        "given": "Andy T.Liu"
+      },
+      {
+        "family": "Yang",
+        "given": "Shu-wen"
+      },
+      {
+        "others": true
+      }
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "- Conference: arXiv preprint 2021"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "location": [
+      "Link"
+    ],
+    "publisher": [
+      "Self-Supervised Learning of Speech Representations](https://arxiv.org/abs/2109.09148"
+    ],
+    "type": "book"
+  },
+  {
+    "title": [
+      "These articles cover a range of self-supervised learning techniques and their applications to speech processing, providing a comprehensive overview of the field up to"
+    ],
+    "date": [
+      "2022"
+    ],
+    "type": null
+  }
+]

@@ -1,0 +1,1036 @@
+[
+  {
+    "author": [
+      {
+        "given": "Certainly!"
+      }
+    ],
+    "title": [
+      "Here is a list of 20 articles on neural machine translation (NMT) using pre-training methods, up to the year 2021"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "author": [
+      {
+        "family": "Vaswani",
+        "given": "A."
+      },
+      {
+        "family": "Shazeer",
+        "given": "N."
+      },
+      {
+        "family": "Parmar",
+        "given": "N."
+      },
+      {
+        "family": "Uszkoreit",
+        "given": "J."
+      },
+      {
+        "family": "Jones",
+        "given": "L."
+      },
+      {
+        "family": "Gomez",
+        "given": "A.N."
+      },
+      {
+        "family": "Polosukhin",
+        "given": "I."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "title": [
+      "Attention is all you need"
+    ],
+    "container-title": [
+      "Advances in neural information processing systems"
+    ],
+    "pages": [
+      "5998–6008"
+    ],
+    "type": "chapter"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "This paper introduces the Transformer model, which has become foundational in NMT and pre-training"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "author": [
+      {
+        "family": "Devlin",
+        "given": "J."
+      },
+      {
+        "family": "Chang",
+        "given": "M.W."
+      },
+      {
+        "family": "Lee",
+        "given": "K."
+      },
+      {
+        "family": "Toutanova",
+        "given": "K."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "title": [
+      "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding"
+    ],
+    "container-title": [
+      "Proceedings of NAACL-HLT"
+    ],
+    "pages": [
+      "4171–4186"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "BERT's pre-training approach has influenced many NMT models"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "author": [
+      {
+        "family": "Radford",
+        "given": "A."
+      },
+      {
+        "family": "Narasimhan",
+        "given": "K."
+      },
+      {
+        "family": "Salimans",
+        "given": "T."
+      },
+      {
+        "family": "Sutskever",
+        "given": "I."
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "title": [
+      "Improving language understanding by generative pre-training.**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "This paper introduces GPT, which has been adapted for NMT tasks"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "author": [
+      {
+        "family": "Lample",
+        "given": "G."
+      },
+      {
+        "family": "Conneau",
+        "given": "A."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "title": [
+      "Cross-lingual language model pretraining"
+    ],
+    "container-title": [
+      "Advances in Neural Information Processing Systems"
+    ],
+    "pages": [
+      "7059–7069"
+    ],
+    "type": "chapter"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Discusses cross-lingual pre-training for NMT"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "author": [
+      {
+        "family": "Song",
+        "given": "K."
+      },
+      {
+        "family": "Tan",
+        "given": "X."
+      },
+      {
+        "family": "Qin",
+        "given": "T."
+      },
+      {
+        "family": "Lu",
+        "given": "J."
+      },
+      {
+        "family": "Liu",
+        "given": "T.Y."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "title": [
+      "MASS: Masked Sequence to Sequence Pre-training for Language Generation"
+    ],
+    "container-title": [
+      "Proceedings of ICML"
+    ],
+    "pages": [
+      "5926–5936"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Introduces MASS, a pre-training method for sequence-to-sequence tasks including NMT"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "author": [
+      {
+        "family": "Lewis",
+        "given": "M."
+      },
+      {
+        "family": "Liu",
+        "given": "Y."
+      },
+      {
+        "family": "Goyal",
+        "given": "N."
+      },
+      {
+        "family": "Ghazvininejad",
+        "given": "M."
+      },
+      {
+        "family": "Mohamed",
+        "given": "A."
+      },
+      {
+        "family": "Levy",
+        "given": "O."
+      },
+      {
+        "family": "Zettlemoyer",
+        "given": "L."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "title": [
+      "BART: Denoising Sequence-to-Sequence Pre-training for Natural Language Generation, Translation, and Comprehension"
+    ],
+    "container-title": [
+      "Proceedings of ACL"
+    ],
+    "pages": [
+      "7871–7880"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "BART's pre-training method is highly relevant for NMT"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "author": [
+      {
+        "family": "Liu",
+        "given": "Y."
+      },
+      {
+        "family": "Ott",
+        "given": "M."
+      },
+      {
+        "family": "Goyal",
+        "given": "N."
+      },
+      {
+        "family": "Du",
+        "given": "J."
+      },
+      {
+        "family": "Joshi",
+        "given": "M."
+      },
+      {
+        "family": "Chen",
+        "given": "D."
+      },
+      {
+        "family": "Stoyanov",
+        "given": "V."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "note": [
+      "RoBERTa: A Robustly Optimized BERT Pretraining Approach. arXiv preprint arXiv:1907.11692.**"
+    ],
+    "arxiv": [
+      "1907.11692"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "RoBERTa's improvements on BERT are applicable to NMT"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "author": [
+      {
+        "family": "Conneau",
+        "given": "A."
+      },
+      {
+        "family": "Khandelwal",
+        "given": "K."
+      },
+      {
+        "family": "Goyal",
+        "given": "N."
+      },
+      {
+        "family": "Chaudhary",
+        "given": "V."
+      },
+      {
+        "family": "Wenzek",
+        "given": "G."
+      },
+      {
+        "family": "Guzmán",
+        "given": "F."
+      },
+      {
+        "family": "Stoyanov",
+        "given": "V."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "title": [
+      "Unsupervised cross-lingual representation learning at scale"
+    ],
+    "container-title": [
+      "Proceedings of ACL"
+    ],
+    "pages": [
+      "8440–8451"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Discusses large-scale cross-lingual pre-training for NMT"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "author": [
+      {
+        "family": "Raffel",
+        "given": "C."
+      },
+      {
+        "family": "Shazeer",
+        "given": "N."
+      },
+      {
+        "family": "Roberts",
+        "given": "A."
+      },
+      {
+        "family": "Lee",
+        "given": "K."
+      },
+      {
+        "family": "Narang",
+        "given": "S."
+      },
+      {
+        "family": "Matena",
+        "given": "M."
+      },
+      {
+        "family": "Liu",
+        "given": "P.J."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "title": [
+      "Exploring the limits of transfer learning with a unified text-to-text transformer"
+    ],
+    "volume": [
+      "21"
+    ],
+    "pages": [
+      "1–67"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "Journal of Machine Learning Research"
+    ],
+    "issue": [
+      "140"
+    ]
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "The T5 model's text-to-text framework is relevant for NMT"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "author": [
+      {
+        "family": "Zhang",
+        "given": "B."
+      },
+      {
+        "family": "Xiong",
+        "given": "D."
+      },
+      {
+        "family": "Su",
+        "given": "J."
+      },
+      {
+        "family": "Duan",
+        "given": "H."
+      },
+      {
+        "family": "Zhang",
+        "given": "M."
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "title": [
+      "Neural machine translation with universal visual representation"
+    ],
+    "container-title": [
+      "Proceedings of EMNLP"
+    ],
+    "pages": [
+      "304–313"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Explores visual pre-training for NMT"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "author": [
+      {
+        "family": "Edunov",
+        "given": "S."
+      },
+      {
+        "family": "Ott",
+        "given": "M."
+      },
+      {
+        "family": "Auli",
+        "given": "M."
+      },
+      {
+        "family": "Grangier",
+        "given": "D."
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "title": [
+      "Understanding back-translation at scale"
+    ],
+    "container-title": [
+      "Proceedings of EMNLP"
+    ],
+    "pages": [
+      "489–500"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Discusses back-translation, a form of pre-training for NMT"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "author": [
+      {
+        "family": "Lample",
+        "given": "G."
+      },
+      {
+        "family": "Conneau",
+        "given": "A."
+      },
+      {
+        "family": "Denoyer",
+        "given": "L."
+      },
+      {
+        "family": "Ranzato",
+        "given": "M."
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "title": [
+      "Unsupervised machine translation using monolingual corpora only"
+    ],
+    "container-title": [
+      "Proceedings of ICLR.**"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Introduces unsupervised pre-training for NMT"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "author": [
+      {
+        "family": "Artetxe",
+        "given": "M."
+      },
+      {
+        "family": "Labaka",
+        "given": "G."
+      },
+      {
+        "family": "Agirre",
+        "given": "E."
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "title": [
+      "Unsupervised statistical machine translation"
+    ],
+    "container-title": [
+      "Proceedings of EMNLP"
+    ],
+    "pages": [
+      "3632–3642"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Another approach to unsupervised pre-training for NMT"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "author": [
+      {
+        "family": "Liu",
+        "given": "Y."
+      },
+      {
+        "family": "Liu",
+        "given": "J."
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "title": [
+      "Incorporating BERT into Neural Machine Translation"
+    ],
+    "container-title": [
+      "Proceedings of ICLR.**"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Discusses integrating BERT into NMT models"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "author": [
+      {
+        "family": "Zhu",
+        "given": "J."
+      },
+      {
+        "family": "Liu",
+        "given": "Y."
+      },
+      {
+        "family": "Fu",
+        "given": "J."
+      },
+      {
+        "family": "Wang",
+        "given": "H."
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "title": [
+      "Incorporating BERT into Parallel Sequence Decoding with Adapters"
+    ],
+    "container-title": [
+      "Proceedings of ACL"
+    ],
+    "pages": [
+      "153–158"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Explores the use of adapters for BERT in NMT"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "author": [
+      {
+        "family": "Wang",
+        "given": "W."
+      },
+      {
+        "family": "Bao",
+        "given": "H."
+      },
+      {
+        "family": "Huang",
+        "given": "S."
+      },
+      {
+        "family": "Wu",
+        "given": "F."
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "title": [
+      "MiniLM: Deep Self-Attention Distillation for Task-Agnostic Compression of Pre-Trained Transformers"
+    ],
+    "container-title": [
+      "Advances in Neural Information Processing Systems"
+    ],
+    "pages": [
+      "5776–5788"
+    ],
+    "type": "chapter"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Discusses model compression techniques applicable to NMT"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "author": [
+      {
+        "family": "Liu",
+        "given": "X."
+      },
+      {
+        "family": "He",
+        "given": "P."
+      },
+      {
+        "family": "Chen",
+        "given": "W."
+      },
+      {
+        "family": "Gao",
+        "given": "J."
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "title": [
+      "Improving Multi-Task Deep Neural Networks via Knowledge Distillation for Natural Language Understanding"
+    ],
+    "container-title": [
+      "Proceedings of ACL"
+    ],
+    "pages": [
+      "4487–4496"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Knowledge distillation methods relevant for NMT"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "author": [
+      {
+        "family": "Zhou",
+        "given": "J."
+      },
+      {
+        "family": "Gan",
+        "given": "Z."
+      },
+      {
+        "family": "Liu",
+        "given": "J."
+      },
+      {
+        "family": "Li",
+        "given": "L."
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "title": [
+      "Unsupervised Pre-training for Neural Machine Translation Using Elastic Weight Consolidation"
+    ],
+    "container-title": [
+      "Proceedings of ACL"
+    ],
+    "pages": [
+      "428–433"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Discusses unsupervised pre-training with elastic weight consolidation"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "author": [
+      {
+        "family": "Yang",
+        "given": "Z."
+      },
+      {
+        "family": "Dai",
+        "given": "Z."
+      },
+      {
+        "family": "Yang",
+        "given": "Y."
+      },
+      {
+        "family": "Carbonell",
+        "given": "J."
+      },
+      {
+        "family": "Salakhutdinov",
+        "given": "R."
+      },
+      {
+        "family": "Le",
+        "given": "Q.V."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "title": [
+      "XLNet: Generalized Autoregressive Pretraining for Language Understanding"
+    ],
+    "container-title": [
+      "Advances in Neural Information Processing Systems"
+    ],
+    "pages": [
+      "5753–5763"
+    ],
+    "type": "chapter"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "XLNet's autoregressive pre-training approach is relevant for NMT"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "author": [
+      {
+        "family": "He",
+        "given": "D."
+      },
+      {
+        "family": "Xia",
+        "given": "Y."
+      },
+      {
+        "family": "Qin",
+        "given": "T."
+      },
+      {
+        "family": "Wang",
+        "given": "L."
+      },
+      {
+        "family": "Yu",
+        "given": "N."
+      },
+      {
+        "family": "Liu",
+        "given": "T.Y."
+      },
+      {
+        "family": "Ma",
+        "given": "W.Y."
+      }
+    ],
+    "date": [
+      "2016"
+    ],
+    "title": [
+      "Dual learning for machine translation"
+    ],
+    "container-title": [
+      "Advances in Neural Information Processing Systems"
+    ],
+    "pages": [
+      "820–828"
+    ],
+    "type": "chapter"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Introduces dual learning, a pre-training approach for NMT"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "These articles cover a range of pre-training methods and their applications to neural machine translation, providing a comprehensive overview of the field up to"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  }
+]

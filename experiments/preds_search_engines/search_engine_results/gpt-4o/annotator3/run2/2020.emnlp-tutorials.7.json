@@ -1,0 +1,400 @@
+[
+  {
+    "title": [
+      "Sure, here is a reading list of 20 articles up to 2020 that cover the current issues in natural language generation (NLG"
+    ],
+    "note": [
+      "specifically focusing on the lack of diversity, the non-factuality of generated text, and evaluation metrics:"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Diversity",
+        "given": "Lack",
+        "particle": "of"
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "title": [
+      "**\"A Diversity-Promoting Objective Function for Neural Conversation Models\"**"
+    ],
+    "note": [
+      "Jiwei Li, Michel Galley, Chris Brockett, Jianfeng Gao, Bill Dolan (2016"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "title": [
+      "**\"Maximum Mutual Information Model for Multi-turn Dialogue Generation\"**"
+    ],
+    "note": [
+      "Jiwei Li, Will Monroe, Alan Ritter, Michel Galley, Jianfeng Gao, Dan Jurafsky (2016"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "title": [
+      "**\"Generating Diverse and Consistent QA pairs from Contexts with Information-Maximizing Hierarchical Conditional VAEs\"** - Yizhe Zhang"
+    ],
+    "note": [
+      "Siqi Sun, Michel Galley, Yen-Chun Chen, Chris Brockett, Xiang Gao, Jianfeng Gao, Jingjing Liu, Bill Dolan (2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "title": [
+      "**\"Diverse Beam Search: Decoding Diverse Solutions from Neural Sequence Models\"**"
+    ],
+    "editor": [
+      {
+        "family": "Vijayakumar",
+        "given": "Ashwin K."
+      },
+      {
+        "family": "Cogswell",
+        "given": "Michael"
+      },
+      {
+        "family": "Vedantam",
+        "given": "Ramakrishna"
+      },
+      {
+        "family": "Parikh",
+        "given": "Devi"
+      },
+      {
+        "family": "Batra",
+        "given": "Dhruv"
+      }
+    ],
+    "date": [
+      "2016"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "title": [
+      "**\"Towards Diverse Text Generation with Inverse Reinforcement Learning\"**"
+    ],
+    "editor": [
+      {
+        "family": "Wang",
+        "given": "Ke"
+      },
+      {
+        "family": "Wan",
+        "given": "Xiaojun"
+      },
+      {
+        "family": "Zhao",
+        "given": "Dongyan"
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "publisher": [
+      "### Non-Factuality of Generated Text"
+    ],
+    "type": "book"
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "title": [
+      "**\"Get Your Vitamin C! Robust Fact Verification with Contrastive Evidence\"**"
+    ],
+    "publisher": [
+      "James Thorne, Andreas Vlachos"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": "book"
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "title": [
+      "**\"Fact-Checking Instruction Following Models\"**"
+    ],
+    "editor": [
+      {
+        "family": "Geva",
+        "given": "Mor"
+      },
+      {
+        "family": "Goldberg",
+        "given": "Yoav"
+      },
+      {
+        "family": "Berant",
+        "given": "Jonathan"
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "title": [
+      "**\"Neural Text Generation: A Practical Guide\"**"
+    ],
+    "editor": [
+      {
+        "family": "Fan",
+        "given": "Angela"
+      },
+      {
+        "family": "Lewis",
+        "given": "Mike"
+      },
+      {
+        "family": "Dauphin",
+        "given": "Yann"
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "title": [
+      "**\"Learning to Generate Wikipedia Summaries for Underserved Languages from Wikidata\"** - Asli Celikyilmaz"
+    ],
+    "location": [
+      "Elizabeth Clark, Jianfeng Gao"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "author": [
+      {
+        "literal": "**\"Fact-based Text Editing\"** - Elizabeth Clark, Yangfeng Ji, Noah A. Smith"
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Metrics",
+        "given": "Evaluation"
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "title": [
+      "**\"BLEU: a Method for Automatic Evaluation of Machine Translation\"** - Kishore Papineni"
+    ],
+    "location": [
+      "Salim Roukos"
+    ],
+    "publisher": [
+      "Todd Ward, Wei-Jing Zhu"
+    ],
+    "date": [
+      "2002"
+    ],
+    "type": "book"
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "title": [
+      "**\"ROUGE: A Package for Automatic Evaluation of Summaries\"** - Chin-Yew Lin"
+    ],
+    "date": [
+      "2004"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "title": [
+      "**\"BERTScore: Evaluating Text Generation with BERT\"**"
+    ],
+    "editor": [
+      {
+        "family": "Zhang",
+        "given": "Tianyi"
+      },
+      {
+        "family": "Kishore",
+        "given": "Varsha"
+      },
+      {
+        "family": "Wu",
+        "given": "Felix"
+      },
+      {
+        "family": "Weinberger",
+        "given": "Kilian Q."
+      },
+      {
+        "family": "Artzi",
+        "given": "Yoav"
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "title": [
+      "**\"Unsupervised Machine Translation Using Monolingual Corpora Only\"**"
+    ],
+    "note": [
+      "Guillaume Lample, Alexis Conneau, Ludovic Denoyer, Marc'Aurelio Ranzato (2018"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "title": [
+      "**\"Evaluating the Evaluation Metrics for Style Transfer: A Case Study in Multilingual Formality Transfer\"** - Sudha Rao, Joel Tetreault"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "title": [
+      "**\"Towards a Better Metric for Evaluating Question Generation Systems\"**"
+    ],
+    "editor": [
+      {
+        "family": "Nema",
+        "given": "Preksha"
+      },
+      {
+        "family": "Khapra",
+        "given": "Mitesh M."
+      },
+      {
+        "family": "Laha",
+        "given": "Anirban"
+      },
+      {
+        "family": "Ravindran",
+        "given": "Balaraman"
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "title": [
+      "**\"Evaluating Natural Language Generation with BLEU and METEOR\"** - Satanjeev Banerjee, Alon Lavie"
+    ],
+    "date": [
+      "2005"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "title": [
+      "**\"The Story Cloze Test: A Corpus and Cloze Evaluation for Deeper Understanding of Commonsense Stories\"** - Nasrin Mostafazadeh"
+    ],
+    "note": [
+      "Nathanael Chambers, Xiaodong He, Devi Parikh, Dhruv Batra, Lucy Vanderwende, Pushmeet Kohli, James Allen (2016"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "title": [
+      "**\"Evaluating the Factual Consistency of Abstractive Text Summarization\"** - Wojciech Kryściński"
+    ],
+    "note": [
+      "Nitish Shirish Keskar, Bryan McCann, Caiming Xiong, Richard Socher (2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "title": [
+      "**\"Re-evaluating ADEM: A Deeper Look at Scoring Dialogue Responses\"**"
+    ],
+    "note": [
+      "Chia-Wei Liu, Ryan Lowe, Iulian Serban, Mike Noseworthy, Laurent Charlin, Joelle Pineau (2018"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "These articles cover a range of topics within the three main issues in NLG. They include seminal works as well as more recent studies that address the evolving challenges and propose new solutions"
+    ],
+    "type": null
+  }
+]

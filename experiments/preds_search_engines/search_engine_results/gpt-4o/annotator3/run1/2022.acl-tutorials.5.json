@@ -1,0 +1,682 @@
+[
+  {
+    "author": [
+      {
+        "given": "Certainly!"
+      }
+    ],
+    "title": [
+      "Here is a reading list of 20 articles published before 2023 that focus on techniques to alleviate the lack of available labeled data in natural language processing (NLP) through data augmentation or semi-supervised learning"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "title": [
+      "**\"Back-Translation as Data Augmentation for Neural Machine Translation\"** - Rico Sennrich"
+    ],
+    "location": [
+      "Barry Haddow, Alexandra Birch"
+    ],
+    "date": [
+      "2016"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "This paper explores the use of back-translation to generate synthetic parallel data for machine translation"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "title": [
+      "**\"Unsupervised Data Augmentation for Consistency Training\"** - Qizhe Xie, Zihang Dai"
+    ],
+    "editor": [
+      {
+        "family": "Hovy",
+        "given": "Eduard"
+      },
+      {
+        "family": "Luong",
+        "given": "Minh-Thang"
+      },
+      {
+        "family": "Le",
+        "given": "Quoc V."
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "The authors propose a method that combines data augmentation with semi-supervised learning to improve model performance"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "title": [
+      "**\"MixText: Linguistically-Informed Interpolation of Hidden Space for Semi-Supervised Text Classification\"**"
+    ],
+    "editor": [
+      {
+        "family": "Chen",
+        "given": "Yiming"
+      },
+      {
+        "family": "Liu",
+        "given": "Liyuan"
+      },
+      {
+        "family": "Gimpel",
+        "given": "Kevin"
+      },
+      {
+        "family": "Bhat",
+        "given": "Suma"
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "This paper introduces MixText, a semi-supervised learning method that interpolates hidden states of text data"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "author": [
+      {
+        "given": "E.D.A."
+      }
+    ],
+    "title": [
+      "Easy Data Augmentation Techniques for Boosting Performance on Text Classification Tasks\"** - Jason Wei"
+    ],
+    "location": [
+      "Kai Zou"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "The authors present simple yet effective data augmentation techniques for text classification"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "author": [
+      {
+        "literal": "**\"Semi-Supervised Sequence Learning\"** - Andrew M. Dai, Quoc V. Le"
+      }
+    ],
+    "date": [
+      "2015"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "This work explores semi-supervised learning for sequence models, particularly focusing on language modeling"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "title": [
+      "**\"Virtual Adversarial Training: A Regularization Method for Supervised and Semi-Supervised Learning\"**"
+    ],
+    "note": [
+      "Takeru Miyato, Shin-ichi Maeda, Masanori Koyama, Shin Ishii (2018"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "The paper introduces virtual adversarial training (VAT) as a regularization method for both supervised and semi-supervised learning"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "title": [
+      "**\"Self-Training with Noisy Student Improves ImageNet Classification\"** - Qizhe Xie"
+    ],
+    "editor": [
+      {
+        "family": "Luong",
+        "given": "Minh-Thang"
+      },
+      {
+        "family": "Hovy",
+        "given": "Eduard"
+      },
+      {
+        "family": "Le",
+        "given": "Quoc V."
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Although focused on image classification, the self-training approach discussed can be adapted for NLP tasks"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "title": [
+      "**\"Consistency Regularization for Cross-Lingual Fine-Tuning\"** - Xilun Chen, Claire Cardie"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "This paper discusses consistency regularization techniques for cross-lingual NLP tasks"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "title": [
+      "**\"Data Augmentation for Low-Resource Neural Machine Translation\"** - Jindřich Libovický"
+    ],
+    "publisher": [
+      "Rudolf Rosa, Alexander Fraser"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "The authors explore various data augmentation techniques for improving neural machine translation in low-resource settings"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "title": [
+      "**\"Learning from Noisy Labels with Deep Neural Networks: A Survey\"**"
+    ],
+    "editor": [
+      {
+        "family": "Han",
+        "given": "Bo"
+      },
+      {
+        "family": "Yao",
+        "given": "Quanming"
+      },
+      {
+        "family": "Yu",
+        "given": "Xingrui"
+      },
+      {
+        "family": "Niu",
+        "given": "Gang"
+      },
+      {
+        "family": "Xu",
+        "given": "Miao"
+      },
+      {
+        "family": "Hu",
+        "given": "Weihua"
+      },
+      {
+        "family": "Tsang",
+        "given": "Ivor W."
+      },
+      {
+        "family": "Sugiyama",
+        "given": "Masashi"
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "This survey covers methods for learning from noisy labels, which is relevant for semi-supervised learning"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "title": [
+      "**\"Adversarial Data Augmentation for Task-Oriented Dialogue\"** - Chia-Hsuan Lee"
+    ],
+    "editor": [
+      {
+        "family": "Madotto",
+        "given": "Andrea"
+      },
+      {
+        "family": "Winata",
+        "given": "Genta Indra"
+      },
+      {
+        "family": "Fung",
+        "given": "Pascale"
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "The paper presents adversarial data augmentation techniques for improving task-oriented dialogue systems"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "author": [
+      {
+        "literal": "**\"Semi-Supervised Learning with Ladder Networks\"** - A. Rasmus, H. Valpola, M. Honkala, M. Berglund, T. Raiko"
+      }
+    ],
+    "date": [
+      "2015"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "This work introduces ladder networks, a semi-supervised learning architecture"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "author": [
+      {
+        "literal": "**\"Data Augmentation for Neural Networks\"** - Alex J. Smola, Bernhard Schölkopf"
+      }
+    ],
+    "date": [
+      "2002"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "An early exploration of data augmentation techniques for neural networks, applicable to NLP"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "title": [
+      "**\"Self-Training for Few-Shot Transfer Across Extreme Tasks\"** - Suchin Gururangan"
+    ],
+    "editor": [
+      {
+        "family": "Marasović",
+        "given": "Ana"
+      },
+      {
+        "family": "Swayamdipta",
+        "given": "Swabha"
+      },
+      {
+        "family": "Lo",
+        "given": "Kyle"
+      },
+      {
+        "family": "Beltagy",
+        "given": "Iz"
+      },
+      {
+        "family": "Downey",
+        "given": "Doug"
+      },
+      {
+        "family": "Smith",
+        "given": "Noah A."
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "The authors discuss self-training methods for transferring knowledge across tasks with limited data"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "title": [
+      "**\"Semi-Supervised Learning with Generative Adversarial Networks\"**"
+    ],
+    "publisher": [
+      "Augustus Odena"
+    ],
+    "date": [
+      "2016"
+    ],
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "This paper explores the use of GANs for semi-supervised learning, which can be applied to NLP"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "title": [
+      "**\"Data Augmentation for Text Classification Using Text Generation\"**"
+    ],
+    "author": [
+      {
+        "family": "Wang",
+        "given": "R."
+      },
+      {
+        "family": "Yang",
+        "given": "W."
+      },
+      {
+        "family": "Wei",
+        "given": "J."
+      },
+      {
+        "family": "Zou",
+        "given": "K."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "The authors propose using text generation models for data augmentation in text classification tasks"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "title": [
+      "**\"Semi-Supervised Learning with Deep Generative Models\"**"
+    ],
+    "editor": [
+      {
+        "family": "Kingma",
+        "given": "Diederik P."
+      },
+      {
+        "family": "Rezende",
+        "given": "Danilo J."
+      },
+      {
+        "family": "Mohamed",
+        "given": "Shakir"
+      },
+      {
+        "family": "Welling",
+        "given": "Max"
+      }
+    ],
+    "date": [
+      "2014"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "This work introduces deep generative models for semi-supervised learning"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "title": [
+      "**\"Data Augmentation for Low-Resource Neural Machine Translation\"** - Jindřich Libovický"
+    ],
+    "publisher": [
+      "Rudolf Rosa, Alexander Fraser"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "The authors explore various data augmentation techniques for improving neural machine translation in low-resource settings"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "title": [
+      "**\"Semi-Supervised Learning with Deep Generative Models\"**"
+    ],
+    "editor": [
+      {
+        "family": "Kingma",
+        "given": "Diederik P."
+      },
+      {
+        "family": "Rezende",
+        "given": "Danilo J."
+      },
+      {
+        "family": "Mohamed",
+        "given": "Shakir"
+      },
+      {
+        "family": "Welling",
+        "given": "Max"
+      }
+    ],
+    "date": [
+      "2014"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "This work introduces deep generative models for semi-supervised learning"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "title": [
+      "**\"Data Augmentation for Low-Resource Neural Machine Translation\"** - Jindřich Libovický"
+    ],
+    "publisher": [
+      "Rudolf Rosa, Alexander Fraser"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "The authors explore various data augmentation techniques for improving neural machine translation in low-resource settings"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "These articles cover a range of techniques and approaches for addressing the challenge of limited labeled data in NLP, including data augmentation, semi-supervised learning, and the use of generative models"
+    ],
+    "type": null
+  }
+]

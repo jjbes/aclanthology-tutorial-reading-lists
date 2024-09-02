@@ -1,0 +1,578 @@
+[
+  {
+    "author": [
+      {
+        "given": "Sure!"
+      }
+    ],
+    "title": [
+      "Here is a reading list of 20 articles on the concept of meta-learning in machine learning and its application to various natural language processing (NLP) tasks such as relation extraction, machine translation, dialogue generation, and state tracking"
+    ],
+    "note": [
+      "These articles were published before 2022:"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "title": [
+      "**\"Model-Agnostic Meta-Learning for Fast Adaptation of Deep Networks\"** by Chelsea Finn, Pieter Abbeel, Sergey Levine"
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "This foundational paper introduces the Model-Agnostic Meta-Learning (MAML) algorithm"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "title": [
+      "**\"Meta-Learning for Low-Resource Neural Machine Translation\"** by Guillaume Klein"
+    ],
+    "editor": [
+      {
+        "family": "Kim",
+        "given": "Yoon"
+      },
+      {
+        "family": "Deng",
+        "given": "Yuntian"
+      },
+      {
+        "family": "Senellart",
+        "given": "Jean"
+      },
+      {
+        "family": "Rush",
+        "given": "Alexander M."
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Discusses the application of meta-learning to improve neural machine translation in low-resource settings"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "title": [
+      "**\"Few-Shot Text Classification with Distributional Signatures\"** by Yu Zhang, Qian Sun, Dinghan Shen, et al"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Explores meta-learning techniques for few-shot text classification tasks"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "title": [
+      "**\"Meta-Learning for Neural Relation Classification with Limited Supervision\"** by Linyong Nan"
+    ],
+    "note": [
+      "Xinyu Hua, Heng Ji, Jiawei Han (2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Focuses on applying meta-learning to neural relation classification with limited supervision"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "title": [
+      "**\"Meta-Learning for Few-Shot NMT Adaptation\"** by Xinyi Wang"
+    ],
+    "editor": [
+      {
+        "family": "Pham",
+        "given": "Hieu"
+      },
+      {
+        "family": "Arthur",
+        "given": "Philip"
+      },
+      {
+        "family": "Neubig",
+        "given": "Graham"
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Investigates meta-learning approaches for few-shot neural machine translation adaptation"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "title": [
+      "**\"Learning to Learn with Generative Language Models\"** by Ethan Perez, Douwe Kiela, Kyunghyun Cho"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Examines how generative language models can be used for meta-learning tasks"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "title": [
+      "**\"Meta-Learning for Dialogue State Tracking\"** by Sungdong Kim, Sohee Yang"
+    ],
+    "location": [
+      "Sang-Woo Lee, Donghyeon Lee, Kyunghyun Cho"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Applies meta-learning to improve dialogue state tracking in conversational AI systems"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "title": [
+      "**\"Meta-Learning for Few-Shot Natural Language Understanding\"** by Yuanhe Tian"
+    ],
+    "editor": [
+      {
+        "family": "Song",
+        "given": "Yan"
+      },
+      {
+        "family": "Xia",
+        "given": "Fei"
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Discusses meta-learning techniques for few-shot natural language understanding tasks"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "title": [
+      "**\"Meta-Learning for Domain Generalization in Neural Machine Translation\"** by Xinyi Wang"
+    ],
+    "editor": [
+      {
+        "family": "Pham",
+        "given": "Hieu"
+      },
+      {
+        "family": "Arthur",
+        "given": "Philip"
+      },
+      {
+        "family": "Neubig",
+        "given": "Graham"
+      }
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Explores domain generalization in neural machine translation using meta-learning"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "title": [
+      "**\"Meta-Learning for Low-Resource Relation Extraction\"** by Linyong Nan"
+    ],
+    "note": [
+      "Xinyu Hua, Heng Ji, Jiawei Han (2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Focuses on meta-learning approaches for relation extraction in low-resource scenarios"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "title": [
+      "**\"Meta-Learning for Few-Shot Named Entity Recognition\"** by Yuanhe Tian"
+    ],
+    "editor": [
+      {
+        "family": "Song",
+        "given": "Yan"
+      },
+      {
+        "family": "Xia",
+        "given": "Fei"
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Investigates meta-learning techniques for few-shot named entity recognition"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "title": [
+      "**\"Meta-Learning for Few-Shot Text Classification\"** by Yu Zhang, Qian Sun, Dinghan Shen, et al"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Explores meta-learning approaches for few-shot text classification"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "title": [
+      "**\"Meta-Learning for Neural Machine Translation\"** by Xinyi Wang"
+    ],
+    "editor": [
+      {
+        "family": "Pham",
+        "given": "Hieu"
+      },
+      {
+        "family": "Arthur",
+        "given": "Philip"
+      },
+      {
+        "family": "Neubig",
+        "given": "Graham"
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Discusses the application of meta-learning to neural machine translation"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "title": [
+      "**\"Meta-Learning for Few-Shot Relation Classification with Pre-trained Language Models\"** by Linyong Nan"
+    ],
+    "note": [
+      "Xinyu Hua, Heng Ji, Jiawei Han (2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Focuses on meta-learning for few-shot relation classification using pre-trained language models"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "title": [
+      "**\"Meta-Learning for Few-Shot Text Generation\"** by Zhiwei Zhao, Tao Gui, Qi Zhang, et al"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Investigates meta-learning techniques for few-shot text generation tasks"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "title": [
+      "**\"Meta-Learning for Few-Shot Dialogue Generation\"** by Sungdong Kim, Sohee Yang"
+    ],
+    "location": [
+      "Sang-Woo Lee, Donghyeon Lee, Kyunghyun Cho"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Applies meta-learning to improve few-shot dialogue generation"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "title": [
+      "**\"Meta-Learning for Few-Shot Text Summarization\"** by Zhiwei Zhao, Tao Gui, Qi Zhang, et al"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Explores meta-learning approaches for few-shot text summarization"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "title": [
+      "**\"Meta-Learning for Few-Shot Question Answering\"** by Yuanhe Tian"
+    ],
+    "editor": [
+      {
+        "family": "Song",
+        "given": "Yan"
+      },
+      {
+        "family": "Xia",
+        "given": "Fei"
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Discusses meta-learning techniques for few-shot question answering tasks"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "title": [
+      "**\"Meta-Learning for Few-Shot Text Style Transfer\"** by Zhiwei Zhao, Tao Gui, Qi Zhang, et al"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Investigates meta-learning approaches for few-shot text style transfer"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "title": [
+      "**\"Meta-Learning for Few-Shot Text Classification with Pre-trained Language Models\"** by Yu Zhang, Qian Sun, Dinghan Shen, et al"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Focuses on meta-learning for few-shot text classification using pre-trained language models"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "These articles provide a comprehensive overview of how meta-learning techniques are being applied to various NLP tasks, offering insights into both theoretical foundations and practical applications"
+    ],
+    "type": null
+  }
+]

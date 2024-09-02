@@ -1,0 +1,1102 @@
+[
+  {
+    "author": [
+      {
+        "given": "Certainly!"
+      }
+    ],
+    "title": [
+      "Here is a curated reading list of 20 articles that cover various aspects of security in large language models (LLMs), including attacks during training and inference, as well as privacy concerns. These articles are selected to provide a comprehensive understanding of the current landscape and emerging trends in this field"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "### Security in Large Language Models (LLMs"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "title": [
+      "**\"Adversarial Attacks on Machine Learning Models: A Comprehensive Review\"**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "location": [
+      "Authors"
+    ],
+    "publisher": [
+      "Akhtar, N., & Mian, A"
+    ],
+    "type": "book"
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "location": [
+      "Journal"
+    ],
+    "publisher": [
+      "IEEE Transactions on Neural Networks and Learning Systems"
+    ],
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "given": "Year"
+      }
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "title": [
+      "**\"Mitigating Adversarial Attacks on Deep Learning Models: A Survey\"**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Authors",
+        "given": "Yuan"
+      },
+      {
+        "family": "X.",
+        "given": "He"
+      },
+      {
+        "family": "P.",
+        "given": "Zhu"
+      },
+      {
+        "family": "Q."
+      },
+      {
+        "family": "Li",
+        "given": "X."
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "location": [
+      "Journal"
+    ],
+    "publisher": [
+      "IEEE"
+    ],
+    "container-title": [
+      "Transactions on Emerging Topics in Computational Intelligence"
+    ],
+    "type": "chapter"
+  },
+  {
+    "author": [
+      {
+        "given": "Year"
+      }
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "title": [
+      "**\"Robustness of Language Models to Adversarial Attacks\"**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Authors",
+        "given": "Wallace"
+      },
+      {
+        "family": "E.",
+        "given": "Feng"
+      },
+      {
+        "family": "S.",
+        "given": "Kandpal"
+      },
+      {
+        "family": "N.",
+        "given": "Gardner"
+      },
+      {
+        "family": "M."
+      },
+      {
+        "family": "Singh",
+        "given": "S."
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "location": [
+      "Conference"
+    ],
+    "publisher": [
+      "ACL"
+    ],
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "given": "Year"
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "title": [
+      "**\"Adversarial Training for Large Neural Language Models\"**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Authors: Zhu"
+    ],
+    "editor": [
+      {
+        "family": "C.",
+        "given": "Xu"
+      },
+      {
+        "family": "Y.",
+        "given": "Yu"
+      },
+      {
+        "family": "B."
+      },
+      {
+        "family": "Liu",
+        "given": "Q."
+      }
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "- Conference: NeurIPS"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Year"
+      }
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "### Attacks at Training Time"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "container-title": [
+      "**\"Poisoning Attacks on Machine Learning\"**"
+    ],
+    "type": "chapter"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Authors"
+    ],
+    "editor": [
+      {
+        "family": "Biggio",
+        "given": "B."
+      },
+      {
+        "family": "Nelson",
+        "given": "B."
+      },
+      {
+        "family": "Laskov",
+        "given": "P."
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "location": [
+      "Journal"
+    ],
+    "publisher": [
+      "ACM Transactions on Knowledge Discovery from Data"
+    ],
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "given": "Year"
+      }
+    ],
+    "date": [
+      "2012"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "title": [
+      "**\"Data Poisoning Attacks in Contextual Bandits\"**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Authors",
+        "given": "Liu"
+      },
+      {
+        "family": "Y.",
+        "given": "Miller"
+      },
+      {
+        "family": "J."
+      },
+      {
+        "family": "Li",
+        "given": "A."
+      }
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "- Conference: NeurIPS"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Year"
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "title": [
+      "**\"Backdoor Attacks on Deep Learning Models\"**"
+    ],
+    "type": null
+  },
+  {
+    "director": [
+      {
+        "family": "Authors",
+        "given": "Gu"
+      },
+      {
+        "family": "T.",
+        "given": "Dolan-Gavitt"
+      },
+      {
+        "family": "B."
+      },
+      {
+        "family": "Garg",
+        "given": "S."
+      }
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "- Conference: ICML"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Year"
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "note": [
+      "**\"Poisoning Attacks on Federated Learning Systems\"**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Authors",
+        "given": "Bhagoji"
+      },
+      {
+        "family": "N.",
+        "given": "A."
+      },
+      {
+        "family": "Chakraborty",
+        "given": "S."
+      },
+      {
+        "family": "Mittal",
+        "given": "P."
+      },
+      {
+        "family": "Calo",
+        "given": "S."
+      }
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "- Conference: NeurIPS"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Year"
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "container-title": [
+      "### Attacks at Inference Time"
+    ],
+    "type": "chapter"
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "title": [
+      "**\"Adversarial Examples in the Physical World\"**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Authors: Kurakin"
+    ],
+    "editor": [
+      {
+        "family": "A.",
+        "given": "Goodfellow"
+      },
+      {
+        "family": "I."
+      },
+      {
+        "family": "Bengio",
+        "given": "S."
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "location": [
+      "Conference"
+    ],
+    "publisher": [
+      "ICLR"
+    ],
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "given": "Year"
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "publisher": [
+      "**\"Universal Adversarial Perturbations\"**"
+    ],
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "family": "Authors",
+        "given": "Moosavi-Dezfooli"
+      },
+      {
+        "family": "M.",
+        "given": "S."
+      },
+      {
+        "family": "Fawzi",
+        "given": "A."
+      },
+      {
+        "family": "Fawzi",
+        "given": "O."
+      },
+      {
+        "family": "Frossard",
+        "given": "P."
+      }
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "- Conference: CVPR"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Year"
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "title": [
+      "**\"Adversarial Attacks and Defenses in Images, Graphs and Text: A Review\"**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Authors: Sun"
+    ],
+    "editor": [
+      {
+        "family": "X.",
+        "given": "Wang"
+      },
+      {
+        "family": "J."
+      },
+      {
+        "family": "Tang",
+        "given": "J."
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "location": [
+      "Journal"
+    ],
+    "publisher": [
+      "IEEE Transactions on Big Data"
+    ],
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "given": "Year"
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "title": [
+      "**\"Explaining and Harnessing Adversarial Examples\"**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Authors",
+        "given": "Goodfellow"
+      },
+      {
+        "family": "J.",
+        "given": "I."
+      },
+      {
+        "family": "Shlens",
+        "given": "J."
+      },
+      {
+        "family": "Szegedy",
+        "given": "C."
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "location": [
+      "Conference"
+    ],
+    "publisher": [
+      "ICLR"
+    ],
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "given": "Year"
+      }
+    ],
+    "date": [
+      "2015"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "### Privacy Concerns"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "title": [
+      "**\"Membership Inference Attacks Against Machine Learning Models\"**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Authors",
+        "given": "Shokri"
+      },
+      {
+        "family": "R.",
+        "given": "Stronati"
+      },
+      {
+        "family": "M.",
+        "given": "Song"
+      },
+      {
+        "family": "C."
+      },
+      {
+        "family": "Shmatikov",
+        "given": "V."
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "container-title": [
+      "Conference: IEEE Symposium on Security and Privacy"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "author": [
+      {
+        "given": "Year"
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "title": [
+      "**\"Differential Privacy for Deep Learning: A Survey\"**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Authors",
+        "given": "Abadi"
+      },
+      {
+        "family": "M.",
+        "given": "Chu"
+      },
+      {
+        "family": "A.",
+        "given": "Goodfellow"
+      },
+      {
+        "family": "I.",
+        "given": "McMahan"
+      },
+      {
+        "family": "B.",
+        "given": "H."
+      },
+      {
+        "family": "Mironov",
+        "given": "I."
+      },
+      {
+        "family": "Talwar",
+        "given": "K."
+      },
+      {
+        "family": "Zhang",
+        "given": "L."
+      }
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "- Journal: arXiv preprint arXiv:1607.00133"
+    ],
+    "arxiv": [
+      "1607.00133"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Year"
+      }
+    ],
+    "date": [
+      "2016"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "title": [
+      "**\"Privacy-Preserving Machine Learning: Threats and Solutions\"**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Authors",
+        "given": "Papernot"
+      },
+      {
+        "family": "N.",
+        "given": "McDaniel"
+      },
+      {
+        "family": "P.",
+        "given": "Sinha"
+      },
+      {
+        "family": "A."
+      },
+      {
+        "family": "Wellman",
+        "given": "M."
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "location": [
+      "Journal"
+    ],
+    "publisher": [
+      "IEEE Security & Privacy"
+    ],
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "given": "Year"
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "title": [
+      "**\"Machine Learning with Differential Privacy\"**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Authors: Dwork"
+    ],
+    "editor": [
+      {
+        "family": "C."
+      },
+      {
+        "family": "Roth",
+        "given": "A."
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "location": [
+      "Journal"
+    ],
+    "publisher": [
+      "ACM SIGACT News"
+    ],
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "given": "Year"
+      }
+    ],
+    "date": [
+      "2014"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "publisher": [
+      "**\"Privacy-Preserving Deep Learning\"**"
+    ],
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "family": "Authors",
+        "given": "Shokri"
+      },
+      {
+        "family": "R."
+      },
+      {
+        "family": "Shmatikov",
+        "given": "V."
+      }
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "- Conference: CCS"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Year"
+      }
+    ],
+    "date": [
+      "2015"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "note": [
+      "**\"Federated Learning: Challenges, Methods, and Future Directions\"**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Authors",
+        "given": "Kairouz"
+      },
+      {
+        "family": "P.",
+        "given": "McMahan"
+      },
+      {
+        "family": "B.",
+        "given": "H."
+      },
+      {
+        "others": true
+      }
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "Journal: IEEE Signal Processing Magazine"
+    ]
+  },
+  {
+    "author": [
+      {
+        "given": "Year"
+      }
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "container-title": [
+      "**\"Privacy Attacks on Machine Learning Models\"**"
+    ],
+    "type": "chapter"
+  },
+  {
+    "author": [
+      {
+        "family": "Authors",
+        "given": "Fredrikson"
+      },
+      {
+        "family": "M.",
+        "given": "Jha"
+      },
+      {
+        "family": "S."
+      },
+      {
+        "family": "Ristenpart",
+        "given": "T."
+      }
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "- Conference: CCS"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Year"
+      }
+    ],
+    "date": [
+      "2015"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "title": [
+      "**\"The Secret Sharer: Evaluating and Testing Unintended Memorization in Neural Networks\"**"
+    ],
+    "type": null
+  },
+  {
+    "producer": [
+      {
+        "family": "Authors",
+        "given": "Carlini"
+      },
+      {
+        "family": "N.",
+        "given": "Liu"
+      },
+      {
+        "family": "C.",
+        "given": "Erlingsson"
+      },
+      {
+        "family": "Ú.",
+        "given": "Kos"
+      },
+      {
+        "family": "J."
+      },
+      {
+        "family": "Song",
+        "given": "D."
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "location": [
+      "Conference"
+    ],
+    "publisher": [
+      "USENIX Security Symposium"
+    ],
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "given": "Year"
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "These articles should provide a solid foundation for understanding the security challenges and privacy concerns associated with large language models"
+    ],
+    "type": null
+  }
+]

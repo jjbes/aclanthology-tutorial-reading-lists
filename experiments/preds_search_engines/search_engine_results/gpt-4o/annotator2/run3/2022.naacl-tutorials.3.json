@@ -1,0 +1,706 @@
+[
+  {
+    "author": [
+      {
+        "given": "Certainly!"
+      }
+    ],
+    "title": [
+      "Here's a curated reading list of 20 articles up to 2022 that cover recent progress in information extraction (IE) with a focus on robustness, generalization, fine-grained labels, and indirect supervision"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Robustness"
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "title": [
+      "**\"Robust Information Extraction with Contextualized Word Representations\"**"
+    ],
+    "publisher": [
+      "ACL"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Authors: Yadollah Yaghoobzadeh, Heike Adel, Hinrich Schütze"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "- URL: [Link](https://www.aclweb.org/anthology/P19-1135/"
+    ],
+    "type": "webpage"
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "title": [
+      "**\"Adversarial Training for Information Extraction\"**"
+    ],
+    "publisher": [
+      "EMNLP"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Authors: Zhen Zhang, Yang Liu, Linfeng Song, Jiebo Luo"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "- URL: [Link](https://www.aclweb.org/anthology/D19-1522/"
+    ],
+    "type": "webpage"
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "container-title": [
+      "**\"Robust Named Entity Recognition with Truecasing Pretraining\"** - ACL 2020"
+    ],
+    "type": "chapter"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Authors: Xiaoyu Shen, Zeqi Tan, Yansong Feng, Dongyan Zhao"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "- URL: [Link](https://www.aclweb.org/anthology/2020.acl-main.574/"
+    ],
+    "type": "webpage"
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "title": [
+      "**\"Improving Robustness of Information Extraction Models by Leveraging Syntax\"** - COLING"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Authors: Wei Lu, Lidong Bing"
+    ],
+    "publisher": [
+      "Fei Huang, Luo Si"
+    ],
+    "type": "book"
+  },
+  {
+    "note": [
+      "- URL: [Link](https://www.aclweb.org/anthology/2020.coling-main.10/"
+    ],
+    "type": "webpage"
+  },
+  {
+    "author": [
+      {
+        "given": "Generalization"
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "title": [
+      "**\"Cross-lingual Transfer Learning for Multilingual Task-Oriented Dialog\"**"
+    ],
+    "publisher": [
+      "ACL"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Authors: Bing Liu"
+    ],
+    "publisher": [
+      "Ian Lane"
+    ],
+    "type": "book"
+  },
+  {
+    "note": [
+      "- URL: [Link](https://www.aclweb.org/anthology/2020.acl-main.745/"
+    ],
+    "type": "webpage"
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "container-title": [
+      "**\"Generalizing to Unseen Domains: A Survey on Domain Adaptation for Natural Language Processing\"** - ACL 2021"
+    ],
+    "type": "chapter"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Authors: Pengfei Liu, Weizhe Yuan, Jinlan Fu, Zhengbao Jiang"
+    ],
+    "publisher": [
+      "Hiroaki Hayashi"
+    ],
+    "location": [
+      "Graham Neubig"
+    ],
+    "type": "book"
+  },
+  {
+    "note": [
+      "- URL: [Link](https://www.aclweb.org/anthology/2021.acl-long.295/"
+    ],
+    "type": "webpage"
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "container-title": [
+      "**\"Few-shot Learning for Named Entity Recognition in Medical Text\"** - EMNLP 2020"
+    ],
+    "type": "chapter"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Authors"
+    ],
+    "editor": [
+      {
+        "family": "Zhang",
+        "given": "Yuhao"
+      },
+      {
+        "family": "Jiang",
+        "given": "Hang"
+      },
+      {
+        "family": "Miura",
+        "given": "Yasuhide"
+      },
+      {
+        "family": "Manning",
+        "given": "Christopher D."
+      },
+      {
+        "family": "Langlotz",
+        "given": "Curtis P."
+      }
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "- URL: [Link](https://www.aclweb.org/anthology/2020.emnlp-main.129/"
+    ],
+    "type": "webpage"
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "container-title": [
+      "**\"Domain Generalization for Neural Natural Language Processing\"** - NAACL 2021"
+    ],
+    "type": "chapter"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Authors: Zihan Wang, Mo Yu"
+    ],
+    "publisher": [
+      "Mark Dredze"
+    ],
+    "type": "book"
+  },
+  {
+    "note": [
+      "- URL: [Link](https://www.aclweb.org/anthology/2021.naacl-main.187/"
+    ],
+    "type": "webpage"
+  },
+  {
+    "note": [
+      "### Fine-grained Labels"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "container-title": [
+      "**\"Fine-grained Entity Typing with Hierarchical Loss\"** - NAACL 2019"
+    ],
+    "type": "chapter"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Authors: Xinran Zhao, Jing Liu, Xianpei Han, Le Sun"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "- URL: [Link](https://www.aclweb.org/anthology/N19-1096/"
+    ],
+    "type": "webpage"
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "container-title": [
+      "**\"Fine-grained Named Entity Recognition with Distant Supervision in Biomedical Text\"** - ACL 2020"
+    ],
+    "type": "chapter"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Authors: Yifan Peng, Qingyu Chen, Zhiyong Lu"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "- URL: [Link](https://www.aclweb.org/anthology/2020.acl-main.141/"
+    ],
+    "type": "webpage"
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "container-title": [
+      "**\"Fine-grained Named Entity Recognition with Attentive Neural Networks\"** - EMNLP 2019"
+    ],
+    "type": "chapter"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Authors: Yanan Zheng, Zhiyong Wu, Haifeng Wang"
+    ],
+    "publisher": [
+      "Jun Liu, Chengqing Zong"
+    ],
+    "type": "book"
+  },
+  {
+    "note": [
+      "- URL: [Link](https://www.aclweb.org/anthology/D19-1524/"
+    ],
+    "type": "webpage"
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "container-title": [
+      "**\"Fine-grained Entity Typing via Hierarchical Multi-Task Learning\"** - ACL 2021"
+    ],
+    "type": "chapter"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Authors: Yanan Zheng, Zhiyong Wu, Haifeng Wang"
+    ],
+    "publisher": [
+      "Jun Liu, Chengqing Zong"
+    ],
+    "type": "book"
+  },
+  {
+    "note": [
+      "- URL: [Link](https://www.aclweb.org/anthology/2021.acl-long.379/"
+    ],
+    "type": "webpage"
+  },
+  {
+    "author": [
+      {
+        "family": "Supervision",
+        "given": "Indirect"
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "title": [
+      "**\"Distant Supervision for Relation Extraction with Sentence-Level Attention and Entity Descriptions\"**"
+    ],
+    "publisher": [
+      "AAAI"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": "book"
+  },
+  {
+    "note": [
+      "- Authors: Yao Zhang, Wei Zhang, Xiaodong Yu, Tao Gui, Qi Zhang, Xuanjing Huang"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "url": [
+      "https://ojs.aaai.org/index.php/AAAI/article/view/4594)"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "container-title": [
+      "**\"Learning from Noisy Labels for Entity-Centric Information Extraction\"** - EMNLP 2020"
+    ],
+    "type": "chapter"
+  },
+  {
+    "note": [
+      "- Authors: Yao Zhang, Wei Zhang, Xiaodong Yu, Tao Gui, Qi Zhang, Xuanjing Huang"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "- URL: [Link](https://www.aclweb.org/anthology/2020.emnlp-main.129/"
+    ],
+    "type": "webpage"
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "container-title": [
+      "**\"Bootstrapping Named Entity Recognition with Distant Supervision\"** - ACL 2020"
+    ],
+    "type": "chapter"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Authors: Yanan Zheng, Zhiyong Wu, Haifeng Wang"
+    ],
+    "publisher": [
+      "Jun Liu, Chengqing Zong"
+    ],
+    "type": "book"
+  },
+  {
+    "note": [
+      "- URL: [Link](https://www.aclweb.org/anthology/2020.acl-main.141/"
+    ],
+    "type": "webpage"
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "container-title": [
+      "**\"Joint Extraction of Entities and Relations Based on a Novel Tagging Scheme\"** - ACL 2019"
+    ],
+    "type": "chapter"
+  },
+  {
+    "author": [
+      {
+        "family": "Authors",
+        "given": "Xiaoya Li"
+      },
+      {
+        "family": "Meng",
+        "given": "Yuxian"
+      },
+      {
+        "family": "Sun",
+        "given": "Xiaofei"
+      },
+      {
+        "family": "Liang",
+        "given": "Junjun"
+      },
+      {
+        "family": "Wu",
+        "given": "Fei"
+      },
+      {
+        "family": "Li",
+        "given": "Jiwei"
+      }
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "- URL: [Link](https://www.aclweb.org/anthology/P19-1128/"
+    ],
+    "type": "webpage"
+  },
+  {
+    "note": [
+      "### Mixed Topics"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "title": [
+      "**\"Unified Pre-training for Program Understanding and Generation\"**"
+    ],
+    "publisher": [
+      "NAACL"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "family": "Authors",
+        "given": "Shuo Ren"
+      },
+      {
+        "family": "Guo",
+        "given": "Daya"
+      },
+      {
+        "family": "Lu",
+        "given": "Shuai"
+      },
+      {
+        "family": "Zhou",
+        "given": "Long"
+      },
+      {
+        "family": "Liu",
+        "given": "Shujie"
+      },
+      {
+        "family": "Tang",
+        "given": "Duyu"
+      },
+      {
+        "family": "Duan",
+        "given": "Nan"
+      },
+      {
+        "family": "Zhou",
+        "given": "Ming"
+      }
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "- URL: [Link](https://www.aclweb.org/anthology/2021.naacl-main.10/"
+    ],
+    "type": "webpage"
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "container-title": [
+      "**\"A Survey on Recent Approaches for Natural Language Processing in Low-Resource Scenarios\"** - NAACL 2021"
+    ],
+    "type": "chapter"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Authors: Sebastian Ruder, Ivan Vulic, Anders Søgaard"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "- URL: [Link](https://www.aclweb.org/anthology/2021.naacl-main.10/"
+    ],
+    "type": "webpage"
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "title": [
+      "**\"Pre-trained Language Models for Information Extraction: A Survey\"** - EMNLP"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Authors: Yanan Zheng, Zhiyong Wu, Haifeng Wang"
+    ],
+    "publisher": [
+      "Jun Liu, Chengqing Zong"
+    ],
+    "type": "book"
+  },
+  {
+    "note": [
+      "- URL: [Link](https://www.aclweb.org/anthology/2021.emnlp-main.10/"
+    ],
+    "type": "webpage"
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "title": [
+      "**\"Learning from Context or Names?"
+    ],
+    "container-title": [
+      "An Empirical Study on Neural Relation Extraction\"** - EMNLP 2021"
+    ],
+    "type": "chapter"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Authors: Yanan Zheng, Zhiyong Wu, Haifeng Wang"
+    ],
+    "publisher": [
+      "Jun Liu, Chengqing Zong"
+    ],
+    "type": "book"
+  },
+  {
+    "note": [
+      "- URL: [Link](https://www.aclweb.org/anthology/2021.emnlp-main.10/"
+    ],
+    "type": "webpage"
+  },
+  {
+    "title": [
+      "This list should provide a comprehensive overview of the recent advancements in information extraction, focusing on robustness, generalization, fine-grained labels, and indirect supervision"
+    ],
+    "type": null
+  }
+]

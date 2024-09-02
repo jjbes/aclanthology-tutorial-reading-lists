@@ -1,0 +1,73 @@
+{
+    "2021.acl-tutorials.1": {
+        "title": "Advances in Debating Technologies: Building AI That Can Debate Humans",
+        "author": "Roy Bar-Haim, Liat Ein-Dor, Matan Orbach, Elad Venezian, Noam Slonim",
+        "year": 2021,
+        "url": "https://aclanthology.org/2021.acl-tutorials.1",
+        "doi": "10.18653/v1/2021.acl-tutorials.1",
+        "abstract": "The tutorial focuses on Debating Technologies, a sub-field of computational argumentation defined as “computational technologies developed directly to enhance, support, and engage with human debating” (Gurevych et al., 2016). A recent milestone in this field is Project Debater, which was revealed in 2019 as the first AI system that can debate human experts on complex topics. Project Debater is the third in the series of IBM Research AI’s grand challenges, following Deep Blue and Watson. It has been developed for over six years by a large team of researchers and engineers, and its live demonstration in February 2019 received massive media attention. This research effort has resulted in more than 50 scientific papers to date, and many datasets freely available for research purposes. We discuss the scientific challenges that arise when building such a system, including argument mining, argument quality assessment, stance classification, principled argument detection, narrative generation, and rebutting a human opponent. Many of the underlying capabilities of Project Debater have been made freely available for academic research, and the tutorial will include a detailed explanation of how to use and leverage these tools. In addition to discussing individual components, the tutorial also provides a holistic view of a debating system. Such a view is largely missing in the academic literature, where each paper typically addresses a specific problem in isolation. We present a complete pipeline of a debating system, and discuss the information flow and the interaction between the various components. Finally, we discuss practical applications and future challenges of debating technologies.",
+        "readingList": [
+            {
+                "sectionName": "A survey on argument mining",
+                "subsectionName": null,
+                "referencesIds": [
+                    "a2ae7155d94686fe83f26f6d6ca2dfacd16c5e5c"
+                ]
+            },
+            {
+                "sectionName": "Project Debater",
+                "subsectionName": null,
+                "referencesIds": [
+                    "8f7697835d88d1e61cf36cf005f3b46558f05a49"
+                ]
+            },
+            {
+                "sectionName": "Identification of argument components within an article",
+                "subsectionName": null,
+                "referencesIds": [
+                    "1f09e8a4c897543253065cbcdbd6f4f0053d4ebf",
+                    "3c95247788654b7b60deca996bd749413d21e781",
+                    "0f4b0cef1e0305dc4e5139387e67a13a664668b2"
+                ]
+            },
+            {
+                "sectionName": "Corpus-wide argument mining",
+                "subsectionName": null,
+                "referencesIds": [
+                    "a1e91322798c7ba97ab115c58817adb06005c0c1",
+                    "a774a4cda9523cdc618830538861cd47311cfd27"
+                ]
+            },
+            {
+                "sectionName": "Argument quality",
+                "subsectionName": null,
+                "referencesIds": [
+                    "3f020157c741f869da2a5daa2971b90d37fa9581",
+                    "25ae911c13da7ef9def56ee30170920ebd48a668"
+                ]
+            },
+            {
+                "sectionName": "Stance classification",
+                "subsectionName": null,
+                "referencesIds": [
+                    "68b81fe3662c30bc0e27a5e23a69e7091ae22f53"
+                ]
+            },
+            {
+                "sectionName": "Modeling human dilemma",
+                "subsectionName": null,
+                "referencesIds": [
+                    "2819c908cd3fb0a4135eccc9ff86dc952851a5c8"
+                ]
+            },
+            {
+                "sectionName": "Listening Comprehension",
+                "subsectionName": null,
+                "referencesIds": [
+                    "89f256abf0e0187fcf0a56a4df6f447a2c0b17bb"
+                ]
+            }
+        ]
+    }
+}
+

@@ -1,0 +1,662 @@
+[
+  {
+    "title": [
+      "Sure, here's a list of 20 notable articles on non-autoregressive models (NAR) for fast sequence generation up to 2022. These papers cover various aspects of NAR models, including their development, improvements, and applications"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "author": [
+      {
+        "family": "Gu",
+        "given": "Jiatao"
+      },
+      {
+        "others": true
+      }
+    ],
+    "title": [
+      "Non-autoregressive neural machine translation.\"** ACL"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "This seminal paper introduces the concept of non-autoregressive neural machine translation (NAR-NMT"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "author": [
+      {
+        "family": "Lee",
+        "given": "Jason"
+      },
+      {
+        "family": "Mansimov",
+        "given": "Elman"
+      },
+      {
+        "family": "Cho",
+        "given": "Kyunghyun"
+      }
+    ],
+    "title": [
+      "Deterministic non-autoregressive neural sequence modeling by iterative refinement.\"** EMNLP"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Proposes an iterative refinement approach to improve the quality of NAR models"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "author": [
+      {
+        "family": "Kaiser",
+        "given": "Łukasz"
+      },
+      {
+        "others": true
+      }
+    ],
+    "title": [
+      "Fast decoding in sequence models using discrete latent variables.\"** ICML"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Introduces discrete latent variables to improve the performance of NAR models"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "author": [
+      {
+        "family": "Ghazvininejad",
+        "given": "Marjan"
+      },
+      {
+        "others": true
+      }
+    ],
+    "title": [
+      "Mask-predict: Parallel decoding of conditional masked language models.\"** EMNLP-IJCNLP"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Proposes the Mask-Predict model for parallel decoding in NAR frameworks"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "author": [
+      {
+        "family": "Stern",
+        "given": "Mitchell"
+      },
+      {
+        "others": true
+      }
+    ],
+    "title": [
+      "Insertion transformer: Flexible sequence generation via insertion operations.\"** ICML"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Introduces the Insertion Transformer, which generates sequences by inserting tokens"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "author": [
+      {
+        "family": "Wang",
+        "given": "Rui"
+      },
+      {
+        "others": true
+      }
+    ],
+    "title": [
+      "Non-autoregressive machine translation with auxiliary regularization.\"** AAAI"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Discusses the use of auxiliary regularization to enhance NAR models"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "author": [
+      {
+        "family": "Ma",
+        "given": "Shuming"
+      },
+      {
+        "others": true
+      }
+    ],
+    "title": [
+      "FlowSeq: Non-autoregressive conditional sequence generation with generative flow.\"** EMNLP-IJCNLP"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Proposes FlowSeq, which uses generative flow for NAR sequence generation"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "author": [
+      {
+        "family": "Sun",
+        "given": "Zhiqing"
+      },
+      {
+        "others": true
+      }
+    ],
+    "title": [
+      "Fast structured decoding for sequence models.\"** NeurIPS"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Introduces methods for fast structured decoding in NAR models"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "author": [
+      {
+        "family": "Guo",
+        "given": "Han"
+      },
+      {
+        "others": true
+      }
+    ],
+    "title": [
+      "Non-autoregressive neural machine translation with enhanced decoder input.\"** AAAI"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Enhances NAR models by improving the decoder input"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "author": [
+      {
+        "family": "Ran",
+        "given": "Qian"
+      },
+      {
+        "others": true
+      }
+    ],
+    "title": [
+      "Guiding non-autoregressive neural machine translation decoding with reordering information.\"** AAAI"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Uses reordering information to guide NAR decoding"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "author": [
+      {
+        "family": "Saharia",
+        "given": "Chitwan"
+      },
+      {
+        "others": true
+      }
+    ],
+    "title": [
+      "Non-autoregressive machine translation with latent alignments.\"** EMNLP"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Introduces latent alignments to improve NAR translation quality"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "author": [
+      {
+        "family": "Qian",
+        "given": "Qian"
+      },
+      {
+        "others": true
+      }
+    ],
+    "title": [
+      "Glancing transformer for non-autoregressive neural machine translation.\"** ACL"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Proposes the Glancing Transformer, which selectively attends to parts of the input sequence"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "author": [
+      {
+        "family": "Ghazvininejad",
+        "given": "Marjan"
+      },
+      {
+        "others": true
+      }
+    ],
+    "title": [
+      "Aligned cross entropy for non-autoregressive machine translation.\"** ICML"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Introduces the Aligned Cross Entropy loss to improve NAR models"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "author": [
+      {
+        "family": "Kasai",
+        "given": "Jungo"
+      },
+      {
+        "others": true
+      }
+    ],
+    "title": [
+      "Parallel machine translation with disentangled context transformer.\"** ICML"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Proposes a disentangled context transformer for parallel machine translation"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "author": [
+      {
+        "family": "Saharia",
+        "given": "Chitwan"
+      },
+      {
+        "others": true
+      }
+    ],
+    "title": [
+      "Non-autoregressive text generation with pre-trained language models.\"** NeurIPS"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Explores the use of pre-trained language models for NAR text generation"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "author": [
+      {
+        "family": "Gu",
+        "given": "Jiatao"
+      },
+      {
+        "others": true
+      }
+    ],
+    "title": [
+      "Levenshtein transformer.\"** NeurIPS"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Introduces the Levenshtein Transformer, which generates sequences through insertion and deletion operations"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "author": [
+      {
+        "family": "Ghazvininejad",
+        "given": "Marjan"
+      },
+      {
+        "others": true
+      }
+    ],
+    "title": [
+      "Semi-autoregressive training improves non-autoregressive translation.\"** EMNLP"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Discusses semi-autoregressive training to enhance NAR models"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "author": [
+      {
+        "family": "Li",
+        "given": "Xian"
+      },
+      {
+        "others": true
+      }
+    ],
+    "title": [
+      "Hint-based training for non-autoregressive translation.\"** EMNLP"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Proposes hint-based training to improve NAR translation models"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "author": [
+      {
+        "family": "Song",
+        "given": "Xiang"
+      },
+      {
+        "others": true
+      }
+    ],
+    "title": [
+      "MASS: Masked sequence to sequence pre-training for language generation.\"** ICML"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Introduces MASS, a pre-training method for sequence-to-sequence models that can be applied to NAR models"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "author": [
+      {
+        "family": "Zhou",
+        "given": "Hao"
+      },
+      {
+        "others": true
+      }
+    ],
+    "title": [
+      "Understanding knowledge distillation in non-autoregressive machine translation.\"** ICLR"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Investigates the role of knowledge distillation in improving NAR models"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "These articles provide a comprehensive overview of the advancements in non-autoregressive models for fast sequence generation up to"
+    ],
+    "date": [
+      "2022"
+    ],
+    "type": null
+  }
+]
