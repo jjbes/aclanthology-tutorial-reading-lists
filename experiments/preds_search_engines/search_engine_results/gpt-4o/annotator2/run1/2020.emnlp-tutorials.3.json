@@ -2,11 +2,11 @@
   {
     "author": [
       {
-        "given": "Certainly!"
+        "given": "Sure!"
       }
     ],
     "title": [
-      "Here is a list of 20 articles on the interpretability of NLP models published before 2021"
+      "Here's a reading list of 20 articles on the interpretability of NLP models, up to the year 2020"
     ],
     "type": null
   },
@@ -25,44 +25,19 @@
     "type": null
   },
   {
-    "citation-number": [
-      "2."
+    "author": [
+      {
+        "literal": "-"
+      }
     ],
     "title": [
-      "**\"Interpretable and Explainable Deep Learning: A Survey\"**"
-    ],
-    "author": [
-      {
-        "family": "Zhang",
-        "given": "Q."
-      },
-      {
-        "family": "Zhu",
-        "given": "S.C."
-      }
-    ],
-    "date": [
-      "2018"
+      "This paper questions the interpretability of attention mechanisms in neural models"
     ],
     "type": null
   },
   {
     "citation-number": [
-      "3."
-    ],
-    "author": [
-      {
-        "literal": "**\"Rationalizing Neural Predictions\"** - Lei, T., Barzilay, R., & Jaakkola, T."
-      }
-    ],
-    "date": [
-      "2016"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "4."
+      "2."
     ],
     "title": [
       "**\"A Survey of Methods for Explaining Black Box Models\"**"
@@ -99,8 +74,52 @@
     "type": null
   },
   {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "A comprehensive survey of methods for explaining black-box models, including those used in NLP"
+    ],
+    "type": null
+  },
+  {
     "citation-number": [
-      "5."
+      "3."
+    ],
+    "title": [
+      "**\"Interpreting and Explaining Deep Models in NLP: A Roadmap\"**"
+    ],
+    "editor": [
+      {
+        "family": "Belinkov",
+        "given": "Y."
+      },
+      {
+        "family": "Glass",
+        "given": "J."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "A roadmap for interpreting and explaining deep learning models in NLP"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "4."
     ],
     "author": [
       {
@@ -130,8 +149,19 @@
     "type": null
   },
   {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Introduces LIME, a technique for explaining the predictions of any classifier"
+    ],
+    "type": null
+  },
+  {
     "citation-number": [
-      "6."
+      "5."
     ],
     "author": [
       {
@@ -144,12 +174,23 @@
     "type": null
   },
   {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Proposes Anchors, a method for generating high-precision explanations"
+    ],
+    "type": null
+  },
+  {
     "citation-number": [
-      "7."
+      "6."
     ],
     "author": [
       {
-        "literal": "**\"Visualizing and Understanding Neural Models in NLP\"** - Li, J., Chen, X., Hovy, E., & Jurafsky, D."
+        "literal": "**\"Rationalizing Neural Predictions\"** - Lei, T., Barzilay, R., & Jaakkola, T."
       }
     ],
     "date": [
@@ -158,8 +199,19 @@
     "type": null
   },
   {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Introduces a framework for rationalizing neural network predictions in NLP"
+    ],
+    "type": null
+  },
+  {
     "citation-number": [
-      "8."
+      "7."
     ],
     "title": [
       "**\"Learning to Explain: An Information-Theoretic Perspective on Model Interpretation\"**"
@@ -188,47 +240,56 @@
     "type": null
   },
   {
-    "citation-number": [
-      "9."
-    ],
-    "title": [
-      "**\"Interpretable Neural Predictions with Differentiable Binary Variables\"**"
-    ],
-    "editor": [
+    "author": [
       {
-        "family": "Bastings",
-        "given": "J."
-      },
-      {
-        "family": "Aziz",
-        "given": "W."
-      },
-      {
-        "family": "Titov",
-        "given": "I."
+        "literal": "-"
       }
     ],
-    "date": [
-      "2019"
+    "title": [
+      "Discusses an information-theoretic approach to model interpretation"
     ],
     "type": null
   },
   {
     "citation-number": [
-      "10."
+      "8."
+    ],
+    "author": [
+      {
+        "literal": "**\"Visualizing and Understanding Neural Models in NLP\"** - Li, J., Chen, X., Hovy, E., & Jurafsky, D."
+      }
+    ],
+    "date": [
+      "2016"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
     ],
     "title": [
-      "**\"Towards a Rigorous Science of Interpretable Machine Learning\"**"
+      "Techniques for visualizing and understanding neural models in NLP"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "title": [
+      "**\"A Unified Approach to Interpreting Model Predictions\"**"
     ],
     "editor": [
       {
-        "family": "Doshi-Velez",
-        "given": "F."
-      },
-      {
-        "family": "Kim",
-        "given": "B."
+        "family": "Lundberg",
+        "given": "S.M."
       }
+    ],
+    "location": [
+      "Lee, S.-I"
     ],
     "date": [
       "2017"
@@ -236,8 +297,19 @@
     "type": null
   },
   {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Introduces SHAP (SHapley Additive exPlanations), a unified approach to interpreting model predictions"
+    ],
+    "type": null
+  },
+  {
     "citation-number": [
-      "11."
+      "10."
     ],
     "title": [
       "**\"Interpretability Beyond Feature Attribution: Quantitative Testing with Concept Activation Vectors (TCAV)\"**"
@@ -278,16 +350,39 @@
     "type": null
   },
   {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Proposes TCAV for testing model interpretability beyond feature attribution"
+    ],
+    "type": null
+  },
+  {
     "citation-number": [
-      "12."
+      "11."
     ],
     "title": [
       "**\"Evaluating and Enhancing the Robustness of Neural Network-based Dependency Parsers\"**"
     ],
-    "editor": [
+    "director": [
       {
         "family": "Belinkov",
         "given": "Y."
+      },
+      {
+        "family": "Durrani",
+        "given": "N."
+      },
+      {
+        "family": "Dalvi",
+        "given": "F."
+      },
+      {
+        "family": "Sajjad",
+        "given": "H."
       },
       {
         "family": "Glass",
@@ -300,58 +395,19 @@
     "type": null
   },
   {
-    "citation-number": [
-      "13."
-    ],
     "author": [
       {
-        "literal": "**\"A Unified Approach to Interpreting Model Predictions\"** - Lundberg, S. M., & Lee, S. I."
+        "literal": "-"
       }
-    ],
-    "date": [
-      "2017"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "14."
     ],
     "title": [
-      "**\"Explaining Black Box Predictions and Unveiling Data Artifacts through Influence Functions\"**"
-    ],
-    "editor": [
-      {
-        "family": "Koh",
-        "given": "P.W."
-      },
-      {
-        "family": "Liang",
-        "given": "P."
-      }
-    ],
-    "date": [
-      "2017"
+      "Evaluates the robustness and interpretability of neural network-based dependency parsers"
     ],
     "type": null
   },
   {
     "citation-number": [
-      "15."
-    ],
-    "author": [
-      {
-        "literal": "**\"Attention is All You Need\"** - Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A. N., Kaiser, Ł., & Polosukhin, I."
-      }
-    ],
-    "date": [
-      "2017"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "16."
+      "12."
     ],
     "title": [
       "**\"Interpretability of Neural Networks: A Survey\"**"
@@ -367,7 +423,7 @@
       },
       {
         "family": "Müller",
-        "given": "K.R."
+        "given": "K.-R."
       }
     ],
     "date": [
@@ -376,8 +432,93 @@
     "type": null
   },
   {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "A survey on the interpretability of neural networks, including applications in NLP"
+    ],
+    "type": null
+  },
+  {
     "citation-number": [
-      "17."
+      "13."
+    ],
+    "title": [
+      "**\"Towards a Rigorous Science of Interpretable Machine Learning\"**"
+    ],
+    "editor": [
+      {
+        "family": "Doshi-Velez",
+        "given": "F."
+      },
+      {
+        "family": "Kim",
+        "given": "B."
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Discusses the need for a rigorous science of interpretable machine learning"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "title": [
+      "**\"On the Importance of Single Directions for Generalization\"**"
+    ],
+    "editor": [
+      {
+        "family": "Morcos",
+        "given": "A.S."
+      },
+      {
+        "family": "Barrett",
+        "given": "D.G.T."
+      },
+      {
+        "family": "Rabinowitz",
+        "given": "N.C."
+      },
+      {
+        "family": "Botvinick",
+        "given": "M."
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Examines the role of single directions in neural network generalization and interpretability"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
     ],
     "title": [
       "**\"Contextual Decomposition for Neural Network Interpretability\"**"
@@ -398,31 +539,112 @@
     "type": null
   },
   {
-    "citation-number": [
-      "18."
-    ],
     "author": [
       {
-        "given": "DeepLIFT"
-      },
-      {
-        "family": "Shrikumar",
-        "given": "A."
-      },
-      {
-        "family": "Greenside",
-        "given": "P."
-      },
-      {
-        "family": "Kundaje",
-        "given": "A."
+        "literal": "-"
       }
     ],
     "title": [
-      "Learning Important Features Through Propagating Activation Differences\"**"
+      "Proposes contextual decomposition for interpreting neural networks"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "author": [
+      {
+        "literal": "**\"Interpretability and Explainability in Artificial Intelligence\"** - Gilpin, L. H., Bau, D., Yuan, B. Z., Bajwa, A., Specter, M., & Kagal, L."
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Discusses various aspects of interpretability and explainability in AI, including NLP"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "title": [
+      "**\"Explaining Black Box Predictions and Unveiling Data Artifacts through Influence Functions\"**"
+    ],
+    "editor": [
+      {
+        "family": "Koh",
+        "given": "P.W."
+      },
+      {
+        "family": "Liang",
+        "given": "P."
+      }
     ],
     "date": [
       "2017"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Introduces influence functions for explaining black-box predictions"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "title": [
+      "**\"Deep Learning for Natural Language Processing: Advancements and Trends\"**"
+    ],
+    "editor": [
+      {
+        "family": "Young",
+        "given": "T."
+      },
+      {
+        "family": "Hazarika",
+        "given": "D."
+      },
+      {
+        "family": "Poria",
+        "given": "S."
+      },
+      {
+        "family": "Cambria",
+        "given": "E."
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Reviews advancements and trends in deep learning for NLP, including interpretability"
     ],
     "type": null
   },
@@ -432,25 +654,7 @@
     ],
     "author": [
       {
-        "literal": "**\"The Building Blocks of Interpretability\"** - Olah, C., Satyanarayan, A., Johnson, I., Carter, S., Schubert, L., Ye, K., & Mordvintsev, A."
-      }
-    ],
-    "date": [
-      "2018"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "20."
-    ],
-    "title": [
-      "**\"Interpretability in Machine Learning: A Taxonomy of Interpretability Methods\"**"
-    ],
-    "editor": [
-      {
-        "family": "Lipton",
-        "given": "Z.C."
+        "literal": "**\"The Mythos of Model Interpretability\"** - Lipton, Z. C."
       }
     ],
     "date": [
@@ -459,8 +663,52 @@
     "type": null
   },
   {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
     "title": [
-      "These articles cover a range of topics related to the interpretability of NLP models, including attention mechanisms, model-agnostic explanations, visualization techniques, and theoretical perspectives on interpretability"
+      "Discusses the challenges and misconceptions surrounding model interpretability"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "title": [
+      "**\"Towards Transparent and Explainable Attention Models\"**"
+    ],
+    "editor": [
+      {
+        "family": "Wiegreffe",
+        "given": "S."
+      },
+      {
+        "family": "Pinter",
+        "given": "Y."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Investigates the transparency and explainability of attention models in NLP"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "These articles cover a range of approaches and perspectives on the interpretability of NLP models, providing a solid foundation for understanding this important area of research"
     ],
     "type": null
   }

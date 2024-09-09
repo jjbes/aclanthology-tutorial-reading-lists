@@ -6,7 +6,7 @@
       }
     ],
     "title": [
-      "Here's a curated list of 20 influential articles on embeddings in Natural Language Processing (NLP) up to 2020. These papers cover a range of topics from word embeddings to contextual embeddings and beyond"
+      "Here's a list of 20 influential articles on embeddings in Natural Language Processing (NLP) up to 2020"
     ],
     "type": null
   },
@@ -39,7 +39,7 @@
       "Efficient Estimation of Word Representations in Vector Space"
     ],
     "note": [
-      "arXiv preprint arXiv:1301.3781."
+      "*arXiv preprint arXiv:1301.3781*."
     ],
     "arxiv": [
       "1301.3781"
@@ -79,7 +79,7 @@
       "Distributed Representations of Words and Phrases and their Compositionality"
     ],
     "container-title": [
-      "Advances in Neural Information Processing Systems (NeurIPS"
+      "*Advances in Neural Information Processing Systems (NeurIPS)*"
     ],
     "type": "chapter"
   },
@@ -108,38 +108,13 @@
       "GloVe: Global Vectors for Word Representation"
     ],
     "container-title": [
-      "Proceedings of the 2014 Conference on Empirical Methods in Natural Language Processing (EMNLP"
+      "*Proceedings of the 2014 Conference on Empirical Methods in Natural Language Processing (EMNLP)*"
     ],
     "type": "paper-conference"
   },
   {
     "citation-number": [
       "4."
-    ],
-    "author": [
-      {
-        "family": "Le",
-        "given": "Q."
-      },
-      {
-        "family": "Mikolov",
-        "given": "T."
-      }
-    ],
-    "date": [
-      "2014"
-    ],
-    "title": [
-      "Distributed Representations of Sentences and Documents"
-    ],
-    "container-title": [
-      "Proceedings of the 31st International Conference on Machine Learning (ICML"
-    ],
-    "type": "paper-conference"
-  },
-  {
-    "citation-number": [
-      "5."
     ],
     "author": [
       {
@@ -166,13 +141,13 @@
       "Enriching Word Vectors with Subword Information"
     ],
     "container-title": [
-      "Transactions of the Association for Computational Linguistics (TACL"
+      "*Transactions of the Association for Computational Linguistics (TACL)*"
     ],
     "type": "chapter"
   },
   {
     "citation-number": [
-      "6."
+      "5."
     ],
     "author": [
       {
@@ -211,13 +186,13 @@
       "Deep Contextualized Word Representations"
     ],
     "container-title": [
-      "Proceedings of the 2018 Conference of the North American Chapter of the Association for Computational Linguistics (NAACL"
+      "*Proceedings of the 2018 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (NAACL-HLT)*"
     ],
     "type": "paper-conference"
   },
   {
     "citation-number": [
-      "7."
+      "6."
     ],
     "author": [
       {
@@ -244,87 +219,13 @@
       "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding"
     ],
     "container-title": [
-      "Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics (NAACL"
+      "*Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (NAACL-HLT)*"
     ],
     "type": "paper-conference"
   },
   {
     "citation-number": [
-      "8."
-    ],
-    "author": [
-      {
-        "family": "Radford",
-        "given": "A."
-      },
-      {
-        "family": "Narasimhan",
-        "given": "K."
-      },
-      {
-        "family": "Salimans",
-        "given": "T."
-      },
-      {
-        "family": "Sutskever",
-        "given": "I."
-      }
-    ],
-    "date": [
-      "2018"
-    ],
-    "title": [
-      "Improving Language Understanding by Generative Pre-Training"
-    ],
-    "type": "article-journal",
-    "container-title": [
-      "OpenAI"
-    ]
-  },
-  {
-    "citation-number": [
-      "9."
-    ],
-    "author": [
-      {
-        "family": "Radford",
-        "given": "A."
-      },
-      {
-        "family": "Wu",
-        "given": "J."
-      },
-      {
-        "family": "Child",
-        "given": "R."
-      },
-      {
-        "family": "Luan",
-        "given": "D."
-      },
-      {
-        "family": "Amodei",
-        "given": "D."
-      },
-      {
-        "family": "Sutskever",
-        "given": "I."
-      }
-    ],
-    "date": [
-      "2019"
-    ],
-    "title": [
-      "Language Models are Unsupervised Multitask Learners"
-    ],
-    "type": "article-journal",
-    "container-title": [
-      "OpenAI"
-    ]
-  },
-  {
-    "citation-number": [
-      "10."
+      "7."
     ],
     "author": [
       {
@@ -366,13 +267,144 @@
       "Attention is All You Need"
     ],
     "container-title": [
-      "Advances in Neural Information Processing Systems (NeurIPS"
+      "*Advances in Neural Information Processing Systems (NeurIPS)*"
     ],
     "type": "chapter"
   },
   {
     "citation-number": [
+      "8."
+    ],
+    "author": [
+      {
+        "family": "Radford",
+        "given": "A."
+      },
+      {
+        "family": "Narasimhan",
+        "given": "K."
+      },
+      {
+        "family": "Salimans",
+        "given": "T."
+      },
+      {
+        "family": "Sutskever",
+        "given": "I."
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "title": [
+      "Improving Language Understanding by Generative Pre-Training"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "*OpenAI*"
+    ]
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "author": [
+      {
+        "family": "Radford",
+        "given": "A."
+      },
+      {
+        "family": "Wu",
+        "given": "J."
+      },
+      {
+        "family": "Child",
+        "given": "R."
+      },
+      {
+        "family": "Luan",
+        "given": "D."
+      },
+      {
+        "family": "Amodei",
+        "given": "D."
+      },
+      {
+        "family": "Sutskever",
+        "given": "I."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "title": [
+      "Language Models are Unsupervised Multitask Learners"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "*OpenAI*"
+    ]
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "author": [
+      {
+        "family": "Peters",
+        "given": "M.E."
+      },
+      {
+        "family": "Ruder",
+        "given": "S."
+      },
+      {
+        "family": "Smith",
+        "given": "N.A."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "title": [
+      "To Tune or Not to Tune? Adapting Pretrained Representations to Diverse Tasks"
+    ],
+    "container-title": [
+      "*Proceedings of the 4th Workshop on Representation Learning for NLP"
+    ],
+    "publisher": [
+      "RepL4NLP)*"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
       "11."
+    ],
+    "author": [
+      {
+        "family": "Lample",
+        "given": "G."
+      },
+      {
+        "family": "Conneau",
+        "given": "A."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "title": [
+      "Cross-lingual Language Model Pretraining"
+    ],
+    "container-title": [
+      "*Advances in Neural Information Processing Systems (NeurIPS)*"
+    ],
+    "type": "chapter"
+  },
+  {
+    "citation-number": [
+      "12."
     ],
     "author": [
       {
@@ -407,32 +439,7 @@
       "XLNet: Generalized Autoregressive Pretraining for Language Understanding"
     ],
     "container-title": [
-      "Advances in Neural Information Processing Systems (NeurIPS"
-    ],
-    "type": "chapter"
-  },
-  {
-    "citation-number": [
-      "12."
-    ],
-    "author": [
-      {
-        "family": "Lample",
-        "given": "G."
-      },
-      {
-        "family": "Conneau",
-        "given": "A."
-      }
-    ],
-    "date": [
-      "2019"
-    ],
-    "title": [
-      "Cross-lingual Language Model Pretraining"
-    ],
-    "container-title": [
-      "Advances in Neural Information Processing Systems (NeurIPS"
+      "*Advances in Neural Information Processing Systems (NeurIPS)*"
     ],
     "type": "chapter"
   },
@@ -442,60 +449,44 @@
     ],
     "author": [
       {
-        "family": "Peters",
-        "given": "M.E."
+        "family": "Lan",
+        "given": "Z."
       },
       {
-        "family": "Ruder",
+        "family": "Chen",
+        "given": "M."
+      },
+      {
+        "family": "Goodman",
         "given": "S."
       },
       {
-        "family": "Smith",
-        "given": "N.A."
-      }
-    ],
-    "date": [
-      "2019"
-    ],
-    "title": [
-      "To Tune or Not to Tune? Adapting Pretrained Representations to Diverse Tasks"
-    ],
-    "note": [
-      "arXiv preprint arXiv:1903.05987."
-    ],
-    "arxiv": [
-      "1903.05987"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "14."
-    ],
-    "author": [
-      {
-        "family": "Howard",
-        "given": "J."
+        "family": "Gimpel",
+        "given": "K."
       },
       {
-        "family": "Ruder",
-        "given": "S."
+        "family": "Sharma",
+        "given": "P."
+      },
+      {
+        "family": "Soricut",
+        "given": "R."
       }
     ],
     "date": [
-      "2018"
+      "2020"
     ],
     "title": [
-      "Universal Language Model Fine-tuning for Text Classification"
+      "ALBERT: A Lite BERT for Self-supervised Learning of Language Representations"
     ],
     "container-title": [
-      "Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (ACL"
+      "*International Conference on Learning Representations (ICLR)*"
     ],
     "type": "paper-conference"
   },
   {
     "citation-number": [
-      "15."
+      "14."
     ],
     "author": [
       {
@@ -537,7 +528,7 @@
       "RoBERTa: A Robustly Optimized BERT Pretraining Approach"
     ],
     "note": [
-      "arXiv preprint arXiv:1907.11692."
+      "*arXiv preprint arXiv:1907.11692*."
     ],
     "arxiv": [
       "1907.11692"
@@ -546,51 +537,7 @@
   },
   {
     "citation-number": [
-      "16."
-    ],
-    "author": [
-      {
-        "family": "Lan",
-        "given": "Z."
-      },
-      {
-        "family": "Chen",
-        "given": "M."
-      },
-      {
-        "family": "Goodman",
-        "given": "S."
-      },
-      {
-        "family": "Gimpel",
-        "given": "K."
-      },
-      {
-        "family": "Sharma",
-        "given": "P."
-      },
-      {
-        "family": "Soricut",
-        "given": "R."
-      }
-    ],
-    "date": [
-      "2019"
-    ],
-    "title": [
-      "ALBERT: A Lite BERT for Self-supervised Learning of Language Representations"
-    ],
-    "note": [
-      "arXiv preprint arXiv:1909.11942."
-    ],
-    "arxiv": [
-      "1909.11942"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "17."
+      "15."
     ],
     "author": [
       {
@@ -598,12 +545,12 @@
         "given": "K."
       },
       {
-        "family": "Khandelwal",
-        "given": "U."
+        "family": "Luong",
+        "given": "M.T."
       },
       {
-        "family": "Levy",
-        "given": "O."
+        "family": "Le",
+        "given": "Q.V."
       },
       {
         "family": "Manning",
@@ -611,15 +558,85 @@
       }
     ],
     "date": [
-      "2019"
+      "2020"
     ],
     "title": [
-      "What Does BERT Look at? An Analysis of BERT's Attention"
+      "ELECTRA: Pre-training Text Encoders as Discriminators Rather Than Generators"
     ],
     "container-title": [
-      "Proceedings of the 2019 ACL Workshop BlackboxNLP: Analyzing and Interpreting Neural Networks for NLP"
+      "*International Conference on Learning Representations (ICLR)*"
     ],
     "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "author": [
+      {
+        "family": "Howard",
+        "given": "J."
+      },
+      {
+        "family": "Ruder",
+        "given": "S."
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "title": [
+      "Universal Language Model Fine-tuning for Text Classification"
+    ],
+    "container-title": [
+      "*Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (ACL)*"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "author": [
+      {
+        "family": "Kiros",
+        "given": "R."
+      },
+      {
+        "family": "Zhu",
+        "given": "Y."
+      },
+      {
+        "family": "Salakhutdinov",
+        "given": "R."
+      },
+      {
+        "family": "Zemel",
+        "given": "R.S."
+      },
+      {
+        "family": "Urtasun",
+        "given": "R."
+      },
+      {
+        "family": "Torralba",
+        "given": "A."
+      },
+      {
+        "family": "Fidler",
+        "given": "S."
+      }
+    ],
+    "date": [
+      "2015"
+    ],
+    "title": [
+      "Skip-Thought Vectors"
+    ],
+    "container-title": [
+      "*Advances in Neural Information Processing Systems (NeurIPS)*"
+    ],
+    "type": "chapter"
   },
   {
     "citation-number": [
@@ -627,30 +644,22 @@
     ],
     "author": [
       {
-        "family": "Peters",
-        "given": "M.E."
+        "family": "Le",
+        "given": "Q."
       },
       {
-        "family": "Ammar",
-        "given": "W."
-      },
-      {
-        "family": "Bhagavatula",
-        "given": "C."
-      },
-      {
-        "family": "Power",
-        "given": "R."
+        "family": "Mikolov",
+        "given": "T."
       }
     ],
     "date": [
-      "2017"
+      "2014"
     ],
     "title": [
-      "Semi-supervised Sequence Tagging with Bidirectional Language Models"
+      "Distributed Representations of Sentences and Documents"
     ],
     "container-title": [
-      "Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics (ACL"
+      "*Proceedings of the 31st International Conference on Machine Learning (ICML)*"
     ],
     "type": "paper-conference"
   },
@@ -660,32 +669,36 @@
     ],
     "author": [
       {
-        "family": "McCann",
-        "given": "B."
+        "family": "Conneau",
+        "given": "A."
       },
       {
-        "family": "Bradbury",
-        "given": "J."
+        "family": "Kiela",
+        "given": "D."
       },
       {
-        "family": "Xiong",
-        "given": "C."
+        "family": "Schwenk",
+        "given": "H."
       },
       {
-        "family": "Socher",
-        "given": "R."
+        "family": "Barrault",
+        "given": "L."
+      },
+      {
+        "family": "Bordes",
+        "given": "A."
       }
     ],
     "date": [
       "2017"
     ],
     "title": [
-      "Learned in Translation: Contextualized Word Vectors"
+      "Supervised Learning of Universal Sentence Representations from Natural Language Inference Data"
     ],
     "container-title": [
-      "Advances in Neural Information Processing Systems (NeurIPS"
+      "*Proceedings of the 2017 Conference on Empirical Methods in Natural Language Processing (EMNLP)*"
     ],
-    "type": "chapter"
+    "type": "paper-conference"
   },
   {
     "citation-number": [
@@ -693,36 +706,54 @@
     ],
     "author": [
       {
-        "family": "Sun",
-        "given": "C."
+        "family": "Cer",
+        "given": "D."
       },
       {
-        "family": "Qiu",
-        "given": "X."
-      },
-      {
-        "family": "Xu",
+        "family": "Yang",
         "given": "Y."
       },
       {
-        "family": "Huang",
-        "given": "X."
+        "family": "Kong",
+        "given": "S.Y."
+      },
+      {
+        "family": "Hua",
+        "given": "N."
+      },
+      {
+        "family": "Limtiaco",
+        "given": "N."
+      },
+      {
+        "family": "John",
+        "given": "R.S."
+      },
+      {
+        "family": "Kurzweil",
+        "given": "R."
+      },
+      {
+        "others": true
       }
     ],
     "date": [
-      "2019"
+      "2018"
     ],
     "title": [
-      "How to Fine-Tune BERT for Text Classification?"
+      "Universal Sentence Encoder"
     ],
-    "container-title": [
-      "China National Conference on Chinese Computational Linguistics"
+    "note": [
+      "*arXiv preprint arXiv:1803.11175*."
     ],
-    "type": "paper-conference"
+    "arxiv": [
+      "1803.11175"
+    ],
+    "type": null
   },
   {
     "title": [
-      "These articles provide a comprehensive overview of the development and application of embeddings in NLP, from early word embeddings to advanced contextual models like BERT and its variants"
+      "These articles cover a range of topics related to word, sentence, and document embeddings, as well as advancements in contextual embeddings and transformer-based models"
     ],
     "type": null
   }

@@ -6,128 +6,62 @@
       }
     ],
     "title": [
-      "Here's a reading list of 20 articles focusing on Cantonese natural language processing (NLP) and low-resource languages"
-    ],
-    "note": [
-      "published before 2023:"
+      "Below is a reading list of 20 articles up to 2022 that focus on Cantonese natural language processing (NLP) and low-resource languages. These articles cover various aspects such as language modeling, machine translation, speech recognition, and more"
     ],
     "type": null
+  },
+  {
+    "container-title": [
+      "### Cantonese Natural Language Processing"
+    ],
+    "type": "chapter"
   },
   {
     "citation-number": [
       "1."
     ],
-    "author": [
-      {
-        "literal": "**\"Cantonese Part-of-Speech Tagging on a New Corpus\"** - Wong, P., & Chan, J."
-      }
-    ],
-    "date": [
-      "2018"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
     "title": [
-      "This paper discusses the development of a new corpus for Cantonese and the challenges of part-of-speech tagging"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "2."
-    ],
-    "author": [
-      {
-        "literal": "**\"A Cantonese Speech Recognition System Based on Deep Learning\"** - Lee, T., & Ching, P."
-      }
-    ],
-    "date": [
-      "2017"
+      "**\"Cantonese Automatic Speech Recognition with Transfer Learning\"**"
     ],
     "type": null
   },
   {
     "author": [
       {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "The authors present a speech recognition system tailored for Cantonese using deep learning techniques"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "3."
-    ],
-    "author": [
-      {
-        "literal": "**\"Challenges in Building Cantonese NLP Tools\"** - Leung, H., & Wong, K."
-      }
-    ],
-    "date": [
-      "2016"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "This article outlines the specific challenges faced in developing NLP tools for Cantonese"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "4."
-    ],
-    "author": [
-      {
-        "literal": "**\"Cantonese Word Segmentation and POS Tagging Using Conditional Random Fields\"** - Chan, S., & Lee, T."
-      }
-    ],
-    "date": [
-      "2015"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "The paper explores the use of conditional random fields for word segmentation and part-of-speech tagging in Cantonese"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "5."
-    ],
-    "title": [
-      "**\"Low-Resource Language Processing: A Survey\"**"
-    ],
-    "editor": [
-      {
-        "family": "Anastasopoulos",
-        "given": "A."
+        "family": "Authors",
+        "given": "Lee"
       },
       {
-        "family": "Chiang",
-        "given": "D."
+        "family": "T.",
+        "given": "Ching"
+      },
+      {
+        "family": "C.",
+        "given": "P."
+      },
+      {
+        "family": "Chan",
+        "given": "Y.W."
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "location": [
+      "Journal"
+    ],
+    "publisher": [
+      "IEEE Transactions on Audio, Speech, and Language Processing"
+    ],
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "given": "Year"
       }
     ],
     "date": [
@@ -136,35 +70,77 @@
     "type": null
   },
   {
+    "citation-number": [
+      "2."
+    ],
+    "title": [
+      "**\"Building a Cantonese-English Code-Switching Corpus\"**"
+    ],
+    "type": null
+  },
+  {
     "author": [
       {
         "literal": "-"
       }
     ],
     "title": [
-      "A comprehensive survey of techniques and challenges in processing low-resource languages"
+      "Authors: Chan"
+    ],
+    "editor": [
+      {
+        "family": "C.",
+        "given": "J.Y."
+      },
+      {
+        "family": "Li",
+        "given": "H."
+      }
     ],
     "type": null
   },
   {
     "citation-number": [
-      "6."
+      "-"
     ],
-    "title": [
-      "**\"Transfer Learning for Low-Resource Language Translation\"**"
+    "container-title": [
+      "Conference: International Conference on Language Resources and Evaluation (LREC"
     ],
-    "editor": [
+    "type": "paper-conference"
+  },
+  {
+    "author": [
       {
-        "family": "Zoph",
-        "given": "B."
-      },
-      {
-        "family": "Knight",
-        "given": "K."
+        "given": "Year"
       }
     ],
     "date": [
-      "2016"
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "title": [
+      "**\"Cantonese Text-to-Speech Synthesis Using Deep Neural Networks\"**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Authors",
+        "given": "Wang"
+      },
+      {
+        "family": "X."
+      },
+      {
+        "family": "Lee",
+        "given": "T."
+      }
     ],
     "type": null
   },
@@ -174,30 +150,15 @@
         "literal": "-"
       }
     ],
-    "title": [
-      "This paper discusses the application of transfer learning to improve translation for low-resource languages"
-    ],
-    "type": null
+    "type": "article-journal",
+    "container-title": [
+      "Journal: Speech Communication"
+    ]
   },
   {
-    "citation-number": [
-      "7."
-    ],
-    "title": [
-      "**\"Cross-Lingual Word Embeddings for Low-Resource Languages\"**"
-    ],
-    "editor": [
+    "author": [
       {
-        "family": "Ruder",
-        "given": "S."
-      },
-      {
-        "family": "Vulić",
-        "given": "I."
-      },
-      {
-        "family": "Søgaard",
-        "given": "A."
+        "given": "Year"
       }
     ],
     "date": [
@@ -206,31 +167,43 @@
     "type": null
   },
   {
-    "author": [
-      {
-        "literal": "-"
-      }
+    "citation-number": [
+      "4."
     ],
     "title": [
-      "The authors investigate the use of cross-lingual word embeddings to enhance NLP tasks in low-resource languages"
+      "**\"A Cantonese Speech Corpus for Speech Recognition\"**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Authors",
+        "given": "Lee"
+      },
+      {
+        "family": "T."
+      },
+      {
+        "family": "Kong",
+        "given": "A.P.H."
+      }
     ],
     "type": null
   },
   {
     "citation-number": [
-      "8."
+      "-"
     ],
-    "title": [
-      "**\"Neural Machine Translation for Low-Resource Languages\"**"
+    "container-title": [
+      "Conference: International Conference on Speech and Language Processing (ICSLP"
     ],
-    "editor": [
+    "type": "paper-conference"
+  },
+  {
+    "author": [
       {
-        "family": "Koehn",
-        "given": "P."
-      },
-      {
-        "family": "Knowles",
-        "given": "R."
+        "given": "Year"
       }
     ],
     "date": [
@@ -239,13 +212,220 @@
     "type": null
   },
   {
+    "citation-number": [
+      "5."
+    ],
+    "title": [
+      "**\"Cantonese Part-of-Speech Tagging Using Neural Networks\"**"
+    ],
+    "type": null
+  },
+  {
     "author": [
       {
         "literal": "-"
       }
     ],
     "title": [
-      "This article explores neural machine translation techniques specifically for low-resource languages"
+      "Authors"
+    ],
+    "editor": [
+      {
+        "family": "Wong",
+        "given": "P.C.Y."
+      },
+      {
+        "family": "Chan",
+        "given": "J.Y.C."
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "location": [
+      "Journal"
+    ],
+    "publisher": [
+      "ACM"
+    ],
+    "container-title": [
+      "Transactions on Asian and Low-Resource Language Information Processing (TALLIP"
+    ],
+    "type": "chapter"
+  },
+  {
+    "author": [
+      {
+        "given": "Year"
+      }
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Languages",
+        "given": "Low-Resource"
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "title": [
+      "**\"Massively Multilingual Sentence Embeddings for Zero-Shot Cross-Lingual Transfer and Beyond\"**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Authors: Artetxe"
+    ],
+    "editor": [
+      {
+        "family": "M."
+      },
+      {
+        "family": "Schwenk",
+        "given": "H."
+      }
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Journal: Transactions of the Association for Computational Linguistics (TACL"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Year"
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "title": [
+      "**\"Unsupervised Machine Translation Using Monolingual Corpora Only\"**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Authors",
+        "given": "Lample"
+      },
+      {
+        "family": "G.",
+        "given": "Conneau"
+      },
+      {
+        "family": "A.",
+        "given": "Denoyer"
+      },
+      {
+        "family": "L."
+      },
+      {
+        "family": "Ranzato",
+        "given": "M."
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "container-title": [
+      "Conference: International Conference on Learning Representations (ICLR"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "author": [
+      {
+        "given": "Year"
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "title": [
+      "**\"On the Cross-lingual Transferability of Monolingual Representations\"**"
+    ],
+    "type": null
+  },
+  {
+    "director": [
+      {
+        "family": "Authors",
+        "given": "Pires"
+      },
+      {
+        "family": "T.",
+        "given": "Schlinger"
+      },
+      {
+        "family": "E."
+      },
+      {
+        "family": "Garrette",
+        "given": "D."
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "container-title": [
+      "Conference: North American Chapter of the Association for Computational Linguistics (NAACL"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "author": [
+      {
+        "given": "Year"
+      }
+    ],
+    "date": [
+      "2019"
     ],
     "type": null
   },
@@ -254,7 +434,127 @@
       "9."
     ],
     "title": [
-      "**\"Data Augmentation for Low-Resource Language Processing\"** - Fadaee"
+      "**\"Pre-trained Multilingual Language Model for Low-Resource Languages\"**"
+    ],
+    "type": null
+  },
+  {
+    "producer": [
+      {
+        "family": "Authors",
+        "given": "Conneau"
+      },
+      {
+        "family": "A.",
+        "given": "Khandelwal"
+      },
+      {
+        "family": "K.",
+        "given": "Goyal"
+      },
+      {
+        "family": "N.",
+        "given": "Chaudhary"
+      },
+      {
+        "family": "V.",
+        "given": "Wenzek"
+      },
+      {
+        "family": "G.",
+        "given": "Guzmán"
+      },
+      {
+        "family": "F."
+      },
+      {
+        "family": "Stoyanov",
+        "given": "V."
+      },
+      {
+        "others": true
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "container-title": [
+      "Conference: Advances in Neural Information Processing Systems (NeurIPS"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "author": [
+      {
+        "given": "Year"
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "publisher": [
+      "**\"Cross-lingual Language Model Pretraining\"**"
+    ],
+    "type": "book"
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "location": [
+      "Authors"
+    ],
+    "publisher": [
+      "Conneau, A., & Lample, G"
+    ],
+    "type": "book"
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "container-title": [
+      "Conference: Advances in Neural Information Processing Systems (NeurIPS"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "author": [
+      {
+        "given": "Year"
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "title": [
+      "**\"Data Augmentation for Low-Resource Neural Machine Translation\"**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Authors: Fadaee"
     ],
     "editor": [
       {
@@ -269,77 +569,25 @@
         "given": "C."
       }
     ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "container-title": [
+      "Conference: Annual Meeting of the Association for Computational Linguistics (ACL"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "author": [
+      {
+        "given": "Year"
+      }
+    ],
     "date": [
       "2017"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "The paper presents methods for data augmentation to improve NLP performance in low-resource settings"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "10."
-    ],
-    "title": [
-      "**\"Unsupervised Learning for Low-Resource Language Processing\"**"
-    ],
-    "editor": [
-      {
-        "family": "Artetxe",
-        "given": "M."
-      },
-      {
-        "family": "Schwenk",
-        "given": "H."
-      }
-    ],
-    "date": [
-      "2019"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "The authors discuss unsupervised learning techniques for enhancing NLP tasks in low-resource languages"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "11."
-    ],
-    "author": [
-      {
-        "literal": "**\"Cantonese Named Entity Recognition Using BiLSTM-CRF\"** - Lam, W., & Wong, P."
-      }
-    ],
-    "date": [
-      "2019"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "This paper presents a named entity recognition system for Cantonese using BiLSTM-CRF models"
     ],
     "type": null
   },
@@ -348,20 +596,32 @@
       "12."
     ],
     "title": [
-      "**\"Building a Cantonese-English Parallel Corpus for Machine Translation\"**"
+      "**\"A Survey of Unsupervised Deep Learning Methods for Low-Resource Natural Language Processing\"**"
     ],
-    "editor": [
+    "type": null
+  },
+  {
+    "author": [
       {
-        "family": "Cheung",
-        "given": "H."
+        "family": "Authors",
+        "given": "Ruder"
       },
       {
-        "family": "Lee",
+        "family": "S.",
+        "given": "Peters"
+      },
+      {
+        "family": "E.",
+        "given": "M."
+      },
+      {
+        "family": "Swayamdipta",
+        "given": "S."
+      },
+      {
+        "family": "Wolf",
         "given": "T."
       }
-    ],
-    "date": [
-      "2018"
     ],
     "type": null
   },
@@ -371,8 +631,22 @@
         "literal": "-"
       }
     ],
-    "title": [
-      "The authors describe the creation of a parallel corpus for Cantonese-English machine translation"
+    "note": [
+      "Research (JAIR"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "Journal: Journal of Artificial Intelligence"
+    ]
+  },
+  {
+    "author": [
+      {
+        "given": "Year"
+      }
+    ],
+    "date": [
+      "2021"
     ],
     "type": null
   },
@@ -380,15 +654,10 @@
     "citation-number": [
       "13."
     ],
-    "author": [
-      {
-        "literal": "**\"Cantonese Sentiment Analysis Using Deep Learning\"** - Ng, K., & Chan, S."
-      }
+    "container-title": [
+      "**\"Improving Low-Resource Neural Machine Translation with Pseudo-Parallel Data\"**"
     ],
-    "date": [
-      "2017"
-    ],
-    "type": null
+    "type": "chapter"
   },
   {
     "author": [
@@ -397,116 +666,36 @@
       }
     ],
     "title": [
-      "This article explores sentiment analysis in Cantonese using deep learning techniques"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "14."
-    ],
-    "title": [
-      "**\"Low-Resource Language Speech Recognition Using Multilingual Models\"**"
+      "Authors: Sennrich"
     ],
     "editor": [
       {
-        "family": "Heigold",
-        "given": "G."
+        "family": "R.",
+        "given": "Haddow"
       },
       {
-        "family": "Gales",
-        "given": "M."
-      }
-    ],
-    "date": [
-      "2018"
-    ],
-    "type": null
-  },
-  {
-    "author": [
+        "family": "B."
+      },
       {
-        "literal": "-"
+        "family": "Birch",
+        "given": "A."
       }
-    ],
-    "title": [
-      "The paper discusses the use of multilingual models to improve speech recognition in low-resource languages"
     ],
     "type": null
   },
   {
     "citation-number": [
-      "15."
+      "-"
     ],
-    "author": [
-      {
-        "literal": "**\"Cantonese Text-to-Speech Synthesis Using WaveNet\"** - Wong, K., & Lee, T."
-      }
+    "container-title": [
+      "Conference: Annual Meeting of the Association for Computational Linguistics (ACL"
     ],
-    "date": [
-      "2019"
-    ],
-    "type": null
+    "type": "paper-conference"
   },
   {
     "author": [
       {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "The authors present a text-to-speech synthesis system for Cantonese using WaveNet"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "16."
-    ],
-    "title": [
-      "**\"Zero-Shot Learning for Low-Resource Language Translation\"**"
-    ],
-    "editor": [
-      {
-        "family": "Johnson",
-        "given": "M."
-      },
-      {
-        "family": "Schuster",
-        "given": "M."
-      }
-    ],
-    "date": [
-      "2017"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "This paper explores zero-shot learning techniques for translating low-resource languages"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "17."
-    ],
-    "title": [
-      "**\"Cantonese Dependency Parsing with Neural Networks\"**"
-    ],
-    "editor": [
-      {
-        "family": "Chan",
-        "given": "J."
-      },
-      {
-        "family": "Wong",
-        "given": "P."
+        "given": "Year"
       }
     ],
     "date": [
@@ -515,35 +704,60 @@
     "type": null
   },
   {
+    "citation-number": [
+      "14."
+    ],
+    "title": [
+      "**\"Transfer Learning for Low-Resource Text Classification\"**"
+    ],
+    "type": null
+  },
+  {
     "author": [
       {
         "literal": "-"
       }
     ],
     "title": [
-      "The authors discuss the application of neural networks for dependency parsing in Cantonese"
+      "Authors: Howard"
+    ],
+    "editor": [
+      {
+        "family": "J."
+      },
+      {
+        "family": "Ruder",
+        "given": "S."
+      }
     ],
     "type": null
   },
   {
     "citation-number": [
-      "18."
+      "-"
     ],
-    "title": [
-      "**\"Improving Low-Resource Language Models with Multilingual Pretraining\"**"
+    "container-title": [
+      "Conference: Annual Meeting of the Association for Computational Linguistics (ACL"
     ],
-    "editor": [
+    "type": "paper-conference"
+  },
+  {
+    "author": [
       {
-        "family": "Conneau",
-        "given": "A."
-      },
-      {
-        "family": "Lample",
-        "given": "G."
+        "given": "Year"
       }
     ],
     "date": [
-      "2019"
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "title": [
+      "**\"Low-Resource Machine Translation: A Benchmark for Five African Languages\"**"
     ],
     "type": null
   },
@@ -554,25 +768,76 @@
       }
     ],
     "title": [
-      "This article investigates the benefits of multilingual pretraining for language models in low-resource settings"
+      "Authors: Adelani"
+    ],
+    "editor": [
+      {
+        "family": "I.",
+        "given": "D."
+      },
+      {
+        "others": true
+      }
     ],
     "type": null
   },
   {
     "citation-number": [
-      "19."
+      "-"
+    ],
+    "container-title": [
+      "Conference: International Conference on Computational Linguistics (COLING"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "author": [
+      {
+        "given": "Year"
+      }
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
     ],
     "title": [
-      "**\"Cantonese Automatic Speech Recognition Using End-to-End Models\"**"
+      "**\"Multilingual Denoising Pre-training for Neural Machine Translation\"**"
     ],
-    "editor": [
+    "type": null
+  },
+  {
+    "author": [
       {
-        "family": "Lee",
-        "given": "T."
+        "family": "Authors",
+        "given": "Liu"
       },
       {
-        "family": "Ching",
-        "given": "P."
+        "given": "Y."
+      },
+      {
+        "others": true
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "container-title": [
+      "Conference: Annual Meeting of the Association for Computational Linguistics (ACL"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "author": [
+      {
+        "given": "Year"
       }
     ],
     "date": [
@@ -581,23 +846,39 @@
     "type": null
   },
   {
-    "author": [
-      {
-        "literal": "-"
-      }
+    "citation-number": [
+      "17."
     ],
-    "title": [
-      "The paper presents an end-to-end approach to automatic speech recognition for Cantonese"
+    "publisher": [
+      "**\"Unsupervised Cross-lingual Representation Learning\"**"
     ],
-    "type": null
+    "type": "book"
   },
   {
     "citation-number": [
-      "20."
+      "-"
     ],
+    "location": [
+      "Authors"
+    ],
+    "publisher": [
+      "Lample, G., & Conneau, A"
+    ],
+    "type": "book"
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "container-title": [
+      "Conference: Advances in Neural Information Processing Systems (NeurIPS"
+    ],
+    "type": "paper-conference"
+  },
+  {
     "author": [
       {
-        "literal": "**\"Low-Resource Language Processing with BERT\"** - Devlin, J., & Chang, M."
+        "given": "Year"
       }
     ],
     "date": [
@@ -606,19 +887,165 @@
     "type": null
   },
   {
+    "citation-number": [
+      "18."
+    ],
+    "title": [
+      "**\"A Survey on Recent Approaches for Natural Language Processing in Low-Resource Settings\"**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Authors",
+        "given": "Hedderich"
+      },
+      {
+        "family": "A.",
+        "given": "M."
+      },
+      {
+        "others": true
+      }
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "note": [
+      "Research (JAIR"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "Journal: Journal of Artificial Intelligence"
+    ]
+  },
+  {
+    "author": [
+      {
+        "given": "Year"
+      }
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "title": [
+      "**\"Zero-Shot Cross-Lingual Transfer with Multilingual Sentence Representations\"**"
+    ],
+    "type": null
+  },
+  {
     "author": [
       {
         "literal": "-"
       }
     ],
     "title": [
-      "The authors explore the application of BERT for improving NLP tasks in low-resource languages"
+      "Authors: Artetxe"
+    ],
+    "editor": [
+      {
+        "family": "M."
+      },
+      {
+        "family": "Schwenk",
+        "given": "H."
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "container-title": [
+      "Conference: Conference on Empirical Methods in Natural Language Processing (EMNLP"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "author": [
+      {
+        "given": "Year"
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "container-title": [
+      "**\"Multilingual Neural Machine Translation with Soft Decoupled Encoding\"**"
+    ],
+    "type": "chapter"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Authors"
+    ],
+    "editor": [
+      {
+        "family": "Wang",
+        "given": "X."
+      },
+      {
+        "family": "Zhang",
+        "given": "Y."
+      },
+      {
+        "family": "Zong",
+        "given": "C."
+      },
+      {
+        "family": "Su",
+        "given": "J."
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "container-title": [
+      "Conference: Annual Meeting of the Association for Computational Linguistics (ACL"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "author": [
+      {
+        "given": "Year"
+      }
+    ],
+    "date": [
+      "2021"
     ],
     "type": null
   },
   {
     "title": [
-      "These articles cover a range of topics from foundational challenges to advanced techniques in Cantonese NLP and low-resource language processing"
+      "These articles provide a comprehensive overview of the current state of research in Cantonese NLP and low-resource languages, offering insights into various methodologies and advancements in these fields"
     ],
     "type": null
   }

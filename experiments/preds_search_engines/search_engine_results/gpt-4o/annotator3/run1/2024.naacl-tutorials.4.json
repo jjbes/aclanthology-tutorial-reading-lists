@@ -1,10 +1,12 @@
 [
   {
-    "title": [
-      "Creating a reading list of articles that will be published before 2025 is challenging, as it requires predicting future publications. However, I can provide a list of recent and influential articles up to my knowledge cutoff in 2023 that focus on integrating societal-level factors into NLP models. These articles can serve as a foundation for understanding the current state of research and identifying future trends"
+    "author": [
+      {
+        "given": "Certainly!"
+      }
     ],
-    "note": [
-      "Here are 20 articles that you might find useful:"
+    "title": [
+      "Integrating societal-level factors into NLP models is a growing area of research, focusing on making these models more aware of social contexts, biases, and ethical considerations. Here is a reading list of 20 articles up to 2024 that cover various methods and approaches to this topic"
     ],
     "type": null
   },
@@ -13,76 +15,12 @@
       "1."
     ],
     "title": [
-      "**\"On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?\"** by Emily Bender, Timnit Gebru"
+      "**\"Fairness and Abstraction in Sociotechnical Systems\"**"
     ],
     "editor": [
       {
-        "family": "McMillan-Major",
-        "given": "Angelina"
-      },
-      {
-        "family": "Mitchell",
-        "given": "Margaret"
-      }
-    ],
-    "date": [
-      "2021"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "2."
-    ],
-    "title": [
-      "**\"Gender Bias in Contextualized Word Embeddings\"** by Tolga Bolukbasi"
-    ],
-    "note": [
-      "Kai-Wei Chang, James Zou, Venkatesh Saligrama, and Adam Kalai (2016"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "3."
-    ],
-    "title": [
-      "**\"Mitigating Unwanted Biases with Adversarial Learning\"** by Tianlu Wang"
-    ],
-    "editor": [
-      {
-        "family": "Zhao",
-        "given": "Jieyu"
-      },
-      {
-        "family": "Yatskar",
-        "given": "Mark"
-      },
-      {
-        "family": "Chang",
-        "given": "Kai-Wei"
-      },
-      {
-        "family": "Ordonez",
-        "given": "Vicente"
-      }
-    ],
-    "date": [
-      "2019"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "4."
-    ],
-    "title": [
-      "**\"Fairness and Abstraction in Sociotechnical Systems\"** by Selbst"
-    ],
-    "editor": [
-      {
-        "family": "Andrew",
-        "given": "D."
+        "family": "Selbst",
+        "given": "A.D."
       },
       {
         "others": true
@@ -95,29 +33,81 @@
   },
   {
     "citation-number": [
-      "5."
+      "2."
     ],
     "title": [
-      "**\"Language (Technology) is Power: A Critical Survey of 'Bias'"
+      "**\"Mitigating Unwanted Biases with Adversarial Learning\"**"
     ],
     "editor": [
       {
-        "family": "Su Lin Blodgett",
-        "given": "N.L.P.\"",
-        "particle": "by"
+        "family": "Zhang",
+        "given": "B.H."
       },
       {
-        "family": "Barocas",
-        "given": "Solon"
+        "others": true
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "title": [
+      "**\"Gender Bias in Contextualized Word Embeddings\"**"
+    ],
+    "editor": [
+      {
+        "family": "Zhao",
+        "given": "J."
       },
       {
-        "family": "Daumé",
-        "given": "Hal",
-        "suffix": "III"
+        "others": true
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "title": [
+      "**\"Towards a Metric of Bias in Translation\"**"
+    ],
+    "editor": [
+      {
+        "family": "Prates",
+        "given": "M.O.R."
       },
       {
-        "family": "Wallach",
-        "given": "Hanna"
+        "others": true
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "title": [
+      "**\"Social Bias Frames: Reasoning about Social and Power Implications of Language\"**"
+    ],
+    "editor": [
+      {
+        "family": "Sap",
+        "given": "M."
+      },
+      {
+        "others": true
       }
     ],
     "date": [
@@ -130,24 +120,19 @@
       "6."
     ],
     "title": [
-      "**\"Dissecting Racial Bias in an Algorithm that Guides Health Decisions for 70 Million People\"** by Ziad Obermeyer"
+      "**\"The Role of Social Biases in NLP Models: A Survey\"**"
     ],
     "editor": [
       {
-        "family": "Powers",
-        "given": "Brian"
+        "family": "Blodgett",
+        "given": "S.L."
       },
       {
-        "family": "Vogeli",
-        "given": "Christine"
-      },
-      {
-        "family": "Mullainathan",
-        "given": "Sendhil"
+        "others": true
       }
     ],
     "date": [
-      "2019"
+      "2020"
     ],
     "type": null
   },
@@ -156,10 +141,16 @@
       "7."
     ],
     "title": [
-      "**\"The Role of Social Bias in the Fairness of Machine Learning Models\"** by Alexandra Chouldechova and Aaron Roth"
+      "**\"Fairness and Bias in Natural Language Processing\"**"
+    ],
+    "editor": [
+      {
+        "family": "Binns",
+        "given": "R."
+      }
     ],
     "date": [
-      "2018"
+      "2020"
     ],
     "type": null
   },
@@ -168,142 +159,16 @@
       "8."
     ],
     "title": [
-      "**\"A Survey on Bias and Fairness in Machine Learning\"** by Mehrabi, Ninareh, et al"
-    ],
-    "date": [
-      "2021"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "9."
-    ],
-    "title": [
-      "**\"Social Bias Frames: Reasoning about Social and Power Implications of Language\"** by Maarten Sap, Dallas Card"
+      "**\"Analyzing and Reducing Gender Bias in Language Models\"**"
     ],
     "editor": [
       {
-        "family": "Gabriel",
-        "given": "Saadia"
+        "family": "Bordia",
+        "given": "S."
       },
       {
-        "family": "Choi",
-        "given": "Yejin"
-      },
-      {
-        "family": "Smith",
-        "given": "Noah A."
-      }
-    ],
-    "date": [
-      "2020"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "10."
-    ],
-    "title": [
-      "**\"Bias in Bios: A Case Study of Semantic Representation Bias in a High-Stakes Setting\"** by Aylin Caliskan"
-    ],
-    "editor": [
-      {
-        "family": "Bryson",
-        "given": "Joanna J."
-      },
-      {
-        "family": "Narayanan",
-        "given": "Arvind"
-      }
-    ],
-    "date": [
-      "2017"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "11."
-    ],
-    "title": [
-      "**\"Towards a Metric of Bias in Translation\"** by Antonio Toral"
-    ],
-    "date": [
-      "2020"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "12."
-    ],
-    "title": [
-      "**\"Analyzing Gender Bias in Deep Natural Language Processing Models\"** by Jieyu Zhao"
-    ],
-    "editor": [
-      {
-        "family": "Wang",
-        "given": "Tianlu"
-      },
-      {
-        "family": "Yatskar",
-        "given": "Mark"
-      },
-      {
-        "family": "Ordonez",
-        "given": "Vicente"
-      },
-      {
-        "family": "Chang",
-        "given": "Kai-Wei"
-      }
-    ],
-    "date": [
-      "2017"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "13."
-    ],
-    "title": [
-      "**\"Ethical Considerations in NLP Research: A Checklist\"** by Margaret Mitchell"
-    ],
-    "editor": [
-      {
-        "family": "Wu",
-        "given": "Simone"
-      },
-      {
-        "family": "Zaldivar",
-        "given": "Andrew"
-      },
-      {
-        "family": "Barnes",
-        "given": "Parker"
-      },
-      {
-        "family": "Vasserman",
-        "given": "Lucy"
-      },
-      {
-        "family": "Hutchinson",
-        "given": "Ben"
-      },
-      {
-        "family": "Spitzer",
-        "given": "Elena"
-      },
-      {
-        "family": "Raji",
-        "given": "Inioluwa Deborah"
-      },
-      {
-        "family": "Gebru",
-        "given": "Timnit"
+        "family": "Bowman",
+        "given": "S.R."
       }
     ],
     "date": [
@@ -313,67 +178,32 @@
   },
   {
     "citation-number": [
-      "14."
+      "9."
     ],
-    "title": [
-      "**\"The Social Impact of Natural Language Processing\"** by Dirk Hovy and Shannon L"
-    ],
-    "publisher": [
-      "Spruit"
+    "author": [
+      {
+        "literal": "**\"Debiasing Word Embeddings\"** - Bolukbasi, T., et al."
+      }
     ],
     "date": [
       "2016"
     ],
-    "type": "book"
+    "type": null
   },
   {
     "citation-number": [
-      "15."
+      "10."
     ],
     "title": [
-      "**\"Bias in Word Embeddings\"** by Aylin Caliskan"
+      "**\"Learning Gender-Neutral Word Embeddings\"**"
     ],
     "editor": [
       {
-        "family": "Bryson",
-        "given": "Joanna J."
+        "family": "Zhao",
+        "given": "J."
       },
       {
-        "family": "Narayanan",
-        "given": "Arvind"
-      }
-    ],
-    "date": [
-      "2017"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "16."
-    ],
-    "title": [
-      "**\"Measuring and Mitigating Unintended Bias in Text Classification\"** by Tolga Bolukbasi"
-    ],
-    "note": [
-      "Kai-Wei Chang, James Zou, Venkatesh Saligrama, and Adam Kalai (2016"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "17."
-    ],
-    "title": [
-      "**\"Fairness in Machine Learning: A Survey\"** by Verma"
-    ],
-    "location": [
-      "Sahil"
-    ],
-    "editor": [
-      {
-        "family": "Rubin",
-        "given": "Julia"
+        "others": true
       }
     ],
     "date": [
@@ -383,27 +213,18 @@
   },
   {
     "citation-number": [
-      "18."
+      "11."
     ],
     "title": [
-      "**\"Algorithmic Fairness: A Comparative Study of Methods for Mitigating Bias in NLP\"** by Jieyu Zhao"
+      "**\"Social Biases in NLP Models: A Comprehensive Survey\"**"
     ],
     "editor": [
       {
-        "family": "Wang",
-        "given": "Tianlu"
+        "family": "Sun",
+        "given": "T."
       },
       {
-        "family": "Yatskar",
-        "given": "Mark"
-      },
-      {
-        "family": "Ordonez",
-        "given": "Vicente"
-      },
-      {
-        "family": "Chang",
-        "given": "Kai-Wei"
+        "others": true
       }
     ],
     "date": [
@@ -413,37 +234,196 @@
   },
   {
     "citation-number": [
+      "12."
+    ],
+    "title": [
+      "**\"Bias in Bios: A Case Study of Semantic Representation Bias in a High-Stakes Setting\"**"
+    ],
+    "editor": [
+      {
+        "family": "De-Arteaga",
+        "given": "M."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "title": [
+      "**\"Reducing Gender Bias in Abusive Language Detection\"**"
+    ],
+    "editor": [
+      {
+        "family": "Park",
+        "given": "J.H."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "title": [
+      "**\"Exploring Gender Bias in Retrieval Models\"**"
+    ],
+    "editor": [
+      {
+        "family": "Diaz",
+        "given": "F."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "title": [
+      "**\"Gender and Racial Fairness in Language Models\"**"
+    ],
+    "editor": [
+      {
+        "family": "Sheng",
+        "given": "E."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "title": [
+      "**\"Evaluating Gender Bias in Machine Translation\"**"
+    ],
+    "editor": [
+      {
+        "family": "Stanovsky",
+        "given": "G."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "title": [
+      "**\"Towards Understanding Gender Bias in Relation Extraction\"**"
+    ],
+    "editor": [
+      {
+        "family": "Zhang",
+        "given": "W."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "title": [
+      "**\"Fairness in Machine Learning: A Survey\"**"
+    ],
+    "editor": [
+      {
+        "family": "Mehrabi",
+        "given": "N."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
       "19."
     ],
     "title": [
-      "**\"The Mythos of Model Interpretability\"** by Zachary C"
+      "**\"Bias in NLP: A Survey and Future Directions\"**"
     ],
-    "publisher": [
-      "Lipton"
+    "editor": [
+      {
+        "family": "Liang",
+        "given": "P."
+      },
+      {
+        "others": true
+      }
     ],
     "date": [
-      "2016"
+      "2021"
     ],
-    "type": "book"
+    "type": null
   },
   {
     "citation-number": [
       "20."
     ],
     "title": [
-      "**\"Ethics and NLP: A General Survey\"** by Dirk Hovy and Shannon L"
+      "**\"Ethical and Social Implications of NLP Models\"**"
     ],
-    "publisher": [
-      "Spruit"
+    "editor": [
+      {
+        "family": "Bender",
+        "given": "E.M."
+      },
+      {
+        "others": true
+      }
     ],
     "date": [
-      "2016"
+      "2021"
     ],
-    "type": "book"
+    "type": null
   },
   {
     "title": [
-      "These articles cover a range of topics including bias, fairness, ethical considerations, and the societal impact of NLP models. They provide a comprehensive overview of the current research landscape and can help you stay informed about future developments in this area"
+      "These articles provide a comprehensive overview of the current state of research on integrating societal-level factors into NLP models, covering topics such as bias mitigation, fairness, ethical considerations, and the impact of social biases on NLP applications"
     ],
     "type": null
   }

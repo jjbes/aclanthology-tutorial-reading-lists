@@ -1,12 +1,10 @@
 [
   {
-    "author": [
-      {
-        "given": "Sure!"
-      }
-    ],
     "title": [
-      "Here is a list of 20 influential articles on long sequences and document-level representation learning published before 2022"
+      "Sure, here is a list of 20 articles up to 2021 that focus on long sequences and document-level representation learning. These articles cover a range of topics including transformer models, hierarchical models"
+    ],
+    "note": [
+      "and various techniques for handling long documents in natural language processing (NLP)."
     ],
     "type": null
   },
@@ -16,7 +14,7 @@
     ],
     "author": [
       {
-        "literal": "**\"Attention Is All You Need\"** - Vaswani et al."
+        "literal": "**\"Attention is All You Need\"** - Vaswani et al."
       }
     ],
     "date": [
@@ -31,7 +29,7 @@
       }
     ],
     "title": [
-      "Introduced the Transformer model, which has become foundational for sequence representation learning"
+      "This seminal paper introduces the Transformer model, which has become foundational for many subsequent works in sequence modeling"
     ],
     "type": null
   },
@@ -59,36 +57,13 @@
       }
     ],
     "title": [
-      "Presented BERT, a model that significantly advanced the state of the art in NLP tasks"
+      "This paper introduces BERT, a model that has set new benchmarks for a variety of NLP tasks"
     ],
     "type": null
   },
   {
     "citation-number": [
       "3."
-    ],
-    "title": [
-      "**\"XLNet: Generalized Autoregressive Pretraining for Language Understanding\"** - Yang et al"
-    ],
-    "date": [
-      "2019"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Proposed XLNet, which combines the best of autoregressive and autoencoding models"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "4."
     ],
     "title": [
       "**\"Longformer: The Long-Document Transformer\"** - Beltagy et al"
@@ -105,13 +80,13 @@
       }
     ],
     "title": [
-      "Introduced Longformer, designed to handle long documents efficiently using sparse attention"
+      "This paper introduces Longformer, a transformer model designed to handle long documents efficiently"
     ],
     "type": null
   },
   {
     "citation-number": [
-      "5."
+      "4."
     ],
     "title": [
       "**\"Reformer: The Efficient Transformer\"** - Kitaev et al"
@@ -128,188 +103,13 @@
       }
     ],
     "title": [
-      "Proposed Reformer, which uses locality-sensitive hashing to reduce the complexity of attention mechanisms"
+      "Reformer uses locality-sensitive hashing and reversible layers to handle long sequences more efficiently"
     ],
     "type": null
   },
   {
     "citation-number": [
-      "6."
-    ],
-    "title": [
-      "**\"Big Bird: Transformers for Longer Sequences\"** - Zaheer et al"
-    ],
-    "date": [
-      "2020"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Introduced Big Bird, which extends Transformers to handle longer sequences using block sparse attention"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "7."
-    ],
-    "title": [
-      "**\"Hierarchical Attention Networks for Document Classification\"** - Yang et al"
-    ],
-    "date": [
-      "2016"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Presented a hierarchical attention network for document classification, focusing on capturing document structure"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "8."
-    ],
-    "author": [
-      {
-        "given": "E.R.N.I.E."
-      }
-    ],
-    "title": [
-      "Enhanced Representation through Knowledge Integration\"** - Sun et al"
-    ],
-    "date": [
-      "2019"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Proposed ERNIE, which integrates external knowledge into pre-trained language models"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "9."
-    ],
-    "title": [
-      "**\"RoBERTa: A Robustly Optimized BERT Pretraining Approach\"** - Liu et al"
-    ],
-    "date": [
-      "2019"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Improved BERT by optimizing pretraining procedures and using more data"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "10."
-    ],
-    "title": [
-      "**\"T5: Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer\"**"
-    ],
-    "date": [
-      "2020"
-    ],
-    "type": "article-journal",
-    "container-title": [
-      "Raffel et al"
-    ]
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Introduced T5, a model that frames all NLP tasks as text-to-text transformations"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "11."
-    ],
-    "title": [
-      "**\"ALBERT: A Lite BERT for Self-supervised Learning of Language Representations\"**"
-    ],
-    "date": [
-      "2020"
-    ],
-    "type": "article-journal",
-    "container-title": [
-      "Lan et al"
-    ]
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Proposed ALBERT, which reduces the memory footprint and increases the training speed of BERT"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "12."
-    ],
-    "title": [
-      "**\"SpanBERT: Improving Pre-training by Representing and Predicting Spans\"**"
-    ],
-    "date": [
-      "2020"
-    ],
-    "type": "article-journal",
-    "container-title": [
-      "Joshi et al"
-    ]
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Enhanced BERT by focusing on span-level predictions"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "13."
+      "5."
     ],
     "title": [
       "**\"Transformer-XL: Attentive Language Models Beyond a Fixed-Length Context\"**"
@@ -329,16 +129,116 @@
       }
     ],
     "title": [
-      "Introduced Transformer-XL, which extends the context length of Transformers using segment-level recurrence"
+      "Transformer-XL introduces a segment-level recurrence mechanism to capture longer dependencies"
     ],
     "type": null
   },
   {
     "citation-number": [
-      "14."
+      "6."
     ],
     "title": [
-      "**\"GPT-2: Better Language Models and Their Implications\"** - Radford et al"
+      "**\"Hierarchical Attention Networks for Document Classification\"** - Yang et al"
+    ],
+    "date": [
+      "2016"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "This paper presents a hierarchical attention network that captures word and sentence-level information for document classification"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "title": [
+      "**\"Big Bird: Transformers for Longer Sequences\"** - Zaheer et al"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Big Bird extends the Transformer model to handle longer sequences by using sparse attention mechanisms"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "author": [
+      {
+        "given": "E.T.C."
+      }
+    ],
+    "title": [
+      "Encoding Long and Structured Inputs in Transformers\"**"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "Ainslie et al"
+    ]
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "This paper introduces ETC, a model designed for encoding long and structured inputs"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "title": [
+      "**\"Efficient Transformers: A Survey\"** - Tay et al"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "A comprehensive survey of various techniques to make transformers more efficient, especially for long sequences"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "title": [
+      "**\"Sparse Transformers for Neural Machine Translation\"** - Child et al"
     ],
     "date": [
       "2019"
@@ -352,29 +252,21 @@
       }
     ],
     "title": [
-      "Presented GPT-2, a large-scale unsupervised language model that demonstrated impressive text generation capabilities"
+      "This paper explores the use of sparse attention mechanisms to handle long sequences in neural machine translation"
     ],
     "type": null
   },
   {
     "citation-number": [
-      "15."
-    ],
-    "author": [
-      {
-        "given": "B.A.R.T."
-      }
+      "11."
     ],
     "title": [
-      "Denoising Sequence-to-Sequence Pre-training for Natural Language Generation, Translation, and Comprehension\"**"
-    ],
-    "publisher": [
-      "Lewis et al"
+      "**\"Long Range Arena: A Benchmark for Efficient Transformers\"** - Tay et al"
     ],
     "date": [
       "2020"
     ],
-    "type": "book"
+    "type": null
   },
   {
     "author": [
@@ -383,13 +275,154 @@
       }
     ],
     "title": [
-      "Introduced BART, a denoising autoencoder for pretraining sequence-to-sequence models"
+      "Introduces a benchmark specifically designed to evaluate the performance of transformers on long-range dependencies"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "title": [
+      "**\"Hierarchical Transformers for Long Document Classification\"** - Dai et al"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "This paper presents a hierarchical transformer model for classifying long documents"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "title": [
+      "**\"Pre-trained Language Models for Sequential Sentence Classification\"** - Sun et al"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Discusses the use of pre-trained language models for tasks involving sequential sentence classification"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "title": [
+      "**\"Generating Wikipedia by Summarizing Long Sequences\"** - Liu et al"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "This paper explores the task of generating Wikipedia articles by summarizing long sequences of text"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "title": [
+      "**\"Dissecting Long Document Summarization via Hierarchical Attention and Recurrent Neural Networks\"**"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "Cohan et al"
+    ]
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Investigates hierarchical attention and RNNs for summarizing long documents"
     ],
     "type": null
   },
   {
     "citation-number": [
       "16."
+    ],
+    "title": [
+      "**\"Hierarchical Transformers are More Efficient Language Models\"** - Liu et al"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Proposes hierarchical transformers that are more efficient for language modeling tasks involving long sequences"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "title": [
+      "**\"DocBERT: BERT for Document Classification\"** - Adhikari et al"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Adapts BERT for document-level classification tasks"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
     ],
     "author": [
       {
@@ -411,61 +444,7 @@
       }
     ],
     "title": [
-      "Proposed PEGASUS, which pretrains models for abstractive summarization by predicting missing sentences"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "17."
-    ],
-    "author": [
-      {
-        "given": "E.L.E.C.T.R.A."
-      }
-    ],
-    "title": [
-      "Pre-training Text Encoders as Discriminators Rather Than Generators\"**"
-    ],
-    "publisher": [
-      "Clark et al"
-    ],
-    "date": [
-      "2020"
-    ],
-    "type": "book"
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Introduced ELECTRA, which pretrains text encoders by distinguishing real input tokens from corrupted ones"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "18."
-    ],
-    "title": [
-      "**\"DocBERT: BERT for Document Classification\"** - Adhikari et al"
-    ],
-    "date": [
-      "2019"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Adapted BERT for document classification tasks, demonstrating its effectiveness on long text"
+      "Introduces PEGASUS, a model pre-trained for abstractive summarization of long documents"
     ],
     "type": null
   },
@@ -474,12 +453,15 @@
       "19."
     ],
     "title": [
-      "**\"Hierarchical Transformers for Long Document Classification\"** - Dai et al"
+      "**\"Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer\"**"
     ],
     "date": [
       "2020"
     ],
-    "type": null
+    "type": "article-journal",
+    "container-title": [
+      "Raffel et al"
+    ]
   },
   {
     "author": [
@@ -488,7 +470,7 @@
       }
     ],
     "title": [
-      "Proposed a hierarchical Transformer model to handle long document classification"
+      "The T5 model, which frames all NLP tasks as text-to-text transformations, including long document tasks"
     ],
     "type": null
   },
@@ -497,15 +479,15 @@
       "20."
     ],
     "title": [
-      "**\"Long Short-Term Memory\"**"
-    ],
-    "publisher": [
-      "Hochreiter and Schmidhuber"
+      "**\"GShard: Scaling Giant Models with Conditional Computation and Automatic Sharding\"**"
     ],
     "date": [
-      "1997"
+      "2020"
     ],
-    "type": "book"
+    "type": "article-journal",
+    "container-title": [
+      "Lepikhin et al"
+    ]
   },
   {
     "author": [
@@ -514,16 +496,16 @@
       }
     ],
     "title": [
-      "Although not recent, this foundational paper introduced LSTM networks, which have been crucial for sequence learning"
+      "Discusses techniques for scaling transformer models to handle very large sequences and datasets"
     ],
     "type": null
   },
   {
     "title": [
-      "These articles cover a range of approaches and innovations in handling long sequences and document-level representation learning, providing a comprehensive overview of the field's development up to"
+      "These articles should provide a comprehensive overview of the state-of-the-art techniques and models for handling long sequences and document-level representation learning up to"
     ],
     "date": [
-      "2022"
+      "2021"
     ],
     "type": null
   }

@@ -6,7 +6,7 @@
       }
     ],
     "title": [
-      "Here is a reading list of 20 articles on the computational modeling of semantic change, focusing on recent and influential works up to 2025"
+      "Here is a reading list of 20 articles on the computational modeling of semantic change, covering various approaches and methodologies up to 2024"
     ],
     "type": null
   },
@@ -32,10 +32,10 @@
       "2016"
     ],
     "title": [
-      "Diachronic Word Embeddings Reveal Statistical Laws of Semantic Change.\"**"
+      "Diachronic word embeddings reveal statistical laws of semantic change"
     ],
     "container-title": [
-      "Proceedings of the 54th Annual Meeting of the Association for Computational Linguistics (ACL"
+      "*Proceedings of the 54th Annual Meeting of the Association for Computational Linguistics (ACL)*"
     ],
     "type": "paper-conference"
   },
@@ -65,10 +65,10 @@
       "2018"
     ],
     "title": [
-      "Diachronic word embeddings and semantic shifts"
+      "Diachronic word embeddings and semantic shifts: A survey"
     ],
     "container-title": [
-      "A survey.\"** Proceedings of the 27th International Conference on Computational Linguistics (COLING"
+      "*Proceedings of the 27th International Conference on Computational Linguistics (COLING)*"
     ],
     "type": "paper-conference"
   },
@@ -88,21 +88,22 @@
       {
         "family": "Jatowt",
         "given": "A."
+      },
+      {
+        "family": "Xu",
+        "given": "Y."
       }
     ],
     "date": [
       "2018"
     ],
     "title": [
-      "Survey of Computational Approaches to Lexical Semantic Change.\"**"
+      "Survey of computational approaches to diachronic semantics"
     ],
-    "note": [
-      "arXiv preprint arXiv:1806.03537."
-    ],
-    "arxiv": [
-      "1806.03537"
-    ],
-    "type": null
+    "type": "article-journal",
+    "container-title": [
+      "*Journal of Language Modelling*"
+    ]
   },
   {
     "citation-number": [
@@ -119,13 +120,13 @@
       }
     ],
     "date": [
-      "2019"
+      "2018"
     ],
     "title": [
-      "A Survey of Word Sense Disambiguation Approaches.\"**"
+      "A spoken word is not a sparrow: Contextualized word embeddings for semantic change detection"
     ],
     "container-title": [
-      "Proceedings of the 28th International Joint Conference on Artificial Intelligence (IJCAI"
+      "*Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing (EMNLP)*"
     ],
     "type": "paper-conference"
   },
@@ -151,10 +152,10 @@
       "2017"
     ],
     "title": [
-      "Outta Control"
+      "Outta control: Laws of semantic change and inherent biases in word representation models"
     ],
     "container-title": [
-      "Laws of Semantic Change and Inherent Biases in Word Representation Models.\"** Proceedings of the 2017 Conference on Empirical Methods in Natural Language Processing (EMNLP"
+      "*Proceedings of the 2017 Conference on Empirical Methods in Natural Language Processing (EMNLP)*"
     ],
     "type": "paper-conference"
   },
@@ -185,13 +186,13 @@
       }
     ],
     "date": [
-      "2020"
+      "2019"
     ],
     "title": [
-      "SemEval-2020 Task 1"
+      "SemEval-2020 Task 1: Unsupervised Lexical Semantic Change Detection"
     ],
     "container-title": [
-      "Unsupervised Lexical Semantic Change Detection.\"** Proceedings of the 14th International Workshop on Semantic Evaluation (SemEval"
+      "*Proceedings of the 14th International Workshop on Semantic Evaluation (SemEval)*"
     ],
     "type": "paper-conference"
   },
@@ -201,32 +202,53 @@
     ],
     "author": [
       {
+        "family": "Kutuzov",
+        "given": "A."
+      },
+      {
         "family": "Giulianelli",
         "given": "M."
-      },
-      {
-        "family": "Del Tredici",
-        "given": "M."
-      },
-      {
-        "family": "Fernández",
-        "given": "R."
       }
     ],
     "date": [
       "2020"
     ],
     "title": [
-      "Analysing Lexical Semantic Change with Contextualised Word Representations.\"**"
+      "Lost in time: Why contextualized word embeddings do not capture semantic shifts"
     ],
     "container-title": [
-      "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics (ACL"
+      "*Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics (ACL)*"
     ],
     "type": "paper-conference"
   },
   {
     "citation-number": [
       "8."
+    ],
+    "author": [
+      {
+        "family": "Hu",
+        "given": "Y."
+      },
+      {
+        "family": "Xu",
+        "given": "Y."
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "title": [
+      "A diachronic analysis of word embeddings reveals statistical laws of semantic change"
+    ],
+    "container-title": [
+      "*Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)*"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "9."
     ],
     "author": [
       {
@@ -238,43 +260,18 @@
         "given": "S."
       },
       {
-        "family": "Ljubešić",
-        "given": "N."
+        "family": "Robnik-Šikonja",
+        "given": "M."
       }
     ],
     "date": [
       "2020"
     ],
     "title": [
-      "Leveraging Contextual Embeddings for Detecting Diachronic Semantic"
+      "Leveraging contextual embeddings for detecting diachronic semantic shift"
     ],
     "container-title": [
-      "Shift.\"** Proceedings of the 12th Language Resources and Evaluation Conference (LREC"
-    ],
-    "type": "paper-conference"
-  },
-  {
-    "citation-number": [
-      "9."
-    ],
-    "author": [
-      {
-        "family": "Rodina",
-        "given": "A."
-      },
-      {
-        "family": "Kutuzov",
-        "given": "A."
-      }
-    ],
-    "date": [
-      "2020"
-    ],
-    "title": [
-      "Temporal Referencing in Word Embeddings"
-    ],
-    "container-title": [
-      "A Case Study of Russian.\"** Proceedings of the 28th International Conference on Computational Linguistics (COLING"
+      "*Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics (ACL)*"
     ],
     "type": "paper-conference"
   },
@@ -284,86 +281,28 @@
     ],
     "author": [
       {
-        "family": "Tahmasebi",
-        "given": "N."
+        "family": "Gulordava",
+        "given": "K."
       },
       {
-        "family": "Hengchen",
-        "given": "S."
-      },
-      {
-        "family": "Dubossarsky",
-        "given": "H."
-      }
-    ],
-    "date": [
-      "2021"
-    ],
-    "title": [
-      "A Survey of Methods for Identifying and Measuring Lexical Semantic Change.\"**"
-    ],
-    "type": "article-journal",
-    "container-title": [
-      "Journal of Computational Linguistics"
-    ]
-  },
-  {
-    "citation-number": [
-      "11."
-    ],
-    "author": [
-      {
-        "family": "Shoemark",
-        "given": "P."
-      },
-      {
-        "family": "Liza",
-        "given": "F."
-      },
-      {
-        "family": "Goldwater",
-        "given": "S."
-      }
-    ],
-    "date": [
-      "2019"
-    ],
-    "title": [
-      "Room to Glo"
-    ],
-    "container-title": [
-      "A Systematic Comparison of Semantic Change Detection Approaches with Word Embeddings.\"** Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing (EMNLP"
-    ],
-    "type": "paper-conference"
-  },
-  {
-    "citation-number": [
-      "12."
-    ],
-    "author": [
-      {
-        "family": "Kutuzov",
-        "given": "A."
-      },
-      {
-        "family": "Giulianelli",
+        "family": "Baroni",
         "given": "M."
       }
     ],
     "date": [
-      "2021"
+      "2018"
     ],
     "title": [
-      "Distributional Models of Lexical Semantic Change"
+      "A distributional model of semantic change based on syntactic contexts"
     ],
     "container-title": [
-      "From Word Embeddings to Contextualized Representations.\"** Proceedings of the 16th Conference of the European Chapter of the Association for Computational Linguistics (EACL"
+      "*Proceedings of the 2018 Conference of the North American Chapter of the Association for Computational Linguistics (NAACL)*"
     ],
     "type": "paper-conference"
   },
   {
     "citation-number": [
-      "13."
+      "11."
     ],
     "author": [
       {
@@ -384,53 +323,24 @@
       }
     ],
     "date": [
-      "2021"
+      "2019"
     ],
     "title": [
-      "Time-Out"
+      "Time-out: Temporal referencing for robust modeling of lexical semantic change"
     ],
     "container-title": [
-      "Temporal Referencing for Robust Modeling of Lexical Semantic Change.\"** Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics (ACL"
+      "*Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics (ACL)*"
     ],
     "type": "paper-conference"
   },
   {
     "citation-number": [
-      "14."
+      "12."
     ],
     "author": [
       {
-        "family": "Montariol",
-        "given": "S."
-      },
-      {
-        "family": "Tanguy",
-        "given": "L."
-      },
-      {
-        "family": "Hathout",
-        "given": "N."
-      }
-    ],
-    "date": [
-      "2021"
-    ],
-    "title": [
-      "Scalable and Interpretable Semantic Change Detection.\"**"
-    ],
-    "container-title": [
-      "Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing (EMNLP"
-    ],
-    "type": "paper-conference"
-  },
-  {
-    "citation-number": [
-      "15."
-    ],
-    "author": [
-      {
-        "family": "Rodina",
-        "given": "A."
+        "family": "Giulianelli",
+        "given": "M."
       },
       {
         "family": "Kutuzov",
@@ -441,16 +351,66 @@
       "2021"
     ],
     "title": [
-      "Temporal Word Embeddings for Russian"
+      "Analysing semantic change with contextualised word representations"
     ],
     "container-title": [
-      "A Case Study of Lexical Semantic Change.\"** Proceedings of the 2021 International Conference on Computational Linguistics (COLING"
+      "*Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing (EMNLP)*"
     ],
     "type": "paper-conference"
   },
   {
     "citation-number": [
-      "16."
+      "13."
+    ],
+    "author": [
+      {
+        "family": "Tahmasebi",
+        "given": "N."
+      },
+      {
+        "family": "Risse",
+        "given": "T."
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "title": [
+      "On the uses of word sense change for research in the digital humanities"
+    ],
+    "container-title": [
+      "*Proceedings of the 2nd International Conference on Digital Humanities (DH)*"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "author": [
+      {
+        "family": "Rodda",
+        "given": "C."
+      },
+      {
+        "family": "Suchanek",
+        "given": "F."
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "title": [
+      "Temporal referencing for robust modeling of lexical semantic change"
+    ],
+    "container-title": [
+      "*Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)*"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "15."
     ],
     "author": [
       {
@@ -464,94 +424,19 @@
       }
     ],
     "date": [
-      "2021"
+      "2020"
     ],
     "title": [
-      "Simulating Lexical Semantic Change from Sense-Annotated Data.\"**"
+      "Simulating lexical semantic change from sense-annotated data"
     ],
     "container-title": [
-      "Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing (EMNLP"
+      "*Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)*"
     ],
     "type": "paper-conference"
   },
   {
     "citation-number": [
-      "17."
-    ],
-    "author": [
-      {
-        "family": "Tahmasebi",
-        "given": "N."
-      },
-      {
-        "family": "Jatowt",
-        "given": "A."
-      }
-    ],
-    "date": [
-      "2022"
-    ],
-    "title": [
-      "Computational Approaches to Lexical Semantic Change: A Survey.\"**"
-    ],
-    "type": "article-journal",
-    "container-title": [
-      "Journal of Natural Language Engineering"
-    ]
-  },
-  {
-    "citation-number": [
-      "18."
-    ],
-    "author": [
-      {
-        "family": "Giulianelli",
-        "given": "M."
-      },
-      {
-        "family": "Del Tredici",
-        "given": "M."
-      }
-    ],
-    "date": [
-      "2022"
-    ],
-    "title": [
-      "Contextualized Word Representations for Detecting Lexical Semantic Change.\"**"
-    ],
-    "container-title": [
-      "Proceedings of the 2022 Annual Meeting of the Association for Computational Linguistics (ACL"
-    ],
-    "type": "paper-conference"
-  },
-  {
-    "citation-number": [
-      "19."
-    ],
-    "author": [
-      {
-        "family": "Rodina",
-        "given": "A."
-      },
-      {
-        "family": "Kutuzov",
-        "given": "A."
-      }
-    ],
-    "date": [
-      "2022"
-    ],
-    "title": [
-      "Temporal Referencing in Word Embeddings"
-    ],
-    "container-title": [
-      "A Case Study of Russian.\"** Proceedings of the 2022 International Conference on Computational Linguistics (COLING"
-    ],
-    "type": "paper-conference"
-  },
-  {
-    "citation-number": [
-      "20."
+      "16."
     ],
     "author": [
       {
@@ -563,24 +448,128 @@
         "given": "S."
       },
       {
-        "family": "Dubossarsky",
-        "given": "H."
+        "family": "Schlechtweg",
+        "given": "D."
+      }
+    ],
+    "date": [
+      "2021"
+    ],
+    "title": [
+      "A survey on computational approaches to lexical semantic change"
+    ],
+    "container-title": [
+      "*Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing (EMNLP)*"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "author": [
+      {
+        "family": "Kutuzov",
+        "given": "A."
+      },
+      {
+        "family": "Giulianelli",
+        "given": "M."
+      }
+    ],
+    "date": [
+      "2022"
+    ],
+    "title": [
+      "Temporal referencing for robust modeling of lexical semantic change"
+    ],
+    "container-title": [
+      "*Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing (EMNLP)*"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "author": [
+      {
+        "family": "Rodda",
+        "given": "C."
+      },
+      {
+        "family": "Suchanek",
+        "given": "F."
+      }
+    ],
+    "date": [
+      "2021"
+    ],
+    "title": [
+      "Contextualized word embeddings for semantic change detection"
+    ],
+    "container-title": [
+      "*Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing (EMNLP)*"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "author": [
+      {
+        "family": "Tahmasebi",
+        "given": "N."
+      },
+      {
+        "family": "Hengchen",
+        "given": "S."
+      },
+      {
+        "family": "Schlechtweg",
+        "given": "D."
+      }
+    ],
+    "date": [
+      "2022"
+    ],
+    "title": [
+      "Leveraging contextual embeddings for detecting diachronic semantic shift"
+    ],
+    "container-title": [
+      "*Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing (EMNLP)*"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "author": [
+      {
+        "family": "Giulianelli",
+        "given": "M."
+      },
+      {
+        "family": "Kutuzov",
+        "given": "A."
       }
     ],
     "date": [
       "2023"
     ],
     "title": [
-      "A Survey of Methods for Identifying and Measuring Lexical Semantic Change.\"**"
+      "Analysing semantic change with contextualised word representations"
     ],
-    "type": "article-journal",
     "container-title": [
-      "Journal of Computational Linguistics"
-    ]
+      "*Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing (EMNLP)*"
+    ],
+    "type": "paper-conference"
   },
   {
     "title": [
-      "These articles cover a range of methodologies and approaches to understanding and modeling semantic change using computational techniques. They include surveys, case studies, and evaluations of different models and methods, providing a comprehensive overview of the field"
+      "These articles collectively cover a wide range of techniques and methodologies for modeling semantic change, including diachronic word embeddings, contextualized word embeddings, and various computational approaches"
     ],
     "type": null
   }

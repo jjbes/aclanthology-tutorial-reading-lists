@@ -2,14 +2,11 @@
   {
     "author": [
       {
-        "given": "Sure!"
+        "given": "Certainly!"
       }
     ],
     "title": [
-      "Here's a reading list of 20 influential articles on pretrained language models and their fine-tuning and pretraining methods"
-    ],
-    "note": [
-      "published before 2023:"
+      "Here's a curated list of 20 articles up to 2022 that cover various aspects of pretrained language models, including their architectures, pretraining methods, and fine-tuning techniques"
     ],
     "type": null
   },
@@ -57,7 +54,10 @@
   },
   {
     "note": [
-      "- Link: [BERT](https://arxiv.org/abs/1810.04805"
+      "- Link: [arXiv:1810.04805](https://arxiv.org/abs/1810.04805"
+    ],
+    "arxiv": [
+      "1810.04805"
     ],
     "type": null
   },
@@ -66,26 +66,29 @@
       "2."
     ],
     "title": [
-      "**GPT-2: Language Models are Unsupervised Multitask Learners**"
+      "**GPT-3: Language Models are Few-Shot Learners**"
     ],
     "type": null
   },
   {
     "author": [
       {
-        "literal": "-"
+        "family": "Authors",
+        "given": "Tom B.Brown"
+      },
+      {
+        "family": "Mann",
+        "given": "Benjamin"
+      },
+      {
+        "family": "Ryder",
+        "given": "Nick"
+      },
+      {
+        "others": true
       }
     ],
-    "title": [
-      "Authors: Alec Radford, Jeffrey Wu, Rewon Child"
-    ],
-    "location": [
-      "David Luan"
-    ],
-    "publisher": [
-      "Dario Amodei, Ilya Sutskever"
-    ],
-    "type": "book"
+    "type": null
   },
   {
     "author": [
@@ -94,13 +97,16 @@
       }
     ],
     "date": [
-      "2019"
+      "2020"
     ],
     "type": null
   },
   {
     "note": [
-      "- Link: [GPT-2](https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf"
+      "- Link: [arXiv:2005.14165](https://arxiv.org/abs/2005.14165"
+    ],
+    "arxiv": [
+      "2005.14165"
     ],
     "type": null
   },
@@ -120,41 +126,7 @@
       }
     ],
     "title": [
-      "Authors: Yinhan Liu, Myle Ott"
-    ],
-    "editor": [
-      {
-        "family": "Goyal",
-        "given": "Naman"
-      },
-      {
-        "family": "Du",
-        "given": "Jingfei"
-      },
-      {
-        "family": "Joshi",
-        "given": "Mandar"
-      },
-      {
-        "family": "Chen",
-        "given": "Danqi"
-      },
-      {
-        "family": "Levy",
-        "given": "Omer"
-      },
-      {
-        "family": "Lewis",
-        "given": "Mike"
-      },
-      {
-        "family": "Zettlemoyer",
-        "given": "Luke"
-      },
-      {
-        "family": "Stoyanov",
-        "given": "Veselin"
-      }
+      "Authors: Yinhan Liu, Myle Ott, Naman Goyal, et al"
     ],
     "type": null
   },
@@ -171,7 +143,10 @@
   },
   {
     "note": [
-      "- Link: [RoBERTa](https://arxiv.org/abs/1907.11692"
+      "- Link: [arXiv:1907.11692](https://arxiv.org/abs/1907.11692"
+    ],
+    "arxiv": [
+      "1907.11692"
     ],
     "type": null
   },
@@ -191,25 +166,7 @@
       }
     ],
     "title": [
-      "Authors: Zhilin Yang, Zihang Dai"
-    ],
-    "editor": [
-      {
-        "family": "Yang",
-        "given": "Yiming"
-      },
-      {
-        "family": "Carbonell",
-        "given": "Jaime"
-      },
-      {
-        "family": "Salakhutdinov",
-        "given": "Ruslan"
-      },
-      {
-        "family": "Le",
-        "given": "Quoc V."
-      }
+      "Authors: Zhilin Yang, Zihang Dai, Yiming Yang, et al"
     ],
     "type": null
   },
@@ -226,7 +183,10 @@
   },
   {
     "note": [
-      "- Link: [XLNet](https://arxiv.org/abs/1906.08237"
+      "- Link: [arXiv:1906.08237](https://arxiv.org/abs/1906.08237"
+    ],
+    "arxiv": [
+      "1906.08237"
     ],
     "type": null
   },
@@ -258,16 +218,7 @@
         "given": "Sebastian"
       },
       {
-        "family": "Gimpel",
-        "given": "Kevin"
-      },
-      {
-        "family": "Sharma",
-        "given": "Piyush"
-      },
-      {
-        "family": "Soricut",
-        "given": "Radu"
+        "others": true
       }
     ],
     "type": null
@@ -285,7 +236,10 @@
   },
   {
     "note": [
-      "- Link: [ALBERT](https://arxiv.org/abs/1909.11942"
+      "- Link: [arXiv:1909.11942](https://arxiv.org/abs/1909.11942"
+    ],
+    "arxiv": [
+      "1909.11942"
     ],
     "type": null
   },
@@ -301,41 +255,11 @@
   {
     "author": [
       {
-        "family": "Authors",
-        "given": "Colin Raffel"
-      },
-      {
-        "family": "Shazeer",
-        "given": "Noam"
-      },
-      {
-        "family": "Roberts",
-        "given": "Adam"
-      },
-      {
-        "family": "Lee",
-        "given": "Katherine"
-      },
-      {
-        "family": "Narang",
-        "given": "Sharan"
-      },
-      {
-        "family": "Matena",
-        "given": "Michael"
-      },
-      {
-        "family": "Zhou",
-        "given": "Yanqi"
-      },
-      {
-        "family": "Li",
-        "given": "Wei"
-      },
-      {
-        "family": "Liu",
-        "given": "Peter J."
+        "literal": "-"
       }
+    ],
+    "title": [
+      "Authors: Colin Raffel, Noam Shazeer, Adam Roberts, et al"
     ],
     "type": null
   },
@@ -352,7 +276,10 @@
   },
   {
     "note": [
-      "- Link: [T5](https://arxiv.org/abs/1910.10683"
+      "- Link: [arXiv:1910.10683](https://arxiv.org/abs/1910.10683"
+    ],
+    "arxiv": [
+      "1910.10683"
     ],
     "type": null
   },
@@ -377,12 +304,9 @@
       }
     ],
     "title": [
-      "Authors: Yu Sun, Shuohuan Wang, Yukun Li, Shikun Feng"
+      "Authors: Yu Sun, Shuohuan Wang, Yukun Li, et al"
     ],
-    "publisher": [
-      "Hao Tian, Hua Wu, Haifeng Wang"
-    ],
-    "type": "book"
+    "type": null
   },
   {
     "author": [
@@ -397,7 +321,10 @@
   },
   {
     "note": [
-      "- Link: [ERNIE](https://arxiv.org/abs/1904.09223"
+      "- Link: [arXiv:1904.09223](https://arxiv.org/abs/1904.09223"
+    ],
+    "arxiv": [
+      "1904.09223"
     ],
     "type": null
   },
@@ -449,7 +376,10 @@
   },
   {
     "note": [
-      "- Link: [ELECTRA](https://arxiv.org/abs/2003.10555"
+      "- Link: [arXiv:2003.10555](https://arxiv.org/abs/2003.10555"
+    ],
+    "arxiv": [
+      "2003.10555"
     ],
     "type": null
   },
@@ -489,7 +419,10 @@
   },
   {
     "note": [
-      "- Link: [DistilBERT](https://arxiv.org/abs/1910.01108"
+      "- Link: [arXiv:1910.01108](https://arxiv.org/abs/1910.01108"
+    ],
+    "arxiv": [
+      "1910.01108"
     ],
     "type": null
   },
@@ -503,29 +436,8 @@
     "type": null
   },
   {
-    "author": [
-      {
-        "family": "Authors",
-        "given": "Mandar Joshi"
-      },
-      {
-        "family": "Chen",
-        "given": "Danqi"
-      },
-      {
-        "family": "Liu",
-        "given": "Yinhan"
-      },
-      {
-        "family": "Weld",
-        "given": "Daniel S."
-      }
-    ],
-    "title": [
-      "Luke Zettlemoyer"
-    ],
-    "location": [
-      "Omer Levy"
+    "note": [
+      "- Authors: Mandar Joshi, Danqi Chen, Yinhan Liu, et al."
     ],
     "type": null
   },
@@ -542,7 +454,10 @@
   },
   {
     "note": [
-      "- Link: [SpanBERT](https://arxiv.org/abs/1907.10529"
+      "- Link: [arXiv:1907.10529](https://arxiv.org/abs/1907.10529"
+    ],
+    "arxiv": [
+      "1907.10529"
     ],
     "type": null
   },
@@ -568,16 +483,8 @@
   {
     "author": [
       {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Authors"
-    ],
-    "editor": [
-      {
-        "family": "Lewis",
-        "given": "Mike"
+        "family": "Authors",
+        "given": "Mike Lewis"
       },
       {
         "family": "Liu",
@@ -588,24 +495,7 @@
         "given": "Naman"
       },
       {
-        "family": "Ghazvininejad",
-        "given": "Marjan"
-      },
-      {
-        "family": "Mohamed",
-        "given": "Abdelrahman"
-      },
-      {
-        "family": "Levy",
-        "given": "Omer"
-      },
-      {
-        "family": "Stoyanov",
-        "given": "Veselin"
-      },
-      {
-        "family": "Zettlemoyer",
-        "given": "Luke"
+        "others": true
       }
     ],
     "type": null
@@ -623,7 +513,10 @@
   },
   {
     "note": [
-      "- Link: [BART](https://arxiv.org/abs/1910.13461"
+      "- Link: [arXiv:1910.13461](https://arxiv.org/abs/1910.13461"
+    ],
+    "arxiv": [
+      "1910.13461"
     ],
     "type": null
   },
@@ -631,8 +524,172 @@
     "citation-number": [
       "12."
     ],
+    "note": [
+      "**DeBERTa: Decoding-enhanced BERT with Disentangled Attention**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
     "title": [
-      "**PEGASUS: Pre-training with Extracted Gap-sentences for Abstractive Summarization**"
+      "Authors: Pengcheng He, Xiaodong Liu, Jianfeng Gao, Weizhu Chen"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Year"
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "- Link: [arXiv:2006.03654](https://arxiv.org/abs/2006.03654"
+    ],
+    "arxiv": [
+      "2006.03654"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "title": [
+      "**BigBird: Transformers for Longer Sequences**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Authors: Manzil Zaheer, Guru Guruganesh, Avinava Dubey, et al"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Year"
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "- Link: [arXiv:2007.14062](https://arxiv.org/abs/2007.14062"
+    ],
+    "arxiv": [
+      "2007.14062"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "location": [
+      "Reformer"
+    ],
+    "publisher": [
+      "The Efficient Transformer**"
+    ],
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Authors: Nikita Kitaev, Łukasz Kaiser, Anselm Levskaya"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Year"
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "- Link: [arXiv:2001.04451](https://arxiv.org/abs/2001.04451"
+    ],
+    "arxiv": [
+      "2001.04451"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "title": [
+      "**Switch Transformers: Scaling to Trillion Parameter Models with Simple and Efficient Sparsity**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "location": [
+      "Authors"
+    ],
+    "publisher": [
+      "William Fedus, Barret Zoph, Noam Shazeer"
+    ],
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "given": "Year"
+      }
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "- Link: [arXiv:2101.03961](https://arxiv.org/abs/2101.03961"
+    ],
+    "arxiv": [
+      "2101.03961"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "title": [
+      "**Pegasus: Pre-training with Extracted Gap-sentences for Abstractive Summarization**"
     ],
     "type": null
   },
@@ -674,16 +731,19 @@
   },
   {
     "note": [
-      "- Link: [PEGASUS](https://arxiv.org/abs/1912.08777"
+      "- Link: [arXiv:1912.08777](https://arxiv.org/abs/1912.08777"
+    ],
+    "arxiv": [
+      "1912.08777"
     ],
     "type": null
   },
   {
     "citation-number": [
-      "13."
+      "17."
     ],
     "title": [
-      "**CTRL: A Conditional Transformer Language Model for Controllable Generation**"
+      "**MT-DNN: A Deep Learning Approach to Natural Language Understanding**"
     ],
     "type": null
   },
@@ -694,24 +754,145 @@
       }
     ],
     "title": [
-      "Authors: Nitish Shirish Keskar"
+      "Authors: Xiaodong Liu, Pengcheng He, Weizhu Chen"
+    ],
+    "location": [
+      "Jianfeng Gao"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Year"
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "- Link: [arXiv:1901.11504](https://arxiv.org/abs/1901.11504"
+    ],
+    "arxiv": [
+      "1901.11504"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "location": [
+      "Adapter-BERT"
+    ],
+    "publisher": [
+      "Adapting Pre-trained Transformers with Adapters**"
+    ],
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Authors: Jonas Pfeiffer, Aishwarya Kamath, Andreas Rücklé, et al"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Year"
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "- Link: [arXiv:2002.01886](https://arxiv.org/abs/2002.01886"
+    ],
+    "arxiv": [
+      "2002.01886"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "title": [
+      "**Fine-Tuning Pretrained Language Models: Weight Initializations, Data Orders, and Early Stopping**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Authors: Colin Raffel, Tunstall, et al"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Year"
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "- Link: [arXiv:2006.05987](https://arxiv.org/abs/2006.05987"
+    ],
+    "arxiv": [
+      "2006.05987"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "title": [
+      "**Parameter-Efficient Transfer Learning for NLP**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Authors: Neil Houlsby"
     ],
     "editor": [
       {
-        "family": "McCann",
-        "given": "Bryan"
+        "family": "Giurgiu",
+        "given": "Andrei"
       },
       {
-        "family": "Varshney",
-        "given": "Lav R."
+        "family": "Jastrzebski",
+        "given": "Stanislaw"
       },
       {
-        "family": "Xiong",
-        "given": "Caiming"
-      },
-      {
-        "family": "Socher",
-        "given": "Richard"
+        "others": true
       }
     ],
     "type": null
@@ -729,352 +910,16 @@
   },
   {
     "note": [
-      "- Link: [CTRL](https://arxiv.org/abs/1909.05858"
+      "- Link: [arXiv:1902.00751](https://arxiv.org/abs/1902.00751"
     ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "14."
-    ],
-    "location": [
-      "Reformer"
-    ],
-    "publisher": [
-      "The Efficient Transformer**"
-    ],
-    "type": "book"
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Authors: Nikita Kitaev, Łukasz Kaiser, Anselm Levskaya"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "given": "Year"
-      }
-    ],
-    "date": [
-      "2020"
-    ],
-    "type": null
-  },
-  {
-    "note": [
-      "- Link: [Reformer](https://arxiv.org/abs/2001.04451"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "15."
-    ],
-    "location": [
-      "Longformer"
-    ],
-    "publisher": [
-      "The Long-Document Transformer**"
-    ],
-    "type": "book"
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Authors: Iz Beltagy, Matthew E"
-    ],
-    "publisher": [
-      "Peters, Arman Cohan"
-    ],
-    "type": "book"
-  },
-  {
-    "author": [
-      {
-        "given": "Year"
-      }
-    ],
-    "date": [
-      "2020"
-    ],
-    "type": null
-  },
-  {
-    "note": [
-      "- Link: [Longformer](https://arxiv.org/abs/2004.05150"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "16."
-    ],
-    "title": [
-      "**Big Bird: Transformers for Longer Sequences**"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "family": "Authors",
-        "given": "Manzil Zaheer"
-      },
-      {
-        "family": "Guruganesh",
-        "given": "Guru"
-      },
-      {
-        "family": "Dubey",
-        "given": "Avinava"
-      },
-      {
-        "family": "Ainslie",
-        "given": "Joshua"
-      },
-      {
-        "family": "Alberti",
-        "given": "Chris"
-      },
-      {
-        "family": "Ontanon",
-        "given": "Santiago"
-      },
-      {
-        "family": "Pham",
-        "given": "Philip"
-      }
-    ],
-    "title": [
-      "Anirudh Ravula"
-    ],
-    "note": [
-      "Qifan Wang, Li Yang, Amr Ahmed"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "given": "Year"
-      }
-    ],
-    "date": [
-      "2020"
-    ],
-    "type": null
-  },
-  {
-    "note": [
-      "- Link: [Big Bird](https://arxiv.org/abs/2007.14062"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "17."
-    ],
-    "note": [
-      "**DeBERTa: Decoding-enhanced BERT with Disentangled Attention**"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Authors: Pengcheng He, Xiaodong Liu, Jianfeng Gao, Weizhu Chen"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "given": "Year"
-      }
-    ],
-    "date": [
-      "2020"
-    ],
-    "type": null
-  },
-  {
-    "note": [
-      "- Link: [DeBERTa](https://arxiv.org/abs/2006.03654"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "18."
-    ],
-    "title": [
-      "**Switch Transformers: Scaling to Trillion Parameter Models with Simple and Efficient Sparsity**"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "-"
-    ],
-    "location": [
-      "Authors"
-    ],
-    "publisher": [
-      "William Fedus, Barret Zoph, Noam Shazeer"
-    ],
-    "type": "book"
-  },
-  {
-    "author": [
-      {
-        "given": "Year"
-      }
-    ],
-    "date": [
-      "2021"
-    ],
-    "type": null
-  },
-  {
-    "note": [
-      "- Link: [Switch Transformers](https://arxiv.org/abs/2101.03961"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "19."
-    ],
-    "title": [
-      "**GShard: Scaling Giant Models with Conditional Computation and Automatic Sharding**"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "family": "Authors",
-        "given": "Noam Shazeer"
-      },
-      {
-        "family": "Cheng",
-        "given": "Youlong"
-      },
-      {
-        "family": "Parmar",
-        "given": "Niki"
-      },
-      {
-        "family": "Tran",
-        "given": "Dustin"
-      },
-      {
-        "family": "Vaswani",
-        "given": "Ashish"
-      },
-      {
-        "family": "Koanantakool",
-        "given": "Penporn"
-      },
-      {
-        "family": "Hawkins",
-        "given": "Peter"
-      },
-      {
-        "family": "Lee",
-        "given": "HyoukJoong"
-      },
-      {
-        "family": "Krikun",
-        "given": "Maxim"
-      },
-      {
-        "family": "Agarwal",
-        "given": "Naman"
-      },
-      {
-        "others": true
-      }
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "given": "Year"
-      }
-    ],
-    "date": [
-      "2020"
-    ],
-    "type": null
-  },
-  {
-    "note": [
-      "- Link: [GShard](https://arxiv.org/abs/2006.16668"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "20."
-    ],
-    "title": [
-      "**Turing-NLG: A 17-billion-parameter language model by Microsoft**"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "-"
-    ],
-    "location": [
-      "Authors",
-      "Rob Fergus"
-    ],
-    "publisher": [
-      "Adam Lerer, Sam Gross"
-    ],
-    "type": "book"
-  },
-  {
-    "author": [
-      {
-        "given": "Year"
-      }
-    ],
-    "date": [
-      "2020"
-    ],
-    "type": null
-  },
-  {
-    "note": [
-      "- Link: [Turing-NLG](https://arxiv.org/abs/2005.10400"
+    "arxiv": [
+      "1902.00751"
     ],
     "type": null
   },
   {
     "title": [
-      "These articles cover a wide range of topics related to pretrained language models, including their architectures, pretraining techniques, and fine-tuning methods. They provide a solid foundation for understanding the advancements in this field up to"
-    ],
-    "date": [
-      "2023"
+      "These articles provide a comprehensive overview of the advancements in pretrained language models, their architectures, and various fine-tuning techniques"
     ],
     "type": null
   }

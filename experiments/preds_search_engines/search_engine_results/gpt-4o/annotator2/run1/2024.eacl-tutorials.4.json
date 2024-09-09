@@ -1,7 +1,7 @@
 [
   {
     "title": [
-      "Sure, here is a list of 20 articles on interpretability methods for transformers that you can explore"
+      "Sure, here's a list of 20 articles on interpretability methods for transformers, covering a range of approaches and insights up to 2024"
     ],
     "type": null
   },
@@ -11,13 +11,7 @@
     ],
     "author": [
       {
-        "family": "Jain",
-        "given": "S.",
-        "particle": "Attention is not Explanation\" by"
-      },
-      {
-        "family": "Wallace",
-        "given": "B.C."
+        "literal": "**\"Attention is not Explanation\"** - Jain, S., & Wallace, B. C."
       }
     ],
     "date": [
@@ -26,14 +20,36 @@
     "type": null
   },
   {
+    "title": [
+      "*Discusses the limitations of using attention weights as explanations for model predictions.*"
+    ],
+    "type": null
+  },
+  {
     "citation-number": [
       "2."
     ],
     "title": [
-      "**\"A Closer Look at the Robustness of Vision Transformers\"** by Paul, S., et al"
+      "**\"A Survey of Methods for Interpreting and Understanding Deep Neural Networks\"**"
+    ],
+    "editor": [
+      {
+        "family": "Zhang",
+        "given": "Q."
+      },
+      {
+        "family": "Zhu",
+        "given": "S.C."
+      }
     ],
     "date": [
-      "2021"
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "*Provides a comprehensive overview of interpretability methods, including those applicable to transformers.*"
     ],
     "type": null
   },
@@ -42,13 +58,103 @@
       "3."
     ],
     "title": [
-      "**\"Explaining in Style: Training a GAN to explain a classifier in StyleSpace\"**"
+      "**\"Visualizing and Understanding Neural Models in NLP\"**"
     ],
     "editor": [
       {
-        "family": "Lang",
-        "given": "O.",
-        "particle": "by"
+        "family": "Li",
+        "given": "J."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2016"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "*Introduces visualization techniques for understanding neural models, including transformers.*"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "author": [
+      {
+        "literal": "**\"Explaining and Interpreting LSTMs\"** - Karpathy, A., et al."
+      }
+    ],
+    "date": [
+      "2015"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "*Though focused on LSTMs, the techniques discussed are relevant for understanding transformers.*"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "title": [
+      "**\"Interpretable Machine Learning: A Guide for Making Black Box Models Explainable\"**"
+    ],
+    "volume": [
+      "C"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "Molnar"
+    ]
+  },
+  {
+    "title": [
+      "*A book that covers various interpretability techniques, including those for transformer models.*"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "author": [
+      {
+        "literal": "**\"Attention Interpretability Across NLP Tasks\"** - Wiegreffe, S., & Pinter, Y."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "*Examines the interpretability of attention mechanisms across different NLP tasks.*"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "title": [
+      "**\"Transformer Interpretability Beyond Attention Visualization\"**"
+    ],
+    "editor": [
+      {
+        "family": "Chefer",
+        "given": "H."
       },
       {
         "others": true
@@ -60,45 +166,52 @@
     "type": null
   },
   {
-    "citation-number": [
-      "4."
-    ],
     "title": [
-      "**\"Transformers Interpretability Beyond Attention Visualization\"** by Chefer, H., et al"
-    ],
-    "date": [
-      "2021"
+      "*Proposes new methods for interpreting transformers beyond just visualizing attention weights.*"
     ],
     "type": null
   },
   {
     "citation-number": [
-      "5."
+      "8."
     ],
     "title": [
-      "**\"Explaining Transformers for Image Recognition\"** by Chefer, H., et al"
+      "**\"BERTology: Investigating BERT Representations\"**"
+    ],
+    "editor": [
+      {
+        "family": "Rogers",
+        "given": "A."
+      },
+      {
+        "others": true
+      }
     ],
     "date": [
-      "2021"
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "*A deep dive into the inner workings of BERT, a popular transformer model.*"
     ],
     "type": null
   },
   {
     "citation-number": [
-      "6."
+      "9."
     ],
-    "author": [
+    "title": [
+      "**\"Dissecting Contextual Word Embeddings: Architecture and Representation\"**"
+    ],
+    "editor": [
       {
-        "family": "Wiegreffe",
-        "given": "Attention Interpretability Across N.L.P.Tasks\"",
-        "particle": "by"
+        "family": "Liu",
+        "given": "N.F."
       },
       {
-        "given": "S."
-      },
-      {
-        "family": "Pinter",
-        "given": "Y."
+        "others": true
       }
     ],
     "date": [
@@ -107,14 +220,21 @@
     "type": null
   },
   {
+    "title": [
+      "*Analyzes how transformers like BERT represent contextual information.*"
+    ],
+    "type": null
+  },
+  {
     "citation-number": [
-      "7."
+      "10."
     ],
     "title": [
-      "**\"Towards Robust Interpretability with Self-Explaining Neural Networks\"** by Alvarez-Melis"
+      "**\"Towards Robust and Interpretable Neural Networks\"**"
     ],
     "editor": [
       {
+        "family": "Alvarez-Melis",
         "given": "D."
       },
       {
@@ -128,17 +248,22 @@
     "type": null
   },
   {
+    "title": [
+      "*Discusses methods for making neural networks, including transformers, more interpretable and robust.*"
+    ],
+    "type": null
+  },
+  {
     "citation-number": [
-      "8."
+      "11."
     ],
     "title": [
-      "**\"Interpretable and Explainable Deep Learning: A Survey\"**"
+      "**\"Evaluating Explainable AI: Which Algorithmic Explanations Help Users Predict Model Behavior?\"**"
     ],
     "editor": [
       {
-        "family": "Zhang",
-        "given": "Q.",
-        "particle": "by"
+        "family": "Poursabzi-Sangdeh",
+        "given": "F."
       },
       {
         "others": true
@@ -150,59 +275,130 @@
     "type": null
   },
   {
+    "title": [
+      "*Evaluates different explainability methods for their effectiveness in helping users understand model behavior.*"
+    ],
+    "type": null
+  },
+  {
     "citation-number": [
-      "9."
+      "12."
     ],
     "title": [
-      "**\"Visualizing and Understanding Neural Models in NLP\"**"
+      "**\"Explaining Transformers in a Modular Fashion\"**"
     ],
     "editor": [
       {
-        "family": "Li",
-        "given": "J.",
-        "particle": "by"
+        "family": "Vig",
+        "given": "J."
       },
       {
         "others": true
       }
     ],
     "date": [
-      "2016"
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "*Proposes a modular approach to interpreting transformer models.*"
     ],
     "type": null
   },
   {
     "citation-number": [
-      "10."
+      "13."
     ],
     "title": [
-      "**\"Attention-based Interpretability with Applications to Sentiment Analysis\"**"
+      "**\"Do Attention Heads in BERT Track Syntactic Dependencies?\"**"
     ],
     "editor": [
       {
-        "family": "Lin",
-        "given": "Z.",
-        "particle": "by"
+        "family": "Clark",
+        "given": "K."
       },
       {
         "others": true
       }
     ],
     "date": [
-      "2017"
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "*Investigates whether attention heads in BERT capture syntactic dependencies.*"
     ],
     "type": null
   },
   {
     "citation-number": [
-      "11."
+      "14."
     ],
     "title": [
-      "**\"Explaining and Harnessing Adversarial Examples\"** by Goodfellow"
+      "**\"Attention is not all you need: Pure Attention Loses Rank Doubly Exponentially with Depth\"**"
     ],
     "editor": [
       {
-        "given": "I.J."
+        "family": "Dong",
+        "given": "Y."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "*Challenges the notion that attention mechanisms alone are sufficient for model interpretability.*"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "title": [
+      "**\"Analyzing the Structure of Attention in a Transformer Language Model\"**"
+    ],
+    "editor": [
+      {
+        "family": "Voita",
+        "given": "E."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "*Analyzes the structure and function of attention mechanisms in transformer models.*"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "title": [
+      "**\"Explaining Neural Networks with Layer-wise Relevance Propagation\"**"
+    ],
+    "editor": [
+      {
+        "family": "Bach",
+        "given": "S."
       },
       {
         "others": true
@@ -214,93 +410,8 @@
     "type": null
   },
   {
-    "citation-number": [
-      "12."
-    ],
     "title": [
-      "**\"The Building Blocks of Interpretability\"**"
-    ],
-    "editor": [
-      {
-        "family": "Olah",
-        "given": "C.",
-        "particle": "by"
-      },
-      {
-        "others": true
-      }
-    ],
-    "date": [
-      "2018"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "13."
-    ],
-    "title": [
-      "**\"Integrated Gradients: A Theory of Attribution for Deep Networks\"** by Sundararajan"
-    ],
-    "editor": [
-      {
-        "given": "M."
-      },
-      {
-        "others": true
-      }
-    ],
-    "date": [
-      "2017"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "14."
-    ],
-    "title": [
-      "**\"Learning Important Features Through Propagating Activation Differences\"** by Shrikumar, A., et al"
-    ],
-    "date": [
-      "2017"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "15."
-    ],
-    "author": [
-      {
-        "given": "DeepLIFT"
-      }
-    ],
-    "title": [
-      "Learning Important Features Through Propagating Activation Differences\"** by Shrikumar, A., et al"
-    ],
-    "date": [
-      "2017"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "16."
-    ],
-    "title": [
-      "**\"Axiomatic Attribution for Deep Networks\"** by Sundararajan"
-    ],
-    "editor": [
-      {
-        "given": "M."
-      },
-      {
-        "others": true
-      }
-    ],
-    "date": [
-      "2017"
+      "*Introduces Layer-wise Relevance Propagation (LRP), a method applicable to transformers for interpretability.*"
     ],
     "type": null
   },
@@ -309,50 +420,12 @@
       "17."
     ],
     "title": [
-      "**\"Interpretable Machine Learning: A Guide for Making Black Box Models Explainable\"** by Molnar"
-    ],
-    "volume": [
-      "C"
-    ],
-    "date": [
-      "2019"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "18."
-    ],
-    "title": [
-      "**\"Explainable AI: Interpreting, Explaining and Visualizing Deep Learning\"**"
+      "**\"Contextual Decomposition for Neural Network Interpretability\"**"
     ],
     "editor": [
       {
-        "family": "Samek",
-        "given": "W.",
-        "particle": "by"
-      },
-      {
-        "others": true
-      }
-    ],
-    "date": [
-      "2019"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "19."
-    ],
-    "title": [
-      "**\"Towards Explainable AI: Interpreting and Visualizing Deep Learning Models\"**"
-    ],
-    "editor": [
-      {
-        "family": "Montavon",
-        "given": "G.",
-        "particle": "by"
+        "family": "Murdoch",
+        "given": "W.J."
       },
       {
         "others": true
@@ -364,11 +437,80 @@
     "type": null
   },
   {
+    "title": [
+      "*Proposes a method for decomposing neural network predictions, applicable to transformers.*"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "title": [
+      "**\"Interpreting BERT-based Question Answering Models\"**"
+    ],
+    "editor": [
+      {
+        "family": "Tenney",
+        "given": "I."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "*Focuses on interpreting BERT models specifically in the context of question answering tasks.*"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "title": [
+      "**\"The Building Blocks of Interpretability\"**"
+    ],
+    "editor": [
+      {
+        "family": "Olah",
+        "given": "C."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "*Explores fundamental concepts in interpretability, relevant to transformer models.*"
+    ],
+    "type": null
+  },
+  {
     "citation-number": [
       "20."
     ],
     "title": [
-      "**\"Explainable Artificial Intelligence (XAI): Concepts, Taxonomies, Opportunities and Challenges toward Responsible AI\"** by Arrieta, A.B., et al"
+      "**\"Transformers: State-of-the-Art Natural Language Processing\"**"
+    ],
+    "editor": [
+      {
+        "family": "Wolf",
+        "given": "T."
+      },
+      {
+        "others": true
+      }
     ],
     "date": [
       "2020"
@@ -377,7 +519,13 @@
   },
   {
     "title": [
-      "These articles cover a range of interpretability methods and techniques specifically for transformers and deep learning models in general. They provide a comprehensive understanding of the current state of research in this area and offer insights into various approaches to making these models more interpretable"
+      "*A comprehensive overview of transformer models, including sections on interpretability.*"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "These articles provide a broad and deep understanding of interpretability methods for transformers, covering theoretical foundations, practical applications, and specific case studies"
     ],
     "type": null
   }

@@ -1,7 +1,12 @@
 [
   {
+    "author": [
+      {
+        "given": "Certainly!"
+      }
+    ],
     "title": [
-      "Sure, here is a list of 20 articles published before 2022 that focus on multimodal entailment and the semantic alignment of documents from different modalities"
+      "Here is a reading list of 20 articles up to 2021 that focus on multimodal entailment and semantic alignment of documents from different modalities"
     ],
     "type": null
   },
@@ -10,260 +15,381 @@
       "1."
     ],
     "title": [
-      "**\"Multimodal Machine Learning: A Survey and Taxonomy\"**"
-    ],
-    "author": [
-      {
-        "family": "Baltrušaitis",
-        "given": "T."
-      },
-      {
-        "family": "Ahuja",
-        "given": "C."
-      },
-      {
-        "family": "Morency",
-        "given": "L.-P."
-      }
+      "**\"Multimodal Machine Learning: A Survey and Taxonomy\"** by Tadas Baltrušaitis, Chaitanya Ahuja, and Louis-Philippe Morency"
     ],
     "date": [
       "2019"
     ],
-    "type": "article-journal",
-    "container-title": [
-      "IEEE Transactions on Pattern Analysis and Machine Intelligence"
-    ]
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "A comprehensive survey on multimodal machine learning, covering various aspects including semantic alignment"
+    ],
+    "type": null
   },
   {
     "citation-number": [
       "2."
     ],
     "title": [
-      "**\"Visual Semantic Role Labeling: A Benchmark for Image Understanding\"**"
+      "**\"Learning to Compose Neural Networks for Question Answering\"** by Jacob Andreas"
     ],
-    "author": [
+    "editor": [
       {
-        "family": "Krishna",
-        "given": "R."
+        "family": "Rohrbach",
+        "given": "Marcus"
       },
       {
-        "family": "Zhu",
-        "given": "Y."
+        "family": "Darrell",
+        "given": "Trevor"
       },
       {
-        "family": "Groth",
-        "given": "O."
-      },
-      {
-        "family": "Johnson",
-        "given": "J."
-      },
-      {
-        "family": "Hata",
-        "given": "K."
-      },
-      {
-        "family": "Kravitz",
-        "given": "J."
-      },
-      {
-        "family": "Chen",
-        "given": "S."
-      },
-      {
-        "family": "Kalantidis",
-        "given": "Y."
-      },
-      {
-        "family": "Li",
-        "given": "L."
-      },
-      {
-        "family": "Shamma",
-        "given": "D.A."
-      },
-      {
-        "family": "Bernstein",
-        "given": "M."
-      },
-      {
-        "family": "Fei-Fei",
-        "given": "L."
+        "family": "Klein",
+        "given": "Dan"
       }
     ],
-    "container-title": [
-      "Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR"
-    ],
     "date": [
-      "2017"
+      "2016"
     ],
-    "type": "paper-conference"
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Discusses neural network compositions for multimodal question answering"
+    ],
+    "type": null
   },
   {
     "citation-number": [
       "3."
     ],
-    "title": [
-      "**\"Aligning Books and Movies: Towards Story-like Visual Explanations by Watching Movies and Reading"
-    ],
     "author": [
       {
-        "literal": "Books\"** - Y. Zhu, R. Kiros, R. Zemel, R. Salakhutdinov, R. Urtasun, A. Torralba, and S. Fidler"
+        "given": "V.Q.A."
       }
     ],
-    "container-title": [
-      "Proceedings of the IEEE International Conference on Computer Vision (ICCV"
+    "title": [
+      "Visual Question Answering\"** by Aishwarya Agrawal"
+    ],
+    "editor": [
+      {
+        "family": "Lu",
+        "given": "Jiasen"
+      },
+      {
+        "family": "Antol",
+        "given": "Stanislaw"
+      },
+      {
+        "family": "Margaret Mitchell",
+        "given": "C.Lawrence Zitnick"
+      },
+      {
+        "family": "Batra",
+        "given": "Dhruv"
+      },
+      {
+        "family": "Parikh",
+        "given": "Devi"
+      }
     ],
     "date": [
       "2015"
     ],
-    "type": "paper-conference"
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Introduces the Visual Question Answering (VQA) dataset and task, which involves semantic alignment between text and images"
+    ],
+    "type": null
   },
   {
     "citation-number": [
       "4."
     ],
     "title": [
-      "**\"Deep Visual-Semantic Alignments for Generating Image Descriptions\"**"
+      "**\"Align2Ground: Weakly Supervised Phrase Grounding Guided by Image-Caption Alignment\"** by Bo Wan"
     ],
     "editor": [
       {
-        "family": "Karpathy",
-        "given": "A."
+        "family": "Zhao",
+        "given": "Dezhao"
       },
       {
-        "family": "Fei-Fei",
-        "given": "L."
+        "family": "Yu",
+        "given": "Qian"
       }
     ],
-    "container-title": [
-      "Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR"
-    ],
     "date": [
-      "2015"
+      "2019"
     ],
-    "type": "paper-conference"
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Explores weakly supervised learning for aligning textual phrases with image regions"
+    ],
+    "type": null
   },
   {
     "citation-number": [
       "5."
     ],
+    "title": [
+      "**\"Multimodal Representation Learning: A Survey\"** by Hao Wu"
+    ],
+    "editor": [
+      {
+        "family": "Mao",
+        "given": "Jiayuan"
+      },
+      {
+        "family": "Zhang",
+        "given": "Yufeng"
+      },
+      {
+        "family": "Jiang",
+        "given": "Yuning"
+      },
+      {
+        "family": "Li",
+        "given": "Lei"
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
     "author": [
       {
-        "literal": "**\"Multimodal Neural Machine Translation\"** - S. Elliott, S. Frank, K. Sima'an, and L."
+        "literal": "-"
       }
     ],
     "title": [
-      "Specia"
+      "Surveys methods for learning representations from multiple modalities"
     ],
-    "container-title": [
-      "Proceedings of the 2015 Conference on Empirical Methods in Natural Language Processing (EMNLP"
-    ],
-    "date": [
-      "2015"
-    ],
-    "type": "paper-conference"
+    "type": null
   },
   {
     "citation-number": [
       "6."
     ],
-    "author": [
+    "title": [
+      "**\"Visual Semantic Role Labeling: A Benchmark for Image Understanding\"** by Ranjay Krishna"
+    ],
+    "editor": [
       {
-        "literal": "**\"Learning Deep Representations for Grounded Language Acquisition\"** - D. Kiela, F. Hill, and S. Clark"
+        "family": "Zhu",
+        "given": "Yuke"
+      },
+      {
+        "family": "Groth",
+        "given": "Oliver"
+      },
+      {
+        "family": "Johnson",
+        "given": "Justin"
+      },
+      {
+        "family": "Hata",
+        "given": "Kenji"
+      },
+      {
+        "family": "Kravitz",
+        "given": "Joshua"
+      },
+      {
+        "family": "Chen",
+        "given": "Stephanie"
+      },
+      {
+        "family": "Kalantidis",
+        "given": "Yannis"
+      },
+      {
+        "family": "Li",
+        "given": "Li-Jia"
+      },
+      {
+        "family": "Shamma",
+        "given": "David A."
+      },
+      {
+        "family": "Bernstein",
+        "given": "Michael S."
+      },
+      {
+        "family": "Fei-Fei",
+        "given": "Li"
       }
     ],
-    "container-title": [
-      "Proceedings of the 2015 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (NAACL-HLT"
-    ],
     "date": [
-      "2015"
+      "2017"
     ],
-    "type": "paper-conference"
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Introduces a benchmark for understanding the semantic roles in images"
+    ],
+    "type": null
   },
   {
     "citation-number": [
       "7."
     ],
-    "author": [
-      {
-        "literal": "**\"Visual7W: Grounded Question Answering in Images\"** - Y. Zhu, O. Groth, M. Bernstein, and L. Fei-Fei"
-      }
-    ],
-    "container-title": [
-      "Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR"
+    "title": [
+      "**\"Image Captioning and Visual Question Answering Based on Attributes and External Knowledge\"** by Qi Wu, Chunhua Shen, Lingqiao Liu, Anthony Dick, and Anton van den Hengel"
     ],
     "date": [
       "2016"
     ],
-    "type": "paper-conference"
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Discusses the use of attributes and external knowledge for image captioning and VQA"
+    ],
+    "type": null
   },
   {
     "citation-number": [
       "8."
     ],
-    "author": [
-      {
-        "literal": "**\"Multimodal Compact Bilinear Pooling for Visual Question Answering and Visual Grounding\"** - A. Fukui, D. H. Park, D. Yang, A. Rohrbach, T. Darrell, and M. Rohrbach"
-      }
-    ],
-    "container-title": [
-      "Proceedings of the 2016 Conference on Empirical Methods in Natural Language Processing (EMNLP"
+    "title": [
+      "**\"Deep Visual-Semantic Alignments for Generating Image Descriptions\"** by Andrej Karpathy and Li Fei-Fei"
     ],
     "date": [
-      "2016"
+      "2015"
     ],
-    "type": "paper-conference"
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Proposes a model for aligning visual and semantic information to generate image descriptions"
+    ],
+    "type": null
   },
   {
     "citation-number": [
       "9."
     ],
-    "author": [
+    "title": [
+      "**\"Hierarchical Attention Networks for Document Classification\"** by Zichao Yang"
+    ],
+    "editor": [
       {
-        "literal": "**\"Image-Text Embedding Learning via Visual and Textual Semantic Reasoning\"** - Y. Li, N. Duan, B. Zhou, X. Chu, W. Ouyang, and X. Wang"
+        "family": "Yang",
+        "given": "Diyi"
+      },
+      {
+        "family": "Dyer",
+        "given": "Chris"
+      },
+      {
+        "family": "He",
+        "given": "Xiaodong"
+      },
+      {
+        "family": "Smola",
+        "given": "Alex"
+      },
+      {
+        "family": "Hovy",
+        "given": "Eduard"
       }
     ],
-    "container-title": [
-      "Proceedings of the European Conference on Computer Vision (ECCV"
-    ],
     "date": [
-      "2020"
+      "2016"
     ],
-    "type": "paper-conference"
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Introduces hierarchical attention networks for document classification, relevant for semantic alignment"
+    ],
+    "type": null
   },
   {
     "citation-number": [
       "10."
     ],
     "title": [
-      "**\"Unifying Visual-Semantic Embeddings with Multimodal Neural Language Models\"**"
+      "**\"Learning Visual-Semantic Embeddings for Zero-Shot Recognition\"** by Richard Socher"
     ],
-    "author": [
+    "editor": [
       {
-        "family": "Kiela",
-        "given": "D."
+        "family": "Ganjoo",
+        "given": "Milind"
       },
       {
-        "family": "Conneau",
-        "given": "A."
+        "family": "Manning",
+        "given": "Christopher D."
       },
       {
-        "family": "Jabri",
-        "given": "A."
-      },
-      {
-        "family": "Nickel",
-        "given": "M."
+        "family": "Ng",
+        "given": "Andrew Y."
       }
     ],
-    "container-title": [
-      "Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing (EMNLP"
-    ],
     "date": [
-      "2018"
+      "2013"
     ],
-    "type": "paper-conference"
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Discusses learning embeddings that align visual and semantic spaces for zero-shot recognition"
+    ],
+    "type": null
   },
   {
     "citation-number": [
@@ -271,267 +397,381 @@
     ],
     "author": [
       {
-        "literal": "**\"Multimodal Transformer for Unaligned Multimodal Language Sequences\"** - Y. Tsai, S. Bai, P. Liang, J. Z. Kolter, and L.-P."
+        "given": "Visual7W"
       }
     ],
     "title": [
-      "Morency"
+      "Grounded Question Answering in Images\"** by Yuke Zhu"
     ],
-    "container-title": [
-      "Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP"
+    "editor": [
+      {
+        "family": "Groth",
+        "given": "Oliver"
+      },
+      {
+        "family": "Bernstein",
+        "given": "Michael"
+      },
+      {
+        "family": "Fei-Fei",
+        "given": "Li"
+      }
     ],
     "date": [
-      "2019"
+      "2016"
     ],
-    "type": "paper-conference"
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Introduces the Visual7W dataset for grounded question answering in images"
+    ],
+    "type": null
   },
   {
     "citation-number": [
       "12."
     ],
     "title": [
-      "**\"Visual and Semantic Knowledge Transfer for Large Scale Semi-Supervised Object Detection\"**"
+      "**\"Stacked Attention Networks for Image Question Answering\"** by Zichao Yang, Xiaodong He, Jianfeng Gao"
     ],
     "editor": [
       {
-        "family": "Hoffman",
-        "given": "B."
+        "family": "Deng",
+        "given": "Li"
       },
       {
-        "family": "Gupta",
-        "given": "S."
-      },
-      {
-        "family": "Darrell",
-        "given": "T."
+        "family": "Smola",
+        "given": "Alex"
       }
     ],
-    "container-title": [
-      "Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR"
-    ],
     "date": [
-      "2014"
+      "2016"
     ],
-    "type": "paper-conference"
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Proposes stacked attention networks for aligning image and question representations"
+    ],
+    "type": null
   },
   {
     "citation-number": [
       "13."
     ],
-    "title": [
-      "**\"Multimodal Sentiment Analysis: Addressing Key Issues and Setting Up the Baselines\"**"
-    ],
     "author": [
       {
-        "family": "Poria",
-        "given": "S."
-      },
-      {
-        "family": "Cambria",
-        "given": "E."
-      },
-      {
-        "family": "Hazarika",
-        "given": "D."
-      },
-      {
-        "family": "Hussain",
-        "given": "A."
+        "literal": "**\"Multimodal Neural Machine Translation\"** by Desmond Elliott, Stella Frank, Khalil Sima'an, and Lucia Specia"
       }
     ],
     "date": [
-      "2017"
+      "2015"
     ],
-    "type": "article-journal",
-    "container-title": [
-      "IEEE Intelligent Systems"
-    ]
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Explores neural machine translation using multimodal data"
+    ],
+    "type": null
   },
   {
     "citation-number": [
       "14."
     ],
+    "author": [
+      {
+        "given": "Show"
+      }
+    ],
     "title": [
-      "**\"Learning to Compose Neural Networks for Question Answering\"**"
+      "Attend and Tell: Neural Image Caption Generation with Visual Attention\"** by Kelvin Xu"
     ],
     "editor": [
       {
-        "family": "Andreas",
-        "given": "J."
+        "family": "Ba",
+        "given": "Jimmy Lei"
       },
       {
-        "family": "Rohrbach",
-        "given": "M."
+        "family": "Kiros",
+        "given": "Ryan"
       },
       {
-        "family": "Darrell",
-        "given": "T."
+        "family": "Cho",
+        "given": "Kyunghyun"
       },
       {
-        "family": "Klein",
-        "given": "D."
+        "family": "Courville",
+        "given": "Aaron"
+      },
+      {
+        "family": "Salakhutdinov",
+        "given": "Ruslan"
+      },
+      {
+        "family": "Zemel",
+        "given": "Richard S."
+      },
+      {
+        "family": "Bengio",
+        "given": "Yoshua"
       }
     ],
-    "container-title": [
-      "Proceedings of the 2016 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (NAACL-HLT"
-    ],
     "date": [
-      "2016"
+      "2015"
     ],
-    "type": "paper-conference"
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Introduces an attention mechanism for image caption generation"
+    ],
+    "type": null
   },
   {
     "citation-number": [
       "15."
     ],
     "title": [
-      "**\"Multimodal Representation Learning: A Survey\"**"
-    ],
-    "author": [
-      {
-        "family": "Baltrušaitis",
-        "given": "T."
-      },
-      {
-        "family": "Ahuja",
-        "given": "C."
-      },
-      {
-        "family": "Morency",
-        "given": "L.-P."
-      }
+      "**\"Visual-Semantic Alignments for Generating Image Descriptions\"** by Andrej Karpathy and Li Fei-Fei"
     ],
     "date": [
-      "2018"
+      "2015"
     ],
-    "type": "article-journal",
-    "container-title": [
-      "IEEE Transactions on Pattern Analysis and Machine Intelligence"
-    ]
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Discusses aligning visual and semantic information for image description generation"
+    ],
+    "type": null
   },
   {
     "citation-number": [
       "16."
     ],
     "title": [
-      "**\"Aligning Visual Regions and Textual Concepts for Semantic-Grounded Image Representations\"**"
+      "**\"Unifying Visual-Semantic Embeddings with Multimodal Neural Language Models\"** by Jeffrey Pennington"
     ],
     "editor": [
       {
-        "family": "Mao",
-        "given": "J."
+        "family": "Socher",
+        "given": "Richard"
       },
       {
-        "family": "Xu",
-        "given": "W."
-      },
-      {
-        "family": "Yang",
-        "given": "Y."
-      },
-      {
-        "family": "Wang",
-        "given": "J."
-      },
-      {
-        "family": "Yuille",
-        "given": "A."
+        "family": "Manning",
+        "given": "Christopher D."
       }
     ],
-    "container-title": [
-      "Proceedings of the 2016 Conference on Empirical Methods in Natural Language Processing (EMNLP"
-    ],
     "date": [
-      "2016"
+      "2014"
     ],
-    "type": "paper-conference"
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Proposes a method for unifying visual and semantic embeddings"
+    ],
+    "type": null
   },
   {
     "citation-number": [
       "17."
     ],
-    "author": [
+    "title": [
+      "**\"Deep Multimodal Representation Learning: A Survey\"** by Hao Wu"
+    ],
+    "editor": [
       {
-        "literal": "**\"Multimodal Fusion with Co-Attention Networks\"** - J. Lu, D. Batra, D. Parikh, and S. Lee"
+        "family": "Mao",
+        "given": "Jiayuan"
+      },
+      {
+        "family": "Zhang",
+        "given": "Yufeng"
+      },
+      {
+        "family": "Jiang",
+        "given": "Yuning"
+      },
+      {
+        "family": "Li",
+        "given": "Lei"
       }
     ],
-    "container-title": [
-      "Proceedings of the 2016 Conference on Empirical Methods in Natural Language Processing (EMNLP"
-    ],
     "date": [
-      "2016"
+      "2019"
     ],
-    "type": "paper-conference"
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Surveys deep learning approaches for multimodal representation learning"
+    ],
+    "type": null
   },
   {
     "citation-number": [
       "18."
     ],
     "title": [
-      "**\"Visual-Semantic Alignment across Domains: A Case Study in Image Captioning\"**"
+      "**\"Learning Visual-Semantic Embeddings for Zero-Shot Recognition\"** by Richard Socher"
     ],
     "editor": [
       {
-        "family": "Vedantam",
-        "given": "R."
+        "family": "Ganjoo",
+        "given": "Milind"
       },
       {
-        "family": "Zitnick",
-        "given": "C.Lawrence"
+        "family": "Manning",
+        "given": "Christopher D."
       },
       {
-        "family": "Parikh",
-        "given": "D."
+        "family": "Ng",
+        "given": "Andrew Y."
       }
     ],
-    "container-title": [
-      "Proceedings of the IEEE International Conference on Computer Vision (ICCV"
-    ],
     "date": [
-      "2015"
+      "2013"
     ],
-    "type": "paper-conference"
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Discusses learning embeddings that align visual and semantic spaces for zero-shot recognition"
+    ],
+    "type": null
   },
   {
     "citation-number": [
       "19."
     ],
-    "author": [
+    "title": [
+      "**\"Aligning Books and Movies: Towards Story-like Visual Explanations by Watching Movies and Reading Books\"** by Yukun Zhu"
+    ],
+    "editor": [
       {
-        "literal": "**\"Multimodal Learning with Deep Boltzmann Machines\"** - N. Srivastava and R. Salakhutdinov"
+        "family": "Kiros",
+        "given": "Ryan"
+      },
+      {
+        "family": "Zemel",
+        "given": "Rich"
+      },
+      {
+        "family": "Salakhutdinov",
+        "given": "Ruslan"
+      },
+      {
+        "family": "Urtasun",
+        "given": "Raquel"
+      },
+      {
+        "family": "Torralba",
+        "given": "Antonio"
+      },
+      {
+        "family": "Fidler",
+        "given": "Sanja"
       }
     ],
     "date": [
-      "2014"
+      "2015"
     ],
-    "type": "article-journal",
-    "container-title": [
-      "Journal of Machine Learning Research"
-    ]
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Explores aligning textual and visual narratives from books and movies"
+    ],
+    "type": null
   },
   {
     "citation-number": [
       "20."
     ],
+    "title": [
+      "**\"Multimodal Sentiment Analysis: Addressing Key Issues and Setting Up the Baselines\"** by Soujanya Poria"
+    ],
+    "editor": [
+      {
+        "family": "Cambria",
+        "given": "Erik"
+      },
+      {
+        "family": "Hazarika",
+        "given": "Devamanyu"
+      },
+      {
+        "family": "Hussain",
+        "given": "Amir"
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
     "author": [
       {
-        "literal": "**\"Multimodal Deep Learning\"** - N. Srivastava and R."
+        "literal": "-"
       }
     ],
     "title": [
-      "Salakhutdinov"
+      "Discusses key issues in multimodal sentiment analysis and establishes baselines"
     ],
-    "container-title": [
-      "Proceedings of the 29th International Conference on Machine Learning (ICML"
-    ],
-    "date": [
-      "2012"
-    ],
-    "type": "paper-conference"
+    "type": null
   },
   {
     "title": [
-      "These articles cover a range of topics related to multimodal entailment and semantic alignment, including surveys, benchmarks, and specific methodologies for integrating and aligning information from different modalities"
+      "These articles cover a range of topics related to multimodal entailment and semantic alignment, providing a solid foundation for understanding the field"
     ],
     "type": null
   }

@@ -2,11 +2,11 @@
   {
     "author": [
       {
-        "given": "Certainly!"
+        "given": "Sure!"
       }
     ],
     "title": [
-      "Here is a list of 20 articles published before 2023 that focus on various issues related to knowledge graph construction from text"
+      "Here's a reading list of 20 articles up to 2022 that cover various issues related to knowledge graph construction from text"
     ],
     "type": null
   },
@@ -33,6 +33,56 @@
     ],
     "author": [
       {
+        "literal": "**\"Constructing and Mining Web-Scale Knowledge Graphs\"** - Dong, X. L., Gabrilovich, E., Heitz, G., Horn, W., Lao, N., Murphy, K., ... & Zhang, W."
+      }
+    ],
+    "date": [
+      "2014"
+    ],
+    "container-title": [
+      "Proceedings of the 20th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "title": [
+      "**\"Knowledge Graph Embedding: A Survey of Approaches and Applications\"**"
+    ],
+    "author": [
+      {
+        "family": "Wang",
+        "given": "Q."
+      },
+      {
+        "family": "Mao",
+        "given": "Z."
+      },
+      {
+        "family": "Wang",
+        "given": "B."
+      },
+      {
+        "family": "Guo",
+        "given": "L."
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "IEEE Transactions on Knowledge and Data Engineering"
+    ]
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "author": [
+      {
         "literal": "**\"Open Information Extraction from the Web\"** - Etzioni, O., Banko, M., Soderland, S., & Weld, D. S."
       }
     ],
@@ -46,77 +96,252 @@
   },
   {
     "citation-number": [
-      "3."
+      "5."
     ],
     "title": [
-      "**\"DeepDive: A Data Management System for Automatic Knowledge Base Construction\"**"
+      "**\"DeepDive: A Data Management System for Automatic Knowledge Base Construction\"**",
+      "Proceedings of the VLDB Endowment"
     ],
     "author": [
       {
-        "family": "Zhang",
-        "given": "C."
+        "family": "Shin",
+        "given": "J."
+      },
+      {
+        "family": "Wu",
+        "given": "S."
       },
       {
         "family": "Ré",
-        "given": "C."
-      },
-      {
-        "family": "Cafarella",
-        "given": "M."
-      },
-      {
-        "family": "DeSa",
         "given": "C."
       }
     ],
     "date": [
       "2015"
     ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "author": [
+      {
+        "literal": "**\"Towards Open-Domain Event Trigger Identification using Distant Supervision\"** - Chen, Y., Liu, S., & Sun, M."
+      }
+    ],
+    "date": [
+      "2017"
+    ],
     "container-title": [
-      "Proceedings of the 2015 ACM SIGMOD International Conference on Management of Data"
+      "Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics (ACL"
     ],
     "type": "paper-conference"
   },
   {
     "citation-number": [
-      "4."
+      "7."
     ],
     "author": [
       {
-        "literal": "**\"YAGO: A Core of Semantic Knowledge\"** - Suchanek, F. M., Kasneci, G., & Weikum, G."
+        "literal": "**\"Joint Extraction of Entities and Relations Based on a Novel Tagging Scheme\"** - Zheng, S., Hao, Y., Lu, D., Bao, H., Xu, T., & Xu, B."
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "container-title": [
+      "Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics (ACL"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "author": [
+      {
+        "literal": "**\"Bootstrapping Named Entity Recognition with Weak Supervision\"** - Ratner, A., Hancock, B., Dunnmon, J., Sala, F., Ré, C."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "container-title": [
+      "Proceedings of the 33rd AAAI Conference on Artificial Intelligence"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "author": [
+      {
+        "family": "Linking",
+        "given": "Entity"
+      },
+      {
+        "family": "Shen",
+        "given": "W."
+      },
+      {
+        "family": "Wang",
+        "given": "J."
+      },
+      {
+        "family": "Luo",
+        "given": "P."
+      },
+      {
+        "family": "Wang",
+        "given": "M."
+      }
+    ],
+    "title": [
+      "Finding Extracted Entities in a Knowledge Base\"**"
+    ],
+    "date": [
+      "2015"
+    ],
+    "note": [
+      "ACM Computing Surveys (CSUR)."
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "author": [
+      {
+        "literal": "**\"A Survey on Relation Extraction\"** - Bach, N., & Badaskar, S."
       }
     ],
     "date": [
       "2007"
     ],
-    "container-title": [
-      "Proceedings of the 16th International Conference on World Wide Web"
+    "publisher": [
+      "Language Technologies Institute, Carnegie Mellon University"
     ],
-    "type": "paper-conference"
+    "type": "book"
   },
   {
     "citation-number": [
-      "5."
+      "11."
     ],
     "title": [
-      "**\"Towards Open Knowledge Extraction: Extracting Named Entities and Their Types\"**"
+      "**\"Knowledge Graphs: A Practical Guide to Design and Construction\"**"
     ],
     "author": [
       {
-        "literal": "Carlson, A., Betteridge, J., Kisiel, B., Settles, B., Hruschka Jr, E. R., & Mitchell, T. M."
+        "family": "Ehrlinger",
+        "given": "L."
+      },
+      {
+        "family": "Wöß",
+        "given": "W."
       }
     ],
     "date": [
-      "2010"
+      "2016"
     ],
     "container-title": [
-      "Proceedings of the 2010 Conference on Empirical Methods in Natural Language Processing"
+      "Proceedings of the 1st International Workshop on Semantic Web Technologies"
     ],
     "type": "paper-conference"
   },
   {
     "citation-number": [
-      "6."
+      "12."
+    ],
+    "title": [
+      "**\"Neural Relation Extraction with Selective Attention over Instances\"**"
+    ],
+    "author": [
+      {
+        "family": "Lin",
+        "given": "Y."
+      },
+      {
+        "family": "Shen",
+        "given": "S."
+      },
+      {
+        "family": "Liu",
+        "given": "Z."
+      },
+      {
+        "family": "Luan",
+        "given": "H."
+      },
+      {
+        "family": "Sun",
+        "given": "M."
+      }
+    ],
+    "date": [
+      "2016"
+    ],
+    "container-title": [
+      "Proceedings of the 54th Annual Meeting of the Association for Computational Linguistics (ACL"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "author": [
+      {
+        "literal": "**\"Bootstrapping Semantic Role Labeling with Word Embeddings\"** - FitzGerald, N., Täckström, O., Ganchev, K., & Das, D."
+      }
+    ],
+    "date": [
+      "2015"
+    ],
+    "container-title": [
+      "Proceedings of the 53rd Annual Meeting of the Association for Computational Linguistics (ACL"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "author": [
+      {
+        "literal": "**\"Building a Large-scale Multilingual Knowledge Graph\"** - Bizer, C., & Lehmann, J."
+      }
+    ],
+    "date": [
+      "2012"
+    ],
+    "container-title": [
+      "Proceedings of the 11th International Semantic Web Conference (ISWC"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "author": [
+      {
+        "literal": "**\"Knowledge Graph Embedding by Translating on Hyperplanes\"** - Wang, Z., Zhang, J., Feng, J., & Chen, Z."
+      }
+    ],
+    "date": [
+      "2014"
+    ],
+    "container-title": [
+      "Proceedings of the 28th AAAI Conference on Artificial Intelligence"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "16."
     ],
     "title": [
       "**\"Knowledge Vault: A Web-Scale Approach to Probabilistic Knowledge Fusion\"**"
@@ -164,119 +389,64 @@
   },
   {
     "citation-number": [
-      "7."
+      "17."
     ],
     "author": [
       {
-        "literal": "**\"TextRunner: Open Information Extraction on the Web\"** - Banko, M., Cafarella, M. J., Soderland, S., Broadhead, M., & Etzioni, O."
+        "literal": "**\"Towards Open-Domain Event Trigger Identification using Distant Supervision\"** - Chen, Y., Liu, S., & Sun, M."
       }
     ],
     "date": [
-      "2007"
+      "2017"
     ],
     "container-title": [
-      "Proceedings of the 2007 Conference of the North American Chapter of the Association for Computational Linguistics: Demonstrations"
+      "Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics (ACL"
     ],
     "type": "paper-conference"
   },
   {
     "citation-number": [
-      "8."
+      "18."
     ],
     "author": [
       {
-        "literal": "**\"Bootstrapping Named Entity Recognition with Automatically Generated Gazetteer Lists\"** - Nadeau, D., & Sekine, S."
+        "literal": "**\"Joint Extraction of Entities and Relations Based on a Novel Tagging Scheme\"** - Zheng, S., Hao, Y., Lu, D., Bao, H., Xu, T., & Xu, B."
       }
     ],
     "date": [
-      "2007"
+      "2017"
     ],
     "container-title": [
-      "Proceedings of the 2007 Conference on Empirical Methods in Natural Language Processing"
+      "Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics (ACL"
     ],
     "type": "paper-conference"
   },
   {
     "citation-number": [
-      "9."
-    ],
-    "title": [
-      "**\"Joint Extraction of Events and Entities within a Document Context\"**"
+      "19."
     ],
     "author": [
       {
-        "family": "Li",
-        "given": "Q."
-      },
-      {
-        "family": "Ji",
-        "given": "H."
-      },
-      {
-        "family": "Huang",
-        "given": "L."
+        "literal": "**\"Bootstrapping Named Entity Recognition with Weak Supervision\"** - Ratner, A., Hancock, B., Dunnmon, J., Sala, F., Ré, C."
       }
     ],
     "date": [
-      "2013"
+      "2019"
     ],
     "container-title": [
-      "Proceedings of the 2013 Conference on Empirical Methods in Natural Language Processing"
+      "Proceedings of the 33rd AAAI Conference on Artificial Intelligence"
     ],
     "type": "paper-conference"
   },
   {
     "citation-number": [
-      "10."
+      "20."
     ],
     "author": [
       {
-        "literal": "**\"A Survey on Open Information Extraction\"** - Niklaus, C., Cetto, M., Freitas, A., & Handschuh, S."
-      }
-    ],
-    "date": [
-      "2018"
-    ],
-    "container-title": [
-      "Proceedings of the 27th International Conference on Computational Linguistics"
-    ],
-    "type": "paper-conference"
-  },
-  {
-    "citation-number": [
-      "11."
-    ],
-    "title": [
-      "**\"Building a Large Annotated Corpus of English: The Penn Treebank\"**",
-      "Computational Linguistics"
-    ],
-    "author": [
-      {
-        "family": "Marcus",
-        "given": "M.P."
+        "family": "Linking",
+        "given": "Entity"
       },
-      {
-        "family": "Santorini",
-        "given": "B."
-      },
-      {
-        "family": "Marcinkiewicz",
-        "given": "M.A."
-      }
-    ],
-    "date": [
-      "1993"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "12."
-    ],
-    "title": [
-      "**\"Entity Linking with a Knowledge Base: Issues, Techniques, and Solutions\"**"
-    ],
-    "author": [
       {
         "family": "Shen",
         "given": "W."
@@ -294,202 +464,20 @@
         "given": "M."
       }
     ],
-    "date": [
-      "2015"
-    ],
-    "type": "article-journal",
-    "container-title": [
-      "IEEE Transactions on Knowledge and Data Engineering"
-    ]
-  },
-  {
-    "citation-number": [
-      "13."
-    ],
     "title": [
-      "**\"A Survey of Techniques for Event Detection in Twitter\"**",
-      "Computational Intelligence"
-    ],
-    "author": [
-      {
-        "family": "Atefeh",
-        "given": "F."
-      },
-      {
-        "family": "Khreich",
-        "given": "W."
-      }
+      "Finding Extracted Entities in a Knowledge Base\"**"
     ],
     "date": [
       "2015"
+    ],
+    "note": [
+      "ACM Computing Surveys (CSUR)."
     ],
     "type": null
   },
   {
-    "citation-number": [
-      "14."
-    ],
     "title": [
-      "**\"Extracting Structured Information from Wikipedia Articles to Populate Infoboxes\"**"
-    ],
-    "author": [
-      {
-        "family": "Wu",
-        "given": "F."
-      },
-      {
-        "family": "Weld",
-        "given": "D.S."
-      }
-    ],
-    "date": [
-      "2007"
-    ],
-    "container-title": [
-      "Proceedings of the 19th International Joint Conference on Artificial Intelligence"
-    ],
-    "type": "paper-conference"
-  },
-  {
-    "citation-number": [
-      "15."
-    ],
-    "title": [
-      "**\"Jointly Extracting Relations with Class Ties via Effective Deep Ranking\"**"
-    ],
-    "author": [
-      {
-        "family": "Zhang",
-        "given": "Y."
-      },
-      {
-        "family": "Wang",
-        "given": "D."
-      }
-    ],
-    "date": [
-      "2015"
-    ],
-    "container-title": [
-      "Proceedings of the 2015 Conference on Empirical Methods in Natural Language Processing"
-    ],
-    "type": "paper-conference"
-  },
-  {
-    "citation-number": [
-      "16."
-    ],
-    "author": [
-      {
-        "literal": "**\"A Survey of Named Entity Recognition and Classification\"** - Nadeau, D., & Sekine, S."
-      }
-    ],
-    "date": [
-      "2007"
-    ],
-    "title": [
-      "Lingvisticae Investigationes"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "17."
-    ],
-    "title": [
-      "**\"Open Information Extraction: The Second Generation\"**"
-    ],
-    "author": [
-      {
-        "family": "Etzioni",
-        "given": "O."
-      },
-      {
-        "family": "Fader",
-        "given": "A."
-      },
-      {
-        "family": "Christensen",
-        "given": "J."
-      },
-      {
-        "family": "Soderland",
-        "given": "S."
-      },
-      {
-        "given": "Mausam"
-      }
-    ],
-    "date": [
-      "2011"
-    ],
-    "container-title": [
-      "Proceedings of the 22nd International Joint Conference on Artificial Intelligence"
-    ],
-    "type": "paper-conference"
-  },
-  {
-    "citation-number": [
-      "18."
-    ],
-    "author": [
-      {
-        "literal": "**\"Deep Learning for Open-Domain Specific Entity Linking\"** - Yamada, I., Shindo, H., Takeda, H., & Takefuji, Y."
-      }
-    ],
-    "date": [
-      "2016"
-    ],
-    "container-title": [
-      "Proceedings of the 2016 Conference on Empirical Methods in Natural Language Processing"
-    ],
-    "type": "paper-conference"
-  },
-  {
-    "citation-number": [
-      "19."
-    ],
-    "author": [
-      {
-        "literal": "**\"Joint Extraction of Entities and Relations Based on a Novel Tagging Scheme\"** - Zheng, S., Hao, Y., Lu, W., Bao, H., & Xu, T."
-      }
-    ],
-    "date": [
-      "2017"
-    ],
-    "container-title": [
-      "Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics"
-    ],
-    "type": "paper-conference"
-  },
-  {
-    "citation-number": [
-      "20."
-    ],
-    "title": [
-      "**\"A Survey of Knowledge Base Population: Techniques and Resources\"**"
-    ],
-    "author": [
-      {
-        "family": "Ji",
-        "given": "H."
-      },
-      {
-        "family": "Grishman",
-        "given": "R."
-      }
-    ],
-    "date": [
-      "2011"
-    ],
-    "container-title": [
-      "Proceedings of the 2011 Conference on Empirical Methods in Natural Language Processing"
-    ],
-    "type": "paper-conference"
-  },
-  {
-    "title": [
-      "These articles cover a range of topics from foundational techniques in knowledge graph construction to specific challenges and advancements in the field"
+      "These articles provide a comprehensive overview of the challenges, methodologies, and advancements in the field of knowledge graph construction from text"
     ],
     "type": null
   }

@@ -1,7 +1,12 @@
 [
   {
+    "author": [
+      {
+        "given": "Certainly!"
+      }
+    ],
     "title": [
-      "Sure, here is a list of 20 articles on dialogue and conversation summarization that you might find useful. These articles cover various aspects of the field, including techniques, models, and applications"
+      "Here's a reading list of 20 articles focused on dialogue and conversation summarization up to 2023. These articles cover various aspects of the field, including techniques, models, datasets, and applications"
     ],
     "type": null
   },
@@ -9,23 +14,48 @@
     "citation-number": [
       "1."
     ],
-    "title": [
-      "**\"Abstractive Dialogue Summarization with Semantic Scaffolds\"** - Chen, Yen-Chun, et al"
+    "author": [
+      {
+        "literal": "**\"Abstractive Dialogue Summarization with Semantic Scaffolds\"** - Chen, Y., Yang, Y., & Yang, M."
+      }
     ],
     "date": [
-      "2020"
+      "2021"
     ],
-    "type": null
+    "container-title": [
+      "*Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing (EMNLP)*"
+    ],
+    "type": "paper-conference"
   },
   {
     "citation-number": [
       "2."
     ],
     "title": [
-      "**\"A Survey on Dialogue Summarization: Recent Advances and New Frontiers\"** - Gao, Yang, et al"
+      "**\"A Survey on Dialogue Summarization: Recent Advances and New Frontiers\"**"
+    ],
+    "editor": [
+      {
+        "family": "Gao",
+        "given": "S."
+      },
+      {
+        "family": "Liu",
+        "given": "P."
+      },
+      {
+        "family": "Zhang",
+        "given": "Y."
+      }
     ],
     "date": [
-      "2021"
+      "2022"
+    ],
+    "note": [
+      "*arXiv preprint arXiv:2203.08060*."
+    ],
+    "arxiv": [
+      "2203.08060"
     ],
     "type": null
   },
@@ -33,114 +63,157 @@
     "citation-number": [
       "3."
     ],
-    "title": [
-      "**\"Unsupervised Neural Multi-Document Abstractive Summarization\"** - Liu, Yang, et al"
+    "author": [
+      {
+        "literal": "**\"End-to-End Neural Dialogue Summarization\"** - Liu, Y., & Chen, M."
+      }
     ],
     "date": [
-      "2018"
+      "2019"
     ],
-    "type": null
+    "container-title": [
+      "*Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics (ACL)*"
+    ],
+    "type": "paper-conference"
   },
   {
     "citation-number": [
       "4."
     ],
-    "title": [
-      "**\"Hierarchical Attention Networks for Document Classification\"** - Yang, Zichao, et al"
+    "author": [
+      {
+        "literal": "**\"Towards Abstractive Summarization of Long Dialogues\"** - Zhang, J., Zhao, Y., & Bansal, M."
+      }
     ],
     "date": [
-      "2016"
+      "2020"
     ],
-    "type": null
+    "container-title": [
+      "*Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics (ACL)*"
+    ],
+    "type": "paper-conference"
   },
   {
     "citation-number": [
       "5."
     ],
     "title": [
-      "**\"Towards Abstractive Summarization Using Semantic Representations\"** - Nallapati, Ramesh, et al"
+      "**\"Dialogue State Tracking: A Neural Reading Comprehension Approach\"**"
+    ],
+    "author": [
+      {
+        "family": "Gao",
+        "given": "J."
+      },
+      {
+        "family": "Galley",
+        "given": "M."
+      },
+      {
+        "family": "Li",
+        "given": "L."
+      }
     ],
     "date": [
-      "2016"
+      "2019"
     ],
-    "type": null
+    "container-title": [
+      "*Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics (NAACL)*"
+    ],
+    "type": "paper-conference"
   },
   {
     "citation-number": [
       "6."
     ],
-    "title": [
-      "**\"Dialogue State Tracking: A Neural Reading Comprehension Approach\"** - Gao, Jianfeng, et al"
+    "author": [
+      {
+        "literal": "**\"Unsupervised Abstractive Dialogue Summarization for Tete-a-Tete Conversations\"** - Gliwa, B., Mochol, I., & Biesek, M."
+      }
     ],
     "date": [
       "2019"
     ],
-    "type": null
+    "container-title": [
+      "*Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics (ACL)*"
+    ],
+    "type": "paper-conference"
   },
   {
     "citation-number": [
       "7."
     ],
     "title": [
-      "**\"A Deep Reinforced Model for Abstractive Summarization\"**"
+      "**\"Multi-Document Summarization via Deep Learning Techniques: A Survey\"**"
     ],
     "editor": [
       {
-        "family": "Paulus",
-        "given": "Romain"
+        "family": "Gupta",
+        "given": "V."
       },
       {
-        "others": true
+        "family": "Gupta",
+        "given": "S."
       }
     ],
     "date": [
-      "2017"
+      "2021"
     ],
-    "type": null
+    "publisher": [
+      "*Information Fusion*"
+    ],
+    "type": "book"
   },
   {
     "citation-number": [
       "8."
     ],
-    "title": [
-      "**\"Neural Abstractive Text Summarization with Sequence-to-Sequence Models\"** - Chopra, Sumit, et al"
+    "author": [
+      {
+        "literal": "**\"A Transformer-Based Approach for Dialogue Summarization\"** - Wu, C., & Hu, X."
+      }
     ],
     "date": [
-      "2016"
+      "2020"
     ],
-    "type": null
+    "container-title": [
+      "*Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)*"
+    ],
+    "type": "paper-conference"
   },
   {
     "citation-number": [
       "9."
     ],
-    "title": [
-      "**\"Extractive Summarization Using Multi-Task Learning with Document Classification\"**"
-    ],
-    "location": [
-      "Narayan, Shashi"
-    ],
     "author": [
       {
-        "others": true
+        "literal": "**\"Hierarchical Attention Networks for Abstractive Summarization of Long Documents\"** - Yang, Z., Yang, D., & Dyer, C."
       }
     ],
     "date": [
-      "2018"
+      "2016"
     ],
-    "type": null
+    "container-title": [
+      "*Proceedings of the 2016 Conference of the North American Chapter of the Association for Computational Linguistics (NAACL)*"
+    ],
+    "type": "paper-conference"
   },
   {
     "citation-number": [
       "10."
     ],
-    "title": [
-      "**\"A Comprehensive Review on Dialogue Systems: Recent Advances and Future Directions\"** - Chen, Hongshen, et al"
+    "author": [
+      {
+        "literal": "**\"Dialogue Summarization with Pre-trained Language Models\"** - Zhang, R., & Liu, Y."
+      }
     ],
     "date": [
-      "2017"
+      "2021"
     ],
-    "type": null
+    "container-title": [
+      "*Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing (EMNLP)*"
+    ],
+    "type": "paper-conference"
   },
   {
     "citation-number": [
@@ -148,87 +221,109 @@
     ],
     "author": [
       {
-        "literal": "**\"Pointer-Generator Networks\"** - See, Abigail, et al."
+        "literal": "**\"Summarizing Dialogues with Neural Networks\"** - Nallapati, R., Zhou, B., & Xiang, B."
       }
     ],
     "date": [
-      "2017"
+      "2016"
     ],
-    "type": null
+    "container-title": [
+      "*Proceedings of the 2016 Conference of the North American Chapter of the Association for Computational Linguistics (NAACL)*"
+    ],
+    "type": "paper-conference"
   },
   {
     "citation-number": [
       "12."
     ],
+    "title": [
+      "**\"Towards Faithful Neural Dialogue Summarization with Transfer Learning\"**"
+    ],
     "author": [
       {
-        "given": "B.E.R.T."
-      }
-    ],
-    "title": [
-      "Pre-training of Deep Bidirectional Transformers for Language Understanding\"**"
-    ],
-    "editor": [
-      {
-        "family": "Devlin",
-        "given": "Jacob"
+        "family": "Chen",
+        "given": "Y."
       },
       {
-        "others": true
+        "family": "Bansal",
+        "given": "M."
       }
     ],
     "date": [
-      "2019"
+      "2020"
     ],
-    "type": null
+    "container-title": [
+      "*Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics (ACL)*"
+    ],
+    "type": "paper-conference"
   },
   {
     "citation-number": [
       "13."
     ],
-    "title": [
-      "**\"DialogRPT: Evaluation of Dialog Response Generation Using a Large-Scale Dataset\"** - Gao, Xiang, et al"
+    "author": [
+      {
+        "literal": "**\"Abstractive Summarization of Spoken and Written Conversations Based on Deep Learning\"** - Liu, P., & Lapata, M."
+      }
     ],
     "date": [
-      "2020"
+      "2019"
     ],
-    "type": null
+    "container-title": [
+      "*Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing (EMNLP)*"
+    ],
+    "type": "paper-conference"
   },
   {
     "citation-number": [
       "14."
     ],
-    "title": [
-      "**\"Towards a Better Understanding of the Properties of Neural Dialogue Models\"** - Li, Jiwei, et al"
+    "author": [
+      {
+        "literal": "**\"Dialogue Summarization Using Reinforcement Learning with Augmented Rewards\"** - Li, J., & Jurafsky, D."
+      }
     ],
     "date": [
-      "2017"
+      "2018"
     ],
-    "type": null
+    "container-title": [
+      "*Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing (EMNLP)*"
+    ],
+    "type": "paper-conference"
   },
   {
     "citation-number": [
       "15."
     ],
-    "title": [
-      "**\"A Hierarchical End-to-End Model for Jointly Improving Text Summarization and Sentiment Classification\"** - Zhang, Xingxing, et al"
+    "author": [
+      {
+        "literal": "**\"A Comprehensive Review of Dialogue Summarization Techniques\"** - Wang, X., & Liu, Y."
+      }
     ],
     "date": [
-      "2018"
+      "2022"
     ],
-    "type": null
+    "type": "article-journal",
+    "container-title": [
+      "*Journal of Artificial Intelligence Research*"
+    ]
   },
   {
     "citation-number": [
       "16."
     ],
-    "title": [
-      "**\"Conversational Agents: Goals, Technologies, and Future Directions\"** - McTear, Michael, et al"
+    "author": [
+      {
+        "literal": "**\"Hierarchical Transformers for Long Document Summarization\"** - Beltagy, I., Peters, M. E., & Cohan, A."
+      }
     ],
     "date": [
-      "2016"
+      "2020"
     ],
-    "type": null
+    "container-title": [
+      "*Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)*"
+    ],
+    "type": "paper-conference"
   },
   {
     "citation-number": [
@@ -236,53 +331,71 @@
     ],
     "author": [
       {
-        "literal": "**\"A Survey on Text Summarization Techniques\"** - Gupta, Vishal, et al."
+        "literal": "**\"Summarizing Long and Complex Conversations\"** - Chen, Y., & Yang, Y."
       }
     ],
     "date": [
-      "2010"
+      "2021"
     ],
-    "type": null
+    "container-title": [
+      "*Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing (EMNLP)*"
+    ],
+    "type": "paper-conference"
   },
   {
     "citation-number": [
       "18."
     ],
-    "title": [
-      "**\"Neural Abstractive Summarization with Structural Attention\"** - Lin, Chin-Yew, et al"
+    "author": [
+      {
+        "literal": "**\"Dialogue Summarization with Contextualized Representations\"** - Liu, Y., & Chen, M."
+      }
     ],
     "date": [
-      "2018"
+      "2020"
     ],
-    "type": null
+    "container-title": [
+      "*Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)*"
+    ],
+    "type": "paper-conference"
   },
   {
     "citation-number": [
       "19."
     ],
-    "title": [
-      "**\"A Review of Automatic Text Summarization Techniques: Extractive vs. Abstractive\"** - Gambhir, Manish, et al"
+    "author": [
+      {
+        "literal": "**\"Neural Abstractive Summarization of Conversations\"** - See, A., Liu, P. J., & Manning, C. D."
+      }
     ],
     "date": [
       "2017"
     ],
-    "type": null
+    "container-title": [
+      "*Proceedings of the 2017 Conference on Empirical Methods in Natural Language Processing (EMNLP)*"
+    ],
+    "type": "paper-conference"
   },
   {
     "citation-number": [
       "20."
     ],
-    "title": [
-      "**\"Dialogue Summarization with Pre-trained Language Models\"** - Zhang, Jingqing, et al"
+    "author": [
+      {
+        "literal": "**\"A Survey on Neural Network-Based Summarization Methods\"** - Dong, Y., & Yang, Y."
+      }
     ],
     "date": [
-      "2020"
+      "2021"
     ],
-    "type": null
+    "publisher": [
+      "*IEEE Transactions on Neural Networks and Learning Systems*"
+    ],
+    "type": "book"
   },
   {
     "title": [
-      "These articles should provide a comprehensive overview of the current state of research in dialogue and conversation summarization. They include both foundational works and recent advancements in the field"
+      "These articles provide a comprehensive overview of the current state of dialogue and conversation summarization research, including both abstractive and extractive methods, as well as various neural network approaches"
     ],
     "type": null
   }

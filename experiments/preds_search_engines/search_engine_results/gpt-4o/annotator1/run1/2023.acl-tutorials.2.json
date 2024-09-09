@@ -1,7 +1,10 @@
 [
   {
     "title": [
-      "Sure, here is a reading list of 20 articles focusing on complex reasoning in natural language processing (NLP) with an emphasis on pretrained language models (PLMs). These articles are selected to provide a comprehensive understanding of the current state of research in this area"
+      "Sure, here's a curated reading list of 20 articles up to 2023 that focus on complex reasoning in natural language processing (NLP"
+    ],
+    "note": [
+      "with an emphasis on pretrained language models (PLMs):"
     ],
     "type": null
   },
@@ -11,14 +14,29 @@
     ],
     "author": [
       {
-        "given": "B.E.R.T."
+        "family": "Vaswani",
+        "given": "A."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "title": [
+      "Attention is All You Need.\"**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
       }
     ],
     "title": [
-      "Pre-training of Deep Bidirectional Transformers for Language Understanding\"** by Jacob Devlin et al"
-    ],
-    "date": [
-      "2019"
+      "This seminal paper introduces the Transformer architecture, which is foundational for many PLMs"
     ],
     "type": null
   },
@@ -26,11 +44,31 @@
     "citation-number": [
       "2."
     ],
-    "title": [
-      "**\"RoBERTa: A Robustly Optimized BERT Pretraining Approach\"** by Yinhan Liu et al"
+    "author": [
+      {
+        "family": "Devlin",
+        "given": "J."
+      },
+      {
+        "others": true
+      }
     ],
     "date": [
       "2019"
+    ],
+    "title": [
+      "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding.\"**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "This paper presents BERT, a groundbreaking PLM that set new benchmarks in NLP tasks"
     ],
     "type": null
   },
@@ -38,11 +76,31 @@
     "citation-number": [
       "3."
     ],
-    "title": [
-      "**\"XLNet: Generalized Autoregressive Pretraining for Language Understanding\"** by Zhilin Yang et al"
+    "author": [
+      {
+        "family": "Radford",
+        "given": "A."
+      },
+      {
+        "others": true
+      }
     ],
     "date": [
       "2019"
+    ],
+    "title": [
+      "Language Models are Unsupervised Multitask Learners.\"**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "This paper introduces GPT-2, highlighting its capabilities in various NLP tasks through unsupervised learning"
     ],
     "type": null
   },
@@ -50,11 +108,31 @@
     "citation-number": [
       "4."
     ],
-    "title": [
-      "**\"T5: Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer\"** by Colin Raffel et al"
+    "author": [
+      {
+        "family": "Brown",
+        "given": "T."
+      },
+      {
+        "others": true
+      }
     ],
     "date": [
       "2020"
+    ],
+    "title": [
+      "Language Models are Few-Shot Learners.\"**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "This paper presents GPT-3, showcasing its ability to perform tasks with minimal task-specific training data"
     ],
     "type": null
   },
@@ -62,11 +140,31 @@
     "citation-number": [
       "5."
     ],
-    "title": [
-      "**\"ALBERT: A Lite BERT for Self-supervised Learning of Language Representations\"** by Zhenzhong Lan et al"
+    "author": [
+      {
+        "family": "Clark",
+        "given": "K."
+      },
+      {
+        "others": true
+      }
     ],
     "date": [
       "2020"
+    ],
+    "title": [
+      "ELECTRA: Pre-training Text Encoders as Discriminators Rather Than Generators.\"**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Introduces ELECTRA, a more sample-efficient approach to pre-training language models"
     ],
     "type": null
   },
@@ -74,16 +172,33 @@
     "citation-number": [
       "6."
     ],
-    "title": [
-      "**\"GPT-3: Language Models are Few-Shot Learners\"** by Tom B"
+    "author": [
+      {
+        "family": "Raffel",
+        "given": "C."
+      },
+      {
+        "others": true
+      }
     ],
     "date": [
       "2020"
     ],
-    "type": "article-journal",
-    "container-title": [
-      "Brown et al"
-    ]
+    "title": [
+      "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer.\"**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "This paper presents T5, a model that frames all NLP tasks as text-to-text transformations"
+    ],
+    "type": null
   },
   {
     "citation-number": [
@@ -91,14 +206,29 @@
     ],
     "author": [
       {
-        "given": "E.L.E.C.T.R.A."
+        "family": "Khashabi",
+        "given": "D."
+      },
+      {
+        "others": true
       }
-    ],
-    "title": [
-      "Pre-training Text Encoders as Discriminators Rather Than Generators\"** by Kevin Clark et al"
     ],
     "date": [
       "2020"
+    ],
+    "title": [
+      "UnifiedQA: Crossing Format Boundaries with a Single QA System.\"**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Discusses a unified question-answering system that works across multiple formats using PLMs"
     ],
     "type": null
   },
@@ -106,11 +236,31 @@
     "citation-number": [
       "8."
     ],
-    "title": [
-      "**\"DeBERTa: Decoding-enhanced BERT with Disentangled Attention\"** by Pengcheng He et al"
+    "author": [
+      {
+        "family": "Lewis",
+        "given": "P."
+      },
+      {
+        "others": true
+      }
     ],
     "date": [
-      "2021"
+      "2020"
+    ],
+    "title": [
+      "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks.\"**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Introduces RAG, a model that combines retrieval mechanisms with generation for improved performance on knowledge-intensive tasks"
     ],
     "type": null
   },
@@ -118,11 +268,31 @@
     "citation-number": [
       "9."
     ],
-    "title": [
-      "**\"Longformer: The Long-Document Transformer\"** by Iz Beltagy et al"
+    "author": [
+      {
+        "family": "Liu",
+        "given": "Y."
+      },
+      {
+        "others": true
+      }
     ],
     "date": [
-      "2020"
+      "2019"
+    ],
+    "title": [
+      "RoBERTa: A Robustly Optimized BERT Pretraining Approach.\"**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "This paper presents RoBERTa, an optimized version of BERT that achieves better performance through training modifications"
     ],
     "type": null
   },
@@ -130,11 +300,31 @@
     "citation-number": [
       "10."
     ],
-    "title": [
-      "**\"UnifiedQA: Crossing Format Boundaries with a Single QA System\"** by Khashayar Khashabi et al"
+    "author": [
+      {
+        "family": "Lan",
+        "given": "Z."
+      },
+      {
+        "others": true
+      }
     ],
     "date": [
       "2020"
+    ],
+    "title": [
+      "ALBERT: A Lite BERT for Self-supervised Learning of Language Representations.\"**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Introduces ALBERT, a lighter and more efficient version of BERT"
     ],
     "type": null
   },
@@ -144,14 +334,29 @@
     ],
     "author": [
       {
-        "given": "R.A.G."
+        "family": "Yang",
+        "given": "Z."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "title": [
+      "XLNet: Generalized Autoregressive Pretraining for Language Understanding.\"**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
       }
     ],
     "title": [
-      "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks\"** by Patrick Lewis et al"
-    ],
-    "date": [
-      "2020"
+      "This paper presents XLNet, which integrates the best of autoregressive and autoencoding pretraining methods"
     ],
     "type": null
   },
@@ -159,11 +364,31 @@
     "citation-number": [
       "12."
     ],
-    "title": [
-      "**\"Turing-NLG: A 17-billion-parameter Language Model by Microsoft\"** by Microsoft Research"
+    "author": [
+      {
+        "family": "Khot",
+        "given": "T."
+      },
+      {
+        "others": true
+      }
     ],
     "date": [
       "2020"
+    ],
+    "title": [
+      "QASC: A Dataset for Question Answering via Sentence Composition.\"**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Introduces QASC, a dataset designed to test complex reasoning through sentence composition"
     ],
     "type": null
   },
@@ -173,14 +398,29 @@
     ],
     "author": [
       {
-        "given": "B.A.R.T."
+        "family": "Zellers",
+        "given": "R."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "title": [
+      "HellaSwag: Can a Machine Really Finish Your Sentence?\"**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
       }
     ],
     "title": [
-      "Denoising Sequence-to-Sequence Pre-training for Natural Language Generation, Translation, and Comprehension\"** by Mike Lewis et al"
-    ],
-    "date": [
-      "2020"
+      "Discusses HellaSwag, a dataset for testing commonsense reasoning in PLMs"
     ],
     "type": null
   },
@@ -190,14 +430,29 @@
     ],
     "author": [
       {
-        "given": "E.R.N.I.E."
+        "family": "Clark",
+        "given": "P."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "title": [
+      "Think you have Solved Question Answering? Try ARC, the AI2 Reasoning Challenge.\"**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
       }
     ],
     "title": [
-      "Enhanced Representation through Knowledge Integration\"** by Yu Sun et al"
-    ],
-    "date": [
-      "2019"
+      "Presents the ARC dataset, designed to challenge models with complex reasoning questions"
     ],
     "type": null
   },
@@ -205,11 +460,31 @@
     "citation-number": [
       "15."
     ],
-    "title": [
-      "**\"SpanBERT: Improving Pre-training by Representing and Predicting Spans\"** by Mandar Joshi et al"
+    "author": [
+      {
+        "family": "Talmor",
+        "given": "A."
+      },
+      {
+        "others": true
+      }
     ],
     "date": [
-      "2020"
+      "2019"
+    ],
+    "title": [
+      "CommonsenseQA: A Question Answering Challenge Targeting Commonsense Knowledge.\"**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Introduces CommonsenseQA, a dataset focused on evaluating commonsense reasoning in PLMs"
     ],
     "type": null
   },
@@ -217,11 +492,31 @@
     "citation-number": [
       "16."
     ],
-    "title": [
-      "**\"DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter\"** by Victor Sanh et al"
+    "author": [
+      {
+        "family": "Rajpurkar",
+        "given": "P."
+      },
+      {
+        "others": true
+      }
     ],
     "date": [
-      "2019"
+      "2018"
+    ],
+    "title": [
+      "Know What You Don't Know: Unanswerable Questions for SQuAD.\"**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Discusses the addition of unanswerable questions to the SQuAD dataset to test model robustness"
     ],
     "type": null
   },
@@ -229,11 +524,31 @@
     "citation-number": [
       "17."
     ],
-    "title": [
-      "**\"Reformer: The Efficient Transformer\"** by Nikita Kitaev et al"
+    "author": [
+      {
+        "family": "Zhou",
+        "given": "B."
+      },
+      {
+        "others": true
+      }
     ],
     "date": [
       "2020"
+    ],
+    "title": [
+      "Towards Interpretable Natural Language Understanding with Explanations.\"**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Explores methods for making PLMs' reasoning processes more interpretable"
     ],
     "type": null
   },
@@ -241,11 +556,31 @@
     "citation-number": [
       "18."
     ],
-    "title": [
-      "**\"Big Bird: Transformers for Longer Sequences\"** by Manzil Zaheer et al"
+    "author": [
+      {
+        "family": "Yin",
+        "given": "W."
+      },
+      {
+        "others": true
+      }
     ],
     "date": [
       "2020"
+    ],
+    "title": [
+      "TabFact: A Large-scale Dataset for Table-based Fact Verification.\"**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Introduces TabFact, a dataset for evaluating models' abilities to verify facts using tabular data"
     ],
     "type": null
   },
@@ -253,11 +588,31 @@
     "citation-number": [
       "19."
     ],
-    "title": [
-      "**\"Switch Transformers: Scaling to Trillion Parameter Models with Simple and Efficient Sparsity\"** by William Fedus et al"
+    "author": [
+      {
+        "family": "Khashabi",
+        "given": "D."
+      },
+      {
+        "others": true
+      }
     ],
     "date": [
-      "2021"
+      "2020"
+    ],
+    "title": [
+      "MultiQA: An Empirical Investigation of Generalization and Transfer in Reading Comprehension.\"**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Investigates the generalization and transfer capabilities of PLMs across multiple QA datasets"
     ],
     "type": null
   },
@@ -265,17 +620,37 @@
     "citation-number": [
       "20."
     ],
-    "title": [
-      "**\"GShard: Scaling Giant Models with Conditional Computation and Automatic Sharding\"** by Noam Shazeer et al"
+    "author": [
+      {
+        "family": "Ribeiro",
+        "given": "M.T."
+      },
+      {
+        "others": true
+      }
     ],
     "date": [
       "2020"
+    ],
+    "title": [
+      "Beyond Accuracy: Behavioral Testing of NLP Models with CheckList.\"**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Proposes CheckList, a methodology for testing NLP models' capabilities beyond accuracy, focusing on behavioral aspects"
     ],
     "type": null
   },
   {
     "title": [
-      "These articles cover a range of topics from the foundational models like BERT and GPT-3 to more specialized models and techniques that address specific challenges in complex reasoning and long document processing. They also include advancements in model efficiency and scalability, which are crucial for practical applications of PLMs in NLP"
+      "These articles cover a range of topics from foundational architectures and models to datasets and evaluation methods, providing a comprehensive overview of complex reasoning in NLP using PLMs"
     ],
     "type": null
   }

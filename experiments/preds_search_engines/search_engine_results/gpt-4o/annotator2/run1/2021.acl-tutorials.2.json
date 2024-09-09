@@ -2,14 +2,14 @@
   {
     "author": [
       {
-        "given": "Sure!"
+        "given": "Certainly!"
       }
     ],
     "title": [
       "Here's a reading list of 20 articles on event-centric NLP, covering methods for event representation, extraction"
     ],
     "note": [
-      "and prediction, all published before 2022:"
+      "and prediction, up to 2021:"
     ],
     "type": null
   },
@@ -17,297 +17,179 @@
     "citation-number": [
       "1."
     ],
-    "author": [
-      {
-        "literal": "**\"Event Extraction from Newswire Articles\"** - Grishman, R., & Sundheim, B."
-      }
+    "note": [
+      "**Event Representation:**"
     ],
-    "date": [
-      "1996"
-    ],
-    "container-title": [
-      "Proceedings of the 3rd Conference on Message Understanding"
-    ],
-    "type": "paper-conference"
+    "type": null
   },
   {
-    "citation-number": [
-      "2."
-    ],
     "author": [
       {
-        "literal": "**\"A Survey of Event Extraction Methods from Text\"** - Ahn, D."
-      }
-    ],
-    "date": [
-      "2006"
-    ],
-    "container-title": [
-      "Proceedings of the 2006 Conference on Empirical Methods in Natural Language Processing (EMNLP"
-    ],
-    "type": "paper-conference"
-  },
-  {
-    "citation-number": [
-      "3."
-    ],
-    "author": [
-      {
-        "literal": "**\"Joint Event Extraction via Recurrent Neural Networks\"** - Nguyen, T. H., & Grishman, R."
-      }
-    ],
-    "date": [
-      "2015"
-    ],
-    "container-title": [
-      "Proceedings of the 2015 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (NAACL-HLT"
-    ],
-    "type": "paper-conference"
-  },
-  {
-    "citation-number": [
-      "4."
-    ],
-    "author": [
-      {
-        "literal": "**\"Event Detection and Domain Adaptation with Convolutional Neural Networks\"** - Chen, Y., Liu, S., & Sun, M."
-      }
-    ],
-    "date": [
-      "2015"
-    ],
-    "container-title": [
-      "Proceedings of the 53rd Annual Meeting of the Association for Computational Linguistics and the 7th International Joint Conference on Natural Language Processing"
-    ],
-    "pages": [
-      "–"
-    ],
-    "type": "paper-conference"
-  },
-  {
-    "citation-number": [
-      "5."
-    ],
-    "title": [
-      "**\"Event Detection and Classification on Twitter: A New Approach Using Contextual Knowledge and Timestamp\"**"
-    ],
-    "author": [
-      {
-        "family": "Li",
-        "given": "R."
+        "family": "Chambers",
+        "given": "N."
       },
       {
-        "family": "Lei",
-        "given": "K.H."
-      },
-      {
-        "family": "Khadiwala",
-        "given": "R."
-      },
-      {
-        "family": "Chang",
-        "given": "K.C.C."
-      }
-    ],
-    "date": [
-      "2012"
-    ],
-    "container-title": [
-      "Proceedings of the 12th International Conference on Web and Social Media (ICWSM"
-    ],
-    "type": "paper-conference"
-  },
-  {
-    "citation-number": [
-      "6."
-    ],
-    "author": [
-      {
-        "literal": "**\"Event Extraction Using Distant Supervision\"** - Mintz, M., Bills, S., Snow, R., & Jurafsky, D."
-      }
-    ],
-    "date": [
-      "2009"
-    ],
-    "container-title": [
-      "Proceedings of the Joint Conference of the 47th Annual Meeting of the ACL and the 4th International Joint Conference on Natural Language Processing of the AFNLP"
-    ],
-    "type": "paper-conference"
-  },
-  {
-    "citation-number": [
-      "7."
-    ],
-    "author": [
-      {
-        "literal": "**\"A Hierarchical Model of Events in Natural Language Discourse\"** - Chambers, N., & Jurafsky, D."
+        "family": "Jurafsky",
+        "given": "D."
       }
     ],
     "date": [
       "2008"
     ],
-    "container-title": [
-      "Proceedings of the 46th Annual Meeting of the Association for Computational Linguistics (ACL"
-    ],
-    "type": "paper-conference"
-  },
-  {
-    "citation-number": [
-      "8."
-    ],
-    "author": [
-      {
-        "literal": "**\"Event Extraction as Dependency Parsing\"** - McClosky, D., Surdeanu, M., & Manning, C. D."
-      }
-    ],
-    "date": [
-      "2011"
-    ],
-    "container-title": [
-      "Proceedings of the 49th Annual Meeting of the Association for Computational Linguistics: Human Language Technologies"
-    ],
-    "pages": [
-      "–"
-    ],
-    "type": "paper-conference"
-  },
-  {
-    "citation-number": [
-      "9."
-    ],
-    "author": [
-      {
-        "literal": "**\"Event Extraction with Structured Perceptron\"** - Li, Q., Ji, H., & Huang, L."
-      }
-    ],
-    "date": [
-      "2013"
-    ],
-    "container-title": [
-      "Proceedings of the 51st Annual Meeting of the Association for Computational Linguistics (ACL"
-    ],
-    "type": "paper-conference"
-  },
-  {
-    "citation-number": [
-      "10."
-    ],
-    "author": [
-      {
-        "literal": "**\"Joint Event Extraction via Structured Prediction with Global Features\"** - Li, Q., Ji, H., & Huang, L."
-      }
-    ],
-    "date": [
-      "2014"
-    ],
-    "container-title": [
-      "Proceedings of the 52nd Annual Meeting of the Association for Computational Linguistics (ACL"
-    ],
-    "type": "paper-conference"
-  },
-  {
-    "citation-number": [
-      "11."
-    ],
-    "author": [
-      {
-        "literal": "**\"Event Extraction by Answering (Almost) Natural Questions\"** - Du, X., & Cardie, C."
-      }
-    ],
-    "date": [
-      "2020"
-    ],
-    "container-title": [
-      "Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP"
-    ],
-    "type": "paper-conference"
-  },
-  {
-    "citation-number": [
-      "12."
-    ],
-    "author": [
-      {
-        "literal": "**\"Event Detection and Co-reference with Minimal Supervision\"** - Bejan, C. A., & Harabagiu, S. M."
-      }
-    ],
-    "date": [
-      "2010"
-    ],
-    "container-title": [
-      "Proceedings of the 23rd International Conference on Computational Linguistics (COLING"
-    ],
-    "type": "paper-conference"
-  },
-  {
-    "citation-number": [
-      "13."
-    ],
     "title": [
-      "**\"Event Extraction from Biomedical Text Using a Hidden Vector State Model\"**"
+      "Unsupervised Learning of Narrative Event Chains"
     ],
+    "container-title": [
+      "*ACL.*"
+    ],
+    "type": "chapter"
+  },
+  {
     "author": [
       {
-        "family": "Poon",
-        "given": "H."
+        "family": "Granroth-Wilding",
+        "given": "M."
       },
       {
-        "family": "Vanderwende",
-        "given": "L."
+        "family": "Clark",
+        "given": "S."
       }
     ],
     "date": [
-      "2010"
+      "2016"
+    ],
+    "title": [
+      "What Happens Next? Event Prediction Using a Compositional Neural Network Model"
     ],
     "container-title": [
-      "Proceedings of the 2010 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (NAACL-HLT"
+      "*AAAI.*"
     ],
-    "type": "paper-conference"
+    "type": "chapter"
   },
   {
-    "citation-number": [
-      "14."
-    ],
     "author": [
       {
-        "literal": "**\"Event Extraction Using Multi-level Dependency Parse Trees\"** - McClosky, D., Surdeanu, M., & Manning, C. D."
+        "family": "Pichotta",
+        "given": "K."
+      },
+      {
+        "family": "Mooney",
+        "given": "R.J."
       }
     ],
     "date": [
-      "2011"
+      "2016"
+    ],
+    "title": [
+      "Learning Statistical Scripts with LSTM Recurrent Neural Networks"
     ],
     "container-title": [
-      "Proceedings of the 49th Annual Meeting of the Association for Computational Linguistics: Human Language Technologies"
+      "*AAAI.*"
     ],
-    "pages": [
-      "–"
-    ],
-    "type": "paper-conference"
+    "type": "chapter"
   },
   {
-    "citation-number": [
-      "15."
-    ],
     "author": [
       {
-        "literal": "**\"Event Extraction with Generative Adversarial Imitation Learning\"** - Zhang, Y., & Ji, H."
+        "family": "Weber",
+        "given": "N."
+      },
+      {
+        "family": "Balasubramanian",
+        "given": "N."
+      },
+      {
+        "family": "Durme",
+        "given": "B.V."
       }
     ],
     "date": [
       "2018"
     ],
-    "container-title": [
-      "Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing (EMNLP"
+    "title": [
+      "Event Representations with Tensor-Based Compositions"
     ],
-    "type": "paper-conference"
+    "container-title": [
+      "*NAACL-HLT.*"
+    ],
+    "type": "chapter"
+  },
+  {
+    "author": [
+      {
+        "family": "Zhang",
+        "given": "N."
+      },
+      {
+        "family": "Ji",
+        "given": "H."
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "title": [
+      "Event Extraction with Generative Adversarial Imitation Learning"
+    ],
+    "container-title": [
+      "*EMNLP.*"
+    ],
+    "type": "chapter"
   },
   {
     "citation-number": [
-      "16."
+      "2."
+    ],
+    "note": [
+      "**Event Extraction:**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Ahn",
+        "given": "D."
+      }
+    ],
+    "date": [
+      "2006"
     ],
     "title": [
-      "**\"Event Extraction with Neural Networks: A Rigorous Empirical Evaluation\"**"
+      "The Stages of Event Extraction"
     ],
+    "container-title": [
+      "*ACL Workshop on Annotating and Reasoning about Time and Events.*"
+    ],
+    "type": "chapter"
+  },
+  {
+    "author": [
+      {
+        "family": "Li",
+        "given": "Q."
+      },
+      {
+        "family": "Ji",
+        "given": "H."
+      },
+      {
+        "family": "Huang",
+        "given": "L."
+      }
+    ],
+    "date": [
+      "2013"
+    ],
+    "title": [
+      "Joint Event Extraction via Structured Prediction with Global Features"
+    ],
+    "container-title": [
+      "*ACL.*"
+    ],
+    "type": "chapter"
+  },
+  {
     "author": [
       {
         "family": "Nguyen",
@@ -319,90 +201,349 @@
       }
     ],
     "date": [
-      "2016"
-    ],
-    "container-title": [
-      "Proceedings of the 2016 Conference on Empirical Methods in Natural Language Processing (EMNLP"
-    ],
-    "type": "paper-conference"
-  },
-  {
-    "citation-number": [
-      "17."
-    ],
-    "author": [
-      {
-        "literal": "**\"Event Extraction with Context-Aware Neural Networks\"** - Liu, S., Chen, Y., & Sun, M."
-      }
-    ],
-    "date": [
-      "2016"
-    ],
-    "container-title": [
-      "Proceedings of the 2016 Conference on Empirical Methods in Natural Language Processing (EMNLP"
-    ],
-    "type": "paper-conference"
-  },
-  {
-    "citation-number": [
-      "18."
-    ],
-    "author": [
-      {
-        "literal": "**\"Event Extraction with Dynamic Multi-Pooling Convolutional Neural Networks\"** - Chen, Y., Liu, S., & Sun, M."
-      }
-    ],
-    "date": [
       "2015"
     ],
-    "container-title": [
-      "Proceedings of the 53rd Annual Meeting of the Association for Computational Linguistics and the 7th International Joint Conference on Natural Language Processing"
-    ],
-    "pages": [
-      "–"
-    ],
-    "type": "paper-conference"
-  },
-  {
-    "citation-number": [
-      "19."
-    ],
-    "author": [
-      {
-        "literal": "**\"Event Extraction with Structured Perceptron\"** - Li, Q., Ji, H., & Huang, L."
-      }
-    ],
-    "date": [
-      "2013"
+    "title": [
+      "Event Detection and Domain Adaptation with Convolutional Neural Networks"
     ],
     "container-title": [
-      "Proceedings of the 51st Annual Meeting of the Association for Computational Linguistics (ACL"
+      "*ACL-IJCNLP.*"
     ],
-    "type": "paper-conference"
+    "type": "chapter"
   },
   {
-    "citation-number": [
-      "20."
-    ],
     "author": [
       {
-        "literal": "**\"Event Extraction with Generative Adversarial Imitation Learning\"** - Zhang, Y., & Ji, H."
+        "family": "Chen",
+        "given": "Y."
+      },
+      {
+        "family": "Liu",
+        "given": "S."
+      },
+      {
+        "family": "Xu",
+        "given": "K."
+      },
+      {
+        "family": "Liu",
+        "given": "Z."
+      },
+      {
+        "family": "Sun",
+        "given": "M."
       }
     ],
     "date": [
       "2018"
     ],
-    "container-title": [
-      "Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing (EMNLP"
+    "title": [
+      "Event Extraction via Dynamic Multi-Pooling Convolutional Neural Networks"
     ],
-    "type": "paper-conference"
+    "container-title": [
+      "*ACL.*"
+    ],
+    "type": "chapter"
+  },
+  {
+    "author": [
+      {
+        "family": "Wadden",
+        "given": "D."
+      },
+      {
+        "family": "Wennberg",
+        "given": "U."
+      },
+      {
+        "family": "Luan",
+        "given": "Y."
+      },
+      {
+        "family": "Hajishirzi",
+        "given": "H."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "title": [
+      "Entity, Relation, and Event Extraction with Contextualized Span Representations"
+    ],
+    "container-title": [
+      "*EMNLP-IJCNLP.*"
+    ],
+    "type": "chapter"
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "note": [
+      "**Event Prediction:**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Radinsky",
+        "given": "K."
+      },
+      {
+        "family": "Davidovich",
+        "given": "S."
+      },
+      {
+        "family": "Markovitch",
+        "given": "S."
+      }
+    ],
+    "date": [
+      "2012"
+    ],
+    "title": [
+      "Learning Causality for News Events Prediction"
+    ],
+    "container-title": [
+      "*WWW.*"
+    ],
+    "type": "chapter"
+  },
+  {
+    "author": [
+      {
+        "family": "Chambers",
+        "given": "N."
+      }
+    ],
+    "date": [
+      "2013"
+    ],
+    "title": [
+      "Event Schema Induction with a Probabilistic Entity-Driven Model"
+    ],
+    "container-title": [
+      "*EMNLP.*"
+    ],
+    "type": "chapter"
+  },
+  {
+    "author": [
+      {
+        "family": "Rudinger",
+        "given": "R."
+      },
+      {
+        "family": "Rastogi",
+        "given": "P."
+      },
+      {
+        "family": "Ferraro",
+        "given": "F."
+      },
+      {
+        "family": "Durme",
+        "given": "B.V."
+      }
+    ],
+    "date": [
+      "2015"
+    ],
+    "title": [
+      "Script Induction as Language Modeling"
+    ],
+    "container-title": [
+      "*EMNLP.*"
+    ],
+    "type": "chapter"
+  },
+  {
+    "author": [
+      {
+        "family": "Granroth-Wilding",
+        "given": "M."
+      },
+      {
+        "family": "Clark",
+        "given": "S."
+      }
+    ],
+    "date": [
+      "2016"
+    ],
+    "title": [
+      "What Happens Next? Event Prediction Using a Compositional Neural Network Model"
+    ],
+    "container-title": [
+      "*AAAI.*"
+    ],
+    "type": "chapter"
+  },
+  {
+    "author": [
+      {
+        "family": "Weber",
+        "given": "N."
+      },
+      {
+        "family": "Balasubramanian",
+        "given": "N."
+      },
+      {
+        "family": "Durme",
+        "given": "B.V."
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "title": [
+      "Event Representations with Tensor-Based Compositions"
+    ],
+    "container-title": [
+      "*NAACL-HLT.*"
+    ],
+    "type": "chapter"
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "note": [
+      "**Hybrid and Advanced Methods:**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Liu",
+        "given": "H."
+      },
+      {
+        "family": "Chen",
+        "given": "Y."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "title": [
+      "Exploiting Contextual Information via Dynamic Memory Network for Event Detection"
+    ],
+    "container-title": [
+      "*NAACL-HLT.*"
+    ],
+    "type": "chapter"
+  },
+  {
+    "author": [
+      {
+        "family": "Du",
+        "given": "X."
+      },
+      {
+        "family": "Cardie",
+        "given": "C."
+      },
+      {
+        "family": "Li",
+        "given": "C."
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "title": [
+      "Event Extraction by Answering (Almost) Natural Questions"
+    ],
+    "container-title": [
+      "*EMNLP.*"
+    ],
+    "type": "chapter"
+  },
+  {
+    "author": [
+      {
+        "family": "Lin",
+        "given": "B.Y."
+      },
+      {
+        "family": "Shen",
+        "given": "M."
+      },
+      {
+        "family": "Zhou",
+        "given": "W."
+      },
+      {
+        "family": "Ren",
+        "given": "X."
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "title": [
+      "TriggerNER: Learning with Entity Triggers as Explanations for Named Entity Recognition"
+    ],
+    "container-title": [
+      "*EMNLP.*"
+    ],
+    "type": "chapter"
+  },
+  {
+    "author": [
+      {
+        "family": "Lu",
+        "given": "Y."
+      },
+      {
+        "family": "Ji",
+        "given": "H."
+      },
+      {
+        "family": "Ren",
+        "given": "X."
+      }
+    ],
+    "date": [
+      "2021"
+    ],
+    "title": [
+      "Text2Event: Controllable Sequence-to-Structure Generation for End-to-end Event Extraction"
+    ],
+    "container-title": [
+      "*ACL.*"
+    ],
+    "type": "chapter"
+  },
+  {
+    "author": [
+      {
+        "family": "Zhang",
+        "given": "N."
+      },
+      {
+        "family": "Ji",
+        "given": "H."
+      }
+    ],
+    "date": [
+      "2021"
+    ],
+    "title": [
+      "Abstract Meaning Representation Guided Graph Encoding and Decoding for Joint Information Extraction"
+    ],
+    "container-title": [
+      "*ACL.*"
+    ],
+    "type": "chapter"
   },
   {
     "title": [
-      "These articles should provide a comprehensive overview of the various methods and approaches used in event-centric NLP up to"
-    ],
-    "date": [
-      "2022"
+      "These articles provide a comprehensive overview of the state-of-the-art in event-centric NLP, including foundational work and recent advancements in the field"
     ],
     "type": null
   }

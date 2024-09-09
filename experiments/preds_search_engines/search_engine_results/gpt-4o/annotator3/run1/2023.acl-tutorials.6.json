@@ -6,16 +6,7 @@
       }
     ],
     "title": [
-      "Here's a reading list of 20 articles that cover both retrieval-based systems and language models, including reviews and recent advancements. These articles are selected to provide a comprehensive understanding of the field as of"
-    ],
-    "date": [
-      "2023"
-    ],
-    "type": null
-  },
-  {
-    "note": [
-      "### Retrieval-Based Systems"
+      "Here's a curated list of 20 articles up to 2023 that cover retrieval-based language models, including reviews of retrieval systems and language models"
     ],
     "type": null
   },
@@ -24,7 +15,7 @@
       "1."
     ],
     "title": [
-      "**\"A Survey of Retrieval-Based Question Answering Systems\"** - This article reviews various retrieval-based QA systems, discussing their architectures and performance"
+      "**\"A Survey of Retrieval-Based Question-Answering Techniques\"** - This article provides a comprehensive review of various retrieval-based QA systems"
     ],
     "type": null
   },
@@ -41,7 +32,7 @@
       "2020"
     ],
     "title": [
-      "This paper introduces Dense Passage Retrieval (DPR) and its effectiveness in open-domain QA"
+      "This paper introduces Dense Passage Retrieval (DPR), a state-of-the-art retrieval method for open-domain QA"
     ],
     "type": null
   },
@@ -49,12 +40,16 @@
     "citation-number": [
       "3."
     ],
-    "title": [
-      "**\"Anserini: Enabling the Use of Lucene for Information Retrieval Research\"** - Yang et al",
-      "This paper discusses Anserini, a toolkit for information retrieval research"
+    "author": [
+      {
+        "literal": "**\"Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks\"** - Lewis et al."
+      }
     ],
     "date": [
-      "2017"
+      "2020"
+    ],
+    "title": [
+      "This paper presents the RAG model, which combines retrieval and generation for knowledge-intensive tasks"
     ],
     "type": null
   },
@@ -64,15 +59,14 @@
     ],
     "author": [
       {
-        "given": "ColBERT"
+        "literal": "**\"REALM: Retrieval-Augmented Language Model Pre-Training\"** - Guu et al."
       }
-    ],
-    "title": [
-      "Efficient and Effective Passage Search via Contextualized Late Interaction over BERT\"** - Khattab and Zaharia",
-      "This paper presents ColBERT, a retrieval model that balances efficiency and effectiveness"
     ],
     "date": [
       "2020"
+    ],
+    "title": [
+      "This paper introduces REALM, a retrieval-augmented language model that improves performance on various NLP tasks"
     ],
     "type": null
   },
@@ -80,12 +74,17 @@
     "citation-number": [
       "5."
     ],
+    "author": [
+      {
+        "given": "ColBERT"
+      }
+    ],
     "title": [
-      "**\"Learning to Retrieve Passages without Supervision\"** - Lee et al",
-      "This article explores unsupervised methods for passage retrieval"
+      "Efficient and Effective Passage Search via Contextualized Late Interaction over BERT\"** - Khattab and Zaharia",
+      "This paper presents ColBERT, a retrieval model that uses BERT for efficient and effective passage search"
     ],
     "date": [
-      "2019"
+      "2020"
     ],
     "type": null
   },
@@ -94,7 +93,7 @@
       "6."
     ],
     "title": [
-      "**\"A Survey on Neural Information Retrieval: Models, Techniques, and Applications\"** - This survey provides a comprehensive overview of neural IR models and their applications"
+      "**\"A Survey on Knowledge-Enhanced Pre-trained Language Models\"** - This review article discusses various methods of incorporating external knowledge into pre-trained language models"
     ],
     "type": null
   },
@@ -102,17 +101,12 @@
     "citation-number": [
       "7."
     ],
-    "author": [
-      {
-        "given": "T.R.E.C.-C.O.V.I.D."
-      }
-    ],
     "title": [
-      "Rationale and Structure of an Information Retrieval Shared Task for COVID-19\"** - Voorhees et al",
-      "This paper discusses the TREC-COVID challenge and its impact on retrieval research"
+      "**\"Learning to Retrieve Passages without Supervision\"** - Lee et al",
+      "This paper introduces an unsupervised method for learning to retrieve relevant passages using BERT"
     ],
     "date": [
-      "2020"
+      "2019"
     ],
     "type": null
   },
@@ -120,12 +114,16 @@
     "citation-number": [
       "8."
     ],
-    "title": [
-      "**\"Pre-trained Transformers for Text Ranking: BERT and Beyond\"** - Lin et al",
-      "This article reviews the use of pre-trained transformers in text ranking tasks"
+    "author": [
+      {
+        "literal": "**\"Multi-Stage Document Ranking with BERT\"** - Nogueira et al."
+      }
     ],
     "date": [
-      "2020"
+      "2019"
+    ],
+    "title": [
+      "This paper explores a multi-stage approach to document ranking using BERT"
     ],
     "type": null
   },
@@ -134,11 +132,11 @@
       "9."
     ],
     "title": [
-      "**\"Deep Learning for Information Retrieval: A Survey\"** - Mitra and Craswell",
-      "This survey covers deep learning techniques applied to IR"
+      "**\"T5: Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer\"** - Raffel et al",
+      "This paper introduces the T5 model, which frames all NLP tasks as text-to-text problems"
     ],
     "date": [
-      "2018"
+      "2020"
     ],
     "type": null
   },
@@ -147,17 +145,7 @@
       "10."
     ],
     "title": [
-      "**\"Efficient and Effective Passage Retrieval in Open-Domain Question Answering with Dense Sparse Phrase Index\"** - Ma et al",
-      "This paper introduces a hybrid dense-sparse retrieval method"
-    ],
-    "date": [
-      "2021"
-    ],
-    "type": null
-  },
-  {
-    "title": [
-      "### Language Models"
+      "**\"Pre-trained Models for Natural Language Processing: A Survey\"** - This survey provides an overview of various pre-trained language models, including BERT, GPT, and their retrieval-augmented variants"
     ],
     "type": null
   },
@@ -165,17 +153,12 @@
     "citation-number": [
       "11."
     ],
-    "author": [
-      {
-        "given": "B.E.R.T."
-      }
-    ],
     "title": [
-      "Pre-training of Deep Bidirectional Transformers for Language Understanding\"** - Devlin et al",
-      "This seminal paper introduces BERT, a breakthrough in language modeling"
+      "**\"Anserini: Enabling the Use of Lucene for Information Retrieval Research\"** - Yang et al",
+      "This paper introduces Anserini, a toolkit for information retrieval research built on Lucene"
     ],
     "date": [
-      "2019"
+      "2017"
     ],
     "type": null
   },
@@ -184,11 +167,7 @@
       "12."
     ],
     "title": [
-      "**\"GPT-3: Language Models are Few-Shot Learners\"** - Brown et al",
-      "This paper presents GPT-3, a state-of-the-art language model known for its few-shot learning capabilities"
-    ],
-    "date": [
-      "2020"
+      "**\"Towards Efficient and Effective Pass Retrieval in Open-Domain Question Answering\"** - This article discusses advancements in efficient and effective passage retrieval techniques"
     ],
     "type": null
   },
@@ -197,21 +176,8 @@
       "13."
     ],
     "title": [
-      "**\"T5: Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer\"** - Raffel et al",
-      "This paper discusses the T5 model and its unified approach to NLP tasks"
-    ],
-    "date": [
-      "2020"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "14."
-    ],
-    "title": [
-      "**\"RoBERTa: A Robustly Optimized BERT Pretraining Approach\"** - Liu et al",
-      "This article presents RoBERTa, an optimized version of BERT"
+      "**\"Contextualized Sparse Representations for Real-Time Open-Domain Question Answering\"** - Seo et al",
+      "This paper presents a method for real-time open-domain QA using contextualized sparse representations"
     ],
     "date": [
       "2019"
@@ -220,11 +186,20 @@
   },
   {
     "citation-number": [
+      "14."
+    ],
+    "title": [
+      "**\"Incorporating External Knowledge into Pre-trained Language Models: A Survey\"** - This survey reviews methods for integrating external knowledge into pre-trained language models"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
       "15."
     ],
     "title": [
-      "**\"XLNet: Generalized Autoregressive Pretraining for Language Understanding\"** - Yang et al",
-      "This paper introduces XLNet, which combines autoregressive and autoencoding approaches"
+      "**\"End-to-End Open-Domain Question Answering with BERTserini\"** - Yang et al",
+      "This paper presents BERTserini, an end-to-end QA system that combines BERT with Anserini"
     ],
     "date": [
       "2019"
@@ -236,11 +211,11 @@
       "16."
     ],
     "title": [
-      "**\"ALBERT: A Lite BERT for Self-supervised Learning of Language Representations\"** - Lan et al",
-      "This paper presents ALBERT, a lighter and more efficient version of BERT"
+      "**\"Learning Dense Representations for Entity Retrieval\"** - Xiong et al",
+      "This paper introduces a method for learning dense representations for entity retrieval tasks"
     ],
     "date": [
-      "2019"
+      "2020"
     ],
     "type": null
   },
@@ -248,17 +223,8 @@
     "citation-number": [
       "17."
     ],
-    "author": [
-      {
-        "given": "E.R.N.I.E."
-      }
-    ],
     "title": [
-      "Enhanced Representation through Knowledge Integration\"** - Sun et al",
-      "This article discusses ERNIE, a model that integrates knowledge graphs into language modeling"
-    ],
-    "date": [
-      "2019"
+      "**\"A Survey on Open-Domain Question Answering: Challenges, Methods, and Future Directions\"** - This survey discusses the challenges and methods in open-domain QA, including retrieval-based approaches"
     ],
     "type": null
   },
@@ -267,7 +233,7 @@
       "18."
     ],
     "title": [
-      "**\"A Survey of Transformers\"** - This survey provides a comprehensive overview of transformer models and their applications in NLP"
+      "**\"Efficient Passage Retrieval with Contextualized Representations\"** - This article explores efficient methods for passage retrieval using contextualized representations"
     ],
     "type": null
   },
@@ -276,11 +242,7 @@
       "19."
     ],
     "title": [
-      "**\"Language Models as Knowledge Bases?\"** - Petroni et al",
-      "This paper explores the potential of language models to function as knowledge bases"
-    ],
-    "date": [
-      "2019"
+      "**\"Knowledge-Enhanced Pre-trained Language Models: A Comprehensive Survey\"** - This comprehensive survey reviews various knowledge-enhanced pre-trained language models"
     ],
     "type": null
   },
@@ -288,25 +250,14 @@
     "citation-number": [
       "20."
     ],
-    "author": [
-      {
-        "literal": "**\"The Evolved Transformer\"** - So et al."
-      }
-    ],
-    "date": [
-      "2019"
-    ],
     "title": [
-      "This paper introduces the Evolved Transformer, an architecture discovered through neural architecture search"
+      "**\"Advances in Neural Information Retrieval: A Survey\"** - This survey provides an overview of recent advances in neural information retrieval, including retrieval-based language models"
     ],
     "type": null
   },
   {
     "title": [
-      "These articles should give you a solid foundation in both retrieval-based systems and language models, covering key developments and state-of-the-art techniques up to"
-    ],
-    "date": [
-      "2023"
+      "This list includes a mix of foundational papers, recent advancements, and comprehensive surveys to give you a broad understanding of retrieval-based language models and retrieval systems"
     ],
     "type": null
   }

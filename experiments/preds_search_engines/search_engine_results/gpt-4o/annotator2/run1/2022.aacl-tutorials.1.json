@@ -6,7 +6,7 @@
       }
     ],
     "title": [
-      "Here is a list of 20 articles on knowledge graph construction published before 2023"
+      "Here's a curated reading list of 20 articles on knowledge graph construction up to 2022. These articles cover various aspects such as methodologies, tools, applications, and advancements in the field"
     ],
     "type": null
   },
@@ -33,9 +33,9 @@
     ],
     "title": [
       "**\"TransE: Translating Embeddings for Modeling Multi-relational Data\"**",
-      "NIPS"
+      "Advances in Neural Information Processing Systems"
     ],
-    "director": [
+    "author": [
       {
         "family": "Bordes",
         "given": "A."
@@ -67,8 +67,7 @@
       "3."
     ],
     "title": [
-      "**\"Knowledge Vault: A Web-scale Approach to Probabilistic Knowledge Fusion\"**",
-      "KDD"
+      "**\"Knowledge Vault: A Web-scale Approach to Probabilistic Knowledge Fusion\"**"
     ],
     "author": [
       {
@@ -106,17 +105,19 @@
     "date": [
       "2014"
     ],
-    "type": null
+    "container-title": [
+      "ACM SIGKDD International Conference on Knowledge Discovery and Data Mining"
+    ],
+    "type": "paper-conference"
   },
   {
     "citation-number": [
       "4."
     ],
     "title": [
-      "**\"DeepPath: A Reinforcement Learning Method for Knowledge Graph Reasoning\"**",
-      "EMNLP"
+      "**\"DeepPath: A Reinforcement Learning Method for Knowledge Graph Reasoning\"**"
     ],
-    "editor": [
+    "author": [
       {
         "family": "Xiong",
         "given": "W."
@@ -133,34 +134,130 @@
     "date": [
       "2017"
     ],
-    "type": null
+    "container-title": [
+      "Conference on Empirical Methods in Natural Language Processing"
+    ],
+    "type": "paper-conference"
   },
   {
     "citation-number": [
       "5."
     ],
-    "title": [
-      "**\"RDF-3X: A RISC-style Engine for RDF\"**",
-      "VLDB"
-    ],
-    "editor": [
+    "author": [
       {
-        "family": "Neumann",
-        "given": "T."
+        "given": "RDF2Vec"
       },
       {
-        "family": "Weikum",
-        "given": "G."
+        "family": "Ristoski",
+        "given": "P."
+      },
+      {
+        "family": "Paulheim",
+        "given": "H."
+      }
+    ],
+    "title": [
+      "RDF Graph Embeddings for Data Mining\"**"
+    ],
+    "date": [
+      "2016"
+    ],
+    "publisher": [
+      "International Semantic Web Conference"
+    ],
+    "type": "book"
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "author": [
+      {
+        "literal": "**\"Learning Representations of Texts and Entities from Knowledge Base\"** - Han, X., Sun, L., & Zhao, J."
       }
     ],
     "date": [
-      "2008"
+      "2011"
+    ],
+    "title": [
+      "Annual Meeting of the Association for Computational Linguistics"
     ],
     "type": null
   },
   {
     "citation-number": [
-      "6."
+      "7."
+    ],
+    "title": [
+      "**\"Towards Open Knowledge Enrichment: A Survey of Automated Knowledge Base Construction\"**"
+    ],
+    "director": [
+      {
+        "family": "Paulheim",
+        "given": "H."
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "Semantic Web Journal"
+    ]
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "author": [
+      {
+        "literal": "**\"Knowledge Graphs: A Survey\"** - Hogan, A., Blomqvist, E., Cochez, M., d'Amato, C., de Melo, G., Gutierrez, C., ... & Maleshkova, M."
+      }
+    ],
+    "date": [
+      "2021"
+    ],
+    "publisher": [
+      "ACM Computing Surveys"
+    ],
+    "type": "book"
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "title": [
+      "**\"Embedding Entities and Relations for Learning and Inference in Knowledge Bases\"**"
+    ],
+    "author": [
+      {
+        "family": "Wang",
+        "given": "Z."
+      },
+      {
+        "family": "Zhang",
+        "given": "J."
+      },
+      {
+        "family": "Feng",
+        "given": "J."
+      },
+      {
+        "family": "Chen",
+        "given": "Z."
+      }
+    ],
+    "date": [
+      "2014"
+    ],
+    "publisher": [
+      "International Conference on Learning Representations"
+    ],
+    "type": "book"
+  },
+  {
+    "citation-number": [
+      "10."
     ],
     "author": [
       {
@@ -170,18 +267,17 @@
     "date": [
       "2007"
     ],
-    "title": [
-      "WWW"
+    "publisher": [
+      "International World Wide Web Conference"
     ],
-    "type": null
+    "type": "book"
   },
   {
     "citation-number": [
-      "7."
+      "11."
     ],
     "title": [
-      "**\"Freebase: A Collaboratively Created Graph Database for Structuring Human Knowledge\"**",
-      "SIGMOD"
+      "**\"Freebase: A Collaboratively Created Graph Database for Structuring Human Knowledge\"**"
     ],
     "author": [
       {
@@ -208,146 +304,27 @@
     "date": [
       "2008"
     ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "8."
+    "container-title": [
+      "ACM SIGMOD International Conference on Management of Data"
     ],
-    "title": [
-      "**\"DBpedia: A Nucleus for a Web of Open Data\"**",
-      "ISWC"
-    ],
-    "editor": [
-      {
-        "family": "Auer",
-        "given": "S."
-      },
-      {
-        "family": "Bizer",
-        "given": "C."
-      },
-      {
-        "family": "Kobilarov",
-        "given": "G."
-      },
-      {
-        "family": "Lehmann",
-        "given": "J."
-      },
-      {
-        "family": "Cyganiak",
-        "given": "R."
-      },
-      {
-        "family": "Ives",
-        "given": "Z."
-      }
-    ],
-    "date": [
-      "2007"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "9."
-    ],
-    "author": [
-      {
-        "literal": "**\"Towards Open Knowledge Extraction\"** - Carlson, A., Betteridge, J., Kisiel, B., Settles, B., Hruschka Jr, E. R., & Mitchell, T. M."
-      }
-    ],
-    "date": [
-      "2010"
-    ],
-    "title": [
-      "AAAI"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "10."
-    ],
-    "author": [
-      {
-        "literal": "**\"NELL: Never-Ending Learning\"** - Mitchell, T. M., Cohen, W. W., Hruschka Jr, E. R., Talukdar, P. P., Betteridge, J., Carlson, A., ... & Wang, R."
-      }
-    ],
-    "date": [
-      "2018"
-    ],
-    "title": [
-      "Communications of the ACM"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "11."
-    ],
-    "title": [
-      "**\"TransH: A Hyperplane-based Embedding Model for Knowledge Graphs\"**",
-      "AAAI"
-    ],
-    "author": [
-      {
-        "family": "Wang",
-        "given": "Z."
-      },
-      {
-        "family": "Zhang",
-        "given": "J."
-      },
-      {
-        "family": "Feng",
-        "given": "J."
-      },
-      {
-        "family": "Chen",
-        "given": "Z."
-      }
-    ],
-    "date": [
-      "2014"
-    ],
-    "type": null
+    "type": "paper-conference"
   },
   {
     "citation-number": [
       "12."
     ],
-    "title": [
-      "**\"TransR: Learning Entity and Relation Embeddings for Knowledge Graph Completion\"**",
-      "AAAI"
-    ],
     "author": [
       {
-        "family": "Lin",
-        "given": "Y."
-      },
-      {
-        "family": "Liu",
-        "given": "Z."
-      },
-      {
-        "family": "Sun",
-        "given": "M."
-      },
-      {
-        "family": "Liu",
-        "given": "Y."
-      },
-      {
-        "family": "Zhu",
-        "given": "X."
+        "literal": "**\"Knowledge Graph Embedding by Translating on Hyperplanes\"** - Lin, Y., Liu, Z., Sun, M., Liu, Y., & Zhu, X."
       }
     ],
     "date": [
       "2015"
     ],
-    "type": null
+    "container-title": [
+      "AAAI Conference on Artificial Intelligence"
+    ],
+    "type": "paper-conference"
   },
   {
     "citation-number": [
@@ -355,25 +332,16 @@
     ],
     "author": [
       {
-        "given": "RDF2Vec"
-      },
-      {
-        "family": "Ristoski",
-        "given": "P."
-      },
-      {
-        "family": "Paulheim",
-        "given": "H."
+        "literal": "**\"Graph Convolutional Networks for Knowledge Graph Completion\"** - Schlichtkrull, M., Kipf, T. N., Bloem, P., van den Berg, R., Titov, I., & Welling, M."
       }
     ],
-    "title": [
-      "RDF Graph Embeddings for Data Mining\"**",
-      "ISWC"
-    ],
     "date": [
-      "2016"
+      "2018"
     ],
-    "type": null
+    "publisher": [
+      "European Semantic Web Conference"
+    ],
+    "type": "book"
   },
   {
     "citation-number": [
@@ -381,69 +349,20 @@
     ],
     "author": [
       {
-        "given": "P.R.A."
-      }
-    ],
-    "title": [
-      "Path Ranking Algorithms for Efficiently Learning Graph-based Models\"**",
-      "EMNLP"
-    ],
-    "editor": [
-      {
-        "family": "Lao",
-        "given": "N."
-      },
-      {
-        "family": "Mitchell",
-        "given": "T."
-      },
-      {
-        "family": "Cohen",
-        "given": "W.W."
+        "literal": "**\"Bootstrapping Named Entity Recognition in E-commerce with Weak Supervision\"** - Maheshwari, G., & Zhang, Y."
       }
     ],
     "date": [
-      "2011"
+      "2020"
     ],
-    "type": null
+    "container-title": [
+      "ACM SIGKDD International Conference on Knowledge Discovery and Data Mining"
+    ],
+    "type": "paper-conference"
   },
   {
     "citation-number": [
       "15."
-    ],
-    "author": [
-      {
-        "literal": "**\"Knowledge Graph Embedding by Translating on Hyperplanes\"** - Ji, G., He, S., Xu, L., Liu, K., & Zhao, J."
-      }
-    ],
-    "date": [
-      "2015"
-    ],
-    "title": [
-      "AAAI"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "16."
-    ],
-    "author": [
-      {
-        "literal": "**\"Open Information Extraction from the Web\"** - Banko, M., Cafarella, M. J., Soderland, S., Broadhead, M., & Etzioni, O."
-      }
-    ],
-    "date": [
-      "2007"
-    ],
-    "title": [
-      "IJCAI"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "17."
     ],
     "author": [
       {
@@ -460,18 +379,92 @@
   },
   {
     "citation-number": [
-      "18."
+      "16."
+    ],
+    "title": [
+      "**\"OpenIE: Extracting Open Domain Information from Text\"**"
     ],
     "author": [
       {
-        "literal": "**\"Knowledge Graphs: A Survey\"** - Hogan, A., Blomqvist, E., Cochez, M., d'Amato, C., de Melo, G., Gutierrez, C., ... & Maleshkova, M."
+        "family": "Etzioni",
+        "given": "O."
+      },
+      {
+        "family": "Banko",
+        "given": "M."
+      },
+      {
+        "family": "Soderland",
+        "given": "S."
+      },
+      {
+        "family": "Weld",
+        "given": "D.S."
       }
     ],
     "date": [
-      "2021"
+      "2008"
+    ],
+    "container-title": [
+      "International Conference on Principles of Knowledge Representation and Reasoning"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "title": [
+      "**\"Knowledge Graph Embedding with Iterative Guidance from Soft Rules\"**"
+    ],
+    "author": [
+      {
+        "family": "Guo",
+        "given": "S."
+      },
+      {
+        "family": "Wang",
+        "given": "Q."
+      },
+      {
+        "family": "Wang",
+        "given": "B."
+      },
+      {
+        "family": "Wang",
+        "given": "L."
+      },
+      {
+        "family": "Guo",
+        "given": "L."
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "container-title": [
+      "AAAI Conference on Artificial Intelligence"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "title": [
+      "**\"Knowledge Graphs and Their Role in Semantic Search\"**"
+    ],
+    "author": [
+      {
+        "family": "Singhal",
+        "given": "A."
+      }
+    ],
+    "date": [
+      "2012"
     ],
     "publisher": [
-      "ACM Computing Surveys"
+      "IEEE Internet Computing"
     ],
     "type": "book"
   },
@@ -480,47 +473,16 @@
       "19."
     ],
     "title": [
-      "**\"Embedding Entities and Relations for Learning and Inference in Knowledge Bases\"**",
-      "NIPS"
-    ],
-    "director": [
-      {
-        "family": "Bordes",
-        "given": "A."
-      },
-      {
-        "family": "Usunier",
-        "given": "N."
-      },
-      {
-        "family": "Garcia-Duran",
-        "given": "A."
-      },
-      {
-        "family": "Weston",
-        "given": "J."
-      },
-      {
-        "family": "Yakhnenko",
-        "given": "O."
-      }
-    ],
-    "date": [
-      "2013"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "20."
+      "**\"Towards a Knowledge Graph for Artificial Intelligence\"**"
     ],
     "author": [
       {
-        "literal": "**\"Towards a Knowledge Graph for AI\"** - Bollacker, K."
+        "family": "Bollacker",
+        "given": "K."
       }
     ],
     "date": [
-      "2018"
+      "2016"
     ],
     "publisher": [
       "AI Magazine"
@@ -528,8 +490,25 @@
     "type": "book"
   },
   {
+    "citation-number": [
+      "20."
+    ],
+    "author": [
+      {
+        "literal": "**\"A Survey on Knowledge Graph-based Recommender Systems\"** - Zhang, S., Yao, L., Sun, A., & Tay, Y."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "IEEE Transactions on Knowledge and Data Engineering"
+    ]
+  },
+  {
     "title": [
-      "These articles cover a range of topics related to knowledge graph construction, including embedding methods, reasoning, data integration, and open information extraction. They provide a solid foundation for understanding the various approaches and challenges in the field"
+      "These articles should provide a comprehensive overview of the field of knowledge graph construction, covering foundational theories, recent advancements, and practical applications"
     ],
     "type": null
   }

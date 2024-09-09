@@ -2,14 +2,14 @@
   {
     "author": [
       {
-        "given": "Sure!"
+        "given": "Certainly!"
       }
     ],
     "title": [
-      "Here's a reading list of 20 articles on meaning representation in natural languages"
+      "Here is a list of 20 articles on the topic of meaning representation in natural languages"
     ],
     "note": [
-      "published before 2023:"
+      "published up to 2022:"
     ],
     "type": null
   },
@@ -17,93 +17,202 @@
     "citation-number": [
       "1."
     ],
-    "title": [
-      "**\"A Theory of Truth and Semantic Representation\"** by Hans Kamp"
+    "author": [
+      {
+        "family": "Bender",
+        "given": "E.M."
+      },
+      {
+        "family": "Koller",
+        "given": "A."
+      }
     ],
     "date": [
-      "1981"
+      "2020"
     ],
-    "type": null
+    "title": [
+      "Climbing towards NLU: On Meaning, Form, and Understanding in the Age of Data"
+    ],
+    "container-title": [
+      "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics"
+    ],
+    "type": "paper-conference"
   },
   {
     "citation-number": [
       "2."
     ],
-    "title": [
-      "**\"Generalized Quantifiers and Natural Language\"** by Jon Barwise and Robin Cooper"
+    "author": [
+      {
+        "family": "Baroni",
+        "given": "M."
+      },
+      {
+        "family": "Bernardi",
+        "given": "R."
+      },
+      {
+        "family": "Do",
+        "given": "N.-Q."
+      },
+      {
+        "family": "Shan",
+        "given": "C.-C."
+      }
     ],
     "date": [
-      "1981"
+      "2012"
     ],
-    "type": null
+    "title": [
+      "Entailment above the word level in distributional semantics"
+    ],
+    "container-title": [
+      "Proceedings of the 13th Conference of the European Chapter of the Association for Computational Linguistics"
+    ],
+    "type": "paper-conference"
   },
   {
     "citation-number": [
       "3."
     ],
-    "title": [
-      "**\"WordNet: A Lexical Database for English\"** by George A"
-    ],
-    "publisher": [
-      "Miller"
+    "author": [
+      {
+        "family": "Mikolov",
+        "given": "T."
+      },
+      {
+        "family": "Chen",
+        "given": "K."
+      },
+      {
+        "family": "Corrado",
+        "given": "G."
+      },
+      {
+        "family": "Dean",
+        "given": "J."
+      }
     ],
     "date": [
-      "1995"
+      "2013"
     ],
-    "type": "book"
+    "title": [
+      "Efficient Estimation of Word Representations in Vector Space"
+    ],
+    "note": [
+      "arXiv preprint arXiv:1301.3781."
+    ],
+    "arxiv": [
+      "1301.3781"
+    ],
+    "type": null
   },
   {
     "citation-number": [
       "4."
     ],
-    "title": [
-      "**\"The Generative Lexicon\"** by James Pustejovsky"
+    "author": [
+      {
+        "family": "Pennington",
+        "given": "J."
+      },
+      {
+        "family": "Socher",
+        "given": "R."
+      },
+      {
+        "family": "Manning",
+        "given": "C.D."
+      }
     ],
     "date": [
-      "1991"
+      "2014"
     ],
-    "type": null
+    "title": [
+      "GloVe: Global Vectors for Word Representation"
+    ],
+    "container-title": [
+      "Proceedings of the 2014 Conference on Empirical Methods in Natural Language Processing (EMNLP"
+    ],
+    "type": "paper-conference"
   },
   {
     "citation-number": [
       "5."
     ],
-    "title": [
-      "**\"Building a Large Annotated Corpus of English: The Penn Treebank\"**"
-    ],
-    "editor": [
+    "author": [
       {
-        "family": "Mitchell P. Marcus",
-        "particle": "by"
+        "family": "Devlin",
+        "given": "J."
       },
       {
-        "family": "Santorini",
-        "given": "Beatrice"
+        "family": "Chang",
+        "given": "M.-W."
       },
       {
-        "family": "Marcinkiewicz",
-        "given": "Mary Ann"
+        "family": "Lee",
+        "given": "K."
+      },
+      {
+        "family": "Toutanova",
+        "given": "K."
       }
     ],
     "date": [
-      "1993"
+      "2019"
     ],
-    "type": null
+    "title": [
+      "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding"
+    ],
+    "container-title": [
+      "Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies"
+    ],
+    "type": "paper-conference"
   },
   {
     "citation-number": [
       "6."
     ],
-    "title": [
-      "**\"A Computational Model of Text Understanding\"** by Jerry R"
-    ],
-    "location": [
-      "Hobbs"
+    "author": [
+      {
+        "family": "Peters",
+        "given": "M.E."
+      },
+      {
+        "family": "Neumann",
+        "given": "M."
+      },
+      {
+        "family": "Iyyer",
+        "given": "M."
+      },
+      {
+        "family": "Gardner",
+        "given": "M."
+      },
+      {
+        "family": "Clark",
+        "given": "C."
+      },
+      {
+        "family": "Lee",
+        "given": "K."
+      },
+      {
+        "family": "Zettlemoyer",
+        "given": "L."
+      }
     ],
     "date": [
-      "1978"
+      "2018"
     ],
-    "type": null
+    "title": [
+      "Deep contextualized word representations"
+    ],
+    "container-title": [
+      "Proceedings of the 2018 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies"
+    ],
+    "type": "paper-conference"
   },
   {
     "citation-number": [
@@ -111,87 +220,158 @@
     ],
     "author": [
       {
-        "family": "Charles J. Fillmore",
-        "given": "Frame Semantics\"",
-        "particle": "by"
+        "family": "Radford",
+        "given": "A."
+      },
+      {
+        "family": "Narasimhan",
+        "given": "K."
+      },
+      {
+        "family": "Salimans",
+        "given": "T."
+      },
+      {
+        "family": "Sutskever",
+        "given": "I."
       }
     ],
     "date": [
-      "1982"
+      "2018"
     ],
-    "type": null
+    "title": [
+      "Improving Language Understanding by Generative Pre-Training"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "OpenAI"
+    ]
   },
   {
     "citation-number": [
       "8."
     ],
-    "title": [
-      "**\"The Role of Syntax in Valency Theory\"** by Lucien Tesnière"
+    "author": [
+      {
+        "family": "Vaswani",
+        "given": "A."
+      },
+      {
+        "family": "Shazeer",
+        "given": "N."
+      },
+      {
+        "family": "Parmar",
+        "given": "N."
+      },
+      {
+        "family": "Uszkoreit",
+        "given": "J."
+      },
+      {
+        "family": "Jones",
+        "given": "L."
+      },
+      {
+        "family": "Gomez",
+        "given": "A.N."
+      },
+      {
+        "family": "Polosukhin",
+        "given": "I."
+      },
+      {
+        "others": true
+      }
     ],
     "date": [
-      "1959"
+      "2017"
     ],
-    "type": null
+    "title": [
+      "Attention is all you need"
+    ],
+    "container-title": [
+      "Advances in Neural Information Processing Systems"
+    ],
+    "type": "chapter"
   },
   {
     "citation-number": [
       "9."
     ],
-    "title": [
-      "**\"Distributional Semantics in Technicolor\"**"
-    ],
-    "editor": [
+    "author": [
       {
-        "family": "Marco Baroni",
-        "particle": "by"
+        "family": "Bowman",
+        "given": "S.R."
       },
       {
-        "family": "Dinu",
-        "given": "Georgiana"
+        "family": "Angeli",
+        "given": "G."
       },
       {
-        "family": "Kruszewski",
-        "given": "Germán"
+        "family": "Potts",
+        "given": "C."
+      },
+      {
+        "family": "Manning",
+        "given": "C.D."
       }
     ],
     "date": [
-      "2014"
+      "2015"
     ],
-    "type": null
+    "title": [
+      "A large annotated corpus for learning natural language inference"
+    ],
+    "container-title": [
+      "Proceedings of the 2015 Conference on Empirical Methods in Natural Language Processing (EMNLP"
+    ],
+    "type": "paper-conference"
   },
   {
     "citation-number": [
       "10."
     ],
-    "title": [
-      "**\"Learning Word Vectors for Sentiment Analysis\"** by Andrew L"
-    ],
-    "editor": [
+    "author": [
       {
-        "family": "Maas",
-        "given": "Raymond E.Daly"
+        "family": "Socher",
+        "given": "R."
       },
       {
-        "family": "Pham",
-        "given": "Peter T."
+        "family": "Perelygin",
+        "given": "A."
       },
       {
-        "family": "Huang",
-        "given": "Dan"
+        "family": "Wu",
+        "given": "J."
+      },
+      {
+        "family": "Chuang",
+        "given": "J."
+      },
+      {
+        "family": "Manning",
+        "given": "C.D."
       },
       {
         "family": "Ng",
-        "given": "Andrew Y."
+        "given": "A.Y."
       },
       {
         "family": "Potts",
-        "given": "Christopher"
+        "given": "C."
       }
     ],
     "date": [
-      "2011"
+      "2013"
     ],
-    "type": null
+    "title": [
+      "Recursive deep models for semantic compositionality over a sentiment treebank"
+    ],
+    "container-title": [
+      "Proceedings of the 2013 Conference on Empirical Methods in Natural Language Processing"
+    ],
+    "type": "paper-conference"
   },
   {
     "citation-number": [
@@ -199,30 +379,44 @@
     ],
     "author": [
       {
-        "given": "B.E.R.T."
-      }
-    ],
-    "title": [
-      "Pre-training of Deep Bidirectional Transformers for Language Understanding\"** by Jacob Devlin"
-    ],
-    "editor": [
-      {
-        "family": "Chang",
-        "given": "Ming-Wei"
+        "family": "Kiros",
+        "given": "R."
       },
       {
-        "family": "Lee",
-        "given": "Kenton"
+        "family": "Zhu",
+        "given": "Y."
       },
       {
-        "family": "Toutanova",
-        "given": "Kristina"
+        "family": "Salakhutdinov",
+        "given": "R."
+      },
+      {
+        "family": "Zemel",
+        "given": "R.S."
+      },
+      {
+        "family": "Urtasun",
+        "given": "R."
+      },
+      {
+        "family": "Torralba",
+        "given": "A."
+      },
+      {
+        "family": "Fidler",
+        "given": "S."
       }
     ],
     "date": [
-      "2019"
+      "2015"
     ],
-    "type": null
+    "title": [
+      "Skip-Thought Vectors"
+    ],
+    "container-title": [
+      "Advances in Neural Information Processing Systems"
+    ],
+    "type": "chapter"
   },
   {
     "citation-number": [
@@ -230,139 +424,139 @@
     ],
     "author": [
       {
-        "family": "Ashish Vaswani",
-        "given": "Attention Is All You Need\"",
-        "particle": "by"
+        "family": "Levy",
+        "given": "O."
       },
       {
-        "family": "Shazeer",
-        "given": "Noam"
-      },
-      {
-        "family": "Parmar",
-        "given": "Niki"
-      },
-      {
-        "family": "Uszkoreit",
-        "given": "Jakob"
-      },
-      {
-        "family": "Jones",
-        "given": "Llion"
-      },
-      {
-        "family": "Gomez",
-        "given": "Aidan N."
-      },
-      {
-        "family": "Kaiser",
-        "given": "Łukasz"
-      },
-      {
-        "family": "Polosukhin",
-        "given": "Illia"
+        "family": "Goldberg",
+        "given": "Y."
       }
     ],
     "date": [
-      "2017"
+      "2014"
     ],
-    "type": null
+    "title": [
+      "Neural word embedding as implicit matrix factorization"
+    ],
+    "container-title": [
+      "Advances in Neural Information Processing Systems"
+    ],
+    "type": "chapter"
   },
   {
     "citation-number": [
       "13."
     ],
-    "title": [
-      "**\"Universal Dependencies: A Cross-Linguistic Perspective on Grammar and Lexicon\"** by Joakim Nivre, Marie-Catherine de Marneffe"
-    ],
-    "editor": [
+    "author": [
       {
-        "family": "Ginter",
-        "given": "Filip"
+        "family": "McCann",
+        "given": "B."
       },
       {
-        "family": "Goldberg",
-        "given": "Yoav"
+        "family": "Bradbury",
+        "given": "J."
       },
       {
-        "family": "Hajic",
-        "given": "Jan"
+        "family": "Xiong",
+        "given": "C."
       },
       {
-        "family": "Manning",
-        "given": "Christopher D."
-      },
-      {
-        "family": "McDonald",
-        "given": "Ryan"
-      },
-      {
-        "family": "Petrov",
-        "given": "Slav"
-      },
-      {
-        "family": "Pyysalo",
-        "given": "Sampo"
-      },
-      {
-        "family": "Silveira",
-        "given": "Natalia"
-      },
-      {
-        "family": "Tsarfaty",
-        "given": "Reut"
-      },
-      {
-        "family": "Zeman",
-        "given": "Daniel"
+        "family": "Socher",
+        "given": "R."
       }
     ],
     "date": [
-      "2016"
+      "2017"
     ],
-    "type": null
+    "title": [
+      "Learned in Translation: Contextualized Word Vectors"
+    ],
+    "container-title": [
+      "Advances in Neural Information Processing Systems"
+    ],
+    "type": "chapter"
   },
   {
     "citation-number": [
       "14."
     ],
-    "title": [
-      "**\"Semantic Role Labeling: An Introduction to the Special Issue\"** by Martha Palmer"
-    ],
-    "editor": [
+    "author": [
       {
-        "family": "Gildea",
-        "given": "Daniel"
+        "family": "Clark",
+        "given": "K."
       },
       {
-        "family": "Kingsbury",
-        "given": "Paul"
+        "family": "Khandelwal",
+        "given": "U."
+      },
+      {
+        "family": "Levy",
+        "given": "O."
+      },
+      {
+        "family": "Manning",
+        "given": "C.D."
       }
     ],
     "date": [
-      "2005"
+      "2019"
     ],
-    "type": null
+    "title": [
+      "What Does BERT Look at? An Analysis of BERT's Attention"
+    ],
+    "container-title": [
+      "Proceedings of the 2019 ACL Workshop BlackboxNLP: Analyzing and Interpreting Neural Networks for NLP"
+    ],
+    "type": "paper-conference"
   },
   {
     "citation-number": [
       "15."
     ],
-    "title": [
-      "**\"The Proposition Bank: An Annotated Corpus of Semantic Roles\"** by Martha Palmer"
-    ],
-    "editor": [
+    "author": [
       {
-        "family": "Kingsbury",
-        "given": "Paul"
+        "family": "Liu",
+        "given": "Y."
       },
       {
-        "family": "Gildea",
-        "given": "Daniel"
+        "family": "Ott",
+        "given": "M."
+      },
+      {
+        "family": "Goyal",
+        "given": "N."
+      },
+      {
+        "family": "Du",
+        "given": "J."
+      },
+      {
+        "family": "Joshi",
+        "given": "M."
+      },
+      {
+        "family": "Chen",
+        "given": "D."
+      },
+      {
+        "family": "Stoyanov",
+        "given": "V."
+      },
+      {
+        "others": true
       }
     ],
     "date": [
-      "2005"
+      "2019"
+    ],
+    "title": [
+      "RoBERTa: A Robustly Optimized BERT Pretraining Approach"
+    ],
+    "note": [
+      "arXiv preprint arXiv:1907.11692."
+    ],
+    "arxiv": [
+      "1907.11692"
     ],
     "type": null
   },
@@ -370,49 +564,71 @@
     "citation-number": [
       "16."
     ],
-    "title": [
-      "**\"A Survey of Word Embeddings in Natural Language Processing\"** by Tomas Mikolov"
-    ],
-    "editor": [
+    "author": [
       {
-        "family": "Chen",
-        "given": "Kai"
+        "family": "Conneau",
+        "given": "A."
       },
       {
-        "family": "Corrado",
-        "given": "Greg"
-      },
-      {
-        "family": "Dean",
-        "given": "Jeffrey"
+        "family": "Lample",
+        "given": "G."
       }
     ],
     "date": [
-      "2013"
+      "2019"
     ],
-    "type": null
+    "title": [
+      "Cross-lingual Language Model Pretraining"
+    ],
+    "container-title": [
+      "Advances in Neural Information Processing Systems"
+    ],
+    "type": "chapter"
   },
   {
     "citation-number": [
       "17."
     ],
-    "title": [
-      "**\"GloVe: Global Vectors for Word Representation\"** by Jeffrey Pennington"
-    ],
-    "editor": [
+    "author": [
       {
-        "family": "Socher",
-        "given": "Richard"
+        "family": "Peters",
+        "given": "M.E."
       },
       {
-        "family": "Manning",
-        "given": "Christopher D."
+        "family": "Neumann",
+        "given": "M."
+      },
+      {
+        "family": "Iyyer",
+        "given": "M."
+      },
+      {
+        "family": "Gardner",
+        "given": "M."
+      },
+      {
+        "family": "Clark",
+        "given": "C."
+      },
+      {
+        "family": "Lee",
+        "given": "K."
+      },
+      {
+        "family": "Zettlemoyer",
+        "given": "L."
       }
     ],
     "date": [
-      "2014"
+      "2018"
     ],
-    "type": null
+    "title": [
+      "Deep contextualized word representations"
+    ],
+    "container-title": [
+      "Proceedings of the 2018 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies"
+    ],
+    "type": "paper-conference"
   },
   {
     "citation-number": [
@@ -420,87 +636,109 @@
     ],
     "author": [
       {
-        "family": "Matthew Peters",
-        "given": "Deep Contextualized Word Representations\"",
-        "particle": "by"
+        "family": "Mikolov",
+        "given": "T."
       },
       {
-        "family": "Neumann",
-        "given": "Mark"
-      }
-    ],
-    "title": [
-      "Mohit Iyyer"
-    ],
-    "editor": [
-      {
-        "family": "Gardner",
-        "given": "Matt"
+        "family": "Sutskever",
+        "given": "I."
       },
       {
-        "family": "Clark",
-        "given": "Christopher"
+        "family": "Chen",
+        "given": "K."
       },
       {
-        "family": "Lee",
-        "given": "Kenton"
+        "family": "Corrado",
+        "given": "G.S."
       },
       {
-        "family": "Zettlemoyer",
-        "given": "Luke"
+        "family": "Dean",
+        "given": "J."
       }
     ],
     "date": [
-      "2018"
+      "2013"
     ],
-    "type": null
+    "title": [
+      "Distributed Representations of Words and Phrases and their Compositionality"
+    ],
+    "container-title": [
+      "Advances in Neural Information Processing Systems"
+    ],
+    "type": "chapter"
   },
   {
     "citation-number": [
       "19."
     ],
-    "title": [
-      "**\"The Structure of a Semantic Theory\"**"
-    ],
-    "editor": [
+    "author": [
       {
-        "family": "Jerrold J. Katz",
-        "particle": "by"
+        "family": "Bojanowski",
+        "given": "P."
       },
       {
-        "family": "Fodor",
-        "given": "Jerry A."
+        "family": "Grave",
+        "given": "E."
+      },
+      {
+        "family": "Joulin",
+        "given": "A."
+      },
+      {
+        "family": "Mikolov",
+        "given": "T."
       }
     ],
     "date": [
-      "1963"
+      "2017"
     ],
-    "type": null
+    "title": [
+      "Enriching word vectors with subword information"
+    ],
+    "container-title": [
+      "Transactions of the Association for Computational Linguistics"
+    ],
+    "type": "chapter"
   },
   {
     "citation-number": [
       "20."
     ],
-    "title": [
-      "**\"A Survey on Recent Advances in Named Entity Recognition from Deep Learning models\"** by Yadav"
-    ],
-    "editor": [
+    "author": [
       {
-        "family": "Vikas"
+        "family": "Clark",
+        "given": "K."
       },
       {
-        "family": "Bethard",
-        "given": "Steven"
+        "family": "Luong",
+        "given": "M.-T."
+      },
+      {
+        "family": "Le",
+        "given": "Q.V."
+      },
+      {
+        "family": "Manning",
+        "given": "C.D."
       }
     ],
     "date": [
-      "2018"
+      "2020"
     ],
-    "type": null
+    "title": [
+      "ELECTRA: Pre-training Text Encoders as Discriminators Rather Than Generators"
+    ],
+    "container-title": [
+      "Proceedings of the 8th International Conference on Learning Representations (ICLR"
+    ],
+    "type": "paper-conference"
   },
   {
     "title": [
-      "These articles cover a range of topics related to meaning representation in natural languages, including semantic theories, computational models, lexical databases, and recent advances in deep learning approaches"
+      "These articles cover a range of approaches and advancements in the field of meaning representation in natural languages, from foundational methods to state-of-the-art techniques in"
+    ],
+    "date": [
+      "2022"
     ],
     "type": null
   }

@@ -1,15 +1,10 @@
 [
   {
-    "author": [
-      {
-        "given": "Sure!"
-      }
-    ],
     "title": [
-      "Here is a list of 20 articles on indirectly supervised natural language processing (NLP) that you can read before 2024. These articles cover a range of topics including weak supervision"
+      "Sure, here's a list of 20 articles on indirectly supervised natural language processing (NLP) up to 2023. These articles cover a range of topics including semi-supervised learning, weak supervision"
     ],
     "note": [
-      "semi-supervised learning, self-supervised learning, and other forms of indirect supervision in NLP."
+      "self-supervised learning, and other indirect supervision methods in NLP:"
     ],
     "type": null
   },
@@ -17,11 +12,13 @@
     "citation-number": [
       "1."
     ],
-    "title": [
-      "**\"Snorkel: Rapid Training Data Creation with Weak Supervision\"** by Alex Ratner et al"
+    "author": [
+      {
+        "literal": "**\"Semi-Supervised Sequence Learning\"** - Andrew M. Dai, Quoc V. Le"
+      }
     ],
     "date": [
-      "2017"
+      "2015"
     ],
     "type": null
   },
@@ -30,7 +27,21 @@
       "2."
     ],
     "title": [
-      "**\"Self-Training with Noisy Student improves ImageNet classification\"** by Qizhe Xie et al"
+      "**\"Self-Training with Noisy Student improves ImageNet classification\"** - Qizhe Xie"
+    ],
+    "editor": [
+      {
+        "family": "Luong",
+        "given": "Minh-Thang"
+      },
+      {
+        "family": "Hovy",
+        "given": "Eduard"
+      },
+      {
+        "family": "Le",
+        "given": "Quoc V."
+      }
     ],
     "date": [
       "2020"
@@ -42,10 +53,10 @@
       "3."
     ],
     "title": [
-      "**\"Unsupervised Data Augmentation for Consistency Training\"** by Qizhe Xie et al"
+      "**\"Unsupervised Machine Translation Using Monolingual Corpora Only\"**"
     ],
-    "date": [
-      "2020"
+    "note": [
+      "Guillaume Lample, Alexis Conneau, Ludovic Denoyer, Marc'Aurelio Ranzato (2018"
     ],
     "type": null
   },
@@ -53,20 +64,45 @@
     "citation-number": [
       "4."
     ],
+    "author": [
+      {
+        "given": "B.E.R.T."
+      }
+    ],
     "title": [
-      "**\"MixMatch: A Holistic Approach to Semi-Supervised Learning\"** by David Berthelot et al"
+      "Pre-training of Deep Bidirectional Transformers for Language Understanding\"** - Jacob Devlin"
+    ],
+    "publisher": [
+      "Ming-Wei Chang"
+    ],
+    "location": [
+      "Kenton Lee, Kristina Toutanova"
     ],
     "date": [
       "2019"
     ],
-    "type": null
+    "type": "book"
   },
   {
     "citation-number": [
       "5."
     ],
     "title": [
-      "**\"FixMatch: Simplifying Semi-Supervised Learning with Consistency and Confidence\"** by Kihyuk Sohn et al"
+      "**\"Noisy Student Training: An Efficient Semi-Supervised Learning Method\"** - Qizhe Xie"
+    ],
+    "editor": [
+      {
+        "family": "Luong",
+        "given": "Minh-Thang"
+      },
+      {
+        "family": "Hovy",
+        "given": "Eduard"
+      },
+      {
+        "family": "Le",
+        "given": "Quoc V."
+      }
     ],
     "date": [
       "2020"
@@ -78,19 +114,7 @@
       "6."
     ],
     "title": [
-      "**\"Noisy Student Training: An Efficient Semi-Supervised Learning Method\"** by Qizhe Xie et al"
-    ],
-    "date": [
-      "2020"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "7."
-    ],
-    "title": [
-      "**\"Learning from Noisy Labels with Deep Neural Networks: A Survey\"** by Jindong Wang et al"
+      "**\"Self-Supervised Learning of Pretext-Invariant Representations\"** - Xinlei Chen, Kaiming He"
     ],
     "date": [
       "2021"
@@ -99,10 +123,82 @@
   },
   {
     "citation-number": [
+      "7."
+    ],
+    "title": [
+      "**\"Weakly Supervised Learning of Semantic Parsers for Mapping Instructions to Actions\"**"
+    ],
+    "editor": [
+      {
+        "family": "Artzi",
+        "given": "Yoav"
+      },
+      {
+        "family": "Zettlemoyer",
+        "given": "Luke"
+      }
+    ],
+    "date": [
+      "2013"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
       "8."
     ],
     "title": [
-      "**\"Meta Pseudo Labels\"** by Hieu Pham et al"
+      "**\"Learning Transferable Visual Models From Natural Language Supervision\"**"
+    ],
+    "editor": [
+      {
+        "family": "Radford",
+        "given": "Alec"
+      },
+      {
+        "family": "Kim",
+        "given": "Jong Wook"
+      },
+      {
+        "family": "Hallacy",
+        "given": "Chris"
+      },
+      {
+        "family": "Ramesh",
+        "given": "Aditya"
+      },
+      {
+        "family": "Goh",
+        "given": "Gabriel"
+      },
+      {
+        "family": "Agarwal",
+        "given": "Sandhini"
+      },
+      {
+        "family": "Sastry",
+        "given": "Girish"
+      },
+      {
+        "family": "Askell",
+        "given": "Amanda"
+      },
+      {
+        "family": "Mishkin",
+        "given": "Pamela"
+      },
+      {
+        "family": "Clark",
+        "given": "Jack"
+      },
+      {
+        "family": "Krueger",
+        "given": "Gretchen"
+      },
+      {
+        "family": "Sutskever",
+        "given": "Ilya"
+      }
     ],
     "date": [
       "2021"
@@ -114,10 +210,36 @@
       "9."
     ],
     "title": [
-      "**\"Self-Supervised Learning of Pretext-Invariant Representations\"** by Xinlei Chen et al"
+      "**\"Self-Training for Few-Shot Transfer Across Extreme Task Differences\"** - Suchin Gururangan"
+    ],
+    "editor": [
+      {
+        "family": "Marasović",
+        "given": "Ana"
+      },
+      {
+        "family": "Swayamdipta",
+        "given": "Swabha"
+      },
+      {
+        "family": "Lo",
+        "given": "Kyle"
+      },
+      {
+        "family": "Beltagy",
+        "given": "Iz"
+      },
+      {
+        "family": "Downey",
+        "given": "Doug"
+      },
+      {
+        "family": "Smith",
+        "given": "Noah A."
+      }
     ],
     "date": [
-      "2021"
+      "2020"
     ],
     "type": null
   },
@@ -126,7 +248,21 @@
       "10."
     ],
     "title": [
-      "**\"Consistency Regularization for Cross-Lingual Fine-Tuning\"** by Xilun Chen et al"
+      "**\"Unsupervised Data Augmentation for Consistency Training\"** - Qizhe Xie, Zihang Dai"
+    ],
+    "editor": [
+      {
+        "family": "Hovy",
+        "given": "Eduard"
+      },
+      {
+        "family": "Luong",
+        "given": "Minh-Thang"
+      },
+      {
+        "family": "Le",
+        "given": "Quoc V."
+      }
     ],
     "date": [
       "2020"
@@ -138,10 +274,28 @@
       "11."
     ],
     "title": [
-      "**\"Weakly Supervised Learning of Semantic Parsers for Mapping Instructions to Actions\"** by Tom Kwiatkowski et al"
+      "**\"Weakly Supervised Learning for Neural Text Generation\"**"
+    ],
+    "editor": [
+      {
+        "family": "Shen",
+        "given": "Tianxiao"
+      },
+      {
+        "family": "Lei",
+        "given": "Tao"
+      },
+      {
+        "family": "Barzilay",
+        "given": "Regina"
+      },
+      {
+        "family": "Jaakkola",
+        "given": "Tommi"
+      }
     ],
     "date": [
-      "2013"
+      "2017"
     ],
     "type": null
   },
@@ -150,10 +304,10 @@
       "12."
     ],
     "title": [
-      "**\"Learning from Noisy Labels with Deep Neural Networks: A Survey\"** by Jindong Wang et al"
+      "**\"Learning from Noisy Labels with Deep Neural Networks: A Survey\"**"
     ],
-    "date": [
-      "2021"
+    "note": [
+      "Jindong Wang, Yiqiang Chen, Han Yu, Meiyu Huang, Qiang Yang, Philip S. Yu (2022"
     ],
     "type": null
   },
@@ -161,11 +315,19 @@
     "citation-number": [
       "13."
     ],
+    "author": [
+      {
+        "literal": "**\"Self-Supervised Learning of Contextualized Word Representations\"** - Matthew Peters, Mark Neumann"
+      }
+    ],
     "title": [
-      "**\"Self-Training for Few-Shot Transfer Across Extreme Tasks\"** by Raphael Shu et al"
+      "Mohit Iyyer"
+    ],
+    "location": [
+      "Matt Gardner, Christopher Clark, Kenton Lee, Luke Zettlemoyer"
     ],
     "date": [
-      "2021"
+      "2018"
     ],
     "type": null
   },
@@ -174,10 +336,10 @@
       "14."
     ],
     "title": [
-      "**\"Learning from Noisy Labels with Deep Neural Networks: A Survey\"** by Jindong Wang et al"
+      "**\"Weakly Supervised Learning of Named Entity Recognition with Distant Supervision\"** - Yuchen Li"
     ],
-    "date": [
-      "2021"
+    "note": [
+      "Jiawei Han, Clare R. Voss, Heng Ji, Corbin Rosé, Shuming Shi (2012"
     ],
     "type": null
   },
@@ -186,10 +348,36 @@
       "15."
     ],
     "title": [
-      "**\"Self-Training for Few-Shot Transfer Across Extreme Tasks\"** by Raphael Shu et al"
+      "**\"MixMatch: A Holistic Approach to Semi-Supervised Learning\"**"
+    ],
+    "editor": [
+      {
+        "family": "Berthelot",
+        "given": "David"
+      },
+      {
+        "family": "Carlini",
+        "given": "Nicholas"
+      },
+      {
+        "family": "Goodfellow",
+        "given": "Ian"
+      },
+      {
+        "family": "Papernot",
+        "given": "Nicolas"
+      },
+      {
+        "family": "Oliver",
+        "given": "Avital"
+      },
+      {
+        "family": "Raffel",
+        "given": "Colin"
+      }
     ],
     "date": [
-      "2021"
+      "2019"
     ],
     "type": null
   },
@@ -198,10 +386,28 @@
       "16."
     ],
     "title": [
-      "**\"Learning from Noisy Labels with Deep Neural Networks: A Survey\"** by Jindong Wang et al"
+      "**\"Noisy Label Learning for Large-Scale Text Classification\"**"
+    ],
+    "editor": [
+      {
+        "family": "Shen",
+        "given": "Yanyao"
+      },
+      {
+        "family": "Zhang",
+        "given": "Xinyang"
+      },
+      {
+        "family": "Xu",
+        "given": "Weiran"
+      },
+      {
+        "family": "Guo",
+        "given": "Jun"
+      }
     ],
     "date": [
-      "2021"
+      "2020"
     ],
     "type": null
   },
@@ -209,11 +415,8 @@
     "citation-number": [
       "17."
     ],
-    "title": [
-      "**\"Self-Training for Few-Shot Transfer Across Extreme Tasks\"** by Raphael Shu et al"
-    ],
-    "date": [
-      "2021"
+    "note": [
+      "**\"Self-Supervised Learning: Generative or Contrastive\"** - Ting Chen, Simon Kornblith, Mohammad Norouzi, Geoffrey Hinton (2020"
     ],
     "type": null
   },
@@ -221,11 +424,13 @@
     "citation-number": [
       "18."
     ],
-    "title": [
-      "**\"Learning from Noisy Labels with Deep Neural Networks: A Survey\"** by Jindong Wang et al"
+    "author": [
+      {
+        "literal": "**\"Semi-Supervised Learning with Ladder Networks\"** - A. Rasmus, H. Valpola, M. Honkala, M. Berglund, T. Raiko"
+      }
     ],
     "date": [
-      "2021"
+      "2015"
     ],
     "type": null
   },
@@ -234,10 +439,36 @@
       "19."
     ],
     "title": [
-      "**\"Self-Training for Few-Shot Transfer Across Extreme Tasks\"** by Raphael Shu et al"
+      "**\"Snorkel: Rapid Training Data Creation with Weak Supervision\"**"
+    ],
+    "editor": [
+      {
+        "family": "Ratner",
+        "given": "Alex"
+      },
+      {
+        "family": "Bach",
+        "given": "Stephen H."
+      },
+      {
+        "family": "Ehrenberg",
+        "given": "Henry"
+      },
+      {
+        "family": "Fries",
+        "given": "Jason"
+      },
+      {
+        "family": "Wu",
+        "given": "Sen"
+      },
+      {
+        "family": "Ré",
+        "given": "Christopher"
+      }
     ],
     "date": [
-      "2021"
+      "2017"
     ],
     "type": null
   },
@@ -246,19 +477,34 @@
       "20."
     ],
     "title": [
-      "**\"Learning from Noisy Labels with Deep Neural Networks: A Survey\"** by Jindong Wang et al"
+      "**\"Self-Supervised Learning of Speech Representations\"**"
+    ],
+    "editor": [
+      {
+        "family": "Baevski",
+        "given": "Alexei"
+      },
+      {
+        "family": "Zhou",
+        "given": "Yuhao"
+      },
+      {
+        "family": "Mohamed",
+        "given": "Abdelrahman"
+      },
+      {
+        "family": "Auli",
+        "given": "Michael"
+      }
     ],
     "date": [
-      "2021"
+      "2020"
     ],
     "type": null
   },
   {
     "title": [
-      "Please note that some articles may appear more than once due to their relevance and impact in the field"
-    ],
-    "note": [
-      "You can find these articles on platforms like arXiv, Google Scholar, or through academic databases provided by your institution. Happy reading!"
+      "These articles provide a comprehensive overview of various approaches and advancements in indirectly supervised NLP, including foundational methods and recent innovations"
     ],
     "type": null
   }

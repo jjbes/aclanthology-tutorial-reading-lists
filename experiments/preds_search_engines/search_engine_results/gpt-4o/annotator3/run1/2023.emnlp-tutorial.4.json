@@ -2,11 +2,11 @@
   {
     "author": [
       {
-        "given": "Sure!"
+        "given": "Certainly!"
       }
     ],
     "title": [
-      "Here's a reading list of 20 articles that discuss conditioning large language models (LLMs) using task instructions, including various methods for creating such instructions. These articles cover a range of approaches and insights into the topic"
+      "Here is a reading list of 20 articles up to 2023 that discuss conditioning large language models (LLMs) using task instructions, including various methods of creating such instructions"
     ],
     "type": null
   },
@@ -26,6 +26,17 @@
     "type": "book"
   },
   {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Introduces GPT-3 and its ability to perform tasks with few-shot, one-shot, and zero-shot learning"
+    ],
+    "type": null
+  },
+  {
     "citation-number": [
       "2."
     ],
@@ -41,14 +52,36 @@
     ]
   },
   {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Discusses the T5 model and the text-to-text framework for task conditioning"
+    ],
+    "type": null
+  },
+  {
     "citation-number": [
       "3."
     ],
     "title": [
-      "**\"Instruction-based Fine-Tuning for Zero-Shot Task Generalization\"** - Mishra et al"
+      "**\"Instruction-based Fine-Tuning for Zero-Shot Task Generalization\"** - Wei et al"
     ],
     "date": [
       "2021"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Explores fine-tuning LLMs with task instructions to improve zero-shot performance"
     ],
     "type": null
   },
@@ -68,14 +101,36 @@
     "type": "book"
   },
   {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Examines the use of prompt programming to condition LLMs for various tasks"
+    ],
+    "type": null
+  },
+  {
     "citation-number": [
       "5."
     ],
     "title": [
-      "**\"Unsupervised Data Augmentation for Consistency Training\"** - Xie et al"
+      "**\"Multitask Prompted Training Enables Zero-Shot Task Generalization\"** - Sanh et al"
     ],
     "date": [
-      "2020"
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Investigates multitask prompted training to enhance zero-shot task generalization"
     ],
     "type": null
   },
@@ -84,15 +139,23 @@
       "6."
     ],
     "title": [
-      "**\"Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer\"**"
+      "**\"Unsupervised Translation of Programming Languages\"** - Lachaux et al"
     ],
     "date": [
       "2020"
     ],
-    "type": "article-journal",
-    "container-title": [
-      "Raffel et al"
-    ]
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Discusses unsupervised methods for translating programming languages using LLMs"
+    ],
+    "type": null
   },
   {
     "citation-number": [
@@ -107,8 +170,42 @@
     "type": null
   },
   {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Explores using human feedback to improve task-specific performance in summarization"
+    ],
+    "type": null
+  },
+  {
     "citation-number": [
       "8."
+    ],
+    "title": [
+      "**\"Scaling Laws for Neural Language Models\"** - Kaplan et al"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Analyzes scaling laws and their implications for conditioning LLMs on tasks"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
     ],
     "title": [
       "**\"Zero-Shot Text Classification with Generative Language Models\"** - Yin et al"
@@ -119,14 +216,13 @@
     "type": null
   },
   {
-    "citation-number": [
-      "9."
+    "author": [
+      {
+        "literal": "-"
+      }
     ],
     "title": [
-      "**\"Multitask Prompted Training Enables Zero-Shot Task Generalization\"** - Sanh et al"
-    ],
-    "date": [
-      "2021"
+      "Discusses zero-shot text classification using generative language models"
     ],
     "type": null
   },
@@ -135,10 +231,24 @@
       "10."
     ],
     "title": [
-      "**\"The Power of Scale for Parameter-Efficient Prompt Tuning\"** - Lester et al"
+      "**\"Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer\"**"
     ],
     "date": [
-      "2021"
+      "2020"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "Raffel et al"
+    ]
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Provides insights into the T5 model and its application to various NLP tasks"
     ],
     "type": null
   },
@@ -147,40 +257,72 @@
       "11."
     ],
     "title": [
-      "**\"Prefix-Tuning: Optimizing Continuous Prompts for Generation\"**"
-    ],
-    "publisher": [
-      "Li and Liang"
+      "**\"Language Models as Knowledge Bases?\"** - Petroni et al"
     ],
     "date": [
-      "2021"
+      "2019"
     ],
-    "type": "book"
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Investigates the potential of LLMs to serve as knowledge bases and respond to factual queries"
+    ],
+    "type": null
   },
   {
     "citation-number": [
       "12."
     ],
     "title": [
-      "**\"P-Tuning: Prompt Tuning Can Be Comparable to Fine-Tuning Across Scales and Tasks\"**"
+      "**\"Improving Language Understanding by Generative Pre-Training\"** - Radford et al"
     ],
     "date": [
-      "2021"
+      "2018"
     ],
-    "type": "article-journal",
-    "container-title": [
-      "Liu et al"
-    ]
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Introduces the concept of generative pre-training for improving language understanding"
+    ],
+    "type": null
   },
   {
     "citation-number": [
       "13."
     ],
+    "author": [
+      {
+        "given": "B.E.R.T."
+      }
+    ],
     "title": [
-      "**\"Calibrate Before Use: Improving Few-Shot Performance of Language Models\"** - Zhao et al"
+      "Pre-training of Deep Bidirectional Transformers for Language Understanding\"** - Devlin et al"
     ],
     "date": [
-      "2021"
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Discusses BERT and its impact on task-specific performance through pre-training"
     ],
     "type": null
   },
@@ -189,25 +331,50 @@
       "14."
     ],
     "title": [
-      "**\"Adapting Language Models for Zero-Shot Learning by Meta-Learning\"**"
+      "**\"UnifiedQA: Crossing Format Boundaries with a Single QA System\"**"
     ],
     "date": [
       "2020"
     ],
     "type": "article-journal",
     "container-title": [
-      "Bansal et al"
+      "Khashabi et al"
     ]
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Explores a unified approach to question answering across different formats"
+    ],
+    "type": null
   },
   {
     "citation-number": [
       "15."
     ],
     "title": [
-      "**\"Learning to Prompt for Vision-Language Models\"** - Jia et al"
+      "**\"Few-Shot Text Generation with Pattern-Exploiting Training\"**"
+    ],
+    "publisher": [
+      "Schick and Schütze"
     ],
     "date": [
       "2021"
+    ],
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Examines few-shot text generation using pattern-exploiting training techniques"
     ],
     "type": null
   },
@@ -215,13 +382,25 @@
     "citation-number": [
       "16."
     ],
-    "author": [
-      {
-        "literal": "**\"Prompting GPT-3 To Be Reliable\"** - Perez et al."
-      }
+    "title": [
+      "**\"Language Models as Few-Shot Learners: A Study on Task Instructions\"**"
     ],
     "date": [
       "2021"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "Mishra et al"
+    ]
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Investigates the effectiveness of task instructions in few-shot learning scenarios"
     ],
     "type": null
   },
@@ -230,10 +409,21 @@
       "17."
     ],
     "title": [
-      "**\"Improving Language Models by Retrieving from Trillions of Tokens\"** - Borgeaud et al"
+      "**\"Prompting GPT-3 to be Reliable\"** - Perez et al"
     ],
     "date": [
       "2021"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Discusses methods to improve the reliability of GPT-3 through prompting"
     ],
     "type": null
   },
@@ -242,10 +432,21 @@
       "18."
     ],
     "title": [
-      "**\"Few-Shot Learning with Prompt-Based Finetuning\"** - Gao et al"
+      "**\"Meta-Learning for Few-Shot NLP: A Survey\"** - Hospedales et al"
     ],
     "date": [
       "2021"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Surveys meta-learning approaches for few-shot learning in NLP"
     ],
     "type": null
   },
@@ -253,11 +454,22 @@
     "citation-number": [
       "19."
     ],
-    "title": [
-      "**\"Prompting for a Conversation: How to Control a Dialog Model\"** - Roller et al"
+    "container-title": [
+      "**\"Cross-Task Generalization via Natural Language Crowdsourcing Instructions\"** - Mishra et al"
     ],
     "date": [
       "2021"
+    ],
+    "type": "chapter"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Explores the use of crowdsourced natural language instructions for cross-task generalization"
     ],
     "type": null
   },
@@ -265,19 +477,28 @@
     "citation-number": [
       "20."
     ],
-    "author": [
-      {
-        "literal": "**\"Towards Few-Shot Fact-Checking via Perplexity\"** - Lee et al."
-      }
+    "title": [
+      "**\"Task-Agnostic Meta-Learning for Few-Shot Learning\"** - Finn et al"
     ],
     "date": [
-      "2021"
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Introduces task-agnostic meta-learning and its application to few-shot learning"
     ],
     "type": null
   },
   {
     "title": [
-      "These articles should provide a comprehensive overview of the current research and methodologies in conditioning LLMs using task instructions, including various techniques for creating and optimizing these instructions"
+      "These articles cover a range of topics related to conditioning LLMs with task instructions, including few-shot learning, prompt programming, multitask training, and the use of human feedback"
     ],
     "type": null
   }

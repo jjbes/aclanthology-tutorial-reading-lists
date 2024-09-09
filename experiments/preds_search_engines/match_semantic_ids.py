@@ -32,10 +32,10 @@ def match_semantic_scholar_id(preds):
             matched[k] = []
     return matched
 
-for annotator_i in [1,2,3]:
-    preds_google_scholar_annot_ids = match_semantic_scholar_id(json.loads(Path(f'preds/google_scholar/preds_annot{annotator_i}.json').read_text()))
-    with open(f'preds/google_scholar/preds_annot{annotator_i}.json', 'w') as f:
-        json.dump(preds_google_scholar_annot_ids, f)
+#for annotator_i in [1,2,3]:
+#    preds_google_scholar_annot_ids = match_semantic_scholar_id(json.loads(Path(f'preds/google_scholar/preds_annot{annotator_i}.json').read_text()))
+#    with open(f'preds/google_scholar/preds_annot{annotator_i}.json', 'w') as f:
+#        json.dump(preds_google_scholar_annot_ids, f)
 
 for annotator_i in [1,2,3]:
     for run_i in [1,2,3]:

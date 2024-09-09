@@ -2,16 +2,29 @@
   {
     "author": [
       {
-        "given": "Sure!"
+        "given": "Certainly!"
       }
     ],
     "title": [
-      "Here's a reading list of 20 articles on causal inference in the context of machine learning (ML"
+      "Here is a reading list of 20 articles up to 2022 that cover various aspects of causal inference in the context of machine learning (ML"
     ],
     "container-title": [
-      "and natural language processing (NLP), covering topics such as causality in general, causal discovery, and causal effects"
+      "and natural language processing (NLP). These articles include foundational works on causality, causal discovery, and causal effects"
     ],
     "type": "chapter"
+  },
+  {
+    "editor": [
+      {
+        "family": "ML",
+        "given": "General Causality",
+        "particle": "in"
+      },
+      {
+        "given": "N.L.P."
+      }
+    ],
+    "type": null
   },
   {
     "citation-number": [
@@ -27,51 +40,16 @@
       "2009"
     ],
     "title": [
-      "Causal inference in statistics: An overview"
-    ],
-    "volume": [
-      "3"
-    ],
-    "pages": [
-      "96–146"
-    ],
-    "type": "article-journal",
-    "container-title": [
-      "*Statistics Surveys*"
-    ]
-  },
-  {
-    "citation-number": [
-      "2."
-    ],
-    "author": [
-      {
-        "family": "Spirtes",
-        "given": "P."
-      },
-      {
-        "family": "Glymour",
-        "given": "C."
-      },
-      {
-        "family": "Scheines",
-        "given": "R."
-      }
-    ],
-    "date": [
-      "2000"
-    ],
-    "title": [
-      "*Causation, Prediction, and Search*"
+      "*Causality: Models, Reasoning, and Inference.*"
     ],
     "publisher": [
-      "MIT Press"
+      "Cambridge University Press"
     ],
     "type": "book"
   },
   {
     "citation-number": [
-      "3."
+      "2."
     ],
     "author": [
       {
@@ -91,7 +69,7 @@
       "2017"
     ],
     "title": [
-      "*Elements of Causal Inference: Foundations and Learning Algorithms*"
+      "*Elements of Causal Inference: Foundations and Learning Algorithms.*"
     ],
     "publisher": [
       "MIT Press"
@@ -100,67 +78,28 @@
   },
   {
     "citation-number": [
+      "3."
+    ],
+    "author": [
+      {
+        "family": "Schölkopf",
+        "given": "B."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "note": [
+      "*Causality for Machine Learning.* arXiv preprint arXiv:1911.10500."
+    ],
+    "arxiv": [
+      "1911.10500"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
       "4."
-    ],
-    "author": [
-      {
-        "family": "Pearl",
-        "given": "J."
-      },
-      {
-        "family": "Glymour",
-        "given": "M."
-      },
-      {
-        "family": "Jewell",
-        "given": "N.P."
-      }
-    ],
-    "date": [
-      "2016"
-    ],
-    "title": [
-      "*Causal Inference in Statistics: A Primer*"
-    ],
-    "publisher": [
-      "Wiley"
-    ],
-    "type": "book"
-  },
-  {
-    "citation-number": [
-      "5."
-    ],
-    "author": [
-      {
-        "family": "Shpitser",
-        "given": "I."
-      },
-      {
-        "family": "Pearl",
-        "given": "J."
-      }
-    ],
-    "date": [
-      "2008"
-    ],
-    "title": [
-      "Complete identification methods for the causal hierarchy"
-    ],
-    "volume": [
-      "9"
-    ],
-    "pages": [
-      "1941–1979"
-    ],
-    "type": "article-journal",
-    "container-title": [
-      "*Journal of Machine Learning Research*"
-    ]
-  },
-  {
-    "citation-number": [
-      "6."
     ],
     "author": [
       {
@@ -176,7 +115,7 @@
       "2016"
     ],
     "title": [
-      "Causal inference and the data-fusion problem"
+      "*Causal inference and the data-fusion problem.*"
     ],
     "volume": [
       "113"
@@ -186,7 +125,7 @@
     ],
     "type": "article-journal",
     "container-title": [
-      "*Proceedings of the National Academy of Sciences*"
+      "Proceedings of the National Academy of Sciences"
     ],
     "issue": [
       "27"
@@ -194,45 +133,262 @@
   },
   {
     "citation-number": [
+      "5."
+    ],
+    "author": [
+      {
+        "family": "Pearl",
+        "given": "J."
+      },
+      {
+        "family": "Mackenzie",
+        "given": "D."
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "title": [
+      "*The Book of Why: The New Science of Cause and Effect.*"
+    ],
+    "publisher": [
+      "Basic Books"
+    ],
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "family": "Discovery",
+        "given": "Causal"
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "author": [
+      {
+        "family": "Spirtes",
+        "given": "P."
+      },
+      {
+        "family": "Glymour",
+        "given": "C.N."
+      },
+      {
+        "family": "Scheines",
+        "given": "R."
+      }
+    ],
+    "date": [
+      "2000"
+    ],
+    "publisher": [
+      "*Causation, Prediction, and Search.* MIT Press"
+    ],
+    "type": "book"
+  },
+  {
+    "citation-number": [
       "7."
     ],
     "author": [
       {
-        "family": "Peters",
-        "given": "J."
-      },
-      {
-        "family": "Bühlmann",
-        "given": "P."
-      },
-      {
-        "family": "Meinshausen",
-        "given": "N."
+        "family": "Chickering",
+        "given": "D.M."
       }
     ],
     "date": [
-      "2016"
+      "2002"
     ],
     "title": [
-      "Causal inference using invariant prediction: identification and confidence intervals"
+      "*Optimal structure identification with greedy search.*"
     ],
     "volume": [
-      "78"
+      "3"
     ],
     "pages": [
-      "947–1012"
+      "507–554"
     ],
     "type": "article-journal",
     "container-title": [
-      "*Journal of the Royal Statistical Society: Series B (Statistical Methodology)*"
-    ],
-    "issue": [
-      "5"
+      "Journal of Machine Learning Research"
     ]
   },
   {
     "citation-number": [
       "8."
+    ],
+    "author": [
+      {
+        "family": "Hoyer",
+        "given": "P.O."
+      },
+      {
+        "family": "Janzing",
+        "given": "D."
+      },
+      {
+        "family": "Mooij",
+        "given": "J.M."
+      },
+      {
+        "family": "Peters",
+        "given": "J."
+      },
+      {
+        "family": "Schölkopf",
+        "given": "B."
+      }
+    ],
+    "date": [
+      "2009"
+    ],
+    "title": [
+      "*Nonlinear causal discovery with additive noise models.*"
+    ],
+    "volume": [
+      "21"
+    ],
+    "pages": [
+      "689–696"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "Advances in Neural Information Processing Systems"
+    ]
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "author": [
+      {
+        "family": "Zhang",
+        "given": "K."
+      },
+      {
+        "family": "Hyvärinen",
+        "given": "A."
+      }
+    ],
+    "date": [
+      "2009"
+    ],
+    "title": [
+      "*On the identifiability of the post-nonlinear causal model.*"
+    ],
+    "container-title": [
+      "Proceedings of the 25th Conference on Uncertainty in Artificial Intelligence (UAI"
+    ],
+    "pages": [
+      "647–655"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "author": [
+      {
+        "family": "Glymour",
+        "given": "C."
+      },
+      {
+        "family": "Zhang",
+        "given": "K."
+      },
+      {
+        "family": "Spirtes",
+        "given": "P."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "title": [
+      "*Review of causal discovery methods based on graphical models.*"
+    ],
+    "volume": [
+      "10"
+    ],
+    "pages": [
+      "524"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "Frontiers in Genetics"
+    ]
+  },
+  {
+    "author": [
+      {
+        "family": "Effects",
+        "given": "Causal"
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "author": [
+      {
+        "family": "Imbens",
+        "given": "G.W."
+      },
+      {
+        "family": "Rubin",
+        "given": "D.B."
+      }
+    ],
+    "date": [
+      "2015"
+    ],
+    "title": [
+      "*Causal Inference for Statistics, Social, and Biomedical"
+    ],
+    "location": [
+      "Sciences"
+    ],
+    "publisher": [
+      "An Introduction.* Cambridge University Press"
+    ],
+    "type": "book"
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "author": [
+      {
+        "family": "Hernán",
+        "given": "M.A."
+      },
+      {
+        "family": "Robins",
+        "given": "J.M."
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "location": [
+      "Causal Inference"
+    ],
+    "publisher": [
+      "What If.* Chapman & Hall/CRC"
+    ],
+    "type": "book"
+  },
+  {
+    "citation-number": [
+      "13."
     ],
     "author": [
       {
@@ -264,176 +420,17 @@
       "2017"
     ],
     "title": [
-      "Causal effect inference with deep latent-variable models"
+      "*Causal effect inference with deep latent-variable models.*"
     ],
-    "container-title": [
-      "*Advances in Neural Information Processing Systems* (NeurIPS"
-    ],
-    "pages": [
+    "volume": [
       "30"
     ],
-    "type": "chapter"
-  },
-  {
-    "citation-number": [
-      "9."
-    ],
-    "author": [
-      {
-        "family": "Pearl",
-        "given": "J."
-      }
-    ],
-    "date": [
-      "2019"
-    ],
-    "title": [
-      "The seven tools of causal inference, with reflections on machine learning"
-    ],
-    "volume": [
-      "62"
-    ],
     "pages": [
-      "54–60"
+      "6446–6456"
     ],
     "type": "article-journal",
     "container-title": [
-      "*Communications of the ACM*"
-    ],
-    "issue": [
-      "3"
-    ]
-  },
-  {
-    "citation-number": [
-      "10."
-    ],
-    "author": [
-      {
-        "family": "Zhang",
-        "given": "K."
-      },
-      {
-        "family": "Hyvärinen",
-        "given": "A."
-      }
-    ],
-    "date": [
-      "2009"
-    ],
-    "title": [
-      "On the identifiability of the post-nonlinear causal model"
-    ],
-    "container-title": [
-      "*Proceedings of the 25th Conference on Uncertainty in Artificial Intelligence* (UAI"
-    ],
-    "type": "paper-conference"
-  },
-  {
-    "citation-number": [
-      "11."
-    ],
-    "author": [
-      {
-        "family": "Schölkopf",
-        "given": "B."
-      },
-      {
-        "family": "Janzing",
-        "given": "D."
-      },
-      {
-        "family": "Peters",
-        "given": "J."
-      },
-      {
-        "family": "Sgouritsa",
-        "given": "E."
-      },
-      {
-        "family": "Zhang",
-        "given": "K."
-      },
-      {
-        "family": "Mooij",
-        "given": "J.M."
-      }
-    ],
-    "date": [
-      "2012"
-    ],
-    "title": [
-      "On causal and anticausal learning"
-    ],
-    "container-title": [
-      "*Proceedings of the 29th International Conference on Machine Learning* (ICML"
-    ],
-    "type": "paper-conference"
-  },
-  {
-    "citation-number": [
-      "12."
-    ],
-    "author": [
-      {
-        "family": "Glymour",
-        "given": "C."
-      },
-      {
-        "family": "Zhang",
-        "given": "K."
-      },
-      {
-        "family": "Spirtes",
-        "given": "P."
-      }
-    ],
-    "date": [
-      "2019"
-    ],
-    "title": [
-      "Review of causal discovery methods based on graphical models"
-    ],
-    "volume": [
-      "10"
-    ],
-    "pages": [
-      "524"
-    ],
-    "type": "article-journal",
-    "container-title": [
-      "*Frontiers in Genetics*"
-    ]
-  },
-  {
-    "citation-number": [
-      "13."
-    ],
-    "author": [
-      {
-        "family": "Bareinboim",
-        "given": "E."
-      },
-      {
-        "family": "Pearl",
-        "given": "J."
-      }
-    ],
-    "date": [
-      "2012"
-    ],
-    "title": [
-      "Controlling selection bias in causal inference"
-    ],
-    "volume": [
-      "182-183"
-    ],
-    "pages": [
-      "1–25"
-    ],
-    "type": "article-journal",
-    "container-title": [
-      "*Artificial Intelligence*"
+      "Advances in Neural Information Processing Systems"
     ]
   },
   {
@@ -442,35 +439,31 @@
     ],
     "author": [
       {
-        "family": "Kusner",
-        "given": "M.J."
+        "family": "Shalit",
+        "given": "U."
       },
       {
-        "family": "Loftus",
-        "given": "J."
+        "family": "Johansson",
+        "given": "F.D."
       },
       {
-        "family": "Russell",
-        "given": "C."
-      },
-      {
-        "family": "Silva",
-        "given": "R."
+        "family": "Sontag",
+        "given": "D."
       }
     ],
     "date": [
       "2017"
     ],
     "title": [
-      "Counterfactual fairness"
+      "*Estimating individual treatment effect"
     ],
     "container-title": [
-      "*Advances in Neural Information Processing Systems* (NeurIPS"
+      "generalization bounds and algorithms.* Proceedings of the 34th International Conference on Machine Learning (ICML"
     ],
     "pages": [
-      "30"
+      "3076–3085"
     ],
-    "type": "chapter"
+    "type": "paper-conference"
   },
   {
     "citation-number": [
@@ -478,24 +471,56 @@
     ],
     "author": [
       {
-        "family": "Veitch",
-        "given": "V."
+        "family": "Yao",
+        "given": "L."
       },
       {
-        "family": "Blei",
-        "given": "D.M."
+        "family": "Chu",
+        "given": "X."
+      },
+      {
+        "family": "Li",
+        "given": "S."
+      },
+      {
+        "family": "Li",
+        "given": "Y."
+      },
+      {
+        "family": "Gao",
+        "given": "J."
+      },
+      {
+        "family": "Zhang",
+        "given": "A."
       }
     ],
     "date": [
-      "2020"
+      "2018"
     ],
     "title": [
-      "Adapting text embeddings for causal inference"
+      "*Representation learning for treatment effect estimation from observational data.*"
     ],
+    "volume": [
+      "31"
+    ],
+    "pages": [
+      "2633–2643"
+    ],
+    "type": "article-journal",
     "container-title": [
-      "*Proceedings of the 36th Conference on Uncertainty in Artificial Intelligence* (UAI"
+      "Advances in Neural Information Processing Systems"
+    ]
+  },
+  {
+    "author": [
+      {
+        "family": "NLP",
+        "given": "Causality",
+        "particle": "in"
+      }
     ],
-    "type": "paper-conference"
+    "type": null
   },
   {
     "citation-number": [
@@ -509,29 +534,54 @@
       {
         "family": "Shalit",
         "given": "U."
-      },
-      {
-        "family": "Shalit",
-        "given": "O."
       }
     ],
     "date": [
       "2021"
     ],
     "title": [
-      "Causal inference in natural language processing: Estimation, prediction, interpretation and beyond"
+      "*Causal Inference in Natural Language Processing"
+    ],
+    "note": [
+      "Estimation, Prediction, Interpretation and Beyond.* arXiv preprint arXiv:2109.00725."
+    ],
+    "arxiv": [
+      "2109.00725"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "author": [
+      {
+        "family": "Veitch",
+        "given": "V."
+      },
+      {
+        "family": "Sridhar",
+        "given": "D."
+      },
+      {
+        "family": "Blei",
+        "given": "D.M."
+      }
+    ],
+    "date": [
+      "2020"
     ],
     "container-title": [
-      "*Proceedings of the 2021 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies*"
+      "*Adapting text embeddings for causal inference.* Proceedings of the 36th Conference on Uncertainty in Artificial Intelligence (UAI"
     ],
     "pages": [
-      "–"
+      "919–928"
     ],
     "type": "paper-conference"
   },
   {
     "citation-number": [
-      "17."
+      "18."
     ],
     "author": [
       {
@@ -551,16 +601,19 @@
       "2018"
     ],
     "title": [
-      "Challenges of using text classifiers for causal inference"
+      "*Challenges of using text classifiers for causal inference.*"
     ],
     "container-title": [
-      "*Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing* (EMNLP"
+      "Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing (EMNLP"
+    ],
+    "pages": [
+      "4586–4598"
     ],
     "type": "paper-conference"
   },
   {
     "citation-number": [
-      "18."
+      "19."
     ],
     "author": [
       {
@@ -580,50 +633,15 @@
       "2020"
     ],
     "title": [
-      "Text and causal inference: A review of using text to remove confounding from causal estimates"
+      "*Text and causal inference: A review of using text to remove confounding from causal estimates.*"
     ],
     "container-title": [
-      "*Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics* (ACL"
-    ],
-    "type": "paper-conference"
-  },
-  {
-    "citation-number": [
-      "19."
-    ],
-    "author": [
-      {
-        "family": "Roberts",
-        "given": "M.E."
-      },
-      {
-        "family": "Stewart",
-        "given": "B.M."
-      },
-      {
-        "family": "Nielsen",
-        "given": "R.A."
-      }
-    ],
-    "date": [
-      "2020"
-    ],
-    "title": [
-      "Adjusting for confounding with text matching"
-    ],
-    "volume": [
-      "64"
+      "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics (ACL"
     ],
     "pages": [
-      "887–903"
+      "5332–5344"
     ],
-    "type": "article-journal",
-    "container-title": [
-      "*American Journal of Political Science*"
-    ],
-    "issue": [
-      "4"
-    ]
+    "type": "paper-conference"
   },
   {
     "citation-number": [
@@ -631,28 +649,36 @@
     ],
     "author": [
       {
-        "family": "Srivastava",
-        "given": "S."
+        "family": "Pryzant",
+        "given": "R."
       },
       {
-        "family": "Sutton",
-        "given": "C."
+        "family": "Martinez",
+        "given": "R."
+      },
+      {
+        "family": "Das",
+        "given": "M."
+      },
+      {
+        "family": "Jurafsky",
+        "given": "D."
       }
     ],
     "date": [
-      "2017"
-    ],
-    "title": [
-      "Autoencoding variational inference for topic models"
+      "2021"
     ],
     "container-title": [
-      "*Proceedings of the 5th International Conference on Learning Representations* (ICLR"
+      "*Causal effects of linguistic properties.* Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics (ACL"
+    ],
+    "pages": [
+      "185–196"
     ],
     "type": "paper-conference"
   },
   {
     "title": [
-      "These articles provide a comprehensive overview of the field, covering foundational theories, methodologies, and applications of causal inference in ML and NLP"
+      "These articles should provide a comprehensive overview of the current state of research in causal inference within the fields of ML and NLP"
     ],
     "type": null
   }

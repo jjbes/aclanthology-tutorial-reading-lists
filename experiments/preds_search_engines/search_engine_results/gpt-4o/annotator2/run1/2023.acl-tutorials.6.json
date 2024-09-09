@@ -6,7 +6,7 @@
       }
     ],
     "title": [
-      "Here's a reading list of 20 articles on retrieval-based language models, focusing on recent advancements and key research papers up to 2023"
+      "Here's a list of 20 notable articles on retrieval-based language models up to 2023. These articles cover various aspects, including model architectures, training techniques, applications, and evaluations"
     ],
     "type": null
   },
@@ -14,13 +14,45 @@
     "citation-number": [
       "1."
     ],
+    "title": [
+      "**\"Dense Passage Retrieval for Open-Domain Question Answering\"**"
+    ],
+    "type": null
+  },
+  {
     "author": [
       {
-        "given": "R.E.A.L.M."
+        "family": "Karpukhin",
+        "given": "V."
+      },
+      {
+        "family": "Oguz",
+        "given": "B."
+      },
+      {
+        "family": "Min",
+        "given": "S."
+      },
+      {
+        "family": "Lewis",
+        "given": "P."
+      },
+      {
+        "family": "Wu",
+        "given": "L."
+      },
+      {
+        "family": "Edunov",
+        "given": "S."
+      },
+      {
+        "family": "Chen",
+        "given": "D."
+      },
+      {
+        "family": "Yih",
+        "given": "W."
       }
-    ],
-    "title": [
-      "Retrieval-Augmented Language Model Pre-Training\"** - Guu et al"
     ],
     "date": [
       "2020"
@@ -28,8 +60,63 @@
     "type": null
   },
   {
+    "note": [
+      "- arXiv:2004.04906"
+    ],
+    "arxiv": [
+      "2004.04906"
+    ],
+    "type": null
+  },
+  {
     "citation-number": [
       "2."
+    ],
+    "title": [
+      "**\"REALM: Retrieval-Augmented Language Model Pre-Training\"**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Guu",
+        "given": "K."
+      },
+      {
+        "family": "Lee",
+        "given": "K."
+      },
+      {
+        "family": "Tung",
+        "given": "Z."
+      },
+      {
+        "family": "Pasupat",
+        "given": "P."
+      },
+      {
+        "family": "Chang",
+        "given": "M."
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "- arXiv:2002.08909"
+    ],
+    "arxiv": [
+      "2002.08909"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "3."
     ],
     "author": [
       {
@@ -39,38 +126,87 @@
     "title": [
       "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks\"**"
     ],
-    "publisher": [
-      "Lewis et al"
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Lewis",
+        "given": "P."
+      },
+      {
+        "family": "Perez",
+        "given": "E."
+      },
+      {
+        "family": "Piktus",
+        "given": "A."
+      },
+      {
+        "family": "Petroni",
+        "given": "F."
+      },
+      {
+        "family": "Karpukhin",
+        "given": "V."
+      },
+      {
+        "family": "Goyal",
+        "given": "N."
+      },
+      {
+        "family": "Riedel",
+        "given": "S."
+      },
+      {
+        "others": true
+      }
     ],
     "date": [
       "2020"
     ],
-    "type": "book"
+    "type": null
   },
   {
-    "citation-number": [
-      "3."
+    "note": [
+      "- arXiv:2005.11401"
     ],
-    "title": [
-      "**\"KILT: A Benchmark for Knowledge Intensive Language Tasks\"**"
+    "arxiv": [
+      "2005.11401"
     ],
-    "date": [
-      "2021"
-    ],
-    "type": "article-journal",
-    "container-title": [
-      "Petroni et al"
-    ]
+    "type": null
   },
   {
     "citation-number": [
       "4."
     ],
     "title": [
-      "**\"Dense Passage Retrieval for Open-Domain Question Answering\"** - Karpukhin et al"
+      "**\"Retrieval-Augmented Language Model Training for Open-Domain Question Answering\"**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Izacard",
+        "given": "G."
+      },
+      {
+        "family": "Grave",
+        "given": "E."
+      }
     ],
     "date": [
       "2020"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "- arXiv:2007.01282"
+    ],
+    "arxiv": [
+      "2007.01282"
     ],
     "type": null
   },
@@ -79,19 +215,80 @@
       "5."
     ],
     "title": [
-      "**\"FiD: A Simple Fusion-in-Decoder Model for Open Domain Question Answering\"**"
+      "**\"FiD: A Simple Fusion-in-Decoder Model for Open-Domain Question Answering\"**"
     ],
-    "publisher": [
-      "Izacard and Grave"
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Izacard",
+        "given": "G."
+      },
+      {
+        "family": "Grave",
+        "given": "E."
+      }
     ],
     "date": [
       "2021"
     ],
-    "type": "book"
+    "type": null
+  },
+  {
+    "note": [
+      "- arXiv:2104.08786"
+    ],
+    "arxiv": [
+      "2104.08786"
+    ],
+    "type": null
   },
   {
     "citation-number": [
       "6."
+    ],
+    "title": [
+      "**\"Leveraging Passage Retrieval with Generative Models for Open Domain Question Answering\"**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Min",
+        "given": "S."
+      },
+      {
+        "family": "Lewis",
+        "given": "P."
+      },
+      {
+        "family": "Hajishirzi",
+        "given": "H."
+      },
+      {
+        "family": "Zettlemoyer",
+        "given": "L."
+      }
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "- arXiv:2101.00294"
+    ],
+    "arxiv": [
+      "2101.00294"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "7."
     ],
     "author": [
       {
@@ -101,53 +298,150 @@
     "title": [
       "Efficient and Effective Passage Search via Contextualized Late Interaction over BERT\"**"
     ],
-    "publisher": [
-      "Khattab and Zaharia"
-    ],
-    "date": [
-      "2020"
-    ],
-    "type": "book"
+    "type": null
   },
   {
-    "citation-number": [
-      "7."
-    ],
-    "title": [
-      "**\"T5: Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer\"**"
+    "author": [
+      {
+        "family": "Khattab",
+        "given": "O."
+      },
+      {
+        "family": "Zaharia",
+        "given": "M."
+      }
     ],
     "date": [
       "2020"
     ],
-    "type": "article-journal",
-    "container-title": [
-      "Raffel et al"
-    ]
+    "type": null
+  },
+  {
+    "note": [
+      "- arXiv:2004.12832"
+    ],
+    "arxiv": [
+      "2004.12832"
+    ],
+    "type": null
   },
   {
     "citation-number": [
       "8."
     ],
-    "title": [
-      "**\"Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks\"**"
+    "author": [
+      {
+        "given": "D.P.R."
+      }
     ],
-    "publisher": [
-      "Lewis et al"
+    "title": [
+      "Dense Passage Retrieval for Open-Domain Question Answering\"**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Karpukhin",
+        "given": "V."
+      },
+      {
+        "family": "Oguz",
+        "given": "B."
+      },
+      {
+        "family": "Min",
+        "given": "S."
+      },
+      {
+        "family": "Lewis",
+        "given": "P."
+      },
+      {
+        "family": "Wu",
+        "given": "L."
+      },
+      {
+        "family": "Edunov",
+        "given": "S."
+      },
+      {
+        "family": "Chen",
+        "given": "D."
+      },
+      {
+        "family": "Yih",
+        "given": "W."
+      }
     ],
     "date": [
       "2020"
     ],
-    "type": "book"
+    "type": null
+  },
+  {
+    "note": [
+      "- arXiv:2004.04906"
+    ],
+    "arxiv": [
+      "2004.04906"
+    ],
+    "type": null
   },
   {
     "citation-number": [
       "9."
     ],
     "title": [
-      "**\"Learning to Retrieve Passages without Supervision\"** - Lee et al"
+      "**\"Learning Dense Representations for Retrieval with Hard Negatives\"**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Xiong",
+        "given": "L."
+      },
+      {
+        "family": "Xiong",
+        "given": "C."
+      },
+      {
+        "family": "Li",
+        "given": "Y."
+      },
+      {
+        "family": "Tang",
+        "given": "K."
+      },
+      {
+        "family": "Liu",
+        "given": "J."
+      },
+      {
+        "family": "Bennett",
+        "given": "P.N."
+      },
+      {
+        "family": "Callan",
+        "given": "J."
+      },
+      {
+        "others": true
+      }
     ],
     "date": [
-      "2019"
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "- arXiv:2004.08030"
+    ],
+    "arxiv": [
+      "2004.08030"
     ],
     "type": null
   },
@@ -155,13 +449,56 @@
     "citation-number": [
       "10."
     ],
+    "title": [
+      "**\"T5: Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer\"**"
+    ],
+    "type": null
+  },
+  {
     "author": [
       {
-        "literal": "**\"Open-Domain Question Answering\"** - Chen et al."
+        "family": "Raffel",
+        "given": "C."
+      },
+      {
+        "family": "Shazeer",
+        "given": "N."
+      },
+      {
+        "family": "Roberts",
+        "given": "A."
+      },
+      {
+        "family": "Lee",
+        "given": "K."
+      },
+      {
+        "family": "Narang",
+        "given": "S."
+      },
+      {
+        "family": "Matena",
+        "given": "M."
+      },
+      {
+        "family": "Liu",
+        "given": "P.J."
+      },
+      {
+        "others": true
       }
     ],
     "date": [
-      "2017"
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "- arXiv:1910.10683"
+    ],
+    "arxiv": [
+      "1910.10683"
     ],
     "type": null
   },
@@ -170,27 +507,74 @@
       "11."
     ],
     "title": [
-      "**\"Leveraging Passage Retrieval with Generative Models for Open Domain Question Answering\"**"
+      "**\"BERTserini: A Two-Stage Search System with BERT for Open-Domain Question Answering\"**"
     ],
-    "publisher": [
-      "Izacard and Grave"
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Yang",
+        "given": "W."
+      },
+      {
+        "family": "Xie",
+        "given": "Y."
+      },
+      {
+        "family": "Lin",
+        "given": "J."
+      },
+      {
+        "family": "Sun",
+        "given": "H."
+      }
     ],
     "date": [
-      "2020"
+      "2019"
     ],
-    "type": "book"
+    "type": null
+  },
+  {
+    "note": [
+      "- arXiv:1902.01718"
+    ],
+    "arxiv": [
+      "1902.01718"
+    ],
+    "type": null
   },
   {
     "citation-number": [
       "12."
     ],
+    "title": [
+      "**\"Multi-Stage Document Ranking with BERT\"**"
+    ],
+    "type": null
+  },
+  {
     "author": [
       {
-        "literal": "**\"A Survey on Retrieval-Augmented Generation\"** - Thakur et al."
+        "family": "Nogueira",
+        "given": "R."
+      },
+      {
+        "family": "Cho",
+        "given": "K."
       }
     ],
     "date": [
-      "2021"
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "- arXiv:1910.14424"
+    ],
+    "arxiv": [
+      "1910.14424"
     ],
     "type": null
   },
@@ -199,10 +583,32 @@
       "13."
     ],
     "title": [
-      "**\"End-to-End Open-Domain Question Answering with BERTserini\"** - Yang et al"
+      "**\"Pre-trained Language Models for Information Retrieval: A Brief Review\"**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Lin",
+        "given": "J."
+      },
+      {
+        "family": "Yang",
+        "given": "W."
+      }
     ],
     "date": [
       "2019"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "- arXiv:1912.06792"
+    ],
+    "arxiv": [
+      "1912.06792"
     ],
     "type": null
   },
@@ -211,10 +617,40 @@
       "14."
     ],
     "title": [
-      "**\"Multi-Task Retrieval for Knowledge-Intensive Tasks\"** - Maillard et al"
+      "**\"Contextualized Sparse Representations for Real-Time Open-Domain Question Answering\"**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Seo",
+        "given": "M."
+      },
+      {
+        "family": "Kwiatkowski",
+        "given": "T."
+      },
+      {
+        "family": "Parikh",
+        "given": "A."
+      },
+      {
+        "family": "Farhadi",
+        "given": "A."
+      }
     ],
     "date": [
-      "2021"
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "- arXiv:1904.09751"
+    ],
+    "arxiv": [
+      "1904.09751"
     ],
     "type": null
   },
@@ -223,25 +659,70 @@
       "15."
     ],
     "title": [
-      "**\"Efficient and Effective Passage Retrieval in Open-Domain Question Answering\"**"
+      "**\"A Survey on Retrieval-Augmented Generation\"**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Thakur",
+        "given": "N."
+      },
+      {
+        "family": "Reimers",
+        "given": "N."
+      }
     ],
     "date": [
       "2021"
     ],
-    "type": "article-journal",
-    "container-title": [
-      "Qu et al"
-    ]
+    "type": null
+  },
+  {
+    "note": [
+      "- arXiv:2107.10399"
+    ],
+    "arxiv": [
+      "2107.10399"
+    ],
+    "type": null
   },
   {
     "citation-number": [
       "16."
     ],
     "title": [
-      "**\"Improving Open-Domain Question Answering with Dense Retrieval\"** - Xiong et al"
+      "**\"Improving Open-Domain Question Answering with Dense Retrieval and Minimal Supervision\"**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Lee",
+        "given": "K."
+      },
+      {
+        "family": "Chang",
+        "given": "M."
+      },
+      {
+        "family": "Toutanova",
+        "given": "K."
+      }
     ],
     "date": [
-      "2020"
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "- arXiv:1904.09223"
+    ],
+    "arxiv": [
+      "1904.09223"
     ],
     "type": null
   },
@@ -250,10 +731,48 @@
       "17."
     ],
     "title": [
-      "**\"Knowledge-Intensive Language Understanding with Pre-Trained Transformers\"** - Petroni et al"
+      "**\"Efficient and Effective Passage Retrieval for Open-Domain Question Answering\"**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Qu",
+        "given": "C."
+      },
+      {
+        "family": "Yang",
+        "given": "L."
+      },
+      {
+        "family": "Chen",
+        "given": "J."
+      },
+      {
+        "family": "Zhang",
+        "given": "C."
+      },
+      {
+        "family": "Croft",
+        "given": "W.B."
+      },
+      {
+        "family": "Iyer",
+        "given": "R."
+      }
     ],
     "date": [
-      "2019"
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "- arXiv:2104.07080"
+    ],
+    "arxiv": [
+      "2104.07080"
     ],
     "type": null
   },
@@ -262,10 +781,40 @@
       "18."
     ],
     "title": [
-      "**\"Contextualized Sparse Representations for Real-Time Open-Domain Question Answering\"** - Seo et al"
+      "**\"End-to-End Open-Domain Question Answering with BERTserini\"**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Yang",
+        "given": "W."
+      },
+      {
+        "family": "Xie",
+        "given": "Y."
+      },
+      {
+        "family": "Lin",
+        "given": "J."
+      },
+      {
+        "family": "Sun",
+        "given": "H."
+      }
     ],
     "date": [
       "2019"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "- arXiv:1902.01718"
+    ],
+    "arxiv": [
+      "1902.01718"
     ],
     "type": null
   },
@@ -274,34 +823,79 @@
       "19."
     ],
     "title": [
-      "**\"UnifiedQA: Crossing Format Boundaries with a Single QA System\"**"
+      "**\"Learning to Retrieve Passages without Supervision\"**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Lee",
+        "given": "K."
+      },
+      {
+        "family": "Chang",
+        "given": "M."
+      },
+      {
+        "family": "Toutanova",
+        "given": "K."
+      }
     ],
     "date": [
-      "2020"
+      "2019"
     ],
-    "type": "article-journal",
-    "container-title": [
-      "Khashabi et al"
-    ]
+    "type": null
+  },
+  {
+    "note": [
+      "- arXiv:1901.04085"
+    ],
+    "arxiv": [
+      "1901.04085"
+    ],
+    "type": null
   },
   {
     "citation-number": [
       "20."
     ],
     "title": [
-      "**\"Retrieval-Augmented Language Model Training for Open-Domain Question Answering\"**"
+      "**\"Unsupervised Dense Information Retrieval with Contrastive Learning\"**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Gao",
+        "given": "L."
+      },
+      {
+        "family": "Callan",
+        "given": "J."
+      }
     ],
     "date": [
       "2021"
     ],
-    "type": "article-journal",
-    "container-title": [
-      "Lee et al"
-    ]
+    "type": null
+  },
+  {
+    "note": [
+      "- arXiv:2108.05540"
+    ],
+    "arxiv": [
+      "2108.05540"
+    ],
+    "type": null
   },
   {
     "title": [
-      "These articles cover a range of topics within retrieval-based language models, including pre-training techniques, dense and sparse retrieval methods, and applications in open-domain question answering. They provide a comprehensive overview of the state-of-the-art in this rapidly evolving field"
+      "These articles provide a comprehensive overview of the advancements in retrieval-based language models up to"
+    ],
+    "date": [
+      "2023"
     ],
     "type": null
   }

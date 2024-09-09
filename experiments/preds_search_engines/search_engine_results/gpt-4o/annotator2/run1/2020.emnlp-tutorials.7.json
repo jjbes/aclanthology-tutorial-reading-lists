@@ -2,11 +2,11 @@
   {
     "author": [
       {
-        "given": "Certainly!"
+        "given": "Sure!"
       }
     ],
     "title": [
-      "Here is a list of 20 influential articles on neural language text generation published before 2021"
+      "Here's a curated list of 20 influential articles on neural language text generation up to 2020"
     ],
     "type": null
   },
@@ -26,6 +26,17 @@
     ]
   },
   {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Introduced the Seq2Seq model, foundational for many text generation tasks"
+    ],
+    "type": null
+  },
+  {
     "citation-number": [
       "2."
     ],
@@ -38,43 +49,19 @@
     "type": null
   },
   {
-    "citation-number": [
-      "3."
-    ],
     "author": [
       {
-        "literal": "**\"Attention Is All You Need\"** - Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez, Lukasz Kaiser"
+        "literal": "-"
       }
     ],
     "title": [
-      "Illia Polosukhin"
-    ],
-    "date": [
-      "2017"
+      "Proposed the attention mechanism, crucial for improving text generation"
     ],
     "type": null
   },
   {
     "citation-number": [
-      "4."
-    ],
-    "title": [
-      "**\"Generative Adversarial Text to Image Synthesis\"** - Scott Reed, Zeynep Akata, Santosh Mohan"
-    ],
-    "publisher": [
-      "Samuel Tenka, Bernt Schiele"
-    ],
-    "location": [
-      "Honglak Lee"
-    ],
-    "date": [
-      "2016"
-    ],
-    "type": "book"
-  },
-  {
-    "citation-number": [
-      "5."
+      "3."
     ],
     "author": [
       {
@@ -87,79 +74,23 @@
     "type": null
   },
   {
-    "citation-number": [
-      "6."
+    "author": [
+      {
+        "literal": "-"
+      }
     ],
     "title": [
-      "**\"Long Short-Term Memory\"** - Sepp Hochreiter, Jürgen Schmidhuber"
-    ],
-    "date": [
-      "1997"
+      "Early work on using neural networks for conversational agents"
     ],
     "type": null
   },
   {
     "citation-number": [
-      "7."
-    ],
-    "title": [
-      "**\"BLEU: a Method for Automatic Evaluation of Machine Translation\"** - Kishore Papineni"
-    ],
-    "location": [
-      "Salim Roukos"
-    ],
-    "publisher": [
-      "Todd Ward, Wei-Jing Zhu"
-    ],
-    "date": [
-      "2002"
-    ],
-    "type": "book"
-  },
-  {
-    "citation-number": [
-      "8."
+      "4."
     ],
     "author": [
       {
-        "given": "Show"
-      }
-    ],
-    "title": [
-      "Attend and Tell: Neural Image Caption Generation with Visual Attention\"**"
-    ],
-    "editor": [
-      {
-        "family": "Xu",
-        "given": "Kelvin"
-      },
-      {
-        "family": "Ba",
-        "given": "Jimmy"
-      },
-      {
-        "family": "Kiros",
-        "given": "Ryan"
-      },
-      {
-        "family": "Cho",
-        "given": "Kyunghyun"
-      },
-      {
-        "family": "Courville",
-        "given": "Aaron"
-      },
-      {
-        "family": "Salakhutdinov",
-        "given": "Ruslan"
-      },
-      {
-        "family": "Zemel",
-        "given": "Richard"
-      },
-      {
-        "family": "Bengio",
-        "given": "Yoshua"
+        "literal": "**\"Teaching Machines to Read and Comprehend\"** - Karl Moritz Hermann, Tomas Kocisky, Edward Grefenstette, et al."
       }
     ],
     "date": [
@@ -168,32 +99,143 @@
     "type": null
   },
   {
-    "citation-number": [
-      "9."
+    "author": [
+      {
+        "literal": "-"
+      }
     ],
     "title": [
-      "**\"Learning Phrase Representations using RNN Encoder-Decoder for Statistical Machine Translation\"** - Kyunghyun Cho, Bart van Merriënboer, Dzmitry Bahdanau, Yoshua Bengio"
+      "Focused on machine reading comprehension, a key aspect of text generation"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "author": [
+      {
+        "literal": "**\"Pointer Networks\"** - Oriol Vinyals, Meire Fortunato, Navdeep Jaitly"
+      }
     ],
     "date": [
-      "2014"
+      "2015"
     ],
     "type": null
   },
   {
-    "citation-number": [
-      "10."
+    "author": [
+      {
+        "literal": "-"
+      }
     ],
     "title": [
-      "**\"Deep Reinforcement Learning for Dialogue Generation\"**"
-    ],
-    "note": [
-      "Jiwei Li, Will Monroe, Alan Ritter, Michel Galley, Jianfeng Gao, Dan Jurafsky (2016"
+      "Introduced pointer networks, useful for generating sequences with elements from the input"
     ],
     "type": null
   },
   {
     "citation-number": [
-      "11."
+      "6."
+    ],
+    "title": [
+      "**\"Neural Text Generation: A Practical Guide\"**"
+    ],
+    "editor": [
+      {
+        "family": "Fan",
+        "given": "Angela"
+      },
+      {
+        "family": "Lewis",
+        "given": "Mike"
+      },
+      {
+        "family": "Dauphin",
+        "given": "Yann"
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Comprehensive guide on various neural text generation techniques"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "title": [
+      "**\"Get To The Point: Summarization with Pointer-Generator Networks\"**"
+    ],
+    "editor": [
+      {
+        "family": "See",
+        "given": "Abigail"
+      },
+      {
+        "family": "Liu",
+        "given": "Peter J."
+      },
+      {
+        "family": "Manning",
+        "given": "Christopher D."
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Proposed a model for abstractive text summarization using pointer-generator networks"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "author": [
+      {
+        "literal": "**\"Attention Is All You Need\"** - Ashish Vaswani, Noam Shazeer, Niki Parmar, et al."
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Introduced the Transformer model, revolutionizing text generation"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
     ],
     "title": [
       "**\"Language Models are Unsupervised Multitask Learners\"**"
@@ -204,20 +246,12 @@
         "given": "Alec"
       },
       {
-        "family": "Wu",
-        "given": "Jeffrey"
+        "family": "Narasimhan",
+        "given": "Karthik"
       },
       {
-        "family": "Child",
-        "given": "Rewon"
-      },
-      {
-        "family": "Luan",
-        "given": "David"
-      },
-      {
-        "family": "Amodei",
-        "given": "Dario"
+        "family": "Salimans",
+        "given": "Tim"
       },
       {
         "family": "Sutskever",
@@ -230,8 +264,19 @@
     "type": null
   },
   {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Described GPT-2, a powerful language model for text generation"
+    ],
+    "type": null
+  },
+  {
     "citation-number": [
-      "12."
+      "10."
     ],
     "author": [
       {
@@ -248,42 +293,27 @@
       "Kenton Lee, Kristina Toutanova"
     ],
     "date": [
-      "2018"
+      "2019"
     ],
     "type": "book"
   },
   {
-    "citation-number": [
-      "13."
+    "author": [
+      {
+        "literal": "-"
+      }
     ],
     "title": [
-      "**\"XLNet: Generalized Autoregressive Pretraining for Language Understanding\"**"
+      "Introduced BERT, which has influenced many text generation models"
     ],
-    "editor": [
-      {
-        "family": "Yang",
-        "given": "Zhilin"
-      },
-      {
-        "family": "Dai",
-        "given": "Zihang"
-      },
-      {
-        "family": "Yang",
-        "given": "Yiming"
-      },
-      {
-        "family": "Carbonell",
-        "given": "Jaime"
-      },
-      {
-        "family": "Salakhutdinov",
-        "given": "Ruslan"
-      },
-      {
-        "family": "Le",
-        "given": "Quoc V."
-      }
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "title": [
+      "**\"XLNet: Generalized Autoregressive Pretraining for Language Understanding\"** - Zhilin Yang, Zihang Dai, Yiming Yang, et al"
     ],
     "date": [
       "2019"
@@ -291,46 +321,19 @@
     "type": null
   },
   {
-    "citation-number": [
-      "14."
-    ],
-    "title": [
-      "**\"GPT-2: Better Language Models and Their Implications\"**"
-    ],
-    "editor": [
+    "author": [
       {
-        "family": "Radford",
-        "given": "Alec"
-      },
-      {
-        "family": "Wu",
-        "given": "Jeffrey"
-      },
-      {
-        "family": "Child",
-        "given": "Rewon"
-      },
-      {
-        "family": "Luan",
-        "given": "David"
-      },
-      {
-        "family": "Amodei",
-        "given": "Dario"
-      },
-      {
-        "family": "Sutskever",
-        "given": "Ilya"
+        "literal": "-"
       }
     ],
-    "date": [
-      "2019"
+    "title": [
+      "Proposed XLNet, improving upon BERT with autoregressive pretraining"
     ],
     "type": null
   },
   {
     "citation-number": [
-      "15."
+      "12."
     ],
     "title": [
       "**\"CTRL: A Conditional Transformer Language Model for Controllable Generation\"** - Nitish Shirish Keskar"
@@ -345,12 +348,7 @@
         "given": "Lav R."
       },
       {
-        "family": "Xiong",
-        "given": "Caiming"
-      },
-      {
-        "family": "Socher",
-        "given": "Richard"
+        "others": true
       }
     ],
     "date": [
@@ -359,8 +357,105 @@
     "type": null
   },
   {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Introduced a model for controllable text generation"
+    ],
+    "type": null
+  },
+  {
     "citation-number": [
-      "16."
+      "13."
+    ],
+    "title": [
+      "**\"T5: Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer\"**"
+    ],
+    "editor": [
+      {
+        "family": "Raffel",
+        "given": "Colin"
+      },
+      {
+        "family": "Shazeer",
+        "given": "Noam"
+      },
+      {
+        "family": "Roberts",
+        "given": "Adam"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Proposed the T5 model, framing all NLP tasks as text-to-text problems"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "author": [
+      {
+        "given": "P.E.G.A.S.U.S."
+      }
+    ],
+    "title": [
+      "Pre-training with Extracted Gap-sentences for Abstractive Summarization\"**"
+    ],
+    "editor": [
+      {
+        "family": "Zhang",
+        "given": "Jingqing"
+      },
+      {
+        "family": "Zhao",
+        "given": "Yao"
+      },
+      {
+        "family": "Saleh",
+        "given": "Mohammad"
+      },
+      {
+        "family": "Liu",
+        "given": "Peter J."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Focused on pretraining techniques for improving summarization"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
     ],
     "title": [
       "**\"Unsupervised Machine Translation Using Monolingual Corpora Only\"**"
@@ -371,36 +466,90 @@
     "type": null
   },
   {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Demonstrated unsupervised methods for machine translation"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "title": [
+      "**\"Generating Wikipedia by Summarizing Long Sequences\"**"
+    ],
+    "editor": [
+      {
+        "family": "Liu",
+        "given": "Peter J."
+      },
+      {
+        "family": "Saleh",
+        "given": "Mohammad"
+      },
+      {
+        "family": "Pot",
+        "given": "Etienne"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Addressed the challenge of generating long-form text"
+    ],
+    "type": null
+  },
+  {
     "citation-number": [
       "17."
     ],
     "title": [
-      "**\"The Curious Case of Neural Text Degeneration\"**"
+      "**\"Hierarchical Neural Story Generation\"**"
     ],
     "editor": [
       {
-        "family": "Holtzman",
-        "given": "Ari"
+        "family": "Fan",
+        "given": "Angela"
       },
       {
-        "family": "Buys",
-        "given": "Jan"
+        "family": "Lewis",
+        "given": "Mike"
       },
       {
-        "family": "Du",
-        "given": "Li"
-      },
-      {
-        "family": "Forbes",
-        "given": "Maxwell"
-      },
-      {
-        "family": "Choi",
-        "given": "Yejin"
+        "family": "Dauphin",
+        "given": "Yann"
       }
     ],
     "date": [
-      "2019"
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Proposed a hierarchical approach for generating coherent stories"
     ],
     "type": null
   },
@@ -409,59 +558,18 @@
       "18."
     ],
     "title": [
-      "**\"Plug and Play Language Models: A Simple Approach to Controlled Text Generation\"**"
-    ],
-    "note": [
-      "Yuntian Deng, Anton Bakhtin, Myle Ott, Arthur Szlam, Marc'Aurelio Ranzato (2019"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "19."
-    ],
-    "title": [
-      "**\"T5: Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer\"** - Colin Raffel, Noam Shazeer, Adam Roberts"
+      "**\"CTRLsum: Towards Generic Controllable Text Summarization\"**"
     ],
     "location": [
-      "Katherine Lee, Sharan Narang"
-    ],
-    "note": [
-      "Michael Matena, Yanqi Zhou, Wei Li, Peter J. Liu (2019"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "20."
-    ],
-    "title": [
-      "**\"CTRLsum: Towards Generic Controllable Text Summarization\"**"
+      "Shashi Narayan, Yao"
     ],
     "editor": [
       {
-        "family": "Narayan",
-        "given": "Shashi"
-      },
-      {
-        "family": "Maynez",
-        "given": "Joshua"
-      },
-      {
-        "family": "Simoes",
-        "given": "Gonçalo"
-      },
-      {
-        "family": "McDonald",
-        "given": "Ryan"
-      },
-      {
         "family": "Zhao",
-        "given": "Yao"
+        "given": "Joshua Maynez"
       },
       {
-        "family": "Metzler",
-        "given": "Donald"
+        "others": true
       }
     ],
     "date": [
@@ -470,8 +578,104 @@
     "type": null
   },
   {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
     "title": [
-      "These articles cover a range of topics within neural language text generation, including foundational models, advancements in attention mechanisms, and specific applications like machine translation, dialogue systems, and text summarization"
+      "Focused on controllable text summarization"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "author": [
+      {
+        "given": "G.R.O.V.E.R."
+      }
+    ],
+    "title": [
+      "Towards Self-Driving, Generative, Robust, Open-World Models\"**"
+    ],
+    "editor": [
+      {
+        "family": "Zellers",
+        "given": "Rowan"
+      },
+      {
+        "family": "Holtzman",
+        "given": "Ari"
+      },
+      {
+        "family": "Rashkin",
+        "given": "Hannah"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Explored robust generative models for text generation"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "title": [
+      "**\"Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer\"**"
+    ],
+    "editor": [
+      {
+        "family": "Raffel",
+        "given": "Colin"
+      },
+      {
+        "family": "Shazeer",
+        "given": "Noam"
+      },
+      {
+        "family": "Roberts",
+        "given": "Adam"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Investigated the capabilities of transfer learning in text generation"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "These articles cover a range of foundational models, techniques, and applications in neural language text generation"
     ],
     "type": null
   }

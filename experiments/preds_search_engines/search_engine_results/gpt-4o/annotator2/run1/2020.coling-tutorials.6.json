@@ -6,63 +6,13 @@
       }
     ],
     "title": [
-      "Here's a list of 20 articles on Grammatical Error Correction (GEC) up to 2020"
+      "Here is a reading list of 20 notable articles on Grammatical Error Correction (GEC) up to 2020"
     ],
     "type": null
   },
   {
     "citation-number": [
       "1."
-    ],
-    "author": [
-      {
-        "family": "Ng",
-        "given": "H.T."
-      },
-      {
-        "family": "Briscoe",
-        "given": "T."
-      }
-    ],
-    "date": [
-      "2014"
-    ],
-    "title": [
-      "The CoNLL-2014 Shared Task on Grammatical Error Correction"
-    ],
-    "container-title": [
-      "*Proceedings of the Eighteenth Conference on Computational Natural Language Learning: Shared Task*"
-    ],
-    "type": "paper-conference"
-  },
-  {
-    "citation-number": [
-      "2."
-    ],
-    "author": [
-      {
-        "family": "Rozovskaya",
-        "given": "A."
-      },
-      {
-        "family": "Roth",
-        "given": "D."
-      }
-    ],
-    "date": [
-      "2010"
-    ],
-    "title": [
-      "Training Paradigms for Correcting Errors in Grammar and Usage"
-    ],
-    "container-title": [
-      "*Human Language Technologies: The 2010 Annual Conference of the North American Chapter of the Association for Computational Linguistics*"
-    ],
-    "type": "paper-conference"
-  },
-  {
-    "citation-number": [
-      "3."
     ],
     "author": [
       {
@@ -82,41 +32,84 @@
       "2013"
     ],
     "title": [
-      "Building a Large Annotated Corpus of Learner English: The NUS Corpus of Learner English"
+      "Building a large annotated corpus of learner English: The NUS Corpus of Learner English"
     ],
     "container-title": [
-      "*Proceedings of the Eighth Workshop on Innovative Use of NLP for Building Educational Applications*"
+      "*Proceedings of the 8th Workshop on Innovative Use of NLP for Building Educational Applications*"
     ],
     "type": "paper-conference"
   },
   {
     "citation-number": [
-      "4."
+      "2."
     ],
     "author": [
       {
-        "family": "Felice",
-        "given": "M."
+        "family": "Ng",
+        "given": "H.T."
       },
       {
-        "family": "Yuan",
-        "given": "Z."
+        "family": "Wu",
+        "given": "S.M."
+      },
+      {
+        "family": "Briscoe",
+        "given": "T."
+      },
+      {
+        "family": "Chong",
+        "given": "T.Y."
+      },
+      {
+        "family": "Hadiwinoto",
+        "given": "C."
       }
     ],
     "date": [
       "2014"
     ],
     "title": [
-      "Generating Artificial Errors for Grammatical Error Correction"
+      "The CoNLL-2014 shared task on grammatical error correction"
     ],
     "container-title": [
-      "*Proceedings of the Student Research Workshop at the 52nd Annual Meeting of the Association for Computational Linguistics*"
+      "*Proceedings of the Eighteenth Conference on Computational Natural Language Learning: Shared Task*"
     ],
     "type": "paper-conference"
   },
   {
     "citation-number": [
-      "5."
+      "3."
+    ],
+    "author": [
+      {
+        "family": "Rozovskaya",
+        "given": "A."
+      },
+      {
+        "family": "Roth",
+        "given": "D."
+      }
+    ],
+    "date": [
+      "2016"
+    ],
+    "title": [
+      "Grammatical error correction: Machine translation and classifiers"
+    ],
+    "container-title": [
+      "*Proceedings of the 54th Annual Meeting of the Association for Computational Linguistics"
+    ],
+    "volume": [
+      "1"
+    ],
+    "location": [
+      "Long Papers"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "4."
     ],
     "author": [
       {
@@ -132,7 +125,7 @@
       "2018"
     ],
     "title": [
-      "A Multilayer Convolutional Encoder-Decoder Neural Network for Grammatical Error Correction"
+      "A multilayer convolutional encoder-decoder neural network for grammatical error correction"
     ],
     "container-title": [
       "*Proceedings of the Thirty-Second AAAI Conference on Artificial Intelligence*"
@@ -141,7 +134,7 @@
   },
   {
     "citation-number": [
-      "6."
+      "5."
     ],
     "author": [
       {
@@ -165,16 +158,22 @@
       "2018"
     ],
     "title": [
-      "Approaching Neural Grammatical Error Correction as a Low-Resource Machine Translation Task"
+      "Approaching neural grammatical error correction as a low-resource machine translation task"
     ],
     "container-title": [
-      "*Proceedings of the 2018 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies*"
+      "*Proceedings of the 2018 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies"
+    ],
+    "volume": [
+      "1"
+    ],
+    "location": [
+      "Long Papers"
     ],
     "type": "paper-conference"
   },
   {
     "citation-number": [
-      "7."
+      "6."
     ],
     "author": [
       {
@@ -198,7 +197,36 @@
       "2019"
     ],
     "title": [
-      "The BEA-2019 Shared Task on Grammatical Error Correction"
+      "The BEA-2019 shared task on grammatical error correction"
+    ],
+    "container-title": [
+      "*Proceedings of the Fourteenth Workshop on Innovative Use of NLP for Building Educational Applications*"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "author": [
+      {
+        "family": "Grundkiewicz",
+        "given": "R."
+      },
+      {
+        "family": "Junczys-Dowmunt",
+        "given": "M."
+      },
+      {
+        "family": "Heafield",
+        "given": "K."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "title": [
+      "Neural grammatical error correction systems with unsupervised pre-training on synthetic data"
     ],
     "container-title": [
       "*Proceedings of the Fourteenth Workshop on Innovative Use of NLP for Building Educational Applications*"
@@ -211,8 +239,268 @@
     ],
     "author": [
       {
+        "family": "Zhao",
+        "given": "W."
+      },
+      {
+        "family": "Wang",
+        "given": "Z."
+      },
+      {
+        "family": "Ng",
+        "given": "H.T."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "title": [
+      "Improving grammatical error correction via pre-training a copy-augmented architecture with unlabeled data"
+    ],
+    "container-title": [
+      "*Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies"
+    ],
+    "volume": [
+      "1"
+    ],
+    "publisher": [
+      "Long and Short Papers)*"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "author": [
+      {
+        "family": "Chollampatt",
+        "given": "S."
+      },
+      {
+        "family": "Ng",
+        "given": "H.T."
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "title": [
+      "Multilayer convolutional encoder-decoder neural network for grammatical error correction"
+    ],
+    "container-title": [
+      "*Proceedings of the Thirty-Second AAAI Conference on Artificial Intelligence*"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "author": [
+      {
+        "family": "Ge",
+        "given": "T."
+      },
+      {
+        "family": "Sun",
+        "given": "X."
+      },
+      {
+        "family": "Shen",
+        "given": "Y."
+      },
+      {
+        "family": "He",
+        "given": "Q."
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "title": [
+      "Fluency boost learning and inference for neural grammatical error correction"
+    ],
+    "container-title": [
+      "*Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics"
+    ],
+    "volume": [
+      "1"
+    ],
+    "location": [
+      "Long Papers"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "author": [
+      {
+        "family": "Sakaguchi",
+        "given": "K."
+      },
+      {
+        "family": "Napoles",
+        "given": "C."
+      },
+      {
+        "family": "Post",
+        "given": "M."
+      },
+      {
+        "family": "Tetreault",
+        "given": "J."
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "title": [
+      "Grammatical error correction with neural reinforcement learning"
+    ],
+    "container-title": [
+      "*Proceedings of the 2017 Conference on Empirical Methods in Natural Language Processing*"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "author": [
+      {
         "family": "Yuan",
         "given": "Z."
+      },
+      {
+        "family": "Briscoe",
+        "given": "T."
+      },
+      {
+        "family": "Felice",
+        "given": "M."
+      }
+    ],
+    "date": [
+      "2016"
+    ],
+    "title": [
+      "A neural network-based grammatical error correction system"
+    ],
+    "container-title": [
+      "*Proceedings of the 2016 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies*"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "author": [
+      {
+        "family": "Felice",
+        "given": "M."
+      },
+      {
+        "family": "Yuan",
+        "given": "Z."
+      },
+      {
+        "family": "Andersen",
+        "given": "Ø.E."
+      },
+      {
+        "family": "Briscoe",
+        "given": "T."
+      }
+    ],
+    "date": [
+      "2016"
+    ],
+    "title": [
+      "Automatic extraction of learner errors in ESL sentences using linguistically enhanced alignments"
+    ],
+    "container-title": [
+      "*Proceedings of the 54th Annual Meeting of the Association for Computational Linguistics"
+    ],
+    "volume": [
+      "1"
+    ],
+    "location": [
+      "Long Papers"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "author": [
+      {
+        "family": "Napoles",
+        "given": "C."
+      },
+      {
+        "family": "Sakaguchi",
+        "given": "K."
+      },
+      {
+        "family": "Tetreault",
+        "given": "J."
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "title": [
+      "JFLEG: A fluency corpus and benchmark for grammatical error correction"
+    ],
+    "container-title": [
+      "*Proceedings of the 15th Conference of the European Chapter of the Association for Computational Linguistics"
+    ],
+    "volume": [
+      "2"
+    ],
+    "publisher": [
+      "Short Papers*"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "author": [
+      {
+        "family": "Chollampatt",
+        "given": "S."
+      },
+      {
+        "family": "Ng",
+        "given": "H.T."
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "title": [
+      "Neural quality estimation of grammatical error correction"
+    ],
+    "container-title": [
+      "*Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing*"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "author": [
+      {
+        "family": "Bryant",
+        "given": "C."
       },
       {
         "family": "Felice",
@@ -224,19 +512,104 @@
       }
     ],
     "date": [
-      "2016"
+      "2017"
     ],
     "title": [
-      "Grammatical Error Correction Using Neural Machine Translation"
+      "Automatic annotation and evaluation of error types for grammatical error correction"
     ],
     "container-title": [
-      "*Proceedings of the 2016 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies*"
+      "*Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics"
+    ],
+    "volume": [
+      "1"
+    ],
+    "location": [
+      "Long Papers"
     ],
     "type": "paper-conference"
   },
   {
     "citation-number": [
-      "9."
+      "17."
+    ],
+    "author": [
+      {
+        "family": "Rozovskaya",
+        "given": "A."
+      },
+      {
+        "family": "Roth",
+        "given": "D."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "title": [
+      "Grammar error correction in morphologically rich languages: The case of Russian"
+    ],
+    "container-title": [
+      "*Transactions of the Association for Computational Linguistics*"
+    ],
+    "type": "chapter"
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "author": [
+      {
+        "family": "Ge",
+        "given": "T."
+      },
+      {
+        "family": "Sun",
+        "given": "X."
+      },
+      {
+        "family": "He",
+        "given": "Q."
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "title": [
+      "Reaching human-level performance in automatic grammatical error correction: An empirical study"
+    ],
+    "container-title": [
+      "*Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing*"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "author": [
+      {
+        "family": "Junczys-Dowmunt",
+        "given": "M."
+      },
+      {
+        "family": "Grundkiewicz",
+        "given": "R."
+      }
+    ],
+    "date": [
+      "2016"
+    ],
+    "title": [
+      "Phrase-based machine translation is state-of-the-art for automatic grammatical error correction"
+    ],
+    "container-title": [
+      "*Proceedings of the 2016 Conference on Empirical Methods in Natural Language Processing*"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "20."
     ],
     "author": [
       {
@@ -256,327 +629,16 @@
       "2018"
     ],
     "title": [
-      "Neural Feature Fusion for Grammatical Error Correction"
+      "Neural grammatical error correction with finite state transducers"
     ],
     "container-title": [
-      "*Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing*"
-    ],
-    "type": "paper-conference"
-  },
-  {
-    "citation-number": [
-      "10."
-    ],
-    "author": [
-      {
-        "family": "Chollampatt",
-        "given": "S."
-      },
-      {
-        "family": "Ng",
-        "given": "H.T."
-      }
-    ],
-    "date": [
-      "2018"
-    ],
-    "title": [
-      "A Multilayer Convolutional Encoder-Decoder Neural Network for Grammatical Error Correction"
-    ],
-    "container-title": [
-      "*Proceedings of the Thirty-Second AAAI Conference on Artificial Intelligence*"
-    ],
-    "type": "paper-conference"
-  },
-  {
-    "citation-number": [
-      "11."
-    ],
-    "author": [
-      {
-        "family": "Sakaguchi",
-        "given": "K."
-      },
-      {
-        "family": "Post",
-        "given": "M."
-      },
-      {
-        "family": "Durme",
-        "given": "B.V."
-      }
-    ],
-    "date": [
-      "2017"
-    ],
-    "title": [
-      "Grammatical Error Correction with Neural Reinforcement Learning"
-    ],
-    "container-title": [
-      "*Proceedings of the 2017 Conference on Empirical Methods in Natural Language Processing*"
-    ],
-    "type": "paper-conference"
-  },
-  {
-    "citation-number": [
-      "12."
-    ],
-    "author": [
-      {
-        "family": "Ge",
-        "given": "T."
-      },
-      {
-        "family": "Sun",
-        "given": "X."
-      },
-      {
-        "family": "He",
-        "given": "L."
-      }
-    ],
-    "date": [
-      "2018"
-    ],
-    "title": [
-      "Fluency Boost Learning and Inference for Neural Grammatical Error Correction"
-    ],
-    "container-title": [
-      "*Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics*"
-    ],
-    "type": "paper-conference"
-  },
-  {
-    "citation-number": [
-      "13."
-    ],
-    "author": [
-      {
-        "family": "Chollampatt",
-        "given": "S."
-      },
-      {
-        "family": "Ng",
-        "given": "H.T."
-      }
-    ],
-    "date": [
-      "2018"
-    ],
-    "title": [
-      "Connecting the Dots: Towards Human-Level Grammatical Error Correction"
-    ],
-    "container-title": [
-      "*Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing*"
-    ],
-    "type": "paper-conference"
-  },
-  {
-    "citation-number": [
-      "14."
-    ],
-    "author": [
-      {
-        "family": "Grundkiewicz",
-        "given": "R."
-      },
-      {
-        "family": "Junczys-Dowmunt",
-        "given": "M."
-      }
-    ],
-    "date": [
-      "2019"
-    ],
-    "title": [
-      "Minimally-Augmented Grammatical Error Correction"
-    ],
-    "container-title": [
-      "*Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies*"
-    ],
-    "type": "paper-conference"
-  },
-  {
-    "citation-number": [
-      "15."
-    ],
-    "author": [
-      {
-        "family": "Zhao",
-        "given": "W."
-      },
-      {
-        "family": "Wang",
-        "given": "H."
-      },
-      {
-        "family": "Lan",
-        "given": "M."
-      }
-    ],
-    "date": [
-      "2019"
-    ],
-    "title": [
-      "Improving Grammatical Error Correction via Pre-Training a Copy-Augmented Architecture with Unlabeled Data"
-    ],
-    "container-title": [
-      "*Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics*"
-    ],
-    "type": "paper-conference"
-  },
-  {
-    "citation-number": [
-      "16."
-    ],
-    "author": [
-      {
-        "family": "Lichtarge",
-        "given": "J."
-      },
-      {
-        "family": "Alberti",
-        "given": "C."
-      },
-      {
-        "family": "Kumar",
-        "given": "S."
-      },
-      {
-        "family": "Polosukhin",
-        "given": "I."
-      }
-    ],
-    "date": [
-      "2019"
-    ],
-    "title": [
-      "Weakly Supervised Grammatical Error Correction using Iterative Decoding"
-    ],
-    "container-title": [
-      "*Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies*"
-    ],
-    "type": "paper-conference"
-  },
-  {
-    "citation-number": [
-      "17."
-    ],
-    "author": [
-      {
-        "family": "Kiyono",
-        "given": "S."
-      },
-      {
-        "family": "Suzuki",
-        "given": "J."
-      },
-      {
-        "family": "Nagata",
-        "given": "M."
-      }
-    ],
-    "date": [
-      "2019"
-    ],
-    "title": [
-      "An Empirical Study of Incorporating Pseudo Data into Grammatical Error Correction"
-    ],
-    "container-title": [
-      "*Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing*"
-    ],
-    "type": "paper-conference"
-  },
-  {
-    "citation-number": [
-      "18."
-    ],
-    "author": [
-      {
-        "family": "Kaneko",
-        "given": "M."
-      },
-      {
-        "family": "Komachi",
-        "given": "M."
-      }
-    ],
-    "date": [
-      "2019"
-    ],
-    "title": [
-      "Multi-Head Multi-Layer Attention to Deep Language Representations for Grammatical Error Detection"
-    ],
-    "container-title": [
-      "*Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics*"
-    ],
-    "type": "paper-conference"
-  },
-  {
-    "citation-number": [
-      "19."
-    ],
-    "author": [
-      {
-        "family": "Zhao",
-        "given": "W."
-      },
-      {
-        "family": "Wang",
-        "given": "H."
-      },
-      {
-        "family": "Lan",
-        "given": "M."
-      }
-    ],
-    "date": [
-      "2019"
-    ],
-    "title": [
-      "Improving Grammatical Error Correction via Pre-Training a Copy-Augmented Architecture with Unlabeled Data"
-    ],
-    "container-title": [
-      "*Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics*"
-    ],
-    "type": "paper-conference"
-  },
-  {
-    "citation-number": [
-      "20."
-    ],
-    "author": [
-      {
-        "family": "Lichtarge",
-        "given": "J."
-      },
-      {
-        "family": "Alberti",
-        "given": "C."
-      },
-      {
-        "family": "Kumar",
-        "given": "S."
-      },
-      {
-        "family": "Polosukhin",
-        "given": "I."
-      }
-    ],
-    "date": [
-      "2019"
-    ],
-    "title": [
-      "Weakly Supervised Grammatical Error Correction using Iterative Decoding"
-    ],
-    "container-title": [
-      "*Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies*"
+      "*Proceedings of the 27th International Conference on Computational Linguistics*"
     ],
     "type": "paper-conference"
   },
   {
     "title": [
-      "These articles cover a wide range of approaches and methodologies in the field of Grammatical Error Correction, from traditional machine learning techniques to more recent neural network-based methods"
+      "These articles cover a range of approaches and advancements in the field of grammatical error correction, including machine learning, neural networks, and evaluation methodologies"
     ],
     "type": null
   }

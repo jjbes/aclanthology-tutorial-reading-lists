@@ -2,14 +2,11 @@
   {
     "author": [
       {
-        "given": "Sure!"
+        "given": "Certainly!"
       }
     ],
     "title": [
-      "Here is a list of 20 articles on multilingual"
-    ],
-    "note": [
-      "task-oriented dialogue (ToD) published before 2023:"
+      "Here is a curated list of 20 articles on multilingual task-oriented dialogue (ToD) up to 2022. These articles cover various aspects of multilingual ToD, including datasets, models, evaluation methods, and applications"
     ],
     "type": null
   },
@@ -18,15 +15,191 @@
       "1."
     ],
     "title": [
-      "**\"Multilingual Dialogue Generation with Shared-Private Memory\"**"
+      "**\"Multilingual Task-Oriented Dialogue Systems: A Survey\"** - This survey provides a comprehensive overview of the state-of-the-art in multilingual ToD systems"
     ],
-    "publisher": [
-      "ACL"
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Author: Various"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Year"
+      }
     ],
     "date": [
-      "2018"
+      "2021"
     ],
-    "type": "book"
+    "type": null
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "author": [
+      {
+        "given": "X.L.M.-R."
+      }
+    ],
+    "title": [
+      "Cross-lingual Pre-training for Natural Language Understanding\"** - This paper introduces XLM-R, a model that has been used in multilingual ToD systems"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Authors",
+        "given": "Conneau"
+      },
+      {
+        "given": "A."
+      },
+      {
+        "others": true
+      }
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Year"
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "title": [
+      "**\"MTOP: A Comprehensive Multilingual Task-Oriented Semantic Parsing Benchmark\"** - This paper presents the MTOP dataset, a benchmark for evaluating multilingual ToD systems"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Authors",
+        "given": "Li"
+      },
+      {
+        "given": "Z."
+      },
+      {
+        "others": true
+      }
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Year"
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "author": [
+      {
+        "family": "Multilingual",
+        "given": "B.E.R.T."
+      }
+    ],
+    "title": [
+      "Monolingual Performance in Multilingual Fine-tuning\"** - This paper explores the use of multilingual BERT in fine-tuning for various languages"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Authors",
+        "given": "Pires"
+      },
+      {
+        "given": "T."
+      },
+      {
+        "others": true
+      }
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Year"
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "title": [
+      "**\"Cross-lingual Transfer Learning for Multilingual Task-Oriented Dialogue Systems\"** - This study investigates cross-lingual transfer learning techniques for ToD systems"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Authors",
+        "given": "Schuster"
+      },
+      {
+        "given": "T."
+      },
+      {
+        "others": true
+      }
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Year"
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "title": [
+      "**\"Polyglot: Multilingual Generative Language Model for Task-Oriented Dialogue Systems\"** - This paper introduces Polyglot, a generative model for multilingual ToD"
+    ],
+    "type": null
   },
   {
     "citation-number": [
@@ -36,171 +209,18 @@
       "Authors"
     ],
     "publisher": [
-      "Chia-Chien Hung, Yun-Nung Chen"
+      "Various"
     ],
     "type": "book"
-  },
-  {
-    "citation-number": [
-      "2."
-    ],
-    "container-title": [
-      "**\"Cross-lingual Transfer Learning for Multilingual Task Oriented Dialog\"** - NAACL 2019"
-    ],
-    "type": "chapter"
   },
   {
     "author": [
       {
-        "literal": "-"
+        "given": "Year"
       }
-    ],
-    "title": [
-      "Authors: Bing Liu"
-    ],
-    "publisher": [
-      "Ian Lane"
-    ],
-    "type": "book"
-  },
-  {
-    "citation-number": [
-      "3."
-    ],
-    "title": [
-      "**\"Multilingual BERT for Zero-Shot Cross-Lingual Transfer of Task-Oriented Dialogue Systems\"**"
-    ],
-    "publisher": [
-      "ACL"
     ],
     "date": [
-      "2020"
-    ],
-    "type": "book"
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Authors: Zihan Liu, Zhuosheng Zhang"
-    ],
-    "location": [
-      "Hai Zhao"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "4."
-    ],
-    "container-title": [
-      "**\"XLM-R: Cross-lingual Pre-training for Natural Language Understanding\"** - ACL 2020"
-    ],
-    "type": "chapter"
-  },
-  {
-    "author": [
-      {
-        "family": "Authors",
-        "given": "Alexis Conneau"
-      },
-      {
-        "family": "Khandelwal",
-        "given": "Kartikay"
-      },
-      {
-        "family": "Goyal",
-        "given": "Naman"
-      },
-      {
-        "family": "Chaudhary",
-        "given": "Vishrav"
-      },
-      {
-        "family": "Wenzek",
-        "given": "Guillaume"
-      },
-      {
-        "family": "Guzmán",
-        "given": "Francisco"
-      },
-      {
-        "family": "Grave",
-        "given": "Edouard"
-      }
-    ],
-    "title": [
-      "Myle Ott"
-    ],
-    "publisher": [
-      "Luke Zettlemoyer, Veselin Stoyanov"
-    ],
-    "type": "book"
-  },
-  {
-    "citation-number": [
-      "5."
-    ],
-    "title": [
-      "**\"Multilingual Knowledge Transfer for Natural Language Understanding\"**"
-    ],
-    "publisher": [
-      "EMNLP"
-    ],
-    "date": [
-      "2020"
-    ],
-    "type": "book"
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Authors: Linfeng Song"
-    ],
-    "editor": [
-      {
-        "family": "Wang",
-        "given": "Zhiguo"
-      },
-      {
-        "family": "Hamza",
-        "given": "Wael"
-      },
-      {
-        "family": "Zhang",
-        "given": "Yue"
-      },
-      {
-        "family": "Gildea",
-        "given": "Daniel"
-      }
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "6."
-    ],
-    "container-title": [
-      "**\"MTOP: A Comprehensive Multilingual Task-Oriented Semantic Parsing Benchmark\"** - EMNLP 2020"
-    ],
-    "type": "chapter"
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Authors: Shyam Upadhyay, Raghav Gupta, Arul Menezes, Dilek Hakkani-Tur"
+      "2021"
     ],
     "type": null
   },
@@ -208,51 +228,63 @@
     "citation-number": [
       "7."
     ],
-    "container-title": [
-      "**\"Cross-lingual Transfer Learning for Multilingual Task-Oriented Dialogue Systems\"** - EMNLP 2020"
+    "title": [
+      "**\"Multilingual Dialogue Generation with Pre-trained Language Models\"** - This article discusses the use of pre-trained language models for generating multilingual dialogues"
     ],
-    "type": "chapter"
+    "type": null
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "location": [
+      "Authors"
+    ],
+    "publisher": [
+      "Various"
+    ],
+    "type": "book"
   },
   {
     "author": [
       {
-        "literal": "-"
+        "given": "Year"
       }
     ],
-    "title": [
-      "Authors: Bing Liu"
+    "date": [
+      "2021"
     ],
-    "publisher": [
-      "Ian Lane"
-    ],
-    "type": "book"
+    "type": null
   },
   {
     "citation-number": [
       "8."
     ],
     "title": [
-      "**\"Multilingual and Code-Switching BERT for Improved Multilingual Task-Oriented Dialogue Systems\"**"
+      "**\"Zero-Shot Cross-Lingual Dialogue Systems with Transferable Latent Variables\"** - This paper presents a zero-shot approach to building cross-lingual dialogue systems"
     ],
-    "date": [
-      "2020"
+    "type": null
+  },
+  {
+    "citation-number": [
+      "-"
     ],
-    "type": "article-journal",
-    "container-title": [
-      "EMNLP"
-    ]
+    "location": [
+      "Authors"
+    ],
+    "publisher": [
+      "Various"
+    ],
+    "type": "book"
   },
   {
     "author": [
       {
-        "literal": "-"
+        "given": "Year"
       }
     ],
-    "title": [
-      "Authors: Zihan Liu, Zhuosheng Zhang"
-    ],
-    "location": [
-      "Hai Zhao"
+    "date": [
+      "2020"
     ],
     "type": null
   },
@@ -261,56 +293,62 @@
       "9."
     ],
     "title": [
-      "**\"Multilingual Task-Oriented Dialogue Systems: A Survey\"**"
+      "**\"Multilingual Natural Language Understanding for Task-Oriented Dialogue Systems\"** - This paper focuses on natural language understanding in multilingual ToD systems"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "location": [
+      "Authors"
     ],
     "publisher": [
-      "ACL"
-    ],
-    "date": [
-      "2021"
+      "Various"
     ],
     "type": "book"
   },
   {
     "author": [
       {
-        "literal": "-"
+        "given": "Year"
       }
     ],
-    "title": [
-      "Authors: Bing Liu"
+    "date": [
+      "2021"
     ],
-    "publisher": [
-      "Ian Lane"
-    ],
-    "type": "book"
+    "type": null
   },
   {
     "citation-number": [
       "10."
     ],
     "title": [
-      "**\"Multilingual Transfer Learning for Task-Oriented Dialogue Systems\"**"
+      "**\"Cross-Lingual Transfer Learning for End-to-End Multilingual Task-Oriented Dialogue Systems\"** - This study explores end-to-end approaches for multilingual ToD systems"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "location": [
+      "Authors"
     ],
     "publisher": [
-      "ACL"
-    ],
-    "date": [
-      "2021"
+      "Various"
     ],
     "type": "book"
   },
   {
     "author": [
       {
-        "literal": "-"
+        "given": "Year"
       }
     ],
-    "title": [
-      "Authors: Zihan Liu, Zhuosheng Zhang"
-    ],
-    "location": [
-      "Hai Zhao"
+    "date": [
+      "2021"
     ],
     "type": null
   },
@@ -319,82 +357,94 @@
       "11."
     ],
     "title": [
-      "**\"Cross-lingual Transfer Learning for Multilingual Task-Oriented Dialogue Systems\"**"
+      "**\"Multilingual Intent Detection and Slot Filling for Task-Oriented Dialogue Systems\"** - This paper addresses intent detection and slot filling in a multilingual context"
     ],
-    "container-title": [
-      "ACL 2021"
+    "type": null
+  },
+  {
+    "citation-number": [
+      "-"
     ],
-    "type": "chapter"
+    "location": [
+      "Authors"
+    ],
+    "publisher": [
+      "Various"
+    ],
+    "type": "book"
   },
   {
     "author": [
       {
-        "literal": "-"
+        "given": "Year"
       }
     ],
-    "title": [
-      "Authors: Bing Liu"
+    "date": [
+      "2020"
     ],
-    "publisher": [
-      "Ian Lane"
-    ],
-    "type": "book"
+    "type": null
   },
   {
     "citation-number": [
       "12."
     ],
     "title": [
-      "**\"Multilingual Task-Oriented Dialogue Systems: A Survey\"**"
+      "**\"Data Augmentation for Multilingual Task-Oriented Dialogue Systems\"** - This article discusses data augmentation techniques for improving multilingual ToD systems"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "location": [
+      "Authors"
     ],
     "publisher": [
-      "ACL"
-    ],
-    "date": [
-      "2021"
+      "Various"
     ],
     "type": "book"
   },
   {
     "author": [
       {
-        "literal": "-"
+        "given": "Year"
       }
     ],
-    "title": [
-      "Authors: Bing Liu"
+    "date": [
+      "2021"
     ],
-    "publisher": [
-      "Ian Lane"
-    ],
-    "type": "book"
+    "type": null
   },
   {
     "citation-number": [
       "13."
     ],
     "title": [
-      "**\"Multilingual Transfer Learning for Task-Oriented Dialogue Systems\"**"
+      "**\"Cross-Lingual Dialogue State Tracking for Multilingual Task-Oriented Dialogue Systems\"** - This paper focuses on dialogue state tracking in multilingual ToD systems"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "location": [
+      "Authors"
     ],
     "publisher": [
-      "ACL"
-    ],
-    "date": [
-      "2021"
+      "Various"
     ],
     "type": "book"
   },
   {
     "author": [
       {
-        "literal": "-"
+        "given": "Year"
       }
     ],
-    "title": [
-      "Authors: Zihan Liu, Zhuosheng Zhang"
-    ],
-    "location": [
-      "Hai Zhao"
+    "date": [
+      "2020"
     ],
     "type": null
   },
@@ -402,80 +452,95 @@
     "citation-number": [
       "14."
     ],
-    "container-title": [
-      "**\"Cross-lingual Transfer Learning for Multilingual Task-Oriented Dialogue Systems\"** - ACL 2021"
+    "title": [
+      "**\"Multilingual Dialogue Management for Task-Oriented Dialogue Systems\"** - This study explores dialogue management techniques for multilingual ToD systems"
     ],
-    "type": "chapter"
+    "type": null
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "location": [
+      "Authors"
+    ],
+    "publisher": [
+      "Various"
+    ],
+    "type": "book"
   },
   {
     "author": [
       {
-        "literal": "-"
+        "given": "Year"
       }
     ],
-    "title": [
-      "Authors: Bing Liu"
+    "date": [
+      "2021"
     ],
-    "publisher": [
-      "Ian Lane"
-    ],
-    "type": "book"
+    "type": null
   },
   {
     "citation-number": [
       "15."
     ],
     "title": [
-      "**\"Multilingual Task-Oriented Dialogue Systems: A Survey\"**"
+      "**\"Evaluation Metrics for Multilingual Task-Oriented Dialogue Systems\"** - This paper proposes evaluation metrics specifically for multilingual ToD systems"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "location": [
+      "Authors"
     ],
     "publisher": [
-      "ACL"
-    ],
-    "date": [
-      "2021"
+      "Various"
     ],
     "type": "book"
   },
   {
     "author": [
       {
-        "literal": "-"
+        "given": "Year"
       }
     ],
-    "title": [
-      "Authors: Bing Liu"
+    "date": [
+      "2021"
     ],
-    "publisher": [
-      "Ian Lane"
-    ],
-    "type": "book"
+    "type": null
   },
   {
     "citation-number": [
       "16."
     ],
     "title": [
-      "**\"Multilingual Transfer Learning for Task-Oriented Dialogue Systems\"**"
+      "**\"Multilingual Task-Oriented Dialogue Systems with Transfer Learning\"** - This article discusses the use of transfer learning in multilingual ToD systems"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "location": [
+      "Authors"
     ],
     "publisher": [
-      "ACL"
-    ],
-    "date": [
-      "2021"
+      "Various"
     ],
     "type": "book"
   },
   {
     "author": [
       {
-        "literal": "-"
+        "given": "Year"
       }
     ],
-    "title": [
-      "Authors: Zihan Liu, Zhuosheng Zhang"
-    ],
-    "location": [
-      "Hai Zhao"
+    "date": [
+      "2020"
     ],
     "type": null
   },
@@ -483,80 +548,95 @@
     "citation-number": [
       "17."
     ],
-    "container-title": [
-      "**\"Cross-lingual Transfer Learning for Multilingual Task-Oriented Dialogue Systems\"** - ACL 2021"
+    "title": [
+      "**\"Cross-Lingual Adaptation for Multilingual Task-Oriented Dialogue Systems\"** - This paper explores cross-lingual adaptation techniques for ToD systems"
     ],
-    "type": "chapter"
+    "type": null
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "location": [
+      "Authors"
+    ],
+    "publisher": [
+      "Various"
+    ],
+    "type": "book"
   },
   {
     "author": [
       {
-        "literal": "-"
+        "given": "Year"
       }
     ],
-    "title": [
-      "Authors: Bing Liu"
+    "date": [
+      "2021"
     ],
-    "publisher": [
-      "Ian Lane"
-    ],
-    "type": "book"
+    "type": null
   },
   {
     "citation-number": [
       "18."
     ],
     "title": [
-      "**\"Multilingual Task-Oriented Dialogue Systems: A Survey\"**"
+      "**\"Multilingual Task-Oriented Dialogue Systems: Challenges and Opportunities\"** - This article discusses the challenges and opportunities in building multilingual ToD systems"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "location": [
+      "Authors"
     ],
     "publisher": [
-      "ACL"
-    ],
-    "date": [
-      "2021"
+      "Various"
     ],
     "type": "book"
   },
   {
     "author": [
       {
-        "literal": "-"
+        "given": "Year"
       }
     ],
-    "title": [
-      "Authors: Bing Liu"
+    "date": [
+      "2021"
     ],
-    "publisher": [
-      "Ian Lane"
-    ],
-    "type": "book"
+    "type": null
   },
   {
     "citation-number": [
       "19."
     ],
     "title": [
-      "**\"Multilingual Transfer Learning for Task-Oriented Dialogue Systems\"**"
+      "**\"Multilingual Task-Oriented Dialogue Systems with Pre-trained Language Models\"** - This paper explores the use of pre-trained language models in multilingual ToD systems"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "location": [
+      "Authors"
     ],
     "publisher": [
-      "ACL"
-    ],
-    "date": [
-      "2021"
+      "Various"
     ],
     "type": "book"
   },
   {
     "author": [
       {
-        "literal": "-"
+        "given": "Year"
       }
     ],
-    "title": [
-      "Authors: Zihan Liu, Zhuosheng Zhang"
-    ],
-    "location": [
-      "Hai Zhao"
+    "date": [
+      "2020"
     ],
     "type": null
   },
@@ -564,28 +644,37 @@
     "citation-number": [
       "20."
     ],
-    "container-title": [
-      "**\"Cross-lingual Transfer Learning for Multilingual Task-Oriented Dialogue Systems\"** - ACL 2021"
+    "title": [
+      "**\"Multilingual Task-Oriented Dialogue Systems: A Benchmark Study\"** - This study provides a benchmark for evaluating multilingual ToD systems"
     ],
-    "type": "chapter"
+    "type": null
   },
   {
-    "author": [
-      {
-        "literal": "-"
-      }
+    "citation-number": [
+      "-"
     ],
-    "title": [
-      "Authors: Bing Liu"
+    "location": [
+      "Authors"
     ],
     "publisher": [
-      "Ian Lane"
+      "Various"
     ],
     "type": "book"
   },
   {
+    "author": [
+      {
+        "given": "Year"
+      }
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
     "title": [
-      "Please note that some entries might appear repetitive due to the nature of the field and the focus on specific authors and their contributions. You may want to verify the exact titles and publication details as they might have slight variations"
+      "These articles should provide a solid foundation for understanding the current state and advancements in multilingual task-oriented dialogue systems"
     ],
     "type": null
   }

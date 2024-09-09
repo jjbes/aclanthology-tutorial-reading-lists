@@ -6,7 +6,7 @@
       }
     ],
     "title": [
-      "Here is a list of 20 influential articles on machine reasoning and interpretable neural networks published before 2021"
+      "Here's a curated list of 20 articles up to 2020 that cover topics related to machine reasoning and interpretable neural networks"
     ],
     "type": null
   },
@@ -31,7 +31,7 @@
       }
     ],
     "title": [
-      "Introduces the Transformer model, which has become foundational in natural language processing and interpretable neural networks"
+      "Introduces the Transformer model, which has become foundational in machine reasoning tasks"
     ],
     "type": null
   },
@@ -40,10 +40,10 @@
       "2."
     ],
     "title": [
-      "**\"Explaining Explanations: An Overview of Interpretability of Machine Learning\"**"
+      "**\"Neural Module Networks\"**"
     ],
     "publisher": [
-      "Lipton"
+      "Andreas et al"
     ],
     "date": [
       "2016"
@@ -57,7 +57,7 @@
       }
     ],
     "title": [
-      "Provides a comprehensive overview of interpretability in machine learning models"
+      "Proposes a method for reasoning in neural networks by composing modules"
     ],
     "type": null
   },
@@ -66,14 +66,14 @@
       "3."
     ],
     "title": [
-      "**\"A Survey of Methods for Explaining Black Box Models\"**"
+      "**\"Explainable Artificial Intelligence (XAI): Concepts, taxonomies, opportunities and challenges toward responsible AI\"**"
     ],
     "date": [
-      "2018"
+      "2020"
     ],
     "type": "article-journal",
     "container-title": [
-      "Guidotti et al"
+      "Arrieta et al"
     ]
   },
   {
@@ -83,7 +83,7 @@
       }
     ],
     "title": [
-      "Surveys various methods for explaining the decisions of black-box models"
+      "A comprehensive survey on the state of explainable AI"
     ],
     "type": null
   },
@@ -109,7 +109,7 @@
       }
     ],
     "title": [
-      "A practical guide to making machine learning models interpretable"
+      "A practical guide to techniques for making machine learning models interpretable"
     ],
     "type": null
   },
@@ -134,7 +134,7 @@
       }
     ],
     "title": [
-      "Proposes a method for generating rationales for neural network predictions"
+      "Discusses methods for generating rationales for neural network predictions"
     ],
     "type": null
   },
@@ -142,18 +142,16 @@
     "citation-number": [
       "6."
     ],
-    "author": [
-      {
-        "given": "L.I.M.E."
-      }
-    ],
     "title": [
-      "Local Interpretable Model-agnostic Explanations\"** - Ribeiro et al"
+      "**\"Towards a Rigorous Science of Interpretable Machine Learning\"**"
+    ],
+    "publisher": [
+      "Doshi-Velez and Kim"
     ],
     "date": [
-      "2016"
+      "2017"
     ],
-    "type": null
+    "type": "book"
   },
   {
     "author": [
@@ -162,7 +160,7 @@
       }
     ],
     "title": [
-      "Introduces LIME, a popular technique for explaining individual predictions of machine learning models"
+      "Proposes a framework for evaluating interpretability in machine learning"
     ],
     "type": null
   },
@@ -171,15 +169,12 @@
       "7."
     ],
     "title": [
-      "**\"The TreeNet Model: Combining Decision Trees with Neural Networks\"**"
+      "**\"Learning to Explain: An Information-Theoretic Perspective on Model Interpretation\"** - Chen et al"
     ],
     "date": [
-      "2015"
+      "2018"
     ],
-    "type": "article-journal",
-    "container-title": [
-      "Caruana et al"
-    ]
+    "type": null
   },
   {
     "author": [
@@ -188,7 +183,7 @@
       }
     ],
     "title": [
-      "Discusses a hybrid model combining decision trees and neural networks for better interpretability"
+      "Introduces an information-theoretic approach to model interpretation"
     ],
     "type": null
   },
@@ -196,16 +191,11 @@
     "citation-number": [
       "8."
     ],
-    "author": [
-      {
-        "given": "DeepLIFT"
-      }
-    ],
     "title": [
-      "Learning Important Features Through Propagating Activation Differences\"** - Shrikumar et al"
+      "**\"The Building Blocks of Interpretability\"** - Olah et al"
     ],
     "date": [
-      "2017"
+      "2018"
     ],
     "type": null
   },
@@ -216,7 +206,7 @@
       }
     ],
     "title": [
-      "Introduces DeepLIFT, a method for attributing the output of a neural network to its input features"
+      "Explores the components that contribute to interpretability in neural networks"
     ],
     "type": null
   },
@@ -225,7 +215,7 @@
       "9."
     ],
     "title": [
-      "**\"Grad-CAM: Visual Explanations from Deep Networks via Gradient-based Localization\"** - Selvaraju et al"
+      "**\"Explainable AI: Interpreting, Explaining and Visualizing Deep Learning\"** - Samek et al"
     ],
     "date": [
       "2017"
@@ -239,7 +229,7 @@
       }
     ],
     "title": [
-      "Proposes Grad-CAM, a technique for visualizing the regions of an input image that are important for a neural network's decision"
+      "A survey on techniques for interpreting and visualizing deep learning models"
     ],
     "type": null
   },
@@ -262,7 +252,7 @@
       }
     ],
     "title": [
-      "Introduces Anchors, a method for generating high-precision explanations for model predictions"
+      "Introduces the Anchors method for providing high-precision explanations for model predictions"
     ],
     "type": null
   },
@@ -271,14 +261,14 @@
       "11."
     ],
     "title": [
-      "**\"PathNet: Evolution Channels Gradient Descent in Super Neural Networks\"**"
+      "**\"A Survey of Methods for Explaining Black Box Models\"**"
     ],
     "date": [
-      "2017"
+      "2018"
     ],
     "type": "article-journal",
     "container-title": [
-      "Fernando et al"
+      "Guidotti et al"
     ]
   },
   {
@@ -288,7 +278,7 @@
       }
     ],
     "title": [
-      "Discusses PathNet, a method for evolving neural network architectures that can be more interpretable"
+      "A comprehensive survey of methods for explaining black-box models"
     ],
     "type": null
   },
@@ -297,15 +287,12 @@
       "12."
     ],
     "title": [
-      "**\"Towards a Rigorous Science of Interpretable Machine Learning\"**"
-    ],
-    "publisher": [
-      "Doshi-Velez and Kim"
+      "**\"Grad-CAM: Visual Explanations from Deep Networks via Gradient-based Localization\"** - Selvaraju et al"
     ],
     "date": [
       "2017"
     ],
-    "type": "book"
+    "type": null
   },
   {
     "author": [
@@ -314,7 +301,7 @@
       }
     ],
     "title": [
-      "A position paper advocating for a more rigorous approach to the science of interpretable machine learning"
+      "Proposes Grad-CAM, a technique for visualizing the importance of different parts of an input image"
     ],
     "type": null
   },
@@ -322,8 +309,41 @@
     "citation-number": [
       "13."
     ],
+    "author": [
+      {
+        "given": "L.I.M.E."
+      }
+    ],
     "title": [
-      "**\"Learning Important Features Through Propagating Activation Differences\"** - Shrikumar et al"
+      "Local Interpretable Model-agnostic Explanations\"** - Ribeiro et al"
+    ],
+    "date": [
+      "2016"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Introduces LIME, a popular method for explaining individual predictions of any classifier"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "author": [
+      {
+        "given": "DeepLIFT"
+      }
+    ],
+    "title": [
+      "Learning Important Features Through Propagating Activation Differences\"** - Shrikumar et al"
     ],
     "date": [
       "2017"
@@ -337,33 +357,7 @@
       }
     ],
     "title": [
-      "Proposes a method for understanding which features are important for a neural network's predictions"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "14."
-    ],
-    "title": [
-      "**\"The Mythos of Model Interpretability\"**"
-    ],
-    "publisher": [
-      "Lipton"
-    ],
-    "date": [
-      "2016"
-    ],
-    "type": "book"
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Discusses the challenges and misconceptions surrounding model interpretability"
+      "Proposes DeepLIFT, a method for attributing the contribution of each input feature to a prediction"
     ],
     "type": null
   },
@@ -373,11 +367,11 @@
     ],
     "author": [
       {
-        "literal": "**\"Interpretable and Pedagogical Examples\"** - Kim et al."
+        "literal": "**\"Path-Specific Counterfactual Fairness\"** - Kusner et al."
       }
     ],
     "date": [
-      "2016"
+      "2017"
     ],
     "type": null
   },
@@ -388,7 +382,7 @@
       }
     ],
     "title": [
-      "Introduces a method for generating interpretable examples that can be used to explain model predictions"
+      "Discusses fairness in machine learning and introduces a method for ensuring counterfactual fairness"
     ],
     "type": null
   },
@@ -397,12 +391,15 @@
       "16."
     ],
     "title": [
-      "**\"Interpretable Neural Networks with Sparse Boolean Projections\"** - Melis and Jaakkola"
+      "**\"The TreeNet Model: Interpretable Neural Networks\"**"
+    ],
+    "publisher": [
+      "Zhou and Feng"
     ],
     "date": [
-      "2018"
+      "2017"
     ],
-    "type": null
+    "type": "book"
   },
   {
     "author": [
@@ -411,7 +408,7 @@
       }
     ],
     "title": [
-      "Proposes a method for making neural networks more interpretable by using sparse Boolean projections"
+      "Proposes TreeNet, a model that combines decision trees with neural networks for interpretability"
     ],
     "type": null
   },
@@ -436,7 +433,7 @@
       }
     ],
     "title": [
-      "Introduces concept bottleneck models, which aim to improve interpretability by forcing the model to use human-understandable concepts"
+      "Introduces concept bottleneck models, which use human-understandable concepts to improve interpretability"
     ],
     "type": null
   },
@@ -444,16 +441,15 @@
     "citation-number": [
       "18."
     ],
-    "title": [
-      "**\"Explainable AI: The New 42?\"**"
-    ],
-    "publisher": [
-      "Miller"
+    "author": [
+      {
+        "literal": "**\"Interpretable and Pedagogical Examples\"** - Kim et al."
+      }
     ],
     "date": [
-      "2019"
+      "2016"
     ],
-    "type": "book"
+    "type": null
   },
   {
     "author": [
@@ -462,39 +458,13 @@
       }
     ],
     "title": [
-      "A review of the state of explainable AI and its challenges"
+      "Discusses methods for generating interpretable examples to explain model behavior"
     ],
     "type": null
   },
   {
     "citation-number": [
       "19."
-    ],
-    "title": [
-      "**\"Interpretable and Explainable Deep Learning: A Survey\"**"
-    ],
-    "publisher": [
-      "Zhang and Zhu"
-    ],
-    "date": [
-      "2018"
-    ],
-    "type": "book"
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Surveys various methods for making deep learning models interpretable and explainable"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "20."
     ],
     "title": [
       "**\"Towards Interpretable Reinforcement Learning Using Attention Augmented Agents\"** - Mott et al"
@@ -511,13 +481,42 @@
       }
     ],
     "title": [
-      "Discusses the use of attention mechanisms to make reinforcement learning agents more interpretable"
+      "Proposes using attention mechanisms to make reinforcement learning agents more interpretable"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "title": [
+      "**\"The Mythos of Model Interpretability\"**"
+    ],
+    "publisher": [
+      "Lipton"
+    ],
+    "date": [
+      "2016"
+    ],
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "A critical examination of what interpretability means in the context of machine learning models"
     ],
     "type": null
   },
   {
     "title": [
-      "These articles cover a range of topics within machine reasoning and interpretable neural networks, providing a solid foundation for understanding the current state and challenges in these fields"
+      "These articles provide a broad overview of the advancements and methodologies in the fields of machine reasoning and interpretable neural networks up to"
+    ],
+    "date": [
+      "2020"
     ],
     "type": null
   }

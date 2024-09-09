@@ -6,7 +6,7 @@
       }
     ],
     "title": [
-      "Here is a list of 20 articles published before 2022 that focus on dealing with long documents in natural language processing (NLP"
+      "Here's a reading list of 20 articles up to 2021 that focus on dealing with long documents in natural language processing (NLP"
     ],
     "type": null
   },
@@ -14,11 +14,13 @@
     "citation-number": [
       "1."
     ],
-    "title": [
-      "**\"Hierarchical Attention Networks for Document Classification\"** - Zichao Yang, et al"
+    "author": [
+      {
+        "literal": "**\"Attention is All You Need\"** - Vaswani et al."
+      }
     ],
     "date": [
-      "2016"
+      "2017"
     ],
     "type": null
   },
@@ -29,7 +31,7 @@
       }
     ],
     "title": [
-      "This paper introduces a hierarchical attention network for document classification, which captures the hierarchical structure of documents"
+      "Introduces the Transformer model, which forms the basis for many subsequent models handling long documents"
     ],
     "type": null
   },
@@ -37,23 +39,8 @@
     "citation-number": [
       "2."
     ],
-    "author": [
-      {
-        "given": "Longformer"
-      }
-    ],
     "title": [
-      "The Long-Document Transformer\"** - Iz Beltagy"
-    ],
-    "editor": [
-      {
-        "family": "Peters",
-        "given": "Matthew E."
-      },
-      {
-        "family": "Cohan",
-        "given": "Arman"
-      }
+      "**\"Longformer: The Long-Document Transformer\"** - Beltagy et al"
     ],
     "date": [
       "2020"
@@ -67,7 +54,7 @@
       }
     ],
     "title": [
-      "This paper presents Longformer, a transformer model designed to handle long documents efficiently"
+      "Proposes the Longformer model designed to handle long documents efficiently using a combination of local and global attention mechanisms"
     ],
     "type": null
   },
@@ -76,25 +63,7 @@
       "3."
     ],
     "title": [
-      "**\"Efficient Transformers: A Survey\"**"
-    ],
-    "editor": [
-      {
-        "family": "Tay",
-        "given": "Yi"
-      },
-      {
-        "family": "Dehghani",
-        "given": "Mostafa"
-      },
-      {
-        "family": "Bahri",
-        "given": "Dara"
-      },
-      {
-        "family": "Metzler",
-        "given": "Donald"
-      }
+      "**\"Reformer: The Efficient Transformer\"** - Kitaev et al"
     ],
     "date": [
       "2020"
@@ -108,7 +77,7 @@
       }
     ],
     "title": [
-      "A comprehensive survey of efficient transformer models, including those designed for long document processing"
+      "Introduces the Reformer model, which uses locality-sensitive hashing and reversible layers to handle long sequences"
     ],
     "type": null
   },
@@ -116,13 +85,21 @@
     "citation-number": [
       "4."
     ],
+    "author": [
+      {
+        "given": "E.T.C."
+      }
+    ],
     "title": [
-      "**\"Reformer: The Efficient Transformer\"** - Nikita Kitaev, Łukasz Kaiser, Anselm Levskaya"
+      "Encoding Long and Structured Inputs in Transformers\"**"
     ],
     "date": [
       "2020"
     ],
-    "type": null
+    "type": "article-journal",
+    "container-title": [
+      "Ainslie et al"
+    ]
   },
   {
     "author": [
@@ -131,7 +108,7 @@
       }
     ],
     "title": [
-      "Introduces Reformer, a transformer model that uses locality-sensitive hashing to handle long sequences"
+      "Presents the Extended Transformer Construction (ETC) for encoding long and structured inputs"
     ],
     "type": null
   },
@@ -140,24 +117,10 @@
       "5."
     ],
     "title": [
-      "**\"Sparse Transformers for Neural Machine Translation\"**"
-    ],
-    "editor": [
-      {
-        "family": "Fan",
-        "given": "Angela"
-      },
-      {
-        "family": "Grave",
-        "given": "Edouard"
-      },
-      {
-        "family": "Joulin",
-        "given": "Armand"
-      }
+      "**\"Big Bird: Transformers for Longer Sequences\"** - Zaheer et al"
     ],
     "date": [
-      "2019"
+      "2020"
     ],
     "type": null
   },
@@ -168,7 +131,7 @@
       }
     ],
     "title": [
-      "Discusses sparse transformers and their application to neural machine translation, with implications for long document processing"
+      "Proposes Big Bird, a sparse attention mechanism to handle longer sequences efficiently"
     ],
     "type": null
   },
@@ -177,10 +140,10 @@
       "6."
     ],
     "title": [
-      "**\"Transformer-XL: Attentive Language Models Beyond a Fixed-Length Context\"** - Zihang Dai, et al"
+      "**\"Efficient Transformers: A Survey\"** - Tay et al"
     ],
     "date": [
-      "2019"
+      "2020"
     ],
     "type": null
   },
@@ -191,7 +154,7 @@
       }
     ],
     "title": [
-      "Proposes Transformer-XL, which extends the context length for language models, making it suitable for long documents"
+      "Surveys various approaches to making Transformers more efficient, including handling long documents"
     ],
     "type": null
   },
@@ -200,278 +163,7 @@
       "7."
     ],
     "title": [
-      "**\"Big Bird: Transformers for Longer Sequences\"** - Manzil Zaheer, et al"
-    ],
-    "date": [
-      "2020"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Introduces Big Bird, a transformer model that can handle longer sequences by using sparse attention mechanisms"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "8."
-    ],
-    "title": [
-      "**\"Long-Short Transformer: Efficient Transformers for Language and Vision\"** - Yi Tay, et al"
-    ],
-    "date": [
-      "2020"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Proposes the Long-Short Transformer, which combines local and global attention mechanisms to process long sequences"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "9."
-    ],
-    "title": [
-      "**\"Hierarchical Transformers for Long Document Classification\"** - Wei Xiao, et al"
-    ],
-    "date": [
-      "2019"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Discusses hierarchical transformer models specifically designed for classifying long documents"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "10."
-    ],
-    "title": [
-      "**\"Dissecting Long Documents with Local Attentions\"** - Yoon Kim, et al"
-    ],
-    "date": [
-      "2019"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Explores the use of local attention mechanisms to handle long documents in NLP tasks"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "11."
-    ],
-    "title": [
-      "**\"Efficient Attention: Attention with Linear Complexities\"**"
-    ],
-    "editor": [
-      {
-        "family": "Gomez",
-        "given": "Aidan N."
-      },
-      {
-        "others": true
-      }
-    ],
-    "date": [
-      "2020"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Proposes an efficient attention mechanism that scales linearly with sequence length, suitable for long documents"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "12."
-    ],
-    "title": [
-      "**\"Hierarchical Transformers for Multi-Document Summarization\"** - Yang Liu, et al"
-    ],
-    "date": [
-      "2019"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Introduces hierarchical transformers for summarizing multiple documents, which can be applied to long document summarization"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "13."
-    ],
-    "title": [
-      "**\"Long Document Classification with BERT\"** - Yinhan Liu, et al"
-    ],
-    "date": [
-      "2019"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Discusses techniques for adapting BERT to classify long documents by segmenting and aggregating information"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "14."
-    ],
-    "title": [
-      "**\"Efficient Content-Based Sparse Attention with Routing Transformers\"** - Rewon Child, et al"
-    ],
-    "date": [
-      "2019"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Proposes Routing Transformers, which use sparse attention to handle long sequences efficiently"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "15."
-    ],
-    "title": [
-      "**\"Hierarchical Document Encoder for Parallel Corpus Mining\"** - Holger Schwenk, et al"
-    ],
-    "date": [
-      "2019"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Introduces a hierarchical document encoder for mining parallel corpora, useful for handling long documents"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "16."
-    ],
-    "title": [
-      "**\"Long Document Summarization with Hierarchical Transformers\"**"
-    ],
-    "editor": [
-      {
-        "family": "Liu",
-        "given": "Peter J."
-      },
-      {
-        "others": true
-      }
-    ],
-    "date": [
-      "2018"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Discusses the use of hierarchical transformers for summarizing long documents"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "17."
-    ],
-    "title": [
-      "**\"Efficient Neural Architecture Search for Long Document Classification\"** - Hanxiao Liu, et al"
-    ],
-    "date": [
-      "2018"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Explores neural architecture search techniques for designing models that classify long documents efficiently"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "18."
-    ],
-    "title": [
-      "**\"Hierarchical Recurrent Neural Networks for Long Document Classification\"** - Ramesh Nallapati, et al"
+      "**\"Hierarchical Attention Networks for Document Classification\"** - Yang et al"
     ],
     "date": [
       "2016"
@@ -485,39 +177,16 @@
       }
     ],
     "title": [
-      "Proposes hierarchical recurrent neural networks for classifying long documents"
+      "Introduces a hierarchical attention network that processes documents at the word and sentence levels"
     ],
     "type": null
   },
   {
     "citation-number": [
-      "19."
+      "8."
     ],
     "title": [
-      "**\"Memory-Augmented Neural Networks for Machine Reading of Long Documents\"** - Mateusz Malinowski, et al"
-    ],
-    "date": [
-      "2018"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Introduces memory-augmented neural networks for reading and understanding long documents"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "20."
-    ],
-    "title": [
-      "**\"Efficient Long-Range Transformers for Document Classification\"** - Mostafa Dehghani, et al"
+      "**\"Dissecting Long Documents with Local Attentions\"** - Guo et al"
     ],
     "date": [
       "2019"
@@ -531,13 +200,302 @@
       }
     ],
     "title": [
-      "Discusses efficient transformer models designed for classifying long documents"
+      "Proposes a method for handling long documents by breaking them into smaller chunks and applying local attention"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "title": [
+      "**\"Extractive Summarization as Text Matching\"** - Liu et al"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Discusses methods for summarizing long documents by treating summarization as a text matching problem"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "title": [
+      "**\"Hierarchical Transformers for Long Document Classification\"** - Dai et al"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Proposes a hierarchical Transformer model for classifying long documents"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "title": [
+      "**\"Sparse Transformer: Generating Text with Sparse Attention\"** - Child et al"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Introduces a sparse attention mechanism to handle long sequences in text generation tasks"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "title": [
+      "**\"GShard: Scaling Giant Models with Conditional Computation and Automatic Sharding\"**"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "Lepikhin et al"
+    ]
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Discusses techniques for scaling large models, including handling long sequences through model sharding"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "title": [
+      "**\"Long-Range Arena: A Benchmark for Efficient Transformers\"** - Tay et al"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Proposes a benchmark for evaluating the efficiency of Transformers on long-range tasks"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "title": [
+      "**\"Transformer-XL: Attentive Language Models Beyond a Fixed-Length Context\"**"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "Dai et al"
+    ]
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Introduces Transformer-XL, which extends the context length of Transformers using segment-level recurrence"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "title": [
+      "**\"Compressive Transformers for Long-Range Sequence Modelling\"** - Rae et al"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Proposes Compressive Transformers, which compress past hidden states to handle long-range dependencies"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "author": [
+      {
+        "literal": "**\"Structured Attention Networks\"** - Kim et al."
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Introduces structured attention mechanisms to handle structured data within long documents"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "title": [
+      "**\"Hierarchical Transformers are More Efficient Language Models\"** - Ainslie et al"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Discusses hierarchical Transformers for more efficient language modeling of long documents"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "title": [
+      "**\"Efficient Attention: Attention with Linear Complexities\"** - Katharopoulos et al"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Proposes an efficient attention mechanism with linear complexity for handling long sequences"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "title": [
+      "**\"Long Document Classification from Local Word Glimpses via Recurrent Attention Learning\"**"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "Adhikari et al"
+    ]
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Introduces a recurrent attention mechanism to classify long documents by focusing on local word glimpses"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "author": [
+      {
+        "literal": "**\"Efficient and Scalable Multi-Document Summarization\"** - Liu et al."
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Discusses methods for summarizing multiple long documents efficiently and scalably"
     ],
     "type": null
   },
   {
     "title": [
-      "These articles cover a range of techniques and models designed to handle the challenges posed by long documents in NLP, including hierarchical models, efficient attention mechanisms, and specialized transformer architectures"
+      "These articles cover a range of techniques and models developed to handle the challenges posed by long documents in NLP, from attention mechanisms and hierarchical models to efficient training and summarization methods"
     ],
     "type": null
   }

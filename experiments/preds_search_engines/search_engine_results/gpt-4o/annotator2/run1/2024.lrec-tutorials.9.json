@@ -1,12 +1,7 @@
 [
   {
-    "author": [
-      {
-        "given": "Certainly!"
-      }
-    ],
     "title": [
-      "Here is a curated reading list of 20 articles on the analysis and control of text embedding representations, focusing on recent advancements and key research in the field"
+      "Creating a reading list of 20 articles on the analysis and control of text embedding representations up to 2024 involves selecting seminal and recent papers that cover various aspects of this field. Below is a curated list of articles that span foundational concepts, recent advancements, and potential future directions"
     ],
     "type": null
   },
@@ -16,25 +11,33 @@
     ],
     "author": [
       {
-        "given": "B.E.R.T."
+        "family": "Mikolov",
+        "given": "T."
+      },
+      {
+        "family": "Chen",
+        "given": "K."
+      },
+      {
+        "family": "Corrado",
+        "given": "G."
+      },
+      {
+        "family": "Dean",
+        "given": "J."
       }
-    ],
-    "title": [
-      "Pre-training of Deep Bidirectional Transformers for Language Understanding\"** by Jacob Devlin et al"
     ],
     "date": [
-      "2019"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
+      "2013"
     ],
     "title": [
-      "A foundational paper introducing BERT, a widely used text embedding model"
+      "Efficient Estimation of Word Representations in Vector Space"
+    ],
+    "note": [
+      "arXiv preprint arXiv:1301.3781."
+    ],
+    "arxiv": [
+      "1301.3781"
     ],
     "type": null
   },
@@ -42,183 +45,258 @@
     "citation-number": [
       "2."
     ],
-    "title": [
-      "**\"Attention is All You Need\"** by Ashish Vaswani et al"
-    ],
-    "date": [
-      "2017"
-    ],
-    "type": null
-  },
-  {
     "author": [
       {
-        "literal": "-"
+        "family": "Pennington",
+        "given": "J."
+      },
+      {
+        "family": "Socher",
+        "given": "R."
+      },
+      {
+        "family": "Manning",
+        "given": "C.D."
       }
     ],
-    "title": [
-      "Introduces the Transformer architecture, which is the basis for many modern text embedding models"
+    "date": [
+      "2014"
     ],
-    "type": null
+    "title": [
+      "GloVe: Global Vectors for Word Representation"
+    ],
+    "container-title": [
+      "Proceedings of the 2014 Conference on Empirical Methods in Natural Language Processing (EMNLP"
+    ],
+    "type": "paper-conference"
   },
   {
     "citation-number": [
       "3."
     ],
-    "title": [
-      "**\"Universal Sentence Encoder\"** by Daniel Cer et al"
-    ],
-    "date": [
-      "2018"
-    ],
-    "type": null
-  },
-  {
     "author": [
       {
-        "literal": "-"
+        "family": "Devlin",
+        "given": "J."
+      },
+      {
+        "family": "Chang",
+        "given": "M.W."
+      },
+      {
+        "family": "Lee",
+        "given": "K."
+      },
+      {
+        "family": "Toutanova",
+        "given": "K."
       }
     ],
-    "title": [
-      "Discusses a model for creating sentence-level embeddings that are useful for various NLP tasks"
+    "date": [
+      "2019"
     ],
-    "type": null
+    "title": [
+      "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding"
+    ],
+    "container-title": [
+      "Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (NAACL-HLT"
+    ],
+    "type": "paper-conference"
   },
   {
     "citation-number": [
       "4."
     ],
-    "title": [
-      "**\"Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer\"** by Colin Raffel et al"
-    ],
-    "date": [
-      "2019"
-    ],
-    "type": null
-  },
-  {
     "author": [
       {
-        "literal": "-"
+        "family": "Peters",
+        "given": "M.E."
+      },
+      {
+        "family": "Neumann",
+        "given": "M."
+      },
+      {
+        "family": "Iyyer",
+        "given": "M."
+      },
+      {
+        "family": "Gardner",
+        "given": "M."
+      },
+      {
+        "family": "Clark",
+        "given": "C."
+      },
+      {
+        "family": "Lee",
+        "given": "K."
+      },
+      {
+        "family": "Zettlemoyer",
+        "given": "L."
       }
     ],
-    "title": [
-      "Introduces T5, a model that converts all NLP tasks into a text-to-text format"
+    "date": [
+      "2018"
     ],
-    "type": null
+    "title": [
+      "Deep Contextualized Word Representations"
+    ],
+    "container-title": [
+      "Proceedings of the 2018 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (NAACL-HLT"
+    ],
+    "type": "paper-conference"
   },
   {
     "citation-number": [
       "5."
     ],
-    "title": [
-      "**\"Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks\"** by Nils Reimers and Iryna Gurevych"
-    ],
-    "date": [
-      "2019"
-    ],
-    "type": null
-  },
-  {
     "author": [
       {
-        "literal": "-"
+        "family": "Radford",
+        "given": "A."
+      },
+      {
+        "family": "Narasimhan",
+        "given": "K."
+      },
+      {
+        "family": "Salimans",
+        "given": "T."
+      },
+      {
+        "family": "Sutskever",
+        "given": "I."
       }
     ],
-    "title": [
-      "Proposes a method to derive semantically meaningful sentence embeddings using BERT"
+    "date": [
+      "2018"
     ],
-    "type": null
+    "title": [
+      "Improving Language Understanding by Generative Pre-Training"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "OpenAI"
+    ]
   },
   {
     "citation-number": [
       "6."
     ],
-    "title": [
-      "**\"Contextualized Word Representations for Reading Comprehension\"** by Matthew Peters et al"
-    ],
-    "date": [
-      "2018"
-    ],
-    "type": null
-  },
-  {
     "author": [
       {
-        "literal": "-"
+        "family": "Radford",
+        "given": "A."
+      },
+      {
+        "family": "Wu",
+        "given": "J."
+      },
+      {
+        "family": "Child",
+        "given": "R."
+      },
+      {
+        "family": "Luan",
+        "given": "D."
+      },
+      {
+        "family": "Amodei",
+        "given": "D."
+      },
+      {
+        "family": "Sutskever",
+        "given": "I."
       }
     ],
-    "title": [
-      "Introduces ELMo, a model that generates context-sensitive word embeddings"
+    "date": [
+      "2019"
     ],
-    "type": null
+    "title": [
+      "Language Models are Unsupervised Multitask Learners"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "OpenAI"
+    ]
   },
   {
     "citation-number": [
       "7."
     ],
-    "title": [
-      "**\"Analyzing and Interpreting Neural Network Models for NLP\"** by Sebastian Ruder et al"
+    "author": [
+      {
+        "family": "Reimers",
+        "given": "N."
+      },
+      {
+        "family": "Gurevych",
+        "given": "I."
+      }
     ],
     "date": [
       "2019"
     ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
     "title": [
-      "A comprehensive survey on methods for analyzing and interpreting neural network models in NLP"
+      "Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks"
     ],
-    "type": null
+    "container-title": [
+      "Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing (EMNLP"
+    ],
+    "type": "paper-conference"
   },
   {
     "citation-number": [
       "8."
     ],
-    "title": [
-      "**\"A Survey on Contextual Embeddings\"** by Emily Alsentzer et al"
-    ],
-    "date": [
-      "2020"
-    ],
-    "type": null
-  },
-  {
     "author": [
       {
-        "literal": "-"
+        "family": "Ethayarajh",
+        "given": "K."
       }
     ],
-    "title": [
-      "Reviews various contextual embedding models and their applications"
+    "date": [
+      "2019"
     ],
-    "type": null
+    "title": [
+      "How Contextual are Contextualized Word Representations? Comparing the Geometry of BERT, ELMo, and GPT-2 Embeddings"
+    ],
+    "container-title": [
+      "Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing (EMNLP"
+    ],
+    "type": "paper-conference"
   },
   {
     "citation-number": [
       "9."
     ],
-    "title": [
-      "**\"On the Importance of the Kullback-Leibler Divergence Term in Variational Autoencoders for Text Generation\"** by Akash Srivastava and Charles Sutton"
-    ],
-    "date": [
-      "2017"
-    ],
-    "type": null
-  },
-  {
     "author": [
       {
-        "literal": "-"
+        "family": "Li",
+        "given": "J."
+      },
+      {
+        "family": "Monroe",
+        "given": "W."
+      },
+      {
+        "family": "Jurafsky",
+        "given": "D."
       }
     ],
+    "date": [
+      "2016"
+    ],
     "title": [
-      "Discusses the role of the KL divergence term in VAEs for text generation and embedding"
+      "Understanding Neural Networks through Representation Erasure"
+    ],
+    "note": [
+      "arXiv preprint arXiv:1612.08220."
+    ],
+    "arxiv": [
+      "1612.08220"
     ],
     "type": null
   },
@@ -226,160 +304,252 @@
     "citation-number": [
       "10."
     ],
-    "title": [
-      "**\"Learning Deep Transformer Models for Machine Translation\"** by Zihang Dai et al"
-    ],
-    "date": [
-      "2019"
-    ],
-    "type": null
-  },
-  {
     "author": [
       {
-        "literal": "-"
+        "family": "Bolukbasi",
+        "given": "T."
+      },
+      {
+        "family": "Chang",
+        "given": "K.W."
+      },
+      {
+        "family": "Zou",
+        "given": "J.Y."
+      },
+      {
+        "family": "Saligrama",
+        "given": "V."
+      },
+      {
+        "family": "Kalai",
+        "given": "A.T."
       }
     ],
-    "title": [
-      "Explores the use of deep transformer models for generating high-quality text embeddings in machine translation"
+    "date": [
+      "2016"
     ],
-    "type": null
+    "title": [
+      "Man is to Computer Programmer as Woman is to Homemaker? Debiasing Word Embeddings"
+    ],
+    "container-title": [
+      "Advances in Neural Information Processing Systems (NeurIPS"
+    ],
+    "type": "chapter"
   },
   {
     "citation-number": [
       "11."
     ],
-    "title": [
-      "**\"Improving Language Understanding by Generative Pre-Training\"** by Alec Radford et al"
-    ],
-    "date": [
-      "2018"
-    ],
-    "type": null
-  },
-  {
     "author": [
       {
-        "literal": "-"
+        "family": "Zhao",
+        "given": "J."
+      },
+      {
+        "family": "Wang",
+        "given": "T."
+      },
+      {
+        "family": "Yatskar",
+        "given": "M."
+      },
+      {
+        "family": "Ordonez",
+        "given": "V."
+      },
+      {
+        "family": "Chang",
+        "given": "K.W."
       }
     ],
-    "title": [
-      "Introduces GPT, a generative pre-training model for text embeddings"
+    "date": [
+      "2017"
     ],
-    "type": null
+    "title": [
+      "Men Also Like Shopping: Reducing Gender Bias Amplification using Corpus-level Constraints"
+    ],
+    "container-title": [
+      "Proceedings of the 2017 Conference on Empirical Methods in Natural Language Processing (EMNLP"
+    ],
+    "type": "paper-conference"
   },
   {
     "citation-number": [
       "12."
     ],
-    "title": [
-      "**\"XLNet: Generalized Autoregressive Pretraining for Language Understanding\"** by Zhilin Yang et al"
-    ],
-    "date": [
-      "2019"
-    ],
-    "type": null
-  },
-  {
     "author": [
       {
-        "literal": "-"
+        "family": "Ravfogel",
+        "given": "S."
+      },
+      {
+        "family": "Elazar",
+        "given": "Y."
+      },
+      {
+        "family": "Gonen",
+        "given": "H."
+      },
+      {
+        "family": "Twiton",
+        "given": "M."
+      },
+      {
+        "family": "Goldberg",
+        "given": "Y."
       }
     ],
-    "title": [
-      "Proposes XLNet, a model that improves upon BERT by using a generalized autoregressive pretraining method"
+    "date": [
+      "2020"
     ],
-    "type": null
+    "title": [
+      "Null It Out: Guarding Protected Attributes by Iterative Nullspace Projection"
+    ],
+    "container-title": [
+      "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics (ACL"
+    ],
+    "type": "paper-conference"
   },
   {
     "citation-number": [
       "13."
     ],
-    "title": [
-      "**\"RoBERTa: A Robustly Optimized BERT Pretraining Approach\"** by Yinhan Liu et al"
+    "author": [
+      {
+        "family": "Gonen",
+        "given": "H."
+      },
+      {
+        "family": "Goldberg",
+        "given": "Y."
+      }
     ],
     "date": [
       "2019"
     ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
     "title": [
-      "Enhances BERT by optimizing its pretraining process, leading to better text embeddings"
+      "Lipstick on a Pig: Debiasing Methods Cover up Systematic Gender Biases in Word Embeddings But do not Remove Them"
     ],
-    "type": null
+    "container-title": [
+      "Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (NAACL-HLT"
+    ],
+    "type": "paper-conference"
   },
   {
     "citation-number": [
       "14."
     ],
-    "title": [
-      "**\"ALBERT: A Lite BERT for Self-supervised Learning of Language Representations\"** by Zhenzhong Lan et al"
+    "author": [
+      {
+        "family": "May",
+        "given": "C."
+      },
+      {
+        "family": "Wang",
+        "given": "A."
+      },
+      {
+        "family": "Bordia",
+        "given": "S."
+      },
+      {
+        "family": "Bowman",
+        "given": "S.R."
+      },
+      {
+        "family": "Rudinger",
+        "given": "R."
+      }
     ],
     "date": [
       "2019"
     ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
     "title": [
-      "Introduces ALBERT, a more efficient version of BERT with fewer parameters"
+      "On Measuring Social Biases in Sentence Encoders"
     ],
-    "type": null
+    "container-title": [
+      "Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (NAACL-HLT"
+    ],
+    "type": "paper-conference"
   },
   {
     "citation-number": [
       "15."
     ],
-    "title": [
-      "**\"DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter\"** by Victor Sanh et al"
-    ],
-    "date": [
-      "2019"
-    ],
-    "type": null
-  },
-  {
     "author": [
       {
-        "literal": "-"
+        "family": "Zhang",
+        "given": "B.H."
+      },
+      {
+        "family": "Lemoine",
+        "given": "B."
+      },
+      {
+        "family": "Mitchell",
+        "given": "M."
       }
     ],
-    "title": [
-      "Presents DistilBERT, a smaller and faster version of BERT that retains much of its performance"
+    "date": [
+      "2018"
     ],
-    "type": null
+    "title": [
+      "Mitigating Unwanted Biases with Adversarial Learning"
+    ],
+    "container-title": [
+      "Proceedings of the 2018 AAAI/ACM Conference on AI, Ethics, and Society (AIES"
+    ],
+    "type": "paper-conference"
   },
   {
     "citation-number": [
       "16."
     ],
-    "title": [
-      "**\"Analyzing the Structure of Attention in a Transformer Language Model\"** by Kevin Clark et al"
+    "author": [
+      {
+        "family": "Liu",
+        "given": "Y."
+      },
+      {
+        "family": "Ott",
+        "given": "M."
+      },
+      {
+        "family": "Goyal",
+        "given": "N."
+      },
+      {
+        "family": "Du",
+        "given": "J."
+      },
+      {
+        "family": "Joshi",
+        "given": "M."
+      },
+      {
+        "family": "Chen",
+        "given": "D."
+      },
+      {
+        "family": "Stoyanov",
+        "given": "V."
+      },
+      {
+        "others": true
+      }
     ],
     "date": [
       "2019"
     ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
     "title": [
-      "Investigates the attention mechanisms within transformer models to understand how they capture text representations"
+      "RoBERTa: A Robustly Optimized BERT Pretraining Approach"
+    ],
+    "note": [
+      "arXiv preprint arXiv:1907.11692."
+    ],
+    "arxiv": [
+      "1907.11692"
     ],
     "type": null
   },
@@ -387,110 +557,148 @@
     "citation-number": [
       "17."
     ],
-    "title": [
-      "**\"Fairness and Bias in Natural Language Processing\"** by Dirk Hovy and Shannon L"
-    ],
-    "publisher": [
-      "Spruit"
-    ],
-    "date": [
-      "2016"
-    ],
-    "type": "book"
-  },
-  {
     "author": [
       {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Discusses issues of fairness and bias in NLP models, including text embeddings"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "18."
-    ],
-    "title": [
-      "**\"Probing Neural Network Comprehension of Natural Language Arguments\"**"
-    ],
-    "editor": [
+        "family": "Clark",
+        "given": "K."
+      },
       {
-        "family": "John Hewitt",
-        "particle": "by"
+        "family": "Khandelwal",
+        "given": "U."
+      },
+      {
+        "family": "Levy",
+        "given": "O."
       },
       {
         "family": "Manning",
-        "given": "Christopher D."
+        "given": "C.D."
       }
     ],
     "date": [
       "2019"
     ],
-    "type": null
+    "title": [
+      "What Does BERT Look at? An Analysis of BERT's Attention"
+    ],
+    "container-title": [
+      "Proceedings of the 2019 ACL Workshop BlackboxNLP: Analyzing and Interpreting Neural Networks for NLP"
+    ],
+    "type": "paper-conference"
   },
   {
+    "citation-number": [
+      "18."
+    ],
     "author": [
       {
-        "literal": "-"
+        "family": "Tenney",
+        "given": "I."
+      },
+      {
+        "family": "Das",
+        "given": "D."
+      },
+      {
+        "family": "Pavlick",
+        "given": "E."
       }
     ],
-    "title": [
-      "Proposes methods to probe and understand how neural networks comprehend natural language arguments"
+    "date": [
+      "2019"
     ],
-    "type": null
+    "title": [
+      "BERT Rediscovers the Classical NLP Pipeline"
+    ],
+    "container-title": [
+      "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics (ACL"
+    ],
+    "type": "paper-conference"
   },
   {
     "citation-number": [
       "19."
     ],
-    "title": [
-      "**\"Contextualized Embeddings in NLP: A Survey\"** by Anna Rogers et al"
+    "author": [
+      {
+        "family": "Rogers",
+        "given": "A."
+      },
+      {
+        "family": "Kovaleva",
+        "given": "O."
+      },
+      {
+        "family": "Rumshisky",
+        "given": "A."
+      }
     ],
     "date": [
       "2020"
     ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
     "title": [
-      "A survey that provides an overview of contextualized embeddings and their impact on NLP tasks"
+      "A Primer in BERTology: What We Know About How BERT Works"
     ],
-    "type": null
+    "container-title": [
+      "Transactions of the Association for Computational Linguistics (TACL"
+    ],
+    "type": "chapter"
   },
   {
     "citation-number": [
       "20."
     ],
-    "title": [
-      "**\"Controlling Text Generation with Plug and Play Language Models\"** by Shashi Narayan et al"
-    ],
-    "date": [
-      "2020"
-    ],
-    "type": null
-  },
-  {
     "author": [
       {
-        "literal": "-"
+        "family": "Bommasani",
+        "given": "R."
+      },
+      {
+        "family": "Hudson",
+        "given": "D.A."
+      },
+      {
+        "family": "Adeli",
+        "given": "E."
+      },
+      {
+        "family": "Altman",
+        "given": "R."
+      },
+      {
+        "family": "Arora",
+        "given": "S."
+      },
+      {
+        "family": "Arx",
+        "given": "S.",
+        "particle": "von"
+      },
+      {
+        "family": "Liang",
+        "given": "P."
+      },
+      {
+        "others": true
       }
     ],
+    "date": [
+      "2021"
+    ],
     "title": [
-      "Explores methods to control text generation using language models, which is crucial for generating specific text embeddings"
+      "On the Opportunities and Risks of Foundation Models"
+    ],
+    "note": [
+      "arXiv preprint arXiv:2108.07258."
+    ],
+    "arxiv": [
+      "2108.07258"
     ],
     "type": null
   },
   {
     "title": [
-      "These articles cover a range of topics from foundational models and architectures to specific methods for analyzing and controlling text embeddings. They provide a comprehensive understanding of the current state and future directions in the field"
+      "This list includes foundational works, key advancements, and critical analyses of text embedding representations. It also covers various aspects such as bias in embeddings, interpretability, and the evolution of models from word embeddings to contextual embeddings"
     ],
     "type": null
   }

@@ -1,7 +1,12 @@
 [
   {
+    "author": [
+      {
+        "given": "Certainly!"
+      }
+    ],
     "title": [
-      "Sure, here is a reading list of 20 articles that cover word sense disambiguation, parsing, and semantic role labeling in a multilingual context, with a focus on semantic relations captured by language models"
+      "Here's a curated reading list of 20 articles up to 2022 that cover word sense disambiguation (WSD), parsing, and semantic role labeling (SRL) in a multilingual context, with a focus on semantic relations captured by language models"
     ],
     "type": null
   },
@@ -22,7 +27,7 @@
       "Word Sense Disambiguation: A Survey"
     ],
     "container-title": [
-      "ACM Computing Surveys (CSUR).**"
+      "ACM Computing Surveys.**"
     ],
     "type": "chapter"
   },
@@ -33,53 +38,13 @@
       }
     ],
     "title": [
-      "A comprehensive survey on word sense disambiguation techniques"
+      "A comprehensive survey of WSD techniques, including multilingual approaches"
     ],
     "type": null
   },
   {
     "citation-number": [
       "2."
-    ],
-    "author": [
-      {
-        "family": "Moro",
-        "given": "A."
-      },
-      {
-        "family": "Raganato",
-        "given": "A."
-      },
-      {
-        "family": "Navigli",
-        "given": "R."
-      }
-    ],
-    "date": [
-      "2014"
-    ],
-    "title": [
-      "Entity Linking meets Word Sense Disambiguation: A Unified Approach"
-    ],
-    "container-title": [
-      "Transactions of the Association for Computational Linguistics.**"
-    ],
-    "type": "chapter"
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Discusses a unified approach to entity linking and word sense disambiguation"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "3."
     ],
     "author": [
       {
@@ -101,10 +66,10 @@
     "title": [
       "Word Sense Disambiguation: A Unified Evaluation Framework and Empirical Comparison"
     ],
+    "type": "article-journal",
     "container-title": [
-      "Proceedings of EACL.**"
-    ],
-    "type": "paper-conference"
+      "EACL.**"
+    ]
   },
   {
     "author": [
@@ -113,13 +78,13 @@
       }
     ],
     "title": [
-      "Provides a unified evaluation framework for word sense disambiguation"
+      "Provides a unified evaluation framework for WSD and compares various methods, including multilingual settings"
     ],
     "type": null
   },
   {
     "citation-number": [
-      "4."
+      "3."
     ],
     "author": [
       {
@@ -157,10 +122,10 @@
     "title": [
       "Deep contextualized word representations"
     ],
+    "type": "article-journal",
     "container-title": [
-      "Proceedings of NAACL-HLT.**"
-    ],
-    "type": "paper-conference"
+      "NAACL.**"
+    ]
   },
   {
     "author": [
@@ -169,13 +134,13 @@
       }
     ],
     "title": [
-      "Introduces ELMo, a deep contextualized word representation model"
+      "Introduces ELMo, which captures semantic relations in a multilingual context"
     ],
     "type": null
   },
   {
     "citation-number": [
-      "5."
+      "4."
     ],
     "author": [
       {
@@ -201,10 +166,10 @@
     "title": [
       "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding"
     ],
+    "type": "article-journal",
     "container-title": [
-      "Proceedings of NAACL-HLT.**"
-    ],
-    "type": "paper-conference"
+      "NAACL.**"
+    ]
   },
   {
     "author": [
@@ -213,7 +178,43 @@
       }
     ],
     "title": [
-      "Introduces BERT, a language model that captures semantic relations"
+      "Discusses BERT, a model that captures semantic relations and has been applied to multilingual tasks"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "author": [
+      {
+        "family": "Conneau",
+        "given": "A."
+      },
+      {
+        "family": "Lample",
+        "given": "G."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "title": [
+      "Cross-lingual Language Model Pretraining"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "NeurIPS.**"
+    ]
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Introduces XLM, a cross-lingual model for various NLP tasks including WSD and SRL"
     ],
     "type": null
   },
@@ -223,11 +224,15 @@
     ],
     "author": [
       {
-        "family": "Conia",
+        "family": "Wu",
         "given": "S."
       },
       {
-        "family": "Navigli",
+        "family": "Dredze",
+        "given": "M."
+      },
+      {
+        "family": "Cotterell",
         "given": "R."
       }
     ],
@@ -235,12 +240,12 @@
       "2020"
     ],
     "title": [
-      "Conception: Multilingually-Enhanced, Human-Readable Concept Vector Representations"
+      "Are All Languages Created Equal in Multilingual BERT?"
     ],
+    "type": "article-journal",
     "container-title": [
-      "Proceedings of EMNLP.**"
-    ],
-    "type": "paper-conference"
+      "EMNLP.**"
+    ]
   },
   {
     "author": [
@@ -249,49 +254,13 @@
       }
     ],
     "title": [
-      "Discusses multilingual concept vector representations"
+      "Analyzes the performance of multilingual BERT across different languages"
     ],
     "type": null
   },
   {
     "citation-number": [
       "7."
-    ],
-    "author": [
-      {
-        "family": "Marcheggiani",
-        "given": "D."
-      },
-      {
-        "family": "Titov",
-        "given": "I."
-      }
-    ],
-    "date": [
-      "2017"
-    ],
-    "title": [
-      "Encoding Sentences with Graph Convolutional Networks for Semantic Role Labeling"
-    ],
-    "container-title": [
-      "Proceedings of EMNLP.**"
-    ],
-    "type": "paper-conference"
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Explores the use of graph convolutional networks for semantic role labeling"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "8."
     ],
     "author": [
       {
@@ -308,15 +277,15 @@
       }
     ],
     "date": [
-      "2018"
+      "2019"
     ],
     "title": [
       "Polyglot Semantic Role Labeling"
     ],
+    "type": "article-journal",
     "container-title": [
-      "Proceedings of ACL.**"
-    ],
-    "type": "paper-conference"
+      "ACL.**"
+    ]
   },
   {
     "author": [
@@ -325,7 +294,47 @@
       }
     ],
     "title": [
-      "Investigates semantic role labeling in a multilingual context"
+      "Explores SRL in a multilingual context using polyglot models"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "author": [
+      {
+        "family": "Akbik",
+        "given": "A."
+      },
+      {
+        "family": "Bergmann",
+        "given": "T."
+      },
+      {
+        "family": "Vollgraf",
+        "given": "R."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "title": [
+      "Pooled Contextualized Embeddings for Named Entity Recognition"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "NAACL.**"
+    ]
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Discusses the use of contextualized embeddings for multilingual NER, which is related to parsing and SRL"
     ],
     "type": null
   },
@@ -335,40 +344,24 @@
     ],
     "author": [
       {
-        "family": "Ammar",
-        "given": "W."
+        "family": "Kondratyuk",
+        "given": "D."
       },
       {
-        "family": "Mulcaire",
-        "given": "P."
-      },
-      {
-        "family": "Tsvetkov",
-        "given": "Y."
-      },
-      {
-        "family": "Lample",
-        "given": "G."
-      },
-      {
-        "family": "Dyer",
-        "given": "C."
-      },
-      {
-        "family": "Smith",
-        "given": "N.A."
+        "family": "Straka",
+        "given": "M."
       }
     ],
     "date": [
-      "2016"
+      "2019"
     ],
     "title": [
-      "Massively Multilingual Word Embeddings"
+      "75 Languages, 1 Model: Parsing Universal Dependencies Universally"
     ],
+    "type": "article-journal",
     "container-title": [
-      "Proceedings of ACL.**"
-    ],
-    "type": "paper-conference"
+      "EMNLP.**"
+    ]
   },
   {
     "author": [
@@ -377,7 +370,7 @@
       }
     ],
     "title": [
-      "Discusses the creation of multilingual word embeddings"
+      "Presents a multilingual parsing model trained on Universal Dependencies"
     ],
     "type": null
   },
@@ -387,108 +380,24 @@
     ],
     "author": [
       {
-        "family": "Artetxe",
-        "given": "M."
+        "family": "Kumar",
+        "given": "V."
       },
       {
-        "family": "Labaka",
-        "given": "G."
-      },
-      {
-        "family": "Agirre",
-        "given": "E."
-      }
-    ],
-    "date": [
-      "2018"
-    ],
-    "title": [
-      "A robust self-learning method for fully unsupervised cross-lingual mappings of word embeddings"
-    ],
-    "container-title": [
-      "Proceedings of ACL.**"
-    ],
-    "type": "paper-conference"
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Presents a method for unsupervised cross-lingual word embeddings"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "11."
-    ],
-    "author": [
-      {
-        "family": "Pires",
-        "given": "T."
-      },
-      {
-        "family": "Schlinger",
-        "given": "E."
-      },
-      {
-        "family": "Garrette",
-        "given": "D."
-      }
-    ],
-    "date": [
-      "2019"
-    ],
-    "title": [
-      "How multilingual is Multilingual BERT?"
-    ],
-    "container-title": [
-      "Proceedings of ACL.**"
-    ],
-    "type": "paper-conference"
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Analyzes the multilingual capabilities of BERT"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "12."
-    ],
-    "author": [
-      {
-        "family": "Wu",
-        "given": "S."
-      },
-      {
-        "family": "Dredze",
-        "given": "M."
-      },
-      {
-        "family": "Eisner",
-        "given": "J."
+        "family": "Bhattacharyya",
+        "given": "P."
       }
     ],
     "date": [
       "2020"
     ],
     "title": [
-      "Zero-shot Cross-lingual Semantic Parsing"
+      "A Survey of Word Embeddings in Natural Language Processing"
     ],
-    "container-title": [
-      "Proceedings of EMNLP.**"
+    "note": [
+      "arXiv.**"
     ],
-    "type": "paper-conference"
+    "type": null
   },
   {
     "author": [
@@ -497,13 +406,13 @@
       }
     ],
     "title": [
-      "Explores zero-shot cross-lingual semantic parsing"
+      "Surveys various word embedding techniques, including their application in multilingual contexts"
     ],
     "type": null
   },
   {
     "citation-number": [
-      "13."
+      "11."
     ],
     "author": [
       {
@@ -537,13 +446,13 @@
       }
     ],
     "title": [
-      "Surveys various cross-lingual word embedding models"
+      "Provides an overview of cross-lingual word embeddings and their applications"
     ],
     "type": null
   },
   {
     "citation-number": [
-      "14."
+      "12."
     ],
     "author": [
       {
@@ -585,10 +494,7 @@
       "RoBERTa: A Robustly Optimized BERT Pretraining Approach"
     ],
     "note": [
-      "arXiv preprint arXiv:1907.11692.**"
-    ],
-    "arxiv": [
-      "1907.11692"
+      "arXiv.**"
     ],
     "type": null
   },
@@ -599,7 +505,79 @@
       }
     ],
     "title": [
-      "Introduces RoBERTa, an optimized version of BERT"
+      "Discusses improvements to BERT, with implications for multilingual tasks"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "author": [
+      {
+        "family": "Conia",
+        "given": "S."
+      },
+      {
+        "family": "Navigli",
+        "given": "R."
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "title": [
+      "Conception: Multilingually-enhanced, Human-readable Concept Vector Representations"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "EMNLP.**"
+    ]
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Introduces a multilingual concept vector representation for capturing semantic relations"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "author": [
+      {
+        "family": "Kumar",
+        "given": "A."
+      },
+      {
+        "family": "Talukdar",
+        "given": "P."
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "title": [
+      "Nile: Natural Language Inference with Faithful Natural Language Explanations"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "ACL.**"
+    ]
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Explores natural language inference in a multilingual context"
     ],
     "type": null
   },
@@ -609,24 +587,32 @@
     ],
     "author": [
       {
-        "family": "Conneau",
-        "given": "A."
+        "family": "Liu",
+        "given": "X."
       },
       {
-        "family": "Lample",
-        "given": "G."
+        "family": "He",
+        "given": "P."
+      },
+      {
+        "family": "Chen",
+        "given": "W."
+      },
+      {
+        "family": "Gao",
+        "given": "J."
       }
     ],
     "date": [
       "2019"
     ],
     "title": [
-      "Cross-lingual Language Model Pretraining"
+      "Multi-Task Deep Neural Networks for Natural Language Understanding"
     ],
+    "type": "article-journal",
     "container-title": [
-      "Advances in Neural Information Processing Systems (NeurIPS).**"
-    ],
-    "type": "chapter"
+      "ACL.**"
+    ]
   },
   {
     "author": [
@@ -635,7 +621,7 @@
       }
     ],
     "title": [
-      "Discusses cross-lingual language model pretraining"
+      "Discusses multi-task learning for NLP, including multilingual applications"
     ],
     "type": null
   },
@@ -645,125 +631,22 @@
     ],
     "author": [
       {
-        "family": "Kondratyuk",
-        "given": "D."
+        "family": "Wu",
+        "given": "S."
       },
       {
-        "family": "Straka",
+        "family": "Dredze",
         "given": "M."
       }
     ],
     "date": [
-      "2019"
+      "2020"
     ],
     "title": [
-      "75 Languages, 1 Model: Parsing Universal Dependencies Universally"
+      "Zero-shot Cross-lingual Classification with Multilingual Neural Networks"
     ],
     "container-title": [
-      "Proceedings of EMNLP.**"
-    ],
-    "type": "paper-conference"
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Presents a universal dependency parser for multiple languages"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "17."
-    ],
-    "author": [
-      {
-        "family": "Schuster",
-        "given": "S."
-      },
-      {
-        "family": "Aralikatte",
-        "given": "R."
-      },
-      {
-        "family": "Gupta",
-        "given": "A."
-      },
-      {
-        "family": "Linzen",
-        "given": "T."
-      }
-    ],
-    "date": [
-      "2019"
-    ],
-    "title": [
-      "Towards Debiasing NLU Models from Unknown Biases"
-    ],
-    "container-title": [
-      "Proceedings of EMNLP.**"
-    ],
-    "type": "paper-conference"
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Investigates debiasing natural language understanding models"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "18."
-    ],
-    "author": [
-      {
-        "family": "Vaswani",
-        "given": "A."
-      },
-      {
-        "family": "Shazeer",
-        "given": "N."
-      },
-      {
-        "family": "Parmar",
-        "given": "N."
-      },
-      {
-        "family": "Uszkoreit",
-        "given": "J."
-      },
-      {
-        "family": "Jones",
-        "given": "L."
-      },
-      {
-        "family": "Gomez",
-        "given": "A.N."
-      },
-      {
-        "family": "Polosukhin",
-        "given": "I."
-      },
-      {
-        "others": true
-      }
-    ],
-    "date": [
-      "2017"
-    ],
-    "title": [
-      "Attention is All You Need"
-    ],
-    "container-title": [
-      "Advances in Neural Information Processing Systems (NeurIPS).**"
+      "NAACL.**"
     ],
     "type": "chapter"
   },
@@ -774,7 +657,87 @@
       }
     ],
     "title": [
-      "Introduces the Transformer model, foundational for many language models"
+      "Investigates zero-shot learning for cross-lingual classification tasks"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "author": [
+      {
+        "family": "Artetxe",
+        "given": "M."
+      },
+      {
+        "family": "Schwenk",
+        "given": "H."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "title": [
+      "Massively Multilingual Sentence Embeddings for Zero-Shot Cross-Lingual Transfer and Beyond"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "TACL.**"
+    ]
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Presents multilingual sentence embeddings for cross-lingual transfer learning"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "author": [
+      {
+        "family": "Ruder",
+        "given": "S."
+      },
+      {
+        "family": "Peters",
+        "given": "M.E."
+      },
+      {
+        "family": "Swayamdipta",
+        "given": "S."
+      },
+      {
+        "family": "Wolf",
+        "given": "T."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "title": [
+      "Transfer Learning in Natural Language Processing"
+    ],
+    "note": [
+      "arXiv.**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Reviews transfer learning techniques in NLP, including multilingual contexts"
     ],
     "type": null
   },
@@ -784,24 +747,28 @@
     ],
     "author": [
       {
-        "family": "Kumar",
-        "given": "S."
+        "family": "Pires",
+        "given": "T."
       },
       {
-        "family": "Joshi",
-        "given": "M."
+        "family": "Schlinger",
+        "given": "E."
+      },
+      {
+        "family": "Garrette",
+        "given": "D."
       }
     ],
     "date": [
-      "2016"
+      "2019"
     ],
     "title": [
-      "Cross-lingual Transfer of Semantic Roles: From Raw Text to Semantic Roles"
+      "How multilingual is Multilingual BERT?"
     ],
+    "type": "article-journal",
     "container-title": [
-      "Proceedings of COLING.**"
-    ],
-    "type": "paper-conference"
+      "ACL.**"
+    ]
   },
   {
     "author": [
@@ -810,7 +777,7 @@
       }
     ],
     "title": [
-      "Explores cross-lingual transfer for semantic role labeling"
+      "Analyzes the multilingual capabilities of BERT"
     ],
     "type": null
   },
@@ -820,50 +787,32 @@
     ],
     "author": [
       {
-        "family": "Wu",
-        "given": "Y."
+        "family": "Lin",
+        "given": "B.Y."
       },
       {
-        "family": "Schuster",
-        "given": "M."
+        "family": "Tan",
+        "given": "Y.C."
       },
       {
-        "family": "Chen",
-        "given": "Z."
+        "family": "Lee",
+        "given": "L."
       },
       {
-        "family": "Le",
-        "given": "Q.V."
-      },
-      {
-        "family": "Norouzi",
-        "given": "M."
-      },
-      {
-        "family": "Macherey",
-        "given": "W."
-      },
-      {
-        "family": "Dean",
-        "given": "J."
-      },
-      {
-        "others": true
+        "family": "Ren",
+        "given": "X."
       }
     ],
     "date": [
-      "2016"
+      "2020"
     ],
     "title": [
-      "Google's Neural Machine Translation System: Bridging the Gap between Human and Machine Translation"
+      "Unsupervised Learning of Semantic Relation Embeddings for Link Prediction"
     ],
-    "note": [
-      "arXiv preprint arXiv:1609.08144.**"
-    ],
-    "arxiv": [
-      "1609.08144"
-    ],
-    "type": null
+    "type": "article-journal",
+    "container-title": [
+      "ACL.**"
+    ]
   },
   {
     "author": [
@@ -872,13 +821,13 @@
       }
     ],
     "title": [
-      "Discusses Google's neural machine translation system and its implications for multilingual NLP tasks"
+      "Discusses unsupervised learning of semantic relations, applicable in multilingual contexts"
     ],
     "type": null
   },
   {
     "title": [
-      "These articles provide a broad overview of the advancements in word sense disambiguation, parsing, and semantic role labeling in a multilingual context, with a particular focus on the semantic relations captured by language models"
+      "These articles provide a broad overview of the advancements in WSD, parsing, and SRL, particularly in multilingual settings, and highlight the role of language models in capturing semantic relations"
     ],
     "type": null
   }

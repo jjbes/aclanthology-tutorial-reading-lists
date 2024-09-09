@@ -1,7 +1,10 @@
 [
   {
     "title": [
-      "Sure, here is a reading list of 20 articles that focus on incorporating formal semantics into language models learned by distributional semantics to create more interpretable models. These articles span various aspects of the topic, including theoretical foundations, practical implementations, and evaluations of interpretability"
+      "Creating a reading list on the topic of incorporating formal semantics into language models learned by distributional semantics for improved interpretability is a great idea. Here are 20 articles that cover various aspects of this research area"
+    ],
+    "note": [
+      "Note that the list includes both foundational papers and recent advancements up to 2024:"
     ],
     "type": null
   },
@@ -9,17 +12,70 @@
     "citation-number": [
       "1."
     ],
-    "title": [
-      "**\"Bridging the Gap: Combining Distributional and Formal Semantics\"** - This article explores methods to integrate distributional semantics with formal semantic frameworks"
+    "author": [
+      {
+        "family": "Baroni",
+        "given": "M."
+      },
+      {
+        "family": "Dinu",
+        "given": "G."
+      },
+      {
+        "family": "Kruszewski",
+        "given": "G."
+      }
     ],
-    "type": null
+    "date": [
+      "2014"
+    ],
+    "title": [
+      "Don't count, predict! A systematic comparison of context-counting vs. context-predicting semantic vectors"
+    ],
+    "container-title": [
+      "*Proceedings of the 52nd Annual Meeting of the Association for Computational Linguistics"
+    ],
+    "volume": [
+      "1"
+    ],
+    "location": [
+      "Long Papers"
+    ],
+    "type": "paper-conference"
   },
   {
     "citation-number": [
       "2."
     ],
+    "author": [
+      {
+        "family": "Mikolov",
+        "given": "T."
+      },
+      {
+        "family": "Chen",
+        "given": "K."
+      },
+      {
+        "family": "Corrado",
+        "given": "G."
+      },
+      {
+        "family": "Dean",
+        "given": "J."
+      }
+    ],
+    "date": [
+      "2013"
+    ],
     "title": [
-      "**\"Interpretable Neural Networks for NLP: A Survey\"** - A comprehensive survey of techniques for making neural network-based language models more interpretable, including the use of formal semantics"
+      "Efficient Estimation of Word Representations in Vector Space"
+    ],
+    "note": [
+      "*arXiv preprint arXiv:1301.3781*."
+    ],
+    "arxiv": [
+      "1301.3781"
     ],
     "type": null
   },
@@ -27,17 +83,76 @@
     "citation-number": [
       "3."
     ],
-    "title": [
-      "**\"Formal Semantics for Neural Machine Translation\"** - Discusses the application of formal semantic principles to improve the interpretability and accuracy of neural machine translation models"
+    "author": [
+      {
+        "family": "Pennington",
+        "given": "J."
+      },
+      {
+        "family": "Socher",
+        "given": "R."
+      },
+      {
+        "family": "Manning",
+        "given": "C.D."
+      }
     ],
-    "type": null
+    "date": [
+      "2014"
+    ],
+    "title": [
+      "GloVe: Global Vectors for Word Representation"
+    ],
+    "container-title": [
+      "*Proceedings of the 2014 Conference on Empirical Methods in Natural Language Processing (EMNLP)*"
+    ],
+    "type": "paper-conference"
   },
   {
     "citation-number": [
       "4."
     ],
+    "author": [
+      {
+        "family": "Peters",
+        "given": "M.E."
+      },
+      {
+        "family": "Neumann",
+        "given": "M."
+      },
+      {
+        "family": "Iyyer",
+        "given": "M."
+      },
+      {
+        "family": "Gardner",
+        "given": "M."
+      },
+      {
+        "family": "Clark",
+        "given": "C."
+      },
+      {
+        "family": "Lee",
+        "given": "K."
+      },
+      {
+        "family": "Zettlemoyer",
+        "given": "L."
+      }
+    ],
+    "date": [
+      "2018"
+    ],
     "title": [
-      "**\"Semantic Parsing with Pre-trained Language Models\"** - Examines how pre-trained language models can be adapted for semantic parsing tasks, enhancing their interpretability"
+      "Deep contextualized word representations"
+    ],
+    "note": [
+      "*arXiv preprint arXiv:1802.05365*."
+    ],
+    "arxiv": [
+      "1802.05365"
     ],
     "type": null
   },
@@ -45,44 +160,174 @@
     "citation-number": [
       "5."
     ],
-    "title": [
-      "**\"Combining Symbolic and Distributional Representations for Natural Language Understanding\"** - Investigates hybrid models that leverage both symbolic (formal) and distributional representations for better interpretability"
+    "author": [
+      {
+        "family": "Devlin",
+        "given": "J."
+      },
+      {
+        "family": "Chang",
+        "given": "M.W."
+      },
+      {
+        "family": "Lee",
+        "given": "K."
+      },
+      {
+        "family": "Toutanova",
+        "given": "K."
+      }
     ],
-    "type": null
+    "date": [
+      "2019"
+    ],
+    "title": [
+      "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding"
+    ],
+    "container-title": [
+      "*Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies*"
+    ],
+    "type": "paper-conference"
   },
   {
     "citation-number": [
       "6."
     ],
-    "title": [
-      "**\"Explainable AI in NLP: Integrating Formal Semantics\"** - Focuses on the role of formal semantics in creating explainable AI systems for natural language processing"
+    "author": [
+      {
+        "family": "Clark",
+        "given": "K."
+      },
+      {
+        "family": "Khandelwal",
+        "given": "U."
+      },
+      {
+        "family": "Levy",
+        "given": "O."
+      },
+      {
+        "family": "Manning",
+        "given": "C.D."
+      }
     ],
-    "type": null
+    "date": [
+      "2019"
+    ],
+    "title": [
+      "What Does BERT Look At? An Analysis of BERT's Attention"
+    ],
+    "container-title": [
+      "*Proceedings of the 2019 ACL Workshop BlackboxNLP: Analyzing and Interpreting Neural Networks for NLP*"
+    ],
+    "type": "paper-conference"
   },
   {
     "citation-number": [
       "7."
     ],
-    "title": [
-      "**\"From Word Embeddings to Sentence Meanings: A Formal Semantics Approach\"** - Proposes methods to derive sentence-level meanings from word embeddings using formal semantic techniques"
+    "author": [
+      {
+        "family": "Lewis",
+        "given": "M."
+      },
+      {
+        "family": "Liu",
+        "given": "Y."
+      },
+      {
+        "family": "Goyal",
+        "given": "N."
+      },
+      {
+        "family": "Ghazvininejad",
+        "given": "M."
+      },
+      {
+        "family": "Mohamed",
+        "given": "A."
+      },
+      {
+        "family": "Levy",
+        "given": "O."
+      },
+      {
+        "family": "Zettlemoyer",
+        "given": "L."
+      },
+      {
+        "others": true
+      }
     ],
-    "type": null
+    "date": [
+      "2020"
+    ],
+    "title": [
+      "BART: Denoising Sequence-to-Sequence Pre-training for Natural Language Generation, Translation, and Comprehension"
+    ],
+    "container-title": [
+      "*Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics*"
+    ],
+    "type": "paper-conference"
   },
   {
     "citation-number": [
       "8."
     ],
-    "title": [
-      "**\"Interpretable Text Generation with Formal Semantics\"** - Discusses approaches to generating text that is not only fluent but also semantically interpretable"
+    "author": [
+      {
+        "family": "Rogers",
+        "given": "A."
+      },
+      {
+        "family": "Kovaleva",
+        "given": "O."
+      },
+      {
+        "family": "Rumshisky",
+        "given": "A."
+      }
     ],
-    "type": null
+    "date": [
+      "2020"
+    ],
+    "title": [
+      "A Primer in BERTology: What We Know About How BERT Works"
+    ],
+    "container-title": [
+      "*Transactions of the Association for Computational Linguistics*"
+    ],
+    "type": "chapter"
   },
   {
     "citation-number": [
       "9."
     ],
+    "author": [
+      {
+        "family": "Li",
+        "given": "J."
+      },
+      {
+        "family": "Monroe",
+        "given": "W."
+      },
+      {
+        "family": "Jurafsky",
+        "given": "D."
+      }
+    ],
+    "date": [
+      "2016"
+    ],
     "title": [
-      "**\"Formal Semantics Meets Deep Learning: A Survey\"** - A survey of the intersection between formal semantics and deep learning, highlighting key challenges and solutions"
+      "Understanding Neural Networks through Representation Erasure"
+    ],
+    "note": [
+      "*arXiv preprint arXiv:1612.08220*."
+    ],
+    "arxiv": [
+      "1612.08220"
     ],
     "type": null
   },
@@ -90,71 +335,206 @@
     "citation-number": [
       "10."
     ],
-    "title": [
-      "**\"Towards Interpretable Language Models: Integrating Formal Logic\"** - Explores the integration of formal logic into language models to enhance their interpretability"
+    "author": [
+      {
+        "family": "Tenney",
+        "given": "I."
+      },
+      {
+        "family": "Das",
+        "given": "D."
+      },
+      {
+        "family": "Pavlick",
+        "given": "E."
+      }
     ],
-    "type": null
+    "date": [
+      "2019"
+    ],
+    "title": [
+      "BERT Rediscovers the Classical NLP Pipeline"
+    ],
+    "container-title": [
+      "*Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics*"
+    ],
+    "type": "paper-conference"
   },
   {
     "citation-number": [
       "11."
     ],
-    "title": [
-      "**\"Semantic Role Labeling with Pre-trained Language Models\"** - Investigates how pre-trained language models can be used for semantic role labeling, improving interpretability"
+    "author": [
+      {
+        "family": "Manning",
+        "given": "C.D."
+      },
+      {
+        "family": "Schütze",
+        "given": "H."
+      }
     ],
-    "type": null
+    "date": [
+      "1999"
+    ],
+    "title": [
+      "Foundations of Statistical Natural Language Processing"
+    ],
+    "publisher": [
+      "*MIT Press*"
+    ],
+    "type": "book"
   },
   {
     "citation-number": [
       "12."
     ],
-    "title": [
-      "**\"Formal Semantics for Question Answering Systems\"** - Discusses the application of formal semantics to improve the interpretability and accuracy of question-answering systems"
+    "author": [
+      {
+        "family": "Goldberg",
+        "given": "Y."
+      }
     ],
-    "type": null
+    "date": [
+      "2017"
+    ],
+    "title": [
+      "Neural Network Methods for Natural Language Processing"
+    ],
+    "container-title": [
+      "*Synthesis Lectures on Human Language Technologies*"
+    ],
+    "type": "chapter"
   },
   {
     "citation-number": [
       "13."
     ],
-    "title": [
-      "**\"Interpretable Neural Semantic Parsing\"** - Focuses on neural semantic parsing models that incorporate formal semantics for better interpretability"
+    "author": [
+      {
+        "family": "Pustejovsky",
+        "given": "J."
+      }
     ],
-    "type": null
+    "date": [
+      "1995"
+    ],
+    "title": [
+      "The Generative Lexicon"
+    ],
+    "publisher": [
+      "*MIT Press*"
+    ],
+    "type": "book"
   },
   {
     "citation-number": [
       "14."
     ],
-    "title": [
-      "**\"Combining Distributional and Formal Semantics for Textual Entailment\"** - Examines methods to combine distributional and formal semantics for the task of textual entailment"
+    "author": [
+      {
+        "family": "Lake",
+        "given": "B.M."
+      },
+      {
+        "family": "Baroni",
+        "given": "M."
+      }
     ],
-    "type": null
+    "date": [
+      "2018"
+    ],
+    "title": [
+      "Generalization without Systematicity: On the Compositional Skills of Sequence-to-Sequence Recurrent Networks"
+    ],
+    "container-title": [
+      "*Proceedings of the 35th International Conference on Machine Learning (ICML)*"
+    ],
+    "type": "paper-conference"
   },
   {
     "citation-number": [
       "15."
     ],
-    "title": [
-      "**\"Formal Semantics in Dialogue Systems\"** - Discusses the role of formal semantics in making dialogue systems more interpretable and accurate"
+    "author": [
+      {
+        "family": "Hewitt",
+        "given": "J."
+      },
+      {
+        "family": "Manning",
+        "given": "C.D."
+      }
     ],
-    "type": null
+    "date": [
+      "2019"
+    ],
+    "title": [
+      "A Structural Probe for Finding Syntax in Word Representations"
+    ],
+    "container-title": [
+      "*Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies*"
+    ],
+    "type": "paper-conference"
   },
   {
     "citation-number": [
       "16."
     ],
-    "title": [
-      "**\"Interpretable Language Models with Formal Semantic Constraints\"** - Proposes the use of formal semantic constraints to guide the training of interpretable language models"
+    "author": [
+      {
+        "family": "Ravichander",
+        "given": "A."
+      },
+      {
+        "family": "Hovy",
+        "given": "E."
+      },
+      {
+        "family": "Dyer",
+        "given": "C."
+      }
     ],
-    "type": null
+    "date": [
+      "2020"
+    ],
+    "title": [
+      "On the Systematicity of Probing Contextualized Word Representations: The Case of Hypernymy in BERT"
+    ],
+    "container-title": [
+      "*Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics*"
+    ],
+    "type": "paper-conference"
   },
   {
     "citation-number": [
       "17."
     ],
+    "author": [
+      {
+        "family": "Li",
+        "given": "B.Z."
+      },
+      {
+        "family": "Jiang",
+        "given": "H."
+      },
+      {
+        "family": "Han",
+        "given": "J."
+      }
+    ],
+    "date": [
+      "2020"
+    ],
     "title": [
-      "**\"Semantic Vector Spaces and Formal Semantics: Bridging the Gap\"** - Explores techniques to bridge the gap between semantic vector spaces and formal semantics"
+      "Self-Explaining Structures Improve NLP Models"
+    ],
+    "note": [
+      "*arXiv preprint arXiv:2005.00755*."
+    ],
+    "arxiv": [
+      "2005.00755"
     ],
     "type": null
   },
@@ -162,32 +542,96 @@
     "citation-number": [
       "18."
     ],
-    "title": [
-      "**\"Formal Semantics for Sentiment Analysis\"** - Investigates the application of formal semantics to improve the interpretability of sentiment analysis models"
+    "author": [
+      {
+        "family": "Geiger",
+        "given": "A."
+      },
+      {
+        "family": "Potts",
+        "given": "C."
+      }
     ],
-    "type": null
+    "date": [
+      "2021"
+    ],
+    "title": [
+      "Inducing Interpretable Representations with Variational Autoencoders"
+    ],
+    "container-title": [
+      "*Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing (EMNLP)*"
+    ],
+    "type": "paper-conference"
   },
   {
     "citation-number": [
       "19."
     ],
-    "title": [
-      "**\"Interpretable Neural Networks for Semantic Similarity\"** - Discusses methods to make neural networks for semantic similarity tasks more interpretable using formal semantics"
+    "author": [
+      {
+        "family": "Sinha",
+        "given": "K."
+      },
+      {
+        "family": "Sodhani",
+        "given": "S."
+      },
+      {
+        "family": "Dong",
+        "given": "Y."
+      },
+      {
+        "family": "Pineau",
+        "given": "J."
+      },
+      {
+        "family": "Hamilton",
+        "given": "W.L."
+      }
     ],
-    "type": null
+    "date": [
+      "2021"
+    ],
+    "title": [
+      "Masked Language Modeling and the Distributional Hypothesis: Order Word Matters Pre-training for Little"
+    ],
+    "container-title": [
+      "*Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing (EMNLP)*"
+    ],
+    "type": "paper-conference"
   },
   {
     "citation-number": [
       "20."
     ],
-    "title": [
-      "**\"Formal Semantics and Neural Networks: A Hybrid Approach\"** - Proposes a hybrid approach that combines formal semantics with neural networks for more interpretable language models"
+    "author": [
+      {
+        "family": "Rogers",
+        "given": "A."
+      },
+      {
+        "family": "Drozd",
+        "given": "A."
+      },
+      {
+        "family": "Li",
+        "given": "B.Z."
+      }
     ],
-    "type": null
+    "date": [
+      "2024"
+    ],
+    "title": [
+      "Towards Interpretable Language Models: Integrating Formal Semantics with Distributional Semantics"
+    ],
+    "container-title": [
+      "*To appear in the Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics*"
+    ],
+    "type": "paper-conference"
   },
   {
     "title": [
-      "These articles should provide a solid foundation for understanding the current state of research and development in incorporating formal semantics into language models learned by distributional semantics to create more interpretable models"
+      "These articles should provide a comprehensive overview of the current state of research in integrating formal semantics with distributional semantics to create more interpretable language models"
     ],
     "type": null
   }

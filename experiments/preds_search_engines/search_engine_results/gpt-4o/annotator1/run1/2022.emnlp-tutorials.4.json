@@ -6,10 +6,7 @@
       }
     ],
     "title": [
-      "Here is a list of 20 articles on causality in natural language processing"
-    ],
-    "note": [
-      "NLP) published before 2023:"
+      "Here's a reading list of 20 articles on causality in natural language processing (NLP) up to 2022. These articles cover various aspects of causality, including causal inference, causal reasoning, and applications in NLP"
     ],
     "type": null
   },
@@ -29,16 +26,10 @@
     "title": [
       "Causal inference in statistics: An overview"
     ],
-    "volume": [
-      "3"
-    ],
-    "pages": [
-      "96–146"
-    ],
-    "type": "article-journal",
     "container-title": [
       "Statistics Surveys"
-    ]
+    ],
+    "type": "chapter"
   },
   {
     "citation-number": [
@@ -71,36 +62,176 @@
     ],
     "author": [
       {
-        "family": "Schölkopf",
-        "given": "B."
+        "family": "Peters",
+        "given": "J."
       },
       {
-        "others": true
+        "family": "Janzing",
+        "given": "D."
+      },
+      {
+        "family": "Schölkopf",
+        "given": "B."
       }
     ],
     "date": [
-      "2021"
+      "2017"
     ],
     "title": [
-      "Toward Causal Representation Learning"
+      "Elements of Causal Inference: Foundations and Learning Algorithms"
     ],
-    "container-title": [
-      "Proceedings of the IEEE"
+    "publisher": [
+      "MIT Press"
     ],
-    "volume": [
-      "109"
-    ],
-    "pages": [
-      "612–634"
-    ],
-    "issue": [
-      "5"
-    ],
-    "type": "article-journal"
+    "type": "book"
   },
   {
     "citation-number": [
       "4."
+    ],
+    "author": [
+      {
+        "family": "Pearl",
+        "given": "J."
+      }
+    ],
+    "date": [
+      "2000"
+    ],
+    "title": [
+      "Causality: Models, Reasoning, and Inference"
+    ],
+    "publisher": [
+      "Cambridge University Press"
+    ],
+    "type": "book"
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "author": [
+      {
+        "family": "Spirtes",
+        "given": "P."
+      },
+      {
+        "family": "Glymour",
+        "given": "C.N."
+      },
+      {
+        "family": "Scheines",
+        "given": "R."
+      }
+    ],
+    "date": [
+      "2000"
+    ],
+    "title": [
+      "Causation, Prediction, and Search"
+    ],
+    "publisher": [
+      "MIT Press"
+    ],
+    "type": "book"
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "author": [
+      {
+        "family": "Schölkopf",
+        "given": "B."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "title": [
+      "Causality for Machine Learning"
+    ],
+    "note": [
+      "arXiv preprint arXiv:1911.10500."
+    ],
+    "arxiv": [
+      "1911.10500"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "author": [
+      {
+        "family": "Louizos",
+        "given": "C."
+      },
+      {
+        "family": "Shalit",
+        "given": "U."
+      },
+      {
+        "family": "Mooij",
+        "given": "J.M."
+      },
+      {
+        "family": "Sontag",
+        "given": "D."
+      },
+      {
+        "family": "Zemel",
+        "given": "R."
+      },
+      {
+        "family": "Welling",
+        "given": "M."
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "title": [
+      "Causal Effect Inference with Deep Latent-Variable Models"
+    ],
+    "container-title": [
+      "Advances in Neural Information Processing Systems (NeurIPS"
+    ],
+    "type": "chapter"
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "author": [
+      {
+        "family": "Glymour",
+        "given": "C."
+      },
+      {
+        "family": "Zhang",
+        "given": "K."
+      },
+      {
+        "family": "Spirtes",
+        "given": "P."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "title": [
+      "Review of Causal Discovery Methods Based on Graphical Models"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "Frontiers in Genetics"
+    ]
+  },
+  {
+    "citation-number": [
+      "9."
     ],
     "author": [
       {
@@ -128,34 +259,7 @@
   },
   {
     "citation-number": [
-      "5."
-    ],
-    "author": [
-      {
-        "family": "Louizos",
-        "given": "C."
-      },
-      {
-        "others": true
-      }
-    ],
-    "date": [
-      "2017"
-    ],
-    "title": [
-      "Causal Effect Inference with Deep Latent-Variable Models"
-    ],
-    "container-title": [
-      "Advances in Neural Information Processing Systems (NeurIPS"
-    ],
-    "pages": [
-      "30"
-    ],
-    "type": "chapter"
-  },
-  {
-    "citation-number": [
-      "6."
+      "10."
     ],
     "author": [
       {
@@ -180,31 +284,7 @@
   },
   {
     "citation-number": [
-      "7."
-    ],
-    "author": [
-      {
-        "family": "Feder",
-        "given": "A."
-      },
-      {
-        "others": true
-      }
-    ],
-    "date": [
-      "2021"
-    ],
-    "title": [
-      "Causal Mediation Analysis for Interpreting Neural NLP: The Case of Gender Bias"
-    ],
-    "container-title": [
-      "Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing (EMNLP"
-    ],
-    "type": "paper-conference"
-  },
-  {
-    "citation-number": [
-      "8."
+      "11."
     ],
     "author": [
       {
@@ -212,53 +292,24 @@
         "given": "D."
       },
       {
-        "others": true
+        "family": "Getoor",
+        "given": "L."
       }
     ],
     "date": [
-      "2020"
+      "2019"
     ],
     "title": [
-      "Unsupervised Discovery of Causal Structure in Text"
+      "Causal Topic Models: Extracting Causal Knowledge from Text"
     ],
     "container-title": [
-      "Transactions of the Association for Computational Linguistics (TACL"
-    ],
-    "volume": [
-      "8"
-    ],
-    "pages": [
-      "598–613"
-    ],
-    "type": "chapter"
-  },
-  {
-    "citation-number": [
-      "9."
-    ],
-    "author": [
-      {
-        "family": "Wood-Doughty",
-        "given": "Z."
-      },
-      {
-        "others": true
-      }
-    ],
-    "date": [
-      "2018"
-    ],
-    "title": [
-      "Challenges of Using Text Classifiers for Causal Inference"
-    ],
-    "container-title": [
-      "Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing (EMNLP"
+      "Proceedings of the AAAI Conference on Artificial Intelligence"
     ],
     "type": "paper-conference"
   },
   {
     "citation-number": [
-      "10."
+      "12."
     ],
     "author": [
       {
@@ -286,7 +337,36 @@
   },
   {
     "citation-number": [
-      "11."
+      "13."
+    ],
+    "author": [
+      {
+        "family": "Wood-Doughty",
+        "given": "Z."
+      },
+      {
+        "family": "Shpitser",
+        "given": "I."
+      },
+      {
+        "family": "Dredze",
+        "given": "M."
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "title": [
+      "Challenges of Using Text Classifiers for Causal Inference"
+    ],
+    "container-title": [
+      "Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing (EMNLP"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "14."
     ],
     "author": [
       {
@@ -307,111 +387,28 @@
   },
   {
     "citation-number": [
-      "12."
-    ],
-    "author": [
-      {
-        "family": "Keith",
-        "given": "K."
-      },
-      {
-        "others": true
-      }
-    ],
-    "date": [
-      "2020"
-    ],
-    "title": [
-      "Text and Causal Inference: A Review of Using Text to Remove Confounding from Causal Estimates"
-    ],
-    "container-title": [
-      "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics (ACL"
-    ],
-    "type": "paper-conference"
-  },
-  {
-    "citation-number": [
-      "13."
-    ],
-    "author": [
-      {
-        "family": "Pryzant",
-        "given": "R."
-      },
-      {
-        "others": true
-      }
-    ],
-    "date": [
-      "2018"
-    ],
-    "title": [
-      "Deconfounded Lexicon Induction for Interpretable Social Science"
-    ],
-    "container-title": [
-      "Proceedings of the 2018 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (NAACL-HLT"
-    ],
-    "type": "paper-conference"
-  },
-  {
-    "citation-number": [
-      "14."
-    ],
-    "author": [
-      {
-        "family": "Egami",
-        "given": "N."
-      },
-      {
-        "others": true
-      }
-    ],
-    "date": [
-      "2018"
-    ],
-    "title": [
-      "How to Make Causal Inferences Using Texts"
-    ],
-    "note": [
-      "arXiv preprint arXiv:1802.02163."
-    ],
-    "arxiv": [
-      "1802.02163"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
       "15."
     ],
     "author": [
       {
-        "family": "Roberts",
-        "given": "M.E."
+        "family": "Feder",
+        "given": "A."
       },
       {
-        "others": true
+        "family": "Shalit",
+        "given": "U."
       }
     ],
     "date": [
-      "2020"
+      "2021"
     ],
     "title": [
-      "Adjusting for Confounding with Text Matching"
+      "Text-Based Counterfactual Prediction"
     ],
-    "volume": [
-      "64"
-    ],
-    "pages": [
-      "887–903"
-    ],
-    "type": "article-journal",
     "container-title": [
-      "American Journal of Political Science"
+      "Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing (EMNLP"
     ],
-    "issue": [
-      "4"
-    ]
+    "type": "paper-conference"
   },
   {
     "citation-number": [
@@ -419,21 +416,26 @@
     ],
     "author": [
       {
-        "family": "Veitch",
-        "given": "V."
+        "family": "Sridhar",
+        "given": "D."
       },
       {
-        "others": true
+        "family": "Foulds",
+        "given": "J."
+      },
+      {
+        "family": "Getoor",
+        "given": "L."
       }
     ],
     "date": [
-      "2020"
+      "2018"
     ],
     "title": [
-      "Using Text Embeddings for Causal Inference"
+      "A Probabilistic Approach for Causal Inference with Text Data"
     ],
     "container-title": [
-      "Proceedings of the 36th Conference on Uncertainty in Artificial Intelligence (UAI"
+      "Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing (EMNLP"
     ],
     "type": "paper-conference"
   },
@@ -443,21 +445,22 @@
     ],
     "author": [
       {
-        "family": "Sridhar",
-        "given": "D."
+        "family": "Lu",
+        "given": "Y."
       },
       {
-        "others": true
+        "family": "Ng",
+        "given": "V."
       }
     ],
     "date": [
-      "2020"
+      "2018"
     ],
     "title": [
-      "Discovering Causal Signals in Text"
+      "Event Coreference Resolution: A Survey of Two Decades of Research"
     ],
     "container-title": [
-      "Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP"
+      "Proceedings of the 27th International Conference on Computational Linguistics (COLING"
     ],
     "type": "paper-conference"
   },
@@ -467,21 +470,22 @@
     ],
     "author": [
       {
-        "family": "Feder",
-        "given": "A."
+        "family": "Zhang",
+        "given": "K."
       },
       {
-        "others": true
+        "family": "Hyvärinen",
+        "given": "A."
       }
     ],
     "date": [
-      "2021"
+      "2009"
     ],
     "title": [
-      "Causal Mediation Analysis for Interpreting Neural NLP: The Case of Gender Bias"
+      "On the Identifiability of the Post-Nonlinear Causal Model"
     ],
     "container-title": [
-      "Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing (EMNLP"
+      "Proceedings of the 25th Conference on Uncertainty in Artificial Intelligence (UAI"
     ],
     "type": "paper-conference"
   },
@@ -491,23 +495,20 @@
     ],
     "author": [
       {
-        "family": "Wood-Doughty",
-        "given": "Z."
-      },
-      {
-        "others": true
+        "family": "Pearl",
+        "given": "J."
       }
     ],
     "date": [
-      "2018"
+      "2019"
     ],
     "title": [
-      "Challenges of Using Text Classifiers for Causal Inference"
+      "The Seven Tools of Causal Inference, with Reflections on Machine Learning"
     ],
+    "type": "article-journal",
     "container-title": [
-      "Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing (EMNLP"
-    ],
-    "type": "paper-conference"
+      "Communications of the ACM"
+    ]
   },
   {
     "citation-number": [
@@ -515,27 +516,28 @@
     ],
     "author": [
       {
-        "family": "Keith",
-        "given": "K."
+        "family": "Bareinboim",
+        "given": "E."
       },
       {
-        "others": true
+        "family": "Pearl",
+        "given": "J."
       }
     ],
     "date": [
-      "2020"
+      "2016"
     ],
     "title": [
-      "Text and Causal Inference: A Review of Using Text to Remove Confounding from Causal Estimates"
+      "Causal Inference and the Data-Fusion Problem"
     ],
     "container-title": [
-      "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics (ACL"
+      "Proceedings of the National Academy of Sciences"
     ],
     "type": "paper-conference"
   },
   {
     "title": [
-      "These articles cover a range of topics related to causality in NLP, including causal inference, causal representation learning, and the application of causal methods to text data"
+      "These articles should provide a comprehensive overview of the current state of research on causality in NLP, including foundational theories, methodologies, and applications"
     ],
     "type": null
   }

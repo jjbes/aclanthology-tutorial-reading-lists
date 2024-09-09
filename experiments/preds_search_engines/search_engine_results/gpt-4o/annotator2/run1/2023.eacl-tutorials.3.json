@@ -1,7 +1,12 @@
 [
   {
+    "author": [
+      {
+        "given": "Sure!"
+      }
+    ],
     "title": [
-      "Sure, here is a list of 20 articles on summarizing written and spoken conversations that you can explore before 2024. These articles cover various aspects of summarization, including techniques, models, and applications"
+      "Here's a reading list of 20 articles on summarizing written and spoken conversations, up to 2023"
     ],
     "type": null
   },
@@ -29,7 +34,7 @@
       }
     ],
     "title": [
-      "This paper introduces BERT, a model that has significantly influenced text summarization techniques"
+      "This paper introduces BERT, a model that has been widely used for various NLP tasks, including summarization"
     ],
     "type": null
   },
@@ -57,7 +62,7 @@
       }
     ],
     "title": [
-      "Discusses a model specifically designed for abstractive summarization tasks"
+      "This paper presents PEGASUS, a model specifically designed for abstractive summarization"
     ],
     "type": null
   },
@@ -89,7 +94,30 @@
       "4."
     ],
     "title": [
-      "**\"Abstractive Text Summarization using Sequence-to-Sequence RNNs and Beyond\"** by Ramesh Nallapati et al"
+      "**\"A Survey of Text Summarization Techniques\"** by Gupta, Vishal, and Gurpreet Singh Lehal"
+    ],
+    "date": [
+      "2010"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Another detailed survey that covers various methods and approaches for text summarization"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "title": [
+      "**\"Abstractive Text Summarization using Sequence-to-sequence RNNs and Beyond\"** by Ramesh Nallapati et al"
     ],
     "date": [
       "2016"
@@ -103,19 +131,19 @@
       }
     ],
     "title": [
-      "Explores the use of RNNs for abstractive text summarization"
+      "This paper explores the use of RNNs for abstractive text summarization"
     ],
     "type": null
   },
   {
     "citation-number": [
-      "5."
+      "6."
     ],
     "title": [
-      "**\"A Survey on Automatic Text Summarization\"** by Ani Nenkova and Kathleen McKeown"
+      "**\"SummaRuNNer: A Recurrent Neural Network based Sequence Model for Extractive Summarization of Documents\"** by Ramesh Nallapati et al"
     ],
     "date": [
-      "2011"
+      "2017"
     ],
     "type": null
   },
@@ -126,13 +154,36 @@
       }
     ],
     "title": [
-      "Another detailed survey on the state of automatic text summarization"
+      "Introduces SummaRuNNer, a model for extractive summarization using RNNs"
     ],
     "type": null
   },
   {
     "citation-number": [
-      "6."
+      "7."
+    ],
+    "title": [
+      "**\"Towards Abstractive Summarization Using Semantic Representations\"** by Yang Liu et al"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Discusses the use of semantic representations for abstractive summarization"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "8."
     ],
     "title": [
       "**\"Pointer-Generator Networks\"** by Abigail See et al"
@@ -155,33 +206,10 @@
   },
   {
     "citation-number": [
-      "7."
+      "9."
     ],
     "title": [
-      "**\"Neural Abstractive Text Summarization with Sequence-to-Sequence Models\"** by Alexander Rush et al"
-    ],
-    "date": [
-      "2015"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Discusses early work on using neural networks for abstractive summarization"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "8."
-    ],
-    "title": [
-      "**\"Extractive Summarization using Multi-Task Learning with Document Classification\"** by Ramesh Nallapati et al"
+      "**\"Neural Abstractive Text Summarization with Sequence-to-Sequence Models\"** by Jiwei Tan et al"
     ],
     "date": [
       "2017"
@@ -195,13 +223,36 @@
       }
     ],
     "title": [
-      "Explores multi-task learning for extractive summarization"
+      "Explores sequence-to-sequence models for neural abstractive summarization"
     ],
     "type": null
   },
   {
     "citation-number": [
-      "9."
+      "10."
+    ],
+    "title": [
+      "**\"Unsupervised Learning for Intrinsic Image Decomposition from a Single Image\"** by Tinghui Zhou et al"
+    ],
+    "date": [
+      "2015"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "While not directly about summarization, this paper introduces unsupervised learning techniques that can be applied to summarization"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
     ],
     "title": [
       "**\"Hierarchical Attention Networks for Document Classification\"** by Zichao Yang et al"
@@ -218,13 +269,13 @@
       }
     ],
     "title": [
-      "Introduces hierarchical attention networks, which are useful for understanding document structure in summarization"
+      "Discusses hierarchical attention networks, which can be adapted for summarization tasks"
     ],
     "type": null
   },
   {
     "citation-number": [
-      "10."
+      "12."
     ],
     "title": [
       "**\"A Deep Reinforced Model for Abstractive Summarization\"** by Romain Paulus et al"
@@ -241,36 +292,13 @@
       }
     ],
     "title": [
-      "Discusses the use of reinforcement learning for abstractive summarization"
+      "Introduces a model that uses reinforcement learning for abstractive summarization"
     ],
     "type": null
   },
   {
     "citation-number": [
-      "11."
-    ],
-    "title": [
-      "**\"SummaRuNNer: A Recurrent Neural Network based Sequence Model for Extractive Summarization of Documents\"** by Ramesh Nallapati et al"
-    ],
-    "date": [
-      "2017"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Introduces a recurrent neural network model for extractive summarization"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "12."
+      "13."
     ],
     "title": [
       "**\"Fast Abstractive Summarization with Reinforce-Selected Sentence Rewriting\"** by Shashi Narayan et al"
@@ -287,30 +315,7 @@
       }
     ],
     "title": [
-      "Combines extractive and abstractive summarization techniques"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "13."
-    ],
-    "title": [
-      "**\"Discourse-Aware Neural Extractive Text Summarization\"** by Yumo Xu et al"
-    ],
-    "date": [
-      "2020"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Focuses on incorporating discourse structure into extractive summarization models"
+      "Discusses a fast approach to abstractive summarization using reinforcement learning"
     ],
     "type": null
   },
@@ -319,10 +324,10 @@
       "14."
     ],
     "container-title": [
-      "**\"Unsupervised Neural Multi-Document Abstractive Summarization\"** by Yang Liu and Mirella Lapata"
+      "**\"Discourse-Aware Neural Extractive Text Summarization\"** by Yumo Xu et al"
     ],
     "date": [
-      "2019"
+      "2020"
     ],
     "type": "chapter"
   },
@@ -333,7 +338,7 @@
       }
     ],
     "title": [
-      "Discusses unsupervised methods for multi-document summarization"
+      "Introduces a discourse-aware approach to neural extractive summarization"
     ],
     "type": null
   },
@@ -342,7 +347,7 @@
       "15."
     ],
     "title": [
-      "**\"Learning to Summarize from Human Feedback\"** by Nisan Stiennon et al"
+      "**\"Leveraging Pre-trained Checkpoints for Sequence Generation Tasks\"** by Mike Lewis et al"
     ],
     "date": [
       "2020"
@@ -356,7 +361,7 @@
       }
     ],
     "title": [
-      "Explores the use of human feedback to improve summarization models"
+      "Discusses the use of pre-trained models for sequence generation, which is relevant for summarization"
     ],
     "type": null
   },
@@ -365,15 +370,12 @@
       "16."
     ],
     "title": [
-      "**\"Generating Wikipedia by Summarizing Long Sequences\"** by Peter J"
+      "**\"Summarizing Dialogues and Conversations\"** by Fei Liu and Yang Liu"
     ],
     "date": [
-      "2018"
+      "2010"
     ],
-    "type": "article-journal",
-    "container-title": [
-      "Liu et al"
-    ]
+    "type": null
   },
   {
     "author": [
@@ -382,7 +384,7 @@
       }
     ],
     "title": [
-      "Discusses summarizing long sequences to generate Wikipedia articles"
+      "A focused survey on summarizing dialogues and spoken conversations"
     ],
     "type": null
   },
@@ -390,8 +392,31 @@
     "citation-number": [
       "17."
     ],
+    "container-title": [
+      "**\"End-to-End Neural Meeting Summarization with Pre-trained Transformers\"** by Manisha Sinha et al"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
     "title": [
-      "**\"Text Summarization with Pretrained Encoders\"** by Yang Liu and Mirella Lapata"
+      "Explores the use of pre-trained transformers for summarizing meetings"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "title": [
+      "**\"Abstractive Dialogue Summarization with Semantic Scaffolds\"** by Yang Liu and Mirella Lapata"
     ],
     "date": [
       "2019"
@@ -405,30 +430,7 @@
       }
     ],
     "title": [
-      "Explores the use of pretrained language models for text summarization"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "18."
-    ],
-    "title": [
-      "**\"Fine-tuning Pretrained Language Models for Document Summarization\"** by Thomas Scialom et al"
-    ],
-    "date": [
-      "2020"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Discusses fine-tuning techniques for pretrained models in summarization tasks"
+      "Introduces a method for abstractive dialogue summarization using semantic scaffolds"
     ],
     "type": null
   },
@@ -437,7 +439,7 @@
       "19."
     ],
     "title": [
-      "**\"Extractive Summarization as Text Matching\"** by Yumo Xu and Mirella Lapata"
+      "**\"Towards Faithful Neural Dialogue Summarization with Data Augmentation\"** by Xinya Du and Claire Cardie"
     ],
     "date": [
       "2020"
@@ -451,7 +453,7 @@
       }
     ],
     "title": [
-      "Introduces a novel approach to extractive summarization by treating it as a text matching problem"
+      "Discusses the use of data augmentation techniques to improve dialogue summarization"
     ],
     "type": null
   },
@@ -460,10 +462,10 @@
       "20."
     ],
     "title": [
-      "**\"Towards Abstractive Summarization Using Semantic Representations\"** by Ishan Jindal et al"
+      "**\"Meeting Summarization with Pre-trained Language Models\"** by Yang Liu et al"
     ],
     "date": [
-      "2020"
+      "2021"
     ],
     "type": null
   },
@@ -474,13 +476,16 @@
       }
     ],
     "title": [
-      "Focuses on using semantic representations for abstractive summarization"
+      "Explores the application of pre-trained language models for meeting summarization"
     ],
     "type": null
   },
   {
     "title": [
-      "These articles should provide a solid foundation for understanding the current state and advancements in summarizing both written and spoken conversations"
+      "These articles cover a range of techniques and models for summarizing both written and spoken conversations, providing a comprehensive overview of the field up to"
+    ],
+    "date": [
+      "2023"
     ],
     "type": null
   }

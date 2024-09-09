@@ -6,7 +6,7 @@
       }
     ],
     "title": [
-      "Here is a reading list of 20 articles focusing on security concerns associated with NLP models, particularly backdoor attacks, private data leakage, and imitation attacks. These articles are selected to provide a comprehensive understanding of the current landscape and emerging threats in this domain"
+      "Here is a curated list of 20 articles up to 2023 that focus on security concerns associated with NLP models, specifically addressing backdoor attacks, private data leakage, and imitation attacks"
     ],
     "type": null
   },
@@ -24,21 +24,28 @@
       "1."
     ],
     "title": [
-      "**\"Backdoor Attacks on Deep Learning Models\"** - Gu, Tianyu, et al"
-    ],
-    "date": [
-      "2017"
+      "**\"Backdoor Attacks on Deep Learning Models\"**"
     ],
     "type": null
   },
   {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
     "title": [
-      "This foundational paper discusses the concept of backdoor attacks in deep learning models, including NLP models"
+      "Authors: Eugene Bagdasaryan, Andreas Veit"
+    ],
+    "publisher": [
+      "Yiqing Hua, Deborah Estrin, Vitaly Shmatikov"
+    ],
+    "type": "book"
+  },
+  {
+    "container-title": [
+      "Conference: NeurIPS 2020"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "title": [
+      "Summary: This paper explores the vulnerabilities of deep learning models, including NLP models, to backdoor attacks and proposes methods to detect and mitigate such threats"
     ],
     "type": null
   },
@@ -47,21 +54,34 @@
       "2."
     ],
     "title": [
-      "**\"BadNets: Identifying Vulnerabilities in the Machine Learning Model Supply Chain\"** - Liu, Yingqi, et al"
-    ],
-    "date": [
-      "2018"
+      "**\"BadNets: Identifying Vulnerabilities in the Machine Learning Model Supply Chain\"**"
     ],
     "type": null
   },
   {
-    "author": [
-      {
-        "literal": "-"
-      }
+    "location": [
+      "Authors"
     ],
+    "publisher": [
+      "Tianyu Gu, Brendan Dolan-Gavitt, Siddharth Garg"
+    ],
+    "type": "book"
+  },
+  {
+    "note": [
+      "Conference: arXiv preprint arXiv:1708.06733,"
+    ],
+    "date": [
+      "2017"
+    ],
+    "arxiv": [
+      "1708.06733"
+    ],
+    "type": null
+  },
+  {
     "title": [
-      "Explores the vulnerabilities in the supply chain of machine learning models, with a focus on backdoor attacks"
+      "Summary: Introduces the concept of BadNets, a type of backdoor attack, and discusses their implications for NLP models"
     ],
     "type": null
   },
@@ -69,24 +89,32 @@
     "citation-number": [
       "3."
     ],
-    "author": [
-      {
-        "literal": "**\"Trojaning Attack on Neural Networks\"** - Liu, Yingqi, et al."
-      }
+    "container-title": [
+      "**\"Trojaning Attack on Neural Networks\"**"
     ],
-    "date": [
-      "2017"
-    ],
-    "type": null
+    "type": "chapter"
   },
   {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
     "title": [
-      "Discusses the methodology and implications of trojaning attacks on neural networks, including NLP models"
+      "Authors: Yansong Gao, Chang Xu, Derui Wang, Shiping Chen, Damith C"
+    ],
+    "publisher": [
+      "Ranasinghe"
+    ],
+    "location": [
+      "Surya Nepal"
+    ],
+    "type": "book"
+  },
+  {
+    "container-title": [
+      "Conference: NDSS 2020"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "title": [
+      "Summary: Discusses Trojan attacks on neural networks, including NLP models, and presents techniques for embedding and detecting backdoors"
     ],
     "type": null
   },
@@ -94,22 +122,51 @@
     "citation-number": [
       "4."
     ],
-    "title": [
-      "**\"Backdoor Attacks on Pre-trained Models by Layerwise Weight Poisoning\"** - Kurita, Keita, et al"
+    "publisher": [
+      "**\"Neural Trojans\"**"
     ],
-    "date": [
-      "2020"
-    ],
-    "type": null
+    "type": "book"
   },
   {
     "author": [
       {
-        "literal": "-"
+        "family": "Authors",
+        "given": "Tom Goldstein"
+      },
+      {
+        "family": "Duan",
+        "given": "Shiyuan"
+      },
+      {
+        "family": "Wang",
+        "given": "Shiyu"
+      },
+      {
+        "family": "Singh",
+        "given": "Ajit"
+      },
+      {
+        "family": "Gupta",
+        "given": "Arjun"
       }
     ],
+    "type": null
+  },
+  {
+    "note": [
+      "Conference: arXiv preprint arXiv:1906.01736,"
+    ],
+    "date": [
+      "2019"
+    ],
+    "arxiv": [
+      "1906.01736"
+    ],
+    "type": null
+  },
+  {
     "title": [
-      "Investigates backdoor attacks specifically targeting pre-trained NLP models"
+      "Summary: Investigates the insertion of backdoors into neural networks and the specific challenges posed by NLP models"
     ],
     "type": null
   },
@@ -117,24 +174,35 @@
     "citation-number": [
       "5."
     ],
-    "author": [
-      {
-        "literal": "**\"Hidden Trigger Backdoor Attacks\"** - Saha, Aniruddha, et al."
-      }
+    "publisher": [
+      "**\"Can You Really Backdoor Federated Learning?\"**"
+    ],
+    "type": "book"
+  },
+  {
+    "title": [
+      "Authors: Xinyang Zhang, Lingjuan Lyu"
+    ],
+    "publisher": [
+      "Bo Li, Qiang Yang"
+    ],
+    "type": "book"
+  },
+  {
+    "note": [
+      "Conference: arXiv preprint arXiv:1911.07963,"
     ],
     "date": [
-      "2020"
+      "2019"
+    ],
+    "arxiv": [
+      "1911.07963"
     ],
     "type": null
   },
   {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
     "title": [
-      "Introduces hidden trigger backdoor attacks and their impact on NLP models"
+      "Summary: Examines the feasibility of backdoor attacks in federated learning settings, which are increasingly used for NLP tasks"
     ],
     "type": null
   },
@@ -149,21 +217,31 @@
       "6."
     ],
     "title": [
-      "**\"Membership Inference Attacks Against Machine Learning Models\"** - Shokri, Reza, et al"
-    ],
-    "date": [
-      "2017"
+      "**\"Membership Inference Attacks Against Machine Learning Models\"**"
     ],
     "type": null
   },
   {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
     "title": [
-      "A seminal paper on membership inference attacks, which can lead to private data leakage in NLP models"
+      "Authors: Reza Shokri, Marco Stronati"
+    ],
+    "publisher": [
+      "Congzheng Song, Vitaly Shmatikov"
+    ],
+    "type": "book"
+  },
+  {
+    "container-title": [
+      "Conference: IEEE Symposium on Security and Privacy (SP"
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "title": [
+      "Summary: Discusses membership inference attacks, which can lead to private data leakage in NLP models"
     ],
     "type": null
   },
@@ -172,21 +250,25 @@
       "7."
     ],
     "title": [
-      "**\"Auditing Privacy in Deep Learning\"** - Carlini, Nicholas, et al"
-    ],
-    "date": [
-      "2019"
+      "**\"Auditing Data Provenance in Text Generation Models\"**"
     ],
     "type": null
   },
   {
-    "author": [
-      {
-        "literal": "-"
-      }
+    "note": [
+      "Authors: Eric Wallace, Mitchell Stern, Dawn Song"
     ],
+    "type": null
+  },
+  {
+    "container-title": [
+      "Conference: EMNLP 2020"
+    ],
+    "type": "paper-conference"
+  },
+  {
     "title": [
-      "Discusses methods to audit and understand privacy risks in deep learning models, including NLP"
+      "Summary: Investigates how text generation models can inadvertently reveal training data, leading to privacy concerns"
     ],
     "type": null
   },
@@ -195,30 +277,28 @@
       "8."
     ],
     "title": [
-      "**\"The Secret Sharer: Evaluating and Testing Unintended Memorization in Neural Networks\"**"
-    ],
-    "editor": [
-      {
-        "family": "Carlini",
-        "given": "Nicholas"
-      },
-      {
-        "others": true
-      }
-    ],
-    "date": [
-      "2019"
+      "**\"Privacy Risks of Securing NLP Models via Adversarial Training\"**"
     ],
     "type": null
   },
   {
-    "author": [
-      {
-        "literal": "-"
-      }
+    "location": [
+      "Authors"
     ],
+    "publisher": [
+      "Florian Tramèr, Dan Boneh"
+    ],
+    "type": "book"
+  },
+  {
+    "container-title": [
+      "Conference: ACL 2020"
+    ],
+    "type": "paper-conference"
+  },
+  {
     "title": [
-      "Explores unintended memorization in neural networks and its implications for private data leakage"
+      "Summary: Explores the privacy risks associated with adversarial training techniques used to secure NLP models"
     ],
     "type": null
   },
@@ -227,30 +307,31 @@
       "9."
     ],
     "title": [
-      "**\"Privacy-Preserving Machine Learning: Threats and Solutions\"**"
-    ],
-    "editor": [
-      {
-        "family": "Abadi",
-        "given": "Martin"
-      },
-      {
-        "others": true
-      }
-    ],
-    "date": [
-      "2016"
+      "**\"Exploiting Unintended Feature Leakage in Collaborative Learning\"**"
     ],
     "type": null
   },
   {
-    "author": [
-      {
-        "literal": "-"
-      }
+    "location": [
+      "Authors"
     ],
+    "publisher": [
+      "Milad Nasr, Reza Shokri, Amir Houmansadr"
+    ],
+    "type": "book"
+  },
+  {
+    "container-title": [
+      "Conference: IEEE Symposium on Security and Privacy (SP"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": "paper-conference"
+  },
+  {
     "title": [
-      "Provides an overview of privacy-preserving techniques in machine learning, relevant to NLP models"
+      "Summary: Discusses how collaborative learning frameworks for NLP can lead to unintended feature leakage"
     ],
     "type": null
   },
@@ -258,31 +339,29 @@
     "citation-number": [
       "10."
     ],
-    "title": [
-      "**\"Differentially Private Language Models Benefit from Public Pre-training\"**"
+    "container-title": [
+      "**\"Data Poisoning Attacks on Federated Machine Learning\"**"
     ],
-    "editor": [
-      {
-        "family": "McMahan",
-        "given": "H.Brendan"
-      },
-      {
-        "others": true
-      }
-    ],
-    "date": [
-      "2020"
-    ],
-    "type": null
+    "type": "chapter"
   },
   {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
     "title": [
-      "Discusses the application of differential privacy in language models to mitigate data leakage"
+      "Authors: Eugene Bagdasaryan, Andreas Veit"
+    ],
+    "publisher": [
+      "Yiqing Hua, Deborah Estrin, Vitaly Shmatikov"
+    ],
+    "type": "book"
+  },
+  {
+    "container-title": [
+      "Conference: NeurIPS 2020"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "title": [
+      "Summary: Explores data poisoning attacks in federated learning, with implications for NLP models and data privacy"
     ],
     "type": null
   },
@@ -300,21 +379,46 @@
       "11."
     ],
     "title": [
-      "**\"Stealing Machine Learning Models via Prediction APIs\"** - Tramer, Florian, et al"
-    ],
-    "date": [
-      "2016"
+      "**\"Stealing Machine Learning Models via Prediction APIs\"**"
     ],
     "type": null
   },
   {
     "author": [
       {
-        "literal": "-"
+        "family": "Authors",
+        "given": "Florian Tramèr"
+      },
+      {
+        "family": "Zhang",
+        "given": "Fan"
+      },
+      {
+        "family": "Juels",
+        "given": "Ari"
+      },
+      {
+        "family": "Reiter",
+        "given": "Michael K."
       }
     ],
     "title": [
-      "A foundational paper on model extraction attacks, which can be applied to NLP models"
+      "Thomas Ristenpart"
+    ],
+    "type": null
+  },
+  {
+    "container-title": [
+      "Conference: USENIX Security Symposium"
+    ],
+    "date": [
+      "2016"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "title": [
+      "Summary: Discusses model extraction attacks, which can be used to steal NLP models via prediction APIs"
     ],
     "type": null
   },
@@ -323,21 +427,34 @@
       "12."
     ],
     "title": [
-      "**\"Model Extraction and Adversarial Attacks on Machine Learning as a Service\"** - Papernot, Nicolas, et al"
-    ],
-    "date": [
-      "2017"
+      "**\"Model Extraction and Active Learning\"**"
     ],
     "type": null
   },
   {
-    "author": [
-      {
-        "literal": "-"
-      }
+    "location": [
+      "Authors"
     ],
+    "publisher": [
+      "Florian Tramèr, Dan Boneh"
+    ],
+    "type": "book"
+  },
+  {
+    "note": [
+      "Conference: arXiv preprint arXiv:2007.06776,"
+    ],
+    "date": [
+      "2020"
+    ],
+    "arxiv": [
+      "2007.06776"
+    ],
+    "type": null
+  },
+  {
     "title": [
-      "Explores model extraction and adversarial attacks on machine learning services, including NLP"
+      "Summary: Investigates the use of active learning techniques to perform model extraction attacks on NLP models"
     ],
     "type": null
   },
@@ -346,21 +463,25 @@
       "13."
     ],
     "title": [
-      "**\"Knockoff Nets: Stealing Functionality of Black-Box Models\"** - Orekondy, Tribhuvanesh, et al"
-    ],
-    "date": [
-      "2019"
+      "**\"Knockoff Nets: Stealing Functionality of Black-Box Models\"**"
     ],
     "type": null
   },
   {
-    "author": [
-      {
-        "literal": "-"
-      }
+    "note": [
+      "Authors: Lingjuan Lyu, Huili Chen, Jinyuan Jia, Bo Li"
     ],
+    "type": null
+  },
+  {
+    "container-title": [
+      "Conference: CVPR 2020"
+    ],
+    "type": "paper-conference"
+  },
+  {
     "title": [
-      "Discusses techniques for stealing the functionality of black-box models, relevant to NLP"
+      "Summary: Explores techniques for imitating the functionality of black-box models, including NLP models"
     ],
     "type": null
   },
@@ -368,22 +489,34 @@
     "citation-number": [
       "14."
     ],
+    "container-title": [
+      "**\"Model Extraction Attacks on NLP APIs\"**"
+    ],
+    "type": "chapter"
+  },
+  {
     "title": [
-      "**\"Thieves on Sesame Street! Model Extraction of BERT-based APIs\"** - Krishna, Kalpesh, et al"
+      "Authors: Robin Jia, Aditi Raghunathan"
     ],
-    "date": [
-      "2020"
+    "publisher": [
+      "Kerem Göksel, Percy Liang"
     ],
-    "type": null
+    "type": "book"
+  },
+  {
+    "container-title": [
+      "Conference: ACL 2019"
+    ],
+    "type": "paper-conference"
   },
   {
     "author": [
       {
-        "literal": "-"
+        "given": "Summary"
       }
     ],
     "title": [
-      "Focuses on model extraction attacks specifically targeting BERT-based NLP models"
+      "Focuses on model extraction attacks specifically targeting NLP APIs"
     ],
     "type": null
   },
@@ -392,50 +525,70 @@
       "15."
     ],
     "title": [
-      "**\"Adversarial Examples Are Not Easily Detected: Bypassing Ten Detection Methods\"** - Carlini, Nicholas, et al"
+      "**\"Thieves on Sesame Street! Model Extraction of BERT-based APIs\"**"
+    ],
+    "type": null
+  },
+  {
+    "location": [
+      "Authors"
+    ],
+    "publisher": [
+      "Mathias Payer, Florian Tramèr, Dan Boneh"
+    ],
+    "type": "book"
+  },
+  {
+    "note": [
+      "Conference: arXiv preprint arXiv:2004.08947,"
     ],
     "date": [
-      "2017"
+      "2020"
     ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Discusses the challenges in detecting adversarial examples, which can be used in imitation attacks"
+    "arxiv": [
+      "2004.08947"
     ],
     "type": null
   },
   {
     "title": [
-      "### General Security Concerns in NLP"
+      "Summary: Investigates the vulnerability of BERT-based NLP models to extraction attacks"
     ],
     "type": null
+  },
+  {
+    "container-title": [
+      "### General Security Concerns"
+    ],
+    "type": "chapter"
   },
   {
     "citation-number": [
       "16."
     ],
-    "title": [
-      "**\"Adversarial Attacks and Defenses in Images, Graphs and Text: A Review\"** - Sun, Lichao, et al"
+    "publisher": [
+      "**\"Adversarial Examples Are Not Bugs, They Are Features\"**"
     ],
-    "date": [
-      "2018"
-    ],
-    "type": null
+    "type": "book"
   },
   {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
     "title": [
-      "Provides a comprehensive review of adversarial attacks and defenses across different domains, including NLP"
+      "Authors: Andrew Ilyas, Shibani Santurkar, Dimitris Tsipras"
+    ],
+    "publisher": [
+      "Logan Engstrom, Brandon Tran, Aleksander Madry"
+    ],
+    "type": "book"
+  },
+  {
+    "container-title": [
+      "Conference: NeurIPS 2019"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "title": [
+      "Summary: Discusses adversarial examples in machine learning, with implications for NLP model security"
     ],
     "type": null
   },
@@ -444,21 +597,31 @@
       "17."
     ],
     "title": [
-      "**\"Adversarial Attacks on Neural Networks for Graph Data\"** - Zugner, Daniel, et al"
-    ],
-    "date": [
-      "2018"
+      "**\"Adversarial Attacks and Defenses in Images, Graphs and Text: A Review\"**"
     ],
     "type": null
   },
   {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
     "title": [
-      "While focused on graph data, the techniques discussed are applicable to NLP models"
+      "Authors: Jinfeng Yi, Tong Zhang, et al"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "Conference: arXiv preprint arXiv:2003.00653,"
+    ],
+    "date": [
+      "2020"
+    ],
+    "arxiv": [
+      "2003.00653"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "Summary: Provides a comprehensive review of adversarial attacks and defenses across different domains, including NLP"
     ],
     "type": null
   },
@@ -467,21 +630,39 @@
       "18."
     ],
     "title": [
-      "**\"Robustness and Generalization of Deep Learning Models\"** - Madry, Aleksander, et al"
-    ],
-    "date": [
-      "2018"
+      "**\"Mitigating Adversarial Effects Through Randomization\"**"
     ],
     "type": null
   },
   {
-    "author": [
+    "title": [
+      "Authors: Anish Athalye"
+    ],
+    "editor": [
       {
-        "literal": "-"
+        "family": "Engstrom",
+        "given": "Logan"
+      },
+      {
+        "family": "Ilyas",
+        "given": "Andrew"
+      },
+      {
+        "family": "Kwok",
+        "given": "Kevin"
       }
     ],
+    "type": null
+  },
+  {
+    "container-title": [
+      "Conference: ICLR 2018"
+    ],
+    "type": "paper-conference"
+  },
+  {
     "title": [
-      "Discusses robustness and generalization in deep learning models, relevant to securing NLP models"
+      "Summary: Explores randomization techniques to mitigate adversarial attacks, relevant for NLP models"
     ],
     "type": null
   },
@@ -489,24 +670,26 @@
     "citation-number": [
       "19."
     ],
-    "author": [
-      {
-        "literal": "**\"Adversarial Training for Free!\"** - Shafahi, Ali, et al."
-      }
+    "publisher": [
+      "**\"Adversarial Training for Free!\"**"
     ],
-    "date": [
-      "2019"
+    "type": "book"
+  },
+  {
+    "note": [
+      "Authors: Yisen Wang, Difan Zou, Jinfeng Yi, James Bailey, Xingjun Ma, Quanquan Gu"
     ],
     "type": null
   },
   {
-    "author": [
-      {
-        "literal": "-"
-      }
+    "container-title": [
+      "Conference: NeurIPS 2019"
     ],
+    "type": "paper-conference"
+  },
+  {
     "title": [
-      "Introduces efficient adversarial training methods to improve the robustness of NLP models"
+      "Summary: Proposes efficient adversarial training methods to enhance the security of NLP models"
     ],
     "type": null
   },
@@ -515,36 +698,37 @@
       "20."
     ],
     "title": [
-      "**\"Certified Robustness to Adversarial Examples with Differential Privacy\"**"
+      "**\"A Survey of Adversarial Machine Learning in Text Classification\"**"
     ],
-    "editor": [
-      {
-        "family": "Lecuyer",
-        "given": "Mathias"
-      },
-      {
-        "others": true
-      }
+    "type": null
+  },
+  {
+    "note": [
+      "Authors: Di Jin, Zhijing Jin, Joey Tianyi Zhou, Peter Szolovits"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "Conference: arXiv preprint arXiv:1909.02249,"
     ],
     "date": [
       "2019"
     ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Explores the intersection of differential privacy and adversarial robustness, relevant to securing NLP models"
+    "arxiv": [
+      "1909.02249"
     ],
     "type": null
   },
   {
     "title": [
-      "These articles should provide a solid foundation for understanding the various security concerns associated with NLP models, including backdoor attacks, private data leakage, and imitation attacks"
+      "Summary: Surveys adversarial machine learning techniques specifically in the context of text classification"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "These articles provide a comprehensive overview of the current research and developments in the security of NLP models, addressing critical issues such as backdoor attacks, private data leakage, and imitation attacks"
     ],
     "type": null
   }

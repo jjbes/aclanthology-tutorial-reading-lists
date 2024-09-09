@@ -6,10 +6,10 @@
       }
     ],
     "title": [
-      "Here's a reading list of 20 articles published before 2022 that cover various aspects of representing knowledge in both unstructured"
+      "Here is a curated list of 20 articles up to 2021 that cover various aspects of representing knowledge in both unstructured"
     ],
     "note": [
-      "raw text) and structured (graphs) forms, as well as guiding natural language generation (NLG) using external knowledge:"
+      "raw text) and structured (graphs) formats, as well as guiding natural language generation (NLG) using external knowledge:"
     ],
     "type": null
   },
@@ -62,7 +62,7 @@
       }
     ],
     "title": [
-      "Discusses BERT, a model that leverages large-scale unstructured text for various NLP tasks"
+      "Discusses BERT, a model that can be fine-tuned for various NLP tasks, including NLG"
     ],
     "type": null
   },
@@ -88,13 +88,39 @@
       }
     ],
     "title": [
-      "Explores the capabilities of GPT-3 in generating text using vast amounts of unstructured data"
+      "Explores GPT-3, a powerful language model capable of generating human-like text"
     ],
     "type": null
   },
   {
     "citation-number": [
       "4."
+    ],
+    "title": [
+      "**\"Unified Language Model Pre-training for Natural Language Understanding and Generation\"**"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "Dong et al"
+    ]
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Proposes a unified model for both understanding and generating language"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "5."
     ],
     "title": [
       "**\"Knowledge Graph Embedding: A Survey of Approaches and Applications\"** - Wang et al"
@@ -111,85 +137,13 @@
       }
     ],
     "title": [
-      "Provides a comprehensive survey of methods for embedding structured knowledge graphs"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "5."
-    ],
-    "title": [
-      "**\"A Survey on Knowledge Graphs: Representation, Acquisition, and Applications\"**"
-    ],
-    "date": [
-      "2021"
-    ],
-    "type": "article-journal",
-    "container-title": [
-      "Hogan et al"
-    ]
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Reviews the state of the art in knowledge graph research, including representation and applications"
+      "Provides a comprehensive survey of methods for embedding knowledge graphs"
     ],
     "type": null
   },
   {
     "citation-number": [
       "6."
-    ],
-    "title": [
-      "**\"Neural Text Generation: A Practical Guide\"** - Gatt and Krahmer"
-    ],
-    "date": [
-      "2018"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Offers a practical overview of neural approaches to text generation"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "7."
-    ],
-    "title": [
-      "**\"OpenIE: Extracting Open Domain Information from Text\"** - Etzioni et al"
-    ],
-    "date": [
-      "2011"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Discusses methods for extracting structured information from unstructured text"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "8."
     ],
     "title": [
       "**\"Translating Embeddings for Modeling Multi-relational Data\"** - Bordes et al"
@@ -206,19 +160,19 @@
       }
     ],
     "title": [
-      "Introduces the TransE model for embedding entities and relations in knowledge graphs"
+      "Introduces the TransE model for embedding entities and relationships in knowledge graphs"
     ],
     "type": null
   },
   {
     "citation-number": [
-      "9."
+      "7."
     ],
     "title": [
-      "**\"A Review of Relational Machine Learning for Knowledge Graphs\"** - Nickel et al"
+      "**\"OpenIE: Extracting Open Domain Information from Text\"** - Etzioni et al"
     ],
     "date": [
-      "2016"
+      "2008"
     ],
     "type": null
   },
@@ -229,7 +183,58 @@
       }
     ],
     "title": [
-      "Surveys machine learning techniques for knowledge graph representation and reasoning"
+      "Discusses techniques for extracting structured information from unstructured text"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "title": [
+      "**\"T5: Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer\"**"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "Raffel et al"
+    ]
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Presents the T5 model, which frames all NLP tasks as text-to-text transformations"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "author": [
+      {
+        "literal": "**\"A Survey on Knowledge Graph-Based Recommender Systems\"** - Zhang et al."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Surveys the use of knowledge graphs in recommender systems, which can inform NLG"
     ],
     "type": null
   },
@@ -238,35 +243,7 @@
       "10."
     ],
     "title": [
-      "**\"Leveraging Knowledge Bases in LSTMs for Improving Machine Reading\"**"
-    ],
-    "publisher": [
-      "Yang and Mitchell"
-    ],
-    "date": [
-      "2017"
-    ],
-    "type": "book"
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Explores how to incorporate knowledge bases into LSTM models for better text understanding"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "11."
-    ],
-    "author": [
-      {
-        "literal": "**\"Commonsense Knowledge in Word Representations\"** - Tandon et al."
-      }
+      "**\"Commonsense Knowledge in Word Representations\"** - Speer et al"
     ],
     "date": [
       "2017"
@@ -286,18 +263,18 @@
   },
   {
     "citation-number": [
-      "12."
+      "11."
     ],
     "title": [
-      "**\"Knowledge Graphs and Knowledge Networks: The Story in Brief\"**"
-    ],
-    "publisher": [
-      "Paulheim"
+      "**\"Graph Neural Networks: A Review of Methods and Applications\"**"
     ],
     "date": [
-      "2017"
+      "2018"
     ],
-    "type": "book"
+    "type": "article-journal",
+    "container-title": [
+      "Zhou et al"
+    ]
   },
   {
     "author": [
@@ -306,19 +283,16 @@
       }
     ],
     "title": [
-      "Provides an overview of the development and applications of knowledge graphs"
+      "Reviews various graph neural network methods and their applications"
     ],
     "type": null
   },
   {
     "citation-number": [
-      "13."
+      "12."
     ],
     "title": [
-      "**\"Neural Natural Language Generation: A Survey on Multilinguality, Multimodality, Controllability, and Learning\"**"
-    ],
-    "location": [
-      "Reiter"
+      "**\"Leveraging Knowledge Graphs to Improve Text Generation\"** - Koncel-Kedziorski et al"
     ],
     "date": [
       "2019"
@@ -332,13 +306,160 @@
       }
     ],
     "title": [
-      "Surveys various aspects of neural NLG, including the use of external knowledge"
+      "Explores how knowledge graphs can be used to enhance text generation"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "title": [
+      "**\"Knowledge Graphs and Knowledge Networks: The Story in Brief\"**"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "Hogan et al"
+    ]
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Provides an overview of knowledge graphs and their applications"
     ],
     "type": null
   },
   {
     "citation-number": [
       "14."
+    ],
+    "title": [
+      "**\"Neural Natural Language Generation: A Survey on Multimodal and Multilingual Methods\"** - Gatt and Krahmer"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Surveys various methods for neural NLG, including multimodal and multilingual approaches"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "title": [
+      "**\"Extracting Structured Data from Web Pages\"** - Dalvi et al"
+    ],
+    "date": [
+      "2009"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Discusses techniques for extracting structured data from unstructured web pages"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "title": [
+      "**\"A Review of Relational Machine Learning for Knowledge Graphs\"** - Nickel et al"
+    ],
+    "date": [
+      "2016"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Reviews machine learning techniques for relational data in knowledge graphs"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "title": [
+      "**\"Pre-trained Models for Natural Language Processing: A Survey\"**"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "Qiu et al"
+    ]
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Surveys pre-trained models for NLP, which are crucial for NLG tasks"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "title": [
+      "**\"Knowledge Graphs: Methodology, Tools and Selected Use Cases\"**"
+    ],
+    "publisher": [
+      "Ehrlinger and Wöß"
+    ],
+    "date": [
+      "2016"
+    ],
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Discusses methodologies and tools for building and using knowledge graphs"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "19."
     ],
     "title": [
       "**\"Learning to Generate Natural Language from Structured Data\"** - Lebret et al"
@@ -355,128 +476,7 @@
       }
     ],
     "title": [
-      "Focuses on generating text from structured data sources"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "15."
-    ],
-    "title": [
-      "**\"Knowledge Graphs: A Comprehensive Survey\"** - Ji et al"
-    ],
-    "date": [
-      "2021"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "A detailed survey on the construction, representation, and application of knowledge graphs"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "16."
-    ],
-    "title": [
-      "**\"Incorporating External Knowledge to Enhance Tabular Reasoning\"** - Chen et al"
-    ],
-    "date": [
-      "2020"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Discusses methods for enhancing reasoning over tabular data using external knowledge"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "17."
-    ],
-    "title": [
-      "**\"Generating Text from Structured Data with Application to the Biography Domain\"**"
-    ],
-    "date": [
-      "2017"
-    ],
-    "type": "article-journal",
-    "container-title": [
-      "Wiseman et al"
-    ]
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Explores text generation from structured data in the context of biographical information"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "18."
-    ],
-    "title": [
-      "**\"Knowledge-Augmented Language Model and its Application to Unsupervised NLG\"** - Zhang et al"
-    ],
-    "date": [
-      "2020"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Introduces a language model augmented with external knowledge for unsupervised NLG"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "19."
-    ],
-    "title": [
-      "**\"A Survey on Neural Network-Based Natural Language Generation\"**"
-    ],
-    "date": [
-      "2018"
-    ],
-    "type": "article-journal",
-    "container-title": [
-      "Lu et al"
-    ]
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Reviews neural network approaches to NLG, including the use of external knowledge"
+      "Explores methods for generating natural language from structured data"
     ],
     "type": null
   },
@@ -485,15 +485,12 @@
       "20."
     ],
     "title": [
-      "**\"Graph Neural Networks: A Review of Methods and Applications\"**"
+      "**\"Towards Knowledge-Based Text Generation\"** - Ji et al"
     ],
     "date": [
       "2020"
     ],
-    "type": "article-journal",
-    "container-title": [
-      "Wu et al"
-    ]
+    "type": null
   },
   {
     "author": [
@@ -502,13 +499,13 @@
       }
     ],
     "title": [
-      "Surveys graph neural networks, which are crucial for representing and reasoning over structured knowledge"
+      "Investigates the integration of knowledge bases into text generation models"
     ],
     "type": null
   },
   {
     "title": [
-      "These articles provide a solid foundation for understanding how to represent knowledge in various forms and how to leverage this knowledge for natural language generation"
+      "These articles should provide a comprehensive overview of the state-of-the-art techniques and methodologies for representing knowledge in various forms and guiding NLG using external knowledge"
     ],
     "type": null
   }

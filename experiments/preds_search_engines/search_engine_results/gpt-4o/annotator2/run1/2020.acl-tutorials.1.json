@@ -6,10 +6,7 @@
       }
     ],
     "title": [
-      "Here is a list of 20 influential articles on the interpretability and analysis of neural network models in Natural Language Processing"
-    ],
-    "note": [
-      "NLP) published before 2021:"
+      "Here's a curated list of 20 articles up to 2020 that focus on the interpretability and analysis of neural network models in Natural Language Processing (NLP"
     ],
     "type": null
   },
@@ -19,7 +16,7 @@
     ],
     "author": [
       {
-        "literal": "**\"Attention is All You Need\"** - Vaswani et al."
+        "literal": "**\"Attention is All You Need\"** - Vaswani, A., et al."
       }
     ],
     "date": [
@@ -34,7 +31,7 @@
       }
     ],
     "title": [
-      "Introduces the Transformer model, which uses self-attention mechanisms that have been widely analyzed for interpretability"
+      "This paper introduces the Transformer model, which uses self-attention mechanisms and has significant implications for interpretability in NLP"
     ],
     "type": null
   },
@@ -43,58 +40,16 @@
       "2."
     ],
     "title": [
-      "**\"A Structural Probe for Finding Syntax in Word Representations\"**"
+      "**\"Visualizing and Understanding Neural Models in NLP\"**"
     ],
-    "publisher": [
-      "Hewitt and Manning"
-    ],
-    "date": [
-      "2019"
-    ],
-    "type": "book"
-  },
-  {
-    "author": [
+    "editor": [
       {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Proposes a method to probe neural network models for syntactic structure"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "3."
-    ],
-    "author": [
+        "family": "Li",
+        "given": "J."
+      },
       {
-        "literal": "**\"Interpreting and Understanding Bert\"** - Clark et al."
+        "others": true
       }
-    ],
-    "date": [
-      "2019"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Analyzes the BERT model to understand what it learns and how it represents linguistic information"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "4."
-    ],
-    "title": [
-      "**\"Visualizing and Understanding Neural Models in NLP\"** - Li et al"
     ],
     "date": [
       "2016"
@@ -108,7 +63,57 @@
       }
     ],
     "title": [
-      "Provides techniques for visualizing and interpreting neural network models in NLP"
+      "Discusses methods for visualizing and interpreting neural network models in NLP, including saliency maps and attention mechanisms"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "author": [
+      {
+        "literal": "**\"Rationalizing Neural Predictions\"** - Lei, T., et al."
+      }
+    ],
+    "date": [
+      "2016"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Proposes a method for generating rationales (subsets of input text) that justify the predictions made by neural models"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "author": [
+      {
+        "literal": "**\"Interpreting and Understanding Bert\"** - Clark, K., et al."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Analyzes the BERT model to understand what it learns and how it makes decisions"
     ],
     "type": null
   },
@@ -117,15 +122,21 @@
       "5."
     ],
     "title": [
-      "**\"What Does BERT Look at? An Analysis of BERT's Attention\"**"
+      "**\"A Hierarchical Latent Variable Encoder-Decoder Model for Generating Dialogues\"**"
     ],
-    "publisher": [
-      "Vig"
+    "editor": [
+      {
+        "family": "Serban",
+        "given": "I.V."
+      },
+      {
+        "others": true
+      }
     ],
     "date": [
-      "2019"
+      "2017"
     ],
-    "type": "book"
+    "type": null
   },
   {
     "author": [
@@ -134,7 +145,7 @@
       }
     ],
     "title": [
-      "Investigates the attention mechanisms in BERT to understand what the model focuses on"
+      "Explores interpretability in the context of dialogue generation"
     ],
     "type": null
   },
@@ -143,10 +154,19 @@
       "6."
     ],
     "title": [
-      "**\"Linguistic Knowledge and Transferability of Contextual Representations\"** - Tenney et al"
+      "**\"Learning to Explain: An Information-Theoretic Perspective on Model Interpretation\"**"
+    ],
+    "editor": [
+      {
+        "family": "Chen",
+        "given": "J."
+      },
+      {
+        "others": true
+      }
     ],
     "date": [
-      "2019"
+      "2018"
     ],
     "type": null
   },
@@ -157,7 +177,7 @@
       }
     ],
     "title": [
-      "Examines the linguistic knowledge encoded in contextual representations like ELMo and BERT"
+      "Introduces an information-theoretic framework for model interpretation"
     ],
     "type": null
   },
@@ -165,183 +185,15 @@
     "citation-number": [
       "7."
     ],
-    "title": [
-      "**\"Probing Neural Network Comprehension of Natural Language Arguments\"**"
-    ],
-    "publisher": [
-      "McCoy et al"
-    ],
-    "date": [
-      "2019"
-    ],
-    "type": "book"
-  },
-  {
     "author": [
       {
-        "literal": "-"
+        "literal": "**\"Attention is not Explanation\"** - Jain, S., & Wallace, B. C."
       }
-    ],
-    "title": [
-      "Probes neural networks to understand their comprehension of natural language arguments"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "8."
-    ],
-    "title": [
-      "**\"Dissecting Contextual Word Embeddings: Architecture and Representation\"**"
-    ],
-    "publisher": [
-      "Peters et al"
-    ],
-    "date": [
-      "2018"
-    ],
-    "type": "book"
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Analyzes the architecture and representations of contextual word embeddings like ELMo"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "9."
-    ],
-    "container-title": [
-      "**\"Evaluating Layers of Representation in Neural Machine Translation on Part-of-Speech and Semantic Tagging Tasks\"** - Belinkov et al"
-    ],
-    "date": [
-      "2017"
-    ],
-    "type": "chapter"
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Evaluates the representations learned by neural machine translation models"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "10."
-    ],
-    "title": [
-      "**\"On the Importance of Single Directions for Generalization\"** - Morcos et al"
-    ],
-    "date": [
-      "2018"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Investigates the role of individual neurons and directions in neural network generalization"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "11."
-    ],
-    "title": [
-      "**\"Analyzing and Interpreting Neural Networks for NLP: A Report on the First BlackboxNLP Workshop\"** - Belinkov and Glass"
     ],
     "date": [
       "2019"
     ],
     "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Summarizes findings and discussions from the BlackboxNLP workshop focused on interpretability"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "12."
-    ],
-    "title": [
-      "**\"Contextual Decomposition for Neural Network Interpretability\"** - Murdoch et al"
-    ],
-    "date": [
-      "2018"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Introduces a method for decomposing neural network predictions to understand their decision-making process"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "13."
-    ],
-    "title": [
-      "**\"Learning to Explain: An Information-Theoretic Perspective on Model Interpretation\"** - Chen et al"
-    ],
-    "date": [
-      "2018"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Proposes an information-theoretic approach to model interpretation"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "14."
-    ],
-    "title": [
-      "**\"Attention is not Explanation\"**"
-    ],
-    "publisher": [
-      "Jain and Wallace"
-    ],
-    "date": [
-      "2019"
-    ],
-    "type": "book"
   },
   {
     "author": [
@@ -356,85 +208,22 @@
   },
   {
     "citation-number": [
-      "15."
+      "8."
     ],
     "title": [
-      "**\"A Unified Framework for Interpreting Model Predictions\"**"
+      "**\"Pathologies of Neural Models Make Interpretations Difficult\"**"
     ],
-    "publisher": [
-      "Lundberg and Lee"
-    ],
-    "date": [
-      "2017"
-    ],
-    "type": "book"
-  },
-  {
-    "author": [
+    "editor": [
       {
-        "literal": "-"
+        "family": "Serrano",
+        "given": "S."
+      },
+      {
+        "given": "Smith"
       }
     ],
-    "title": [
-      "Introduces SHAP (SHapley Additive exPlanations), a unified framework for interpreting model predictions"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "16."
-    ],
-    "title": [
-      "**\"The Building Blocks of Interpretability\"** - Olah et al"
-    ],
-    "date": [
-      "2018"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Discusses various techniques and building blocks for interpreting neural networks"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "17."
-    ],
-    "title": [
-      "**\"Deep Learning for NLP: State of the Art and Future Directions\"**"
-    ],
-    "date": [
-      "2018"
-    ],
-    "type": "article-journal",
-    "container-title": [
-      "Young et al"
-    ]
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Reviews the state of the art in deep learning for NLP, including interpretability challenges"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "18."
-    ],
-    "title": [
-      "**\"Probing Classifiers: Promises, Shortcomings, and Advances\"** - Belinkov and Glass"
+    "volume": [
+      "N. A"
     ],
     "date": [
       "2019"
@@ -448,24 +237,30 @@
       }
     ],
     "title": [
-      "Reviews probing techniques for understanding neural network classifiers"
+      "Discusses challenges in interpreting neural models due to their complex and sometimes pathological behaviors"
     ],
     "type": null
   },
   {
     "citation-number": [
-      "19."
+      "9."
     ],
     "title": [
-      "**\"Analyzing Neural Language Models: Contextual Decomposition Reveals Default Reasoning in GPT-2\"**"
+      "**\"Anchors: High-Precision Model-Agnostic Explanations\"**"
+    ],
+    "editor": [
+      {
+        "family": "Ribeiro",
+        "given": "M.T."
+      },
+      {
+        "others": true
+      }
     ],
     "date": [
-      "2020"
+      "2018"
     ],
-    "type": "article-journal",
-    "container-title": [
-      "Jin et al"
-    ]
+    "type": null
   },
   {
     "author": [
@@ -474,24 +269,236 @@
       }
     ],
     "title": [
-      "Uses contextual decomposition to analyze reasoning patterns in the GPT-2 language model"
+      "Presents a method for generating high-precision, model-agnostic explanations for predictions"
     ],
     "type": null
   },
   {
     "citation-number": [
-      "20."
+      "10."
+    ],
+    "author": [
+      {
+        "given": "L.I.M.E."
+      }
     ],
     "title": [
-      "**\"Interpretability Beyond Feature Attribution: Quantitative Testing with Concept Activation Vectors (TCAV)\"**"
+      "Local Interpretable Model-Agnostic Explanations\"**"
+    ],
+    "editor": [
+      {
+        "family": "Ribeiro",
+        "given": "M.T."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2016"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Introduces LIME, a technique for explaining the predictions of any classifier in an interpretable and faithful manner"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "title": [
+      "**\"Explaining Black Box Predictions and Unveiling Data Artifacts through Influence Functions\"**"
+    ],
+    "editor": [
+      {
+        "family": "Koh",
+        "given": "P.W."
+      },
+      {
+        "family": "Liang",
+        "given": "P."
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Uses influence functions to understand the impact of training data on model predictions"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "title": [
+      "**\"Towards a Rigorous Science of Interpretable Machine Learning\"**"
+    ],
+    "editor": [
+      {
+        "family": "Doshi-Velez",
+        "given": "F."
+      },
+      {
+        "family": "Kim",
+        "given": "B."
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Provides a comprehensive review and framework for interpretability in machine learning"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "author": [
+      {
+        "family": "at?",
+        "given": "What Does B.E.R.T.Look"
+      }
+    ],
+    "title": [
+      "An Analysis of BERT's Attention\"**"
+    ],
+    "editor": [
+      {
+        "family": "Clark",
+        "given": "K."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Analyzes the attention heads in BERT to understand what the model focuses on during different tasks"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "title": [
+      "**\"Evaluating and Understanding the Robustness of Dialogue Systems: A Case Study on a Negotiation Agent\"**"
+    ],
+    "editor": [
+      {
+        "family": "He",
+        "given": "H."
+      },
+      {
+        "others": true
+      }
     ],
     "date": [
       "2018"
     ],
-    "type": "article-journal",
-    "container-title": [
-      "Kim et al"
-    ]
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Discusses the robustness and interpretability of dialogue systems"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "title": [
+      "**\"Deep Learning for NLP and Speech Recognition\"**"
+    ],
+    "editor": [
+      {
+        "family": "Deng",
+        "given": "L."
+      },
+      {
+        "family": "Liu",
+        "given": "Y."
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "A broad overview of deep learning techniques in NLP and speech recognition, with discussions on interpretability"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "title": [
+      "**\"Interpretability Beyond Feature Attribution: Quantitative Testing with Concept Activation Vectors (TCAV)\"**"
+    ],
+    "editor": [
+      {
+        "family": "Kim",
+        "given": "B."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
   },
   {
     "author": [
@@ -505,11 +512,139 @@
     "type": null
   },
   {
+    "citation-number": [
+      "17."
+    ],
     "title": [
-      "These articles cover a range of techniques and approaches for interpreting and analyzing neural network models in NLP, providing a comprehensive overview of the field up to"
+      "**\"On the Importance of Single Directions for Generalization\"**"
+    ],
+    "editor": [
+      {
+        "family": "Morcos",
+        "given": "A.S."
+      },
+      {
+        "others": true
+      }
     ],
     "date": [
-      "2021"
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Investigates the role of individual neurons and directions in the generalization ability of neural networks"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "title": [
+      "**\"A Survey of Methods for Explaining Black Box Models\"**"
+    ],
+    "editor": [
+      {
+        "family": "Guidotti",
+        "given": "R."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "A comprehensive survey of methods for explaining black-box models, including those used in NLP"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "title": [
+      "**\"The Building Blocks of Interpretability\"**"
+    ],
+    "editor": [
+      {
+        "family": "Olah",
+        "given": "C."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Explores the fundamental components that contribute to the interpretability of neural networks"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "title": [
+      "**\"Analyzing Neural Language Models: Contextual Decomposition Reveals Default Reasoning in Sentence Processing\"**"
+    ],
+    "editor": [
+      {
+        "family": "Jumelet",
+        "given": "J."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Uses contextual decomposition to analyze and interpret the reasoning processes of neural language models"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "These articles cover a range of techniques and perspectives on interpretability in neural network models for NLP, providing a solid foundation for understanding the current state of research in this area up to"
+    ],
+    "date": [
+      "2020"
     ],
     "type": null
   }

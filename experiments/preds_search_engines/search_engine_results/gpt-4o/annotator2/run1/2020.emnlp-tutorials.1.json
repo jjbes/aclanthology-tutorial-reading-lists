@@ -2,11 +2,11 @@
   {
     "author": [
       {
-        "given": "Sure!"
+        "given": "Certainly!"
       }
     ],
     "title": [
-      "Here is a list of 20 influential articles on machine reasoning published before 2021"
+      "Here is a curated list of 20 influential articles on machine reasoning up to 2020. These articles cover a range of topics including logical reasoning, probabilistic reasoning, neural-symbolic integration, and more"
     ],
     "type": null
   },
@@ -15,10 +15,10 @@
       "1."
     ],
     "title": [
-      "**\"A Survey of Machine Reasoning\"** by Tim Rocktäschel and Sebastian Riedel"
+      "**\"A Survey of Machine Reasoning\"** by Aditya Kalyanpur, et al"
     ],
     "date": [
-      "2017"
+      "2012"
     ],
     "type": null
   },
@@ -29,7 +29,7 @@
       }
     ],
     "title": [
-      "Overview of machine reasoning techniques and their applications"
+      "A comprehensive survey on the state of machine reasoning"
     ],
     "type": null
   },
@@ -38,20 +38,10 @@
       "2."
     ],
     "title": [
-      "**\"Neural Turing Machines\"** by Alex Graves"
-    ],
-    "editor": [
-      {
-        "family": "Wayne",
-        "given": "Greg"
-      },
-      {
-        "family": "Danihelka",
-        "given": "Ivo"
-      }
+      "**\"End-to-End Differentiable Proving\"** by Tim Rocktäschel and Sebastian Riedel"
     ],
     "date": [
-      "2014"
+      "2017"
     ],
     "type": null
   },
@@ -62,7 +52,7 @@
       }
     ],
     "title": [
-      "Introduction of a neural network architecture that can read from and write to an external memory matrix"
+      "Discusses a neural network approach to logical reasoning"
     ],
     "type": null
   },
@@ -71,10 +61,10 @@
       "3."
     ],
     "title": [
-      "**\"Differentiable Neural Computers\"** by Alex Graves et al"
+      "**\"Neural-Symbolic Learning and Reasoning: A Survey and Interpretation\"** by Artur S. d'Avila Garcez, et al"
     ],
     "date": [
-      "2016"
+      "2015"
     ],
     "type": null
   },
@@ -85,7 +75,7 @@
       }
     ],
     "title": [
-      "Extension of Neural Turing Machines with improved memory and reasoning capabilities"
+      "A survey on combining neural networks with symbolic reasoning"
     ],
     "type": null
   },
@@ -94,10 +84,10 @@
       "4."
     ],
     "title": [
-      "**\"End-to-End Memory Networks\"** by Sainbayar Sukhbaatar et al"
+      "**\"Probabilistic Reasoning in Intelligent Systems: Networks of Plausible Inference\"** by Judea Pearl"
     ],
     "date": [
-      "2015"
+      "1988"
     ],
     "type": null
   },
@@ -108,7 +98,7 @@
       }
     ],
     "title": [
-      "A model that uses a memory component to answer questions based on a given context"
+      "Foundational work on probabilistic reasoning and Bayesian networks"
     ],
     "type": null
   },
@@ -117,10 +107,10 @@
       "5."
     ],
     "title": [
-      "**\"Dynamic Memory Networks for Visual and Textual Question Answering\"** by Ankit Kumar et al"
+      "**\"Neural Logic Machines\"** by Honghua Dong, et al"
     ],
     "date": [
-      "2016"
+      "2019"
     ],
     "type": null
   },
@@ -131,7 +121,7 @@
       }
     ],
     "title": [
-      "A model that uses dynamic memory to answer questions about text and images"
+      "Introduces a neural network architecture for logical reasoning"
     ],
     "type": null
   },
@@ -140,10 +130,10 @@
       "6."
     ],
     "title": [
-      "**\"Neural Symbolic Machines: Learning Semantic Parsers on Freebase with Weak Supervision\"** by Chen Liang et al"
+      "**\"DeepProbLog: Neural Probabilistic Logic Programming\"** by Robin Manhaeve, et al"
     ],
     "date": [
-      "2017"
+      "2018"
     ],
     "type": null
   },
@@ -154,7 +144,7 @@
       }
     ],
     "title": [
-      "Combining neural networks with symbolic reasoning for semantic parsing"
+      "Combines deep learning with probabilistic logic programming"
     ],
     "type": null
   },
@@ -163,30 +153,7 @@
       "7."
     ],
     "title": [
-      "**\"Reasoning about Entailment with Neural Attention\"** by Tim Rocktäschel et al"
-    ],
-    "date": [
-      "2015"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Using neural attention mechanisms for natural language inference"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "8."
-    ],
-    "title": [
-      "**\"Learning to Reason: End-to-End Module Networks for Visual Question Answering\"** by Ronghang Hu et al"
+      "**\"Learning to Reason: End-to-End Module Networks for Visual Question Answering\"** by Ronghang Hu, et al"
     ],
     "date": [
       "2017"
@@ -200,7 +167,30 @@
       }
     ],
     "title": [
-      "Modular networks for reasoning in visual question answering tasks"
+      "Discusses reasoning in the context of visual question answering"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "title": [
+      "**\"Inductive Logic Programming: Theory and Methods\"** by Stephen Muggleton and Luc De Raedt"
+    ],
+    "date": [
+      "1994"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "A seminal paper on inductive logic programming"
     ],
     "type": null
   },
@@ -209,7 +199,7 @@
       "9."
     ],
     "title": [
-      "**\"Graph Neural Networks: A Review of Methods and Applications\"** by Jie Zhou et al"
+      "**\"Differentiable Inductive Logic Programming\"** by Richard Evans and Edward Grefenstette"
     ],
     "date": [
       "2018"
@@ -223,7 +213,7 @@
       }
     ],
     "title": [
-      "Comprehensive review of graph neural networks and their applications in reasoning"
+      "Combines ILP with differentiable programming"
     ],
     "type": null
   },
@@ -232,14 +222,60 @@
       "10."
     ],
     "title": [
-      "**\"Relational Inductive Biases, Deep Learning, and Graph Networks\"** by Peter W"
+      "**\"The Probabilistic Logic Programming Language P-log\"** by Chitta Baral, et al"
     ],
     "date": [
-      "2018"
+      "2009"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Introduces a probabilistic logic programming language"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "title": [
+      "**\"Towards Neural Theorem Proving at Scale\"** by William W. Cohen, et al"
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Discusses scaling neural networks for theorem proving"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "title": [
+      "**\"Probabilistic Soft Logic for Relational Machine Learning\"** by Stephen H"
+    ],
+    "date": [
+      "2017"
     ],
     "type": "article-journal",
     "container-title": [
-      "Battaglia et al"
+      "Bach, et al"
     ]
   },
   {
@@ -249,62 +285,7 @@
       }
     ],
     "title": [
-      "Discusses the importance of relational inductive biases in deep learning and graph networks"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "11."
-    ],
-    "title": [
-      "**\"Attention Is All You Need\"** by Ashish Vaswani et al"
-    ],
-    "date": [
-      "2017"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Introduction of the Transformer model, which has become foundational in many reasoning tasks"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "12."
-    ],
-    "title": [
-      "**\"Compositional Attention Networks for Machine Reasoning\"** by Drew A"
-    ],
-    "editor": [
-      {
-        "given": "Hudson"
-      },
-      {
-        "family": "Manning",
-        "given": "Christopher D."
-      }
-    ],
-    "date": [
-      "2018"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "A model that uses compositional attention for reasoning over structured data"
+      "Introduces a framework for probabilistic reasoning in relational domains"
     ],
     "type": null
   },
@@ -313,10 +294,10 @@
       "13."
     ],
     "title": [
-      "**\"Neural-Symbolic Learning and Reasoning: A Survey and Interpretation\"** by Artur S. d'Avila Garcez et al"
+      "**\"Learning to Explain: An Information-Theoretic Perspective on Model Interpretation\"** by Been Kim, et al"
     ],
     "date": [
-      "2019"
+      "2016"
     ],
     "type": null
   },
@@ -327,7 +308,7 @@
       }
     ],
     "title": [
-      "Survey of approaches combining neural networks with symbolic reasoning"
+      "Discusses interpretability in machine learning models"
     ],
     "type": null
   },
@@ -336,76 +317,7 @@
       "14."
     ],
     "title": [
-      "**\"Program Induction by Rationale Generation: Learning to Solve and Explain Algebraic Word Problems\"** by Wang Ling et al"
-    ],
-    "date": [
-      "2017"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "A model that generates rationales to solve algebraic word problems"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "15."
-    ],
-    "title": [
-      "**\"Learning to Explain: Datasets and Models for Identifying Valid Reasoning Chains in Multihop Question-Answering\"** by Sewon Min et al"
-    ],
-    "date": [
-      "2019"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Focuses on identifying reasoning chains in multi-hop question answering"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "16."
-    ],
-    "title": [
-      "**\"Neural Logic Machines\"** by Honghua Dong et al"
-    ],
-    "date": [
-      "2019"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "A neural network architecture designed to perform logical reasoning"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "17."
-    ],
-    "title": [
-      "**\"Learning to Execute\"** by Wojciech Zaremba and Ilya Sutskever"
+      "**\"Knowledge Graph Embedding by Translating on Hyperplanes\"** by Zhen Wang, et al"
     ],
     "date": [
       "2014"
@@ -419,62 +331,16 @@
       }
     ],
     "title": [
-      "A model that learns to execute simple programs from examples"
+      "Introduces TransH, a method for embedding knowledge graphs"
     ],
     "type": null
   },
   {
     "citation-number": [
-      "18."
+      "15."
     ],
     "title": [
-      "**\"DeepPath: A Reinforcement Learning Method for Knowledge Graph Reasoning\"** by Wenhan Xiong et al"
-    ],
-    "date": [
-      "2017"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Using reinforcement learning for reasoning over knowledge graphs"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "19."
-    ],
-    "title": [
-      "**\"Explainable AI: The New 42?\"** by Tim Miller"
-    ],
-    "date": [
-      "2019"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Discusses the importance and methods of explainability in AI systems"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "20."
-    ],
-    "title": [
-      "**\"Reasoning with Neural Tensor Networks for Knowledge Base Completion\"** by Richard Socher et al"
+      "**\"Reasoning with Neural Tensor Networks for Knowledge Base Completion\"** by Richard Socher, et al"
     ],
     "date": [
       "2013"
@@ -488,16 +354,144 @@
       }
     ],
     "title": [
-      "A neural network model for reasoning and completing knowledge bases"
+      "Discusses a neural network approach for knowledge base completion"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "author": [
+      {
+        "family": "Luciano Serafini",
+        "given": "Logical Neural Networks\"",
+        "particle": "by"
+      },
+      {
+        "family": "Garcez",
+        "given": "Artur S.",
+        "particle": "d'Avila"
+      }
+    ],
+    "date": [
+      "2016"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Combines logical reasoning with neural networks"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "title": [
+      "**\"DeepPath: A Reinforcement Learning Method for Knowledge Graph Reasoning\"** by Wenhan Xiong, et al"
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Uses reinforcement learning for reasoning over knowledge graphs"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "title": [
+      "**\"The Logic Tensor Networks Framework\"** by Luciano Serafini and Artur S. d'Avila Garcez"
+    ],
+    "date": [
+      "2016"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Introduces a framework for integrating logical reasoning with tensor networks"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "title": [
+      "**\"Learning to Compose Neural Networks for Question Answering\"** by Jacob Andreas, et al"
+    ],
+    "date": [
+      "2016"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Discusses modular neural networks for question answering"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "author": [
+      {
+        "family": "Garcez",
+        "given": "Neural-Symbolic Cognitive Reasoning\"",
+        "particle": "by Artur S. d'Avila"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2009"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "A foundational paper on neural-symbolic integration"
     ],
     "type": null
   },
   {
     "title": [
-      "These articles cover a range of topics within machine reasoning, including neural networks, memory-augmented models, graph neural networks, and neural-symbolic integration. They provide a solid foundation for understanding the advancements in machine reasoning up to"
-    ],
-    "date": [
-      "2021"
+      "These articles provide a broad overview of the field of machine reasoning, covering both theoretical foundations and practical applications"
     ],
     "type": null
   }

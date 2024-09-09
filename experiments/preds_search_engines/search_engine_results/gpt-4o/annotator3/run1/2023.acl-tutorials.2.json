@@ -1,41 +1,18 @@
 [
   {
-    "title": [
-      "Sure, here is a list of 20 articles that focus on improving the reasoning and robustness of natural language processing (NLP) models. These articles cover a range of topics including model architecture, training techniques, evaluation methods"
+    "author": [
+      {
+        "given": "Sure!"
+      }
     ],
-    "note": [
-      "and applications. Note that the publication dates are up to 2023."
+    "title": [
+      "Here's a list of 20 articles up to 2023 that focus on improving the reasoning and robustness of Natural Language Processing (NLP) models"
     ],
     "type": null
   },
   {
     "citation-number": [
       "1."
-    ],
-    "author": [
-      {
-        "literal": "**\"Attention Is All You Need\"** - Vaswani et al."
-      }
-    ],
-    "date": [
-      "2017"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Introduces the Transformer model, which has become foundational in NLP"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "2."
     ],
     "author": [
       {
@@ -51,19 +28,8 @@
     "type": null
   },
   {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Presents BERT, a model that significantly improved NLP benchmarks"
-    ],
-    "type": null
-  },
-  {
     "citation-number": [
-      "3."
+      "2."
     ],
     "title": [
       "**\"RoBERTa: A Robustly Optimized BERT Pretraining Approach\"** - Liu et al"
@@ -74,13 +40,14 @@
     "type": null
   },
   {
-    "author": [
-      {
-        "literal": "-"
-      }
+    "citation-number": [
+      "3."
     ],
     "title": [
-      "Discusses improvements to BERT's pretraining process"
+      "**\"ALBERT: A Lite BERT for Self-supervised Learning of Language Representations\"** - Lan et al"
+    ],
+    "date": [
+      "2020"
     ],
     "type": null
   },
@@ -97,39 +64,14 @@
     "type": null
   },
   {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Proposes XLNet, which combines the best of autoregressive and autoencoding models"
-    ],
-    "type": null
-  },
-  {
     "citation-number": [
       "5."
     ],
     "title": [
-      "**\"ALBERT: A Lite BERT for Self-supervised Learning of Language Representations\"**"
+      "**\"T5: Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer\"** - Raffel et al"
     ],
     "date": [
       "2020"
-    ],
-    "type": "article-journal",
-    "container-title": [
-      "Lan et al"
-    ]
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Introduces ALBERT, a more efficient version of BERT"
     ],
     "type": null
   },
@@ -137,85 +79,22 @@
     "citation-number": [
       "6."
     ],
-    "title": [
-      "**\"T5: Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer\"**"
-    ],
-    "date": [
-      "2020"
-    ],
-    "type": "article-journal",
-    "container-title": [
-      "Raffel et al"
-    ]
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Explores a unified framework for NLP tasks using the T5 model"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "7."
-    ],
     "author": [
       {
         "given": "E.L.E.C.T.R.A."
       }
     ],
     "title": [
-      "Pre-training Text Encoders as Discriminators Rather Than Generators\"**"
-    ],
-    "publisher": [
-      "Clark et al"
+      "Pre-training Text Encoders as Discriminators Rather Than Generators\"** - Clark et al"
     ],
     "date": [
       "2020"
     ],
-    "type": "book"
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Proposes a new pretraining method that is more sample-efficient"
-    ],
     "type": null
   },
   {
     "citation-number": [
-      "8."
-    ],
-    "title": [
-      "**\"DeBERTa: Decoding-enhanced BERT with Disentangled Attention\"** - He et al"
-    ],
-    "date": [
-      "2021"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Introduces DeBERTa, which improves BERT with disentangled attention mechanisms"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "9."
+      "7."
     ],
     "title": [
       "**\"Improving Language Understanding by Generative Pre-Training\"** - Radford et al"
@@ -226,45 +105,32 @@
     "type": null
   },
   {
-    "author": [
-      {
-        "literal": "-"
-      }
+    "citation-number": [
+      "8."
     ],
     "title": [
-      "Discusses the GPT model, which has been influential in NLP"
+      "**\"Language Models are Few-Shot Learners\"** - Brown et al"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "title": [
+      "**\"DeBERTa: Decoding-enhanced BERT with Disentangled Attention\"** - He et al"
+    ],
+    "date": [
+      "2021"
     ],
     "type": null
   },
   {
     "citation-number": [
       "10."
-    ],
-    "title": [
-      "**\"GPT-3: Language Models are Few-Shot Learners\"**"
-    ],
-    "publisher": [
-      "Brown et al"
-    ],
-    "date": [
-      "2020"
-    ],
-    "type": "book"
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Introduces GPT-3, a model with 175 billion parameters that excels in few-shot learning"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "11."
     ],
     "title": [
       "**\"Rethinking Attention with Performers\"** - Choromanski et al"
@@ -275,13 +141,14 @@
     "type": null
   },
   {
-    "author": [
-      {
-        "literal": "-"
-      }
+    "citation-number": [
+      "11."
     ],
     "title": [
-      "Proposes Performers, which make attention mechanisms more efficient"
+      "**\"GPT-3: Language Models are Few-Shot Learners\"** - Brown et al"
+    ],
+    "date": [
+      "2020"
     ],
     "type": null
   },
@@ -290,21 +157,10 @@
       "12."
     ],
     "title": [
-      "**\"Longformer: The Long-Document Transformer\"** - Beltagy et al"
+      "**\"Improving Robustness of NLP Models to Adversarial Attacks\"** - Jin et al"
     ],
     "date": [
       "2020"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Introduces Longformer, which can handle long documents more effectively"
     ],
     "type": null
   },
@@ -313,21 +169,10 @@
       "13."
     ],
     "title": [
-      "**\"Reformer: The Efficient Transformer\"** - Kitaev et al"
+      "**\"Adversarial Training for Large Neural Language Models\"** - Zellers et al"
     ],
     "date": [
-      "2020"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Proposes Reformer, which reduces the computational complexity of Transformers"
+      "2019"
     ],
     "type": null
   },
@@ -336,24 +181,10 @@
       "14."
     ],
     "title": [
-      "**\"Improving Robustness of NLP Models to Adversarial Attacks\"**"
+      "**\"Counterfactual Data Augmentation for Robust Text Classification\"** - Kaushik et al"
     ],
     "date": [
       "2020"
-    ],
-    "type": "article-journal",
-    "container-title": [
-      "Jin et al"
-    ]
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Discusses methods to make NLP models more robust against adversarial attacks"
     ],
     "type": null
   },
@@ -362,21 +193,10 @@
       "15."
     ],
     "title": [
-      "**\"Adversarial Training for Large Neural Language Models\"** - Zhu et al"
+      "**\"Robustness Gym: Unifying the NLP Evaluation Landscape\"** - Goel et al"
     ],
     "date": [
-      "2020"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Explores adversarial training techniques to improve model robustness"
+      "2021"
     ],
     "type": null
   },
@@ -385,21 +205,10 @@
       "16."
     ],
     "title": [
-      "**\"Unsupervised Data Augmentation for Consistency Training\"** - Xie et al"
+      "**\"Evaluating and Enhancing the Robustness of Dialogue Systems: A Case Study on a Negotiation Agent\"** - He et al"
     ],
     "date": [
-      "2020"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Proposes a data augmentation technique to improve model robustness"
+      "2018"
     ],
     "type": null
   },
@@ -408,24 +217,10 @@
       "17."
     ],
     "title": [
-      "**\"Mixout: Effective Regularization to Finetune Large-scale Pretrained Language Models\"**"
+      "**\"Robustness and Adaptation in Unsupervised Bilingual Dictionary Induction\"** - Artetxe et al"
     ],
     "date": [
-      "2020"
-    ],
-    "type": "article-journal",
-    "container-title": [
-      "Lee et al"
-    ]
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Introduces Mixout, a regularization technique for fine-tuning large models"
+      "2018"
     ],
     "type": null
   },
@@ -434,21 +229,10 @@
       "18."
     ],
     "title": [
-      "**\"Self-Supervised Learning of Pretext-Invariant Representations\"** - Misra and van der Maaten"
+      "**\"Improving Robustness of Machine Translation with Synthetic Noise\"** - Belinkov and Bisk"
     ],
     "date": [
-      "2020"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Discusses self-supervised learning techniques to improve model robustness"
+      "2018"
     ],
     "type": null
   },
@@ -457,24 +241,10 @@
       "19."
     ],
     "title": [
-      "**\"Evaluating the Robustness of Neural Language Models to Input Perturbations\"**"
+      "**\"Robustness to Modification with Shared Labels in Text Classification\"** - Pruthi et al"
     ],
     "date": [
       "2019"
-    ],
-    "type": "article-journal",
-    "container-title": [
-      "Michel et al"
-    ]
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Evaluates how robust different NLP models are to various input perturbations"
     ],
     "type": null
   },
@@ -483,30 +253,16 @@
       "20."
     ],
     "title": [
-      "**\"On the Robustness of Language Models to Adversarial Attacks\"**"
+      "**\"On the Robustness of Language Encoders against Grammatical Errors\"** - Sun et al"
     ],
     "date": [
-      "2021"
-    ],
-    "type": "article-journal",
-    "container-title": [
-      "Li et al"
-    ]
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Provides a comprehensive study on the robustness of language models to adversarial attacks"
+      "2020"
     ],
     "type": null
   },
   {
     "title": [
-      "These articles should provide a solid foundation for understanding the current state of research in improving the reasoning and robustness of NLP models"
+      "These articles cover a range of topics from foundational model architectures and pre-training techniques to specific methods for enhancing robustness and reasoning capabilities in NLP models"
     ],
     "type": null
   }

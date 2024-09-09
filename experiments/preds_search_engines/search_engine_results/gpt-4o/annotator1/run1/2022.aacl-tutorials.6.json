@@ -6,10 +6,10 @@
       }
     ],
     "title": [
-      "Here is a reading list of 20 influential articles on Word Sense Disambiguation (WSD"
+      "Here's a reading list of 20 articles up to 2022 that cover the topics of Word Sense Disambiguation (WSD"
     ],
     "container-title": [
-      "Semantic Role Labeling (SRL), and Semantic Parsing (SP) published before 2023"
+      "Semantic Role Labeling (SRL), and Semantic Parsing (SP"
     ],
     "type": "chapter"
   },
@@ -57,50 +57,26 @@
     ],
     "author": [
       {
-        "family": "Yarowsky",
-        "given": "D."
+        "family": "Moro",
+        "given": "A."
+      },
+      {
+        "family": "Raganato",
+        "given": "A."
+      },
+      {
+        "family": "Navigli",
+        "given": "R."
       }
     ],
     "date": [
-      "1995"
+      "2014"
     ],
     "title": [
-      "Unsupervised Word Sense Disambiguation Rivaling Supervised Methods"
-    ],
-    "type": "article-journal",
-    "container-title": [
-      "ACL.**"
-    ]
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Introduces an unsupervised approach to WSD that competes with supervised methods"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "3."
-    ],
-    "author": [
-      {
-        "family": "Lesk",
-        "given": "M."
-      }
-    ],
-    "date": [
-      "1986"
-    ],
-    "title": [
-      "Automatic Sense Disambiguation Using Machine Readable Dictionaries: How to Tell a Pine Cone from an Ice Cream Cone"
+      "Entity Linking meets Word Sense Disambiguation: A Unified Approach"
     ],
     "container-title": [
-      "SIGDOC.**"
+      "Transactions of the Association for Computational Linguistics.**"
     ],
     "type": "chapter"
   },
@@ -111,65 +87,33 @@
       }
     ],
     "title": [
-      "The seminal paper introducing the Lesk algorithm for WSD"
+      "Discusses a unified approach to entity linking and WSD"
     ],
     "type": null
   },
   {
     "citation-number": [
-      "4."
+      "3."
     ],
     "author": [
       {
-        "family": "Mihalcea",
-        "given": "R."
-      },
-      {
-        "family": "Tarau",
-        "given": "P."
-      }
-    ],
-    "date": [
-      "2004"
-    ],
-    "title": [
-      "Textrank: Bringing Order into Texts"
-    ],
-    "type": "article-journal",
-    "container-title": [
-      "EMNLP.**"
-    ]
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Discusses the TextRank algorithm, which can be applied to WSD"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "5."
-    ],
-    "author": [
-      {
-        "family": "Agirre",
-        "given": "E."
-      },
-      {
-        "family": "Soroa",
+        "family": "Raganato",
         "given": "A."
+      },
+      {
+        "family": "Camacho-Collados",
+        "given": "J."
+      },
+      {
+        "family": "Navigli",
+        "given": "R."
       }
     ],
     "date": [
-      "2009"
+      "2017"
     ],
     "title": [
-      "Personalizing PageRank for Word Sense Disambiguation"
+      "Word Sense Disambiguation: A Unified Evaluation Framework and Empirical Comparison"
     ],
     "type": "article-journal",
     "container-title": [
@@ -183,7 +127,83 @@
       }
     ],
     "title": [
-      "Proposes a personalized PageRank algorithm for WSD"
+      "Proposes a unified evaluation framework for WSD"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "author": [
+      {
+        "family": "Yuan",
+        "given": "Z."
+      },
+      {
+        "family": "Richardson",
+        "given": "K."
+      },
+      {
+        "family": "Clark",
+        "given": "S."
+      }
+    ],
+    "date": [
+      "2021"
+    ],
+    "title": [
+      "Improving Word Sense Disambiguation with Translations"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "NAACL.**"
+    ]
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Explores the use of translations to improve WSD performance"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "author": [
+      {
+        "family": "Bevilacqua",
+        "given": "M."
+      },
+      {
+        "family": "Navigli",
+        "given": "R."
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "title": [
+      "Breaking through the 80% Glass Ceiling: Raising the State of the Art in Word Sense Disambiguation by Incorporating Knowledge Graph Information"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "ACL.**"
+    ]
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Discusses incorporating knowledge graphs to enhance WSD"
     ],
     "type": null
   },
@@ -225,7 +245,7 @@
       }
     ],
     "title": [
-      "One of the foundational papers on automatic SRL"
+      "A foundational paper on automatic SRL"
     ],
     "type": null
   },
@@ -261,97 +281,13 @@
       }
     ],
     "title": [
-      "Overview of the CoNLL-2005 shared task on SRL"
+      "Introduction to the CoNLL-2005 shared task on SRL"
     ],
     "type": null
   },
   {
     "citation-number": [
       "8."
-    ],
-    "author": [
-      {
-        "family": "Palmer",
-        "given": "M."
-      },
-      {
-        "family": "Gildea",
-        "given": "D."
-      },
-      {
-        "family": "Kingsbury",
-        "given": "P."
-      }
-    ],
-    "date": [
-      "2005"
-    ],
-    "title": [
-      "The Proposition Bank: An Annotated Corpus of Semantic Roles"
-    ],
-    "type": "article-journal",
-    "container-title": [
-      "Computational Linguistics.**"
-    ]
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Introduces the PropBank corpus, a key resource for SRL"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "9."
-    ],
-    "author": [
-      {
-        "family": "Punyakanok",
-        "given": "V."
-      },
-      {
-        "family": "Roth",
-        "given": "D."
-      },
-      {
-        "family": "Yih",
-        "given": "W."
-      },
-      {
-        "family": "Zimak",
-        "given": "D."
-      }
-    ],
-    "date": [
-      "2004"
-    ],
-    "title": [
-      "Semantic Role Labeling via Integer Linear Programming Inference"
-    ],
-    "type": "article-journal",
-    "container-title": [
-      "COLING.**"
-    ]
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Discusses the use of ILP for SRL"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "10."
     ],
     "author": [
       {
@@ -375,7 +311,7 @@
       "2017"
     ],
     "title": [
-      "Deep Semantic Role Labeling: What Works and What's Next"
+      "Deep Semantic Role Labeling: What Works and What’s Next"
     ],
     "type": "article-journal",
     "container-title": [
@@ -389,7 +325,82 @@
       }
     ],
     "title": [
-      "Explores deep learning approaches to SRL"
+      "Discusses deep learning approaches to SRL"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "author": [
+      {
+        "family": "Shi",
+        "given": "P."
+      },
+      {
+        "family": "Lin",
+        "given": "J."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "title": [
+      "Simple BERT Models for Relation Extraction and Semantic Role Labeling"
+    ],
+    "note": [
+      "arXiv preprint arXiv:1904.05255.**"
+    ],
+    "arxiv": [
+      "1904.05255"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Explores the use of BERT for SRL"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "author": [
+      {
+        "family": "Li",
+        "given": "X."
+      },
+      {
+        "family": "Ji",
+        "given": "H."
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "title": [
+      "Syntax-aware Multilingual Semantic Role Labeling"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "EMNLP.**"
+    ]
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Discusses a syntax-aware approach to multilingual SRL"
     ],
     "type": null
   },
@@ -420,7 +431,7 @@
       "1996"
     ],
     "title": [
-      "Learning to Parse Database Queries Using Inductive Logic Programming"
+      "Learning to Parse Database Queries using Inductive Logic Programming"
     ],
     "type": "article-journal",
     "container-title": [
@@ -434,7 +445,7 @@
       }
     ],
     "title": [
-      "Early work on learning to parse natural language into database queries"
+      "Early work on semantic parsing for database queries"
     ],
     "type": null
   },
@@ -470,7 +481,7 @@
       }
     ],
     "title": [
-      "Introduces a probabilistic approach to semantic parsing"
+      "Discusses mapping sentences to logical forms using probabilistic grammars"
     ],
     "type": null
   },
@@ -514,57 +525,13 @@
       }
     ],
     "title": [
-      "Discusses semantic parsing using Freebase and QA pairs"
+      "Explores semantic parsing using Freebase and QA pairs"
     ],
     "type": null
   },
   {
     "citation-number": [
       "14."
-    ],
-    "author": [
-      {
-        "family": "Kwiatkowski",
-        "given": "T."
-      },
-      {
-        "family": "Zettlemoyer",
-        "given": "L."
-      },
-      {
-        "family": "Goldwater",
-        "given": "S."
-      },
-      {
-        "family": "Steedman",
-        "given": "M."
-      }
-    ],
-    "date": [
-      "2010"
-    ],
-    "title": [
-      "Inducing Probabilistic CCG Grammars from Logical Form with Higher-Order Unification"
-    ],
-    "type": "article-journal",
-    "container-title": [
-      "EMNLP.**"
-    ]
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Focuses on inducing grammars for semantic parsing"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "15."
     ],
     "author": [
       {
@@ -599,103 +566,28 @@
     "type": null
   },
   {
-    "author": [
-      {
-        "given": "General"
-      },
-      {
-        "given": "Cross-Domain"
-      }
-    ],
-    "type": null
-  },
-  {
     "citation-number": [
-      "16."
+      "15."
     ],
     "author": [
       {
-        "family": "Collobert",
-        "given": "R."
-      },
-      {
-        "family": "Weston",
-        "given": "J."
-      },
-      {
-        "family": "Bottou",
-        "given": "L."
-      },
-      {
-        "family": "Karlen",
-        "given": "M."
-      },
-      {
-        "family": "Kavukcuoglu",
-        "given": "K."
-      },
-      {
-        "family": "Kuksa",
-        "given": "P."
-      }
-    ],
-    "date": [
-      "2011"
-    ],
-    "title": [
-      "Natural Language Processing (Almost) from Scratch"
-    ],
-    "type": "article-journal",
-    "container-title": [
-      "JMLR.**"
-    ]
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Discusses deep learning approaches applicable to WSD, SRL, and SP"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "17."
-    ],
-    "author": [
-      {
-        "family": "Manning",
-        "given": "C.D."
-      },
-      {
-        "family": "Surdeanu",
-        "given": "M."
-      },
-      {
-        "family": "Bauer",
-        "given": "J."
-      },
-      {
-        "family": "Finkel",
-        "given": "J."
-      },
-      {
-        "family": "Bethard",
-        "given": "S.J."
-      },
-      {
-        "family": "McClosky",
+        "family": "Guo",
         "given": "D."
+      },
+      {
+        "family": "Zhang",
+        "given": "X."
+      },
+      {
+        "family": "Lu",
+        "given": "W."
       }
     ],
     "date": [
-      "2014"
+      "2019"
     ],
     "title": [
-      "The Stanford CoreNLP Natural Language Processing Toolkit"
+      "Attention Guided Graph Convolutional Networks for Relation Extraction"
     ],
     "type": "article-journal",
     "container-title": [
@@ -709,7 +601,89 @@
       }
     ],
     "title": [
-      "Describes the Stanford CoreNLP toolkit, which includes tools for WSD, SRL, and SP"
+      "Discusses the use of graph convolutional networks for semantic parsing"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "### Cross-Topic Articles"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "author": [
+      {
+        "family": "Palmer",
+        "given": "M."
+      },
+      {
+        "family": "Gildea",
+        "given": "D."
+      },
+      {
+        "family": "Kingsbury",
+        "given": "P."
+      }
+    ],
+    "date": [
+      "2005"
+    ],
+    "title": [
+      "The Proposition Bank: An Annotated Corpus of Semantic Roles"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "Computational Linguistics.**"
+    ]
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "A key resource for both SRL and semantic parsing"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "author": [
+      {
+        "family": "Roth",
+        "given": "M."
+      },
+      {
+        "family": "Lapata",
+        "given": "M."
+      }
+    ],
+    "date": [
+      "2016"
+    ],
+    "title": [
+      "Neural Semantic Role Labeling with Dependency Path Embeddings"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "ACL.**"
+    ]
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Combines neural networks with dependency path embeddings for SRL"
     ],
     "type": null
   },
@@ -719,27 +693,39 @@
     ],
     "author": [
       {
-        "family": "Toutanova",
+        "family": "Peters",
+        "given": "M.E."
+      },
+      {
+        "family": "Neumann",
+        "given": "M."
+      },
+      {
+        "family": "Iyyer",
+        "given": "M."
+      },
+      {
+        "family": "Gardner",
+        "given": "M."
+      },
+      {
+        "family": "Clark",
+        "given": "C."
+      },
+      {
+        "family": "Lee",
         "given": "K."
       },
       {
-        "family": "Klein",
-        "given": "D."
-      },
-      {
-        "family": "Manning",
-        "given": "C.D."
-      },
-      {
-        "family": "Singer",
-        "given": "Y."
+        "family": "Zettlemoyer",
+        "given": "L."
       }
     ],
     "date": [
-      "2003"
+      "2018"
     ],
     "title": [
-      "Feature-Rich Part-of-Speech Tagging with a Cyclic Dependency Network"
+      "Deep Contextualized Word Representations"
     ],
     "type": "article-journal",
     "container-title": [
@@ -753,7 +739,7 @@
       }
     ],
     "title": [
-      "Discusses feature-rich models that can be extended to WSD and SRL"
+      "Introduces ELMo, which has applications in WSD, SRL, and SP"
     ],
     "type": null
   },
@@ -763,24 +749,47 @@
     ],
     "author": [
       {
-        "family": "Jurafsky",
+        "family": "Gardner",
+        "given": "M."
+      },
+      {
+        "family": "Artzi",
+        "given": "Y."
+      },
+      {
+        "family": "Bansal",
+        "given": "M."
+      },
+      {
+        "family": "Bisk",
+        "given": "Y."
+      },
+      {
+        "family": "Chen",
         "given": "D."
       },
       {
-        "family": "Martin",
-        "given": "J.H."
+        "family": "Das",
+        "given": "D."
+      },
+      {
+        "family": "Zettlemoyer",
+        "given": "L."
+      },
+      {
+        "others": true
       }
     ],
     "date": [
-      "2008"
+      "2018"
     ],
     "title": [
-      "Speech and Language Processing"
+      "AllenNLP: A Deep Semantic Natural Language Processing Platform"
     ],
-    "publisher": [
-      "Prentice Hall.**"
+    "container-title": [
+      "NAACL.**"
     ],
-    "type": "book"
+    "type": "chapter"
   },
   {
     "author": [
@@ -789,7 +798,7 @@
       }
     ],
     "title": [
-      "A comprehensive textbook covering WSD, SRL, and SP"
+      "Discusses AllenNLP, a platform supporting various NLP tasks including WSD, SRL, and SP"
     ],
     "type": null
   },
@@ -799,24 +808,28 @@
     ],
     "author": [
       {
-        "family": "Pustejovsky",
-        "given": "J."
+        "family": "Reddy",
+        "given": "S."
       },
       {
-        "family": "Stubbs",
-        "given": "A."
+        "family": "Chen",
+        "given": "D."
+      },
+      {
+        "family": "Manning",
+        "given": "C.D."
       }
     ],
     "date": [
-      "2012"
+      "2019"
     ],
     "title": [
-      "Natural Language Annotation for Machine Learning"
+      "CoQA: A Conversational Question Answering Challenge"
     ],
-    "publisher": [
-      "O'Reilly Media.**"
-    ],
-    "type": "book"
+    "type": "article-journal",
+    "container-title": [
+      "TACL.**"
+    ]
   },
   {
     "author": [
@@ -825,13 +838,16 @@
       }
     ],
     "title": [
-      "Discusses annotation techniques for creating datasets for WSD, SRL, and SP"
+      "Introduces a dataset and challenge relevant to semantic parsing and understanding"
     ],
     "type": null
   },
   {
     "title": [
-      "These articles and resources provide a solid foundation for understanding the key concepts, methodologies, and advancements in WSD, SRL, and SP"
+      "These articles provide a broad overview of the advancements and methodologies in WSD, SRL, and SP up to"
+    ],
+    "date": [
+      "2022"
     ],
     "type": null
   }

@@ -6,7 +6,7 @@
       }
     ],
     "title": [
-      "Here is a reading list of 20 articles published before 2021 that discuss the ethics of data science"
+      "Here is a reading list of 20 articles up to 2020 that discuss the ethics of data science"
     ],
     "container-title": [
       "natural language processing (NLP), and machine learning (ML), with a focus on the implications of using NLP models"
@@ -41,7 +41,7 @@
       }
     ],
     "title": [
-      "Discusses the challenges of ensuring fairness in sociotechnical systems, including NLP models"
+      "Discusses the ethical implications of fairness in machine learning systems, including NLP"
     ],
     "type": null
   },
@@ -50,7 +50,7 @@
       "2."
     ],
     "title": [
-      "**\"Algorithmic Bias Detection and Mitigation: Best Practices and Policies to Reduce Consumer Harms\"** by Barocas, Solon, et al"
+      "**\"Algorithmic Bias Detection and Mitigation: Best Practices and Policies to Reduce Consumer Harms\"** by Cowgill, Bo, et al"
     ],
     "date": [
       "2019"
@@ -64,7 +64,7 @@
       }
     ],
     "title": [
-      "Explores methods to detect and mitigate bias in algorithms, including those used in NLP"
+      "Explores bias in machine learning algorithms and suggests best practices for mitigation"
     ],
     "type": null
   },
@@ -73,10 +73,19 @@
       "3."
     ],
     "title": [
-      "**\"Discrimination in Online Ad Delivery\"** by Datta, Anupam, et al"
+      "**\"Gender Shades: Intersectional Accuracy Disparities in Commercial Gender Classification\"** by Buolamwini"
+    ],
+    "editor": [
+      {
+        "family": "Joy"
+      },
+      {
+        "family": "Gebru",
+        "given": "Timnit"
+      }
     ],
     "date": [
-      "2015"
+      "2018"
     ],
     "type": null
   },
@@ -87,7 +96,7 @@
       }
     ],
     "title": [
-      "Investigates how NLP and ML models can lead to discriminatory practices in online advertising"
+      "Examines bias in facial recognition systems and its implications for NLP and other AI technologies"
     ],
     "type": null
   },
@@ -118,45 +127,13 @@
       }
     ],
     "title": [
-      "Examines the interpretability of ML models and the ethical implications of opaque NLP systems"
+      "Discusses the challenges and ethical considerations of interpreting machine learning models, including NLP models"
     ],
     "type": null
   },
   {
     "citation-number": [
       "5."
-    ],
-    "title": [
-      "**\"Gender Shades: Intersectional Accuracy Disparities in Commercial Gender Classification\"** by Buolamwini"
-    ],
-    "editor": [
-      {
-        "family": "Joy"
-      },
-      {
-        "family": "Gebru",
-        "given": "Timnit"
-      }
-    ],
-    "date": [
-      "2018"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Analyzes the performance disparities in gender classification systems, highlighting ethical concerns in NLP"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "6."
     ],
     "title": [
       "**\"Ethics of Artificial Intelligence and Robotics\"** by Bostrom"
@@ -182,45 +159,13 @@
       }
     ],
     "title": [
-      "Provides a broad overview of AI ethics, including the implications for NLP"
+      "Provides a broad overview of ethical issues in AI, including those relevant to NLP"
     ],
     "type": null
   },
   {
     "citation-number": [
-      "7."
-    ],
-    "title": [
-      "**\"The Ethical Implications of Deep Learning\"** by Mittelstadt"
-    ],
-    "editor": [
-      {
-        "family": "Brent",
-        "given": "D."
-      },
-      {
-        "others": true
-      }
-    ],
-    "date": [
-      "2016"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Discusses the ethical challenges posed by deep learning techniques, including those used in NLP"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "8."
+      "6."
     ],
     "title": [
       "**\"Data Sheets for Datasets\"** by Gebru, Timnit, et al"
@@ -237,19 +182,19 @@
       }
     ],
     "title": [
-      "Proposes a framework for documenting datasets to ensure ethical use in NLP and ML"
+      "Proposes a framework for documenting datasets to improve transparency and accountability in machine learning"
     ],
     "type": null
   },
   {
     "citation-number": [
-      "9."
+      "7."
     ],
     "title": [
-      "**\"The Trouble with Bias\"** by Crawford, Kate"
+      "**\"Discrimination in Online Ad Delivery\"** by Sweeney, Latanya"
     ],
     "date": [
-      "2017"
+      "2013"
     ],
     "type": null
   },
@@ -260,16 +205,25 @@
       }
     ],
     "title": [
-      "Highlights the issues of bias in AI systems, including NLP models"
+      "Investigates bias in online advertising algorithms, which often use NLP techniques"
     ],
     "type": null
   },
   {
     "citation-number": [
-      "10."
+      "8."
     ],
     "title": [
-      "**\"Algorithmic Accountability: A Primer\"** by Diakopoulos, Nicholas"
+      "**\"The Ethics of Big Data\"** by Floridi"
+    ],
+    "editor": [
+      {
+        "family": "Luciano"
+      },
+      {
+        "family": "Taddeo",
+        "given": "Mariarosaria"
+      }
     ],
     "date": [
       "2016"
@@ -283,36 +237,13 @@
       }
     ],
     "title": [
-      "Introduces the concept of algorithmic accountability and its relevance to NLP"
+      "Discusses the ethical challenges posed by big data analytics, including those relevant to NLP"
     ],
     "type": null
   },
   {
     "citation-number": [
-      "11."
-    ],
-    "title": [
-      "**\"Ethics and Data Science\"** by Loukides, Mike, et al"
-    ],
-    "date": [
-      "2018"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "A comprehensive guide to ethical considerations in data science, including NLP"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "12."
+      "9."
     ],
     "title": [
       "**\"The Moral Character of Cryptographic Work\"** by Rogaway, Phillip"
@@ -329,7 +260,85 @@
       }
     ],
     "title": [
-      "Discusses the ethical responsibilities of researchers in cryptography and AI, including NLP"
+      "Although focused on cryptography, this paper discusses broader ethical implications relevant to data science and NLP"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "title": [
+      "**\"Word Embeddings Quantify 100 Years of Gender and Ethnic Stereotypes\"** by Garg, Nikhil, et al"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Analyzes how word embeddings in NLP models capture and perpetuate stereotypes"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "title": [
+      "**\"Man is to Computer Programmer as Woman is to Homemaker? Debiasing Word Embeddings\"** by Bolukbasi, Tolga, et al"
+    ],
+    "date": [
+      "2016"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Proposes methods to reduce gender bias in word embeddings used in NLP"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "title": [
+      "**\"On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?\"** by Bender"
+    ],
+    "editor": [
+      {
+        "family": "Emily",
+        "given": "M."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Discusses the ethical implications of large-scale language models, including issues of bias and environmental impact"
     ],
     "type": null
   },
@@ -338,19 +347,10 @@
       "13."
     ],
     "title": [
-      "**\"Big Data's Disparate Impact\"** by Barocas"
-    ],
-    "editor": [
-      {
-        "family": "Solon"
-      },
-      {
-        "family": "Selbst",
-        "given": "Andrew D."
-      }
+      "**\"Ethics and Data Science\"** by O'Neil, Cathy, et al"
     ],
     "date": [
-      "2016"
+      "2018"
     ],
     "type": null
   },
@@ -361,7 +361,7 @@
       }
     ],
     "title": [
-      "Examines how big data and ML can lead to disparate impacts, with implications for NLP"
+      "A comprehensive guide to ethical issues in data science, including NLP"
     ],
     "type": null
   },
@@ -370,183 +370,9 @@
       "14."
     ],
     "title": [
-      "**\"The Social Impact of Natural Language Processing\"** by Hovy"
+      "**\"The Ethical Algorithm: The Science of Socially Aware Algorithm Design\"** by Kearns"
     ],
     "editor": [
-      {
-        "family": "Dirk"
-      },
-      {
-        "family": "Søgaard",
-        "given": "Anders"
-      }
-    ],
-    "date": [
-      "2015"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Discusses the societal implications of NLP technologies"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "15."
-    ],
-    "title": [
-      "**\"Ethical Considerations in Artificial Intelligence Courses\"** by Burton, Emanuelle, et al"
-    ],
-    "date": [
-      "2017"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Explores how to integrate ethical considerations into AI education, including NLP"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "16."
-    ],
-    "title": [
-      "**\"The Ethics of Using AI to Interpret Human Emotions\"** by Cowls"
-    ],
-    "editor": [
-      {
-        "family": "Josh"
-      },
-      {
-        "family": "Floridi",
-        "given": "Luciano"
-      }
-    ],
-    "date": [
-      "2018"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Analyzes the ethical issues of using AI, including NLP, to interpret emotions"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "17."
-    ],
-    "author": [
-      {
-        "family": "Now",
-        "given": "A.I."
-      }
-    ],
-    "date": [
-      "2018",
-      "2018"
-    ],
-    "title": [
-      "Report\"** by Whittaker, Meredith, et al"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "A comprehensive report on the state of AI ethics, including NLP"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "18."
-    ],
-    "title": [
-      "**\"The Ethics of Algorithms: Mapping the Debate\"** by Mittelstadt"
-    ],
-    "editor": [
-      {
-        "family": "Brent",
-        "given": "D."
-      },
-      {
-        "others": true
-      }
-    ],
-    "date": [
-      "2016"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Maps the ethical debates surrounding algorithms, including those used in NLP"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "19."
-    ],
-    "title": [
-      "**\"Bias in Word Embeddings\"** by Caliskan, Aylin, et al"
-    ],
-    "date": [
-      "2017"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Investigates bias in word embeddings, a fundamental component of many NLP models"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "20."
-    ],
-    "author": [
-      {
-        "family": "Kearns",
-        "given": "The Ethical Algorithm\"",
-        "particle": "by"
-      },
       {
         "family": "Michael"
       },
@@ -567,13 +393,178 @@
       }
     ],
     "title": [
-      "Discusses how to design algorithms, including NLP models, that are ethically sound"
+      "Explores how to design algorithms, including NLP models, that are ethically sound"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "title": [
+      "**\"A Survey on Bias and Fairness in Machine Learning\"** by Mehrabi, Ninareh, et al"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Reviews various types of bias in machine learning and discusses fairness, with implications for NLP"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "title": [
+      "**\"Ethical Implications of Deep Learning\"** by Mittelstadt"
+    ],
+    "editor": [
+      {
+        "family": "Brent",
+        "given": "D."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2016"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Examines the ethical issues specific to deep learning, including NLP applications"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "title": [
+      "**\"The Ethics of Data Science: An Overview\"** by Floridi"
+    ],
+    "editor": [
+      {
+        "family": "Luciano"
+      },
+      {
+        "family": "Taddeo",
+        "given": "Mariarosaria"
+      }
+    ],
+    "date": [
+      "2016"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Provides a broad overview of ethical issues in data science, relevant to NLP and ML"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "title": [
+      "**\"Algorithmic Accountability: A Primer\"** by Diakopoulos, Nicholas"
+    ],
+    "date": [
+      "2016"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Discusses the need for accountability in algorithmic systems, including those using NLP"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "title": [
+      "**\"Bias in Natural Language Processing\"** by Caliskan, Aylin, et al"
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Investigates bias in NLP models and suggests methods for mitigation"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "title": [
+      "**\"Ethics in NLP: A Review of Ethical Considerations in NLP Research and Practice\"** by Hovy"
+    ],
+    "editor": [
+      {
+        "family": "Dirk"
+      },
+      {
+        "family": "Spruit",
+        "given": "Shannon L."
+      }
+    ],
+    "date": [
+      "2016"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "A comprehensive review of ethical issues in NLP research and practice"
     ],
     "type": null
   },
   {
     "title": [
-      "These articles provide a comprehensive overview of the ethical considerations and implications of using NLP models in data science and machine learning"
+      "These articles provide a broad and deep exploration of the ethical considerations surrounding the use of NLP, machine learning, and data science"
     ],
     "type": null
   }

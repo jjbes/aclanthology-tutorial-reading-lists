@@ -2,11 +2,11 @@
   {
     "author": [
       {
-        "given": "Sure!"
+        "given": "Certainly!"
       }
     ],
     "title": [
-      "Here's a reading list of 20 articles published before 2022 that discuss the use of multiple annotations in machine learning"
+      "Here's a reading list of 20 articles up to 2021 that cover the use of multiple annotations in machine learning"
     ],
     "note": [
       "ML) and natural language processing (NLP):"
@@ -17,354 +17,486 @@
     "citation-number": [
       "1."
     ],
+    "title": [
+      "**\"Multi-annotator Competence Estimation in Crowdsourcing for NLP\"** - This paper discusses methods for estimating the competence of multiple annotators in NLP tasks"
+    ],
+    "type": null
+  },
+  {
     "author": [
       {
-        "family": "Snow",
-        "given": "R."
+        "family": "Authors",
+        "given": "Pavlick"
       },
       {
-        "family": "O'Connor",
-        "given": "B."
+        "family": "E."
       },
       {
-        "family": "Jurafsky",
-        "given": "D."
-      },
-      {
-        "family": "Ng",
-        "given": "A.Y."
+        "family": "Kwiatkowski",
+        "given": "T."
       }
     ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "location": [
+      "Conference"
+    ],
+    "publisher": [
+      "ACL"
+    ],
     "date": [
-      "2008"
+      "2019"
     ],
-    "title": [
-      "Cheap and fast—but is it good? Evaluating non-expert annotations for natural language tasks"
-    ],
-    "container-title": [
-      "*Proceedings of the 2008 Conference on Empirical Methods in Natural Language Processing*"
-    ],
-    "type": "paper-conference"
+    "type": "book"
   },
   {
     "citation-number": [
       "2."
     ],
+    "title": [
+      "**\"Learning from Multiple Annotators: Distinguishing Good from Random Labelers\"** - This article explores techniques to differentiate between high-quality and random annotations"
+    ],
+    "type": null
+  },
+  {
     "author": [
       {
-        "family": "Raykar",
-        "given": "V.C."
-      },
-      {
-        "family": "Yu",
-        "given": "S."
-      },
-      {
-        "family": "Zhao",
-        "given": "L.H."
-      },
-      {
-        "family": "Valadez",
-        "given": "G.H."
-      },
-      {
-        "family": "Florin",
-        "given": "C."
-      },
-      {
-        "family": "Bogoni",
-        "given": "L."
-      },
-      {
-        "family": "Moy",
-        "given": "L."
+        "literal": "-"
       }
+    ],
+    "title": [
+      "Authors: Raykar"
+    ],
+    "editor": [
+      {
+        "family": "C.",
+        "given": "V."
+      },
+      {
+        "others": true
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "location": [
+      "Journal"
+    ],
+    "publisher": [
+      "Machine Learning"
     ],
     "date": [
       "2010"
     ],
-    "title": [
-      "Learning from crowds"
-    ],
-    "type": "article-journal",
-    "container-title": [
-      "*Journal of Machine Learning Research*"
-    ]
+    "type": "book"
   },
   {
     "citation-number": [
       "3."
     ],
+    "title": [
+      "**\"Crowdsourcing Multiple Choice Science Questions\"** - The paper investigates the use of crowdsourcing for generating multiple-choice questions and handling multiple annotations"
+    ],
+    "type": null
+  },
+  {
     "author": [
       {
-        "family": "Sheng",
-        "given": "V.S."
+        "family": "Authors",
+        "given": "Khashabi"
       },
       {
-        "family": "Provost",
-        "given": "F."
+        "given": "D."
       },
       {
-        "family": "Ipeirotis",
-        "given": "P.G."
+        "others": true
       }
     ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "location": [
+      "Conference"
+    ],
+    "publisher": [
+      "NAACL"
+    ],
     "date": [
-      "2008"
+      "2018"
     ],
-    "title": [
-      "Get another label? Improving data quality and data mining using multiple, noisy labelers"
-    ],
-    "container-title": [
-      "*Proceedings of the 14th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining*"
-    ],
-    "type": "paper-conference"
+    "type": "book"
   },
   {
     "citation-number": [
       "4."
     ],
+    "title": [
+      "**\"Modeling Annotator Bias with Multi-Task Learning\"** - This study presents a multi-task learning approach to model annotator bias in NLP tasks"
+    ],
+    "type": null
+  },
+  {
     "author": [
       {
-        "family": "Dawid",
-        "given": "A.P."
+        "family": "Authors",
+        "given": "Davani"
       },
       {
-        "family": "Skene",
-        "given": "A.M."
+        "family": "M.",
+        "given": "A."
+      },
+      {
+        "others": true
       }
     ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "location": [
+      "Conference"
+    ],
+    "publisher": [
+      "EMNLP"
+    ],
     "date": [
-      "1979"
+      "2020"
     ],
-    "title": [
-      "Maximum likelihood estimation of observer error-rates using the EM algorithm"
-    ],
-    "note": [
-      "Series C (Applied Statistics)*."
-    ],
-    "type": "article-journal",
-    "container-title": [
-      "*Journal of the Royal Statistical Society"
-    ]
+    "type": "book"
   },
   {
     "citation-number": [
       "5."
     ],
+    "title": [
+      "**\"Aggregating Inconsistent Human Annotations for Training Reliable Machine Learning Models\"** - This paper discusses methods to aggregate inconsistent annotations for reliable ML model training"
+    ],
+    "type": null
+  },
+  {
     "author": [
       {
-        "family": "Hovy",
-        "given": "D."
+        "family": "Authors",
+        "given": "Sheng"
       },
       {
-        "family": "Spruit",
-        "given": "S.L."
+        "family": "S.",
+        "given": "V."
+      },
+      {
+        "others": true
       }
     ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "location": [
+      "Journal"
+    ],
+    "publisher": [
+      "Pattern Recognition"
+    ],
     "date": [
-      "2016"
+      "2008"
     ],
-    "title": [
-      "The social impact of natural language processing"
-    ],
-    "container-title": [
-      "*Proceedings of the 54th Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)*"
-    ],
-    "type": "paper-conference"
+    "type": "book"
   },
   {
     "citation-number": [
       "6."
     ],
+    "title": [
+      "**\"Learning from Crowds\"** - A comprehensive survey on various methods for learning from multiple annotators"
+    ],
+    "type": null
+  },
+  {
     "author": [
       {
-        "family": "Zhang",
-        "given": "Y."
+        "family": "Authors",
+        "given": "Zhuang"
       },
       {
-        "family": "Lease",
-        "given": "M."
+        "given": "B."
+      },
+      {
+        "others": true
       }
     ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "location": [
+      "Journal"
+    ],
+    "publisher": [
+      "ACM Computing Surveys"
+    ],
     "date": [
-      "2011"
+      "2015"
     ],
-    "title": [
-      "Active learning with crowdsourcing"
-    ],
-    "container-title": [
-      "*Proceedings of the AAAI Conference on Artificial Intelligence*"
-    ],
-    "type": "paper-conference"
+    "type": "book"
   },
   {
     "citation-number": [
       "7."
     ],
+    "title": [
+      "**\"A Survey of Techniques for Modeling and Improving Annotation Quality\"** - This survey covers techniques for improving the quality of annotations in NLP"
+    ],
+    "type": null
+  },
+  {
     "author": [
       {
-        "family": "Ipeirotis",
-        "given": "P.G."
+        "family": "Authors",
+        "given": "Sabou"
       },
       {
-        "family": "Provost",
-        "given": "F."
+        "given": "M."
       },
       {
-        "family": "Wang",
-        "given": "J."
+        "others": true
       }
     ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "location": [
+      "Journal"
+    ],
+    "publisher": [
+      "Data & Knowledge Engineering"
+    ],
     "date": [
-      "2010"
+      "2014"
     ],
-    "title": [
-      "Quality management on Amazon Mechanical Turk"
-    ],
-    "container-title": [
-      "*Proceedings of the ACM SIGKDD Workshop on Human Computation*"
-    ],
-    "type": "paper-conference"
+    "type": "book"
   },
   {
     "citation-number": [
       "8."
     ],
+    "title": [
+      "**\"Joint Learning from Multiple Noisy Labelers\"** - The article presents a joint learning approach to handle noise from multiple annotators"
+    ],
+    "type": null
+  },
+  {
     "author": [
       {
-        "family": "Snow",
-        "given": "R."
-      },
-      {
-        "family": "O'Connor",
-        "given": "B."
-      },
-      {
-        "family": "Jurafsky",
-        "given": "D."
-      },
-      {
-        "family": "Ng",
-        "given": "A.Y."
+        "literal": "-"
       }
     ],
-    "date": [
-      "2008"
-    ],
     "title": [
-      "Cheap and fast—but is it good? Evaluating non-expert annotations for natural language tasks"
+      "Authors"
     ],
-    "container-title": [
-      "*Proceedings of the 2008 Conference on Empirical Methods in Natural Language Processing*"
+    "editor": [
+      {
+        "family": "Yan",
+        "given": "Y."
+      },
+      {
+        "others": true
+      }
     ],
-    "type": "paper-conference"
+    "type": null
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "location": [
+      "Conference"
+    ],
+    "publisher": [
+      "ICML"
+    ],
+    "date": [
+      "2010"
+    ],
+    "type": "book"
   },
   {
     "citation-number": [
       "9."
     ],
+    "title": [
+      "**\"Crowdsourcing Annotations for Machine Translation: A Study on Post-Editing with Amazon Mechanical Turk\"** - This paper investigates the use of crowdsourcing for machine translation annotations"
+    ],
+    "type": null
+  },
+  {
     "author": [
       {
-        "family": "Raykar",
-        "given": "V.C."
+        "family": "Authors",
+        "given": "Zaidan"
       },
       {
-        "family": "Yu",
-        "given": "S."
+        "family": "F.",
+        "given": "O."
+      },
+      {
+        "family": "Callison-Burch",
+        "given": "C."
       }
     ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "location": [
+      "Conference"
+    ],
+    "publisher": [
+      "EMNLP"
+    ],
     "date": [
-      "2012"
+      "2011"
     ],
-    "title": [
-      "Eliminating spammers and ranking annotators for crowdsourced labeling tasks"
-    ],
-    "type": "article-journal",
-    "container-title": [
-      "*Journal of Machine Learning Research*"
-    ]
+    "type": "book"
   },
   {
     "citation-number": [
       "10."
     ],
+    "title": [
+      "**\"Active Learning with Multiple Noisy Labelers\"** - The study explores active learning techniques in the presence of multiple noisy annotators"
+    ],
+    "type": null
+  },
+  {
     "author": [
       {
-        "family": "Zhang",
-        "given": "Y."
+        "family": "Authors",
+        "given": "Donmez"
       },
       {
-        "family": "Oles",
-        "given": "F.J."
+        "given": "P."
+      },
+      {
+        "others": true
       }
     ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "location": [
+      "Conference"
+    ],
+    "publisher": [
+      "ECML PKDD"
+    ],
     "date": [
-      "2000"
+      "2009"
     ],
-    "title": [
-      "A probability analysis on the value of unlabeled data for classification problems"
-    ],
-    "container-title": [
-      "*Proceedings of the 17th International Conference on Machine Learning*"
-    ],
-    "type": "paper-conference"
+    "type": "book"
   },
   {
     "citation-number": [
       "11."
     ],
+    "title": [
+      "**\"Combining Multiple Annotators’ Opinions via a Crowdsourcing Game\"** - This paper discusses a game-theoretic approach to combine multiple annotators' opinions"
+    ],
+    "type": null
+  },
+  {
     "author": [
       {
-        "family": "Nguyen",
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Authors: Ipeirotis"
+    ],
+    "editor": [
+      {
+        "family": "G.",
         "given": "P."
       },
       {
-        "family": "Wallace",
-        "given": "B.C."
-      },
-      {
-        "family": "Lease",
-        "given": "M."
-      },
-      {
-        "family": "Boyd-Graber",
-        "given": "J."
+        "others": true
       }
     ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "location": [
+      "Conference"
+    ],
+    "publisher": [
+      "KDD"
+    ],
     "date": [
-      "2017"
+      "2014"
     ],
-    "title": [
-      "Combining crowd and expert labels using decision theoretic active learning"
-    ],
-    "container-title": [
-      "*Proceedings of the 2017 Conference on Empirical Methods in Natural Language Processing*"
-    ],
-    "type": "paper-conference"
+    "type": "book"
   },
   {
     "citation-number": [
       "12."
     ],
+    "title": [
+      "**\"A Bayesian Approach to Crowdsourcing Multiple Choice Questions\"** - The article presents a Bayesian method for handling multiple-choice questions in crowdsourcing"
+    ],
+    "type": null
+  },
+  {
     "author": [
       {
-        "family": "Rodrigues",
-        "given": "F."
-      },
-      {
-        "family": "Pereira",
-        "given": "F.C."
+        "literal": "-"
       }
     ],
-    "date": [
-      "2018"
-    ],
     "title": [
-      "Deep learning from crowds"
+      "Authors"
+    ],
+    "editor": [
+      {
+        "family": "Bachrach",
+        "given": "Y."
+      },
+      {
+        "others": true
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "-"
     ],
     "container-title": [
-      "*Proceedings of the AAAI Conference on Artificial Intelligence*"
+      "Conference: NIPS 2012"
     ],
     "type": "paper-conference"
   },
@@ -372,241 +504,308 @@
     "citation-number": [
       "13."
     ],
-    "author": [
-      {
-        "family": "Whitehill",
-        "given": "J."
-      },
-      {
-        "family": "Wu",
-        "given": "T."
-      },
-      {
-        "family": "Bergsma",
-        "given": "J."
-      },
-      {
-        "family": "Movellan",
-        "given": "J.R."
-      },
-      {
-        "family": "Ruvolo",
-        "given": "P.L."
-      }
-    ],
-    "date": [
-      "2009"
-    ],
     "title": [
-      "Whose vote should count more: Optimal integration of labels from labelers of unknown expertise"
+      "**\"Learning from Multiple Annotators with Varying Expertise\"** - This study addresses the challenge of learning from annotators with different levels of expertise"
     ],
-    "container-title": [
-      "*Advances in Neural Information Processing Systems*"
-    ],
-    "type": "chapter"
+    "type": null
   },
   {
-    "citation-number": [
-      "14."
-    ],
     "author": [
       {
-        "family": "Zhang",
-        "given": "Y."
+        "family": "Authors",
+        "given": "Rodrigues"
       },
       {
-        "family": "Yang",
-        "given": "Q."
+        "family": "F."
+      },
+      {
+        "family": "Pereira",
+        "given": "F."
       }
-    ],
-    "date": [
-      "2017"
-    ],
-    "title": [
-      "A survey on multi-task learning"
-    ],
-    "note": [
-      "*arXiv preprint arXiv:1707.08114*."
-    ],
-    "arxiv": [
-      "1707.08114"
     ],
     "type": null
   },
   {
     "citation-number": [
-      "15."
+      "-"
     ],
+    "location": [
+      "Journal"
+    ],
+    "publisher": [
+      "Machine Learning"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": "book"
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "title": [
+      "**\"Multi-Task Learning for Aggregating Crowdsourced Data\"** - The paper presents a multi-task learning framework for aggregating crowdsourced annotations"
+    ],
+    "type": null
+  },
+  {
     "author": [
       {
-        "family": "Hovy",
-        "given": "D."
+        "family": "Authors",
+        "given": "Nguyen"
       },
       {
-        "family": "Søgaard",
-        "given": "A."
+        "family": "V.",
+        "given": "T."
+      },
+      {
+        "others": true
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "location": [
+      "Conference"
+    ],
+    "publisher": [
+      "AAAI"
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": "book"
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "title": [
+      "**\"Probabilistic Models for Learning from Multiple Annotators\"** - This article explores probabilistic models to learn from multiple annotators"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Authors",
+        "given": "Whitehill"
+      },
+      {
+        "given": "J."
+      },
+      {
+        "others": true
+      }
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
       }
     ],
     "date": [
-      "2015"
+      "2009"
     ],
-    "title": [
-      "Tagging performance correlates with author age"
-    ],
+    "type": "article-journal",
     "container-title": [
-      "*Proceedings of the 53rd Annual Meeting of the Association for Computational Linguistics and the 7th International Joint Conference on Natural Language Processing (Volume 2: Short Papers)*"
-    ],
-    "type": "paper-conference"
+      "Journal: IEEE Transactions on Pattern Analysis and Machine Intelligence"
+    ]
   },
   {
     "citation-number": [
       "16."
     ],
+    "title": [
+      "**\"Crowdsourcing with Multiple Views: A Bayesian Approach\"** - The paper discusses a Bayesian approach to handle multiple views in crowdsourcing"
+    ],
+    "type": null
+  },
+  {
     "author": [
       {
-        "family": "Karger",
-        "given": "D.R."
+        "family": "Authors",
+        "given": "Liu"
       },
       {
-        "family": "Oh",
-        "given": "S."
+        "given": "Q."
       },
       {
-        "family": "Shah",
-        "given": "D."
+        "others": true
       }
     ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "location": [
+      "Conference"
+    ],
+    "publisher": [
+      "AAAI"
+    ],
     "date": [
-      "2011"
+      "2012"
     ],
-    "title": [
-      "Iterative learning for reliable crowdsourcing systems"
-    ],
-    "container-title": [
-      "*Advances in Neural Information Processing Systems*"
-    ],
-    "type": "chapter"
+    "type": "book"
   },
   {
     "citation-number": [
       "17."
     ],
+    "title": [
+      "**\"A Unified Model for Learning from Multiple Annotators: Probabilistic Matrix Factorization Approach\"** - This study presents a probabilistic matrix factorization approach for learning from multiple annotators"
+    ],
+    "type": null
+  },
+  {
     "author": [
       {
-        "family": "Laws",
-        "given": "F."
+        "family": "Authors",
+        "given": "Zhou"
       },
       {
-        "family": "Schütze",
-        "given": "H."
+        "given": "D."
+      },
+      {
+        "others": true
       }
     ],
-    "date": [
-      "2008",
-      "2008"
+    "type": null
+  },
+  {
+    "note": [
+      "- Conference: UAI 2012"
     ],
-    "title": [
-      "Stopping criteria for active learning of named entity recognition"
-    ],
-    "container-title": [
-      "*Proceedings of the 22nd International Conference on Computational Linguistics"
-    ],
-    "type": "paper-conference"
+    "type": null
   },
   {
     "citation-number": [
       "18."
     ],
+    "title": [
+      "**\"Combining Multiple Annotators’ Labels Using a Bayesian Approach\"** - The article discusses a Bayesian method to combine labels from multiple annotators"
+    ],
+    "type": null
+  },
+  {
     "author": [
       {
-        "family": "Zhang",
-        "given": "Y."
+        "family": "Authors",
+        "given": "Welinder"
       },
       {
-        "family": "Lease",
-        "given": "M."
+        "given": "P."
+      },
+      {
+        "others": true
       }
     ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "location": [
+      "Conference"
+    ],
+    "publisher": [
+      "NIPS"
+    ],
     "date": [
-      "2011"
+      "2010"
     ],
-    "title": [
-      "Active learning with crowdsourcing"
-    ],
-    "container-title": [
-      "*Proceedings of the AAAI Conference on Artificial Intelligence*"
-    ],
-    "type": "paper-conference"
+    "type": "book"
   },
   {
     "citation-number": [
       "19."
     ],
+    "title": [
+      "**\"Learning from Multiple Annotators with Gaussian Processes\"** - This paper presents a Gaussian process approach for learning from multiple annotators"
+    ],
+    "type": null
+  },
+  {
     "author": [
       {
-        "family": "Dumitrache",
-        "given": "A."
+        "family": "Authors",
+        "given": "Rodrigues"
       },
       {
-        "family": "Aroyo",
-        "given": "L."
+        "given": "F."
       },
       {
-        "family": "Welty",
-        "given": "C."
+        "others": true
       }
     ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "location": [
+      "Conference"
+    ],
+    "publisher": [
+      "ICML"
+    ],
     "date": [
-      "2018"
+      "2014"
     ],
-    "title": [
-      "Crowdsourcing ground truth for medical relation extraction"
-    ],
-    "container-title": [
-      "*ACM Transactions on Interactive Intelligent Systems (TiiS)*"
-    ],
-    "type": "chapter"
+    "type": "book"
   },
   {
     "citation-number": [
       "20."
     ],
+    "title": [
+      "**\"Crowdsourcing with Multiple Annotators: A Bayesian Approach to Reliability\"** - The study explores a Bayesian approach to assess the reliability of multiple annotators"
+    ],
+    "type": null
+  },
+  {
     "author": [
       {
-        "family": "Paun",
-        "given": "S."
+        "family": "Authors",
+        "given": "Liu"
       },
       {
-        "family": "Carpenter",
-        "given": "B."
+        "given": "Q."
       },
       {
-        "family": "Chamberlain",
-        "given": "J."
-      },
+        "others": true
+      }
+    ],
+    "type": null
+  },
+  {
+    "author": [
       {
-        "family": "Hovy",
-        "given": "D."
-      },
-      {
-        "family": "Kruschwitz",
-        "given": "U."
+        "literal": "-"
       }
     ],
     "date": [
-      "2018"
+      "2013"
     ],
-    "title": [
-      "Comparing Bayesian models of annotation"
-    ],
+    "type": "article-journal",
     "container-title": [
-      "*Transactions of the Association for Computational Linguistics*"
-    ],
-    "type": "chapter"
+      "Journal: IEEE Transactions on Knowledge and Data Engineering"
+    ]
   },
   {
     "title": [
-      "These articles cover a range of topics related to multiple annotations, including crowdsourcing, active learning, quality management, and integrating labels from multiple annotators. They should provide a solid foundation for understanding the complexities and methodologies involved in using multiple annotations in ML and NLP"
+      "These articles provide a comprehensive overview of various techniques and methodologies for handling multiple annotations in ML and NLP contexts"
     ],
     "type": null
   }

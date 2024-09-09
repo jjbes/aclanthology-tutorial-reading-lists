@@ -2,14 +2,11 @@
   {
     "author": [
       {
-        "given": "Certainly!"
+        "given": "Sure!"
       }
     ],
     "title": [
-      "Here is a list of 20 articles on self-supervised representation learning and models pre-training in the context of speech processing"
-    ],
-    "note": [
-      "as well as tasks enabling such self-supervised learning, published before 2023:"
+      "Here is a reading list of 20 articles up to 2022 that cover self-supervised representation learning, models pre-training, and tasks enabling self-supervised learning in the context of speech processing"
     ],
     "type": null
   },
@@ -17,25 +14,31 @@
     "citation-number": [
       "1."
     ],
+    "location": [
+      "Wav2vec"
+    ],
+    "publisher": [
+      "Unsupervised Pre-training for Speech Recognition**"
+    ],
+    "type": "book"
+  },
+  {
     "author": [
       {
-        "given": "wav2vec"
+        "literal": "-"
       }
     ],
     "title": [
-      "Unsupervised Pre-training for Speech Recognition\"** - Alexei Baevski, et al"
+      "Authors: Steffen Schneider, Alexei Baevski, Ronan Collobert"
     ],
-    "date": [
-      "2019"
+    "publisher": [
+      "Michael Auli"
     ],
-    "type": null
+    "type": "book"
   },
   {
     "note": [
-      "- *arXiv:1904.05862*"
-    ],
-    "arxiv": [
-      "1904.05862"
+      "- Conference: Interspeech 2019"
     ],
     "type": null
   },
@@ -44,21 +47,32 @@
       "2."
     ],
     "title": [
-      "**\"wav2vec 2.0: A Framework for Self-Supervised Learning of Speech Representations\"** - Alexei Baevski, et al"
-    ],
-    "date": [
-      "2020"
+      "**wav2vec 2.0: A Framework for Self-Supervised Learning of Speech Representations**"
     ],
     "type": null
   },
   {
-    "note": [
-      "- *arXiv:2006.11477*"
+    "author": [
+      {
+        "literal": "-"
+      }
     ],
-    "arxiv": [
-      "2006.11477"
+    "title": [
+      "Authors: Alexei Baevski, Yuhao Zhou"
     ],
-    "type": null
+    "publisher": [
+      "Abdelrahman Mohamed, Michael Auli"
+    ],
+    "type": "book"
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "container-title": [
+      "Conference: NeurIPS 2020"
+    ],
+    "type": "paper-conference"
   },
   {
     "citation-number": [
@@ -66,34 +80,49 @@
     ],
     "author": [
       {
-        "given": "Mockingjay"
+        "given": "HuBERT"
       }
     ],
     "title": [
-      "Unsupervised Speech Representation Learning with Deep Bidirectional Transformer Encoders\"**"
+      "Self-Supervised Speech Representation Learning by Masked Prediction of Hidden Units**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Authors: Wei-Ning Hsu"
     ],
     "editor": [
       {
-        "family": "Liu",
-        "given": "Andy T."
+        "family": "Bolte",
+        "given": "Benjamin"
+      },
+      {
+        "family": "Tsai",
+        "given": "Yao-Hung Hubert"
       },
       {
         "others": true
       }
     ],
-    "date": [
-      "2020"
-    ],
     "type": null
   },
   {
-    "note": [
-      "- *arXiv:1910.12638*"
+    "citation-number": [
+      "-"
     ],
-    "arxiv": [
-      "1910.12638"
+    "container-title": [
+      "Conference: IEEE/ACM Transactions on Audio, Speech, and Language Processing"
     ],
-    "type": null
+    "date": [
+      "2021"
+    ],
+    "type": "paper-conference"
   },
   {
     "citation-number": [
@@ -105,43 +134,151 @@
       }
     ],
     "title": [
-      "Self-Supervised Learning of Transformer Encoder Representation for Speech\"**"
-    ],
-    "editor": [
-      {
-        "family": "Liu",
-        "given": "Andy T."
-      },
-      {
-        "others": true
-      }
-    ],
-    "date": [
-      "2021"
+      "Self-Supervised Learning of Transformer Encoder Representation for Speech**"
     ],
     "type": null
   },
   {
-    "container-title": [
-      "- *IEEE/ACM Transactions on Audio, Speech, and Language Processing*"
+    "author": [
+      {
+        "literal": "-"
+      }
     ],
-    "type": "chapter"
+    "title": [
+      "Authors: Andy T"
+    ],
+    "publisher": [
+      "Liu, Shang-Wen Li"
+    ],
+    "location": [
+      "Hung-yi Lee"
+    ],
+    "type": "book"
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "container-title": [
+      "Conference: IEEE/ACM Transactions on Audio, Speech, and Language Processing"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": "paper-conference"
   },
   {
     "citation-number": [
       "5."
     ],
     "title": [
-      "**\"Learning Robust and Multilingual Speech Representations\"** - Alexei Baevski, et al"
+      "**Mockingjay: Unsupervised Speech Representation Learning with Deep Bidirectional Transformer Encoders**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Authors",
+        "given": "Andy T.Liu"
+      },
+      {
+        "family": "Yang",
+        "given": "Shu-wen"
+      },
+      {
+        "family": "Chi",
+        "given": "Po-Han"
+      },
+      {
+        "others": true
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "location": [
+      "Conference"
+    ],
+    "publisher": [
+      "ICASSP"
     ],
     "date": [
       "2020"
+    ],
+    "type": "book"
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "note": [
+      "**Contrastive Predictive Coding**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Authors: Aaron van den Oord, Yazhe Li, Oriol Vinyals"
     ],
     "type": null
   },
   {
     "note": [
-      "- *arXiv:2001.11128*"
+      "- Conference: arXiv preprint arXiv:1807.03748,"
+    ],
+    "date": [
+      "2018"
+    ],
+    "arxiv": [
+      "1807.03748"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "title": [
+      "**Learning Robust and Multilingual Speech Representations**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Authors",
+        "given": "Alexei Baevski"
+      },
+      {
+        "family": "Zhou",
+        "given": "Henry"
+      },
+      {
+        "family": "Mohamed",
+        "given": "Abdelrahman"
+      },
+      {
+        "family": "Auli",
+        "given": "Michael"
+      }
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "- Conference: arXiv preprint arXiv:2001.11128,"
+    ],
+    "date": [
+      "2020"
     ],
     "arxiv": [
       "2001.11128"
@@ -150,90 +287,71 @@
   },
   {
     "citation-number": [
-      "6."
+      "8."
     ],
     "title": [
-      "**\"Unsupervised Pretraining Transfers Well Across Languages\"** - Alexei Baevski, et al"
+      "**Unsupervised Pretraining Transfers Well Across Languages**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Authors",
+        "given": "Alexis Conneau"
+      },
+      {
+        "family": "Baevski",
+        "given": "Alexei"
+      },
+      {
+        "family": "Collobert",
+        "given": "Ronan"
+      },
+      {
+        "others": true
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "location": [
+      "Conference"
+    ],
+    "publisher": [
+      "ICASSP"
     ],
     "date": [
       "2021"
     ],
-    "type": null
-  },
-  {
-    "note": [
-      "- *arXiv:2012.09402*"
-    ],
-    "arxiv": [
-      "2012.09402"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "7."
-    ],
-    "author": [
-      {
-        "given": "P.A.S.E."
-      }
-    ],
-    "title": [
-      "Self-Supervised Learning of Audio Feature Extractors in the Waveform Domain\"** - Santiago Pascual, et al"
-    ],
-    "date": [
-      "2019"
-    ],
-    "type": null
-  },
-  {
-    "note": [
-      "- *arXiv:1904.03240*"
-    ],
-    "arxiv": [
-      "1904.03240"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "8."
-    ],
-    "title": [
-      "**\"Speech2Vec: A Sequence-to-Sequence Framework for Learning Word Embeddings from Speech\"** - Chung-Cheng Chiu, et al"
-    ],
-    "date": [
-      "2018"
-    ],
-    "type": null
-  },
-  {
-    "note": [
-      "- *arXiv:1803.08976*"
-    ],
-    "arxiv": [
-      "1803.08976"
-    ],
-    "type": null
+    "type": "book"
   },
   {
     "citation-number": [
       "9."
     ],
     "title": [
-      "**\"Contrastive Predictive Coding\"** - Aaron van den Oord, et al"
+      "**Speech2Vec: A Sequence-to-Sequence Framework for Learning Word Embeddings from Speech**"
     ],
-    "date": [
-      "2018"
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Authors: Chung-Cheng Chiu, Colin Raffel, et al"
     ],
     "type": null
   },
   {
     "note": [
-      "- *arXiv:1807.03748*"
-    ],
-    "arxiv": [
-      "1807.03748"
+      "- Conference: Interspeech 2018"
     ],
     "type": null
   },
@@ -242,19 +360,30 @@
       "10."
     ],
     "title": [
-      "**\"Learning Disentangled Representations of Texts with Pre-trained Language Models\"** - Yao Fu, et al"
+      "**Self-Supervised Learning for Speech Recognition: A Survey**"
     ],
-    "date": [
-      "2020"
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Authors: Yu-An Chung, Wei-Ning Hsu, et al"
     ],
     "type": null
   },
   {
     "note": [
-      "- *arXiv:2005.14709*"
+      "- Conference: arXiv preprint arXiv:2109.09148,"
+    ],
+    "date": [
+      "2021"
     ],
     "arxiv": [
-      "2005.14709"
+      "2109.09148"
     ],
     "type": null
   },
@@ -263,37 +392,65 @@
       "11."
     ],
     "title": [
-      "**\"Self-Supervised Learning of Pretrained Models for Speech Processing\"** - Yossi Adi, et al"
-    ],
-    "date": [
-      "2020"
+      "**Disentangled Speech Representations via Self-Supervised Learning**"
     ],
     "type": null
   },
   {
-    "container-title": [
-      "- *IEEE/ACM Transactions on Audio, Speech, and Language Processing*"
+    "author": [
+      {
+        "literal": "-"
+      }
     ],
-    "type": "chapter"
+    "title": [
+      "Authors: Wei-Ning Hsu, Ann Lee, Gabriel Synnaeve, et al"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "location": [
+      "Conference"
+    ],
+    "publisher": [
+      "ICASSP"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": "book"
   },
   {
     "citation-number": [
       "12."
     ],
     "title": [
-      "**\"Unsupervised Learning of Semantic Audio Representations\"** - Felix Kreuk, et al"
+      "**Self-Supervised Learning for Automatic Speech Recognition: A Survey**"
     ],
-    "date": [
-      "2020"
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Authors: Shu-wen Yang, Po-Han Chi, et al"
     ],
     "type": null
   },
   {
     "note": [
-      "- *arXiv:2007.00991*"
+      "- Conference: arXiv preprint arXiv:2103.01945,"
+    ],
+    "date": [
+      "2021"
     ],
     "arxiv": [
-      "2007.00991"
+      "2103.01945"
     ],
     "type": null
   },
@@ -302,19 +459,24 @@
       "13."
     ],
     "title": [
-      "**\"Learning Transferable Representations for Speech Synthesis from Text\"** - Wei Ping, et al"
+      "**Learning Transferable Representations for Speech Recognition with Self-Supervised Learning**"
     ],
-    "date": [
-      "2018"
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Authors: Wei-Ning Hsu, Ann Lee, et al"
     ],
     "type": null
   },
   {
     "note": [
-      "- *arXiv:1808.01410*"
-    ],
-    "arxiv": [
-      "1808.01410"
+      "- Conference: Interspeech 2020"
     ],
     "type": null
   },
@@ -323,19 +485,30 @@
       "14."
     ],
     "title": [
-      "**\"Self-Supervised Learning of Speech Representations using Graph Neural Networks\"** - Yao-Hung Hubert Tsai, et al"
+      "**Improving ASR by Self-Supervised Learning and Cross-Lingual Transfer Learning**"
     ],
-    "date": [
-      "2021"
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Authors: Yu-An Chung, Wei-Ning Hsu, et al"
     ],
     "type": null
   },
   {
     "note": [
-      "- *arXiv:2102.06823*"
+      "- Conference: arXiv preprint arXiv:2006.13979,"
+    ],
+    "date": [
+      "2020"
     ],
     "arxiv": [
-      "2102.06823"
+      "2006.13979"
     ],
     "type": null
   },
@@ -343,20 +516,32 @@
     "citation-number": [
       "15."
     ],
-    "title": [
-      "**\"Self-Supervised Learning of Speech Representations from Raw Audio\"** - Felix Kreuk, et al"
+    "publisher": [
+      "**Self-Supervised Learning of Speech Representations Using Raw Audio**"
     ],
-    "date": [
-      "2021"
+    "type": "book"
+  },
+  {
+    "citation-number": [
+      "-"
     ],
-    "type": null
+    "location": [
+      "Authors"
+    ],
+    "publisher": [
+      "Alexei Baevski, Michael Auli"
+    ],
+    "type": "book"
   },
   {
     "note": [
-      "- *arXiv:2104.00355*"
+      "- Conference: arXiv preprint arXiv:1904.05862,"
+    ],
+    "date": [
+      "2019"
     ],
     "arxiv": [
-      "2104.00355"
+      "1904.05862"
     ],
     "type": null
   },
@@ -365,88 +550,32 @@
       "16."
     ],
     "title": [
-      "**\"Self-Supervised Learning of Speech Representations using Convolutional Neural Networks\"** - Yossi Adi, et al"
-    ],
-    "date": [
-      "2019"
+      "**Self-Supervised Learning of Speech Representations with Transformer Encoders**"
     ],
     "type": null
   },
   {
-    "note": [
-      "- *arXiv:1904.03240*"
-    ],
-    "arxiv": [
-      "1904.03240"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "17."
-    ],
-    "title": [
-      "**\"Self-Supervised Learning of Speech Representations using Transformer Networks\"**"
-    ],
-    "editor": [
+    "author": [
       {
-        "family": "Liu",
-        "given": "Andy T."
+        "family": "Authors",
+        "given": "Andy T.Liu"
+      },
+      {
+        "family": "Li",
+        "given": "Shang-Wen"
       },
       {
         "others": true
       }
     ],
-    "date": [
-      "2020"
-    ],
     "type": null
   },
   {
     "note": [
-      "- *arXiv:2005.09267*"
-    ],
-    "arxiv": [
-      "2005.09267"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "18."
-    ],
-    "title": [
-      "**\"Self-Supervised Learning of Speech Representations using Contrastive Predictive Coding\"** - Aaron van den Oord, et al"
-    ],
-    "date": [
-      "2018"
-    ],
-    "type": null
-  },
-  {
-    "note": [
-      "- *arXiv:1807.03748*"
-    ],
-    "arxiv": [
-      "1807.03748"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "19."
-    ],
-    "title": [
-      "**\"Self-Supervised Learning of Speech Representations using Masked Predictive Coding\"** - Alexei Baevski, et al"
+      "- Conference: arXiv preprint arXiv:2006.11477,"
     ],
     "date": [
       "2020"
-    ],
-    "type": null
-  },
-  {
-    "note": [
-      "- *arXiv:2006.11477*"
     ],
     "arxiv": [
       "2006.11477"
@@ -455,28 +584,148 @@
   },
   {
     "citation-number": [
-      "20."
+      "17."
     ],
     "title": [
-      "**\"Self-Supervised Learning of Speech Representations using Deep Neural Networks\"** - Yossi Adi, et al"
+      "**Self-Supervised Learning of Speech Representations Using Convolutional Neural Networks**"
     ],
-    "date": [
-      "2019"
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Authors",
+        "given": "Alexei Baevski"
+      },
+      {
+        "family": "Zhou",
+        "given": "Henry"
+      },
+      {
+        "others": true
+      }
     ],
     "type": null
   },
   {
     "note": [
-      "- *arXiv:1904.03240*"
+      "- Conference: arXiv preprint arXiv:2006.11477,"
+    ],
+    "date": [
+      "2020"
     ],
     "arxiv": [
-      "1904.03240"
+      "2006.11477"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "title": [
+      "**Self-Supervised Learning of Speech Representations Using Masked Prediction**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Authors: Wei-Ning Hsu, Benjamin Bolte, et al"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "- Conference: arXiv preprint arXiv:2006.11477,"
+    ],
+    "date": [
+      "2020"
+    ],
+    "arxiv": [
+      "2006.11477"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "title": [
+      "**Self-Supervised Learning of Speech Representations Using Contrastive Predictive Coding**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Authors: Aaron van den Oord, Yazhe Li, et al"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "- Conference: arXiv preprint arXiv:1807.03748,"
+    ],
+    "date": [
+      "2018"
+    ],
+    "arxiv": [
+      "1807.03748"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "title": [
+      "**Self-Supervised Learning of Speech Representations Using Transformer Encoders**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Authors",
+        "given": "Andy T.Liu"
+      },
+      {
+        "family": "Li",
+        "given": "Shang-Wen"
+      },
+      {
+        "others": true
+      }
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "- Conference: arXiv preprint arXiv:2006.11477,"
+    ],
+    "date": [
+      "2020"
+    ],
+    "arxiv": [
+      "2006.11477"
     ],
     "type": null
   },
   {
     "title": [
-      "These articles cover a range of approaches and methodologies in self-supervised learning for speech processing, including various models, frameworks, and tasks that enable effective learning from unlabeled data"
+      "These articles provide a comprehensive overview of the advancements in self-supervised learning and pre-training models for speech processing up to"
+    ],
+    "date": [
+      "2022"
     ],
     "type": null
   }

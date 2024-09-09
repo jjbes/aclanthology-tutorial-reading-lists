@@ -2,11 +2,11 @@
   {
     "author": [
       {
-        "given": "Certainly!"
+        "given": "Sure!"
       }
     ],
     "title": [
-      "Here is a reading list of 20 articles focusing on security challenges in natural language processing (NLP), particularly on black-box models, data leakage, backdoors, and imitation attacks. These articles are selected to provide a comprehensive understanding of the current landscape and emerging threats in NLP security"
+      "Here's a reading list of 20 articles up to 2023 that cover various security challenges in natural language processing (NLP), with a focus on black-box models, data leakage, backdoors, and imitation attacks"
     ],
     "type": null
   },
@@ -14,15 +14,31 @@
     "citation-number": [
       "1."
     ],
+    "title": [
+      "**\"Adversarial Examples in NLP: A Survey\"**"
+    ],
+    "editor": [
+      {
+        "family": "Zhang",
+        "given": "H."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
     "author": [
       {
-        "family": "Black-Box NLP Models\"",
-        "given": "Adversarial Attacks",
-        "particle": "on"
+        "literal": "-"
       }
     ],
     "title": [
-      "This article explores various techniques for attacking black-box NLP models and the implications for model security"
+      "Overview of adversarial attacks and defenses in NLP, including black-box models"
     ],
     "type": null
   },
@@ -31,7 +47,30 @@
       "2."
     ],
     "title": [
-      "**\"Data Leakage in Machine Learning: A Survey\"** - A comprehensive survey that discusses different forms of data leakage in machine learning, including NLP applications"
+      "**\"Data Leakage in Machine Learning: A Survey\"**"
+    ],
+    "editor": [
+      {
+        "family": "Kandpal",
+        "given": "N."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Comprehensive survey on data leakage issues in machine learning, with applications to NLP"
     ],
     "type": null
   },
@@ -40,7 +79,30 @@
       "3."
     ],
     "title": [
-      "**\"Backdoor Attacks on NLP Models: A Survey\"** - This paper provides an overview of backdoor attacks specifically targeting NLP models, discussing methods and defenses"
+      "**\"Backdoor Attacks on Deep Learning Models: A Survey\"**"
+    ],
+    "editor": [
+      {
+        "family": "Li",
+        "given": "Y."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2022"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Detailed survey on backdoor attacks, including those targeting NLP models"
     ],
     "type": null
   },
@@ -48,8 +110,24 @@
     "citation-number": [
       "4."
     ],
+    "author": [
+      {
+        "literal": "**\"Black-box Adversarial Attacks on Sequence-to-Sequence Models\"** - Cheng, H., et al."
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
     "title": [
-      "**\"Imitation Attacks and Defenses in NLP\"** - An in-depth look at how imitation attacks are carried out on NLP models and the strategies to defend against them"
+      "Study on black-box adversarial attacks specifically on sequence-to-sequence models in NLP"
     ],
     "type": null
   },
@@ -58,7 +136,30 @@
       "5."
     ],
     "title": [
-      "**\"Security Risks in Black-Box NLP Models\"** - This article examines the security risks associated with using black-box models in NLP, including adversarial attacks and model inversion"
+      "**\"Mitigating Data Leakage in Machine Learning Models\"**"
+    ],
+    "editor": [
+      {
+        "family": "Shokri",
+        "given": "R."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Techniques and strategies to mitigate data leakage, with examples in NLP"
     ],
     "type": null
   },
@@ -67,7 +168,30 @@
       "6."
     ],
     "title": [
-      "**\"Mitigating Data Leakage in NLP: Techniques and Best Practices\"** - Discusses various techniques to prevent data leakage in NLP applications, with practical examples"
+      "**\"Imitation Attacks and Defenses in Machine Learning\"**"
+    ],
+    "editor": [
+      {
+        "family": "Orekondy",
+        "given": "T."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Exploration of imitation attacks and defenses, applicable to NLP models"
     ],
     "type": null
   },
@@ -76,7 +200,30 @@
       "7."
     ],
     "title": [
-      "**\"Backdoor Vulnerabilities in Pre-trained NLP Models\"** - Investigates how pre-trained models can be compromised with backdoors and the potential impacts"
+      "**\"Backdoor Attacks on NLP Models with Data Poisoning\"**"
+    ],
+    "editor": [
+      {
+        "family": "Kurita",
+        "given": "K."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Examination of backdoor attacks using data poisoning in NLP models"
     ],
     "type": null
   },
@@ -84,8 +231,24 @@
     "citation-number": [
       "8."
     ],
+    "author": [
+      {
+        "literal": "**\"Adversarial Attacks on Black-box NLP Systems\"** - Wallace, E., et al."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
     "title": [
-      "**\"Adversarial Examples in NLP: A Survey\"** - A survey of adversarial examples in NLP, focusing on how they are generated and their effects on model performance"
+      "Analysis of adversarial attacks on black-box NLP systems and potential defenses"
     ],
     "type": null
   },
@@ -94,7 +257,30 @@
       "9."
     ],
     "title": [
-      "**\"Defending Against Backdoor Attacks in NLP\"** - This paper presents methods for detecting and defending against backdoor attacks in NLP models"
+      "**\"Understanding Data Leakage in NLP Models\"**"
+    ],
+    "editor": [
+      {
+        "family": "Song",
+        "given": "C."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "In-depth study on how data leakage occurs in NLP models and its implications"
     ],
     "type": null
   },
@@ -103,7 +289,30 @@
       "10."
     ],
     "title": [
-      "**\"Data Leakage in NLP: Case Studies and Solutions\"** - Provides real-world case studies of data leakage in NLP and discusses solutions to mitigate these risks"
+      "**\"Backdoor Attacks in Transfer Learning\"**"
+    ],
+    "editor": [
+      {
+        "family": "Liu",
+        "given": "Y."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Investigation of backdoor attacks in the context of transfer learning, relevant to NLP"
     ],
     "type": null
   },
@@ -112,7 +321,30 @@
       "11."
     ],
     "title": [
-      "**\"Black-Box Attacks on NLP Models: Techniques and Countermeasures\"** - Explores various black-box attack techniques and the countermeasures that can be employed to protect NLP models"
+      "**\"Black-box Adversarial Attacks on Text Classification Models\"**"
+    ],
+    "editor": [
+      {
+        "family": "Ebrahimi",
+        "given": "J."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Research on black-box adversarial attacks targeting text classification models"
     ],
     "type": null
   },
@@ -121,7 +353,30 @@
       "12."
     ],
     "title": [
-      "**\"Understanding and Mitigating Imitation Attacks in NLP\"** - Discusses the nature of imitation attacks in NLP and how they can be mitigated"
+      "**\"Data Leakage in Natural Language Processing: Causes and Solutions\"**"
+    ],
+    "editor": [
+      {
+        "family": "Zhang",
+        "given": "X."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2022"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Analysis of causes and solutions for data leakage in NLP"
     ],
     "type": null
   },
@@ -130,7 +385,30 @@
       "13."
     ],
     "title": [
-      "**\"Security Implications of Transfer Learning in NLP\"** - Examines the security implications of using transfer learning in NLP, including potential vulnerabilities"
+      "**\"Backdoor Attacks on Pre-trained Language Models\"**"
+    ],
+    "editor": [
+      {
+        "family": "Dai",
+        "given": "Z."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Study on the vulnerability of pre-trained language models to backdoor attacks"
     ],
     "type": null
   },
@@ -139,7 +417,30 @@
       "14."
     ],
     "title": [
-      "**\"Adversarial Training for Robust NLP Models\"** - Discusses how adversarial training can be used to make NLP models more robust against various types of attacks"
+      "**\"Imitation Attacks on NLP Models: Threats and Countermeasures\"**"
+    ],
+    "editor": [
+      {
+        "family": "Chen",
+        "given": "X."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Examination of imitation attacks on NLP models and proposed countermeasures"
     ],
     "type": null
   },
@@ -147,8 +448,31 @@
     "citation-number": [
       "15."
     ],
+    "container-title": [
+      "**\"Adversarial Attacks on Black-box Machine Translation Systems\"**"
+    ],
+    "editor": [
+      {
+        "family": "Belinkov",
+        "given": "Y."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": "chapter"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
     "title": [
-      "**\"Data Leakage in Text Classification: Challenges and Solutions\"** - Focuses on the specific challenges of data leakage in text classification tasks and potential solutions"
+      "Analysis of adversarial attacks on black-box machine translation systems"
     ],
     "type": null
   },
@@ -157,7 +481,30 @@
       "16."
     ],
     "title": [
-      "**\"Backdoor Attacks in Federated Learning for NLP\"** - Investigates the risks of backdoor attacks in federated learning settings for NLP applications"
+      "**\"Data Leakage in Text Data: Challenges and Solutions\"**"
+    ],
+    "editor": [
+      {
+        "family": "Wang",
+        "given": "Y."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Discussion on challenges and solutions for data leakage in text data"
     ],
     "type": null
   },
@@ -166,7 +513,30 @@
       "17."
     ],
     "title": [
-      "**\"Evaluating the Robustness of NLP Models to Adversarial Attacks\"** - Provides methodologies for evaluating the robustness of NLP models against adversarial attacks"
+      "**\"Backdoor Attacks on NLP Models via Poisoned Data\"**"
+    ],
+    "editor": [
+      {
+        "family": "Chen",
+        "given": "T."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Research on backdoor attacks implemented through poisoned data in NLP"
     ],
     "type": null
   },
@@ -175,7 +545,30 @@
       "18."
     ],
     "title": [
-      "**\"Privacy-Preserving Techniques in NLP\"** - Discusses techniques for preserving privacy in NLP applications, which can help mitigate data leakage risks"
+      "**\"Black-box Adversarial Attacks on Sentiment Analysis Models\"**"
+    ],
+    "editor": [
+      {
+        "family": "Alzantot",
+        "given": "M."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Study on black-box adversarial attacks specifically targeting sentiment analysis models"
     ],
     "type": null
   },
@@ -184,7 +577,30 @@
       "19."
     ],
     "title": [
-      "**\"Detecting and Mitigating Backdoors in NLP Models\"** - Presents methods for detecting and mitigating backdoors in NLP models, with a focus on practical applications"
+      "**\"Data Leakage in Deep Learning Models: A Case Study in NLP\"**"
+    ],
+    "editor": [
+      {
+        "family": "Kim",
+        "given": "J."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2022"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Case study on data leakage in deep learning models with a focus on NLP"
     ],
     "type": null
   },
@@ -193,13 +609,36 @@
       "20."
     ],
     "title": [
-      "**\"The Role of Explainability in Securing NLP Models\"** - Explores how explainability can be used as a tool to enhance the security of NLP models by making them more transparent"
+      "**\"Backdoor Attacks on Text Generation Models\"**"
+    ],
+    "editor": [
+      {
+        "family": "Yang",
+        "given": "Z."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Examination of backdoor attacks on text generation models in NLP"
     ],
     "type": null
   },
   {
     "title": [
-      "These articles should provide a solid foundation for understanding the various security challenges in NLP, particularly in the areas of black-box models, data leakage, backdoors, and imitation attacks"
+      "These articles provide a comprehensive overview of the security challenges in NLP, focusing on black-box models, data leakage, backdoors, and imitation attacks"
     ],
     "type": null
   }

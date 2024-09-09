@@ -1,7 +1,12 @@
 [
   {
+    "author": [
+      {
+        "given": "Certainly!"
+      }
+    ],
     "title": [
-      "Sure, here is a list of 20 articles on goal awareness for conversational systems that you can explore"
+      "Here's a curated list of 20 articles up to 2023 that focus on goal awareness for conversational systems. These articles cover various aspects, including dialogue management, user intent recognition, and adaptive conversational strategies"
     ],
     "type": null
   },
@@ -10,16 +15,64 @@
       "1."
     ],
     "title": [
-      "**\"Towards Goal-Oriented Conversational Agents\"** - This article discusses the development of conversational agents that can understand and pursue specific goals"
+      "**\"A Survey on Dialogue Systems: Recent Advances and New Frontiers\"**"
     ],
-    "type": null
+    "location": [
+      "Gao"
+    ],
+    "author": [
+      {
+        "family": "J.",
+        "given": "Galley"
+      },
+      {
+        "family": "M."
+      },
+      {
+        "family": "Li",
+        "given": "L."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "publisher": [
+      "ACM Computing Surveys"
+    ],
+    "type": "book"
   },
   {
     "citation-number": [
       "2."
     ],
     "title": [
-      "**\"Dialogue Management in Goal-Oriented Conversational Systems\"** - Focuses on the strategies for managing dialogues in systems designed to achieve specific user goals"
+      "**\"Building End-To-End Dialogue Systems Using Generative Hierarchical Neural Network Models\"**",
+      "AAAI"
+    ],
+    "editor": [
+      {
+        "family": "Serban",
+        "given": "I.V."
+      },
+      {
+        "family": "Sordoni",
+        "given": "A."
+      },
+      {
+        "family": "Bengio",
+        "given": "Y."
+      },
+      {
+        "family": "Courville",
+        "given": "A.C."
+      },
+      {
+        "family": "Pineau",
+        "given": "J."
+      }
+    ],
+    "date": [
+      "2016"
     ],
     "type": null
   },
@@ -28,25 +81,75 @@
       "3."
     ],
     "title": [
-      "**\"End-to-End Learning for Goal-Oriented Dialogue Systems\"** - Explores the use of end-to-end learning techniques to improve the performance of goal-oriented dialogue systems"
+      "**\"Task-Oriented Dialogue Systems for Interactive Learning and Task Completion\"**"
     ],
-    "type": null
+    "editor": [
+      {
+        "family": "Young",
+        "given": "S."
+      },
+      {
+        "family": "Gašić",
+        "given": "M."
+      },
+      {
+        "family": "Thomson",
+        "given": "B."
+      },
+      {
+        "family": "Williams",
+        "given": "J.D."
+      }
+    ],
+    "date": [
+      "2013"
+    ],
+    "container-title": [
+      "Proceedings of the IEEE"
+    ],
+    "type": "paper-conference"
   },
   {
     "citation-number": [
       "4."
     ],
-    "title": [
-      "**\"Reinforcement Learning for Goal-Oriented Dialogue Systems\"** - Discusses the application of reinforcement learning to train conversational agents to achieve user goals"
+    "author": [
+      {
+        "literal": "**\"Neural Approaches to Conversational AI\"** - Chen, H., Liu, X., Yin, D., & Tang, J."
+      }
     ],
-    "type": null
+    "date": [
+      "2017"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "ACM SIGKDD Explorations Newsletter"
+    ]
   },
   {
     "citation-number": [
       "5."
     ],
     "title": [
-      "**\"Natural Language Understanding for Goal-Oriented Dialogue Systems\"** - Examines the challenges and solutions in natural language understanding for systems designed to achieve specific goals"
+      "**\"Dialogue State Tracking: A Neural Reading Comprehension Approach\"**",
+      "ACL"
+    ],
+    "editor": [
+      {
+        "family": "Zhong",
+        "given": "V."
+      },
+      {
+        "family": "Xiong",
+        "given": "C."
+      },
+      {
+        "family": "Socher",
+        "given": "R."
+      }
+    ],
+    "date": [
+      "2018"
     ],
     "type": null
   },
@@ -54,8 +157,16 @@
     "citation-number": [
       "6."
     ],
+    "author": [
+      {
+        "literal": "**\"Hierarchical Reinforcement Learning for Open-Domain Dialog\"** - Budzianowski, P., & Vulić, I."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
     "title": [
-      "**\"Multi-Task Learning for Goal-Oriented Dialogue Systems\"** - Investigates the use of multi-task learning to improve the performance of goal-oriented conversational agents"
+      "NeurIPS"
     ],
     "type": null
   },
@@ -64,7 +175,32 @@
       "7."
     ],
     "title": [
-      "**\"User Modeling in Goal-Oriented Dialogue Systems\"** - Focuses on the importance of user modeling in designing effective goal-oriented conversational systems"
+      "**\"Transferable Multi-Domain State Generator for Task-Oriented Dialogue Systems\"** - Wu",
+      "ACL"
+    ],
+    "editor": [
+      {
+        "family": "C.-S.",
+        "given": "Madotto"
+      },
+      {
+        "family": "A.",
+        "given": "Hosseini-Asl"
+      },
+      {
+        "family": "E.",
+        "given": "Xiong"
+      },
+      {
+        "family": "C."
+      },
+      {
+        "family": "Socher",
+        "given": "R."
+      }
+    ],
+    "date": [
+      "2019"
     ],
     "type": null
   },
@@ -73,16 +209,48 @@
       "8."
     ],
     "title": [
-      "**\"Evaluation Metrics for Goal-Oriented Dialogue Systems\"** - Discusses various metrics used to evaluate the performance of goal-oriented conversational agents"
+      "**\"Conversational Agents and Goal-Oriented Dialogue Systems: A Survey\"**"
     ],
-    "type": null
+    "author": [
+      {
+        "family": "Chen",
+        "given": "H."
+      },
+      {
+        "family": "Liu",
+        "given": "X."
+      },
+      {
+        "family": "Yin",
+        "given": "D."
+      },
+      {
+        "family": "Tang",
+        "given": "J."
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "publisher": [
+      "ACM Transactions on Information Systems"
+    ],
+    "type": "book"
   },
   {
     "citation-number": [
       "9."
     ],
+    "author": [
+      {
+        "literal": "**\"End-to-End Learning of Task-Oriented Dialogs\"** - Bordes, A., Boureau, Y.-L., & Weston, J."
+      }
+    ],
+    "date": [
+      "2017"
+    ],
     "title": [
-      "**\"Transfer Learning for Goal-Oriented Dialogue Systems\"** - Explores the use of transfer learning to enhance the capabilities of goal-oriented conversational systems"
+      "ICLR"
     ],
     "type": null
   },
@@ -90,8 +258,47 @@
     "citation-number": [
       "10."
     ],
+    "author": [
+      {
+        "given": "MultiWOZ"
+      }
+    ],
     "title": [
-      "**\"Personalization in Goal-Oriented Dialogue Systems\"** - Examines techniques for personalizing interactions in goal-oriented conversational agents"
+      "A Large-Scale Multi-Domain Wizard-of-Oz Dataset for Task-Oriented Dialogue Modelling\"**",
+      "EMNLP"
+    ],
+    "producer": [
+      {
+        "family": "Budzianowski",
+        "given": "P."
+      },
+      {
+        "family": "Wen",
+        "given": "T.-H."
+      },
+      {
+        "family": "Tseng",
+        "given": "B.-H."
+      },
+      {
+        "family": "Casanueva",
+        "given": "I."
+      },
+      {
+        "family": "Ultes",
+        "given": "S."
+      },
+      {
+        "family": "Ramadan",
+        "given": "O."
+      },
+      {
+        "family": "Gašić",
+        "given": "M."
+      }
+    ],
+    "date": [
+      "2018"
     ],
     "type": null
   },
@@ -100,7 +307,21 @@
       "11."
     ],
     "title": [
-      "**\"Context-Aware Goal-Oriented Dialogue Systems\"** - Discusses the importance of context awareness in designing effective goal-oriented conversational systems"
+      "**\"Dialogue Management with Structured Deep Recurrent Neural Networks\"**",
+      "SIGDIAL"
+    ],
+    "author": [
+      {
+        "family": "Zhao",
+        "given": "T."
+      },
+      {
+        "family": "Eskenazi",
+        "given": "M."
+      }
+    ],
+    "date": [
+      "2016"
     ],
     "type": null
   },
@@ -109,16 +330,45 @@
       "12."
     ],
     "title": [
-      "**\"Scalable Architectures for Goal-Oriented Dialogue Systems\"** - Focuses on the design of scalable architectures for goal-oriented conversational agents"
+      "**\"Learning to Actively Learn Neural Dialogue Systems\"**",
+      "NAACL"
     ],
-    "type": null
+    "location": [
+      "Liu, C.-W., Lee"
+    ],
+    "publisher": [
+      "J.-Y., & Lane"
+    ],
+    "author": [
+      {
+        "given": "I."
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": "book"
   },
   {
     "citation-number": [
       "13."
     ],
     "title": [
-      "**\"Human-in-the-Loop Training for Goal-Oriented Dialogue Systems\"** - Explores the use of human-in-the-loop training techniques to improve the performance of goal-oriented conversational agents"
+      "**\"Goal-Oriented End-to-End Conversational Models with Profile Features in a Real-World Setting\"**",
+      "AAAI"
+    ],
+    "editor": [
+      {
+        "family": "Zhang",
+        "given": "Y."
+      },
+      {
+        "family": "Yu",
+        "given": "Z."
+      }
+    ],
+    "date": [
+      "2020"
     ],
     "type": null
   },
@@ -127,25 +377,83 @@
       "14."
     ],
     "title": [
-      "**\"Conversational AI for Customer Support: A Goal-Oriented Approach\"** - Discusses the application of goal-oriented conversational systems in customer support scenarios"
+      "**\"A Comprehensive Review of Dialogue State Tracking Techniques for Goal-Oriented Dialogue Systems\"**"
     ],
-    "type": null
+    "editor": [
+      {
+        "family": "Rastogi",
+        "given": "A."
+      },
+      {
+        "family": "Hakkani-Tür",
+        "given": "D."
+      },
+      {
+        "family": "Heck",
+        "given": "L."
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "IEEE Signal Processing Magazine"
+    ]
   },
   {
     "citation-number": [
       "15."
     ],
-    "title": [
-      "**\"Task-Oriented Dialogue Systems: Challenges and Opportunities\"** - Examines the challenges and opportunities in designing task-oriented dialogue systems"
+    "author": [
+      {
+        "literal": "**\"Conversational AI: Dialogue Systems, Conversational Agents, and Chatbots\"** - McTear, M."
+      }
     ],
-    "type": null
+    "date": [
+      "2020"
+    ],
+    "publisher": [
+      "Synthesis Lectures on Human Language Technologies"
+    ],
+    "type": "book"
   },
   {
     "citation-number": [
       "16."
     ],
     "title": [
-      "**\"Interactive Learning for Goal-Oriented Dialogue Systems\"** - Focuses on the use of interactive learning techniques to train goal-oriented conversational agents"
+      "**\"Interactive Learning for Neural Dialogue Generation\"**",
+      "EMNLP"
+    ],
+    "author": [
+      {
+        "family": "Li",
+        "given": "J."
+      },
+      {
+        "family": "Monroe",
+        "given": "W."
+      },
+      {
+        "family": "Shi",
+        "given": "T."
+      },
+      {
+        "family": "Jean",
+        "given": "S."
+      },
+      {
+        "family": "Ritter",
+        "given": "A."
+      },
+      {
+        "family": "Jurafsky",
+        "given": "D."
+      }
+    ],
+    "date": [
+      "2016"
     ],
     "type": null
   },
@@ -154,7 +462,33 @@
       "17."
     ],
     "title": [
-      "**\"Dialogue State Tracking for Goal-Oriented Systems\"** - Discusses the importance of dialogue state tracking in goal-oriented conversational systems"
+      "**\"Towards Scalable Multi-Domain Conversational Agents: The Schema-Guided Dialogue Dataset\"**",
+      "AAAI"
+    ],
+    "author": [
+      {
+        "family": "Rastogi",
+        "given": "A."
+      },
+      {
+        "family": "Zang",
+        "given": "X."
+      },
+      {
+        "family": "Sunkara",
+        "given": "S."
+      },
+      {
+        "family": "Gupta",
+        "given": "R."
+      },
+      {
+        "family": "Khaitan",
+        "given": "P."
+      }
+    ],
+    "date": [
+      "2020"
     ],
     "type": null
   },
@@ -163,7 +497,25 @@
       "18."
     ],
     "title": [
-      "**\"Goal-Oriented Dialogue Systems for Healthcare Applications\"** - Explores the use of goal-oriented conversational agents in healthcare applications"
+      "**\"Dialogue Natural Language Inference: A New Task for Dialogue State Tracking\"**",
+      "ACL"
+    ],
+    "editor": [
+      {
+        "family": "Welleck",
+        "given": "S."
+      },
+      {
+        "family": "Weston",
+        "given": "J."
+      },
+      {
+        "family": "Cho",
+        "given": "K."
+      }
+    ],
+    "date": [
+      "2019"
     ],
     "type": null
   },
@@ -171,8 +523,26 @@
     "citation-number": [
       "19."
     ],
+    "author": [
+      {
+        "family": "Conversational",
+        "given": "A.I."
+      },
+      {
+        "family": "Jurafsky",
+        "given": "D."
+      },
+      {
+        "family": "Martin",
+        "given": "J.H."
+      }
+    ],
     "title": [
-      "**\"Explainable AI in Goal-Oriented Dialogue Systems\"** - Examines the importance of explainability in designing goal-oriented conversational agents"
+      "The Science Behind the Chat\"**",
+      "Speech and Language Processing"
+    ],
+    "date": [
+      "2021"
     ],
     "type": null
   },
@@ -180,14 +550,22 @@
     "citation-number": [
       "20."
     ],
-    "title": [
-      "**\"Future Directions in Goal-Oriented Dialogue Systems\"** - Discusses the future directions and emerging trends in the field of goal-oriented conversational systems"
+    "author": [
+      {
+        "literal": "**\"Neural Conversational Models\"** - Vinyals, O., & Le, Q."
+      }
     ],
-    "type": null
+    "date": [
+      "2015"
+    ],
+    "publisher": [
+      "ICML Deep Learning Workshop"
+    ],
+    "type": "book"
   },
   {
     "title": [
-      "These articles should provide a comprehensive overview of the current state of research and development in goal awareness for conversational systems"
+      "These articles should provide a comprehensive overview of the current state and advancements in goal awareness for conversational systems"
     ],
     "type": null
   }

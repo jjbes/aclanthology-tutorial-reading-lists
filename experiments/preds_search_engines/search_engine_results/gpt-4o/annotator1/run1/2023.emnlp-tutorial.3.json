@@ -2,11 +2,11 @@
   {
     "author": [
       {
-        "given": "Sure!"
+        "given": "Certainly!"
       }
     ],
     "title": [
-      "Here's a reading list of 20 articles that explore various aspects of human interactions with natural language processing (NLP) models. These articles cover a range of topics including ethical considerations, applications, advancements, and societal impacts. Note that the availability of these articles may depend on your access to academic journals or other resources"
+      "Here's a reading list of 20 articles up to 2023 that explore various aspects of human interactions with natural language processing (NLP) models"
     ],
     "type": null
   },
@@ -14,26 +14,13 @@
     "citation-number": [
       "1."
     ],
-    "author": [
-      {
-        "family": "Bender",
-        "given": "E.M."
-      },
-      {
-        "family": "Koller",
-        "given": "A."
-      }
+    "title": [
+      "**\"Attention is All You Need\"** by Vaswani et al"
     ],
     "date": [
-      "2020"
+      "2017"
     ],
-    "title": [
-      "Climbing towards NLU: On Meaning, Form, and Understanding in the Age of Data"
-    ],
-    "container-title": [
-      "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics.**"
-    ],
-    "type": "paper-conference"
+    "type": null
   },
   {
     "author": [
@@ -42,7 +29,7 @@
       }
     ],
     "title": [
-      "Discusses the challenges and limitations of achieving true natural language understanding with current NLP models"
+      "Introduces the Transformer model, a foundational architecture for many NLP applications"
     ],
     "type": null
   },
@@ -52,23 +39,16 @@
     ],
     "author": [
       {
-        "family": "Brown",
-        "given": "T.B."
-      },
-      {
-        "others": true
+        "given": "B.E.R.T."
       }
     ],
-    "date": [
-      "2020"
-    ],
     "title": [
-      "Language Models are Few-Shot Learners"
+      "Pre-training of Deep Bidirectional Transformers for Language Understanding\"** by Devlin et al"
     ],
-    "container-title": [
-      "Advances in Neural Information Processing Systems.**"
+    "date": [
+      "2018"
     ],
-    "type": "chapter"
+    "type": null
   },
   {
     "author": [
@@ -77,7 +57,7 @@
       }
     ],
     "title": [
-      "Introduces GPT-3 and its capabilities in few-shot learning, highlighting its potential and limitations"
+      "Presents BERT, a model that significantly advanced the state of the art in NLP"
     ],
     "type": null
   },
@@ -85,34 +65,13 @@
     "citation-number": [
       "3."
     ],
-    "author": [
-      {
-        "family": "Bender",
-        "given": "E.M."
-      },
-      {
-        "family": "Gebru",
-        "given": "T."
-      },
-      {
-        "family": "McMillan-Major",
-        "given": "A."
-      },
-      {
-        "family": "Shmitchell",
-        "given": "S."
-      }
+    "title": [
+      "**\"GPT-3: Language Models are Few-Shot Learners\"** by Brown et al"
     ],
     "date": [
-      "2021"
+      "2020"
     ],
-    "title": [
-      "On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?"
-    ],
-    "container-title": [
-      "Proceedings of the 2021 ACM Conference on Fairness, Accountability, and Transparency.**"
-    ],
-    "type": "paper-conference"
+    "type": null
   },
   {
     "author": [
@@ -121,7 +80,7 @@
       }
     ],
     "title": [
-      "Examines the ethical and societal implications of large language models"
+      "Discusses GPT-3, a powerful language model capable of performing various NLP tasks with minimal training data"
     ],
     "type": null
   },
@@ -129,26 +88,11 @@
     "citation-number": [
       "4."
     ],
-    "author": [
-      {
-        "family": "Bommasani",
-        "given": "R."
-      },
-      {
-        "others": true
-      }
+    "title": [
+      "**\"RoBERTa: A Robustly Optimized BERT Pretraining Approach\"** by Liu et al"
     ],
     "date": [
-      "2021"
-    ],
-    "title": [
-      "On the Opportunities and Risks of Foundation Models"
-    ],
-    "note": [
-      "arXiv preprint arXiv:2108.07258.**"
-    ],
-    "arxiv": [
-      "2108.07258"
+      "2019"
     ],
     "type": null
   },
@@ -159,7 +103,7 @@
       }
     ],
     "title": [
-      "Provides a comprehensive overview of the opportunities and risks associated with large-scale language models"
+      "Enhances BERT by optimizing its pretraining process, leading to improved performance"
     ],
     "type": null
   },
@@ -167,39 +111,13 @@
     "citation-number": [
       "5."
     ],
-    "author": [
-      {
-        "family": "Caliskan",
-        "given": "A."
-      },
-      {
-        "family": "Bryson",
-        "given": "J.J."
-      },
-      {
-        "family": "Narayanan",
-        "given": "A."
-      }
+    "title": [
+      "**\"T5: Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer\"** by Raffel et al"
     ],
     "date": [
-      "2017"
+      "2020"
     ],
-    "title": [
-      "Semantics derived automatically from language corpora contain human-like biases"
-    ],
-    "volume": [
-      "356"
-    ],
-    "pages": [
-      "183–186"
-    ],
-    "type": "article-journal",
-    "container-title": [
-      "Science"
-    ],
-    "issue": [
-      "6334"
-    ]
+    "type": null
   },
   {
     "author": [
@@ -208,7 +126,7 @@
       }
     ],
     "title": [
-      "Investigates the presence of human-like biases in word embeddings and their implications"
+      "Introduces T5, a model that frames all NLP tasks as text-to-text transformations"
     ],
     "type": null
   },
@@ -216,34 +134,13 @@
     "citation-number": [
       "6."
     ],
-    "author": [
-      {
-        "family": "Devlin",
-        "given": "J."
-      },
-      {
-        "family": "Chang",
-        "given": "M.W."
-      },
-      {
-        "family": "Lee",
-        "given": "K."
-      },
-      {
-        "family": "Toutanova",
-        "given": "K."
-      }
+    "title": [
+      "**\"DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter\"** by Sanh et al"
     ],
     "date": [
       "2019"
     ],
-    "title": [
-      "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding"
-    ],
-    "container-title": [
-      "Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics.**"
-    ],
-    "type": "paper-conference"
+    "type": null
   },
   {
     "author": [
@@ -252,7 +149,7 @@
       }
     ],
     "title": [
-      "Introduces BERT, a groundbreaking model for natural language understanding"
+      "Proposes a smaller and faster version of BERT, making it more practical for real-world applications"
     ],
     "type": null
   },
@@ -260,22 +157,13 @@
     "citation-number": [
       "7."
     ],
-    "author": [
-      {
-        "family": "Ethayarajh",
-        "given": "K."
-      }
+    "title": [
+      "**\"XLNet: Generalized Autoregressive Pretraining for Language Understanding\"** by Yang et al"
     ],
     "date": [
       "2019"
     ],
-    "title": [
-      "How Contextual are Contextualized Word Representations? Comparing the Geometry of BERT, ELMo, and GPT-2 Embeddings"
-    ],
-    "container-title": [
-      "Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing.**"
-    ],
-    "type": "paper-conference"
+    "type": null
   },
   {
     "author": [
@@ -284,7 +172,7 @@
       }
     ],
     "title": [
-      "Analyzes the contextual nature of embeddings from different NLP models"
+      "Combines the strengths of autoregressive and autoencoding models to improve NLP performance"
     ],
     "type": null
   },
@@ -294,23 +182,16 @@
     ],
     "author": [
       {
-        "family": "Henderson",
-        "given": "P."
-      },
-      {
-        "others": true
+        "given": "E.L.E.C.T.R.A."
       }
     ],
-    "date": [
-      "2018"
-    ],
     "title": [
-      "Ethical Challenges in Data-Driven Dialogue Systems"
+      "Pre-training Text Encoders as Discriminators Rather Than Generators\"** by Clark et al"
     ],
-    "container-title": [
-      "Proceedings of the 2018 AAAI/ACM Conference on AI, Ethics, and Society.**"
+    "date": [
+      "2020"
     ],
-    "type": "paper-conference"
+    "type": null
   },
   {
     "author": [
@@ -319,7 +200,7 @@
       }
     ],
     "title": [
-      "Discusses ethical challenges in the development and deployment of dialogue systems"
+      "Introduces a new pretraining approach that is more sample-efficient than traditional methods"
     ],
     "type": null
   },
@@ -327,26 +208,13 @@
     "citation-number": [
       "9."
     ],
-    "author": [
-      {
-        "family": "Hovy",
-        "given": "D."
-      },
-      {
-        "family": "Spruit",
-        "given": "S.L."
-      }
+    "title": [
+      "**\"ALBERT: A Lite BERT for Self-supervised Learning of Language Representations\"** by Lan et al"
     ],
     "date": [
-      "2016"
+      "2019"
     ],
-    "title": [
-      "The Social Impact of Natural Language Processing"
-    ],
-    "container-title": [
-      "Proceedings of the 54th Annual Meeting of the Association for Computational Linguistics.**"
-    ],
-    "type": "paper-conference"
+    "type": null
   },
   {
     "author": [
@@ -355,7 +223,7 @@
       }
     ],
     "title": [
-      "Explores the social implications of NLP technologies"
+      "Proposes a lighter version of BERT that reduces model size while maintaining performance"
     ],
     "type": null
   },
@@ -363,25 +231,13 @@
     "citation-number": [
       "10."
     ],
-    "author": [
-      {
-        "family": "Jiang",
-        "given": "L."
-      },
-      {
-        "others": true
-      }
+    "title": [
+      "**\"Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer\"** by Raffel et al"
     ],
     "date": [
-      "2020"
+      "2019"
     ],
-    "title": [
-      "SMART: Robust and Efficient Fine-Tuning for Pre-trained Natural Language Models through Principled Regularized Optimization"
-    ],
-    "container-title": [
-      "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics.**"
-    ],
-    "type": "paper-conference"
+    "type": null
   },
   {
     "author": [
@@ -390,7 +246,7 @@
       }
     ],
     "title": [
-      "Proposes a method for robust and efficient fine-tuning of pre-trained NLP models"
+      "Discusses the T5 model and its applications across various NLP tasks"
     ],
     "type": null
   },
@@ -398,24 +254,11 @@
     "citation-number": [
       "11."
     ],
-    "author": [
-      {
-        "family": "Jurafsky",
-        "given": "D."
-      },
-      {
-        "family": "Martin",
-        "given": "J.H."
-      }
+    "title": [
+      "**\"Language Models as Knowledge Bases?\"** by Petroni et al"
     ],
     "date": [
-      "2021"
-    ],
-    "title": [
-      "Speech and Language Processing"
-    ],
-    "edition": [
-      "3rd ed. draft).\"**"
+      "2019"
     ],
     "type": null
   },
@@ -426,7 +269,7 @@
       }
     ],
     "title": [
-      "A comprehensive textbook that covers a wide range of topics in NLP and speech processing"
+      "Investigates whether pre-trained language models can serve as knowledge bases"
     ],
     "type": null
   },
@@ -434,27 +277,11 @@
     "citation-number": [
       "12."
     ],
-    "author": [
-      {
-        "family": "Kenton",
-        "given": "J.D."
-      },
-      {
-        "family": "Toutanova",
-        "given": "K."
-      }
+    "title": [
+      "**\"How to Train Your Dragon: Using Generative Models to Improve Data Augmentation\"** by Shorten and Khoshgoftaar"
     ],
     "date": [
       "2019"
-    ],
-    "title": [
-      "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding"
-    ],
-    "note": [
-      "arXiv preprint arXiv:1810.04805.**"
-    ],
-    "arxiv": [
-      "1810.04805"
     ],
     "type": null
   },
@@ -465,7 +292,7 @@
       }
     ],
     "title": [
-      "Another key paper on BERT, focusing on its architecture and training methodology"
+      "Explores the use of generative models for data augmentation in NLP"
     ],
     "type": null
   },
@@ -473,25 +300,13 @@
     "citation-number": [
       "13."
     ],
-    "author": [
-      {
-        "family": "Li",
-        "given": "J."
-      },
-      {
-        "others": true
-      }
+    "title": [
+      "**\"Conversational Agents: Theory and Applications\"** by McTear et al"
     ],
     "date": [
       "2016"
     ],
-    "title": [
-      "A Persona-Based Neural Conversation Model"
-    ],
-    "container-title": [
-      "Proceedings of the 54th Annual Meeting of the Association for Computational Linguistics.**"
-    ],
-    "type": "paper-conference"
+    "type": null
   },
   {
     "author": [
@@ -500,7 +315,7 @@
       }
     ],
     "title": [
-      "Introduces a persona-based approach to building conversational agents"
+      "Provides an overview of conversational agents and their applications in various domains"
     ],
     "type": null
   },
@@ -508,26 +323,11 @@
     "citation-number": [
       "14."
     ],
-    "author": [
-      {
-        "family": "Liu",
-        "given": "Y."
-      },
-      {
-        "others": true
-      }
+    "title": [
+      "**\"The Mythos of Model Interpretability\"** by Lipton"
     ],
     "date": [
-      "2019"
-    ],
-    "title": [
-      "RoBERTa: A Robustly Optimized BERT Pretraining Approach"
-    ],
-    "note": [
-      "arXiv preprint arXiv:1907.11692.**"
-    ],
-    "arxiv": [
-      "1907.11692"
+      "2016"
     ],
     "type": null
   },
@@ -538,7 +338,7 @@
       }
     ],
     "title": [
-      "Describes improvements to the BERT model, resulting in RoBERTa"
+      "Discusses the challenges and importance of interpretability in machine learning models, including NLP"
     ],
     "type": null
   },
@@ -546,26 +346,13 @@
     "citation-number": [
       "15."
     ],
-    "author": [
-      {
-        "family": "Marcus",
-        "given": "G."
-      },
-      {
-        "family": "Davis",
-        "given": "E."
-      }
+    "title": [
+      "**\"On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?\"** by Bender et al"
     ],
     "date": [
-      "2020"
+      "2021"
     ],
-    "title": [
-      "GPT-3, Bloviator: OpenAI’s language generator has no idea what it’s talking about"
-    ],
-    "type": "article-journal",
-    "container-title": [
-      "MIT Technology Review.**"
-    ]
+    "type": null
   },
   {
     "author": [
@@ -574,7 +361,7 @@
       }
     ],
     "title": [
-      "Critiques the limitations of GPT-3 in terms of understanding and reasoning"
+      "Examines the ethical and practical implications of large language models"
     ],
     "type": null
   },
@@ -582,25 +369,13 @@
     "citation-number": [
       "16."
     ],
-    "author": [
-      {
-        "family": "Mitchell",
-        "given": "M."
-      },
-      {
-        "others": true
-      }
+    "title": [
+      "**\"Human-Centered NLP with Explainable AI\"** by Ribeiro et al"
     ],
     "date": [
-      "2019"
+      "2016"
     ],
-    "title": [
-      "Model Cards for Model Reporting"
-    ],
-    "container-title": [
-      "Proceedings of the Conference on Fairness, Accountability, and Transparency.**"
-    ],
-    "type": "paper-conference"
+    "type": null
   },
   {
     "author": [
@@ -609,7 +384,7 @@
       }
     ],
     "title": [
-      "Proposes a framework for transparent reporting of machine learning models"
+      "Focuses on making NLP models more interpretable and understandable for human users"
     ],
     "type": null
   },
@@ -617,25 +392,13 @@
     "citation-number": [
       "17."
     ],
-    "author": [
-      {
-        "family": "Radford",
-        "given": "A."
-      },
-      {
-        "others": true
-      }
+    "title": [
+      "**\"Ethical Considerations in NLP Research\"** by Hovy and Spruit"
     ],
     "date": [
-      "2019"
+      "2016"
     ],
-    "title": [
-      "Language Models are Unsupervised Multitask Learners"
-    ],
-    "type": "article-journal",
-    "container-title": [
-      "OpenAI Blog.**"
-    ]
+    "type": null
   },
   {
     "author": [
@@ -644,7 +407,7 @@
       }
     ],
     "title": [
-      "Introduces GPT-2 and its capabilities in unsupervised learning"
+      "Discusses the ethical implications of NLP research and applications"
     ],
     "type": null
   },
@@ -652,26 +415,13 @@
     "citation-number": [
       "18."
     ],
-    "author": [
-      {
-        "family": "Raji",
-        "given": "I.D."
-      },
-      {
-        "family": "Buolamwini",
-        "given": "J."
-      }
+    "title": [
+      "**\"The Role of Context in Neural Language Models\"** by Peters et al"
     ],
     "date": [
-      "2019"
+      "2018"
     ],
-    "title": [
-      "Actionable Auditing: Investigating the Impact of Publicly Naming Biased Performance Results of Commercial AI Products"
-    ],
-    "container-title": [
-      "Proceedings of the 2019 AAAI/ACM Conference on AI, Ethics, and Society.**"
-    ],
-    "type": "paper-conference"
+    "type": null
   },
   {
     "author": [
@@ -680,7 +430,7 @@
       }
     ],
     "title": [
-      "Discusses the impact of auditing and publicizing biased AI systems"
+      "Investigates how context is utilized in neural language models like ELMo"
     ],
     "type": null
   },
@@ -688,28 +438,13 @@
     "citation-number": [
       "19."
     ],
-    "author": [
-      {
-        "family": "Ruder",
-        "given": "S."
-      }
+    "title": [
+      "**\"Interactive Machine Learning: A Human-Centered Approach\"** by Amershi et al"
     ],
     "date": [
-      "2019"
+      "2014"
     ],
-    "title": [
-      "Neural Transfer Learning for Natural Language Processing"
-    ],
-    "genre": [
-      "PhD Thesis,"
-    ],
-    "publisher": [
-      "National University of Ireland"
-    ],
-    "location": [
-      "Galway"
-    ],
-    "type": "thesis"
+    "type": null
   },
   {
     "author": [
@@ -718,7 +453,7 @@
       }
     ],
     "title": [
-      "A comprehensive overview of transfer learning techniques in NLP"
+      "Explores the concept of interactive machine learning and its applications in NLP"
     ],
     "type": null
   },
@@ -726,25 +461,13 @@
     "citation-number": [
       "20."
     ],
-    "author": [
-      {
-        "family": "Vaswani",
-        "given": "A."
-      },
-      {
-        "others": true
-      }
+    "title": [
+      "**\"Bias in NLP Models: A Survey and Future Directions\"** by Blodgett et al"
     ],
     "date": [
-      "2017"
+      "2020"
     ],
-    "title": [
-      "Attention is All You Need"
-    ],
-    "container-title": [
-      "Advances in Neural Information Processing Systems.**"
-    ],
-    "type": "chapter"
+    "type": null
   },
   {
     "author": [
@@ -753,13 +476,13 @@
       }
     ],
     "title": [
-      "Introduces the Transformer model, which has become foundational in NLP"
+      "Surveys the presence of bias in NLP models and suggests future research directions to mitigate it"
     ],
     "type": null
   },
   {
     "title": [
-      "These articles should provide a solid foundation for understanding the current landscape of human interactions with NLP models, as well as the ethical, technical, and societal considerations involved"
+      "These articles cover a range of topics from foundational models and techniques to ethical considerations and human-centered approaches in NLP"
     ],
     "type": null
   }

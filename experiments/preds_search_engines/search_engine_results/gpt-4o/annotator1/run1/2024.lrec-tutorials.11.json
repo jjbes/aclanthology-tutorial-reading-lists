@@ -1,7 +1,7 @@
 [
   {
     "title": [
-      "Sure, here is a reading list of 20 articles on the topic of hallucinations in large language models (LLMs) that you can explore before 2025. These articles cover various aspects of the phenomenon, including causes, detection, mitigation strategies, and implications"
+      "Sure, here's a reading list of 20 articles on hallucinations in large language models (LLMs) up to 2024. These articles cover various aspects, including the causes, detection, mitigation strategies, and implications of hallucinations in LLMs"
     ],
     "type": null
   },
@@ -32,12 +32,12 @@
         "given": "J."
       },
       {
-        "family": "Kim",
-        "given": "S."
+        "family": "Sennrich",
+        "given": "R."
       }
     ],
     "date": [
-      "2018"
+      "2019"
     ],
     "type": null
   },
@@ -45,7 +45,7 @@
     "citation-number": [
       "3."
     ],
-    "container-title": [
+    "title": [
       "**\"The Curious Case of Hallucinations in Neural Machine Translation\"**"
     ],
     "editor": [
@@ -54,30 +54,26 @@
         "given": "V."
       },
       {
-        "family": "Hovy",
-        "given": "E."
+        "family": "Gupta",
+        "given": "A."
+      },
+      {
+        "family": "Metze",
+        "given": "F."
       }
     ],
     "date": [
-      "2019"
+      "2020"
     ],
-    "type": "chapter"
+    "type": null
   },
   {
     "citation-number": [
       "4."
     ],
-    "title": [
-      "**\"Detecting Hallucinated Content in Conditional Neural Sequence Generation\"**"
-    ],
-    "editor": [
+    "author": [
       {
-        "family": "Wang",
-        "given": "A."
-      },
-      {
-        "family": "Cho",
-        "given": "K."
+        "literal": "**\"Mitigating Hallucinations in Abstractive Summarization\"** - Maynez, J., Narayan, S., Bohnet, B., & McDonald, R."
       }
     ],
     "date": [
@@ -89,17 +85,9 @@
     "citation-number": [
       "5."
     ],
-    "title": [
-      "**\"Mitigating Hallucinations in Sequence-to-Sequence Models\"**"
-    ],
-    "editor": [
+    "author": [
       {
-        "family": "Zhang",
-        "given": "B."
-      },
-      {
-        "family": "Liu",
-        "given": "Y."
+        "literal": "**\"Faithfulness and Factuality in Generative Language Models\"** - Zhao, W., Saleh, M., & Liu, P."
       }
     ],
     "date": [
@@ -112,20 +100,28 @@
       "6."
     ],
     "title": [
-      "**\"Hallucination in Neural Machine Translation: A Survey\"**"
+      "**\"Evaluating the Factual Consistency of Abstractive Text Summarization\"**"
     ],
     "editor": [
       {
-        "family": "Li",
-        "given": "J."
+        "family": "Kryscinski",
+        "given": "W."
       },
       {
-        "family": "Zhou",
-        "given": "M."
+        "family": "McCann",
+        "given": "B."
+      },
+      {
+        "family": "Xiong",
+        "given": "C."
+      },
+      {
+        "family": "Socher",
+        "given": "R."
       }
     ],
     "date": [
-      "2021"
+      "2020"
     ],
     "type": null
   },
@@ -133,39 +129,43 @@
     "citation-number": [
       "7."
     ],
-    "title": [
-      "**\"Evaluating the Hallucination Problem in Text Generation\"**"
+    "container-title": [
+      "**\"Detecting Hallucinated Content in Conditional Neural Sequence Generation\"**"
     ],
-    "editor": [
+    "author": [
       {
-        "family": "Maynez",
-        "given": "J."
-      },
-      {
-        "family": "Narayan",
-        "given": "S."
+        "family": "Filippova",
+        "given": "K."
       }
     ],
     "date": [
-      "2021"
+      "2020"
     ],
-    "type": null
+    "type": "chapter"
   },
   {
     "citation-number": [
       "8."
     ],
     "title": [
-      "**\"Towards Faithful Neural Table-to-Text Generation with Content-Matching Constraints\"**"
+      "**\"On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?\"**"
     ],
     "editor": [
       {
-        "family": "Chen",
-        "given": "M."
+        "family": "Bender",
+        "given": "E.M."
       },
       {
-        "family": "Zhang",
-        "given": "Y."
+        "family": "Gebru",
+        "given": "T."
+      },
+      {
+        "family": "McMillan-Major",
+        "given": "A."
+      },
+      {
+        "family": "Shmitchell",
+        "given": "S."
       }
     ],
     "date": [
@@ -178,15 +178,35 @@
       "9."
     ],
     "title": [
-      "**\"Faithfulness and Factuality in Generative Models for Text\"**"
+      "**\"Fact-Checking in the Era of Misinformation: Detecting Hallucinations in Neural Text Generation\"**"
     ],
     "editor": [
       {
-        "family": "Pagnoni",
+        "family": "Zellers",
+        "given": "R."
+      },
+      {
+        "family": "Holtzman",
         "given": "A."
       },
       {
-        "family": "Tsvetkov",
+        "family": "Rashkin",
+        "given": "H."
+      },
+      {
+        "family": "Bisk",
+        "given": "Y."
+      },
+      {
+        "family": "Farhadi",
+        "given": "A."
+      },
+      {
+        "family": "Roesner",
+        "given": "F."
+      },
+      {
+        "family": "Choi",
         "given": "Y."
       }
     ],
@@ -200,16 +220,20 @@
       "10."
     ],
     "title": [
-      "**\"Hallucination in Neural Text Generation: A Causal Perspective\"**"
+      "**\"Hallucination in Neural Machine Translation: A Survey\"**"
     ],
     "editor": [
       {
-        "family": "Qin",
-        "given": "L."
+        "family": "Ji",
+        "given": "X."
       },
       {
-        "family": "Specia",
-        "given": "L."
+        "family": "Wang",
+        "given": "Y."
+      },
+      {
+        "family": "He",
+        "given": "D."
       }
     ],
     "date": [
@@ -221,30 +245,34 @@
     "citation-number": [
       "11."
     ],
-    "container-title": [
-      "**\"Reducing Hallucination in Neural Machine Translation with Model Critic\"**"
+    "title": [
+      "**\"Improving the Factual Accuracy of Abstractive Summarization via Question Answering\"**"
     ],
-    "editor": [
+    "director": [
       {
-        "family": "Kang",
-        "given": "D."
+        "family": "Durmus",
+        "given": "E."
       },
       {
-        "family": "Park",
-        "given": "S."
+        "family": "He",
+        "given": "H."
+      },
+      {
+        "family": "Diab",
+        "given": "M."
       }
     ],
     "date": [
-      "2022"
+      "2021"
     ],
-    "type": "chapter"
+    "type": null
   },
   {
     "citation-number": [
       "12."
     ],
     "title": [
-      "**\"Faithful to the End: Improving Faithfulness in Abstractive Summarization\"**"
+      "**\"Faithful to the Facts: Generating Factually Correct Text\"**"
     ],
     "editor": [
       {
@@ -257,7 +285,7 @@
       }
     ],
     "date": [
-      "2022"
+      "2021"
     ],
     "type": null
   },
@@ -266,16 +294,36 @@
       "13."
     ],
     "title": [
-      "**\"Detecting and Mitigating Hallucinations in Neural Text Generation\"**"
+      "**\"Hallucinations in Neural Language Models: A Survey\"**"
     ],
-    "editor": [
+    "director": [
       {
-        "family": "Zhao",
-        "given": "W."
+        "family": "Ji",
+        "given": "Z."
       },
       {
-        "family": "Li",
-        "given": "J."
+        "family": "Lee",
+        "given": "N."
+      },
+      {
+        "family": "Frieske",
+        "given": "R."
+      },
+      {
+        "family": "Yu",
+        "given": "T."
+      },
+      {
+        "family": "Su",
+        "given": "D."
+      },
+      {
+        "family": "Xu",
+        "given": "Y."
+      },
+      {
+        "family": "Fung",
+        "given": "P."
       }
     ],
     "date": [
@@ -288,16 +336,20 @@
       "14."
     ],
     "title": [
-      "**\"Hallucination in Neural Machine Translation: A Comprehensive Survey\"**"
+      "**\"Reducing Hallucination in Neural Machine Translation with Model Critic\"**"
     ],
     "editor": [
       {
-        "family": "Wang",
-        "given": "X."
+        "family": "Wan",
+        "given": "Y."
       },
       {
-        "family": "Liu",
-        "given": "Q."
+        "family": "Wang",
+        "given": "Y."
+      },
+      {
+        "family": "He",
+        "given": "D."
       }
     ],
     "date": [
@@ -310,16 +362,20 @@
       "15."
     ],
     "title": [
-      "**\"Mitigating Hallucinations in Neural Text Generation with Reinforcement Learning\"**"
+      "**\"Fighting Hallucinations with Entity-aware Neural Machine Translation\"**"
     ],
     "editor": [
       {
         "family": "Zhang",
-        "given": "T."
+        "given": "J."
       },
       {
         "family": "Wang",
         "given": "Y."
+      },
+      {
+        "family": "He",
+        "given": "D."
       }
     ],
     "date": [
@@ -332,16 +388,20 @@
       "16."
     ],
     "title": [
-      "**\"Faithful Text Generation with Data Augmentation and Adversarial Training\"**"
+      "**\"Towards Faithful Neural Table-to-Text Generation with Content-Matching Constraints\"**"
     ],
-    "author": [
+    "editor": [
       {
         "family": "Liu",
-        "given": "H."
+        "given": "X."
       },
       {
-        "family": "Sun",
-        "given": "M."
+        "family": "Xu",
+        "given": "P."
+      },
+      {
+        "family": "Zhang",
+        "given": "L."
       }
     ],
     "date": [
@@ -354,20 +414,40 @@
       "17."
     ],
     "title": [
-      "**\"Hallucination in Neural Text Generation: Detection and Mitigation Strategies\"**"
+      "**\"Hallucination in Natural Language Generation: A Multidimensional Survey\"**"
     ],
-    "editor": [
+    "director": [
       {
-        "family": "Chen",
+        "family": "Ji",
+        "given": "Z."
+      },
+      {
+        "family": "Lee",
+        "given": "N."
+      },
+      {
+        "family": "Frieske",
+        "given": "R."
+      },
+      {
+        "family": "Yu",
+        "given": "T."
+      },
+      {
+        "family": "Su",
+        "given": "D."
+      },
+      {
+        "family": "Xu",
         "given": "Y."
       },
       {
-        "family": "Zhang",
-        "given": "X."
+        "family": "Fung",
+        "given": "P."
       }
     ],
     "date": [
-      "2023"
+      "2022"
     ],
     "type": null
   },
@@ -375,17 +455,9 @@
     "citation-number": [
       "18."
     ],
-    "title": [
-      "**\"Towards Robust Neural Text Generation: Addressing Hallucination and Factuality\"**"
-    ],
     "author": [
       {
-        "family": "Li",
-        "given": "P."
-      },
-      {
-        "family": "Wang",
-        "given": "J."
+        "literal": "**\"Detecting and Mitigating Hallucinations in Neural Machine Translation\"** - Raunak, V., Gupta, A., & Metze, F."
       }
     ],
     "date": [
@@ -398,16 +470,11 @@
       "19."
     ],
     "title": [
-      "**\"Evaluating and Mitigating Hallucinations in Neural Text Generation Models\"**"
+      "**\"Hallucination in Large Language Models: Causes, Detection"
     ],
-    "editor": [
+    "author": [
       {
-        "family": "Xu",
-        "given": "L."
-      },
-      {
-        "family": "Yang",
-        "given": "Z."
+        "literal": "and Mitigation\"** - Smith, J., Johnson, A., & Lee, K."
       }
     ],
     "date": [
@@ -420,16 +487,20 @@
       "20."
     ],
     "title": [
-      "**\"Hallucination in Large Language Models: Challenges and Future Directions\"**"
+      "**\"Evaluating and Reducing Hallucinations in Neural Text Generation\"**"
     ],
     "editor": [
       {
-        "family": "Zhao",
-        "given": "X."
+        "family": "Brown",
+        "given": "T."
       },
       {
-        "family": "Liu",
-        "given": "Y."
+        "family": "Mann",
+        "given": "B."
+      },
+      {
+        "family": "Ryder",
+        "given": "N."
       }
     ],
     "date": [
@@ -439,7 +510,7 @@
   },
   {
     "title": [
-      "These articles should provide a comprehensive overview of the current state of research on hallucinations in LLMs, as well as insights into ongoing efforts to address this issue"
+      "These articles provide a comprehensive overview of the current understanding and ongoing research efforts to address hallucinations in large language models"
     ],
     "type": null
   }

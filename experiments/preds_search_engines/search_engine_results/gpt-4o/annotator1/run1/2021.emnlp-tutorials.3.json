@@ -1,10 +1,12 @@
 [
   {
-    "title": [
-      "Sure, here is a list of 20 articles on natural language generation (NLG) with a focus on implicit commonsense and background knowledge"
+    "author": [
+      {
+        "given": "Sure!"
+      }
     ],
-    "note": [
-      "published before 2022:"
+    "title": [
+      "Here is a curated list of 20 articles on natural language generation (NLG) with a focus on implicit commonsense and background knowledge, up to the year 2021"
     ],
     "type": null
   },
@@ -12,160 +14,178 @@
     "citation-number": [
       "1."
     ],
-    "title": [
-      "**\"A Survey on Recent Advances in Natural Language Generation from Text\"**"
-    ],
     "author": [
       {
-        "family": "Gatt",
-        "given": "A."
-      },
-      {
-        "family": "Krahmer",
-        "given": "E."
+        "given": "B.E.R.T."
       }
     ],
-    "date": [
-      "2018"
+    "title": [
+      "Pre-training of Deep Bidirectional Transformers for Language Understanding\"** - Devlin et al"
     ],
-    "type": "article-journal",
-    "container-title": [
-      "*Journal of Artificial Intelligence Research*"
-    ]
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Although primarily about language understanding, BERT's pre-training on vast text corpora provides implicit commonsense knowledge useful for NLG"
+    ],
+    "type": null
   },
   {
     "citation-number": [
       "2."
     ],
-    "author": [
-      {
-        "literal": "**\"Commonsense Knowledge in Word Associations and ConceptNet\"** - Speer, R., & Havasi, C."
-      }
+    "title": [
+      "**\"GPT-3: Language Models are Few-Shot Learners\"**"
+    ],
+    "publisher": [
+      "Brown et al"
     ],
     "date": [
-      "2012"
+      "2020"
     ],
-    "container-title": [
-      "*Proceedings of the 2012 Conference on Empirical Methods in Natural Language Processing*"
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
     ],
-    "type": "paper-conference"
+    "title": [
+      "Discusses the capabilities of GPT-3 in generating human-like text with implicit commonsense knowledge"
+    ],
+    "type": null
   },
   {
     "citation-number": [
       "3."
     ],
-    "title": [
-      "**\"Generating Natural Language Descriptions for Semantic Representations of Space and Motion\"**"
-    ],
     "author": [
       {
-        "family": "Koller",
-        "given": "A."
-      },
-      {
-        "family": "Kordoni",
-        "given": "V."
+        "given": "C.O.M.E.T."
       }
     ],
-    "date": [
-      "2010"
+    "title": [
+      "Commonsense Transformers for Automatic Knowledge Graph Construction\"** - Bosselut et al"
     ],
-    "type": "article-journal",
-    "container-title": [
-      "*Journal of Artificial Intelligence Research*"
-    ]
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Introduces a model that generates commonsense knowledge using transformers, which can be integrated into NLG systems"
+    ],
+    "type": null
   },
   {
     "citation-number": [
       "4."
     ],
     "title": [
-      "**\"Neural Natural Language Generation: A Survey on Multimodal and Multilingual Methods\"**"
-    ],
-    "author": [
-      {
-        "family": "Zhang",
-        "given": "J."
-      },
-      {
-        "family": "Lapata",
-        "given": "M."
-      }
+      "**\"Neural Text Generation: A Practical Guide\"** - Gatt and Krahmer"
     ],
     "date": [
-      "2019"
+      "2018"
     ],
-    "container-title": [
-      "*Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics*"
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
     ],
-    "type": "paper-conference"
+    "title": [
+      "Provides an overview of neural approaches to text generation, including the incorporation of background knowledge"
+    ],
+    "type": null
   },
   {
     "citation-number": [
       "5."
     ],
-    "author": [
-      {
-        "literal": "**\"Commonsense Knowledge Mining from Pretrained Models\"** - Bosselut, A., Rashkin, H., Sap, M., Malaviya, C., Celikyilmaz, A., & Choi, Y."
-      }
+    "title": [
+      "**\"A Knowledge-Enhanced Pretraining Model for Commonsense Story Generation\"**"
     ],
     "date": [
-      "2019"
+      "2020"
     ],
+    "type": "article-journal",
     "container-title": [
-      "*Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing*"
+      "Guan et al"
+    ]
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
     ],
-    "type": "paper-conference"
+    "title": [
+      "Explores how pretraining with knowledge graphs can improve story generation by embedding commonsense knowledge"
+    ],
+    "type": null
   },
   {
     "citation-number": [
       "6."
     ],
     "title": [
-      "**\"Learning to Generate Natural Language Rationales for Game Playing Agents\"**"
-    ],
-    "author": [
-      {
-        "family": "Ehsan",
-        "given": "U."
-      },
-      {
-        "family": "Harrison",
-        "given": "B."
-      },
-      {
-        "family": "Chan",
-        "given": "L."
-      },
-      {
-        "family": "Riedl",
-        "given": "M.O."
-      }
+      "**\"NarrativeQA: Reading Comprehension Challenge with Humans in the Loop\"** - Kočiský et al"
     ],
     "date": [
       "2018"
     ],
-    "container-title": [
-      "*Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing*"
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
     ],
-    "type": "paper-conference"
+    "title": [
+      "Presents a dataset and challenge that require models to generate answers based on narrative context, emphasizing the need for background knowledge"
+    ],
+    "type": null
   },
   {
     "citation-number": [
       "7."
     ],
-    "author": [
-      {
-        "literal": "**\"Generating Natural Language Inference Chains\"** - Khot, T., Sabharwal, A., & Clark, P."
-      }
+    "title": [
+      "**\"Language Models as Knowledge Bases?\"** - Petroni et al"
     ],
     "date": [
-      "2017"
+      "2019"
     ],
-    "container-title": [
-      "*Proceedings of the 2017 Conference on Empirical Methods in Natural Language Processing*"
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
     ],
-    "type": "paper-conference"
+    "title": [
+      "Investigates the extent to which pre-trained language models like BERT contain factual and commonsense knowledge"
+    ],
+    "type": null
   },
   {
     "citation-number": [
@@ -173,259 +193,313 @@
     ],
     "author": [
       {
-        "literal": "**\"Commonsense Knowledge Base Completion\"** - Li, P., & Srikumar, V."
+        "literal": "**\"Towards Commonsense and Knowledgeable AI Systems\"** - Zhang et al."
       }
     ],
     "date": [
-      "2019"
+      "2020"
     ],
-    "container-title": [
-      "*Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics*"
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
     ],
-    "type": "paper-conference"
+    "title": [
+      "Discusses various approaches to integrating commonsense and background knowledge into AI systems, including NLG"
+    ],
+    "type": null
   },
   {
     "citation-number": [
       "9."
     ],
     "title": [
-      "**\"Neural Natural Language Generation: A Review\"**"
+      "**\"Commonsense Knowledge in Word Associations and ConceptNet\"**"
     ],
-    "author": [
-      {
-        "family": "Reiter",
-        "given": "E."
-      }
+    "publisher": [
+      "Speer and Lowry-Duda"
     ],
     "date": [
-      "2018"
+      "2017"
     ],
-    "type": "article-journal",
-    "container-title": [
-      "*Journal of Artificial Intelligence Research*"
-    ]
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Examines how commonsense knowledge from ConceptNet can be used in language generation tasks"
+    ],
+    "type": null
   },
   {
     "citation-number": [
       "10."
     ],
-    "author": [
-      {
-        "literal": "**\"Incorporating Commonsense Knowledge into Neural Machine Translation\"** - Storks, S., Gao, Q., & Chai, J. Y."
-      }
+    "title": [
+      "**\"Learning to Generate Natural Language Rationales for Game Playing Agents\"**"
     ],
     "date": [
       "2019"
     ],
+    "type": "article-journal",
     "container-title": [
-      "*Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing*"
+      "Ehsan et al"
+    ]
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
     ],
-    "type": "paper-conference"
+    "title": [
+      "Focuses on generating explanations for AI decisions in games, requiring implicit commonsense reasoning"
+    ],
+    "type": null
   },
   {
     "citation-number": [
       "11."
     ],
     "title": [
-      "**\"Generating Natural Language Descriptions for Images: A Survey\"**"
-    ],
-    "author": [
-      {
-        "family": "Bernardi",
-        "given": "R."
-      },
-      {
-        "family": "Cakici",
-        "given": "R."
-      },
-      {
-        "family": "Elliott",
-        "given": "D."
-      },
-      {
-        "family": "Erdem",
-        "given": "A."
-      },
-      {
-        "family": "Erdem",
-        "given": "E."
-      },
-      {
-        "family": "Ikizler-Cinbis",
-        "given": "N."
-      },
-      {
-        "family": "Plank",
-        "given": "B."
-      },
-      {
-        "others": true
-      }
+      "**\"Story Cloze Test: A New Benchmark for Story Understanding and Generation\"** - Mostafazadeh et al"
     ],
     "date": [
       "2016"
     ],
-    "type": "article-journal",
-    "container-title": [
-      "*Journal of Artificial Intelligence Research*"
-    ]
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Introduces a benchmark for evaluating story generation models on their ability to use commonsense knowledge"
+    ],
+    "type": null
   },
   {
     "citation-number": [
       "12."
     ],
-    "author": [
-      {
-        "literal": "**\"Commonsense Knowledge in Neural Natural Language Generation\"** - Lin, B. Y., & Sun, M."
-      }
+    "title": [
+      "**\"Generating Sentences from a Continuous Space\"** - Bowman et al"
     ],
     "date": [
-      "2020"
+      "2016"
     ],
-    "container-title": [
-      "*Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing*"
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
     ],
-    "type": "paper-conference"
+    "title": [
+      "Discusses variational autoencoders for text generation, which can implicitly capture background knowledge"
+    ],
+    "type": null
   },
   {
     "citation-number": [
       "13."
     ],
-    "author": [
-      {
-        "literal": "**\"Generating Natural Language Explanations for Commonsense Reasoning\"** - Rajani, N. F., McCann, B., Xiong, C., & Socher, R."
-      }
+    "title": [
+      "**\"A Survey of the State of the Art in Natural Language Generation: Core tasks, applications and evaluation\"** - Gatt and Krahmer"
     ],
     "date": [
-      "2019"
+      "2018"
     ],
-    "container-title": [
-      "*Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing*"
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
     ],
-    "type": "paper-conference"
+    "title": [
+      "Comprehensive survey covering various NLG tasks, including those requiring commonsense and background knowledge"
+    ],
+    "type": null
   },
   {
     "citation-number": [
       "14."
     ],
-    "author": [
-      {
-        "literal": "**\"Commonsense Knowledge in Neural Language Models\"** - Trinh, T. H., & Le, Q. V."
-      }
+    "title": [
+      "**\"Knowledge-Enhanced Neural Conversational Model\"** - Ghazvininejad et al"
     ],
     "date": [
       "2018"
     ],
-    "container-title": [
-      "*Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing*"
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
     ],
-    "type": "paper-conference"
+    "title": [
+      "Explores how external knowledge sources can improve the quality of generated conversational responses"
+    ],
+    "type": null
   },
   {
     "citation-number": [
       "15."
     ],
-    "author": [
-      {
-        "literal": "**\"Generating Natural Language Descriptions for Knowledge Graphs\"** - Lebret, R., Grangier, D., & Auli, M."
-      }
+    "title": [
+      "**\"Event2Mind: Commonsense Inference on Events, Intents, and Reactions\"** - Rashkin et al"
     ],
     "date": [
-      "2016"
+      "2018"
     ],
-    "container-title": [
-      "*Proceedings of the 2016 Conference on Empirical Methods in Natural Language Processing*"
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
     ],
-    "type": "paper-conference"
+    "title": [
+      "Presents a dataset and model for inferring commonsense knowledge about events, useful for NLG"
+    ],
+    "type": null
   },
   {
     "citation-number": [
       "16."
     ],
-    "author": [
-      {
-        "literal": "**\"Commonsense Knowledge in Neural Text Generation\"** - Guan, J., & Huang, M."
-      }
+    "title": [
+      "**\"Generating Fact Checking Explanations\"** - Atanasova et al"
     ],
     "date": [
       "2020"
     ],
-    "container-title": [
-      "*Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing*"
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
     ],
-    "type": "paper-conference"
+    "title": [
+      "Discusses generating explanations for fact-checking, requiring integration of background knowledge"
+    ],
+    "type": null
   },
   {
     "citation-number": [
       "17."
     ],
-    "author": [
-      {
-        "literal": "**\"Generating Natural Language Descriptions for Structured Data\"** - Wiseman, S., Shieber, S. M., & Rush, A. M."
-      }
+    "title": [
+      "**\"Commonsense Knowledge Mining from Pretrained Models\"** - Davison et al"
     ],
     "date": [
-      "2017"
+      "2019"
     ],
-    "container-title": [
-      "*Proceedings of the 2017 Conference on Empirical Methods in Natural Language Processing*"
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
     ],
-    "type": "paper-conference"
+    "title": [
+      "Investigates methods for extracting and utilizing commonsense knowledge from pretrained language models"
+    ],
+    "type": null
   },
   {
     "citation-number": [
       "18."
     ],
-    "author": [
-      {
-        "literal": "**\"Commonsense Knowledge in Neural Story Generation\"** - Yao, L., & Huang, M."
-      }
+    "title": [
+      "**\"Pretrained Language Models for Sequential Sentence Classification\"** - Sun et al"
     ],
     "date": [
       "2019"
     ],
-    "container-title": [
-      "*Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing*"
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
     ],
-    "type": "paper-conference"
+    "title": [
+      "Explores how pretrained models can be fine-tuned for tasks requiring sequential understanding, leveraging implicit knowledge"
+    ],
+    "type": null
   },
   {
     "citation-number": [
       "19."
     ],
-    "author": [
-      {
-        "literal": "**\"Generating Natural Language Descriptions for Visual Data\"** - Vinyals, O., Toshev, A., Bengio, S., & Erhan, D."
-      }
+    "title": [
+      "**\"Knowledge-Aware Dialogue Generation\"**"
+    ],
+    "publisher": [
+      "Zhou et al"
     ],
     "date": [
-      "2015"
+      "2018"
     ],
-    "container-title": [
-      "*Proceedings of the 2015 IEEE Conference on Computer Vision and Pattern Recognition*"
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
     ],
-    "type": "paper-conference"
+    "title": [
+      "Focuses on incorporating external knowledge into dialogue systems to improve the relevance and coherence of generated responses"
+    ],
+    "type": null
   },
   {
     "citation-number": [
       "20."
     ],
-    "author": [
-      {
-        "literal": "**\"Commonsense Knowledge in Neural Dialogue Systems\"** - Zhou, H., Young, T., Huang, M., Zhao, H., Xu, J., & Zhu, X."
-      }
+    "title": [
+      "**\"CommonsenseQA: A Question Answering Challenge Targeting Commonsense Knowledge\"** - Talmor et al"
     ],
     "date": [
-      "2018"
+      "2019"
     ],
-    "container-title": [
-      "*Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing*"
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
     ],
-    "type": "paper-conference"
+    "title": [
+      "Introduces a QA dataset that emphasizes the need for commonsense reasoning, relevant for generating coherent and contextually appropriate answers"
+    ],
+    "type": null
   },
   {
     "title": [
-      "These articles cover a range of topics within natural language generation, with a particular emphasis on the integration of commonsense and background knowledge"
+      "These articles cover a range of approaches and methodologies for incorporating implicit commonsense and background knowledge into NLG systems"
     ],
     "type": null
   }

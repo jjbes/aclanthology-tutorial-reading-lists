@@ -1,7 +1,12 @@
 [
   {
+    "author": [
+      {
+        "given": "Certainly!"
+      }
+    ],
     "title": [
-      "Sure, here is a reading list of 20 articles on meaning representation for natural language, focusing on recent advancements and foundational works up to 2025"
+      "Here's a reading list of 20 articles on meaning representation for natural language, covering various aspects and advancements up to 2024"
     ],
     "type": null
   },
@@ -37,13 +42,343 @@
       }
     ],
     "title": [
-      "This paper discusses the challenges and limitations of current natural language understanding systems"
+      "This paper discusses the challenges in achieving true natural language understanding and the importance of meaning representation"
     ],
     "type": null
   },
   {
     "citation-number": [
       "2."
+    ],
+    "author": [
+      {
+        "family": "Pustejovsky",
+        "given": "J."
+      },
+      {
+        "family": "Stubbs",
+        "given": "A."
+      }
+    ],
+    "date": [
+      "2012"
+    ],
+    "title": [
+      "Natural Language Annotation for Machine Learning: A Guide to Corpus-Building for Applications"
+    ],
+    "publisher": [
+      "O'Reilly Media.**"
+    ],
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "A comprehensive guide on creating annotated corpora for machine learning applications, emphasizing the role of meaning representation"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "author": [
+      {
+        "family": "Manning",
+        "given": "C.D."
+      },
+      {
+        "family": "Schütze",
+        "given": "H."
+      }
+    ],
+    "date": [
+      "1999"
+    ],
+    "title": [
+      "Foundations of Statistical Natural Language Processing"
+    ],
+    "publisher": [
+      "MIT Press.**"
+    ],
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "A foundational text that covers various statistical methods for natural language processing, including meaning representation"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "author": [
+      {
+        "family": "Bojanowski",
+        "given": "P."
+      },
+      {
+        "family": "Grave",
+        "given": "E."
+      },
+      {
+        "family": "Joulin",
+        "given": "A."
+      },
+      {
+        "family": "Mikolov",
+        "given": "T."
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "title": [
+      "Enriching Word Vectors with Subword Information"
+    ],
+    "container-title": [
+      "Transactions of the Association for Computational Linguistics.**"
+    ],
+    "type": "chapter"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "This paper introduces fastText, a model that improves word vectors by incorporating subword information, enhancing meaning representation"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "author": [
+      {
+        "family": "Vaswani",
+        "given": "A."
+      },
+      {
+        "family": "Shazeer",
+        "given": "N."
+      },
+      {
+        "family": "Parmar",
+        "given": "N."
+      },
+      {
+        "family": "Uszkoreit",
+        "given": "J."
+      },
+      {
+        "family": "Jones",
+        "given": "L."
+      },
+      {
+        "family": "Gomez",
+        "given": "A.N."
+      },
+      {
+        "family": "Polosukhin",
+        "given": "I."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "title": [
+      "Attention is All You Need"
+    ],
+    "container-title": [
+      "Advances in Neural Information Processing Systems.**"
+    ],
+    "type": "chapter"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "The Transformer model, which revolutionized NLP by using self-attention mechanisms for better meaning representation"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "author": [
+      {
+        "family": "Devlin",
+        "given": "J."
+      },
+      {
+        "family": "Chang",
+        "given": "M.W."
+      },
+      {
+        "family": "Lee",
+        "given": "K."
+      },
+      {
+        "family": "Toutanova",
+        "given": "K."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "title": [
+      "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding"
+    ],
+    "container-title": [
+      "Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics.**"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Introduction of BERT, a model that significantly advanced the state of the art in meaning representation through bidirectional training"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "author": [
+      {
+        "family": "Radford",
+        "given": "A."
+      },
+      {
+        "family": "Wu",
+        "given": "J."
+      },
+      {
+        "family": "Child",
+        "given": "R."
+      },
+      {
+        "family": "Luan",
+        "given": "D."
+      },
+      {
+        "family": "Amodei",
+        "given": "D."
+      },
+      {
+        "family": "Sutskever",
+        "given": "I."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "title": [
+      "Language Models are Unsupervised Multitask Learners"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "OpenAI.**"
+    ]
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "The GPT-2 model, which demonstrated the power of large-scale unsupervised learning for meaning representation"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "author": [
+      {
+        "family": "Brown",
+        "given": "T.B."
+      },
+      {
+        "family": "Mann",
+        "given": "B."
+      },
+      {
+        "family": "Ryder",
+        "given": "N."
+      },
+      {
+        "family": "Subbiah",
+        "given": "M."
+      },
+      {
+        "family": "Kaplan",
+        "given": "J."
+      },
+      {
+        "family": "Dhariwal",
+        "given": "P."
+      },
+      {
+        "family": "Amodei",
+        "given": "D."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "title": [
+      "Language Models are Few-Shot Learners"
+    ],
+    "container-title": [
+      "Advances in Neural Information Processing Systems.**"
+    ],
+    "type": "chapter"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Introduction of GPT-3, showcasing the potential of few-shot learning for meaning representation"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
     ],
     "author": [
       {
@@ -79,57 +414,10 @@
       "2018"
     ],
     "title": [
-      "Deep contextualized word representations"
-    ],
-    "note": [
-      "arXiv preprint arXiv:1802.05365.**"
-    ],
-    "arxiv": [
-      "1802.05365"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Introduces ELMo, a model that generates deep contextualized word representations"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "3."
-    ],
-    "author": [
-      {
-        "family": "Devlin",
-        "given": "J."
-      },
-      {
-        "family": "Chang",
-        "given": "M.W."
-      },
-      {
-        "family": "Lee",
-        "given": "K."
-      },
-      {
-        "family": "Toutanova",
-        "given": "K."
-      }
-    ],
-    "date": [
-      "2019"
-    ],
-    "title": [
-      "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding"
+      "Deep Contextualized Word Representations"
     ],
     "container-title": [
-      "Proceedings of NAACL-HLT.**"
+      "Proceedings of the 2018 Conference of the North American Chapter of the Association for Computational Linguistics.**"
     ],
     "type": "paper-conference"
   },
@@ -140,211 +428,13 @@
       }
     ],
     "title": [
-      "Presents BERT, a model that has significantly advanced the state of the art in many NLP tasks"
+      "The ELMo model, which introduced deep contextualized word representations for improved meaning representation"
     ],
     "type": null
   },
   {
     "citation-number": [
-      "4."
-    ],
-    "author": [
-      {
-        "family": "Radford",
-        "given": "A."
-      },
-      {
-        "family": "Narasimhan",
-        "given": "K."
-      },
-      {
-        "family": "Salimans",
-        "given": "T."
-      },
-      {
-        "family": "Sutskever",
-        "given": "I."
-      }
-    ],
-    "date": [
-      "2018"
-    ],
-    "title": [
-      "Improving language understanding by generative pre-training"
-    ],
-    "type": "article-journal",
-    "container-title": [
-      "OpenAI.**"
-    ]
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Discusses the GPT model and its impact on language understanding"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "5."
-    ],
-    "author": [
-      {
-        "family": "Brown",
-        "given": "T.B."
-      },
-      {
-        "family": "Mann",
-        "given": "B."
-      },
-      {
-        "family": "Ryder",
-        "given": "N."
-      },
-      {
-        "family": "Subbiah",
-        "given": "M."
-      },
-      {
-        "family": "Kaplan",
-        "given": "J.D."
-      },
-      {
-        "family": "Dhariwal",
-        "given": "P."
-      },
-      {
-        "family": "Amodei",
-        "given": "D."
-      },
-      {
-        "others": true
-      }
-    ],
-    "date": [
-      "2020"
-    ],
-    "title": [
-      "Language models are few-shot learners"
-    ],
-    "note": [
-      "arXiv preprint arXiv:2005.14165.**"
-    ],
-    "arxiv": [
-      "2005.14165"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Introduces GPT-3, a powerful language model capable of few-shot learning"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "6."
-    ],
-    "author": [
-      {
-        "family": "Manning",
-        "given": "C.D."
-      },
-      {
-        "family": "Clark",
-        "given": "K."
-      },
-      {
-        "family": "Hewitt",
-        "given": "J."
-      },
-      {
-        "family": "Khandelwal",
-        "given": "U."
-      },
-      {
-        "family": "Levy",
-        "given": "O."
-      }
-    ],
-    "date": [
-      "2020"
-    ],
-    "title": [
-      "Emergent linguistic structure in artificial neural networks trained by self-supervision"
-    ],
-    "container-title": [
-      "Proceedings of the National Academy of Sciences.**"
-    ],
-    "type": "paper-conference"
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Explores how neural networks develop linguistic structures"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "7."
-    ],
-    "author": [
-      {
-        "family": "Ruder",
-        "given": "S."
-      },
-      {
-        "family": "Peters",
-        "given": "M.E."
-      },
-      {
-        "family": "Swayamdipta",
-        "given": "S."
-      },
-      {
-        "family": "Wolf",
-        "given": "T."
-      }
-    ],
-    "date": [
-      "2019"
-    ],
-    "title": [
-      "Transfer learning in natural language processing"
-    ],
-    "container-title": [
-      "Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Tutorials.**"
-    ],
-    "type": "paper-conference"
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "A comprehensive overview of transfer learning techniques in NLP"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "8."
+      "10."
     ],
     "author": [
       {
@@ -400,13 +490,72 @@
       }
     ],
     "title": [
-      "Discusses improvements over BERT with the RoBERTa model"
+      "RoBERTa, an optimized version of BERT that enhances meaning representation through more robust training techniques"
     ],
     "type": null
   },
   {
     "citation-number": [
-      "9."
+      "11."
+    ],
+    "author": [
+      {
+        "family": "Lewis",
+        "given": "P."
+      },
+      {
+        "family": "Perez",
+        "given": "E."
+      },
+      {
+        "family": "Piktus",
+        "given": "A."
+      },
+      {
+        "family": "Petroni",
+        "given": "F."
+      },
+      {
+        "family": "Karpukhin",
+        "given": "V."
+      },
+      {
+        "family": "Goyal",
+        "given": "N."
+      },
+      {
+        "family": "Riedel",
+        "given": "S."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "title": [
+      "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks"
+    ],
+    "container-title": [
+      "Advances in Neural Information Processing Systems.**"
+    ],
+    "type": "chapter"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "RAG model, which combines retrieval and generation for better meaning representation in knowledge-intensive tasks"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
     ],
     "author": [
       {
@@ -445,7 +594,7 @@
       "2020"
     ],
     "title": [
-      "Exploring the limits of transfer learning with a unified text-to-text transformer"
+      "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer"
     ],
     "type": "article-journal",
     "container-title": [
@@ -459,175 +608,7 @@
       }
     ],
     "title": [
-      "Introduces the T5 model, which frames all NLP tasks as text-to-text transformations"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "10."
-    ],
-    "author": [
-      {
-        "family": "Clark",
-        "given": "K."
-      },
-      {
-        "family": "Luong",
-        "given": "M.T."
-      },
-      {
-        "family": "Le",
-        "given": "Q.V."
-      },
-      {
-        "family": "Manning",
-        "given": "C.D."
-      }
-    ],
-    "date": [
-      "2020"
-    ],
-    "title": [
-      "ELECTRA: Pre-training Text Encoders as Discriminators Rather Than Generators"
-    ],
-    "note": [
-      "arXiv preprint arXiv:2003.10555.**"
-    ],
-    "arxiv": [
-      "2003.10555"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Proposes a new pre-training method that is more efficient than traditional masked language models"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "11."
-    ],
-    "author": [
-      {
-        "family": "Lewis",
-        "given": "M."
-      },
-      {
-        "family": "Liu",
-        "given": "Y."
-      },
-      {
-        "family": "Goyal",
-        "given": "N."
-      },
-      {
-        "family": "Ghazvininejad",
-        "given": "M."
-      },
-      {
-        "family": "Mohamed",
-        "given": "A."
-      },
-      {
-        "family": "Levy",
-        "given": "O."
-      },
-      {
-        "family": "Zettlemoyer",
-        "given": "L."
-      },
-      {
-        "others": true
-      }
-    ],
-    "date": [
-      "2020"
-    ],
-    "title": [
-      "BART: Denoising Sequence-to-Sequence Pre-training for Natural Language Generation"
-    ],
-    "note": [
-      "Translation, and Comprehension.\" arXiv preprint arXiv:1910.13461.**"
-    ],
-    "arxiv": [
-      "1910.13461"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Introduces BART, a model for text generation and comprehension"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "12."
-    ],
-    "author": [
-      {
-        "family": "Kwiatkowski",
-        "given": "T."
-      },
-      {
-        "family": "Palomaki",
-        "given": "J."
-      },
-      {
-        "family": "Redfield",
-        "given": "O."
-      },
-      {
-        "family": "Collins",
-        "given": "M."
-      },
-      {
-        "family": "Parikh",
-        "given": "A."
-      },
-      {
-        "family": "Alberti",
-        "given": "C."
-      },
-      {
-        "family": "Petrov",
-        "given": "S."
-      },
-      {
-        "others": true
-      }
-    ],
-    "date": [
-      "2019"
-    ],
-    "title": [
-      "Natural Questions: a Benchmark for Question Answering Research"
-    ],
-    "container-title": [
-      "Transactions of the Association for Computational Linguistics.**"
-    ],
-    "type": "chapter"
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Presents a benchmark dataset for question answering"
+      "The T5 model, which frames all NLP tasks as text-to-text transformations for unified meaning representation"
     ],
     "type": null
   },
@@ -638,197 +619,34 @@
     "author": [
       {
         "family": "Zhang",
-        "given": "Y."
+        "given": "Z."
       },
       {
-        "family": "Choi",
-        "given": "Y."
-      }
-    ],
-    "date": [
-      "2021"
-    ],
-    "title": [
-      "SituatedQA: Incorporating Extra-Linguistic Contexts into QA"
-    ],
-    "container-title": [
-      "Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing.**"
-    ],
-    "type": "paper-conference"
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Discusses the importance of extra-linguistic contexts in question answering"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "14."
-    ],
-    "author": [
-      {
-        "family": "Bommasani",
-        "given": "R."
+        "family": "Han",
+        "given": "X."
       },
       {
-        "family": "Hudson",
-        "given": "D.A."
+        "family": "Liu",
+        "given": "Z."
       },
       {
-        "family": "Adeli",
-        "given": "E."
+        "family": "Jiang",
+        "given": "X."
       },
       {
-        "family": "Altman",
-        "given": "R."
+        "family": "Sun",
+        "given": "M."
       },
       {
-        "family": "Arora",
-        "given": "S."
-      },
-      {
-        "family": "Arx",
-        "given": "S.",
-        "particle": "von"
-      },
-      {
-        "family": "Liang",
-        "given": "P."
-      },
-      {
-        "others": true
-      }
-    ],
-    "date": [
-      "2021"
-    ],
-    "title": [
-      "On the Opportunities and Risks of Foundation Models"
-    ],
-    "note": [
-      "arXiv preprint arXiv:2108.07258.**"
-    ],
-    "arxiv": [
-      "2108.07258"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "A comprehensive review of foundation models and their implications"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "15."
-    ],
-    "author": [
-      {
-        "family": "Schick",
-        "given": "T."
-      },
-      {
-        "family": "Schütze",
-        "given": "H."
-      }
-    ],
-    "date": [
-      "2021"
-    ],
-    "title": [
-      "Exploiting Cloze-Questions for Few-Shot Text Classification and Natural Language Inference"
-    ],
-    "container-title": [
-      "Proceedings of the 16th Conference of the European Chapter of the Association for Computational Linguistics.**"
-    ],
-    "type": "paper-conference"
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Introduces a method for few-shot learning using cloze questions"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "16."
-    ],
-    "author": [
-      {
-        "family": "Rogers",
-        "given": "A."
-      },
-      {
-        "family": "Kovaleva",
-        "given": "O."
-      },
-      {
-        "family": "Rumshisky",
-        "given": "A."
-      }
-    ],
-    "date": [
-      "2020"
-    ],
-    "title": [
-      "A Primer in BERTology: What we know about how BERT works"
-    ],
-    "container-title": [
-      "Transactions of the Association for Computational Linguistics.**"
-    ],
-    "type": "chapter"
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "A detailed analysis of BERT and its inner workings"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "17."
-    ],
-    "author": [
-      {
-        "family": "Tenney",
-        "given": "I."
-      },
-      {
-        "family": "Das",
-        "given": "D."
-      },
-      {
-        "family": "Pavlick",
-        "given": "E."
+        "family": "Liu",
+        "given": "Q."
       }
     ],
     "date": [
       "2019"
     ],
     "title": [
-      "BERT Rediscovers the Classical NLP Pipeline"
+      "ERNIE: Enhanced Language Representation with Informative Entities"
     ],
     "container-title": [
       "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics.**"
@@ -842,34 +660,34 @@
       }
     ],
     "title": [
-      "Examines how BERT models traditional NLP tasks"
+      "ERNIE model, which incorporates knowledge graphs for enhanced meaning representation"
     ],
     "type": null
   },
   {
     "citation-number": [
-      "18."
+      "14."
     ],
     "author": [
       {
-        "family": "Lample",
-        "given": "G."
+        "family": "Li",
+        "given": "Y."
       },
       {
-        "family": "Conneau",
-        "given": "A."
+        "family": "Roth",
+        "given": "D."
       }
     ],
     "date": [
-      "2019"
+      "2002"
     ],
     "title": [
-      "Cross-lingual Language Model Pretraining"
+      "Learning Question Classifiers"
     ],
     "container-title": [
-      "Advances in Neural Information Processing Systems.**"
+      "Proceedings of the 19th International Conference on Computational Linguistics.**"
     ],
-    "type": "chapter"
+    "type": "paper-conference"
   },
   {
     "author": [
@@ -878,13 +696,167 @@
       }
     ],
     "title": [
-      "Discusses cross-lingual pretraining techniques"
+      "A study on question classification, highlighting the importance of meaning representation in understanding questions"
     ],
     "type": null
   },
   {
     "citation-number": [
-      "19."
+      "15."
+    ],
+    "author": [
+      {
+        "family": "Gardner",
+        "given": "M."
+      },
+      {
+        "family": "Artzi",
+        "given": "Y."
+      },
+      {
+        "family": "Bansal",
+        "given": "M."
+      },
+      {
+        "family": "Bhagavatula",
+        "given": "C."
+      },
+      {
+        "family": "Cho",
+        "given": "K."
+      },
+      {
+        "family": "Das",
+        "given": "D."
+      },
+      {
+        "family": "Zettlemoyer",
+        "given": "L."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "title": [
+      "AllenNLP: A Deep Semantic Natural Language Processing Platform"
+    ],
+    "note": [
+      "arXiv preprint arXiv:1803.07640.**"
+    ],
+    "arxiv": [
+      "1803.07640"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Introduction of AllenNLP, a platform for deep semantic NLP with a focus on meaning representation"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "author": [
+      {
+        "family": "Kwiatkowski",
+        "given": "T."
+      },
+      {
+        "family": "Pradet",
+        "given": "Q."
+      },
+      {
+        "family": "Sil",
+        "given": "A."
+      },
+      {
+        "family": "Collins",
+        "given": "M."
+      },
+      {
+        "family": "Steedman",
+        "given": "M."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "title": [
+      "Natural Language Inference with Compositional Semantics"
+    ],
+    "container-title": [
+      "Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing.**"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "A study on natural language inference using compositional semantics for meaning representation"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "author": [
+      {
+        "family": "Schuster",
+        "given": "S."
+      },
+      {
+        "family": "Gupta",
+        "given": "S."
+      },
+      {
+        "family": "Shah",
+        "given": "R."
+      },
+      {
+        "family": "Lewis",
+        "given": "M."
+      }
+    ],
+    "date": [
+      "2021"
+    ],
+    "title": [
+      "Get Your Vitamin C! Robust Fact Verification with Contrastive Evidence"
+    ],
+    "container-title": [
+      "Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing.**"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Research on fact verification using contrastive evidence, emphasizing the role of meaning representation"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
     ],
     "author": [
       {
@@ -926,40 +898,36 @@
       }
     ],
     "title": [
-      "Introduces a challenging dataset for commonsense reasoning"
+      "Introduction of the HellaSwag dataset for commonsense reasoning and meaning representation"
     ],
     "type": null
   },
   {
     "citation-number": [
-      "20."
+      "19."
     ],
     "author": [
       {
-        "family": "Talmor",
-        "given": "A."
+        "family": "Riedel",
+        "given": "S."
       },
       {
-        "family": "Herzig",
-        "given": "J."
+        "family": "Bosnjak",
+        "given": "M."
       },
       {
-        "family": "Lourie",
-        "given": "N."
-      },
-      {
-        "family": "Berant",
-        "given": "J."
+        "family": "Rocktäschel",
+        "given": "T."
       }
     ],
     "date": [
-      "2019"
+      "2017"
     ],
     "title": [
-      "CommonsenseQA: A Question Answering Challenge Targeting Commonsense Knowledge"
+      "Programming with a Differentiable Forth Interpreter"
     ],
     "container-title": [
-      "Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics.**"
+      "Proceedings of the 34th International Conference on Machine Learning.**"
     ],
     "type": "paper-conference"
   },
@@ -970,13 +938,49 @@
       }
     ],
     "title": [
-      "Presents a dataset for evaluating commonsense knowledge in QA systems"
+      "A novel approach to programming with differentiable interpreters, relevant for meaning representation in procedural tasks"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "author": [
+      {
+        "family": "Kumar",
+        "given": "A."
+      },
+      {
+        "family": "Talukdar",
+        "given": "P."
+      }
+    ],
+    "date": [
+      "2021"
+    ],
+    "title": [
+      "NILE: Natural Language Inference with Faithful Natural Language Explanations"
+    ],
+    "container-title": [
+      "Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing.**"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "The NILE model, which focuses on providing faithful natural language explanations for inference tasks, enhancing meaning representation"
     ],
     "type": null
   },
   {
     "title": [
-      "These articles cover a range of topics from foundational models and techniques to specific applications and challenges in meaning representation for natural language"
+      "These articles cover a broad spectrum of approaches and advancements in meaning representation for natural language, from foundational theories to cutting-edge models and applications"
     ],
     "type": null
   }

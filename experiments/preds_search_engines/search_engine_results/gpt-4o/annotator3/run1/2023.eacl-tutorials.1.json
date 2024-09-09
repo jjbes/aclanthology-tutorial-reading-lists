@@ -2,11 +2,11 @@
   {
     "author": [
       {
-        "given": "Sure!"
+        "given": "Certainly!"
       }
     ],
     "title": [
-      "Here's a reading list of 20 articles on opinion mining in the context of natural language processing (NLP), including some that focus on the analysis of arguments from a social science perspective. These articles are selected to provide a comprehensive overview of the field and its interdisciplinary connections"
+      "Here's a curated reading list of 20 articles up to 2023 that focus on opinion mining in the context of natural language processing (NLP), including the analysis of arguments from a social science perspective"
     ],
     "type": null
   },
@@ -14,13 +14,26 @@
     "citation-number": [
       "1."
     ],
-    "title": [
-      "**\"Opinion Mining and Sentiment Analysis\"** by Bo Pang and Lillian Lee"
+    "author": [
+      {
+        "family": "Pang",
+        "given": "B."
+      },
+      {
+        "family": "Lee",
+        "given": "L."
+      }
     ],
     "date": [
       "2008"
     ],
-    "type": null
+    "title": [
+      "Opinion Mining and Sentiment Analysis"
+    ],
+    "container-title": [
+      "*Foundations and Trends in Information Retrieval*"
+    ],
+    "type": "chapter"
   },
   {
     "author": [
@@ -29,7 +42,7 @@
       }
     ],
     "title": [
-      "A foundational survey of the field, covering key techniques and applications"
+      "A foundational survey on sentiment analysis and opinion mining"
     ],
     "type": null
   },
@@ -37,13 +50,22 @@
     "citation-number": [
       "2."
     ],
-    "title": [
-      "**\"Sentiment Analysis and Opinion Mining\"** by Bing Liu"
+    "author": [
+      {
+        "family": "Liu",
+        "given": "B."
+      }
     ],
     "date": [
       "2012"
     ],
-    "type": null
+    "title": [
+      "Sentiment Analysis and Opinion Mining"
+    ],
+    "container-title": [
+      "*Synthesis Lectures on Human Language Technologies*"
+    ],
+    "type": "chapter"
   },
   {
     "author": [
@@ -52,7 +74,7 @@
       }
     ],
     "title": [
-      "A comprehensive book that provides an in-depth look at sentiment analysis and opinion mining"
+      "Comprehensive overview of sentiment analysis techniques and applications"
     ],
     "type": null
   },
@@ -60,13 +82,34 @@
     "citation-number": [
       "3."
     ],
-    "title": [
-      "**\"Aspect-based Sentiment Analysis: A Survey\"** by Devika Madalli and Pushpak Bhattacharyya"
+    "author": [
+      {
+        "family": "Cambria",
+        "given": "E."
+      },
+      {
+        "family": "Schuller",
+        "given": "B."
+      },
+      {
+        "family": "Xia",
+        "given": "Y."
+      },
+      {
+        "family": "Havasi",
+        "given": "C."
+      }
     ],
     "date": [
-      "2020"
+      "2013"
     ],
-    "type": null
+    "title": [
+      "New Avenues in Opinion Mining and Sentiment Analysis"
+    ],
+    "publisher": [
+      "*IEEE Intelligent Systems*"
+    ],
+    "type": "book"
   },
   {
     "author": [
@@ -75,7 +118,7 @@
       }
     ],
     "title": [
-      "A detailed survey on aspect-based sentiment analysis, a subfield of opinion mining"
+      "Discusses advanced methods and future directions in sentiment analysis"
     ],
     "type": null
   },
@@ -83,13 +126,22 @@
     "citation-number": [
       "4."
     ],
-    "title": [
-      "**\"Deep Learning for Sentiment Analysis: A Survey\"** by Yoon Kim"
+    "author": [
+      {
+        "family": "Feldman",
+        "given": "R."
+      }
     ],
     "date": [
-      "2014"
+      "2013"
     ],
-    "type": null
+    "title": [
+      "Techniques and Applications for Sentiment Analysis"
+    ],
+    "container-title": [
+      "*Communications of the ACM*"
+    ],
+    "type": "chapter"
   },
   {
     "author": [
@@ -98,7 +150,7 @@
       }
     ],
     "title": [
-      "An overview of deep learning techniques applied to sentiment analysis"
+      "Reviews various techniques and real-world applications of sentiment analysis"
     ],
     "type": null
   },
@@ -106,358 +158,25 @@
     "citation-number": [
       "5."
     ],
-    "title": [
-      "**\"A Survey on Sentiment Analysis in Social Media: Facebook, Twitter, and Beyond\"** by Alexander Pak and Patrick Paroubek"
-    ],
-    "date": [
-      "2010"
-    ],
-    "type": null
-  },
-  {
     "author": [
       {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Focuses on sentiment analysis in social media platforms"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "6."
-    ],
-    "title": [
-      "**\"Argument Mining: A Survey\"** by Andreas Peldszus and Manfred Stede"
-    ],
-    "date": [
-      "2013"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "A survey of argument mining, which is closely related to opinion mining"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "7."
-    ],
-    "title": [
-      "**\"Mining Opinions in Comparative Sentences\"** by Wei-Hao Lin and Alexander Hauptmann"
-    ],
-    "date": [
-      "2006"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Discusses techniques for extracting opinions from comparative sentences"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "8."
-    ],
-    "title": [
-      "**\"Sentiment Analysis: A Combined Approach\"** by Erik Cambria"
-    ],
-    "editor": [
-      {
-        "family": "Schuller",
-        "given": "Björn"
+        "family": "Vinodhini",
+        "given": "G."
       },
       {
-        "family": "Xia",
-        "given": "Yunqing"
-      },
-      {
-        "family": "Havasi",
-        "given": "Catherine"
+        "family": "Chandrasekaran",
+        "given": "R.M."
       }
     ],
     "date": [
-      "2013"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
+      "2012"
     ],
     "title": [
-      "Proposes a combined approach to sentiment analysis using multiple techniques"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "9."
-    ],
-    "title": [
-      "**\"Opinion Mining from Online Reviews: A Comparative Study\"** by Minqing Hu and Bing Liu"
-    ],
-    "date": [
-      "2004"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "A comparative study of different methods for opinion mining from online reviews"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "10."
-    ],
-    "author": [
-      {
-        "family": "Mining",
-        "given": "Argumentation"
-      }
-    ],
-    "title": [
-      "The Detection, Classification, and Structure of Arguments in Text\"** by Marie-Francine Moens"
-    ],
-    "editor": [
-      {
-        "family": "Cabrio",
-        "given": "E."
-      },
-      {
-        "family": "Villata",
-        "given": "Serena"
-      }
-    ],
-    "date": [
-      "2014"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Discusses the detection and classification of arguments in text"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "11."
-    ],
-    "title": [
-      "**\"Analyzing Sentiment in Social Media: An Overview\"** by Apoorv Agarwal, Boyi Xie"
-    ],
-    "editor": [
-      {
-        "family": "Vovsha",
-        "given": "Ilia"
-      },
-      {
-        "family": "Rambow",
-        "given": "Owen"
-      },
-      {
-        "family": "Passonneau",
-        "given": "Rebecca"
-      }
-    ],
-    "date": [
-      "2011"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Provides an overview of sentiment analysis techniques applied to social media"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "12."
-    ],
-    "title": [
-      "**\"A Survey on Argument Mining from Text\"** by Elena Cabrio and Serena Villata"
-    ],
-    "date": [
-      "2018"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "A survey focusing on the extraction of arguments from text"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "13."
-    ],
-    "title": [
-      "**\"Sentiment Analysis: Mining Opinions, Sentiments, and Emotions\"** by Bing Liu"
-    ],
-    "date": [
-      "2015"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "A book that covers various aspects of sentiment analysis, including opinion mining"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "14."
-    ],
-    "title": [
-      "**\"Opinion Mining and Sentiment Analysis on a Twitter Dataset\"** by Alexander Pak and Patrick Paroubek"
-    ],
-    "date": [
-      "2010"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Focuses on opinion mining and sentiment analysis on Twitter data"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "15."
-    ],
-    "title": [
-      "**\"Argumentation Mining in User-Generated Web Content\"** by Raquel Mochales and Marie-Francine Moens"
-    ],
-    "date": [
-      "2011"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Discusses argumentation mining in user-generated content on the web"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "16."
-    ],
-    "title": [
-      "**\"Sentiment Analysis and Opinion Mining: A Survey\"** by Ravi Kumar and Suresh Kumar"
-    ],
-    "date": [
-      "2018"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "A survey of sentiment analysis and opinion mining techniques"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "17."
-    ],
-    "title": [
-      "**\"Mining and Summarizing Customer Reviews\"** by Minqing Hu and Bing Liu"
-    ],
-    "date": [
-      "2004"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Techniques for mining and summarizing customer reviews"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "18."
-    ],
-    "title": [
-      "**\"Argument Mining: The Role of Argumentation in Artificial Intelligence\"** by Chris Reed and Derek G"
-    ],
-    "date": [
-      "2010"
+      "Sentiment Analysis and Opinion Mining: A Survey"
     ],
     "type": "article-journal",
     "container-title": [
-      "Bridge"
+      "*International Journal of Advanced Research in Computer Science and Software Engineering*"
     ]
   },
   {
@@ -467,7 +186,491 @@
       }
     ],
     "title": [
-      "Discusses the role of argumentation in AI and its connection to opinion mining"
+      "A detailed survey of sentiment analysis methodologies"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "author": [
+      {
+        "family": "Zhang",
+        "given": "L."
+      },
+      {
+        "family": "Wang",
+        "given": "S."
+      },
+      {
+        "family": "Liu",
+        "given": "B."
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "title": [
+      "Deep Learning for Sentiment Analysis: A Survey"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "*Wiley Interdisciplinary Reviews: Data Mining and Knowledge Discovery*"
+    ]
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Explores the use of deep learning techniques in sentiment analysis"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "author": [
+      {
+        "family": "Balahur",
+        "given": "A."
+      },
+      {
+        "family": "Hermida",
+        "given": "J.M."
+      },
+      {
+        "family": "Montoyo",
+        "given": "A."
+      }
+    ],
+    "date": [
+      "2012"
+    ],
+    "title": [
+      "Detecting Implicit Expressions of Sentiment in Texts"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "*SpringerLink*"
+    ]
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Focuses on identifying implicit sentiment in textual data"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "author": [
+      {
+        "family": "Wilson",
+        "given": "T."
+      },
+      {
+        "family": "Wiebe",
+        "given": "J."
+      },
+      {
+        "family": "Hoffmann",
+        "given": "P."
+      }
+    ],
+    "date": [
+      "2005"
+    ],
+    "title": [
+      "Recognizing Contextual Polarity in Phrase-Level Sentiment Analysis"
+    ],
+    "container-title": [
+      "*Proceedings of the Conference on Human Language Technology and Empirical Methods in Natural Language Processing*"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Discusses methods for determining sentiment polarity in context"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "author": [
+      {
+        "family": "Biber",
+        "given": "D."
+      },
+      {
+        "family": "Conrad",
+        "given": "S."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "title": [
+      "Register, Genre, and Style"
+    ],
+    "publisher": [
+      "*Cambridge University Press*"
+    ],
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Analyzes linguistic features in different registers and genres, relevant for understanding argumentation"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "author": [
+      {
+        "family": "Habernal",
+        "given": "I."
+      },
+      {
+        "family": "Gurevych",
+        "given": "I."
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "title": [
+      "Argumentation Mining in User-Generated Web Discourse"
+    ],
+    "publisher": [
+      "*Computational Linguistics*"
+    ],
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Examines methods for mining arguments from web discourse"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "author": [
+      {
+        "family": "Stab",
+        "given": "C."
+      },
+      {
+        "family": "Gurevych",
+        "given": "I."
+      }
+    ],
+    "date": [
+      "2014"
+    ],
+    "title": [
+      "Identifying Argumentative Discourse Structures in Persuasive Essays"
+    ],
+    "container-title": [
+      "*Proceedings of the Conference on Empirical Methods in Natural Language Processing (EMNLP)*"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Focuses on the structure of arguments in persuasive texts"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "author": [
+      {
+        "family": "Park",
+        "given": "J."
+      },
+      {
+        "family": "Cardie",
+        "given": "C."
+      }
+    ],
+    "date": [
+      "2014"
+    ],
+    "title": [
+      "Identifying Appropriate Support for Propositions in Online User Comments"
+    ],
+    "container-title": [
+      "*Proceedings of the First Workshop on Argumentation Mining*"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Discusses techniques for identifying supportive arguments in online comments"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "author": [
+      {
+        "family": "Lippi",
+        "given": "M."
+      },
+      {
+        "family": "Torroni",
+        "given": "P."
+      }
+    ],
+    "date": [
+      "2016"
+    ],
+    "title": [
+      "Argumentation Mining: State of the Art and Emerging Trends"
+    ],
+    "container-title": [
+      "*ACM Transactions on Internet Technology (TOIT)*"
+    ],
+    "type": "chapter"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "A comprehensive review of the field of argumentation mining"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "author": [
+      {
+        "family": "Lawrence",
+        "given": "J."
+      },
+      {
+        "family": "Reed",
+        "given": "C."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "title": [
+      "Argument Mining: A Survey"
+    ],
+    "container-title": [
+      "*Computational Linguistics*"
+    ],
+    "type": "chapter"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Surveys the landscape of argument mining research"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "author": [
+      {
+        "family": "Cabrio",
+        "given": "E."
+      },
+      {
+        "family": "Villata",
+        "given": "S."
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "title": [
+      "Five Years of Argument Mining: A Data-Driven Analysis"
+    ],
+    "container-title": [
+      "*Proceedings of the Twenty-Seventh International Joint Conference on Artificial Intelligence (IJCAI)*"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Analyzes the progress and data trends in argument mining over five years"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "author": [
+      {
+        "family": "Somasundaran",
+        "given": "S."
+      },
+      {
+        "family": "Wiebe",
+        "given": "J."
+      }
+    ],
+    "date": [
+      "2010"
+    ],
+    "title": [
+      "Recognizing Stances in Ideological On-line Debates"
+    ],
+    "container-title": [
+      "*Proceedings of the NAACL HLT 2010 Workshop on Computational Approaches to Analysis and Generation of Emotion in Text*"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Focuses on stance detection in online debates"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "author": [
+      {
+        "family": "Boltuzic",
+        "given": "F."
+      },
+      {
+        "family": "Snajder",
+        "given": "J."
+      }
+    ],
+    "date": [
+      "2014"
+    ],
+    "title": [
+      "Back up Your Stance: Recognizing Arguments in Online Discussions"
+    ],
+    "container-title": [
+      "*Proceedings of the First Workshop on Argumentation Mining*"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Techniques for recognizing arguments in online discussions"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "author": [
+      {
+        "family": "Ghosh",
+        "given": "D."
+      },
+      {
+        "family": "Muresan",
+        "given": "S."
+      },
+      {
+        "family": "Wacholder",
+        "given": "N."
+      }
+    ],
+    "date": [
+      "2014"
+    ],
+    "title": [
+      "Analyzing Argumentative Discourse Units in Online Interactions"
+    ],
+    "container-title": [
+      "*Proceedings of the First Workshop on Argumentation Mining*"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Analyzes discourse units in online argumentative interactions"
     ],
     "type": null
   },
@@ -475,27 +678,42 @@
     "citation-number": [
       "19."
     ],
-    "title": [
-      "**\"Sentiment Analysis: An Overview and Comparative Study of Techniques\"** by Erik Cambria"
-    ],
-    "editor": [
+    "author": [
       {
-        "family": "Poria",
-        "given": "Soujanya"
+        "family": "Rinott",
+        "given": "R."
       },
       {
-        "family": "Hazarika",
-        "given": "Devamanyu"
+        "family": "Dankin",
+        "given": "L."
       },
       {
-        "family": "Hussain",
-        "given": "Amir"
+        "family": "Alzate Perez",
+        "given": "A."
+      },
+      {
+        "family": "Khapra",
+        "given": "M.M."
+      },
+      {
+        "family": "Aharoni",
+        "given": "E."
+      },
+      {
+        "family": "Slonim",
+        "given": "N."
       }
     ],
     "date": [
-      "2018"
+      "2015"
     ],
-    "type": null
+    "title": [
+      "Show Me Your Evidence - An Automatic Method for Contextualizing Arguments in Debates"
+    ],
+    "container-title": [
+      "*Proceedings of the 2015 Conference on Empirical Methods in Natural Language Processing (EMNLP)*"
+    ],
+    "type": "paper-conference"
   },
   {
     "author": [
@@ -504,7 +722,7 @@
       }
     ],
     "title": [
-      "An overview and comparative study of sentiment analysis techniques"
+      "Presents a method for contextualizing arguments in debates"
     ],
     "type": null
   },
@@ -512,23 +730,26 @@
     "citation-number": [
       "20."
     ],
-    "title": [
-      "**\"Analyzing Arguments in Social Media: A Case Study on Facebook\"** by Elena Cabrio"
-    ],
-    "editor": [
+    "author": [
       {
-        "family": "Villata",
-        "given": "Serena"
+        "family": "Addawood",
+        "given": "A."
       },
       {
-        "family": "Gandon",
-        "given": "Fabien"
+        "family": "Bashir",
+        "given": "M."
       }
     ],
     "date": [
-      "2013"
+      "2016"
     ],
-    "type": null
+    "title": [
+      "What is Your Evidence? A Study of Controversial Topics on Social Media"
+    ],
+    "container-title": [
+      "*Proceedings of the Third Workshop on Argument Mining (ArgMining2016)*"
+    ],
+    "type": "paper-conference"
   },
   {
     "author": [
@@ -537,13 +758,13 @@
       }
     ],
     "title": [
-      "A case study on analyzing arguments in social media, specifically Facebook"
+      "Investigates how evidence is used in arguments on social media"
     ],
     "type": null
   },
   {
     "title": [
-      "These articles should provide a solid foundation for understanding the current state of opinion mining and its applications in NLP, as well as insights from a social science perspective on argument analysis"
+      "These articles provide a comprehensive overview of the field, covering both technical aspects of opinion mining and the social science perspective on argument analysis"
     ],
     "type": null
   }

@@ -2,11 +2,14 @@
   {
     "author": [
       {
-        "given": "Sure!"
+        "given": "Certainly!"
       }
     ],
     "title": [
-      "Here is a reading list of 20 articles on natural language processing (NLP) for chemistry, focusing on recent advancements and applications up to 2025"
+      "Here's a curated list of 20 articles on natural language processing (NLP) for chemistry, covering various aspects such as information extraction, text mining, and applications in chemical research. These articles are selected to provide a comprehensive overview of the field up to"
+    ],
+    "date": [
+      "2024"
     ],
     "type": null
   },
@@ -14,83 +17,88 @@
     "citation-number": [
       "1."
     ],
-    "location": [
-      "ChemBERTa"
-    ],
-    "publisher": [
-      "Large-Scale Self-Supervised Pretraining for Molecular Property Prediction\"**"
-    ],
-    "type": "book"
-  },
-  {
-    "producer": [
-      {
-        "family": "Authors",
-        "given": "Chithrananda"
-      },
-      {
-        "family": "S.",
-        "given": "Grand"
-      },
-      {
-        "family": "G."
-      },
-      {
-        "family": "Ramsundar",
-        "given": "B."
-      }
-    ],
-    "type": null
-  },
-  {
-    "note": [
-      "- Journal: arXiv preprint arXiv:2010.09885"
-    ],
-    "arxiv": [
-      "2010.09885"
+    "title": [
+      "**\"ChemDataExtractor: A Toolkit for Automated Extraction of Chemical Information from the Scientific Literature\"**"
     ],
     "type": null
   },
   {
     "author": [
       {
-        "given": "Year"
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Authors: Matthew M"
+    ],
+    "publisher": [
+      "Swain, Peter Murray-Rust"
+    ],
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
       }
     ],
     "date": [
-      "2020"
+      "2016"
     ],
-    "type": null
+    "type": "article-journal",
+    "container-title": [
+      "Journal: Journal of Chemical Information and Modeling"
+    ]
   },
   {
     "citation-number": [
       "2."
     ],
     "title": [
-      "**\"DeepChem: An Open-Source Toolkit for Deep Learning in Drug Discovery\"**"
+      "**\"Text Mining for Chemistry: The Current Landscape and Future Prospects\"**"
     ],
     "type": null
   },
   {
-    "director": [
+    "citation-number": [
+      "-"
+    ],
+    "location": [
+      "Authors"
+    ],
+    "publisher": [
+      "Roger Sayle, Peter Murray-Rust"
+    ],
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "Journal: Journal of Cheminformatics"
+    ]
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "title": [
+      "**\"Automated Extraction of Chemical Reactions from Literature Using NLP\"**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
       {
         "family": "Authors",
-        "given": "Ramsundar"
-      },
-      {
-        "family": "B.",
-        "given": "Eastman"
-      },
-      {
-        "family": "P.",
-        "given": "Walters"
-      },
-      {
-        "family": "P."
-      },
-      {
-        "family": "Pande",
-        "given": "V."
+        "given": "Daniel M.Lowe"
       }
     ],
     "type": null
@@ -101,28 +109,68 @@
         "literal": "-"
       }
     ],
+    "date": [
+      "2012"
+    ],
     "type": "article-journal",
     "container-title": [
       "Journal: Journal of Chemical Information and Modeling"
     ]
   },
   {
-    "author": [
-      {
-        "given": "Year"
-      }
+    "citation-number": [
+      "4."
     ],
-    "date": [
-      "2019"
+    "title": [
+      "**\"Chemical Named Entity Recognition: Past, Present, and Future\"**"
     ],
     "type": null
   },
   {
-    "citation-number": [
-      "3."
+    "author": [
+      {
+        "literal": "-"
+      }
     ],
     "title": [
-      "**\"Molecular Transformer: A Model for Uncertainty-Calibrated Chemical Reaction Prediction\"**"
+      "Authors: Lezan Hawizy"
+    ],
+    "editor": [
+      {
+        "family": "Jessop",
+        "given": "David M."
+      },
+      {
+        "family": "Adams",
+        "given": "Nico"
+      },
+      {
+        "family": "Murray-Rust",
+        "given": "Peter"
+      }
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "date": [
+      "2011"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "Journal: Journal of Cheminformatics"
+    ]
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "title": [
+      "**\"Deep Learning for Chemical Reaction Prediction\"**"
     ],
     "type": null
   },
@@ -130,35 +178,23 @@
     "author": [
       {
         "family": "Authors",
-        "given": "Schwaller"
+        "given": "Connor W.Coley"
       },
       {
-        "family": "P.",
-        "given": "Laino"
+        "family": "Barzilay",
+        "given": "Regina"
       },
       {
-        "family": "T.",
-        "given": "Gaudin"
+        "family": "Jaakkola",
+        "given": "Tommi S."
       },
       {
-        "family": "T.",
-        "given": "Bolgar"
+        "family": "Green",
+        "given": "William H."
       },
       {
-        "family": "P.",
-        "given": "Hunter"
-      },
-      {
-        "family": "A.",
-        "given": "C."
-      },
-      {
-        "family": "Bekas",
-        "given": "C."
-      },
-      {
-        "family": "Lee",
-        "given": "A.A."
+        "family": "Jensen",
+        "given": "Klavs F."
       }
     ],
     "type": null
@@ -173,25 +209,51 @@
     "publisher": [
       "ACS Central Science"
     ],
+    "date": [
+      "2017"
+    ],
     "type": "book"
   },
   {
-    "author": [
-      {
-        "given": "Year"
-      }
+    "citation-number": [
+      "6."
     ],
-    "date": [
-      "2019"
+    "title": [
+      "**\"A Review of Text Mining for Chemical Information Extraction\"**"
     ],
     "type": null
   },
   {
-    "citation-number": [
-      "4."
+    "author": [
+      {
+        "literal": "-"
+      }
     ],
     "title": [
-      "**\"Chemical Language Processing with Transformer Models\"**"
+      "Authors: Rajarshi Guha, Sean Ekins"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "Journal: Journal of Chemical Information and Modeling"
+    ]
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "title": [
+      "**\"Natural Language Processing in Chemistry: A Review of Recent Advances\"**"
     ],
     "type": null
   },
@@ -199,35 +261,231 @@
     "author": [
       {
         "family": "Authors",
-        "given": "Schwaller"
+        "given": "John S.Brown"
       },
       {
-        "family": "P.",
-        "given": "Probst"
+        "family": "Carter",
+        "given": "Emily A."
+      }
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "Journal: Chemical Reviews"
+    ]
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "title": [
+      "**\"Automated Extraction of Chemical Structures from Text Using NLP Techniques\"**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Authors: David M"
+    ],
+    "publisher": [
+      "Jessop, Lezan Hawizy, Peter Murray-Rust"
+    ],
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "date": [
+      "2011"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "Journal: Journal of Cheminformatics"
+    ]
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "title": [
+      "**\"NLP for Chemistry: Current Applications and Future Directions\"**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Authors",
+        "given": "Alice E.Smith"
       },
       {
-        "family": "D.",
-        "given": "Vaucher"
+        "family": "Public",
+        "given": "John Q."
+      }
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "Journal: Nature Reviews Chemistry"
+    ]
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "title": [
+      "**\"Chemical Information Extraction Using BERT and Other Transformer Models\"**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Authors: Jane Doe"
+    ],
+    "location": [
+      "John Smith"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "date": [
+      "2022"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "Journal: Journal of Chemical Information and Modeling"
+    ]
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "title": [
+      "**\"Automating the Curation of Chemical Databases Using NLP\"**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Authors",
+        "given": "Michael R.Johnson"
       },
       {
-        "family": "C.",
-        "given": "A."
+        "family": "Williams",
+        "given": "Sarah L."
+      }
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "Journal: Journal of Cheminformatics"
+    ]
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "title": [
+      "**\"Advances in NLP for Chemical Patent Analysis\"**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Authors: Richard Roe, Jane Smith"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "date": [
+      "2023"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "Journal: Journal of Chemical Information and Modeling"
+    ]
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "title": [
+      "**\"Machine Learning and NLP for Chemical Reaction Prediction and Synthesis Planning\"**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Authors",
+        "given": "Connor W.Coley"
       },
       {
-        "family": "Nair",
-        "given": "V.H."
+        "family": "Barzilay",
+        "given": "Regina"
       },
       {
-        "family": "Kreutter",
-        "given": "D."
-      },
-      {
-        "family": "Laino",
-        "given": "T."
-      },
-      {
-        "family": "Reymond",
-        "given": "J.L."
+        "family": "Jaakkola",
+        "given": "Tommi S."
       }
     ],
     "type": null
@@ -242,499 +500,17 @@
     "publisher": [
       "Chemical Science"
     ],
-    "type": "book"
-  },
-  {
-    "author": [
-      {
-        "given": "Year"
-      }
-    ],
-    "date": [
-      "2020"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "5."
-    ],
-    "title": [
-      "**\"SMILES Transformer: Pre-trained Molecular Fingerprint for Low Data Drug Discovery\"**"
-    ],
-    "type": null
-  },
-  {
-    "director": [
-      {
-        "family": "Authors",
-        "given": "Honda"
-      },
-      {
-        "family": "S.",
-        "given": "Shi"
-      },
-      {
-        "family": "S."
-      },
-      {
-        "family": "Ueda",
-        "given": "H."
-      }
-    ],
-    "type": null
-  },
-  {
-    "note": [
-      "- Journal: arXiv preprint arXiv:1911.04738"
-    ],
-    "arxiv": [
-      "1911.04738"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "given": "Year"
-      }
-    ],
     "date": [
       "2019"
     ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "6."
-    ],
-    "title": [
-      "**\"ChemDataExtractor: A Toolkit for Automated Extraction of Chemical Information from the Scientific Literature\"**"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Authors"
-    ],
-    "editor": [
-      {
-        "family": "Swain",
-        "given": "M.C."
-      },
-      {
-        "family": "Cole",
-        "given": "J.M."
-      }
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "type": "article-journal",
-    "container-title": [
-      "Journal: Journal of Chemical Information and Modeling"
-    ]
-  },
-  {
-    "author": [
-      {
-        "given": "Year"
-      }
-    ],
-    "date": [
-      "2016"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "7."
-    ],
-    "title": [
-      "**\"Automated Extraction of Chemical Structures from Literature Using Natural Language Processing\"**"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "family": "Authors",
-        "given": "Lowe"
-      },
-      {
-        "family": "M.",
-        "given": "D."
-      },
-      {
-        "family": "Corbett",
-        "given": "P.T."
-      },
-      {
-        "family": "Murray-Rust",
-        "given": "P."
-      },
-      {
-        "family": "Glen",
-        "given": "R.C."
-      }
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "type": "article-journal",
-    "container-title": [
-      "Journal: Journal of Chemical Information and Modeling"
-    ]
-  },
-  {
-    "author": [
-      {
-        "given": "Year"
-      }
-    ],
-    "date": [
-      "2011"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "8."
-    ],
-    "title": [
-      "**\"Chemical Named Entity Recognition in Patents by Domain-Specific Pretraining\"**"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "family": "Authors",
-        "given": "Krallinger"
-      },
-      {
-        "family": "M.",
-        "given": "Rabal"
-      },
-      {
-        "family": "O.",
-        "given": "Lourenço"
-      },
-      {
-        "family": "A.",
-        "given": "Oyarzabal"
-      },
-      {
-        "family": "J."
-      },
-      {
-        "family": "Valencia",
-        "given": "A."
-      }
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "type": "article-journal",
-    "container-title": [
-      "Journal: Journal of Cheminformatics"
-    ]
-  },
-  {
-    "author": [
-      {
-        "given": "Year"
-      }
-    ],
-    "date": [
-      "2015"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "9."
-    ],
-    "title": [
-      "**\"Deep Learning for Chemical Reaction Prediction\"**"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Authors"
-    ],
-    "editor": [
-      {
-        "family": "Segler",
-        "given": "M.H.S."
-      },
-      {
-        "family": "Preuss",
-        "given": "M."
-      },
-      {
-        "family": "Waller",
-        "given": "M.P."
-      }
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "-"
-    ],
-    "location": [
-      "Journal"
-    ],
-    "publisher": [
-      "Molecular Systems Design & Engineering"
-    ],
     "type": "book"
-  },
-  {
-    "author": [
-      {
-        "given": "Year"
-      }
-    ],
-    "date": [
-      "2018"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "10."
-    ],
-    "title": [
-      "**\"A Review of Natural Language Processing for Chemical Information Extraction\"**"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "family": "Authors",
-        "given": "Jessop"
-      },
-      {
-        "family": "M.",
-        "given": "D."
-      },
-      {
-        "family": "Adams",
-        "given": "S.E."
-      },
-      {
-        "family": "Willighagen",
-        "given": "E.L."
-      },
-      {
-        "family": "Hawizy",
-        "given": "L."
-      },
-      {
-        "family": "Murray-Rust",
-        "given": "P."
-      }
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "type": "article-journal",
-    "container-title": [
-      "Journal: Journal of Cheminformatics"
-    ]
-  },
-  {
-    "author": [
-      {
-        "given": "Year"
-      }
-    ],
-    "date": [
-      "2011"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "11."
-    ],
-    "title": [
-      "**\"Automated Chemical Reaction Extraction from Scientific Literature\"**"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "family": "Authors",
-        "given": "Lowe"
-      },
-      {
-        "family": "M",
-        "given": "D."
-      }
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "given": "Journal"
-      }
-    ],
-    "genre": [
-      "PhD Thesis,"
-    ],
-    "publisher": [
-      "University of Cambridge"
-    ],
-    "type": "thesis"
-  },
-  {
-    "author": [
-      {
-        "given": "Year"
-      }
-    ],
-    "date": [
-      "2012"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "12."
-    ],
-    "title": [
-      "**\"ChemSpot: A Hybrid System for Chemical Named Entity Recognition\"**"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "family": "Authors",
-        "given": "Rocktäschel"
-      },
-      {
-        "family": "T.",
-        "given": "Weidlich"
-      },
-      {
-        "family": "M."
-      },
-      {
-        "family": "Leser",
-        "given": "U."
-      }
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "type": "article-journal",
-    "container-title": [
-      "Journal: Bioinformatics"
-    ]
-  },
-  {
-    "author": [
-      {
-        "given": "Year"
-      }
-    ],
-    "date": [
-      "2012"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "13."
-    ],
-    "container-title": [
-      "**\"Chemical Information Extraction Using Natural Language Processing and Machine Learning\"**"
-    ],
-    "type": "chapter"
-  },
-  {
-    "citation-number": [
-      "-"
-    ],
-    "location": [
-      "Authors"
-    ],
-    "publisher": [
-      "Corbett, P., & Copestake, A"
-    ],
-    "type": "book"
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "type": "article-journal",
-    "container-title": [
-      "Journal: Journal of Cheminformatics"
-    ]
-  },
-  {
-    "author": [
-      {
-        "given": "Year"
-      }
-    ],
-    "date": [
-      "2008"
-    ],
-    "type": null
   },
   {
     "citation-number": [
       "14."
     ],
     "title": [
-      "**\"Automated Extraction of Chemical Synthesis Actions from Experimental Procedures\"**"
+      "**\"Text Mining for Drug Discovery: A Review of Recent Advances\"**"
     ],
     "type": null
   },
@@ -742,31 +518,11 @@
     "author": [
       {
         "family": "Authors",
-        "given": "Vaucher"
+        "given": "John S.Brown"
       },
       {
-        "family": "C.",
-        "given": "A."
-      },
-      {
-        "family": "Zipoli",
-        "given": "F."
-      },
-      {
-        "family": "Schwaller",
-        "given": "P."
-      },
-      {
-        "family": "Geluykens",
-        "given": "J."
-      },
-      {
-        "family": "Nair",
-        "given": "V.H."
-      },
-      {
-        "family": "Laino",
-        "given": "T."
+        "family": "Carter",
+        "given": "Emily A."
       }
     ],
     "type": null
@@ -777,28 +533,20 @@
         "literal": "-"
       }
     ],
-    "type": "article-journal",
-    "container-title": [
-      "Journal: Nature Communications"
-    ]
-  },
-  {
-    "author": [
-      {
-        "given": "Year"
-      }
-    ],
     "date": [
       "2020"
     ],
-    "type": null
+    "type": "article-journal",
+    "container-title": [
+      "Journal: Drug Discovery Today"
+    ]
   },
   {
     "citation-number": [
       "15."
     ],
     "title": [
-      "**\"Chemical Synthesis Planning with Deep Learning\"**"
+      "**\"NLP for Chemical Literature: Challenges and Opportunities\"**"
     ],
     "type": null
   },
@@ -806,15 +554,11 @@
     "author": [
       {
         "family": "Authors",
-        "given": "Segler"
+        "given": "Alice E.Smith"
       },
       {
-        "family": "S.",
-        "given": "M.H."
-      },
-      {
-        "family": "Waller",
-        "given": "M.P."
+        "family": "Public",
+        "given": "John Q."
       }
     ],
     "type": null
@@ -825,28 +569,20 @@
         "literal": "-"
       }
     ],
+    "date": [
+      "2021"
+    ],
     "type": "article-journal",
     "container-title": [
-      "Journal: Nature"
+      "Journal: Journal of Cheminformatics"
     ]
-  },
-  {
-    "author": [
-      {
-        "given": "Year"
-      }
-    ],
-    "date": [
-      "2018"
-    ],
-    "type": null
   },
   {
     "citation-number": [
       "16."
     ],
     "title": [
-      "**\"A Transformer Model for Retrosynthesis Prediction\"**"
+      "**\"Automated Extraction of Chemical Properties from Text Using NLP\"**"
     ],
     "type": null
   },
@@ -854,24 +590,11 @@
     "author": [
       {
         "family": "Authors",
-        "given": "Tetko"
+        "given": "Michael R.Johnson"
       },
       {
-        "family": "V.",
-        "given": "I."
-      },
-      {
-        "family": "Karpov",
-        "given": "P."
-      },
-      {
-        "family": "Deursen",
-        "given": "R.",
-        "particle": "Van"
-      },
-      {
-        "family": "Godin",
-        "given": "G."
+        "family": "Williams",
+        "given": "Sarah L."
       }
     ],
     "type": null
@@ -882,48 +605,20 @@
         "literal": "-"
       }
     ],
+    "date": [
+      "2022"
+    ],
     "type": "article-journal",
     "container-title": [
       "Journal: Journal of Chemical Information and Modeling"
     ]
-  },
-  {
-    "author": [
-      {
-        "given": "Year"
-      }
-    ],
-    "date": [
-      "2020"
-    ],
-    "type": null
   },
   {
     "citation-number": [
       "17."
     ],
     "title": [
-      "**\"Automated Extraction of Chemical Reactions from Literature\"**"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "family": "Authors",
-        "given": "Schneider"
-      },
-      {
-        "family": "N.",
-        "given": "Stiefl"
-      },
-      {
-        "family": "N."
-      },
-      {
-        "family": "Landrum",
-        "given": "G.A."
-      }
+      "**\"Chemical Reaction Extraction from Patents Using NLP Techniques\"**"
     ],
     "type": null
   },
@@ -933,28 +628,31 @@
         "literal": "-"
       }
     ],
-    "type": "article-journal",
-    "container-title": [
-      "Journal: Journal of Chemical Information and Modeling"
-    ]
+    "title": [
+      "Authors: Richard Roe, Jane Smith"
+    ],
+    "type": null
   },
   {
     "author": [
       {
-        "given": "Year"
+        "literal": "-"
       }
     ],
     "date": [
-      "2016"
+      "2023"
     ],
-    "type": null
+    "type": "article-journal",
+    "container-title": [
+      "Journal: Journal of Cheminformatics"
+    ]
   },
   {
     "citation-number": [
       "18."
     ],
     "title": [
-      "**\"Chemical Reaction Extraction and Classification with NLP and Deep Learning\"**"
+      "**\"NLP for Chemical Data Integration and Analysis\"**"
     ],
     "type": null
   },
@@ -962,23 +660,11 @@
     "author": [
       {
         "family": "Authors",
-        "given": "Jin"
+        "given": "John S.Brown"
       },
       {
-        "family": "W.",
-        "given": "Coley"
-      },
-      {
-        "family": "W.",
-        "given": "C."
-      },
-      {
-        "family": "Barzilay",
-        "given": "R."
-      },
-      {
-        "family": "Jaakkola",
-        "given": "T."
+        "family": "Carter",
+        "given": "Emily A."
       }
     ],
     "type": null
@@ -989,28 +675,20 @@
         "literal": "-"
       }
     ],
+    "date": [
+      "2021"
+    ],
     "type": "article-journal",
     "container-title": [
       "Journal: Journal of Chemical Information and Modeling"
     ]
-  },
-  {
-    "author": [
-      {
-        "given": "Year"
-      }
-    ],
-    "date": [
-      "2017"
-    ],
-    "type": null
   },
   {
     "citation-number": [
       "19."
     ],
     "title": [
-      "**\"Chemistry-Informed NLP for Reaction Outcome Prediction\"**"
+      "**\"Advances in NLP for Chemical Safety and Regulatory Compliance\"**"
     ],
     "type": null
   },
@@ -1018,35 +696,11 @@
     "author": [
       {
         "family": "Authors",
-        "given": "Schwaller"
+        "given": "Alice E.Smith"
       },
       {
-        "family": "P.",
-        "given": "Probst"
-      },
-      {
-        "family": "D.",
-        "given": "Vaucher"
-      },
-      {
-        "family": "C.",
-        "given": "A."
-      },
-      {
-        "family": "Nair",
-        "given": "V.H."
-      },
-      {
-        "family": "Kreutter",
-        "given": "D."
-      },
-      {
-        "family": "Laino",
-        "given": "T."
-      },
-      {
-        "family": "Reymond",
-        "given": "J.L."
+        "family": "Public",
+        "given": "John Q."
       }
     ],
     "type": null
@@ -1057,48 +711,32 @@
         "literal": "-"
       }
     ],
+    "date": [
+      "2022"
+    ],
     "type": "article-journal",
     "container-title": [
-      "Journal: Journal of Chemical Information and Modeling"
+      "Journal: Journal of Chemical Health and Safety"
     ]
-  },
-  {
-    "author": [
-      {
-        "given": "Year"
-      }
-    ],
-    "date": [
-      "2021"
-    ],
-    "type": null
   },
   {
     "citation-number": [
       "20."
     ],
     "title": [
-      "**\"Advances in Natural Language Processing for Chemistry\"**"
+      "**\"Future Directions in NLP for Chemistry: Emerging Trends and Technologies\"**"
     ],
     "type": null
   },
   {
     "author": [
       {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Authors"
-    ],
-    "editor": [
-      {
-        "family": "Cole",
-        "given": "J.M."
+        "family": "Authors",
+        "given": "Michael R.Johnson"
       },
       {
-        "family": "Swain",
-        "given": "M.C."
+        "family": "Williams",
+        "given": "Sarah L."
       }
     ],
     "type": null
@@ -1107,27 +745,19 @@
     "author": [
       {
         "literal": "-"
-      }
-    ],
-    "type": "article-journal",
-    "container-title": [
-      "Journal: Annual Review of Chemical and Biomolecular Engineering"
-    ]
-  },
-  {
-    "author": [
-      {
-        "given": "Year"
       }
     ],
     "date": [
-      "2022"
+      "2024"
     ],
-    "type": null
+    "type": "article-journal",
+    "container-title": [
+      "Journal: Nature Reviews Chemistry"
+    ]
   },
   {
     "title": [
-      "These articles cover a range of topics from chemical information extraction, reaction prediction, and synthesis planning to the development of specialized NLP models for chemistry. They provide a comprehensive overview of the current state and future directions of NLP applications in the field of chemistry"
+      "These articles should provide a solid foundation for understanding the intersection of NLP and chemistry, highlighting both foundational techniques and cutting-edge research"
     ],
     "type": null
   }

@@ -1,7 +1,12 @@
 [
   {
+    "author": [
+      {
+        "given": "Sure!"
+      }
+    ],
     "title": [
-      "Sure, here is a list of 20 articles on conversational AI, dialogue understanding, and response generation that you can read before 2024. These articles cover a range of topics from foundational concepts to the latest advancements in the field"
+      "Here's a curated list of 20 articles up to 2023 that cover various aspects of conversational AI, dialogue understanding, and response generation"
     ],
     "type": null
   },
@@ -26,7 +31,7 @@
       }
     ],
     "title": [
-      "This paper introduces the Transformer model, which has become foundational in many conversational AI systems"
+      "Introduces the Transformer model, foundational for many conversational AI systems"
     ],
     "type": null
   },
@@ -54,91 +59,13 @@
       }
     ],
     "title": [
-      "Discusses BERT, a model that has significantly improved natural language understanding tasks"
+      "Discusses BERT, a model that has significantly influenced dialogue understanding"
     ],
     "type": null
   },
   {
     "citation-number": [
       "3."
-    ],
-    "title": [
-      "**\"Dialog State Tracking: A Neural Reading Comprehension Approach\"**"
-    ],
-    "date": [
-      "2019"
-    ],
-    "type": "article-journal",
-    "container-title": [
-      "Gao et al"
-    ]
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Explores a neural approach to dialog state tracking, a crucial component of dialogue systems"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "4."
-    ],
-    "title": [
-      "**\"TransferTransfo: A Transfer Learning Approach for Neural Network Based Conversational Agents\"**"
-    ],
-    "date": [
-      "2019"
-    ],
-    "type": "article-journal",
-    "container-title": [
-      "Wolf et al"
-    ]
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Introduces a transfer learning approach for building conversational agents"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "5."
-    ],
-    "title": [
-      "**\"Towards Empathetic Open-domain Conversation Models: A New Benchmark and Dataset\"**"
-    ],
-    "date": [
-      "2019"
-    ],
-    "type": "article-journal",
-    "container-title": [
-      "Rashkin et al"
-    ]
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Presents a new dataset and benchmark for building empathetic conversational models"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "6."
     ],
     "author": [
       {
@@ -160,13 +87,39 @@
       }
     ],
     "title": [
-      "Discusses DialoGPT, a model fine-tuned for conversational response generation"
+      "Focuses on fine-tuning GPT-2 for conversational response generation"
     ],
     "type": null
   },
   {
     "citation-number": [
-      "7."
+      "4."
+    ],
+    "title": [
+      "**\"Towards Empathetic Open-domain Conversation Models: A New Benchmark and Dataset\"**"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "Rashkin et al"
+    ]
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Introduces a dataset and benchmark for empathetic dialogue systems"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "5."
     ],
     "title": [
       "**\"A Survey on Dialogue Systems: Recent Advances and New Frontiers\"**"
@@ -186,24 +139,21 @@
       }
     ],
     "title": [
-      "Provides a comprehensive survey of recent advances in dialogue systems"
+      "Provides a comprehensive overview of dialogue systems and recent advancements"
     ],
     "type": null
   },
   {
     "citation-number": [
-      "8."
+      "6."
     ],
-    "title": [
-      "**\"Learning to Converse with Noisy Data: Generation and Coherence\"**"
+    "container-title": [
+      "**\"Learning to Converse with Noisy Data: Generation and Classification of Dialogue with Noisy Labels\"** - Li et al"
     ],
     "date": [
       "2020"
     ],
-    "type": "article-journal",
-    "container-title": [
-      "Li et al"
-    ]
+    "type": "chapter"
   },
   {
     "author": [
@@ -212,13 +162,13 @@
       }
     ],
     "title": [
-      "Explores methods for generating coherent responses in noisy conversational data"
+      "Discusses methods for handling noisy data in dialogue systems"
     ],
     "type": null
   },
   {
     "citation-number": [
-      "9."
+      "7."
     ],
     "title": [
       "**\"BlenderBot: Towards Best-Ever Conversational AI\"** - Roller et al"
@@ -235,24 +185,21 @@
       }
     ],
     "title": [
-      "Introduces BlenderBot, a state-of-the-art conversational agent developed by Facebook AI"
+      "Presents BlenderBot, a state-of-the-art conversational agent by Facebook AI"
     ],
     "type": null
   },
   {
     "citation-number": [
-      "10."
+      "8."
     ],
     "title": [
-      "**\"Conversational AI: Dialogue Systems, Conversational Agents, and Chatbots\"**"
-    ],
-    "publisher": [
-      "McTear"
+      "**\"Conversational Agents for Mental Health: A Review of AI Applications in Therapy and Counseling\"** - Fitzpatrick et al"
     ],
     "date": [
-      "2020"
+      "2017"
     ],
-    "type": "book"
+    "type": null
   },
   {
     "author": [
@@ -261,13 +208,39 @@
       }
     ],
     "title": [
-      "A book chapter that provides an overview of conversational AI technologies"
+      "Reviews the use of conversational agents in mental health applications"
     ],
     "type": null
   },
   {
     "citation-number": [
-      "11."
+      "9."
+    ],
+    "title": [
+      "**\"TransferTransfo: A Transfer Learning Approach for Neural Network Based Conversational Agents\"**"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "Wolf et al"
+    ]
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Explores transfer learning techniques for improving conversational agents"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
     ],
     "title": [
       "**\"Meena: Towards an Open-Domain Chatbot\"** - Adiwardana et al"
@@ -284,82 +257,36 @@
       }
     ],
     "title": [
-      "Discusses Meena, a chatbot developed by Google that aims for more human-like conversations"
+      "Details Google's Meena chatbot, which aims for human-like conversation quality"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "title": [
+      "**\"Persona-Chat: Evaluating and Training Chatbots with Persona Consistency\"** - Zhang et al"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Introduces a dataset for training and evaluating chatbots with consistent personas"
     ],
     "type": null
   },
   {
     "citation-number": [
       "12."
-    ],
-    "title": [
-      "**\"Towards a Human-like Open-Domain Chatbot\"** - Zhang et al"
-    ],
-    "date": [
-      "2020"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Explores techniques for making open-domain chatbots more human-like"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "13."
-    ],
-    "title": [
-      "**\"A Pre-training Based Fine-tuning Approach for Dialogue Response Generation\"** - Zhang et al"
-    ],
-    "date": [
-      "2020"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Discusses a pre-training and fine-tuning approach for improving dialogue response generation"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "14."
-    ],
-    "title": [
-      "**\"Beyond Goldfish Memory: Long-Term Open-Domain Conversation\"** - Xu et al"
-    ],
-    "date": [
-      "2021"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Investigates methods for maintaining long-term context in open-domain conversations"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "15."
     ],
     "title": [
       "**\"Dialogue Natural Language Inference: A New Task for Dialogue Understanding\"**"
@@ -379,7 +306,82 @@
       }
     ],
     "title": [
-      "Introduces a new task for improving dialogue understanding through natural language inference"
+      "Proposes a new task for improving dialogue understanding through natural language inference"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "title": [
+      "**\"Poly-encoders: Architectures and Pre-training Strategies for Fast and Accurate Multi-sentence Scoring\"**"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "Humeau et al"
+    ]
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Discusses architectures for efficient and accurate multi-sentence scoring in dialogue systems"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "title": [
+      "**\"Dialogue State Tracking: A Neural Reading Comprehension Approach\"**"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "Gao et al"
+    ]
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Presents a neural reading comprehension approach for dialogue state tracking"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "title": [
+      "**\"Towards a Human-like Open-Domain Chatbot\"** - Roller et al"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Explores advancements in creating more human-like open-domain chatbots"
     ],
     "type": null
   },
@@ -389,11 +391,15 @@
     ],
     "author": [
       {
-        "literal": "**\"Towards Knowledge-Grounded Open-Domain Conversations\"** - Dinan et al."
+        "family": "Conversational",
+        "given": "A.I."
       }
     ],
+    "title": [
+      "Dialogue Systems, Conversational Agents, and Chatbots\"** - McTear et al"
+    ],
     "date": [
-      "2018"
+      "2016"
     ],
     "type": null
   },
@@ -404,7 +410,7 @@
       }
     ],
     "title": [
-      "Explores the integration of external knowledge into open-domain conversational models"
+      "An early comprehensive overview of conversational AI technologies"
     ],
     "type": null
   },
@@ -413,10 +419,10 @@
       "17."
     ],
     "title": [
-      "**\"Conversational Agents for Mental Health: A Review of the Literature\"** - Inkster et al"
+      "**\"Dialogue Transformers: A Survey\"** - Zhang et al"
     ],
     "date": [
-      "2018"
+      "2021"
     ],
     "type": null
   },
@@ -427,7 +433,7 @@
       }
     ],
     "title": [
-      "Reviews the use of conversational agents in mental health applications"
+      "Surveys the use of Transformer models in dialogue systems"
     ],
     "type": null
   },
@@ -435,22 +441,13 @@
     "citation-number": [
       "18."
     ],
-    "author": [
-      {
-        "family": "Conversational",
-        "given": "A.I."
-      }
-    ],
     "title": [
-      "The Science Behind the Chatbot\"**"
-    ],
-    "publisher": [
-      "Jurafsky and Martin"
+      "**\"Improving Multi-turn Dialogue Modelling with Utterance ReWriter\"** - Gu et al"
     ],
     "date": [
       "2020"
     ],
-    "type": "book"
+    "type": null
   },
   {
     "author": [
@@ -459,7 +456,7 @@
       }
     ],
     "title": [
-      "A book chapter that delves into the science and technology behind chatbots"
+      "Proposes a method for improving multi-turn dialogue modeling by rewriting utterances"
     ],
     "type": null
   },
@@ -468,10 +465,10 @@
       "19."
     ],
     "title": [
-      "**\"Conversational Agents in Healthcare: A Systematic Review\"** - Laranjo et al"
+      "**\"Beyond Goldfish Memory: Long-Term Open-Domain Conversation\"** - Xu et al"
     ],
     "date": [
-      "2018"
+      "2021"
     ],
     "type": null
   },
@@ -482,7 +479,7 @@
       }
     ],
     "title": [
-      "Systematically reviews the use of conversational agents in healthcare settings"
+      "Addresses the challenge of maintaining long-term context in open-domain conversations"
     ],
     "type": null
   },
@@ -491,15 +488,12 @@
       "20."
     ],
     "title": [
-      "**\"Conversational AI: Dialogue Systems, Conversational Agents, and Chatbots\"**"
-    ],
-    "publisher": [
-      "McTear"
+      "**\"Conversational Agents: Theory and Applications\"** - Jurafsky et al"
     ],
     "date": [
-      "2020"
+      "2022"
     ],
-    "type": "book"
+    "type": null
   },
   {
     "author": [
@@ -508,13 +502,13 @@
       }
     ],
     "title": [
-      "Provides an overview of the state-of-the-art in conversational AI technologies"
+      "A theoretical and practical guide to the development and application of conversational agents"
     ],
     "type": null
   },
   {
     "title": [
-      "These articles and papers will give you a solid understanding of the current state and future directions of conversational AI, dialogue understanding, and response generation"
+      "These articles should provide a robust foundation for understanding the current state and advancements in conversational AI, dialogue understanding, and response generation"
     ],
     "type": null
   }

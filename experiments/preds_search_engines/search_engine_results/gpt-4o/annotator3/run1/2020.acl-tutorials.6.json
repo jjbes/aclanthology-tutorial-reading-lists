@@ -1,12 +1,7 @@
 [
   {
-    "author": [
-      {
-        "given": "Certainly!"
-      }
-    ],
     "title": [
-      "Here's a reading list of 20 articles published before 2021 that cover various approaches to information extraction from unstructured and semi-structured documents on the web"
+      "Sure, here's a reading list of 20 articles up to 2020 that cover various approaches to information extraction from unstructured and semi-structured documents on the web"
     ],
     "type": null
   },
@@ -24,16 +19,16 @@
         "given": "A.Y."
       },
       {
+        "family": "Zhang",
+        "given": "D."
+      },
+      {
         "family": "Wang",
-        "given": "D.Z."
+        "given": "Z."
       },
       {
         "family": "Wu",
         "given": "E."
-      },
-      {
-        "family": "Zhang",
-        "given": "Y."
       }
     ],
     "date": [
@@ -45,7 +40,16 @@
     "container-title": [
       "Exploring the Power of Tables on the Web.\"** Proceedings of the VLDB Endowment"
     ],
-    "type": "paper-conference"
+    "volume": [
+      "1"
+    ],
+    "pages": [
+      "538–549"
+    ],
+    "issue": [
+      "1"
+    ],
+    "type": "article-journal"
   },
   {
     "citation-number": [
@@ -73,9 +77,21 @@
       "2008"
     ],
     "title": [
-      "Open Information Extraction from the Web.\"** Communications of the ACM"
+      "Open Information Extraction from the Web.\"**"
     ],
-    "type": null
+    "volume": [
+      "51"
+    ],
+    "pages": [
+      "68–74"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "Communications of the ACM"
+    ],
+    "issue": [
+      "12"
+    ]
   },
   {
     "citation-number": [
@@ -97,70 +113,14 @@
     "container-title": [
       "\"The Tradeoffs Between Open and Traditional Relation Extraction.\"** Proceedings of ACL-08: HLT"
     ],
+    "pages": [
+      "28–36"
+    ],
     "type": "paper-conference"
   },
   {
     "citation-number": [
       "4."
-    ],
-    "author": [
-      {
-        "family": "Cafarella",
-        "given": "M.J."
-      },
-      {
-        "family": "Halevy",
-        "given": "A."
-      },
-      {
-        "family": "Madhavan",
-        "given": "J."
-      },
-      {
-        "family": "Zhang",
-        "given": "D."
-      },
-      {
-        "family": "Yu",
-        "given": "E."
-      }
-    ],
-    "date": [
-      "2008"
-    ],
-    "container-title": [
-      "\"Uncovering the Relational Web.\"** Proceedings of the 11th International Workshop on the Web and Databases (WebDB"
-    ],
-    "type": "paper-conference"
-  },
-  {
-    "citation-number": [
-      "5."
-    ],
-    "author": [
-      {
-        "family": "Wu",
-        "given": "F."
-      },
-      {
-        "family": "Weld",
-        "given": "D.S."
-      }
-    ],
-    "date": [
-      "2010"
-    ],
-    "title": [
-      "Open Information Extraction Using Wikipedia.\"**"
-    ],
-    "container-title": [
-      "Proceedings of the 48th Annual Meeting of the Association for Computational Linguistics"
-    ],
-    "type": "paper-conference"
-  },
-  {
-    "citation-number": [
-      "6."
     ],
     "author": [
       {
@@ -195,13 +155,154 @@
       "Textrunner"
     ],
     "container-title": [
-      "Open Information Extraction on the Web.\"** Proceedings of Human Language Technologies: The Annual Conference of the North American Chapter of the Association for Computational Linguistics"
+      "Open Information Extraction on the Web.\"** Proceedings of Human Language Technologies: The Annual Conference of the North American Chapter of the Association for Computational Linguistics: Demonstrations"
+    ],
+    "pages": [
+      "25–26"
     ],
     "type": "paper-conference"
   },
   {
     "citation-number": [
+      "5."
+    ],
+    "author": [
+      {
+        "family": "Wu",
+        "given": "F."
+      },
+      {
+        "family": "Weld",
+        "given": "D.S."
+      }
+    ],
+    "date": [
+      "2010"
+    ],
+    "title": [
+      "Open Information Extraction Using Wikipedia.\"**"
+    ],
+    "container-title": [
+      "Proceedings of the 48th Annual Meeting of the Association for Computational Linguistics"
+    ],
+    "pages": [
+      "118–127"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "author": [
+      {
+        "family": "Cafarella",
+        "given": "M.J."
+      },
+      {
+        "family": "Halevy",
+        "given": "A.Y."
+      },
+      {
+        "family": "Wang",
+        "given": "D.Z."
+      },
+      {
+        "family": "Wu",
+        "given": "E."
+      },
+      {
+        "family": "Zhang",
+        "given": "Y."
+      }
+    ],
+    "date": [
+      "2008"
+    ],
+    "title": [
+      "WebTables"
+    ],
+    "container-title": [
+      "A Machine Learning Approach for Extracting Relational Data from the Web.\"** Proceedings of the VLDB Endowment"
+    ],
+    "volume": [
+      "1"
+    ],
+    "pages": [
+      "538–549"
+    ],
+    "issue": [
+      "1"
+    ],
+    "type": "article-journal"
+  },
+  {
+    "citation-number": [
       "7."
+    ],
+    "author": [
+      {
+        "family": "Chiticariu",
+        "given": "L."
+      },
+      {
+        "family": "Li",
+        "given": "Y."
+      },
+      {
+        "family": "Reiss",
+        "given": "F.R."
+      }
+    ],
+    "date": [
+      "2013"
+    ],
+    "title": [
+      "Rule-Based Information Extraction is Dead!"
+    ],
+    "container-title": [
+      "Long Live Rule-Based Information Extraction Systems!\"** Proceedings of the 2013 Conference on Empirical Methods in Natural Language Processing"
+    ],
+    "pages": [
+      "827–832"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "author": [
+      {
+        "family": "Fader",
+        "given": "A."
+      },
+      {
+        "family": "Soderland",
+        "given": "S."
+      },
+      {
+        "family": "Etzioni",
+        "given": "O."
+      }
+    ],
+    "date": [
+      "2011"
+    ],
+    "title": [
+      "Identifying Relations for Open Information Extraction.\"**"
+    ],
+    "container-title": [
+      "Proceedings of the 2011 Conference on Empirical Methods in Natural Language Processing"
+    ],
+    "pages": [
+      "1535–1545"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "9."
     ],
     "author": [
       {
@@ -233,63 +334,8 @@
     "container-title": [
       "Proceedings of the 2012 Joint Conference on Empirical Methods in Natural Language Processing and Computational Natural Language Learning"
     ],
-    "type": "paper-conference"
-  },
-  {
-    "citation-number": [
-      "8."
-    ],
-    "author": [
-      {
-        "family": "Fader",
-        "given": "A."
-      },
-      {
-        "family": "Soderland",
-        "given": "S."
-      },
-      {
-        "family": "Etzioni",
-        "given": "O."
-      }
-    ],
-    "date": [
-      "2011"
-    ],
-    "title": [
-      "Identifying Relations for Open Information Extraction.\"**"
-    ],
-    "container-title": [
-      "Proceedings of the 2011 Conference on Empirical Methods in Natural Language Processing"
-    ],
-    "type": "paper-conference"
-  },
-  {
-    "citation-number": [
-      "9."
-    ],
-    "author": [
-      {
-        "family": "Nakashole",
-        "given": "N."
-      },
-      {
-        "family": "Theobald",
-        "given": "M."
-      },
-      {
-        "family": "Weikum",
-        "given": "G."
-      }
-    ],
-    "date": [
-      "2011"
-    ],
-    "title": [
-      "Scalable Knowledge Harvesting with High Precision and High Recall.\"**"
-    ],
-    "container-title": [
-      "Proceedings of the Fourth ACM International Conference on Web Search and Data Mining"
+    "pages": [
+      "523–534"
     ],
     "type": "paper-conference"
   },
@@ -299,14 +345,29 @@
     ],
     "author": [
       {
-        "literal": "**Carlson, A., Betteridge, J., Kisiel, B., Settles, B., Hruschka Jr, E. R., & Mitchell, T. M."
+        "family": "Nakashole",
+        "given": "N."
+      },
+      {
+        "family": "Weikum",
+        "given": "G."
+      },
+      {
+        "family": "Suchanek",
+        "given": "F.M."
       }
     ],
     "date": [
-      "2010"
+      "2012"
+    ],
+    "title": [
+      "PATTY: A Taxonomy of Relational Patterns with Semantic Types.\"**"
     ],
     "container-title": [
-      "\"Toward an Architecture for Never-Ending Language Learning.\"** Proceedings of the Twenty-Fourth AAAI Conference on Artificial Intelligence"
+      "Proceedings of the 2012 Joint Conference on Empirical Methods in Natural Language Processing and Computational Natural Language Learning"
+    ],
+    "pages": [
+      "1135–1145"
     ],
     "type": "paper-conference"
   },
@@ -341,11 +402,37 @@
     "container-title": [
       "Proceedings of the Joint Conference of the 47th Annual Meeting of the ACL and the 4th International Joint Conference on Natural Language Processing of the AFNLP"
     ],
+    "pages": [
+      "1003–1011"
+    ],
     "type": "paper-conference"
   },
   {
     "citation-number": [
       "12."
+    ],
+    "author": [
+      {
+        "literal": "**Carlson, A., Betteridge, J., Kisiel, B., Settles, B., Hruschka Jr, E. R., & Mitchell, T. M."
+      }
+    ],
+    "date": [
+      "2010"
+    ],
+    "title": [
+      "Toward an Architecture for Never-Ending Language"
+    ],
+    "container-title": [
+      "Learning.\"** Proceedings of the Twenty-Fourth AAAI Conference on Artificial Intelligence"
+    ],
+    "pages": [
+      "1306–1313"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "13."
     ],
     "author": [
       {
@@ -370,30 +457,8 @@
     "container-title": [
       "Proceedings of the 2010 European Conference on Machine Learning and Knowledge Discovery in Databases"
     ],
-    "type": "paper-conference"
-  },
-  {
-    "citation-number": [
-      "13."
-    ],
-    "author": [
-      {
-        "family": "Bunescu",
-        "given": "R.C."
-      },
-      {
-        "family": "Mooney",
-        "given": "R.J."
-      }
-    ],
-    "date": [
-      "2007"
-    ],
-    "title": [
-      "Learning to Extract Relations from the Web using Minimal"
-    ],
-    "container-title": [
-      "Supervision.\"** Proceedings of the 45th Annual Meeting of the Association of Computational Linguistics"
+    "pages": [
+      "148–163"
     ],
     "type": "paper-conference"
   },
@@ -403,22 +468,29 @@
     ],
     "author": [
       {
-        "family": "Agichtein",
-        "given": "E."
+        "family": "Yao",
+        "given": "L."
       },
       {
-        "family": "Gravano",
-        "given": "L."
+        "family": "Riedel",
+        "given": "S."
+      },
+      {
+        "family": "McCallum",
+        "given": "A."
       }
     ],
     "date": [
-      "2000"
+      "2010"
     ],
     "title": [
-      "Snowball"
+      "Collective Cross-Document Relation Extraction without Labelled Data.\"**"
     ],
     "container-title": [
-      "Extracting Relations from Large Plain-Text Collections.\"** Proceedings of the Fifth ACM Conference on Digital Libraries"
+      "Proceedings of the 2010 Conference on Empirical Methods in Natural Language Processing"
+    ],
+    "pages": [
+      "1013–1023"
     ],
     "type": "paper-conference"
   },
@@ -428,22 +500,29 @@
     ],
     "author": [
       {
-        "family": "Culotta",
-        "given": "A."
+        "family": "Angeli",
+        "given": "G."
       },
       {
-        "family": "Sorensen",
-        "given": "J."
+        "family": "Premkumar",
+        "given": "M.J.J."
+      },
+      {
+        "family": "Manning",
+        "given": "C.D."
       }
     ],
     "date": [
-      "2004"
+      "2015"
     ],
     "title": [
-      "Dependency Tree Kernels for Relation Extraction.\"**"
+      "Leveraging Linguistic Structure for Open Domain Information Extraction.\"**"
     ],
     "container-title": [
-      "Proceedings of the 42nd Annual Meeting of the Association for Computational Linguistics"
+      "Proceedings of the 53rd Annual Meeting of the Association for Computational Linguistics and the 7th International Joint Conference on Natural Language Processing"
+    ],
+    "pages": [
+      "344–354"
     ],
     "type": "paper-conference"
   },
@@ -453,17 +532,31 @@
     ],
     "author": [
       {
-        "family": "Sarawagi",
+        "family": "Ritter",
+        "given": "A."
+      },
+      {
+        "family": "Mausam",
+        "given": "Etzioni"
+      },
+      {
+        "family": "O."
+      },
+      {
+        "family": "Clark",
         "given": "S."
       }
     ],
     "date": [
-      "2008"
+      "2012"
     ],
-    "title": [
-      "Information Extraction.\"** Foundations and Trends in Databases"
+    "container-title": [
+      "\"Open Domain Event Extraction from Twitter.\"** Proceedings of the 18th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining"
     ],
-    "type": null
+    "pages": [
+      "1104–1112"
+    ],
+    "type": "paper-conference"
   },
   {
     "citation-number": [
@@ -471,26 +564,29 @@
     ],
     "author": [
       {
-        "family": "Chiticariu",
-        "given": "L."
+        "family": "Nakashole",
+        "given": "N."
       },
       {
-        "family": "Li",
-        "given": "Y."
+        "family": "Theobald",
+        "given": "M."
       },
       {
-        "family": "Reiss",
-        "given": "F.R."
+        "family": "Weikum",
+        "given": "G."
       }
     ],
     "date": [
-      "2013"
+      "2011"
     ],
     "title": [
-      "Rule-Based Information Extraction is Dead!"
+      "Scalable Knowledge Harvesting with High Precision and High Recall.\"**"
     ],
     "container-title": [
-      "Long Live Rule-Based Information Extraction Systems!\"** Proceedings of the 2013 Conference on Empirical Methods in Natural Language Processing"
+      "Proceedings of the Fourth ACM International Conference on Web Search and Data Mining"
+    ],
+    "pages": [
+      "227–236"
     ],
     "type": "paper-conference"
   },
@@ -500,24 +596,33 @@
     ],
     "author": [
       {
-        "family": "Grishman",
-        "given": "R."
+        "family": "Zhang",
+        "given": "Z."
       },
       {
-        "family": "Sundheim",
-        "given": "B."
+        "family": "Elhadad",
+        "given": "N."
       }
     ],
     "date": [
-      "1996"
+      "2013"
     ],
     "title": [
-      "Message Understanding Conference-6"
+      "Unsupervised Biomedical Named Entity Recognition: Experiments with Clinical and Biological Texts.\"**"
     ],
+    "volume": [
+      "46"
+    ],
+    "pages": [
+      "1088–1098"
+    ],
+    "type": "article-journal",
     "container-title": [
-      "A Brief History.\"** Proceedings of the 16th Conference on Computational Linguistics"
+      "Journal of Biomedical Informatics"
     ],
-    "type": "paper-conference"
+    "issue": [
+      "6"
+    ]
   },
   {
     "citation-number": [
@@ -525,21 +630,40 @@
     ],
     "author": [
       {
-        "family": "Cowie",
+        "family": "Manning",
+        "given": "C.D."
+      },
+      {
+        "family": "Surdeanu",
+        "given": "M."
+      },
+      {
+        "family": "Bauer",
         "given": "J."
       },
       {
-        "family": "Lehnert",
-        "given": "W."
+        "family": "Finkel",
+        "given": "J."
+      },
+      {
+        "family": "Bethard",
+        "given": "S.J."
+      },
+      {
+        "family": "McClosky",
+        "given": "D."
       }
     ],
     "date": [
-      "1996"
+      "2014"
     ],
-    "title": [
-      "Information Extraction.\"** Communications of the ACM"
+    "container-title": [
+      "\"The Stanford CoreNLP Natural Language Processing Toolkit.\"** Proceedings of the 52nd Annual Meeting of the Association for Computational Linguistics: System Demonstrations"
     ],
-    "type": null
+    "pages": [
+      "55–60"
+    ],
+    "type": "paper-conference"
   },
   {
     "citation-number": [
@@ -547,36 +671,38 @@
     ],
     "author": [
       {
-        "family": "Chang",
-        "given": "C.H."
+        "family": "Krause",
+        "given": "S."
       },
       {
-        "family": "Kayed",
+        "family": "Bojarski",
         "given": "M."
       },
       {
-        "family": "Girgis",
-        "given": "M.R."
-      },
-      {
-        "family": "Shaalan",
-        "given": "K.F."
+        "family": "Borthwick",
+        "given": "A."
       }
     ],
     "date": [
-      "2006"
+      "2010"
     ],
     "title": [
-      "A Survey of Web Information Extraction Systems.\"**"
+      "A Hierarchical Approach to Information Extraction from HTML"
     ],
-    "type": "article-journal",
     "container-title": [
-      "IEEE Transactions on Knowledge and Data Engineering"
-    ]
+      "Forms.\"** Proceedings of the 19th ACM International Conference on Information and Knowledge Management"
+    ],
+    "pages": [
+      "1197–1206"
+    ],
+    "type": "paper-conference"
   },
   {
     "title": [
-      "These articles provide a comprehensive overview of the evolution and various methodologies in the field of information extraction from web documents, covering both unstructured and semi-structured data"
+      "These articles cover a range of methods and approaches, including rule-based systems, machine learning techniques, open information extraction, and distant supervision, providing a comprehensive overview of the field up to"
+    ],
+    "date": [
+      "2020"
     ],
     "type": null
   }

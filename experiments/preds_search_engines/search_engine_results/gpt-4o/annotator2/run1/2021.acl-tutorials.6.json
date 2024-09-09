@@ -1,12 +1,7 @@
 [
   {
-    "author": [
-      {
-        "given": "Sure!"
-      }
-    ],
     "title": [
-      "Here is a list of 20 articles on multimodal entailment published before 2022. These articles cover various aspects of multimodal entailment, including methodologies, applications, and evaluations"
+      "Sure, here is a list of 20 articles on multimodal entailment up to 2021. These articles cover various aspects of the field, including foundational theories, methodologies, and applications"
     ],
     "type": null
   },
@@ -15,10 +10,27 @@
       "1."
     ],
     "title": [
-      "**\"Multimodal Machine Learning: A Survey and Taxonomy\"** - Tadas Baltrušaitis, Chaitanya Ahuja, Louis-Philippe Morency"
+      "**\"Multimodal Machine Learning: A Survey and Taxonomy\"**"
+    ],
+    "author": [
+      {
+        "family": "Baltrušaitis",
+        "given": "T."
+      },
+      {
+        "family": "Ahuja",
+        "given": "C."
+      },
+      {
+        "family": "Morency",
+        "given": "L.P."
+      }
     ],
     "date": [
       "2019"
+    ],
+    "note": [
+      "ACM Computing Surveys (CSUR)."
     ],
     "type": null
   },
@@ -26,87 +38,60 @@
     "citation-number": [
       "2."
     ],
-    "title": [
-      "**\"Visual and Linguistic Semantic Representation for Multimodal Entailment\"**"
-    ],
-    "editor": [
+    "author": [
       {
-        "family": "Yu",
-        "given": "Licheng"
-      },
-      {
-        "family": "Bansal",
-        "given": "Mohit"
-      },
-      {
-        "family": "Berg",
-        "given": "Tamara L."
+        "literal": "**\"Visual and Linguistic Semantic Integration for Multimodal Entailment\"** - Kiela, D., & Bottou, L."
       }
     ],
     "date": [
-      "2017"
+      "2014"
     ],
-    "type": null
+    "container-title": [
+      "Proceedings of the 28th AAAI Conference on Artificial Intelligence"
+    ],
+    "type": "paper-conference"
   },
   {
     "citation-number": [
       "3."
     ],
-    "container-title": [
-      "**\"Multimodal Neural Machine Translation\"**"
+    "title": [
+      "**\"Learning Multimodal Representations for Entailment and Generation\"**"
     ],
-    "editor": [
+    "author": [
       {
-        "family": "Elliott",
-        "given": "Desmond"
+        "family": "Vu",
+        "given": "T."
       },
       {
-        "family": "Frank",
-        "given": "Stella"
-      },
-      {
-        "family": "Sima'an",
-        "given": "Khalil"
-      },
-      {
-        "family": "Specia",
-        "given": "Lucia"
+        "family": "Haffari",
+        "given": "G."
       }
     ],
     "date": [
-      "2015"
+      "2018"
     ],
-    "type": "chapter"
+    "container-title": [
+      "Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing (EMNLP"
+    ],
+    "type": "paper-conference"
   },
   {
     "citation-number": [
       "4."
     ],
-    "title": [
-      "**\"Learning to Compose Neural Networks for Question Answering\"**"
-    ],
-    "editor": [
+    "author": [
       {
-        "family": "Andreas",
-        "given": "Jacob"
-      },
-      {
-        "family": "Rohrbach",
-        "given": "Marcus"
-      },
-      {
-        "family": "Darrell",
-        "given": "Trevor"
-      },
-      {
-        "family": "Klein",
-        "given": "Dan"
+        "literal": "**\"Multimodal Neural Machine Translation\"** - Specia, L., Frank, S., Sima'an, K., & Elliott, D."
       }
     ],
     "date": [
       "2016"
     ],
-    "type": null
+    "container-title": [
+      "Proceedings of the 54th Annual Meeting of the Association for Computational Linguistics (ACL"
+    ],
+    "type": "paper-conference"
   },
   {
     "citation-number": [
@@ -114,43 +99,74 @@
     ],
     "author": [
       {
-        "literal": "**\"VQA: Visual Question Answering\"** - Aishwarya Agrawal, Jiasen Lu, Stanislaw Antol, Margaret Mitchell, C. Lawrence Zitnick, Dhruv Batra, Devi Parikh"
+        "literal": "**\"Deep Multimodal Semantics\"** - Silberer, C., & Lapata, M."
       }
     ],
     "date": [
-      "2015"
+      "2014"
     ],
-    "type": null
+    "container-title": [
+      "Proceedings of the 2014 Conference on Empirical Methods in Natural Language Processing (EMNLP"
+    ],
+    "type": "paper-conference"
   },
   {
     "citation-number": [
       "6."
     ],
     "title": [
-      "**\"Multimodal Compact Bilinear Pooling for Visual Question Answering and Visual Grounding\"** - Akira Fukui"
+      "**\"Multimodal Representation Learning with Text and Image\"**"
     ],
-    "publisher": [
-      "Dong Huk Park, Daylen Yang"
-    ],
-    "location": [
-      "Anna Rohrbach, Trevor Darrell, Marcus Rohrbach"
+    "author": [
+      {
+        "family": "Kiros",
+        "given": "R."
+      },
+      {
+        "family": "Salakhutdinov",
+        "given": "R."
+      },
+      {
+        "family": "Zemel",
+        "given": "R."
+      }
     ],
     "date": [
-      "2016"
+      "2014"
     ],
-    "type": "book"
+    "container-title": [
+      "Proceedings of the 31st International Conference on Machine Learning (ICML"
+    ],
+    "type": "paper-conference"
   },
   {
     "citation-number": [
       "7."
     ],
     "title": [
-      "**\"Deep Visual-Semantic Alignments for Generating Image Descriptions\"** - Andrej Karpathy, Li Fei-Fei"
+      "**\"Visual Entailment: A Novel Task for Fine-Grained Image Understanding\"**"
+    ],
+    "author": [
+      {
+        "family": "Xie",
+        "given": "N."
+      },
+      {
+        "family": "Lai",
+        "given": "K."
+      },
+      {
+        "family": "Hockenmaier",
+        "given": "J."
+      }
     ],
     "date": [
-      "2015"
+      "2019"
     ],
-    "type": null
+    "container-title": [
+      "Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing (EMNLP"
+    ],
+    "type": "paper-conference"
   },
   {
     "citation-number": [
@@ -158,89 +174,70 @@
     ],
     "author": [
       {
-        "given": "Show"
-      }
-    ],
-    "title": [
-      "Attend and Tell: Neural Image Caption Generation with Visual Attention\"**"
-    ],
-    "editor": [
-      {
-        "family": "Xu",
-        "given": "Kelvin"
-      },
-      {
-        "family": "Ba",
-        "given": "Jimmy Lei"
-      },
-      {
-        "family": "Kiros",
-        "given": "Ryan"
-      },
-      {
-        "family": "Cho",
-        "given": "Kyunghyun"
-      },
-      {
-        "family": "Courville",
-        "given": "Aaron"
-      },
-      {
-        "family": "Salakhutdinov",
-        "given": "Ruslan"
-      },
-      {
-        "family": "Zemel",
-        "given": "Richard S."
-      },
-      {
-        "family": "Bengio",
-        "given": "Yoshua"
+        "literal": "**\"Visual and Textual Entailment for Image Captioning and Visual Question Answering\"** - Antol, S., Agrawal, A., Lu, J., Mitchell, M., Batra, D., Zitnick, C. L., & Parikh, D."
       }
     ],
     "date": [
       "2015"
     ],
-    "type": null
+    "container-title": [
+      "Proceedings of the IEEE International Conference on Computer Vision (ICCV"
+    ],
+    "type": "paper-conference"
   },
   {
     "citation-number": [
       "9."
     ],
-    "title": [
-      "**\"Image Captioning with Semantic Attention\"** - Long Chen"
+    "author": [
+      {
+        "literal": "**\"Multimodal Entailment via Image and Text for Visual Question Answering\"** - Fukui, A., Park, D. H., Yang, D., Rohrbach, A., Darrell, T., & Rohrbach, M."
+      }
     ],
-    "note": [
-      "Hanwang Zhang, Jun Xiao, Liqiang Nie, Jian Shao, Wei Liu, Tat-Seng Chua (2017"
+    "date": [
+      "2016"
     ],
-    "type": null
+    "container-title": [
+      "Proceedings of the 2016 Conference on Empirical Methods in Natural Language Processing (EMNLP"
+    ],
+    "type": "paper-conference"
   },
   {
     "citation-number": [
       "10."
     ],
     "title": [
-      "**\"Multimodal Sentiment Analysis: Addressing Key Issues and Setting Up the Baselines\"** - Soujanya Poria"
+      "**\"Aligning Books and Movies: Towards Story-like Visual Explanations by Watching Movies and Reading"
     ],
-    "note": [
-      "Erik Cambria, Devamanyu Hazarika, Navonil Majumder, Amir Zadeh, Louis-Philippe Morency (2017"
+    "author": [
+      {
+        "literal": "Books\"** - Zhu, Y., Kiros, R., Zemel, R., Salakhutdinov, R., Urtasun, R., Torralba, A., & Fidler, S."
+      }
     ],
-    "type": null
+    "date": [
+      "2015"
+    ],
+    "container-title": [
+      "Proceedings of the IEEE International Conference on Computer Vision (ICCV"
+    ],
+    "type": "paper-conference"
   },
   {
     "citation-number": [
       "11."
     ],
-    "title": [
-      "**\"Multimodal Fusion for Video Search Reranking\"** - Chong-Wah Ngo, Yu-Gang Jiang"
-    ],
-    "publisher": [
-      "Xian-Sheng Hua"
+    "author": [
+      {
+        "literal": "**\"Multimodal Entailment Detection for Visual Question Answering\"** - Goyal, Y., Khot, T., Summers-Stay, D., Batra, D., & Parikh, D."
+      }
     ],
     "date": [
-      "2008"
+      "2017"
     ],
-    "type": "book"
+    "container-title": [
+      "Proceedings of the 2017 Conference on Empirical Methods in Natural Language Processing (EMNLP"
+    ],
+    "type": "paper-conference"
   },
   {
     "citation-number": [
@@ -248,181 +245,175 @@
     ],
     "author": [
       {
-        "literal": "**\"Multimodal Deep Learning\"** - Ngiam, Jiquan, Aditya Khosla, Mingyu Kim, Juhan Nam, Honglak Lee, Andrew Y. Ng"
+        "literal": "**\"Visual and Textual Entailment with Structured Representations\"** - Kim, J., & Mooney, R. J."
       }
     ],
     "date": [
-      "2011"
+      "2018"
     ],
-    "type": null
+    "container-title": [
+      "Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing (EMNLP"
+    ],
+    "type": "paper-conference"
   },
   {
     "citation-number": [
       "13."
     ],
-    "title": [
-      "**\"Multimodal Learning with Deep Boltzmann Machines\"** - Nitish Srivastava, Ruslan Salakhutdinov"
+    "author": [
+      {
+        "literal": "**\"Multimodal Entailment for Image Captioning\"** - Anderson, P., Fernando, B., Johnson, M., & Gould, S."
+      }
     ],
     "date": [
-      "2012"
+      "2016"
     ],
-    "type": null
+    "container-title": [
+      "Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR"
+    ],
+    "type": "paper-conference"
   },
   {
     "citation-number": [
       "14."
     ],
-    "title": [
-      "**\"Multimodal Sentiment Analysis to Explore the Structure of Emotions\"** - Soujanya Poria"
+    "author": [
+      {
+        "literal": "**\"Multimodal Entailment with Image and Text\"** - Chen, X., Fang, H., Lin, T. Y., Vedantam, R., Gupta, S., Dollár, P., & Zitnick, C. L."
+      }
     ],
-    "note": [
-      "Erik Cambria, Alexander Gelbukh (2015"
+    "date": [
+      "2015"
     ],
-    "type": null
+    "container-title": [
+      "Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR"
+    ],
+    "type": "paper-conference"
   },
   {
     "citation-number": [
       "15."
     ],
-    "title": [
-      "**\"Multimodal Emotion Recognition from Speech and Facial Expression using Deep Learning Techniques\"**"
+    "author": [
+      {
+        "literal": "**\"Learning Visual and Textual Representations for Multimodal Entailment\"** - Karpathy, A., & Fei-Fei, L."
+      }
     ],
-    "note": [
-      "Amir Zadeh, Minghai Chen, Soujanya Poria, Erik Cambria, Louis-Philippe Morency (2017"
+    "date": [
+      "2015"
     ],
-    "type": null
+    "container-title": [
+      "Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR"
+    ],
+    "type": "paper-conference"
   },
   {
     "citation-number": [
       "16."
     ],
-    "title": [
-      "**\"Multimodal Neural Language Models\"** - Desmond Elliott"
-    ],
-    "publisher": [
-      "Frank Keller"
+    "author": [
+      {
+        "literal": "**\"Multimodal Entailment with Deep Learning\"** - Vinyals, O., Toshev, A., Bengio, S., & Erhan, D."
+      }
     ],
     "date": [
-      "2013"
+      "2015"
     ],
-    "type": "book"
+    "container-title": [
+      "Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR"
+    ],
+    "type": "paper-conference"
   },
   {
     "citation-number": [
       "17."
     ],
     "title": [
-      "**\"Multimodal Learning for Video Classification\"**"
+      "**\"Multimodal Entailment for Visual Question Answering with Attention Mechanisms\"**"
     ],
     "author": [
       {
-        "family": "Kahou",
-        "given": "S.E."
+        "family": "Lu",
+        "given": "J."
       },
       {
-        "family": "Michalski",
-        "given": "Vincent"
+        "family": "Yang",
+        "given": "J."
       },
       {
-        "family": "Memisevic",
-        "given": "Roland"
+        "family": "Batra",
+        "given": "D."
       },
       {
-        "family": "Pal",
-        "given": "Christopher"
-      }
-    ],
-    "date": [
-      "2013"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "18."
-    ],
-    "title": [
-      "**\"Multimodal Learning with Low-Rank Multimodal Fusion\"**"
-    ],
-    "publisher": [
-      "Yao-Hung Hubert Tsai, Liang-Kang Huang, Ruslan Salakhutdinov"
-    ],
-    "date": [
-      "2019"
-    ],
-    "type": "book"
-  },
-  {
-    "citation-number": [
-      "19."
-    ],
-    "title": [
-      "**\"Multimodal Transformer for Unaligned Multimodal Language Sequences\"**"
-    ],
-    "editor": [
-      {
-        "family": "Tsai",
-        "given": "Yao-Hung Hubert"
-      },
-      {
-        "family": "Bai",
-        "given": "Shaojie"
-      },
-      {
-        "family": "Paul Pu Liang",
-        "given": "J.Zico Kolter"
-      },
-      {
-        "family": "Morency",
-        "given": "Louis-Philippe"
-      },
-      {
-        "family": "Salakhutdinov",
-        "given": "Ruslan"
-      }
-    ],
-    "date": [
-      "2019"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "20."
-    ],
-    "title": [
-      "**\"Multimodal Sentiment Analysis: A New Benchmark and Modeling Method\"**"
-    ],
-    "editor": [
-      {
-        "family": "Zadeh",
-        "given": "Amir"
-      },
-      {
-        "family": "Liang",
-        "given": "Paul Pu"
-      },
-      {
-        "family": "Poria",
-        "given": "Soujanya"
-      },
-      {
-        "family": "Cambria",
-        "given": "Erik"
-      },
-      {
-        "family": "Morency",
-        "given": "Louis-Philippe"
+        "family": "Parikh",
+        "given": "D."
       }
     ],
     "date": [
       "2016"
     ],
-    "type": null
+    "container-title": [
+      "Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "author": [
+      {
+        "literal": "**\"Multimodal Entailment Detection with Neural Networks\"** - Ren, M., Kiros, R., & Zemel, R."
+      }
+    ],
+    "date": [
+      "2015"
+    ],
+    "container-title": [
+      "Proceedings of the 2015 Conference on Empirical Methods in Natural Language Processing (EMNLP"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "author": [
+      {
+        "literal": "**\"Image-Text Entailment with Deep Learning\"** - Donahue, J., Hendricks, L. A., Guadarrama, S., Rohrbach, M., Venugopalan, S., Saenko, K., & Darrell, T."
+      }
+    ],
+    "date": [
+      "2015"
+    ],
+    "container-title": [
+      "Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "author": [
+      {
+        "literal": "**\"Multimodal Entailment for Natural Language Understanding\"** - Socher, R., Karpathy, A., Le, Q. V., Manning, C. D., & Ng, A. Y."
+      }
+    ],
+    "date": [
+      "2014"
+    ],
+    "container-title": [
+      "Proceedings of the 2014 Conference on Empirical Methods in Natural Language Processing (EMNLP"
+    ],
+    "type": "paper-conference"
   },
   {
     "title": [
-      "These articles should provide a comprehensive overview of the field of multimodal entailment and related areas"
+      "These articles should provide a comprehensive overview of the research landscape in multimodal entailment up to"
+    ],
+    "date": [
+      "2021"
     ],
     "type": null
   }

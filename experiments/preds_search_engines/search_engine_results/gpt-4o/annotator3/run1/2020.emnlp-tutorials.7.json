@@ -1,10 +1,12 @@
 [
   {
-    "title": [
-      "Sure, here is a reading list of 20 articles published before 2021 that address current issues in natural language generation (NLG"
+    "author": [
+      {
+        "given": "Certainly!"
+      }
     ],
-    "note": [
-      "specifically focusing on the lack of diversity, the non-factuality of generated text, and evaluation metrics:"
+    "title": [
+      "Here's a curated reading list of 20 articles up to 2020 that address the current issues in Natural Language Generation (NLG), specifically focusing on the lack of diversity, the non-factuality of generated text, and evaluation metrics"
     ],
     "type": null
   },
@@ -23,58 +25,15 @@
       "1."
     ],
     "title": [
-      "**\"A Diversity-Promoting Objective Function for Neural Conversation Models\"** - Li, Jiwei, et al"
-    ],
-    "date": [
-      "2016"
+      "**\"A Diversity-Promoting Objective Function for Neural Conversation Models\"**"
     ],
     "type": null
   },
   {
     "author": [
       {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "This paper introduces a diversity-promoting objective function to address the issue of repetitive and generic responses in neural conversation models"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "2."
-    ],
-    "title": [
-      "**\"Generating Diverse and Consistent QA pairs from Contexts with Information-Maximizing Hierarchical Conditional VAEs\"** - Du, Xinya, et al"
-    ],
-    "date": [
-      "2017"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "The authors propose a method to generate diverse and contextually consistent question-answer pairs using hierarchical conditional variational autoencoders"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "3."
-    ],
-    "title": [
-      "**\"Diverse Beam Search: Decoding Diverse Solutions from Neural Sequence Models\"**"
-    ],
-    "editor": [
-      {
-        "family": "Vijayakumar",
-        "given": "Ashwin K."
+        "family": "Li",
+        "given": "Jiwei"
       },
       {
         "others": true
@@ -86,13 +45,79 @@
     "type": null
   },
   {
+    "note": [
+      "- *arXiv preprint arXiv:1510.03055*"
+    ],
+    "arxiv": [
+      "1510.03055"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "title": [
+      "**\"Generating Diverse and Consistent QA pairs from Contexts with Information-Maximizing Hierarchical Conditional VAEs\"**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Zhang",
+        "given": "Shiyue"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "- *arXiv preprint arXiv:1906.02622*"
+    ],
+    "arxiv": [
+      "1906.02622"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "title": [
+      "**\"Learning to Diversify Neural Text Generation via Compositional Variational Auto-Encoder\"**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Shen",
+        "given": "Tianxiao"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
     "author": [
       {
         "literal": "-"
       }
     ],
-    "title": [
-      "This paper presents Diverse Beam Search, a decoding algorithm designed to generate diverse outputs from neural sequence models"
+    "date": [
+      "2019"
     ],
     "type": null
   },
@@ -101,7 +126,19 @@
       "4."
     ],
     "title": [
-      "**\"Towards Diverse Text Generation with Inverse Reinforcement Learning\"** - Li, Jiwei, et al"
+      "**\"Towards Diverse Text Generation with Inverse Reinforcement Learning\"**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Shi",
+        "given": "Weiyan"
+      },
+      {
+        "others": true
+      }
     ],
     "date": [
       "2018"
@@ -109,22 +146,32 @@
     "type": null
   },
   {
-    "author": [
-      {
-        "literal": "-"
-      }
+    "citation-number": [
+      "-"
     ],
-    "title": [
-      "The authors explore the use of inverse reinforcement learning to encourage diversity in text generation"
+    "container-title": [
+      "*Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing (EMNLP)*"
     ],
-    "type": null
+    "type": "paper-conference"
   },
   {
     "citation-number": [
       "5."
     ],
     "title": [
-      "**\"Generating Diverse and Meaningful Captions: Unsupervised Specificity Optimization for Image Captioning\"** - Dai, Bo, et al"
+      "**\"Generating Diverse and Meaningful Captions: Unsupervised Specificity Optimization\"**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Dai",
+        "given": "Bo"
+      },
+      {
+        "others": true
+      }
     ],
     "date": [
       "2017"
@@ -132,15 +179,13 @@
     "type": null
   },
   {
-    "author": [
-      {
-        "literal": "-"
-      }
+    "citation-number": [
+      "-"
     ],
-    "title": [
-      "This work focuses on generating diverse and meaningful image captions by optimizing for specificity in an unsupervised manner"
+    "container-title": [
+      "*Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)*"
     ],
-    "type": null
+    "type": "paper-conference"
   },
   {
     "publisher": [
@@ -153,30 +198,53 @@
       "6."
     ],
     "title": [
-      "**\"Get Your Vitamin C! Robust Fact Verification with Contrastive Evidence\"** - Zhou, Xinya, et al"
-    ],
-    "date": [
-      "2019"
+      "**\"Fact-Checking Neural Networks: A Case Study\"**"
     ],
     "type": null
   },
   {
     "author": [
       {
-        "literal": "-"
+        "family": "Thorne",
+        "given": "James"
+      },
+      {
+        "others": true
       }
     ],
-    "title": [
-      "The paper discusses methods for improving the factual accuracy of generated text by incorporating contrastive evidence"
+    "date": [
+      "2018"
     ],
     "type": null
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "container-title": [
+      "*Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing (EMNLP)*"
+    ],
+    "type": "paper-conference"
   },
   {
     "citation-number": [
       "7."
     ],
     "title": [
-      "**\"Fact-Checking in Community Forums\"** - Mihaylova, Tsvetomila, et al"
+      "**\"Neural Text Generation: A Practical Guide\"**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Gatt",
+        "given": "Albert"
+      },
+      {
+        "family": "Krahmer",
+        "given": "Emiel"
+      }
     ],
     "date": [
       "2018"
@@ -190,7 +258,7 @@
       }
     ],
     "title": [
-      "This study addresses the challenge of fact-checking in community forums and proposes methods to improve the factuality of user-generated content"
+      "*Journal of Artificial Intelligence Research (JAIR)*"
     ],
     "type": null
   },
@@ -199,56 +267,52 @@
       "8."
     ],
     "title": [
-      "**\"Learning to Generate Fact Checking Explanations\"** - Atanasova, Pepa, et al"
-    ],
-    "date": [
-      "2020"
+      "**\"Learning to Generate Fact Checking Articles\"**"
     ],
     "type": null
   },
   {
     "author": [
       {
-        "literal": "-"
+        "family": "Alhindi",
+        "given": "Tariq"
+      },
+      {
+        "others": true
       }
     ],
-    "title": [
-      "The authors propose a model that generates explanations for fact-checking claims, aiming to improve the factual accuracy of generated text"
+    "date": [
+      "2018"
     ],
     "type": null
   },
   {
     "citation-number": [
+      "-"
+    ],
+    "container-title": [
+      "*Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing (EMNLP)*"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
       "9."
     ],
-    "title": [
-      "**\"Neural Text Generation: A Practical Guide\"** - Gatt"
-    ],
     "publisher": [
-      "Albert, and Emiel Krahmer"
-    ],
-    "date": [
-      "2018"
+      "**\"Generating Fact Checking Briefs\"**"
     ],
     "type": "book"
   },
   {
     "author": [
       {
-        "literal": "-"
+        "family": "Fan",
+        "given": "Angela"
+      },
+      {
+        "others": true
       }
-    ],
-    "title": [
-      "This comprehensive guide covers various aspects of neural text generation, including challenges related to factuality"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "10."
-    ],
-    "title": [
-      "**\"Improving Factual Consistency of Abstractive Summarization\"** - Kryściński, Wojciech, et al"
     ],
     "date": [
       "2019"
@@ -256,15 +320,46 @@
     "type": null
   },
   {
-    "author": [
-      {
-        "literal": "-"
-      }
+    "citation-number": [
+      "-"
     ],
-    "title": [
-      "The paper presents methods to improve the factual consistency of abstractive summarization models"
+    "container-title": [
+      "*Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics (ACL)*"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "note": [
+      "**\"Fact-based Text Editing\"**"
     ],
     "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Cao",
+        "given": "Shuyang"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "container-title": [
+      "*Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)*"
+    ],
+    "type": "paper-conference"
   },
   {
     "author": [
@@ -280,7 +375,19 @@
       "11."
     ],
     "title": [
-      "**\"BLEU: a Method for Automatic Evaluation of Machine Translation\"** - Papineni, Kishore, et al"
+      "**\"BLEU: a Method for Automatic Evaluation of Machine Translation\"**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Papineni",
+        "given": "Kishore"
+      },
+      {
+        "others": true
+      }
     ],
     "date": [
       "2002"
@@ -288,22 +395,29 @@
     "type": null
   },
   {
-    "author": [
-      {
-        "literal": "-"
-      }
+    "citation-number": [
+      "-"
     ],
-    "title": [
-      "This seminal paper introduces the BLEU score, a widely used metric for evaluating the quality of machine-generated text"
+    "container-title": [
+      "*Proceedings of the 40th Annual Meeting of the Association for Computational Linguistics (ACL)*"
     ],
-    "type": null
+    "type": "paper-conference"
   },
   {
     "citation-number": [
       "12."
     ],
     "title": [
-      "**\"ROUGE: A Package for Automatic Evaluation of Summaries\"** - Lin, Chin-Yew"
+      "**\"ROUGE: A Package for Automatic Evaluation of Summaries\"**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Lin",
+        "given": "Chin-Yew"
+      }
     ],
     "date": [
       "2004"
@@ -317,39 +431,70 @@
       }
     ],
     "title": [
-      "The paper presents the ROUGE metric, which is commonly used for evaluating the quality of text summarization"
+      "*Text Summarization Branches Out"
     ],
-    "type": null
+    "container-title": [
+      "Proceedings of the ACL-04 Workshop*"
+    ],
+    "type": "paper-conference"
   },
   {
     "citation-number": [
       "13."
     ],
-    "title": [
-      "**\"BERTScore: Evaluating Text Generation with BERT\"** - Zhang, Tianyi, et al"
+    "author": [
+      {
+        "given": "M.E.T.E.O.R."
+      }
     ],
-    "date": [
-      "2020"
+    "title": [
+      "An Automatic Metric for MT Evaluation with Improved Correlation with Human Judgments\"**"
     ],
     "type": null
   },
   {
     "author": [
       {
-        "literal": "-"
+        "family": "Banerjee",
+        "given": "Satanjeev"
+      },
+      {
+        "family": "Lavie",
+        "given": "Alon"
       }
     ],
-    "title": [
-      "The authors introduce BERTScore, a metric that leverages BERT embeddings to evaluate the quality of generated text"
+    "date": [
+      "2005"
     ],
     "type": null
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "container-title": [
+      "*Proceedings of the ACL Workshop on Intrinsic and Extrinsic Evaluation Measures for Machine Translation and/or Summarization*"
+    ],
+    "type": "paper-conference"
   },
   {
     "citation-number": [
       "14."
     ],
     "title": [
-      "**\"Unsupervised Quality Estimation for Neural Machine Translation\"** - Fomicheva, Marina, et al"
+      "**\"BERTScore: Evaluating Text Generation with BERT\"**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Zhang",
+        "given": "Tianyi"
+      },
+      {
+        "others": true
+      }
     ],
     "date": [
       "2020"
@@ -357,15 +502,13 @@
     "type": null
   },
   {
-    "author": [
-      {
-        "literal": "-"
-      }
+    "citation-number": [
+      "-"
     ],
-    "title": [
-      "This paper discusses unsupervised methods for estimating the quality of neural machine translation outputs"
+    "container-title": [
+      "*Proceedings of the 8th International Conference on Learning Representations (ICLR)*"
     ],
-    "type": null
+    "type": "paper-conference"
   },
   {
     "citation-number": [
@@ -374,7 +517,10 @@
     "title": [
       "**\"Towards a Better Metric for Evaluating Question Generation Systems\"**"
     ],
-    "editor": [
+    "type": null
+  },
+  {
+    "author": [
       {
         "family": "Nema",
         "given": "Preksha"
@@ -390,27 +536,33 @@
     "type": null
   },
   {
-    "author": [
-      {
-        "literal": "-"
-      }
+    "citation-number": [
+      "-"
     ],
-    "title": [
-      "The authors propose a new metric for evaluating the quality of question generation systems"
+    "container-title": [
+      "*Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing (EMNLP)*"
     ],
-    "type": null
+    "type": "paper-conference"
   },
   {
     "citation-number": [
       "16."
     ],
-    "title": [
-      "**\"Evaluating the Evaluation Metrics for Style Transfer: A Case Study in Multilingual Formality Transfer\"**"
-    ],
-    "editor": [
+    "author": [
       {
-        "family": "Yamshchikov",
-        "given": "Ivan P."
+        "given": "B.L.E.U.R.T."
+      }
+    ],
+    "title": [
+      "Learning Robust Metrics for Text Generation\"**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Sellam",
+        "given": "Thibault"
       },
       {
         "others": true
@@ -422,59 +574,61 @@
     "type": null
   },
   {
-    "author": [
-      {
-        "literal": "-"
-      }
+    "citation-number": [
+      "-"
     ],
-    "title": [
-      "This study evaluates various metrics for style transfer, providing insights into their effectiveness"
+    "container-title": [
+      "*Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics (ACL)*"
     ],
-    "type": null
+    "type": "paper-conference"
   },
   {
     "citation-number": [
       "17."
     ],
-    "title": [
-      "**\"Evaluating the Evaluation Metrics for Paraphrase Generation\"**"
+    "publisher": [
+      "**\"Re-evaluating Automatic Metrics for Machine Translation\"**"
     ],
-    "editor": [
+    "type": "book"
+  },
+  {
+    "author": [
       {
-        "family": "Wieting",
-        "given": "John"
+        "family": "Mathur",
+        "given": "Puneet"
       },
       {
         "others": true
       }
     ],
     "date": [
-      "2019"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "The paper assesses different metrics for evaluating paraphrase generation, highlighting their strengths and weaknesses"
+      "2020"
     ],
     "type": null
   },
   {
     "citation-number": [
+      "-"
+    ],
+    "container-title": [
+      "*Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics (ACL)*"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
       "18."
     ],
-    "title": [
-      "**\"Towards a Metric for Automated Conversational Dialogue System Evaluation and Improvement\"**"
+    "container-title": [
+      "**\"Unsupervised Quality Estimation for Neural Machine Translation\"**"
     ],
-    "editor": [
+    "type": "chapter"
+  },
+  {
+    "author": [
       {
-        "family": "Lowe",
-        "given": "Ryan"
+        "family": "Kim",
+        "given": "Yunsu"
       },
       {
         "others": true
@@ -486,45 +640,65 @@
     "type": null
   },
   {
-    "author": [
-      {
-        "literal": "-"
-      }
+    "citation-number": [
+      "-"
     ],
-    "title": [
-      "The authors propose a new metric for evaluating conversational dialogue systems"
+    "container-title": [
+      "*Proceedings of the 2017 Conference on Empirical Methods in Natural Language Processing (EMNLP)*"
     ],
-    "type": null
+    "type": "paper-conference"
   },
   {
     "citation-number": [
       "19."
     ],
     "title": [
-      "**\"Evaluating the Evaluation Metrics for Text Simplification: A Case Study on the TurkCorpus\"** - Štajner, Sanja, et al"
-    ],
-    "date": [
-      "2014"
+      "**\"Towards a Better Understanding of Metric Correlations in Text Generation\"**"
     ],
     "type": null
   },
   {
     "author": [
       {
-        "literal": "-"
+        "family": "Novikova",
+        "given": "Jekaterina"
+      },
+      {
+        "others": true
       }
     ],
-    "title": [
-      "This paper evaluates various metrics for text simplification, using the TurkCorpus as a case study"
+    "date": [
+      "2017"
     ],
     "type": null
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "container-title": [
+      "*Proceedings of the 2017 Conference on Empirical Methods in Natural Language Processing (EMNLP)*"
+    ],
+    "type": "paper-conference"
   },
   {
     "citation-number": [
       "20."
     ],
     "title": [
-      "**\"A Survey of Evaluation Metrics Used for NLG Systems\"** - Reiter, Ehud"
+      "**\"Evaluating the Evaluation Metrics for Style Transfer: A Case Study in Multilingual Formality Transfer\"**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Niu",
+        "given": "Xing"
+      },
+      {
+        "others": true
+      }
     ],
     "date": [
       "2018"
@@ -532,22 +706,20 @@
     "type": null
   },
   {
-    "author": [
-      {
-        "literal": "-"
-      }
+    "citation-number": [
+      "-"
     ],
-    "title": [
-      "This survey provides an overview of the different evaluation metrics used for natural language generation systems"
+    "container-title": [
+      "*Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing (EMNLP)*"
     ],
-    "type": null
+    "type": "paper-conference"
   },
   {
     "title": [
-      "These articles should provide a comprehensive overview of the key issues and advancements in the field of natural language generation up to"
+      "These articles should provide a comprehensive overview of the challenges and advancements in addressing diversity, factuality, and evaluation in NLG up to"
     ],
     "date": [
-      "2021"
+      "2020"
     ],
     "type": null
   }

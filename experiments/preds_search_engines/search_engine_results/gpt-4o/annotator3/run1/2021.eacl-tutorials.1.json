@@ -2,14 +2,14 @@
   {
     "author": [
       {
-        "given": "Sure!"
+        "given": "Certainly!"
       }
     ],
     "title": [
-      "Here is a list of 20 articles on unsupervised parsing in the context of natural language processing"
+      "Here's a reading list of 20 articles up to 2021 that focus on parsing in the context of natural language processing (NLP"
     ],
     "note": [
-      "NLP) published before 2022:"
+      "with an emphasis on unsupervised approaches and their applications:"
     ],
     "type": null
   },
@@ -28,13 +28,13 @@
       }
     ],
     "date": [
-      "2004"
+      "2002"
     ],
     "title": [
-      "Corpus-based induction of syntactic structure: Models of dependency and constituency"
+      "A Generative Constituent-Context Model for Improved Grammar Induction"
     ],
     "container-title": [
-      "Proceedings of the 42nd Annual Meeting on Association for Computational Linguistics (ACL"
+      "*Proceedings of the 40th Annual Meeting of the Association for Computational Linguistics (ACL)*"
     ],
     "type": "paper-conference"
   },
@@ -53,13 +53,13 @@
       }
     ],
     "date": [
-      "2002"
+      "2004"
     ],
     "title": [
-      "A generative constituent-context model for improved grammar induction"
+      "Corpus-Based Induction of Syntactic Structure: Models of Dependency and Constituency"
     ],
     "container-title": [
-      "Proceedings of the 40th Annual Meeting on Association for Computational Linguistics (ACL"
+      "*Proceedings of the 42nd Annual Meeting of the Association for Computational Linguistics (ACL)*"
     ],
     "type": "paper-conference"
   },
@@ -69,22 +69,22 @@
     ],
     "author": [
       {
-        "family": "Smith",
-        "given": "N.A."
+        "family": "Cohen",
+        "given": "S.B."
       },
       {
-        "family": "Eisner",
-        "given": "J."
+        "family": "Smith",
+        "given": "N.A."
       }
     ],
     "date": [
-      "2006"
+      "2009"
     ],
     "title": [
-      "Annealing structural bias in multilingual weighted grammar induction"
+      "Shared Logistic Normal Distributions for Soft Parameter Tying in Unsupervised Grammar Induction"
     ],
     "container-title": [
-      "Proceedings of the 21st International Conference on Computational Linguistics and 44th Annual Meeting of the Association for Computational Linguistics (ACL"
+      "*Proceedings of the 2009 Conference on Empirical Methods in Natural Language Processing (EMNLP)*"
     ],
     "type": "paper-conference"
   },
@@ -114,16 +114,66 @@
       "2011"
     ],
     "title": [
-      "Punctuation: Making a point in unsupervised dependency parsing"
+      "Punctuation: Making a Point in Unsupervised Dependency Parsing"
     ],
     "container-title": [
-      "Proceedings of the 15th Conference on Computational Natural Language Learning (CoNLL"
+      "*Proceedings of the 15th Conference on Computational Natural Language Learning (CoNLL)*"
     ],
     "type": "paper-conference"
   },
   {
     "citation-number": [
       "5."
+    ],
+    "author": [
+      {
+        "family": "Blunsom",
+        "given": "P."
+      },
+      {
+        "family": "Cohn",
+        "given": "T."
+      }
+    ],
+    "date": [
+      "2010"
+    ],
+    "title": [
+      "Unsupervised Induction of Tree Substitution Grammars for Dependency Parsing"
+    ],
+    "container-title": [
+      "*Proceedings of the 2010 Conference on Empirical Methods in Natural Language Processing (EMNLP)*"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "author": [
+      {
+        "family": "Gillenwater",
+        "given": "J."
+      },
+      {
+        "family": "Klein",
+        "given": "D."
+      }
+    ],
+    "date": [
+      "2014"
+    ],
+    "title": [
+      "Unsupervised Learning of Field Segmentation Models for Information Extraction"
+    ],
+    "container-title": [
+      "*Proceedings of the 52nd Annual Meeting of the Association for Computational Linguistics (ACL)*"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "7."
     ],
     "author": [
       {
@@ -144,41 +194,16 @@
       "2009"
     ],
     "title": [
-      "Improving unsupervised dependency parsing with richer contexts and smoothing"
+      "Improving Unsupervised Dependency Parsing with Richer Contexts and Smoothing"
     ],
     "container-title": [
-      "Proceedings of Human Language Technologies: The 2009 Annual Conference of the North American Chapter of the Association for Computational Linguistics (NAACL"
+      "*Proceedings of Human Language Technologies: The 2009 Annual Conference of the North American Chapter of the Association for Computational Linguistics (NAACL-HLT)*"
     ],
     "type": "paper-conference"
   },
   {
     "citation-number": [
-      "6."
-    ],
-    "author": [
-      {
-        "family": "Mareček",
-        "given": "D."
-      },
-      {
-        "family": "Straka",
-        "given": "M."
-      }
-    ],
-    "date": [
-      "2013"
-    ],
-    "title": [
-      "Stop-probability estimates computed on a large corpus improve unsupervised dependency parsing"
-    ],
-    "container-title": [
-      "Proceedings of the 51st Annual Meeting of the Association for Computational Linguistics (ACL"
-    ],
-    "type": "paper-conference"
-  },
-  {
-    "citation-number": [
-      "7."
+      "8."
     ],
     "author": [
       {
@@ -202,66 +227,16 @@
       "2010"
     ],
     "title": [
-      "Using universal linguistic knowledge to guide grammar induction"
+      "Using Universal Linguistic Knowledge to Guide Grammar Induction"
     ],
     "container-title": [
-      "Proceedings of the 2010 Conference on Empirical Methods in Natural Language Processing (EMNLP"
-    ],
-    "type": "paper-conference"
-  },
-  {
-    "citation-number": [
-      "8."
-    ],
-    "author": [
-      {
-        "family": "Blunsom",
-        "given": "P."
-      },
-      {
-        "family": "Cohn",
-        "given": "T."
-      }
-    ],
-    "date": [
-      "2010"
-    ],
-    "title": [
-      "Unsupervised induction of tree substitution grammars for dependency parsing"
-    ],
-    "container-title": [
-      "Proceedings of the 2010 Conference on Empirical Methods in Natural Language Processing (EMNLP"
+      "*Proceedings of the 2010 Conference on Empirical Methods in Natural Language Processing (EMNLP)*"
     ],
     "type": "paper-conference"
   },
   {
     "citation-number": [
       "9."
-    ],
-    "author": [
-      {
-        "family": "Cohen",
-        "given": "S.B."
-      },
-      {
-        "family": "Smith",
-        "given": "N.A."
-      }
-    ],
-    "date": [
-      "2009"
-    ],
-    "title": [
-      "Shared logistic normal distributions for soft parameter tying in unsupervised grammar induction"
-    ],
-    "container-title": [
-      "Proceedings of Human Language Technologies: The 2009 Annual Conference of the North American Chapter of the Association for Computational Linguistics (NAACL"
-    ],
-    "type": "paper-conference"
-  },
-  {
-    "citation-number": [
-      "10."
     ],
     "author": [
       {
@@ -275,18 +250,47 @@
       {
         "family": "Jurafsky",
         "given": "D."
+      },
+      {
+        "family": "Manning",
+        "given": "C.D."
       }
     ],
     "date": [
       "2010"
     ],
     "title": [
-      "From baby steps to leapfrog: How \"less is more\" in unsupervised dependency parsing"
+      "From Baby Steps to Leapfrog: How 'Less is More' in Unsupervised Dependency Parsing"
     ],
     "container-title": [
-      "Proceedings of the 2010 Conference of the North American Chapter of the Association for Computational Linguistics (NAACL"
+      "*Proceedings of the 2010 Conference of the North American Chapter of the Association for Computational Linguistics (NAACL-HLT)*"
     ],
     "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "author": [
+      {
+        "family": "Cohen",
+        "given": "S.B."
+      },
+      {
+        "family": "Smith",
+        "given": "N.A."
+      }
+    ],
+    "date": [
+      "2010"
+    ],
+    "title": [
+      "Covariance in Unsupervised Learning of Probabilistic Grammars"
+    ],
+    "container-title": [
+      "*Journal of Machine Learning Research (JMLR)*"
+    ],
+    "type": "article-journal"
   },
   {
     "citation-number": [
@@ -294,17 +298,22 @@
     ],
     "author": [
       {
-        "literal": "Gillenwater, J., Ganchev, K., Grac ̧a, J., & Taskar, B."
+        "family": "Bisk",
+        "given": "Y."
+      },
+      {
+        "family": "Hockenmaier",
+        "given": "J."
       }
     ],
     "date": [
-      "2010"
+      "2012"
     ],
     "title": [
-      "Sparsity in dependency grammar induction"
+      "Simple Robust Grammar Induction with Combinatory Categorial Grammars"
     ],
     "container-title": [
-      "Proceedings of the 48th Annual Meeting of the Association for Computational Linguistics (ACL"
+      "*Proceedings of the 26th AAAI Conference on Artificial Intelligence (AAAI)*"
     ],
     "type": "paper-conference"
   },
@@ -324,129 +333,26 @@
       {
         "family": "Jurafsky",
         "given": "D."
+      },
+      {
+        "family": "Manning",
+        "given": "C.D."
       }
     ],
     "date": [
       "2011"
     ],
     "title": [
-      "Lateen EM: Unsupervised training with multiple objectives, applied to dependency grammar induction"
+      "Lateen EM: Unsupervised Training with Multiple Objectives, Applied to Dependency Grammar Induction"
     ],
     "container-title": [
-      "Proceedings of the 2011 Conference on Empirical Methods in Natural Language Processing (EMNLP"
+      "*Proceedings of the 2011 Conference on Empirical Methods in Natural Language Processing (EMNLP)*"
     ],
     "type": "paper-conference"
   },
   {
     "citation-number": [
       "13."
-    ],
-    "author": [
-      {
-        "family": "Mareček",
-        "given": "D."
-      },
-      {
-        "family": "Žabokrtský",
-        "given": "Z."
-      }
-    ],
-    "date": [
-      "2012"
-    ],
-    "title": [
-      "Exploiting reducibility in unsupervised dependency parsing"
-    ],
-    "container-title": [
-      "Proceedings of the 2012 Joint Conference on Empirical Methods in Natural Language Processing and Computational Natural Language Learning"
-    ],
-    "pages": [
-      "–"
-    ],
-    "type": "paper-conference"
-  },
-  {
-    "citation-number": [
-      "14."
-    ],
-    "author": [
-      {
-        "family": "Spitkovsky",
-        "given": "V.I."
-      },
-      {
-        "family": "Alshawi",
-        "given": "H."
-      },
-      {
-        "family": "Jurafsky",
-        "given": "D."
-      }
-    ],
-    "date": [
-      "2013"
-    ],
-    "title": [
-      "Breaking out of local optima with count transforms and model recombination: A study in grammar induction"
-    ],
-    "container-title": [
-      "Proceedings of the 2013 Conference on Empirical Methods in Natural Language Processing (EMNLP"
-    ],
-    "type": "paper-conference"
-  },
-  {
-    "citation-number": [
-      "15."
-    ],
-    "author": [
-      {
-        "family": "Gormley",
-        "given": "M.R."
-      },
-      {
-        "family": "Eisner",
-        "given": "J."
-      }
-    ],
-    "date": [
-      "2013"
-    ],
-    "title": [
-      "Nonconvex global optimization for latent-variable models"
-    ],
-    "container-title": [
-      "Proceedings of the 2013 Conference on Empirical Methods in Natural Language Processing (EMNLP"
-    ],
-    "type": "paper-conference"
-  },
-  {
-    "citation-number": [
-      "16."
-    ],
-    "author": [
-      {
-        "family": "Naseem",
-        "given": "T."
-      },
-      {
-        "family": "Barzilay",
-        "given": "R."
-      }
-    ],
-    "date": [
-      "2011"
-    ],
-    "title": [
-      "Using semantic cues to learn syntax"
-    ],
-    "container-title": [
-      "Proceedings of the Twenty-Fifth AAAI Conference on Artificial Intelligence (AAAI"
-    ],
-    "type": "paper-conference"
-  },
-  {
-    "citation-number": [
-      "17."
     ],
     "author": [
       {
@@ -459,15 +365,119 @@
       }
     ],
     "date": [
+      "2012"
+    ],
+    "title": [
+      "Unsupervised Learning of Tree Transducers"
+    ],
+    "container-title": [
+      "*Proceedings of the 2012 Conference of the North American Chapter of the Association for Computational Linguistics (NAACL-HLT)*"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "author": [
+      {
+        "family": "Jiang",
+        "given": "Y."
+      },
+      {
+        "family": "Liu",
+        "given": "Y."
+      }
+    ],
+    "date": [
       "2010"
     ],
     "title": [
-      "Covariance in unsupervised learning of probabilistic grammars"
+      "Dependency Grammar Induction with a Neural Variational Transition-based Parser"
     ],
-    "type": "article-journal",
     "container-title": [
-      "Journal of Machine Learning Research (JMLR"
-    ]
+      "*Proceedings of the 2010 Conference on Empirical Methods in Natural Language Processing (EMNLP)*"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "author": [
+      {
+        "family": "Gillenwater",
+        "given": "J."
+      },
+      {
+        "family": "Kulesza",
+        "given": "A."
+      },
+      {
+        "family": "Taskar",
+        "given": "B."
+      }
+    ],
+    "date": [
+      "2010"
+    ],
+    "title": [
+      "Discovering Diverse and Salient Threads in Document Collections"
+    ],
+    "container-title": [
+      "*Proceedings of the 2010 Conference on Empirical Methods in Natural Language Processing (EMNLP)*"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "author": [
+      {
+        "family": "Seginer",
+        "given": "Y."
+      }
+    ],
+    "date": [
+      "2007"
+    ],
+    "title": [
+      "Fast Unsupervised Incremental Parsing"
+    ],
+    "container-title": [
+      "*Proceedings of the 45th Annual Meeting of the Association for Computational Linguistics (ACL)*"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "author": [
+      {
+        "family": "Ponvert",
+        "given": "E."
+      },
+      {
+        "family": "Baldridge",
+        "given": "J."
+      },
+      {
+        "family": "Erk",
+        "given": "K."
+      }
+    ],
+    "date": [
+      "2011"
+    ],
+    "title": [
+      "Simple Unsupervised Grammar Induction from Raw Text with Cascaded Finite State Models"
+    ],
+    "container-title": [
+      "*Proceedings of the 49th Annual Meeting of the Association for Computational Linguistics (ACL)*"
+    ],
+    "type": "paper-conference"
   },
   {
     "citation-number": [
@@ -475,29 +485,22 @@
     ],
     "author": [
       {
-        "family": "Spitkovsky",
-        "given": "V.I."
+        "family": "Ravi",
+        "given": "S."
       },
       {
-        "family": "Alshawi",
-        "given": "H."
-      },
-      {
-        "family": "Jurafsky",
-        "given": "D."
+        "family": "Knight",
+        "given": "K."
       }
     ],
     "date": [
-      "2012"
+      "2009"
     ],
     "title": [
-      "Three dependency-and-boundary models for grammar induction"
+      "Minimally Supervised Dependency Parsing"
     ],
     "container-title": [
-      "Proceedings of the 2012 Joint Conference on Empirical Methods in Natural Language Processing and Computational Natural Language Learning"
-    ],
-    "pages": [
-      "–"
+      "*Proceedings of the 12th Conference of the European Chapter of the Association for Computational Linguistics (EACL)*"
     ],
     "type": "paper-conference"
   },
@@ -507,28 +510,22 @@
     ],
     "author": [
       {
-        "family": "Headden",
-        "given": "W.P.",
-        "suffix": "III"
+        "family": "Grave",
+        "given": "E."
       },
       {
-        "family": "Johnson",
-        "given": "M."
-      },
-      {
-        "family": "McClosky",
-        "given": "D."
+        "family": "Elhadad",
+        "given": "N."
       }
     ],
     "date": [
-      "2008",
-      "2008"
+      "2015"
     ],
     "title": [
-      "Improving unsupervised dependency parsing with richer contexts and smoothing"
+      "Unsupervised Dependency Parsing with Distant Supervision"
     ],
     "container-title": [
-      "Proceedings of the 22nd International Conference on Computational Linguistics"
+      "*Proceedings of the 2015 Conference on Empirical Methods in Natural Language Processing (EMNLP)*"
     ],
     "type": "paper-conference"
   },
@@ -538,34 +535,28 @@
     ],
     "author": [
       {
-        "family": "Mareček",
-        "given": "D."
+        "family": "He",
+        "given": "H."
       },
       {
-        "family": "Žabokrtský",
-        "given": "Z."
+        "family": "Young",
+        "given": "T."
       }
     ],
     "date": [
-      "2011"
+      "2017"
     ],
     "title": [
-      "Gibbs sampling with treeness constraint in unsupervised dependency parsing"
+      "Unsupervised Grammar Induction with Neural Language Models"
     ],
     "container-title": [
-      "Proceedings of the 49th Annual Meeting of the Association for Computational Linguistics: Human Language Technologies"
-    ],
-    "pages": [
-      "–"
+      "*Proceedings of the 2017 Conference on Empirical Methods in Natural Language Processing (EMNLP)*"
     ],
     "type": "paper-conference"
   },
   {
     "title": [
-      "These articles cover a range of approaches and techniques in unsupervised parsing, providing a comprehensive overview of the field up to"
-    ],
-    "date": [
-      "2022"
+      "These articles cover a range of techniques and approaches to unsupervised parsing, from grammar induction to dependency parsing, and their applications in various NLP tasks"
     ],
     "type": null
   }

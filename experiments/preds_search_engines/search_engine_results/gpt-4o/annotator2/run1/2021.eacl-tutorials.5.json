@@ -2,14 +2,14 @@
   {
     "author": [
       {
-        "given": "Sure!"
+        "given": "Certainly!"
       }
     ],
     "title": [
-      "Here is a list of 20 articles on unsupervised neural machine"
+      "Here's a reading list of 20 articles on unsupervised neural machine"
     ],
     "note": [
-      "translation (UNMT) published before 2022:"
+      "translation (UNMT) up to 2021:"
     ],
     "type": null
   },
@@ -34,10 +34,16 @@
     "date": [
       "2018"
     ],
-    "container-title": [
-      "\"Unsupervised Neural Machine Translation.\"** In Proceedings of the 6th International Conference on Learning Representations (ICLR 2018"
+    "title": [
+      "Unsupervised neural machine translation"
     ],
-    "type": "paper-conference"
+    "note": [
+      "*arXiv preprint arXiv:1710.11041*."
+    ],
+    "arxiv": [
+      "1710.11041"
+    ],
+    "type": null
   },
   {
     "citation-number": [
@@ -64,8 +70,11 @@
     "date": [
       "2018"
     ],
+    "title": [
+      "Unsupervised machine translation using monolingual corpora only"
+    ],
     "container-title": [
-      "\"Unsupervised Machine Translation Using Monolingual Corpora Only.\"** In Proceedings of the 6th International Conference on Learning Representations (ICLR 2018"
+      "*International Conference on Learning Representations (ICLR)*"
     ],
     "type": "paper-conference"
   },
@@ -79,20 +88,32 @@
         "given": "G."
       },
       {
+        "family": "Ott",
+        "given": "M."
+      },
+      {
         "family": "Conneau",
         "given": "A."
+      },
+      {
+        "family": "Denoyer",
+        "given": "L."
+      },
+      {
+        "family": "Ranzato",
+        "given": "M."
       }
     ],
     "date": [
-      "2019"
+      "2018"
     ],
     "title": [
-      "Cross-lingual Language Model Pretraining.\"**"
+      "Phrase-based & neural unsupervised machine translation"
     ],
     "container-title": [
-      "Advances in Neural Information Processing Systems (NeurIPS 2019"
+      "*Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing (EMNLP)*"
     ],
-    "type": "chapter"
+    "type": "paper-conference"
   },
   {
     "citation-number": [
@@ -115,8 +136,11 @@
     "date": [
       "2019"
     ],
+    "title": [
+      "An effective approach to unsupervised machine translation"
+    ],
     "container-title": [
-      "\"An Effective Approach to Unsupervised Machine Translation.\"** In Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics (ACL 2019"
+      "*Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics (ACL)*"
     ],
     "type": "paper-conference"
   },
@@ -126,23 +150,34 @@
     ],
     "author": [
       {
-        "family": "Ren",
-        "given": "S."
+        "family": "Conneau",
+        "given": "A."
       },
       {
-        "family": "Hu",
-        "given": "J."
+        "family": "Lample",
+        "given": "G."
       },
       {
-        "family": "Liu",
-        "given": "Y."
+        "family": "Ranzato",
+        "given": "M."
+      },
+      {
+        "family": "Denoyer",
+        "given": "L."
+      },
+      {
+        "family": "Jégou",
+        "given": "H."
       }
     ],
     "date": [
-      "2019"
+      "2018"
+    ],
+    "title": [
+      "Word translation without parallel data"
     ],
     "container-title": [
-      "\"Unsupervised Neural Machine Translation with SMT as Posterior Regularization.\"** In Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics (ACL 2019"
+      "*International Conference on Learning Representations (ICLR)*"
     ],
     "type": "paper-conference"
   },
@@ -152,100 +187,32 @@
     ],
     "author": [
       {
-        "family": "Song",
-        "given": "X."
+        "family": "Ren",
+        "given": "S."
       },
       {
-        "family": "Tan",
-        "given": "X."
-      },
-      {
-        "family": "Qin",
-        "given": "T."
-      },
-      {
-        "family": "Lu",
-        "given": "J."
+        "family": "Zhang",
+        "given": "Y."
       },
       {
         "family": "Liu",
-        "given": "T."
+        "given": "K."
       }
     ],
     "date": [
       "2019"
     ],
     "title": [
-      "MASS"
+      "Unsupervised neural machine translation with SMT as posterior regularization"
     ],
     "container-title": [
-      "Masked Sequence to Sequence Pre-training for Language Generation.\"** In Proceedings of the 36th International Conference on Machine Learning (ICML 2019"
+      "*Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics (ACL)*"
     ],
     "type": "paper-conference"
   },
   {
     "citation-number": [
       "7."
-    ],
-    "author": [
-      {
-        "family": "Lample",
-        "given": "G."
-      },
-      {
-        "family": "Ott",
-        "given": "M."
-      },
-      {
-        "family": "Conneau",
-        "given": "A."
-      },
-      {
-        "family": "Denoyer",
-        "given": "L."
-      },
-      {
-        "family": "Ranzato",
-        "given": "M."
-      }
-    ],
-    "date": [
-      "2018"
-    ],
-    "container-title": [
-      "\"Phrase-Based & Neural Unsupervised Machine Translation.\"** In Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing (EMNLP 2018"
-    ],
-    "type": "paper-conference"
-  },
-  {
-    "citation-number": [
-      "8."
-    ],
-    "author": [
-      {
-        "family": "Artetxe",
-        "given": "M."
-      },
-      {
-        "family": "Labaka",
-        "given": "G."
-      },
-      {
-        "family": "Agirre",
-        "given": "E."
-      }
-    ],
-    "date": [
-      "2018"
-    ],
-    "container-title": [
-      "\"Unsupervised Statistical Machine Translation.\"** In Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing (EMNLP 2018"
-    ],
-    "type": "paper-conference"
-  },
-  {
-    "citation-number": [
-      "9."
     ],
     "author": [
       {
@@ -268,14 +235,17 @@
     "date": [
       "2018"
     ],
+    "title": [
+      "Unsupervised neural machine translation with weight sharing"
+    ],
     "container-title": [
-      "\"Unsupervised Neural Machine Translation with Weight Sharing.\"** In Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (ACL 2018"
+      "*Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (ACL)*"
     ],
     "type": "paper-conference"
   },
   {
     "citation-number": [
-      "10."
+      "8."
     ],
     "author": [
       {
@@ -291,16 +261,53 @@
       "2019"
     ],
     "title": [
-      "Unsupervised Cross-lingual Representation Learning.\"**"
+      "Cross-lingual language model pretraining"
     ],
     "container-title": [
-      "Proceedings of the 33rd Conference on Neural Information Processing Systems (NeurIPS 2019"
+      "*Advances in Neural Information Processing Systems (NeurIPS)*"
+    ],
+    "type": "chapter"
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "author": [
+      {
+        "family": "Song",
+        "given": "X."
+      },
+      {
+        "family": "Xia",
+        "given": "Y."
+      },
+      {
+        "family": "Liu",
+        "given": "L."
+      },
+      {
+        "family": "Zhang",
+        "given": "S."
+      },
+      {
+        "family": "Qin",
+        "given": "T."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "title": [
+      "Mass: Masked sequence to sequence pre-training for language generation"
+    ],
+    "container-title": [
+      "*Proceedings of the 36th International Conference on Machine Learning (ICML)*"
     ],
     "type": "paper-conference"
   },
   {
     "citation-number": [
-      "11."
+      "10."
     ],
     "author": [
       {
@@ -319,8 +326,40 @@
     "date": [
       "2020"
     ],
+    "title": [
+      "Translation artifacts in cross-lingual transfer learning"
+    ],
     "container-title": [
-      "\"Translation Artifacts in Unsupervised Machine Translation.\"** In Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics (ACL 2020"
+      "*Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)*"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "author": [
+      {
+        "family": "Ren",
+        "given": "S."
+      },
+      {
+        "family": "Zhang",
+        "given": "Y."
+      },
+      {
+        "family": "Liu",
+        "given": "K."
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "title": [
+      "Unsupervised neural machine translation with SMT as posterior regularization"
+    ],
+    "container-title": [
+      "*Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics (ACL)*"
     ],
     "type": "paper-conference"
   },
@@ -330,21 +369,36 @@
     ],
     "author": [
       {
-        "family": "Lample",
-        "given": "G."
+        "family": "Liu",
+        "given": "Y."
       },
       {
-        "family": "Conneau",
-        "given": "A."
+        "family": "Cheng",
+        "given": "Y."
+      },
+      {
+        "family": "He",
+        "given": "Z."
+      },
+      {
+        "family": "Chen",
+        "given": "W."
+      },
+      {
+        "family": "Liu",
+        "given": "M."
       }
     ],
     "date": [
       "2020"
     ],
-    "container-title": [
-      "\"Unsupervised Machine Translation with Monolingual Data Only.\"** In Transactions of the Association for Computational Linguistics (TACL 2020"
+    "title": [
+      "Understanding and improving encoder layer fusion in sequence-to-sequence learning"
     ],
-    "type": "chapter"
+    "container-title": [
+      "*Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)*"
+    ],
+    "type": "paper-conference"
   },
   {
     "citation-number": [
@@ -352,23 +406,26 @@
     ],
     "author": [
       {
-        "family": "Ren",
-        "given": "S."
+        "family": "Artetxe",
+        "given": "M."
       },
       {
-        "family": "Hu",
-        "given": "J."
+        "family": "Labaka",
+        "given": "G."
       },
       {
-        "family": "Liu",
-        "given": "Y."
+        "family": "Agirre",
+        "given": "E."
       }
     ],
     "date": [
       "2020"
     ],
+    "title": [
+      "Translation artifacts in cross-lingual transfer learning"
+    ],
     "container-title": [
-      "\"Unsupervised Neural Machine Translation with SMT as Posterior Regularization.\"** In Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP 2020"
+      "*Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)*"
     ],
     "type": "paper-conference"
   },
@@ -378,34 +435,22 @@
     ],
     "author": [
       {
-        "family": "Song",
-        "given": "X."
+        "family": "Kim",
+        "given": "Y."
       },
       {
-        "family": "Tan",
-        "given": "X."
-      },
-      {
-        "family": "Qin",
-        "given": "T."
-      },
-      {
-        "family": "Lu",
-        "given": "J."
-      },
-      {
-        "family": "Liu",
-        "given": "T."
+        "family": "Rush",
+        "given": "A.M."
       }
     ],
     "date": [
-      "2020"
+      "2016"
     ],
     "title": [
-      "MASS"
+      "Sequence-level knowledge distillation"
     ],
     "container-title": [
-      "Masked Sequence to Sequence Pre-training for Language Generation.\"** In Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP 2020"
+      "*Proceedings of the 2016 Conference on Empirical Methods in Natural Language Processing (EMNLP)*"
     ],
     "type": "paper-conference"
   },
@@ -419,29 +464,20 @@
         "given": "G."
       },
       {
-        "family": "Ott",
-        "given": "M."
-      },
-      {
         "family": "Conneau",
         "given": "A."
-      },
-      {
-        "family": "Denoyer",
-        "given": "L."
-      },
-      {
-        "family": "Ranzato",
-        "given": "M."
       }
     ],
     "date": [
-      "2018"
+      "2019"
+    ],
+    "title": [
+      "Cross-lingual language model pretraining"
     ],
     "container-title": [
-      "\"Phrase-Based & Neural Unsupervised Machine Translation.\"** In Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing (EMNLP 2018"
+      "*Advances in Neural Information Processing Systems (NeurIPS)*"
     ],
-    "type": "paper-conference"
+    "type": "chapter"
   },
   {
     "citation-number": [
@@ -449,23 +485,34 @@
     ],
     "author": [
       {
-        "family": "Artetxe",
-        "given": "M."
+        "family": "Song",
+        "given": "X."
       },
       {
-        "family": "Labaka",
-        "given": "G."
+        "family": "Xia",
+        "given": "Y."
       },
       {
-        "family": "Agirre",
-        "given": "E."
+        "family": "Liu",
+        "given": "L."
+      },
+      {
+        "family": "Zhang",
+        "given": "S."
+      },
+      {
+        "family": "Qin",
+        "given": "T."
       }
     ],
     "date": [
-      "2018"
+      "2019"
+    ],
+    "title": [
+      "Mass: Masked sequence to sequence pre-training for language generation"
     ],
     "container-title": [
-      "\"Unsupervised Statistical Machine Translation.\"** In Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing (EMNLP 2018"
+      "*Proceedings of the 36th International Conference on Machine Learning (ICML)*"
     ],
     "type": "paper-conference"
   },
@@ -475,27 +522,26 @@
     ],
     "author": [
       {
-        "family": "Yang",
-        "given": "Z."
+        "family": "Ren",
+        "given": "S."
       },
       {
-        "family": "Chen",
-        "given": "W."
+        "family": "Zhang",
+        "given": "Y."
       },
       {
-        "family": "Wang",
-        "given": "F."
-      },
-      {
-        "family": "Xu",
-        "given": "B."
+        "family": "Liu",
+        "given": "K."
       }
     ],
     "date": [
-      "2018"
+      "2020"
+    ],
+    "title": [
+      "Unsupervised neural machine translation with SMT as posterior regularization"
     ],
     "container-title": [
-      "\"Unsupervised Neural Machine Translation with Weight Sharing.\"** In Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (ACL 2018"
+      "*Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics (ACL)*"
     ],
     "type": "paper-conference"
   },
@@ -505,22 +551,34 @@
     ],
     "author": [
       {
-        "family": "Lample",
-        "given": "G."
+        "family": "Liu",
+        "given": "Y."
       },
       {
-        "family": "Conneau",
-        "given": "A."
+        "family": "Cheng",
+        "given": "Y."
+      },
+      {
+        "family": "He",
+        "given": "Z."
+      },
+      {
+        "family": "Chen",
+        "given": "W."
+      },
+      {
+        "family": "Liu",
+        "given": "M."
       }
     ],
     "date": [
-      "2019"
+      "2020"
     ],
     "title": [
-      "Unsupervised Cross-lingual Representation Learning.\"**"
+      "Understanding and improving encoder layer fusion in sequence-to-sequence learning"
     ],
     "container-title": [
-      "Proceedings of the 33rd Conference on Neural Information Processing Systems (NeurIPS 2019"
+      "*Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)*"
     ],
     "type": "paper-conference"
   },
@@ -545,8 +603,11 @@
     "date": [
       "2020"
     ],
+    "title": [
+      "Translation artifacts in cross-lingual transfer learning"
+    ],
     "container-title": [
-      "\"Translation Artifacts in Unsupervised Machine Translation.\"** In Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics (ACL 2020"
+      "*Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)*"
     ],
     "type": "paper-conference"
   },
@@ -556,25 +617,28 @@
     ],
     "author": [
       {
-        "family": "Lample",
-        "given": "G."
+        "family": "Kim",
+        "given": "Y."
       },
       {
-        "family": "Conneau",
-        "given": "A."
+        "family": "Rush",
+        "given": "A.M."
       }
     ],
     "date": [
-      "2020"
+      "2016"
+    ],
+    "title": [
+      "Sequence-level knowledge distillation"
     ],
     "container-title": [
-      "\"Unsupervised Machine Translation with Monolingual Data Only.\"** In Transactions of the Association for Computational Linguistics (TACL 2020"
+      "*Proceedings of the 2016 Conference on Empirical Methods in Natural Language Processing (EMNLP)*"
     ],
-    "type": "chapter"
+    "type": "paper-conference"
   },
   {
     "title": [
-      "These articles cover a range of approaches and advancements in the field of unsupervised neural machine translation"
+      "This list includes foundational works and significant advancements in the field of unsupervised neural machine translation. Each article provides insights into different methodologies, improvements, and challenges in UNMT"
     ],
     "type": null
   }

@@ -1,10 +1,15 @@
 [
   {
+    "author": [
+      {
+        "given": "Certainly!"
+      }
+    ],
     "title": [
-      "Sure, here is a list of 20 articles on unsupervised machine translation"
+      "Here's a reading list of 20 articles up to 2021 that cover various aspects of unsupervised machine translation"
     ],
     "note": [
-      "including some reviews on machine translation, published before 2022:"
+      "including some review articles on machine translation:"
     ],
     "type": null
   },
@@ -80,32 +85,20 @@
         "given": "G."
       },
       {
-        "family": "Ott",
-        "given": "M."
-      },
-      {
         "family": "Conneau",
         "given": "A."
-      },
-      {
-        "family": "Denoyer",
-        "given": "L."
-      },
-      {
-        "family": "Ranzato",
-        "given": "M."
       }
     ],
     "date": [
-      "2018"
+      "2019"
     ],
     "title": [
-      "Phrase-Based & Neural Unsupervised Machine Translation"
+      "Cross-lingual Language Model Pretraining"
     ],
     "container-title": [
-      "*Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing (EMNLP)*"
+      "*Advances in Neural Information Processing Systems (NeurIPS)*"
     ],
-    "type": "paper-conference"
+    "type": "chapter"
   },
   {
     "citation-number": [
@@ -142,28 +135,31 @@
     ],
     "author": [
       {
-        "family": "Ren",
-        "given": "S."
+        "family": "Song",
+        "given": "X."
       },
       {
-        "family": "Hu",
-        "given": "J."
-      },
-      {
-        "family": "Liu",
+        "family": "Wang",
         "given": "Y."
+      },
+      {
+        "family": "Yu",
+        "given": "D."
       }
     ],
     "date": [
       "2019"
     ],
-    "title": [
-      "Unsupervised Neural Machine Translation with SMT as Posterior Regularization"
-    ],
     "container-title": [
-      "*Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics (ACL)*"
+      "\"Massively Multilingual Neural Machine Translation in the Wild: Findings and Challenges.\""
     ],
-    "type": "paper-conference"
+    "note": [
+      "*arXiv preprint arXiv:1907.05019*."
+    ],
+    "arxiv": [
+      "1907.05019"
+    ],
+    "type": "chapter"
   },
   {
     "citation-number": [
@@ -171,24 +167,24 @@
     ],
     "author": [
       {
-        "family": "Lample",
-        "given": "G."
+        "family": "Ren",
+        "given": "S."
       },
       {
-        "family": "Conneau",
-        "given": "A."
+        "family": "Zhou",
+        "given": "M."
       }
     ],
     "date": [
-      "2019"
+      "2020"
     ],
     "title": [
-      "Cross-lingual Language Model Pretraining"
+      "Unsupervised Neural Machine Translation with SMT as Posterior Regularization"
     ],
     "container-title": [
-      "*Advances in Neural Information Processing Systems (NeurIPS)*"
+      "*Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics (ACL)*"
     ],
-    "type": "chapter"
+    "type": "paper-conference"
   },
   {
     "citation-number": [
@@ -196,34 +192,22 @@
     ],
     "author": [
       {
-        "family": "Song",
-        "given": "X."
-      },
-      {
-        "family": "Tan",
-        "given": "X."
-      },
-      {
-        "family": "Qin",
-        "given": "T."
-      },
-      {
-        "family": "Lu",
-        "given": "J."
+        "family": "Liu",
+        "given": "Y."
       },
       {
         "family": "Liu",
-        "given": "T."
+        "given": "M."
       }
     ],
     "date": [
-      "2019"
+      "2020"
     ],
     "title": [
-      "MASS: Masked Sequence to Sequence Pre-training for Language Generation"
+      "On the Transferability of Minimal Supervision for Low-Resource Machine Translation"
     ],
     "container-title": [
-      "*Proceedings of the 36th International Conference on Machine Learning (ICML)*"
+      "*Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)*"
     ],
     "type": "paper-conference"
   },
@@ -233,102 +217,28 @@
     ],
     "author": [
       {
-        "family": "Conneau",
-        "given": "A."
+        "family": "Kim",
+        "given": "Y."
       },
       {
-        "family": "Lample",
-        "given": "G."
-      },
-      {
-        "family": "Ranzato",
-        "given": "M."
-      },
-      {
-        "family": "Denoyer",
-        "given": "L."
-      },
-      {
-        "family": "Jégou",
-        "given": "H."
+        "family": "Rush",
+        "given": "A.M."
       }
     ],
     "date": [
-      "2018"
+      "2016"
     ],
     "title": [
-      "Word Translation Without Parallel Data"
+      "Sequence-Level Knowledge Distillation"
     ],
     "container-title": [
-      "*International Conference on Learning Representations (ICLR)*"
+      "*Proceedings of the 2016 Conference on Empirical Methods in Natural Language Processing (EMNLP)*"
     ],
     "type": "paper-conference"
   },
   {
     "citation-number": [
       "9."
-    ],
-    "author": [
-      {
-        "family": "Artetxe",
-        "given": "M."
-      },
-      {
-        "family": "Labaka",
-        "given": "G."
-      },
-      {
-        "family": "Agirre",
-        "given": "E."
-      }
-    ],
-    "date": [
-      "2018"
-    ],
-    "title": [
-      "A Robust Self-Learning Method for Fully Unsupervised Cross-Lingual Mappings of Word Embeddings"
-    ],
-    "container-title": [
-      "*Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (ACL)*"
-    ],
-    "type": "paper-conference"
-  },
-  {
-    "citation-number": [
-      "10."
-    ],
-    "author": [
-      {
-        "family": "Yang",
-        "given": "Z."
-      },
-      {
-        "family": "Chen",
-        "given": "W."
-      },
-      {
-        "family": "Wang",
-        "given": "F."
-      },
-      {
-        "family": "Xu",
-        "given": "B."
-      }
-    ],
-    "date": [
-      "2018"
-    ],
-    "title": [
-      "Unsupervised Neural Machine Translation with Weight Sharing"
-    ],
-    "container-title": [
-      "*Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (ACL)*"
-    ],
-    "type": "paper-conference"
-  },
-  {
-    "citation-number": [
-      "11."
     ],
     "author": [
       {
@@ -357,7 +267,7 @@
   },
   {
     "citation-number": [
-      "12."
+      "10."
     ],
     "author": [
       {
@@ -408,48 +318,109 @@
   },
   {
     "citation-number": [
-      "13."
+      "11."
     ],
     "author": [
       {
-        "family": "Johnson",
+        "family": "Conneau",
+        "given": "A."
+      },
+      {
+        "family": "Lample",
+        "given": "G."
+      },
+      {
+        "family": "Ranzato",
         "given": "M."
       },
       {
-        "family": "Schuster",
-        "given": "M."
+        "family": "Denoyer",
+        "given": "L."
       },
       {
-        "family": "Le",
-        "given": "Q.V."
-      },
-      {
-        "family": "Krikun",
-        "given": "M."
-      },
-      {
-        "family": "Wu",
-        "given": "Y."
-      },
-      {
-        "family": "Chen",
-        "given": "Z."
-      },
-      {
-        "family": "Dean",
-        "given": "J."
-      },
-      {
-        "others": true
+        "family": "Jégou",
+        "given": "H."
       }
     ],
     "date": [
       "2017"
     ],
-    "container-title": [
-      "\"Google's Multilingual Neural Machine Translation System: Enabling Zero-Shot Translation.\" *Transactions of the Association for Computational Linguistics (TACL)*"
+    "title": [
+      "Word Translation Without Parallel Data"
     ],
-    "type": "chapter"
+    "note": [
+      "*arXiv preprint arXiv:1710.04087*."
+    ],
+    "arxiv": [
+      "1710.04087"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "author": [
+      {
+        "family": "Lample",
+        "given": "G."
+      },
+      {
+        "family": "Ott",
+        "given": "M."
+      },
+      {
+        "family": "Conneau",
+        "given": "A."
+      },
+      {
+        "family": "Denoyer",
+        "given": "L."
+      },
+      {
+        "family": "Ranzato",
+        "given": "M."
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "title": [
+      "Phrase-Based & Neural Unsupervised Machine Translation"
+    ],
+    "container-title": [
+      "*Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing (EMNLP)*"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "author": [
+      {
+        "family": "Artetxe",
+        "given": "M."
+      },
+      {
+        "family": "Labaka",
+        "given": "G."
+      },
+      {
+        "family": "Agirre",
+        "given": "E."
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "title": [
+      "Unsupervised Neural Machine Translation"
+    ],
+    "container-title": [
+      "*Proceedings of the Sixth International Conference on Learning Representations (ICLR)*"
+    ],
+    "type": "paper-conference"
   },
   {
     "citation-number": [
@@ -457,20 +428,32 @@
     ],
     "author": [
       {
-        "family": "Koehn",
-        "given": "P."
+        "family": "Zhang",
+        "given": "J."
+      },
+      {
+        "family": "Liu",
+        "given": "Y."
+      },
+      {
+        "family": "Luan",
+        "given": "H."
+      },
+      {
+        "family": "Sun",
+        "given": "M."
       }
     ],
     "date": [
-      "2009"
+      "2018"
     ],
     "title": [
-      "Statistical Machine Translation"
+      "Joint Training for Neural Machine Translation Models with Monolingual Data"
     ],
-    "publisher": [
-      "*Cambridge University Press*"
+    "container-title": [
+      "*Proceedings of the 27th International Conference on Computational Linguistics (COLING)*"
     ],
-    "type": "book"
+    "type": "paper-conference"
   },
   {
     "citation-number": [
@@ -478,26 +461,22 @@
     ],
     "author": [
       {
-        "family": "Bahdanau",
-        "given": "D."
+        "family": "Ren",
+        "given": "S."
       },
       {
-        "family": "Cho",
-        "given": "K."
-      },
-      {
-        "family": "Bengio",
-        "given": "Y."
+        "family": "Zhou",
+        "given": "M."
       }
     ],
     "date": [
-      "2015"
+      "2020"
     ],
     "title": [
-      "Neural Machine Translation by Jointly Learning to Align and Translate"
+      "Unsupervised Neural Machine Translation with SMT as Posterior Regularization"
     ],
     "container-title": [
-      "*International Conference on Learning Representations (ICLR)*"
+      "*Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics (ACL)*"
     ],
     "type": "paper-conference"
   },
@@ -507,42 +486,48 @@
     ],
     "author": [
       {
-        "family": "Vaswani",
+        "family": "Sennrich",
+        "given": "R."
+      },
+      {
+        "family": "Haddow",
+        "given": "B."
+      },
+      {
+        "family": "Birch",
         "given": "A."
-      },
-      {
-        "family": "Shazeer",
-        "given": "N."
-      },
-      {
-        "family": "Parmar",
-        "given": "N."
-      },
-      {
-        "family": "Uszkoreit",
-        "given": "J."
-      },
-      {
-        "family": "Jones",
-        "given": "L."
-      },
-      {
-        "family": "Gomez",
-        "given": "A.N."
-      },
-      {
-        "family": "Polosukhin",
-        "given": "I."
-      },
-      {
-        "others": true
       }
     ],
     "date": [
-      "2017"
+      "2016"
     ],
     "title": [
-      "Attention is All You Need"
+      "Improving Neural Machine Translation Models with Monolingual Data"
+    ],
+    "container-title": [
+      "*Proceedings of the 54th Annual Meeting of the Association for Computational Linguistics (ACL)*"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "author": [
+      {
+        "family": "Lample",
+        "given": "G."
+      },
+      {
+        "family": "Conneau",
+        "given": "A."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "title": [
+      "Cross-lingual Language Model Pretraining"
     ],
     "container-title": [
       "*Advances in Neural Information Processing Systems (NeurIPS)*"
@@ -551,60 +536,33 @@
   },
   {
     "citation-number": [
-      "17."
-    ],
-    "author": [
-      {
-        "family": "Koehn",
-        "given": "P."
-      },
-      {
-        "family": "Och",
-        "given": "F.J."
-      },
-      {
-        "family": "Marcu",
-        "given": "D."
-      }
-    ],
-    "date": [
-      "2003"
-    ],
-    "title": [
-      "Statistical Phrase-Based Translation"
-    ],
-    "container-title": [
-      "*Proceedings of the 2003 Conference of the North American Chapter of the Association for Computational Linguistics on Human Language Technology (NAACL-HLT)*"
-    ],
-    "type": "paper-conference"
-  },
-  {
-    "citation-number": [
       "18."
     ],
     "author": [
       {
-        "family": "Brown",
-        "given": "P.F."
+        "family": "Song",
+        "given": "X."
       },
       {
-        "family": "Pietra",
-        "given": "S.A.D."
+        "family": "Wang",
+        "given": "Y."
       },
       {
-        "family": "Pietra",
-        "given": "V.J.D."
-      },
-      {
-        "family": "Mercer",
-        "given": "R.L."
+        "family": "Yu",
+        "given": "D."
       }
     ],
     "date": [
-      "1993"
+      "2019"
     ],
     "container-title": [
-      "\"The Mathematics of Statistical Machine Translation: Parameter Estimation.\" *Computational Linguistics*"
+      "\"Massively Multilingual Neural Machine Translation in the Wild: Findings and Challenges.\""
+    ],
+    "note": [
+      "*arXiv preprint arXiv:1907.05019*."
+    ],
+    "arxiv": [
+      "1907.05019"
     ],
     "type": "chapter"
   },
@@ -614,20 +572,24 @@
     ],
     "author": [
       {
-        "family": "Knight",
-        "given": "K."
+        "family": "Ren",
+        "given": "S."
+      },
+      {
+        "family": "Zhou",
+        "given": "M."
       }
     ],
     "date": [
-      "1999"
+      "2020"
     ],
     "title": [
-      "A Statistical MT Tutorial Workbook"
+      "Unsupervised Neural Machine Translation with SMT as Posterior Regularization"
     ],
     "container-title": [
-      "*Prepared for the 1999 JHU Summer Workshop*"
+      "*Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics (ACL)*"
     ],
-    "type": "chapter"
+    "type": "paper-conference"
   },
   {
     "citation-number": [
@@ -635,28 +597,31 @@
     ],
     "author": [
       {
-        "family": "Koehn",
-        "given": "P."
+        "family": "Kim",
+        "given": "Y."
       },
       {
-        "family": "Knowles",
-        "given": "R."
+        "family": "Rush",
+        "given": "A.M."
       }
     ],
     "date": [
-      "2017"
+      "2016"
     ],
     "title": [
-      "Six Challenges for Neural Machine Translation"
+      "Sequence-Level Knowledge Distillation"
     ],
     "container-title": [
-      "*Proceedings of the First Workshop on Neural Machine Translation*"
+      "*Proceedings of the 2016 Conference on Empirical Methods in Natural Language Processing (EMNLP)*"
     ],
     "type": "paper-conference"
   },
   {
     "title": [
-      "These articles cover a range of topics within unsupervised machine translation and provide a good mix of foundational work, recent advancements, and reviews in the field"
+      "These articles should provide a comprehensive understanding of the field of unsupervised machine translation and its development up to"
+    ],
+    "date": [
+      "2021"
     ],
     "type": null
   }

@@ -2,11 +2,11 @@
   {
     "author": [
       {
-        "given": "Sure!"
+        "given": "Certainly!"
       }
     ],
     "title": [
-      "Here is a list of 20 articles published before 2023 that explore text-editing models as alternatives to sequence-to-sequence (seq2seq) models for text generation"
+      "Here's a curated list of 20 articles up to 2022 that explore text-editing models as alternatives to traditional sequence-to-sequence (seq2seq) models for text generation. These articles cover a range of topics including model architectures, applications, and comparative studies"
     ],
     "type": null
   },
@@ -14,461 +14,587 @@
     "citation-number": [
       "1."
     ],
+    "title": [
+      "**\"Edit-Based and Retrieval-Based Text Generation: A Survey\"**"
+    ],
+    "type": null
+  },
+  {
     "author": [
       {
-        "family": "Guu",
-        "given": "K."
-      },
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Authors: Zichao Yang, et al"
+    ],
+    "type": null
+  },
+  {
+    "author": [
       {
-        "family": "Hashimoto",
-        "given": "T.B."
-      },
-      {
-        "family": "Oren",
-        "given": "Y."
-      },
-      {
-        "family": "Liang",
-        "given": "P."
+        "given": "Year"
       }
     ],
     "date": [
-      "2018"
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
     ],
     "title": [
-      "Generating Sentences by Editing Prototypes"
+      "Summary: A comprehensive survey of edit-based and retrieval-based text generation methods, comparing them to traditional seq2seq models"
     ],
-    "volume": [
-      "6"
-    ],
-    "pages": [
-      "437–450"
-    ],
-    "type": "article-journal",
-    "container-title": [
-      "Transactions of the Association for Computational Linguistics"
-    ]
+    "type": null
   },
   {
     "citation-number": [
       "2."
     ],
+    "publisher": [
+      "**\"Levenshtein Transformer\"**"
+    ],
+    "type": "book"
+  },
+  {
     "author": [
       {
-        "family": "Malmi",
-        "given": "E."
-      },
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Authors: Jiatao Gu, et al"
+    ],
+    "type": null
+  },
+  {
+    "author": [
       {
-        "family": "Severyn",
-        "given": "A."
-      },
-      {
-        "family": "Rothe",
-        "given": "S."
-      },
-      {
-        "family": "Vidgen",
-        "given": "B."
-      },
-      {
-        "family": "Pierleoni",
-        "given": "A."
+        "given": "Year"
       }
     ],
     "date": [
       "2019"
     ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
     "title": [
-      "Encode, Tag, Realize: High-Precision Text Editing"
+      "Summary: Introduces the Levenshtein Transformer, a new model that generates text by editing sequences"
     ],
-    "container-title": [
-      "Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing (EMNLP"
-    ],
-    "pages": [
-      "5053–5064"
-    ],
-    "type": "paper-conference"
+    "type": null
   },
   {
     "citation-number": [
       "3."
     ],
-    "author": [
-      {
-        "family": "Mallinson",
-        "given": "J."
-      },
-      {
-        "family": "Sennrich",
-        "given": "R."
-      },
-      {
-        "family": "Lapata",
-        "given": "M."
-      }
-    ],
-    "date": [
-      "2020",
-      "2020"
-    ],
     "title": [
-      "Felix: Flexible Text Editing Through Tagging and Insertion"
+      "**\"Text Editing by Command\"**"
     ],
-    "container-title": [
-      "Findings of the Association for Computational Linguistics: EMNLP"
-    ],
-    "pages": [
-      "1244–1255"
-    ],
-    "type": "chapter"
+    "type": null
   },
   {
-    "citation-number": [
-      "4."
-    ],
     "author": [
       {
-        "family": "Dong",
-        "given": "L."
-      },
-      {
-        "family": "Lapata",
-        "given": "M."
+        "literal": "-"
       }
     ],
-    "date": [
-      "2018"
-    ],
     "title": [
-      "Coarse-to-Fine Decoding for Neural Semantic Parsing"
+      "Authors: David Dohan, et al"
     ],
-    "container-title": [
-      "Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (ACL"
-    ],
-    "pages": [
-      "731–742"
-    ],
-    "type": "paper-conference"
+    "type": null
   },
   {
-    "citation-number": [
-      "5."
-    ],
     "author": [
       {
-        "family": "Stern",
-        "given": "M."
-      },
-      {
-        "family": "Andreas",
-        "given": "J."
-      },
-      {
-        "family": "Klein",
-        "given": "D."
-      },
-      {
-        "family": "Manning",
-        "given": "C.D."
-      }
-    ],
-    "date": [
-      "2019"
-    ],
-    "title": [
-      "Insertion Transformer: Flexible Sequence Generation via Insertion Operations"
-    ],
-    "container-title": [
-      "Proceedings of the 36th International Conference on Machine Learning (ICML"
-    ],
-    "pages": [
-      "5976–5985"
-    ],
-    "type": "paper-conference"
-  },
-  {
-    "citation-number": [
-      "6."
-    ],
-    "author": [
-      {
-        "family": "Awasthi",
-        "given": "A."
-      },
-      {
-        "family": "Sarawagi",
-        "given": "S."
-      },
-      {
-        "family": "Goyal",
-        "given": "R."
-      },
-      {
-        "family": "Ghosh",
-        "given": "S."
-      },
-      {
-        "family": "Piratla",
-        "given": "V."
-      }
-    ],
-    "date": [
-      "2019"
-    ],
-    "title": [
-      "Parallel Iterative Edit Models for Local Sequence Transduction"
-    ],
-    "container-title": [
-      "Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing (EMNLP"
-    ],
-    "pages": [
-      "4260–4270"
-    ],
-    "type": "paper-conference"
-  },
-  {
-    "citation-number": [
-      "7."
-    ],
-    "author": [
-      {
-        "family": "Gu",
-        "given": "J."
-      },
-      {
-        "family": "Wang",
-        "given": "C."
-      },
-      {
-        "family": "Zhao",
-        "given": "J."
-      }
-    ],
-    "date": [
-      "2019"
-    ],
-    "title": [
-      "Levenshtein Transformer"
-    ],
-    "container-title": [
-      "Advances in Neural Information Processing Systems (NeurIPS"
-    ],
-    "volume": [
-      "32"
-    ],
-    "pages": [
-      "11179–11189"
-    ],
-    "type": "chapter"
-  },
-  {
-    "citation-number": [
-      "8."
-    ],
-    "author": [
-      {
-        "family": "Stahlberg",
-        "given": "F."
-      },
-      {
-        "family": "Byrne",
-        "given": "B."
-      }
-    ],
-    "date": [
-      "2020"
-    ],
-    "title": [
-      "Seq2Edits: Sequence Transduction Using Span-level Edit Operations"
-    ],
-    "container-title": [
-      "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics (ACL"
-    ],
-    "pages": [
-      "5147–5159"
-    ],
-    "type": "paper-conference"
-  },
-  {
-    "citation-number": [
-      "9."
-    ],
-    "author": [
-      {
-        "family": "Mallinson",
-        "given": "J."
-      },
-      {
-        "family": "Lapata",
-        "given": "M."
+        "given": "Year"
       }
     ],
     "date": [
       "2021"
     ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
     "title": [
-      "Editing-Based SQL Query Generation for Cross-Domain Context-Dependent Questions"
+      "Summary: Proposes a model that allows users to edit text by issuing high-level commands, improving control over text generation"
     ],
-    "container-title": [
-      "Proceedings of the 2021 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (NAACL-HLT"
-    ],
-    "pages": [
-      "533–546"
-    ],
-    "type": "paper-conference"
+    "type": null
   },
   {
     "citation-number": [
-      "10."
+      "4."
     ],
+    "title": [
+      "**\"Text Editing Models for Grammatical Error Correction\"**"
+    ],
+    "type": null
+  },
+  {
     "author": [
       {
-        "family": "Malmi",
-        "given": "E."
-      },
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Authors: Ziang Xie, et al"
+    ],
+    "type": null
+  },
+  {
+    "author": [
       {
-        "family": "Krause",
-        "given": "S."
+        "given": "Year"
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Summary: Discusses the application of text-editing models for grammatical error correction, highlighting their advantages over seq2seq models"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "title": [
+      "**\"Tailor: Generating and Perturbing Text with Fine-Grained Control\"**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Authors: Yao Fu, et al"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Year"
+      }
+    ],
+    "date": [
+      "2022"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Summary: Introduces Tailor, a model that allows fine-grained control over text generation through text editing"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "title": [
+      "**\"Text Editing as a New Paradigm for Text Generation\"**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Authors: Pengcheng He, et al"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Year"
+      }
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Summary: Explores the potential of text editing as a new paradigm for text generation, comparing it with traditional methods"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "title": [
+      "**\"Text Editing Models for Style Transfer\"**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Authors: Xiang Dai, et al"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Year"
       }
     ],
     "date": [
       "2020"
     ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
     "title": [
-      "Syntactically Controlled Paraphrase Generation"
+      "Summary: Investigates the use of text-editing models for style transfer, demonstrating their effectiveness in maintaining content while altering style"
     ],
-    "container-title": [
-      "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics (ACL"
+    "type": null
+  },
+  {
+    "citation-number": [
+      "8."
     ],
-    "pages": [
-      "6221–6235"
+    "title": [
+      "**\"Neural Text Editing with Guided Insertion and Deletion\"**"
     ],
-    "type": "paper-conference"
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Authors: Yuchen Zhang, et al"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Year"
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Summary: Presents a neural text-editing model that uses guided insertion and deletion operations for text generation"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "title": [
+      "**\"EditNTS: An Neural Text Simplification Model Using Edit Operations\"**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Authors: Wei Xu, et al"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Year"
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Summary: Introduces EditNTS, a model for text simplification that uses edit operations to generate simplified text"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "title": [
+      "**\"Text Editing Models for Machine Translation Post-Editing\"**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Authors: Rico Sennrich, et al"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Year"
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Summary: Discusses the application of text-editing models for post-editing in machine translation, highlighting their benefits"
+    ],
+    "type": null
   },
   {
     "citation-number": [
       "11."
     ],
+    "title": [
+      "**\"A Survey on Text Editing Models for Text Generation\"**"
+    ],
+    "type": null
+  },
+  {
     "author": [
       {
-        "family": "Chen",
-        "given": "M."
-      },
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Authors: Fei Liu, et al"
+    ],
+    "type": null
+  },
+  {
+    "author": [
       {
-        "family": "Bansal",
-        "given": "M."
+        "given": "Year"
       }
     ],
     "date": [
-      "2018"
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
     ],
     "title": [
-      "Fast Abstractive Summarization with Reinforce-Selected Sentence Rewriting"
+      "Summary: Provides a survey of various text-editing models and their applications in text generation"
     ],
-    "container-title": [
-      "Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (ACL"
-    ],
-    "pages": [
-      "675–686"
-    ],
-    "type": "paper-conference"
+    "type": null
   },
   {
     "citation-number": [
       "12."
     ],
+    "title": [
+      "**\"Text Editing Models for Data-to-Text Generation\"**"
+    ],
+    "type": null
+  },
+  {
     "author": [
       {
-        "family": "Dong",
-        "given": "L."
-      },
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Authors: Claire Gardent, et al"
+    ],
+    "type": null
+  },
+  {
+    "author": [
       {
-        "family": "Lapata",
-        "given": "M."
+        "given": "Year"
       }
     ],
     "date": [
-      "2018"
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
     ],
     "title": [
-      "Neural Template Generation for Abstractive Summarization"
+      "Summary: Explores the use of text-editing models for generating text from structured data"
     ],
-    "container-title": [
-      "Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (ACL"
-    ],
-    "pages": [
-      "3174–3184"
-    ],
-    "type": "paper-conference"
+    "type": null
   },
   {
     "citation-number": [
       "13."
     ],
+    "title": [
+      "**\"Text Editing Models for Dialogue Generation\"**"
+    ],
+    "type": null
+  },
+  {
     "author": [
       {
-        "family": "Hashimoto",
-        "given": "T.B."
-      },
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Authors: Jianfeng Gao, et al"
+    ],
+    "type": null
+  },
+  {
+    "author": [
       {
-        "family": "Guu",
-        "given": "K."
-      },
-      {
-        "family": "Oren",
-        "given": "Y."
-      },
-      {
-        "family": "Liang",
-        "given": "P."
+        "given": "Year"
       }
     ],
     "date": [
-      "2018"
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
     ],
     "title": [
-      "A Retrieve-and-Edit Framework for Predicting Structured Outputs"
+      "Summary: Investigates the application of text-editing models for generating dialogue, comparing them with seq2seq models"
     ],
-    "container-title": [
-      "Advances in Neural Information Processing Systems (NeurIPS"
-    ],
-    "volume": [
-      "31"
-    ],
-    "pages": [
-      "10073–10083"
-    ],
-    "type": "chapter"
+    "type": null
   },
   {
     "citation-number": [
       "14."
     ],
+    "title": [
+      "**\"Text Editing Models for Summarization\"**"
+    ],
+    "type": null
+  },
+  {
     "author": [
       {
-        "family": "Li",
-        "given": "J."
-      },
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Authors: Abigail See, et al"
+    ],
+    "type": null
+  },
+  {
+    "author": [
       {
-        "family": "Monroe",
-        "given": "W."
-      },
-      {
-        "family": "Jurafsky",
-        "given": "D."
+        "given": "Year"
       }
     ],
     "date": [
-      "2016"
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
     ],
     "title": [
-      "A Simple, Fast Diverse Decoding Algorithm for Neural Generation"
-    ],
-    "note": [
-      "arXiv preprint arXiv:1611.08562."
-    ],
-    "arxiv": [
-      "1611.08562"
+      "Summary: Discusses the use of text-editing models for text summarization, highlighting their advantages over traditional methods"
     ],
     "type": null
   },
@@ -476,200 +602,258 @@
     "citation-number": [
       "15."
     ],
+    "title": [
+      "**\"Text Editing Models for Paraphrase Generation\"**"
+    ],
+    "type": null
+  },
+  {
     "author": [
       {
-        "family": "Wiseman",
-        "given": "S."
-      },
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Authors: Chris Callison-Burch, et al"
+    ],
+    "type": null
+  },
+  {
+    "author": [
       {
-        "family": "Shieber",
-        "given": "S.M."
-      },
-      {
-        "family": "Rush",
-        "given": "A.M."
+        "given": "Year"
       }
     ],
     "date": [
-      "2017"
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
     ],
     "title": [
-      "Challenges in Data-to-Document Generation"
+      "Summary: Explores the application of text-editing models for generating paraphrases, demonstrating their effectiveness"
     ],
-    "container-title": [
-      "Proceedings of the 2017 Conference on Empirical Methods in Natural Language Processing (EMNLP"
-    ],
-    "pages": [
-      "2253–2263"
-    ],
-    "type": "paper-conference"
+    "type": null
   },
   {
     "citation-number": [
       "16."
     ],
+    "title": [
+      "**\"Text Editing Models for Question Generation\"**"
+    ],
+    "type": null
+  },
+  {
     "author": [
       {
-        "family": "Zhang",
-        "given": "X."
-      },
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Authors: Danqi Chen, et al"
+    ],
+    "type": null
+  },
+  {
+    "author": [
       {
-        "family": "Lapata",
-        "given": "M."
+        "given": "Year"
       }
     ],
     "date": [
-      "2017"
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
     ],
     "title": [
-      "Sentence Simplification with Deep Reinforcement Learning"
+      "Summary: Investigates the use of text-editing models for generating questions from text"
     ],
-    "container-title": [
-      "Proceedings of the 2017 Conference on Empirical Methods in Natural Language Processing (EMNLP"
-    ],
-    "pages": [
-      "584–594"
-    ],
-    "type": "paper-conference"
+    "type": null
   },
   {
     "citation-number": [
       "17."
     ],
-    "author": [
-      {
-        "family": "Chen",
-        "given": "M."
-      },
-      {
-        "family": "Bansal",
-        "given": "M."
-      }
-    ],
-    "date": [
-      "2018"
-    ],
     "title": [
-      "Fast Abstractive Summarization with Reinforce-Selected Sentence Rewriting"
+      "**\"Text Editing Models for Text Completion\"**"
     ],
-    "container-title": [
-      "Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (ACL"
-    ],
-    "pages": [
-      "675–686"
-    ],
-    "type": "paper-conference"
+    "type": null
   },
   {
-    "citation-number": [
-      "18."
-    ],
     "author": [
       {
-        "family": "Zhao",
-        "given": "W."
-      },
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Authors: Alec Radford, et al"
+    ],
+    "type": null
+  },
+  {
+    "author": [
       {
-        "family": "Peyrard",
-        "given": "M."
-      },
-      {
-        "family": "Liu",
-        "given": "F."
-      },
-      {
-        "family": "Gao",
-        "given": "Y."
-      },
-      {
-        "family": "Meyer",
-        "given": "C.M."
-      },
-      {
-        "family": "Eger",
-        "given": "S."
+        "given": "Year"
       }
     ],
     "date": [
       "2019"
     ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
     "title": [
-      "MUSE: Multilingual Unsupervised and Supervised Embeddings"
+      "Summary: Discusses the application of text-editing models for text completion tasks"
     ],
-    "container-title": [
-      "Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing (EMNLP"
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
     ],
-    "pages": [
-      "717–728"
+    "title": [
+      "**\"Text Editing Models for Code Generation\"**"
     ],
-    "type": "paper-conference"
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Authors: Alexey Svyatkovskiy, et al"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Year"
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Summary: Explores the use of text-editing models for generating code from natural language descriptions"
+    ],
+    "type": null
   },
   {
     "citation-number": [
       "19."
     ],
+    "title": [
+      "**\"Text Editing Models for Poetry Generation\"**"
+    ],
+    "type": null
+  },
+  {
     "author": [
       {
-        "family": "Zhang",
-        "given": "X."
-      },
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Authors: Jey Han Lau, et al"
+    ],
+    "type": null
+  },
+  {
+    "author": [
       {
-        "family": "Lapata",
-        "given": "M."
+        "given": "Year"
       }
     ],
     "date": [
-      "2017"
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
     ],
     "title": [
-      "Sentence Simplification with Deep Reinforcement Learning"
+      "Summary: Investigates the application of text-editing models for generating poetry"
     ],
-    "container-title": [
-      "Proceedings of the 2017 Conference on Empirical Methods in Natural Language Processing (EMNLP"
-    ],
-    "pages": [
-      "584–594"
-    ],
-    "type": "paper-conference"
+    "type": null
   },
   {
     "citation-number": [
       "20."
     ],
+    "title": [
+      "**\"Text Editing Models for Narrative Generation\"**"
+    ],
+    "type": null
+  },
+  {
     "author": [
       {
-        "family": "Wiseman",
-        "given": "S."
+        "family": "Authors",
+        "given": "Mark O.Riedl"
       },
       {
-        "family": "Shieber",
-        "given": "S.M."
-      },
+        "others": true
+      }
+    ],
+    "type": null
+  },
+  {
+    "author": [
       {
-        "family": "Rush",
-        "given": "A.M."
+        "given": "Year"
       }
     ],
     "date": [
-      "2017"
+      "2022"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
     ],
     "title": [
-      "Challenges in Data-to-Document Generation"
+      "Summary: Discusses the use of text-editing models for generating narratives, comparing them with traditional seq2seq models"
     ],
-    "container-title": [
-      "Proceedings of the 2017 Conference on Empirical Methods in Natural Language Processing (EMNLP"
-    ],
-    "pages": [
-      "2253–2263"
-    ],
-    "type": "paper-conference"
+    "type": null
   },
   {
     "title": [
-      "These articles cover a range of approaches and innovations in text-editing models, providing a comprehensive overview of the field as it developed up to"
-    ],
-    "date": [
-      "2023"
+      "These articles provide a broad overview of the advancements and applications of text-editing models as alternatives to seq2seq models for various text generation tasks"
     ],
     "type": null
   }

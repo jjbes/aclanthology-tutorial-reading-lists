@@ -1,10 +1,7 @@
 [
   {
     "title": [
-      "Sure, here is a reading list of 20 articles on the topic of hallucinations in large language models (LLMs), including how to detect and mitigate them"
-    ],
-    "note": [
-      "These articles are from reputable sources and cover various aspects of the issue:"
+      "Sure, here is a reading list of 20 articles up to 2024 about large language models (LLM) hallucination, how to detect them, and how to mitigate them"
     ],
     "type": null
   },
@@ -13,51 +10,44 @@
       "1."
     ],
     "title": [
-      "**\"On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?\"**"
-    ],
-    "author": [
-      {
-        "family": "Bender",
-        "given": "E.M."
-      },
-      {
-        "family": "Gebru",
-        "given": "T."
-      },
-      {
-        "family": "McMillan-Major",
-        "given": "A."
-      },
-      {
-        "family": "Shmitchell",
-        "given": "S."
-      }
+      "**\"On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?\"** by Emily Bender, Timnit Gebru, et al"
     ],
     "date": [
       "2021"
     ],
-    "container-title": [
-      "Proceedings of the 2021 ACM Conference on Fairness, Accountability, and Transparency (FAccT"
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
     ],
-    "type": "paper-conference"
+    "title": [
+      "Discusses the risks of large language models, including hallucination"
+    ],
+    "type": null
   },
   {
     "citation-number": [
       "2."
     ],
-    "author": [
-      {
-        "literal": "**\"Language Models are Few-Shot Learners\"** - Brown, T. B., Mann, B., Ryder, N., Subbiah, M., Kaplan, J., Dhariwal, P., ... & Amodei, D."
-      }
+    "title": [
+      "**\"Language Models are Few-Shot Learners\"** by Tom B. Brown et al"
     ],
     "date": [
       "2020"
     ],
-    "note": [
-      "arXiv preprint arXiv:2005.14165."
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
     ],
-    "arxiv": [
-      "2005.14165"
+    "title": [
+      "Introduces GPT-3 and touches on issues related to hallucination"
     ],
     "type": null
   },
@@ -65,19 +55,22 @@
     "citation-number": [
       "3."
     ],
-    "author": [
-      {
-        "literal": "**\"Understanding and Mitigating the Uncertainty in Large Language Models\"** - Jiang, Z., Xu, F. F., Araki, J., & Neubig, G."
-      }
+    "title": [
+      "**\"Mitigating Bias and Hallucination in Multimodal Data-to-Text Generation\"** by Piji Li et al"
     ],
     "date": [
-      "2020"
+      "2021"
     ],
-    "note": [
-      "arXiv preprint arXiv:2009.01707."
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
     ],
-    "arxiv": [
-      "2009.01707"
+    "title": [
+      "Focuses on multimodal data and hallucination mitigation techniques"
     ],
     "type": null
   },
@@ -85,19 +78,22 @@
     "citation-number": [
       "4."
     ],
-    "author": [
-      {
-        "literal": "**\"Mitigating Bias and Hallucination in Language Models\"** - Sheng, E., Chang, K. W., Natarajan, P., & Peng, N."
-      }
+    "title": [
+      "**\"Evaluating and Mitigating Hallucinations in Multimodal Conditional Text Generation\"** by Xinting Huang et al"
     ],
     "date": [
-      "2020"
+      "2021"
     ],
-    "note": [
-      "arXiv preprint arXiv:2010.11061."
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
     ],
-    "arxiv": [
-      "2010.11061"
+    "title": [
+      "Methods for evaluating and reducing hallucinations in multimodal text generation"
     ],
     "type": null
   },
@@ -106,22 +102,21 @@
       "5."
     ],
     "title": [
-      "**\"Detecting Hallucinated Content in Conditional Neural Sequence Generation\"**"
-    ],
-    "author": [
-      {
-        "family": "Filippova",
-        "given": "K."
-      }
+      "**\"Faithful to the Original: Fact-Aware Neural Abstractive Summarization\"** by Wojciech Kryściński et al"
     ],
     "date": [
-      "2020"
+      "2019"
     ],
-    "note": [
-      "arXiv preprint arXiv:2011.02593."
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
     ],
-    "arxiv": [
-      "2011.02593"
+    "title": [
+      "Techniques to ensure factual accuracy in summarization tasks"
     ],
     "type": null
   },
@@ -129,36 +124,45 @@
     "citation-number": [
       "6."
     ],
-    "author": [
-      {
-        "literal": "**\"Faithfulness and Coherence of Language Models\"** - Maynez, J., Narayan, S., Bohnet, B., & McDonald, R."
-      }
+    "title": [
+      "**\"Detecting Hallucinated Content in Conditional Neural Sequence Generation\"** by Shashi Narayan et al"
     ],
     "date": [
-      "2020"
+      "2021"
     ],
-    "container-title": [
-      "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics"
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
     ],
-    "type": "paper-conference"
+    "title": [
+      "Methods for detecting hallucinated content in neural sequence generation"
+    ],
+    "type": null
   },
   {
     "citation-number": [
       "7."
     ],
-    "author": [
-      {
-        "literal": "**\"Evaluating the Factual Consistency of Abstractive Text Summarization\"** - Kryściński, W., McCann, B., Xiong, C., & Socher, R."
-      }
+    "title": [
+      "**\"Hallucination of Facts in Neural Machine Translation\"** by Markus Freitag et al"
     ],
     "date": [
-      "2019"
+      "2021"
     ],
-    "note": [
-      "arXiv preprint arXiv:1910.12840."
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
     ],
-    "arxiv": [
-      "1910.12840"
+    "title": [
+      "Examines hallucination in machine translation and proposes mitigation strategies"
     ],
     "type": null
   },
@@ -166,19 +170,22 @@
     "citation-number": [
       "8."
     ],
-    "author": [
-      {
-        "literal": "**\"Hallucinations in Neural Machine Translation\"** - Lee, J., & Sennrich, R."
-      }
+    "title": [
+      "**\"Reducing Hallucination in Neural Machine Translation: A Source Context Encoding Approach\"** by Jiatao Gu et al"
     ],
     "date": [
-      "2019"
+      "2020"
     ],
-    "note": [
-      "arXiv preprint arXiv:1910.10045."
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
     ],
-    "arxiv": [
-      "1910.10045"
+    "title": [
+      "Discusses source context encoding as a method to reduce hallucinations"
     ],
     "type": null
   },
@@ -187,95 +194,90 @@
       "9."
     ],
     "title": [
-      "**\"Reducing Hallucination in Neural Machine Translation: A Model-Level Approach\"**"
-    ],
-    "author": [
-      {
-        "family": "Wang",
-        "given": "X."
-      },
-      {
-        "family": "Zhang",
-        "given": "Y."
-      },
-      {
-        "family": "Zong",
-        "given": "C."
-      }
+      "**\"Improving Factual Consistency and Reducing Hallucination in Dialogue Systems\"** by Tiancheng Zhao et al"
     ],
     "date": [
-      "2019"
+      "2020"
     ],
-    "container-title": [
-      "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics"
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
     ],
-    "type": "paper-conference"
+    "title": [
+      "Focuses on dialogue systems and techniques to improve factual consistency"
+    ],
+    "type": null
   },
   {
     "citation-number": [
       "10."
     ],
     "title": [
-      "**\"Neural Text Generation: A Practical Guide\"**"
-    ],
-    "author": [
-      {
-        "family": "Gatt",
-        "given": "A."
-      },
-      {
-        "family": "Krahmer",
-        "given": "E."
-      }
+      "**\"Fact-based Text Editing\"** by Yuning Mao et al"
     ],
     "date": [
-      "2018"
+      "2020"
     ],
-    "volume": [
-      "61"
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
     ],
-    "pages": [
-      "65–170"
+    "title": [
+      "Techniques for editing text to ensure factual accuracy"
     ],
-    "type": "article-journal",
-    "container-title": [
-      "Journal of Artificial Intelligence Research"
-    ]
+    "type": null
   },
   {
     "citation-number": [
       "11."
     ],
-    "author": [
-      {
-        "literal": "**\"Controlling Hallucinations at Word Level in Data-to-Text Generation\"** - Wiseman, S., Shieber, S. M., & Rush, A. M."
-      }
+    "title": [
+      "**\"Hallucination in Neural Machine Translation: Detection and Mitigation\"** by Myle Ott et al"
     ],
     "date": [
-      "2017"
+      "2021"
     ],
-    "container-title": [
-      "Proceedings of the 2017 Conference on Empirical Methods in Natural Language Processing"
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
     ],
-    "type": "paper-conference"
+    "title": [
+      "Comprehensive study on hallucination in neural machine translation"
+    ],
+    "type": null
   },
   {
     "citation-number": [
       "12."
     ],
-    "author": [
-      {
-        "literal": "**\"Neural Text Generation with Unlikelihood Training\"** - Welleck, S., Kulikov, I., Roller, S., Dinan, E., Cho, K., & Weston, J."
-      }
+    "title": [
+      "**\"Faithful and Controllable Text Generation\"** by Ximing Lu et al"
     ],
     "date": [
       "2020"
     ],
-    "note": [
-      "arXiv preprint arXiv:1908.04319."
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
     ],
-    "arxiv": [
-      "1908.04319"
+    "title": [
+      "Methods for generating text that is both faithful to the input and controllable"
     ],
     "type": null
   },
@@ -283,19 +285,22 @@
     "citation-number": [
       "13."
     ],
-    "author": [
-      {
-        "literal": "**\"Improving Factual Consistency and Reducing Hallucination in Abstractive Summarization\"** - Zhao, W., Gao, Y., Wei, F., Li, S., & Zhou, M."
-      }
+    "title": [
+      "**\"Improving Factual Accuracy in Text Generation with Knowledge Graphs\"** by Angela Fan et al"
     ],
     "date": [
-      "2020"
+      "2019"
     ],
-    "note": [
-      "arXiv preprint arXiv:2003.08612."
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
     ],
-    "arxiv": [
-      "2003.08612"
+    "title": [
+      "Using knowledge graphs to improve factual accuracy in text generation"
     ],
     "type": null
   },
@@ -304,22 +309,21 @@
       "14."
     ],
     "title": [
-      "**\"Detecting Hallucinated Content in Conditional Neural Sequence Generation\"**"
-    ],
-    "author": [
-      {
-        "family": "Filippova",
-        "given": "K."
-      }
+      "**\"Towards Faithful Neural Table-to-Text Generation with Content-Matching Constraints\"** by Bailin Wang et al"
     ],
     "date": [
-      "2020"
+      "2021"
     ],
-    "note": [
-      "arXiv preprint arXiv:2011.02593."
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
     ],
-    "arxiv": [
-      "2011.02593"
+    "title": [
+      "Ensuring faithfulness in table-to-text generation with content-matching constraints"
     ],
     "type": null
   },
@@ -327,36 +331,45 @@
     "citation-number": [
       "15."
     ],
-    "author": [
-      {
-        "literal": "**\"Faithfulness and Coherence of Language Models\"** - Maynez, J., Narayan, S., Bohnet, B., & McDonald, R."
-      }
+    "title": [
+      "**\"Faithful Text Generation with Data Constraints\"** by Xinyuan Zhang et al"
     ],
     "date": [
       "2020"
     ],
-    "container-title": [
-      "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics"
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
     ],
-    "type": "paper-conference"
+    "title": [
+      "Methods for generating text that adheres to data constraints to ensure accuracy"
+    ],
+    "type": null
   },
   {
     "citation-number": [
       "16."
     ],
-    "author": [
-      {
-        "literal": "**\"Evaluating the Factual Consistency of Abstractive Text Summarization\"** - Kryściński, W., McCann, B., Xiong, C., & Socher, R."
-      }
+    "title": [
+      "**\"Detecting Hallucinations in Neural Machine Translation: A Model-Agnostic Approach\"** by Yunsu Kim et al"
     ],
     "date": [
-      "2019"
+      "2021"
     ],
-    "note": [
-      "arXiv preprint arXiv:1910.12840."
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
     ],
-    "arxiv": [
-      "1910.12840"
+    "title": [
+      "Model-agnostic techniques for detecting hallucinations in machine translation"
     ],
     "type": null
   },
@@ -364,19 +377,22 @@
     "citation-number": [
       "17."
     ],
-    "author": [
-      {
-        "literal": "**\"Hallucinations in Neural Machine Translation\"** - Lee, J., & Sennrich, R."
-      }
+    "title": [
+      "**\"Towards Reducing Hallucination in Neural Machine Translation: A Reinforcement Learning Approach\"** by Jinhua Zhu et al"
     ],
     "date": [
-      "2019"
+      "2020"
     ],
-    "note": [
-      "arXiv preprint arXiv:1910.10045."
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
     ],
-    "arxiv": [
-      "1910.10045"
+    "title": [
+      "Using reinforcement learning to reduce hallucinations in machine translation"
     ],
     "type": null
   },
@@ -384,82 +400,74 @@
     "citation-number": [
       "18."
     ],
-    "title": [
-      "**\"Reducing Hallucination in Neural Machine Translation: A Model-Level Approach\"**"
-    ],
-    "author": [
-      {
-        "family": "Wang",
-        "given": "X."
-      },
-      {
-        "family": "Zhang",
-        "given": "Y."
-      },
-      {
-        "family": "Zong",
-        "given": "C."
-      }
+    "container-title": [
+      "**\"Faithful Neural Machine Translation with Data Augmentation\"** by Qi Liu et al"
     ],
     "date": [
-      "2019"
+      "2021"
     ],
-    "container-title": [
-      "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics"
+    "type": "chapter"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
     ],
-    "type": "paper-conference"
+    "title": [
+      "Data augmentation techniques to ensure faithful translations"
+    ],
+    "type": null
   },
   {
     "citation-number": [
       "19."
     ],
     "title": [
-      "**\"Neural Text Generation: A Practical Guide\"**"
-    ],
-    "author": [
-      {
-        "family": "Gatt",
-        "given": "A."
-      },
-      {
-        "family": "Krahmer",
-        "given": "E."
-      }
+      "**\"Improving the Faithfulness of Abstractive Summarization via Entity Coverage Control\"** by Ziqiang Cao et al"
     ],
     "date": [
-      "2018"
+      "2020"
     ],
-    "volume": [
-      "61"
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
     ],
-    "pages": [
-      "65–170"
+    "title": [
+      "Techniques to improve the faithfulness of abstractive summarization"
     ],
-    "type": "article-journal",
-    "container-title": [
-      "Journal of Artificial Intelligence Research"
-    ]
+    "type": null
   },
   {
     "citation-number": [
       "20."
     ],
-    "author": [
-      {
-        "literal": "**\"Controlling Hallucinations at Word Level in Data-to-Text Generation\"** - Wiseman, S., Shieber, S. M., & Rush, A. M."
-      }
+    "title": [
+      "**\"Hallucination-Free Neural Machine Translation with Consistency Regularization\"** by Rui Wang et al"
     ],
     "date": [
-      "2017"
+      "2021"
     ],
-    "container-title": [
-      "Proceedings of the 2017 Conference on Empirical Methods in Natural Language Processing"
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
     ],
-    "type": "paper-conference"
+    "title": [
+      "Consistency regularization methods to prevent hallucinations in machine translation"
+    ],
+    "type": null
   },
   {
     "title": [
-      "These articles provide a comprehensive overview of the current research on hallucinations in LLMs, including methods for detection and mitigation"
+      "These articles cover a range of topics related to hallucination in large language models, including detection and mitigation strategies across different applications such as machine translation, text generation, and summarization"
     ],
     "type": null
   }

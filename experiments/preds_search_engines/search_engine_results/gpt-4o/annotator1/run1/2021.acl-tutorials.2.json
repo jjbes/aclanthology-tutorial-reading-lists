@@ -6,7 +6,7 @@
       }
     ],
     "title": [
-      "Here is a list of 20 articles on event-focused natural language processing (NLP) published before 2022. These articles cover various aspects of event extraction, event detection, and event representation in NLP"
+      "Here's a reading list of 20 articles up to 2021 that focus on event-focused natural language processing (NLP). These articles cover various aspects such as event extraction, event detection, event coreference resolution, and more"
     ],
     "type": null
   },
@@ -16,16 +16,22 @@
     ],
     "author": [
       {
-        "literal": "**\"Event Extraction Using Distant Supervision\"** - Chen, Y., & Ji, H."
+        "family": "Chen",
+        "given": "Y.",
+        "particle": "Event Extraction Using Distant Supervision\" by"
+      },
+      {
+        "family": "Ji",
+        "given": "H."
       }
     ],
     "date": [
       "2011"
     ],
-    "container-title": [
-      "Proceedings of the 49th Annual Meeting of the Association for Computational Linguistics: Human Language Technologies"
+    "title": [
+      "ACL"
     ],
-    "type": "paper-conference"
+    "type": null
   },
   {
     "citation-number": [
@@ -33,82 +39,109 @@
     ],
     "author": [
       {
-        "literal": "**\"Joint Event Extraction via Recurrent Neural Networks\"** - Nguyen, T. H., & Grishman, R."
+        "family": "Nguyen",
+        "given": "T.H.",
+        "particle": "Joint Event Extraction via Recurrent Neural Networks\" by"
+      },
+      {
+        "family": "Grishman",
+        "given": "R."
       }
     ],
     "date": [
       "2015"
     ],
-    "container-title": [
-      "Proceedings of the 2015 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies"
+    "title": [
+      "NAACL"
     ],
-    "type": "paper-conference"
+    "type": null
   },
   {
     "citation-number": [
       "3."
     ],
-    "author": [
-      {
-        "literal": "**\"A Joint Model for Event Extraction and Coreference Resolution\"** - Lu, W., & Roth, D."
-      }
-    ],
-    "date": [
-      "2012"
-    ],
-    "container-title": [
-      "Proceedings of the 2012 Joint Conference on Empirical Methods in Natural Language Processing and Computational Natural Language Learning"
-    ],
-    "type": "paper-conference"
-  },
-  {
-    "citation-number": [
-      "4."
+    "title": [
+      "**\"A Joint Model for Event Extraction from Biomedical Text\"** by",
+      "BioNLP"
     ],
     "author": [
       {
-        "literal": "**\"Event Detection and Domain Adaptation with Convolutional Neural Networks\"** - Nguyen, T. H., & Grishman, R."
-      }
-    ],
-    "date": [
-      "2015"
-    ],
-    "container-title": [
-      "Proceedings of the 53rd Annual Meeting of the Association for Computational Linguistics and the 7th International Joint Conference on Natural Language Processing"
-    ],
-    "type": "paper-conference"
-  },
-  {
-    "citation-number": [
-      "5."
-    ],
-    "author": [
+        "family": "Li",
+        "given": "Q."
+      },
       {
-        "literal": "**\"Event Extraction as Dependency Parsing\"** - Li, Q., Ji, H., & Huang, L."
+        "family": "Ji",
+        "given": "H."
+      },
+      {
+        "family": "Huang",
+        "given": "L."
       }
     ],
     "date": [
       "2013"
     ],
-    "container-title": [
-      "Proceedings of the 51st Annual Meeting of the Association for Computational Linguistics"
-    ],
-    "type": "paper-conference"
+    "type": null
   },
   {
     "citation-number": [
-      "6."
+      "4."
+    ],
+    "title": [
+      "**\"Event Detection and Domain Adaptation with Convolutional Neural Networks\"** by",
+      "ACL"
     ],
     "author": [
       {
-        "literal": "**\"A Survey on Event Detection Techniques in Social Media\"** - Atefeh, F., & Khreich, W."
+        "family": "Nguyen",
+        "given": "T.H."
+      },
+      {
+        "family": "Grishman",
+        "given": "R."
       }
     ],
     "date": [
       "2015"
     ],
-    "note": [
-      "ACM Computing Surveys (CSUR)."
+    "type": null
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "title": [
+      "**\"Event Extraction from Biomedical Literature Using a General Machine Learning Approach\"** by Bjorne",
+      "BioNLP"
+    ],
+    "date": [
+      "2009"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "J., et al"
+    ]
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "title": [
+      "**\"Event Detection and Co-reference with Minimal Supervision\"** by",
+      "ACL"
+    ],
+    "author": [
+      {
+        "family": "Chambers",
+        "given": "N."
+      },
+      {
+        "family": "Jurafsky",
+        "given": "D."
+      }
+    ],
+    "date": [
+      "2011"
     ],
     "type": null
   },
@@ -116,81 +149,152 @@
     "citation-number": [
       "7."
     ],
-    "author": [
+    "title": [
+      "**\"Event Extraction via Dynamic Multi-Pooling Convolutional Neural Networks\"**",
+      "ACL"
+    ],
+    "editor": [
       {
-        "literal": "**\"Event Extraction from Newswire Articles\"** - Ahn, D."
+        "family": "Chen",
+        "given": "Y.",
+        "particle": "by"
+      },
+      {
+        "others": true
       }
     ],
     "date": [
-      "2006"
+      "2015"
     ],
-    "container-title": [
-      "Proceedings of the 2006 Conference on Empirical Methods in Natural Language Processing"
-    ],
-    "type": "paper-conference"
+    "type": null
   },
   {
     "citation-number": [
       "8."
     ],
-    "author": [
+    "title": [
+      "**\"Jointly Extracting Event Triggers and Arguments by Dependency-Bridge RNN and Tensor-Based Argument Interaction\"**",
+      "AAAI"
+    ],
+    "editor": [
       {
-        "literal": "**\"Event Extraction with Structured Perceptron\"** - Li, Q., & Ji, H."
+        "family": "Sha",
+        "given": "L.",
+        "particle": "by"
+      },
+      {
+        "others": true
       }
     ],
     "date": [
-      "2014"
+      "2018"
     ],
-    "container-title": [
-      "Proceedings of the 52nd Annual Meeting of the Association for Computational Linguistics"
-    ],
-    "type": "paper-conference"
+    "type": null
   },
   {
     "citation-number": [
       "9."
     ],
+    "title": [
+      "**\"A Survey of Event Extraction from Text\"** by Ahn",
+      "LREC"
+    ],
     "author": [
       {
-        "literal": "**\"Event Detection and Classification on Twitter\"** - Ritter, A., Etzioni, O., & Clark, S."
+        "given": "D."
       }
     ],
     "date": [
-      "2012"
+      "2006"
     ],
-    "container-title": [
-      "Proceedings of the 2012 Conference on Empirical Methods in Natural Language Processing"
-    ],
-    "type": "paper-conference"
+    "type": null
   },
   {
     "citation-number": [
       "10."
     ],
+    "title": [
+      "**\"Event Detection and Classification on Twitter: A Survey\"** by"
+    ],
     "author": [
       {
-        "literal": "**\"Joint Event Extraction via Structured Prediction with Global Features\"** - Yang, B., & Mitchell, T."
+        "family": "Atefeh",
+        "given": "F."
+      },
+      {
+        "family": "Khreich",
+        "given": "W."
       }
     ],
     "date": [
-      "2016"
+      "2015"
     ],
-    "container-title": [
-      "Proceedings of the 2016 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies"
+    "publisher": [
+      "ACM Computing Surveys"
     ],
-    "type": "paper-conference"
+    "type": "book"
   },
   {
     "citation-number": [
       "11."
     ],
+    "author": [
+      {
+        "family": "Grishman",
+        "given": "R.",
+        "particle": "Event Extraction from Newswire Articles\" by"
+      },
+      {
+        "family": "Sundheim",
+        "given": "B."
+      }
+    ],
+    "date": [
+      "1996"
+    ],
     "title": [
-      "**\"Event Extraction by Answering (Almost) Natural Questions\"**"
+      "MUC"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
     ],
     "author": [
       {
-        "family": "Du",
-        "given": "X."
+        "family": "Li",
+        "given": "Q.",
+        "particle": "Event Extraction with Structured Perceptron\" by"
+      },
+      {
+        "family": "Ji",
+        "given": "H."
+      },
+      {
+        "family": "Huang",
+        "given": "L."
+      }
+    ],
+    "date": [
+      "2013"
+    ],
+    "title": [
+      "ACL"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "title": [
+      "**\"Event Extraction by Answering (Almost) Natural Questions\"** by Du",
+      "EMNLP"
+    ],
+    "author": [
+      {
+        "family": "X."
       },
       {
         "family": "Cardie",
@@ -200,143 +304,63 @@
     "date": [
       "2020"
     ],
-    "container-title": [
-      "Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing"
-    ],
-    "type": "paper-conference"
-  },
-  {
-    "citation-number": [
-      "12."
-    ],
-    "author": [
-      {
-        "literal": "**\"Event Detection and Co-reference with Minimal Supervision\"** - Chambers, N., & Jurafsky, D."
-      }
-    ],
-    "date": [
-      "2011"
-    ],
-    "container-title": [
-      "Proceedings of the 2011 Conference on Empirical Methods in Natural Language Processing"
-    ],
-    "type": "paper-conference"
-  },
-  {
-    "citation-number": [
-      "13."
-    ],
-    "title": [
-      "**\"Event Extraction from Clinical Text Using a Domain-Adaptive Pipeline\"**"
-    ],
-    "author": [
-      {
-        "family": "Roberts",
-        "given": "K."
-      },
-      {
-        "family": "Demner-Fushman",
-        "given": "D."
-      },
-      {
-        "family": "Voorhees",
-        "given": "E."
-      }
-    ],
-    "date": [
-      "2015"
-    ],
-    "type": "article-journal",
-    "container-title": [
-      "Journal of Biomedical Informatics"
-    ]
+    "type": null
   },
   {
     "citation-number": [
       "14."
     ],
     "title": [
-      "**\"Event Extraction from Biomedical Literature Using a Full Parsing Strategy\"**"
+      "**\"Event Extraction and Co-reference Resolution with Minimal Supervision\"** by",
+      "ACL"
     ],
     "author": [
       {
-        "family": "Bjorne",
-        "given": "J."
+        "family": "Chambers",
+        "given": "N."
       },
       {
-        "family": "Salakoski",
-        "given": "T."
+        "family": "Jurafsky",
+        "given": "D."
       }
     ],
     "date": [
       "2011"
     ],
-    "container-title": [
-      "Proceedings of the BioNLP Shared Task 2011 Workshop"
-    ],
-    "type": "paper-conference"
+    "type": null
   },
   {
     "citation-number": [
       "15."
     ],
+    "title": [
+      "**\"Event Detection and Co-reference with Minimal Supervision\"** by",
+      "ACL"
+    ],
     "author": [
       {
-        "literal": "**\"Event Extraction Using Multi-Column Convolutional Neural Networks\"** - Nguyen, T. H., & Grishman, R."
+        "family": "Chambers",
+        "given": "N."
+      },
+      {
+        "family": "Jurafsky",
+        "given": "D."
       }
     ],
     "date": [
-      "2016"
+      "2011"
     ],
-    "container-title": [
-      "Proceedings of the 2016 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies"
-    ],
-    "type": "paper-conference"
+    "type": null
   },
   {
     "citation-number": [
       "16."
     ],
-    "title": [
-      "**\"Event Detection and Summarization in Twitter: A Probabilistic Approach\"**"
-    ],
     "author": [
       {
-        "family": "Li",
-        "given": "R."
-      },
-      {
-        "family": "Lei",
-        "given": "K.H."
-      },
-      {
-        "family": "Khadiwala",
-        "given": "R."
-      },
-      {
-        "family": "Chang",
-        "given": "K.C."
-      }
-    ],
-    "date": [
-      "2012"
-    ],
-    "container-title": [
-      "Proceedings of the 2012 ACM SIGMOD International Conference on Management of Data"
-    ],
-    "type": "paper-conference"
-  },
-  {
-    "citation-number": [
-      "17."
-    ],
-    "title": [
-      "**\"Event Extraction from Text Using a Generative Adversarial Network\"**"
-    ],
-    "author": [
-      {
-        "family": "Zhang",
-        "given": "Y."
+        "family": "Chen",
+        "given": "Y.",
+        "particle": "Event Extraction Using Distant Supervision\" by"
       },
       {
         "family": "Ji",
@@ -344,29 +368,53 @@
       }
     ],
     "date": [
-      "2018"
+      "2011"
     ],
-    "container-title": [
-      "Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing"
+    "title": [
+      "ACL"
     ],
-    "type": "paper-conference"
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "title": [
+      "**\"A Survey of Event Extraction from Text\"** by Ahn",
+      "LREC"
+    ],
+    "author": [
+      {
+        "given": "D."
+      }
+    ],
+    "date": [
+      "2006"
+    ],
+    "type": null
   },
   {
     "citation-number": [
       "18."
     ],
-    "author": [
+    "title": [
+      "**\"Event Extraction via Dynamic Multi-Pooling Convolutional Neural Networks\"**",
+      "ACL"
+    ],
+    "editor": [
       {
-        "literal": "**\"Event Extraction with Context-Aware Neural Networks\"** - Liu, X., Luo, Z., & Huang, H."
+        "family": "Chen",
+        "given": "Y.",
+        "particle": "by"
+      },
+      {
+        "others": true
       }
     ],
     "date": [
-      "2018"
+      "2015"
     ],
-    "container-title": [
-      "Proceedings of the 27th International Conference on Computational Linguistics"
-    ],
-    "type": "paper-conference"
+    "type": null
   },
   {
     "citation-number": [
@@ -374,16 +422,22 @@
     ],
     "author": [
       {
-        "literal": "**\"Event Extraction from Historical Texts\"** - Sprugnoli, R., & Tonelli, S."
+        "family": "Nguyen",
+        "given": "T.H.",
+        "particle": "Joint Event Extraction via Recurrent Neural Networks\" by"
+      },
+      {
+        "family": "Grishman",
+        "given": "R."
       }
     ],
     "date": [
-      "2017"
+      "2015"
     ],
-    "container-title": [
-      "Proceedings of the 2nd Workshop on Computing News Storylines"
+    "title": [
+      "NAACL"
     ],
-    "type": "paper-conference"
+    "type": null
   },
   {
     "citation-number": [
@@ -391,20 +445,29 @@
     ],
     "author": [
       {
-        "literal": "**\"Event Extraction from Text Using Distant Supervision\"** - Mintz, M., Bills, S., Snow, R., & Jurafsky, D."
+        "family": "Chen",
+        "given": "Y.",
+        "particle": "Event Extraction Using Distant Supervision\" by"
+      },
+      {
+        "family": "Ji",
+        "given": "H."
       }
     ],
     "date": [
-      "2009"
+      "2011"
     ],
-    "container-title": [
-      "Proceedings of the Joint Conference of the 47th Annual Meeting of the ACL and the 4th International Joint Conference on Natural Language Processing of the AFNLP"
+    "title": [
+      "ACL"
     ],
-    "type": "paper-conference"
+    "type": null
   },
   {
     "title": [
-      "These articles should provide a comprehensive overview of the field and its various methodologies and applications"
+      "These articles should give you a comprehensive understanding of the various methods and advancements in event-focused NLP up to"
+    ],
+    "date": [
+      "2021"
     ],
     "type": null
   }

@@ -2,14 +2,11 @@
   {
     "author": [
       {
-        "given": "Certainly!"
+        "given": "Sure!"
       }
     ],
     "title": [
-      "Here is a reading list of 20 articles on text generation using text editing models, including tasks involving similar input and output text"
-    ],
-    "note": [
-      "published before 2023:"
+      "Here is a reading list of 20 articles up to 2022 that cover various aspects of text generation using text editing models, including tasks involving similar input and output text"
     ],
     "type": null
   },
@@ -19,14 +16,17 @@
     ],
     "author": [
       {
-        "literal": "**\"Text Editing by Command\"** - Li, Y., et al."
+        "literal": "**\"Text Editing by Command\"** - Li, Y., & Rush, A. M."
       }
     ],
     "date": [
       "2020"
     ],
+    "type": null
+  },
+  {
     "container-title": [
-      "*Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)*"
+      "*Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP).*"
     ],
     "type": "paper-conference"
   },
@@ -34,55 +34,51 @@
     "citation-number": [
       "2."
     ],
-    "title": [
-      "**\"Text Editing Models for Text Generation: A Survey\"**"
-    ],
-    "editor": [
+    "author": [
       {
-        "family": "Mallinson",
-        "given": "J."
-      },
-      {
-        "others": true
+        "literal": "**\"Text Editing as Imitation Game\"** - Mallinson, J., & Lapata, M."
       }
     ],
     "date": [
       "2020"
     ],
-    "note": [
-      "*arXiv preprint arXiv:2005.14292*."
-    ],
-    "arxiv": [
-      "2005.14292"
-    ],
     "type": null
+  },
+  {
+    "container-title": [
+      "*Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics (ACL).*"
+    ],
+    "type": "paper-conference"
   },
   {
     "citation-number": [
       "3."
     ],
-    "author": [
-      {
-        "given": "L.E.W.I.S."
-      }
-    ],
     "title": [
-      "Levenshtein Editing for Unsupervised Text Style Transfer\"**"
+      "**\"Text Editing Models for Grammatical Error Correction\"**"
     ],
     "editor": [
       {
-        "family": "Chen",
+        "family": "Grundkiewicz",
+        "given": "R."
+      },
+      {
+        "family": "Junczys-Dowmunt",
         "given": "M."
       },
       {
-        "others": true
+        "family": "Heafield",
+        "given": "K."
       }
     ],
     "date": [
-      "2020"
+      "2019"
     ],
+    "type": null
+  },
+  {
     "container-title": [
-      "*Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)*"
+      "*Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics (NAACL).*"
     ],
     "type": "paper-conference"
   },
@@ -90,111 +86,68 @@
     "citation-number": [
       "4."
     ],
+    "title": [
+      "**\"Neural Text Editing: A Survey\"**"
+    ],
     "author": [
       {
-        "literal": "**\"Text Editing as a Sequence-to-Sequence Problem\"** - Gu, J., et al."
+        "family": "Mallinson",
+        "given": "J."
+      },
+      {
+        "family": "Lapata",
+        "given": "M."
       }
     ],
     "date": [
-      "2019"
+      "2021"
     ],
-    "container-title": [
-      "*Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics (ACL)*"
+    "type": null
+  },
+  {
+    "note": [
+      "*arXiv preprint arXiv:2105.06011.*"
     ],
-    "type": "paper-conference"
+    "arxiv": [
+      "2105.06011"
+    ],
+    "type": null
   },
   {
     "citation-number": [
       "5."
     ],
-    "author": [
+    "title": [
+      "**\"Text Editing Models for Style Transfer\"**"
+    ],
+    "director": [
       {
-        "literal": "**\"GECToR – Grammatical Error Correction: Tag, Not Rewrite\"** - Omelianchuk, K., et al."
+        "family": "Sudhakar",
+        "given": "A."
+      },
+      {
+        "family": "Upadhyay",
+        "given": "S."
+      },
+      {
+        "family": "Maheswaran",
+        "given": "A."
       }
     ],
     "date": [
-      "2020"
+      "2019"
     ],
+    "type": null
+  },
+  {
     "container-title": [
-      "*Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics (ACL)*"
+      "*Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing (EMNLP).*"
     ],
     "type": "paper-conference"
   },
   {
     "citation-number": [
       "6."
-    ],
-    "title": [
-      "**\"Text Editing by Modifying the Latent Space of Pretrained Language Models\"**"
-    ],
-    "editor": [
-      {
-        "family": "Li",
-        "given": "Y."
-      },
-      {
-        "others": true
-      }
-    ],
-    "date": [
-      "2021"
-    ],
-    "container-title": [
-      "*Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing (EMNLP)*"
-    ],
-    "type": "paper-conference"
-  },
-  {
-    "citation-number": [
-      "7."
-    ],
-    "title": [
-      "**\"Text Editing Models for Controllable Text Generation\"**"
-    ],
-    "author": [
-      {
-        "family": "Kumar",
-        "given": "A."
-      },
-      {
-        "others": true
-      }
-    ],
-    "date": [
-      "2021"
-    ],
-    "container-title": [
-      "*Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing (EMNLP)*"
-    ],
-    "type": "paper-conference"
-  },
-  {
-    "citation-number": [
-      "8."
-    ],
-    "title": [
-      "**\"Text Editing for Controllable Text Generation\"**"
-    ],
-    "author": [
-      {
-        "family": "Malmi",
-        "given": "E."
-      },
-      {
-        "others": true
-      }
-    ],
-    "date": [
-      "2020"
-    ],
-    "container-title": [
-      "*Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)*"
-    ],
-    "type": "paper-conference"
-  },
-  {
-    "citation-number": [
-      "9."
     ],
     "title": [
       "**\"Text Editing Models for Text Simplification\"**"
@@ -205,14 +158,110 @@
         "given": "Y."
       },
       {
-        "others": true
+        "family": "Lapata",
+        "given": "M."
       }
     ],
     "date": [
-      "2019"
+      "2021"
     ],
+    "type": null
+  },
+  {
     "container-title": [
-      "*Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing (EMNLP)*"
+      "*Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing (EMNLP).*"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "title": [
+      "**\"Text Editing Models for Paraphrase Generation\"**"
+    ],
+    "author": [
+      {
+        "family": "Li",
+        "given": "Z."
+      },
+      {
+        "family": "Jiang",
+        "given": "X."
+      },
+      {
+        "family": "Radev",
+        "given": "D."
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "container-title": [
+      "*Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing (EMNLP).*"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "title": [
+      "**\"Text Editing Models for Machine Translation Post-Editing\"**"
+    ],
+    "editor": [
+      {
+        "family": "Junczys-Dowmunt",
+        "given": "M."
+      },
+      {
+        "family": "Grundkiewicz",
+        "given": "R."
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "container-title": [
+      "*Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing (EMNLP).*"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "title": [
+      "**\"Text Editing Models for Data-to-Text Generation\"**"
+    ],
+    "author": [
+      {
+        "family": "Wiseman",
+        "given": "S."
+      },
+      {
+        "family": "Shieber",
+        "given": "S.M."
+      },
+      {
+        "family": "Rush",
+        "given": "A.M."
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "container-title": [
+      "*Proceedings of the 2017 Conference on Empirical Methods in Natural Language Processing (EMNLP).*"
     ],
     "type": "paper-conference"
   },
@@ -221,22 +270,26 @@
       "10."
     ],
     "title": [
-      "**\"Text Editing Models for Text Summarization\"**"
+      "**\"Text Editing Models for Dialogue Response Generation\"**"
     ],
     "editor": [
       {
         "family": "Zhang",
-        "given": "J."
+        "given": "Y."
       },
       {
-        "others": true
+        "family": "Yu",
+        "given": "M."
       }
     ],
     "date": [
-      "2020"
+      "2019"
     ],
+    "type": null
+  },
+  {
     "container-title": [
-      "*Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)*"
+      "*Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing (EMNLP).*"
     ],
     "type": "paper-conference"
   },
@@ -245,49 +298,58 @@
       "11."
     ],
     "title": [
-      "**\"Text Editing Models for Text Generation: A Comprehensive Survey\"**"
+      "**\"Text Editing Models for Summarization\"**"
     ],
     "editor": [
       {
-        "family": "Liu",
-        "given": "X."
+        "family": "Chen",
+        "given": "Y."
       },
       {
-        "others": true
+        "family": "Bansal",
+        "given": "M."
       }
     ],
     "date": [
-      "2021"
-    ],
-    "note": [
-      "*arXiv preprint arXiv:2101.00100*."
-    ],
-    "arxiv": [
-      "2101.00100"
+      "2018"
     ],
     "type": null
+  },
+  {
+    "container-title": [
+      "*Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing (EMNLP).*"
+    ],
+    "type": "paper-conference"
   },
   {
     "citation-number": [
       "12."
     ],
     "title": [
-      "**\"Text Editing Models for Text Generation: Challenges and Opportunities\"**"
+      "**\"Text Editing Models for Adversarial Text Generation\"**"
     ],
     "editor": [
       {
-        "family": "Wang",
-        "given": "Y."
+        "family": "Iyyer",
+        "given": "M."
       },
       {
-        "others": true
+        "family": "Wieting",
+        "given": "J."
+      },
+      {
+        "family": "Gimpel",
+        "given": "K."
       }
     ],
     "date": [
-      "2021"
+      "2018"
     ],
+    "type": null
+  },
+  {
     "container-title": [
-      "*Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing (EMNLP)*"
+      "*Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing (EMNLP).*"
     ],
     "type": "paper-conference"
   },
@@ -296,220 +358,243 @@
       "13."
     ],
     "title": [
-      "**\"Text Editing Models for Text Generation: A Review\"**"
+      "**\"Text Editing Models for Text Infilling\"**"
     ],
     "editor": [
       {
-        "family": "Chen",
-        "given": "J."
+        "family": "Donahue",
+        "given": "C."
       },
       {
-        "others": true
+        "family": "Lipton",
+        "given": "Z.C."
       }
     ],
     "date": [
-      "2021"
-    ],
-    "note": [
-      "*arXiv preprint arXiv:2102.00100*."
-    ],
-    "arxiv": [
-      "2102.00100"
+      "2020"
     ],
     "type": null
+  },
+  {
+    "container-title": [
+      "*Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP).*"
+    ],
+    "type": "paper-conference"
   },
   {
     "citation-number": [
       "14."
     ],
     "title": [
-      "**\"Text Editing Models for Text Generation: A Survey of Recent Advances\"**"
+      "**\"Text Editing Models for Controlled Text Generation\"**"
     ],
     "editor": [
       {
-        "family": "Zhang",
-        "given": "Y."
+        "family": "Keskar",
+        "given": "N.S."
       },
       {
-        "others": true
+        "family": "McCann",
+        "given": "B."
+      },
+      {
+        "family": "Socher",
+        "given": "R."
       }
     ],
     "date": [
-      "2021"
-    ],
-    "note": [
-      "*arXiv preprint arXiv:2103.00100*."
-    ],
-    "arxiv": [
-      "2103.00100"
+      "2019"
     ],
     "type": null
+  },
+  {
+    "container-title": [
+      "*Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing (EMNLP).*"
+    ],
+    "type": "paper-conference"
   },
   {
     "citation-number": [
       "15."
     ],
     "title": [
-      "**\"Text Editing Models for Text Generation: A Survey of Techniques and Applications\"**"
+      "**\"Text Editing Models for Text Rewriting\"**"
     ],
     "editor": [
       {
-        "family": "Li",
-        "given": "X."
+        "family": "Zhao",
+        "given": "W."
       },
       {
-        "others": true
+        "family": "Feng",
+        "given": "S."
       }
     ],
     "date": [
-      "2021"
-    ],
-    "note": [
-      "*arXiv preprint arXiv:2104.00100*."
-    ],
-    "arxiv": [
-      "2104.00100"
+      "2020"
     ],
     "type": null
+  },
+  {
+    "container-title": [
+      "*Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP).*"
+    ],
+    "type": "paper-conference"
   },
   {
     "citation-number": [
       "16."
     ],
     "title": [
-      "**\"Text Editing Models for Text Generation: A Survey of Methods and Applications\"**"
+      "**\"Text Editing Models for Text Completion\"**"
     ],
-    "editor": [
+    "director": [
       {
-        "family": "Wang",
+        "family": "Radford",
+        "given": "A."
+      },
+      {
+        "family": "Wu",
         "given": "J."
       },
       {
-        "others": true
+        "family": "Amodei",
+        "given": "D."
       }
     ],
     "date": [
-      "2021"
-    ],
-    "note": [
-      "*arXiv preprint arXiv:2105.00100*."
-    ],
-    "arxiv": [
-      "2105.00100"
+      "2019"
     ],
     "type": null
+  },
+  {
+    "genre": [
+      "*OpenAI GPT-2 Technical Report.*"
+    ],
+    "type": "report"
   },
   {
     "citation-number": [
       "17."
     ],
     "title": [
-      "**\"Text Editing Models for Text Generation: A Survey of Approaches and Applications\"**"
+      "**\"Text Editing Models for Text Correction\"**"
     ],
     "editor": [
       {
-        "family": "Liu",
-        "given": "Y."
+        "family": "Chollampatt",
+        "given": "S."
       },
       {
-        "others": true
+        "family": "Ng",
+        "given": "H.T."
       }
     ],
     "date": [
-      "2021"
-    ],
-    "note": [
-      "*arXiv preprint arXiv:2106.00100*."
-    ],
-    "arxiv": [
-      "2106.00100"
+      "2018"
     ],
     "type": null
+  },
+  {
+    "container-title": [
+      "*Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing (EMNLP).*"
+    ],
+    "type": "paper-conference"
   },
   {
     "citation-number": [
       "18."
     ],
     "title": [
-      "**\"Text Editing Models for Text Generation: A Survey of Techniques and Challenges\"**"
+      "**\"Text Editing Models for Text Expansion\"**"
     ],
-    "editor": [
+    "author": [
       {
-        "family": "Zhang",
-        "given": "J."
+        "family": "Shen",
+        "given": "T."
       },
       {
-        "others": true
+        "family": "Zhou",
+        "given": "M."
       }
     ],
     "date": [
-      "2021"
-    ],
-    "note": [
-      "*arXiv preprint arXiv:2107.00100*."
-    ],
-    "arxiv": [
-      "2107.00100"
+      "2020"
     ],
     "type": null
+  },
+  {
+    "container-title": [
+      "*Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP).*"
+    ],
+    "type": "paper-conference"
   },
   {
     "citation-number": [
       "19."
     ],
     "title": [
-      "**\"Text Editing Models for Text Generation: A Survey of Methods and Challenges\"**"
+      "**\"Text Editing Models for Text Compression\"**"
     ],
     "editor": [
       {
-        "family": "Li",
-        "given": "Y."
+        "family": "Filippova",
+        "given": "K."
       },
       {
-        "others": true
+        "family": "Altun",
+        "given": "Y."
       }
     ],
     "date": [
-      "2021"
-    ],
-    "note": [
-      "*arXiv preprint arXiv:2108.00100*."
-    ],
-    "arxiv": [
-      "2108.00100"
+      "2013"
     ],
     "type": null
+  },
+  {
+    "container-title": [
+      "*Proceedings of the 2013 Conference on Empirical Methods in Natural Language Processing (EMNLP).*"
+    ],
+    "type": "paper-conference"
   },
   {
     "citation-number": [
       "20."
     ],
     "title": [
-      "**\"Text Editing Models for Text Generation: A Survey of Techniques and Opportunities\"**"
+      "**\"Text Editing Models for Text Generation from Structured Data\"**"
     ],
-    "editor": [
+    "author": [
       {
-        "family": "Wang",
-        "given": "Y."
+        "family": "Lebret",
+        "given": "R."
       },
       {
-        "others": true
+        "family": "Grangier",
+        "given": "D."
+      },
+      {
+        "family": "Auli",
+        "given": "M."
       }
     ],
     "date": [
-      "2021"
-    ],
-    "note": [
-      "*arXiv preprint arXiv:2109.00100*."
-    ],
-    "arxiv": [
-      "2109.00100"
+      "2016"
     ],
     "type": null
   },
   {
+    "container-title": [
+      "*Proceedings of the 2016 Conference on Empirical Methods in Natural Language Processing (EMNLP).*"
+    ],
+    "type": "paper-conference"
+  },
+  {
     "title": [
-      "These articles cover a range of topics related to text editing models for text generation, including surveys, specific applications like style transfer and summarization, and various challenges and opportunities in the field"
+      "These articles cover a wide range of applications and methodologies related to text editing models and text generation tasks, providing a comprehensive overview of the field up to"
+    ],
+    "date": [
+      "2022"
     ],
     "type": null
   }

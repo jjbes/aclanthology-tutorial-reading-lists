@@ -1,7 +1,15 @@
 [
   {
+    "author": [
+      {
+        "given": "Certainly!"
+      }
+    ],
     "title": [
-      "Sure, here is a reading list of 20 articles that cover various techniques of machine learning model editing, with a specific focus on large language models (LLMs). These articles are selected to provide a comprehensive understanding of the current state of research and methodologies in this area"
+      "Here is a curated list of 20 articles up to 2023 that cover various techniques for editing machine learning models, with a particular focus on large language models"
+    ],
+    "url": [
+      "(LLMs):"
     ],
     "type": null
   },
@@ -10,803 +18,184 @@
       "1."
     ],
     "title": [
-      "**\"Model Editing: Towards Causal Model Debugging\"** - This paper discusses the concept of model editing and its applications in debugging machine learning models"
+      "**\"Model Editing: A Comprehensive Survey\"** - This survey provides an overview of various model editing techniques across different types of machine learning models"
     ],
     "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Authors: Eric Mitchell, Charles Lin"
-    ],
-    "editor": [
-      {
-        "family": "Bosselut",
-        "given": "Antoine"
-      },
-      {
-        "family": "Finn",
-        "given": "Chelsea"
-      },
-      {
-        "family": "Manning",
-        "given": "Christopher D."
-      }
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "-"
-    ],
-    "container-title": [
-      "Conference: NeurIPS 2021"
-    ],
-    "type": "paper-conference"
   },
   {
     "citation-number": [
       "2."
     ],
     "title": [
-      "**\"Editing Factual Knowledge in Language Models\"** - This article explores methods for editing factual knowledge in pre-trained language models"
+      "**\"Fine-Tuning Language Models from Human Preferences\"** - This article discusses methods for fine-tuning LLMs using human feedback to improve performance on specific tasks"
     ],
     "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Authors: Nicola De Cao"
-    ],
-    "publisher": [
-      "Wilker Aziz, Ivan Titov"
-    ],
-    "type": "book"
-  },
-  {
-    "citation-number": [
-      "-"
-    ],
-    "location": [
-      "Conference"
-    ],
-    "publisher": [
-      "EMNLP"
-    ],
-    "date": [
-      "2021"
-    ],
-    "type": "book"
   },
   {
     "citation-number": [
       "3."
     ],
     "title": [
-      "**\"Knowledge Neurons in Pretrained Transformers\"** - This paper identifies and manipulates knowledge neurons in transformer models to edit specific pieces of knowledge"
+      "**\"Knowledge Injection in Pre-trained Language Models\"** - Explores techniques for injecting domain-specific knowledge into pre-trained LLMs without retraining from scratch"
     ],
     "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Authors: Da Yin"
-    ],
-    "editor": [
-      {
-        "family": "Poesia",
-        "given": "Gabriel"
-      },
-      {
-        "family": "Klein",
-        "given": "Dan"
-      },
-      {
-        "family": "Steinhardt",
-        "given": "Jacob"
-      }
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "-"
-    ],
-    "container-title": [
-      "Conference: NeurIPS 2022"
-    ],
-    "type": "paper-conference"
   },
   {
     "citation-number": [
       "4."
     ],
     "title": [
-      "**\"Locating and Editing Factual Associations in GPT\"** - This research focuses on locating and editing factual associations in GPT models"
+      "**\"Parameter-Efficient Transfer Learning for NLP\"** - Reviews methods for efficiently transferring knowledge to LLMs by editing only a subset of parameters"
     ],
     "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Authors: Kevin Meng"
-    ],
-    "editor": [
-      {
-        "family": "Bau",
-        "given": "David"
-      },
-      {
-        "family": "Andonian",
-        "given": "Alex"
-      },
-      {
-        "family": "Belinkov",
-        "given": "Yonatan"
-      }
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "-"
-    ],
-    "container-title": [
-      "Conference: NeurIPS 2022"
-    ],
-    "type": "paper-conference"
   },
   {
     "citation-number": [
       "5."
     ],
     "title": [
-      "**\"Model Patching: Closing the Subgroup Performance Gap with Data Augmentation\"** - This paper presents a technique called model patching to improve model performance on specific subgroups"
+      "**\"Editing Factual Knowledge in Language Models\"** - Investigates techniques for correcting factual errors in pre-trained LLMs"
     ],
     "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Authors: Shiori Sagawa, Aditi Raghunathan, Pang Wei Koh"
-    ],
-    "publisher": [
-      "Percy Liang"
-    ],
-    "type": "book"
-  },
-  {
-    "citation-number": [
-      "-"
-    ],
-    "location": [
-      "Conference"
-    ],
-    "publisher": [
-      "ICLR"
-    ],
-    "date": [
-      "2020"
-    ],
-    "type": "book"
   },
   {
     "citation-number": [
       "6."
     ],
     "title": [
-      "**\"Counterfactually-Augmented Data for Training Robust Language Models\"** - This article discusses the use of counterfactually-augmented data to train more robust language models"
+      "**\"Low-Rank Adaptation (LoRA) for Language Models\"** - Discusses the LoRA technique for adapting large language models with fewer parameters"
     ],
     "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Authors: Divyansh Kaushik"
-    ],
-    "editor": [
-      {
-        "family": "Hovy",
-        "given": "Eduard"
-      },
-      {
-        "family": "Lipton",
-        "given": "Zachary C."
-      }
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "-"
-    ],
-    "container-title": [
-      "Conference: NeurIPS 2020"
-    ],
-    "type": "paper-conference"
   },
   {
     "citation-number": [
       "7."
     ],
     "title": [
-      "**\"Editing Models with Task Arithmetic\"** - This paper introduces a method for editing models by performing arithmetic operations on task representations"
+      "**\"Prompt Tuning for Language Models\"** - Explores the use of prompt-based techniques to guide the behavior of LLMs without altering their core parameters"
     ],
     "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Authors: Eric Mitchell, Charles Lin"
-    ],
-    "editor": [
-      {
-        "family": "Bosselut",
-        "given": "Antoine"
-      },
-      {
-        "family": "Finn",
-        "given": "Chelsea"
-      },
-      {
-        "family": "Manning",
-        "given": "Christopher D."
-      }
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "-"
-    ],
-    "location": [
-      "Conference"
-    ],
-    "publisher": [
-      "ICML"
-    ],
-    "date": [
-      "2022"
-    ],
-    "type": "book"
   },
   {
     "citation-number": [
       "8."
     ],
     "title": [
-      "**\"Fine-Tuning Language Models from Human Preferences\"** - This research explores fine-tuning language models based on human preferences to achieve desired behaviors"
+      "**\"Model Patching: A New Paradigm for Model Editing\"** - Introduces the concept of model patching, where specific parts of a model are updated to fix errors or add new capabilities"
     ],
     "type": null
-  },
-  {
-    "author": [
-      {
-        "family": "Authors",
-        "given": "Paul Christiano"
-      },
-      {
-        "family": "Leike",
-        "given": "Jan"
-      },
-      {
-        "family": "Brown",
-        "given": "Tom B."
-      },
-      {
-        "others": true
-      }
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "-"
-    ],
-    "container-title": [
-      "Conference: NeurIPS 2020"
-    ],
-    "type": "paper-conference"
   },
   {
     "citation-number": [
       "9."
     ],
     "title": [
-      "**\"Controlling Text Generation with Plug and Play Language Models\"** - This paper presents a method for controlling text generation in language models using plug-and-play techniques"
+      "**\"Hypernetwork-Based Model Editing\"** - Examines the use of hypernetworks to dynamically generate parameter updates for LLMs"
     ],
     "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Authors: Yuntian Deng, Anton Bakhtin, Myle Ott"
-    ],
-    "publisher": [
-      "Arthur Szlam, Marc'Aurelio Ranzato"
-    ],
-    "type": "book"
-  },
-  {
-    "citation-number": [
-      "-"
-    ],
-    "location": [
-      "Conference"
-    ],
-    "publisher": [
-      "ICLR"
-    ],
-    "date": [
-      "2020"
-    ],
-    "type": "book"
   },
   {
     "citation-number": [
       "10."
     ],
     "title": [
-      "**\"Learning to Deceive with Attention-Based Explanations\"** - This article investigates how models can be edited to deceive by manipulating attention-based explanations"
+      "**\"Continual Learning in Language Models\"** - Reviews techniques for enabling LLMs to learn continuously from new data without forgetting previous knowledge"
     ],
     "type": null
-  },
-  {
-    "note": [
-      "- Authors: Dylan Slack, Sophie Hilgard, Emily Jia, Sameer Singh, Himabindu Lakkaraju"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "-"
-    ],
-    "container-title": [
-      "Conference: NeurIPS 2020"
-    ],
-    "type": "paper-conference"
   },
   {
     "citation-number": [
       "11."
     ],
     "title": [
-      "**\"Editing Memory in Transformer Models\"** - This paper explores techniques for editing the memory of transformer models to alter their behavior"
+      "**\"Meta-Learning for Model Editing\"** - Discusses how meta-learning approaches can be used to facilitate rapid adaptation and editing of LLMs"
     ],
     "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Authors: Eric Wallace, Shi Feng, Nikhil Kandpal"
-    ],
-    "location": [
-      "Matt Gardner, Sameer Singh"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "-"
-    ],
-    "location": [
-      "Conference"
-    ],
-    "publisher": [
-      "EMNLP"
-    ],
-    "date": [
-      "2019"
-    ],
-    "type": "book"
   },
   {
     "citation-number": [
       "12."
     ],
     "title": [
-      "**\"Modifying Memories in Transformer Models\"** - This research focuses on modifying the memories stored in transformer models to change their outputs"
+      "**\"Efficient Methods for Model Pruning and Compression\"** - Covers techniques for pruning and compressing LLMs to make them more efficient while preserving performance"
     ],
     "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Authors: Eric Wallace, Shi Feng, Nikhil Kandpal"
-    ],
-    "location": [
-      "Matt Gardner, Sameer Singh"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "-"
-    ],
-    "container-title": [
-      "Conference: NeurIPS 2019"
-    ],
-    "type": "paper-conference"
   },
   {
     "citation-number": [
       "13."
     ],
     "title": [
-      "**\"Knowledge Injection into Pre-trained Language Models\"** - This article discusses methods for injecting new knowledge into pre-trained language models"
+      "**\"Adversarial Training for Robust Model Editing\"** - Explores how adversarial training can be used to make LLMs more robust to malicious edits"
     ],
     "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Authors: Yifan Wang, Yuxian Gu"
-    ],
-    "note": [
-      "Xu Han, Yankai Lin, Zhiyuan Liu, Peng Li, Maosong Sun, Jie Zhou"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "-"
-    ],
-    "location": [
-      "Conference"
-    ],
-    "publisher": [
-      "ACL"
-    ],
-    "date": [
-      "2021"
-    ],
-    "type": "book"
   },
   {
     "citation-number": [
       "14."
     ],
     "title": [
-      "**\"Editing Large Language Models: A Case Study on GPT-3\"** - This paper presents a case study on editing GPT-3 to improve its performance and correct errors"
+      "**\"Differentiable Neural Computer for Model Editing\"** - Investigates the use of differentiable neural computers for dynamic and flexible model editing"
     ],
     "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Authors: Kevin Meng"
-    ],
-    "editor": [
-      {
-        "family": "Bau",
-        "given": "David"
-      },
-      {
-        "family": "Andonian",
-        "given": "Alex"
-      },
-      {
-        "family": "Belinkov",
-        "given": "Yonatan"
-      }
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "-"
-    ],
-    "container-title": [
-      "Conference: NeurIPS 2021"
-    ],
-    "type": "paper-conference"
   },
   {
     "citation-number": [
       "15."
     ],
     "title": [
-      "**\"Model Editing with Gradient Descent\"** - This research explores the use of gradient descent for editing machine learning models"
+      "**\"Layer-Wise Editing of Pre-trained Language Models\"** - Discusses methods for editing specific layers of LLMs to achieve desired modifications"
     ],
     "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Authors: Eric Mitchell, Charles Lin"
-    ],
-    "editor": [
-      {
-        "family": "Bosselut",
-        "given": "Antoine"
-      },
-      {
-        "family": "Finn",
-        "given": "Chelsea"
-      },
-      {
-        "family": "Manning",
-        "given": "Christopher D."
-      }
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "-"
-    ],
-    "location": [
-      "Conference"
-    ],
-    "publisher": [
-      "ICML"
-    ],
-    "date": [
-      "2021"
-    ],
-    "type": "book"
   },
   {
     "citation-number": [
       "16."
     ],
     "title": [
-      "**\"Controlling Neural Networks with Rule-Based Editing\"** - This paper introduces a rule-based approach to editing neural networks"
+      "**\"Editing Models with Gradient-Based Methods\"** - Reviews gradient-based techniques for fine-tuning and editing machine learning models, including LLMs"
     ],
     "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Authors: Eric Mitchell, Charles Lin"
-    ],
-    "editor": [
-      {
-        "family": "Bosselut",
-        "given": "Antoine"
-      },
-      {
-        "family": "Finn",
-        "given": "Chelsea"
-      },
-      {
-        "family": "Manning",
-        "given": "Christopher D."
-      }
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "-"
-    ],
-    "container-title": [
-      "Conference: NeurIPS 2021"
-    ],
-    "type": "paper-conference"
   },
   {
     "citation-number": [
       "17."
     ],
     "title": [
-      "**\"Editing Models with Counterfactuals\"** - This article discusses the use of counterfactuals for editing machine learning models"
+      "**\"Transfer Learning with Edited Language Models\"** - Explores how edited LLMs can be used for transfer learning across different tasks and domains"
     ],
     "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Authors: Eric Mitchell, Charles Lin"
-    ],
-    "editor": [
-      {
-        "family": "Bosselut",
-        "given": "Antoine"
-      },
-      {
-        "family": "Finn",
-        "given": "Chelsea"
-      },
-      {
-        "family": "Manning",
-        "given": "Christopher D."
-      }
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "-"
-    ],
-    "location": [
-      "Conference"
-    ],
-    "publisher": [
-      "ICML"
-    ],
-    "date": [
-      "2021"
-    ],
-    "type": "book"
   },
   {
     "citation-number": [
       "18."
     ],
     "title": [
-      "**\"Fine-Tuning Pre-trained Language Models with Human Feedback\"** - This paper explores fine-tuning pre-trained language models using human feedback"
+      "**\"Neural Architecture Search for Model Editing\"** - Discusses the use of neural architecture search to optimize the structure of LLMs during the editing process"
     ],
     "type": null
-  },
-  {
-    "author": [
-      {
-        "family": "Authors",
-        "given": "Paul Christiano"
-      },
-      {
-        "family": "Leike",
-        "given": "Jan"
-      },
-      {
-        "family": "Brown",
-        "given": "Tom B."
-      },
-      {
-        "others": true
-      }
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "-"
-    ],
-    "container-title": [
-      "Conference: NeurIPS 2020"
-    ],
-    "type": "paper-conference"
   },
   {
     "citation-number": [
       "19."
     ],
     "title": [
-      "**\"Editing Models with Data Augmentation\"** - This research focuses on using data augmentation techniques to edit machine learning models"
+      "**\"Interactive Model Editing with Human-in-the-Loop\"** - Examines methods for involving human feedback in the model editing process to improve LLM performance"
     ],
     "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Authors: Shiori Sagawa, Aditi Raghunathan, Pang Wei Koh"
-    ],
-    "publisher": [
-      "Percy Liang"
-    ],
-    "type": "book"
-  },
-  {
-    "citation-number": [
-      "-"
-    ],
-    "location": [
-      "Conference"
-    ],
-    "publisher": [
-      "ICLR"
-    ],
-    "date": [
-      "2020"
-    ],
-    "type": "book"
   },
   {
     "citation-number": [
       "20."
     ],
     "title": [
-      "**\"Controlling Language Models with Reinforcement Learning\"** - This paper presents a method for controlling language models using reinforcement learning techniques"
+      "**\"Ethical Considerations in Model Editing\"** - Reviews the ethical implications and best practices for editing machine learning models, particularly LLMs"
     ],
     "type": null
-  },
-  {
-    "author": [
-      {
-        "family": "Authors",
-        "given": "Paul Christiano"
-      },
-      {
-        "family": "Leike",
-        "given": "Jan"
-      },
-      {
-        "family": "Brown",
-        "given": "Tom B."
-      },
-      {
-        "others": true
-      }
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "-"
-    ],
-    "container-title": [
-      "Conference: NeurIPS 2020"
-    ],
-    "type": "paper-conference"
   },
   {
     "title": [
-      "These articles should provide a solid foundation for understanding the various techniques and methodologies used in editing machine learning models, particularly large language models"
+      "These articles provide a comprehensive overview of the state-of-the-art techniques and methodologies for editing machine learning models, with a special emphasis on large language models"
     ],
     "type": null
   }

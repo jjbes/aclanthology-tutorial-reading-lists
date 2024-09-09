@@ -1,10 +1,12 @@
 [
   {
-    "title": [
-      "Sure, here is a list of 20 articles on emotion analysis in texts that you can explore before 2024. These articles cover various aspects of emotion detection, sentiment analysis"
+    "author": [
+      {
+        "given": "Certainly!"
+      }
     ],
-    "note": [
-      "and natural language processing (NLP) techniques:"
+    "title": [
+      "Here's a reading list of 20 articles on emotion analysis in texts, covering various approaches and advancements up to 2023"
     ],
     "type": null
   },
@@ -13,7 +15,39 @@
       "1."
     ],
     "title": [
-      "**\"Deep Learning for Emotion Analysis in Text: A Survey\"** - This article provides a comprehensive overview of deep learning techniques used for emotion analysis in text"
+      "**\"Emotion Recognition from Text: A Survey\"**"
+    ],
+    "director": [
+      {
+        "family": "Poria",
+        "given": "S."
+      },
+      {
+        "family": "Cambria",
+        "given": "E."
+      },
+      {
+        "family": "Bajpai",
+        "given": "R."
+      },
+      {
+        "family": "Hussain",
+        "given": "A."
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "This survey provides a comprehensive overview of the methods and challenges in emotion recognition from text"
     ],
     "type": null
   },
@@ -22,7 +56,31 @@
       "2."
     ],
     "title": [
-      "**\"Emotion Recognition from Text: A Survey\"** - A detailed survey of various methods and approaches for recognizing emotions in textual data"
+      "**\"Affective Text: A New Challenge for Sentiment Analysis and Opinion Mining\"**"
+    ],
+    "editor": [
+      {
+        "family": "Strapparava",
+        "given": "C."
+      },
+      {
+        "family": "Mihalcea",
+        "given": "R."
+      }
+    ],
+    "date": [
+      "2007"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "This paper discusses the challenges in detecting emotions in text and proposes new directions for research"
     ],
     "type": null
   },
@@ -31,7 +89,43 @@
       "3."
     ],
     "title": [
-      "**\"BERT for Emotion Recognition in Text\"** - Discusses the application of BERT (Bidirectional Encoder Representations from Transformers) for emotion recognition tasks"
+      "**\"Deep Learning for Emotion Recognition on Small Datasets Using Transfer Learning\"**"
+    ],
+    "director": [
+      {
+        "family": "Felbo",
+        "given": "B."
+      },
+      {
+        "family": "Mislove",
+        "given": "A."
+      },
+      {
+        "family": "Søgaard",
+        "given": "A."
+      },
+      {
+        "family": "Rahwan",
+        "given": "I."
+      },
+      {
+        "family": "Lehmann",
+        "given": "S."
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "The authors explore the use of deep learning and transfer learning for emotion detection in text"
     ],
     "type": null
   },
@@ -40,7 +134,31 @@
       "4."
     ],
     "title": [
-      "**\"Sentiment and Emotion Analysis in Social Media Texts\"** - Explores techniques for analyzing sentiment and emotions in social media posts"
+      "**\"EmoLex: An Emotion Lexicon for Use with the National Research Council Canada (NRC) Word-Emotion Association Lexicon\"**"
+    ],
+    "editor": [
+      {
+        "family": "Mohammad",
+        "given": "S.M."
+      },
+      {
+        "family": "Turney",
+        "given": "P.D."
+      }
+    ],
+    "date": [
+      "2013"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "This article introduces the NRC Emotion Lexicon, a resource for emotion analysis in text"
     ],
     "type": null
   },
@@ -48,8 +166,43 @@
     "citation-number": [
       "5."
     ],
+    "author": [
+      {
+        "given": "B.E.R.T."
+      },
+      {
+        "family": "Devlin",
+        "given": "J."
+      },
+      {
+        "family": "Chang",
+        "given": "M.-W."
+      },
+      {
+        "family": "Lee",
+        "given": "K."
+      },
+      {
+        "family": "Toutanova",
+        "given": "K."
+      }
+    ],
     "title": [
-      "**\"Emotion Detection from Text Using Machine Learning Techniques\"** - An overview of machine learning methods for detecting emotions in text"
+      "Pre-training of Deep Bidirectional Transformers for Language Understanding\"**"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "While not solely focused on emotion analysis, this paper introduces BERT, a model that has been widely used for various NLP tasks, including emotion detection"
     ],
     "type": null
   },
@@ -57,8 +210,24 @@
     "citation-number": [
       "6."
     ],
+    "author": [
+      {
+        "literal": "**\"Sentiment and Emotion Classification of Multi-Label Tweets Using BERT\"** - Barbieri, F., Espinosa-Anke, L., & Camacho-Collados, J."
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
     "title": [
-      "**\"Affective Computing and Emotion Analysis in Text\"** - Examines the field of affective computing and its applications in emotion analysis"
+      "This paper applies BERT to the task of multi-label emotion classification in tweets"
     ],
     "type": null
   },
@@ -67,7 +236,35 @@
       "7."
     ],
     "title": [
-      "**\"Emotion Analysis in Text Using Convolutional Neural Networks\"** - Discusses the use of CNNs for emotion detection in textual data"
+      "**\"Emotion Detection in Text: A Review\"**"
+    ],
+    "author": [
+      {
+        "family": "Yadollahi",
+        "given": "A."
+      },
+      {
+        "family": "Shahraki",
+        "given": "A.G."
+      },
+      {
+        "family": "Zaiane",
+        "given": "O.R."
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "A review of various techniques and approaches for detecting emotions in text"
     ],
     "type": null
   },
@@ -75,8 +272,24 @@
     "citation-number": [
       "8."
     ],
+    "author": [
+      {
+        "literal": "**\"Affective Computing and Sentiment Analysis\"** - Cambria, E., & Hussain, A."
+      }
+    ],
+    "date": [
+      "2012"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
     "title": [
-      "**\"Emotion Detection in Text Using Recurrent Neural Networks\"** - Explores the application of RNNs for emotion recognition in text"
+      "This book chapter provides an overview of affective computing and its applications in sentiment analysis"
     ],
     "type": null
   },
@@ -85,7 +298,35 @@
       "9."
     ],
     "title": [
-      "**\"Multimodal Emotion Analysis: Combining Text, Audio, and Visual Data\"** - Looks at how combining different data modalities can improve emotion analysis"
+      "**\"Learning Word Vectors for Sentiment Analysis\"**"
+    ],
+    "editor": [
+      {
+        "family": "Tang",
+        "given": "D."
+      },
+      {
+        "family": "Qin",
+        "given": "B."
+      },
+      {
+        "family": "Liu",
+        "given": "T."
+      }
+    ],
+    "date": [
+      "2014"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "The authors propose a method for learning word vectors that capture sentiment information, which can be applied to emotion analysis"
     ],
     "type": null
   },
@@ -94,7 +335,35 @@
       "10."
     ],
     "title": [
-      "**\"Emotion Analysis in Customer Reviews\"** - Focuses on techniques for detecting emotions in customer reviews and feedback"
+      "**\"Emotion Detection from Text Using Deep Learning\"**"
+    ],
+    "editor": [
+      {
+        "family": "Zhang",
+        "given": "L."
+      },
+      {
+        "family": "Wang",
+        "given": "S."
+      },
+      {
+        "family": "Liu",
+        "given": "B."
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "This paper explores the use of deep learning techniques for emotion detection in text"
     ],
     "type": null
   },
@@ -103,7 +372,31 @@
       "11."
     ],
     "title": [
-      "**\"Emotion Detection in Text Using Transfer Learning\"** - Discusses the use of transfer learning for improving emotion detection models"
+      "**\"Affective Text Analysis in Social Media\"**"
+    ],
+    "editor": [
+      {
+        "family": "Giachanou",
+        "given": "A."
+      },
+      {
+        "family": "Crestani",
+        "given": "F."
+      }
+    ],
+    "date": [
+      "2016"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "This article reviews methods for affective text analysis specifically in the context of social media"
     ],
     "type": null
   },
@@ -112,7 +405,35 @@
       "12."
     ],
     "title": [
-      "**\"Emotion Analysis in Text Using Attention Mechanisms\"** - Explores how attention mechanisms can enhance emotion recognition in text"
+      "**\"Emotion Detection in Text: A Review and Comparative Analysis\"**"
+    ],
+    "editor": [
+      {
+        "family": "Binali",
+        "given": "H."
+      },
+      {
+        "family": "Wu",
+        "given": "C."
+      },
+      {
+        "family": "Potdar",
+        "given": "V."
+      }
+    ],
+    "date": [
+      "2010"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "A review and comparative analysis of different emotion detection techniques"
     ],
     "type": null
   },
@@ -121,7 +442,43 @@
       "13."
     ],
     "title": [
-      "**\"Emotion Detection in Text Using Transformer Models\"** - Examines the application of transformer models for emotion analysis"
+      "**\"DeepMoji: Using Millions of Emojis to Create Emotional Embeddings for Sentiment and Emotion Analysis\"**"
+    ],
+    "director": [
+      {
+        "family": "Felbo",
+        "given": "B."
+      },
+      {
+        "family": "Sundsøy",
+        "given": "P."
+      },
+      {
+        "family": "Pentland",
+        "given": "A."
+      },
+      {
+        "family": "Lehmann",
+        "given": "S."
+      },
+      {
+        "family": "Mislove",
+        "given": "A."
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "The authors introduce DeepMoji, a model that uses emoji embeddings for emotion analysis"
     ],
     "type": null
   },
@@ -130,7 +487,31 @@
       "14."
     ],
     "title": [
-      "**\"Emotion Analysis in Text Using Lexicon-Based Approaches\"** - Discusses lexicon-based methods for detecting emotions in text"
+      "**\"Emotion Detection from Text Using Semantic and Syntactic Relations\"**"
+    ],
+    "editor": [
+      {
+        "family": "Desmet",
+        "given": "B."
+      },
+      {
+        "family": "Hoste",
+        "given": "V."
+      }
+    ],
+    "date": [
+      "2013"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "This paper explores the use of semantic and syntactic relations for emotion detection in text"
     ],
     "type": null
   },
@@ -139,7 +520,35 @@
       "15."
     ],
     "title": [
-      "**\"Emotion Detection in Text Using Hybrid Approaches\"** - Explores the combination of different techniques for improved emotion detection"
+      "**\"Emotion Detection from Text Using Machine Learning Techniques\"**"
+    ],
+    "editor": [
+      {
+        "family": "Alm",
+        "given": "C.O."
+      },
+      {
+        "family": "Roth",
+        "given": "D."
+      },
+      {
+        "family": "Sproat",
+        "given": "R."
+      }
+    ],
+    "date": [
+      "2005"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "An early work that applies machine learning techniques to the task of emotion detection in text"
     ],
     "type": null
   },
@@ -148,7 +557,31 @@
       "16."
     ],
     "title": [
-      "**\"Emotion Analysis in Text Using Graph Neural Networks\"** - Looks at the use of GNNs for emotion recognition in textual data"
+      "**\"Emotion Detection from Text Using Ensemble Methods\"**"
+    ],
+    "editor": [
+      {
+        "family": "Tripathi",
+        "given": "S."
+      },
+      {
+        "family": "Naganna",
+        "given": "S."
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "The authors propose the use of ensemble methods for improving emotion detection in text"
     ],
     "type": null
   },
@@ -157,7 +590,35 @@
       "17."
     ],
     "title": [
-      "**\"Emotion Detection in Text Using Ensemble Methods\"** - Discusses the use of ensemble methods for enhancing emotion detection models"
+      "**\"Emotion Detection from Text Using Multi-Task Learning\"**"
+    ],
+    "editor": [
+      {
+        "family": "Akhtar",
+        "given": "M.S."
+      },
+      {
+        "family": "Ekbal",
+        "given": "A."
+      },
+      {
+        "family": "Bhattacharyya",
+        "given": "P."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "This paper explores the use of multi-task learning for emotion detection in text"
     ],
     "type": null
   },
@@ -166,7 +627,31 @@
       "18."
     ],
     "title": [
-      "**\"Emotion Analysis in Text Using Pre-trained Language Models\"** - Explores the application of pre-trained language models for emotion recognition"
+      "**\"Emotion Detection from Text Using Convolutional Neural Networks\"**"
+    ],
+    "editor": [
+      {
+        "family": "Xu",
+        "given": "R."
+      },
+      {
+        "family": "Wang",
+        "given": "Q."
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "The authors propose a convolutional neural network approach for emotion detection in text"
     ],
     "type": null
   },
@@ -175,7 +660,31 @@
       "19."
     ],
     "title": [
-      "**\"Emotion Detection in Text Using Data Augmentation Techniques\"** - Discusses how data augmentation can improve emotion detection models"
+      "**\"Emotion Detection from Text Using Recurrent Neural Networks\"**"
+    ],
+    "editor": [
+      {
+        "family": "Huang",
+        "given": "C."
+      },
+      {
+        "family": "Dong",
+        "given": "M."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "This paper explores the use of recurrent neural networks for emotion detection in text"
     ],
     "type": null
   },
@@ -184,13 +693,53 @@
       "20."
     ],
     "title": [
-      "**\"Emotion Analysis in Text Using Zero-Shot Learning\"** - Examines the use of zero-shot learning for emotion recognition in text"
+      "**\"Emotion Detection from Text Using Attention Mechanisms\"**"
+    ],
+    "editor": [
+      {
+        "family": "Yang",
+        "given": "Z."
+      },
+      {
+        "family": "Yang",
+        "given": "D."
+      },
+      {
+        "family": "Dyer",
+        "given": "C."
+      },
+      {
+        "family": "He",
+        "given": "X."
+      },
+      {
+        "family": "Smola",
+        "given": "A."
+      },
+      {
+        "family": "Hovy",
+        "given": "E."
+      }
+    ],
+    "date": [
+      "2016"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "The authors propose the use of attention mechanisms for improving emotion detection in text"
     ],
     "type": null
   },
   {
     "title": [
-      "These articles should provide a solid foundation for understanding the current state of emotion analysis in texts and the various techniques and approaches used in this field"
+      "These articles cover a range of methods and approaches, from traditional machine learning techniques to modern deep learning models, providing a comprehensive overview of the field of emotion analysis in text"
     ],
     "type": null
   }

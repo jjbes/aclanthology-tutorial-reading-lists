@@ -6,7 +6,7 @@
       }
     ],
     "title": [
-      "Here is a list of 20 articles published before 2021 that focus on integrating ethics into the Natural Language Processing (NLP) curriculum"
+      "Here is a reading list of 20 articles up to 2020 that focus on integrating ethics into the Natural Language Processing (NLP) curriculum"
     ],
     "type": null
   },
@@ -109,27 +109,51 @@
     ],
     "author": [
       {
-        "family": "Binns",
-        "given": "R."
+        "family": "Green",
+        "given": "B."
+      },
+      {
+        "family": "Hu",
+        "given": "L."
       }
     ],
     "date": [
       "2018"
     ],
     "title": [
-      "Fairness in Machine Learning: Lessons from Political Philosophy"
+      "The Myth in the Methodology: Towards a Recontextualization of Fairness in Machine Learning"
     ],
     "container-title": [
-      "Proceedings of the 2018 Conference on Fairness, Accountability, and Transparency"
-    ],
-    "pages": [
-      "149–159"
+      "Proceedings of the Machine Learning: The Debates Workshop at ICML"
     ],
     "type": "paper-conference"
   },
   {
     "citation-number": [
       "5."
+    ],
+    "author": [
+      {
+        "literal": "Gebru, T., Morgenstern, J., Vecchione, B., Vaughan, J. W., Wallach, H., Daumé III, H., & Crawford, K."
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "title": [
+      "Datasheets for Datasets"
+    ],
+    "note": [
+      "arXiv preprint arXiv:1803.09010."
+    ],
+    "arxiv": [
+      "1803.09010"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
     ],
     "author": [
       {
@@ -152,51 +176,27 @@
   },
   {
     "citation-number": [
-      "6."
-    ],
-    "author": [
-      {
-        "family": "Green",
-        "given": "B."
-      },
-      {
-        "family": "Hu",
-        "given": "L."
-      }
-    ],
-    "date": [
-      "2018"
-    ],
-    "title": [
-      "The Myth in the Methodology: Towards a Recontextualization of Fairness in Machine Learning"
-    ],
-    "container-title": [
-      "Proceedings of the Machine Learning: The Debates Workshop at ICML"
-    ],
-    "type": "paper-conference"
-  },
-  {
-    "citation-number": [
       "7."
     ],
     "author": [
       {
-        "literal": "Gebru, T., Morgenstern, J., Vecchione, B., Vaughan, J. W., Wallach, H., Daumé III, H., & Crawford, K."
+        "family": "Binns",
+        "given": "R."
       }
     ],
     "date": [
       "2018"
     ],
     "title": [
-      "Datasheets for Datasets"
+      "Fairness in Machine Learning: Lessons from Political Philosophy"
     ],
-    "note": [
-      "arXiv preprint arXiv:1803.09010."
+    "container-title": [
+      "Proceedings of the 2018 Conference on Fairness, Accountability, and Transparency"
     ],
-    "arxiv": [
-      "1803.09010"
+    "pages": [
+      "149–159"
     ],
-    "type": null
+    "type": "paper-conference"
   },
   {
     "citation-number": [
@@ -283,34 +283,33 @@
     ],
     "author": [
       {
-        "family": "Binns",
-        "given": "R."
+        "family": "Bender",
+        "given": "E.M."
       },
       {
-        "family": "Veale",
-        "given": "M."
+        "family": "Gebru",
+        "given": "T."
       },
       {
-        "family": "Kleek",
-        "given": "M.",
-        "particle": "Van"
+        "family": "McMillan-Major",
+        "given": "A."
       },
       {
-        "family": "Shadbolt",
-        "given": "N."
+        "family": "Shmitchell",
+        "given": "S."
       }
     ],
     "date": [
-      "2018"
+      "2021"
     ],
     "title": [
-      "‘It’s Reducing a Human Being to a Percentage’: Perceptions of Justice in Algorithmic Decisions"
+      "On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?"
     ],
     "container-title": [
-      "Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems"
+      "Proceedings of the 2021 ACM Conference on Fairness, Accountability, and Transparency"
     ],
     "pages": [
-      "1–14"
+      "610–623"
     ],
     "type": "paper-conference"
   },
@@ -341,63 +340,6 @@
     ],
     "author": [
       {
-        "family": "Eubanks",
-        "given": "V."
-      }
-    ],
-    "date": [
-      "2018"
-    ],
-    "title": [
-      "Automating Inequality: How High-Tech Tools Profile, Police, and Punish the Poor"
-    ],
-    "container-title": [
-      "St"
-    ],
-    "publisher": [
-      "Martin's Press"
-    ],
-    "type": "chapter"
-  },
-  {
-    "citation-number": [
-      "13."
-    ],
-    "author": [
-      {
-        "family": "Angwin",
-        "given": "J."
-      },
-      {
-        "family": "Larson",
-        "given": "J."
-      },
-      {
-        "family": "Mattu",
-        "given": "S."
-      },
-      {
-        "family": "Kirchner",
-        "given": "L."
-      }
-    ],
-    "date": [
-      "2016"
-    ],
-    "title": [
-      "Machine Bias"
-    ],
-    "publisher": [
-      "ProPublica"
-    ],
-    "type": "book"
-  },
-  {
-    "citation-number": [
-      "14."
-    ],
-    "author": [
-      {
         "family": "Barocas",
         "given": "S."
       },
@@ -423,7 +365,7 @@
   },
   {
     "citation-number": [
-      "15."
+      "13."
     ],
     "author": [
       {
@@ -438,9 +380,75 @@
       "The Trouble with Bias"
     ],
     "container-title": [
-      "Conference on Neural Information Processing Systems (NeurIPS"
+      "Conference on Neural Information Processing Systems (NeurIPS 2017"
     ],
     "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "author": [
+      {
+        "family": "Veale",
+        "given": "M."
+      },
+      {
+        "family": "Kleek",
+        "given": "M.",
+        "particle": "Van"
+      },
+      {
+        "family": "Binns",
+        "given": "R."
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "title": [
+      "Fairness and Accountability Design Needs for Algorithmic Support in High-Stakes Public Sector Decision-Making"
+    ],
+    "container-title": [
+      "Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems"
+    ],
+    "pages": [
+      "1–14"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "author": [
+      {
+        "family": "Angwin",
+        "given": "J."
+      },
+      {
+        "family": "Larson",
+        "given": "J."
+      },
+      {
+        "family": "Mattu",
+        "given": "S."
+      },
+      {
+        "family": "Kirchner",
+        "given": "L."
+      }
+    ],
+    "date": [
+      "2016"
+    ],
+    "title": [
+      "Machine Bias: There’s Software Used Across the Country to Predict Future Criminals. And it’s Biased Against Blacks"
+    ],
+    "publisher": [
+      "ProPublica"
+    ],
+    "type": "book"
   },
   {
     "citation-number": [
@@ -448,32 +456,19 @@
     ],
     "author": [
       {
-        "family": "Selbst",
-        "given": "A.D."
-      },
-      {
-        "family": "Barocas",
-        "given": "S."
+        "family": "Dastin",
+        "given": "J."
       }
     ],
     "date": [
       "2018"
     ],
     "title": [
-      "The Intuitive Appeal of Explainable Machines"
-    ],
-    "volume": [
-      "87"
-    ],
-    "pages": [
-      "1085–1139"
+      "Amazon Scraps Secret AI Recruiting Tool That Showed Bias Against Women"
     ],
     "type": "article-journal",
     "container-title": [
-      "Fordham Law Review"
-    ],
-    "issue": [
-      "3"
+      "Reuters"
     ]
   },
   {
@@ -482,51 +477,79 @@
     ],
     "author": [
       {
-        "family": "Whittaker",
-        "given": "M."
-      },
-      {
-        "family": "Crawford",
-        "given": "K."
-      },
-      {
-        "family": "Dobbe",
-        "given": "R."
-      },
-      {
-        "family": "Fried",
-        "given": "G."
-      },
-      {
-        "family": "Kaziunas",
-        "given": "E."
-      },
-      {
-        "family": "Mathur",
+        "family": "Eubanks",
         "given": "V."
-      },
-      {
-        "family": "Schwartz",
-        "given": "O."
-      },
-      {
-        "others": true
       }
     ],
     "date": [
       "2018"
     ],
     "title": [
-      "AI Now Report 2018"
+      "Automating Inequality: How High-Tech Tools Profile, Police, and Punish the Poor"
+    ],
+    "container-title": [
+      "St"
     ],
     "publisher": [
-      "AI Now Institute at New York University"
+      "Martin's Press"
+    ],
+    "type": "chapter"
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "author": [
+      {
+        "family": "O'Neil",
+        "given": "C."
+      }
+    ],
+    "date": [
+      "2016"
+    ],
+    "title": [
+      "Weapons of Math Destruction: How Big Data Increases Inequality and Threatens Democracy"
+    ],
+    "publisher": [
+      "Crown Publishing Group"
     ],
     "type": "book"
   },
   {
     "citation-number": [
-      "18."
+      "19."
+    ],
+    "author": [
+      {
+        "family": "Floridi",
+        "given": "L."
+      },
+      {
+        "family": "Cowls",
+        "given": "J."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "title": [
+      "A Unified Framework of Five Principles for AI in Society"
+    ],
+    "volume": [
+      "1"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "Harvard Data Science Review"
+    ],
+    "issue": [
+      "1"
+    ]
+  },
+  {
+    "citation-number": [
+      "20."
     ],
     "author": [
       {
@@ -538,8 +561,8 @@
         "given": "S."
       },
       {
-        "family": "boyd",
-        "given": "d"
+        "family": "Boyd",
+        "given": "D."
       },
       {
         "family": "Crawford",
@@ -582,68 +605,8 @@
     ]
   },
   {
-    "citation-number": [
-      "19."
-    ],
-    "author": [
-      {
-        "family": "Leins",
-        "given": "K."
-      },
-      {
-        "family": "Lau",
-        "given": "J.H."
-      },
-      {
-        "family": "Baldwin",
-        "given": "T."
-      }
-    ],
-    "date": [
-      "2020"
-    ],
     "title": [
-      "Give Me Convenience and Give Her Death: Who Should Decide What Uses of NLP are Appropriate, and on What Basis?"
-    ],
-    "container-title": [
-      "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics"
-    ],
-    "pages": [
-      "2908–2913"
-    ],
-    "type": "paper-conference"
-  },
-  {
-    "citation-number": [
-      "20."
-    ],
-    "author": [
-      {
-        "family": "Birhane",
-        "given": "A."
-      },
-      {
-        "family": "Cummins",
-        "given": "F."
-      }
-    ],
-    "date": [
-      "2019"
-    ],
-    "title": [
-      "Algorithmic Injustice: A Relational Ethics Approach"
-    ],
-    "container-title": [
-      "Proceedings of the 2019 AAAI/ACM Conference on AI, Ethics, and Society"
-    ],
-    "pages": [
-      "290–295"
-    ],
-    "type": "paper-conference"
-  },
-  {
-    "title": [
-      "These articles cover a range of topics related to ethics in NLP, including bias, fairness, transparency, and the social impact of NLP technologies. They provide a comprehensive foundation for understanding the ethical considerations that should be integrated into the NLP curriculum"
+      "These articles cover a range of topics including ethical considerations, fairness, bias, accountability, and the social impact of NLP technologies. They provide a comprehensive foundation for integrating ethics into the NLP curriculum"
     ],
     "type": null
   }

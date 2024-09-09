@@ -1,7 +1,7 @@
 [
   {
     "title": [
-      "Sure, here's a reading list of 20 articles on LLM-driven instruction following, focusing on recent advancements and research up to 2023"
+      "Sure, here is a reading list of 20 articles on LLM-driven instruction following up to 2023"
     ],
     "type": null
   },
@@ -9,56 +9,101 @@
     "citation-number": [
       "1."
     ],
-    "title": [
-      "**\"Language Models are Few-Shot Learners\"**"
-    ],
-    "publisher": [
-      "Brown et al"
+    "author": [
+      {
+        "family": "Brown",
+        "given": "T.B."
+      },
+      {
+        "others": true
+      }
     ],
     "date": [
       "2020"
     ],
-    "type": "book"
+    "title": [
+      "Language Models are Few-Shot Learners.\"**"
+    ],
+    "note": [
+      "arXiv preprint arXiv:2005.14165."
+    ],
+    "arxiv": [
+      "2005.14165"
+    ],
+    "type": null
   },
   {
     "citation-number": [
       "2."
     ],
-    "title": [
-      "**\"GPT-3: Language Models are Few-Shot Learners\"**"
-    ],
-    "publisher": [
-      "OpenAI"
+    "author": [
+      {
+        "family": "Raffel",
+        "given": "C."
+      },
+      {
+        "others": true
+      }
     ],
     "date": [
       "2020"
     ],
-    "type": "book"
+    "title": [
+      "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer.\"**"
+    ],
+    "volume": [
+      "21"
+    ],
+    "pages": [
+      "1–67"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "Journal of Machine Learning Research"
+    ],
+    "issue": [
+      "140"
+    ]
   },
   {
     "citation-number": [
       "3."
     ],
-    "title": [
-      "**\"Instruction Tuning with GPT-3\"**"
-    ],
-    "publisher": [
-      "OpenAI"
+    "author": [
+      {
+        "family": "Radford",
+        "given": "A."
+      },
+      {
+        "others": true
+      }
     ],
     "date": [
-      "2021"
+      "2019"
     ],
-    "type": "book"
+    "title": [
+      "Language Models are Unsupervised Multitask Learners.\"** OpenAI Blog"
+    ],
+    "type": null
   },
   {
     "citation-number": [
       "4."
     ],
-    "title": [
-      "**\"Zero-Shot Text Classification with Generative Language Models\"** - Yin et al"
+    "author": [
+      {
+        "family": "Devlin",
+        "given": "J."
+      },
+      {
+        "others": true
+      }
     ],
     "date": [
-      "2020"
+      "2019"
+    ],
+    "title": [
+      "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding.\"** NAACL-HLT"
     ],
     "type": null
   },
@@ -66,41 +111,74 @@
     "citation-number": [
       "5."
     ],
-    "title": [
-      "**\"Prompt Programming for Large Language Models: Beyond the Few-Shot Paradigm\"**"
+    "author": [
+      {
+        "family": "Vaswani",
+        "given": "A."
+      },
+      {
+        "others": true
+      }
     ],
     "date": [
-      "2021"
+      "2017"
     ],
-    "type": "article-journal",
-    "container-title": [
-      "Liu et al"
-    ]
+    "title": [
+      "Attention is All You Need.\"** Advances in Neural Information Processing Systems"
+    ],
+    "type": null
   },
   {
     "citation-number": [
       "6."
     ],
-    "title": [
-      "**\"Learning to Follow Instructions in Text-Based Games\"**"
-    ],
-    "publisher": [
-      "Narasimhan et al"
+    "author": [
+      {
+        "family": "Zhang",
+        "given": "Y."
+      },
+      {
+        "others": true
+      }
     ],
     "date": [
-      "2015"
+      "2020"
     ],
-    "type": "book"
+    "title": [
+      "Dialogpt: Large-scale generative pre-training for conversational response generation.\"**"
+    ],
+    "note": [
+      "arXiv preprint arXiv:1911.00536."
+    ],
+    "arxiv": [
+      "1911.00536"
+    ],
+    "type": null
   },
   {
     "citation-number": [
       "7."
     ],
-    "title": [
-      "**\"Interactive Learning from Policy-Dependent Human Feedback\"** - Christiano et al"
+    "author": [
+      {
+        "family": "Gao",
+        "given": "T."
+      },
+      {
+        "others": true
+      }
     ],
     "date": [
-      "2017"
+      "2021"
+    ],
+    "title": [
+      "Making pre-trained language models better few-shot learners.\"**"
+    ],
+    "note": [
+      "arXiv preprint arXiv:2012.15723."
+    ],
+    "arxiv": [
+      "2012.15723"
     ],
     "type": null
   },
@@ -108,11 +186,26 @@
     "citation-number": [
       "8."
     ],
-    "title": [
-      "**\"Aligning Language Models to Follow Instructions\"** - Stiennon et al"
+    "author": [
+      {
+        "family": "Wei",
+        "given": "J."
+      },
+      {
+        "others": true
+      }
     ],
     "date": [
-      "2020"
+      "2022"
+    ],
+    "title": [
+      "Chain of Thought Prompting Elicits Reasoning in Large Language Models.\"**"
+    ],
+    "note": [
+      "arXiv preprint arXiv:2201.11903."
+    ],
+    "arxiv": [
+      "2201.11903"
     ],
     "type": null
   },
@@ -120,26 +213,48 @@
     "citation-number": [
       "9."
     ],
-    "title": [
-      "**\"Reinforcement Learning from Human Feedback\"**"
-    ],
-    "publisher": [
-      "Ziegler et al"
+    "author": [
+      {
+        "family": "Ouyang",
+        "given": "L."
+      },
+      {
+        "others": true
+      }
     ],
     "date": [
-      "2019"
+      "2022"
     ],
-    "type": "book"
+    "title": [
+      "Training language models to follow instructions with human feedback.\"**"
+    ],
+    "note": [
+      "arXiv preprint arXiv:2203.02155."
+    ],
+    "arxiv": [
+      "2203.02155"
+    ],
+    "type": null
   },
   {
     "citation-number": [
       "10."
     ],
-    "title": [
-      "**\"Language Models as Knowledge Bases?\"** - Petroni et al"
+    "author": [
+      {
+        "family": "Schick",
+        "given": "T."
+      },
+      {
+        "family": "Schütze",
+        "given": "H."
+      }
     ],
     "date": [
-      "2019"
+      "2021"
+    ],
+    "title": [
+      "Exploiting Cloze-Questions for Few-Shot Text Classification and Natural Language Inference.\"** EACL"
     ],
     "type": null
   },
@@ -147,11 +262,26 @@
     "citation-number": [
       "11."
     ],
-    "title": [
-      "**\"Evaluating Large Language Models Trained on Code\"** - Chen et al"
+    "author": [
+      {
+        "family": "Ziegler",
+        "given": "D.M."
+      },
+      {
+        "others": true
+      }
     ],
     "date": [
-      "2021"
+      "2019"
+    ],
+    "title": [
+      "Fine-Tuning Language Models from Human Preferences.\"**"
+    ],
+    "note": [
+      "arXiv preprint arXiv:1909.08593."
+    ],
+    "arxiv": [
+      "1909.08593"
     ],
     "type": null
   },
@@ -159,11 +289,20 @@
     "citation-number": [
       "12."
     ],
-    "title": [
-      "**\"Scaling Laws for Neural Language Models\"** - Kaplan et al"
+    "author": [
+      {
+        "family": "Stiennon",
+        "given": "N."
+      },
+      {
+        "others": true
+      }
     ],
     "date": [
       "2020"
+    ],
+    "title": [
+      "Learning to summarize with human feedback.\"** Advances in Neural Information Processing Systems"
     ],
     "type": null
   },
@@ -171,11 +310,27 @@
     "citation-number": [
       "13."
     ],
-    "title": [
-      "**\"The Power of Scale for Parameter-Efficient Prompt Tuning\"** - Lester et al"
+    "author": [
+      {
+        "family": "Kenton",
+        "given": "J.D."
+      },
+      {
+        "family": "Toutanova",
+        "given": "K."
+      }
     ],
     "date": [
-      "2021"
+      "2019"
+    ],
+    "title": [
+      "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding.\"**"
+    ],
+    "note": [
+      "arXiv preprint arXiv:1810.04805."
+    ],
+    "arxiv": [
+      "1810.04805"
     ],
     "type": null
   },
@@ -183,31 +338,55 @@
     "citation-number": [
       "14."
     ],
-    "title": [
-      "**\"Few-Shot Learning with Prompting for Natural Language Understanding\"**"
-    ],
-    "publisher": [
-      "Schick and Schütze"
+    "author": [
+      {
+        "family": "Radford",
+        "given": "A."
+      },
+      {
+        "others": true
+      }
     ],
     "date": [
       "2021"
     ],
-    "type": "book"
+    "title": [
+      "Learning Transferable Visual Models From Natural Language Supervision.\"**"
+    ],
+    "note": [
+      "arXiv preprint arXiv:2103.00020."
+    ],
+    "arxiv": [
+      "2103.00020"
+    ],
+    "type": null
   },
   {
     "citation-number": [
       "15."
     ],
-    "title": [
-      "**\"Language Models as Zero-Shot Planners: Extracting Actionable Knowledge for Embodied Agents\"**"
+    "author": [
+      {
+        "family": "Xu",
+        "given": "J."
+      },
+      {
+        "others": true
+      }
     ],
     "date": [
       "2022"
     ],
-    "type": "article-journal",
-    "container-title": [
-      "Ahn et al"
-    ]
+    "title": [
+      "Learning to Follow Instructions"
+    ],
+    "note": [
+      "in Text-based Games.\"** arXiv preprint arXiv:2206.01494."
+    ],
+    "arxiv": [
+      "2206.01494"
+    ],
+    "type": null
   },
   {
     "citation-number": [
@@ -215,11 +394,24 @@
     ],
     "author": [
       {
-        "literal": "**\"Prompting GPT-3 To Be Reliable\"** - Perez et al."
+        "family": "Liu",
+        "given": "P."
+      },
+      {
+        "others": true
       }
     ],
     "date": [
       "2021"
+    ],
+    "title": [
+      "Pre-train, Prompt, and Predict: A Systematic Survey of Prompting Methods in Natural Language Processing.\"**"
+    ],
+    "note": [
+      "arXiv preprint arXiv:2107.13586."
+    ],
+    "arxiv": [
+      "2107.13586"
     ],
     "type": null
   },
@@ -227,11 +419,20 @@
     "citation-number": [
       "17."
     ],
-    "title": [
-      "**\"Learning to Summarize with Human Feedback\"** - Stiennon et al"
+    "author": [
+      {
+        "family": "Gururangan",
+        "given": "S."
+      },
+      {
+        "others": true
+      }
     ],
     "date": [
       "2020"
+    ],
+    "title": [
+      "Don’t Stop Pretraining: Adapt Language Models to Domains and Tasks.\"** ACL"
     ],
     "type": null
   },
@@ -239,47 +440,83 @@
     "citation-number": [
       "18."
     ],
-    "title": [
-      "**\"Language Models as Knowledge Bases?\"** - Petroni et al"
+    "author": [
+      {
+        "family": "Levine",
+        "given": "S."
+      },
+      {
+        "others": true
+      }
     ],
     "date": [
-      "2019"
+      "2022"
     ],
-    "type": null
+    "title": [
+      "Offline Reinforcement Learning: Tutorial"
+    ],
+    "note": [
+      "and Perspectives on Open Problems.\"** arXiv preprint arXiv:2005.01643."
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "Review"
+    ],
+    "arxiv": [
+      "2005.01643"
+    ]
   },
   {
     "citation-number": [
       "19."
     ],
-    "title": [
-      "**\"The Case for a Single Model that can Follow Many Instructions\"**"
+    "author": [
+      {
+        "family": "Zellers",
+        "given": "R."
+      },
+      {
+        "others": true
+      }
     ],
     "date": [
-      "2021"
+      "2019"
     ],
-    "type": "article-journal",
-    "container-title": [
-      "Wei et al"
-    ]
+    "title": [
+      "Defending Against Neural Fake News.\"** NeurIPS"
+    ],
+    "type": null
   },
   {
     "citation-number": [
       "20."
     ],
-    "title": [
-      "**\"InstructGPT: Training Language Models to Follow Instructions with Human Feedback\"**"
+    "author": [
+      {
+        "family": "Bommasani",
+        "given": "R."
+      },
+      {
+        "others": true
+      }
     ],
     "date": [
-      "2022"
+      "2021"
     ],
-    "type": "article-journal",
-    "container-title": [
-      "Ouyang et al"
-    ]
+    "title": [
+      "On the Opportunities and Risks of Foundation Models.\"**"
+    ],
+    "note": [
+      "arXiv preprint arXiv:2108.07258."
+    ],
+    "arxiv": [
+      "2108.07258"
+    ],
+    "type": null
   },
   {
     "title": [
-      "These articles cover a range of topics from the foundational principles of large language models (LLMs) to specific techniques for instruction following, including few-shot learning, prompt engineering, and reinforcement learning from human feedback. This list should provide a comprehensive overview of the current state of research in LLM-driven instruction following"
+      "These articles cover a range of topics related to LLM-driven instruction following, including foundational models, few-shot learning, human feedback, and specific applications in text-based games and summarization"
     ],
     "type": null
   }

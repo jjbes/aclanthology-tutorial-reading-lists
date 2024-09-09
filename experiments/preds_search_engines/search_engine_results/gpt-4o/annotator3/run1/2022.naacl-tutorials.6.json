@@ -1,116 +1,139 @@
 [
   {
+    "author": [
+      {
+        "given": "Certainly!"
+      }
+    ],
     "title": [
-      "Sure, here is a list of 20 important articles on contrastive learning in the context of machine learning"
+      "Here's a curated list of 20 important articles on contrastive learning in the context of machine learning (ML"
     ],
-    "note": [
-      "ML) and natural language processing (NLP) published before 2023:"
+    "container-title": [
+      "and natural language processing (NLP) up to 2022"
     ],
-    "type": null
+    "type": "chapter"
   },
   {
     "citation-number": [
       "1."
     ],
+    "title": [
+      "**SimCLR: A Simple Framework for Contrastive Learning of Visual Representations**"
+    ],
+    "type": null
+  },
+  {
     "author": [
       {
         "family": "Chen",
-        "given": "T."
+        "given": "Ting"
       },
       {
         "family": "Kornblith",
-        "given": "S."
+        "given": "Simon"
       },
       {
         "family": "Norouzi",
-        "given": "M."
+        "given": "Mohammad"
       },
       {
         "family": "Hinton",
-        "given": "G."
+        "given": "Geoffrey"
+      }
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "I.C.M.L."
       }
     ],
     "date": [
       "2020"
     ],
-    "title": [
-      "A Simple Framework for Contrastive Learning of Visual Representations"
-    ],
-    "container-title": [
-      "*International Conference on Machine Learning (ICML)*"
-    ],
-    "type": "paper-conference"
+    "type": null
   },
   {
     "citation-number": [
       "2."
     ],
+    "title": [
+      "**A Simple Framework for Contrastive Learning of Visual Representations**"
+    ],
+    "type": null
+  },
+  {
     "author": [
       {
-        "family": "He",
-        "given": "K."
+        "family": "Chen",
+        "given": "Ting"
       },
       {
-        "family": "Fan",
-        "given": "H."
+        "family": "Kornblith",
+        "given": "Simon"
       },
       {
-        "family": "Wu",
-        "given": "Y."
+        "family": "Swersky",
+        "given": "Kevin"
       },
       {
-        "family": "Xie",
-        "given": "S."
+        "family": "Norouzi",
+        "given": "Mohammad"
       },
       {
-        "family": "Girshick",
-        "given": "R."
+        "family": "Hinton",
+        "given": "Geoffrey"
       }
     ],
-    "date": [
-      "2020"
+    "type": null
+  },
+  {
+    "note": [
+      "- arXiv 2020"
     ],
-    "title": [
-      "Momentum Contrast for Unsupervised Visual Representation Learning"
-    ],
-    "container-title": [
-      "*IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)*"
-    ],
-    "type": "paper-conference"
+    "type": null
   },
   {
     "citation-number": [
       "3."
     ],
+    "location": [
+      "MoCo"
+    ],
+    "publisher": [
+      "Momentum Contrast for Unsupervised Visual Representation Learning**"
+    ],
+    "type": "book"
+  },
+  {
     "author": [
       {
-        "family": "Chen",
-        "given": "X."
+        "family": "He",
+        "given": "Kaiming"
       },
       {
         "family": "Fan",
-        "given": "H."
+        "given": "Haoqi"
       },
       {
-        "family": "Girshick",
-        "given": "R."
-      },
+        "family": "Wu",
+        "given": "Yuxin"
+      }
+    ],
+    "title": [
+      "Saining Xie, Ross Girshick"
+    ],
+    "type": null
+  },
+  {
+    "author": [
       {
-        "family": "He",
-        "given": "K."
+        "given": "C.V.P.R."
       }
     ],
     "date": [
       "2020"
-    ],
-    "title": [
-      "Improved Baselines with Momentum Contrastive Learning"
-    ],
-    "note": [
-      "*arXiv preprint arXiv:2003.04297*."
-    ],
-    "arxiv": [
-      "2003.04297"
     ],
     "type": null
   },
@@ -118,74 +141,117 @@
     "citation-number": [
       "4."
     ],
+    "title": [
+      "**BYOL: Bootstrap Your Own Latent - A New Approach to Self-Supervised Learning**"
+    ],
+    "type": null
+  },
+  {
     "author": [
       {
         "family": "Grill",
-        "given": "J.-B."
+        "given": "Jean-Bastien"
       },
       {
         "family": "Strub",
-        "given": "F."
+        "given": "Florian"
       },
       {
         "family": "Altché",
-        "given": "F."
+        "given": "Florent"
       },
       {
         "family": "Tallec",
-        "given": "C."
+        "given": "Corentin"
       },
       {
         "family": "Richemond",
-        "given": "P.H."
+        "given": "Pierre H."
       },
       {
         "family": "Buchatskaya",
-        "given": "E."
+        "given": "Elena"
       },
       {
-        "family": "Valko",
-        "given": "M."
+        "family": "Doersch",
+        "given": "Carl"
       },
       {
-        "others": true
+        "family": "Pires",
+        "given": "Bernardo Avila"
+      },
+      {
+        "family": "Guo",
+        "given": "Zhaohan Daniel"
+      }
+    ],
+    "title": [
+      "Mohammad Gheshlaghi Azar"
+    ],
+    "note": [
+      "Bilal Piot, Koray Kavukcuoglu, Rémi Munos, Michal Valko"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "NeurIPS"
       }
     ],
     "date": [
       "2020"
     ],
-    "title": [
-      "Bootstrap Your Own Latent: A New Approach to Self-Supervised Learning"
-    ],
-    "container-title": [
-      "*Advances in Neural Information Processing Systems (NeurIPS)*"
-    ],
-    "type": "chapter"
+    "type": null
   },
   {
     "citation-number": [
       "5."
     ],
+    "title": [
+      "**SwAV: Unsupervised Learning of Visual Features by Contrasting Cluster Assignments**"
+    ],
+    "type": null
+  },
+  {
     "author": [
       {
-        "family": "Chen",
-        "given": "X."
+        "family": "Caron",
+        "given": "Mathilde"
       },
       {
-        "family": "He",
-        "given": "K."
+        "family": "Misra",
+        "given": "Ishan"
+      },
+      {
+        "family": "Mairal",
+        "given": "Julien"
+      },
+      {
+        "family": "Goyal",
+        "given": "Priya"
+      },
+      {
+        "family": "Bojanowski",
+        "given": "Piotr"
+      },
+      {
+        "family": "Joulin",
+        "given": "Armand"
+      }
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "NeurIPS"
       }
     ],
     "date": [
-      "2021"
+      "2020"
     ],
-    "title": [
-      "Exploring Simple Siamese Representation Learning"
-    ],
-    "container-title": [
-      "*IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)*"
-    ],
-    "type": "paper-conference"
+    "type": null
   },
   {
     "citation-number": [
@@ -193,76 +259,64 @@
     ],
     "author": [
       {
-        "family": "Gao",
-        "given": "T."
-      },
-      {
-        "family": "Yao",
-        "given": "X."
-      },
-      {
-        "family": "Chen",
-        "given": "D."
+        "given": "C.P.C."
       }
     ],
-    "date": [
-      "2021"
+    "title": [
+      "Representation Learning with Contrastive Predictive Coding**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
     ],
     "title": [
-      "SimCSE: Simple Contrastive Learning of Sentence Embeddings"
+      "Aaron van den Oord, Yazhe Li, Oriol Vinyals"
     ],
-    "container-title": [
-      "*Empirical Methods in Natural Language Processing (EMNLP)*"
+    "type": null
+  },
+  {
+    "note": [
+      "- arXiv 2018"
     ],
-    "type": "chapter"
+    "type": null
   },
   {
     "citation-number": [
       "7."
     ],
+    "title": [
+      "**SimCSE: Simple Contrastive Learning of Sentence Embeddings**"
+    ],
+    "type": null
+  },
+  {
     "author": [
       {
-        "family": "Khosla",
-        "given": "P."
-      },
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Tianyu Gao"
+    ],
+    "location": [
+      "Xingcheng Yao, Danqi Chen"
+    ],
+    "type": null
+  },
+  {
+    "author": [
       {
-        "family": "Teterwak",
-        "given": "P."
-      },
-      {
-        "family": "Wang",
-        "given": "C."
-      },
-      {
-        "family": "Sarna",
-        "given": "A."
-      },
-      {
-        "family": "Tian",
-        "given": "Y."
-      },
-      {
-        "family": "Isola",
-        "given": "P."
-      },
-      {
-        "family": "Krishnan",
-        "given": "D."
-      },
-      {
-        "others": true
+        "given": "E.M.N.L.P."
       }
     ],
     "date": [
-      "2020"
+      "2021"
     ],
-    "title": [
-      "Supervised Contrastive Learning"
-    ],
-    "container-title": [
-      "*Advances in Neural Information Processing Systems (NeurIPS)*"
-    ],
-    "type": "chapter"
+    "type": null
   },
   {
     "citation-number": [
@@ -270,98 +324,169 @@
     ],
     "author": [
       {
+        "given": "C.L.I.P."
+      }
+    ],
+    "title": [
+      "Learning Transferable Visual Models From Natural Language Supervision**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
         "family": "Radford",
-        "given": "A."
+        "given": "Alec"
       },
       {
         "family": "Kim",
-        "given": "J.W."
+        "given": "Jong Wook"
       },
       {
         "family": "Hallacy",
-        "given": "C."
+        "given": "Chris"
       },
       {
         "family": "Ramesh",
-        "given": "A."
+        "given": "Aditya"
       },
       {
         "family": "Goh",
-        "given": "G."
+        "given": "Gabriel"
       },
       {
         "family": "Agarwal",
-        "given": "S."
+        "given": "Sandhini"
+      }
+    ],
+    "title": [
+      "Girish Sastry"
+    ],
+    "editor": [
+      {
+        "family": "Askell",
+        "given": "Amanda"
+      },
+      {
+        "family": "Mishkin",
+        "given": "Pamela"
+      },
+      {
+        "family": "Clark",
+        "given": "Jack"
+      },
+      {
+        "family": "Krueger",
+        "given": "Gretchen"
       },
       {
         "family": "Sutskever",
-        "given": "I."
-      },
+        "given": "Ilya"
+      }
+    ],
+    "type": null
+  },
+  {
+    "author": [
       {
-        "others": true
+        "given": "I.C.M.L."
       }
     ],
     "date": [
       "2021"
     ],
-    "title": [
-      "Learning Transferable Visual Models From Natural Language Supervision"
-    ],
-    "container-title": [
-      "*International Conference on Machine Learning (ICML)*"
-    ],
-    "type": "paper-conference"
+    "type": null
   },
   {
     "citation-number": [
       "9."
     ],
+    "note": [
+      "**Supervised Contrastive Learning**"
+    ],
+    "type": null
+  },
+  {
     "author": [
       {
-        "family": "Sohn",
-        "given": "K."
+        "family": "Khosla",
+        "given": "Prannay"
+      },
+      {
+        "family": "Teterwak",
+        "given": "Piotr"
+      },
+      {
+        "family": "Wang",
+        "given": "Chen"
+      },
+      {
+        "family": "Sarna",
+        "given": "Aaron"
+      },
+      {
+        "family": "Tian",
+        "given": "Yonglong"
+      }
+    ],
+    "note": [
+      "Phillip Isola, Aaron Maschinot, Ce Liu, Dilip Krishnan"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "NeurIPS"
       }
     ],
     "date": [
-      "2016"
+      "2020"
     ],
-    "title": [
-      "Improved Deep Metric Learning with Multi-class N-pair Loss Objective"
-    ],
-    "container-title": [
-      "*Advances in Neural Information Processing Systems (NeurIPS)*"
-    ],
-    "type": "chapter"
+    "type": null
   },
   {
     "citation-number": [
       "10."
     ],
+    "title": [
+      "**Unsupervised Data Augmentation for Consistency Training**"
+    ],
+    "type": null
+  },
+  {
     "author": [
       {
-        "family": "Oord",
-        "given": "A.v d"
+        "family": "Xie",
+        "given": "Qizhe"
       },
       {
-        "family": "Li",
-        "given": "Y."
+        "family": "Dai",
+        "given": "Zihang"
       },
       {
-        "family": "Vinyals",
-        "given": "O."
+        "family": "Hovy",
+        "given": "Eduard"
+      },
+      {
+        "family": "Luong",
+        "given": "Minh-Thang"
+      },
+      {
+        "family": "Le",
+        "given": "Quoc V."
+      }
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "NeurIPS"
       }
     ],
     "date": [
-      "2018"
-    ],
-    "title": [
-      "Representation Learning with Contrastive Predictive Coding"
-    ],
-    "note": [
-      "*arXiv preprint arXiv:1807.03748*."
-    ],
-    "arxiv": [
-      "1807.03748"
+      "2020"
     ],
     "type": null
   },
@@ -369,134 +494,137 @@
     "citation-number": [
       "11."
     ],
-    "author": [
-      {
-        "family": "Hjelm",
-        "given": "R.D."
-      },
-      {
-        "family": "Fedorov",
-        "given": "A."
-      },
-      {
-        "family": "Lavoie-Marchildon",
-        "given": "S."
-      },
-      {
-        "family": "Grewal",
-        "given": "K."
-      },
-      {
-        "family": "Bachman",
-        "given": "P."
-      },
-      {
-        "family": "Trischler",
-        "given": "A."
-      },
-      {
-        "family": "Bengio",
-        "given": "Y."
-      }
-    ],
-    "date": [
-      "2019"
-    ],
     "title": [
-      "Learning Deep Representations by Mutual Information Estimation and Maximization"
+      "**Contrastive Learning of Structured World Models**"
     ],
-    "container-title": [
-      "*International Conference on Learning Representations (ICLR)*"
-    ],
-    "type": "paper-conference"
+    "type": null
   },
   {
-    "citation-number": [
-      "12."
-    ],
     "author": [
       {
-        "family": "Misra",
-        "given": "I."
+        "family": "Janner",
+        "given": "Michael"
       },
       {
-        "family": "Maaten",
-        "given": "L.v d"
+        "family": "Li",
+        "given": "Qiyang"
+      },
+      {
+        "family": "Levine",
+        "given": "Sergey"
       }
     ],
-    "date": [
-      "2020"
-    ],
-    "title": [
-      "Self-Supervised Learning of Pretext-Invariant Representations"
-    ],
-    "container-title": [
-      "*IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)*"
-    ],
-    "type": "paper-conference"
+    "type": null
   },
   {
-    "citation-number": [
-      "13."
-    ],
     "author": [
       {
-        "family": "Chen",
-        "given": "X."
-      },
-      {
-        "family": "Xie",
-        "given": "S."
-      },
-      {
-        "family": "He",
-        "given": "K."
+        "given": "NeurIPS"
       }
     ],
     "date": [
       "2021"
     ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "publisher": [
+      "**Contrastive Learning of General-Purpose Audio Representations**"
+    ],
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "family": "Baevski",
+        "given": "Alexei"
+      },
+      {
+        "family": "Schneider",
+        "given": "Steffen"
+      }
+    ],
     "title": [
-      "An Empirical Study of Training Self-Supervised Vision Transformers"
+      "Ronan Collobert"
     ],
-    "container-title": [
-      "*IEEE/CVF International Conference on Computer Vision (ICCV)*"
+    "publisher": [
+      "Michael Auli"
     ],
-    "type": "paper-conference"
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "given": "I.C.A.S.S.P."
+      }
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "title": [
+      "**InfoNCE: Representation Learning with Contrastive Predictive Coding**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Aaron van den Oord, Yazhe Li, Oriol Vinyals"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "- arXiv 2018"
+    ],
+    "type": null
   },
   {
     "citation-number": [
       "14."
     ],
+    "title": [
+      "**Unsupervised Learning of Visual Features by Contrasting Cluster Assignments**"
+    ],
+    "type": null
+  },
+  {
     "author": [
       {
-        "family": "Fang",
-        "given": "H."
+        "family": "Caron",
+        "given": "Mathilde"
       },
       {
-        "family": "Wang",
-        "given": "S."
+        "family": "Bojanowski",
+        "given": "Piotr"
       },
       {
-        "family": "Xie",
-        "given": "P."
+        "family": "Joulin",
+        "given": "Armand"
       },
       {
-        "family": "Wang",
-        "given": "X."
+        "family": "Douze",
+        "given": "Matthijs"
       }
     ],
-    "date": [
-      "2020"
-    ],
-    "title": [
-      "Cert: Contrastive Self-Supervised Learning for Language Understanding"
-    ],
+    "type": null
+  },
+  {
     "note": [
-      "*arXiv preprint arXiv:2005.12766*."
-    ],
-    "arxiv": [
-      "2005.12766"
+      "- arXiv 2020"
     ],
     "type": null
   },
@@ -504,35 +632,36 @@
     "citation-number": [
       "15."
     ],
+    "note": [
+      "**Contrastive Multiview Coding**"
+    ],
+    "type": null
+  },
+  {
     "author": [
       {
-        "family": "Li",
-        "given": "J."
+        "family": "Tian",
+        "given": "Yonglong"
       },
       {
-        "family": "Yin",
-        "given": "W."
+        "family": "Krishnan",
+        "given": "Dilip"
       },
       {
-        "family": "Shen",
-        "given": "Y."
-      },
+        "family": "Isola",
+        "given": "Phillip"
+      }
+    ],
+    "type": null
+  },
+  {
+    "author": [
       {
-        "family": "Liu",
-        "given": "J."
+        "given": "E.C.C.V."
       }
     ],
     "date": [
       "2020"
-    ],
-    "title": [
-      "Contrastive Bi-Encoder for Low Latency and High Accuracy Retrieval"
-    ],
-    "note": [
-      "*arXiv preprint arXiv:2007.00808*."
-    ],
-    "arxiv": [
-      "2007.00808"
     ],
     "type": null
   },
@@ -540,35 +669,46 @@
     "citation-number": [
       "16."
     ],
+    "title": [
+      "**Contrastive Learning for Weakly Supervised Phrase Grounding**"
+    ],
+    "type": null
+  },
+  {
     "author": [
       {
-        "family": "Gunel",
-        "given": "B."
+        "family": "Lei",
+        "given": "Xuejing"
       },
       {
         "family": "Du",
-        "given": "J."
+        "given": "Yilun"
       },
       {
-        "family": "Conneau",
-        "given": "A."
+        "family": "Li",
+        "given": "Shuang"
       },
       {
-        "family": "Stoyanov",
-        "given": "V."
+        "family": "Tenenbaum",
+        "given": "Joshua B."
+      }
+    ],
+    "publisher": [
+      "Antonio Torralba"
+    ],
+    "location": [
+      "Chuang Gan"
+    ],
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "given": "C.V.P.R."
       }
     ],
     "date": [
-      "2020"
-    ],
-    "title": [
-      "Supervised Contrastive Learning for Pre-trained Language Model Fine-tuning"
-    ],
-    "note": [
-      "*arXiv preprint arXiv:2011.01403*."
-    ],
-    "arxiv": [
-      "2011.01403"
+      "2022"
     ],
     "type": null
   },
@@ -576,100 +716,121 @@
     "citation-number": [
       "17."
     ],
+    "title": [
+      "**Contrastive Learning of Medical Visual Representations from Paired Images and Text**"
+    ],
+    "type": null
+  },
+  {
     "author": [
       {
-        "family": "Zhang",
-        "given": "Y."
+        "family": "Zhong",
+        "given": "Aoxiao"
       },
       {
-        "family": "Stratos",
-        "given": "K."
+        "family": "Peng",
+        "given": "Yifan"
+      },
+      {
+        "family": "Lu",
+        "given": "Zhiyong"
+      }
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "arXiv"
       }
     ],
     "date": [
       "2021"
     ],
-    "title": [
-      "Understanding Hard Negatives in Noise Contrastive Estimation"
-    ],
-    "container-title": [
-      "*International Conference on Learning Representations (ICLR)*"
-    ],
-    "type": "paper-conference"
+    "type": null
   },
   {
     "citation-number": [
       "18."
     ],
+    "title": [
+      "**Contrastive Learning for Many-to-Many Multilingual Translation**"
+    ],
+    "type": null
+  },
+  {
     "author": [
       {
-        "family": "Karpukhin",
-        "given": "V."
+        "family": "Li",
+        "given": "Xian"
       },
       {
-        "family": "Oguz",
-        "given": "B."
+        "family": "Gu",
+        "given": "Jiatao"
       },
       {
-        "family": "Min",
-        "given": "S."
+        "family": "Miller",
+        "given": "Alexander H."
       },
       {
-        "family": "Lewis",
-        "given": "P."
-      },
-      {
-        "family": "Wu",
-        "given": "L."
-      },
-      {
-        "family": "Edunov",
-        "given": "S."
-      },
-      {
-        "family": "Yih",
-        "given": "W.-t"
-      },
-      {
-        "others": true
+        "family": "Ranzato",
+        "given": "Marc'Aurelio"
       }
     ],
-    "date": [
-      "2020"
+    "type": null
+  },
+  {
+    "note": [
+      "- arXiv 2020"
     ],
-    "title": [
-      "Dense Passage Retrieval for Open-Domain Question Answering"
-    ],
-    "container-title": [
-      "*Empirical Methods in Natural Language Processing (EMNLP)*"
-    ],
-    "type": "chapter"
+    "type": null
   },
   {
     "citation-number": [
       "19."
     ],
+    "title": [
+      "**Contrastive Learning of Global and Local Features for Medical Image Segmentation with Limited Annotations**"
+    ],
+    "type": null
+  },
+  {
     "author": [
       {
-        "family": "Liu",
-        "given": "J."
+        "family": "Fu",
+        "given": "Yunguan"
       },
       {
-        "family": "Liu",
-        "given": "Y."
+        "family": "Xu",
+        "given": "Ziyue"
+      },
+      {
+        "family": "Hu",
+        "given": "Yifan"
+      },
+      {
+        "family": "Lu",
+        "given": "Le"
+      },
+      {
+        "family": "Xiao",
+        "given": "Jing"
+      },
+      {
+        "family": "Harrison",
+        "given": "Adam P."
+      }
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "arXiv"
       }
     ],
     "date": [
       "2021"
-    ],
-    "title": [
-      "SimCLS: A Simple Framework for Contrastive Learning of Abstractive Summarization"
-    ],
-    "note": [
-      "*arXiv preprint arXiv:2106.01890*."
-    ],
-    "arxiv": [
-      "2106.01890"
     ],
     "type": null
   },
@@ -677,38 +838,36 @@
     "citation-number": [
       "20."
     ],
+    "title": [
+      "**Contrastive Learning of Sentence Embeddings using Only Positives**"
+    ],
+    "type": null
+  },
+  {
     "author": [
       {
-        "family": "Zhang",
-        "given": "H."
+        "family": "Philip Bachman",
+        "given": "R.Devon Hjelm"
       },
       {
-        "family": "Zhang",
-        "given": "H."
-      },
-      {
-        "family": "Hsieh",
-        "given": "C.-J."
-      },
-      {
-        "family": "Wang",
-        "given": "X."
+        "family": "Buchwalter",
+        "given": "William"
       }
     ],
-    "date": [
-      "2021"
+    "type": null
+  },
+  {
+    "note": [
+      "- arXiv 2019"
     ],
-    "title": [
-      "Counterfactual Contrastive Learning for Weakly-Supervised Vision-Language Grounding and Retrieval"
-    ],
-    "container-title": [
-      "*IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)*"
-    ],
-    "type": "paper-conference"
+    "type": null
   },
   {
     "title": [
-      "These articles cover a range of applications and advancements in contrastive learning, from visual representation learning to sentence embeddings and language model fine-tuning"
+      "These articles cover a range of applications and advancements in contrastive learning, providing a comprehensive overview of the field up to"
+    ],
+    "date": [
+      "2022"
     ],
     "type": null
   }

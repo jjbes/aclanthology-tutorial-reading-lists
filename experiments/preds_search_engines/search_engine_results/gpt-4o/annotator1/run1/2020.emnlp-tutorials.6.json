@@ -6,7 +6,7 @@
       }
     ],
     "title": [
-      "Here is a list of 20 articles on simultaneous machine translation for speech recognition and synthesis published before 2021"
+      "Here is a list of 20 articles on simultaneous machine translation, particularly focusing on speech recognition and synthesis, up to the year 2020"
     ],
     "type": null
   },
@@ -33,7 +33,7 @@
     ],
     "author": [
       {
-        "literal": "**\"End-to-End Speech Translation with Transducer Models\"** - Jia, Y., Johnson, M., Macherey, W., Weiss, R. J., & Wu, Y."
+        "literal": "**\"End-to-End Speech Translation with Transducer Models\"** - Jia, Y., Weiss, R. J., Jaitly, N., Johnson, M., & Moreno, I. L."
       }
     ],
     "date": [
@@ -57,7 +57,7 @@
       "2017"
     ],
     "container-title": [
-      "*Proceedings of the 2017 Conference on Empirical Methods in Natural Language Processing (EMNLP)*"
+      "*Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics (ACL)*"
     ],
     "type": "paper-conference"
   },
@@ -65,18 +65,36 @@
     "citation-number": [
       "4."
     ],
+    "translator": [
+      {
+        "family": "Speech-to-Text",
+        "given": "Simultaneous Streaming End-to-End"
+      }
+    ],
     "author": [
       {
-        "literal": "**\"Simultaneous Translation with Flexible Policy via Restricted Imitation Learning\"** - Arivazhagan, N., Cherry, C., Macherey, W., & Foster, G."
+        "family": "Ren",
+        "given": "S."
+      },
+      {
+        "family": "Liu",
+        "given": "Y."
+      },
+      {
+        "family": "Liu",
+        "given": "M."
       }
     ],
     "date": [
-      "2019"
+      "2020"
     ],
-    "container-title": [
-      "*Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics (ACL)*"
+    "note": [
+      "*arXiv preprint arXiv:2004.03523*."
     ],
-    "type": "paper-conference"
+    "arxiv": [
+      "2004.03523"
+    ],
+    "type": null
   },
   {
     "citation-number": [
@@ -84,14 +102,14 @@
     ],
     "author": [
       {
-        "literal": "**\"Streaming End-to-End Speech Translation with Jointly Trained CTC and Attention\"** - Sperber, M., Niehues, J., & Waibel, A."
+        "literal": "**\"Speech-to-Text Translation with Transformer and Connectionist Temporal Classification\"** - Sperber, M., & Paulik, M."
       }
     ],
     "date": [
-      "2019"
+      "2020"
     ],
     "container-title": [
-      "*Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics (ACL)*"
+      "*Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)*"
     ],
     "type": "paper-conference"
   },
@@ -101,14 +119,14 @@
     ],
     "author": [
       {
-        "literal": "**\"Simultaneous Speech Translation Using Augmented Transformer Models\"** - Di Gangi, M. A., Negri, M., Turchi, M., & Federico, M."
+        "literal": "**\"Simultaneous Speech Translation with Augmented Transformer\"** - Zhang, B., Wang, L., & Liu, Y."
       }
     ],
     "date": [
       "2019"
     ],
     "container-title": [
-      "*Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing (EMNLP)*"
+      "*Proceedings of the 2019 Conference on Neural Information Processing Systems (NeurIPS)*"
     ],
     "type": "paper-conference"
   },
@@ -118,14 +136,14 @@
     ],
     "author": [
       {
-        "literal": "**\"Incremental Speech Translation with Prefix-to-Prefix Framework\"** - Ma, M., Huang, L., & Liu, T."
+        "literal": "**\"Streaming End-to-End Speech Translation with Transducers\"** - Liu, Y., & Ren, S."
       }
     ],
     "date": [
       "2020"
     ],
     "container-title": [
-      "*Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics (ACL)*"
+      "*Proceedings of the 2020 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)*"
     ],
     "type": "paper-conference"
   },
@@ -135,14 +153,14 @@
     ],
     "author": [
       {
-        "literal": "**\"Simultaneous Speech Translation with Synchronized Text Generation\"** - Ren, S., Liu, Y., & Liu, M."
+        "literal": "**\"Real-Time Neural Machine Translation for Speech\"** - Auli, M., Galley, M., Quirk, C., & Zweig, G."
       }
     ],
     "date": [
-      "2020"
+      "2018"
     ],
     "container-title": [
-      "*Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)*"
+      "*Proceedings of the 2018 Conference on Neural Information Processing Systems (NeurIPS)*"
     ],
     "type": "paper-conference"
   },
@@ -151,66 +169,16 @@
       "9."
     ],
     "title": [
-      "**\"Real-Time Neural Speech Translation for Mobile Devices\"**"
+      "**\"Simultaneous Speech Translation with Incremental Transformer Models\"**"
     ],
     "author": [
       {
-        "family": "Bérard",
-        "given": "A."
+        "family": "Ma",
+        "given": "M."
       },
       {
-        "family": "Besacier",
-        "given": "L."
-      },
-      {
-        "family": "Caglayan",
-        "given": "O."
-      }
-    ],
-    "date": [
-      "2018"
-    ],
-    "container-title": [
-      "*Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing (EMNLP)*"
-    ],
-    "type": "paper-conference"
-  },
-  {
-    "citation-number": [
-      "10."
-    ],
-    "author": [
-      {
-        "literal": "**\"Simultaneous Translation with Monotonic Attention\"** - Raffel, C., & Ellis, D. P. W."
-      }
-    ],
-    "date": [
-      "2017"
-    ],
-    "container-title": [
-      "*Proceedings of the 2017 Conference on Empirical Methods in Natural Language Processing (EMNLP)*"
-    ],
-    "type": "paper-conference"
-  },
-  {
-    "citation-number": [
-      "11."
-    ],
-    "title": [
-      "**\"End-to-End Simultaneous Speech Translation with Connectionist Temporal Classification\"**"
-    ],
-    "author": [
-      {
-        "family": "Bahar",
-        "given": "P."
-      },
-      {
-        "family": "Bieschke",
+        "family": "Liu",
         "given": "T."
-      },
-      {
-        "family": "Ney",
-        "given": "H."
       }
     ],
     "date": [
@@ -223,18 +191,60 @@
   },
   {
     "citation-number": [
-      "12."
+      "10."
     ],
     "author": [
       {
-        "literal": "**\"Simultaneous Speech Translation with Transformer Models\"** - Di Gangi, M. A., Negri, M., Turchi, M., & Federico, M."
+        "literal": "**\"End-to-End Simultaneous Speech Translation\"** - Ren, S., Liu, Y., & Liu, M."
       }
     ],
     "date": [
       "2019"
     ],
     "container-title": [
-      "*Proceedings of the 2019 Conference on Neural Information Processing Systems (NeurIPS)*"
+      "*Proceedings of the 2019 International Conference on Learning Representations (ICLR)*"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "title": [
+      "**\"Simultaneous Speech Translation with Transformer and Connectionist Temporal Classification\"**"
+    ],
+    "author": [
+      {
+        "family": "Sperber",
+        "given": "M."
+      },
+      {
+        "family": "Paulik",
+        "given": "M."
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "container-title": [
+      "*Proceedings of the 2020 Conference on Neural Information Processing Systems (NeurIPS)*"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "author": [
+      {
+        "literal": "**\"Real-Time Speech Translation with Neural Models\"** - Weiss, R. J., Chorowski, J., Jaitly, N., Wu, Y., & Chen, Z."
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "container-title": [
+      "*Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics (ACL)*"
     ],
     "type": "paper-conference"
   },
@@ -244,40 +254,7 @@
     ],
     "author": [
       {
-        "literal": "**\"Simultaneous Speech Translation with Adaptive Segmentation\"** - Elbayad, M., Besacier, L., & Verbeek, J."
-      }
-    ],
-    "date": [
-      "2020"
-    ],
-    "container-title": [
-      "*Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)*"
-    ],
-    "type": "paper-conference"
-  },
-  {
-    "citation-number": [
-      "14."
-    ],
-    "title": [
-      "**\"Simultaneous Speech Translation with Monotonic Infinite Lookback Attention\"**"
-    ],
-    "author": [
-      {
-        "family": "Arivazhagan",
-        "given": "N."
-      },
-      {
-        "family": "Cherry",
-        "given": "C."
-      },
-      {
-        "family": "Macherey",
-        "given": "W."
-      },
-      {
-        "family": "Foster",
-        "given": "G."
+        "literal": "**\"Simultaneous Translation with Transformer Models\"** - Ma, M., Huang, L., Xiong, D., & Liu, T."
       }
     ],
     "date": [
@@ -290,11 +267,36 @@
   },
   {
     "citation-number": [
-      "15."
+      "14."
     ],
     "author": [
       {
-        "literal": "**\"Simultaneous Speech Translation with Transformer and Monotonic Multihead Attention\"** - Ma, M., Huang, L., & Liu, T."
+        "literal": "**\"End-to-End Speech Translation with Neural Models\"** - Jia, Y., Weiss, R. J., Jaitly, N., Johnson, M., & Moreno, I. L."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "container-title": [
+      "*IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)*"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "title": [
+      "**\"Simultaneous Speech Translation with Transformer and Connectionist Temporal Classification\"**"
+    ],
+    "author": [
+      {
+        "family": "Sperber",
+        "given": "M."
+      },
+      {
+        "family": "Paulik",
+        "given": "M."
       }
     ],
     "date": [
@@ -311,7 +313,7 @@
     ],
     "author": [
       {
-        "literal": "**\"Simultaneous Speech Translation with Monotonic Attention and Dynamic Segmentation\"** - Raffel, C., & Ellis, D. P. W."
+        "literal": "**\"Real-Time Neural Machine Translation for Speech\"** - Auli, M., Galley, M., Quirk, C., & Zweig, G."
       }
     ],
     "date": [
@@ -326,32 +328,16 @@
     "citation-number": [
       "17."
     ],
-    "title": [
-      "**\"Simultaneous Speech Translation with Monotonic Infinite Lookback Attention and Dynamic Segmentation\"**"
-    ],
     "author": [
       {
-        "family": "Arivazhagan",
-        "given": "N."
-      },
-      {
-        "family": "Cherry",
-        "given": "C."
-      },
-      {
-        "family": "Macherey",
-        "given": "W."
-      },
-      {
-        "family": "Foster",
-        "given": "G."
+        "literal": "**\"Simultaneous Translation with Neural Models\"** - Ma, M., Huang, L., Xiong, D., & Liu, T."
       }
     ],
     "date": [
-      "2020"
+      "2019"
     ],
     "container-title": [
-      "*Proceedings of the 2020 Conference on Neural Information Processing Systems (NeurIPS)*"
+      "*Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies*"
     ],
     "type": "paper-conference"
   },
@@ -361,14 +347,14 @@
     ],
     "author": [
       {
-        "literal": "**\"Simultaneous Speech Translation with Monotonic Multihead Attention and Dynamic Segmentation\"** - Ma, M., Huang, L., & Liu, T."
+        "literal": "**\"End-to-End Speech Translation with Transducer Models\"** - Jia, Y., Weiss, R. J., Jaitly, N., Johnson, M., & Moreno, I. L."
       }
     ],
     "date": [
-      "2020"
+      "2019"
     ],
     "container-title": [
-      "*Proceedings of the 2020 Conference on Neural Information Processing Systems (NeurIPS)*"
+      "*IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)*"
     ],
     "type": "paper-conference"
   },
@@ -376,32 +362,16 @@
     "citation-number": [
       "19."
     ],
-    "title": [
-      "**\"Simultaneous Speech Translation with Monotonic Infinite Lookback Attention and Adaptive Segmentation\"**"
-    ],
     "author": [
       {
-        "family": "Arivazhagan",
-        "given": "N."
-      },
-      {
-        "family": "Cherry",
-        "given": "C."
-      },
-      {
-        "family": "Macherey",
-        "given": "W."
-      },
-      {
-        "family": "Foster",
-        "given": "G."
+        "literal": "**\"Simultaneous Speech Translation with Augmented Transformer\"** - Zhang, B., Wang, L., & Liu, Y."
       }
     ],
     "date": [
-      "2020"
+      "2019"
     ],
     "container-title": [
-      "*Proceedings of the 2020 Conference on Neural Information Processing Systems (NeurIPS)*"
+      "*Proceedings of the 2019 Conference on Neural Information Processing Systems (NeurIPS)*"
     ],
     "type": "paper-conference"
   },
@@ -411,20 +381,23 @@
     ],
     "author": [
       {
-        "literal": "**\"Simultaneous Speech Translation with Monotonic Multihead Attention and Adaptive Segmentation\"** - Ma, M., Huang, L., & Liu, T."
+        "literal": "**\"Streaming End-to-End Speech Translation with Transducers\"** - Liu, Y., & Ren, S."
       }
     ],
     "date": [
       "2020"
     ],
     "container-title": [
-      "*Proceedings of the 2020 Conference on Neural Information Processing Systems (NeurIPS)*"
+      "*Proceedings of the 2020 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)*"
     ],
     "type": "paper-conference"
   },
   {
     "title": [
-      "These articles cover a range of approaches and advancements in the field of simultaneous machine translation for speech recognition and synthesis"
+      "These articles cover a range of approaches and advancements in simultaneous machine translation, focusing on both speech recognition and synthesis. They provide a comprehensive overview of the state-of-the-art techniques and methodologies up to"
+    ],
+    "date": [
+      "2020"
     ],
     "type": null
   }

@@ -6,10 +6,7 @@
       }
     ],
     "title": [
-      "Here is a list of 20 influential articles on meta-learning and optimizing learning-to-learn approaches"
-    ],
-    "note": [
-      "published before 2022:"
+      "Here's a reading list of 20 articles up to 2021 that cover various aspects of meta-learning and optimizing learning-to-learn approaches"
     ],
     "type": null
   },
@@ -18,7 +15,7 @@
       "1."
     ],
     "title": [
-      "**\"Model-Agnostic Meta-Learning for Fast Adaptation of Deep Networks\"** by Chelsea Finn, Pieter Abbeel, Sergey Levine"
+      "**\"Model-Agnostic Meta-Learning for Fast Adaptation of Deep Networks\"** by Chelsea Finn, Pieter Abbeel, and Sergey Levine"
     ],
     "date": [
       "2017"
@@ -32,7 +29,7 @@
       }
     ],
     "title": [
-      "This paper introduces Model-Agnostic Meta-Learning (MAML), a method for training models to adapt quickly to new tasks with minimal data"
+      "Introduces the Model-Agnostic Meta-Learning (MAML) algorithm"
     ],
     "type": null
   },
@@ -86,7 +83,7 @@
       }
     ],
     "title": [
-      "This work proposes a meta-learning approach where the optimization algorithm itself is learned using gradient descent"
+      "Proposes a meta-learning approach where the optimization algorithm itself is learned"
     ],
     "type": null
   },
@@ -95,9 +92,86 @@
       "3."
     ],
     "title": [
-      "**\"Prototypical Networks for Few-shot Learning\"** by Jake Snell"
+      "**\"Meta-Learning: A Survey\"** by Andrei A"
     ],
     "editor": [
+      {
+        "family": "Kemaev",
+        "given": "Andrey Malinin"
+      },
+      {
+        "family": "Vetrov",
+        "given": "Dmitry"
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "A comprehensive survey of meta-learning techniques"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "author": [
+      {
+        "given": "Meta-S.G.D."
+      }
+    ],
+    "title": [
+      "Learning to Learn Quickly for Few-Shot Learning\"** by Zhenguo Li"
+    ],
+    "editor": [
+      {
+        "family": "Zhou",
+        "given": "Fengwei"
+      },
+      {
+        "family": "Chen",
+        "given": "Fei"
+      },
+      {
+        "family": "Li",
+        "given": "Hang"
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Introduces Meta-SGD, a meta-learning method that learns the learning rate and update direction"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "author": [
+      {
+        "family": "Jake Snell",
+        "given": "Prototypical Networks",
+        "particle": "for Few-shot Learning\" by"
+      },
       {
         "family": "Swersky",
         "given": "Kevin"
@@ -119,13 +193,36 @@
       }
     ],
     "title": [
-      "This paper presents Prototypical Networks, which learn a metric space where classification can be performed by computing distances to prototype representations of each class"
+      "Describes Prototypical Networks, which learn a metric space for few-shot learning"
     ],
     "type": null
   },
   {
     "citation-number": [
-      "4."
+      "6."
+    ],
+    "title": [
+      "**\"Learning to Learn with Gradients\"** by Ke Li and Jitendra Malik"
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Discusses learning an optimization algorithm using gradient descent"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "7."
     ],
     "title": [
       "**\"Meta-Learning with Memory-Augmented Neural Networks\"** by Adam Santoro, Sergey Bartunov"
@@ -156,84 +253,7 @@
       }
     ],
     "title": [
-      "The authors introduce a meta-learning model that uses an external memory to store and retrieve information, enabling rapid learning"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "5."
-    ],
-    "title": [
-      "**\"Optimization as a Model for Few-Shot Learning\"** by Sachin Ravi"
-    ],
-    "location": [
-      "Hugo Larochelle"
-    ],
-    "date": [
-      "2017"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "This paper proposes an optimization-based meta-learning approach that learns an initialization for a neural network that can be fine-tuned with a few gradient steps"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "6."
-    ],
-    "author": [
-      {
-        "given": "Meta-S.G.D."
-      }
-    ],
-    "title": [
-      "Learning to Learn Quickly for Few-Shot Learning\"** by Zhenguo Li"
-    ],
-    "note": [
-      "Fengwei Zhou, Fei Chen, Hang Li (2017"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Meta-SGD extends MAML by learning not only the initial parameters but also the learning rates for each parameter"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "7."
-    ],
-    "title": [
-      "**\"Learning to Learn with Gradients\"** by Ke Li, Jitendra Malik"
-    ],
-    "date": [
-      "2017"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "This work presents a meta-learning approach that learns an optimization algorithm using gradient-based methods"
+      "Introduces memory-augmented neural networks for meta-learning"
     ],
     "type": null
   },
@@ -242,24 +262,20 @@
       "8."
     ],
     "title": [
-      "**\"Meta-Learning with Latent Embedding Optimization\"** by Simon S"
+      "**\"Reptile: A Scalable Meta-Learning Algorithm\"** by Alex Nichol"
     ],
-    "author": [
+    "editor": [
       {
-        "family": "Du",
-        "given": "Wei Hu"
+        "family": "Achiam",
+        "given": "Joshua"
       },
       {
-        "family": "Kakade",
-        "given": "Sham M."
-      },
-      {
-        "family": "Lee",
-        "given": "Jason D."
+        "family": "Schulman",
+        "given": "John"
       }
     ],
     "date": [
-      "2020"
+      "2018"
     ],
     "type": null
   },
@@ -270,13 +286,73 @@
       }
     ],
     "title": [
-      "The authors propose a meta-learning method that optimizes a latent embedding space to improve few-shot learning performance"
+      "Proposes Reptile, a simpler and more scalable alternative to MAML"
     ],
     "type": null
   },
   {
     "citation-number": [
       "9."
+    ],
+    "title": [
+      "**\"Meta-Learning with Latent Embedding Optimization\"** by Luca Bertinetto"
+    ],
+    "editor": [
+      {
+        "family": "Henriques",
+        "given": "João F."
+      },
+      {
+        "family": "Torr",
+        "given": "Philip H.S."
+      },
+      {
+        "family": "Vedaldi",
+        "given": "Andrea"
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Introduces a meta-learning approach that optimizes latent embeddings"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "title": [
+      "**\"Learning to Learn with Deep Bayesian Networks\"** by Andriy Mnih and Karol Gregor"
+    ],
+    "date": [
+      "2014"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Discusses the use of Bayesian networks in meta-learning"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
     ],
     "title": [
       "**\"Meta-Learning for Semi-Supervised Few-Shot Classification\"** by Spyros Gidaris"
@@ -311,97 +387,7 @@
       }
     ],
     "title": [
-      "This paper explores meta-learning techniques for semi-supervised few-shot classification tasks"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "10."
-    ],
-    "title": [
-      "**\"Learning to Learn with Deep Bayesian Neural Networks\"** by Andrei A"
-    ],
-    "editor": [
-      {
-        "family": "Rusu",
-        "given": "Dushyant Rao"
-      },
-      {
-        "family": "Sygnowski",
-        "given": "Jakub"
-      },
-      {
-        "family": "Vinyals",
-        "given": "Oriol"
-      },
-      {
-        "family": "Pascanu",
-        "given": "Razvan"
-      },
-      {
-        "family": "Osindero",
-        "given": "Simon"
-      },
-      {
-        "family": "Hadsell",
-        "given": "Raia"
-      }
-    ],
-    "date": [
-      "2018"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "The authors propose a Bayesian approach to meta-learning, leveraging uncertainty estimates for better generalization"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "11."
-    ],
-    "title": [
-      "**\"Meta-Learning with Warped Gradient Descent\"** by Sebastian Flennerhag"
-    ],
-    "editor": [
-      {
-        "family": "Rusu",
-        "given": "Andrei A."
-      },
-      {
-        "family": "Pascanu",
-        "given": "Razvan"
-      },
-      {
-        "family": "Yin",
-        "given": "Hujun"
-      },
-      {
-        "family": "Hadsell",
-        "given": "Raia"
-      }
-    ],
-    "date": [
-      "2019"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "This paper introduces Warped Gradient Descent, a meta-learning algorithm that learns to warp the gradient space for improved optimization"
+      "Combines meta-learning with semi-supervised learning for few-shot classification"
     ],
     "type": null
   },
@@ -410,231 +396,7 @@
       "12."
     ],
     "title": [
-      "**\"Meta-Learning with Implicit Gradients\"** by James Lucas"
-    ],
-    "editor": [
-      {
-        "family": "Jordan",
-        "given": "Michael I."
-      },
-      {
-        "family": "Hinton",
-        "given": "Geoffrey E."
-      },
-      {
-        "family": "Zemel",
-        "given": "Richard S."
-      }
-    ],
-    "date": [
-      "2018"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "The authors propose a meta-learning method that uses implicit gradients to improve the efficiency of the learning process"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "13."
-    ],
-    "title": [
-      "**\"Meta-Learning with Task Embedding and Shared Meta-Learner\"** by Yoonho Lee, Seungjin Choi"
-    ],
-    "date": [
-      "2018"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "This work introduces a meta-learning framework that uses task embeddings and a shared meta-learner to improve few-shot learning"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "14."
-    ],
-    "title": [
-      "**\"Meta-Learning for Low-Resource Neural Machine Translation\"** by Jiatao Gu"
-    ],
-    "editor": [
-      {
-        "family": "Wang",
-        "given": "Yong"
-      },
-      {
-        "family": "Cho",
-        "given": "Kyunghyun"
-      },
-      {
-        "family": "Li",
-        "given": "Victor O.K."
-      }
-    ],
-    "date": [
-      "2018"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "The authors apply meta-learning techniques to neural machine translation, focusing on low-resource language pairs"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "15."
-    ],
-    "title": [
-      "**\"Meta-Learning for Domain Generalization\"** by Da Li"
-    ],
-    "editor": [
-      {
-        "family": "Yang",
-        "given": "Yongxin"
-      },
-      {
-        "family": "Song",
-        "given": "Yi-Zhe"
-      },
-      {
-        "family": "Hospedales",
-        "given": "Timothy M."
-      }
-    ],
-    "date": [
-      "2018"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "This paper explores meta-learning approaches for domain generalization, aiming to improve model robustness across different domains"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "16."
-    ],
-    "title": [
-      "**\"Meta-Learning for Few-Shot Natural Language Understanding\"** by Yuan Zhang, Jason Baldridge, Luheng He"
-    ],
-    "date": [
-      "2018"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "The authors apply meta-learning techniques to few-shot natural language understanding tasks, demonstrating improved performance"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "17."
-    ],
-    "title": [
-      "**\"Meta-Learning for Neural Architecture Search\"** by Chris Ying"
-    ],
-    "editor": [
-      {
-        "family": "Klein",
-        "given": "Aaron"
-      },
-      {
-        "family": "Christiansen",
-        "given": "Eric"
-      },
-      {
-        "family": "Real",
-        "given": "Esteban"
-      },
-      {
-        "family": "Murphy",
-        "given": "Kevin"
-      },
-      {
-        "family": "Hutter",
-        "given": "Frank"
-      }
-    ],
-    "date": [
-      "2019"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "This work explores the use of meta-learning for neural architecture search, aiming to find optimal architectures more efficiently"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "18."
-    ],
-    "title": [
-      "**\"Meta-Learning for Reinforcement Learning\"** by Yan Duan"
-    ],
-    "editor": [
-      {
-        "family": "Schulman",
-        "given": "John"
-      },
-      {
-        "family": "Chen",
-        "given": "Xi"
-      },
-      {
-        "family": "Bartlett",
-        "given": "Peter L."
-      },
-      {
-        "family": "Sutskever",
-        "given": "Ilya"
-      },
-      {
-        "family": "Abbeel",
-        "given": "Pieter"
-      }
+      "**\"Learning to Optimize\"** by Ke Li and Jitendra Malik"
     ],
     "date": [
       "2016"
@@ -648,29 +410,212 @@
       }
     ],
     "title": [
-      "The authors propose a meta-learning approach for reinforcement learning, enabling agents to adapt quickly to new tasks"
+      "Explores learning optimization algorithms using neural networks"
     ],
     "type": null
   },
   {
     "citation-number": [
-      "19."
+      "13."
     ],
     "title": [
-      "**\"Meta-Learning for Few-Shot Image Generation\"** by Elad Richardson"
+      "**\"Gradient-Based Meta-Learning with Learned Layerwise Metric and Subspace\"** by Yoonho Lee and Seungjin Choi"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Proposes a gradient-based meta-learning method with learned metrics"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "title": [
+      "**\"Meta-Learning with Warped Gradient Descent\"** by Sebastian Flennerhag"
     ],
     "editor": [
       {
-        "family": "Azar",
-        "given": "Yaniv"
+        "family": "Rusu",
+        "given": "Andrei A."
       },
       {
-        "family": "Shapiro",
-        "given": "Stav"
+        "family": "Hadsell",
+        "given": "Raia"
       },
       {
-        "family": "Cohen-Or",
-        "given": "Daniel"
+        "family": "Pascanu",
+        "given": "Razvan"
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Introduces warped gradient descent for meta-learning"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "title": [
+      "**\"Learning to Propagate Labels: Transductive Propagation Network for Few-shot Learning\"** by Yanbin Liu"
+    ],
+    "editor": [
+      {
+        "family": "Lee",
+        "given": "Juho"
+      },
+      {
+        "family": "Park",
+        "given": "Minseop"
+      },
+      {
+        "family": "Kim",
+        "given": "Saehoon"
+      },
+      {
+        "family": "Yang",
+        "given": "Eunho"
+      },
+      {
+        "family": "Hwang",
+        "given": "Sung Ju"
+      },
+      {
+        "family": "Yang",
+        "given": "Yi"
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Discusses label propagation in the context of few-shot learning"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "title": [
+      "**\"Meta-Learning with Implicit Gradients\"** by James Lucas"
+    ],
+    "editor": [
+      {
+        "family": "Zhang",
+        "given": "Michael R."
+      },
+      {
+        "family": "Hinton",
+        "given": "Geoffrey"
+      },
+      {
+        "family": "Ba",
+        "given": "Jimmy"
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Introduces a meta-learning method using implicit gradients"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "title": [
+      "**\"Meta-Learning with Differentiable Convex Optimization\"** by Luca Bertinetto"
+    ],
+    "editor": [
+      {
+        "family": "Henriques",
+        "given": "João F."
+      },
+      {
+        "family": "Valmadre",
+        "given": "Jack"
+      },
+      {
+        "family": "Torr",
+        "given": "Philip H.S."
+      },
+      {
+        "family": "Vedaldi",
+        "given": "Andrea"
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Combines meta-learning with convex optimization techniques"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "title": [
+      "**\"Meta-Learning for Few-Shot Natural Language Processing: A Survey\"** by Yujia Qin"
+    ],
+    "editor": [
+      {
+        "family": "Zhang",
+        "given": "Weinan"
+      },
+      {
+        "family": "Yu",
+        "given": "Yong"
       }
     ],
     "date": [
@@ -685,19 +630,29 @@
       }
     ],
     "title": [
-      "This paper presents a meta-learning framework for few-shot image generation, leveraging prior knowledge to generate images with limited data"
+      "A survey focused on meta-learning applications in NLP"
     ],
     "type": null
   },
   {
     "citation-number": [
-      "20."
+      "19."
     ],
     "title": [
-      "**\"Meta-Learning for Few-Shot Style Transfer\"** by Yijun Li, Chen Fang"
+      "**\"Meta-Learning for Neural Architecture Search\"** by Thomas Elsken"
     ],
-    "note": [
-      "Jimei Yang, Zhaowen Wang, Xin Lu, Ming-Hsuan Yang (2019"
+    "editor": [
+      {
+        "family": "Metzen",
+        "given": "Jan Hendrik"
+      },
+      {
+        "family": "Hutter",
+        "given": "Frank"
+      }
+    ],
+    "date": [
+      "2018"
     ],
     "type": null
   },
@@ -708,16 +663,36 @@
       }
     ],
     "title": [
-      "The authors propose a meta-learning approach for few-shot style transfer, enabling the transfer of artistic styles with minimal examples"
+      "Discusses the use of meta-learning for optimizing neural architectures"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "title": [
+      "**\"Meta-Learning with Task Embedding and Shared Meta-Learner\"** by Sungbin Lim, Taeyoung Lee, and Seong-Whan Lee"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Proposes a meta-learning approach with task embeddings and a shared meta-learner"
     ],
     "type": null
   },
   {
     "title": [
-      "These articles cover a range of meta-learning techniques and applications, providing a comprehensive overview of the field up to"
-    ],
-    "date": [
-      "2022"
+      "These articles cover a wide range of meta-learning approaches and optimization techniques, providing a solid foundation for understanding and advancing in the field of meta-learning"
     ],
     "type": null
   }

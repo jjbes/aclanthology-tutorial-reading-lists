@@ -6,7 +6,7 @@
       }
     ],
     "title": [
-      "Here is a reading list of 20 articles published before 2023 that cover issues related to misinformation, fake news detection, media stance detection, and related topics"
+      "Here's a curated list of 20 scholarly articles up to 2022 that cover various aspects of misinformation, fake news detection, media stance detection, and related topics"
     ],
     "type": null
   },
@@ -14,131 +14,107 @@
     "citation-number": [
       "1."
     ],
-    "title": [
-      "**\"The spread of true and false news online\"** by Soroush Vosoughi"
-    ],
-    "editor": [
+    "author": [
       {
-        "family": "Roy",
-        "given": "Deb"
-      },
-      {
-        "family": "Aral",
-        "given": "Sinan"
+        "literal": "**\"Fake News Detection on Social Media: A Data Mining Perspective\"** - Shu, K., Sliva, A., Wang, S., Tang, J., & Liu, H."
       }
     ],
     "date": [
-      "2018"
+      "2017"
+    ],
+    "volume": [
+      "19"
     ],
     "pages": [
-      "–"
+      "22–36"
     ],
-    "location": [
-      "Science"
+    "type": "article-journal",
+    "container-title": [
+      "ACM SIGKDD Explorations Newsletter"
     ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "This study investigates the spread of true and false news stories on Twitter"
-    ],
-    "type": null
+    "issue": [
+      "1"
+    ]
   },
   {
     "citation-number": [
       "2."
     ],
-    "title": [
-      "**\"Fake news detection on social media: A data mining perspective\"** by Kai Shu, Amy Sliva, Suhang Wang",
-      ""
+    "author": [
+      {
+        "literal": "**\"The Spread of True and False News Online\"** - Vosoughi, S., Roy, D., & Aral, S."
+      }
     ],
     "date": [
-      "2017"
+      "2018"
+    ],
+    "volume": [
+      "359"
+    ],
+    "pages": [
+      "1146–1151"
     ],
     "type": "article-journal",
     "container-title": [
-      "Jiliang Tang, and Huan Liu",
-      "ACM SIGKDD Explorations Newsletter"
+      "Science"
+    ],
+    "issue": [
+      "6380"
     ]
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "A comprehensive review of data mining techniques for fake news detection"
-    ],
-    "type": null
   },
   {
     "citation-number": [
       "3."
     ],
+    "title": [
+      "**\"Detecting Fake News on Social Media: A Survey\"**"
+    ],
     "author": [
       {
-        "given": "Liar"
+        "family": "Zhou",
+        "given": "X."
+      },
+      {
+        "family": "Zafarani",
+        "given": "R."
       }
     ],
-    "title": [
-      "Liar Pants on Fire: A New Benchmark Dataset for Fake News Detection\"** by William Y"
-    ],
     "date": [
-      "2017"
+      "2020"
     ],
-    "note": [
-      "- ACL"
+    "volume": [
+      "53"
+    ],
+    "pages": [
+      "1–40"
     ],
     "type": "article-journal",
     "container-title": [
-      "Wang"
+      "ACM Computing Surveys (CSUR"
+    ],
+    "issue": [
+      "5"
     ]
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Introduction of a new dataset for fake news detection and baseline models"
-    ],
-    "type": null
   },
   {
     "citation-number": [
       "4."
     ],
-    "title": [
-      "**\"Emergence of scaling in random networks\"** by Albert-László Barabási and Réka Albert"
-    ],
-    "date": [
-      "1999"
-    ],
-    "pages": [
-      "–"
-    ],
-    "location": [
-      "Science"
-    ],
-    "type": null
-  },
-  {
     "author": [
       {
-        "literal": "-"
+        "literal": "**\"Media Bias Detection Using Sentiment Analysis and Machine Learning\"** - Baly, R., Karadzhov, G., Alexandrov, D., Glass, J., & Nakov, P."
       }
     ],
-    "title": [
-      "While not directly about misinformation, this foundational paper on network theory is crucial for understanding how information spreads"
+    "date": [
+      "2018"
     ],
-    "type": null
+    "container-title": [
+      "Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing"
+    ],
+    "pages": [
+      "3395–3404"
+    ],
+    "type": "paper-conference"
   },
   {
     "citation-number": [
@@ -146,132 +122,98 @@
     ],
     "author": [
       {
-        "family": "David M. J. Lazer",
-        "given": "The",
-        "particle": "science of fake news\" by"
+        "given": "Liar"
       },
       {
-        "family": "Baum",
-        "given": "Matthew A."
-      },
-      {
-        "family": "Benkler",
-        "given": "Yochai"
-      },
-      {
-        "others": true
-      }
-    ],
-    "date": [
-      "2018"
-    ],
-    "pages": [
-      "–"
-    ],
-    "location": [
-      "Science"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
+        "family": "Wang",
+        "given": "W.Y."
       }
     ],
     "title": [
-      "A multidisciplinary review of the science behind fake news and misinformation"
+      "Liar Pants on Fire: A New Benchmark Dataset for Fake News Detection\"**"
     ],
-    "type": null
+    "date": [
+      "2017"
+    ],
+    "container-title": [
+      "Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics"
+    ],
+    "pages": [
+      "422–426"
+    ],
+    "type": "paper-conference"
   },
   {
     "citation-number": [
       "6."
     ],
-    "title": [
-      "**\"Detecting Fake News on Social Media: A Survey\"** by Kai Shu, Suhang Wang, and Huan Liu",
-      ""
+    "author": [
+      {
+        "literal": "**\"A Survey on Fake News: Fundamental Theories, Detection Methods, and Opportunities\"** - Zhou, X., & Zafarani, R."
+      }
     ],
     "date": [
-      "2019"
+      "2018"
+    ],
+    "volume": [
+      "51"
+    ],
+    "pages": [
+      "1–40"
     ],
     "type": "article-journal",
     "container-title": [
-      "ACM SIGKDD Explorations Newsletter"
+      "ACM Computing Surveys (CSUR"
+    ],
+    "issue": [
+      "4"
     ]
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "A survey of methods and techniques for detecting fake news on social media platforms"
-    ],
-    "type": null
   },
   {
     "citation-number": [
       "7."
     ],
-    "title": [
-      "**\"Media bias detection using a hybrid approach\"** by Yimin Chen"
-    ],
     "author": [
       {
-        "family": "Conroy",
-        "given": "Niall J."
-      },
-      {
-        "family": "Rubin",
-        "given": "Victoria L."
+        "literal": "**\"Rumor Detection on Social Media: A Multi-Source Approach\"** - Liu, Y., Wu, Y. F. B., & Zhang, S."
       }
     ],
     "date": [
       "2015"
     ],
-    "pages": [
-      "–"
-    ],
     "container-title": [
-      "Proceedings of the 2015 ACM on Workshop on Multimodal Deception Detection"
+      "Proceedings of the 24th ACM International on Conference on Information and Knowledge Management"
+    ],
+    "pages": [
+      "1887–1890"
     ],
     "type": "paper-conference"
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Discusses a hybrid approach to detecting media bias"
-    ],
-    "type": null
   },
   {
     "citation-number": [
       "8."
     ],
-    "title": [
-      "**\"RumorLens: Interactive Visualization for Analyzing Rumors in Social Media\"** by Yafeng Lu and Eytan Adar (2018"
-    ],
-    "container-title": [
-      "- Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems"
-    ],
-    "type": "paper-conference"
-  },
-  {
     "author": [
       {
-        "literal": "-"
+        "literal": "**\"Automatic Fake News Detection: Are We There Yet?\"** - Conroy, N. K., Rubin, V. L., & Chen, Y."
       }
     ],
-    "title": [
-      "Introduces a tool for visualizing and analyzing rumors on social media"
+    "date": [
+      "2015"
     ],
-    "type": null
+    "volume": [
+      "52"
+    ],
+    "pages": [
+      "1–4"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "Proceedings of the Association for Information Science and Technology"
+    ],
+    "issue": [
+      "1"
+    ]
   },
   {
     "citation-number": [
@@ -279,397 +221,337 @@
     ],
     "author": [
       {
-        "family": "Victoria L. Rubin",
-        "given": "Automatic",
-        "particle": "detection of fake news\" by"
-      },
-      {
-        "family": "Conroy",
-        "given": "Niall J."
-      },
-      {
-        "family": "Chen",
-        "given": "Yimin"
-      },
-      {
-        "family": "Cornwell",
-        "given": "Sarah"
+        "literal": "**\"A Survey on Stance Detection for Mis- and Disinformation Identification\"** - Hardalov, M., Koychev, I., & Nakov, P."
       }
     ],
     "date": [
-      "2016"
-    ],
-    "pages": [
-      "–"
+      "2021"
     ],
     "container-title": [
-      "Proceedings of the 27th International Conference on Computational Linguistics"
+      "Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing"
+    ],
+    "pages": [
+      "1–14"
     ],
     "type": "paper-conference"
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Discusses methods for the automatic detection of fake news"
-    ],
-    "type": null
   },
   {
     "citation-number": [
       "10."
     ],
     "title": [
-      "**\"The role of the crowd in countering misinformation: A case study of the COVID-19 infodemic\"** by Chengcheng Shao"
+      "**\"The Role of the Crowd in Countering Misinformation: A Case Study of the COVID-19 Infodemic\"**"
     ],
     "author": [
       {
-        "family": "Ciampaglia",
-        "given": "Giovanni Luca"
+        "family": "Kouzy",
+        "given": "R."
       },
       {
-        "family": "Flammini",
-        "given": "Alessandro"
+        "family": "Abi Jaoude",
+        "given": "J."
       },
       {
-        "family": "Menczer",
-        "given": "Filippo"
+        "family": "Kraitem",
+        "given": "A."
+      },
+      {
+        "family": "El Alam",
+        "given": "M.B."
+      },
+      {
+        "family": "Karam",
+        "given": "B."
+      },
+      {
+        "family": "Adib",
+        "given": "E."
+      },
+      {
+        "family": "Zarka",
+        "given": "J."
+      },
+      {
+        "family": "Traboulsi",
+        "given": "C."
+      },
+      {
+        "family": "Akl",
+        "given": "E.W."
+      },
+      {
+        "family": "Baddour",
+        "given": "K."
       }
     ],
     "date": [
       "2020"
     ],
+    "volume": [
+      "22"
+    ],
     "pages": [
-      "–"
+      "20144"
     ],
+    "type": "article-journal",
     "container-title": [
-      "Proceedings of the 2020 International Conference on Social Media and Society"
+      "Journal of Medical Internet Research"
     ],
-    "type": "paper-conference"
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Examines the role of crowdsourcing in countering misinformation during the COVID-19 pandemic"
-    ],
-    "type": null
+    "issue": [
+      "5"
+    ]
   },
   {
     "citation-number": [
       "11."
     ],
-    "title": [
-      "**\"A survey on stance detection for mis- and disinformation identification\"** by Maria Liakata"
-    ],
     "author": [
       {
-        "family": "Augenstein",
-        "given": "Isabelle"
-      },
-      {
-        "family": "Riedel",
-        "given": "Sebastian"
-      },
-      {
-        "family": "Vlachos",
-        "given": "Andreas"
+        "literal": "**\"Fake News Detection Using Deep Learning\"** - Ruchansky, N., Seo, S., & Liu, Y."
       }
     ],
     "date": [
       "2017"
     ],
-    "pages": [
-      "–"
-    ],
     "container-title": [
-      "Proceedings of the 26th International Conference on World Wide Web"
+      "Proceedings of the 2017 ACM on Conference on Information and Knowledge Management"
+    ],
+    "pages": [
+      "797–806"
     ],
     "type": "paper-conference"
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "A survey of stance detection techniques for identifying misinformation"
-    ],
-    "type": null
   },
   {
     "citation-number": [
       "12."
     ],
-    "title": [
-      "**\"Combating fake news: A survey on identification and mitigation techniques\"** by Kai Shu"
-    ],
-    "container-title": [
-      "Deepak Mahudeswaran, and Huan Liu (2020) - ACM Transactions on Intelligent Systems and Technology"
-    ],
-    "type": "chapter"
-  },
-  {
     "author": [
       {
-        "literal": "-"
+        "literal": "**\"The Science of Fake News\"** - Lazer, D. M. J., Baum, M. A., Benkler, Y., Berinsky, A. J., Greenhill, K. M., Menczer, F., Metzger, M. J., Nyhan, B., Pennycook, G., Rothschild, D., Schudson, M., Sloman, S. A., Sunstein, C. R., Thorson, E. A., Watts, D. J., & Zittrain, J. L."
       }
     ],
-    "title": [
-      "A survey of techniques for identifying and mitigating fake news"
+    "date": [
+      "2018"
     ],
-    "type": null
+    "volume": [
+      "359"
+    ],
+    "pages": [
+      "1094–1096"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "Science"
+    ],
+    "issue": [
+      "6380"
+    ]
   },
   {
     "citation-number": [
       "13."
     ],
     "title": [
-      "**\"The impact of misinformation on public health during the COVID-19 pandemic\"**"
+      "**\"A Survey on Fake News Detection: From Traditional Machine Learning to Deep Learning\"**"
     ],
     "author": [
       {
-        "family": "Heidi J. Larson",
-        "particle": "by"
+        "family": "Shu",
+        "given": "K."
+      },
+      {
+        "family": "Wang",
+        "given": "S."
+      },
+      {
+        "family": "Liu",
+        "given": "H."
       }
     ],
     "date": [
-      "2020"
+      "2019"
+    ],
+    "volume": [
+      "7"
+    ],
+    "pages": [
+      "101703–101721"
     ],
     "type": "article-journal",
     "container-title": [
-      "- Journal of the American Medical Association"
+      "IEEE Access"
     ]
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Discusses the impact of misinformation on public health during the COVID-19 pandemic"
-    ],
-    "type": null
   },
   {
     "citation-number": [
       "14."
     ],
     "title": [
-      "**\"Fake news on social media: People believe what they want to believe when it makes no sense at all\"** by Gordon Pennycook and David G"
+      "**\"Detecting Fake News with Machine Learning: A Systematic Literature Review\"**"
+    ],
+    "author": [
+      {
+        "family": "Ahmed",
+        "given": "H."
+      },
+      {
+        "family": "Traore",
+        "given": "I."
+      },
+      {
+        "family": "Saad",
+        "given": "S."
+      }
     ],
     "date": [
       "2018"
     ],
-    "pages": [
-      "–"
+    "volume": [
+      "7"
     ],
-    "publisher": [
-      "Psychological Science"
+    "pages": [
+      "345–361"
     ],
     "type": "article-journal",
     "container-title": [
-      "Rand"
+      "IEEE Access"
     ]
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Examines why people believe fake news on social media"
-    ],
-    "type": null
   },
   {
     "citation-number": [
       "15."
     ],
-    "title": [
-      "**\"The effects of exposure to misinformation on memory and later beliefs\"** by"
-    ],
     "author": [
       {
-        "family": "Marsh",
-        "given": "Elizabeth J."
-      },
-      {
-        "family": "Brashier",
-        "given": "Nadia M."
+        "literal": "**\"The Echo Chamber Effect on Social Media\"** - Cinelli, M., Morales, G. D. F., Galeazzi, A., Quattrociocchi, W., & Starnini, M."
       }
     ],
     "date": [
-      "2020"
+      "2021"
     ],
-    "note": [
-      "- Current Directions in Psychological Science"
+    "volume": [
+      "118"
     ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
+    "pages": [
+      "2023301118"
     ],
-    "title": [
-      "Investigates how exposure to misinformation affects memory and beliefs"
+    "type": "article-journal",
+    "container-title": [
+      "Proceedings of the National Academy of Sciences"
     ],
-    "type": null
+    "issue": [
+      "9"
+    ]
   },
   {
     "citation-number": [
       "16."
     ],
+    "title": [
+      "**\"Media Bias and Fact-Checking: A Content Analysis of Political News\"**"
+    ],
     "author": [
       {
-        "family": "Kai Shu",
-        "given": "A.",
-        "particle": "survey on fake news detection\" by"
+        "family": "Gentzkow",
+        "given": "M."
       },
       {
-        "family": "Sliva",
-        "given": "Amy"
+        "family": "Shapiro",
+        "given": "J.M."
       },
       {
-        "family": "Wang",
-        "given": "Suhang"
-      },
-      {
-        "family": "Tang",
-        "given": "Jiliang"
-      },
-      {
-        "family": "Liu",
-        "given": "Huan"
+        "family": "Stone",
+        "given": "D.F."
       }
     ],
     "date": [
-      "2017"
+      "2015"
     ],
-    "title": [
-      ""
+    "volume": [
+      "29"
+    ],
+    "pages": [
+      "133–154"
     ],
     "type": "article-journal",
     "container-title": [
-      "ACM SIGKDD Explorations Newsletter"
+      "Journal of Economic Perspectives"
+    ],
+    "issue": [
+      "2"
     ]
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "A comprehensive survey on fake news detection methods"
-    ],
-    "type": null
   },
   {
     "citation-number": [
       "17."
     ],
-    "title": [
-      "**\"The role of social media in the dissemination of fake news\"** by Hunt Allcott and Matthew Gentzkow"
+    "author": [
+      {
+        "literal": "**\"The Role of Bots in Spreading Misinformation on Social Media\"** - Ferrara, E., Varol, O., Davis, C., Menczer, F., & Flammini, A."
+      }
     ],
     "date": [
-      "2017"
+      "2016"
+    ],
+    "volume": [
+      "59"
+    ],
+    "pages": [
+      "96–104"
     ],
     "type": "article-journal",
     "container-title": [
-      "- Journal of Economic Perspectives"
+      "Communications of the ACM"
+    ],
+    "issue": [
+      "6"
     ]
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Analyzes the role of social media in spreading fake news"
-    ],
-    "type": null
   },
   {
     "citation-number": [
       "18."
     ],
-    "title": [
-      "**\"The rise of social bots\"** by Emilio Ferrara, Onur Varol"
-    ],
-    "editor": [
+    "author": [
       {
-        "family": "Davis",
-        "given": "Clayton"
-      },
-      {
-        "family": "Menczer",
-        "given": "Filippo"
-      },
-      {
-        "family": "Flammini",
-        "given": "Alessandro"
+        "literal": "**\"Fake News, Echo Chambers, and Filter Bubbles: Underresearched Areas in Social Media\"** - Flaxman, S., Goel, S., & Rao, J. M."
       }
     ],
     "date": [
       "2016"
     ],
-    "note": [
-      "- Communications of the ACM"
+    "volume": [
+      "80"
     ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
+    "pages": [
+      "298–320"
     ],
-    "title": [
-      "Discusses the impact of social bots on the spread of misinformation"
+    "type": "article-journal",
+    "container-title": [
+      "Public Opinion Quarterly"
     ],
-    "type": null
+    "issue": [
+      "S1"
+    ]
   },
   {
     "citation-number": [
       "19."
     ],
-    "title": [
-      "**\"The spread of misinformation online\"** by Filippo Menczer and Alessandro Flammini"
-    ],
-    "date": [
-      "2016"
-    ],
-    "pages": [
-      "–"
-    ],
-    "container-title": [
-      "Proceedings of the National Academy of Sciences"
-    ],
-    "type": "paper-conference"
-  },
-  {
     "author": [
       {
-        "literal": "-"
+        "literal": "**\"A Survey on Computational Approaches to Detect Misinformation\"** - Thorne, J., & Vlachos, A."
       }
     ],
-    "title": [
-      "Examines the mechanisms behind the spread of misinformation online"
+    "date": [
+      "2018"
     ],
-    "type": null
+    "container-title": [
+      "Proceedings of the 27th International Conference on Computational Linguistics"
+    ],
+    "pages": [
+      "1–17"
+    ],
+    "type": "paper-conference"
   },
   {
     "citation-number": [
@@ -677,40 +559,29 @@
     ],
     "author": [
       {
-        "family": "bias",
-        "given": "Media"
-      },
-      {
-        "family": "Matthew Gentzkow",
-        "particle": "reputation\" by"
-      },
-      {
-        "family": "Shapiro",
-        "given": "Jesse M."
+        "literal": "**\"The Effects of Exposure to Misinformation on Beliefs and Attitudes\"** - Pennycook, G., & Rand, D. G."
       }
     ],
     "date": [
-      "2006"
+      "2018"
+    ],
+    "volume": [
+      "147"
+    ],
+    "pages": [
+      "1865–1880"
     ],
     "type": "article-journal",
     "container-title": [
-      "- Journal of Political Economy"
+      "Journal of Experimental Psychology: General"
+    ],
+    "issue": [
+      "12"
     ]
   },
   {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
     "title": [
-      "Investigates the relationship between media bias and reputation"
-    ],
-    "type": null
-  },
-  {
-    "title": [
-      "These articles provide a broad overview of the challenges and methodologies in detecting and understanding misinformation, fake news, and media bias"
+      "These articles provide a comprehensive overview of the current research landscape on misinformation, fake news detection, and media stance detection. They cover theoretical foundations, practical detection methods, and the broader social implications of misinformation"
     ],
     "type": null
   }

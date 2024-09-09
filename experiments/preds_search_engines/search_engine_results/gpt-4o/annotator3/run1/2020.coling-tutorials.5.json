@@ -2,14 +2,17 @@
   {
     "author": [
       {
-        "given": "Certainly!"
+        "given": "Sure!"
       }
     ],
     "title": [
-      "Here's a curated list of 20 articles up to 2020 that discuss benchmarking datasets for question answering (QA"
+      "Here is a reading list of 20 articles up to 2020 that discuss benchmarking datasets for question answering (QA"
     ],
     "container-title": [
-      "natural language inference (NLI), commonsense reasoning, and related issues"
+      "natural language inference (NLI), commonsense reasoning"
+    ],
+    "note": [
+      "and the associated problems of these datasets:"
     ],
     "type": "chapter"
   },
@@ -18,28 +21,7 @@
       "1."
     ],
     "title": [
-      "**\"SQuAD: 100,000+ Questions for Machine Comprehension of Text\"**"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "family": "Rajpurkar",
-        "given": "P."
-      },
-      {
-        "family": "Zhang",
-        "given": "J."
-      },
-      {
-        "family": "Lopyrev",
-        "given": "K."
-      },
-      {
-        "family": "Liang",
-        "given": "P."
-      }
+      "**\"SQuAD: 100,000+ Questions for Machine Comprehension of Text\"** by Rajpurkar et al"
     ],
     "date": [
       "2016"
@@ -47,38 +29,22 @@
     "type": null
   },
   {
-    "container-title": [
-      "*Proceedings of the 2016 Conference on Empirical Methods in Natural Language Processing (EMNLP)*"
+    "author": [
+      {
+        "literal": "-"
+      }
     ],
-    "type": "paper-conference"
+    "title": [
+      "Discusses the Stanford Question Answering Dataset (SQuAD) and its impact on QA benchmarks"
+    ],
+    "type": null
   },
   {
     "citation-number": [
       "2."
     ],
     "title": [
-      "**\"TriviaQA: A Large Scale Distantly Supervised Challenge Dataset for Reading Comprehension\"**"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "family": "Joshi",
-        "given": "M."
-      },
-      {
-        "family": "Choi",
-        "given": "E."
-      },
-      {
-        "family": "Weld",
-        "given": "D.S."
-      },
-      {
-        "family": "Zettlemoyer",
-        "given": "L."
-      }
+      "**\"TriviaQA: A Large Scale Distantly Supervised Challenge Dataset for Reading Comprehension\"** by Joshi et al"
     ],
     "date": [
       "2017"
@@ -86,57 +52,22 @@
     "type": null
   },
   {
-    "container-title": [
-      "*Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics (ACL)*"
+    "author": [
+      {
+        "literal": "-"
+      }
     ],
-    "type": "paper-conference"
+    "title": [
+      "Introduces TriviaQA and explores its challenges for QA systems"
+    ],
+    "type": null
   },
   {
     "citation-number": [
       "3."
     ],
-    "location": [
-      "QuAC"
-    ],
-    "publisher": [
-      "Question Answering in Context\"**"
-    ],
-    "type": "book"
-  },
-  {
-    "author": [
-      {
-        "family": "Choi",
-        "given": "E."
-      },
-      {
-        "family": "He",
-        "given": "H."
-      },
-      {
-        "family": "Iyyer",
-        "given": "M."
-      },
-      {
-        "family": "Yatskar",
-        "given": "M."
-      },
-      {
-        "family": "Yih",
-        "given": "S.W."
-      },
-      {
-        "family": "Choi",
-        "given": "Y."
-      },
-      {
-        "family": "Liang",
-        "given": "P."
-      },
-      {
-        "family": "Zettlemoyer",
-        "given": "L."
-      }
+    "title": [
+      "**\"The Stanford Question Answering Dataset (SQuAD) v2.0\"** by Rajpurkar et al"
     ],
     "date": [
       "2018"
@@ -144,97 +75,22 @@
     "type": null
   },
   {
-    "container-title": [
-      "*Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing (EMNLP)*"
+    "author": [
+      {
+        "literal": "-"
+      }
     ],
-    "type": "paper-conference"
+    "title": [
+      "Presents an updated version of SQuAD with unanswerable questions to test model robustness"
+    ],
+    "type": null
   },
   {
     "citation-number": [
       "4."
     ],
-    "location": [
-      "Natural Questions"
-    ],
-    "publisher": [
-      "A Benchmark for Question Answering Research\"**"
-    ],
-    "type": "book"
-  },
-  {
-    "author": [
-      {
-        "family": "Kwiatkowski",
-        "given": "T."
-      },
-      {
-        "family": "Palomaki",
-        "given": "J."
-      },
-      {
-        "family": "Redfield",
-        "given": "O."
-      },
-      {
-        "family": "Collins",
-        "given": "M."
-      },
-      {
-        "family": "Parikh",
-        "given": "A."
-      },
-      {
-        "family": "Alberti",
-        "given": "C."
-      },
-      {
-        "family": "Epstein",
-        "given": "D."
-      },
-      {
-        "family": "Polosukhin",
-        "given": "I."
-      },
-      {
-        "family": "Devlin",
-        "given": "J."
-      },
-      {
-        "family": "Lee",
-        "given": "K."
-      },
-      {
-        "family": "Toutanova",
-        "given": "K."
-      },
-      {
-        "family": "Jones",
-        "given": "L."
-      },
-      {
-        "family": "Kelcey",
-        "given": "M."
-      },
-      {
-        "family": "Chang",
-        "given": "M.W."
-      },
-      {
-        "family": "Dai",
-        "given": "A.M."
-      },
-      {
-        "family": "Uszkoreit",
-        "given": "J."
-      },
-      {
-        "family": "Le",
-        "given": "Q."
-      },
-      {
-        "family": "Petrov",
-        "given": "S."
-      }
+    "title": [
+      "**\"Natural Questions: A Benchmark for Question Answering Research\"** by Kwiatkowski et al"
     ],
     "date": [
       "2019"
@@ -242,50 +98,22 @@
     "type": null
   },
   {
-    "container-title": [
-      "*Transactions of the Association for Computational Linguistics (TACL)*"
+    "author": [
+      {
+        "literal": "-"
+      }
     ],
-    "type": "chapter"
+    "title": [
+      "Describes the Natural Questions dataset and its use in evaluating QA systems"
+    ],
+    "type": null
   },
   {
     "citation-number": [
       "5."
     ],
     "title": [
-      "**\"HotpotQA: A Dataset for Diverse, Explainable Multi-hop Question Answering\"**"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "family": "Yang",
-        "given": "Z."
-      },
-      {
-        "family": "Qi",
-        "given": "P."
-      },
-      {
-        "family": "Zhang",
-        "given": "S."
-      },
-      {
-        "family": "Bengio",
-        "given": "Y."
-      },
-      {
-        "family": "Cohen",
-        "given": "W.W."
-      },
-      {
-        "family": "Salakhutdinov",
-        "given": "R."
-      },
-      {
-        "family": "Manning",
-        "given": "C.D."
-      }
+      "**\"GLUE: A Multi-Task Benchmark and Analysis Platform for Natural Language Understanding\"** by Wang et al"
     ],
     "date": [
       "2018"
@@ -293,65 +121,45 @@
     "type": null
   },
   {
-    "container-title": [
-      "*Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing (EMNLP)*"
+    "author": [
+      {
+        "literal": "-"
+      }
     ],
-    "type": "paper-conference"
+    "title": [
+      "Introduces the GLUE benchmark for evaluating NLU models across multiple tasks, including NLI"
+    ],
+    "type": null
   },
   {
     "citation-number": [
       "6."
     ],
     "title": [
-      "**\"MultiNLI: The Stanford Natural Language Inference Corpus\"**"
+      "**\"SuperGLUE: A Stickier Benchmark for General-Purpose Language Understanding Systems\"** by Wang et al"
+    ],
+    "date": [
+      "2019"
     ],
     "type": null
   },
   {
     "author": [
       {
-        "family": "Williams",
-        "given": "A."
-      },
-      {
-        "family": "Nangia",
-        "given": "N."
-      },
-      {
-        "family": "Bowman",
-        "given": "S.R."
+        "literal": "-"
       }
     ],
-    "date": [
-      "2018"
+    "title": [
+      "Presents SuperGLUE, an extension of GLUE with more challenging tasks, including NLI and commonsense reasoning"
     ],
     "type": null
-  },
-  {
-    "container-title": [
-      "*Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing (EMNLP)*"
-    ],
-    "type": "paper-conference"
   },
   {
     "citation-number": [
       "7."
     ],
     "title": [
-      "**\"Adversarial Examples for Evaluating Reading Comprehension Systems\"**"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "family": "Jia",
-        "given": "R."
-      },
-      {
-        "family": "Liang",
-        "given": "P."
-      }
+      "**\"Adversarial Examples for Evaluating Reading Comprehension Systems\"** by Jia and Liang"
     ],
     "date": [
       "2017"
@@ -359,38 +167,22 @@
     "type": null
   },
   {
-    "container-title": [
-      "*Proceedings of the 2017 Conference on Empirical Methods in Natural Language Processing (EMNLP)*"
+    "author": [
+      {
+        "literal": "-"
+      }
     ],
-    "type": "paper-conference"
+    "title": [
+      "Discusses the creation of adversarial examples to test the robustness of QA systems"
+    ],
+    "type": null
   },
   {
     "citation-number": [
       "8."
     ],
     "title": [
-      "**\"SWAG: A Large-Scale Adversarial Dataset for Grounded Commonsense Inference\"**"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "family": "Zellers",
-        "given": "R."
-      },
-      {
-        "family": "Bisk",
-        "given": "Y."
-      },
-      {
-        "family": "Schwartz",
-        "given": "R."
-      },
-      {
-        "family": "Choi",
-        "given": "Y."
-      }
+      "**\"SWAG: A Large-Scale Adversarial Dataset for Grounded Commonsense Inference\"** by Zellers et al"
     ],
     "date": [
       "2018"
@@ -398,38 +190,22 @@
     "type": null
   },
   {
-    "container-title": [
-      "*Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing (EMNLP)*"
+    "author": [
+      {
+        "literal": "-"
+      }
     ],
-    "type": "paper-conference"
+    "title": [
+      "Introduces the SWAG dataset for commonsense reasoning and discusses its challenges"
+    ],
+    "type": null
   },
   {
     "citation-number": [
       "9."
     ],
     "title": [
-      "**\"CommonsenseQA: A Question Answering Challenge Targeting Commonsense Knowledge\"**"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "family": "Talmor",
-        "given": "A."
-      },
-      {
-        "family": "Herzig",
-        "given": "J."
-      },
-      {
-        "family": "Lourie",
-        "given": "N."
-      },
-      {
-        "family": "Berant",
-        "given": "J."
-      }
+      "**\"CommonsenseQA: A Question Answering Challenge Targeting Commonsense Knowledge\"** by Talmor et al"
     ],
     "date": [
       "2019"
@@ -437,46 +213,27 @@
     "type": null
   },
   {
-    "container-title": [
-      "*Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (NAACL-HLT)*"
+    "author": [
+      {
+        "literal": "-"
+      }
     ],
-    "type": "paper-conference"
+    "title": [
+      "Presents the CommonsenseQA dataset and its role in evaluating commonsense reasoning"
+    ],
+    "type": null
   },
   {
     "citation-number": [
       "10."
     ],
-    "title": [
-      "**\"GLUE: A Multi-Task Benchmark and Analysis Platform for Natural Language Understanding\"**"
-    ],
-    "type": null
-  },
-  {
     "author": [
       {
-        "family": "Wang",
-        "given": "A."
-      },
-      {
-        "family": "Singh",
-        "given": "A."
-      },
-      {
-        "family": "Michael",
-        "given": "J."
-      },
-      {
-        "family": "Hill",
-        "given": "F."
-      },
-      {
-        "family": "Levy",
-        "given": "O."
-      },
-      {
-        "family": "Bowman",
-        "given": "S.R."
+        "given": "MultiNLI"
       }
+    ],
+    "title": [
+      "The Stanford Question Answering Dataset (SQuAD) v2.0\"** by Williams et al"
     ],
     "date": [
       "2018"
@@ -484,214 +241,22 @@
     "type": null
   },
   {
-    "container-title": [
-      "*Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing (EMNLP)*"
+    "author": [
+      {
+        "literal": "-"
+      }
     ],
-    "type": "paper-conference"
+    "title": [
+      "Discusses the Multi-Genre Natural Language Inference (MultiNLI) dataset and its use in NLI tasks"
+    ],
+    "type": null
   },
   {
     "citation-number": [
       "11."
     ],
     "title": [
-      "**\"DROP: A Reading Comprehension Benchmark Requiring Discrete Reasoning Over Paragraphs\"**"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "family": "Dua",
-        "given": "D."
-      },
-      {
-        "family": "Wang",
-        "given": "Y."
-      },
-      {
-        "family": "Dasigi",
-        "given": "P."
-      },
-      {
-        "family": "Stanovsky",
-        "given": "G."
-      },
-      {
-        "family": "Singh",
-        "given": "S."
-      },
-      {
-        "family": "Gardner",
-        "given": "M."
-      }
-    ],
-    "date": [
-      "2019"
-    ],
-    "type": null
-  },
-  {
-    "container-title": [
-      "*Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (NAACL-HLT)*"
-    ],
-    "type": "paper-conference"
-  },
-  {
-    "citation-number": [
-      "12."
-    ],
-    "title": [
-      "**\"ReClor: A Reading Comprehension Dataset Requiring Logical Reasoning\"**"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "family": "Yu",
-        "given": "W."
-      },
-      {
-        "family": "Zhang",
-        "given": "H."
-      },
-      {
-        "family": "Yu",
-        "given": "M."
-      },
-      {
-        "family": "Jiang",
-        "given": "Z."
-      },
-      {
-        "family": "Zhang",
-        "given": "Y."
-      },
-      {
-        "family": "Choi",
-        "given": "Y."
-      }
-    ],
-    "date": [
-      "2020"
-    ],
-    "type": null
-  },
-  {
-    "container-title": [
-      "*Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)*"
-    ],
-    "type": "paper-conference"
-  },
-  {
-    "citation-number": [
-      "13."
-    ],
-    "title": [
-      "**\"Beyond Accuracy: Behavioral Testing of NLP Models with CheckList\"**"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "family": "Ribeiro",
-        "given": "M.T."
-      },
-      {
-        "family": "Wu",
-        "given": "T."
-      },
-      {
-        "family": "Guestrin",
-        "given": "C."
-      },
-      {
-        "family": "Singh",
-        "given": "S."
-      }
-    ],
-    "date": [
-      "2020"
-    ],
-    "type": null
-  },
-  {
-    "container-title": [
-      "*Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics (ACL)*"
-    ],
-    "type": "paper-conference"
-  },
-  {
-    "citation-number": [
-      "14."
-    ],
-    "title": [
-      "**\"The Story Cloze Test: A Corpus for Reasoning about Narratives\"**"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "family": "Mostafazadeh",
-        "given": "N."
-      },
-      {
-        "family": "Roth",
-        "given": "M."
-      },
-      {
-        "family": "Louis",
-        "given": "A."
-      },
-      {
-        "family": "Chambers",
-        "given": "N."
-      },
-      {
-        "family": "Allen",
-        "given": "J."
-      }
-    ],
-    "date": [
-      "2016"
-    ],
-    "type": null
-  },
-  {
-    "container-title": [
-      "*Proceedings of the 2016 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (NAACL-HLT)*"
-    ],
-    "type": "paper-conference"
-  },
-  {
-    "citation-number": [
-      "15."
-    ],
-    "container-title": [
-      "**\"Probing Neural Network Comprehension of Natural Language Arguments\"**"
-    ],
-    "type": "chapter"
-  },
-  {
-    "author": [
-      {
-        "family": "Habernal",
-        "given": "I."
-      },
-      {
-        "family": "Wachsmuth",
-        "given": "H."
-      },
-      {
-        "family": "Gurevych",
-        "given": "I."
-      },
-      {
-        "family": "Stein",
-        "given": "B."
-      }
+      "**\"QuAC: Question Answering in Context\"** by Choi et al"
     ],
     "date": [
       "2018"
@@ -699,49 +264,42 @@
     "type": null
   },
   {
-    "container-title": [
-      "*Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing (EMNLP)*"
+    "author": [
+      {
+        "literal": "-"
+      }
     ],
-    "type": "paper-conference"
+    "title": [
+      "Introduces the QuAC dataset for QA in conversational contexts and discusses its challenges"
+    ],
+    "type": null
   },
   {
     "citation-number": [
-      "16."
+      "12."
     ],
     "title": [
-      "**\"Winograd Schema Challenge: Evaluating Progress in Commonsense Reasoning\"**"
+      "**\"DROP: A Reading Comprehension Benchmark Requiring Discrete Reasoning Over Paragraphs\"** by Dua et al"
+    ],
+    "date": [
+      "2019"
     ],
     "type": null
   },
   {
     "author": [
       {
-        "family": "Levesque",
-        "given": "H.J."
-      },
-      {
-        "family": "Davis",
-        "given": "E."
-      },
-      {
-        "family": "Morgenstern",
-        "given": "L."
+        "literal": "-"
       }
     ],
-    "date": [
-      "2012"
+    "title": [
+      "Describes the DROP dataset, which focuses on discrete reasoning in QA"
     ],
     "type": null
   },
   {
-    "container-title": [
-      "*Proceedings of the Thirteenth International Conference on Principles of Knowledge Representation and Reasoning (KR)*"
-    ],
-    "type": "paper-conference"
-  },
-  {
     "citation-number": [
-      "17."
+      "13."
     ],
     "author": [
       {
@@ -749,32 +307,7 @@
       }
     ],
     "title": [
-      "Large-scale ReAding Comprehension Dataset From Examinations\"**"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "family": "Lai",
-        "given": "G."
-      },
-      {
-        "family": "Xie",
-        "given": "Q."
-      },
-      {
-        "family": "Liu",
-        "given": "H."
-      },
-      {
-        "family": "Yang",
-        "given": "Y."
-      },
-      {
-        "family": "Hovy",
-        "given": "E."
-      }
+      "Large-scale ReAding Comprehension Dataset From Examinations\"** by Lai et al"
     ],
     "date": [
       "2017"
@@ -782,70 +315,96 @@
     "type": null
   },
   {
-    "container-title": [
-      "*Proceedings of the 2017 Conference on Empirical Methods in Natural Language Processing (EMNLP)*"
+    "author": [
+      {
+        "literal": "-"
+      }
     ],
-    "type": "paper-conference"
+    "title": [
+      "Introduces the RACE dataset, based on English exams, and discusses its implications for QA research"
+    ],
+    "type": null
   },
   {
     "citation-number": [
-      "18."
+      "14."
     ],
     "title": [
-      "**\"The Pile: An 800GB Dataset of Diverse Text for Language Modeling\"**"
+      "**\"HotpotQA: A Dataset for Diverse, Explainable Multi-hop Question Answering\"** by Yang et al"
+    ],
+    "date": [
+      "2018"
     ],
     "type": null
   },
   {
     "author": [
       {
-        "family": "Gao",
-        "given": "L."
-      },
-      {
-        "family": "Biderman",
-        "given": "S."
-      },
-      {
-        "family": "Black",
-        "given": "S."
-      },
-      {
-        "family": "Golding",
-        "given": "L."
-      },
-      {
-        "family": "Hoppe",
-        "given": "T."
-      },
-      {
-        "family": "Foster",
-        "given": "C."
-      },
-      {
-        "family": "Phang",
-        "given": "J."
-      },
-      {
-        "family": "He",
-        "given": "H."
-      },
-      {
-        "family": "Thite",
-        "given": "A."
-      },
-      {
-        "family": "Nabeshima",
-        "given": "N."
-      },
-      {
-        "family": "Presser",
-        "given": "S."
-      },
-      {
-        "family": "Leahy",
-        "given": "C."
+        "literal": "-"
       }
+    ],
+    "title": [
+      "Presents the HotpotQA dataset for multi-hop QA and discusses its challenges"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "author": [
+      {
+        "given": "BoolQ"
+      }
+    ],
+    "title": [
+      "Exploring the Surprising Difficulty of Natural Yes/No Questions\"** by Clark et al"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Introduces the BoolQ dataset and explores the challenges of yes/no QA"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "title": [
+      "**\"Story Cloze Test: A New Benchmark for Story Understanding and Generation\"** by Mostafazadeh et al"
+    ],
+    "date": [
+      "2016"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Discusses the Story Cloze Test for evaluating story understanding and commonsense reasoning"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "title": [
+      "**\"The Pile: An 800GB Dataset of Diverse Text for Language Modeling\"** by Gao et al"
     ],
     "date": [
       "2020"
@@ -853,11 +412,36 @@
     "type": null
   },
   {
-    "note": [
-      "*arXiv preprint arXiv:2101.00027*"
+    "author": [
+      {
+        "literal": "-"
+      }
     ],
-    "arxiv": [
-      "2101.00027"
+    "title": [
+      "Introduces The Pile, a large-scale dataset for language modeling, and discusses its diverse applications"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "title": [
+      "**\"Adversarial NLI: A New Benchmark for Natural Language Understanding\"** by Nie et al"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Presents the Adversarial NLI dataset and discusses its role in evaluating NLU models"
     ],
     "type": null
   },
@@ -866,40 +450,7 @@
       "19."
     ],
     "title": [
-      "**\"NarrativeQA: Reading Comprehension Challenge with Stories\"**"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "family": "Kočiský",
-        "given": "T."
-      },
-      {
-        "family": "Schwarz",
-        "given": "J."
-      },
-      {
-        "family": "Blunsom",
-        "given": "P."
-      },
-      {
-        "family": "Dyer",
-        "given": "C."
-      },
-      {
-        "family": "Hermann",
-        "given": "K.M."
-      },
-      {
-        "family": "Melis",
-        "given": "G."
-      },
-      {
-        "family": "Grefenstette",
-        "given": "E."
-      }
+      "**\"SWAG: A Large-Scale Adversarial Dataset for Grounded Commonsense Inference\"** by Zellers et al"
     ],
     "date": [
       "2018"
@@ -907,56 +458,42 @@
     "type": null
   },
   {
-    "container-title": [
-      "*Transactions of the Association for Computational Linguistics (TACL)*"
+    "author": [
+      {
+        "literal": "-"
+      }
     ],
-    "type": "chapter"
+    "title": [
+      "Introduces the SWAG dataset for commonsense reasoning and discusses its challenges"
+    ],
+    "type": null
   },
   {
     "citation-number": [
       "20."
     ],
     "title": [
-      "**\"Analyzing the Structure of Attention in a Transformer Language Model\"**"
+      "**\"Beyond Accuracy: Behavioral Testing of NLP Models with CheckList\"** by Ribeiro et al"
+    ],
+    "date": [
+      "2020"
     ],
     "type": null
   },
   {
     "author": [
       {
-        "family": "Clark",
-        "given": "K."
-      },
-      {
-        "family": "Khandelwal",
-        "given": "U."
-      },
-      {
-        "family": "Levy",
-        "given": "O."
-      },
-      {
-        "family": "Manning",
-        "given": "C.D."
+        "literal": "-"
       }
     ],
-    "date": [
-      "2019"
+    "title": [
+      "Discusses the CheckList framework for behavioral testing of NLP models, highlighting issues in existing benchmarks"
     ],
     "type": null
   },
   {
-    "container-title": [
-      "*Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing (EMNLP)*"
-    ],
-    "type": "paper-conference"
-  },
-  {
     "title": [
-      "These articles cover a range of topics from the creation and evaluation of QA, NLI, and commonsense reasoning datasets to the challenges and limitations associated with them. They provide a comprehensive overview of the state of research in these areas up to"
-    ],
-    "date": [
-      "2020"
+      "These articles provide a comprehensive overview of key datasets and the challenges associated with them in the fields of QA, NLI, and commonsense reasoning"
     ],
     "type": null
   }

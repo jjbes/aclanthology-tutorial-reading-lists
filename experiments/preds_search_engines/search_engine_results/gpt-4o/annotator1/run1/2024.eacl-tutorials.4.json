@@ -1,7 +1,15 @@
 [
   {
+    "author": [
+      {
+        "given": "Sure!"
+      }
+    ],
     "title": [
-      "Sure, here is a reading list of 20 articles on the interpretability of transformer models, focusing on recent and influential works up to 2025"
+      "Here's a reading list of 20 articles on the interpretability of transformer models, covering various aspects such as attention mechanisms, visualization techniques, and case studies. These articles span from foundational works to the most recent advancements up to"
+    ],
+    "date": [
+      "2024"
     ],
     "type": null
   },
@@ -11,7 +19,7 @@
     ],
     "author": [
       {
-        "literal": "**\"Attention is All You Need\"** - Vaswani et al."
+        "literal": "**Attention is All You Need** - Vaswani et al."
       }
     ],
     "date": [
@@ -26,7 +34,7 @@
       }
     ],
     "title": [
-      "The foundational paper introducing the Transformer model"
+      "The seminal paper introducing the Transformer model"
     ],
     "type": null
   },
@@ -40,10 +48,10 @@
       }
     ],
     "title": [
-      "Pre-training of Deep Bidirectional Transformers for Language Understanding\"** - Devlin et al"
+      "Pre-training of Deep Bidirectional Transformers for Language Understanding** - Devlin et al"
     ],
     "date": [
-      "2019"
+      "2018"
     ],
     "type": null
   },
@@ -54,7 +62,7 @@
       }
     ],
     "title": [
-      "Introduces BERT, a widely used transformer model, and discusses its interpretability aspects"
+      "Introduces BERT and discusses its interpretability aspects"
     ],
     "type": null
   },
@@ -63,7 +71,7 @@
       "3."
     ],
     "title": [
-      "**\"Visualizing and Understanding Neural Models in NLP\"** - Li et al"
+      "**Visualizing and Understanding Neural Models in NLP** - Li et al"
     ],
     "date": [
       "2016"
@@ -77,7 +85,7 @@
       }
     ],
     "title": [
-      "Early work on visualizing attention mechanisms in neural models"
+      "Early work on visualizing attention mechanisms in neural networks"
     ],
     "type": null
   },
@@ -86,12 +94,15 @@
       "4."
     ],
     "title": [
-      "**\"A Closer Look at the Robustness and Interpretability of Deep Reinforcement Learning\"** - Mott et al"
+      "**A Closer Look at the Robustness and Interpretability of Deep Learning Models**"
     ],
     "date": [
       "2019"
     ],
-    "type": null
+    "type": "article-journal",
+    "container-title": [
+      "Zhang et al"
+    ]
   },
   {
     "author": [
@@ -100,7 +111,7 @@
       }
     ],
     "title": [
-      "Discusses interpretability in the context of reinforcement learning with transformers"
+      "Discusses robustness and interpretability in deep learning, including transformers"
     ],
     "type": null
   },
@@ -110,7 +121,7 @@
     ],
     "author": [
       {
-        "literal": "**\"Interpreting and Understanding BERT\"** - Clark et al."
+        "literal": "**Analyzing and Interpreting BERT** - Clark et al."
       }
     ],
     "date": [
@@ -125,7 +136,7 @@
       }
     ],
     "title": [
-      "Analyzes the internal mechanisms of BERT to understand its decision-making process"
+      "A detailed analysis of what BERT learns and how to interpret it"
     ],
     "type": null
   },
@@ -134,30 +145,7 @@
       "6."
     ],
     "title": [
-      "**\"Dissecting Contextual Word Embeddings: Architecture and Representation\"** - Liu et al"
-    ],
-    "date": [
-      "2019"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Examines the representations learned by transformer models"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "7."
-    ],
-    "title": [
-      "**\"Attention is not Explanation\"**"
+      "**Attention is Not Explanation**"
     ],
     "publisher": [
       "Jain and Wallace"
@@ -174,62 +162,16 @@
       }
     ],
     "title": [
-      "Critiques the use of attention weights as a means of interpretability"
+      "Critiques the use of attention weights as explanations"
     ],
     "type": null
   },
   {
     "citation-number": [
-      "8."
+      "7."
     ],
     "title": [
-      "**\"Transformer Interpretability Beyond Attention Visualization\"** - Chefer et al"
-    ],
-    "date": [
-      "2021"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Proposes new methods for interpreting transformer models beyond attention maps"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "9."
-    ],
-    "title": [
-      "**\"Explaining Transformers as Bayesian Inference: Neural Architecture Induction\"** - Ravfogel et al"
-    ],
-    "date": [
-      "2021"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Provides a Bayesian perspective on transformer interpretability"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "10."
-    ],
-    "title": [
-      "**\"Analyzing the Structure of Attention in a Transformer Language Model\"**"
+      "**Dissecting Transformers: Understanding the Inner Workings of Transformer Models**"
     ],
     "date": [
       "2019"
@@ -246,7 +188,79 @@
       }
     ],
     "title": [
-      "Investigates the structure and function of attention heads in transformers"
+      "Analyzes the internal mechanisms of transformers"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "title": [
+      "**Interpretable Multi-Head Self-Attention via Visual Analytics** - Liu et al"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Proposes visual analytics techniques for interpreting multi-head self-attention"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "title": [
+      "**Towards a Rigorous Science of Interpretable Machine Learning**"
+    ],
+    "publisher": [
+      "Doshi-Velez and Kim"
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Discusses the broader context of interpretability in machine learning, relevant to transformers"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "title": [
+      "**Transformer Interpretability Beyond Attention Visualization** - Chefer et al"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Explores interpretability techniques beyond simple attention visualization"
     ],
     "type": null
   },
@@ -255,7 +269,156 @@
       "11."
     ],
     "title": [
-      "**\"Towards Transparent and Explainable Attention Models\"**"
+      "**Explaining Transformers' Predictions: An Empirical Study** - Vig et al"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Empirical study on explaining predictions made by transformer models"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "title": [
+      "**The Building Blocks of Interpretability** - Olah et al"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Discusses interpretability in neural networks, including transformers"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "title": [
+      "**Towards Interpretable NLP with Attention Attribution and Visualization**"
+    ],
+    "publisher": [
+      "Serrano and Smith"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Focuses on attention attribution methods for interpretability"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "author": [
+      {
+        "literal": "**Explaining BERT with SHAP** - Lundberg et al."
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Applies SHAP values to interpret BERT models"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "title": [
+      "**Interpretability in the Wild: A Circuit for Indirect Object Identification in GPT-2**"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "Elhage et al"
+    ]
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Case study on interpretability in GPT-2"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "title": [
+      "**Understanding and Improving Transformer From a Multi-Particle Dynamic System Point of View**"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "Wang et al"
+    ]
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Provides a novel perspective on understanding transformers"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "title": [
+      "**Towards Transparent and Explainable Attention Models**"
     ],
     "publisher": [
       "Wiegreffe and Pinter"
@@ -272,160 +435,7 @@
       }
     ],
     "title": [
-      "Discusses the transparency and explainability of attention mechanisms"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "12."
-    ],
-    "title": [
-      "**\"Probing Neural Network Comprehension of Natural Language Arguments\"**"
-    ],
-    "publisher": [
-      "Niven and Kao"
-    ],
-    "date": [
-      "2019"
-    ],
-    "type": "book"
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Probes the understanding of arguments in transformer models"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "13."
-    ],
-    "title": [
-      "**\"The Lottery Ticket Hypothesis for Pre-trained BERT Networks\"** - Chen et al"
-    ],
-    "date": [
-      "2020"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Explores the interpretability of BERT through the lens of the lottery ticket hypothesis"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "14."
-    ],
-    "title": [
-      "**\"Understanding Pre-trained BERT for Aspect-based Sentiment Analysis\"** - Sun et al"
-    ],
-    "date": [
-      "2019"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Analyzes BERT's performance and interpretability in sentiment analysis tasks"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "15."
-    ],
-    "author": [
-      {
-        "family": "At?",
-        "given": "What Does B.E.R.T.Look"
-      }
-    ],
-    "title": [
-      "An Analysis of BERT's Attention\"**"
-    ],
-    "date": [
-      "2019"
-    ],
-    "type": "article-journal",
-    "container-title": [
-      "Kovaleva et al"
-    ]
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Provides a detailed analysis of BERT's attention patterns"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "16."
-    ],
-    "title": [
-      "**\"Explaining Neural Networks with a Nonlinear Attribution Method\"**"
-    ],
-    "date": [
-      "2017"
-    ],
-    "type": "article-journal",
-    "container-title": [
-      "Sundararajan et al"
-    ]
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Introduces Integrated Gradients, a method for attributing model predictions to input features"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "17."
-    ],
-    "title": [
-      "**\"Contextual Decomposition for Neural Network Interpretability\"** - Murdoch et al"
-    ],
-    "date": [
-      "2018"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Proposes a method for decomposing neural network predictions to improve interpretability"
+      "Investigates the transparency and explainability of attention models"
     ],
     "type": null
   },
@@ -434,10 +444,10 @@
       "18."
     ],
     "title": [
-      "**\"Towards Robust and Interpretable Neural Networks\"** - Ross et al"
+      "**Interpretability of Transformer Models via Input Reduction** - Li et al"
     ],
     "date": [
-      "2017"
+      "2020"
     ],
     "type": null
   },
@@ -448,7 +458,7 @@
       }
     ],
     "title": [
-      "Discusses methods for improving the robustness and interpretability of neural networks"
+      "Proposes input reduction as a method for interpreting transformers"
     ],
     "type": null
   },
@@ -457,15 +467,12 @@
       "19."
     ],
     "title": [
-      "**\"Evaluating and Improving the Interpretability of Transformer Models\"**"
+      "**Interpretable and Explainable Transformers: A Survey** - Lin et al"
     ],
     "date": [
-      "2020"
+      "2023"
     ],
-    "type": "article-journal",
-    "container-title": [
-      "Lin et al"
-    ]
+    "type": null
   },
   {
     "author": [
@@ -474,7 +481,7 @@
       }
     ],
     "title": [
-      "Proposes evaluation metrics and methods for improving transformer interpretability"
+      "A comprehensive survey of interpretability and explainability techniques for transformers"
     ],
     "type": null
   },
@@ -483,10 +490,10 @@
       "20."
     ],
     "title": [
-      "**\"Transformers as Meta-Learners for Implicit Neural Representations\"** - Sitzmann et al"
+      "**Explaining Transformers in a Human-Friendly Way** - Zhang et al"
     ],
     "date": [
-      "2020"
+      "2024"
     ],
     "type": null
   },
@@ -497,13 +504,13 @@
       }
     ],
     "title": [
-      "Explores the use of transformers in meta-learning and their interpretability in this context"
+      "Recent advancements in making transformer explanations more accessible to non-experts"
     ],
     "type": null
   },
   {
     "title": [
-      "These articles cover a range of topics related to the interpretability of transformer models, from foundational concepts to advanced techniques and critiques. They provide a comprehensive overview of the current state of research in this area"
+      "These articles should provide a solid foundation and up-to-date insights into the interpretability of transformer models"
     ],
     "type": null
   }

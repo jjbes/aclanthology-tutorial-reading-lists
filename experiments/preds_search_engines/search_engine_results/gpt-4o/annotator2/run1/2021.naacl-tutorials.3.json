@@ -1,17 +1,12 @@
 [
   {
-    "author": [
-      {
-        "given": "Certainly!"
-      }
-    ],
     "title": [
-      "Here is a list of 20 influential articles on Graph Neural Networks (GNNs"
+      "Sure, here is a reading list of 20 articles on Graph Neural Networks (GNNs"
     ],
-    "note": [
-      "applied to Natural Language Processing (NLP) tasks, published before 2022:"
+    "container-title": [
+      "for solving Natural Language Processing (NLP) tasks, up to 2021"
     ],
-    "type": null
+    "type": "chapter"
   },
   {
     "citation-number": [
@@ -28,50 +23,22 @@
       }
     ],
     "date": [
-      "2017",
       "2017"
     ],
     "title": [
       "Semi-Supervised Classification with Graph Convolutional Networks"
     ],
-    "type": "article-journal",
-    "container-title": [
-      "*ICLR"
-    ]
+    "note": [
+      "*arXiv preprint arXiv:1609.02907.*"
+    ],
+    "arxiv": [
+      "1609.02907"
+    ],
+    "type": null
   },
   {
     "citation-number": [
       "2."
-    ],
-    "author": [
-      {
-        "family": "Hamilton",
-        "given": "W.L."
-      },
-      {
-        "family": "Ying",
-        "given": "Z."
-      },
-      {
-        "family": "Leskovec",
-        "given": "J."
-      }
-    ],
-    "date": [
-      "2017",
-      "2017"
-    ],
-    "title": [
-      "Inductive Representation Learning on Large Graphs"
-    ],
-    "type": "article-journal",
-    "container-title": [
-      "*NeurIPS"
-    ]
-  },
-  {
-    "citation-number": [
-      "3."
     ],
     "author": [
       {
@@ -100,20 +67,22 @@
       }
     ],
     "date": [
-      "2018",
       "2018"
     ],
     "title": [
       "Graph Attention Networks"
     ],
-    "type": "article-journal",
-    "container-title": [
-      "*ICLR"
-    ]
+    "note": [
+      "*arXiv preprint arXiv:1710.10903.*"
+    ],
+    "arxiv": [
+      "1710.10903"
+    ],
+    "type": null
   },
   {
     "citation-number": [
-      "4."
+      "3."
     ],
     "author": [
       {
@@ -130,46 +99,47 @@
       }
     ],
     "date": [
-      "2019",
       "2019"
     ],
     "title": [
       "Graph Convolutional Networks for Text Classification"
     ],
-    "type": "article-journal",
     "container-title": [
-      "*AAAI"
-    ]
+      "*Proceedings of the AAAI Conference on Artificial Intelligence.*"
+    ],
+    "type": "paper-conference"
   },
   {
     "citation-number": [
-      "5."
+      "4."
     ],
     "author": [
       {
         "family": "Zhang",
-        "given": "M."
+        "given": "Y."
       },
       {
-        "family": "Chen",
-        "given": "Y."
+        "family": "Yang",
+        "given": "Q."
       }
     ],
     "date": [
-      "2018",
       "2018"
     ],
     "title": [
-      "Link Prediction Based on Graph Neural Networks"
+      "An Overview of Multi-Task Learning in Deep Neural Networks"
     ],
-    "type": "article-journal",
-    "container-title": [
-      "*NeurIPS"
-    ]
+    "note": [
+      "*arXiv preprint arXiv:1706.05098.*"
+    ],
+    "arxiv": [
+      "1706.05098"
+    ],
+    "type": null
   },
   {
     "citation-number": [
-      "6."
+      "5."
     ],
     "author": [
       {
@@ -192,144 +162,20 @@
     "date": [
       "2019"
     ],
-    "container-title": [
-      "\"How Powerful are Graph Neural Networks?\" *ICLR 2019.*"
-    ],
-    "type": "chapter"
-  },
-  {
-    "citation-number": [
-      "7."
-    ],
-    "author": [
-      {
-        "family": "Wu",
-        "given": "F."
-      },
-      {
-        "family": "Souza",
-        "given": "A."
-      },
-      {
-        "family": "Zhang",
-        "given": "T."
-      },
-      {
-        "family": "Fifty",
-        "given": "C."
-      },
-      {
-        "family": "Yu",
-        "given": "T."
-      },
-      {
-        "family": "Weinberger",
-        "given": "K.Q."
-      }
-    ],
-    "date": [
-      "2019"
-    ],
     "title": [
-      "Simplifying Graph Convolutional Networks"
+      "How Powerful are Graph Neural Networks?"
     ],
-    "container-title": [
-      "*ICML 2019.*"
+    "note": [
+      "*arXiv preprint arXiv:1810.00826.*"
     ],
-    "type": "chapter"
+    "arxiv": [
+      "1810.00826"
+    ],
+    "type": null
   },
   {
     "citation-number": [
-      "8."
-    ],
-    "author": [
-      {
-        "family": "Zhang",
-        "given": "X."
-      },
-      {
-        "family": "Lu",
-        "given": "J."
-      }
-    ],
-    "date": [
-      "2019"
-    ],
-    "title": [
-      "Deep Graph-Topic Neural Network"
-    ],
-    "container-title": [
-      "*IJCAI 2019.*"
-    ],
-    "type": "chapter"
-  },
-  {
-    "citation-number": [
-      "9."
-    ],
-    "author": [
-      {
-        "family": "Bastings",
-        "given": "J."
-      },
-      {
-        "family": "Titov",
-        "given": "I."
-      },
-      {
-        "family": "Aziz",
-        "given": "W."
-      },
-      {
-        "family": "Marcheggiani",
-        "given": "D."
-      },
-      {
-        "family": "Sima'an",
-        "given": "K."
-      }
-    ],
-    "date": [
-      "2017",
-      "2017"
-    ],
-    "title": [
-      "Graph Convolutional Encoders for Syntax-aware Neural Machine Translation"
-    ],
-    "type": "article-journal",
-    "container-title": [
-      "*EMNLP"
-    ]
-  },
-  {
-    "citation-number": [
-      "10."
-    ],
-    "author": [
-      {
-        "family": "Marcheggiani",
-        "given": "D."
-      },
-      {
-        "family": "Titov",
-        "given": "I."
-      }
-    ],
-    "date": [
-      "2017",
-      "2017"
-    ],
-    "title": [
-      "Encoding Sentences with Graph Convolutional Networks for Semantic Role Labeling"
-    ],
-    "type": "article-journal",
-    "container-title": [
-      "*EMNLP"
-    ]
-  },
-  {
-    "citation-number": [
-      "11."
+      "6."
     ],
     "author": [
       {
@@ -350,50 +196,128 @@
       }
     ],
     "date": [
-      "2020",
       "2020"
     ],
     "title": [
       "Deep Learning Based Recommender System: A Survey and New Perspectives"
     ],
-    "type": "article-journal",
     "container-title": [
-      "*ACM Computing Surveys"
-    ]
+      "*ACM Computing Surveys (CSUR).*"
+    ],
+    "type": "chapter"
   },
   {
     "citation-number": [
-      "12."
+      "7."
     ],
     "author": [
       {
-        "family": "Cai",
-        "given": "H."
+        "family": "Wu",
+        "given": "Z."
       },
       {
-        "family": "Zheng",
-        "given": "V.W."
+        "family": "Pan",
+        "given": "S."
       },
       {
-        "family": "Chang",
-        "given": "K.C."
+        "family": "Chen",
+        "given": "F."
+      },
+      {
+        "family": "Long",
+        "given": "G."
+      },
+      {
+        "family": "Zhang",
+        "given": "C."
+      },
+      {
+        "family": "Yu",
+        "given": "P.S."
       }
     ],
     "date": [
-      "2018",
-      "2018"
+      "2020"
     ],
     "title": [
-      "A Comprehensive Survey of Graph Embedding: Problems, Techniques, and Applications"
+      "A Comprehensive Survey on Graph Neural Networks"
     ],
-    "type": "article-journal",
     "container-title": [
-      "*IEEE Transactions on Knowledge and Data Engineering"
-    ]
+      "*IEEE Transactions on Neural Networks and Learning Systems.*"
+    ],
+    "type": "chapter"
   },
   {
     "citation-number": [
-      "13."
+      "8."
+    ],
+    "author": [
+      {
+        "family": "Mikolov",
+        "given": "T."
+      },
+      {
+        "family": "Chen",
+        "given": "K."
+      },
+      {
+        "family": "Corrado",
+        "given": "G."
+      },
+      {
+        "family": "Dean",
+        "given": "J."
+      }
+    ],
+    "date": [
+      "2013"
+    ],
+    "title": [
+      "Efficient Estimation of Word Representations in Vector Space"
+    ],
+    "note": [
+      "*arXiv preprint arXiv:1301.3781.*"
+    ],
+    "arxiv": [
+      "1301.3781"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "author": [
+      {
+        "family": "Hamilton",
+        "given": "W.L."
+      },
+      {
+        "family": "Ying",
+        "given": "R."
+      },
+      {
+        "family": "Leskovec",
+        "given": "J."
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "title": [
+      "Inductive Representation Learning on Large Graphs"
+    ],
+    "note": [
+      "*arXiv preprint arXiv:1706.02216.*"
+    ],
+    "arxiv": [
+      "1706.02216"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
     ],
     "author": [
       {
@@ -414,42 +338,22 @@
       }
     ],
     "date": [
-      "2016",
       "2016"
     ],
     "title": [
       "Gated Graph Sequence Neural Networks"
     ],
-    "type": "article-journal",
-    "container-title": [
-      "*ICLR"
-    ]
+    "note": [
+      "*arXiv preprint arXiv:1511.05493.*"
+    ],
+    "arxiv": [
+      "1511.05493"
+    ],
+    "type": null
   },
   {
     "citation-number": [
-      "14."
-    ],
-    "author": [
-      {
-        "family": "Micheli",
-        "given": "A."
-      }
-    ],
-    "date": [
-      "2009",
-      "2009"
-    ],
-    "title": [
-      "Neural Network for Graphs: A Contextual Constructive Approach"
-    ],
-    "type": "article-journal",
-    "container-title": [
-      "*IEEE Transactions on Neural Networks"
-    ]
-  },
-  {
-    "citation-number": [
-      "15."
+      "11."
     ],
     "author": [
       {
@@ -466,20 +370,110 @@
       }
     ],
     "date": [
-      "2016",
       "2016"
     ],
     "title": [
       "Convolutional Neural Networks on Graphs with Fast Localized Spectral Filtering"
     ],
+    "note": [
+      "*arXiv preprint arXiv:1606.09375.*"
+    ],
+    "arxiv": [
+      "1606.09375"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "author": [
+      {
+        "family": "Vaswani",
+        "given": "A."
+      },
+      {
+        "family": "Shazeer",
+        "given": "N."
+      },
+      {
+        "family": "Parmar",
+        "given": "N."
+      },
+      {
+        "family": "Uszkoreit",
+        "given": "J."
+      },
+      {
+        "family": "Jones",
+        "given": "L."
+      },
+      {
+        "family": "Gomez",
+        "given": "A.N."
+      },
+      {
+        "family": "Polosukhin",
+        "given": "I."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "title": [
+      "Attention is All You Need"
+    ],
+    "note": [
+      "*arXiv preprint arXiv:1706.03762.*"
+    ],
+    "arxiv": [
+      "1706.03762"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "author": [
+      {
+        "family": "Scarselli",
+        "given": "F."
+      },
+      {
+        "family": "Gori",
+        "given": "M."
+      },
+      {
+        "family": "Tsoi",
+        "given": "A.C."
+      },
+      {
+        "family": "Hagenbuchner",
+        "given": "M."
+      },
+      {
+        "family": "Monfardini",
+        "given": "G."
+      }
+    ],
+    "date": [
+      "2008"
+    ],
+    "title": [
+      "The Graph Neural Network Model"
+    ],
     "type": "article-journal",
     "container-title": [
-      "*NeurIPS"
+      "*IEEE Transactions on Neural Networks.*"
     ]
   },
   {
     "citation-number": [
-      "16."
+      "14."
     ],
     "author": [
       {
@@ -515,50 +509,25 @@
       }
     ],
     "date": [
-      "2020",
       "2020"
     ],
     "title": [
       "Graph Neural Networks"
     ],
+    "note": [
+      "*arXiv preprint arXiv:1812.08434.*"
+    ],
     "type": "article-journal",
     "container-title": [
-      "A Review of Methods and Applications.\" *AI Open"
+      "A Review of Methods and Applications.\""
+    ],
+    "arxiv": [
+      "1812.08434"
     ]
   },
   {
     "citation-number": [
-      "17."
-    ],
-    "author": [
-      {
-        "family": "Chen",
-        "given": "J."
-      },
-      {
-        "family": "Ma",
-        "given": "T."
-      },
-      {
-        "family": "Xiao",
-        "given": "C."
-      }
-    ],
-    "date": [
-      "2018",
-      "2018"
-    ],
-    "title": [
-      "FastGCN: Fast Learning with Graph Convolutional Networks via Importance Sampling"
-    ],
-    "type": "article-journal",
-    "container-title": [
-      "*ICLR"
-    ]
-  },
-  {
-    "citation-number": [
-      "18."
+      "15."
     ],
     "author": [
       {
@@ -566,16 +535,16 @@
         "given": "J."
       },
       {
-        "family": "Dong",
-        "given": "Y."
+        "family": "Tang",
+        "given": "J."
       },
       {
         "family": "Ma",
         "given": "H."
       },
       {
-        "family": "Li",
-        "given": "J."
+        "family": "Dong",
+        "given": "Y."
       },
       {
         "family": "Wang",
@@ -587,20 +556,19 @@
       }
     ],
     "date": [
-      "2018",
       "2018"
     ],
     "title": [
-      "Network Embedding as Matrix Factorization: Unifying DeepWalk, LINE, PTE, and Node2vec"
+      "DeepInf: Social Influence Prediction with Deep Learning"
     ],
-    "type": "article-journal",
     "container-title": [
-      "*WSDM"
-    ]
+      "*Proceedings of the 24th ACM SIGKDD International Conference on Knowledge Discovery & Data Mining.*"
+    ],
+    "type": "paper-conference"
   },
   {
     "citation-number": [
-      "19."
+      "16."
     ],
     "author": [
       {
@@ -613,16 +581,120 @@
       }
     ],
     "date": [
-      "2018",
       "2018"
     ],
     "title": [
       "Link Prediction Based on Graph Neural Networks"
     ],
-    "type": "article-journal",
+    "note": [
+      "*arXiv preprint arXiv:1802.09691.*"
+    ],
+    "arxiv": [
+      "1802.09691"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "author": [
+      {
+        "family": "Liu",
+        "given": "Q."
+      },
+      {
+        "family": "Wu",
+        "given": "S."
+      },
+      {
+        "family": "Wang",
+        "given": "L."
+      },
+      {
+        "family": "Tan",
+        "given": "T."
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "title": [
+      "Predicting the Next Location: A Recurrent Model with Spatial and Temporal Contexts"
+    ],
     "container-title": [
-      "*NeurIPS"
-    ]
+      "*Proceedings of the AAAI Conference on Artificial Intelligence.*"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "author": [
+      {
+        "family": "Zhou",
+        "given": "C."
+      },
+      {
+        "family": "Sun",
+        "given": "Y."
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "title": [
+      "GIN: Graph Interaction Network for Interpretable Document Classification"
+    ],
+    "note": [
+      "*arXiv preprint arXiv:1808.06354.*"
+    ],
+    "arxiv": [
+      "1808.06354"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "author": [
+      {
+        "family": "Chen",
+        "given": "H."
+      },
+      {
+        "family": "Yin",
+        "given": "H."
+      },
+      {
+        "family": "Hu",
+        "given": "Z."
+      },
+      {
+        "family": "Wang",
+        "given": "H."
+      },
+      {
+        "family": "Wang",
+        "given": "W."
+      },
+      {
+        "family": "Nguyen",
+        "given": "Q.V.H."
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "title": [
+      "Exploiting Centrality Information with Graph Convolutional Networks for Network Representation Learning"
+    ],
+    "container-title": [
+      "*Proceedings of the 26th ACM SIGKDD International Conference on Knowledge Discovery & Data Mining.*"
+    ],
+    "type": "paper-conference"
   },
   {
     "citation-number": [
@@ -630,37 +702,32 @@
     ],
     "author": [
       {
-        "family": "Zhu",
-        "given": "J."
+        "family": "Cai",
+        "given": "H."
       },
       {
-        "family": "Yan",
-        "given": "Y."
+        "family": "Zheng",
+        "given": "V.W."
       },
       {
-        "family": "Zhao",
-        "given": "L."
-      },
-      {
-        "family": "Li",
-        "given": "Z."
+        "family": "Chang",
+        "given": "K.C.C."
       }
     ],
     "date": [
-      "2019",
-      "2019"
+      "2018"
     ],
     "title": [
-      "Graph Neural Networks with Generated Parameters for Relation Extraction"
+      "A Comprehensive Survey of Graph Embedding: Problems, Techniques, and Applications"
     ],
     "type": "article-journal",
     "container-title": [
-      "*ACL"
+      "*IEEE Transactions on Knowledge and Data Engineering.*"
     ]
   },
   {
     "title": [
-      "These articles cover a range of topics within the intersection of GNNs and NLP, including text classification, machine translation, semantic role labeling, and more. They provide a solid foundation for understanding how GNNs can be applied to various NLP tasks"
+      "These articles cover a range of topics from foundational concepts in GNNs to their application in various NLP tasks. They provide a solid foundation for understanding how GNNs can be leveraged in the field of NLP"
     ],
     "type": null
   }

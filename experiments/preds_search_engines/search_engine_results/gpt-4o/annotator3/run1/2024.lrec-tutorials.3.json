@@ -1,12 +1,17 @@
 [
   {
+    "author": [
+      {
+        "given": "Certainly!"
+      }
+    ],
     "title": [
-      "Sure, here is a reading list of 20 articles on meaning representation in the context of natural language processing (NLP), covering different representation techniques and their applications in downstream tasks"
+      "Here's a curated reading list of 20 articles up to 2024 that focus on meaning representation in the context of natural language processing (NLP"
     ],
-    "container-title": [
-      "These articles are selected to provide a comprehensive understanding of the field up to 2025"
+    "note": [
+      "different representation techniques, and their applications in downstream tasks:"
     ],
-    "type": "chapter"
+    "type": null
   },
   {
     "citation-number": [
@@ -14,11 +19,31 @@
     ],
     "author": [
       {
+        "literal": "**\"Attention Is All You Need\"** - Vaswani et al."
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* Introduces the Transformer model, which has become foundational in modern NLP"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "author": [
+      {
         "given": "B.E.R.T."
       }
     ],
     "title": [
-      "Pre-training of Deep Bidirectional Transformers for Language Understanding\"** by Jacob Devlin et al"
+      "Pre-training of Deep Bidirectional Transformers for Language Understanding\"** - Devlin et al"
     ],
     "date": [
       "2019"
@@ -28,34 +53,12 @@
   {
     "author": [
       {
-        "literal": "-"
+        "family": "Presents",
+        "given": "B.E.R.T."
       }
     ],
     "title": [
-      "This paper introduces BERT, a model that has significantly influenced NLP by providing deep bidirectional representations"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "2."
-    ],
-    "title": [
-      "**\"Attention is All You Need\"** by Ashish Vaswani et al"
-    ],
-    "date": [
-      "2017"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "This foundational paper introduces the Transformer architecture, which has become the basis for many modern NLP models"
+      "a model that has set new benchmarks in various NLP tasks"
     ],
     "type": null
   },
@@ -64,24 +67,16 @@
       "3."
     ],
     "title": [
-      "**\"GPT-3: Language Models are Few-Shot Learners\"** by Tom B"
+      "**\"XLNet: Generalized Autoregressive Pretraining for Language Understanding\"** - Yang et al"
     ],
     "date": [
-      "2020"
+      "2019"
     ],
-    "type": "article-journal",
-    "container-title": [
-      "Brown et al"
-    ]
+    "type": null
   },
   {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
     "title": [
-      "This paper presents GPT-3, a large-scale language model that demonstrates the power of pre-trained models in various NLP tasks"
+      "* Discusses XLNet, which improves upon BERT by leveraging autoregressive pretraining"
     ],
     "type": null
   },
@@ -90,21 +85,16 @@
       "4."
     ],
     "title": [
-      "**\"Universal Language Model Fine-tuning for Text Classification\"** by Jeremy Howard and Sebastian Ruder"
+      "**\"RoBERTa: A Robustly Optimized BERT Pretraining Approach\"** - Liu et al"
     ],
     "date": [
-      "2018"
+      "2019"
     ],
     "type": null
   },
   {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
     "title": [
-      "This paper discusses ULMFiT, a transfer learning approach for NLP that fine-tunes pre-trained language models for specific tasks"
+      "* Enhances BERT by optimizing its pretraining process"
     ],
     "type": null
   },
@@ -113,21 +103,19 @@
       "5."
     ],
     "title": [
-      "**\"XLNet: Generalized Autoregressive Pretraining for Language Understanding\"** by Zhilin Yang et al"
+      "**\"GPT-3: Language Models are Few-Shot Learners\"**"
+    ],
+    "publisher": [
+      "Brown et al"
     ],
     "date": [
-      "2019"
+      "2020"
     ],
-    "type": null
+    "type": "book"
   },
   {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
     "title": [
-      "XLNet improves upon BERT by using a permutation-based training objective, enhancing performance on several NLP benchmarks"
+      "* Introduces GPT-3, a model known for its impressive few-shot learning capabilities"
     ],
     "type": null
   },
@@ -136,21 +124,19 @@
       "6."
     ],
     "title": [
-      "**\"RoBERTa: A Robustly Optimized BERT Pretraining Approach\"** by Yinhan Liu et al"
+      "**\"T5: Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer\"**"
     ],
     "date": [
-      "2019"
+      "2020"
     ],
-    "type": null
+    "type": "article-journal",
+    "container-title": [
+      "Raffel et al"
+    ]
   },
   {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
     "title": [
-      "This paper presents RoBERTa, an optimized version of BERT that achieves state-of-the-art results on multiple NLP tasks"
+      "* Proposes T5, a model that frames all NLP tasks as text-to-text transformations"
     ],
     "type": null
   },
@@ -158,22 +144,25 @@
     "citation-number": [
       "7."
     ],
+    "author": [
+      {
+        "given": "E.L.E.C.T.R.A."
+      }
+    ],
     "title": [
-      "**\"T5: Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer\"** by Colin Raffel et al"
+      "Pre-training Text Encoders as Discriminators Rather Than Generators\"**"
+    ],
+    "publisher": [
+      "Clark et al"
     ],
     "date": [
       "2020"
     ],
-    "type": null
+    "type": "book"
   },
   {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
     "title": [
-      "T5 frames all NLP tasks as text-to-text problems, demonstrating the versatility of this approach across various applications"
+      "* Introduces ELECTRA, which pre-trains text encoders more efficiently than traditional methods"
     ],
     "type": null
   },
@@ -182,21 +171,19 @@
       "8."
     ],
     "title": [
-      "**\"ALBERT: A Lite BERT for Self-supervised Learning of Language Representations\"** by Zhenzhong Lan et al"
+      "**\"ALBERT: A Lite BERT for Self-supervised Learning of Language Representations\"**"
     ],
     "date": [
-      "2019"
+      "2020"
     ],
-    "type": null
+    "type": "article-journal",
+    "container-title": [
+      "Lan et al"
+    ]
   },
   {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
     "title": [
-      "ALBERT reduces the memory footprint and increases the training speed of BERT while maintaining performance"
+      "* Presents ALBERT, a lighter and more efficient version of BERT"
     ],
     "type": null
   },
@@ -204,27 +191,17 @@
     "citation-number": [
       "9."
     ],
-    "author": [
-      {
-        "given": "E.R.N.I.E."
-      }
-    ],
     "title": [
-      "Enhanced Representation through Knowledge Integration\"** by Yu Sun et al"
+      "**\"DeBERTa: Decoding-enhanced BERT with Disentangled Attention\"** - He et al"
     ],
     "date": [
-      "2019"
+      "2021"
     ],
     "type": null
   },
   {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
     "title": [
-      "ERNIE incorporates external knowledge into pre-trained language models, improving their understanding of complex language"
+      "* Enhances BERT with disentangled attention mechanisms"
     ],
     "type": null
   },
@@ -234,25 +211,23 @@
     ],
     "author": [
       {
-        "given": "E.L.E.C.T.R.A."
+        "given": "B.A.R.T."
       }
     ],
     "title": [
-      "Pre-training Text Encoders as Discriminators Rather Than Generators\"** by Kevin Clark et al"
+      "Denoising Sequence-to-Sequence Pre-training for Natural Language Generation, Translation, and Comprehension\"**"
+    ],
+    "publisher": [
+      "Lewis et al"
     ],
     "date": [
       "2020"
     ],
-    "type": null
+    "type": "book"
   },
   {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
     "title": [
-      "ELECTRA introduces a new pre-training method that is more sample-efficient than traditional masked language modeling"
+      "* Introduces BART, a model for sequence-to-sequence tasks"
     ],
     "type": null
   },
@@ -260,22 +235,22 @@
     "citation-number": [
       "11."
     ],
+    "author": [
+      {
+        "given": "E.R.N.I.E."
+      }
+    ],
     "title": [
-      "**\"SpanBERT: Improving Pre-training by Representing and Predicting Spans\"** by Mandar Joshi et al"
+      "Enhanced Representation through Knowledge Integration\"** - Sun et al"
     ],
     "date": [
-      "2020"
+      "2019"
     ],
     "type": null
   },
   {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
     "title": [
-      "SpanBERT focuses on span-level predictions, enhancing performance on tasks like question answering and coreference resolution"
+      "* Discusses ERNIE, which integrates external knowledge into language models"
     ],
     "type": null
   },
@@ -284,21 +259,19 @@
       "12."
     ],
     "title": [
-      "**\"DeBERTa: Decoding-enhanced BERT with Disentangled Attention\"** by Pengcheng He et al"
+      "**\"SpanBERT: Improving Pre-training by Representing and Predicting Spans\"**"
     ],
     "date": [
       "2020"
     ],
-    "type": null
+    "type": "article-journal",
+    "container-title": [
+      "Joshi et al"
+    ]
   },
   {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
     "title": [
-      "DeBERTa improves BERT by disentangling attention mechanisms, leading to better contextual representations"
+      "* Enhances BERT by focusing on span-level predictions"
     ],
     "type": null
   },
@@ -306,13 +279,8 @@
     "citation-number": [
       "13."
     ],
-    "author": [
-      {
-        "given": "B.A.R.T."
-      }
-    ],
     "title": [
-      "Denoising Sequence-to-Sequence Pre-training for Natural Language Generation, Translation, and Comprehension\"** by Mike Lewis et al"
+      "**\"Longformer: The Long-Document Transformer\"** - Beltagy et al"
     ],
     "date": [
       "2020"
@@ -320,13 +288,8 @@
     "type": null
   },
   {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
     "title": [
-      "BART combines the benefits of BERT and GPT, excelling in both generation and comprehension tasks"
+      "* Adapts the Transformer architecture for long documents"
     ],
     "type": null
   },
@@ -335,21 +298,16 @@
       "14."
     ],
     "title": [
-      "**\"DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter\"** by Victor Sanh et al"
+      "**\"Reformer: The Efficient Transformer\"** - Kitaev et al"
     ],
     "date": [
-      "2019"
+      "2020"
     ],
     "type": null
   },
   {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
     "title": [
-      "DistilBERT reduces the size of BERT while retaining most of its performance, making it more efficient for practical applications"
+      "* Proposes Reformer, which reduces the computational complexity of Transformers"
     ],
     "type": null
   },
@@ -358,21 +316,16 @@
       "15."
     ],
     "title": [
-      "**\"Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks\"** by Nils Reimers and Iryna Gurevych"
+      "**\"BigBird: Transformers for Longer Sequences\"** - Zaheer et al"
     ],
     "date": [
-      "2019"
+      "2020"
     ],
     "type": null
   },
   {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
     "title": [
-      "Sentence-BERT adapts BERT for producing high-quality sentence embeddings, useful for tasks like semantic similarity and clustering"
+      "* Introduces BigBird, which handles longer sequences more efficiently"
     ],
     "type": null
   },
@@ -381,21 +334,19 @@
       "16."
     ],
     "title": [
-      "**\"GloVe: Global Vectors for Word Representation\"** by Jeffrey Pennington et al"
+      "**\"Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks\"**"
+    ],
+    "publisher": [
+      "Reimers and Gurevych"
     ],
     "date": [
-      "2014"
+      "2019"
     ],
-    "type": null
+    "type": "book"
   },
   {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
     "title": [
-      "GloVe provides a method for generating word embeddings based on global word co-occurrence statistics"
+      "* Adapts BERT for generating sentence embeddings"
     ],
     "type": null
   },
@@ -403,27 +354,17 @@
     "citation-number": [
       "17."
     ],
-    "author": [
-      {
-        "given": "ELMo"
-      }
-    ],
     "title": [
-      "Deep contextualized word representations\"** by Matthew Peters et al"
+      "**\"SimCSE: Simple Contrastive Learning of Sentence Embeddings\"** - Gao et al"
     ],
     "date": [
-      "2018"
+      "2021"
     ],
     "type": null
   },
   {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
     "title": [
-      "ELMo generates context-sensitive word embeddings, capturing the meaning of words in different contexts"
+      "* Proposes a contrastive learning approach for sentence embeddings"
     ],
     "type": null
   },
@@ -432,21 +373,19 @@
       "18."
     ],
     "title": [
-      "**\"FastText.zip: Compressing text classification models\"** by Edouard Grave et al"
+      "**\"Universal Sentence Encoder\"**"
+    ],
+    "publisher": [
+      "Cer et al"
     ],
     "date": [
-      "2017"
+      "2018"
     ],
-    "type": null
+    "type": "book"
   },
   {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
     "title": [
-      "FastText offers efficient word representations and text classification models, suitable for large-scale applications"
+      "* Introduces a model for generating universal sentence embeddings"
     ],
     "type": null
   },
@@ -454,27 +393,17 @@
     "citation-number": [
       "19."
     ],
-    "author": [
-      {
-        "given": "Word2Vec"
-      }
-    ],
     "title": [
-      "Efficient Estimation of Word Representations in Vector Space\"** by Tomas Mikolov et al"
+      "**\"GloVe: Global Vectors for Word Representation\"** - Pennington et al"
     ],
     "date": [
-      "2013"
+      "2014"
     ],
     "type": null
   },
   {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
     "title": [
-      "Word2Vec is a seminal work in word embeddings, introducing the skip-gram and continuous bag-of-words models"
+      "* Discusses GloVe, a method for word vector representation"
     ],
     "type": null
   },
@@ -483,28 +412,29 @@
       "20."
     ],
     "title": [
-      "**\"Transformers in Vision: A Survey\"** by Salman Khan et al"
+      "**\"FastText: Efficient Learning of Word Representations and Sentence Classification\"**"
     ],
     "date": [
-      "2021"
+      "2017"
     ],
-    "type": null
+    "type": "article-journal",
+    "container-title": [
+      "Joulin et al"
+    ]
   },
   {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
     "title": [
-      "Although focused on vision, this survey provides insights into the cross-domain applications of Transformer models, relevant for understanding their versatility"
+      "* Presents FastText, a model for efficient word representation and text classification"
     ],
     "type": null
   },
   {
     "title": [
-      "These articles cover a range of topics from foundational models and techniques to specific applications and optimizations in NLP. They provide a solid foundation for understanding the current state and future directions of meaning representation in NLP"
+      "These articles cover a range of topics from foundational models like Transformers and BERT to more specialized techniques like sentence embeddings and efficient transformers"
     ],
-    "type": null
+    "container-title": [
+      "They also explore various applications in downstream tasks such as text classification, translation, and comprehension"
+    ],
+    "type": "chapter"
   }
 ]

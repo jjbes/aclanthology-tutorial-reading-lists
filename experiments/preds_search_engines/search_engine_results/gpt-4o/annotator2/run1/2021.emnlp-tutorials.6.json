@@ -6,7 +6,7 @@
       }
     ],
     "title": [
-      "Here is a reading list of 20 articles published before 2022 that focus on the use of syntax in end-to-end models for semantic role labeling"
+      "Here is a curated list of 20 articles up to 2021 that focus on the use of syntax in end-to-end models for semantic role labeling"
     ],
     "note": [
       "SRL) and machine translation (MT):"
@@ -23,31 +23,6 @@
     "citation-number": [
       "1."
     ],
-    "title": [
-      "**\"End-to-End Learning of Semantic Role Labeling Using Recurrent Neural Networks\"**"
-    ],
-    "author": [
-      {
-        "family": "Zhou",
-        "given": "J."
-      },
-      {
-        "family": "Xu",
-        "given": "W."
-      }
-    ],
-    "date": [
-      "2015"
-    ],
-    "container-title": [
-      "*Proceedings of the 53rd Annual Meeting of the Association for Computational Linguistics (ACL)*"
-    ],
-    "type": "paper-conference"
-  },
-  {
-    "citation-number": [
-      "2."
-    ],
     "author": [
       {
         "literal": "**\"Deep Semantic Role Labeling: What Works and What's Next\"** - He, L., Lee, K., Lewis, M., & Zettlemoyer, L."
@@ -57,13 +32,13 @@
       "2017"
     ],
     "container-title": [
-      "*Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics (ACL)*"
+      "*Proceedings of the Annual Meeting of the Association for Computational Linguistics (ACL)*"
     ],
     "type": "paper-conference"
   },
   {
     "citation-number": [
-      "3."
+      "2."
     ],
     "author": [
       {
@@ -74,7 +49,32 @@
       "2018"
     ],
     "container-title": [
-      "*Proceedings of the 2018 Conference of the North American Chapter of the Association for Computational Linguistics (NAACL)*"
+      "*Proceedings of the Conference of the North American Chapter of the Association for Computational Linguistics (NAACL)*"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "title": [
+      "**\"End-to-End Neural Semantic Role Labeling with Dependency-Aware Attention\"**"
+    ],
+    "author": [
+      {
+        "family": "Marcheggiani",
+        "given": "D."
+      },
+      {
+        "family": "Titov",
+        "given": "I."
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "container-title": [
+      "*Proceedings of the Annual Meeting of the Association for Computational Linguistics (ACL)*"
     ],
     "type": "paper-conference"
   },
@@ -96,10 +96,10 @@
       }
     ],
     "date": [
-      "2018"
+      "2019"
     ],
     "container-title": [
-      "*Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (ACL)*"
+      "*Proceedings of the Annual Meeting of the Association for Computational Linguistics (ACL)*"
     ],
     "type": "paper-conference"
   },
@@ -109,14 +109,14 @@
     ],
     "author": [
       {
-        "literal": "**\"A Unified Syntax-aware Framework for Semantic Role Labeling\"** - Li, X., & Ji, H."
+        "literal": "**\"Syntax for Semantic Role Labeling, To Be, Or Not To Be\"** - Cai, J., & Lapata, M."
       }
     ],
     "date": [
-      "2020"
+      "2019"
     ],
     "container-title": [
-      "*Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics (ACL)*"
+      "*Proceedings of the Annual Meeting of the Association for Computational Linguistics (ACL)*"
     ],
     "type": "paper-conference"
   },
@@ -126,62 +126,20 @@
     ],
     "author": [
       {
-        "literal": "**\"Syntax-Enhanced Self-Attention-Based Semantic Role Labeling\"** - Cai, D., & Lam, W."
+        "literal": "**\"A Unified Syntax-aware Framework for Semantic Role Labeling\"** - Li, X., Li, Y., & Ji, H."
       }
     ],
     "date": [
       "2020"
     ],
     "container-title": [
-      "*Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics (ACL)*"
+      "*Proceedings of the Annual Meeting of the Association for Computational Linguistics (ACL)*"
     ],
     "type": "paper-conference"
   },
   {
     "citation-number": [
       "7."
-    ],
-    "title": [
-      "**\"Exploiting Syntax for Semantic Role Labeling with Graph Neural Networks\"**"
-    ],
-    "author": [
-      {
-        "family": "Marcheggiani",
-        "given": "D."
-      },
-      {
-        "family": "Titov",
-        "given": "I."
-      }
-    ],
-    "date": [
-      "2017"
-    ],
-    "container-title": [
-      "*Proceedings of the 2017 Conference on Empirical Methods in Natural Language Processing (EMNLP)*"
-    ],
-    "type": "paper-conference"
-  },
-  {
-    "citation-number": [
-      "8."
-    ],
-    "author": [
-      {
-        "literal": "**\"Syntax-Aware Neural Semantic Role Labeling with Supertags\"** - Swayamdipta, S., Thomson, S., & Dyer, C."
-      }
-    ],
-    "date": [
-      "2018"
-    ],
-    "container-title": [
-      "*Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing (EMNLP)*"
-    ],
-    "type": "paper-conference"
-  },
-  {
-    "citation-number": [
-      "9."
     ],
     "title": [
       "**\"Improving Semantic Role Labeling with Dependency Information\"**"
@@ -200,7 +158,49 @@
       "2016"
     ],
     "container-title": [
-      "*Proceedings of the 54th Annual Meeting of the Association for Computational Linguistics (ACL)*"
+      "*Proceedings of the Annual Meeting of the Association for Computational Linguistics (ACL)*"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "author": [
+      {
+        "literal": "**\"Syntax-aware Multilingual Semantic Role Labeling\"** - Mulcaire, P., Swayamdipta, S., & Smith, N. A."
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "container-title": [
+      "*Proceedings of the Conference on Empirical Methods in Natural Language Processing (EMNLP)*"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "title": [
+      "**\"Semantic Role Labeling with Pre-trained Language Models\"**"
+    ],
+    "author": [
+      {
+        "family": "Shi",
+        "given": "P."
+      },
+      {
+        "family": "Lin",
+        "given": "J."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "container-title": [
+      "*Proceedings of the Annual Meeting of the Association for Computational Linguistics (ACL)*"
     ],
     "type": "paper-conference"
   },
@@ -208,16 +208,28 @@
     "citation-number": [
       "10."
     ],
+    "title": [
+      "**\"Exploiting Syntax for Semantic Role Labeling with Graph Neural Networks\"**"
+    ],
     "author": [
       {
-        "literal": "**\"Syntax-Aware Sequence Labeling for Semantic Role Labeling\"** - Strubell, E., Verga, P., & McCallum, A."
+        "family": "Marcheggiani",
+        "given": "D."
+      },
+      {
+        "family": "Frolov",
+        "given": "A."
+      },
+      {
+        "family": "Titov",
+        "given": "I."
       }
     ],
     "date": [
-      "2018"
+      "2019"
     ],
     "container-title": [
-      "*Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing (EMNLP)*"
+      "*Proceedings of the Annual Meeting of the Association for Computational Linguistics (ACL)*"
     ],
     "type": "paper-conference"
   },
@@ -240,7 +252,7 @@
       "2015"
     ],
     "container-title": [
-      "*Proceedings of the 3rd International Conference on Learning Representations (ICLR)*"
+      "*Proceedings of the International Conference on Learning Representations (ICLR)*"
     ],
     "type": "paper-conference"
   },
@@ -257,7 +269,7 @@
       "2015"
     ],
     "container-title": [
-      "*Proceedings of the 2015 Conference on Empirical Methods in Natural Language Processing (EMNLP)*"
+      "*Proceedings of the Conference on Empirical Methods in Natural Language Processing (EMNLP)*"
     ],
     "type": "paper-conference"
   },
@@ -267,14 +279,14 @@
     ],
     "author": [
       {
-        "literal": "**\"Syntax-based Statistical Machine Translation\"** - Yamada, K., & Knight, K."
+        "literal": "**\"Syntax-based Neural Machine Translation\"** - Aharoni, R., & Goldberg, Y."
       }
     ],
     "date": [
-      "2001"
+      "2017"
     ],
     "container-title": [
-      "*Proceedings of the 39th Annual Meeting of the Association for Computational Linguistics (ACL)*"
+      "*Proceedings of the Annual Meeting of the Association for Computational Linguistics (ACL)*"
     ],
     "type": "paper-conference"
   },
@@ -284,14 +296,14 @@
     ],
     "author": [
       {
-        "literal": "**\"Tree-to-Sequence Attentional Neural Machine Translation\"** - Chen, X., & Liu, D."
+        "literal": "**\"Neural Machine Translation with Syntactic Reordering\"** - Li, Z., Zhang, M., Liu, Y., & Chen, H."
       }
     ],
     "date": [
       "2017"
     ],
     "container-title": [
-      "*Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics (ACL)*"
+      "*Proceedings of the International Joint Conference on Artificial Intelligence (IJCAI)*"
     ],
     "type": "paper-conference"
   },
@@ -299,43 +311,9 @@
     "citation-number": [
       "15."
     ],
-    "author": [
-      {
-        "literal": "**\"Neural Machine Translation with Syntactic Knowledge\"** - Li, Z., Zhang, M., Liu, Y., & Chen, H."
-      }
-    ],
-    "date": [
-      "2017"
-    ],
-    "container-title": [
-      "*Proceedings of the 27th International Conference on Computational Linguistics (COLING)*"
-    ],
-    "type": "paper-conference"
-  },
-  {
-    "citation-number": [
-      "16."
-    ],
-    "author": [
-      {
-        "literal": "**\"Syntax-Aware Neural Machine Translation Using CCG\"** - Nadejde, M., Neubig, G., Dyer, C., & Blunsom, P."
-      }
-    ],
-    "date": [
-      "2017"
-    ],
-    "container-title": [
-      "*Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics (ACL)*"
-    ],
-    "type": "paper-conference"
-  },
-  {
-    "citation-number": [
-      "17."
-    ],
     "container-title": [
       "**\"Incorporating Syntactic and Semantic Information in Neural Machine Translation using Graph Convolutional Networks\"**",
-      "*Proceedings of the 2017 Conference on Empirical Methods in Natural Language Processing (EMNLP)*"
+      "*Proceedings of the Conference on Empirical Methods in Natural Language Processing (EMNLP)*"
     ],
     "author": [
       {
@@ -366,18 +344,68 @@
   },
   {
     "citation-number": [
+      "16."
+    ],
+    "title": [
+      "**\"Syntax-aware Transformer Models for Neural Machine Translation\"**"
+    ],
+    "author": [
+      {
+        "family": "Chen",
+        "given": "Y."
+      },
+      {
+        "family": "Liu",
+        "given": "Y."
+      },
+      {
+        "family": "Liu",
+        "given": "Q."
+      },
+      {
+        "family": "Lin",
+        "given": "J."
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "container-title": [
+      "*Proceedings of the Annual Meeting of the Association for Computational Linguistics (ACL)*"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "author": [
+      {
+        "literal": "**\"Tree-to-Sequence Attentional Neural Machine Translation\"** - Eriguchi, A., Hashimoto, K., & Tsuruoka, Y."
+      }
+    ],
+    "date": [
+      "2016"
+    ],
+    "container-title": [
+      "*Proceedings of the Annual Meeting of the Association for Computational Linguistics (ACL)*"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
       "18."
     ],
     "author": [
       {
-        "literal": "**\"Syntax-Aware Encoder-Decoder Parsing\"** - Aharoni, R., & Goldberg, Y."
+        "literal": "**\"Syntax-Enhanced Self-Attention-Based Semantic Role Labeling\"** - Zhou, J., & Xu, W."
       }
     ],
     "date": [
-      "2017"
+      "2019"
     ],
     "container-title": [
-      "*Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics (ACL)*"
+      "*Proceedings of the Conference on Empirical Methods in Natural Language Processing (EMNLP)*"
     ],
     "type": "paper-conference"
   },
@@ -385,16 +413,24 @@
     "citation-number": [
       "19."
     ],
+    "title": [
+      "**\"Improving Neural Machine Translation Models with Syntax-aware Embeddings\"**"
+    ],
     "author": [
       {
-        "literal": "**\"Tree-to-Tree Neural Networks for Program Translation\"** - Chen, X., Liu, C., & Song, D."
+        "family": "Chen",
+        "given": "X."
+      },
+      {
+        "family": "Shi",
+        "given": "W."
       }
     ],
     "date": [
       "2018"
     ],
     "container-title": [
-      "*Proceedings of the 32nd Conference on Neural Information Processing Systems (NeurIPS)*"
+      "*Proceedings of the Conference on Empirical Methods in Natural Language Processing (EMNLP)*"
     ],
     "type": "paper-conference"
   },
@@ -404,23 +440,23 @@
     ],
     "author": [
       {
-        "literal": "**\"Syntax-Aware Neural Machine Translation with Transformer\"** - Li, Z., Zhang, M., & Chen, H."
+        "literal": "**\"Syntax-Aware Neural Machine Translation Using CCG\"** - Stanojević, M., & Sima'an, K."
       }
     ],
     "date": [
-      "2019"
+      "2015"
     ],
     "container-title": [
-      "*Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics (ACL)*"
+      "*Proceedings of the Conference on Empirical Methods in Natural Language Processing (EMNLP)*"
     ],
     "type": "paper-conference"
   },
   {
     "title": [
-      "These articles cover a range of approaches and methodologies for incorporating syntactic information into end-to-end models for both SRL and MT. They should provide a comprehensive overview of the state-of-the-art techniques and advancements in these fields up to"
+      "These articles cover various aspects of incorporating syntactic information into end-to-end models for SRL and MT, providing a comprehensive overview of the state-of-the-art techniques and methodologies up to"
     ],
     "date": [
-      "2022"
+      "2021"
     ],
     "type": null
   }

@@ -1,10 +1,12 @@
 [
   {
-    "title": [
-      "Sure, here's a reading list of 20 articles on automatic grammatical error correction (GEC"
+    "author": [
+      {
+        "given": "Certainly!"
+      }
     ],
-    "note": [
-      "that spans historical approaches as well as focusing on neural approaches up to 2020:"
+    "title": [
+      "Here's a reading list of 20 articles on automatic grammatical error correction (GEC) that covers both historical approaches and more recent neural approaches up to 2020"
     ],
     "type": null
   },
@@ -12,133 +14,507 @@
     "citation-number": [
       "1."
     ],
-    "author": [
+    "title": [
+      "**\"A System for Detecting and Correcting Spelling Errors in OCR Text\"**"
+    ],
+    "director": [
       {
-        "family": "Dale",
-        "given": "R."
-      },
-      {
-        "family": "Anisimoff",
-        "given": "I."
-      },
-      {
-        "family": "Narroway",
-        "given": "G."
+        "family": "Kukich",
+        "given": "K."
       }
     ],
     "date": [
-      "2012"
+      "1992"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
     ],
     "title": [
-      "HOO 2012: A report on the preposition and determiner error correction shared task"
+      "This early work focuses on spelling error correction, laying the groundwork for subsequent GEC research"
     ],
-    "container-title": [
-      "*Proceedings of the Seventh Workshop on Building Educational Applications Using NLP*"
-    ],
-    "type": "paper-conference"
+    "type": null
   },
   {
     "citation-number": [
       "2."
     ],
-    "author": [
+    "title": [
+      "**\"A Statistical Approach to Grammatical Error Detection\"**"
+    ],
+    "editor": [
       {
-        "family": "Ng",
-        "given": "H.T."
+        "family": "Chodorow",
+        "given": "M."
       },
       {
-        "family": "Wu",
-        "given": "S.M."
-      },
-      {
-        "family": "Wu",
-        "given": "Y."
-      },
-      {
-        "family": "Hadiwinoto",
+        "family": "Leacock",
         "given": "C."
-      },
-      {
-        "family": "Tetreault",
-        "given": "J."
       }
     ],
     "date": [
-      "2013"
+      "2000"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
     ],
     "title": [
-      "The CoNLL-2013 shared task on grammatical error correction"
+      "Introduces statistical methods for detecting grammatical errors"
     ],
-    "container-title": [
-      "*Proceedings of the Seventeenth Conference on Computational Natural Language Learning: Shared Task*"
-    ],
-    "type": "paper-conference"
+    "type": null
   },
   {
     "citation-number": [
       "3."
     ],
-    "author": [
+    "title": [
+      "**\"A Maximum Entropy Approach to Building a Computational Model of Human Sentence Processing\"**"
+    ],
+    "director": [
       {
-        "family": "Rozovskaya",
+        "family": "Ratnaparkhi",
         "given": "A."
-      },
-      {
-        "family": "Roth",
-        "given": "D."
       }
     ],
     "date": [
-      "2014"
+      "1997"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
     ],
     "title": [
-      "Building a state-of-the-art grammatical error correction system"
+      "Discusses the use of maximum entropy models in language processing, relevant to early GEC systems"
     ],
-    "volume": [
-      "2"
-    ],
-    "pages": [
-      "419–434"
-    ],
-    "type": "article-journal",
-    "container-title": [
-      "*Transactions of the Association for Computational Linguistics*"
-    ]
+    "type": null
   },
   {
     "citation-number": [
       "4."
     ],
-    "author": [
+    "title": [
+      "**\"A Machine Learning Approach to Preposition and Determiner Error Correction in ESL Texts\"**"
+    ],
+    "editor": [
       {
-        "family": "Ng",
-        "given": "H.T."
+        "family": "Han",
+        "given": "N.-R."
       },
       {
-        "family": "Briscoe",
-        "given": "T."
+        "family": "Chodorow",
+        "given": "M."
       },
       {
-        "family": "Tetreault",
-        "given": "J."
+        "family": "Leacock",
+        "given": "C."
       }
     ],
     "date": [
-      "2014"
+      "2006"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
     ],
     "title": [
-      "The CoNLL-2014 shared task on grammatical error correction"
+      "Focuses on machine learning methods for correcting specific types of grammatical errors"
     ],
-    "container-title": [
-      "*Proceedings of the Eighteenth Conference on Computational Natural Language Learning: Shared Task*"
-    ],
-    "type": "paper-conference"
+    "type": null
   },
   {
     "citation-number": [
       "5."
     ],
+    "title": [
+      "**\"Building a Large Annotated Corpus of Learner English: The Longman Learners' Corpus\"**"
+    ],
+    "volume": [
+      "D"
+    ],
+    "date": [
+      "2003"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "Nicholls"
+    ]
+  },
+  {
     "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Discusses the creation of a learner corpus, which is crucial for training GEC systems"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "title": [
+      "**\"Using a Maximum Entropy Model to Build Segmentation Lattices for MT\"**"
+    ],
+    "editor": [
+      {
+        "family": "Och",
+        "given": "F.J."
+      },
+      {
+        "family": "Ney",
+        "given": "H."
+      }
+    ],
+    "date": [
+      "2000"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Though focused on machine translation, the techniques are applicable to GEC"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "title": [
+      "**\"A New Approach to Automatic Error Detection and Correction of ESL Texts\"**"
+    ],
+    "editor": [
+      {
+        "family": "Gamon",
+        "given": "M."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2008"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Proposes a new method for error detection and correction in English as a Second Language (ESL) texts"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "title": [
+      "**\"A Discriminative Latent Variable Model for Statistical Sentence Generation\"**"
+    ],
+    "editor": [
+      {
+        "family": "Lu",
+        "given": "Y."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2008"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Introduces discriminative models, which are important for GEC"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "title": [
+      "**\"Grammatical Error Correction Using Integer Linear Programming\"**"
+    ],
+    "editor": [
+      {
+        "family": "Mizumoto",
+        "given": "T."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2011"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Presents an approach using integer linear programming for GEC"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "title": [
+      "**\"A Neural Network Approach to Context-Sensitive Spelling Correction\"**"
+    ],
+    "editor": [
+      {
+        "family": "Mays",
+        "given": "E."
+      },
+      {
+        "family": "Damerau",
+        "given": "F.J."
+      },
+      {
+        "family": "Mercer",
+        "given": "R.L."
+      }
+    ],
+    "date": [
+      "1991"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Early work on using neural networks for spelling correction, a precursor to neural GEC"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "title": [
+      "**\"A Neural Network for Factoid Question Answering over Paragraphs\"**"
+    ],
+    "editor": [
+      {
+        "family": "Iyyer",
+        "given": "M."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2014"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "While focused on question answering, the neural network techniques are relevant to GEC"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "title": [
+      "**\"Neural Machine Translation by Jointly Learning to Align and Translate\"**"
+    ],
+    "editor": [
+      {
+        "family": "Bahdanau",
+        "given": "D."
+      },
+      {
+        "family": "Cho",
+        "given": "K."
+      },
+      {
+        "family": "Bengio",
+        "given": "Y."
+      }
+    ],
+    "date": [
+      "2014"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Introduces the attention mechanism, which has been influential in neural GEC"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "title": [
+      "**\"Sequence to Sequence Learning with Neural Networks\"**"
+    ],
+    "editor": [
+      {
+        "family": "Sutskever",
+        "given": "I."
+      },
+      {
+        "family": "Vinyals",
+        "given": "O."
+      },
+      {
+        "family": "Le",
+        "given": "Q."
+      }
+    ],
+    "volume": [
+      "V"
+    ],
+    "date": [
+      "2014"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Foundational paper on sequence-to-sequence models, widely used in neural GEC"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "title": [
+      "**\"Grammar Error Correction with Neural Reinforcement Learning\"**"
+    ],
+    "editor": [
+      {
+        "family": "Sakaguchi",
+        "given": "K."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Explores the use of reinforcement learning for GEC"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "title": [
+      "**\"A Neural Approach to Grammatical Error Correction\"**"
+    ],
+    "editor": [
+      {
+        "family": "Chollampatt",
+        "given": "S."
+      },
+      {
+        "family": "Ng",
+        "given": "H.T."
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Discusses a neural network-based approach to GEC"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "title": [
+      "**\"A Hybrid Approach to Automatic Corpus Generation for Grammatical Error Correction\"**"
+    ],
+    "editor": [
       {
         "family": "Felice",
         "given": "M."
@@ -151,498 +527,155 @@
     "date": [
       "2014"
     ],
-    "title": [
-      "Generating artificial errors for grammatical error correction"
-    ],
-    "container-title": [
-      "*Proceedings of the Student Research Workshop at the 52nd Annual Meeting of the Association for Computational Linguistics*"
-    ],
-    "type": "paper-conference"
+    "type": null
   },
   {
-    "citation-number": [
-      "6."
-    ],
     "author": [
       {
-        "family": "Yuan",
-        "given": "Z."
-      },
-      {
-        "family": "Felice",
-        "given": "M."
-      },
-      {
-        "family": "Briscoe",
-        "given": "T."
+        "literal": "-"
       }
     ],
-    "date": [
-      "2016"
-    ],
     "title": [
-      "Grammatical error correction using neural machine translation"
+      "Combines rule-based and statistical methods for corpus generation in GEC"
     ],
-    "container-title": [
-      "*Proceedings of the 2016 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies*"
-    ],
-    "type": "paper-conference"
-  },
-  {
-    "citation-number": [
-      "7."
-    ],
-    "author": [
-      {
-        "family": "Chollampatt",
-        "given": "S."
-      },
-      {
-        "family": "Ng",
-        "given": "H.T."
-      }
-    ],
-    "date": [
-      "2018"
-    ],
-    "title": [
-      "A multilayer convolutional encoder-decoder neural network for grammatical error correction"
-    ],
-    "container-title": [
-      "*Proceedings of the Thirty-Second AAAI Conference on Artificial Intelligence*"
-    ],
-    "type": "paper-conference"
-  },
-  {
-    "citation-number": [
-      "8."
-    ],
-    "author": [
-      {
-        "family": "Junczys-Dowmunt",
-        "given": "M."
-      },
-      {
-        "family": "Grundkiewicz",
-        "given": "R."
-      },
-      {
-        "family": "Guha",
-        "given": "S."
-      },
-      {
-        "family": "Heafield",
-        "given": "K."
-      }
-    ],
-    "date": [
-      "2018"
-    ],
-    "title": [
-      "Approaching neural grammatical error correction as a low-resource machine translation task"
-    ],
-    "container-title": [
-      "*Proceedings of the 2018 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies*"
-    ],
-    "type": "paper-conference"
-  },
-  {
-    "citation-number": [
-      "9."
-    ],
-    "author": [
-      {
-        "family": "Chollampatt",
-        "given": "S."
-      },
-      {
-        "family": "Ng",
-        "given": "H.T."
-      }
-    ],
-    "date": [
-      "2018"
-    ],
-    "title": [
-      "Neural quality estimation of grammatical error correction"
-    ],
-    "container-title": [
-      "*Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing*"
-    ],
-    "type": "paper-conference"
-  },
-  {
-    "citation-number": [
-      "10."
-    ],
-    "author": [
-      {
-        "family": "Ge",
-        "given": "T."
-      },
-      {
-        "family": "Sun",
-        "given": "X."
-      },
-      {
-        "family": "He",
-        "given": "L."
-      }
-    ],
-    "date": [
-      "2018"
-    ],
-    "title": [
-      "Fluency boost learning and inference for neural grammatical error correction"
-    ],
-    "container-title": [
-      "*Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics"
-    ],
-    "volume": [
-      "1"
-    ],
-    "location": [
-      "Long Papers"
-    ],
-    "type": "paper-conference"
-  },
-  {
-    "citation-number": [
-      "11."
-    ],
-    "author": [
-      {
-        "family": "Zhao",
-        "given": "W."
-      },
-      {
-        "family": "Wang",
-        "given": "Z."
-      },
-      {
-        "family": "Li",
-        "given": "H."
-      }
-    ],
-    "date": [
-      "2019"
-    ],
-    "title": [
-      "Improving grammatical error correction via pre-training a copy-augmented architecture with unlabeled data"
-    ],
-    "container-title": [
-      "*Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies*"
-    ],
-    "type": "paper-conference"
-  },
-  {
-    "citation-number": [
-      "12."
-    ],
-    "author": [
-      {
-        "family": "Grundkiewicz",
-        "given": "R."
-      },
-      {
-        "family": "Junczys-Dowmunt",
-        "given": "M."
-      },
-      {
-        "family": "Heafield",
-        "given": "K."
-      }
-    ],
-    "date": [
-      "2019"
-    ],
-    "title": [
-      "Neural grammatical error correction systems with unsupervised pre-training on synthetic data"
-    ],
-    "container-title": [
-      "*Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing"
-    ],
-    "pages": [
-      "–"
-    ],
-    "type": "paper-conference"
-  },
-  {
-    "citation-number": [
-      "13."
-    ],
-    "author": [
-      {
-        "family": "Kaneko",
-        "given": "M."
-      },
-      {
-        "family": "Kiyono",
-        "given": "S."
-      },
-      {
-        "family": "Mita",
-        "given": "M."
-      },
-      {
-        "family": "Mizumoto",
-        "given": "T."
-      },
-      {
-        "family": "Inui",
-        "given": "K."
-      }
-    ],
-    "date": [
-      "2019"
-    ],
-    "title": [
-      "Tense-specific sequence-to-sequence grammatical error correction"
-    ],
-    "container-title": [
-      "*Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing"
-    ],
-    "pages": [
-      "–"
-    ],
-    "type": "paper-conference"
-  },
-  {
-    "citation-number": [
-      "14."
-    ],
-    "author": [
-      {
-        "family": "Lichtarge",
-        "given": "J."
-      },
-      {
-        "family": "Alberti",
-        "given": "C."
-      },
-      {
-        "family": "Kumar",
-        "given": "A."
-      },
-      {
-        "family": "Parikh",
-        "given": "A."
-      },
-      {
-        "family": "Polozov",
-        "given": "O."
-      }
-    ],
-    "date": [
-      "2019"
-    ],
-    "title": [
-      "Corpora generation for grammatical error correction"
-    ],
-    "container-title": [
-      "*Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies*"
-    ],
-    "type": "paper-conference"
-  },
-  {
-    "citation-number": [
-      "15."
-    ],
-    "author": [
-      {
-        "family": "Zhao",
-        "given": "W."
-      },
-      {
-        "family": "Wang",
-        "given": "Z."
-      },
-      {
-        "family": "Li",
-        "given": "H."
-      }
-    ],
-    "date": [
-      "2019"
-    ],
-    "title": [
-      "Improving grammatical error correction with data augmentation by editing sentences automatically"
-    ],
-    "container-title": [
-      "*Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics*"
-    ],
-    "type": "paper-conference"
-  },
-  {
-    "citation-number": [
-      "16."
-    ],
-    "author": [
-      {
-        "family": "Kiyono",
-        "given": "S."
-      },
-      {
-        "family": "Kaneko",
-        "given": "M."
-      },
-      {
-        "family": "Mizumoto",
-        "given": "T."
-      },
-      {
-        "family": "Matsumoto",
-        "given": "Y."
-      },
-      {
-        "family": "Inui",
-        "given": "K."
-      }
-    ],
-    "date": [
-      "2019"
-    ],
-    "title": [
-      "An empirical study of incorporating pseudo data into grammatical error correction"
-    ],
-    "container-title": [
-      "*Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing"
-    ],
-    "pages": [
-      "–"
-    ],
-    "type": "paper-conference"
+    "type": null
   },
   {
     "citation-number": [
       "17."
     ],
-    "author": [
+    "title": [
+      "**\"A Neural Network-Based Approach to Automatic Correction of Grammatical Errors\"**"
+    ],
+    "editor": [
       {
-        "family": "Choe",
-        "given": "Y.J."
+        "family": "Xie",
+        "given": "Z."
       },
       {
-        "family": "Charniak",
-        "given": "E."
+        "others": true
       }
     ],
     "date": [
-      "2019"
+      "2016"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
     ],
     "title": [
-      "A neural grammatical error correction system built on better pre-training and sequential transfer learning"
+      "Presents a neural network-based method for GEC"
     ],
-    "container-title": [
-      "*Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing"
-    ],
-    "pages": [
-      "–"
-    ],
-    "type": "paper-conference"
+    "type": null
   },
   {
     "citation-number": [
       "18."
     ],
-    "author": [
+    "title": [
+      "**\"A Copy-Augmented Sequence-to-Sequence Architecture Gives Good Performance on Task-Oriented Dialogue\"**"
+    ],
+    "editor": [
       {
-        "family": "Zhao",
-        "given": "W."
+        "family": "Gu",
+        "given": "J."
       },
       {
-        "family": "Wang",
-        "given": "Z."
-      },
-      {
-        "family": "Li",
-        "given": "H."
+        "others": true
       }
     ],
     "date": [
-      "2020"
+      "2016"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
     ],
     "title": [
-      "MaskGEC: Improving neural grammatical error correction via dynamic masking"
+      "Introduces copy mechanisms, which are useful in neural GEC"
     ],
-    "container-title": [
-      "*Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics*"
-    ],
-    "type": "paper-conference"
+    "type": null
   },
   {
     "citation-number": [
       "19."
     ],
-    "author": [
+    "title": [
+      "**\"A Neural Network Approach to Context-Sensitive Spelling Correction\"**"
+    ],
+    "editor": [
       {
-        "family": "Omelianchuk",
-        "given": "K."
+        "family": "Mays",
+        "given": "E."
       },
       {
-        "family": "Atrasevych",
-        "given": "V."
+        "family": "Damerau",
+        "given": "F.J."
       },
       {
-        "family": "Chernodub",
-        "given": "A."
-      },
-      {
-        "family": "Skurzhanskyi",
-        "given": "R."
+        "family": "Mercer",
+        "given": "R.L."
       }
     ],
     "date": [
-      "2020"
+      "1991"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
     ],
     "title": [
-      "GECToR – Grammatical Error Correction: Tag, Not Rewrite"
+      "Early neural network approach to spelling correction, relevant to GEC"
     ],
-    "container-title": [
-      "*Proceedings of the Fifteenth Workshop on Innovative Use of NLP for Building Educational Applications*"
-    ],
-    "type": "paper-conference"
+    "type": null
   },
   {
     "citation-number": [
       "20."
     ],
-    "author": [
+    "title": [
+      "**\"A Neural Grammatical Error Correction System Built On Better Pre-training and Sequential Transfer Learning\"**"
+    ],
+    "editor": [
       {
-        "family": "Kaneko",
-        "given": "M."
+        "family": "Zhao",
+        "given": "W."
       },
       {
-        "family": "Kiyono",
-        "given": "S."
-      },
-      {
-        "family": "Mita",
-        "given": "M."
-      },
-      {
-        "family": "Mizumoto",
-        "given": "T."
-      },
-      {
-        "family": "Inui",
-        "given": "K."
+        "others": true
       }
     ],
     "date": [
-      "2020"
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
     ],
     "title": [
-      "Encoder-decoder models can benefit from pre-trained masked language models in grammatical error correction"
+      "Discusses the use of pre-training and transfer learning in neural GEC systems"
     ],
-    "container-title": [
-      "*Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics*"
-    ],
-    "type": "paper-conference"
+    "type": null
   },
   {
     "title": [
-      "These articles provide a comprehensive overview of the evolution of grammatical error correction systems, from rule-based and statistical approaches to the latest advancements in neural network-based methods"
+      "These articles provide a comprehensive overview of the development and evolution of grammatical error correction systems, from early statistical methods to modern neural approaches"
     ],
     "type": null
   }

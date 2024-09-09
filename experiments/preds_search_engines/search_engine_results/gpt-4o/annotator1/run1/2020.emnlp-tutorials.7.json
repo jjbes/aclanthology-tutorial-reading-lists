@@ -6,10 +6,7 @@
       }
     ],
     "title": [
-      "Here is a list of 20 influential articles on neural language generation (NLG) with a focus on deep contextual models and transfer learning"
-    ],
-    "note": [
-      "published before 2021:"
+      "Here's a reading list of 20 influential articles on neural language generation (NLG) with a focus on deep contextual models and transfer learning up to 2020"
     ],
     "type": null
   },
@@ -19,47 +16,24 @@
     ],
     "author": [
       {
-        "family": "Vaswani",
-        "given": "A."
-      },
-      {
-        "family": "Shazeer",
-        "given": "N."
-      },
-      {
-        "family": "Parmar",
-        "given": "N."
-      },
-      {
-        "family": "Uszkoreit",
-        "given": "J."
-      },
-      {
-        "family": "Jones",
-        "given": "L."
-      },
-      {
-        "family": "Gomez",
-        "given": "A.N."
-      },
-      {
-        "family": "Polosukhin",
-        "given": "I."
-      },
-      {
-        "others": true
+        "literal": "**\"Attention is All You Need\"** - Vaswani et al."
       }
     ],
     "date": [
       "2017"
     ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
     "title": [
-      "Attention is All You Need"
+      "Introduced the Transformer model, which became foundational for many NLG tasks"
     ],
-    "container-title": [
-      "*Advances in Neural Information Processing Systems (NeurIPS)*"
-    ],
-    "type": "chapter"
+    "type": null
   },
   {
     "citation-number": [
@@ -67,248 +41,146 @@
     ],
     "author": [
       {
-        "family": "Radford",
-        "given": "A."
-      },
-      {
-        "family": "Narasimhan",
-        "given": "K."
-      },
-      {
-        "family": "Salimans",
-        "given": "T."
-      },
-      {
-        "family": "Sutskever",
-        "given": "I."
+        "given": "B.E.R.T."
       }
     ],
+    "title": [
+      "Pre-training of Deep Bidirectional Transformers for Language Understanding\"** - Devlin et al"
+    ],
     "date": [
-      "2018"
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
     ],
     "title": [
-      "Improving Language Understanding by Generative Pre-Training"
+      "Introduced BERT, a deep bidirectional transformer model that significantly improved many NLP tasks"
     ],
-    "publisher": [
-      "*OpenAI Blog*"
-    ],
-    "type": "book"
+    "type": null
   },
   {
     "citation-number": [
       "3."
     ],
-    "author": [
-      {
-        "family": "Devlin",
-        "given": "J."
-      },
-      {
-        "family": "Chang",
-        "given": "M.W."
-      },
-      {
-        "family": "Lee",
-        "given": "K."
-      },
-      {
-        "family": "Toutanova",
-        "given": "K."
-      }
+    "title": [
+      "**\"Language Models are Unsupervised Multitask Learners\"** - Radford et al"
     ],
     "date": [
       "2019"
     ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
     "title": [
-      "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding"
+      "Presented GPT-2, a large-scale transformer-based language model that demonstrated strong performance on a variety of tasks"
     ],
-    "container-title": [
-      "*Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics (NAACL)*"
-    ],
-    "type": "paper-conference"
+    "type": null
   },
   {
     "citation-number": [
       "4."
     ],
-    "author": [
-      {
-        "family": "Radford",
-        "given": "A."
-      },
-      {
-        "family": "Wu",
-        "given": "J."
-      },
-      {
-        "family": "Child",
-        "given": "R."
-      },
-      {
-        "family": "Luan",
-        "given": "D."
-      },
-      {
-        "family": "Amodei",
-        "given": "D."
-      },
-      {
-        "family": "Sutskever",
-        "given": "I."
-      }
+    "title": [
+      "**\"XLNet: Generalized Autoregressive Pretraining for Language Understanding\"** - Yang et al"
     ],
     "date": [
       "2019"
     ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
     "title": [
-      "Language Models are Unsupervised Multitask Learners"
+      "Proposed XLNet, which combines the best of autoregressive and autoencoding language models"
     ],
-    "publisher": [
-      "*OpenAI Blog*"
-    ],
-    "type": "book"
+    "type": null
   },
   {
     "citation-number": [
       "5."
     ],
-    "author": [
-      {
-        "family": "Brown",
-        "given": "T.B."
-      },
-      {
-        "family": "Mann",
-        "given": "B."
-      },
-      {
-        "family": "Ryder",
-        "given": "N."
-      },
-      {
-        "family": "Subbiah",
-        "given": "M."
-      },
-      {
-        "family": "Kaplan",
-        "given": "J."
-      },
-      {
-        "family": "Dhariwal",
-        "given": "P."
-      },
-      {
-        "family": "Amodei",
-        "given": "D."
-      },
-      {
-        "others": true
-      }
+    "title": [
+      "**\"RoBERTa: A Robustly Optimized BERT Pretraining Approach\"** - Liu et al"
     ],
     "date": [
-      "2020"
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
     ],
     "title": [
-      "Language Models are Few-Shot Learners"
+      "Improved upon BERT by optimizing the pretraining process and achieving better performance"
     ],
-    "container-title": [
-      "*Advances in Neural Information Processing Systems (NeurIPS)*"
-    ],
-    "type": "chapter"
+    "type": null
   },
   {
     "citation-number": [
       "6."
     ],
-    "author": [
-      {
-        "family": "Peters",
-        "given": "M.E."
-      },
-      {
-        "family": "Neumann",
-        "given": "M."
-      },
-      {
-        "family": "Iyyer",
-        "given": "M."
-      },
-      {
-        "family": "Gardner",
-        "given": "M."
-      },
-      {
-        "family": "Clark",
-        "given": "C."
-      },
-      {
-        "family": "Lee",
-        "given": "K."
-      },
-      {
-        "family": "Zettlemoyer",
-        "given": "L."
-      }
+    "title": [
+      "**\"T5: Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer\"**"
     ],
     "date": [
-      "2018"
+      "2020"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "Raffel et al"
+    ]
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
     ],
     "title": [
-      "Deep Contextualized Word Representations"
+      "Introduced the T5 model, which frames all NLP tasks as a text-to-text problem, demonstrating the power of transfer learning"
     ],
-    "container-title": [
-      "*Proceedings of the 2018 Conference of the North American Chapter of the Association for Computational Linguistics (NAACL)*"
-    ],
-    "type": "paper-conference"
+    "type": null
   },
   {
     "citation-number": [
       "7."
     ],
-    "author": [
-      {
-        "family": "Liu",
-        "given": "Y."
-      },
-      {
-        "family": "Ott",
-        "given": "M."
-      },
-      {
-        "family": "Goyal",
-        "given": "N."
-      },
-      {
-        "family": "Du",
-        "given": "J."
-      },
-      {
-        "family": "Joshi",
-        "given": "M."
-      },
-      {
-        "family": "Chen",
-        "given": "D."
-      },
-      {
-        "family": "Stoyanov",
-        "given": "V."
-      },
-      {
-        "others": true
-      }
+    "title": [
+      "**\"GPT-3: Language Models are Few-Shot Learners\"**"
+    ],
+    "publisher": [
+      "Brown et al"
     ],
     "date": [
-      "2019"
+      "2020"
+    ],
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
     ],
     "title": [
-      "RoBERTa: A Robustly Optimized BERT Pretraining Approach"
-    ],
-    "note": [
-      "*arXiv preprint arXiv:1907.11692*."
-    ],
-    "arxiv": [
-      "1907.11692"
+      "Presented GPT-3, a large-scale language model that can perform various tasks with few-shot learning"
     ],
     "type": null
   },
@@ -318,40 +190,27 @@
     ],
     "author": [
       {
-        "family": "Yang",
-        "given": "Z."
-      },
-      {
-        "family": "Dai",
-        "given": "Z."
-      },
-      {
-        "family": "Yang",
-        "given": "Y."
-      },
-      {
-        "family": "Carbonell",
-        "given": "J."
-      },
-      {
-        "family": "Salakhutdinov",
-        "given": "R."
-      },
-      {
-        "family": "Le",
-        "given": "Q.V."
+        "given": "E.R.N.I.E."
       }
+    ],
+    "title": [
+      "Enhanced Representation through Knowledge Integration\"** - Zhang et al"
     ],
     "date": [
       "2019"
     ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
     "title": [
-      "XLNet: Generalized Autoregressive Pretraining for Language Understanding"
+      "Introduced ERNIE, which integrates knowledge graphs into pretraining to enhance language understanding"
     ],
-    "container-title": [
-      "*Advances in Neural Information Processing Systems (NeurIPS)*"
-    ],
-    "type": "chapter"
+    "type": null
   },
   {
     "citation-number": [
@@ -359,47 +218,30 @@
     ],
     "author": [
       {
-        "family": "Lewis",
-        "given": "M."
-      },
-      {
-        "family": "Liu",
-        "given": "Y."
-      },
-      {
-        "family": "Goyal",
-        "given": "N."
-      },
-      {
-        "family": "Ghazvininejad",
-        "given": "M."
-      },
-      {
-        "family": "Mohamed",
-        "given": "A."
-      },
-      {
-        "family": "Levy",
-        "given": "O."
-      },
-      {
-        "family": "Zettlemoyer",
-        "given": "L."
-      },
-      {
-        "others": true
+        "given": "B.A.R.T."
       }
+    ],
+    "title": [
+      "Denoising Sequence-to-Sequence Pre-training for Natural Language Generation, Translation, and Comprehension\"**"
+    ],
+    "publisher": [
+      "Lewis et al"
     ],
     "date": [
       "2020"
     ],
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
     "title": [
-      "BART: Denoising Sequence-to-Sequence Pre-training for Natural Language Generation, Translation, and Comprehension"
+      "Proposed BART, a denoising autoencoder for pretraining sequence-to-sequence models"
     ],
-    "container-title": [
-      "*Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics (ACL)*"
-    ],
-    "type": "paper-conference"
+    "type": null
   },
   {
     "citation-number": [
@@ -407,170 +249,103 @@
     ],
     "author": [
       {
-        "family": "Raffel",
-        "given": "C."
-      },
-      {
-        "family": "Shazeer",
-        "given": "N."
-      },
-      {
-        "family": "Roberts",
-        "given": "A."
-      },
-      {
-        "family": "Lee",
-        "given": "K."
-      },
-      {
-        "family": "Narang",
-        "given": "S."
-      },
-      {
-        "family": "Matena",
-        "given": "M."
-      },
-      {
-        "family": "Liu",
-        "given": "P.J."
-      },
-      {
-        "others": true
+        "given": "E.L.E.C.T.R.A."
       }
+    ],
+    "title": [
+      "Pre-training Text Encoders as Discriminators Rather Than Generators\"**"
+    ],
+    "publisher": [
+      "Clark et al"
     ],
     "date": [
       "2020"
     ],
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
     "title": [
-      "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer"
+      "Introduced ELECTRA, which pretrains text encoders using a novel approach that outperforms BERT on several benchmarks"
     ],
-    "container-title": [
-      "*Journal of Machine Learning Research (JMLR)*"
-    ],
-    "type": "article-journal"
+    "type": null
   },
   {
     "citation-number": [
       "11."
     ],
-    "author": [
-      {
-        "family": "Dong",
-        "given": "L."
-      },
-      {
-        "family": "Yang",
-        "given": "N."
-      },
-      {
-        "family": "Wang",
-        "given": "W."
-      },
-      {
-        "family": "Wei",
-        "given": "F."
-      },
-      {
-        "family": "Liu",
-        "given": "X."
-      }
+    "title": [
+      "**\"ALBERT: A Lite BERT for Self-supervised Learning of Language Representations\"**"
     ],
     "date": [
-      "2019"
+      "2020"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "Lan et al"
+    ]
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
     ],
     "title": [
-      "Unified Language Model Pre-training for Natural Language Understanding and Generation"
+      "Presented ALBERT, a more efficient version of BERT with parameter-sharing and factorized embedding parameterization"
     ],
-    "container-title": [
-      "*Advances in Neural Information Processing Systems (NeurIPS)*"
-    ],
-    "type": "chapter"
+    "type": null
   },
   {
     "citation-number": [
       "12."
     ],
-    "author": [
-      {
-        "family": "Zhang",
-        "given": "Y."
-      },
-      {
-        "family": "Sun",
-        "given": "S."
-      },
-      {
-        "family": "Galley",
-        "given": "M."
-      },
-      {
-        "family": "Chen",
-        "given": "Y.C."
-      },
-      {
-        "family": "Brockett",
-        "given": "C."
-      },
-      {
-        "family": "Gao",
-        "given": "X."
-      },
-      {
-        "family": "Dolan",
-        "given": "B."
-      },
-      {
-        "others": true
-      }
+    "title": [
+      "**\"DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter\"**"
     ],
     "date": [
-      "2020"
+      "2019"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "Sanh et al"
+    ]
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
     ],
     "title": [
-      "Dialogpt: Large-scale generative pre-training for conversational response generation"
+      "Introduced DistilBERT, a smaller and faster version of BERT that retains much of its performance"
     ],
-    "container-title": [
-      "*Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics (ACL)*"
-    ],
-    "type": "paper-conference"
+    "type": null
   },
   {
     "citation-number": [
       "13."
     ],
-    "author": [
-      {
-        "family": "Keskar",
-        "given": "N.S."
-      },
-      {
-        "family": "McCann",
-        "given": "B."
-      },
-      {
-        "family": "Varshney",
-        "given": "L.R."
-      },
-      {
-        "family": "Xiong",
-        "given": "C."
-      },
-      {
-        "family": "Socher",
-        "given": "R."
-      }
+    "title": [
+      "**\"CTRL: A Conditional Transformer Language Model for Controllable Generation\"** - Keskar et al"
     ],
     "date": [
       "2019"
     ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
     "title": [
-      "CTRL: A Conditional Transformer Language Model for Controllable Generation"
-    ],
-    "note": [
-      "*arXiv preprint arXiv:1909.05858*."
-    ],
-    "arxiv": [
-      "1909.05858"
+      "Proposed CTRL, a language model that allows for controllable text generation through conditioning"
     ],
     "type": null
   },
@@ -580,196 +355,125 @@
     ],
     "author": [
       {
-        "family": "Zellers",
-        "given": "R."
-      },
-      {
-        "family": "Holtzman",
-        "given": "A."
-      },
-      {
-        "family": "Bisk",
-        "given": "Y."
-      },
-      {
-        "family": "Farhadi",
-        "given": "A."
-      },
-      {
-        "family": "Choi",
-        "given": "Y."
+        "given": "P.E.G.A.S.U.S."
       }
     ],
+    "title": [
+      "Pre-training with Extracted Gap-sentences for Abstractive Summarization\"** - Zhang et al"
+    ],
     "date": [
-      "2019"
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
     ],
     "title": [
-      "HellaSwag: Can a Machine Really Finish Your Sentence?"
+      "Introduced PEGASUS, a model pre-trained for abstractive summarization using a novel gap-sentence generation objective"
     ],
-    "container-title": [
-      "*Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics (ACL)*"
-    ],
-    "type": "paper-conference"
+    "type": null
   },
   {
     "citation-number": [
       "15."
     ],
-    "author": [
-      {
-        "family": "Wolf",
-        "given": "T."
-      },
-      {
-        "family": "Chaumond",
-        "given": "J."
-      },
-      {
-        "family": "Debut",
-        "given": "L."
-      },
-      {
-        "family": "Sanh",
-        "given": "V."
-      },
-      {
-        "family": "Delangue",
-        "given": "C."
-      }
+    "title": [
+      "**\"Unified Language Model Pre-training for Natural Language Understanding and Generation\"**"
     ],
     "date": [
       "2019"
     ],
-    "title": [
-      "Transformers: State-of-the-Art Natural Language Processing"
-    ],
+    "type": "article-journal",
     "container-title": [
-      "*Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing: System Demonstrations (EMNLP)*"
+      "Dong et al"
+    ]
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
     ],
-    "type": "paper-conference"
+    "title": [
+      "Presented UniLM, a unified pre-trained model for both NLU and NLG tasks"
+    ],
+    "type": null
   },
   {
     "citation-number": [
       "16."
     ],
-    "author": [
-      {
-        "family": "Zhu",
-        "given": "Y."
-      },
-      {
-        "family": "Kiros",
-        "given": "R."
-      },
-      {
-        "family": "Zemel",
-        "given": "R."
-      },
-      {
-        "family": "Salakhutdinov",
-        "given": "R."
-      },
-      {
-        "family": "Urtasun",
-        "given": "R."
-      },
-      {
-        "family": "Torralba",
-        "given": "A."
-      },
-      {
-        "family": "Fidler",
-        "given": "S."
-      }
+    "title": [
+      "**\"XLNet: Generalized Autoregressive Pretraining for Language Understanding\"** - Yang et al"
     ],
     "date": [
-      "2015"
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
     ],
     "title": [
-      "Aligning Books and Movies: Towards Story-like Visual Explanations by Watching Movies and Reading Books"
+      "Combined autoregressive and autoencoding approaches for improved language model pretraining"
     ],
-    "container-title": [
-      "*Proceedings of the IEEE International Conference on Computer Vision (ICCV)*"
-    ],
-    "type": "paper-conference"
+    "type": null
   },
   {
     "citation-number": [
       "17."
     ],
-    "author": [
-      {
-        "family": "Dai",
-        "given": "Z."
-      },
-      {
-        "family": "Yang",
-        "given": "Z."
-      },
-      {
-        "family": "Yang",
-        "given": "Y."
-      },
-      {
-        "family": "Carbonell",
-        "given": "J."
-      },
-      {
-        "family": "Le",
-        "given": "Q.V."
-      },
-      {
-        "family": "Salakhutdinov",
-        "given": "R."
-      }
+    "title": [
+      "**\"ERNIE 2.0: A Continual Pre-training Framework for Language Understanding\"**"
     ],
     "date": [
       "2019"
     ],
-    "title": [
-      "Transformer-XL: Attentive Language Models Beyond a Fixed-Length Context"
-    ],
+    "type": "article-journal",
     "container-title": [
-      "*Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics (ACL)*"
+      "Sun et al"
+    ]
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
     ],
-    "type": "paper-conference"
+    "title": [
+      "Enhanced ERNIE by introducing a continual pretraining framework that incorporates multiple tasks"
+    ],
+    "type": null
   },
   {
     "citation-number": [
       "18."
     ],
-    "author": [
-      {
-        "family": "Khandelwal",
-        "given": "U."
-      },
-      {
-        "family": "Levy",
-        "given": "O."
-      },
-      {
-        "family": "Jurafsky",
-        "given": "D."
-      },
-      {
-        "family": "Zettlemoyer",
-        "given": "L."
-      },
-      {
-        "family": "Lewis",
-        "given": "M."
-      }
+    "title": [
+      "**\"Meena: Towards an Open-Domain Chatbot\"** - Adiwardana et al"
     ],
     "date": [
       "2020"
     ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
     "title": [
-      "Generalization through Memorization: Nearest Neighbor Language Models"
+      "Introduced Meena, a chatbot trained to have more human-like conversations using a large-scale neural network"
     ],
-    "container-title": [
-      "*Proceedings of the 8th International Conference on Learning Representations (ICLR)*"
-    ],
-    "type": "paper-conference"
+    "type": null
   },
   {
     "citation-number": [
@@ -777,84 +481,60 @@
     ],
     "author": [
       {
-        "family": "Clark",
-        "given": "K."
-      },
-      {
-        "family": "Luong",
-        "given": "M.T."
-      },
-      {
-        "family": "Le",
-        "given": "Q.V."
-      },
-      {
-        "family": "Manning",
-        "given": "C.D."
+        "given": "DialoGPT"
       }
+    ],
+    "title": [
+      "Large-Scale Generative Pre-training for Conversational Response Generation\"** - Zhang et al"
     ],
     "date": [
       "2020"
     ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
     "title": [
-      "ELECTRA: Pre-training Text Encoders as Discriminators Rather Than Generators"
+      "Adapted GPT-2 for dialogue generation, resulting in a model that can generate more contextually appropriate responses"
     ],
-    "container-title": [
-      "*Proceedings of the 8th International Conference on Learning Representations (ICLR)*"
-    ],
-    "type": "paper-conference"
+    "type": null
   },
   {
     "citation-number": [
       "20."
     ],
-    "author": [
-      {
-        "family": "Sun",
-        "given": "Y."
-      },
-      {
-        "family": "Wang",
-        "given": "S."
-      },
-      {
-        "family": "Li",
-        "given": "Y."
-      },
-      {
-        "family": "Feng",
-        "given": "S."
-      },
-      {
-        "family": "Tian",
-        "given": "H."
-      },
-      {
-        "family": "Wu",
-        "given": "H."
-      },
-      {
-        "family": "Wang",
-        "given": "H."
-      },
-      {
-        "others": true
-      }
+    "title": [
+      "**\"SpanBERT: Improving Pre-training by Representing and Predicting Spans\"**"
     ],
     "date": [
-      "2019"
+      "2020"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "Joshi et al"
+    ]
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
     ],
     "title": [
-      "ERNIE: Enhanced Representation through Knowledge Integration"
+      "Proposed SpanBERT, which improves BERT by focusing on span-level predictions rather than token-level predictions"
     ],
-    "container-title": [
-      "*Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics (ACL)*"
-    ],
-    "type": "paper-conference"
+    "type": null
   },
   {
     "title": [
-      "These articles cover a range of topics within neural language generation, including foundational models, advancements in transfer learning, and specific applications of deep contextual models"
+      "These articles collectively cover a broad spectrum of advancements in neural language generation, deep contextual models, and transfer learning up to"
+    ],
+    "date": [
+      "2020"
     ],
     "type": null
   }

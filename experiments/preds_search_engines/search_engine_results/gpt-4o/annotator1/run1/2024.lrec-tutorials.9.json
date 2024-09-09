@@ -1,10 +1,12 @@
 [
   {
-    "title": [
-      "Creating a reading list of 20 articles on formal semantic controls of text representation with a focus on text embeddings is a great way to delve into this advanced topic. Here are some key articles and papers that you might find useful"
+    "author": [
+      {
+        "given": "Certainly!"
+      }
     ],
-    "note": [
-      "Note that some of these articles are seminal works, while others are more recent and cutting-edge:"
+    "title": [
+      "Here's a curated reading list of 20 articles up to 2024 that focus on formal semantic controls of text representation, particularly emphasizing text embeddings"
     ],
     "type": null
   },
@@ -96,18 +98,15 @@
       }
     ],
     "date": [
-      "2018"
+      "2019"
     ],
     "title": [
       "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding"
     ],
-    "note": [
-      "arXiv preprint arXiv:1810.04805."
+    "container-title": [
+      "Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies"
     ],
-    "arxiv": [
-      "1810.04805"
-    ],
-    "type": null
+    "type": "paper-conference"
   },
   {
     "citation-number": [
@@ -146,13 +145,13 @@
     "date": [
       "2018"
     ],
-    "note": [
-      "\"Deep Contextualized Word Representations.\" arXiv preprint arXiv:1802.05365."
+    "title": [
+      "Deep Contextualized Word Representations"
     ],
-    "arxiv": [
-      "1802.05365"
+    "container-title": [
+      "Proceedings of the 2018 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies"
     ],
-    "type": null
+    "type": "paper-conference"
   },
   {
     "citation-number": [
@@ -249,29 +248,25 @@
         "given": "A."
       },
       {
-        "family": "Ranzato",
-        "given": "M.A."
-      },
-      {
         "family": "Denoyer",
         "given": "L."
       },
       {
-        "family": "Jégou",
-        "given": "H."
+        "family": "Ranzato",
+        "given": "M."
       }
     ],
     "date": [
       "2018"
     ],
     "title": [
-      "Word Translation Without Parallel Data"
+      "Unsupervised Machine Translation Using Monolingual Corpora Only"
     ],
     "note": [
-      "arXiv preprint arXiv:1710.04087."
+      "arXiv preprint arXiv:1711.00043."
     ],
     "arxiv": [
-      "1710.04087"
+      "1711.00043"
     ],
     "type": null
   },
@@ -298,7 +293,7 @@
       },
       {
         "family": "Salakhutdinov",
-        "given": "R.R."
+        "given": "R."
       },
       {
         "family": "Le",
@@ -311,13 +306,10 @@
     "title": [
       "XLNet: Generalized Autoregressive Pretraining for Language Understanding"
     ],
-    "note": [
-      "arXiv preprint arXiv:1906.08237."
+    "container-title": [
+      "Advances in Neural Information Processing Systems"
     ],
-    "arxiv": [
-      "1906.08237"
-    ],
-    "type": null
+    "type": "chapter"
   },
   {
     "citation-number": [
@@ -376,6 +368,42 @@
     ],
     "author": [
       {
+        "family": "Clark",
+        "given": "K."
+      },
+      {
+        "family": "Luong",
+        "given": "M.T."
+      },
+      {
+        "family": "Le",
+        "given": "Q.V."
+      },
+      {
+        "family": "Manning",
+        "given": "C.D."
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "title": [
+      "ELECTRA: Pre-training Text Encoders as Discriminators Rather Than Generators"
+    ],
+    "note": [
+      "arXiv preprint arXiv:2003.10555."
+    ],
+    "arxiv": [
+      "2003.10555"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "author": [
+      {
         "family": "Reimers",
         "given": "N."
       },
@@ -400,277 +428,47 @@
   },
   {
     "citation-number": [
-      "11."
-    ],
-    "author": [
-      {
-        "family": "Kiros",
-        "given": "R."
-      },
-      {
-        "family": "Zhu",
-        "given": "Y."
-      },
-      {
-        "family": "Salakhutdinov",
-        "given": "R.R."
-      },
-      {
-        "family": "Zemel",
-        "given": "R.S."
-      },
-      {
-        "family": "Urtasun",
-        "given": "R."
-      },
-      {
-        "family": "Torralba",
-        "given": "A."
-      },
-      {
-        "family": "Fidler",
-        "given": "S."
-      }
-    ],
-    "date": [
-      "2015"
-    ],
-    "title": [
-      "Skip-Thought Vectors"
-    ],
-    "container-title": [
-      "Advances in Neural Information Processing Systems"
-    ],
-    "type": "chapter"
-  },
-  {
-    "citation-number": [
       "12."
     ],
     "author": [
       {
-        "family": "Cer",
-        "given": "D."
-      },
-      {
-        "family": "Yang",
+        "family": "Li",
         "given": "Y."
       },
       {
-        "family": "Kong",
-        "given": "S.Y."
-      },
-      {
-        "family": "Hua",
+        "family": "Yang",
         "given": "N."
       },
       {
-        "family": "Limtiaco",
-        "given": "N."
+        "family": "Wang",
+        "given": "M."
       },
       {
-        "family": "John",
-        "given": "R.",
-        "particle": "St."
+        "family": "Zhang",
+        "given": "H."
       },
       {
-        "family": "Kurzweil",
-        "given": "R."
-      },
-      {
-        "others": true
-      }
-    ],
-    "date": [
-      "2018"
-    ],
-    "title": [
-      "Universal Sentence Encoder"
-    ],
-    "note": [
-      "arXiv preprint arXiv:1803.11175."
-    ],
-    "arxiv": [
-      "1803.11175"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "13."
-    ],
-    "author": [
-      {
-        "family": "Clark",
-        "given": "K."
-      },
-      {
-        "family": "Khandelwal",
-        "given": "U."
-      },
-      {
-        "family": "Levy",
-        "given": "O."
-      },
-      {
-        "family": "Manning",
-        "given": "C.D."
-      }
-    ],
-    "date": [
-      "2019"
-    ],
-    "title": [
-      "What Does BERT Look at? An Analysis of BERT's Attention"
-    ],
-    "note": [
-      "arXiv preprint arXiv:1906.04341."
-    ],
-    "arxiv": [
-      "1906.04341"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "14."
-    ],
-    "author": [
-      {
-        "family": "Ethayarajh",
-        "given": "K."
-      }
-    ],
-    "date": [
-      "2019"
-    ],
-    "title": [
-      "How Contextual are Contextualized Word Representations? Comparing the Geometry of BERT, ELMo, and GPT-2 Embeddings"
-    ],
-    "note": [
-      "arXiv preprint arXiv:1909.00512."
-    ],
-    "arxiv": [
-      "1909.00512"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "15."
-    ],
-    "author": [
-      {
-        "family": "Li",
-        "given": "J."
-      },
-      {
-        "family": "Monroe",
-        "given": "W."
-      },
-      {
-        "family": "Jurafsky",
-        "given": "D."
-      }
-    ],
-    "date": [
-      "2016"
-    ],
-    "title": [
-      "Understanding Neural Networks through Representation Erasure"
-    ],
-    "note": [
-      "arXiv preprint arXiv:1612.08220."
-    ],
-    "arxiv": [
-      "1612.08220"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "16."
-    ],
-    "author": [
-      {
-        "family": "Rogers",
-        "given": "A."
-      },
-      {
-        "family": "Kovaleva",
-        "given": "O."
-      },
-      {
-        "family": "Rumshisky",
-        "given": "A."
+        "family": "Zhang",
+        "given": "Y."
       }
     ],
     "date": [
       "2020"
     ],
     "title": [
-      "A Primer in BERTology: What We Know About How BERT Works"
-    ],
-    "container-title": [
-      "Transactions of the Association for Computational Linguistics"
-    ],
-    "type": "chapter"
-  },
-  {
-    "citation-number": [
-      "17."
-    ],
-    "author": [
-      {
-        "family": "Bommasani",
-        "given": "R."
-      },
-      {
-        "family": "Hudson",
-        "given": "D.A."
-      },
-      {
-        "family": "Adeli",
-        "given": "E."
-      },
-      {
-        "family": "Altman",
-        "given": "R."
-      },
-      {
-        "family": "Arora",
-        "given": "S."
-      },
-      {
-        "family": "Arx",
-        "given": "S.",
-        "particle": "von"
-      },
-      {
-        "family": "Liang",
-        "given": "P."
-      },
-      {
-        "others": true
-      }
-    ],
-    "date": [
-      "2021"
-    ],
-    "title": [
-      "On the Opportunities and Risks of Foundation Models"
+      "Learning to Represent Knowledge Graphs with Gaussian Embedding"
     ],
     "note": [
-      "arXiv preprint arXiv:2108.07258."
+      "arXiv preprint arXiv:2004.10450."
     ],
     "arxiv": [
-      "2108.07258"
+      "2004.10450"
     ],
     "type": null
   },
   {
     "citation-number": [
-      "18."
+      "13."
     ],
     "author": [
       {
@@ -721,7 +519,7 @@
   },
   {
     "citation-number": [
-      "19."
+      "14."
     ],
     "author": [
       {
@@ -750,7 +548,7 @@
       }
     ],
     "date": [
-      "2019"
+      "2020"
     ],
     "title": [
       "ALBERT: A Lite BERT for Self-supervised Learning of Language Representations"
@@ -765,40 +563,241 @@
   },
   {
     "citation-number": [
-      "20."
+      "15."
     ],
     "author": [
       {
-        "family": "Sun",
-        "given": "C."
+        "family": "Lewis",
+        "given": "M."
       },
       {
-        "family": "Qiu",
-        "given": "X."
-      },
-      {
-        "family": "Xu",
+        "family": "Liu",
         "given": "Y."
       },
       {
-        "family": "Huang",
-        "given": "X."
+        "family": "Goyal",
+        "given": "N."
+      },
+      {
+        "family": "Ghazvininejad",
+        "given": "M."
+      },
+      {
+        "family": "Mohamed",
+        "given": "A."
+      },
+      {
+        "family": "Levy",
+        "given": "O."
+      },
+      {
+        "family": "Zettlemoyer",
+        "given": "L."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "title": [
+      "BART: Denoising Sequence-to-Sequence Pre-training for Natural Language Generation"
+    ],
+    "note": [
+      "Translation, and Comprehension.\" arXiv preprint arXiv:1910.13461."
+    ],
+    "arxiv": [
+      "1910.13461"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "author": [
+      {
+        "family": "Raffel",
+        "given": "C."
+      },
+      {
+        "family": "Shazeer",
+        "given": "N."
+      },
+      {
+        "family": "Roberts",
+        "given": "A."
+      },
+      {
+        "family": "Lee",
+        "given": "K."
+      },
+      {
+        "family": "Narang",
+        "given": "S."
+      },
+      {
+        "family": "Matena",
+        "given": "M."
+      },
+      {
+        "family": "Liu",
+        "given": "P.J."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "title": [
+      "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer"
+    ],
+    "note": [
+      "arXiv preprint arXiv:1910.10683."
+    ],
+    "arxiv": [
+      "1910.10683"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "author": [
+      {
+        "family": "Kenton",
+        "given": "J.D.M.W.C."
+      },
+      {
+        "family": "Toutanova",
+        "given": "K."
       }
     ],
     "date": [
       "2019"
     ],
     "title": [
-      "How to Fine-Tune BERT for Text Classification?"
+      "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding"
+    ],
+    "note": [
+      "arXiv preprint arXiv:1810.04805."
+    ],
+    "arxiv": [
+      "1810.04805"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "author": [
+      {
+        "family": "Sun",
+        "given": "Y."
+      },
+      {
+        "family": "Wang",
+        "given": "S."
+      },
+      {
+        "family": "Li",
+        "given": "Y."
+      },
+      {
+        "family": "Feng",
+        "given": "S."
+      },
+      {
+        "family": "Chen",
+        "given": "X."
+      },
+      {
+        "family": "Zhang",
+        "given": "H."
+      },
+      {
+        "family": "Tian",
+        "given": "H."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "title": [
+      "ERNIE: Enhanced Representation through Knowledge Integration"
+    ],
+    "note": [
+      "arXiv preprint arXiv:1904.09223."
+    ],
+    "arxiv": [
+      "1904.09223"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "author": [
+      {
+        "family": "Zhang",
+        "given": "Z."
+      },
+      {
+        "family": "Yang",
+        "given": "J."
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "title": [
+      "Chinese NER Using Lattice LSTM"
+    ],
+    "note": [
+      "arXiv preprint arXiv:1805.02023."
+    ],
+    "arxiv": [
+      "1805.02023"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "author": [
+      {
+        "family": "He",
+        "given": "H."
+      },
+      {
+        "family": "McAuley",
+        "given": "J."
+      }
+    ],
+    "date": [
+      "2016"
+    ],
+    "title": [
+      "Ups and Downs: Modeling the Visual Evolution of Fashion Trends with One-Class Collaborative Filtering"
     ],
     "container-title": [
-      "China National Conference on Chinese Computational Linguistics"
+      "Proceedings of the 25th International Conference on World Wide Web"
     ],
     "type": "paper-conference"
   },
   {
     "title": [
-      "These articles cover a range of foundational techniques and recent advancements in the field of text embeddings and formal semantic controls. They should provide a comprehensive understanding of the current state of research and future directions"
+      "These articles cover a broad spectrum of advancements in text embeddings and formal semantic controls, from foundational models like Word2Vec and GloVe to more recent innovations like BERT, GPT-3, and beyond"
     ],
     "type": null
   }

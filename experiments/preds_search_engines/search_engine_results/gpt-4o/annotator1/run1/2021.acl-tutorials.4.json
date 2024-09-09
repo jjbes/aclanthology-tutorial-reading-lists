@@ -6,10 +6,7 @@
       }
     ],
     "title": [
-      "Here is a list of 20 influential articles on neural machine"
-    ],
-    "note": [
-      "translation (NMT) that focus on pre-training methods, published before 2022:"
+      "Here is a list of 20 articles on neural machine translation (NMT) using pre-training methods up to 2021"
     ],
     "type": null
   },
@@ -54,12 +51,15 @@
       "2017"
     ],
     "title": [
-      "Attention is All You Need"
+      "Attention is all you need"
     ],
+    "volume": [
+      "30"
+    ],
+    "type": "article-journal",
     "container-title": [
-      "*Advances in Neural Information Processing Systems (NeurIPS)*"
-    ],
-    "type": "chapter"
+      "*Advances in Neural Information Processing Systems*"
+    ]
   },
   {
     "citation-number": [
@@ -87,10 +87,16 @@
       "2019"
     ],
     "title": [
-      "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding"
+      "BERT: Pre-training of deep bidirectional transformers for language understanding"
     ],
     "container-title": [
-      "*Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics (NAACL)*"
+      "*Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies*"
+    ],
+    "volume": [
+      "1"
+    ],
+    "pages": [
+      "4171–4186"
     ],
     "type": "paper-conference"
   },
@@ -120,12 +126,12 @@
       "2018"
     ],
     "title": [
-      "Improving Language Understanding by Generative Pre-Training"
+      "Improving language understanding by generative pre-training"
     ],
-    "publisher": [
-      "*OpenAI Blog*"
-    ],
-    "type": "book"
+    "type": "article-journal",
+    "container-title": [
+      "*OpenAI*"
+    ]
   },
   {
     "citation-number": [
@@ -145,10 +151,13 @@
       "2019"
     ],
     "title": [
-      "Cross-lingual Language Model Pretraining"
+      "Cross-lingual language model pretraining"
     ],
     "container-title": [
-      "*Advances in Neural Information Processing Systems (NeurIPS)*"
+      "*Advances in Neural Information Processing Systems*"
+    ],
+    "pages": [
+      "32"
     ],
     "type": "chapter"
   },
@@ -182,67 +191,22 @@
       "2019"
     ],
     "title": [
-      "MASS: Masked Sequence to Sequence Pre-training for Language Generation"
+      "MASS: Masked sequence to sequence pre-training for language generation"
     ],
     "container-title": [
-      "*Proceedings of the 36th International Conference on Machine Learning (ICML)*"
+      "*Proceedings of the 36th International Conference on Machine Learning*"
+    ],
+    "volume": [
+      "119"
+    ],
+    "pages": [
+      "5926–5936"
     ],
     "type": "paper-conference"
   },
   {
     "citation-number": [
       "6."
-    ],
-    "author": [
-      {
-        "family": "Liu",
-        "given": "Y."
-      },
-      {
-        "family": "Ott",
-        "given": "M."
-      },
-      {
-        "family": "Goyal",
-        "given": "N."
-      },
-      {
-        "family": "Du",
-        "given": "J."
-      },
-      {
-        "family": "Joshi",
-        "given": "M."
-      },
-      {
-        "family": "Chen",
-        "given": "D."
-      },
-      {
-        "family": "Stoyanov",
-        "given": "V."
-      },
-      {
-        "others": true
-      }
-    ],
-    "date": [
-      "2019"
-    ],
-    "title": [
-      "RoBERTa: A Robustly Optimized BERT Pretraining Approach"
-    ],
-    "note": [
-      "*arXiv preprint arXiv:1907.11692*."
-    ],
-    "arxiv": [
-      "1907.11692"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "7."
     ],
     "author": [
       {
@@ -281,12 +245,66 @@
       "2020"
     ],
     "title": [
-      "BART: Denoising Sequence-to-Sequence Pre-training for Natural Language Generation, Translation, and Comprehension"
+      "BART: Denoising sequence-to-sequence pre-training for natural language generation, translation, and comprehension"
     ],
     "container-title": [
-      "*Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics (ACL)*"
+      "*Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics*"
+    ],
+    "pages": [
+      "7871–7880"
     ],
     "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "author": [
+      {
+        "family": "Liu",
+        "given": "Y."
+      },
+      {
+        "family": "Ott",
+        "given": "M."
+      },
+      {
+        "family": "Goyal",
+        "given": "N."
+      },
+      {
+        "family": "Du",
+        "given": "J."
+      },
+      {
+        "family": "Joshi",
+        "given": "M."
+      },
+      {
+        "family": "Chen",
+        "given": "D."
+      },
+      {
+        "family": "Stoyanov",
+        "given": "V."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "title": [
+      "RoBERTa: A robustly optimized BERT pretraining approach"
+    ],
+    "note": [
+      "*arXiv preprint arXiv:1907.11692*."
+    ],
+    "arxiv": [
+      "1907.11692"
+    ],
+    "type": null
   },
   {
     "citation-number": [
@@ -329,10 +347,13 @@
       "2020"
     ],
     "title": [
-      "Unsupervised Cross-lingual Representation Learning at Scale"
+      "Unsupervised cross-lingual representation learning at scale"
     ],
     "container-title": [
-      "*Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics (ACL)*"
+      "*Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics*"
+    ],
+    "pages": [
+      "8440–8451"
     ],
     "type": "paper-conference"
   },
@@ -342,45 +363,37 @@
     ],
     "author": [
       {
-        "family": "Brown",
-        "given": "T.B."
+        "family": "Dong",
+        "given": "L."
       },
       {
-        "family": "Mann",
-        "given": "B."
-      },
-      {
-        "family": "Ryder",
+        "family": "Yang",
         "given": "N."
       },
       {
-        "family": "Subbiah",
+        "family": "Wang",
+        "given": "W."
+      },
+      {
+        "family": "Wei",
+        "given": "F."
+      },
+      {
+        "family": "Zhou",
         "given": "M."
-      },
-      {
-        "family": "Kaplan",
-        "given": "J."
-      },
-      {
-        "family": "Dhariwal",
-        "given": "P."
-      },
-      {
-        "family": "Amodei",
-        "given": "D."
-      },
-      {
-        "others": true
       }
     ],
     "date": [
-      "2020"
+      "2019"
     ],
     "title": [
-      "Language Models are Few-Shot Learners"
+      "Unified language model pre-training for natural language understanding and generation"
     ],
     "container-title": [
-      "*Advances in Neural Information Processing Systems (NeurIPS)*"
+      "*Advances in Neural Information Processing Systems*"
+    ],
+    "pages": [
+      "32"
     ],
     "type": "chapter"
   },
@@ -390,69 +403,47 @@
     ],
     "author": [
       {
-        "family": "Lample",
-        "given": "G."
+        "family": "Xia",
+        "given": "Y."
       },
       {
-        "family": "Ott",
-        "given": "M."
+        "family": "Tian",
+        "given": "F."
       },
       {
-        "family": "Conneau",
-        "given": "A."
+        "family": "Wang",
+        "given": "F."
       },
       {
-        "family": "Denoyer",
-        "given": "L."
+        "family": "Qin",
+        "given": "T."
       },
       {
-        "family": "Ranzato",
-        "given": "M."
+        "family": "Yu",
+        "given": "N."
+      },
+      {
+        "family": "Liu",
+        "given": "T.Y."
       }
     ],
     "date": [
-      "2018"
+      "2019"
     ],
     "title": [
-      "Phrase-Based & Neural Unsupervised Machine Translation"
+      "Pre-trained language model for machine translation"
     ],
-    "container-title": [
-      "*Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing (EMNLP)*"
+    "note": [
+      "*arXiv preprint arXiv:1906.08777*."
     ],
-    "type": "paper-conference"
+    "arxiv": [
+      "1906.08777"
+    ],
+    "type": null
   },
   {
     "citation-number": [
       "11."
-    ],
-    "author": [
-      {
-        "family": "Artetxe",
-        "given": "M."
-      },
-      {
-        "family": "Labaka",
-        "given": "G."
-      },
-      {
-        "family": "Agirre",
-        "given": "E."
-      }
-    ],
-    "date": [
-      "2018"
-    ],
-    "title": [
-      "Unsupervised Statistical Machine Translation"
-    ],
-    "container-title": [
-      "*Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing (EMNLP)*"
-    ],
-    "type": "paper-conference"
-  },
-  {
-    "citation-number": [
-      "12."
     ],
     "author": [
       {
@@ -476,12 +467,51 @@
       "2018"
     ],
     "title": [
-      "Understanding Back-Translation at Scale"
+      "Understanding back-translation at scale"
     ],
     "container-title": [
-      "*Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing (EMNLP)*"
+      "*Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing*"
+    ],
+    "pages": [
+      "489–500"
     ],
     "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "author": [
+      {
+        "family": "Zhang",
+        "given": "B."
+      },
+      {
+        "family": "Xiong",
+        "given": "D."
+      },
+      {
+        "family": "Su",
+        "given": "J."
+      },
+      {
+        "family": "Lin",
+        "given": "H."
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "title": [
+      "Neural machine translation with pre-trained language models"
+    ],
+    "container-title": [
+      "*Natural Language Processing and Chinese Computing*"
+    ],
+    "pages": [
+      "337–348"
+    ],
+    "type": "chapter"
   },
   {
     "citation-number": [
@@ -489,24 +519,43 @@
     ],
     "author": [
       {
-        "family": "Nguyen",
-        "given": "T.Q."
+        "family": "Liu",
+        "given": "L."
       },
       {
-        "family": "Chiang",
-        "given": "D."
+        "family": "Liu",
+        "given": "Y."
+      },
+      {
+        "family": "He",
+        "given": "P."
+      },
+      {
+        "family": "Chen",
+        "given": "W."
+      },
+      {
+        "family": "Gao",
+        "given": "J."
+      },
+      {
+        "family": "Han",
+        "given": "J."
       }
     ],
     "date": [
-      "2017"
+      "2020"
     ],
     "title": [
-      "Transfer Learning across Low-Resource, Related Languages for Neural Machine Translation"
+      "Multilingual denoising pre-training for neural machine translation"
     ],
-    "container-title": [
-      "*Proceedings of the 8th International Joint Conference on Natural Language Processing (IJCNLP)*"
+    "note": [
+      "*arXiv preprint arXiv:2001.08210*."
     ],
-    "type": "paper-conference"
+    "arxiv": [
+      "2001.08210"
+    ],
+    "type": null
   },
   {
     "citation-number": [
@@ -514,24 +563,43 @@
     ],
     "author": [
       {
-        "family": "Zoph",
-        "given": "B."
+        "family": "Yang",
+        "given": "Z."
       },
       {
-        "family": "Knight",
-        "given": "K."
+        "family": "Dai",
+        "given": "Z."
+      },
+      {
+        "family": "Yang",
+        "given": "Y."
+      },
+      {
+        "family": "Carbonell",
+        "given": "J."
+      },
+      {
+        "family": "Salakhutdinov",
+        "given": "R."
+      },
+      {
+        "family": "Le",
+        "given": "Q.V."
       }
     ],
     "date": [
-      "2016"
+      "2019"
     ],
     "title": [
-      "Multi-Source Neural Translation"
+      "XLNet: Generalized autoregressive pretraining for language understanding"
     ],
     "container-title": [
-      "*Proceedings of the 2016 Conference of the North American Chapter of the Association for Computational Linguistics (NAACL)*"
+      "*Advances in Neural Information Processing Systems*"
     ],
-    "type": "paper-conference"
+    "pages": [
+      "32"
+    ],
+    "type": "chapter"
   },
   {
     "citation-number": [
@@ -539,144 +607,8 @@
     ],
     "author": [
       {
-        "family": "Johnson",
-        "given": "M."
-      },
-      {
-        "family": "Schuster",
-        "given": "M."
-      },
-      {
-        "family": "Le",
-        "given": "Q.V."
-      },
-      {
-        "family": "Krikun",
-        "given": "M."
-      },
-      {
-        "family": "Wu",
-        "given": "Y."
-      },
-      {
-        "family": "Chen",
-        "given": "Z."
-      },
-      {
-        "family": "Dean",
-        "given": "J."
-      },
-      {
-        "others": true
-      }
-    ],
-    "date": [
-      "2017"
-    ],
-    "container-title": [
-      "\"Google's Multilingual Neural Machine Translation System: Enabling Zero-Shot Translation.\" *Transactions of the Association for Computational Linguistics (TACL)*"
-    ],
-    "type": "chapter"
-  },
-  {
-    "citation-number": [
-      "16."
-    ],
-    "author": [
-      {
-        "family": "Sennrich",
-        "given": "R."
-      },
-      {
-        "family": "Haddow",
-        "given": "B."
-      },
-      {
-        "family": "Birch",
-        "given": "A."
-      }
-    ],
-    "date": [
-      "2016"
-    ],
-    "title": [
-      "Improving Neural Machine Translation Models with Monolingual Data"
-    ],
-    "container-title": [
-      "*Proceedings of the 54th Annual Meeting of the Association for Computational Linguistics (ACL)*"
-    ],
-    "type": "paper-conference"
-  },
-  {
-    "citation-number": [
-      "17."
-    ],
-    "author": [
-      {
-        "family": "Lample",
-        "given": "G."
-      },
-      {
-        "family": "Conneau",
-        "given": "A."
-      },
-      {
-        "family": "Denoyer",
-        "given": "L."
-      },
-      {
-        "family": "Ranzato",
-        "given": "M."
-      }
-    ],
-    "date": [
-      "2018"
-    ],
-    "title": [
-      "Unsupervised Machine Translation Using Monolingual Corpora Only"
-    ],
-    "container-title": [
-      "*International Conference on Learning Representations (ICLR)*"
-    ],
-    "type": "paper-conference"
-  },
-  {
-    "citation-number": [
-      "18."
-    ],
-    "author": [
-      {
-        "family": "Artetxe",
-        "given": "M."
-      },
-      {
-        "family": "Labaka",
-        "given": "G."
-      },
-      {
-        "family": "Agirre",
-        "given": "E."
-      }
-    ],
-    "date": [
-      "2019"
-    ],
-    "title": [
-      "An Effective Approach to Unsupervised Machine Translation"
-    ],
-    "container-title": [
-      "*Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics (ACL)*"
-    ],
-    "type": "paper-conference"
-  },
-  {
-    "citation-number": [
-      "19."
-    ],
-    "author": [
-      {
         "family": "He",
-        "given": "D."
+        "given": "J."
       },
       {
         "family": "Xia",
@@ -697,22 +629,172 @@
       {
         "family": "Liu",
         "given": "T.Y."
-      },
-      {
-        "family": "Ma",
-        "given": "W.Y."
       }
     ],
     "date": [
-      "2016"
+      "2020"
     ],
     "title": [
-      "Dual Learning for Machine Translation"
+      "Dual learning for machine translation with bidirectional pre-trained language models"
     ],
     "container-title": [
-      "*Advances in Neural Information Processing Systems (NeurIPS)*"
+      "*Proceedings of the AAAI Conference on Artificial Intelligence*"
     ],
-    "type": "chapter"
+    "volume": [
+      "34"
+    ],
+    "pages": [
+      "8454–8461"
+    ],
+    "issue": [
+      "05"
+    ],
+    "type": "article-journal"
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "author": [
+      {
+        "family": "Lample",
+        "given": "G."
+      },
+      {
+        "family": "Conneau",
+        "given": "A."
+      },
+      {
+        "family": "Ranzato",
+        "given": "M.A."
+      },
+      {
+        "family": "Denoyer",
+        "given": "L."
+      },
+      {
+        "family": "Jégou",
+        "given": "H."
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "title": [
+      "Word translation without parallel data"
+    ],
+    "container-title": [
+      "*International Conference on Learning Representations*"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "author": [
+      {
+        "family": "Zhu",
+        "given": "J."
+      },
+      {
+        "family": "Li",
+        "given": "Z."
+      },
+      {
+        "family": "Zhang",
+        "given": "M."
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "title": [
+      "Incorporating BERT into neural machine translation"
+    ],
+    "container-title": [
+      "*Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics*"
+    ],
+    "pages": [
+      "631–635"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "author": [
+      {
+        "family": "Sun",
+        "given": "Y."
+      },
+      {
+        "family": "Wang",
+        "given": "S."
+      },
+      {
+        "family": "Li",
+        "given": "Y."
+      },
+      {
+        "family": "Feng",
+        "given": "S."
+      },
+      {
+        "family": "Tian",
+        "given": "H."
+      },
+      {
+        "family": "Wu",
+        "given": "H."
+      },
+      {
+        "family": "Wang",
+        "given": "H."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "title": [
+      "ERNIE: Enhanced representation through knowledge integration"
+    ],
+    "note": [
+      "*arXiv preprint arXiv:1904.09223*."
+    ],
+    "arxiv": [
+      "1904.09223"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "author": [
+      {
+        "family": "Liu",
+        "given": "Y."
+      },
+      {
+        "family": "Lapata",
+        "given": "M."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "title": [
+      "Text summarization with pretrained encoders"
+    ],
+    "container-title": [
+      "*Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing"
+    ],
+    "pages": [
+      "– , 3730–3740"
+    ],
+    "type": "paper-conference"
   },
   {
     "citation-number": [
@@ -720,35 +802,63 @@
     ],
     "author": [
       {
-        "family": "Ren",
+        "family": "Raffel",
+        "given": "C."
+      },
+      {
+        "family": "Shazeer",
+        "given": "N."
+      },
+      {
+        "family": "Roberts",
+        "given": "A."
+      },
+      {
+        "family": "Lee",
+        "given": "K."
+      },
+      {
+        "family": "Narang",
         "given": "S."
       },
       {
-        "family": "Hu",
-        "given": "J."
+        "family": "Matena",
+        "given": "M."
       },
       {
         "family": "Liu",
-        "given": "Y."
+        "given": "P.J."
+      },
+      {
+        "others": true
       }
     ],
     "date": [
       "2020"
     ],
     "title": [
-      "A Survey of Neural Machine Translation"
+      "Exploring the limits of transfer learning with a unified text-to-text transformer"
     ],
-    "note": [
-      "*arXiv preprint arXiv:2002.07526*."
+    "volume": [
+      "21"
     ],
-    "arxiv": [
-      "2002.07526"
+    "pages": [
+      "1–67"
     ],
-    "type": null
+    "type": "article-journal",
+    "container-title": [
+      "*Journal of Machine Learning Research*"
+    ],
+    "issue": [
+      "140"
+    ]
   },
   {
     "title": [
-      "These articles cover a range of topics within neural machine translation, including foundational models, pre-training techniques, and advancements in unsupervised and multilingual translation"
+      "These articles cover a range of topics related to neural machine translation and the use of pre-training methods, providing a comprehensive overview of the advancements in this field up to"
+    ],
+    "date": [
+      "2021"
     ],
     "type": null
   }

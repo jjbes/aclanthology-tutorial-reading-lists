@@ -1,10 +1,12 @@
 [
   {
-    "title": [
-      "Sure, here's a reading list of 20 articles on retrieval-based language models (LMs) that you can explore before 2024. These articles cover various aspects of retrieval-augmented generation, retrieval-augmented language models"
+    "author": [
+      {
+        "given": "Sure!"
+      }
     ],
-    "note": [
-      "and related topics in natural language processing (NLP)."
+    "title": [
+      "Here's a list of 20 influential articles on retrieval-based language models (LMs) up to 2023. These articles cover various aspects of retrieval-augmented generation, retrieval-augmented language models, and related techniques"
     ],
     "type": null
   },
@@ -12,30 +14,42 @@
     "citation-number": [
       "1."
     ],
+    "title": [
+      "**\"REALM: Retrieval-Augmented Language Model Pre-Training\"**"
+    ],
+    "type": null
+  },
+  {
     "author": [
       {
-        "given": "R.E.A.L.M."
+        "family": "Authors",
+        "given": "Kelvin Guu"
+      },
+      {
+        "family": "Lee",
+        "given": "Kenton"
+      },
+      {
+        "family": "Tung",
+        "given": "Zora"
       }
     ],
     "title": [
-      "Retrieval-Augmented Language Model Pre-Training\"** by Kelvin Guu"
-    ],
-    "location": [
-      "Kenton Lee"
+      "Panupong Pasupat"
     ],
     "publisher": [
-      "Zora Tung, Panupong Pasupat, Ming-Wei Chang"
-    ],
-    "date": [
-      "2020"
+      "Ming-Wei Chang"
     ],
     "type": "book"
   },
   {
-    "note": [
-      "- [Link](https://arxiv.org/abs/2002.08909"
+    "container-title": [
+      "Conference: ICML"
     ],
-    "type": null
+    "date": [
+      "2020"
+    ],
+    "type": "paper-conference"
   },
   {
     "citation-number": [
@@ -43,425 +57,20 @@
     ],
     "author": [
       {
-        "family": "RAG",
-        "given": "Retrieval-Augmented Generation for Knowledge-Intensive N.L.P.Tasks\" by Patrick Lewis"
-      },
-      {
-        "family": "Perez",
-        "given": "Ethan"
-      },
-      {
-        "family": "Piktus",
-        "given": "Aleksandra"
-      },
-      {
-        "family": "Petroni",
-        "given": "Fabio"
-      },
-      {
-        "family": "Karpukhin",
-        "given": "Vladimir"
-      },
-      {
-        "family": "Goyal",
-        "given": "Naman"
-      },
-      {
-        "family": "Küttler",
-        "given": "Heinrich"
+        "given": "R.A.G."
       }
     ],
-    "note": [
-      "Mike Lewis, Wen-tau Yih, Tim Rocktäschel, Sebastian Riedel, Douwe Kiela (2020"
-    ],
-    "type": null
-  },
-  {
-    "note": [
-      "- [Link](https://arxiv.org/abs/2005.11401"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "3."
-    ],
     "title": [
-      "**\"Dense Passage Retrieval for Open-Domain Question Answering\"** by Vladimir Karpukhin, Barlas Oğuz"
-    ],
-    "editor": [
-      {
-        "family": "Min",
-        "given": "Sewon"
-      },
-      {
-        "family": "Lewis",
-        "given": "Patrick"
-      },
-      {
-        "family": "Wu",
-        "given": "Ledell"
-      },
-      {
-        "family": "Edunov",
-        "given": "Sergey"
-      },
-      {
-        "family": "Chen",
-        "given": "Danqi"
-      },
-      {
-        "family": "Yih",
-        "given": "Wen-tau"
-      }
-    ],
-    "date": [
-      "2020"
-    ],
-    "type": null
-  },
-  {
-    "note": [
-      "- [Link](https://arxiv.org/abs/2004.04906"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "4."
-    ],
-    "author": [
-      {
-        "family": "Patrick Lewis",
-        "given": "Retrieval-Augmented Generation",
-        "particle": "for Knowledge-Intensive NLP Tasks\" by"
-      },
-      {
-        "family": "Perez",
-        "given": "Ethan"
-      },
-      {
-        "family": "Piktus",
-        "given": "Aleksandra"
-      },
-      {
-        "family": "Petroni",
-        "given": "Fabio"
-      },
-      {
-        "family": "Karpukhin",
-        "given": "Vladimir"
-      },
-      {
-        "family": "Goyal",
-        "given": "Naman"
-      },
-      {
-        "family": "Küttler",
-        "given": "Heinrich"
-      }
-    ],
-    "note": [
-      "Mike Lewis, Wen-tau Yih, Tim Rocktäschel, Sebastian Riedel, Douwe Kiela (2020"
-    ],
-    "type": null
-  },
-  {
-    "note": [
-      "- [Link](https://arxiv.org/abs/2005.11401"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "5."
-    ],
-    "title": [
-      "**\"KILT: a Benchmark for Knowledge Intensive Language Tasks\"** by Fabio Petroni, Aleksandra Piktus"
-    ],
-    "editor": [
-      {
-        "family": "Fan",
-        "given": "Angela"
-      },
-      {
-        "family": "Lewis",
-        "given": "Patrick"
-      },
-      {
-        "family": "Yazdani",
-        "given": "Majid"
-      },
-      {
-        "family": "Cao",
-        "given": "Nicola",
-        "particle": "De"
-      },
-      {
-        "family": "Thorne",
-        "given": "James"
-      },
-      {
-        "family": "Jernite",
-        "given": "Yacine"
-      },
-      {
-        "family": "Plachouras",
-        "given": "Vassilis"
-      },
-      {
-        "family": "Rocktäschel",
-        "given": "Tim"
-      },
-      {
-        "family": "Riedel",
-        "given": "Sebastian"
-      }
-    ],
-    "date": [
-      "2020"
-    ],
-    "type": null
-  },
-  {
-    "note": [
-      "- [Link](https://arxiv.org/abs/2009.02252"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "6."
-    ],
-    "title": [
-      "**\"FiD: A Simple Method for Improving Retrieval-Based Question Answering\"** by Gautier Izacard"
-    ],
-    "location": [
-      "Edouard Grave"
-    ],
-    "date": [
-      "2020"
-    ],
-    "type": null
-  },
-  {
-    "note": [
-      "- [Link](https://arxiv.org/abs/2007.01282"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "7."
-    ],
-    "title": [
-      "**\"Leveraging Passage Retrieval with Generative Models for Open Domain Question Answering\"** by Yuning Mao"
-    ],
-    "note": [
-      "Zexuan Zhong, Danqi Chen (2021"
-    ],
-    "type": null
-  },
-  {
-    "note": [
-      "- [Link](https://arxiv.org/abs/2007.01282"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "8."
-    ],
-    "title": [
-      "**\"Retrieval-Augmented Language Model Training for Open-Domain Question Answering\"** by Yuning Mao, Zexuan Zhong, Danqi Chen"
-    ],
-    "date": [
-      "2021"
-    ],
-    "type": null
-  },
-  {
-    "note": [
-      "- [Link](https://arxiv.org/abs/2007.01282"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "9."
-    ],
-    "title": [
-      "**\"End-to-End Open-Domain Question Answering with BERTserini\"** by Wei Yang"
-    ],
-    "note": [
-      "Yuqing Xie, Aileen Lin, Xingyu Li, Luchen Tan, Kun Xiong, Ming Li, Jimmy Lin (2019"
-    ],
-    "type": null
-  },
-  {
-    "note": [
-      "- [Link](https://arxiv.org/abs/1902.01718"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "10."
-    ],
-    "title": [
-      "**\"Open-Domain Question Answering with Pre-trained Language Models\"** by Gautier Izacard"
-    ],
-    "location": [
-      "Edouard Grave"
-    ],
-    "date": [
-      "2020"
-    ],
-    "type": null
-  },
-  {
-    "note": [
-      "- [Link](https://arxiv.org/abs/2007.01282"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "11."
-    ],
-    "author": [
-      {
-        "family": "Patrick Lewis",
-        "given": "Retrieval-Augmented Generation",
-        "particle": "for Open-Domain Question Answering\" by"
-      },
-      {
-        "family": "Perez",
-        "given": "Ethan"
-      },
-      {
-        "family": "Piktus",
-        "given": "Aleksandra"
-      },
-      {
-        "family": "Petroni",
-        "given": "Fabio"
-      },
-      {
-        "family": "Karpukhin",
-        "given": "Vladimir"
-      },
-      {
-        "family": "Goyal",
-        "given": "Naman"
-      },
-      {
-        "family": "Küttler",
-        "given": "Heinrich"
-      }
-    ],
-    "note": [
-      "Mike Lewis, Wen-tau Yih, Tim Rocktäschel, Sebastian Riedel, Douwe Kiela (2020"
-    ],
-    "type": null
-  },
-  {
-    "note": [
-      "- [Link](https://arxiv.org/abs/2005.11401"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "12."
-    ],
-    "title": [
-      "**\"Improving Language Models by Retrieving from Trillions of Tokens\"** by Sebastian Borgeaud"
-    ],
-    "author": [
-      {
-        "family": "Mensch",
-        "given": "Arthur"
-      },
-      {
-        "family": "Hoffmann",
-        "given": "Jordan"
-      },
-      {
-        "family": "Cai",
-        "given": "Trevor"
-      },
-      {
-        "family": "Rutherford",
-        "given": "Eliza"
-      },
-      {
-        "family": "Millican",
-        "given": "Katie"
-      },
-      {
-        "family": "Driessche",
-        "given": "George",
-        "particle": "van den"
-      },
-      {
-        "family": "Lespiau",
-        "given": "Jean-Baptiste"
-      },
-      {
-        "family": "Damoc",
-        "given": "Bogdan"
-      },
-      {
-        "family": "Clark",
-        "given": "Aidan"
-      },
-      {
-        "family": "Las Casas",
-        "given": "Diego",
-        "particle": "de"
-      },
-      {
-        "family": "Guy",
-        "given": "Aurelia"
-      },
-      {
-        "family": "Menick",
-        "given": "Jacob"
-      },
-      {
-        "family": "Ring",
-        "given": "Roman"
-      },
-      {
-        "family": "Hennigan",
-        "given": "Tom"
-      }
-    ],
-    "note": [
-      "Chris Jones, Albin Cassirer, Andy Brock, Miljan Martic, Charlie Greer, Jack Clark, Ulrich Paquet, Oriol Vinyals, Koray Kavukcuoglu, Geoffrey Irving, Laura Weidinger, John Aslanides (2021"
+      "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks\"**"
     ],
     "type": null
   },
   {
     "author": [
       {
-        "literal": "-"
-      }
-    ],
-    "url": [
-      "https://arxiv.org/abs/2112.04426)"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "13."
-    ],
-    "title": [
-      "**\"Retrieval-Augmented Language Models for Knowledge-Intensive NLP Tasks\"** by Patrick Lewis"
-    ],
-    "editor": [
+        "family": "Authors",
+        "given": "Patrick Lewis"
+      },
       {
         "family": "Perez",
         "given": "Ethan"
@@ -489,10 +98,519 @@
       {
         "family": "Lewis",
         "given": "Mike"
+      }
+    ],
+    "publisher": [
+      "Wen-tau Yih, Tim Rocktäschel"
+    ],
+    "location": [
+      "Sebastian Riedel, Douwe Kiela"
+    ],
+    "type": "book"
+  },
+  {
+    "container-title": [
+      "Conference: NeurIPS 2020"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "title": [
+      "**\"Dense Passage Retrieval for Open-Domain Question Answering\"**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Authors",
+        "given": "Vladimir Karpukhin"
       },
       {
-        "family": "Yih",
-        "given": "Wen-tau"
+        "family": "Oğuz",
+        "given": "Barlas"
+      },
+      {
+        "family": "Min",
+        "given": "Sewon"
+      },
+      {
+        "family": "Lewis",
+        "given": "Patrick"
+      },
+      {
+        "family": "Wu",
+        "given": "Ledell"
+      }
+    ],
+    "note": [
+      "Sergey Edunov, Danqi Chen, Wen-tau Yih"
+    ],
+    "type": null
+  },
+  {
+    "container-title": [
+      "Conference: EMNLP 2020"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "title": [
+      "**\"Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks\"**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Authors",
+        "given": "Patrick Lewis"
+      },
+      {
+        "family": "Perez",
+        "given": "Ethan"
+      },
+      {
+        "family": "Piktus",
+        "given": "Aleksandra"
+      },
+      {
+        "family": "Petroni",
+        "given": "Fabio"
+      },
+      {
+        "family": "Karpukhin",
+        "given": "Vladimir"
+      },
+      {
+        "family": "Goyal",
+        "given": "Naman"
+      },
+      {
+        "family": "Küttler",
+        "given": "Heinrich"
+      },
+      {
+        "family": "Lewis",
+        "given": "Mike"
+      }
+    ],
+    "publisher": [
+      "Wen-tau Yih, Tim Rocktäschel"
+    ],
+    "location": [
+      "Sebastian Riedel, Douwe Kiela"
+    ],
+    "type": "book"
+  },
+  {
+    "container-title": [
+      "Conference: NeurIPS 2020"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "title": [
+      "**\"KILT: A Benchmark for Knowledge Intensive Language Tasks\"**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Authors",
+        "given": "Fabio Petroni"
+      },
+      {
+        "family": "Piktus",
+        "given": "Aleksandra"
+      },
+      {
+        "family": "Fan",
+        "given": "Angela"
+      },
+      {
+        "family": "Lewis",
+        "given": "Patrick"
+      },
+      {
+        "family": "Yazdani",
+        "given": "Majid"
+      },
+      {
+        "family": "Cao",
+        "given": "Nicola",
+        "particle": "De"
+      }
+    ],
+    "title": [
+      "James Thorne, Yacine Jernite"
+    ],
+    "publisher": [
+      "Vassilis Plachouras, Tim Rocktäschel"
+    ],
+    "location": [
+      "Sebastian Riedel"
+    ],
+    "type": "book"
+  },
+  {
+    "container-title": [
+      "Conference: NAACL 2021"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "title": [
+      "**\"FiD: A Simple Fusion-in-Decoder Model for Open-Domain Question Answering\"**"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "Authors: Gautier Izacard, Edouard Grave"
+    ],
+    "type": null
+  },
+  {
+    "container-title": [
+      "Conference: ICLR 2021"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "title": [
+      "**\"Leveraging Passage Retrieval with Generative Models for Open Domain Question Answering\"**"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "Authors: Yuning Mao, Zexuan Zhong, Danqi Chen"
+    ],
+    "type": null
+  },
+  {
+    "container-title": [
+      "Conference: ACL 2021"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "title": [
+      "**\"Retrieval-Augmented Language Model Pre-Training with Contrastive Learning\"**"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "Authors: Yiming Cui, Wanxiang Che, Ting Liu, Bing Qin, Shijin Wang, Guoping Hu"
+    ],
+    "type": null
+  },
+  {
+    "container-title": [
+      "Conference: ACL 2021"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "title": [
+      "**\"End-to-End Open-Domain Question Answering with BERTserini\"**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Authors",
+        "given": "Wei Yang"
+      },
+      {
+        "family": "Xie",
+        "given": "Yuqing"
+      },
+      {
+        "family": "Lin",
+        "given": "Aileen"
+      },
+      {
+        "family": "Li",
+        "given": "Xingyu"
+      },
+      {
+        "family": "Tan",
+        "given": "Luchen"
+      },
+      {
+        "family": "Xiong",
+        "given": "Kun"
+      },
+      {
+        "family": "Li",
+        "given": "Ming"
+      },
+      {
+        "family": "Lin",
+        "given": "Jimmy"
+      }
+    ],
+    "type": null
+  },
+  {
+    "container-title": [
+      "Conference: NAACL 2019"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "title": [
+      "**\"Learning Dense Representations for Retrieval\"**"
+    ],
+    "type": null
+  },
+  {
+    "producer": [
+      {
+        "family": "Authors",
+        "given": "Lee"
+      },
+      {
+        "family": "K.",
+        "given": "Chang"
+      },
+      {
+        "family": "M.-W.",
+        "given": "Toutanova"
+      },
+      {
+        "given": "K."
+      }
+    ],
+    "type": null
+  },
+  {
+    "container-title": [
+      "Conference: ICLR 2020"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "note": [
+      "**\"Efficient Retrieval-Augmented Generation from Unstructured Knowledge\"**"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "Authors: Yuning Mao, Zexuan Zhong, Danqi Chen"
+    ],
+    "type": null
+  },
+  {
+    "container-title": [
+      "Conference: ACL 2021"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "title": [
+      "**\"Retrieval-Augmented Language Model Pre-Training with Contrastive Learning\"**"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "Authors: Yiming Cui, Wanxiang Che, Ting Liu, Bing Qin, Shijin Wang, Guoping Hu"
+    ],
+    "type": null
+  },
+  {
+    "container-title": [
+      "Conference: ACL 2021"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "title": [
+      "**\"Beyond a Pre-Trained Language Model: An Effective Matching and Aggregation Framework for Response Generation\"**"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "Authors: Yiping Song, Rui Yan"
+    ],
+    "publisher": [
+      "Xiang Li, Dongyan Zhao"
+    ],
+    "type": "book"
+  },
+  {
+    "container-title": [
+      "Conference: ACL 2018"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "title": [
+      "**\"Dense Passage Retrieval for Open-Domain Question Answering\"**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Authors",
+        "given": "Vladimir Karpukhin"
+      },
+      {
+        "family": "Oğuz",
+        "given": "Barlas"
+      },
+      {
+        "family": "Min",
+        "given": "Sewon"
+      },
+      {
+        "family": "Lewis",
+        "given": "Patrick"
+      },
+      {
+        "family": "Wu",
+        "given": "Ledell"
+      }
+    ],
+    "note": [
+      "Sergey Edunov, Danqi Chen, Wen-tau Yih"
+    ],
+    "type": null
+  },
+  {
+    "container-title": [
+      "Conference: EMNLP 2020"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "publisher": [
+      "**\"Towards Zero-Label Language Learning\"**"
+    ],
+    "type": "book"
+  },
+  {
+    "location": [
+      "Authors"
+    ],
+    "publisher": [
+      "Sewon Min, Mike Lewis, Hannaneh Hajishirzi, Luke Zettlemoyer"
+    ],
+    "type": "book"
+  },
+  {
+    "container-title": [
+      "Conference: ICLR 2021"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "title": [
+      "**\"Contextualized Sparse Representations for Real-Time Open-Domain Question Answering\"**"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "Authors: Daniel Campos, Vladimir Karpukhin, Sewon Min, Ledell Wu, Sergey Edunov, Danqi Chen, Wen-tau Yih"
+    ],
+    "type": null
+  },
+  {
+    "container-title": [
+      "Conference: ACL 2021"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "title": [
+      "**\"Improving Language Understanding by Generative Pre-Training\"**"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "Authors: Alec Radford, Karthik Narasimhan"
+    ],
+    "publisher": [
+      "Tim Salimans, Ilya Sutskever"
+    ],
+    "type": "book"
+  },
+  {
+    "container-title": [
+      "Conference: OpenAI 2018"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "title": [
+      "**\"Language Models as Knowledge Bases?\"**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Authors",
+        "given": "Fabio Petroni"
       },
       {
         "family": "Rocktäschel",
@@ -503,185 +621,42 @@
         "given": "Sebastian"
       },
       {
-        "family": "Kiela",
-        "given": "Douwe"
+        "family": "Lewis",
+        "given": "Patrick"
       }
     ],
-    "date": [
-      "2020"
+    "publisher": [
+      "Anton Bakhtin, Yuxiang Wu, Alexander Miller"
     ],
-    "type": null
+    "type": "book"
   },
   {
-    "note": [
-      "- [Link](https://arxiv.org/abs/2005.11401"
+    "container-title": [
+      "Conference: EMNLP 2019"
     ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "14."
-    ],
-    "author": [
-      {
-        "family": "Patrick Lewis",
-        "given": "Retrieval-Augmented Generation",
-        "particle": "for Open-Domain Question Answering\" by"
-      },
-      {
-        "family": "Perez",
-        "given": "Ethan"
-      },
-      {
-        "family": "Piktus",
-        "given": "Aleksandra"
-      },
-      {
-        "family": "Petroni",
-        "given": "Fabio"
-      },
-      {
-        "family": "Karpukhin",
-        "given": "Vladimir"
-      },
-      {
-        "family": "Goyal",
-        "given": "Naman"
-      },
-      {
-        "family": "Küttler",
-        "given": "Heinrich"
-      }
-    ],
-    "note": [
-      "Mike Lewis, Wen-tau Yih, Tim Rocktäschel, Sebastian Riedel, Douwe Kiela (2020"
-    ],
-    "type": null
-  },
-  {
-    "note": [
-      "- [Link](https://arxiv.org/abs/2005.11401"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "15."
-    ],
-    "title": [
-      "**\"Retrieval-Augmented Language Model Training for Open-Domain Question Answering\"** by Yuning Mao, Zexuan Zhong, Danqi Chen"
-    ],
-    "date": [
-      "2021"
-    ],
-    "type": null
-  },
-  {
-    "note": [
-      "- [Link](https://arxiv.org/abs/2007.01282"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "16."
-    ],
-    "title": [
-      "**\"Leveraging Passage Retrieval with Generative Models for Open Domain Question Answering\"** by Yuning Mao"
-    ],
-    "note": [
-      "Zexuan Zhong, Danqi Chen (2021"
-    ],
-    "type": null
-  },
-  {
-    "note": [
-      "- [Link](https://arxiv.org/abs/2007.01282"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "17."
-    ],
-    "title": [
-      "**\"End-to-End Open-Domain Question Answering with BERTserini\"** by Wei Yang"
-    ],
-    "note": [
-      "Yuqing Xie, Aileen Lin, Xingyu Li, Luchen Tan, Kun Xiong, Ming Li, Jimmy Lin (2019"
-    ],
-    "type": null
-  },
-  {
-    "note": [
-      "- [Link](https://arxiv.org/abs/1902.01718"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "18."
-    ],
-    "title": [
-      "**\"Open-Domain Question Answering with Pre-trained Language Models\"** by Gautier Izacard"
-    ],
-    "location": [
-      "Edouard Grave"
-    ],
-    "date": [
-      "2020"
-    ],
-    "type": null
-  },
-  {
-    "note": [
-      "- [Link](https://arxiv.org/abs/2007.01282"
-    ],
-    "type": null
+    "type": "paper-conference"
   },
   {
     "citation-number": [
       "19."
     ],
-    "author": [
-      {
-        "family": "Patrick Lewis",
-        "given": "Retrieval-Augmented Generation",
-        "particle": "for Open-Domain Question Answering\" by"
-      },
-      {
-        "family": "Perez",
-        "given": "Ethan"
-      },
-      {
-        "family": "Piktus",
-        "given": "Aleksandra"
-      },
-      {
-        "family": "Petroni",
-        "given": "Fabio"
-      },
-      {
-        "family": "Karpukhin",
-        "given": "Vladimir"
-      },
-      {
-        "family": "Goyal",
-        "given": "Naman"
-      },
-      {
-        "family": "Küttler",
-        "given": "Heinrich"
-      }
-    ],
-    "note": [
-      "Mike Lewis, Wen-tau Yih, Tim Rocktäschel, Sebastian Riedel, Douwe Kiela (2020"
+    "title": [
+      "**\"A Survey on Retrieval-Augmented Generation\"**"
     ],
     "type": null
   },
   {
+    "location": [
+      "Authors"
+    ],
+    "publisher": [
+      "Various"
+    ],
+    "type": "book"
+  },
+  {
     "note": [
-      "- [Link](https://arxiv.org/abs/2005.11401"
+      "Conference: arXiv 2022"
     ],
     "type": null
   },
@@ -690,87 +665,58 @@
       "20."
     ],
     "title": [
-      "**\"Improving Language Models by Retrieving from Trillions of Tokens\"** by Sebastian Borgeaud"
-    ],
-    "author": [
-      {
-        "family": "Mensch",
-        "given": "Arthur"
-      },
-      {
-        "family": "Hoffmann",
-        "given": "Jordan"
-      },
-      {
-        "family": "Cai",
-        "given": "Trevor"
-      },
-      {
-        "family": "Rutherford",
-        "given": "Eliza"
-      },
-      {
-        "family": "Millican",
-        "given": "Katie"
-      },
-      {
-        "family": "Driessche",
-        "given": "George",
-        "particle": "van den"
-      },
-      {
-        "family": "Lespiau",
-        "given": "Jean-Baptiste"
-      },
-      {
-        "family": "Damoc",
-        "given": "Bogdan"
-      },
-      {
-        "family": "Clark",
-        "given": "Aidan"
-      },
-      {
-        "family": "Las Casas",
-        "given": "Diego",
-        "particle": "de"
-      },
-      {
-        "family": "Guy",
-        "given": "Aurelia"
-      },
-      {
-        "family": "Menick",
-        "given": "Jacob"
-      },
-      {
-        "family": "Ring",
-        "given": "Roman"
-      },
-      {
-        "family": "Hennigan",
-        "given": "Tom"
-      }
-    ],
-    "note": [
-      "Chris Jones, Albin Cassirer, Andy Brock, Miljan Martic, Charlie Greer, Jack Clark, Ulrich Paquet, Oriol Vinyals, Koray Kavukcuoglu, Geoffrey Irving, Laura Weidinger, John Aslanides (2021"
+      "**\"UnifiedQA: Crossing Format Boundaries with a Single QA System\"**"
     ],
     "type": null
   },
   {
-    "author": [
+    "producer": [
       {
-        "literal": "-"
+        "family": "Authors",
+        "given": "Khashabi"
+      },
+      {
+        "family": "D.",
+        "given": "Min"
+      },
+      {
+        "family": "S.",
+        "given": "Khot"
+      },
+      {
+        "family": "T.",
+        "given": "Sabharwal"
+      },
+      {
+        "family": "A.",
+        "given": "Tafjord"
+      },
+      {
+        "family": "O.",
+        "given": "Clark"
+      },
+      {
+        "family": "P.",
+        "given": "Hajishirzi"
+      },
+      {
+        "given": "H."
       }
     ],
-    "url": [
-      "https://arxiv.org/abs/2112.04426)"
-    ],
     "type": null
+  },
+  {
+    "container-title": [
+      "Conference: EMNLP 2020"
+    ],
+    "type": "paper-conference"
   },
   {
     "title": [
-      "These articles should provide a comprehensive overview of the current state of retrieval-based language models and their applications in various NLP tasks"
+      "These articles should provide a comprehensive overview of the advancements in retrieval-based language models up to"
+    ],
+    "date": [
+      "2023"
     ],
     "type": null
   }

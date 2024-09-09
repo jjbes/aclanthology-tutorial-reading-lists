@@ -6,7 +6,7 @@
       }
     ],
     "title": [
-      "Here's a reading list of 20 articles up to 2020 that focus on dataset construction and the methodological issues associated with it. These articles cover a range of topics including data collection, annotation, bias, and validation"
+      "Here's a list of 20 articles up to 2020 that cover various aspects of dataset construction and the methodological issues associated with it"
     ],
     "type": null
   },
@@ -15,10 +15,7 @@
       "1."
     ],
     "title": [
-      "**\"ImageNet Large Scale Visual Recognition Challenge\"** by Olga Russakovsky et al"
-    ],
-    "date": [
-      "2015"
+      "**\"ImageNet Large Scale Visual Recognition Challenge\"**"
     ],
     "type": null
   },
@@ -29,7 +26,32 @@
       }
     ],
     "title": [
-      "Discusses the construction and challenges of the ImageNet dataset"
+      "Authors: Olga Russakovsky et al"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "date": [
+      "2015"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "Journal: International Journal of Computer Vision"
+    ]
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Summary: Discusses the creation and challenges of the ImageNet dataset, a large-scale image dataset used for visual recognition tasks"
     ],
     "type": null
   },
@@ -37,13 +59,10 @@
     "citation-number": [
       "2."
     ],
-    "title": [
-      "**\"The PASCAL Visual Object Classes (VOC) Challenge\"** by Mark Everingham et al"
+    "container-title": [
+      "**\"COCO: Common Objects in Context\"**"
     ],
-    "date": [
-      "2010"
-    ],
-    "type": null
+    "type": "chapter"
   },
   {
     "author": [
@@ -52,7 +71,30 @@
       }
     ],
     "title": [
-      "Details the creation and evaluation of the PASCAL VOC dataset"
+      "Authors: Tsung-Yi Lin et al"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "container-title": [
+      "Conference: European Conference on Computer Vision (ECCV"
+    ],
+    "date": [
+      "2014"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Summary: Details the construction of the COCO dataset, focusing on object segmentation and contextual information"
     ],
     "type": null
   },
@@ -60,16 +102,8 @@
     "citation-number": [
       "3."
     ],
-    "author": [
-      {
-        "given": "C.O.C.O."
-      }
-    ],
     "title": [
-      "Common Objects in Context\"** by Tsung-Yi Lin et al"
-    ],
-    "date": [
-      "2014"
+      "**\"SQuAD: 100,000+ Questions for Machine Comprehension of Text\"**"
     ],
     "type": null
   },
@@ -80,7 +114,30 @@
       }
     ],
     "title": [
-      "Explores the methodology behind the COCO dataset and its unique challenges"
+      "Authors: Pranav Rajpurkar et al"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "container-title": [
+      "Conference: Conference on Empirical Methods in Natural Language Processing (EMNLP"
+    ],
+    "date": [
+      "2016"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Summary: Introduces the Stanford Question Answering Dataset (SQuAD) and discusses the challenges in creating a large-scale reading comprehension dataset"
     ],
     "type": null
   },
@@ -88,11 +145,19 @@
     "citation-number": [
       "4."
     ],
-    "title": [
-      "**\"SQuAD: 100,000+ Questions for Machine Comprehension of Text\"** by Pranav Rajpurkar et al"
+    "container-title": [
+      "**\"The PASCAL Visual Object Classes (VOC) Challenge\"**"
     ],
-    "date": [
-      "2016"
+    "type": "chapter"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Authors: Mark Everingham et al"
     ],
     "type": null
   },
@@ -102,8 +167,22 @@
         "literal": "-"
       }
     ],
+    "date": [
+      "2010"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "Journal: International Journal of Computer Vision"
+    ]
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
     "title": [
-      "Discusses the creation of the SQuAD dataset for machine comprehension"
+      "Summary: Reviews the PASCAL VOC dataset and its impact on object detection research"
     ],
     "type": null
   },
@@ -112,10 +191,7 @@
       "5."
     ],
     "title": [
-      "**\"Linguistic Bias in Machine Translation\"** by Antonio Toral"
-    ],
-    "date": [
-      "2019"
+      "**\"The MNIST Database of Handwritten Digits\"**"
     ],
     "type": null
   },
@@ -126,7 +202,33 @@
       }
     ],
     "title": [
-      "Examines biases in machine translation datasets and their implications"
+      "Authors: Yann LeCun et al"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "location": [
+      "Journal"
+    ],
+    "publisher": [
+      "IEEE"
+    ],
+    "date": [
+      "1998"
+    ],
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Summary: Describes the MNIST dataset, a benchmark for handwritten digit classification, and its methodological considerations"
     ],
     "type": null
   },
@@ -135,12 +237,36 @@
       "6."
     ],
     "title": [
-      "**\"Datasheets for Datasets\"** by Timnit Gebru et al"
-    ],
-    "date": [
-      "2018"
+      "**\"The Penn Treebank: Annotating Predicate Argument Structure\"**"
     ],
     "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Authors",
+        "given": "Mitchell P.Marcus"
+      },
+      {
+        "others": true
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "location": [
+      "Conference"
+    ],
+    "publisher": [
+      "Human Language Technology Workshop"
+    ],
+    "date": [
+      "1994"
+    ],
+    "type": "book"
   },
   {
     "author": [
@@ -149,7 +275,7 @@
       }
     ],
     "title": [
-      "Proposes a standardized approach to documenting datasets to address methodological issues"
+      "Summary: Discusses the Penn Treebank project and the challenges in annotating syntactic and semantic structures"
     ],
     "type": null
   },
@@ -158,10 +284,7 @@
       "7."
     ],
     "title": [
-      "**\"The Stanford Question Answering Dataset\"** by Rajpurkar et al"
-    ],
-    "date": [
-      "2016"
+      "**\"The Open Images Dataset V4: Unified Image Classification, Object Detection, and Visual Relationship Detection at Scale\"**"
     ],
     "type": null
   },
@@ -172,7 +295,33 @@
       }
     ],
     "title": [
-      "Focuses on the construction and challenges of the Stanford Question Answering Dataset (SQuAD"
+      "Authors: Alina Kuznetsova et al"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "location": [
+      "Conference"
+    ],
+    "publisher": [
+      "International Journal of Computer Vision"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Summary: Details the Open Images Dataset and its comprehensive annotations for multiple visual tasks"
     ],
     "type": null
   },
@@ -181,10 +330,7 @@
       "8."
     ],
     "title": [
-      "**\"A Survey on Bias and Fairness in Machine Learning\"** by Mehrabi et al"
-    ],
-    "date": [
-      "2019"
+      "**\"The Cityscapes Dataset for Semantic Urban Scene Understanding\"**"
     ],
     "type": null
   },
@@ -195,7 +341,30 @@
       }
     ],
     "title": [
-      "Reviews various types of biases in datasets and their impact on machine learning models"
+      "Authors: Marius Cordts et al"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "container-title": [
+      "Conference: IEEE Conference on Computer Vision and Pattern Recognition (CVPR"
+    ],
+    "date": [
+      "2016"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Summary: Introduces the Cityscapes dataset, focusing on semantic segmentation in urban environments"
     ],
     "type": null
   },
@@ -203,11 +372,11 @@
     "citation-number": [
       "9."
     ],
-    "title": [
-      "**\"Crowdsourcing Annotations for Visual Object Detection\"** by Sorokin and Forsyth"
-    ],
-    "date": [
-      "2008"
+    "author": [
+      {
+        "family": "Suite\"",
+        "given": "The K.I.T.T.I.Vision Benchmark"
+      }
     ],
     "type": null
   },
@@ -218,7 +387,30 @@
       }
     ],
     "title": [
-      "Discusses the use of crowdsourcing for dataset annotation and associated challenges"
+      "Authors: Andreas Geiger et al"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "container-title": [
+      "Conference: IEEE Conference on Computer Vision and Pattern Recognition (CVPR"
+    ],
+    "date": [
+      "2012"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Summary: Describes the KITTI dataset, which is used for autonomous driving research and includes various sensor data"
     ],
     "type": null
   },
@@ -227,10 +419,7 @@
       "10."
     ],
     "title": [
-      "**\"The Role of Data in AI Ethics\"** by Luciano Floridi and Josh Cowls"
-    ],
-    "date": [
-      "2019"
+      "**\"The IMDB-WIKI Dataset: A Large-Scale Benchmark for Face Recognition and Demographic Analysis\"**"
     ],
     "type": null
   },
@@ -241,7 +430,30 @@
       }
     ],
     "title": [
-      "Explores ethical considerations in dataset construction"
+      "Authors: Philip Rothe et al"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "container-title": [
+      "Conference: IEEE Conference on Computer Vision and Pattern Recognition Workshops (CVPRW"
+    ],
+    "date": [
+      "2016"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Summary: Discusses the creation and challenges of the IMDB-WIKI dataset for face recognition and age estimation"
     ],
     "type": null
   },
@@ -250,12 +462,33 @@
       "11."
     ],
     "title": [
-      "**\"Gender Shades: Intersectional Accuracy Disparities in Commercial Gender Classification\"** by Joy Buolamwini and Timnit Gebru"
-    ],
-    "date": [
-      "2018"
+      "**\"The LFW Dataset: Unrestricted Face Recognition\"**"
     ],
     "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Authors",
+        "given": "Gary B.Huang"
+      },
+      {
+        "others": true
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "container-title": [
+      "Conference: Workshop on Faces in 'Real-Life' Images"
+    ],
+    "date": [
+      "2008"
+    ],
+    "type": "paper-conference"
   },
   {
     "author": [
@@ -264,7 +497,7 @@
       }
     ],
     "title": [
-      "Investigates biases in facial recognition datasets"
+      "Summary: Introduces the Labeled Faces in the Wild (LFW) dataset and its use in face verification tasks"
     ],
     "type": null
   },
@@ -272,20 +505,37 @@
     "citation-number": [
       "12."
     ],
+    "title": [
+      "**\"The TIMIT Acoustic-Phonetic Continuous Speech Corpus\"**"
+    ],
+    "type": null
+  },
+  {
     "author": [
       {
-        "family": "M. Patrini",
-        "given": "Learning",
-        "particle": "from Label Proportions\" by"
+        "family": "Authors",
+        "given": "John S.Garofolo"
       },
       {
         "others": true
       }
     ],
-    "date": [
-      "2014"
-    ],
     "type": null
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "location": [
+      "Journal"
+    ],
+    "publisher": [
+      "Linguistic Data Consortium"
+    ],
+    "date": [
+      "1993"
+    ],
+    "type": "book"
   },
   {
     "author": [
@@ -294,7 +544,7 @@
       }
     ],
     "title": [
-      "Discusses issues related to learning from datasets with label proportions rather than individual labels"
+      "Summary: Describes the TIMIT dataset, used for speech recognition and phonetic research"
     ],
     "type": null
   },
@@ -303,10 +553,7 @@
       "13."
     ],
     "title": [
-      "**\"The Open Images Dataset V4\"** by Alina Kuznetsova et al"
-    ],
-    "date": [
-      "2018"
+      "**\"The Enron Corpus: A New Dataset for Email Classification Research\"**"
     ],
     "type": null
   },
@@ -317,7 +564,30 @@
       }
     ],
     "title": [
-      "Details the creation and challenges of the Open Images Dataset"
+      "Authors: Bryan Klimt and Yiming Yang"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "container-title": [
+      "Conference: European Conference on Machine Learning (ECML"
+    ],
+    "date": [
+      "2004"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Summary: Discusses the Enron email dataset and its applications in email classification and natural language processing"
     ],
     "type": null
   },
@@ -326,10 +596,7 @@
       "14."
     ],
     "title": [
-      "**\"Understanding the Limitations of CNN-based Absolute Camera Pose Regression\"** by Walch et al"
-    ],
-    "date": [
-      "2017"
+      "**\"The CIFAR-10 and CIFAR-100 Datasets\"**"
     ],
     "type": null
   },
@@ -340,7 +607,33 @@
       }
     ],
     "title": [
-      "Examines the limitations of datasets used for camera pose regression"
+      "Authors: Alex Krizhevsky et al"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "location": [
+      "Journal"
+    ],
+    "publisher": [
+      "Technical Report"
+    ],
+    "date": [
+      "2009"
+    ],
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Summary: Introduces the CIFAR-10 and CIFAR-100 datasets, widely used for image classification tasks"
     ],
     "type": null
   },
@@ -348,13 +641,38 @@
     "citation-number": [
       "15."
     ],
-    "title": [
-      "**\"The MNIST Database of Handwritten Digits\"** by LeCun et al"
+    "container-title": [
+      "**\"The UCI Machine Learning Repository\"**"
+    ],
+    "type": "chapter"
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "location": [
+      "Authors"
+    ],
+    "publisher": [
+      "Dheeru Dua and Casey Graff"
+    ],
+    "type": "book"
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "location": [
+      "Journal",
+      "Irvine"
+    ],
+    "publisher": [
+      "University of California"
     ],
     "date": [
-      "1998"
+      "2017"
     ],
-    "type": null
+    "type": "book"
   },
   {
     "author": [
@@ -363,7 +681,7 @@
       }
     ],
     "title": [
-      "Describes the creation and challenges of the MNIST dataset"
+      "Summary: Reviews the UCI Machine Learning Repository, a collection of datasets for machine learning research"
     ],
     "type": null
   },
@@ -371,13 +689,10 @@
     "citation-number": [
       "16."
     ],
-    "title": [
-      "**\"Bias in Bios: A Case Study of Semantic Representation Bias in a High-Stakes Setting\"** by De-Arteaga et al"
+    "publisher": [
+      "**\"The Stanford Sentiment Treebank\"**"
     ],
-    "date": [
-      "2019"
-    ],
-    "type": null
+    "type": "book"
   },
   {
     "author": [
@@ -386,7 +701,30 @@
       }
     ],
     "title": [
-      "Investigates biases in datasets used for professional bios"
+      "Authors: Richard Socher et al"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "container-title": [
+      "Conference: Conference on Empirical Methods in Natural Language Processing (EMNLP"
+    ],
+    "date": [
+      "2013"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Summary: Introduces the Stanford Sentiment Treebank, a dataset for sentiment analysis with fine-grained sentiment labels"
     ],
     "type": null
   },
@@ -395,18 +733,7 @@
       "17."
     ],
     "title": [
-      "**\"The Role of Data in Algorithmic Decision Making\"** by Barocas"
-    ],
-    "editor": [
-      {
-        "family": "Hardt"
-      },
-      {
-        "given": "Narayanan"
-      }
-    ],
-    "date": [
-      "2019"
+      "**\"The MS MARCO Dataset: A Human-Generated MAchine Reading COmprehension Dataset\"**"
     ],
     "type": null
   },
@@ -417,7 +744,30 @@
       }
     ],
     "title": [
-      "Discusses the impact of dataset biases on algorithmic decision-making"
+      "Authors: Tri Nguyen et al"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "container-title": [
+      "Conference: Conference on Advances in Neural Information Processing Systems (NeurIPS"
+    ],
+    "date": [
+      "2016"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Summary: Discusses the MS MARCO dataset, designed for machine reading comprehension and question answering tasks"
     ],
     "type": null
   },
@@ -426,10 +776,7 @@
       "18."
     ],
     "title": [
-      "**\"A Critical Review of the Assumptions Underlying Machine Learning\"** by Sculley et al"
-    ],
-    "date": [
-      "2018"
+      "**\"The SNLI Corpus: A Large-Scale Dataset for Natural Language Inference\"**"
     ],
     "type": null
   },
@@ -440,7 +787,33 @@
       }
     ],
     "title": [
-      "Reviews assumptions and methodological issues in machine learning datasets"
+      "Authors: Samuel R"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "Bowman et al"
+    ]
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "container-title": [
+      "Conference: Conference on Empirical Methods in Natural Language Processing (EMNLP"
+    ],
+    "date": [
+      "2015"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Summary: Introduces the Stanford Natural Language Inference (SNLI) corpus, used for natural language understanding tasks"
     ],
     "type": null
   },
@@ -449,10 +822,7 @@
       "19."
     ],
     "title": [
-      "**\"The Visual Genome Dataset: Connecting Language and Vision Using Crowdsourced Dense Image Annotations\"** by Krishna et al"
-    ],
-    "date": [
-      "2017"
+      "**\"The WikiText Long Term Dependency Language Modeling Dataset\"**"
     ],
     "type": null
   },
@@ -463,7 +833,30 @@
       }
     ],
     "title": [
-      "Explores the creation and challenges of the Visual Genome dataset"
+      "Authors: Stephen Merity et al"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "container-title": [
+      "Conference: International Conference on Learning Representations (ICLR"
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Summary: Describes the WikiText dataset, designed for language modeling and long-term dependency tasks"
     ],
     "type": null
   },
@@ -472,12 +865,36 @@
       "20."
     ],
     "title": [
-      "**\"Bias and Fairness in Natural Language Processing\"** by Caliskan et al"
-    ],
-    "date": [
-      "2017"
+      "**\"The Yelp Dataset Challenge: A Corpus for Sentiment Analysis and Text Mining\"**"
     ],
     "type": null
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "location": [
+      "Authors"
+    ],
+    "publisher": [
+      "Yelp Inc"
+    ],
+    "type": "book"
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "location": [
+      "Journal"
+    ],
+    "publisher": [
+      "Yelp Dataset Challenge"
+    ],
+    "date": [
+      "2015"
+    ],
+    "type": "book"
   },
   {
     "author": [
@@ -486,13 +903,13 @@
       }
     ],
     "title": [
-      "Discusses biases in NLP datasets and their implications for fairness"
+      "Summary: Discusses the Yelp dataset, which includes reviews and business information for sentiment analysis and text mining research"
     ],
     "type": null
   },
   {
     "title": [
-      "These articles should provide a comprehensive overview of the various challenges and methodological issues associated with dataset construction across different domains"
+      "These articles provide a comprehensive overview of various datasets and the methodological challenges encountered during their construction"
     ],
     "type": null
   }

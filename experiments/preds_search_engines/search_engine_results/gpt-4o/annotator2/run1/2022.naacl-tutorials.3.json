@@ -1,12 +1,18 @@
 [
   {
+    "title": [
+      "Sure, here's a reading list of 20 articles on information extraction (IE) up to 2022"
+    ],
+    "note": [
+      "covering recent progress on robustness, generalization, fine-grained labels, and indirect supervision:"
+    ],
+    "type": null
+  },
+  {
     "author": [
       {
-        "given": "Certainly!"
+        "given": "Robustness"
       }
-    ],
-    "title": [
-      "Here's a curated list of 20 articles on information extraction (IE) that cover recent progress in robustness, generalization, fine-grained labels, and indirect supervision"
     ],
     "type": null
   },
@@ -15,7 +21,7 @@
       "1."
     ],
     "title": [
-      "**Robustness and Generalization:**"
+      "**\"Robust Information Extraction with Perceptual Noise\"**"
     ],
     "type": null
   },
@@ -26,157 +32,99 @@
       }
     ],
     "title": [
-      "Robust Information Extraction with Perceptrons"
+      "Authors: Peng Qi"
+    ],
+    "editor": [
+      {
+        "family": "Zhang",
+        "given": "Yuhao"
+      },
+      {
+        "family": "Zhang",
+        "given": "Yuhui"
+      },
+      {
+        "family": "Bolton",
+        "given": "Jason"
+      },
+      {
+        "family": "Manning",
+        "given": "Christopher D."
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "location": [
+      "Conference"
     ],
     "publisher": [
-      "by Michael Collins"
-    ],
-    "date": [
-      "2002"
-    ],
-    "type": "book"
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Robust Named Entity Recognition with Truecasing Preprocessing\" by Liling Tan et al"
-    ],
-    "date": [
-      "2018"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Adversarial Training for Information Extraction\" by Yaojie Lu et al"
+      "ACL"
     ],
     "date": [
       "2020"
     ],
-    "type": null
+    "type": "book"
   },
   {
-    "author": [
-      {
-        "literal": "-"
-      }
+    "note": [
+      "- URL: [ACL Anthology](https://www.aclweb.org/anthology/2020.acl-main.711/"
     ],
-    "title": [
-      "Generalization in Named Entity Recognition: A Quantitative Analysis\" by Xuezhe Ma and Eduard Hovy"
-    ],
-    "date": [
-      "2016"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Robustness to Spurious Correlations in Text Classification via Automatically Generated Counterfactuals\" by Eric Wallace et al"
-    ],
-    "date": [
-      "2021"
-    ],
-    "type": null
+    "type": "webpage"
   },
   {
     "citation-number": [
       "2."
     ],
+    "title": [
+      "**\"Robust Text Classification under Confounding Shift\"**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Authors: Yijun Xiao"
+    ],
+    "publisher": [
+      "William Yang Wang"
+    ],
+    "type": "book"
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "location": [
+      "Conference"
+    ],
+    "publisher": [
+      "EMNLP"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": "book"
+  },
+  {
     "note": [
-      "**Fine-Grained Labels:**"
+      "- URL: [ACL Anthology](https://www.aclweb.org/anthology/2021.emnlp-main.168/"
     ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Fine-Grained Named Entity Recognition\" by Alan Ritter et al"
-    ],
-    "date": [
-      "2011"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Fine-Grained Entity Typing by Hierarchical Partial-Label Embedding\" by Xin Li et al"
-    ],
-    "date": [
-      "2012"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Fine-Grained Entity Recognition\" by Dan Gillick et al"
-    ],
-    "date": [
-      "2014"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Fine-Grained Named Entity Recognition Using Conditional Random Fields for Question Answering\" by Satoshi Sekine"
-    ],
-    "date": [
-      "2008"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Fine-Grained Entity Recognition with Reduced Manual Effort\" by Limin Yao et al"
-    ],
-    "date": [
-      "2013"
-    ],
-    "type": null
+    "type": "webpage"
   },
   {
     "citation-number": [
       "3."
     ],
-    "note": [
-      "**Indirect Supervision:**"
+    "title": [
+      "**\"Adversarial Training for Information Extraction\"**"
     ],
     "type": null
   },
@@ -187,75 +135,419 @@
       }
     ],
     "title": [
-      "Bootstrapping Named Entity Recognition with Automatically Generated Gazetteer Lists\" by David Nadeau et al"
-    ],
-    "date": [
-      "2006"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Distant Supervision for Relation Extraction without Labeled Data\" by Mike Mintz et al"
-    ],
-    "date": [
-      "2009"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Learning Named Entity Tagger using Domain-Specific Dictionary\" by Kazi Saidul Hasan et al"
-    ],
-    "date": [
-      "2009"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Self-Training with Uncertainty Estimation for Neural Semantic Parsing\" by Yushi Wang et al"
-    ],
-    "date": [
-      "2018"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Indirect Supervision for Relation Extraction using Question-Answer Pairs\" by Siva Reddy et al"
-    ],
-    "date": [
-      "2012"
+      "Authors: Yifan Gao, Wei Lu"
     ],
     "type": null
   },
   {
     "citation-number": [
-      "4."
+      "-"
+    ],
+    "location": [
+      "Conference"
     ],
     "publisher": [
-      "**Recent Progress and Techniques:**"
+      "NAACL"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": "book"
+  },
+  {
+    "note": [
+      "- URL: [ACL Anthology](https://www.aclweb.org/anthology/2021.naacl-main.219/"
+    ],
+    "type": "webpage"
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "title": [
+      "**\"Robustness of Information Extraction Models to Noisy Data\"**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Authors: Zexuan Zhong, Danqi Chen"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "location": [
+      "Conference"
+    ],
+    "publisher": [
+      "ACL"
+    ],
+    "date": [
+      "2022"
+    ],
+    "type": "book"
+  },
+  {
+    "note": [
+      "- URL: [ACL Anthology](https://www.aclweb.org/anthology/2022.acl-main.123/"
+    ],
+    "type": "webpage"
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "title": [
+      "**\"Improving Robustness of Information Extraction Systems with Data Augmentation\"**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Authors: Xinyi Wang"
+    ],
+    "publisher": [
+      "William Yang Wang"
+    ],
+    "type": "book"
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "location": [
+      "Conference"
+    ],
+    "publisher": [
+      "EMNLP"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": "book"
+  },
+  {
+    "note": [
+      "- URL: [ACL Anthology](https://www.aclweb.org/anthology/2020.emnlp-main.45/"
+    ],
+    "type": "webpage"
+  },
+  {
+    "author": [
+      {
+        "given": "Generalization"
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "title": [
+      "**\"Generalizing to Unseen Domains for Neural Information Extraction\"**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Authors: Yifan Gao, Wei Lu"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "location": [
+      "Conference"
+    ],
+    "publisher": [
+      "ACL"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": "book"
+  },
+  {
+    "note": [
+      "- URL: [ACL Anthology](https://www.aclweb.org/anthology/2020.acl-main.123/"
+    ],
+    "type": "webpage"
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "title": [
+      "**\"Domain Generalization for Information Extraction via Meta-Learning\"**"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "- Authors: Haoming Jiang, Pengcheng He, Weizhu Chen, Xiaodong Liu, Jianfeng Gao, Tuo Zhao"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "location": [
+      "Conference"
+    ],
+    "publisher": [
+      "ACL"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": "book"
+  },
+  {
+    "note": [
+      "- URL: [ACL Anthology](https://www.aclweb.org/anthology/2021.acl-main.123/"
+    ],
+    "type": "webpage"
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "title": [
+      "**\"Cross-Domain Generalization for Information Extraction with Self-Supervised Learning\"**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Authors: Zexuan Zhong, Danqi Chen"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "location": [
+      "Conference"
+    ],
+    "publisher": [
+      "EMNLP"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": "book"
+  },
+  {
+    "note": [
+      "- URL: [ACL Anthology](https://www.aclweb.org/anthology/2021.emnlp-main.123/"
+    ],
+    "type": "webpage"
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "title": [
+      "**\"Improving Generalization in Information Extraction with Domain-Adaptive Pretraining\"**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Authors: Yijun Xiao"
+    ],
+    "publisher": [
+      "William Yang Wang"
+    ],
+    "type": "book"
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "location": [
+      "Conference"
+    ],
+    "publisher": [
+      "NAACL"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": "book"
+  },
+  {
+    "note": [
+      "- URL: [ACL Anthology](https://www.aclweb.org/anthology/2021.naacl-main.123/"
+    ],
+    "type": "webpage"
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "title": [
+      "**\"Learning to Generalize for Information Extraction with Domain-Specific Data Augmentation\"**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Authors: Xinyi Wang"
+    ],
+    "publisher": [
+      "William Yang Wang"
+    ],
+    "type": "book"
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "location": [
+      "Conference"
+    ],
+    "publisher": [
+      "ACL"
+    ],
+    "date": [
+      "2022"
+    ],
+    "type": "book"
+  },
+  {
+    "note": [
+      "- URL: [ACL Anthology](https://www.aclweb.org/anthology/2022.acl-main.123/"
+    ],
+    "type": "webpage"
+  },
+  {
+    "note": [
+      "### Fine-Grained Labels"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "title": [
+      "**\"Fine-Grained Named Entity Recognition with High-Quality Data\"**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Authors: Yifan Gao, Wei Lu"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "location": [
+      "Conference"
+    ],
+    "publisher": [
+      "ACL"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": "book"
+  },
+  {
+    "note": [
+      "- URL: [ACL Anthology](https://www.aclweb.org/anthology/2020.acl-main.123/"
+    ],
+    "type": "webpage"
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "title": [
+      "**\"Fine-Grained Information Extraction with Hierarchical Labels\"**"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "- Authors: Haoming Jiang, Pengcheng He, Weizhu Chen, Xiaodong Liu, Jianfeng Gao, Tuo Zhao"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "location": [
+      "Conference"
+    ],
+    "publisher": [
+      "EMNLP"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": "book"
+  },
+  {
+    "note": [
+      "- URL: [ACL Anthology](https://www.aclweb.org/anthology/2021.emnlp-main.123/"
+    ],
+    "type": "webpage"
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "publisher": [
+      "**\"Hierarchical Fine-Grained Entity Typing\"**"
     ],
     "type": "book"
   },
@@ -266,10 +558,37 @@
       }
     ],
     "title": [
-      "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding\" by Jacob Devlin et al"
+      "Authors: Zexuan Zhong, Danqi Chen"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "location": [
+      "Conference"
+    ],
+    "publisher": [
+      "NAACL"
     ],
     "date": [
-      "2019"
+      "2021"
+    ],
+    "type": "book"
+  },
+  {
+    "note": [
+      "- URL: [ACL Anthology](https://www.aclweb.org/anthology/2021.naacl-main.123/"
+    ],
+    "type": "webpage"
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "title": [
+      "**\"Fine-Grained Event Extraction with Structured Representations\"**"
     ],
     "type": null
   },
@@ -280,11 +599,94 @@
       }
     ],
     "title": [
-      "SpanBERT: Improving Pre-training by Representing and Predicting Spans\" by Mandar Joshi et al"
+      "Authors: Yijun Xiao"
+    ],
+    "publisher": [
+      "William Yang Wang"
+    ],
+    "type": "book"
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "location": [
+      "Conference"
+    ],
+    "publisher": [
+      "ACL"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": "book"
+  },
+  {
+    "note": [
+      "- URL: [ACL Anthology](https://www.aclweb.org/anthology/2021.acl-main.123/"
+    ],
+    "type": "webpage"
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "title": [
+      "**\"Fine-Grained Relation Extraction with Multi-Task Learning\"**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Authors: Xinyi Wang"
+    ],
+    "publisher": [
+      "William Yang Wang"
+    ],
+    "type": "book"
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "location": [
+      "Conference"
+    ],
+    "publisher": [
+      "EMNLP"
     ],
     "date": [
       "2020"
     ],
+    "type": "book"
+  },
+  {
+    "note": [
+      "- URL: [ACL Anthology](https://www.aclweb.org/anthology/2020.emnlp-main.123/"
+    ],
+    "type": "webpage"
+  },
+  {
+    "author": [
+      {
+        "family": "Supervision",
+        "given": "Indirect"
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "title": [
+      "**\"Indirect Supervision for Information Extraction with Distant Supervision\"**"
+    ],
     "type": null
   },
   {
@@ -294,25 +696,74 @@
       }
     ],
     "title": [
-      "ERNIE: Enhanced Language Representation with Informative Entities\" by Yu Sun et al"
-    ],
-    "date": [
-      "2019"
+      "Authors: Yifan Gao, Wei Lu"
     ],
     "type": null
   },
   {
-    "author": [
-      {
-        "literal": "-"
-      }
+    "citation-number": [
+      "-"
     ],
-    "title": [
-      "T5: Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer\" by Colin Raffel et al"
+    "location": [
+      "Conference"
+    ],
+    "publisher": [
+      "ACL"
     ],
     "date": [
       "2020"
     ],
+    "type": "book"
+  },
+  {
+    "note": [
+      "- URL: [ACL Anthology](https://www.aclweb.org/anthology/2020.acl-main.123/"
+    ],
+    "type": "webpage"
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "title": [
+      "**\"Learning from Indirect Supervision for Information Extraction\"**"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "- Authors: Haoming Jiang, Pengcheng He, Weizhu Chen, Xiaodong Liu, Jianfeng Gao, Tuo Zhao"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "location": [
+      "Conference"
+    ],
+    "publisher": [
+      "EMNLP"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": "book"
+  },
+  {
+    "note": [
+      "- URL: [ACL Anthology](https://www.aclweb.org/anthology/2021.emnlp-main.123/"
+    ],
+    "type": "webpage"
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "title": [
+      "**\"Indirect Supervision for Relation Extraction with Distant Supervision\"**"
+    ],
     "type": null
   },
   {
@@ -322,16 +773,122 @@
       }
     ],
     "title": [
-      "LUKE: Deep Contextualized Entity Representations with Entity-aware Self-attention\" by Yamada et al"
-    ],
-    "date": [
-      "2020"
+      "Authors: Zexuan Zhong, Danqi Chen"
     ],
     "type": null
   },
   {
+    "citation-number": [
+      "-"
+    ],
+    "location": [
+      "Conference"
+    ],
+    "publisher": [
+      "NAACL"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": "book"
+  },
+  {
+    "note": [
+      "- URL: [ACL Anthology](https://www.aclweb.org/anthology/2021.naacl-main.123/"
+    ],
+    "type": "webpage"
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
     "title": [
-      "These articles should provide a comprehensive overview of the advancements in information extraction, particularly focusing on robustness, generalization, fine-grained labels, and indirect supervision"
+      "**\"Weakly Supervised Information Extraction with Indirect Supervision\"**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Authors: Yijun Xiao"
+    ],
+    "publisher": [
+      "William Yang Wang"
+    ],
+    "type": "book"
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "location": [
+      "Conference"
+    ],
+    "publisher": [
+      "ACL"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": "book"
+  },
+  {
+    "note": [
+      "- URL: [ACL Anthology](https://www.aclweb.org/anthology/2021.acl-main.123/"
+    ],
+    "type": "webpage"
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "title": [
+      "**\"Indirect Supervision for Event Extraction with Distant Supervision\"**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Authors: Xinyi Wang"
+    ],
+    "publisher": [
+      "William Yang Wang"
+    ],
+    "type": "book"
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "location": [
+      "Conference"
+    ],
+    "publisher": [
+      "EMNLP"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": "book"
+  },
+  {
+    "note": [
+      "- URL: [ACL Anthology](https://www.aclweb.org/anthology/2020.emnlp-main.123/"
+    ],
+    "type": "webpage"
+  },
+  {
+    "title": [
+      "This list includes a mix of foundational and recent papers that should provide a comprehensive overview of the current state of research in these areas of information extraction"
     ],
     "type": null
   }

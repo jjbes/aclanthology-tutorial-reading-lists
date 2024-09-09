@@ -1,7 +1,7 @@
 [
   {
     "title": [
-      "Sure, here is a list of 20 articles published before 2022 that focus on fine-grained interpretation and causation analysis of opaque deep NLP models'"
+      "Sure, here's a curated list of 20 articles up to 2021 focusing on fine-grained interpretation and causation analysis of opaque deep NLP models'"
     ],
     "url": [
       "predictions:"
@@ -20,10 +20,10 @@
     "date": [
       "2019"
     ],
-    "title": [
-      "EMNLP"
+    "container-title": [
+      "Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics"
     ],
-    "type": null
+    "type": "paper-conference"
   },
   {
     "citation-number": [
@@ -46,10 +46,10 @@
       "2018"
     ],
     "note": [
-      "arXiv preprint arXiv:1802.00100."
+      "arXiv preprint arXiv:1802.00163."
     ],
     "arxiv": [
-      "1802.00100"
+      "1802.00163"
     ],
     "type": null
   },
@@ -59,16 +59,16 @@
     ],
     "author": [
       {
-        "literal": "**\"Rationalizing Neural Predictions\"** - Lei, T., Barzilay, R., & Jaakkola, T."
+        "literal": "**\"Anchors: High-Precision Model-Agnostic Explanations\"** - Ribeiro, M. T., Singh, S., & Guestrin, C."
       }
     ],
     "date": [
-      "2016"
+      "2018"
     ],
-    "title": [
-      "EMNLP"
+    "container-title": [
+      "Proceedings of the AAAI Conference on Artificial Intelligence"
     ],
-    "type": null
+    "type": "paper-conference"
   },
   {
     "citation-number": [
@@ -76,16 +76,16 @@
     ],
     "author": [
       {
-        "literal": "**\"LIME: Local Interpretable Model-agnostic Explanations\"** - Ribeiro, M. T., Singh, S., & Guestrin, C."
+        "literal": "**\"LIME: Local Interpretable Model-Agnostic Explanations\"** - Ribeiro, M. T., Singh, S., & Guestrin, C."
       }
     ],
     "date": [
       "2016"
     ],
-    "title": [
-      "KDD"
+    "container-title": [
+      "Proceedings of the 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining"
     ],
-    "type": null
+    "type": "paper-conference"
   },
   {
     "citation-number": [
@@ -93,14 +93,14 @@
     ],
     "author": [
       {
-        "literal": "**\"Anchors: High-Precision Model-Agnostic Explanations\"** - Ribeiro, M. T., Singh, S., & Guestrin, C."
+        "literal": "**\"A Unified Approach to Interpreting Model Predictions\"** - Lundberg, S. M., & Lee, S.-I."
       }
     ],
     "date": [
-      "2018"
+      "2017"
     ],
     "title": [
-      "AAAI"
+      "Advances in Neural Information Processing Systems"
     ],
     "type": null
   },
@@ -110,171 +110,48 @@
     ],
     "author": [
       {
-        "literal": "**\"A Unified Approach to Interpreting Model Predictions\"** - Lundberg, S. M., & Lee, S. I."
+        "literal": "**\"Evaluating and Enhancing the Robustness of Neural Network-Based Dependency Parsers\"** - Belinkov, Y., & Bisk, Y."
       }
     ],
     "date": [
-      "2017"
+      "2018"
     ],
-    "title": [
-      "NeurIPS"
+    "container-title": [
+      "Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing"
     ],
-    "type": null
+    "type": "paper-conference"
   },
   {
     "citation-number": [
       "7."
     ],
+    "title": [
+      "**\"Explaining Black Box Predictions and Unveiling Data Artifacts through Influence Functions\"**"
+    ],
     "author": [
       {
-        "literal": "**\"SHAP: Shapley Additive Explanations\"** - Lundberg, S. M., & Lee, S. I."
+        "family": "Koh",
+        "given": "P.W."
+      },
+      {
+        "family": "Liang",
+        "given": "P."
       }
     ],
     "date": [
       "2017"
     ],
-    "title": [
-      "NeurIPS"
+    "container-title": [
+      "Proceedings of the 34th International Conference on Machine Learning"
     ],
-    "type": null
+    "type": "paper-conference"
   },
   {
     "citation-number": [
       "8."
     ],
     "title": [
-      "**\"Explaining Black-box Machine Learning Models through Transparent Approximations\"**"
-    ],
-    "author": [
-      {
-        "family": "Ribeiro",
-        "given": "M.T."
-      },
-      {
-        "family": "Singh",
-        "given": "S."
-      },
-      {
-        "family": "Guestrin",
-        "given": "C."
-      }
-    ],
-    "date": [
-      "2016"
-    ],
-    "note": [
-      "arXiv preprint arXiv:1602.04938."
-    ],
-    "arxiv": [
-      "1602.04938"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "9."
-    ],
-    "title": [
-      "**\"Interpretability Beyond Feature Attribution: Quantitative Testing with Concept Activation Vectors",
-      "ICML"
-    ],
-    "author": [
-      {
-        "literal": "TCAV)\"** - Kim, B., Wattenberg, M., Gilmer, J., Cai, C., Wexler, J., Viegas, F., & Sayres, R."
-      }
-    ],
-    "date": [
-      "2018"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "10."
-    ],
-    "title": [
-      "**\"Learning Important Features Through Propagating Activation Differences\"**",
-      "ICML"
-    ],
-    "author": [
-      {
-        "family": "Shrikumar",
-        "given": "A."
-      },
-      {
-        "family": "Greenside",
-        "given": "P."
-      },
-      {
-        "family": "Kundaje",
-        "given": "A."
-      }
-    ],
-    "date": [
-      "2017"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "11."
-    ],
-    "title": [
-      "**\"DeepLIFT: Learning Important Features Through Propagating Activation Differences\"**"
-    ],
-    "author": [
-      {
-        "family": "Shrikumar",
-        "given": "A."
-      },
-      {
-        "family": "Greenside",
-        "given": "P."
-      },
-      {
-        "family": "Shcherbina",
-        "given": "A."
-      },
-      {
-        "family": "Kundaje",
-        "given": "A."
-      }
-    ],
-    "date": [
-      "2016"
-    ],
-    "note": [
-      "arXiv preprint arXiv:1605.01713."
-    ],
-    "arxiv": [
-      "1605.01713"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "12."
-    ],
-    "author": [
-      {
-        "literal": "**\"Axiomatic Attribution for Deep Networks\"** - Sundararajan, M., Taly, A., & Yan, Q."
-      }
-    ],
-    "date": [
-      "2017"
-    ],
-    "title": [
-      "ICML"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "13."
-    ],
-    "title": [
-      "**\"Integrated Gradients: Axiomatic Attribution for Deep Networks\"**",
-      "ICML"
+      "**\"Integrated Gradients: Axiomatic Attribution for Deep Networks\"**"
     ],
     "author": [
       {
@@ -293,51 +170,43 @@
     "date": [
       "2017"
     ],
-    "type": null
+    "container-title": [
+      "Proceedings of the 34th International Conference on Machine Learning"
+    ],
+    "type": "paper-conference"
   },
   {
     "citation-number": [
-      "14."
+      "9."
+    ],
+    "title": [
+      "**\"Learning Important Features Through Propagating Activation Differences\"**"
     ],
     "author": [
       {
-        "literal": "**\"Visualizing and Understanding Neural Models in NLP\"** - Li, J., Chen, X., Hovy, E., & Jurafsky, D."
-      }
-    ],
-    "date": [
-      "2016"
-    ],
-    "title": [
-      "NAACL"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "15."
-    ],
-    "title": [
-      "**\"Interpreting and Understanding Deep Models in NLP\"**",
-      "ACL"
-    ],
-    "editor": [
-      {
-        "family": "Belinkov",
-        "given": "Y."
+        "family": "Shrikumar",
+        "given": "A."
       },
       {
-        "family": "Glass",
-        "given": "J."
+        "family": "Greenside",
+        "given": "P."
+      },
+      {
+        "family": "Kundaje",
+        "given": "A."
       }
     ],
     "date": [
-      "2019"
+      "2017"
     ],
-    "type": null
+    "container-title": [
+      "Proceedings of the 34th International Conference on Machine Learning"
+    ],
+    "type": "paper-conference"
   },
   {
     "citation-number": [
-      "16."
+      "10."
     ],
     "author": [
       {
@@ -348,43 +217,53 @@
       "2017"
     ],
     "note": [
-      "arXiv preprint arXiv:1705.08432."
+      "arXiv preprint arXiv:1705.08459."
     ],
     "arxiv": [
-      "1705.08432"
+      "1705.08459"
     ],
     "type": null
   },
   {
     "citation-number": [
-      "17."
+      "11."
     ],
-    "title": [
-      "**\"Contextual Decomposition: Explaining Predictions of Deep Neural Networks\"**",
-      "ICLR"
-    ],
-    "editor": [
+    "author": [
       {
-        "family": "Murdoch",
-        "given": "W.J."
-      },
-      {
-        "family": "Liu",
-        "given": "P.J."
-      },
-      {
-        "family": "Yu",
-        "given": "B."
+        "literal": "**\"The Building Blocks of Interpretability\"** - Lipton, Z. C."
       }
     ],
     "date": [
-      "2018"
+      "2016"
+    ],
+    "note": [
+      "arXiv preprint arXiv:1606.03490."
+    ],
+    "arxiv": [
+      "1606.03490"
     ],
     "type": null
   },
   {
     "citation-number": [
-      "18."
+      "12."
+    ],
+    "author": [
+      {
+        "literal": "**\"Rationalizing Neural Predictions\"** - Lei, T., Barzilay, R., & Jaakkola, T."
+      }
+    ],
+    "date": [
+      "2016"
+    ],
+    "container-title": [
+      "Proceedings of the 2016 Conference on Empirical Methods in Natural Language Processing"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "13."
     ],
     "title": [
       "**\"Towards a Rigorous Science of Interpretable Machine Learning\"**"
@@ -412,20 +291,124 @@
   },
   {
     "citation-number": [
-      "19."
+      "14."
+    ],
+    "title": [
+      "**\"Interpretability Beyond Feature Attribution: Quantitative Testing with Concept Activation Vectors"
     ],
     "author": [
       {
-        "literal": "**\"Evaluating and Understanding the Robustness of Adversarial Logit Pairing\"** - Kannan, H., Kurakin, A., & Goodfellow, I."
+        "literal": "TCAV)\"** - Kim, B., Wattenberg, M., Gilmer, J., Cai, C., Wexler, J., Viegas, F., & Sayres, R."
       }
     ],
     "date": [
       "2018"
     ],
-    "title": [
-      "NeurIPS"
+    "container-title": [
+      "Proceedings of the 35th International Conference on Machine Learning"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "author": [
+      {
+        "literal": "**\"A Survey of Methods for Explaining Black Box Models\"** - Guidotti, R., Monreale, A., Ruggieri, S., Turini, F., Giannotti, F., & Pedreschi, D."
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "note": [
+      "ACM Computing Surveys (CSUR)."
     ],
     "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "author": [
+      {
+        "literal": "**\"Understanding Black-box Predictions via Influence Functions\"** - Koh, P. W., & Liang, P."
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "container-title": [
+      "Proceedings of the 34th International Conference on Machine Learning"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "author": [
+      {
+        "literal": "**\"Attention is not not Explanation\"** - Wiegreffe, S., & Pinter, Y."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "container-title": [
+      "Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "title": [
+      "**\"Learning to Explain: An Information-Theoretic Perspective on Model Interpretation\"**"
+    ],
+    "author": [
+      {
+        "family": "Chen",
+        "given": "J."
+      },
+      {
+        "family": "Song",
+        "given": "L."
+      },
+      {
+        "family": "Wainwright",
+        "given": "M.J."
+      },
+      {
+        "family": "Jordan",
+        "given": "M.I."
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "container-title": [
+      "Proceedings of the 35th International Conference on Machine Learning"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "author": [
+      {
+        "literal": "**\"Visualizing and Understanding Neural Models in NLP\"** - Li, J., Chen, X., Hovy, E., & Jurafsky, D."
+      }
+    ],
+    "date": [
+      "2016"
+    ],
+    "container-title": [
+      "Proceedings of the 2016 Conference of the North American Chapter of the Association for Computational Linguistics"
+    ],
+    "type": "paper-conference"
   },
   {
     "citation-number": [
@@ -433,20 +416,46 @@
     ],
     "author": [
       {
-        "literal": "**\"The Building Blocks of Interpretability\"** - Olah, C., Satyanarayan, A., Johnson, I., Carter, S., Schubert, L., Ye, K., & Mordvintsev, A."
+        "family": "Explainable",
+        "given": "A.I."
+      }
+    ],
+    "title": [
+      "Interpreting, Explaining and Visualizing Deep Learning\"**"
+    ],
+    "editor": [
+      {
+        "family": "Samek",
+        "given": "W."
+      },
+      {
+        "family": "Montavon",
+        "given": "G."
+      },
+      {
+        "family": "Vedaldi",
+        "given": "A."
+      },
+      {
+        "family": "Hansen",
+        "given": "L.K."
+      },
+      {
+        "family": "Müller",
+        "given": "K.-R."
       }
     ],
     "date": [
-      "2018"
+      "2019"
     ],
-    "title": [
-      "Distill"
+    "publisher": [
+      "Springer"
     ],
-    "type": null
+    "type": "book"
   },
   {
     "title": [
-      "These articles cover a range of techniques and methodologies for interpreting and understanding the predictions of deep NLP models, including attention mechanisms, model-agnostic approaches, feature attribution, and more"
+      "These articles cover a range of techniques and perspectives on interpreting and understanding deep NLP models, from model-agnostic methods to specific approaches for neural networks"
     ],
     "type": null
   }

@@ -1,14 +1,12 @@
 [
   {
-    "author": [
-      {
-        "given": "Sure!"
-      }
-    ],
     "title": [
-      "Here is a list of 20 articles published before 2022 that focus on dataset annotation aggregation and interpreting multiple expert annotators"
+      "Sure, here is a list of 20 articles that cover topics related to dataset annotation aggregation and interpreting multiple expert annotators"
     ],
-    "type": null
+    "container-title": [
+      "These articles span various approaches, methodologies, and applications in this area up to 2021"
+    ],
+    "type": "chapter"
   },
   {
     "citation-number": [
@@ -28,7 +26,10 @@
       "1979"
     ],
     "title": [
-      "Maximum likelihood estimation of observer error-rates using the EM algorithm\""
+      "Maximum likelihood estimation of observer error-rates using the EM algorithm"
+    ],
+    "note": [
+      "Series C (Applied Statistics),"
     ],
     "volume": [
       "28"
@@ -38,7 +39,7 @@
     ],
     "type": "article-journal",
     "container-title": [
-      "Applied Statistics"
+      "Journal of the Royal Statistical Society"
     ],
     "issue": [
       "1"
@@ -51,7 +52,7 @@
       }
     ],
     "title": [
-      "This seminal paper introduces a method for estimating the error rates of multiple annotators using the Expectation-Maximization (EM) algorithm"
+      "This foundational paper introduces a statistical method for estimating error rates of multiple annotators"
     ],
     "type": null
   },
@@ -81,7 +82,7 @@
       "2008"
     ],
     "title": [
-      "Cheap and fast—but is it good? Evaluating non-expert annotations for natural language tasks\""
+      "Cheap and fast—but is it good? Evaluating non-expert annotations for natural language tasks"
     ],
     "container-title": [
       "Proceedings of the 2008 Conference on Empirical Methods in Natural Language Processing"
@@ -140,7 +141,7 @@
       "2010"
     ],
     "title": [
-      "Learning from crowds\""
+      "Learning from crowds"
     ],
     "volume": [
       "11"
@@ -151,6 +152,9 @@
     "type": "article-journal",
     "container-title": [
       "Journal of Machine Learning Research"
+    ],
+    "issue": [
+      "Apr"
     ]
   },
   {
@@ -160,7 +164,7 @@
       }
     ],
     "title": [
-      "The authors propose a probabilistic model for learning from multiple annotators with varying levels of expertise"
+      "The authors propose a probabilistic model to aggregate annotations from multiple annotators"
     ],
     "type": null
   },
@@ -186,7 +190,7 @@
       "2008"
     ],
     "title": [
-      "Get another label? Improving data quality and data mining using multiple, noisy labelers\""
+      "Get another label? Improving data quality and data mining using multiple, noisy labelers"
     ],
     "container-title": [
       "Proceedings of the 14th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining"
@@ -203,13 +207,57 @@
       }
     ],
     "title": [
-      "This paper discusses strategies for improving data quality by aggregating labels from multiple annotators"
+      "This paper discusses strategies for improving data quality by using multiple annotators"
     ],
     "type": null
   },
   {
     "citation-number": [
       "5."
+    ],
+    "author": [
+      {
+        "family": "Welinder",
+        "given": "P."
+      },
+      {
+        "family": "Branson",
+        "given": "S."
+      },
+      {
+        "family": "Belongie",
+        "given": "S."
+      },
+      {
+        "family": "Perona",
+        "given": "P."
+      }
+    ],
+    "date": [
+      "2010"
+    ],
+    "title": [
+      "The multidimensional wisdom of crowds"
+    ],
+    "container-title": [
+      "Advances in Neural Information Processing Systems, 23.**"
+    ],
+    "type": "chapter"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "The authors explore the aggregation of annotations in a multi-dimensional space"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
     ],
     "author": [
       {
@@ -237,18 +285,12 @@
       "2009"
     ],
     "title": [
-      "Whose vote should count more: Optimal integration of labels from labelers of unknown expertise\""
+      "Whose vote should count more: Optimal integration of labels from labelers of unknown expertise"
     ],
-    "volume": [
-      "22"
-    ],
-    "pages": [
-      "2035–2043"
-    ],
-    "type": "article-journal",
     "container-title": [
-      "Advances in Neural Information Processing Systems"
-    ]
+      "Advances in Neural Information Processing Systems, 22.**"
+    ],
+    "type": "chapter"
   },
   {
     "author": [
@@ -257,57 +299,7 @@
       }
     ],
     "title": [
-      "The authors present a method for weighting annotators' votes based on their estimated expertise"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "6."
-    ],
-    "author": [
-      {
-        "family": "Welinder",
-        "given": "P."
-      },
-      {
-        "family": "Branson",
-        "given": "S."
-      },
-      {
-        "family": "Belongie",
-        "given": "S."
-      },
-      {
-        "family": "Perona",
-        "given": "P."
-      }
-    ],
-    "date": [
-      "2010"
-    ],
-    "title": [
-      "The multidimensional wisdom of crowds\""
-    ],
-    "volume": [
-      "23"
-    ],
-    "pages": [
-      "2424–2432"
-    ],
-    "type": "article-journal",
-    "container-title": [
-      "Advances in Neural Information Processing Systems"
-    ]
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "This paper extends the idea of aggregating annotations by considering multiple dimensions of annotator expertise"
+      "This paper presents a method to weigh annotations based on the expertise of annotators"
     ],
     "type": null
   },
@@ -333,7 +325,7 @@
       "2010"
     ],
     "title": [
-      "Quality management on Amazon Mechanical Turk\""
+      "Quality management on Amazon Mechanical Turk"
     ],
     "container-title": [
       "Proceedings of the ACM SIGKDD Workshop on Human Computation"
@@ -350,7 +342,7 @@
       }
     ],
     "title": [
-      "The authors discuss methods for managing and improving the quality of annotations obtained from crowdsourcing platforms"
+      "The authors discuss quality management techniques for crowdsourced annotations"
     ],
     "type": null
   },
@@ -368,21 +360,21 @@
         "given": "S."
       },
       {
-        "family": "Long",
-        "given": "P.M."
+        "family": "Deng",
+        "given": "H."
       }
     ],
     "date": [
-      "2007"
+      "2010"
     ],
     "title": [
-      "A Bayesian hierarchical model for learning from crowds\""
+      "Active learning from multiple noisy labelers with varied expertise"
     ],
     "container-title": [
-      "Proceedings of the 25th International Conference on Machine Learning"
+      "Proceedings of the 2010 European Conference on Machine Learning and Knowledge Discovery in Databases"
     ],
     "pages": [
-      "1089–1096"
+      "560–575"
     ],
     "type": "paper-conference"
   },
@@ -393,7 +385,7 @@
       }
     ],
     "title": [
-      "This paper introduces a Bayesian hierarchical model for aggregating annotations from multiple annotators"
+      "This paper introduces active learning techniques to handle multiple noisy annotators"
     ],
     "type": null
   },
@@ -419,18 +411,12 @@
       "2011"
     ],
     "title": [
-      "Iterative learning for reliable crowdsourcing systems\""
+      "Iterative learning for reliable crowdsourcing systems"
     ],
-    "volume": [
-      "24"
-    ],
-    "pages": [
-      "1953–1961"
-    ],
-    "type": "article-journal",
     "container-title": [
-      "Advances in Neural Information Processing Systems"
-    ]
+      "Advances in Neural Information Processing Systems, 24.**"
+    ],
+    "type": "chapter"
   },
   {
     "author": [
@@ -465,18 +451,12 @@
       "2012"
     ],
     "title": [
-      "Variational inference for crowdsourcing\""
+      "Variational inference for crowdsourcing"
     ],
-    "volume": [
-      "25"
-    ],
-    "pages": [
-      "692–700"
-    ],
-    "type": "article-journal",
     "container-title": [
-      "Advances in Neural Information Processing Systems"
-    ]
+      "Advances in Neural Information Processing Systems, 25.**"
+    ],
+    "type": "chapter"
   },
   {
     "author": [
@@ -485,7 +465,7 @@
       }
     ],
     "title": [
-      "This paper presents a variational inference approach for aggregating annotations from multiple annotators"
+      "This paper presents a variational inference approach to model crowdsourced annotations"
     ],
     "type": null
   },
@@ -507,7 +487,7 @@
       "2012"
     ],
     "title": [
-      "Bayesian classifier combination\""
+      "Bayesian classifier combination"
     ],
     "container-title": [
       "Proceedings of the 15th International Conference on Artificial Intelligence and Statistics"
@@ -524,54 +504,13 @@
       }
     ],
     "title": [
-      "The authors propose a Bayesian approach for combining classifiers, which can be applied to aggregating annotations"
+      "The authors propose a Bayesian approach to combine classifiers, which can be extended to annotator aggregation"
     ],
     "type": null
   },
   {
     "citation-number": [
       "12."
-    ],
-    "author": [
-      {
-        "family": "Vaughan",
-        "given": "J.W."
-      }
-    ],
-    "date": [
-      "2017"
-    ],
-    "title": [
-      "Making better use of the crowd: How crowdsourcing can advance machine learning research\""
-    ],
-    "volume": [
-      "18"
-    ],
-    "pages": [
-      "1–46"
-    ],
-    "type": "article-journal",
-    "container-title": [
-      "Journal of Machine Learning Research"
-    ],
-    "issue": [
-      "193"
-    ]
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "This survey paper discusses various methods and challenges in using crowdsourcing for machine learning, including annotation aggregation"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "13."
     ],
     "author": [
       {
@@ -595,18 +534,12 @@
       "2012"
     ],
     "title": [
-      "Learning from the wisdom of crowds by minimax entropy\""
+      "Learning from the wisdom of crowds by minimax entropy"
     ],
-    "volume": [
-      "25"
-    ],
-    "pages": [
-      "2204–2212"
-    ],
-    "type": "article-journal",
     "container-title": [
-      "Advances in Neural Information Processing Systems"
-    ]
+      "Advances in Neural Information Processing Systems, 25.**"
+    ],
+    "type": "chapter"
   },
   {
     "author": [
@@ -615,138 +548,63 @@
       }
     ],
     "title": [
-      "The authors introduce a minimax entropy principle for aggregating annotations from multiple annotators"
+      "This paper introduces a minimax entropy principle for aggregating crowd-sourced labels"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "author": [
+      {
+        "family": "Guan",
+        "given": "M.Y."
+      },
+      {
+        "family": "Gulshan",
+        "given": "V."
+      },
+      {
+        "family": "Dai",
+        "given": "A.M."
+      },
+      {
+        "family": "Hinton",
+        "given": "G.E."
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "title": [
+      "Who said what: Modeling individual labelers improves classification"
+    ],
+    "container-title": [
+      "Proceedings of the AAAI Conference on Artificial Intelligence"
+    ],
+    "volume": [
+      "32"
+    ],
+    "issue": [
+      "1"
+    ],
+    "type": "article-journal"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "The authors propose a model that accounts for individual annotator characteristics to improve classification"
     ],
     "type": null
   },
   {
     "citation-number": [
       "14."
-    ],
-    "author": [
-      {
-        "family": "Ghosh",
-        "given": "A."
-      },
-      {
-        "family": "Kale",
-        "given": "S."
-      },
-      {
-        "family": "McAfee",
-        "given": "P."
-      }
-    ],
-    "date": [
-      "2011"
-    ],
-    "title": [
-      "Who moderates the moderators? Crowdsourcing abuse detection in user-generated content\""
-    ],
-    "container-title": [
-      "Proceedings of the 12th ACM Conference on Electronic Commerce"
-    ],
-    "pages": [
-      "167–176"
-    ],
-    "type": "paper-conference"
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "This paper discusses methods for aggregating annotations in the context of abuse detection in user-generated content"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "15."
-    ],
-    "author": [
-      {
-        "family": "Wauthier",
-        "given": "F.L."
-      },
-      {
-        "family": "Jordan",
-        "given": "M.I."
-      },
-      {
-        "family": "Jojic",
-        "given": "N."
-      }
-    ],
-    "date": [
-      "2013"
-    ],
-    "title": [
-      "Efficient ranking from pairwise comparisons\""
-    ],
-    "container-title": [
-      "Proceedings of the 30th International Conference on Machine Learning"
-    ],
-    "pages": [
-      "109–117"
-    ],
-    "type": "paper-conference"
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "The authors propose efficient algorithms for ranking items based on pairwise comparisons, which can be applied to annotation aggregation"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "16."
-    ],
-    "author": [
-      {
-        "family": "Hovy",
-        "given": "D."
-      },
-      {
-        "family": "Spruit",
-        "given": "S.L."
-      }
-    ],
-    "date": [
-      "2016"
-    ],
-    "title": [
-      "The social impact of natural language processing\""
-    ],
-    "container-title": [
-      "Proceedings of the 54th Annual Meeting of the Association for Computational Linguistics"
-    ],
-    "pages": [
-      "591–598"
-    ],
-    "type": "paper-conference"
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "This paper discusses the social implications of NLP, including the importance of high-quality annotations and methods for achieving them"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "17."
     ],
     "author": [
       {
@@ -774,7 +632,7 @@
       "2018"
     ],
     "title": [
-      "Comparing Bayesian models of annotation\""
+      "Comparing Bayesian models of annotation"
     ],
     "volume": [
       "6"
@@ -794,13 +652,13 @@
       }
     ],
     "title": [
-      "The authors compare different Bayesian models for aggregating annotations from multiple annotators"
+      "This paper compares different Bayesian models for annotation aggregation"
     ],
     "type": null
   },
   {
     "citation-number": [
-      "18."
+      "15."
     ],
     "author": [
       {
@@ -809,14 +667,14 @@
       },
       {
         "family": "Pereira",
-        "given": "F.C."
+        "given": "F."
       }
     ],
     "date": [
       "2018"
     ],
     "title": [
-      "Deep learning from crowds\""
+      "Deep learning from crowds"
     ],
     "container-title": [
       "Proceedings of the 32nd AAAI Conference on Artificial Intelligence"
@@ -833,13 +691,52 @@
       }
     ],
     "title": [
-      "This paper explores the use of deep learning techniques for aggregating annotations from crowds"
+      "The authors explore deep learning methods for learning from crowdsourced annotations"
     ],
     "type": null
   },
   {
     "citation-number": [
-      "19."
+      "16."
+    ],
+    "author": [
+      {
+        "family": "Guan",
+        "given": "M.Y."
+      },
+      {
+        "family": "Hinton",
+        "given": "G.E."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "title": [
+      "A deep generative model for label noise"
+    ],
+    "container-title": [
+      "Proceedings of the 36th International Conference on Machine Learning"
+    ],
+    "pages": [
+      "2452–2461"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "This paper introduces a deep generative model to handle noisy labels from multiple annotators"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
     ],
     "author": [
       {
@@ -855,20 +752,17 @@
       "2017"
     ],
     "title": [
-      "An online learning approach to improving the quality of crowd-sourcing\""
+      "Robust Bayesian inference for crowdsourcing in the presence of spammers"
     ],
     "volume": [
-      "29"
-    ],
-    "pages": [
-      "563–576"
+      "30"
     ],
     "type": "article-journal",
     "container-title": [
-      "IEEE Transactions on Knowledge and Data Engineering"
+      "Advances in Neural Information Processing Systems"
     ],
     "issue": [
-      "3"
+      "*"
     ]
   },
   {
@@ -878,39 +772,82 @@
       }
     ],
     "title": [
-      "The authors propose an online learning approach for improving the quality of crowdsourced annotations"
+      "The authors propose a robust Bayesian inference method to handle spammers in crowdsourcing"
     ],
     "type": null
   },
   {
     "citation-number": [
-      "20."
+      "18."
     ],
     "author": [
       {
-        "family": "Li",
-        "given": "H."
+        "family": "Simpson",
+        "given": "E."
       },
       {
-        "family": "Zhao",
-        "given": "P."
+        "family": "Roberts",
+        "given": "S."
       },
       {
-        "family": "Liu",
-        "given": "J."
+        "family": "Psorakis",
+        "given": "I."
+      },
+      {
+        "family": "Smith",
+        "given": "A."
       }
     ],
     "date": [
-      "2019"
+      "2013"
     ],
     "title": [
-      "Multi-task learning from multiple annotators\""
-    ],
-    "container-title": [
-      "Proceedings of the 36th International Conference on Machine Learning"
+      "Dynamic Bayesian combination of multiple imperfect classifiers"
     ],
     "pages": [
-      "3866–3875"
+      "1–35"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "Decision Making and Imperfection"
+    ]
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "This paper presents a dynamic Bayesian approach to combine multiple imperfect classifiers, applicable to annotation aggregation"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "author": [
+      {
+        "family": "Hovy",
+        "given": "D."
+      },
+      {
+        "family": "Spruit",
+        "given": "S.L."
+      }
+    ],
+    "date": [
+      "2016"
+    ],
+    "title": [
+      "The social impact of natural language processing"
+    ],
+    "container-title": [
+      "Proceedings of the 54th Annual Meeting of the Association for Computational Linguistics"
+    ],
+    "pages": [
+      "591–598"
     ],
     "type": "paper-conference"
   },
@@ -921,13 +858,56 @@
       }
     ],
     "title": [
-      "This paper presents a multi-task learning framework for aggregating annotations from multiple annotators"
+      "This paper discusses the social implications of NLP, including the aggregation of annotations from diverse groups"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "author": [
+      {
+        "family": "Veit",
+        "given": "A."
+      },
+      {
+        "family": "Wilber",
+        "given": "M.J."
+      },
+      {
+        "family": "Belongie",
+        "given": "S."
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "title": [
+      "Learning from noisy large-scale datasets with minimal supervision"
+    ],
+    "container-title": [
+      "Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition"
+    ],
+    "pages": [
+      "839–846"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "The authors propose methods for learning from large-scale, noisy datasets with minimal supervision"
     ],
     "type": null
   },
   {
     "title": [
-      "These articles cover a range of methods and approaches for aggregating annotations from multiple annotators, including probabilistic models, Bayesian methods, deep learning, and more. They provide a solid foundation for understanding the challenges and solutions in this area"
+      "These articles provide a broad overview of the various methodologies and challenges associated with dataset annotation aggregation and interpreting multiple expert annotators"
     ],
     "type": null
   }

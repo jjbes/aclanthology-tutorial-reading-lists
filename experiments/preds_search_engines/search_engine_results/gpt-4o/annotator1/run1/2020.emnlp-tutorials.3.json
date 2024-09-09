@@ -6,7 +6,7 @@
       }
     ],
     "title": [
-      "Here is a list of 20 articles published before 2021 that focus on interpreting the predictions of neural networks and understanding their decisions"
+      "Understanding and interpreting the predictions of neural networks is a crucial area of research, especially given the complexity and often opaque nature of these models. Here is a list of 20 articles up to 2020 that focus on interpreting neural network predictions and understanding their decisions"
     ],
     "type": null
   },
@@ -14,42 +14,8 @@
     "citation-number": [
       "1."
     ],
-    "author": [
-      {
-        "given": "Visualizing"
-      },
-      {
-        "family": "Matthew D. Zeiler",
-        "given": "Understanding Convolutional Networks\"",
-        "particle": "by"
-      },
-      {
-        "family": "Fergus",
-        "given": "Rob"
-      }
-    ],
-    "date": [
-      "2014"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
     "title": [
-      "This paper introduces deconvolutional networks to visualize the features learned by convolutional networks"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "2."
-    ],
-    "title": [
-      "**\"Explaining Explanations: Axiomatic Feature Interactions for Deep Networks\"** by Mukund Sundararajan, Ankur Taly, and Qiqi Yan"
+      "**\"Explaining Explanations: An Overview of Interpretability of Machine Learning\"** by Finale Doshi-Velez and Been Kim"
     ],
     "date": [
       "2017"
@@ -63,7 +29,36 @@
       }
     ],
     "title": [
-      "This paper introduces Integrated Gradients, a method for attributing the prediction of a deep network to its input features"
+      "Provides a comprehensive overview of interpretability in machine learning, including neural networks"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "author": [
+      {
+        "family": "You?\"",
+        "given": "Why Should I.Trust"
+      }
+    ],
+    "title": [
+      "Explaining the Predictions of Any Classifier\"** by Marco Tulio Ribeiro, Sameer Singh, and Carlos Guestrin"
+    ],
+    "date": [
+      "2016"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Introduces LIME (Local Interpretable Model-agnostic Explanations), a technique for explaining the predictions of any classifier"
     ],
     "type": null
   },
@@ -86,7 +81,7 @@
       }
     ],
     "title": [
-      "This paper provides a theoretical foundation for feature attribution methods in deep networks"
+      "Proposes Integrated Gradients, a method for attributing the prediction of a deep network to its input features"
     ],
     "type": null
   },
@@ -114,7 +109,7 @@
       }
     ],
     "title": [
-      "This paper introduces DeepLIFT, a method for decomposing the output prediction of a neural network"
+      "Introduces DeepLIFT, a method for decomposing the output prediction by backpropagating the contributions of each input feature"
     ],
     "type": null
   },
@@ -140,7 +135,7 @@
       }
     ],
     "title": [
-      "This paper presents Grad-CAM, a technique for producing visual explanations for decisions from a convolutional network"
+      "Proposes Grad-CAM, a technique for producing visual explanations for decisions from a variety of CNN-based models"
     ],
     "type": null
   },
@@ -148,16 +143,11 @@
     "citation-number": [
       "6."
     ],
-    "author": [
-      {
-        "given": "L.I.M.E."
-      }
-    ],
     "title": [
-      "Local Interpretable Model-agnostic Explanations\"** by Marco Tulio Ribeiro, Sameer Singh, and Carlos Guestrin"
+      "**\"Learning Important Features Through Propagating Activation Differences\"** by Avanti Shrikumar, Peyton Greenside, and Anshul Kundaje"
     ],
     "date": [
-      "2016"
+      "2017"
     ],
     "type": null
   },
@@ -168,7 +158,7 @@
       }
     ],
     "title": [
-      "This paper introduces LIME, a method for explaining the predictions of any classifier in an interpretable and faithful manner"
+      "Discusses the DeepLIFT method for understanding neural network predictions"
     ],
     "type": null
   },
@@ -213,13 +203,154 @@
       }
     ],
     "title": [
-      "This article explores various techniques and tools for interpreting neural networks"
+      "Explores various techniques and tools for interpreting neural networks, focusing on visualizations"
     ],
     "type": null
   },
   {
     "citation-number": [
       "8."
+    ],
+    "author": [
+      {
+        "given": "Interpretable"
+      },
+      {
+        "family": "Been Kim",
+        "given": "Pedagogical Examples\"",
+        "particle": "by"
+      },
+      {
+        "family": "Khanna",
+        "given": "Rajiv"
+      },
+      {
+        "family": "Koyejo",
+        "given": "Oluwasanmi"
+      }
+    ],
+    "date": [
+      "2016"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Discusses the concept of interpretability through pedagogical examples, providing insights into model behavior"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "title": [
+      "**\"Anchors: High-Precision Model-Agnostic Explanations\"** by Marco Tulio Ribeiro, Sameer Singh, and Carlos Guestrin"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Introduces Anchors, a method for providing high-precision explanations for model predictions"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "title": [
+      "**\"Attention is All You Need\"** by Ashish Vaswani et al"
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "While primarily about the Transformer model, it introduces attention mechanisms, which have interpretability benefits"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "title": [
+      "**\"Feature Importance Estimation for Explainable AI: A Survey\"** by Erik Štrumbelj and Igor Kononenko"
+    ],
+    "date": [
+      "2014"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Surveys methods for estimating feature importance, a key aspect of interpretability"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "author": [
+      {
+        "given": "Visualizing"
+      },
+      {
+        "family": "Matthew D. Zeiler",
+        "given": "Understanding Convolutional Networks\"",
+        "particle": "by"
+      },
+      {
+        "family": "Fergus",
+        "given": "Rob"
+      }
+    ],
+    "date": [
+      "2014"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Discusses techniques for visualizing the features learned by convolutional neural networks"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
     ],
     "title": [
       "**\"Understanding Neural Networks Through Deep Visualization\"** by Jason Yosinski"
@@ -254,149 +385,7 @@
       }
     ],
     "title": [
-      "This paper discusses techniques for visualizing and understanding the features learned by neural networks"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "9."
-    ],
-    "author": [
-      {
-        "given": "Interpretable"
-      },
-      {
-        "family": "Been Kim",
-        "given": "Pedagogical Examples\"",
-        "particle": "by"
-      },
-      {
-        "family": "Khanna",
-        "given": "Rajiv"
-      },
-      {
-        "family": "Koyejo",
-        "given": "Oluwasanmi"
-      }
-    ],
-    "date": [
-      "2016"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "This paper introduces the concept of interpretability in machine learning models and discusses pedagogical examples"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "10."
-    ],
-    "title": [
-      "**\"Anchors: High-Precision Model-Agnostic Explanations\"** by Marco Tulio Ribeiro, Sameer Singh, and Carlos Guestrin"
-    ],
-    "date": [
-      "2018"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "This paper presents Anchors, a method for providing high-precision explanations for model predictions"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "11."
-    ],
-    "author": [
-      {
-        "family": "Chris Olah",
-        "given": "Feature Visualization\"",
-        "particle": "by"
-      },
-      {
-        "family": "Mordvintsev",
-        "given": "Alexander"
-      },
-      {
-        "family": "Schubert",
-        "given": "Ludwig"
-      }
-    ],
-    "date": [
-      "2017"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "This article explores techniques for visualizing the features learned by neural networks"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "12."
-    ],
-    "title": [
-      "**\"Towards a Rigorous Science of Interpretable Machine Learning\"** by Finale Doshi-Velez and Been Kim"
-    ],
-    "date": [
-      "2017"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "This paper discusses the need for a rigorous science of interpretable machine learning and proposes a framework for evaluation"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "13."
-    ],
-    "title": [
-      "**\"Learning Important Features Through Propagating Activation Differences\"** by Avanti Shrikumar, Peyton Greenside, and Anshul Kundaje"
-    ],
-    "date": [
-      "2017"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "This paper introduces DeepLIFT, a method for attributing the prediction of a neural network to its input features"
+      "Explores deep visualization techniques to understand neural network behavior"
     ],
     "type": null
   },
@@ -405,10 +394,10 @@
       "14."
     ],
     "title": [
-      "**\"Understanding Black-box Predictions via Influence Functions\"** by Pang Wei Koh and Percy Liang"
+      "**\"Interpretable Machine Learning: A Guide for Making Black Box Models Explainable\"** by Christoph Molnar"
     ],
     "date": [
-      "2017"
+      "2019"
     ],
     "type": null
   },
@@ -419,7 +408,7 @@
       }
     ],
     "title": [
-      "This paper introduces influence functions, a method for understanding the impact of training data on model predictions"
+      "A comprehensive guide on various interpretability techniques and their applications"
     ],
     "type": null
   },
@@ -445,7 +434,7 @@
       }
     ],
     "title": [
-      "This paper introduces SHAP (SHapley Additive exPlanations), a unified framework for interpreting model predictions"
+      "Introduces SHAP (SHapley Additive exPlanations), a unified framework for interpreting model predictions"
     ],
     "type": null
   },
@@ -454,34 +443,15 @@
       "16."
     ],
     "title": [
-      "**\"The Tree of Thoughts: Understanding Neural Networks Through Hierarchical Visualizations\"** by Chris Olah, Arvind Satyanarayan"
-    ],
-    "editor": [
-      {
-        "family": "Johnson",
-        "given": "Ian"
-      },
-      {
-        "family": "Carter",
-        "given": "Shan"
-      },
-      {
-        "family": "Schubert",
-        "given": "Ludwig"
-      },
-      {
-        "family": "Ye",
-        "given": "Katherine"
-      },
-      {
-        "family": "Mordvintsev",
-        "given": "Alexander"
-      }
+      "**\"PatternNet and PatternAttribution: Improving the Interpretability of Neural Networks\"** by Alexander J"
     ],
     "date": [
       "2018"
     ],
-    "type": null
+    "type": "article-journal",
+    "container-title": [
+      "Kindermans et al"
+    ]
   },
   {
     "author": [
@@ -490,7 +460,7 @@
       }
     ],
     "title": [
-      "This article explores hierarchical visualizations for understanding neural networks"
+      "Proposes methods for improving the interpretability of neural networks by focusing on patterns"
     ],
     "type": null
   },
@@ -513,7 +483,7 @@
       }
     ],
     "title": [
-      "This paper introduces techniques for visualizing the inner workings of convolutional networks"
+      "Discusses saliency maps as a way to visualize and understand image classification models"
     ],
     "type": null
   },
@@ -522,10 +492,10 @@
       "18."
     ],
     "title": [
-      "**\"Interpretable Machine Learning: A Guide for Making Black Box Models Explainable\"** by Christoph Molnar"
+      "**\"The Tree of Thoughts: Understanding Neural Networks Through Hierarchical Visualizations\"** by Chris Olah et al"
     ],
     "date": [
-      "2019"
+      "2016"
     ],
     "type": null
   },
@@ -536,7 +506,7 @@
       }
     ],
     "title": [
-      "This book provides a comprehensive guide to various methods for making machine learning models interpretable"
+      "Explores hierarchical visualizations to understand the decisions of neural networks"
     ],
     "type": null
   },
@@ -545,7 +515,7 @@
       "19."
     ],
     "title": [
-      "**\"Saliency Maps for Explaining Adversarial Attacks\"** by Nicholas Carlini and David Wagner"
+      "**\"Interpreting and Understanding Deep Neural Networks by Information Bottleneck\"** by Ravid Schwartz-Ziv and Naftali Tishby"
     ],
     "date": [
       "2017"
@@ -559,7 +529,7 @@
       }
     ],
     "title": [
-      "This paper discusses the use of saliency maps for understanding adversarial attacks on neural networks"
+      "Applies the information bottleneck theory to interpret and understand deep neural networks"
     ],
     "type": null
   },
@@ -568,10 +538,10 @@
       "20."
     ],
     "title": [
-      "**\"Towards Transparent AI: A Survey on Interpreting the Inner Structures of Deep Neural Networks\"** by Qiang Zhang and Yu Zhang"
+      "**\"Towards a Rigorous Science of Interpretable Machine Learning\"** by Finale Doshi-Velez and Been Kim"
     ],
     "date": [
-      "2018"
+      "2017"
     ],
     "type": null
   },
@@ -582,13 +552,13 @@
       }
     ],
     "title": [
-      "This survey paper provides an overview of various methods for interpreting the inner structures of deep neural networks"
+      "Discusses the need for a rigorous scientific approach to interpretability in machine learning"
     ],
     "type": null
   },
   {
     "title": [
-      "These articles cover a range of techniques and approaches for interpreting neural networks, from visualization methods to theoretical frameworks and practical tools"
+      "These articles cover a range of techniques and approaches for interpreting neural networks, from visualization and feature importance to model-agnostic methods and theoretical frameworks"
     ],
     "type": null
   }

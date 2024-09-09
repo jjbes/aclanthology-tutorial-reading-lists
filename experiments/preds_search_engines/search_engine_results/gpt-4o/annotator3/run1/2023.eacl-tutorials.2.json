@@ -6,16 +6,10 @@
       }
     ],
     "title": [
-      "Here's a reading list of 20 articles that cover various aspects of emotion detection in the context of natural language processing (NLP"
+      "Here's a reading list of 20 articles up to 2023 that cover various aspects of emotion detection in the context of natural language processing (NLP"
     ],
     "container-title": [
-      "including the representation of emotion in psychology and the ethical implications of such models"
-    ],
-    "type": "chapter"
-  },
-  {
-    "container-title": [
-      "### Emotion Detection in NLP"
+      "including the representation of emotion in psychology and the ethical impact of such models"
     ],
     "type": "chapter"
   },
@@ -23,27 +17,30 @@
     "citation-number": [
       "1."
     ],
+    "title": [
+      "**\"Emotion Recognition from Text: A Survey\"**",
+      "*Computational Intelligence*"
+    ],
     "author": [
       {
-        "given": "B.E.R.T."
+        "family": "Poria",
+        "given": "S."
+      },
+      {
+        "family": "Cambria",
+        "given": "E."
+      },
+      {
+        "family": "Bajpai",
+        "given": "R."
+      },
+      {
+        "family": "Hussain",
+        "given": "A."
       }
-    ],
-    "title": [
-      "Pre-training of Deep Bidirectional Transformers for Language Understanding\"** by Jacob Devlin et al"
     ],
     "date": [
-      "2019"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "While not solely focused on emotion detection, this paper introduces BERT, a model often used in emotion detection tasks"
+      "2017"
     ],
     "type": null
   },
@@ -52,47 +49,46 @@
       "2."
     ],
     "title": [
-      "**\"EmoNet: Fine-Grained Emotion Detection with Gated Recurrent Neural Networks\"** by Saif M"
+      "**\"Deep Learning for Emotion Recognition in Text: A Survey\"**"
+    ],
+    "author": [
+      {
+        "family": "Yadollahi",
+        "given": "Y."
+      },
+      {
+        "family": "Shahraki",
+        "given": "A.G."
+      },
+      {
+        "family": "Zaiane",
+        "given": "O.R."
+      }
     ],
     "date": [
       "2017"
     ],
-    "type": "article-journal",
-    "container-title": [
-      "Mohammad et al"
-    ]
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
+    "publisher": [
+      "*ACM Computing Surveys*"
     ],
-    "title": [
-      "Discusses a model specifically designed for detecting fine-grained emotions in text"
-    ],
-    "type": null
+    "type": "book"
   },
   {
     "citation-number": [
       "3."
     ],
     "title": [
-      "**\"DeepMoji: Using millions of emoji occurrences to learn any-domain representations for detecting sentiment, emotion and sarcasm\"** by Bjarke Felbo et al"
+      "**\"Affective Computing and Sentiment Analysis: Emotion, Metaphor, Sentiment, and the Linguistic Picture\"**",
+      "*Natural Language Engineering*"
     ],
-    "date": [
-      "2017"
-    ],
-    "type": null
-  },
-  {
-    "author": [
+    "director": [
       {
-        "literal": "-"
+        "family": "Balahur",
+        "given": "A."
       }
     ],
-    "title": [
-      "Explores the use of emoji occurrences to train models for emotion detection"
+    "date": [
+      "2013"
     ],
     "type": null
   },
@@ -101,213 +97,176 @@
       "4."
     ],
     "title": [
-      "**\"Affective Text: A Survey of Methods and Approaches\"** by Carlo Strapparava and Rada Mihalcea"
+      "**\"EmoNet: Fine-Grained Emotion Detection with Gated Recurrent Neural Networks\"**"
     ],
-    "date": [
-      "2008"
-    ],
-    "type": null
-  },
-  {
     "author": [
       {
-        "literal": "-"
+        "family": "Abdul-Mageed",
+        "given": "M."
+      },
+      {
+        "family": "Ungar",
+        "given": "L."
+      },
+      {
+        "family": "Schwartz",
+        "given": "H.A."
       }
     ],
-    "title": [
-      "Provides a comprehensive survey of methods for detecting emotions in text"
+    "date": [
+      "2017"
     ],
-    "type": null
+    "container-title": [
+      "*Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics*"
+    ],
+    "type": "paper-conference"
   },
   {
     "citation-number": [
       "5."
     ],
     "title": [
-      "**\"Emotion Recognition from Text: A Survey\"** by Lei Zhang"
+      "**\"Emotion Detection in Text: A Review\"**"
     ],
-    "editor": [
+    "author": [
       {
-        "family": "Wang",
-        "given": "Shuai"
-      },
-      {
-        "family": "Liu",
-        "given": "Bing"
+        "family": "Al-Shabi",
+        "given": "M."
       }
     ],
     "date": [
-      "2018"
+      "2020"
     ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "A detailed survey of various techniques and models used for emotion recognition in text"
-    ],
-    "type": null
+    "type": "article-journal",
+    "container-title": [
+      "*International Journal of Advanced Computer Science and Applications*"
+    ]
   },
   {
     "citation-number": [
       "6."
     ],
     "title": [
-      "**\"Learning Word Vectors for Sentiment Analysis\"** by Andrew L"
+      "**\"Sentiment and Emotion Analysis in Social Media: A Survey\"**"
     ],
-    "date": [
-      "2011"
-    ],
-    "type": "article-journal",
-    "container-title": [
-      "Maas et al"
-    ]
-  },
-  {
     "author": [
       {
-        "literal": "-"
+        "family": "Giachanou",
+        "given": "A."
+      },
+      {
+        "family": "Crestani",
+        "given": "F."
       }
     ],
-    "title": [
-      "Discusses the use of word vectors in sentiment analysis, which is closely related to emotion detection"
+    "date": [
+      "2016"
     ],
-    "type": null
+    "publisher": [
+      "*ACM Computing Surveys*"
+    ],
+    "type": "book"
   },
   {
     "citation-number": [
       "7."
     ],
     "title": [
-      "**\"Contextualized Word Representations for Emotion Detection using Bidirectional LSTM-CRF\"** by Pooja Rani et al"
+      "**\"Emotion Detection from Text: Dataset Construction and Analysis\"**"
     ],
-    "date": [
-      "2020"
-    ],
-    "type": null
-  },
-  {
     "author": [
       {
-        "literal": "-"
+        "family": "Mohammad",
+        "given": "S.M."
+      },
+      {
+        "family": "Turney",
+        "given": "P.D."
       }
     ],
-    "title": [
-      "Explores the use of BiLSTM-CRF for emotion detection in text"
+    "date": [
+      "2013"
     ],
-    "type": null
+    "container-title": [
+      "*Proceedings of the 7th International Conference on Language Resources and Evaluation (LREC)*"
+    ],
+    "type": "paper-conference"
   },
   {
     "citation-number": [
       "8."
     ],
-    "title": [
-      "**\"Emotion Detection from Text: A Review\"** by Anupam Kumar Bedi and Ritu Chauhan"
-    ],
-    "date": [
-      "2019"
-    ],
-    "type": null
-  },
-  {
     "author": [
       {
-        "literal": "-"
+        "literal": "**\"Learning Representations for Detecting Abusive Language\"** - Waseem, Z., & Hovy, D."
       }
     ],
-    "title": [
-      "Reviews various approaches and challenges in emotion detection from text"
+    "date": [
+      "2016"
     ],
-    "type": null
+    "container-title": [
+      "*Proceedings of the 2016 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies*"
+    ],
+    "type": "paper-conference"
   },
   {
     "citation-number": [
       "9."
     ],
     "title": [
-      "**\"Affective Computing and Sentiment Analysis\"** by Erik Cambria"
+      "**\"The Role of Context in Emotion Recognition in Text\"**"
     ],
-    "date": [
-      "2016"
-    ],
-    "type": null
-  },
-  {
     "author": [
       {
-        "literal": "-"
+        "family": "Buechel",
+        "given": "S."
+      },
+      {
+        "family": "Hahn",
+        "given": "U."
       }
     ],
-    "title": [
-      "Discusses the intersection of affective computing and sentiment analysis, including emotion detection"
+    "date": [
+      "2017"
     ],
-    "type": null
+    "container-title": [
+      "*Proceedings of the 15th Conference of the European Chapter of the Association for Computational Linguistics*"
+    ],
+    "type": "paper-conference"
   },
   {
     "citation-number": [
       "10."
     ],
-    "title": [
-      "**\"Emotion Detection in Text: A Review of Related Research\"** by Yadollah Yaghoobi et al"
-    ],
-    "date": [
-      "2021"
-    ],
-    "type": null
-  },
-  {
     "author": [
       {
-        "literal": "-"
+        "literal": "**\"Ethics and NLP: A General Survey\"** - Hovy, D., & Spruit, S. L."
       }
     ],
-    "title": [
-      "A review of recent research in the field of emotion detection in text"
+    "date": [
+      "2016"
     ],
-    "type": null
-  },
-  {
     "container-title": [
-      "### Representing Emotion in Psychology"
+      "*Proceedings of the 54th Annual Meeting of the Association for Computational Linguistics*"
     ],
-    "type": "chapter"
+    "type": "paper-conference"
   },
   {
     "citation-number": [
       "11."
     ],
-    "title": [
-      "**\"The Nature of Emotion: Fundamental Questions\"**"
-    ],
-    "editor": [
+    "author": [
       {
-        "family": "Ekman",
-        "given": "Paul"
-      },
-      {
-        "family": "Davidson",
-        "given": "Richard J."
+        "literal": "**\"Emotion Detection and Recognition from Text Using Deep Learning\"** - Zhang, L., Wang, S., & Liu, B."
       }
     ],
     "date": [
-      "1994"
+      "2018"
     ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
+    "container-title": [
+      "*Proceedings of the 27th International Conference on Computational Linguistics*"
     ],
-    "title": [
-      "A foundational text discussing various theories and questions about the nature of emotions"
-    ],
-    "type": null
+    "type": "paper-conference"
   },
   {
     "citation-number": [
@@ -315,27 +274,14 @@
     ],
     "author": [
       {
-        "given": "Emotion"
-      },
-      {
-        "family": "Richard S. Lazarus",
-        "given": "Adaptation\"",
-        "particle": "by"
+        "literal": "**\"A Survey on Sentiment and Emotion Analysis for Computational Literary Studies\"** - Kim, E., & Klinger, R."
       }
     ],
     "date": [
-      "1991"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
+      "2018"
     ],
     "title": [
-      "Explores the role of emotions in human adaptation and psychological processes"
+      "*Zeitschrift für digitale Geisteswissenschaften*"
     ],
     "type": null
   },
@@ -344,186 +290,43 @@
       "13."
     ],
     "title": [
-      "**\"The Emotional Brain: The Mysterious Underpinnings of Emotional Life\"** by Joseph LeDoux"
+      "**\"Emotion Detection in Text: A Review and Comparative Analysis\"**"
     ],
-    "date": [
-      "1996"
-    ],
-    "type": null
-  },
-  {
     "author": [
       {
-        "literal": "-"
+        "family": "Calvo",
+        "given": "R.A."
+      },
+      {
+        "family": "Mac Kim",
+        "given": "R."
       }
     ],
-    "title": [
-      "Discusses the neuroscience behind emotions and their representation in the brain"
+    "date": [
+      "2013"
     ],
-    "type": null
+    "publisher": [
+      "*IEEE Transactions on Affective Computing*"
+    ],
+    "type": "book"
   },
   {
     "citation-number": [
       "14."
     ],
     "title": [
-      "**\"Emotion Regulation: Conceptual and Practical Issues\"**"
+      "**\"Ethical Considerations in Emotion Recognition Systems\"**",
+      "*Nature*"
     ],
-    "translator": [
+    "editor": [
       {
-        "family": "James J. Gross",
-        "particle": "by"
-      }
-    ],
-    "date": [
-      "1998"
-    ],
-    "type": null
-  },
-  {
-    "author": [
+        "family": "Crawford",
+        "given": "K."
+      },
       {
-        "literal": "-"
+        "family": "Calo",
+        "given": "R."
       }
-    ],
-    "title": [
-      "Examines the concept of emotion regulation and its implications for psychological well-being"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "15."
-    ],
-    "title": [
-      "**\"Affective Neuroscience: The Foundations of Human and Animal Emotions\"** by Jaak Panksepp"
-    ],
-    "date": [
-      "1998"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Provides a comprehensive overview of the neuroscience of emotions"
-    ],
-    "type": null
-  },
-  {
-    "title": [
-      "### Ethical Impact of Emotion Detection Models"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "16."
-    ],
-    "title": [
-      "**\"Ethics of Artificial Intelligence and Robotics\"** by Vincent C"
-    ],
-    "publisher": [
-      "Müller"
-    ],
-    "date": [
-      "2020"
-    ],
-    "type": "book"
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Discusses the ethical considerations of AI and robotics, including emotion detection"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "17."
-    ],
-    "title": [
-      "**\"Algorithmic Bias Detection and Mitigation: Best Practices and Policies to Reduce Consumer Harms\"** by Nicol Turner Lee"
-    ],
-    "date": [
-      "2019"
-    ],
-    "type": "article-journal",
-    "container-title": [
-      "Paul Resnick, and Genie Barton"
-    ]
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Explores the ethical implications of algorithmic bias, relevant to emotion detection models"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "18."
-    ],
-    "container-title": [
-      "**\"The Ethics of Emotion in Artificial Intelligence Systems\"** by Mark Coeckelbergh"
-    ],
-    "date": [
-      "2010"
-    ],
-    "type": "chapter"
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Discusses the ethical considerations of incorporating emotions into AI systems"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "19."
-    ],
-    "title": [
-      "**\"Fairness and Abstraction in Sociotechnical Systems\"** by Selbst et al"
-    ],
-    "date": [
-      "2019"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Examines fairness in AI systems, including those used for emotion detection"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "20."
-    ],
-    "title": [
-      "**\"Ethical Implications of Emotion AI: What Happens When Machines Learn to Read Our Feelings?\"** by Kate Crawford and Ryan Calo"
     ],
     "date": [
       "2016"
@@ -531,19 +334,142 @@
     "type": null
   },
   {
+    "citation-number": [
+      "15."
+    ],
     "author": [
       {
-        "literal": "-"
+        "literal": "**\"Emotion Detection in Text Using Deep Learning\"** - Felbo, B., Mislove, A., Søgaard, A., Rahwan, I., & Lehmann, S."
       }
     ],
-    "title": [
-      "Discusses the ethical implications of emotion AI and its impact on society"
+    "date": [
+      "2017"
     ],
-    "type": null
+    "container-title": [
+      "*Proceedings of the 2017 Conference on Empirical Methods in Natural Language Processing*"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "title": [
+      "**\"Affective Text: A Survey of Methods and Approaches\"**"
+    ],
+    "author": [
+      {
+        "family": "Strapparava",
+        "given": "C."
+      },
+      {
+        "family": "Mihalcea",
+        "given": "R."
+      }
+    ],
+    "date": [
+      "2008"
+    ],
+    "container-title": [
+      "*Proceedings of the 3rd International Conference on Affective Computing and Intelligent Interaction*"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "title": [
+      "**\"Ethics in NLP: A Call for Action\"**"
+    ],
+    "author": [
+      {
+        "family": "Bender",
+        "given": "E.M."
+      },
+      {
+        "family": "Friedman",
+        "given": "B."
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "container-title": [
+      "*Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics*"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "title": [
+      "**\"Emotion Detection from Text: Challenges and Opportunities\"**"
+    ],
+    "author": [
+      {
+        "family": "Cambria",
+        "given": "E."
+      },
+      {
+        "family": "Hussain",
+        "given": "A."
+      }
+    ],
+    "date": [
+      "2012"
+    ],
+    "publisher": [
+      "*IEEE Intelligent Systems*"
+    ],
+    "type": "book"
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "title": [
+      "**\"Emotion Recognition in Text: An Interdisciplinary Survey\"**"
+    ],
+    "author": [
+      {
+        "family": "Liu",
+        "given": "P."
+      },
+      {
+        "family": "Zhang",
+        "given": "L."
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "*Journal of Artificial Intelligence Research*"
+    ]
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "author": [
+      {
+        "literal": "**\"The Ethics of Emotion Recognition Technology\"** - Stark, L., & Hoey, J."
+      }
+    ],
+    "date": [
+      "2021"
+    ],
+    "publisher": [
+      "*IEEE Transactions on Affective Computing*"
+    ],
+    "type": "book"
   },
   {
     "title": [
-      "These articles should provide a comprehensive overview of the current state of emotion detection in NLP, the psychological underpinnings of emotion, and the ethical considerations of deploying such models"
+      "These articles should provide a comprehensive overview of the field, covering technical, psychological, and ethical perspectives on emotion detection in NLP"
     ],
     "type": null
   }

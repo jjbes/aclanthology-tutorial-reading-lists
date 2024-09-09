@@ -1,7 +1,12 @@
 [
   {
+    "author": [
+      {
+        "given": "Certainly!"
+      }
+    ],
     "title": [
-      "Sure, here is a list of 20 articles on techniques for editing large language models (LLMs) that you can read before 2024. These articles cover a range of topics including fine-tuning, prompt engineering, model distillation, and more"
+      "Here is a list of 20 articles up to 2023 that focus on techniques for editing large language models (LLMs). These articles cover a range of topics including fine-tuning, transfer learning, prompt engineering, model distillation, and more"
     ],
     "type": null
   },
@@ -10,16 +15,34 @@
       "1."
     ],
     "title": [
-      "**Fine-Tuning Language Models from Human Preferences** - OpenAI"
+      "**\"Fine-Tuning Language Models from Human Preferences\"**"
     ],
-    "type": null
+    "publisher": [
+      "OpenAI"
+    ],
+    "date": [
+      "2022"
+    ],
+    "type": "book"
   },
   {
     "citation-number": [
       "2."
     ],
     "title": [
-      "**DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter** - Hugging Face"
+      "**\"Transfer Learning in Natural Language Processing\"**"
+    ],
+    "author": [
+      {
+        "family": "Ruder",
+        "given": "S."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2019"
     ],
     "type": null
   },
@@ -28,21 +51,28 @@
       "3."
     ],
     "title": [
-      "**Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer** - Google Research"
+      "**\"Prompt Programming for Large Language Models: Beyond the Few-Shot Paradigm\"** - Liu"
     ],
-    "type": null
+    "date": [
+      "2021"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "P. et al"
+    ]
   },
   {
     "citation-number": [
       "4."
     ],
-    "author": [
-      {
-        "given": "B.E.R.T."
-      }
-    ],
     "title": [
-      "Pre-training of Deep Bidirectional Transformers for Language Understanding** - Google AI Language"
+      "**\"DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter\"**"
+    ],
+    "location": [
+      "Sanh, V"
+    ],
+    "note": [
+      "et al., 2019."
     ],
     "type": null
   },
@@ -50,17 +80,40 @@
     "citation-number": [
       "5."
     ],
-    "title": [
-      "**GPT-3: Language Models are Few-Shot Learners** - OpenAI"
+    "author": [
+      {
+        "given": "LoRA"
+      }
     ],
-    "type": null
+    "title": [
+      "Low-Rank Adaptation of Large Language Models\"** - Hu"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "E. J. et al"
+    ]
   },
   {
     "citation-number": [
       "6."
     ],
     "title": [
-      "**Efficient Fine-Tuning of BERT for Text Classification** - Google Research"
+      "**\"Adapters: Efficient Transfer Learning for NLP\"**"
+    ],
+    "editor": [
+      {
+        "family": "Houlsby",
+        "given": "N."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2019"
     ],
     "type": null
   },
@@ -69,7 +122,19 @@
       "7."
     ],
     "title": [
-      "**Parameter-Efficient Transfer Learning for NLP** - Hugging Face"
+      "**\"Knowledge Distillation: A Survey\"**"
+    ],
+    "editor": [
+      {
+        "family": "Gou",
+        "given": "J."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2021"
     ],
     "type": null
   },
@@ -78,10 +143,19 @@
       "8."
     ],
     "title": [
-      "**Prompt Programming for Large Language Models: Beyond the Few-Shot Paradigm**"
+      "**\"Recycling Knowledge from Pre-trained Language Models for Neural Machine Translation\"**"
     ],
-    "location": [
-      "Stanford University"
+    "editor": [
+      {
+        "family": "Yang",
+        "given": "Z."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2020"
     ],
     "type": null
   },
@@ -90,45 +164,82 @@
       "9."
     ],
     "title": [
-      "**Knowledge Distillation: A Survey**"
+      "**\"Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer\"**"
     ],
-    "publisher": [
-      "University of Cambridge"
+    "editor": [
+      {
+        "family": "Raffel",
+        "given": "C."
+      },
+      {
+        "others": true
+      }
     ],
-    "type": "book"
+    "date": [
+      "2020"
+    ],
+    "type": null
   },
   {
     "citation-number": [
       "10."
     ],
-    "author": [
+    "title": [
+      "**\"Parameter-Efficient Transfer Learning for NLP\"**"
+    ],
+    "editor": [
       {
-        "given": "LoRA"
+        "family": "Houlsby",
+        "given": "N."
+      },
+      {
+        "others": true
       }
     ],
-    "title": [
-      "Low-Rank Adaptation of Large Language Models**"
+    "date": [
+      "2019"
     ],
-    "publisher": [
-      "Microsoft Research"
-    ],
-    "type": "book"
+    "type": null
   },
   {
     "citation-number": [
       "11."
     ],
     "title": [
-      "**Adapter-BERT: Adapting Pre-trained Checkpoints for BERT** - Google Research"
+      "**\"The Lottery Ticket Hypothesis: Finding Sparse, Trainable Neural Networks\"** - Frankle"
     ],
-    "type": null
+    "volume": [
+      "M"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "J. and Carbin"
+    ],
+    "issue": [
+      ""
+    ]
   },
   {
     "citation-number": [
       "12."
     ],
     "title": [
-      "**Revisiting Few-shot Learning for Language Understanding** - Facebook AI Research"
+      "**\"Efficient Fine-Tuning of BERT for Text Classification\"**"
+    ],
+    "editor": [
+      {
+        "family": "Sun",
+        "given": "C."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2019"
     ],
     "type": null
   },
@@ -137,52 +248,100 @@
       "13."
     ],
     "title": [
-      "**The Lottery Ticket Hypothesis: Finding Sparse"
+      "**\"Universal Language Model Fine-tuning for Text Classification\"**"
     ],
-    "container-title": [
-      "Trainable Neural Networks** - MIT"
+    "editor": [
+      {
+        "family": "Howard",
+        "given": "J."
+      },
+      {
+        "family": "Ruder",
+        "given": "S."
+      }
     ],
-    "type": "chapter"
+    "date": [
+      "2018"
+    ],
+    "type": null
   },
   {
     "citation-number": [
       "14."
     ],
+    "author": [
+      {
+        "given": "B.E.R.T."
+      }
+    ],
     "title": [
-      "**Meta-Learning for Few-Shot Natural Language Processing: A Survey**"
+      "Pre-training of Deep Bidirectional Transformers for Language Understanding\"** - Devlin"
     ],
-    "publisher": [
-      "University of Washington"
+    "date": [
+      "2019"
     ],
-    "type": "book"
+    "type": "article-journal",
+    "container-title": [
+      "J. et al"
+    ]
   },
   {
     "citation-number": [
       "15."
     ],
     "title": [
-      "**Efficient Transfer Learning for NLP**"
+      "**\"GPT-3: Language Models are Few-Shot Learners\"**"
     ],
-    "publisher": [
-      "Allen Institute for AI"
+    "editor": [
+      {
+        "family": "Brown",
+        "given": "T.B."
+      },
+      {
+        "others": true
+      }
     ],
-    "type": "book"
+    "date": [
+      "2020"
+    ],
+    "type": null
   },
   {
     "citation-number": [
       "16."
     ],
     "title": [
-      "**The Evolved Transformer** - Google Research"
+      "**\"Exploring the Role of Task Transfer Learning in Large Language Models\"**"
     ],
-    "type": null
+    "location": [
+      "Radford"
+    ],
+    "publisher": [
+      "A. et al"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": "book"
   },
   {
     "citation-number": [
       "17."
     ],
     "title": [
-      "**Universal Language Model Fine-tuning for Text Classification** - fast.ai"
+      "**\"Efficient Transfer Learning with Model Compression\"**"
+    ],
+    "editor": [
+      {
+        "family": "Hinton",
+        "given": "G."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2015"
     ],
     "type": null
   },
@@ -191,7 +350,19 @@
       "18."
     ],
     "title": [
-      "**Pre-trained Language Model Representations for Language Generation** - OpenAI"
+      "**\"Improving Language Understanding by Generative Pre-Training\"**"
+    ],
+    "editor": [
+      {
+        "family": "Radford",
+        "given": "A."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2018"
     ],
     "type": null
   },
@@ -199,8 +370,13 @@
     "citation-number": [
       "19."
     ],
-    "title": [
-      "**Improving Language Understanding by Generative Pre-Training** - OpenAI"
+    "author": [
+      {
+        "literal": "**\"Knowledge Distillation for BERT Unsupervised Domain Adaptation\"** - Xu, H. et al."
+      }
+    ],
+    "date": [
+      "2021"
     ],
     "type": null
   },
@@ -208,14 +384,25 @@
     "citation-number": [
       "20."
     ],
-    "title": [
-      "**The Power of Scale for Parameter-Efficient Prompt Tuning** - Google Research"
+    "author": [
+      {
+        "given": "AdapterFusion"
+      }
     ],
-    "type": null
+    "title": [
+      "Non-destructive Task Composition for Transfer Learning\"** - Pfeiffer"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "J. et al"
+    ]
   },
   {
     "title": [
-      "These articles should provide a comprehensive overview of the current techniques and methodologies for editing and fine-tuning large language models"
+      "These articles should give you a comprehensive overview of the various techniques and methodologies for editing and fine-tuning large language models"
     ],
     "type": null
   }

@@ -1,12 +1,7 @@
 [
   {
-    "author": [
-      {
-        "given": "Certainly!"
-      }
-    ],
     "title": [
-      "Here is a list of 20 articles on knowledge-enriched text generation published before 2022"
+      "Sure, here's a list of 20 articles on knowledge-enriched text generation up to 2021"
     ],
     "type": null
   },
@@ -14,16 +9,25 @@
     "citation-number": [
       "1."
     ],
-    "author": [
+    "title": [
+      "**\"A Knowledge-Enhanced Pretraining Model for Commonsense Story Generation\"**"
+    ],
+    "editor": [
       {
-        "literal": "**\"A Knowledge-Enhanced Pretraining Model for Commonsense Story Generation\"** - Guan, J., Wang, Y., & Huang, M."
+        "family": "Guan",
+        "given": "J."
+      },
+      {
+        "family": "Wang",
+        "given": "Y."
+      },
+      {
+        "family": "Huang",
+        "given": "M."
       }
     ],
     "date": [
       "2020"
-    ],
-    "title": [
-      "*Transactions of the Association for Computational Linguistics*"
     ],
     "type": null
   },
@@ -33,16 +37,46 @@
     ],
     "author": [
       {
-        "literal": "**\"K-BERT: Enabling Language Representation with Knowledge Graph\"** - Liu, W., Zhou, P., Zhao, Z., Wang, Z., Ju, Q., Deng, H., & Wang, P."
+        "given": "K.-B.E.R.T."
+      }
+    ],
+    "title": [
+      "Enabling Language Representation with Knowledge Graph\"**"
+    ],
+    "director": [
+      {
+        "family": "Liu",
+        "given": "W."
+      },
+      {
+        "family": "Zhou",
+        "given": "P."
+      },
+      {
+        "family": "Zhao",
+        "given": "Z."
+      },
+      {
+        "family": "Wang",
+        "given": "Z."
+      },
+      {
+        "family": "Ju",
+        "given": "Q."
+      },
+      {
+        "family": "Deng",
+        "given": "H."
+      },
+      {
+        "family": "Wang",
+        "given": "P."
       }
     ],
     "date": [
       "2020"
     ],
-    "container-title": [
-      "*Proceedings of the AAAI Conference on Artificial Intelligence*"
-    ],
-    "type": "paper-conference"
+    "type": null
   },
   {
     "citation-number": [
@@ -50,49 +84,96 @@
     ],
     "author": [
       {
-        "literal": "**\"Commonsense Knowledge Aware Conversation Generation with Graph Attention\"** - Zhou, H., Huang, M., Zhang, T., Zhu, X., & Liu, B."
+        "given": "B.E.R.T.-M.K."
+      },
+      {
+        "family": "He",
+        "given": "H."
+      },
+      {
+        "family": "Liu",
+        "given": "K."
+      },
+      {
+        "family": "Ji",
+        "given": "G."
+      },
+      {
+        "family": "Liu",
+        "given": "J."
       }
     ],
+    "title": [
+      "Integrating Graph Contextualized Knowledge into Pre-trained Language Models\"**"
+    ],
     "date": [
-      "2018"
+      "2020"
     ],
-    "container-title": [
-      "*Proceedings of the 27th International Joint Conference on Artificial Intelligence (IJCAI)*"
-    ],
-    "type": "paper-conference"
+    "type": null
   },
   {
     "citation-number": [
       "4."
     ],
     "title": [
-      "**\"Enhancing Pre-trained Language Representations with Rich Knowledge for Machine Reading Comprehension\"**"
+      "**\"Commonsense Knowledge Aware Conversation Generation with Graph Attention\"**"
     ],
-    "author": [
+    "editor": [
       {
-        "family": "Zhang",
-        "given": "Y."
-      },
-      {
-        "family": "Yang",
-        "given": "Q."
-      },
-      {
-        "family": "Zhang",
+        "family": "Zhou",
         "given": "H."
+      },
+      {
+        "family": "Huang",
+        "given": "M."
+      },
+      {
+        "family": "Zhang",
+        "given": "T."
+      },
+      {
+        "family": "Zhu",
+        "given": "X."
+      },
+      {
+        "family": "Liu",
+        "given": "B."
       }
     ],
     "date": [
-      "2020"
+      "2018"
     ],
-    "container-title": [
-      "*Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics (ACL)*"
-    ],
-    "type": "paper-conference"
+    "type": null
   },
   {
     "citation-number": [
       "5."
+    ],
+    "title": [
+      "**\"Injecting Knowledge into End-to-End Task-Oriented Dialogue Systems\"**"
+    ],
+    "editor": [
+      {
+        "family": "Madotto",
+        "given": "A."
+      },
+      {
+        "family": "Wu",
+        "given": "C.S."
+      },
+      {
+        "family": "Fung",
+        "given": "P."
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
     ],
     "author": [
       {
@@ -102,69 +183,110 @@
     "date": [
       "2018"
     ],
-    "container-title": [
-      "*Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing (EMNLP)*"
-    ],
-    "type": "paper-conference"
-  },
-  {
-    "citation-number": [
-      "6."
-    ],
-    "author": [
-      {
-        "literal": "**\"Incorporating External Knowledge to Enhance Tabular Reasoning\"** - Chen, W., Chen, J., Shi, S., & Wang, C."
-      }
-    ],
-    "date": [
-      "2020"
-    ],
-    "container-title": [
-      "*Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)*"
-    ],
-    "type": "paper-conference"
+    "type": null
   },
   {
     "citation-number": [
       "7."
     ],
-    "title": [
-      "**\"Knowledge-Aware Dialogue Generation with Pre-trained Language Models\"**"
-    ],
     "author": [
       {
-        "family": "Liu",
-        "given": "Z."
-      },
-      {
-        "family": "Xiong",
-        "given": "C."
-      },
-      {
-        "family": "Sun",
-        "given": "M."
-      },
-      {
-        "family": "Liu",
-        "given": "Z."
+        "literal": "**\"A Knowledge-Grounded Neural Conversation Model\"** - Ghazvininejad, M., Brockett, C., Chang, M. W., Dolan, B., Gao, J., Yih, W. T., & Galley, M."
       }
     ],
     "date": [
-      "2020"
+      "2018"
     ],
-    "container-title": [
-      "*Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)*"
-    ],
-    "type": "paper-conference"
+    "type": null
   },
   {
     "citation-number": [
       "8."
     ],
     "title": [
-      "**\"Commonsense Knowledge Enhanced Embeddings for Solving Pronoun Disambiguation\"**"
+      "**\"Dynamic Knowledge Graph Construction for Zero-Shot Commonsense Question Answering\"**"
+    ],
+    "editor": [
+      {
+        "family": "Lin",
+        "given": "B.Y."
+      },
+      {
+        "family": "Wu",
+        "given": "Z."
+      },
+      {
+        "family": "Yang",
+        "given": "Y."
+      },
+      {
+        "family": "Han",
+        "given": "X."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "title": [
+      "**\"Enhancing Pre-trained Language Representations with Rich Knowledge for Machine Reading Comprehension\"**"
+    ],
+    "editor": [
+      {
+        "family": "Zhang",
+        "given": "Y."
+      },
+      {
+        "family": "Zhao",
+        "given": "Y."
+      },
+      {
+        "family": "Saleh",
+        "given": "M."
+      },
+      {
+        "family": "Liu",
+        "given": "P."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
     ],
     "author": [
+      {
+        "literal": "**\"Knowledge-Aware Language Model Pretraining\"** - Peters, M. E., Neumann, M., Logan, R., Schwartz, R., Joshi, V., Singh, S."
+      }
+    ],
+    "volume": [
+      "N. A"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "& Smith"
+    ]
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "title": [
+      "**\"Commonsense Knowledge Enhanced Embeddings for Solving Pronoun Disambiguation\"**"
+    ],
+    "editor": [
       {
         "family": "Zhang",
         "given": "S."
@@ -175,63 +297,9 @@
       }
     ],
     "date": [
-      "2010"
-    ],
-    "container-title": [
-      "*Proceedings of the 23rd International Conference on Computational Linguistics (COLING)*"
-    ],
-    "type": "paper-conference"
-  },
-  {
-    "citation-number": [
-      "9."
-    ],
-    "author": [
-      {
-        "literal": "**\"Knowledge-Enhanced Neural Machine Translation with Knowledge Graph\"** - Zhang, J., & Zong, C."
-      }
-    ],
-    "date": [
-      "2016"
-    ],
-    "container-title": [
-      "*Proceedings of the 54th Annual Meeting of the Association for Computational Linguistics (ACL)*"
-    ],
-    "type": "paper-conference"
-  },
-  {
-    "citation-number": [
-      "10."
-    ],
-    "author": [
-      {
-        "literal": "**\"A Knowledge-Enhanced Graph-Based Neural Network for Abstractive Summarization\"** - Li, W., & Li, F."
-      }
-    ],
-    "date": [
       "2019"
     ],
-    "container-title": [
-      "*Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing (EMNLP)*"
-    ],
-    "type": "paper-conference"
-  },
-  {
-    "citation-number": [
-      "11."
-    ],
-    "author": [
-      {
-        "literal": "**\"Knowledge-Enhanced Neural Machine Translation with Knowledge Graph\"** - Zhang, J., & Zong, C."
-      }
-    ],
-    "date": [
-      "2016"
-    ],
-    "container-title": [
-      "*Proceedings of the 54th Annual Meeting of the Association for Computational Linguistics (ACL)*"
-    ],
-    "type": "paper-conference"
+    "type": null
   },
   {
     "citation-number": [
@@ -239,33 +307,60 @@
     ],
     "author": [
       {
-        "literal": "**\"Incorporating Knowledge Graphs into Neural Machine Translation\"** - Wang, Y., & Li, H."
+        "given": "K.G.-B.E.R.T."
+      }
+    ],
+    "title": [
+      "BERT for Knowledge Graph Completion\"**"
+    ],
+    "editor": [
+      {
+        "family": "Yao",
+        "given": "L."
+      },
+      {
+        "family": "Mao",
+        "given": "C."
+      },
+      {
+        "family": "Luo",
+        "given": "Y."
       }
     ],
     "date": [
-      "2016"
+      "2019"
     ],
-    "container-title": [
-      "*Proceedings of the 2016 Conference on Empirical Methods in Natural Language Processing (EMNLP)*"
-    ],
-    "type": "paper-conference"
+    "type": null
   },
   {
     "citation-number": [
       "13."
     ],
-    "author": [
+    "title": [
+      "**\"Improving Language Understanding by Generative Pre-Training\"**"
+    ],
+    "director": [
       {
-        "literal": "**\"Knowledge-Enhanced Neural Machine Translation with Knowledge Graph\"** - Zhang, J., & Zong, C."
+        "family": "Radford",
+        "given": "A."
+      },
+      {
+        "family": "Narasimhan",
+        "given": "K."
+      },
+      {
+        "family": "Salimans",
+        "given": "T."
+      },
+      {
+        "family": "Sutskever",
+        "given": "I."
       }
     ],
     "date": [
-      "2016"
+      "2018"
     ],
-    "container-title": [
-      "*Proceedings of the 54th Annual Meeting of the Association for Computational Linguistics (ACL)*"
-    ],
-    "type": "paper-conference"
+    "type": null
   },
   {
     "citation-number": [
@@ -273,33 +368,35 @@
     ],
     "author": [
       {
-        "literal": "**\"Incorporating Knowledge Graphs into Neural Machine Translation\"** - Wang, Y., & Li, H."
+        "literal": "**\"Language Models as Knowledge Bases?\"** - Petroni, F., Rocktäschel, T., Riedel, S., Lewis, P., Bakhtin, A., Wu, Y., & Miller, A."
       }
     ],
     "date": [
-      "2016"
+      "2019"
     ],
-    "container-title": [
-      "*Proceedings of the 2016 Conference on Empirical Methods in Natural Language Processing (EMNLP)*"
-    ],
-    "type": "paper-conference"
+    "type": null
   },
   {
     "citation-number": [
       "15."
     ],
-    "author": [
+    "title": [
+      "**\"Knowledge-Augmented Language Model and Its Application to Unsupervised Named-Entity Recognition\"**"
+    ],
+    "editor": [
       {
-        "literal": "**\"Knowledge-Enhanced Neural Machine Translation with Knowledge Graph\"** - Zhang, J., & Zong, C."
+        "family": "Zhang",
+        "given": "Y."
+      },
+      {
+        "family": "Yang",
+        "given": "Q."
       }
     ],
     "date": [
-      "2016"
+      "2018"
     ],
-    "container-title": [
-      "*Proceedings of the 54th Annual Meeting of the Association for Computational Linguistics (ACL)*"
-    ],
-    "type": "paper-conference"
+    "type": null
   },
   {
     "citation-number": [
@@ -307,33 +404,39 @@
     ],
     "author": [
       {
-        "literal": "**\"Incorporating Knowledge Graphs into Neural Machine Translation\"** - Wang, Y., & Li, H."
+        "literal": "**\"Commonsense Knowledge in Word Associations and ConceptNet\"** - Speer, R., Chin, J., & Havasi, C."
       }
     ],
     "date": [
-      "2016"
+      "2017"
     ],
-    "container-title": [
-      "*Proceedings of the 2016 Conference on Empirical Methods in Natural Language Processing (EMNLP)*"
-    ],
-    "type": "paper-conference"
+    "type": null
   },
   {
     "citation-number": [
       "17."
     ],
-    "author": [
+    "title": [
+      "**\"Integrating Knowledge Graphs into Neural Machine Translation\"**"
+    ],
+    "editor": [
       {
-        "literal": "**\"Knowledge-Enhanced Neural Machine Translation with Knowledge Graph\"** - Zhang, J., & Zong, C."
+        "family": "Zhang",
+        "given": "J."
+      },
+      {
+        "family": "Chen",
+        "given": "Z."
+      },
+      {
+        "family": "Zhao",
+        "given": "H."
       }
     ],
     "date": [
-      "2016"
+      "2017"
     ],
-    "container-title": [
-      "*Proceedings of the 54th Annual Meeting of the Association for Computational Linguistics (ACL)*"
-    ],
-    "type": "paper-conference"
+    "type": null
   },
   {
     "citation-number": [
@@ -341,16 +444,13 @@
     ],
     "author": [
       {
-        "literal": "**\"Incorporating Knowledge Graphs into Neural Machine Translation\"** - Wang, Y., & Li, H."
+        "literal": "**\"Knowledge Graph Embedding by Translating on Hyperplanes\"** - Wang, Z., Zhang, J., Feng, J., & Chen, Z."
       }
     ],
     "date": [
-      "2016"
+      "2014"
     ],
-    "container-title": [
-      "*Proceedings of the 2016 Conference on Empirical Methods in Natural Language Processing (EMNLP)*"
-    ],
-    "type": "paper-conference"
+    "type": null
   },
   {
     "citation-number": [
@@ -358,37 +458,51 @@
     ],
     "author": [
       {
-        "literal": "**\"Knowledge-Enhanced Neural Machine Translation with Knowledge Graph\"** - Zhang, J., & Zong, C."
+        "literal": "**\"Knowledge Graph Embedding via Dynamic Mapping Matrix\"** - Lin, Y., Liu, Z., Sun, M., Liu, Y., & Zhu, X."
       }
     ],
     "date": [
-      "2016"
+      "2015"
     ],
-    "container-title": [
-      "*Proceedings of the 54th Annual Meeting of the Association for Computational Linguistics (ACL)*"
-    ],
-    "type": "paper-conference"
+    "type": null
   },
   {
     "citation-number": [
       "20."
     ],
-    "author": [
+    "title": [
+      "**\"Knowledge Graph Attention Network for Recommendation\"**"
+    ],
+    "editor": [
       {
-        "literal": "**\"Incorporating Knowledge Graphs into Neural Machine Translation\"** - Wang, Y., & Li, H."
+        "family": "Wang",
+        "given": "X."
+      },
+      {
+        "family": "He",
+        "given": "X."
+      },
+      {
+        "family": "Wang",
+        "given": "M."
+      },
+      {
+        "family": "Feng",
+        "given": "F."
+      },
+      {
+        "family": "Chua",
+        "given": "T.S."
       }
     ],
     "date": [
-      "2016"
+      "2019"
     ],
-    "container-title": [
-      "*Proceedings of the 2016 Conference on Empirical Methods in Natural Language Processing (EMNLP)*"
-    ],
-    "type": "paper-conference"
+    "type": null
   },
   {
     "title": [
-      "Please note that some entries may appear repetitive due to the nature of the request. If you need more diverse articles or specific topics within knowledge-enriched text generation, feel free to ask!"
+      "These articles cover a range of topics within the domain of knowledge-enriched text generation, including commonsense reasoning, dialogue systems, and knowledge graph integration"
     ],
     "type": null
   }

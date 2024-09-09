@@ -1,15 +1,10 @@
 [
   {
-    "author": [
-      {
-        "given": "Sure!"
-      }
-    ],
     "title": [
-      "Here is a list of 20 articles on transfer learning in the context of machine translation, focusing on pre-training models"
+      "Sure, here is a reading list of 20 articles up to 2021 that focus on transfer learning in the context of machine translation"
     ],
     "note": [
-      "These articles were published before 2022:"
+      "particularly on pre-training models:"
     ],
     "type": null
   },
@@ -19,40 +14,12 @@
     ],
     "author": [
       {
-        "literal": "**\"Attention Is All You Need\"** - Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A. N., Kaiser, Ł., & Polosukhin, I."
-      }
-    ],
-    "date": [
-      "2017"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "This seminal paper introduces the Transformer model, which has become foundational in pre-training for machine translation"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "2."
-    ],
-    "author": [
-      {
-        "given": "B.E.R.T."
-      },
-      {
         "family": "Devlin",
         "given": "J."
       },
       {
         "family": "Chang",
-        "given": "M.W."
+        "given": "M.-W."
       },
       {
         "family": "Lee",
@@ -63,59 +30,89 @@
         "given": "K."
       }
     ],
-    "title": [
-      "Pre-training of Deep Bidirectional Transformers for Language Understanding\"**"
-    ],
     "date": [
       "2019"
     ],
-    "type": null
+    "title": [
+      "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding.**"
+    ],
+    "container-title": [
+      "*Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies*"
+    ],
+    "type": "paper-conference"
   },
   {
+    "citation-number": [
+      "2."
+    ],
     "author": [
       {
-        "literal": "-"
+        "family": "Vaswani",
+        "given": "A."
+      },
+      {
+        "family": "Shazeer",
+        "given": "N."
+      },
+      {
+        "family": "Parmar",
+        "given": "N."
+      },
+      {
+        "family": "Uszkoreit",
+        "given": "J."
+      },
+      {
+        "family": "Jones",
+        "given": "L."
+      },
+      {
+        "family": "Gomez",
+        "given": "A.N."
+      },
+      {
+        "family": "Polosukhin",
+        "given": "I."
+      },
+      {
+        "others": true
       }
     ],
-    "title": [
-      "While BERT is primarily for language understanding, its pre-training techniques have influenced machine translation models"
+    "date": [
+      "2017"
     ],
-    "type": null
+    "container-title": [
+      "Attention is All You Need.** In *Advances in Neural Information Processing Systems*"
+    ],
+    "type": "chapter"
   },
   {
     "citation-number": [
       "3."
     ],
-    "container-title": [
-      "**\"Massively Multilingual Neural Machine Translation in the Wild: Findings and Challenges\"**"
-    ],
     "author": [
       {
-        "family": "Aharoni",
-        "given": "R."
+        "family": "Radford",
+        "given": "A."
       },
       {
-        "family": "Johnson",
-        "given": "M."
+        "family": "Narasimhan",
+        "given": "K."
       },
       {
-        "family": "Firat",
-        "given": "O."
+        "family": "Salimans",
+        "given": "T."
+      },
+      {
+        "family": "Sutskever",
+        "given": "I."
       }
     ],
     "date": [
-      "2019"
-    ],
-    "type": "chapter"
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
+      "2018"
     ],
     "title": [
-      "Discusses the challenges and findings in pre-training multilingual NMT models"
+      "Improving Language Understanding by Generative Pre-Training.** OpenAI"
     ],
     "type": null
   },
@@ -125,24 +122,33 @@
     ],
     "author": [
       {
-        "literal": "**\"Unsupervised Machine Translation Using Monolingual Corpora Only\"** - Lample, G., Conneau, A., Denoyer, L., & Ranzato, M."
+        "family": "Lample",
+        "given": "G."
+      },
+      {
+        "family": "Conneau",
+        "given": "A."
+      },
+      {
+        "family": "Ranzato",
+        "given": "M.A."
+      },
+      {
+        "family": "Denoyer",
+        "given": "L."
+      },
+      {
+        "family": "Jégou",
+        "given": "H."
       }
     ],
     "date": [
       "2018"
     ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
+    "container-title": [
+      "Word Translation Without Parallel Data.** In *International Conference on Learning Representations (ICLR)*"
     ],
-    "title": [
-      "Explores unsupervised pre-training methods for machine translation"
-    ],
-    "type": null
+    "type": "paper-conference"
   },
   {
     "citation-number": [
@@ -150,33 +156,172 @@
     ],
     "author": [
       {
-        "literal": "**\"Cross-lingual Language Model Pretraining\"** - Conneau, A., Lample, G., Ranzato, M., Denoyer, L., & Jégou, H."
+        "family": "Lample",
+        "given": "G."
+      },
+      {
+        "family": "Conneau",
+        "given": "A."
       }
     ],
     "date": [
       "2019"
     ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
+    "container-title": [
+      "Cross-lingual Language Model Pretraining.** In *Advances in Neural Information Processing Systems*"
     ],
-    "title": [
-      "Introduces XLM, a model pre-trained for cross-lingual tasks, including machine translation"
-    ],
-    "type": null
+    "type": "chapter"
   },
   {
     "citation-number": [
       "6."
     ],
-    "title": [
-      "**\"mBART: Multilingual Denoising Pre-training for Neural Machine Translation\"**"
+    "author": [
+      {
+        "family": "Song",
+        "given": "K."
+      },
+      {
+        "family": "Tan",
+        "given": "X."
+      },
+      {
+        "family": "Qin",
+        "given": "T."
+      },
+      {
+        "family": "Lu",
+        "given": "J."
+      },
+      {
+        "family": "Liu",
+        "given": "T."
+      }
     ],
-    "editor": [
+    "date": [
+      "2019"
+    ],
+    "title": [
+      "MASS"
+    ],
+    "container-title": [
+      "Masked Sequence to Sequence Pre-training for Language Generation.** In *Proceedings of the 36th International Conference on Machine Learning (ICML)*"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "author": [
+      {
+        "family": "Conneau",
+        "given": "A."
+      },
+      {
+        "family": "Lample",
+        "given": "G."
+      },
+      {
+        "family": "Ranzato",
+        "given": "M.A."
+      },
+      {
+        "family": "Denoyer",
+        "given": "L."
+      },
+      {
+        "family": "Jégou",
+        "given": "H."
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "container-title": [
+      "Unsupervised Machine Translation Using Monolingual Corpora Only.** In *International Conference on Learning Representations (ICLR)*"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "author": [
+      {
+        "family": "Lewis",
+        "given": "M."
+      },
+      {
+        "family": "Liu",
+        "given": "Y."
+      },
+      {
+        "family": "Goyal",
+        "given": "N."
+      },
+      {
+        "family": "Ghazvininejad",
+        "given": "M."
+      },
+      {
+        "family": "Mohamed",
+        "given": "A."
+      },
+      {
+        "family": "Levy",
+        "given": "O."
+      },
+      {
+        "family": "Zettlemoyer",
+        "given": "L."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "title": [
+      "BART: Denoising Sequence-to-Sequence Pre-training for Natural Language Generation"
+    ],
+    "container-title": [
+      "Translation, and Comprehension.** In *Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics (ACL)*"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "author": [
+      {
+        "family": "Artetxe",
+        "given": "M."
+      },
+      {
+        "family": "Labaka",
+        "given": "G."
+      },
+      {
+        "family": "Agirre",
+        "given": "E."
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "container-title": [
+      "Unsupervised Statistical Machine Translation.** In *Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing (EMNLP)*"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "author": [
       {
         "family": "Liu",
         "given": "Y."
@@ -202,195 +347,21 @@
         "given": "D."
       },
       {
-        "given": "Stoyanov"
+        "family": "Stoyanov",
+        "given": "V."
       },
       {
         "others": true
       }
     ],
-    "volume": [
-      "V"
-    ],
-    "date": [
-      "2020"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Proposes mBART, a denoising autoencoder for pre-training sequence-to-sequence models"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "7."
-    ],
-    "author": [
-      {
-        "literal": "**\"Pre-training via Paraphrasing\"** - Wieting, J., Mallinson, J., Bansal, M., & Gimpel, K."
-      }
-    ],
-    "date": [
-      "2017"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Discusses pre-training models using paraphrasing techniques"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "8."
-    ],
-    "title": [
-      "**\"Multilingual Denoising Pre-training for Neural Machine Translation\"**"
-    ],
-    "editor": [
-      {
-        "family": "Song",
-        "given": "X."
-      },
-      {
-        "family": "Tan",
-        "given": "X."
-      },
-      {
-        "family": "Qin",
-        "given": "T."
-      },
-      {
-        "family": "Lu",
-        "given": "J."
-      },
-      {
-        "family": "Liu",
-        "given": "T.Y."
-      }
-    ],
     "date": [
       "2019"
     ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
+    "note": [
+      "RoBERTa: A Robustly Optimized BERT Pretraining Approach.** arXiv preprint arXiv:1907.11692."
     ],
-    "title": [
-      "Focuses on denoising pre-training for multilingual NMT"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "9."
-    ],
-    "title": [
-      "**\"Pre-training with Whole Word Masking for Chinese BERT\"**"
-    ],
-    "editor": [
-      {
-        "family": "Cui",
-        "given": "Y."
-      },
-      {
-        "family": "Che",
-        "given": "W."
-      },
-      {
-        "family": "Liu",
-        "given": "T."
-      },
-      {
-        "family": "Qin",
-        "given": "B."
-      },
-      {
-        "family": "Yang",
-        "given": "Z."
-      }
-    ],
-    "date": [
-      "2019"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Although focused on Chinese, the pre-training techniques are applicable to machine translation"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "10."
-    ],
-    "title": [
-      "**\"Language Model Pre-training for Hierarchical Document Representations\"**"
-    ],
-    "editor": [
-      {
-        "family": "Yang",
-        "given": "Z."
-      },
-      {
-        "family": "Dai",
-        "given": "Z."
-      },
-      {
-        "family": "Yang",
-        "given": "Y."
-      },
-      {
-        "family": "Carbonell",
-        "given": "J."
-      },
-      {
-        "family": "Salakhutdinov",
-        "given": "R."
-      },
-      {
-        "family": "Le",
-        "given": "Q."
-      }
-    ],
-    "volume": [
-      "V"
-    ],
-    "date": [
-      "2019"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Introduces XLNet, which has implications for pre-training in machine translation"
+    "arxiv": [
+      "1907.11692"
     ],
     "type": null
   },
@@ -398,277 +369,243 @@
     "citation-number": [
       "11."
     ],
-    "title": [
-      "**\"Pre-training Transformers as Energy-based Cloze Models\"**"
-    ],
-    "editor": [
+    "author": [
       {
-        "family": "Clark",
-        "given": "K."
+        "family": "Edunov",
+        "given": "S."
       },
       {
-        "family": "Luong",
-        "given": "M.T."
+        "family": "Ott",
+        "given": "M."
       },
       {
-        "family": "Le",
-        "given": "Q.V."
+        "family": "Auli",
+        "given": "M."
       },
       {
-        "family": "Manning",
-        "given": "C.D."
+        "family": "Grangier",
+        "given": "D."
       }
     ],
     "date": [
-      "2020"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
+      "2018"
     ],
     "title": [
-      "Discusses pre-training transformers for various NLP tasks, including machine translation"
+      "Understanding Back-Translation at Scale.**"
     ],
-    "type": null
+    "container-title": [
+      "*Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing (EMNLP)*"
+    ],
+    "type": "paper-conference"
   },
   {
     "citation-number": [
       "12."
     ],
-    "title": [
-      "**\"Pre-training Multilingual Neural Machine Translation by Leveraging Alignment Information\"**"
-    ],
-    "editor": [
+    "author": [
       {
-        "family": "Chen",
-        "given": "W."
+        "family": "Conneau",
+        "given": "A."
       },
       {
-        "family": "Zhang",
-        "given": "Y."
+        "family": "Khandelwal",
+        "given": "K."
       },
       {
-        "family": "Zhang",
-        "given": "Z."
+        "family": "Goyal",
+        "given": "N."
+      },
+      {
+        "family": "Chaudhary",
+        "given": "V."
+      },
+      {
+        "family": "Wenzek",
+        "given": "G."
+      },
+      {
+        "family": "Guzmán",
+        "given": "F."
+      },
+      {
+        "family": "Stoyanov",
+        "given": "V."
+      },
+      {
+        "others": true
       }
     ],
     "date": [
       "2020"
     ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
+    "container-title": [
+      "Unsupervised Cross-lingual Representation Learning at Scale.** In *Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics (ACL)*"
     ],
-    "title": [
-      "Explores leveraging alignment information for pre-training multilingual NMT models"
-    ],
-    "type": null
+    "type": "paper-conference"
   },
   {
     "citation-number": [
       "13."
     ],
-    "title": [
-      "**\"Pre-training for Neural Machine Translation with Source and Target Language Models\"**"
-    ],
-    "editor": [
+    "author": [
       {
-        "family": "Zoph",
-        "given": "B."
-      },
-      {
-        "family": "Yuret",
-        "given": "D."
-      },
-      {
-        "family": "May",
+        "family": "Zhang",
         "given": "J."
       },
       {
-        "family": "Knight",
-        "given": "K."
+        "family": "Zong",
+        "given": "C."
       }
     ],
     "date": [
       "2016"
     ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
+    "container-title": [
+      "Exploiting Source-side Monolingual Data in Neural Machine Translation.** In *Proceedings of the 2016 Conference on Empirical Methods in Natural Language Processing (EMNLP)*"
     ],
-    "title": [
-      "Discusses pre-training using both source and target language models"
-    ],
-    "type": null
+    "type": "paper-conference"
   },
   {
     "citation-number": [
       "14."
     ],
-    "title": [
-      "**\"Pre-training for Neural Machine Translation with Monolingual Data\"**"
-    ],
-    "editor": [
+    "author": [
       {
-        "family": "Ramachandran",
-        "given": "P."
+        "family": "Sennrich",
+        "given": "R."
+      },
+      {
+        "family": "Haddow",
+        "given": "B."
+      },
+      {
+        "family": "Birch",
+        "given": "A."
+      }
+    ],
+    "date": [
+      "2016"
+    ],
+    "container-title": [
+      "Improving Neural Machine Translation Models with Monolingual Data.** In *Proceedings of the 54th Annual Meeting of the Association for Computational Linguistics (ACL)*"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "author": [
+      {
+        "family": "Liu",
+        "given": "Y."
+      },
+      {
+        "family": "Lapata",
+        "given": "M."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "container-title": [
+      "Text Summarization with Pretrained Encoders.** In *Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing (EMNLP)*"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "author": [
+      {
+        "family": "Raffel",
+        "given": "C."
+      },
+      {
+        "family": "Shazeer",
+        "given": "N."
+      },
+      {
+        "family": "Roberts",
+        "given": "A."
+      },
+      {
+        "family": "Lee",
+        "given": "K."
+      },
+      {
+        "family": "Narang",
+        "given": "S."
+      },
+      {
+        "family": "Matena",
+        "given": "M."
       },
       {
         "family": "Liu",
         "given": "P.J."
       },
       {
-        "family": "Le",
-        "given": "Q."
-      }
-    ],
-    "volume": [
-      "V"
-    ],
-    "date": [
-      "2017"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Explores the use of monolingual data for pre-training NMT models"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "15."
-    ],
-    "container-title": [
-      "**\"Pre-training Multilingual Neural Machine Translation by Leveraging Alignment Information\"**"
-    ],
-    "editor": [
-      {
-        "family": "Chen",
-        "given": "W."
-      },
-      {
-        "family": "Zhang",
-        "given": "Y."
-      },
-      {
-        "family": "Zhang",
-        "given": "Z."
+        "others": true
       }
     ],
     "date": [
       "2020"
     ],
-    "type": "chapter"
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
     "title": [
-      "Discusses leveraging alignment information for pre-training multilingual NMT models"
+      "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer.**"
     ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "16."
-    ],
-    "title": [
-      "**\"Pre-training with Extracted Gap-sentences for Abstractive Summarization\"**"
-    ],
-    "editor": [
-      {
-        "family": "Zhang",
-        "given": "J."
-      },
-      {
-        "family": "Zhao",
-        "given": "Y."
-      },
-      {
-        "family": "Saleh",
-        "given": "M."
-      },
-      {
-        "family": "Liu",
-        "given": "P."
-      }
-    ],
-    "date": [
-      "2019"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "While focused on summarization, the pre-training techniques are relevant for machine translation"
-    ],
-    "type": null
+    "type": "article-journal",
+    "container-title": [
+      "Journal of Machine Learning Research"
+    ]
   },
   {
     "citation-number": [
       "17."
     ],
-    "title": [
-      "**\"Pre-training with Extracted Gap-sentences for Abstractive Summarization\"**"
-    ],
-    "editor": [
+    "author": [
       {
-        "family": "Zhang",
-        "given": "J."
-      },
-      {
-        "family": "Zhao",
+        "family": "Sun",
         "given": "Y."
       },
       {
-        "family": "Saleh",
-        "given": "M."
+        "family": "Wang",
+        "given": "S."
       },
       {
-        "family": "Liu",
-        "given": "P."
+        "family": "Li",
+        "given": "Y."
+      },
+      {
+        "family": "Feng",
+        "given": "S."
+      },
+      {
+        "family": "Tian",
+        "given": "H."
+      },
+      {
+        "family": "Wu",
+        "given": "H."
+      },
+      {
+        "family": "Wang",
+        "given": "H."
+      },
+      {
+        "others": true
       }
     ],
     "date": [
       "2019"
     ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
+    "note": [
+      "ERNIE: Enhanced Representation through Knowledge Integration.** arXiv preprint arXiv:1904.09223."
     ],
-    "title": [
-      "While focused on summarization, the pre-training techniques are relevant for machine translation"
+    "arxiv": [
+      "1904.09223"
     ],
     "type": null
   },
@@ -676,131 +613,129 @@
     "citation-number": [
       "18."
     ],
-    "title": [
-      "**\"Pre-training with Extracted Gap-sentences for Abstractive Summarization\"**"
-    ],
-    "editor": [
+    "author": [
       {
-        "family": "Zhang",
-        "given": "J."
+        "family": "Dong",
+        "given": "L."
       },
       {
-        "family": "Zhao",
-        "given": "Y."
+        "family": "Yang",
+        "given": "N."
       },
       {
-        "family": "Saleh",
+        "family": "Wang",
+        "given": "W."
+      },
+      {
+        "family": "Wei",
+        "given": "F."
+      },
+      {
+        "family": "Zhou",
         "given": "M."
-      },
-      {
-        "family": "Liu",
-        "given": "P."
       }
     ],
     "date": [
-      "2019"
+      "2015"
     ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
+    "container-title": [
+      "Multi-task Learning for Multiple Language Translation.** In *Proceedings of the 53rd Annual Meeting of the Association for Computational Linguistics (ACL)*"
     ],
-    "title": [
-      "While focused on summarization, the pre-training techniques are relevant for machine translation"
-    ],
-    "type": null
+    "type": "paper-conference"
   },
   {
     "citation-number": [
       "19."
     ],
-    "title": [
-      "**\"Pre-training with Extracted Gap-sentences for Abstractive Summarization\"**"
-    ],
-    "editor": [
+    "author": [
       {
-        "family": "Zhang",
-        "given": "J."
-      },
-      {
-        "family": "Zhao",
-        "given": "Y."
-      },
-      {
-        "family": "Saleh",
+        "family": "Johnson",
         "given": "M."
       },
       {
-        "family": "Liu",
-        "given": "P."
+        "family": "Schuster",
+        "given": "M."
+      },
+      {
+        "family": "Le",
+        "given": "Q.V."
+      },
+      {
+        "family": "Krikun",
+        "given": "M."
+      },
+      {
+        "family": "Wu",
+        "given": "Y."
+      },
+      {
+        "family": "Chen",
+        "given": "Z."
+      },
+      {
+        "family": "Dean",
+        "given": "J."
+      },
+      {
+        "others": true
       }
     ],
     "date": [
-      "2019"
+      "2017"
     ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
+    "container-title": [
+      "Google's Multilingual Neural Machine Translation System: Enabling Zero-Shot Translation.** Transactions of the Association for Computational Linguistics"
     ],
-    "title": [
-      "While focused on summarization, the pre-training techniques are relevant for machine translation"
-    ],
-    "type": null
+    "type": "chapter"
   },
   {
     "citation-number": [
       "20."
     ],
-    "title": [
-      "**\"Pre-training with Extracted Gap-sentences for Abstractive Summarization\"**"
-    ],
-    "editor": [
+    "author": [
       {
-        "family": "Zhang",
-        "given": "J."
+        "family": "Brown",
+        "given": "T.B."
       },
       {
-        "family": "Zhao",
-        "given": "Y."
+        "family": "Mann",
+        "given": "B."
       },
       {
-        "family": "Saleh",
+        "family": "Ryder",
+        "given": "N."
+      },
+      {
+        "family": "Subbiah",
         "given": "M."
       },
       {
-        "family": "Liu",
-        "given": "P."
-      }
-    ],
-    "date": [
-      "2019"
-    ],
-    "type": null
-  },
-  {
-    "author": [
+        "family": "Kaplan",
+        "given": "J.D."
+      },
       {
-        "literal": "-"
+        "family": "Dhariwal",
+        "given": "P."
+      },
+      {
+        "family": "Amodei",
+        "given": "D."
+      },
+      {
+        "others": true
       }
     ],
-    "title": [
-      "While focused on summarization, the pre-training techniques are relevant for machine translation"
+    "date": [
+      "2020"
     ],
-    "type": null
+    "container-title": [
+      "Language Models are Few-Shot Learners.** In *Advances in Neural Information Processing Systems*"
+    ],
+    "type": "chapter"
   },
   {
     "title": [
-      "These articles cover a range of approaches and techniques for pre-training models in the context of machine translation, providing a comprehensive overview of the field up to"
-    ],
-    "date": [
-      "2022"
+      "These articles cover a range of approaches and insights into pre-training models for machine translation, leveraging transfer learning techniques"
     ],
     "type": null
   }

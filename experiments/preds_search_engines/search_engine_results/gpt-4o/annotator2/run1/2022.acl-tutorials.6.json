@@ -2,14 +2,11 @@
   {
     "author": [
       {
-        "given": "Sure!"
+        "given": "Certainly!"
       }
     ],
     "title": [
-      "Here is a list of 20 influential articles on zero- and few-shot learning using pre-trained language models (PLMs"
-    ],
-    "note": [
-      "published before 2023:"
+      "Here's a curated list of 20 influential articles on zero- and few-shot learning using pre-trained language models (PLMs) up to 2022"
     ],
     "type": null
   },
@@ -19,199 +16,126 @@
     ],
     "author": [
       {
-        "given": "B.E.R.T."
+        "family": "Brown",
+        "given": "T.B."
+      },
+      {
+        "others": true
       }
     ],
+    "date": [
+      "2020"
+    ],
     "title": [
-      "Pre-training of Deep Bidirectional Transformers for Language Understanding\"**"
+      "Language Models are Few-Shot Learners"
     ],
-    "type": null
-  },
-  {
-    "title": [
-      "Authors: Jacob Devlin, Ming-Wei Chang"
-    ],
-    "location": [
-      "Kenton Lee"
-    ],
-    "publisher": [
-      "Kristina Toutanova"
-    ],
-    "type": "book"
-  },
-  {
     "container-title": [
-      "Conference: NAACL 2019"
+      "*Advances in Neural Information Processing Systems (NeurIPS)*"
     ],
-    "type": "paper-conference"
-  },
-  {
-    "note": [
-      "Link](https://arxiv.org/abs/1810.04805"
-    ],
-    "type": null
+    "type": "chapter"
   },
   {
     "citation-number": [
       "2."
     ],
-    "title": [
-      "**\"Language Models are Few-Shot Learners\"**"
-    ],
-    "type": null
-  },
-  {
     "author": [
       {
-        "family": "Authors",
-        "given": "Tom B.Brown"
-      },
-      {
-        "family": "Mann",
-        "given": "Benjamin"
-      },
-      {
-        "family": "Ryder",
-        "given": "Nick"
+        "family": "Radford",
+        "given": "A."
       },
       {
         "others": true
       }
     ],
-    "type": null
-  },
-  {
-    "container-title": [
-      "Conference: NeurIPS 2020"
+    "date": [
+      "2019"
     ],
-    "type": "paper-conference"
-  },
-  {
-    "note": [
-      "Link](https://arxiv.org/abs/2005.14165"
+    "title": [
+      "Language Models are Unsupervised Multitask Learners"
     ],
-    "type": null
+    "publisher": [
+      "*OpenAI Blog*"
+    ],
+    "type": "book"
   },
   {
     "citation-number": [
       "3."
     ],
-    "title": [
-      "**\"GPT-3: Language Models are Few-Shot Learners\"**"
-    ],
-    "type": null
-  },
-  {
     "author": [
       {
-        "family": "Authors",
-        "given": "Tom B.Brown"
+        "family": "Schick",
+        "given": "T."
       },
       {
-        "family": "Mann",
-        "given": "Benjamin"
-      },
-      {
-        "family": "Ryder",
-        "given": "Nick"
-      },
-      {
-        "others": true
+        "family": "Schütze",
+        "given": "H."
       }
     ],
-    "type": null
-  },
-  {
-    "container-title": [
-      "Conference: NeurIPS 2020"
+    "date": [
+      "2021"
     ],
-    "type": "paper-conference"
-  },
-  {
-    "note": [
-      "Link](https://arxiv.org/abs/2005.14165"
+    "title": [
+      "Exploiting Cloze-Questions for Few-Shot Text Classification and Natural Language Inference"
     ],
-    "type": null
+    "publisher": [
+      "*EACL*"
+    ],
+    "type": "book"
   },
   {
     "citation-number": [
       "4."
     ],
-    "title": [
-      "**\"T5: Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer\"**"
-    ],
-    "type": null
-  },
-  {
     "author": [
       {
-        "family": "Authors",
-        "given": "Colin Raffel"
+        "family": "Gao",
+        "given": "T."
       },
       {
-        "family": "Shazeer",
-        "given": "Noam"
+        "family": "Fisch",
+        "given": "A."
       },
       {
-        "family": "Roberts",
-        "given": "Adam"
-      },
-      {
-        "others": true
+        "family": "Chen",
+        "given": "D."
       }
     ],
-    "type": null
-  },
-  {
-    "note": [
-      "Conference: JMLR 2020"
+    "date": [
+      "2021"
     ],
-    "type": null
-  },
-  {
-    "note": [
-      "Link](https://arxiv.org/abs/1910.10683"
+    "title": [
+      "Making Pre-trained Language Models Better Few-shot Learners"
     ],
-    "type": null
+    "container-title": [
+      "*Association for Computational Linguistics (ACL)*"
+    ],
+    "type": "chapter"
   },
   {
     "citation-number": [
       "5."
     ],
-    "title": [
-      "**\"UnifiedQA: Crossing Format Boundaries with a Single QA System\"**"
-    ],
-    "type": null
-  },
-  {
     "author": [
       {
-        "family": "Authors",
-        "given": "Khashayar Khashabi"
-      },
-      {
-        "family": "Min",
-        "given": "Sewon"
-      },
-      {
-        "family": "Khot",
-        "given": "Tushar"
+        "family": "Yin",
+        "given": "W."
       },
       {
         "others": true
       }
     ],
-    "type": null
-  },
-  {
-    "container-title": [
-      "Conference: EMNLP 2020"
+    "date": [
+      "2020"
     ],
-    "type": "paper-conference"
-  },
-  {
+    "title": [
+      "Universal Natural Language Processing with Limited Annotations: Try Few-shot Text Generation"
+    ],
     "note": [
-      "Link](https://arxiv.org/abs/2005.00700"
+      "*arXiv preprint arXiv:2002.12328*."
+    ],
+    "arxiv": [
+      "2002.12328"
     ],
     "type": null
   },
@@ -219,104 +143,78 @@
     "citation-number": [
       "6."
     ],
-    "title": [
-      "**\"Few-Shot Text Generation with Pattern-Exploiting Training\"**"
+    "author": [
+      {
+        "family": "Petroni",
+        "given": "F."
+      },
+      {
+        "others": true
+      }
     ],
-    "type": null
-  },
-  {
+    "date": [
+      "2019"
+    ],
+    "title": [
+      "Language Models as Knowledge"
+    ],
     "location": [
-      "Authors"
+      "Bases"
     ],
     "publisher": [
-      "Timo Schick, Hinrich Schütze"
+      "*EMNLP-IJCNLP*"
     ],
     "type": "book"
-  },
-  {
-    "container-title": [
-      "Conference: NAACL 2021"
-    ],
-    "type": "paper-conference"
-  },
-  {
-    "note": [
-      "Link](https://arxiv.org/abs/2012.11926"
-    ],
-    "type": null
   },
   {
     "citation-number": [
       "7."
     ],
-    "location": [
-      "PET"
+    "author": [
+      {
+        "family": "Schick",
+        "given": "T."
+      },
+      {
+        "family": "Schütze",
+        "given": "H."
+      }
+    ],
+    "date": [
+      "2021"
+    ],
+    "title": [
+      "Few-shot Text Generation with Pattern-Exploiting Training"
     ],
     "publisher": [
-      "Pattern-Exploiting Training\"**"
+      "*NAACL-HLT*"
     ],
     "type": "book"
-  },
-  {
-    "location": [
-      "Authors"
-    ],
-    "publisher": [
-      "Timo Schick, Hinrich Schütze"
-    ],
-    "type": "book"
-  },
-  {
-    "container-title": [
-      "Conference: ACL 2021"
-    ],
-    "type": "paper-conference"
-  },
-  {
-    "note": [
-      "Link](https://arxiv.org/abs/2001.07676"
-    ],
-    "type": null
   },
   {
     "citation-number": [
       "8."
     ],
-    "title": [
-      "**\"Making Pre-trained Language Models Better Few-shot Learners\"**"
-    ],
-    "type": null
-  },
-  {
     "author": [
       {
-        "family": "Authors",
-        "given": "Zhengbao Jiang"
+        "family": "Zhang",
+        "given": "T."
       },
       {
-        "family": "Xu",
-        "given": "Frank F."
-      },
-      {
-        "family": "Araki",
-        "given": "Jun"
-      },
-      {
-        "family": "Neubig",
-        "given": "Graham"
+        "others": true
       }
     ],
-    "type": null
-  },
-  {
-    "container-title": [
-      "Conference: ACL 2020"
+    "date": [
+      "2021"
     ],
-    "type": "paper-conference"
-  },
-  {
+    "title": [
+      "Revisiting Few-sample BERT Fine-tuning"
+    ],
     "note": [
-      "Link](https://arxiv.org/abs/2002.12328"
+      "*arXiv preprint arXiv:2106.07705*."
+    ],
+    "arxiv": [
+      "2106.07705"
     ],
     "type": null
   },
@@ -324,40 +222,26 @@
     "citation-number": [
       "9."
     ],
-    "note": [
-      "**\"LAMA: LAnguage Model Analysis\"**"
-    ],
-    "type": null
-  },
-  {
     "author": [
       {
-        "family": "Authors",
-        "given": "Fabio Petroni"
-      },
-      {
-        "family": "Rocktäschel",
-        "given": "Tim"
-      },
-      {
-        "family": "Lewis",
-        "given": "Patrick"
+        "family": "Liu",
+        "given": "X."
       },
       {
         "others": true
       }
     ],
-    "type": null
-  },
-  {
-    "container-title": [
-      "Conference: EMNLP 2019"
+    "date": [
+      "2021"
     ],
-    "type": "paper-conference"
-  },
-  {
+    "title": [
+      "GPT Understands, Too"
+    ],
     "note": [
-      "Link](https://arxiv.org/abs/1909.01066"
+      "*arXiv preprint arXiv:2103.10385*."
+    ],
+    "arxiv": [
+      "2103.10385"
     ],
     "type": null
   },
@@ -367,215 +251,150 @@
     ],
     "author": [
       {
-        "family": "Fine-tuning\"",
-        "given": "Revisiting Few-sample B.E.R.T."
+        "family": "Le Scao",
+        "given": "T."
+      },
+      {
+        "family": "Rush",
+        "given": "A.M."
       }
     ],
-    "type": null
-  },
-  {
+    "date": [
+      "2021"
+    ],
     "title": [
-      "Authors: Prasetya Ajie Utama, Nafise Sadat Moosavi, Iryna Gurevych"
+      "How Many Data Points is a Prompt Worth?"
     ],
-    "type": null
-  },
-  {
-    "container-title": [
-      "Conference: ACL 2020"
+    "publisher": [
+      "*NAACL-HLT*"
     ],
-    "type": "paper-conference"
-  },
-  {
-    "note": [
-      "Link](https://arxiv.org/abs/2006.05987"
-    ],
-    "type": null
+    "type": "book"
   },
   {
     "citation-number": [
       "11."
     ],
+    "author": [
+      {
+        "family": "Perez",
+        "given": "E."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2021"
+    ],
     "title": [
-      "**\"Meta-Learning for Few-Shot Natural Language Processing: A Survey\"**"
+      "True Few-Shot Learning with Language Models"
     ],
-    "type": null
-  },
-  {
-    "title": [
-      "Authors: Zhihao Lu, Tao Shen, Guodong Long, et al"
-    ],
-    "type": null
-  },
-  {
-    "note": [
-      "Conference: arXiv 2020"
-    ],
-    "type": null
-  },
-  {
-    "note": [
-      "Link](https://arxiv.org/abs/2007.09604"
-    ],
-    "type": null
+    "type": "article-journal",
+    "container-title": [
+      "*NeurIPS*"
+    ]
   },
   {
     "citation-number": [
       "12."
     ],
-    "title": [
-      "**\"Few-Shot Learning with Contextualized Word Vectors\"**"
-    ],
-    "type": null
-  },
-  {
     "author": [
       {
-        "family": "Authors",
-        "given": "Matthew Peters"
+        "family": "Zhao",
+        "given": "W."
       },
       {
-        "family": "Ruder",
-        "given": "Sebastian"
-      },
-      {
-        "family": "Smith",
-        "given": "Noah A."
+        "others": true
       }
     ],
-    "type": null
-  },
-  {
+    "date": [
+      "2021"
+    ],
+    "title": [
+      "Calibrate Before Use: Improving Few-Shot Performance of Language Models"
+    ],
     "container-title": [
-      "Conference: NAACL 2019"
+      "*ICML*"
     ],
-    "type": "paper-conference"
-  },
-  {
-    "note": [
-      "Link](https://arxiv.org/abs/1902.06006"
-    ],
-    "type": null
+    "type": "chapter"
   },
   {
     "citation-number": [
       "13."
     ],
-    "title": [
-      "**\"Zero-Shot Text Classification with Generative Language Models\"**"
-    ],
-    "type": null
-  },
-  {
     "author": [
       {
-        "family": "Authors",
-        "given": "Yinhan Liu"
+        "family": "Lester",
+        "given": "B."
       },
       {
-        "family": "Ott",
-        "given": "Myle"
+        "family": "Al-Rfou",
+        "given": "R."
       },
       {
-        "family": "Goyal",
-        "given": "Naman"
-      },
-      {
-        "others": true
+        "family": "Constant",
+        "given": "N."
       }
     ],
-    "type": null
-  },
-  {
-    "note": [
-      "Conference: arXiv 2019"
+    "date": [
+      "2021"
     ],
-    "type": null
-  },
-  {
-    "note": [
-      "Link](https://arxiv.org/abs/1912.10165"
+    "title": [
+      "The Power of Scale for Parameter-Efficient Prompt Tuning"
     ],
-    "type": null
+    "publisher": [
+      "*EMNLP*"
+    ],
+    "type": "book"
   },
   {
     "citation-number": [
       "14."
     ],
-    "title": [
-      "**\"Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer\"**"
-    ],
-    "type": null
-  },
-  {
     "author": [
       {
-        "family": "Authors",
-        "given": "Colin Raffel"
-      },
-      {
-        "family": "Shazeer",
-        "given": "Noam"
-      },
-      {
-        "family": "Roberts",
-        "given": "Adam"
+        "family": "Gao",
+        "given": "T."
       },
       {
         "others": true
       }
     ],
-    "type": null
-  },
-  {
-    "note": [
-      "Conference: JMLR 2020"
+    "date": [
+      "2021"
     ],
-    "type": null
-  },
-  {
-    "note": [
-      "Link](https://arxiv.org/abs/1910.10683"
+    "title": [
+      "Making Pre-trained Language Models Better Few-shot Learners"
     ],
-    "type": null
+    "publisher": [
+      "*ACL*"
+    ],
+    "type": "book"
   },
   {
     "citation-number": [
       "15."
     ],
-    "title": [
-      "**\"Few-Shot Learning with Sentence-Level Transformers\"**"
-    ],
-    "type": null
-  },
-  {
     "author": [
       {
-        "family": "Authors",
-        "given": "Alex Wang"
-      },
-      {
-        "family": "Singh",
-        "given": "Amanpreet"
-      },
-      {
-        "family": "Michael",
-        "given": "Julian"
+        "family": "Han",
+        "given": "X."
       },
       {
         "others": true
       }
     ],
-    "type": null
-  },
-  {
-    "note": [
-      "Conference: arXiv 2019"
+    "date": [
+      "2021"
     ],
-    "type": null
-  },
-  {
+    "title": [
+      "PTR: Prompt Tuning with Rules for Text Classification"
+    ],
     "note": [
-      "Link](https://arxiv.org/abs/1909.00161"
+      "*arXiv preprint arXiv:2105.11259*."
+    ],
+    "arxiv": [
+      "2105.11259"
     ],
     "type": null
   },
@@ -583,26 +402,26 @@
     "citation-number": [
       "16."
     ],
+    "author": [
+      {
+        "family": "Liu",
+        "given": "P."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2021"
+    ],
     "title": [
-      "**\"Meta-Learning for Low-Resource Natural Language Generation in Task-Oriented Dialogue Systems\"**"
+      "Pre-train, Prompt, and Predict: A Systematic Survey of Prompting Methods in Natural Language Processing"
     ],
-    "type": null
-  },
-  {
-    "title": [
-      "Authors: Abhinav Rastogi, Xiaoxue Zang, Srinivas Sunkara, et al"
-    ],
-    "type": null
-  },
-  {
     "note": [
-      "Conference: arXiv 2020"
+      "*arXiv preprint arXiv:2107.13586*."
     ],
-    "type": null
-  },
-  {
-    "note": [
-      "Link](https://arxiv.org/abs/2002.08926"
+    "arxiv": [
+      "2107.13586"
     ],
     "type": null
   },
@@ -610,26 +429,26 @@
     "citation-number": [
       "17."
     ],
+    "author": [
+      {
+        "family": "Wang",
+        "given": "Y."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2021"
+    ],
     "title": [
-      "**\"Zero-Shot Learning with Common Sense Knowledge Graphs\"**"
+      "Prompt-based Few-shot Text Classification with Pre-trained Language Models"
     ],
-    "type": null
-  },
-  {
-    "title": [
-      "Authors: Antoine Bosselut, Hannah Rashkin, Maarten Sap, et al"
-    ],
-    "type": null
-  },
-  {
-    "container-title": [
-      "Conference: NAACL 2019"
-    ],
-    "type": "paper-conference"
-  },
-  {
     "note": [
-      "Link](https://arxiv.org/abs/1901.10957"
+      "*arXiv preprint arXiv:2108.02035*."
+    ],
+    "arxiv": [
+      "2108.02035"
     ],
     "type": null
   },
@@ -637,26 +456,27 @@
     "citation-number": [
       "18."
     ],
+    "author": [
+      {
+        "family": "Logan",
+        "given": "R.L.",
+        "suffix": "IV"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2021"
+    ],
     "title": [
-      "**\"Few-Shot Learning for Named Entity Recognition in Medical Text\"**"
+      "Cutting Down on Prompts and Parameters: Simple Few-Shot Learning with Language Models"
     ],
-    "type": null
-  },
-  {
     "note": [
-      "Authors: Emily Alsentzer, John Murphy, William Boag, et al."
+      "*arXiv preprint arXiv:2106.13353*."
     ],
-    "type": null
-  },
-  {
-    "note": [
-      "Conference: arXiv 2019"
-    ],
-    "type": null
-  },
-  {
-    "note": [
-      "Link](https://arxiv.org/abs/1906.05474"
+    "arxiv": [
+      "2106.13353"
     ],
     "type": null
   },
@@ -664,26 +484,26 @@
     "citation-number": [
       "19."
     ],
-    "publisher": [
-      "**\"Zero-Shot Learning for Semantic Textual Similarity\"**"
+    "author": [
+      {
+        "family": "Liu",
+        "given": "X."
+      },
+      {
+        "others": true
+      }
     ],
-    "type": "book"
-  },
-  {
-    "note": [
-      "Authors: Alexis Conneau, Douwe Kiela"
+    "date": [
+      "2021"
     ],
-    "type": null
-  },
-  {
-    "note": [
-      "Conference: arXiv 2018"
+    "title": [
+      "Pre-trained Language Models for Text Generation: A Survey"
     ],
-    "type": null
-  },
-  {
     "note": [
-      "Link](https://arxiv.org/abs/1802.05335"
+      "*arXiv preprint arXiv:2105.10311*."
+    ],
+    "arxiv": [
+      "2105.10311"
     ],
     "type": null
   },
@@ -691,49 +511,29 @@
     "citation-number": [
       "20."
     ],
-    "title": [
-      "**\"Few-Shot Learning with Auxiliary Task for Sentiment Classification\"**"
-    ],
-    "type": null
-  },
-  {
     "author": [
       {
-        "family": "Authors",
-        "given": "Yukun Zhu"
-      },
-      {
-        "family": "Kiros",
-        "given": "Ryan"
-      },
-      {
-        "family": "Zemel",
-        "given": "Richard S."
+        "family": "Zhong",
+        "given": "Z."
       },
       {
         "others": true
       }
     ],
-    "type": null
-  },
-  {
-    "note": [
-      "Conference: arXiv 2018"
+    "date": [
+      "2021"
     ],
-    "type": null
-  },
-  {
-    "note": [
-      "Link](https://arxiv.org/abs/1805.01070"
+    "title": [
+      "Factual Probing Is [MASK]: Learning vs"
     ],
-    "type": null
+    "publisher": [
+      "Learning to Recall.\" *NAACL-HLT*"
+    ],
+    "type": "book"
   },
   {
     "title": [
-      "These articles cover a range of topics related to zero- and few-shot learning using pre-trained language models, providing a comprehensive overview of the field up to"
-    ],
-    "date": [
-      "2023"
+      "These articles cover a range of topics related to zero- and few-shot learning using PLMs, including foundational works, methodological advancements, and practical applications"
     ],
     "type": null
   }

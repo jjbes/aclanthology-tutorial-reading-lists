@@ -6,22 +6,22 @@
       }
     ],
     "title": [
-      "Here is a curated list of 20 articles published before 2022 that focus on the use of Graph Neural Networks (GNNs"
+      "Here is a curated reading list of 20 articles up to 2021 that focus on the use of Graph Neural Networks (GNNs"
     ],
     "container-title": [
-      "Natural Language Processing (NLP), specifically on constructing graphs from text and reviewing the application of GNNs for downstream tasks"
+      "in the context of Natural Language Processing (NLP), specifically on constructing graphs from text and using GNNs for downstream tasks"
     ],
-    "type": "article-journal"
+    "type": "chapter"
   },
   {
     "citation-number": [
       "1."
     ],
     "title": [
-      "**\"Graph Neural Networks: A Review of Methods and Applications\"** - Zhou, Jie, et al"
+      "**\"Graph Neural Networks: A Review of Methods and Applications\"** by Jie Zhou, et al"
     ],
     "date": [
-      "2018"
+      "2020"
     ],
     "type": null
   },
@@ -41,7 +41,7 @@
       "2."
     ],
     "title": [
-      "**\"Graph Convolutional Networks for Text Classification\"** - Yao, Liang, et al"
+      "**\"Text Graphs: Constructing Graphs from Text for NLP Tasks\"** by Mihai Surdeanu, et al"
     ],
     "date": [
       "2019"
@@ -55,7 +55,7 @@
       }
     ],
     "title": [
-      "Discusses constructing graphs from text for text classification tasks using GCNs"
+      "Discusses various methods for constructing graphs from text data for NLP tasks"
     ],
     "type": null
   },
@@ -63,37 +63,8 @@
     "citation-number": [
       "3."
     ],
-    "author": [
-      {
-        "family": "Text",
-        "given": "G.C.N."
-      }
-    ],
     "title": [
-      "Semi-supervised Text Classification with Graph Convolutional Networks\"** - Yao, Liang, et al"
-    ],
-    "date": [
-      "2019"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Explores the use of GCNs for semi-supervised text classification by constructing word-document graphs"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "4."
-    ],
-    "title": [
-      "**\"Graph Neural Networks for Natural Language Processing: A Survey\"** - Wu, Zonghan, et al"
+      "**\"Graph Neural Networks for Natural Language Processing: A Survey\"** by Yao Ma, et al"
     ],
     "date": [
       "2021"
@@ -107,48 +78,29 @@
       }
     ],
     "title": [
-      "A survey focusing on the application of GNNs in various NLP tasks"
+      "A survey focusing on the application of GNNs in NLP, covering graph construction and downstream tasks"
     ],
     "type": null
   },
   {
     "citation-number": [
-      "5."
+      "4."
     ],
     "title": [
-      "**\"Graph Neural Networks for Text Representation\"**"
+      "**\"Graph Convolutional Networks for Text Classification\"** by Yao"
     ],
     "editor": [
       {
-        "family": "Zhang",
-        "given": "Meng"
+        "family": "L.",
+        "given": "Mao"
       },
       {
-        "others": true
-      }
-    ],
-    "date": [
-      "2020"
-    ],
-    "type": null
-  },
-  {
-    "author": [
+        "family": "C.",
+        "given": "Luo"
+      },
       {
-        "literal": "-"
+        "given": "Y."
       }
-    ],
-    "title": [
-      "Discusses methods for constructing text graphs and using GNNs for text representation"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "6."
-    ],
-    "title": [
-      "**\"Heterogeneous Graph Neural Network\"** - Zhang, Chuxu, et al"
     ],
     "date": [
       "2019"
@@ -162,19 +114,19 @@
       }
     ],
     "title": [
-      "Introduces heterogeneous GNNs and their applications, including NLP tasks"
+      "Explores the use of GCNs for text classification and methods for constructing text graphs"
     ],
     "type": null
   },
   {
     "citation-number": [
-      "7."
+      "5."
     ],
     "title": [
-      "**\"Graph Neural Networks for Natural Language Processing\"** - Bastings, Jasmijn, et al"
+      "**\"Heterogeneous Graph Neural Network\"** by Hongwei Wang"
     ],
     "date": [
-      "2017"
+      "2019"
     ],
     "type": null
   },
@@ -185,7 +137,53 @@
       }
     ],
     "title": [
-      "Early work on applying GNNs to NLP, focusing on dependency parsing"
+      "Introduces heterogeneous GNNs and their application in NLP tasks"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "title": [
+      "**\"Graph Attention Networks\"** by Petar Veličković, et al"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Proposes the Graph Attention Network (GAT) model and its application to NLP tasks"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "title": [
+      "**\"BERT-enhanced Relational Inference for Question Answering\"** by Duyu Tang, et al"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Combines BERT with relational graph networks for question answering tasks"
     ],
     "type": null
   },
@@ -194,10 +192,10 @@
       "8."
     ],
     "title": [
-      "**\"Graph-based Neural Networks for Natural Language Processing\"** - Kipf"
+      "**\"Graph-based Neural Networks for Natural Language Processing\"** by Thomas Kipf"
     ],
     "publisher": [
-      "Thomas N., and Max Welling"
+      "Max Welling"
     ],
     "date": [
       "2017"
@@ -211,7 +209,7 @@
       }
     ],
     "title": [
-      "Discusses the foundational concepts of GCNs and their application to NLP"
+      "Discusses GCNs and their application to NLP, including graph construction techniques"
     ],
     "type": null
   },
@@ -220,10 +218,23 @@
       "9."
     ],
     "title": [
-      "**\"Graph Attention Networks\"** - Veličković, Petar, et al"
+      "**\"Graph Neural Networks for Text Representation\"** by Yao"
+    ],
+    "editor": [
+      {
+        "family": "L.",
+        "given": "Mao"
+      },
+      {
+        "family": "C.",
+        "given": "Luo"
+      },
+      {
+        "given": "Y."
+      }
     ],
     "date": [
-      "2018"
+      "2019"
     ],
     "type": null
   },
@@ -234,7 +245,7 @@
       }
     ],
     "title": [
-      "Introduces Graph Attention Networks (GATs) and their potential applications in NLP"
+      "Focuses on text representation using GNNs and methods for constructing text graphs"
     ],
     "type": null
   },
@@ -243,19 +254,10 @@
       "10."
     ],
     "title": [
-      "**\"Graph Neural Networks for Text Processing\"**"
-    ],
-    "editor": [
-      {
-        "family": "Zhang",
-        "given": "Yu"
-      },
-      {
-        "others": true
-      }
+      "**\"Graph-to-Sequence Learning using Gated Graph Neural Networks\"** by Yujia Li, et al"
     ],
     "date": [
-      "2020"
+      "2016"
     ],
     "type": null
   },
@@ -266,7 +268,7 @@
       }
     ],
     "title": [
-      "Reviews various methods for constructing graphs from text and using GNNs for text processing"
+      "Explores graph-to-sequence models for NLP tasks like text generation"
     ],
     "type": null
   },
@@ -275,10 +277,10 @@
       "11."
     ],
     "title": [
-      "**\"Graph Neural Networks for Document Retrieval\"** - Liu, Zhiyuan, et al"
+      "**\"Graph Neural Networks for Named Entity Recognition\"** by Linmei Hu, et al"
     ],
     "date": [
-      "2019"
+      "2020"
     ],
     "type": null
   },
@@ -289,7 +291,7 @@
       }
     ],
     "title": [
-      "Explores the use of GNNs for document retrieval tasks by constructing document graphs"
+      "Discusses the application of GNNs for named entity recognition and graph construction methods"
     ],
     "type": null
   },
@@ -298,7 +300,122 @@
       "12."
     ],
     "title": [
-      "**\"Graph Neural Networks for Named Entity Recognition\"** - Luan, Yi, et al"
+      "**\"Graph-based Neural Sentence Ordering\"** by Zhe Gan, et al"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Proposes a graph-based approach for sentence ordering in text"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "title": [
+      "**\"Interpretable Multi-Head Graph Attention Networks for Relation Extraction\"** by Shuang Zeng, et al"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Uses multi-head graph attention networks for relation extraction tasks"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "title": [
+      "**\"Graph Convolutional Networks for Text Classification with Graph Pooling\"** by Jian Tang, et al"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Introduces graph pooling techniques for text classification using GCNs"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "title": [
+      "**\"Graph Neural Networks for Document-Level Sentiment Classification\"** by Peng Qi, et al"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Applies GNNs to document-level sentiment classification and discusses graph construction"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "title": [
+      "**\"Graph-based Neural Networks for Cross-Lingual Word Embeddings\"** by Xiang Zhang, et al"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Discusses the use of GNNs for cross-lingual word embeddings and graph construction techniques"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "title": [
+      "**\"Graph Neural Networks for Text Summarization\"** by Yang Liu, et al"
     ],
     "date": [
       "2019"
@@ -312,21 +429,44 @@
       }
     ],
     "title": [
-      "Discusses constructing entity graphs and using GNNs for named entity recognition"
+      "Explores the application of GNNs for text summarization tasks"
     ],
     "type": null
   },
   {
     "citation-number": [
-      "13."
+      "18."
     ],
     "title": [
-      "**\"Graph Neural Networks for Relation Extraction\"**"
+      "**\"Graph Neural Networks for Coreference Resolution\"** by Kevin Clark, et al"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Discusses the use of GNNs for coreference resolution in NLP"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "title": [
+      "**\"Graph Neural Networks for Knowledge Graph Completion\"** by William"
     ],
     "editor": [
       {
-        "family": "Zhang",
-        "given": "Shuai"
+        "family": "Hamilton",
+        "given": "L."
       },
       {
         "others": true
@@ -344,145 +484,7 @@
       }
     ],
     "title": [
-      "Focuses on using GNNs for relation extraction by constructing relation graphs"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "14."
-    ],
-    "title": [
-      "**\"Graph Neural Networks for Sentiment Analysis\"** - Huang, Binxuan, et al"
-    ],
-    "date": [
-      "2019"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Explores the use of GNNs for sentiment analysis by constructing sentiment graphs"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "15."
-    ],
-    "title": [
-      "**\"Graph Neural Networks for Machine Translation\"** - Bastings, Jasmijn, et al"
-    ],
-    "date": [
-      "2017"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Discusses the application of GNNs in machine translation tasks"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "16."
-    ],
-    "title": [
-      "**\"Graph Neural Networks for Question Answering\"** - De Cao, Nicola, et al"
-    ],
-    "date": [
-      "2019"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Explores the use of GNNs for question answering by constructing question-answer graphs"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "17."
-    ],
-    "title": [
-      "**\"Graph Neural Networks for Text Summarization\"** - Xu, Yang, et al"
-    ],
-    "date": [
-      "2020"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Discusses constructing summary graphs and using GNNs for text summarization"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "18."
-    ],
-    "title": [
-      "**\"Graph Neural Networks for Text Generation\"** - Guo, Zhijiang, et al"
-    ],
-    "date": [
-      "2020"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Explores the use of GNNs for text generation tasks by constructing generation graphs"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "19."
-    ],
-    "title": [
-      "**\"Graph Neural Networks for Textual Entailment\"** - Chen, Qian, et al"
-    ],
-    "date": [
-      "2017"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Discusses using GNNs for textual entailment by constructing entailment graphs"
+      "Applies GNNs to knowledge graph completion tasks and discusses graph construction"
     ],
     "type": null
   },
@@ -491,18 +493,10 @@
       "20."
     ],
     "title": [
-      "**\"Graph Neural Networks for Coreference Resolution\"**"
-    ],
-    "location": [
-      "Lee, Kenton"
-    ],
-    "author": [
-      {
-        "others": true
-      }
+      "**\"Graph Neural Networks for Machine Translation\"** by Duyu Tang, et al"
     ],
     "date": [
-      "2018"
+      "2020"
     ],
     "type": null
   },
@@ -513,13 +507,13 @@
       }
     ],
     "title": [
-      "Focuses on using GNNs for coreference resolution by constructing coreference graphs"
+      "Explores the use of GNNs for machine translation tasks"
     ],
     "type": null
   },
   {
     "title": [
-      "These articles provide a solid foundation for understanding how to construct graphs from text and the application of GNNs in various NLP downstream tasks"
+      "These articles provide a comprehensive overview of how GNNs are applied in NLP, focusing on graph construction from text and various downstream tasks"
     ],
     "type": null
   }

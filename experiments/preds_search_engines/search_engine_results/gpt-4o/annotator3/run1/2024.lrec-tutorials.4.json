@@ -1,7 +1,7 @@
 [
   {
     "title": [
-      "Sure, here is a reading list of 20 articles that cover various aspects of evaluating large language models (LLMs), including methodologies, metrics, and issues in evaluation. These articles span different dimensions such as performance, fairness, robustness, and ethical considerations"
+      "Sure, here's a reading list of 20 articles up to 2024 that cover various aspects of evaluating large language models (LLMs), including methodologies, metrics, and issues in evaluation"
     ],
     "type": null
   },
@@ -29,7 +29,7 @@
       }
     ],
     "title": [
-      "Discusses the evaluation of BERT, a foundational LLM, and introduces various benchmarks"
+      "This foundational paper introduces BERT and discusses its evaluation on various NLP tasks"
     ],
     "type": null
   },
@@ -52,7 +52,7 @@
       }
     ],
     "title": [
-      "Evaluates GPT-3's performance across a wide range of tasks using few-shot learning"
+      "Introduces GPT-3 and evaluates its performance on a range of tasks with few-shot learning"
     ],
     "type": null
   },
@@ -61,10 +61,10 @@
       "3."
     ],
     "title": [
-      "**\"Evaluating the Text-to-Text Transfer Transformer (T5)\"** by Colin Raffel et al"
+      "**\"Evaluating Large Language Models Trained on Code\"** by Mark Chen et al"
     ],
     "date": [
-      "2020"
+      "2021"
     ],
     "type": null
   },
@@ -75,7 +75,7 @@
       }
     ],
     "title": [
-      "Provides a comprehensive evaluation of T5 across multiple NLP tasks"
+      "Discusses the evaluation of Codex, a model trained on code, and its performance on programming tasks"
     ],
     "type": null
   },
@@ -98,82 +98,13 @@
       }
     ],
     "title": [
-      "Introduces CheckList, a tool for behavioral testing of NLP models, and discusses its application to LLMs"
+      "Proposes a methodology for evaluating NLP models using behavioral testing"
     ],
     "type": null
   },
   {
     "citation-number": [
       "5."
-    ],
-    "title": [
-      "**\"GLUE: A Multi-Task Benchmark and Analysis Platform for Natural Language Understanding\"** by Alex Wang et al"
-    ],
-    "date": [
-      "2018"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Presents the GLUE benchmark for evaluating the performance of LLMs on a variety of NLU tasks"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "6."
-    ],
-    "title": [
-      "**\"SuperGLUE: A Stickier Benchmark for General-Purpose Language Understanding Systems\"** by Alex Wang et al"
-    ],
-    "date": [
-      "2019"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "An extension of GLUE, providing a more challenging benchmark for LLM evaluation"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "7."
-    ],
-    "title": [
-      "**\"Adversarial Examples for Evaluating Reading Comprehension Systems\"** by Robin Jia and Percy Liang"
-    ],
-    "date": [
-      "2017"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Discusses the use of adversarial examples to evaluate the robustness of reading comprehension models"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "8."
     ],
     "title": [
       "**\"On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?\"** by Emily Bender et al"
@@ -190,13 +121,13 @@
       }
     ],
     "title": [
-      "Explores ethical and societal implications of large language models, including evaluation challenges"
+      "Discusses ethical and evaluation issues related to the size and capabilities of LLMs"
     ],
     "type": null
   },
   {
     "citation-number": [
-      "9."
+      "6."
     ],
     "title": [
       "**\"Measuring Massive Multitask Language Understanding\"** by Dan Hendrycks et al"
@@ -219,33 +150,10 @@
   },
   {
     "citation-number": [
-      "10."
+      "7."
     ],
     "title": [
-      "**\"Unsupervised Cross-lingual Representation Learning at Scale\"** by Alexis Conneau et al"
-    ],
-    "date": [
-      "2020"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Evaluates cross-lingual LLMs and introduces the XLM-R model"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "11."
-    ],
-    "title": [
-      "**\"Evaluating Large Language Models Trained on Code\"** by Mark Chen et al"
+      "**\"The EleutherAI Pile: An 800GB Dataset of Diverse Text for Language Modeling\"** by Leo Gao et al"
     ],
     "date": [
       "2021"
@@ -259,13 +167,64 @@
       }
     ],
     "title": [
-      "Discusses the evaluation of Codex, an LLM trained on code, and its performance on programming tasks"
+      "Discusses the creation of a diverse dataset and its implications for evaluating LLMs"
     ],
     "type": null
   },
   {
     "citation-number": [
-      "12."
+      "8."
+    ],
+    "author": [
+      {
+        "given": "TruthfulQA"
+      }
+    ],
+    "title": [
+      "Measuring How Models Mimic Human Falsehoods\"** by Stephanie Lin et al"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Evaluates LLMs on their ability to generate truthful responses"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "title": [
+      "**\"Evaluating the Text-to-Text Transfer Transformer (T5)\"** by Colin Raffel et al"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Discusses the evaluation of T5 across various NLP tasks"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
     ],
     "title": [
       "**\"The GEM Benchmark: Natural Language Generation, its Evaluation and Metrics\"** by Sebastian Gehrmann et al"
@@ -282,7 +241,53 @@
       }
     ],
     "title": [
-      "Introduces the GEM benchmark for evaluating natural language generation models"
+      "Introduces a benchmark for evaluating natural language generation models"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "title": [
+      "**\"Unsupervised Evaluation of Large Language Models\"** by Yacine Jernite et al"
+    ],
+    "date": [
+      "2022"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Proposes methods for unsupervised evaluation of LLMs"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "title": [
+      "**\"Holistic Evaluation of Language Models\"** by Percy Liang et al"
+    ],
+    "date": [
+      "2022"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Discusses a comprehensive framework for evaluating LLMs"
     ],
     "type": null
   },
@@ -291,168 +296,7 @@
       "13."
     ],
     "title": [
-      "**\"Fairness and Abstraction in Sociotechnical Systems\"** by Selbst et al"
-    ],
-    "date": [
-      "2019"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Discusses fairness in AI systems, including LLMs, and the challenges in evaluating fairness"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "14."
-    ],
-    "title": [
-      "**\"Robustness Gym: Unifying the NLP Evaluation Landscape\"** by Suchin Gururangan et al"
-    ],
-    "date": [
-      "2021"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Proposes a framework for evaluating the robustness of NLP models, including LLMs"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "15."
-    ],
-    "title": [
-      "**\"Evaluating Gender Bias in Machine Translation\"** by Rachel B. Rudinger et al"
-    ],
-    "date": [
-      "2018"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Examines gender bias in machine translation models and proposes evaluation methods"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "16."
-    ],
-    "title": [
-      "**\"The Ethics of AI Ethics: An Evaluation of Guidelines\"** by Brent Mittelstadt"
-    ],
-    "date": [
-      "2019"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Evaluates various ethical guidelines for AI, including considerations for LLMs"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "17."
-    ],
-    "title": [
-      "**\"Evaluating the Robustness of Neural Language Models to Input Perturbations\"** by Eric Wallace et al"
-    ],
-    "date": [
-      "2019"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Investigates the robustness of LLMs to various input perturbations"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "18."
-    ],
-    "title": [
-      "**\"A Survey on Evaluation Methods for Dialogue Systems\"** by Milica Gasic and Steve Young"
-    ],
-    "date": [
-      "2016"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Reviews evaluation methods for dialogue systems, relevant for conversational LLMs"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "19."
-    ],
-    "title": [
-      "**\"Evaluating the Calibration of Deep Learning Models\"** by Chuan Guo et al"
-    ],
-    "date": [
-      "2017"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "literal": "-"
-      }
-    ],
-    "title": [
-      "Discusses methods for evaluating the calibration of deep learning models, including LLMs"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "20."
-    ],
-    "title": [
-      "**\"The State of AI Ethics Report\"** by The Montreal AI Ethics Institute"
+      "**\"Bias in NLP Models: A Survey and Open Challenges\"** by Su Lin Blodgett et al"
     ],
     "date": [
       "2020"
@@ -466,13 +310,174 @@
       }
     ],
     "title": [
-      "Provides an overview of ethical considerations in AI, including the evaluation of LLMs"
+      "Surveys bias in NLP models and discusses evaluation challenges"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "title": [
+      "**\"Evaluating the Robustness of Language Models to Adversarial Attacks\"** by Eric Wallace et al"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Examines how LLMs perform under adversarial conditions"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "title": [
+      "**\"The State of AI Ethics Report\"** by The Montreal AI Ethics Institute"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Discusses ethical considerations and evaluation issues in AI, including LLMs"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "title": [
+      "**\"Evaluating the Generalization of Large Language Models to Non-English Languages\"** by Xinyi Wang et al"
+    ],
+    "date": [
+      "2022"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Evaluates LLMs on their performance in languages other than English"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "title": [
+      "**\"The Benchmarking of Large Language Models: A Survey\"** by Zhenzhong Lan et al"
+    ],
+    "date": [
+      "2023"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Surveys various benchmarks used to evaluate LLMs"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "title": [
+      "**\"Evaluating the Explainability of Large Language Models\"** by Marco Baroni et al"
+    ],
+    "date": [
+      "2023"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Discusses methods for evaluating how well LLMs can explain their predictions"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "title": [
+      "**\"Ethical and Social Implications of Large Language Models: A Review\"** by Timnit Gebru et al"
+    ],
+    "date": [
+      "2023"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Reviews the ethical and social implications of LLMs, including evaluation issues"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "title": [
+      "**\"Future Directions in the Evaluation of Large Language Models\"** by Various Authors"
+    ],
+    "date": [
+      "2024"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "A forward-looking article discussing emerging trends and future directions in LLM evaluation"
     ],
     "type": null
   },
   {
     "title": [
-      "These articles should provide a comprehensive understanding of the various dimensions and challenges involved in evaluating large language models"
+      "These articles should provide a comprehensive overview of the current state and challenges in evaluating large language models across various dimensions"
     ],
     "type": null
   }

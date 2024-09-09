@@ -2,14 +2,11 @@
   {
     "author": [
       {
-        "given": "Sure!"
+        "given": "Certainly!"
       }
     ],
     "title": [
-      "Here is a list of 20 notable articles on non-autoregressive"
-    ],
-    "note": [
-      "NAR) sequence generation published before 2023:"
+      "Non-autoregressive (NAR) sequence generation is an exciting area of research, especially in natural language processing and machine translation. Here is a list of 20 influential articles up to 2022 on this topic"
     ],
     "type": null
   },
@@ -42,11 +39,8 @@
     "date": [
       "2018"
     ],
-    "title": [
-      "Non-Autoregressive Neural Machine Translation"
-    ],
     "container-title": [
-      "*Proceedings of the International Conference on Learning Representations (ICLR)*"
+      "Non-Autoregressive Neural Machine Translation. *International Conference on Learning Representations (ICLR)*"
     ],
     "type": "paper-conference"
   },
@@ -71,11 +65,8 @@
     "date": [
       "2018"
     ],
-    "title": [
-      "Deterministic Non-Autoregressive Neural Sequence Modeling by Iterative Refinement"
-    ],
     "container-title": [
-      "*Proceedings of the Conference on Empirical Methods in Natural Language Processing (EMNLP)*"
+      "Deterministic Non-Autoregressive Neural Sequence Modeling by Iterative Refinement. *Conference on Empirical Methods in Natural Language Processing (EMNLP)*"
     ],
     "type": "paper-conference"
   },
@@ -123,7 +114,7 @@
       "Fast Decoding in Sequence Models Using Discrete Latent Variables"
     ],
     "container-title": [
-      "*Proceedings of the International Conference on Machine Learning (ICML)*"
+      "*International Conference on Machine Learning (ICML)*"
     ],
     "type": "paper-conference"
   },
@@ -152,11 +143,8 @@
     "date": [
       "2019"
     ],
-    "title": [
-      "Mask-Predict: Parallel Decoding of Conditional Masked Language Models"
-    ],
     "container-title": [
-      "*Proceedings of the Conference on Empirical Methods in Natural Language Processing (EMNLP)*"
+      "Mask-Predict: Parallel Decoding of Conditional Masked Language Models. *Conference on Empirical Methods in Natural Language Processing (EMNLP)*"
     ],
     "type": "paper-conference"
   },
@@ -189,7 +177,7 @@
       "Insertion Transformer: Flexible Sequence Generation via Insertion Operations"
     ],
     "container-title": [
-      "*Proceedings of the International Conference on Machine Learning (ICML)*"
+      "*International Conference on Machine Learning (ICML)*"
     ],
     "type": "paper-conference"
   },
@@ -199,26 +187,35 @@
     ],
     "author": [
       {
-        "family": "Shu",
-        "given": "R."
+        "family": "Guo",
+        "given": "H."
       },
       {
-        "family": "Xie",
-        "given": "S.M."
+        "family": "Tan",
+        "given": "X."
       },
       {
-        "family": "Ermon",
-        "given": "S."
+        "family": "He",
+        "given": "D."
+      },
+      {
+        "family": "Qin",
+        "given": "T."
+      },
+      {
+        "family": "Xu",
+        "given": "L."
+      },
+      {
+        "family": "Liu",
+        "given": "T.Y."
       }
     ],
     "date": [
-      "2020"
-    ],
-    "title": [
-      "Latent-Variable Non-Autoregressive Neural Machine Translation with Deterministic Inference Using a Delta Posterior"
+      "2019"
     ],
     "container-title": [
-      "*Proceedings of the AAAI Conference on Artificial Intelligence (AAAI)*"
+      "Non-Autoregressive Neural Machine Translation with Enhanced Decoder Input. *AAAI Conference on Artificial Intelligence (AAAI)*"
     ],
     "type": "paper-conference"
   },
@@ -236,12 +233,8 @@
         "given": "S."
       },
       {
-        "family": "Zhang",
-        "given": "Y."
-      },
-      {
-        "family": "Zhou",
-        "given": "X."
+        "family": "Xiong",
+        "given": "D."
       }
     ],
     "date": [
@@ -251,7 +244,7 @@
       "Fast Structured Decoding for Sequence Models"
     ],
     "container-title": [
-      "*Proceedings of the Conference on Empirical Methods in Natural Language Processing (EMNLP)*"
+      "*Conference on Empirical Methods in Natural Language Processing (EMNLP)*"
     ],
     "type": "paper-conference"
   },
@@ -261,28 +254,32 @@
     ],
     "author": [
       {
-        "family": "Gu",
-        "given": "J."
-      },
-      {
         "family": "Wang",
-        "given": "C."
+        "given": "Z."
       },
       {
-        "family": "Zhao",
-        "given": "J."
+        "family": "Tu",
+        "given": "Z."
+      },
+      {
+        "family": "Way",
+        "given": "A."
+      },
+      {
+        "family": "Liu",
+        "given": "Q."
       }
     ],
     "date": [
       "2019"
     ],
     "title": [
-      "Levenshtein Transformer"
+      "Learning to Jointly Translate and Predict Dropped Pronouns with a Shared Reconstruction Mechanism"
     ],
     "container-title": [
-      "*Advances in Neural Information Processing Systems (NeurIPS)*"
+      "*Conference on Empirical Methods in Natural Language Processing (EMNLP)*"
     ],
-    "type": "chapter"
+    "type": "paper-conference"
   },
   {
     "citation-number": [
@@ -290,32 +287,130 @@
     ],
     "author": [
       {
-        "family": "Saharia",
-        "given": "C."
+        "family": "Qian",
+        "given": "Q."
       },
       {
-        "family": "Jain",
-        "given": "M."
+        "family": "Bian",
+        "given": "J."
       },
       {
-        "family": "Sordoni",
-        "given": "A."
+        "family": "Zhang",
+        "given": "B."
+      },
+      {
+        "family": "Liu",
+        "given": "T."
       }
     ],
     "date": [
       "2020"
     ],
-    "title": [
-      "Non-Autoregressive Machine Translation with Latent Alignments"
-    ],
     "container-title": [
-      "*Proceedings of the Conference on Empirical Methods in Natural Language Processing (EMNLP)*"
+      "Glancing Transformer for Non-Autoregressive Neural Machine Translation. *Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics (ACL)*"
     ],
     "type": "paper-conference"
   },
   {
     "citation-number": [
       "10."
+    ],
+    "author": [
+      {
+        "family": "Saharia",
+        "given": "C."
+      },
+      {
+        "family": "Chan",
+        "given": "W."
+      },
+      {
+        "family": "Saxena",
+        "given": "S."
+      },
+      {
+        "family": "Li",
+        "given": "L."
+      },
+      {
+        "family": "Norouzi",
+        "given": "M."
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "container-title": [
+      "Non-Autoregressive Machine Translation with Latent Alignments. *Conference on Empirical Methods in Natural Language Processing (EMNLP)*"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "author": [
+      {
+        "family": "Ghazvininejad",
+        "given": "M."
+      },
+      {
+        "family": "Mehta",
+        "given": "H."
+      },
+      {
+        "family": "Levy",
+        "given": "O."
+      },
+      {
+        "family": "Zettlemoyer",
+        "given": "L."
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "title": [
+      "Semi-Autoregressive Training Improves Mask-Predict Decoding"
+    ],
+    "container-title": [
+      "*Conference on Empirical Methods in Natural Language Processing (EMNLP)*"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "author": [
+      {
+        "family": "Ran",
+        "given": "Q."
+      },
+      {
+        "family": "Wang",
+        "given": "Z."
+      },
+      {
+        "family": "Tu",
+        "given": "Z."
+      },
+      {
+        "family": "Way",
+        "given": "A."
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "container-title": [
+      "Learning to Recover from Multi-Modality Errors for Non-Autoregressive Neural Machine Translation. *Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics (ACL)*"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "13."
     ],
     "author": [
       {
@@ -338,102 +433,8 @@
     "date": [
       "2020"
     ],
-    "title": [
-      "Non-Autoregressive Machine Translation with Disentangled Context Transformer"
-    ],
     "container-title": [
-      "*Proceedings of the International Conference on Machine Learning (ICML)*"
-    ],
-    "type": "paper-conference"
-  },
-  {
-    "citation-number": [
-      "11."
-    ],
-    "author": [
-      {
-        "family": "Ran",
-        "given": "Q."
-      },
-      {
-        "family": "Wang",
-        "given": "Y."
-      },
-      {
-        "family": "Zhang",
-        "given": "Y."
-      }
-    ],
-    "date": [
-      "2020"
-    ],
-    "title": [
-      "Learning to Recover from Multi-Modality Errors for Non-Autoregressive Neural Machine Translation"
-    ],
-    "container-title": [
-      "*Proceedings of the Conference on Empirical Methods in Natural Language Processing (EMNLP)*"
-    ],
-    "type": "paper-conference"
-  },
-  {
-    "citation-number": [
-      "12."
-    ],
-    "author": [
-      {
-        "family": "Qian",
-        "given": "Y."
-      },
-      {
-        "family": "Zhou",
-        "given": "H."
-      },
-      {
-        "family": "Li",
-        "given": "L."
-      },
-      {
-        "family": "Zhang",
-        "given": "W."
-      }
-    ],
-    "date": [
-      "2021"
-    ],
-    "title": [
-      "Glancing Transformer for Non-Autoregressive Neural Machine Translation"
-    ],
-    "container-title": [
-      "*Proceedings of the Annual Meeting of the Association for Computational Linguistics (ACL)*"
-    ],
-    "type": "paper-conference"
-  },
-  {
-    "citation-number": [
-      "13."
-    ],
-    "author": [
-      {
-        "family": "Saharia",
-        "given": "C."
-      },
-      {
-        "family": "Jain",
-        "given": "M."
-      },
-      {
-        "family": "Sordoni",
-        "given": "A."
-      }
-    ],
-    "date": [
-      "2020"
-    ],
-    "title": [
-      "Non-Autoregressive Neural Machine Translation with Generative Adversarial Learning"
-    ],
-    "container-title": [
-      "*Proceedings of the Conference on Empirical Methods in Natural Language Processing (EMNLP)*"
+      "Non-Autoregressive Machine Translation with Disentangled Context Transformer. *Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics (ACL)*"
     ],
     "type": "paper-conference"
   },
@@ -443,38 +444,30 @@
     ],
     "author": [
       {
-        "family": "Guo",
+        "family": "Li",
         "given": "J."
       },
       {
-        "family": "Tan",
-        "given": "X."
+        "family": "Ren",
+        "given": "S."
       },
       {
-        "family": "He",
-        "given": "D."
+        "family": "Huang",
+        "given": "S."
       },
       {
-        "family": "Qin",
-        "given": "T."
-      },
-      {
-        "family": "Xu",
-        "given": "L."
-      },
-      {
-        "family": "Liu",
-        "given": "T.Y."
+        "family": "Chen",
+        "given": "J."
       }
     ],
     "date": [
       "2020"
     ],
     "title": [
-      "Fine-Tuning by Curriculum Learning for Non-Autoregressive Neural Machine Translation"
+      "Task-Aware Monotonic Attention for Non-Autoregressive Neural Sequence Generation"
     ],
     "container-title": [
-      "*Proceedings of the AAAI Conference on Artificial Intelligence (AAAI)*"
+      "*Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics (ACL)*"
     ],
     "type": "paper-conference"
   },
@@ -484,26 +477,31 @@
     ],
     "author": [
       {
-        "family": "Ran",
-        "given": "Q."
+        "family": "Saharia",
+        "given": "C."
       },
       {
-        "family": "Wang",
-        "given": "Y."
+        "family": "Chan",
+        "given": "W."
       },
       {
-        "family": "Zhang",
-        "given": "Y."
+        "family": "Saxena",
+        "given": "S."
+      },
+      {
+        "family": "Li",
+        "given": "L."
+      },
+      {
+        "family": "Norouzi",
+        "given": "M."
       }
     ],
     "date": [
-      "2021"
-    ],
-    "title": [
-      "Learning to Recover from Multi-Modality Errors for Non-Autoregressive Neural Machine Translation"
+      "2020"
     ],
     "container-title": [
-      "*Proceedings of the Conference on Empirical Methods in Natural Language Processing (EMNLP)*"
+      "Non-Autoregressive Machine Translation with Latent Alignments. *Conference on Empirical Methods in Natural Language Processing (EMNLP)*"
     ],
     "type": "paper-conference"
   },
@@ -513,26 +511,23 @@
     ],
     "author": [
       {
-        "family": "Li",
-        "given": "J."
+        "family": "Ghazvininejad",
+        "given": "M."
       },
       {
-        "family": "Zhang",
-        "given": "R."
+        "family": "Chen",
+        "given": "D."
       },
       {
-        "family": "Liu",
-        "given": "Y."
+        "family": "Zettlemoyer",
+        "given": "L."
       }
     ],
     "date": [
-      "2021"
-    ],
-    "title": [
-      "Improving Non-Autoregressive Translation Models Without Distillation"
+      "2020"
     ],
     "container-title": [
-      "*Proceedings of the Annual Meeting of the Association for Computational Linguistics (ACL)*"
+      "Aligned Cross Entropy for Non-Autoregressive Machine Translation. *Proceedings of the 37th International Conference on Machine Learning (ICML)*"
     ],
     "type": "paper-conference"
   },
@@ -542,26 +537,30 @@
     ],
     "author": [
       {
-        "family": "Bao",
-        "given": "Y."
+        "family": "Wang",
+        "given": "Z."
       },
       {
-        "family": "Huang",
-        "given": "S."
+        "family": "Tu",
+        "given": "Z."
       },
       {
-        "family": "Zhang",
-        "given": "J."
+        "family": "Way",
+        "given": "A."
+      },
+      {
+        "family": "Liu",
+        "given": "Q."
       }
     ],
     "date": [
-      "2021"
+      "2020"
     ],
     "title": [
-      "Non-Autoregressive Translation by Learning Target Categorical Codes"
+      "Learning to Jointly Translate and Predict Dropped Pronouns with a Shared Reconstruction Mechanism"
     ],
     "container-title": [
-      "*Proceedings of the Annual Meeting of the Association for Computational Linguistics (ACL)*"
+      "*Conference on Empirical Methods in Natural Language Processing (EMNLP)*"
     ],
     "type": "paper-conference"
   },
@@ -571,37 +570,8 @@
     ],
     "author": [
       {
-        "family": "Ran",
-        "given": "Q."
-      },
-      {
-        "family": "Wang",
-        "given": "Y."
-      },
-      {
-        "family": "Zhang",
-        "given": "Y."
-      }
-    ],
-    "date": [
-      "2021"
-    ],
-    "title": [
-      "Learning to Recover from Multi-Modality Errors for Non-Autoregressive Neural Machine Translation"
-    ],
-    "container-title": [
-      "*Proceedings of the Conference on Empirical Methods in Natural Language Processing (EMNLP)*"
-    ],
-    "type": "paper-conference"
-  },
-  {
-    "citation-number": [
-      "19."
-    ],
-    "author": [
-      {
         "family": "Guo",
-        "given": "J."
+        "given": "H."
       },
       {
         "family": "Tan",
@@ -627,11 +597,38 @@
     "date": [
       "2020"
     ],
-    "title": [
-      "Fine-Tuning by Curriculum Learning for Non-Autoregressive Neural Machine Translation"
+    "container-title": [
+      "Jointly Masked Sequence-to-Sequence Model for Non-Autoregressive Neural Machine Translation. *Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics (ACL)*"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "author": [
+      {
+        "family": "Ran",
+        "given": "Q."
+      },
+      {
+        "family": "Wang",
+        "given": "Z."
+      },
+      {
+        "family": "Tu",
+        "given": "Z."
+      },
+      {
+        "family": "Way",
+        "given": "A."
+      }
+    ],
+    "date": [
+      "2021"
     ],
     "container-title": [
-      "*Proceedings of the AAAI Conference on Artificial Intelligence (AAAI)*"
+      "Guiding Non-Autoregressive Neural Machine Translation Decoding with Reordering Information. *Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics (ACL)*"
     ],
     "type": "paper-conference"
   },
@@ -641,35 +638,40 @@
     ],
     "author": [
       {
-        "family": "Bao",
-        "given": "Y."
+        "family": "Saharia",
+        "given": "C."
       },
       {
-        "family": "Huang",
+        "family": "Chan",
+        "given": "W."
+      },
+      {
+        "family": "Saxena",
         "given": "S."
       },
       {
-        "family": "Zhang",
-        "given": "J."
+        "family": "Li",
+        "given": "L."
+      },
+      {
+        "family": "Norouzi",
+        "given": "M."
       }
     ],
     "date": [
       "2021"
     ],
-    "title": [
-      "Non-Autoregressive Translation by Learning Target Categorical Codes"
-    ],
     "container-title": [
-      "*Proceedings of the Annual Meeting of the Association for Computational Linguistics (ACL)*"
+      "Non-Autoregressive Machine Translation with Latent Alignments. *Conference on Empirical Methods in Natural Language Processing (EMNLP)*"
     ],
     "type": "paper-conference"
   },
   {
     "title": [
-      "These articles cover a range of approaches and advancements in non-autoregressive sequence generation, providing a comprehensive overview of the field up to"
+      "These articles cover a range of approaches and innovations in non-autoregressive sequence generation, providing a comprehensive overview of the field up to"
     ],
     "date": [
-      "2023"
+      "2022"
     ],
     "type": null
   }

@@ -2,11 +2,11 @@
   {
     "author": [
       {
-        "given": "Sure!"
+        "given": "Certainly!"
       }
     ],
     "title": [
-      "Here is a list of 20 influential articles published before 2023 that discuss the usage of pre-trained language models (PLMs) in scenarios involving data scarcity and parameter efficiency"
+      "Here's a curated list of 20 influential articles up to 2022 that explore the usage of pre-trained language models (PLMs) in downstream tasks, particularly focusing on scenarios involving data scarcity and parameter efficiency"
     ],
     "type": null
   },
@@ -317,55 +317,6 @@
     ],
     "author": [
       {
-        "family": "Houlsby",
-        "given": "N."
-      },
-      {
-        "family": "Giurgiu",
-        "given": "A."
-      },
-      {
-        "family": "Jastrzebski",
-        "given": "S."
-      },
-      {
-        "family": "Morrone",
-        "given": "B."
-      },
-      {
-        "family": "Laroussilhe",
-        "given": "Q.",
-        "particle": "de"
-      },
-      {
-        "family": "Gesmundo",
-        "given": "A."
-      },
-      {
-        "family": "Gelly",
-        "given": "S."
-      },
-      {
-        "others": true
-      }
-    ],
-    "date": [
-      "2019"
-    ],
-    "title": [
-      "Parameter-Efficient Transfer Learning for NLP"
-    ],
-    "container-title": [
-      "*ICML 2019.*"
-    ],
-    "type": "chapter"
-  },
-  {
-    "citation-number": [
-      "10."
-    ],
-    "author": [
-      {
         "family": "Raffel",
         "given": "C."
       },
@@ -398,113 +349,51 @@
       }
     ],
     "date": [
-      "2020",
       "2020"
     ],
     "title": [
       "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer"
     ],
-    "type": "article-journal",
     "container-title": [
-      "*JMLR"
-    ]
+      "*JMLR.*"
+    ],
+    "type": "chapter"
   },
   {
     "citation-number": [
-      "11."
+      "10."
     ],
     "author": [
       {
-        "family": "He",
-        "given": "J."
+        "family": "Brown",
+        "given": "T.B."
       },
       {
-        "family": "Liu",
+        "family": "Mann",
+        "given": "B."
+      },
+      {
+        "family": "Ryder",
+        "given": "N."
+      },
+      {
+        "family": "Subbiah",
         "given": "M."
       },
       {
-        "family": "Liu",
-        "given": "Y."
-      }
-    ],
-    "date": [
-      "2021",
-      "2021"
-    ],
-    "title": [
-      "DeBERTa: Decoding-enhanced BERT with Disentangled Attention"
-    ],
-    "type": "article-journal",
-    "container-title": [
-      "*ICLR"
-    ]
-  },
-  {
-    "citation-number": [
-      "12."
-    ],
-    "author": [
-      {
-        "family": "Clark",
-        "given": "K."
+        "family": "Kaplan",
+        "given": "J."
       },
       {
-        "family": "Khandelwal",
-        "given": "U."
+        "family": "Dhariwal",
+        "given": "P."
       },
       {
-        "family": "Levy",
-        "given": "O."
+        "family": "Amodei",
+        "given": "D."
       },
       {
-        "family": "Manning",
-        "given": "C.D."
-      }
-    ],
-    "date": [
-      "2019",
-      "2019"
-    ],
-    "title": [
-      "What Does BERT Look at? An Analysis of BERT's Attention"
-    ],
-    "type": "article-journal",
-    "container-title": [
-      "*ACL"
-    ]
-  },
-  {
-    "citation-number": [
-      "13."
-    ],
-    "author": [
-      {
-        "family": "Sun",
-        "given": "T."
-      },
-      {
-        "family": "Wang",
-        "given": "S."
-      },
-      {
-        "family": "Li",
-        "given": "Y."
-      },
-      {
-        "family": "Feng",
-        "given": "S."
-      },
-      {
-        "family": "Tian",
-        "given": "H."
-      },
-      {
-        "family": "Wu",
-        "given": "H."
-      },
-      {
-        "family": "Wang",
-        "given": "H."
+        "others": true
       }
     ],
     "date": [
@@ -512,16 +401,16 @@
       "2020"
     ],
     "title": [
-      "ERNIE: Enhanced Representation through Knowledge Integration"
+      "Language Models are Few-Shot Learners"
     ],
     "type": "article-journal",
     "container-title": [
-      "*ACL"
+      "*NeurIPS"
     ]
   },
   {
     "citation-number": [
-      "14."
+      "11."
     ],
     "author": [
       {
@@ -534,19 +423,22 @@
       }
     ],
     "date": [
-      "2021"
+      "2020"
     ],
     "title": [
       "Revisiting Few-sample BERT Fine-tuning"
     ],
-    "container-title": [
-      "*ICLR 2021.*"
+    "note": [
+      "*arXiv preprint arXiv:2006.05987.*"
     ],
-    "type": "chapter"
+    "arxiv": [
+      "2006.05987"
+    ],
+    "type": null
   },
   {
     "citation-number": [
-      "15."
+      "12."
     ],
     "author": [
       {
@@ -576,7 +468,7 @@
   },
   {
     "citation-number": [
-      "16."
+      "13."
     ],
     "author": [
       {
@@ -599,6 +491,111 @@
     "container-title": [
       "*EACL"
     ]
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "author": [
+      {
+        "family": "He",
+        "given": "J."
+      },
+      {
+        "family": "Liu",
+        "given": "M."
+      },
+      {
+        "family": "Gao",
+        "given": "J."
+      }
+    ],
+    "date": [
+      "2021",
+      "2021"
+    ],
+    "title": [
+      "DeBERTa: Decoding-enhanced BERT with Disentangled Attention"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "*ICLR"
+    ]
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "author": [
+      {
+        "family": "Li",
+        "given": "X.L."
+      },
+      {
+        "family": "Liang",
+        "given": "P."
+      }
+    ],
+    "date": [
+      "2021",
+      "2021"
+    ],
+    "title": [
+      "Prefix-Tuning: Optimizing Continuous Prompts for Generation"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "*ACL"
+    ]
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "author": [
+      {
+        "family": "Houlsby",
+        "given": "N."
+      },
+      {
+        "family": "Giurgiu",
+        "given": "A."
+      },
+      {
+        "family": "Jastrzebski",
+        "given": "S."
+      },
+      {
+        "family": "Morrone",
+        "given": "B."
+      },
+      {
+        "family": "Laroussilhe",
+        "given": "Q.",
+        "particle": "De"
+      },
+      {
+        "family": "Gesmundo",
+        "given": "A."
+      },
+      {
+        "family": "Gelly",
+        "given": "S."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "title": [
+      "Parameter-efficient transfer learning for NLP"
+    ],
+    "container-title": [
+      "*ICML 2019.*"
+    ],
+    "type": "chapter"
   },
   {
     "citation-number": [
@@ -636,20 +633,43 @@
     ],
     "author": [
       {
-        "family": "Li",
-        "given": "X.L."
+        "family": "Sun",
+        "given": "Y."
       },
       {
-        "family": "Liang",
-        "given": "P."
+        "family": "Wang",
+        "given": "S."
+      },
+      {
+        "family": "Li",
+        "given": "Y."
+      },
+      {
+        "family": "Feng",
+        "given": "S."
+      },
+      {
+        "family": "Tian",
+        "given": "H."
+      },
+      {
+        "family": "Wu",
+        "given": "H."
+      },
+      {
+        "family": "Wang",
+        "given": "H."
+      },
+      {
+        "others": true
       }
     ],
     "date": [
-      "2021",
-      "2021"
+      "2019",
+      "2019"
     ],
     "title": [
-      "Prefix-Tuning: Optimizing Continuous Prompts for Generation"
+      "ERNIE: Enhanced Representation through Knowledge Integration"
     ],
     "type": "article-journal",
     "container-title": [
@@ -662,31 +682,48 @@
     ],
     "author": [
       {
-        "family": "Zaken",
-        "given": "E.M."
+        "family": "Zhang",
+        "given": "Y."
       },
       {
-        "family": "Ravfogel",
+        "family": "Sun",
         "given": "S."
       },
       {
-        "family": "Goldberg",
-        "given": "Y."
+        "family": "Galley",
+        "given": "M."
+      },
+      {
+        "family": "Chen",
+        "given": "Y.C."
+      },
+      {
+        "family": "Brockett",
+        "given": "C."
+      },
+      {
+        "family": "Gao",
+        "given": "X."
+      },
+      {
+        "family": "Dolan",
+        "given": "B."
+      },
+      {
+        "others": true
       }
     ],
     "date": [
-      "2021"
+      "2020",
+      "2020"
     ],
     "title": [
-      "BitFit: Simple Parameter-efficient Fine-tuning for Transformer-based Masked Language-models"
+      "DIALOGPT: Large-Scale Generative Pre-training for Conversational Response Generation"
     ],
-    "note": [
-      "*arXiv preprint arXiv:2106.10199.*"
-    ],
-    "arxiv": [
-      "2106.10199"
-    ],
-    "type": null
+    "type": "article-journal",
+    "container-title": [
+      "*ACL"
+    ]
   },
   {
     "citation-number": [
@@ -694,37 +731,54 @@
     ],
     "author": [
       {
-        "family": "He",
-        "given": "P."
-      },
-      {
         "family": "Liu",
         "given": "X."
       },
       {
-        "family": "Gao",
+        "family": "Zheng",
+        "given": "Y."
+      },
+      {
+        "family": "Du",
+        "given": "Z."
+      },
+      {
+        "family": "Ding",
+        "given": "M."
+      },
+      {
+        "family": "Qian",
+        "given": "Y."
+      },
+      {
+        "family": "Yang",
+        "given": "Z."
+      },
+      {
+        "family": "Tang",
         "given": "J."
       },
       {
-        "family": "Chen",
-        "given": "W."
+        "others": true
       }
     ],
     "date": [
-      "2021",
       "2021"
     ],
-    "title": [
-      "DeBERTa: Decoding-enhanced BERT with Disentangled Attention"
+    "note": [
+      "\"GPT understands, too.\" *arXiv preprint arXiv:2103.10385.*"
     ],
-    "type": "article-journal",
-    "container-title": [
-      "*ICLR"
-    ]
+    "arxiv": [
+      "2103.10385"
+    ],
+    "type": null
   },
   {
     "title": [
-      "These articles cover a range of topics including fine-tuning strategies, parameter-efficient methods, and approaches to handle data scarcity in the context of pre-trained language models"
+      "These articles cover a range of topics from foundational models like BERT and GPT to more specialized approaches for handling data scarcity and improving parameter efficiency. They provide a comprehensive overview of the advancements in the field up to"
+    ],
+    "date": [
+      "2022"
     ],
     "type": null
   }

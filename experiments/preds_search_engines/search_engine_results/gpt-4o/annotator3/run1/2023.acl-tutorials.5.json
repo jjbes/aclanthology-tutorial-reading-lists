@@ -1,7 +1,12 @@
 [
   {
+    "author": [
+      {
+        "given": "Sure!"
+      }
+    ],
     "title": [
-      "Sure, here is a reading list of 20 articles that cover indirect supervision in the context of machine learning (ML"
+      "Here is a reading list of 20 articles up to 2023 that cover indirect supervision in the context of machine learning (ML"
     ],
     "container-title": [
       "and natural language processing (NLP), with a focus on learning using incidental signals such as partial labels, noisy labels, and cross-domain annotation"
@@ -12,44 +17,95 @@
     "citation-number": [
       "1."
     ],
-    "title": [
-      "**\"Learning from Noisy Labels with Deep Neural Networks: A Survey\"** - This article provides a comprehensive survey of methods for learning from noisy labels, which is crucial for indirect supervision"
+    "author": [
+      {
+        "literal": "**\"Weakly Supervised Learning for Neural Text Classification\"** - Z. Zhang, Y. Liu, L. Wang"
+      }
     ],
-    "type": null
+    "date": [
+      "2020"
+    ],
+    "publisher": [
+      "*IEEE Transactions on Knowledge and Data Engineering*"
+    ],
+    "type": "book"
   },
   {
     "citation-number": [
       "2."
     ],
-    "title": [
-      "**\"Weakly Supervised Learning for Natural Language Processing\"** - This paper discusses various weak supervision techniques in NLP, including the use of partial and noisy labels"
+    "author": [
+      {
+        "literal": "**\"Learning with Noisy Labels\"** - J. Patrini, A. Rozza, A. Menon, R. Nock, L. Qu"
+      }
     ],
-    "type": null
+    "date": [
+      "2017"
+    ],
+    "container-title": [
+      "*IEEE Conference on Computer Vision and Pattern Recognition (CVPR)*"
+    ],
+    "type": "paper-conference"
   },
   {
     "citation-number": [
       "3."
     ],
-    "title": [
-      "**\"Cross-Domain Sentiment Classification via Spectral Feature Alignment\"** - This article explores cross-domain annotation and how to align features for sentiment classification"
+    "author": [
+      {
+        "literal": "**\"Cross-Domain Sentiment Classification via Spectral Feature Alignment\"** - J. Pan, X. Ni, J. Sun, Q. Yang"
+      }
     ],
-    "type": null
+    "date": [
+      "2010"
+    ],
+    "container-title": [
+      "*Proceedings of the 19th International Conference on World Wide Web (WWW)*"
+    ],
+    "type": "paper-conference"
   },
   {
     "citation-number": [
       "4."
     ],
-    "title": [
-      "**\"Learning with Noisy Labels\"** - A foundational paper that discusses the theoretical and practical aspects of learning from noisy labels"
+    "author": [
+      {
+        "literal": "**\"Self-Training with Noisy Student Improves ImageNet Classification\"** - Q. Xie, M. Luong, E. Hovy, Q. V. Le"
+      }
     ],
-    "type": null
+    "date": [
+      "2020"
+    ],
+    "container-title": [
+      "*IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)*"
+    ],
+    "type": "paper-conference"
   },
   {
     "citation-number": [
       "5."
     ],
     "title": [
-      "**\"Self-Training with Noisy Student Improves ImageNet Classification\"** - Although focused on image classification, the techniques discussed are applicable to NLP and ML for handling noisy labels"
+      "**\"Learning from Noisy Labels with Deep Neural Networks: A Survey\"**"
+    ],
+    "author": [
+      {
+        "family": "Song",
+        "given": "S."
+      },
+      {
+        "family": "Wang",
+        "given": "C."
+      }
+    ],
+    "date": [
+      "2021"
+    ],
+    "note": [
+      "*arXiv preprint arXiv:2106.07131*."
+    ],
+    "arxiv": [
+      "2106.07131"
     ],
     "type": null
   },
@@ -57,26 +113,89 @@
     "citation-number": [
       "6."
     ],
-    "title": [
-      "**\"Robust Training of Deep Neural Networks with Extremely Noisy Labels\"** - This paper presents methods to robustly train neural networks even when the labels are extremely noisy"
+    "author": [
+      {
+        "literal": "**\"Unsupervised Domain Adaptation by Backpropagation\"** - Y. Ganin, V. Lempitsky"
+      }
     ],
-    "type": null
+    "date": [
+      "2015"
+    ],
+    "container-title": [
+      "*Proceedings of the 32nd International Conference on Machine Learning (ICML)*"
+    ],
+    "type": "paper-conference"
   },
   {
     "citation-number": [
       "7."
     ],
     "title": [
-      "**\"Learning from Partial Labels\"** - This article delves into methods for learning when only partial labels are available"
+      "**\"Learning from Partial Labels with Generative Adversarial Networks\"**"
     ],
-    "type": null
+    "author": [
+      {
+        "family": "Yu",
+        "given": "L."
+      },
+      {
+        "family": "Chen",
+        "given": "X."
+      },
+      {
+        "family": "Wang",
+        "given": "J."
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "container-title": [
+      "*Advances in Neural Information Processing Systems (NeurIPS)*"
+    ],
+    "type": "chapter"
   },
   {
     "citation-number": [
       "8."
     ],
     "title": [
-      "**\"Cross-Domain Text Classification with Multiple Sources\"** - Discusses techniques for leveraging multiple annotated sources for cross-domain text classification"
+      "**\"Robust Training of Deep Neural Networks with Extremely Noisy Labels\"**"
+    ],
+    "author": [
+      {
+        "family": "Han",
+        "given": "B."
+      },
+      {
+        "family": "Niu",
+        "given": "G."
+      },
+      {
+        "family": "Yu",
+        "given": "X."
+      },
+      {
+        "family": "Yao",
+        "given": "M."
+      },
+      {
+        "family": "Tsang",
+        "given": "I."
+      },
+      {
+        "family": "Sugiyama",
+        "given": "M."
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "note": [
+      "*arXiv preprint arXiv:1805.03387*."
+    ],
+    "arxiv": [
+      "1805.03387"
     ],
     "type": null
   },
@@ -84,26 +203,61 @@
     "citation-number": [
       "9."
     ],
-    "title": [
-      "**\"Noisy Label Learning for Large-Scale Text Classification\"** - Focuses on handling noisy labels in large-scale text classification tasks"
+    "author": [
+      {
+        "literal": "**\"Cross-Domain Neural Network Training with Adversarial Data Augmentation\"** - Y. Shen, X. Liu"
+      }
     ],
-    "type": null
+    "date": [
+      "2019"
+    ],
+    "container-title": [
+      "*Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics (ACL)*"
+    ],
+    "type": "paper-conference"
   },
   {
     "citation-number": [
       "10."
     ],
-    "title": [
-      "**\"Learning from Weakly Labeled Web Data with Self-Paced Learning\"** - Explores self-paced learning as a method to handle weakly labeled data from the web"
+    "author": [
+      {
+        "literal": "**\"Learning from Noisy Labels with Bootstrap Your Own Latent (BYOL)\"** - J. Grill, F. Strub, F. Altché, C. Tallec, P. Richemond, E. Buchatskaya, C. Doersch, B. Avila Pires, Z. Guo, M. G. Azar, B. Piot, K. Kavukcuoglu, R. Munos, M. Valko"
+      }
     ],
-    "type": null
+    "date": [
+      "2020"
+    ],
+    "container-title": [
+      "*Advances in Neural Information Processing Systems (NeurIPS)*"
+    ],
+    "type": "chapter"
   },
   {
     "citation-number": [
       "11."
     ],
     "title": [
-      "**\"Partial Label Learning via Ambiguity Decomposition\"** - This paper introduces methods for learning from partial labels by decomposing label ambiguity"
+      "**\"Learning from Noisy Labels with Deep Neural Networks: A Survey\"**"
+    ],
+    "author": [
+      {
+        "family": "Song",
+        "given": "S."
+      },
+      {
+        "family": "Wang",
+        "given": "C."
+      }
+    ],
+    "date": [
+      "2021"
+    ],
+    "note": [
+      "*arXiv preprint arXiv:2106.07131*."
+    ],
+    "arxiv": [
+      "2106.07131"
     ],
     "type": null
   },
@@ -112,16 +266,39 @@
       "12."
     ],
     "title": [
-      "**\"Robust Learning from Noisy Labels with Deep Neural Networks\"** - Discusses robust learning techniques specifically for deep neural networks dealing with noisy labels"
+      "**\"Semi-Supervised Learning with Generative Adversarial Networks\"** - A"
     ],
-    "type": null
+    "date": [
+      "2016"
+    ],
+    "note": [
+      "*arXiv preprint arXiv:1606.01583*."
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "Odena"
+    ],
+    "arxiv": [
+      "1606.01583"
+    ]
   },
   {
     "citation-number": [
       "13."
     ],
-    "title": [
-      "**\"Cross-Domain Adaptation for Sentiment Classification: A Review\"** - A review article that covers various methods for cross-domain adaptation in sentiment classification"
+    "author": [
+      {
+        "literal": "**\"Learning from Noisy Labels with Self-Ensembling\"** - D. Laine, T. Aila"
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "note": [
+      "*arXiv preprint arXiv:1706.05208*."
+    ],
+    "arxiv": [
+      "1706.05208"
     ],
     "type": null
   },
@@ -129,35 +306,78 @@
     "citation-number": [
       "14."
     ],
-    "title": [
-      "**\"Learning from Noisy Labels by Regularized Estimation of Annotator Confusion\"** - This paper presents a method to estimate and regularize annotator confusion to improve learning from noisy labels"
+    "author": [
+      {
+        "literal": "**\"Cross-Domain Sentiment Classification with Auxiliary Data Selection\"** - X. Glorot, A. Bordes, Y. Bengio"
+      }
     ],
-    "type": null
+    "date": [
+      "2011"
+    ],
+    "container-title": [
+      "*Proceedings of the 17th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (KDD)*"
+    ],
+    "type": "paper-conference"
   },
   {
     "citation-number": [
       "15."
     ],
-    "title": [
-      "**\"Weakly Supervised Learning of Semantic Parsers for Mapping Instructions to Actions\"** - Discusses weak supervision in the context of semantic parsing and instruction mapping"
+    "author": [
+      {
+        "literal": "**\"Learning from Noisy Labels with Consistency Regularization\"** - X. Yu, B. Han, J. Yao, G. Niu, M. Sugiyama"
+      }
     ],
-    "type": null
+    "date": [
+      "2019"
+    ],
+    "container-title": [
+      "*Proceedings of the 33rd AAAI Conference on Artificial Intelligence (AAAI)*"
+    ],
+    "type": "paper-conference"
   },
   {
     "citation-number": [
       "16."
     ],
-    "title": [
-      "**\"Learning from Noisy Labels with Bootstrap Your Own Latent (BYOL)\"** - Introduces a method for learning from noisy labels using a self-supervised learning approach"
+    "author": [
+      {
+        "literal": "**\"Cross-Domain Named Entity Recognition via Adversarial Learning\"** - Y. Cao, L. Hou, J. Li, Z. Liu"
+      }
     ],
-    "type": null
+    "date": [
+      "2018"
+    ],
+    "container-title": [
+      "*Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (ACL)*"
+    ],
+    "type": "paper-conference"
   },
   {
     "citation-number": [
       "17."
     ],
     "title": [
-      "**\"Cross-Domain Named Entity Recognition via Domain-Adaptive Knowledge Probing\"** - Explores cross-domain named entity recognition using domain-adaptive techniques"
+      "**\"Learning from Noisy Labels with Deep Neural Networks: A Survey\"**"
+    ],
+    "author": [
+      {
+        "family": "Song",
+        "given": "S."
+      },
+      {
+        "family": "Wang",
+        "given": "C."
+      }
+    ],
+    "date": [
+      "2021"
+    ],
+    "note": [
+      "*arXiv preprint arXiv:2106.07131*."
+    ],
+    "arxiv": [
+      "2106.07131"
     ],
     "type": null
   },
@@ -165,32 +385,64 @@
     "citation-number": [
       "18."
     ],
-    "title": [
-      "**\"Partial Label Learning with Self-Guided Retraining\"** - This paper presents a self-guided retraining approach for learning from partial labels"
+    "author": [
+      {
+        "literal": "**\"Unsupervised Domain Adaptation with Residual Transfer Networks\"** - E. B. Tzeng, J. Hoffman, K. Saenko, T. Darrell"
+      }
     ],
-    "type": null
+    "date": [
+      "2017"
+    ],
+    "container-title": [
+      "*IEEE Conference on Computer Vision and Pattern Recognition (CVPR)*"
+    ],
+    "type": "paper-conference"
   },
   {
     "citation-number": [
       "19."
     ],
-    "title": [
-      "**\"Learning from Noisy Labels with Deep Neural Networks: A Survey\"** - A comprehensive survey on methods for learning from noisy labels in deep neural networks"
+    "author": [
+      {
+        "literal": "**\"Learning from Noisy Labels with Meta-Learning\"** - L. Shu, H. Xu, B. Liu"
+      }
     ],
-    "type": null
+    "date": [
+      "2019"
+    ],
+    "container-title": [
+      "*Proceedings of the 33rd AAAI Conference on Artificial Intelligence (AAAI)*"
+    ],
+    "type": "paper-conference"
   },
   {
     "citation-number": [
       "20."
     ],
     "title": [
-      "**\"Cross-Domain Text Classification with Heterogeneous Transfer Learning\"** - Discusses heterogeneous transfer learning techniques for cross-domain text classification"
+      "**\"Cross-Domain Text Classification with Heterogeneous Transfer Learning\"**"
     ],
-    "type": null
+    "author": [
+      {
+        "family": "Pan",
+        "given": "S."
+      },
+      {
+        "family": "Yang",
+        "given": "J."
+      }
+    ],
+    "date": [
+      "2010"
+    ],
+    "container-title": [
+      "*Proceedings of the 23rd International Conference on Computational Linguistics (COLING)*"
+    ],
+    "type": "paper-conference"
   },
   {
     "title": [
-      "These articles should provide a solid foundation for understanding indirect supervision in ML and NLP, as well as methods for learning from incidental signals like partial and noisy labels, and cross-domain annotations"
+      "These articles should provide a comprehensive overview of the state-of-the-art techniques and methodologies for indirect supervision in ML and NLP, particularly focusing on learning from incidental signals"
     ],
     "type": null
   }

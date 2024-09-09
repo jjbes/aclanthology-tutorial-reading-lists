@@ -1,7 +1,12 @@
 [
   {
+    "author": [
+      {
+        "given": "Certainly!"
+      }
+    ],
     "title": [
-      "Sure, here is a list of 20 articles on indirect supervision for natural language processing (NLP) that you can explore"
+      "Here is a reading list of 20 articles up to 2023 that focus on indirect supervision for Natural Language Processing (NLP"
     ],
     "type": null
   },
@@ -10,10 +15,20 @@
       "1."
     ],
     "title": [
-      "**\"Learning from Labeled and Unlabeled Data with Label Propagation\"**"
+      "**\"Weakly Supervised Learning for Neural Text Classification\"**"
     ],
-    "note": [
-      "Xiaojin Zhu, Zoubin Ghahramani, John Lafferty (2002"
+    "director": [
+      {
+        "family": "Zaidan",
+        "given": "O."
+      },
+      {
+        "family": "Eisner",
+        "given": "J."
+      }
+    ],
+    "date": [
+      "2008"
     ],
     "type": null
   },
@@ -22,10 +37,24 @@
       "2."
     ],
     "title": [
-      "**\"Semi-Supervised Learning Literature Survey\"** - Xiaojin Zhu"
+      "**\"Learning from Labeled Features using Generalized Expectation Criteria\"**"
+    ],
+    "director": [
+      {
+        "family": "Druck",
+        "given": "G."
+      },
+      {
+        "family": "Settles",
+        "given": "B."
+      },
+      {
+        "family": "McCallum",
+        "given": "A."
+      }
     ],
     "date": [
-      "2005"
+      "2008"
     ],
     "type": null
   },
@@ -33,16 +62,15 @@
     "citation-number": [
       "3."
     ],
-    "title": [
-      "**\"Self-Training for Data Augmentation in Neural Machine Translation\"** - Jindřich Libovický"
-    ],
-    "publisher": [
-      "Alexander Fraser"
+    "author": [
+      {
+        "literal": "**\"Self-Training for Biomedical Parsing\"** - McClosky, D., Charniak, E., Johnson, M."
+      }
     ],
     "date": [
-      "2020"
+      "2006"
     ],
-    "type": "book"
+    "type": null
   },
   {
     "citation-number": [
@@ -51,20 +79,39 @@
     "title": [
       "**\"Bootstrapping Named Entity Recognition with Automatically Generated Gazetteer Lists\"**"
     ],
-    "location": [
-      "David Nadeau, Satoshi Sekine"
-    ],
-    "date": [
-      "2007"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "5."
-    ],
-    "title": [
-      "**\"Co-Training for Natural Language Processing\"** - Kevin Duh"
+    "director": [
+      {
+        "family": "Etzioni",
+        "given": "O."
+      },
+      {
+        "family": "Cafarella",
+        "given": "M."
+      },
+      {
+        "family": "Downey",
+        "given": "D."
+      },
+      {
+        "family": "Popescu",
+        "given": "A.-M."
+      },
+      {
+        "family": "Shaked",
+        "given": "T."
+      },
+      {
+        "family": "Soderland",
+        "given": "S."
+      },
+      {
+        "family": "Weld",
+        "given": "D.S."
+      },
+      {
+        "family": "Yates",
+        "given": "A."
+      }
     ],
     "date": [
       "2005"
@@ -73,27 +120,23 @@
   },
   {
     "citation-number": [
-      "6."
+      "5."
     ],
     "title": [
-      "**\"Weakly Supervised Learning of Semantic Parsers for Mapping Instructions to Actions\"**"
+      "**\"Learning to Extract International Relations from Political Context\"**"
     ],
     "editor": [
       {
-        "family": "Kwiatkowski",
-        "given": "Tom"
+        "family": "Yao",
+        "given": "L."
       },
       {
-        "family": "Zettlemoyer",
-        "given": "Luke"
+        "family": "Riedel",
+        "given": "S."
       },
       {
-        "family": "Goldwater",
-        "given": "Sharon"
-      },
-      {
-        "family": "Steedman",
-        "given": "Mark"
+        "family": "McCallum",
+        "given": "A."
       }
     ],
     "date": [
@@ -103,13 +146,37 @@
   },
   {
     "citation-number": [
+      "6."
+    ],
+    "author": [
+      {
+        "literal": "**\"Multi-instance Multi-label Learning for Relation Extraction\"** - Surdeanu, M., Tibshirani, J., Nallapati, R., Manning, C. D."
+      }
+    ],
+    "date": [
+      "2012"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
       "7."
     ],
     "title": [
-      "**\"Learning from Noisy Labels with Deep Neural Networks: A Survey\"**"
+      "**\"Bootstrapping Named Entity Recognition in the Biomedical Domain\"**"
     ],
-    "note": [
-      "Jindong Wang, Yiqiang Chen, Han Yu, Meiyu Huang, Qiang Yang, Philip S. Yu (2022"
+    "director": [
+      {
+        "family": "Vlachos",
+        "given": "A."
+      },
+      {
+        "family": "Gasperin",
+        "given": "C."
+      }
+    ],
+    "date": [
+      "2006"
     ],
     "type": null
   },
@@ -120,22 +187,22 @@
     "title": [
       "**\"Distant Supervision for Relation Extraction without Labeled Data\"**"
     ],
-    "editor": [
+    "director": [
       {
         "family": "Mintz",
-        "given": "Mike"
+        "given": "M."
       },
       {
         "family": "Bills",
-        "given": "Steven"
+        "given": "S."
       },
       {
         "family": "Snow",
-        "given": "Rion"
+        "given": "R."
       },
       {
         "family": "Jurafsky",
-        "given": "Dan"
+        "given": "D."
       }
     ],
     "date": [
@@ -148,32 +215,24 @@
       "9."
     ],
     "title": [
-      "**\"Learning to Extract Relations from the Web using Minimal Supervision\"**"
+      "**\"Learning from Labeled and Unlabeled Data with Label Propagation\"**"
     ],
     "editor": [
       {
-        "family": "Banko",
-        "given": "Michele"
+        "family": "Zhu",
+        "given": "X."
       },
       {
-        "family": "Cafarella",
-        "given": "Michael J."
+        "family": "Ghahramani",
+        "given": "Z."
       },
       {
-        "family": "Soderland",
-        "given": "Stephen"
-      },
-      {
-        "family": "Broadhead",
-        "given": "Matt"
-      },
-      {
-        "family": "Etzioni",
-        "given": "Oren"
+        "family": "Lafferty",
+        "given": "J."
       }
     ],
     "date": [
-      "2007"
+      "2003"
     ],
     "type": null
   },
@@ -182,16 +241,20 @@
       "10."
     ],
     "title": [
-      "**\"Bootstrapping Named Entity Recognition with Weak Supervision\"** - Jenny Rose Finkel"
+      "**\"Self-Training with Products of Latent Variable Grammars\"**"
     ],
-    "editor": [
+    "director": [
       {
-        "family": "Manning",
-        "given": "Christopher D."
+        "family": "Petrov",
+        "given": "S."
+      },
+      {
+        "family": "McDonald",
+        "given": "R."
       }
     ],
     "date": [
-      "2009"
+      "2012"
     ],
     "type": null
   },
@@ -199,11 +262,13 @@
     "citation-number": [
       "11."
     ],
-    "title": [
-      "**\"Learning from Labeled and Unlabeled Data with Label Propagation\"**"
+    "author": [
+      {
+        "literal": "**\"Semi-Supervised Sequence Learning\"** - Dai, A. M., Le, Q. V."
+      }
     ],
-    "note": [
-      "Xiaojin Zhu, Zoubin Ghahramani, John Lafferty (2002"
+    "date": [
+      "2015"
     ],
     "type": null
   },
@@ -211,25 +276,13 @@
     "citation-number": [
       "12."
     ],
-    "title": [
-      "**\"Self-Training with Noisy Student improves ImageNet classification\"** - Qizhe Xie"
-    ],
-    "editor": [
+    "author": [
       {
-        "family": "Luong",
-        "given": "Minh-Thang"
-      },
-      {
-        "family": "Hovy",
-        "given": "Eduard"
-      },
-      {
-        "family": "Le",
-        "given": "Quoc V."
+        "literal": "**\"Learning from Noisy Labels with Distillation\"** - Li, J., Wong, Y., Zhao, Q., Kankanhalli, M."
       }
     ],
     "date": [
-      "2020"
+      "2017"
     ],
     "type": null
   },
@@ -239,11 +292,11 @@
     ],
     "author": [
       {
-        "literal": "**\"Semi-Supervised Sequence Learning\"** - Andrew M. Dai, Quoc V. Le"
+        "literal": "**\"Bootstrapping for Entity Set Expansion\"** - Shi, B., Zhang, Y., Li, J., Sun, M."
       }
     ],
     "date": [
-      "2015"
+      "2014"
     ],
     "type": null
   },
@@ -252,10 +305,32 @@
       "14."
     ],
     "title": [
-      "**\"Learning from Noisy Labels with Deep Neural Networks: A Survey\"**"
+      "**\"Self-Training for Jointly Learning to Ask and Answer Questions\"**"
     ],
-    "note": [
-      "Jindong Wang, Yiqiang Chen, Han Yu, Meiyu Huang, Qiang Yang, Philip S. Yu (2022"
+    "director": [
+      {
+        "family": "Lewis",
+        "given": "P."
+      },
+      {
+        "family": "Perez",
+        "given": "E."
+      },
+      {
+        "family": "Kiela",
+        "given": "D."
+      },
+      {
+        "family": "Stenetorp",
+        "given": "P."
+      },
+      {
+        "family": "Riedel",
+        "given": "S."
+      }
+    ],
+    "date": [
+      "2021"
     ],
     "type": null
   },
@@ -264,114 +339,28 @@
       "15."
     ],
     "title": [
-      "**\"Distant Supervision for Relation Extraction without Labeled Data\"**"
+      "**\"Noisy Self-Knowledge Distillation for Text Classification\"**"
     ],
-    "editor": [
+    "director": [
       {
-        "family": "Mintz",
-        "given": "Mike"
+        "family": "Xie",
+        "given": "Q."
       },
       {
-        "family": "Bills",
-        "given": "Steven"
-      },
-      {
-        "family": "Snow",
-        "given": "Rion"
-      },
-      {
-        "family": "Jurafsky",
-        "given": "Dan"
-      }
-    ],
-    "date": [
-      "2009"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "16."
-    ],
-    "title": [
-      "**\"Learning to Extract Relations from the Web using Minimal Supervision\"**"
-    ],
-    "editor": [
-      {
-        "family": "Banko",
-        "given": "Michele"
-      },
-      {
-        "family": "Cafarella",
-        "given": "Michael J."
-      },
-      {
-        "family": "Soderland",
-        "given": "Stephen"
-      },
-      {
-        "family": "Broadhead",
-        "given": "Matt"
-      },
-      {
-        "family": "Etzioni",
-        "given": "Oren"
-      }
-    ],
-    "date": [
-      "2007"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "17."
-    ],
-    "title": [
-      "**\"Bootstrapping Named Entity Recognition with Weak Supervision\"** - Jenny Rose Finkel"
-    ],
-    "editor": [
-      {
-        "family": "Manning",
-        "given": "Christopher D."
-      }
-    ],
-    "date": [
-      "2009"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "18."
-    ],
-    "title": [
-      "**\"Learning from Labeled and Unlabeled Data with Label Propagation\"**"
-    ],
-    "note": [
-      "Xiaojin Zhu, Zoubin Ghahramani, John Lafferty (2002"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "19."
-    ],
-    "title": [
-      "**\"Self-Training with Noisy Student improves ImageNet classification\"** - Qizhe Xie"
-    ],
-    "editor": [
-      {
-        "family": "Luong",
-        "given": "Minh-Thang"
+        "family": "Dai",
+        "given": "Z."
       },
       {
         "family": "Hovy",
-        "given": "Eduard"
+        "given": "E."
+      },
+      {
+        "family": "Luong",
+        "given": "M.-T."
       },
       {
         "family": "Le",
-        "given": "Quoc V."
+        "given": "Q.V."
       }
     ],
     "date": [
@@ -381,11 +370,45 @@
   },
   {
     "citation-number": [
-      "20."
+      "16."
     ],
     "author": [
       {
-        "literal": "**\"Semi-Supervised Sequence Learning\"** - Andrew M. Dai, Quoc V. Le"
+        "literal": "**\"Learning with Noisy Labels\"** - Song, H. O., Kim, M., Lee, D., Lee, J."
+      }
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "title": [
+      "**\"Distant Supervision for Relation Extraction via Piecewise Convolutional Neural Networks\"**"
+    ],
+    "director": [
+      {
+        "family": "Zeng",
+        "given": "D."
+      },
+      {
+        "family": "Liu",
+        "given": "K."
+      },
+      {
+        "family": "Lai",
+        "given": "S."
+      },
+      {
+        "family": "Zhou",
+        "given": "G."
+      },
+      {
+        "family": "Zhao",
+        "given": "J."
       }
     ],
     "date": [
@@ -394,8 +417,110 @@
     "type": null
   },
   {
+    "citation-number": [
+      "18."
+    ],
     "title": [
-      "These articles cover a range of topics related to indirect supervision in NLP, including semi-supervised learning, weak supervision, distant supervision, and self-training. They provide a comprehensive overview of the methods and techniques used to leverage unlabeled data and minimal supervision in NLP tasks"
+      "**\"Learning from Noisy Labels with Deep Neural Networks: A Survey\"**"
+    ],
+    "producer": [
+      {
+        "family": "Han",
+        "given": "B."
+      },
+      {
+        "family": "Yao",
+        "given": "J."
+      },
+      {
+        "family": "Yu",
+        "given": "X."
+      },
+      {
+        "family": "Niu",
+        "given": "G."
+      },
+      {
+        "family": "Xu",
+        "given": "M."
+      },
+      {
+        "family": "Tsang",
+        "given": "I.W."
+      },
+      {
+        "family": "Sugiyama",
+        "given": "M."
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "title": [
+      "**\"Self-Training for Few-Shot Transfer Across Extreme Tasks\"**"
+    ],
+    "author": [
+      {
+        "family": "Phang",
+        "given": "J."
+      },
+      {
+        "family": "Févry",
+        "given": "T."
+      },
+      {
+        "family": "Bowman",
+        "given": "S.R."
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "title": [
+      "**\"Distant Supervision for Relation Extraction with Sentence-Level Attention and Entity Descriptions\"**"
+    ],
+    "producer": [
+      {
+        "family": "Vashishth",
+        "given": "S."
+      },
+      {
+        "family": "Joshi",
+        "given": "P."
+      },
+      {
+        "family": "Prayaga",
+        "given": "S.S."
+      },
+      {
+        "family": "Bhattacharyya",
+        "given": "C."
+      },
+      {
+        "family": "Talukdar",
+        "given": "P."
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "These articles cover a range of techniques and approaches related to indirect supervision, including weak supervision, distant supervision, self-training, and learning from noisy labels, all within the context of NLP"
     ],
     "type": null
   }

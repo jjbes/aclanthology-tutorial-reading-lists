@@ -2,11 +2,11 @@
   {
     "author": [
       {
-        "given": "Sure!"
+        "given": "Certainly!"
       }
     ],
     "title": [
-      "Here's a reading list of 20 articles published before 2022 that focus on syntax in end-to-end models, particularly in the areas of syntactic parsing, semantic role labeling, and machine translation"
+      "Here is a reading list of 20 articles up to 2021 focusing on syntax in end-to-end models, specifically covering syntactic parsing, semantic role labeling, and machine translation"
     ],
     "type": null
   },
@@ -42,23 +42,6 @@
     ],
     "author": [
       {
-        "literal": "**\"Stacked LSTM for Syntactic Parsing\"** - Dyer, C., Ballesteros, M., Ling, W., Matthews, A., & Smith, N. A."
-      }
-    ],
-    "date": [
-      "2015"
-    ],
-    "container-title": [
-      "*Conference on Empirical Methods in Natural Language Processing (EMNLP)*"
-    ],
-    "type": "paper-conference"
-  },
-  {
-    "citation-number": [
-      "3."
-    ],
-    "author": [
-      {
         "literal": "**\"A Minimal Span-Based Neural Constituency Parser\"** - Stern, M., Andreas, J., & Klein, D."
       }
     ],
@@ -69,6 +52,23 @@
       "*Association for Computational Linguistics (ACL)*."
     ],
     "type": null
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "author": [
+      {
+        "literal": "**\"Stack-Pointer Networks for Dependency Parsing\"** - Ma, X., & Hovy, E."
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "publisher": [
+      "*Association for Computational Linguistics (ACL)*"
+    ],
+    "type": "book"
   },
   {
     "citation-number": [
@@ -91,13 +91,25 @@
     "citation-number": [
       "5."
     ],
+    "title": [
+      "**\"Jointly Learning to Parse and Perceive: Connecting Natural Language to the Physical World\"**"
+    ],
     "author": [
       {
-        "literal": "**\"Incorporating Syntax into Transformer-based Neural Machine Translation\"** - Li, X., & Jurafsky, D."
+        "family": "Misra",
+        "given": "D."
+      },
+      {
+        "family": "Langford",
+        "given": "J."
+      },
+      {
+        "family": "Artzi",
+        "given": "Y."
       }
     ],
     "date": [
-      "2020"
+      "2016"
     ],
     "note": [
       "*Association for Computational Linguistics (ACL)*."
@@ -139,17 +151,9 @@
     "citation-number": [
       "7."
     ],
-    "title": [
-      "**\"Deep Semantic Role Labeling: What Works and What's Next\"**"
-    ],
     "author": [
       {
-        "family": "He",
-        "given": "L."
-      },
-      {
-        "family": "Deng",
-        "given": "L."
+        "literal": "**\"Deep Semantic Role Labeling: What Works and What's Next\"** - He, L., Lee, K., Lewis, M., & Zettlemoyer, L."
       }
     ],
     "date": [
@@ -181,32 +185,16 @@
     "citation-number": [
       "9."
     ],
-    "title": [
-      "**\"Jointly Predicting Predicates and Arguments in Neural Semantic Role Labeling\"**"
-    ],
     "author": [
       {
-        "family": "He",
-        "given": "L."
-      },
-      {
-        "family": "Lee",
-        "given": "K."
-      },
-      {
-        "family": "Lewis",
-        "given": "M."
-      },
-      {
-        "family": "Zettlemoyer",
-        "given": "L."
+        "literal": "**\"Span-based Joint Entity and Relation Extraction with Transformer Pre-training\"** - Wadden, D., Wennberg, U., Luan, Y., & Hajishirzi, H."
       }
     ],
     "date": [
-      "2018"
+      "2019"
     ],
     "note": [
-      "*Association for Computational Linguistics (ACL)*."
+      "*Empirical Methods in Natural Language Processing (EMNLP)*."
     ],
     "type": null
   },
@@ -216,14 +204,17 @@
     ],
     "author": [
       {
-        "literal": "**\"A Unified Syntax-aware Framework for Semantic Role Labeling\"** - Li, X., & Ji, H."
+        "literal": "**\"BERT for Joint Entity and Relation Extraction\"** - Lin, Y., Ji, Y., Liu, Z., & Sun, M."
       }
     ],
     "date": [
       "2020"
     ],
     "note": [
-      "*Association for Computational Linguistics (ACL)*."
+      "*arXiv preprint arXiv:1904.04173*."
+    ],
+    "arxiv": [
+      "1904.04173"
     ],
     "type": null
   },
@@ -241,23 +232,6 @@
     ],
     "author": [
       {
-        "literal": "**\"Neural Machine Translation by Jointly Learning to Align and Translate\"** - Bahdanau, D., Cho, K., & Bengio, Y."
-      }
-    ],
-    "date": [
-      "2015"
-    ],
-    "container-title": [
-      "*International Conference on Learning Representations (ICLR)*"
-    ],
-    "type": "paper-conference"
-  },
-  {
-    "citation-number": [
-      "12."
-    ],
-    "author": [
-      {
         "literal": "**\"Attention Is All You Need\"** - Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A. N., Kaiser, Ł., & Polosukhin, I."
       }
     ],
@@ -268,6 +242,23 @@
       "*Advances in Neural Information Processing Systems (NeurIPS)*"
     ],
     "type": "chapter"
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "author": [
+      {
+        "literal": "**\"Neural Machine Translation by Jointly Learning to Align and Translate\"** - Bahdanau, D., Cho, K., & Bengio, Y."
+      }
+    ],
+    "date": [
+      "2015"
+    ],
+    "container-title": [
+      "*International Conference on Learning Representations (ICLR)*"
+    ],
+    "type": "paper-conference"
   },
   {
     "citation-number": [
@@ -282,9 +273,9 @@
       "2015"
     ],
     "container-title": [
-      "*Conference on Empirical Methods in Natural Language Processing (EMNLP)*"
+      "*Empirical Methods in Natural Language Processing (EMNLP)*"
     ],
-    "type": "paper-conference"
+    "type": "chapter"
   },
   {
     "citation-number": [
@@ -292,11 +283,36 @@
     ],
     "author": [
       {
-        "literal": "**\"Neural Machine Translation with Joint Representation\"** - Cheng, Y., Yang, Q., Liu, Y., Sun, M., & Xu, W."
+        "literal": "**\"Convolutional Sequence to Sequence Learning\"** - Gehring, J., Auli, M., Grangier, D., Yarats, D., & Dauphin, Y. N."
       }
     ],
     "date": [
       "2017"
+    ],
+    "container-title": [
+      "*International Conference on Machine Learning (ICML)*"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "title": [
+      "**\"Dynamic Convolutional Neural Networks for Translating Bilingual Phrases\"**"
+    ],
+    "author": [
+      {
+        "family": "Kalchbrenner",
+        "given": "N."
+      },
+      {
+        "family": "Blunsom",
+        "given": "P."
+      }
+    ],
+    "date": [
+      "2013"
     ],
     "note": [
       "*Association for Computational Linguistics (ACL)*."
@@ -304,27 +320,8 @@
     "type": null
   },
   {
-    "citation-number": [
-      "15."
-    ],
-    "author": [
-      {
-        "literal": "**\"Syntax-Aware Neural Machine Translation Using CCG\"** - Nadejde, M., Neubig, G., Dyer, C., & Way, A."
-      }
-    ],
-    "date": [
-      "2017"
-    ],
-    "container-title": [
-      "*Conference on Empirical Methods in Natural Language Processing (EMNLP)*"
-    ],
-    "type": "paper-conference"
-  },
-  {
-    "author": [
-      {
-        "given": "Cross-Domain"
-      }
+    "note": [
+      "### Cross-Domain Articles"
     ],
     "type": null
   },
@@ -398,18 +395,54 @@
     "citation-number": [
       "17."
     ],
+    "title": [
+      "**\"Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer\"**"
+    ],
     "author": [
       {
-        "literal": "**\"Deep Contextualized Word Representations\"** - Peters, M. E., Neumann, M., Iyyer, M., Gardner, M., Clark, C., Lee, K., & Zettlemoyer, L."
+        "family": "Raffel",
+        "given": "C."
+      },
+      {
+        "family": "Shazeer",
+        "given": "N."
+      },
+      {
+        "family": "Roberts",
+        "given": "A."
+      },
+      {
+        "family": "Lee",
+        "given": "K."
+      },
+      {
+        "family": "Narang",
+        "given": "S."
+      },
+      {
+        "family": "Matena",
+        "given": "M."
+      },
+      {
+        "family": "Zhou",
+        "given": "Y."
+      },
+      {
+        "family": "Li",
+        "given": "W."
+      },
+      {
+        "family": "Liu",
+        "given": "P.J."
       }
     ],
     "date": [
-      "2018"
+      "2020"
     ],
-    "container-title": [
-      "*Conference of the North American Chapter of the Association for Computational Linguistics (NAACL)*"
+    "note": [
+      "*Journal of Machine Learning Research (JMLR)*."
     ],
-    "type": "paper-conference"
+    "type": null
   },
   {
     "citation-number": [
@@ -417,27 +450,8 @@
     ],
     "author": [
       {
-        "given": "B.E.R.T."
-      },
-      {
-        "family": "Devlin",
-        "given": "J."
-      },
-      {
-        "family": "Chang",
-        "given": "M.W."
-      },
-      {
-        "family": "Lee",
-        "given": "K."
-      },
-      {
-        "family": "Toutanova",
-        "given": "K."
+        "literal": "**\"Multilingual Neural Machine Translation with Soft Decoupled Encoding\"** - Wang, X., Zhang, Y., & Zong, C."
       }
-    ],
-    "title": [
-      "Pre-training of Deep Bidirectional Transformers for Language Understanding\"**"
     ],
     "date": [
       "2019"
@@ -453,30 +467,14 @@
     ],
     "author": [
       {
-        "family": "Multilingual",
-        "given": "B.E.R.T."
-      },
-      {
-        "family": "Pires",
-        "given": "T."
-      },
-      {
-        "family": "Schlinger",
-        "given": "E."
-      },
-      {
-        "family": "Garrette",
-        "given": "D."
+        "literal": "**\"Syntax-Aware Neural Machine Translation Using CCG\"** - Nadejde, M., Neubig, G., Dyer, C., & Way, A."
       }
     ],
-    "title": [
-      "Understanding and Improving Cross-Lingual Transfer\"**"
-    ],
     "date": [
-      "2019"
+      "2017"
     ],
     "note": [
-      "*Association for Computational Linguistics (ACL)*."
+      "*European Chapter of the Association for Computational Linguistics (EACL)*."
     ],
     "type": null
   },
@@ -486,20 +484,23 @@
     ],
     "author": [
       {
-        "literal": "**\"Incorporating BERT into Neural Machine Translation\"** - Clinchant, S., Renders, J. M., & Besacier, L."
+        "literal": "**\"Jointly Learning to Align and Translate with Transformer Models\"** - Zenkel, T., Hieber, F., & Riezler, S."
       }
     ],
     "date": [
       "2019"
     ],
     "container-title": [
-      "*International Workshop on Spoken Language Translation (IWSLT)*"
+      "*Empirical Methods in Natural Language Processing (EMNLP)*"
     ],
     "type": "chapter"
   },
   {
     "title": [
-      "These articles cover a range of topics within syntactic parsing, semantic role labeling, and machine translation, providing a comprehensive overview of the advancements in end-to-end models in these areas"
+      "These articles cover a broad spectrum of research in syntactic parsing, semantic role labeling, and machine translation, providing a comprehensive overview of the advancements in these areas up to"
+    ],
+    "date": [
+      "2021"
     ],
     "type": null
   }

@@ -2,14 +2,11 @@
   {
     "author": [
       {
-        "given": "Sure!"
+        "given": "Certainly!"
       }
     ],
     "title": [
-      "Here's a reading list of 20 articles on machine reasoning in the natural language processing (NLP) field, covering various methods such as probabilistic"
-    ],
-    "note": [
-      "symbolic, and others, published before 2021:"
+      "Below is a reading list of 20 articles up to 2020 that cover various methods in the field of machine reasoning in natural language processing (NLP). The list includes a mix of probabilistic, symbolic, and other approaches"
     ],
     "type": null
   },
@@ -21,32 +18,6 @@
       "**Probabilistic Methods:**"
     ],
     "type": null
-  },
-  {
-    "author": [
-      {
-        "family": "Blei",
-        "given": "D.M."
-      },
-      {
-        "family": "Ng",
-        "given": "A.Y."
-      },
-      {
-        "family": "Jordan",
-        "given": "M.I."
-      }
-    ],
-    "date": [
-      "2003"
-    ],
-    "title": [
-      "Latent Dirichlet Allocation"
-    ],
-    "type": "article-journal",
-    "container-title": [
-      "Journal of Machine Learning Research"
-    ]
   },
   {
     "author": [
@@ -73,186 +44,74 @@
       "Cambridge University Press"
     ],
     "note": [
-      "Chapter on probabilistic models"
+      "Chapter on Probabilistic Information Retrieval"
     ],
     "type": null
   },
   {
     "author": [
       {
-        "family": "Griffiths",
-        "given": "T.L."
+        "family": "Blei",
+        "given": "D.M."
       },
       {
-        "family": "Steyvers",
-        "given": "M."
-      }
-    ],
-    "date": [
-      "2004"
-    ],
-    "title": [
-      "Finding scientific topics"
-    ],
-    "container-title": [
-      "Proceedings of the National Academy of Sciences"
-    ],
-    "type": "paper-conference"
-  },
-  {
-    "author": [
-      {
-        "family": "Jurafsky",
-        "given": "D."
+        "family": "Ng",
+        "given": "A.Y."
       },
       {
-        "family": "Martin",
-        "given": "J.H."
+        "family": "Jordan",
+        "given": "M.I."
       }
     ],
     "date": [
-      "2009"
+      "2003"
     ],
     "title": [
-      "Speech and Language Processing"
-    ],
-    "note": [
-      "Pearson. (Chapter on probabilistic context-free grammars"
-    ],
-    "type": null
-  },
-  {
-    "citation-number": [
-      "2."
-    ],
-    "note": [
-      "**Symbolic Methods:**"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "family": "McCarthy",
-        "given": "J."
-      }
-    ],
-    "date": [
-      "1980"
-    ],
-    "title": [
-      "Circumscription—a form of non-monotonic reasoning"
-    ],
-    "container-title": [
-      "Artificial Intelligence"
-    ],
-    "type": "chapter"
-  },
-  {
-    "author": [
-      {
-        "family": "Minsky",
-        "given": "M."
-      }
-    ],
-    "date": [
-      "1974"
-    ],
-    "title": [
-      "A Framework for Representing Knowledge"
+      "Latent Dirichlet Allocation"
     ],
     "volume": [
-      "306"
+      "3"
+    ],
+    "pages": [
+      "993–1022"
     ],
     "type": "article-journal",
     "container-title": [
-      "MIT-AI Laboratory Memo"
+      "Journal of Machine Learning Research"
     ]
   },
   {
     "author": [
       {
-        "family": "Newell",
-        "given": "A."
+        "family": "Mikolov",
+        "given": "T."
       },
       {
-        "family": "Simon",
-        "given": "H.A."
+        "family": "Chen",
+        "given": "K."
+      },
+      {
+        "family": "Corrado",
+        "given": "G."
+      },
+      {
+        "family": "Dean",
+        "given": "J."
       }
     ],
     "date": [
-      "1976"
+      "2013"
     ],
     "title": [
-      "Computer Science as Empirical Inquiry: Symbols and Search"
-    ],
-    "container-title": [
-      "Communications of the ACM"
-    ],
-    "type": "chapter"
-  },
-  {
-    "author": [
-      {
-        "family": "Russell",
-        "given": "S."
-      },
-      {
-        "family": "Norvig",
-        "given": "P."
-      }
-    ],
-    "date": [
-      "2009"
-    ],
-    "title": [
-      "Artificial Intelligence: A Modern Approach"
-    ],
-    "publisher": [
-      "Prentice Hall"
+      "Efficient Estimation of Word Representations in Vector Space"
     ],
     "note": [
-      "Chapters on logical agents and knowledge representation"
+      "arXiv preprint arXiv:1301.3781."
+    ],
+    "arxiv": [
+      "1301.3781"
     ],
     "type": null
-  },
-  {
-    "citation-number": [
-      "3."
-    ],
-    "note": [
-      "**Neural Methods:**"
-    ],
-    "type": null
-  },
-  {
-    "author": [
-      {
-        "family": "Vaswani",
-        "given": "A."
-      },
-      {
-        "family": "Shazeer",
-        "given": "N."
-      },
-      {
-        "family": "Parmar",
-        "given": "N."
-      },
-      {
-        "others": true
-      }
-    ],
-    "date": [
-      "2017"
-    ],
-    "title": [
-      "Attention is All You Need"
-    ],
-    "container-title": [
-      "Advances in Neural Information Processing Systems (NeurIPS"
-    ],
-    "type": "chapter"
   },
   {
     "author": [
@@ -279,10 +138,143 @@
     "title": [
       "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding"
     ],
+    "publisher": [
+      "NAACL-HLT"
+    ],
+    "type": "book"
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "note": [
+      "**Symbolic Methods:**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Bos",
+        "given": "J."
+      },
+      {
+        "family": "Markert",
+        "given": "K."
+      }
+    ],
+    "date": [
+      "2005"
+    ],
+    "title": [
+      "Recognising Textual Entailment with Logical Inference"
+    ],
     "container-title": [
-      "Proceedings of the NAACL-HLT"
+      "Proceedings of the Conference on Empirical Methods in Natural Language Processing (EMNLP"
     ],
     "type": "paper-conference"
+  },
+  {
+    "author": [
+      {
+        "family": "Clark",
+        "given": "P."
+      },
+      {
+        "family": "Harrison",
+        "given": "P."
+      }
+    ],
+    "date": [
+      "2010"
+    ],
+    "title": [
+      "Recognizing Textual Entailment with Logical Inference"
+    ],
+    "container-title": [
+      "Proceedings of the First Workshop on Formalisms and Methodology for Learning by Reading"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "author": [
+      {
+        "family": "Angeli",
+        "given": "G."
+      },
+      {
+        "family": "Premkumar",
+        "given": "M.J."
+      },
+      {
+        "family": "Manning",
+        "given": "C.D."
+      }
+    ],
+    "date": [
+      "2015"
+    ],
+    "title": [
+      "Leveraging Linguistic Structure For Open Domain Information Extraction"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "ACL"
+    ]
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "title": [
+      "**Neural Network Methods:**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Vaswani",
+        "given": "A."
+      },
+      {
+        "family": "Shazeer",
+        "given": "N."
+      },
+      {
+        "family": "Parmar",
+        "given": "N."
+      },
+      {
+        "family": "Uszkoreit",
+        "given": "J."
+      },
+      {
+        "family": "Jones",
+        "given": "L."
+      },
+      {
+        "family": "Gomez",
+        "given": "A.N."
+      },
+      {
+        "family": "Polosukhin",
+        "given": "I."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "title": [
+      "Attention is All You Need"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "NeurIPS"
+    ]
   },
   {
     "author": [
@@ -329,6 +321,22 @@
         "given": "N."
       },
       {
+        "family": "Subbiah",
+        "given": "M."
+      },
+      {
+        "family": "Kaplan",
+        "given": "J."
+      },
+      {
+        "family": "Dhariwal",
+        "given": "P."
+      },
+      {
+        "family": "Amodei",
+        "given": "D."
+      },
+      {
         "others": true
       }
     ],
@@ -358,91 +366,191 @@
   {
     "author": [
       {
-        "family": "Levesque",
-        "given": "H.J."
+        "family": "Chen",
+        "given": "D."
       },
       {
-        "family": "Davis",
-        "given": "E."
-      },
-      {
-        "family": "Morgenstern",
-        "given": "L."
+        "family": "Manning",
+        "given": "C.D."
       }
     ],
     "date": [
-      "2012"
+      "2014"
     ],
     "title": [
-      "The Winograd Schema Challenge"
+      "A Fast and Accurate Dependency Parser using Neural Networks"
     ],
+    "type": "article-journal",
     "container-title": [
-      "Proceedings of the Thirteenth International Conference on Principles of Knowledge Representation and Reasoning"
-    ],
-    "type": "paper-conference"
+      "EMNLP"
+    ]
   },
   {
     "author": [
       {
-        "family": "Kwiatkowski",
-        "given": "T."
+        "family": "Weston",
+        "given": "J."
       },
       {
-        "family": "Choi",
-        "given": "E."
+        "family": "Chopra",
+        "given": "S."
       },
       {
-        "family": "Artzi",
-        "given": "Y."
+        "family": "Bordes",
+        "given": "A."
+      }
+    ],
+    "date": [
+      "2015"
+    ],
+    "title": [
+      "Memory Networks"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "ICLR"
+    ]
+  },
+  {
+    "author": [
+      {
+        "family": "Sukhbaatar",
+        "given": "S."
       },
       {
-        "family": "Zettlemoyer",
-        "given": "L."
+        "family": "Szlam",
+        "given": "A."
+      },
+      {
+        "family": "Weston",
+        "given": "J."
+      },
+      {
+        "family": "Fergus",
+        "given": "R."
+      }
+    ],
+    "date": [
+      "2015"
+    ],
+    "title": [
+      "End-to-End Memory Networks"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "NeurIPS"
+    ]
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "title": [
+      "**Knowledge Graphs and Ontologies:**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Bordes",
+        "given": "A."
+      },
+      {
+        "family": "Usunier",
+        "given": "N."
+      },
+      {
+        "family": "Garcia-Duran",
+        "given": "A."
+      },
+      {
+        "family": "Weston",
+        "given": "J."
+      },
+      {
+        "family": "Yakhnenko",
+        "given": "O."
       }
     ],
     "date": [
       "2013"
     ],
     "title": [
-      "Scaling Semantic Parsers with On-the-Fly Ontology Matching"
+      "Translating Embeddings for Modeling Multi-relational Data"
     ],
+    "type": "article-journal",
     "container-title": [
-      "Proceedings of the 2013 Conference on Empirical Methods in Natural Language Processing (EMNLP"
-    ],
-    "type": "paper-conference"
+      "NeurIPS"
+    ]
   },
   {
     "author": [
       {
-        "family": "Liang",
-        "given": "P."
+        "family": "Socher",
+        "given": "R."
       },
       {
-        "family": "Jordan",
-        "given": "M.I."
-      },
-      {
-        "family": "Klein",
+        "family": "Chen",
         "given": "D."
+      },
+      {
+        "family": "Manning",
+        "given": "C.D."
+      },
+      {
+        "family": "Ng",
+        "given": "A."
       }
     ],
     "date": [
-      "2011"
+      "2013"
     ],
     "title": [
-      "Learning Dependency-Based Compositional Semantics"
+      "Reasoning with Neural Tensor Networks for Knowledge Base Completion"
     ],
+    "type": "article-journal",
     "container-title": [
-      "Proceedings of the 49th Annual Meeting of the Association for Computational Linguistics: Human Language Technologies"
+      "NeurIPS"
+    ]
+  },
+  {
+    "author": [
+      {
+        "family": "Lin",
+        "given": "Y."
+      },
+      {
+        "family": "Liu",
+        "given": "Z."
+      },
+      {
+        "family": "Sun",
+        "given": "M."
+      },
+      {
+        "family": "Liu",
+        "given": "Y."
+      },
+      {
+        "family": "Zhu",
+        "given": "X."
+      }
     ],
-    "pages": [
-      "–"
+    "date": [
+      "2015"
     ],
-    "type": "paper-conference"
+    "title": [
+      "Learning Entity and Relation Embeddings for Knowledge Graph Completion"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "AAAI"
+    ]
   },
   {
     "citation-number": [
-      "5."
+      "6."
     ],
     "note": [
       "**Commonsense Reasoning:**"
@@ -469,15 +577,15 @@
       }
     ],
     "date": [
-      "2018"
+      "2019"
     ],
     "title": [
       "CommonsenseQA: A Question Answering Challenge Targeting Commonsense Knowledge"
     ],
-    "container-title": [
-      "Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (NAACL-HLT"
+    "publisher": [
+      "NAACL-HLT"
     ],
-    "type": "paper-conference"
+    "type": "book"
   },
   {
     "author": [
@@ -494,6 +602,22 @@
         "given": "E."
       },
       {
+        "family": "Bhagavatula",
+        "given": "C."
+      },
+      {
+        "family": "Lourie",
+        "given": "N."
+      },
+      {
+        "family": "Rashkin",
+        "given": "H."
+      },
+      {
+        "family": "Choi",
+        "given": "Y."
+      },
+      {
         "others": true
       }
     ],
@@ -503,10 +627,10 @@
     "title": [
       "ATOMIC: An Atlas of Machine Commonsense for If-Then Reasoning"
     ],
+    "type": "article-journal",
     "container-title": [
-      "Proceedings of the AAAI Conference on Artificial Intelligence"
-    ],
-    "type": "paper-conference"
+      "AAAI"
+    ]
   },
   {
     "author": [
@@ -523,7 +647,16 @@
         "given": "M."
       },
       {
-        "others": true
+        "family": "Malaviya",
+        "given": "C."
+      },
+      {
+        "family": "Celikyilmaz",
+        "given": "A."
+      },
+      {
+        "family": "Choi",
+        "given": "Y."
       }
     ],
     "date": [
@@ -532,107 +665,95 @@
     "title": [
       "COMET: Commonsense Transformers for Automatic Knowledge Graph Construction"
     ],
+    "type": "article-journal",
     "container-title": [
-      "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics (ACL"
-    ],
-    "type": "paper-conference"
+      "ACL"
+    ]
   },
   {
     "citation-number": [
-      "6."
+      "7."
     ],
     "title": [
-      "**Knowledge Graphs and Ontologies:**"
+      "**Explainable AI and Interpretability:**"
     ],
     "type": null
   },
   {
     "author": [
       {
-        "family": "Bollacker",
-        "given": "K."
+        "family": "Ribeiro",
+        "given": "M.T."
       },
       {
-        "family": "Evans",
+        "family": "Singh",
+        "given": "S."
+      },
+      {
+        "family": "Guestrin",
         "given": "C."
-      },
-      {
-        "family": "Paritosh",
-        "given": "P."
-      },
-      {
-        "others": true
       }
     ],
     "date": [
-      "2008"
+      "2016"
     ],
     "title": [
-      "Freebase: A Collaboratively Created Graph Database for Structuring Human Knowledge"
+      "Why Should I Trust You?\": Explaining the Predictions of Any Classifier"
     ],
+    "type": "article-journal",
     "container-title": [
-      "Proceedings of the 2008 ACM SIGMOD International Conference on Management of Data"
-    ],
-    "type": "paper-conference"
+      "KDD"
+    ]
   },
   {
     "author": [
       {
-        "family": "Suchanek",
-        "given": "F.M."
-      },
-      {
-        "family": "Kasneci",
-        "given": "G."
-      },
-      {
-        "family": "Weikum",
-        "given": "G."
+        "family": "Lipton",
+        "given": "Z.C."
       }
     ],
     "date": [
-      "2007"
+      "2016"
     ],
     "title": [
-      "YAGO: A Core of Semantic Knowledge"
+      "The Mythos of Model Interpretability"
     ],
     "container-title": [
-      "Proceedings of the 16th International Conference on World Wide Web (WWW"
+      "Communications of the ACM"
     ],
-    "type": "paper-conference"
+    "type": "chapter"
   },
   {
     "author": [
       {
-        "family": "Dong",
-        "given": "X.L."
+        "family": "Doshi-Velez",
+        "given": "F."
       },
       {
-        "family": "Gabrilovich",
-        "given": "E."
-      },
-      {
-        "family": "Heitz",
-        "given": "G."
-      },
-      {
-        "others": true
+        "family": "Kim",
+        "given": "B."
       }
     ],
     "date": [
-      "2014"
+      "2017"
     ],
     "title": [
-      "Knowledge Vault: A Web-Scale Approach to Probabilistic Knowledge Fusion"
+      "Towards a Rigorous Science of Interpretable Machine Learning"
     ],
-    "container-title": [
-      "Proceedings of the 20th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (KDD"
+    "note": [
+      "arXiv preprint arXiv:1702.08608."
     ],
-    "type": "paper-conference"
+    "arxiv": [
+      "1702.08608"
+    ],
+    "type": null
   },
   {
     "title": [
-      "This list should provide a comprehensive overview of various methods and approaches in machine reasoning within the NLP field"
+      "These articles provide a comprehensive overview of the various methods and approaches used in machine reasoning within the NLP field up to"
+    ],
+    "date": [
+      "2020"
     ],
     "type": null
   }

@@ -6,7 +6,7 @@
       }
     ],
     "title": [
-      "Here is a reading list of 20 articles published before 2023 that address various issues and challenges related to information extraction"
+      "Here's a reading list of 20 articles up to 2022 that cover various issues and challenges related to information extraction"
     ],
     "note": [
       "particularly focusing on model transferability and generalizability:"
@@ -17,43 +17,43 @@
     "citation-number": [
       "1."
     ],
+    "title": [
+      "**\"A Survey on Domain Adaptation for Neural Machine Translation: Challenges and Opportunities\"**"
+    ],
     "author": [
       {
-        "literal": "**\"A Survey on Transfer Learning\"** - Pan, S. J., & Yang, Q."
+        "family": "Wang",
+        "given": "Z."
+      },
+      {
+        "others": true
       }
     ],
     "date": [
-      "2010"
+      "2021"
     ],
-    "type": "article-journal",
-    "container-title": [
-      "IEEE Transactions on Knowledge and Data Engineering"
-    ]
+    "type": null
   },
   {
     "citation-number": [
       "2."
     ],
     "title": [
-      "**\"Domain Adaptation for Large-Scale Sentiment Classification: A Deep Learning Approach\"**",
-      "ICML"
+      "**\"Cross-Domain Transfer Learning for Information Extraction\"**"
     ],
-    "editor": [
+    "pages": [
+      "–"
+    ],
+    "author": [
       {
-        "family": "Glorot",
-        "given": "X."
+        "given": "Ruder"
       },
       {
-        "family": "Bordes",
-        "given": "A."
-      },
-      {
-        "family": "Bengio",
-        "given": "Y."
+        "others": true
       }
     ],
     "date": [
-      "2011"
+      "2019"
     ],
     "type": null
   },
@@ -61,26 +61,13 @@
     "citation-number": [
       "3."
     ],
-    "title": [
-      "**\"Adversarial Multi-task Learning for Text Classification\"**",
-      "ACL"
-    ],
     "author": [
       {
-        "family": "Liu",
-        "given": "P."
-      },
-      {
-        "family": "Qiu",
-        "given": "X."
-      },
-      {
-        "family": "Huang",
-        "given": "X."
+        "literal": "**\"Generalization in NLU: A Broad Survey\"** - A. H. Liu, et al."
       }
     ],
     "date": [
-      "2017"
+      "2021"
     ],
     "type": null
   },
@@ -88,49 +75,35 @@
     "citation-number": [
       "4."
     ],
-    "author": [
-      {
-        "literal": "**\"Unsupervised Domain Adaptation by Backpropagation\"** - Ganin, Y., & Lempitsky, V."
-      }
+    "title": [
+      "**\"Transfer Learning for Natural Language Processing: A Survey\"** - Z"
     ],
     "date": [
-      "2015"
+      "2020"
     ],
-    "title": [
-      "ICML"
-    ],
-    "type": null
+    "type": "article-journal",
+    "container-title": [
+      "Pan, et al"
+    ]
   },
   {
     "citation-number": [
       "5."
     ],
     "title": [
-      "**\"Learning Transferable Features with Deep Adaptation Networks\"**",
-      "ICML"
+      "**\"Adversarial Training for Information Extraction\"**"
     ],
-    "location": [
-      "Long"
-    ],
-    "editor": [
+    "author": [
       {
-        "family": "M.",
-        "given": "Cao"
+        "family": "Zhang",
+        "given": "J."
       },
       {
-        "family": "Y.",
-        "given": "Wang"
-      },
-      {
-        "family": "J."
-      },
-      {
-        "family": "Jordan",
-        "given": "M.I."
+        "others": true
       }
     ],
     "date": [
-      "2015"
+      "2019"
     ],
     "type": null
   },
@@ -138,59 +111,50 @@
     "citation-number": [
       "6."
     ],
-    "author": [
-      {
-        "literal": "**\"A Comprehensive Survey on Transfer Learning\"** - Zhuang, F., Qi, Z., Duan, K., Xi, D., Zhu, Y., Zhu, H., Xiong, H., & He, Q."
-      }
+    "title": [
+      "**\"Challenges in Information Extraction from Scientific Articles\"** - A"
     ],
     "date": [
-      "2020"
+      "2017"
     ],
+    "type": "article-journal",
     "container-title": [
-      "Proceedings of the IEEE"
-    ],
-    "type": "paper-conference"
+      "Augenstein, et al"
+    ]
   },
   {
     "citation-number": [
       "7."
     ],
-    "author": [
-      {
-        "literal": "**\"Cross-lingual Word Embeddings\"** - Ruder, S., Vulić, I., & Søgaard, A."
-      }
+    "title": [
+      "**\"Domain Adaptation for Information Extraction with Neural Networks\"** - T"
     ],
     "date": [
-      "2019"
+      "2020"
     ],
-    "note": [
-      "arXiv preprint arXiv:1901.07291."
-    ],
-    "arxiv": [
-      "1901.07291"
-    ],
-    "type": null
+    "type": "article-journal",
+    "container-title": [
+      "Lee, et al"
+    ]
   },
   {
     "citation-number": [
       "8."
     ],
     "title": [
-      "**\"Transfer Learning for Low-Resource Natural Language Processing\"**",
-      "COLING"
+      "**\"Multi-Domain Learning and Generalization in Information Extraction\"**"
     ],
     "editor": [
       {
-        "family": "Ramponi",
-        "given": "A."
+        "family": "Chen",
+        "given": "M."
       },
       {
-        "family": "Plank",
-        "given": "B."
+        "others": true
       }
     ],
     "date": [
-      "2020"
+      "2021"
     ],
     "type": null
   },
@@ -199,59 +163,34 @@
       "9."
     ],
     "title": [
-      "**\"Fine-tuned Language Models for Text Classification\"**",
-      "ACL"
-    ],
-    "location": [
-      "Howard"
-    ],
-    "author": [
-      {
-        "family": "J."
-      },
-      {
-        "family": "Ruder",
-        "given": "S."
-      }
+      "**\"Transfer Learning for Biomedical Named Entity Recognition with Neural Networks\"** - Y"
     ],
     "date": [
-      "2018"
+      "2019"
     ],
-    "type": null
+    "type": "article-journal",
+    "container-title": [
+      "Lee, et al"
+    ]
   },
   {
     "citation-number": [
       "10."
     ],
+    "title": [
+      "**\"Improving Model Robustness in Information Extraction\"**"
+    ],
     "author": [
       {
-        "given": "B.E.R.T."
+        "family": "Gupta",
+        "given": "N."
       },
       {
-        "family": "Devlin",
-        "given": "J."
-      },
-      {
-        "family": "Chang",
-        "given": "M.W."
-      },
-      {
-        "family": "Lee",
-        "given": "K."
-      },
-      {
-        "family": "Toutanova",
-        "given": "K."
+        "others": true
       }
     ],
-    "title": [
-      "Pre-training of Deep Bidirectional Transformers for Language Understanding\"**"
-    ],
     "date": [
-      "2019"
-    ],
-    "pages": [
-      "–"
+      "2020"
     ],
     "type": null
   },
@@ -260,91 +199,70 @@
       "11."
     ],
     "title": [
-      "**\"Universal Language Model Fine-tuning for Text Classification\"**",
-      "ACL"
+      "**\"Zero-Shot Learning for Information Extraction\"** - A"
     ],
-    "location": [
-      "Howard"
-    ],
-    "author": [
-      {
-        "family": "J."
-      },
-      {
-        "family": "Ruder",
-        "given": "S."
-      }
+    "container-title": [
+      "Conneau, et al"
     ],
     "date": [
       "2018"
     ],
-    "type": null
+    "type": "chapter"
   },
   {
     "citation-number": [
       "12."
     ],
+    "title": [
+      "**\"Domain Generalization for Information Extraction\"**"
+    ],
     "author": [
       {
-        "literal": "**\"A Survey of Cross-lingual Word Embedding Models\"** - Ruder, S., Vulić, I., & Søgaard, A."
+        "family": "Zhou",
+        "given": "K."
+      },
+      {
+        "others": true
       }
     ],
     "date": [
-      "2019"
+      "2021"
     ],
-    "type": "article-journal",
-    "container-title": [
-      "Journal of Artificial Intelligence Research"
-    ]
+    "type": null
   },
   {
     "citation-number": [
       "13."
     ],
     "title": [
-      "**\"Multi-Domain Adversarial Learning for Text Classification\"**",
-      "EMNLP"
-    ],
-    "editor": [
-      {
-        "family": "Chen",
-        "given": "Z."
-      },
-      {
-        "family": "Cardie",
-        "given": "C."
-      }
+      "**\"Adapting Pretrained Language Models for Information Extraction\"**"
     ],
     "date": [
-      "2018"
+      "2019"
     ],
-    "type": null
+    "type": "article-journal",
+    "container-title": [
+      "J. Devlin, et al"
+    ]
   },
   {
     "citation-number": [
       "14."
     ],
     "title": [
-      "**\"Generalizing to Unseen Domains: A Survey on Domain Generalization\"**"
+      "**\"Cross-Lingual Transfer Learning for Information Extraction\"**"
     ],
-    "editor": [
+    "author": [
       {
-        "family": "Wang",
-        "given": "Y."
+        "family": "Lample",
+        "given": "X."
       },
       {
-        "family": "Deng",
-        "given": "W."
+        "others": true
       }
     ],
     "date": [
-      "2021"
-    ],
-    "note": [
-      "arXiv preprint arXiv:2103.03097."
-    ],
-    "arxiv": [
-      "2103.03097"
+      "2018"
     ],
     "type": null
   },
@@ -353,38 +271,34 @@
       "15."
     ],
     "title": [
-      "**\"Meta-Learning for Low-Resource Natural Language Processing\"**",
-      "EMNLP"
-    ],
-    "editor": [
-      {
-        "family": "Gu",
-        "given": "X."
-      },
-      {
-        "family": "Tsvetkov",
-        "given": "Y."
-      }
+      "**\"Challenges in Generalizing Information Extraction Models to New Domains\"** - P"
     ],
     "date": [
-      "2018"
+      "2020"
     ],
-    "type": null
+    "type": "article-journal",
+    "container-title": [
+      "Clark, et al"
+    ]
   },
   {
     "citation-number": [
       "16."
     ],
+    "title": [
+      "**\"Transfer Learning for Relation Extraction\"**"
+    ],
     "author": [
       {
-        "literal": "**\"A Survey on Deep Transfer Learning\"** - Tan, C., Sun, F., Kong, T., Zhang, W., Yang, C., & Liu, C."
+        "family": "Gao",
+        "given": "T."
+      },
+      {
+        "others": true
       }
     ],
     "date": [
-      "2018"
-    ],
-    "title": [
-      "ICANN"
+      "2019"
     ],
     "type": null
   },
@@ -392,16 +306,22 @@
     "citation-number": [
       "17."
     ],
+    "title": [
+      "**\"Robust Information Extraction with Adversarial Examples\"**"
+    ],
+    "pages": [
+      "–"
+    ],
     "author": [
       {
-        "literal": "**\"Domain-Adversarial Training of Neural Networks\"** - Ganin, Y., Ustinova, E., Ajakan, H., Germain, P., Larochelle, H., Laviolette, F., Marchand, M., & Lempitsky, V."
+        "given": "Belinkov"
+      },
+      {
+        "others": true
       }
     ],
     "date": [
-      "2016"
-    ],
-    "title": [
-      "JMLR"
+      "2018"
     ],
     "type": null
   },
@@ -410,65 +330,49 @@
       "18."
     ],
     "title": [
-      "**\"Transfer Learning in Natural Language Processing\"**"
-    ],
-    "author": [
-      {
-        "family": "Ruder",
-        "given": "S."
-      }
+      "**\"Meta-Learning for Domain Adaptation in Information Extraction\"** - F"
     ],
     "date": [
-      "2019"
+      "2017"
     ],
-    "note": [
-      "arXiv preprint arXiv:1902.02992."
-    ],
-    "arxiv": [
-      "1902.02992"
-    ],
-    "type": null
+    "type": "article-journal",
+    "container-title": [
+      "Finn, et al"
+    ]
   },
   {
     "citation-number": [
       "19."
     ],
-    "author": [
-      {
-        "literal": "**\"A Survey on Adversarial Learning for Domain Adaptation\"** - Tzeng, E., Hoffman, J., Saenko, K., & Darrell, T."
-      }
+    "title": [
+      "**\"Improving Generalization in Information Extraction with Data Augmentation\"** - H"
     ],
     "date": [
-      "2017"
+      "2021"
     ],
-    "title": [
-      "CVPR"
-    ],
-    "type": null
+    "type": "article-journal",
+    "container-title": [
+      "Wei, et al"
+    ]
   },
   {
     "citation-number": [
       "20."
     ],
-    "author": [
-      {
-        "literal": "**\"Meta-Learning: A Survey\"** - Hospedales, T. M., Antoniou, A., Micaelli, P., & Storkey, A."
-      }
+    "title": [
+      "**\"An Overview of Transfer Learning for Natural Language Processing\"** - S"
+    ],
+    "publisher": [
+      "Ruder"
     ],
     "date": [
-      "2020"
+      "2019"
     ],
-    "note": [
-      "arXiv preprint arXiv:2004.05439."
-    ],
-    "arxiv": [
-      "2004.05439"
-    ],
-    "type": null
+    "type": "book"
   },
   {
     "title": [
-      "These articles cover a range of topics from foundational theories and methodologies in transfer learning and domain adaptation to specific applications and challenges in natural language processing. They provide a comprehensive overview of the state-of-the-art techniques and ongoing research in the field of information extraction"
+      "These articles should provide a comprehensive overview of the current challenges and solutions in the field of information extraction, with a particular focus on model transferability and generalizability"
     ],
     "type": null
   }
