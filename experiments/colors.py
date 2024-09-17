@@ -1,1 +1,1 @@
-colormap = ['#1E88E5', '#D81B60', '#FFC107', '#004D40']
+colormap = ['#18dcff', '#ffaf40', '#ff7979']

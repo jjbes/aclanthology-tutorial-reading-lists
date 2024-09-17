@@ -14,6 +14,10 @@ def generate_list(path):
             if "citation-number" in item and "title" in item:
                 title = item["title"][0]
 
+                year = None
+                if "date" in item:
+                    year = int(item["date"][0])
+
                 find_title_bold = re.compile("\*(.+?)\*")
                 find_title_partial_bold = re.compile("(.+?)\*")
                 if find_title_bold.findall(title):
@@ -21,7 +25,7 @@ def generate_list(path):
                 elif find_title_partial_bold.findall(title):
                     title = find_title_partial_bold.findall(title)[0]
 
-                yield {"title":title.strip('"').strip('*').strip('"')}
+                yield {"title":title.strip('"').strip('*').strip('"'), "year":year}
     
 for annotator_i in [1,2,3]:
     for run_i in [1,2,3]:

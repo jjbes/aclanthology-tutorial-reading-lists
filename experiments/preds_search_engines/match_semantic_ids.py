@@ -32,11 +32,13 @@ def match_semantic_scholar_id(preds):
             matched[k] = []
     return matched
 
-#for annotator_i in [1,2,3]:
-#    preds_google_scholar_annot_ids = match_semantic_scholar_id(json.loads(Path(f'preds/google_scholar/preds_annot{annotator_i}.json').read_text()))
-#    with open(f'preds/google_scholar/preds_annot{annotator_i}.json', 'w') as f:
-#        json.dump(preds_google_scholar_annot_ids, f)
+# Google Scholar
+for annotator_i in [1,2,3]:
+    preds_google_scholar_annot_ids = match_semantic_scholar_id(json.loads(Path(f'preds/google_scholar/preds_annot{annotator_i}.json').read_text()))
+    with open(f'preds/google_scholar/preds_annot{annotator_i}.json', 'w') as f:
+        json.dump(preds_google_scholar_annot_ids, f)
 
+# GPT-4o
 for annotator_i in [1,2,3]:
     for run_i in [1,2,3]:
         preds_gpt4o_annot_ids = match_semantic_scholar_id(json.loads(Path(f'preds/gpt-4o/run{run_i}/preds_annot{annotator_i}.json').read_text()))
