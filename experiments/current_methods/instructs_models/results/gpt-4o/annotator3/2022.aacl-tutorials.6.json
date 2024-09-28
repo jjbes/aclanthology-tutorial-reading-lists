@@ -1,0 +1,832 @@
+[
+  {
+    "author": [
+      {
+        "given": "Sure!"
+      }
+    ],
+    "title": [
+      "Here's a reading list of 20 articles up to 2022 that focus on multilingual semantics, particularly in the areas of word sense disambiguation"
+    ],
+    "note": [
+      "WSD), semantic role labeling (SRL), and semantic parsing:"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "author": [
+      {
+        "family": "Navigli",
+        "given": "R."
+      }
+    ],
+    "date": [
+      "2009"
+    ],
+    "title": [
+      "Word Sense Disambiguation: A Survey"
+    ],
+    "container-title": [
+      "ACM Computing Surveys.**"
+    ],
+    "type": "chapter"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "A comprehensive survey on WSD techniques, including multilingual approaches"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "author": [
+      {
+        "family": "Raganato",
+        "given": "A."
+      },
+      {
+        "family": "Camacho-Collados",
+        "given": "J."
+      },
+      {
+        "family": "Navigli",
+        "given": "R."
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "title": [
+      "Word Sense Disambiguation: A Unified Evaluation Framework and Empirical Comparison"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "EACL.**"
+    ]
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Presents a unified evaluation framework for WSD and compares various methods"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "author": [
+      {
+        "family": "Moro",
+        "given": "A."
+      },
+      {
+        "family": "Raganato",
+        "given": "A."
+      },
+      {
+        "family": "Navigli",
+        "given": "R."
+      }
+    ],
+    "date": [
+      "2014"
+    ],
+    "title": [
+      "Entity Linking meets Word Sense Disambiguation: A Unified Approach"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "TACL.**"
+    ]
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Discusses a unified approach to entity linking and WSD, with multilingual considerations"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "author": [
+      {
+        "family": "Pavlick",
+        "given": "E."
+      },
+      {
+        "family": "Callison-Burch",
+        "given": "C."
+      }
+    ],
+    "date": [
+      "2016"
+    ],
+    "title": [
+      "Simple PPDB: A Paraphrase Database for Simplification"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "ACL.**"
+    ]
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Introduces a paraphrase database useful for multilingual semantic tasks"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "author": [
+      {
+        "family": "Conia",
+        "given": "S."
+      },
+      {
+        "family": "Navigli",
+        "given": "R."
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "title": [
+      "Conception: Multilingually-Enhanced, Human-Readable Concept Vector Representations"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "ACL.**"
+    ]
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Proposes a multilingual concept vector representation for semantic tasks"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "author": [
+      {
+        "family": "Pires",
+        "given": "T."
+      },
+      {
+        "family": "Schlinger",
+        "given": "E."
+      },
+      {
+        "family": "Garrette",
+        "given": "D."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "title": [
+      "How Multilingual is Multilingual BERT?"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "ACL.**"
+    ]
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Analyzes the multilingual capabilities of BERT, relevant for WSD and SRL"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "author": [
+      {
+        "family": "Akbik",
+        "given": "A."
+      },
+      {
+        "family": "Bergmann",
+        "given": "T."
+      },
+      {
+        "family": "Blythe",
+        "given": "D."
+      },
+      {
+        "family": "Rasul",
+        "given": "K."
+      },
+      {
+        "family": "Schweter",
+        "given": "S."
+      },
+      {
+        "family": "Vollgraf",
+        "given": "R."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "title": [
+      "FLAIR: An Easy-to-Use Framework for State-of-the-Art NLP"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "NAACL.**"
+    ]
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Introduces FLAIR, a framework supporting multilingual NLP tasks including WSD and SRL"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "author": [
+      {
+        "family": "Marcheggiani",
+        "given": "D."
+      },
+      {
+        "family": "Titov",
+        "given": "I."
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "title": [
+      "Encoding Sentences with Graph Convolutional Networks for Semantic Role Labeling"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "EMNLP.**"
+    ]
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Discusses the use of graph convolutional networks for SRL in a multilingual context"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "author": [
+      {
+        "family": "Mulcaire",
+        "given": "P."
+      },
+      {
+        "family": "Swayamdipta",
+        "given": "S."
+      },
+      {
+        "family": "Smith",
+        "given": "N.A."
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "title": [
+      "Polyglot Semantic Role Labeling"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "ACL.**"
+    ]
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Explores SRL across multiple languages using a polyglot approach"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "author": [
+      {
+        "family": "Ouchi",
+        "given": "H."
+      },
+      {
+        "family": "Tsuboi",
+        "given": "Y."
+      }
+    ],
+    "date": [
+      "2016"
+    ],
+    "title": [
+      "Addressee and Speaker Recognition in Multiparty Conversations with Speaker Consistency"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "ACL.**"
+    ]
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Focuses on SRL in multiparty conversations, with multilingual implications"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "author": [
+      {
+        "family": "Artetxe",
+        "given": "M."
+      },
+      {
+        "family": "Labaka",
+        "given": "G."
+      },
+      {
+        "family": "Agirre",
+        "given": "E."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "title": [
+      "An Effective Approach to Unsupervised Machine Translation"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "ACL.**"
+    ]
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Discusses unsupervised machine translation, relevant for multilingual semantic parsing"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "author": [
+      {
+        "family": "Ruder",
+        "given": "S."
+      },
+      {
+        "family": "Vulic",
+        "given": "I."
+      },
+      {
+        "family": "Søgaard",
+        "given": "A."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "title": [
+      "A Survey of Cross-lingual Word Embedding Models"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "Journal of Artificial Intelligence Research.**"
+    ]
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Surveys cross-lingual word embeddings, foundational for multilingual semantic tasks"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "author": [
+      {
+        "family": "Ammar",
+        "given": "W."
+      },
+      {
+        "family": "Mulcaire",
+        "given": "P."
+      },
+      {
+        "family": "Tsvetkov",
+        "given": "Y."
+      },
+      {
+        "family": "Lample",
+        "given": "G."
+      },
+      {
+        "family": "Dyer",
+        "given": "C."
+      },
+      {
+        "family": "Smith",
+        "given": "N.A."
+      }
+    ],
+    "date": [
+      "2016"
+    ],
+    "title": [
+      "Massively Multilingual Word Embeddings"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "ACL.**"
+    ]
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Introduces multilingual word embeddings, useful for WSD and SRL"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "author": [
+      {
+        "family": "Kondratyuk",
+        "given": "D."
+      },
+      {
+        "family": "Straka",
+        "given": "M."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "title": [
+      "75 Languages, 1 Model: Parsing Universal Dependencies Universally"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "EMNLP.**"
+    ]
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Discusses a universal model for dependency parsing across multiple languages"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "author": [
+      {
+        "family": "Liu",
+        "given": "Y."
+      },
+      {
+        "family": "Ott",
+        "given": "M."
+      },
+      {
+        "family": "Goyal",
+        "given": "N."
+      },
+      {
+        "family": "Du",
+        "given": "J."
+      },
+      {
+        "family": "Joshi",
+        "given": "M."
+      },
+      {
+        "family": "Chen",
+        "given": "D."
+      },
+      {
+        "family": "Stoyanov",
+        "given": "V."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "title": [
+      "RoBERTa: A Robustly Optimized BERT Pretraining Approach"
+    ],
+    "note": [
+      "arXiv preprint arXiv:1907.11692.**"
+    ],
+    "arxiv": [
+      "1907.11692"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Introduces RoBERTa, a model with strong multilingual capabilities for semantic tasks"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "author": [
+      {
+        "family": "Conia",
+        "given": "S."
+      },
+      {
+        "family": "Navigli",
+        "given": "R."
+      }
+    ],
+    "date": [
+      "2021"
+    ],
+    "title": [
+      "Framing Word Sense Disambiguation as a Multi-Label Problem for Model-Agnostic Knowledge Integration"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "ACL.**"
+    ]
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Proposes a multi-label approach to WSD, with multilingual applications"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "author": [
+      {
+        "family": "Swayamdipta",
+        "given": "S."
+      },
+      {
+        "family": "Thomson",
+        "given": "S."
+      },
+      {
+        "family": "Dyer",
+        "given": "C."
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "title": [
+      "Frame-Semantic Parsing with Softmax-Margin Segmental RNNs and a Syntactic Scaffold"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "EMNLP.**"
+    ]
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Discusses frame-semantic parsing, relevant for multilingual semantic parsing"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "author": [
+      {
+        "family": "Roth",
+        "given": "M."
+      },
+      {
+        "family": "Lapata",
+        "given": "M."
+      }
+    ],
+    "date": [
+      "2016"
+    ],
+    "title": [
+      "Neural Semantic Role Labeling with Dependency Path Embeddings"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "ACL.**"
+    ]
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Explores neural approaches to SRL using dependency path embeddings"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "author": [
+      {
+        "family": "Schuster",
+        "given": "S."
+      },
+      {
+        "family": "Gupta",
+        "given": "S."
+      },
+      {
+        "family": "Shah",
+        "given": "R."
+      },
+      {
+        "family": "Lewis",
+        "given": "M."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "title": [
+      "Cross-lingual Transfer Learning for Multilingual Task Oriented Dialog"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "NAACL.**"
+    ]
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Discusses cross-lingual transfer learning for dialog systems, relevant for semantic parsing"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "author": [
+      {
+        "family": "Liu",
+        "given": "H."
+      },
+      {
+        "family": "Gildea",
+        "given": "D."
+      }
+    ],
+    "date": [
+      "2010"
+    ],
+    "title": [
+      "Semantic Role Features for Machine Translation"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "COLING.**"
+    ]
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Explores the use of SRL features in machine translation, with multilingual implications"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "These articles cover a range of approaches and methodologies in multilingual semantics, focusing on WSD, SRL, and semantic parsing. They provide a solid foundation for understanding the current state of research and advancements in these areas"
+    ],
+    "type": null
+  }
+]

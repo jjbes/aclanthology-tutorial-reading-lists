@@ -1,0 +1,935 @@
+[
+  {
+    "title": [
+      "Sure, here is a list of 20 articles on indirect supervision for natural language processing (NLP) up to 2023. These articles cover various aspects of weak supervision, semi-supervised learning, and other forms of indirect supervision in NLP"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "author": [
+      {
+        "family": "Ratner",
+        "given": "A."
+      },
+      {
+        "family": "Bach",
+        "given": "S."
+      },
+      {
+        "family": "Ehrenberg",
+        "given": "H."
+      },
+      {
+        "family": "Fries",
+        "given": "J."
+      },
+      {
+        "family": "Wu",
+        "given": "S."
+      },
+      {
+        "family": "Ré",
+        "given": "C."
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "title": [
+      "Snorkel: Rapid Training Data Creation with Weak Supervision"
+    ],
+    "container-title": [
+      "Proceedings of the VLDB Endowment"
+    ],
+    "volume": [
+      "11"
+    ],
+    "pages": [
+      "269–282"
+    ],
+    "issue": [
+      "3"
+    ],
+    "type": "article-journal"
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "author": [
+      {
+        "family": "Zoph",
+        "given": "B."
+      },
+      {
+        "family": "Le",
+        "given": "Q.V."
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "title": [
+      "Neural Architecture Search with Reinforcement Learning"
+    ],
+    "note": [
+      "arXiv preprint arXiv:1611.01578."
+    ],
+    "arxiv": [
+      "1611.01578"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "author": [
+      {
+        "family": "Ruder",
+        "given": "S."
+      },
+      {
+        "family": "Peters",
+        "given": "M.E."
+      },
+      {
+        "family": "Swayamdipta",
+        "given": "S."
+      },
+      {
+        "family": "Wolf",
+        "given": "T."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "title": [
+      "Transfer Learning in Natural Language Processing"
+    ],
+    "container-title": [
+      "Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Tutorials"
+    ],
+    "pages": [
+      "15–18"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "author": [
+      {
+        "family": "Clark",
+        "given": "K."
+      },
+      {
+        "family": "Luong",
+        "given": "M.-T."
+      },
+      {
+        "family": "Le",
+        "given": "Q.V."
+      },
+      {
+        "family": "Manning",
+        "given": "C.D."
+      }
+    ],
+    "date": [
+      "2020",
+      "2020"
+    ],
+    "title": [
+      "ELECTRA: Pre-training Text Encoders as Discriminators Rather Than Generators"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "ICLR"
+    ]
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "author": [
+      {
+        "family": "Xie",
+        "given": "Q."
+      },
+      {
+        "family": "Dai",
+        "given": "Z."
+      },
+      {
+        "family": "Hovy",
+        "given": "E."
+      },
+      {
+        "family": "Luong",
+        "given": "M.-T."
+      },
+      {
+        "family": "Le",
+        "given": "Q.V."
+      }
+    ],
+    "date": [
+      "2020",
+      "2020"
+    ],
+    "title": [
+      "Unsupervised Data Augmentation for Consistency Training"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "NeurIPS"
+    ]
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "author": [
+      {
+        "family": "Chen",
+        "given": "T."
+      },
+      {
+        "family": "Kornblith",
+        "given": "S."
+      },
+      {
+        "family": "Norouzi",
+        "given": "M."
+      },
+      {
+        "family": "Hinton",
+        "given": "G."
+      }
+    ],
+    "date": [
+      "2020",
+      "2020"
+    ],
+    "title": [
+      "A Simple Framework for Contrastive Learning of Visual Representations"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "ICML"
+    ]
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "author": [
+      {
+        "family": "Lewis",
+        "given": "M."
+      },
+      {
+        "family": "Liu",
+        "given": "Y."
+      },
+      {
+        "family": "Goyal",
+        "given": "N."
+      },
+      {
+        "family": "Ghazvininejad",
+        "given": "M."
+      },
+      {
+        "family": "Mohamed",
+        "given": "A."
+      },
+      {
+        "family": "Levy",
+        "given": "O."
+      },
+      {
+        "family": "Stoyanov",
+        "given": "V."
+      },
+      {
+        "family": "Zettlemoyer",
+        "given": "L."
+      }
+    ],
+    "date": [
+      "2020",
+      "2020"
+    ],
+    "title": [
+      "BART: Denoising Sequence-to-Sequence Pre-training for Natural Language Generation, Translation, and Comprehension"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "ACL"
+    ]
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "author": [
+      {
+        "family": "Zhang",
+        "given": "Y."
+      },
+      {
+        "family": "Yang",
+        "given": "Q."
+      }
+    ],
+    "date": [
+      "2021"
+    ],
+    "title": [
+      "A Survey on Multi-Task Learning"
+    ],
+    "volume": [
+      "34"
+    ],
+    "pages": [
+      "5586–5609"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "IEEE Transactions on Knowledge and Data Engineering"
+    ],
+    "issue": [
+      "12"
+    ]
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "author": [
+      {
+        "family": "Meng",
+        "given": "Y."
+      },
+      {
+        "family": "Zhang",
+        "given": "Y."
+      },
+      {
+        "family": "Huang",
+        "given": "J."
+      },
+      {
+        "family": "Han",
+        "given": "J."
+      },
+      {
+        "family": "Jiang",
+        "given": "X."
+      }
+    ],
+    "date": [
+      "2021",
+      "2021"
+    ],
+    "title": [
+      "Text Classification Using Label Names Only: A Language Model Self-Training Approach"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "EMNLP"
+    ]
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "author": [
+      {
+        "family": "Gao",
+        "given": "T."
+      },
+      {
+        "family": "Yao",
+        "given": "X."
+      },
+      {
+        "family": "Chen",
+        "given": "D."
+      }
+    ],
+    "date": [
+      "2021",
+      "2021"
+    ],
+    "title": [
+      "SimCSE: Simple Contrastive Learning of Sentence Embeddings"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "EMNLP"
+    ]
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "author": [
+      {
+        "family": "Liu",
+        "given": "Y."
+      },
+      {
+        "family": "Ott",
+        "given": "M."
+      },
+      {
+        "family": "Goyal",
+        "given": "N."
+      },
+      {
+        "family": "Du",
+        "given": "J."
+      },
+      {
+        "family": "Joshi",
+        "given": "M."
+      },
+      {
+        "family": "Chen",
+        "given": "D."
+      },
+      {
+        "family": "Levy",
+        "given": "O."
+      },
+      {
+        "family": "Lewis",
+        "given": "M."
+      },
+      {
+        "family": "Zettlemoyer",
+        "given": "L."
+      },
+      {
+        "family": "Stoyanov",
+        "given": "V."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "note": [
+      "RoBERTa: A Robustly Optimized BERT Pretraining Approach. arXiv preprint arXiv:1907.11692."
+    ],
+    "arxiv": [
+      "1907.11692"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "author": [
+      {
+        "family": "Devlin",
+        "given": "J."
+      },
+      {
+        "family": "Chang",
+        "given": "M.-W."
+      },
+      {
+        "family": "Lee",
+        "given": "K."
+      },
+      {
+        "family": "Toutanova",
+        "given": "K."
+      }
+    ],
+    "date": [
+      "2019",
+      "2019"
+    ],
+    "title": [
+      "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding"
+    ],
+    "publisher": [
+      "NAACL-HLT"
+    ],
+    "type": "book"
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "author": [
+      {
+        "family": "Lan",
+        "given": "Z."
+      },
+      {
+        "family": "Chen",
+        "given": "M."
+      },
+      {
+        "family": "Goodman",
+        "given": "S."
+      },
+      {
+        "family": "Gimpel",
+        "given": "K."
+      },
+      {
+        "family": "Sharma",
+        "given": "P."
+      },
+      {
+        "family": "Soricut",
+        "given": "R."
+      }
+    ],
+    "date": [
+      "2020",
+      "2020"
+    ],
+    "title": [
+      "ALBERT: A Lite BERT for Self-supervised Learning of Language Representations"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "ICLR"
+    ]
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "author": [
+      {
+        "family": "Raffel",
+        "given": "C."
+      },
+      {
+        "family": "Shazeer",
+        "given": "N."
+      },
+      {
+        "family": "Roberts",
+        "given": "A."
+      },
+      {
+        "family": "Lee",
+        "given": "K."
+      },
+      {
+        "family": "Narang",
+        "given": "S."
+      },
+      {
+        "family": "Matena",
+        "given": "M."
+      },
+      {
+        "family": "Zhou",
+        "given": "Y."
+      },
+      {
+        "family": "Li",
+        "given": "W."
+      },
+      {
+        "family": "Liu",
+        "given": "P.J."
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "title": [
+      "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer"
+    ],
+    "volume": [
+      "21"
+    ],
+    "pages": [
+      "1–67"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "JMLR"
+    ],
+    "issue": [
+      "140"
+    ]
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "author": [
+      {
+        "family": "Brown",
+        "given": "T.B."
+      },
+      {
+        "family": "Mann",
+        "given": "B."
+      },
+      {
+        "family": "Ryder",
+        "given": "N."
+      },
+      {
+        "family": "Subbiah",
+        "given": "M."
+      },
+      {
+        "family": "Kaplan",
+        "given": "J."
+      },
+      {
+        "family": "Dhariwal",
+        "given": "P."
+      },
+      {
+        "family": "Neelakantan",
+        "given": "A."
+      },
+      {
+        "family": "Shyam",
+        "given": "P."
+      },
+      {
+        "family": "Sastry",
+        "given": "G."
+      },
+      {
+        "family": "Askell",
+        "given": "A."
+      },
+      {
+        "family": "Agarwal",
+        "given": "S."
+      },
+      {
+        "family": "Herbert-Voss",
+        "given": "A."
+      },
+      {
+        "family": "Krueger",
+        "given": "G."
+      },
+      {
+        "family": "Henighan",
+        "given": "T."
+      },
+      {
+        "family": "Child",
+        "given": "R."
+      },
+      {
+        "family": "Ramesh",
+        "given": "A."
+      },
+      {
+        "family": "Ziegler",
+        "given": "D.M."
+      },
+      {
+        "family": "Wu",
+        "given": "J."
+      },
+      {
+        "family": "Winter",
+        "given": "C."
+      },
+      {
+        "family": "Hesse",
+        "given": "C."
+      },
+      {
+        "family": "Chen",
+        "given": "M."
+      },
+      {
+        "family": "Sigler",
+        "given": "E."
+      },
+      {
+        "given": "Litwin"
+      }
+    ],
+    "producer": [
+      {
+        "family": "M.",
+        "given": "Gray"
+      },
+      {
+        "family": "S.",
+        "given": "Chess"
+      },
+      {
+        "family": "B.",
+        "given": "Clark"
+      },
+      {
+        "family": "J.",
+        "given": "Berner"
+      },
+      {
+        "family": "C.",
+        "given": "McCandlish"
+      },
+      {
+        "family": "S.",
+        "given": "Radford"
+      },
+      {
+        "family": "A.",
+        "given": "Sutskever"
+      },
+      {
+        "family": "I."
+      },
+      {
+        "family": "Amodei",
+        "given": "D."
+      }
+    ],
+    "date": [
+      "2020",
+      "2020"
+    ],
+    "title": [
+      "Language Models are Few-Shot Learners"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "NeurIPS"
+    ]
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "author": [
+      {
+        "family": "Clark",
+        "given": "K."
+      },
+      {
+        "family": "Khandelwal",
+        "given": "U."
+      },
+      {
+        "family": "Levy",
+        "given": "O."
+      },
+      {
+        "family": "Manning",
+        "given": "C.D."
+      }
+    ],
+    "date": [
+      "2019",
+      "2019"
+    ],
+    "title": [
+      "What Does BERT Look at? An Analysis of BERT's Attention"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "ACL"
+    ]
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "author": [
+      {
+        "family": "Lee",
+        "given": "J."
+      },
+      {
+        "family": "Yoon",
+        "given": "W."
+      },
+      {
+        "family": "Kim",
+        "given": "S."
+      },
+      {
+        "family": "Kim",
+        "given": "D."
+      },
+      {
+        "family": "Kim",
+        "given": "S."
+      },
+      {
+        "family": "So",
+        "given": "C.H."
+      },
+      {
+        "family": "Kang",
+        "given": "J."
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "title": [
+      "BioBERT: A Pre-trained Biomedical Language Representation Model for Biomedical Text Mining"
+    ],
+    "volume": [
+      "36"
+    ],
+    "pages": [
+      "1234–1240"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "Bioinformatics"
+    ],
+    "issue": [
+      "4"
+    ]
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "author": [
+      {
+        "family": "Gururangan",
+        "given": "S."
+      },
+      {
+        "family": "Marasović",
+        "given": "A."
+      },
+      {
+        "family": "Swayamdipta",
+        "given": "S."
+      },
+      {
+        "family": "Lo",
+        "given": "K."
+      },
+      {
+        "family": "Beltagy",
+        "given": "I."
+      },
+      {
+        "family": "Downey",
+        "given": "D."
+      },
+      {
+        "family": "Smith",
+        "given": "N.A."
+      }
+    ],
+    "date": [
+      "2020",
+      "2020"
+    ],
+    "title": [
+      "Don't Stop Pretraining: Adapt Language Models to Domains and Tasks"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "ACL"
+    ]
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "author": [
+      {
+        "family": "He",
+        "given": "K."
+      },
+      {
+        "family": "Fan",
+        "given": "H."
+      },
+      {
+        "family": "Wu",
+        "given": "Y."
+      },
+      {
+        "family": "Xie",
+        "given": "S."
+      },
+      {
+        "family": "Girshick",
+        "given": "R."
+      }
+    ],
+    "date": [
+      "2020",
+      "2020"
+    ],
+    "title": [
+      "Momentum Contrast for Unsupervised Visual Representation Learning"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "CVPR"
+    ]
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "author": [
+      {
+        "family": "Chen",
+        "given": "X."
+      },
+      {
+        "family": "Fan",
+        "given": "H."
+      },
+      {
+        "family": "Girshick",
+        "given": "R."
+      },
+      {
+        "family": "He",
+        "given": "K."
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "title": [
+      "Improved Baselines with Momentum Contrastive Learning"
+    ],
+    "note": [
+      "arXiv preprint arXiv:2003.04297."
+    ],
+    "arxiv": [
+      "2003.04297"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "These articles provide a comprehensive overview of the current state of research in indirect supervision for NLP, including weak supervision, semi-supervised learning, and transfer learning techniques"
+    ],
+    "type": null
+  }
+]

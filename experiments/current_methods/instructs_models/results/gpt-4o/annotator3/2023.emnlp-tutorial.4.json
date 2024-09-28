@@ -1,0 +1,526 @@
+[
+  {
+    "author": [
+      {
+        "given": "Sure!"
+      }
+    ],
+    "title": [
+      "Here's a curated list of 20 articles on LLM-driven (Large Language Model-driven) instruction following, up to 2023. These articles cover various aspects of the topic, including model architectures, training techniques, applications, and evaluations"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "author": [
+      {
+        "literal": "**\"Attention Is All You Need\"** - Vaswani et al."
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "This foundational paper introduces the Transformer architecture, which is the basis for many LLMs"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "author": [
+      {
+        "given": "B.E.R.T."
+      }
+    ],
+    "title": [
+      "Pre-training of Deep Bidirectional Transformers for Language Understanding\"** - Devlin et al"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Discusses BERT, a model that has influenced many instruction-following LLMs"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "title": [
+      "**\"Language Models are Few-Shot Learners\"**"
+    ],
+    "publisher": [
+      "Brown et al"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Introduces GPT-3 and its capabilities in few-shot learning, a key aspect of instruction following"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "title": [
+      "**\"T5: Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer\"**"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "Raffel et al"
+    ]
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Describes the T5 model, which frames all NLP tasks as text-to-text transformations"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "title": [
+      "**\"UnifiedQA: Crossing Format Boundaries with a Single QA System\"**"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "Khashabi et al"
+    ]
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Explores a unified approach to question answering, relevant to instruction following"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "title": [
+      "**\"Reformer: The Efficient Transformer\"** - Kitaev et al"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Introduces Reformer, a more efficient version of the Transformer, which can be useful for instruction-following tasks"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "title": [
+      "**\"Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer\"**"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "Raffel et al"
+    ]
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Discusses the T5 model and its applications in instruction following"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "title": [
+      "**\"Multitask Prompted Training Enables Zero-Shot Task Generalization\"** - Sanh et al"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Investigates how multitask training with prompts can improve zero-shot generalization"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "title": [
+      "**\"Prefix-Tuning: Optimizing Continuous Prompts for Generation\"**"
+    ],
+    "publisher": [
+      "Li and Liang"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Introduces prefix-tuning, a method for fine-tuning LLMs for specific tasks"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "title": [
+      "**\"Few-Shot Learning with Prompting for Natural Language Understanding\"**"
+    ],
+    "publisher": [
+      "Schick and Schütze"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Explores the use of prompts for few-shot learning in NLP tasks"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "title": [
+      "**\"Instruction Tuning for Few-Shot Learning\"** - Wei et al"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Discusses instruction tuning as a method to improve few-shot learning in LLMs"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "title": [
+      "**\"P-Tuning: Prompt Tuning Can Be Comparable to Fine-Tuning Across Scales and Tasks\"**"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "Liu et al"
+    ]
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Examines the effectiveness of prompt tuning compared to traditional fine-tuning"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "author": [
+      {
+        "given": "F.L.A.N."
+      }
+    ],
+    "title": [
+      "Few-Shot Learning with Instruction-Finetuned Language Models\"** - Wei et al"
+    ],
+    "date": [
+      "2022"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Introduces FLAN, a model fine-tuned with instructions to improve few-shot learning"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "title": [
+      "**\"Chain of Thought Prompting Elicits Reasoning in Large Language Models\"**"
+    ],
+    "date": [
+      "2022"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "Wei et al"
+    ]
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Investigates how chain-of-thought prompting can enhance reasoning capabilities in LLMs"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "title": [
+      "**\"InstructGPT: Training Language Models to Follow Instructions with Human Feedback\"**"
+    ],
+    "date": [
+      "2022"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "Ouyang et al"
+    ]
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Describes InstructGPT, a model trained to follow instructions using human feedback"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "title": [
+      "**\"Self-Consistency Improves Chain of Thought Reasoning in Language Models\"** - Wang et al"
+    ],
+    "date": [
+      "2022"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Explores how self-consistency can improve reasoning in LLMs"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "title": [
+      "**\"Prompt Programming for Large Language Models: Beyond the Few-Shot Paradigm\"**"
+    ],
+    "publisher": [
+      "Reynolds and McDonell"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Discusses advanced techniques for prompt programming in LLMs"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "title": [
+      "**\"Evaluating Large Language Models Trained on Code\"** - Chen et al"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Evaluates LLMs trained on code, relevant for instruction-following in programming tasks"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "author": [
+      {
+        "given": "P.A.L."
+      }
+    ],
+    "title": [
+      "Program-aided Language Models\"** - Gao et al"
+    ],
+    "date": [
+      "2022"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Introduces PAL, a model that integrates programmatic reasoning with language models"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "title": [
+      "**\"Scaling Instruction-Finetuned Language Models\"** - Chung et al"
+    ],
+    "date": [
+      "2022"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Discusses the scaling of instruction-finetuned models and their performance on various tasks"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "These articles provide a comprehensive overview of the advancements in LLM-driven instruction following, covering both theoretical foundations and practical applications"
+    ],
+    "type": null
+  }
+]

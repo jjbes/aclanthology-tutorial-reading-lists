@@ -1,0 +1,553 @@
+[
+  {
+    "author": [
+      {
+        "given": "Sure!"
+      }
+    ],
+    "title": [
+      "Here is a list of 20 articles on pre-training methods for neural machine"
+    ],
+    "note": [
+      "translation (NMT) up to 2021:"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "author": [
+      {
+        "literal": "**\"Attention is All You Need\"** - Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A. N., ... & Polosukhin, I."
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "container-title": [
+      "*Advances in Neural Information Processing Systems (NeurIPS)*"
+    ],
+    "type": "chapter"
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "author": [
+      {
+        "given": "B.E.R.T."
+      },
+      {
+        "family": "Devlin",
+        "given": "J."
+      },
+      {
+        "family": "Chang",
+        "given": "M.W."
+      },
+      {
+        "family": "Lee",
+        "given": "K."
+      },
+      {
+        "family": "Toutanova",
+        "given": "K."
+      }
+    ],
+    "title": [
+      "Pre-training of Deep Bidirectional Transformers for Language Understanding\"**"
+    ],
+    "date": [
+      "2019"
+    ],
+    "container-title": [
+      "*Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics (NAACL)*"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "author": [
+      {
+        "literal": "**\"Unsupervised Machine Translation Using Monolingual Corpora Only\"** - Lample, G., Conneau, A., Denoyer, L., & Ranzato, M."
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "container-title": [
+      "*International Conference on Learning Representations (ICLR)*"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "container-title": [
+      "**\"Massively Multilingual Neural Machine Translation in the Wild: Findings and Challenges\"**",
+      "*Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics (NAACL)*"
+    ],
+    "author": [
+      {
+        "family": "Aharoni",
+        "given": "R."
+      },
+      {
+        "family": "Johnson",
+        "given": "M."
+      },
+      {
+        "family": "Firat",
+        "given": "O."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "author": [
+      {
+        "literal": "**\"Pre-training via Paraphrasing\"** - Wieting, J., Mallinson, J., Bansal, M., & Gimpel, K."
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "container-title": [
+      "*Proceedings of the 2017 Conference on Empirical Methods in Natural Language Processing (EMNLP)*"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "author": [
+      {
+        "literal": "**\"Cross-lingual Language Model Pretraining\"** - Conneau, A., Lample, G., Ranzato, M., Denoyer, L., & Jégou, H."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "container-title": [
+      "*Advances in Neural Information Processing Systems (NeurIPS)*"
+    ],
+    "type": "chapter"
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "title": [
+      "**\"mBART: Multilingual Denoising Pre-training for Neural Machine Translation\"**"
+    ],
+    "author": [
+      {
+        "family": "Liu",
+        "given": "Y."
+      },
+      {
+        "family": "Li",
+        "given": "M."
+      },
+      {
+        "family": "Zhang",
+        "given": "Y."
+      },
+      {
+        "family": "Zhou",
+        "given": "M."
+      },
+      {
+        "family": "Jiang",
+        "given": "J."
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "container-title": [
+      "*Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics (ACL)*"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "author": [
+      {
+        "literal": "**\"Unsupervised Cross-lingual Representation Learning at Scale\"** - Conneau, A., Khandelwal, K., Goyal, N., Chaudhary, V., Wenzek, G., Guzmán, F., ... & Stoyanov, V."
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "container-title": [
+      "*Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics (ACL)*"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "author": [
+      {
+        "literal": "**\"Pre-training with Whole Word Masking for Chinese BERT\"** - Cui, Y., Che, W., Liu, T., Qin, B., Yang, Z., & Hu, G."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "note": [
+      "*arXiv preprint arXiv:1906.08101*."
+    ],
+    "arxiv": [
+      "1906.08101"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "title": [
+      "**\"Improving Neural Machine Translation Models with Monolingual Data\"**"
+    ],
+    "author": [
+      {
+        "family": "Sennrich",
+        "given": "R."
+      },
+      {
+        "family": "Haddow",
+        "given": "B."
+      },
+      {
+        "family": "Birch",
+        "given": "A."
+      }
+    ],
+    "date": [
+      "2016"
+    ],
+    "container-title": [
+      "*Proceedings of the 54th Annual Meeting of the Association for Computational Linguistics (ACL)*"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "author": [
+      {
+        "literal": "**\"Language Model Pre-training for Hierarchical Document Representations\"** - Yang, Z., Dai, Z., Yang, Y., Carbonell, J., Salakhutdinov, R., & Le, Q. V."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "container-title": [
+      "*Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics (NAACL)*"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "title": [
+      "**\"Pre-trained Language Model Representations for Language Generation\"**"
+    ],
+    "author": [
+      {
+        "family": "Radford",
+        "given": "A."
+      },
+      {
+        "family": "Wu",
+        "given": "J."
+      },
+      {
+        "family": "Child",
+        "given": "R."
+      },
+      {
+        "family": "Luan",
+        "given": "D."
+      },
+      {
+        "family": "Amodei",
+        "given": "D."
+      },
+      {
+        "family": "Sutskever",
+        "given": "I."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "note": [
+      "*arXiv preprint arXiv:1901.00512*."
+    ],
+    "arxiv": [
+      "1901.00512"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "container-title": [
+      "**\"Pre-training Multilingual Neural Machine Translation by Leveraging Alignment Information\"**",
+      "*Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing (EMNLP)*"
+    ],
+    "author": [
+      {
+        "family": "Kim",
+        "given": "Y."
+      },
+      {
+        "family": "Gao",
+        "given": "Y."
+      },
+      {
+        "family": "Ney",
+        "given": "H."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "author": [
+      {
+        "literal": "**\"Pre-training Transformers as Energy-based Cloze Models\"** - Clark, K., Luong, M. T., Le, Q. V., & Manning, C. D."
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "container-title": [
+      "*Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)*"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "title": [
+      "**\"Pre-training for Neural Machine Translation with Source and Target Language Models\"**"
+    ],
+    "author": [
+      {
+        "family": "Ramachandran",
+        "given": "P."
+      },
+      {
+        "family": "Liu",
+        "given": "P.J."
+      },
+      {
+        "family": "Le",
+        "given": "Q.V."
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "note": [
+      "*arXiv preprint arXiv:1612.02693*."
+    ],
+    "arxiv": [
+      "1612.02693"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "title": [
+      "**\"Pre-training Text Encoders as Discriminators Rather Than Generators\"**"
+    ],
+    "location": [
+      "Clark"
+    ],
+    "author": [
+      {
+        "family": "K.",
+        "given": "Khandelwal"
+      },
+      {
+        "family": "U.",
+        "given": "Levy"
+      },
+      {
+        "family": "O."
+      },
+      {
+        "family": "Manning",
+        "given": "C.D."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "note": [
+      "*arXiv preprint arXiv:1905.09755*."
+    ],
+    "arxiv": [
+      "1905.09755"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "title": [
+      "**\"Pre-training with Electra: Sample-efficient Pre-training of Deep Neural Networks\"**"
+    ],
+    "location": [
+      "Clark"
+    ],
+    "author": [
+      {
+        "family": "K.",
+        "given": "Luong"
+      },
+      {
+        "family": "T.",
+        "given": "M."
+      },
+      {
+        "family": "Le",
+        "given": "Q.V."
+      },
+      {
+        "family": "Manning",
+        "given": "C.D."
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "container-title": [
+      "*International Conference on Learning Representations (ICLR)*"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "container-title": [
+      "**\"Pre-training Multilingual Neural Machine Translation by Leveraging Alignment Information\"**",
+      "*Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing (EMNLP)*"
+    ],
+    "author": [
+      {
+        "family": "Kim",
+        "given": "Y."
+      },
+      {
+        "family": "Gao",
+        "given": "Y."
+      },
+      {
+        "family": "Ney",
+        "given": "H."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "author": [
+      {
+        "literal": "**\"Pre-training with Whole Word Masking for Chinese BERT\"** - Cui, Y., Che, W., Liu, T., Qin, B., Yang, Z., & Hu, G."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "note": [
+      "*arXiv preprint arXiv:1906.08101*."
+    ],
+    "arxiv": [
+      "1906.08101"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "title": [
+      "**\"Pre-training with Electra: Sample-efficient Pre-training of Deep Neural Networks\"**"
+    ],
+    "location": [
+      "Clark"
+    ],
+    "author": [
+      {
+        "family": "K.",
+        "given": "Luong"
+      },
+      {
+        "family": "T.",
+        "given": "M."
+      },
+      {
+        "family": "Le",
+        "given": "Q.V."
+      },
+      {
+        "family": "Manning",
+        "given": "C.D."
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "container-title": [
+      "*International Conference on Learning Representations (ICLR)*"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "title": [
+      "These articles cover a range of pre-training methods and their applications in neural machine translation, providing a comprehensive overview of the field up to"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  }
+]

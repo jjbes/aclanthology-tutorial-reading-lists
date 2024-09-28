@@ -1,0 +1,666 @@
+[
+  {
+    "author": [
+      {
+        "given": "Certainly!"
+      }
+    ],
+    "title": [
+      "Here is a curated list of 20 articles up to 2020 that address current issues in natural language generation (NLG), specifically focusing on the lack of diversity, the non-factuality of generated text, and evaluation metrics"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Diversity",
+        "given": "Lack",
+        "particle": "of"
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "title": [
+      "**\"A Diversity-Promoting Objective Function for Neural Conversation Models\"**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Li",
+        "given": "Jiwei"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2016"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "*arXiv preprint arXiv:1510.03055.*"
+    ],
+    "arxiv": [
+      "1510.03055"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "title": [
+      "**\"Generating Diverse and Consistent QA pairs from Contexts with Information-Maximizing Hierarchical Conditional VAEs\"**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Du",
+        "given": "Xinya"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "*arXiv preprint arXiv:1906.02622.*"
+    ],
+    "arxiv": [
+      "1906.02622"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "title": [
+      "**\"Diverse Beam Search: Decoding Diverse Solutions from Neural Sequence Models\"**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Vijayakumar",
+        "given": "Ashwin K."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2016"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "*arXiv preprint arXiv:1610.02424.*"
+    ],
+    "arxiv": [
+      "1610.02424"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "title": [
+      "**\"Towards Diverse Text Generation with Inverse Reinforcement Learning\"**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Li",
+        "given": "Jiwei"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "*arXiv preprint arXiv:1707.02201.*"
+    ],
+    "arxiv": [
+      "1707.02201"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "container-title": [
+      "**\"Controlling Linguistic Style Aspects in Neural Language Generation\"**"
+    ],
+    "type": "chapter"
+  },
+  {
+    "author": [
+      {
+        "family": "Ficler",
+        "given": "Jessica"
+      },
+      {
+        "family": "Goldberg",
+        "given": "Yoav"
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "*arXiv preprint arXiv:1707.02633.*"
+    ],
+    "arxiv": [
+      "1707.02633"
+    ],
+    "type": null
+  },
+  {
+    "publisher": [
+      "### Non-Factuality of Generated Text"
+    ],
+    "type": "book"
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "title": [
+      "**\"Get Your Vitamin C! Robust Fact Verification with Contrastive Evidence\"**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Hidey",
+        "given": "Christopher"
+      },
+      {
+        "family": "Diab",
+        "given": "Mona"
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "container-title": [
+      "*Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing (EMNLP).*"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "container-title": [
+      "**\"Fact-Checking in Community Forums\"**"
+    ],
+    "type": "chapter"
+  },
+  {
+    "author": [
+      {
+        "family": "Mihaylova",
+        "given": "Tsvetomila"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "container-title": [
+      "*Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing (EMNLP).*"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "title": [
+      "**\"Learning to Generate Fact Checking Explanations\"**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Atanasova",
+        "given": "Pepa"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "container-title": [
+      "*Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics (ACL).*"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "title": [
+      "**\"Neural Text Generation: A Practical Guide\"**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Gatt",
+        "given": "Albert"
+      },
+      {
+        "family": "Krahmer",
+        "given": "Emiel"
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "container-title": [
+      "*Journal of Artificial Intelligence Research.*"
+    ],
+    "type": "article-journal"
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "note": [
+      "**\"Fact-based Text Editing\"**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Cao",
+        "given": "Shuyang"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "*arXiv preprint arXiv:2005.00613.*"
+    ],
+    "arxiv": [
+      "2005.00613"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Metrics",
+        "given": "Evaluation"
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "title": [
+      "**\"BLEU: a Method for Automatic Evaluation of Machine Translation\"**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Papineni",
+        "given": "Kishore"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2002"
+    ],
+    "type": null
+  },
+  {
+    "container-title": [
+      "*Proceedings of the 40th Annual Meeting on Association for Computational Linguistics (ACL).*"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "title": [
+      "**\"ROUGE: A Package for Automatic Evaluation of Summaries\"**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Lin",
+        "given": "Chin-Yew"
+      }
+    ],
+    "date": [
+      "2004"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "*Text Summarization Branches Out.*"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "title": [
+      "**\"BERTScore: Evaluating Text Generation with BERT\"**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Zhang",
+        "given": "Tianyi"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "*arXiv preprint arXiv:1904.09675.*"
+    ],
+    "arxiv": [
+      "1904.09675"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "container-title": [
+      "**\"Unsupervised Quality Estimation for Neural Machine Translation\"**"
+    ],
+    "type": "chapter"
+  },
+  {
+    "author": [
+      {
+        "family": "Fomicheva",
+        "given": "Marina"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "container-title": [
+      "*Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics (ACL).*"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "title": [
+      "**\"Towards a Better Metric for Evaluating Question Generation Systems\"**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Nema",
+        "given": "Preksha"
+      },
+      {
+        "family": "Khapra",
+        "given": "Mitesh M."
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "container-title": [
+      "*Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing (EMNLP).*"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "title": [
+      "**\"Evaluating the Evaluation Metrics for Style Transfer: A Case Study in Multilingual Formality Transfer\"**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Niu",
+        "given": "Xing"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "container-title": [
+      "*Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing (EMNLP).*"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "title": [
+      "**\"Evaluating the Factual Consistency of Abstractive Text Summarization\"**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Kryscinski",
+        "given": "Wojciech"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "container-title": [
+      "*Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing (EMNLP).*"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "title": [
+      "**\"Towards a Metric for Automated Conversational Dialogue System Evaluation and Improvement\"**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Lowe",
+        "given": "Ryan"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "container-title": [
+      "*Proceedings of the 2017 Conference on Empirical Methods in Natural Language Processing (EMNLP).*"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "title": [
+      "**\"Evaluating the Evaluation Metrics for Paraphrase Generation\"**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Wieting",
+        "given": "John"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "container-title": [
+      "*Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics (NAACL).*"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "container-title": [
+      "**\"Beyond BLEU: Training Neural Machine Translation with Semantic Similarity\"**"
+    ],
+    "type": "chapter"
+  },
+  {
+    "author": [
+      {
+        "family": "Zhang",
+        "given": "Jun"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "container-title": [
+      "*Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics (ACL).*"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "title": [
+      "These articles should provide a comprehensive overview of the challenges and advancements in the field of NLG, particularly concerning diversity, factuality, and evaluation metrics"
+    ],
+    "type": null
+  }
+]

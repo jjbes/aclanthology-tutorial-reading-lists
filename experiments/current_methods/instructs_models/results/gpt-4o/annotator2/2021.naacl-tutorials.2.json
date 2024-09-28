@@ -1,0 +1,692 @@
+[
+  {
+    "author": [
+      {
+        "given": "Sure!"
+      }
+    ],
+    "title": [
+      "Here is a list of 20 articles up to 2021 that focus on the interpretability of natural language processing (NLP) models, with a particular emphasis on fine-grained interpretation and causation analysis"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "author": [
+      {
+        "literal": "**\"Attention is not Explanation\"** - Jain, S., & Wallace, B. C."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "*Findings*: This paper challenges the notion that attention mechanisms provide meaningful explanations for model predictions"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "title": [
+      "**\"Interpretable and Explainable Deep Learning: A Survey\"**"
+    ],
+    "author": [
+      {
+        "family": "Zhang",
+        "given": "Q."
+      },
+      {
+        "family": "Zhu",
+        "given": "S.C."
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "*Findings*: A comprehensive survey on interpretability and explainability in deep learning, including NLP models"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "author": [
+      {
+        "literal": "**\"Rationalizing Neural Predictions\"** - Lei, T., Barzilay, R., & Jaakkola, T."
+      }
+    ],
+    "date": [
+      "2016"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "*Findings*: Introduces a method for generating rationales that justify neural network predictions"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "author": [
+      {
+        "given": "L.I.M.E."
+      }
+    ],
+    "title": [
+      "Local Interpretable Model-agnostic Explanations\"**"
+    ],
+    "editor": [
+      {
+        "family": "Ribeiro",
+        "given": "M.T."
+      },
+      {
+        "family": "Singh",
+        "given": "S."
+      },
+      {
+        "family": "Guestrin",
+        "given": "C."
+      }
+    ],
+    "date": [
+      "2016"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "*Findings*: Proposes a technique for explaining the predictions of any classifier in an interpretable and faithful manner"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "author": [
+      {
+        "literal": "**\"Anchors: High-Precision Model-Agnostic Explanations\"** - Ribeiro, M. T., Singh, S., & Guestrin, C."
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "*Findings*: Extends LIME by providing high-precision explanations using anchors"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "author": [
+      {
+        "literal": "**\"A Unified Approach to Interpreting Model Predictions\"** - Lundberg, S. M., & Lee, S. I."
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "*Findings*: Introduces SHAP (SHapley Additive exPlanations) values for interpreting model predictions"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "title": [
+      "**\"Explaining Black-box Machine Learning Models through Transparent Approximations\"**"
+    ],
+    "author": [
+      {
+        "family": "Lakkaraju",
+        "given": "H."
+      },
+      {
+        "family": "Bach",
+        "given": "S.H."
+      },
+      {
+        "family": "Leskovec",
+        "given": "J."
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "*Findings*: Proposes a method for explaining black-box models using interpretable approximations"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "title": [
+      "**\"Learning Important Features Through Propagating Activation Differences\"**"
+    ],
+    "author": [
+      {
+        "family": "Shrikumar",
+        "given": "A."
+      },
+      {
+        "family": "Greenside",
+        "given": "P."
+      },
+      {
+        "family": "Kundaje",
+        "given": "A."
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "*Findings*: Introduces DeepLIFT, a method for attributing the importance of input features in deep learning models"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "title": [
+      "**\"Interpretability Beyond Feature Attribution: Quantitative Testing with Concept Activation Vectors (TCAV)\"**"
+    ],
+    "editor": [
+      {
+        "family": "Kim",
+        "given": "B."
+      },
+      {
+        "family": "Wattenberg",
+        "given": "M."
+      },
+      {
+        "family": "Gilmer",
+        "given": "J."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "*Findings*: Proposes TCAV for testing the influence of high-level concepts on model predictions"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "title": [
+      "**\"Contextual Decomposition for Neural Network Interpretability\"**"
+    ],
+    "editor": [
+      {
+        "family": "Murdoch",
+        "given": "W.J."
+      },
+      {
+        "family": "Szlam",
+        "given": "A."
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "*Findings*: Introduces a method for decomposing neural network predictions into interpretable components"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "title": [
+      "**\"Integrated Gradients: Axiomatic Attribution for Deep Networks\"**"
+    ],
+    "editor": [
+      {
+        "family": "Sundararajan",
+        "given": "M."
+      },
+      {
+        "family": "Taly",
+        "given": "A."
+      },
+      {
+        "family": "Yan",
+        "given": "Q."
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "*Findings*: Proposes Integrated Gradients for attributing the prediction of deep networks to their input features"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "title": [
+      "**\"Interpretable Neural Architectures for Attributing an Ad's Performance to its Writing Style\"**"
+    ],
+    "editor": [
+      {
+        "family": "Yang",
+        "given": "D."
+      },
+      {
+        "family": "Eisenstein",
+        "given": "J."
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Findings"
+      }
+    ],
+    "title": [
+      "Focuses on interpreting the performance of ads based on their writing style using neural architectures"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "title": [
+      "**\"A Survey of Methods for Explaining Black Box Models\"**"
+    ],
+    "editor": [
+      {
+        "family": "Guidotti",
+        "given": "R."
+      },
+      {
+        "family": "Monreale",
+        "given": "A."
+      },
+      {
+        "family": "Ruggieri",
+        "given": "S."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "*Findings*: Surveys various methods for explaining black-box models, including those used in NLP"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "title": [
+      "**\"Evaluating and Enhancing the Robustness of Neural Network-based Dependency Parsers\"**"
+    ],
+    "editor": [
+      {
+        "family": "Belinkov",
+        "given": "Y."
+      },
+      {
+        "family": "Bisk",
+        "given": "Y."
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "*Findings*: Examines the robustness and interpretability of neural network-based dependency parsers"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "title": [
+      "**\"Fine-Grained Analysis of Sentence Embeddings Using Auxiliary Prediction Tasks\"**"
+    ],
+    "editor": [
+      {
+        "family": "Conneau",
+        "given": "A."
+      },
+      {
+        "family": "Kiela",
+        "given": "D."
+      },
+      {
+        "family": "Schwenk",
+        "given": "H."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "*Findings*: Proposes auxiliary prediction tasks to analyze the properties of sentence embeddings"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "title": [
+      "**\"Interpretable Text Classification Using CNN and Max-pooling\"**"
+    ],
+    "editor": [
+      {
+        "family": "Wang",
+        "given": "Y."
+      },
+      {
+        "family": "Yang",
+        "given": "Y."
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "*Findings*: Introduces an interpretable text classification model using convolutional neural networks and max-pooling"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "title": [
+      "**\"Towards a Rigorous Science of Interpretable Machine Learning\"**"
+    ],
+    "editor": [
+      {
+        "family": "Doshi-Velez",
+        "given": "F."
+      },
+      {
+        "family": "Kim",
+        "given": "B."
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "*Findings*: Discusses the need for a rigorous approach to interpretable machine learning"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "title": [
+      "**\"The Building Blocks of Interpretability\"**"
+    ],
+    "author": [
+      {
+        "family": "Lipton",
+        "given": "Z.C."
+      }
+    ],
+    "date": [
+      "2016"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "*Findings*: Explores the fundamental components and challenges of interpretability in machine learning"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "title": [
+      "**\"Explaining Explanations: An Overview of Interpretability of Machine Learning\"**"
+    ],
+    "editor": [
+      {
+        "family": "Gilpin",
+        "given": "L.H."
+      },
+      {
+        "family": "Bau",
+        "given": "D."
+      },
+      {
+        "family": "Yuan",
+        "given": "B.Z."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "*Findings*: Provides an overview of interpretability methods and their applications in machine learning"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "title": [
+      "**\"Causal Inference in Natural Language Processing: Estimation, Prediction, Interpretation and Beyond\"**"
+    ],
+    "author": [
+      {
+        "family": "Feder",
+        "given": "A."
+      },
+      {
+        "family": "Shalit",
+        "given": "U."
+      }
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "*Findings*: Discusses causal inference techniques in NLP, focusing on estimation, prediction, and interpretation"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "These articles cover a range of methods and perspectives on interpretability and causation analysis in NLP models. They provide a solid foundation for understanding the current state of research in this area"
+    ],
+    "type": null
+  }
+]

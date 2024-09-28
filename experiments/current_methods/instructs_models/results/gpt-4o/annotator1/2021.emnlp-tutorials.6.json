@@ -1,0 +1,534 @@
+[
+  {
+    "author": [
+      {
+        "given": "Sure!"
+      }
+    ],
+    "title": [
+      "Here is a reading list of 20 articles up to 2021 that focus on syntax in end-to-end models, particularly in the areas of syntactic parsing, semantic role labeling, and machine translation"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Parsing",
+        "given": "Syntactic"
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "author": [
+      {
+        "literal": "**\"Deep Biaffine Attention for Neural Dependency Parsing\"** - Dozat, T., & Manning, C. D."
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "title": [
+      "*ICLR*"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "author": [
+      {
+        "literal": "**\"Stacked Approaches to Neural Machine Translation\"** - Sennrich, R., Haddow, B., & Birch, A."
+      }
+    ],
+    "date": [
+      "2016"
+    ],
+    "title": [
+      "*ACL*"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "author": [
+      {
+        "literal": "**\"A Minimal Span-Based Neural Constituency Parser\"** - Stern, M., Andreas, J., & Klein, D."
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "title": [
+      "*ACL*"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "author": [
+      {
+        "literal": "**\"Self-Attentive Dependency Parsing\"** - Zhang, Y., & Zhang, Y."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "title": [
+      "*ACL*"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "author": [
+      {
+        "literal": "**\"Incorporating Syntax into Transformer-based Neural Machine Translation\"** - Chen, Y., Liu, Y., Liu, K., & Lin, S."
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "title": [
+      "*ACL*"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "### Semantic Role Labeling"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "title": [
+      "**\"End-to-End Learning of Semantic Role Labeling Using Recurrent Neural Networks\"**",
+      "*ACL*"
+    ],
+    "editor": [
+      {
+        "family": "Zhou",
+        "given": "J."
+      },
+      {
+        "family": "Xu",
+        "given": "W."
+      }
+    ],
+    "date": [
+      "2015"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "title": [
+      "**\"Deep Semantic Role Labeling: What Works and What's Next\"**",
+      "*ACL*"
+    ],
+    "author": [
+      {
+        "family": "He",
+        "given": "L."
+      },
+      {
+        "family": "Lee",
+        "given": "K."
+      },
+      {
+        "family": "Lewis",
+        "given": "M."
+      },
+      {
+        "family": "Zettlemoyer",
+        "given": "L."
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "author": [
+      {
+        "literal": "**\"Syntax-Aware Neural Semantic Role Labeling\"** - Strubell, E., Verga, P., Belanger, D., & McCallum, A."
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "title": [
+      "*EMNLP*"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "title": [
+      "**\"Jointly Predicting Predicates and Arguments in Neural Semantic Role Labeling\"**",
+      "*AAAI*"
+    ],
+    "author": [
+      {
+        "family": "Li",
+        "given": "X."
+      },
+      {
+        "family": "Ji",
+        "given": "H."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "author": [
+      {
+        "literal": "**\"BERT for Joint Intent Classification and Slot Filling\"** - Chen, Q., Zhuo, Z., & Wang, W."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "note": [
+      "*arXiv preprint arXiv:1902.10909*."
+    ],
+    "arxiv": [
+      "1902.10909"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Machine"
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "author": [
+      {
+        "literal": "**\"Attention Is All You Need\"** - Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A. N., Kaiser, Ł., & Polosukhin, I."
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "title": [
+      "*NeurIPS*"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "title": [
+      "**\"Neural Machine Translation by Jointly Learning to Align and Translate\"**",
+      "*ICLR*"
+    ],
+    "editor": [
+      {
+        "family": "Bahdanau",
+        "given": "D."
+      },
+      {
+        "family": "Cho",
+        "given": "K."
+      },
+      {
+        "family": "Bengio",
+        "given": "Y."
+      }
+    ],
+    "date": [
+      "2015"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "container-title": [
+      "**\"Effective Approaches to Attention-based Neural Machine Translation\"**"
+    ],
+    "author": [
+      {
+        "family": "Luong",
+        "given": "M.T."
+      },
+      {
+        "family": "Pham",
+        "given": "H."
+      },
+      {
+        "family": "Manning",
+        "given": "C.D."
+      }
+    ],
+    "date": [
+      "2015"
+    ],
+    "title": [
+      "*EMNLP*"
+    ],
+    "type": "chapter"
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "title": [
+      "**\"Convolutional Sequence to Sequence Learning\"**",
+      "*ICML*"
+    ],
+    "editor": [
+      {
+        "family": "Gehring",
+        "given": "J."
+      },
+      {
+        "family": "Auli",
+        "given": "M."
+      },
+      {
+        "family": "Grangier",
+        "given": "D."
+      },
+      {
+        "family": "Yarats",
+        "given": "D."
+      },
+      {
+        "family": "Dauphin",
+        "given": "Y.N."
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "title": [
+      "**\"The Transformer Model for Neural Machine Translation: A Survey\"**"
+    ],
+    "author": [
+      {
+        "family": "Lin",
+        "given": "J."
+      },
+      {
+        "family": "Sun",
+        "given": "X."
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "note": [
+      "*arXiv preprint arXiv:2006.00582*."
+    ],
+    "arxiv": [
+      "2006.00582"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Cross-Domain"
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "title": [
+      "**\"Universal Dependencies: A Cross-Linguistic Perspective on Syntax for Natural Language Processing\"**",
+      "*LREC*"
+    ],
+    "author": [
+      {
+        "family": "Nivre",
+        "given": "J."
+      },
+      {
+        "family": "Marneffe",
+        "given": "M.C.",
+        "particle": "de"
+      },
+      {
+        "family": "Ginter",
+        "given": "F."
+      },
+      {
+        "family": "Goldberg",
+        "given": "Y."
+      },
+      {
+        "family": "Hajic",
+        "given": "J."
+      },
+      {
+        "family": "Manning",
+        "given": "C.D."
+      },
+      {
+        "family": "McDonald",
+        "given": "R."
+      },
+      {
+        "family": "Petrov",
+        "given": "S."
+      },
+      {
+        "family": "Pyysalo",
+        "given": "S."
+      },
+      {
+        "family": "Silveira",
+        "given": "N."
+      },
+      {
+        "family": "Tsarfaty",
+        "given": "R."
+      },
+      {
+        "family": "Zeman",
+        "given": "D."
+      }
+    ],
+    "date": [
+      "2016"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "author": [
+      {
+        "literal": "**\"Multilingual BERT: Understanding and Improving Cross-Lingual Performance\"** - Pires, T., Schlinger, E., & Garrette, D."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "title": [
+      "*ACL*"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "title": [
+      "**\"Cross-lingual Transfer Learning for Multilingual Task-Oriented Dialog\"**",
+      "*NAACL*"
+    ],
+    "author": [
+      {
+        "family": "Lin",
+        "given": "Z."
+      },
+      {
+        "family": "Madotto",
+        "given": "A."
+      },
+      {
+        "family": "Winata",
+        "given": "G.I."
+      },
+      {
+        "family": "Fung",
+        "given": "P."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "author": [
+      {
+        "literal": "**\"Syntax-Enhanced Self-Attention-Based Semantic Role Labeling\"** - Li, X., & Ji, H."
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "title": [
+      "*AAAI*"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "author": [
+      {
+        "literal": "**\"Syntax-Aware Neural Machine Translation Using CCG\"** - Stanojević, M., & Sima'an, K."
+      }
+    ],
+    "date": [
+      "2015"
+    ],
+    "title": [
+      "*ACL*"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "These articles cover a range of topics within syntactic parsing, semantic role labeling, and machine translation, providing a comprehensive overview of the state-of-the-art techniques and methodologies up to"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  }
+]

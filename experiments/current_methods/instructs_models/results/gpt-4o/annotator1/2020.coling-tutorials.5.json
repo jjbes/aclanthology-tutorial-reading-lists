@@ -1,0 +1,678 @@
+[
+  {
+    "author": [
+      {
+        "given": "Certainly!"
+      }
+    ],
+    "title": [
+      "Here is a list of 20 articles up to 2020 that focus on dataset construction and the methodological issues associated with it. These articles cover a range of topics including data collection, annotation, bias, and validation"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "title": [
+      "**\"ImageNet Large Scale Visual Recognition Challenge\"** by Olga Russakovsky et al"
+    ],
+    "date": [
+      "2015"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Discusses the construction and challenges of the ImageNet dataset"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "- [Link](https://arxiv.org/abs/1409.0575"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "title": [
+      "**\"Datasheets for Datasets\"** by Timnit Gebru et al"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Proposes a standardized approach for documenting datasets"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "- [Link](https://arxiv.org/abs/1803.09010"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "title": [
+      "**\"The PASCAL Visual Object Classes (VOC) Challenge\"** by Mark Everingham et al"
+    ],
+    "date": [
+      "2010"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Details the creation and evaluation of the PASCAL VOC dataset"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "- [Link](https://link.springer.com/article/10.1007/s11263-009-0275-4"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "author": [
+      {
+        "given": "C.O.C.O."
+      }
+    ],
+    "title": [
+      "Common Objects in Context\"** by Tsung-Yi Lin et al"
+    ],
+    "date": [
+      "2014"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Describes the COCO dataset and its unique challenges"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "- [Link](https://arxiv.org/abs/1405.0312"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "title": [
+      "**\"SQuAD: 100,000+ Questions for Machine Comprehension of Text\"** by Pranav Rajpurkar et al"
+    ],
+    "date": [
+      "2016"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Discusses the creation of the SQuAD dataset for question answering"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "- [Link](https://arxiv.org/abs/1606.05250"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "title": [
+      "**\"The Stanford Question Answering Dataset (SQuAD) 2.0\"** by Pranav Rajpurkar et al"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Introduces the second version of SQuAD and its new challenges"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "- [Link](https://arxiv.org/abs/1806.03822"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "title": [
+      "**\"The Open Images Dataset V4\"** by Alina Kuznetsova et al"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Details the Open Images dataset and its large-scale annotations"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "- [Link](https://arxiv.org/abs/1811.00982"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "title": [
+      "**\"The MNIST Database of Handwritten Digits\"** by Yann LeCun et al"
+    ],
+    "date": [
+      "1998"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Discusses the creation and impact of the MNIST dataset"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "url": [
+      "http://yann.lecun.com/exdb/mnist/)"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "title": [
+      "**\"The Penn Treebank: Annotating Predicate Argument Structure\"** by Mitchell P"
+    ],
+    "date": [
+      "1993"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "Marcus et al"
+    ]
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Describes the Penn Treebank and its annotation methodology"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "url": [
+      "https://repository.upenn.edu/cis_papers/81/)"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "title": [
+      "**\"The Pile: An 800GB Dataset of Diverse Text for Language Modeling\"** by Leo Gao et al"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Introduces The Pile dataset and discusses its construction and diversity"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "url": [
+      "https://arxiv.org/abs/2101.00027)"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "title": [
+      "**\"The IMDB Dataset for Sentiment Analysis\"** by Andrew L"
+    ],
+    "date": [
+      "2011"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "Maas et al"
+    ]
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Discusses the creation and use of the IMDB dataset for sentiment analysis"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "url": [
+      "https://ai.stanford.edu/~amaas/data/sentiment/)"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "title": [
+      "**\"The LFW Database: Faces in the Wild\"** by Gary B"
+    ],
+    "date": [
+      "2007"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "Huang et al"
+    ]
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Describes the LFW dataset and its use in face recognition research"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "url": [
+      "http://vis-www.cs.umass.edu/lfw/)"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "author": [
+      {
+        "family": "The",
+        "given": "W.M.T."
+      }
+    ],
+    "date": [
+      "2014",
+      "2014"
+    ],
+    "title": [
+      "English-to-German Translation Task\"** by Ondřej Bojar et al"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Discusses the dataset and challenges of the WMT 2014 translation task"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "url": [
+      "http://www.statmt.org/wmt14/translation-task.html)"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "title": [
+      "**\"The SNLI Corpus: A Large-Scale Dataset for Natural Language Inference\"** by Samuel R"
+    ],
+    "date": [
+      "2015"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "Bowman et al"
+    ]
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Introduces the SNLI dataset and its applications in natural language inference"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "- [Link](https://arxiv.org/abs/1508.05326"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "title": [
+      "**\"The Multi-Domain Sentiment Dataset\"** by John Blitzer et al"
+    ],
+    "date": [
+      "2007"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Discusses the creation and use of a multi-domain sentiment analysis dataset"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "- [Link](https://www.aclweb.org/anthology/D07-1115/"
+    ],
+    "type": "webpage"
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "title": [
+      "**\"The TIMIT Acoustic-Phonetic Continuous Speech Corpus\"** by John S. Garofolo et al"
+    ],
+    "date": [
+      "1993"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Describes the TIMIT dataset and its use in speech recognition research"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "url": [
+      "https://catalog.ldc.upenn.edu/LDC93S1)"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "title": [
+      "**\"The Enron Corpus: A New Dataset for Email Classification Research\"** by Bryan Klimt and Yiming Yang"
+    ],
+    "date": [
+      "2004"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Discusses the Enron email dataset and its applications"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "url": [
+      "https://www.cs.cmu.edu/~enron/)"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "title": [
+      "**\"The Yelp Dataset Challenge: A Corpus for Large-Scale Text Analysis\"** by Yelp Inc"
+    ],
+    "date": [
+      "2015"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Introduces the Yelp dataset and its use in text analysis research"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "url": [
+      "https://www.yelp.com/dataset)"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "title": [
+      "**\"The 20 Newsgroups Dataset\"** by Ken Lang"
+    ],
+    "date": [
+      "1995"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Describes the 20 Newsgroups dataset and its use in text classification"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "url": [
+      "http://qwone.com/~jason/20Newsgroups/)"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "title": [
+      "**\"The CIFAR-10 and CIFAR-100 Datasets\"** by Alex Krizhevsky"
+    ],
+    "date": [
+      "2009"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Discusses the CIFAR-10 and CIFAR-100 datasets and their applications in image classification"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "url": [
+      "https://www.cs.toronto.edu/~kriz/cifar.html)"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "These articles provide a comprehensive overview of various datasets and the methodological issues encountered during their construction and use"
+    ],
+    "type": null
+  }
+]

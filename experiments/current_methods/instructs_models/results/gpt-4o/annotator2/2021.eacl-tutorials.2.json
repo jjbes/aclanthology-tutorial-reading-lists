@@ -1,0 +1,641 @@
+[
+  {
+    "author": [
+      {
+        "given": "Sure!"
+      }
+    ],
+    "title": [
+      "Here's a reading list of 20 articles up to 2021 that cover the use of multiple annotations in machine learning"
+    ],
+    "note": [
+      "ML) and natural language processing (NLP):"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "title": [
+      "**\"Learning from Multiple Annotators: Distinguishing Good from Random Labelers\"**"
+    ],
+    "editor": [
+      {
+        "family": "Raykar",
+        "given": "V.C."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2009"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "This paper discusses methods to learn from multiple annotators and how to distinguish between reliable and unreliable labelers"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "title": [
+      "**\"Crowdsourcing Annotations for Machine Learning in Natural Language Processing\"**"
+    ],
+    "editor": [
+      {
+        "family": "Snow",
+        "given": "R."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2008"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "This article explores the use of crowdsourcing to gather annotations for NLP tasks and the challenges involved"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "title": [
+      "**\"Combining Multiple Annotators' Judgments for Word Sense Disambiguation\"**"
+    ],
+    "editor": [
+      {
+        "family": "Mihalcea",
+        "given": "R."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2004"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "The paper presents methods for combining annotations from multiple annotators for the task of word sense disambiguation"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "title": [
+      "**\"Active Learning with Multiple Annotators\"**"
+    ],
+    "editor": [
+      {
+        "family": "Donmez",
+        "given": "P."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2009"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "This work investigates active learning strategies when dealing with multiple annotators"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "title": [
+      "**\"Modeling Annotator Bias with Multi-Task Learning\"**"
+    ],
+    "editor": [
+      {
+        "family": "Rodrigues",
+        "given": "F."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2014"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "The authors propose a multi-task learning approach to model annotator bias in crowdsourced data"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "author": [
+      {
+        "literal": "**\"Learning from Crowds\"** - Sheng, V. S., et al."
+      }
+    ],
+    "date": [
+      "2008"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "This paper introduces methods for learning from data annotated by multiple, potentially noisy, annotators"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "author": [
+      {
+        "literal": "**\"A Bayesian Approach to Crowdsourcing\"** - Carpenter, B."
+      }
+    ],
+    "date": [
+      "2008"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "The article presents a Bayesian framework for aggregating annotations from multiple sources"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "title": [
+      "**\"Crowdsourcing Subjective Tasks: The Case Study of Humor Recognition\"**"
+    ],
+    "editor": [
+      {
+        "family": "Mohammad",
+        "given": "S.M."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2014"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "This paper discusses the challenges and methods for crowdsourcing subjective tasks, using humor recognition as a case study"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "title": [
+      "**\"Multi-annotator Active Learning for Sequence Labeling with an Application to Named Entity Recognition\"**"
+    ],
+    "editor": [
+      {
+        "family": "Rodrigues",
+        "given": "F."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2013"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "The authors explore active learning techniques for sequence labeling tasks with multiple annotators"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "title": [
+      "**\"Learning from Multiple Annotators with Gaussian Processes\"**"
+    ],
+    "editor": [
+      {
+        "family": "Rodrigues",
+        "given": "F."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "This paper presents a Gaussian process model for learning from multiple annotators"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "author": [
+      {
+        "literal": "**\"Crowdsourcing and Aggregating Linguistic Judgments\"** - Pavlick, E., et al."
+      }
+    ],
+    "date": [
+      "2014"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "The article discusses methods for aggregating linguistic judgments from multiple annotators"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "title": [
+      "**\"A Unified Bayesian Model for Learning from Crowds\"**"
+    ],
+    "editor": [
+      {
+        "family": "Liu",
+        "given": "Q."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2012"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "The authors propose a unified Bayesian model for learning from crowdsourced annotations"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "title": [
+      "**\"Learning from Multiple Annotators with Varying Expertise\"**"
+    ],
+    "editor": [
+      {
+        "family": "Yan",
+        "given": "Y."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2010"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "This paper introduces methods to account for varying expertise levels among annotators"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "title": [
+      "**\"Crowdsourcing for Natural Language Processing: Applications and Recommendations for Research\"**"
+    ],
+    "editor": [
+      {
+        "family": "Fort",
+        "given": "K."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2011"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "The article provides an overview of crowdsourcing applications in NLP and offers recommendations for researchers"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "title": [
+      "**\"A Survey of Methods for Modeling and Managing Collective Annotation\"**"
+    ],
+    "editor": [
+      {
+        "family": "Nguyen",
+        "given": "T.V."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "This survey covers various methods for modeling and managing collective annotations from multiple annotators"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "title": [
+      "**\"Learning from Crowds by Modeling Commonalities and Differences in Labeling\"**"
+    ],
+    "editor": [
+      {
+        "family": "Welinder",
+        "given": "P."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2010"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "The authors present a model that captures both commonalities and differences in annotations from multiple labelers"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "title": [
+      "**\"Crowdsourcing for NLP: Best Practices for Data Collection, Annotation, and Aggregation\"**"
+    ],
+    "editor": [
+      {
+        "family": "Sabou",
+        "given": "M."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2014"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "This paper provides best practices for crowdsourcing data collection, annotation, and aggregation in NLP"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "title": [
+      "**\"Multi-annotator Models for Evaluating Machine Translation\"**"
+    ],
+    "editor": [
+      {
+        "family": "Cohn",
+        "given": "T."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2013"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "The article discusses models for evaluating machine translation using annotations from multiple annotators"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "title": [
+      "**\"Aggregating Inconsistent and Spammer Labels using Hierarchical Bayesian Models\"**"
+    ],
+    "editor": [
+      {
+        "family": "Raykar",
+        "given": "V.C."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2010"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "This paper presents hierarchical Bayesian models for aggregating inconsistent and spammer labels"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "title": [
+      "**\"Crowdsourcing for Text Annotation: The Impact of Working Conditions on Quality\"**"
+    ],
+    "editor": [
+      {
+        "family": "Sabou",
+        "given": "M."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2014"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "The authors investigate the impact of working conditions on the quality of crowdsourced text annotations"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "These articles should provide a comprehensive overview of the challenges and methodologies associated with using multiple annotations in ML and NLP"
+    ],
+    "type": null
+  }
+]

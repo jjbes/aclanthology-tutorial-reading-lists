@@ -1,0 +1,940 @@
+[
+  {
+    "author": [
+      {
+        "given": "Certainly!"
+      }
+    ],
+    "title": [
+      "Here's a curated list of 20 influential and insightful articles on Graph Neural Networks (GNNs) up to 2021. These papers cover a range of topics including foundational concepts, advancements, applications, and theoretical insights"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "author": [
+      {
+        "family": "Scarselli",
+        "given": "F."
+      },
+      {
+        "family": "Gori",
+        "given": "M."
+      },
+      {
+        "family": "Tsoi",
+        "given": "A.C."
+      },
+      {
+        "family": "Hagenbuchner",
+        "given": "M."
+      },
+      {
+        "family": "Monfardini",
+        "given": "G."
+      }
+    ],
+    "date": [
+      "2009"
+    ],
+    "title": [
+      "The Graph Neural Network Model"
+    ],
+    "volume": [
+      "20"
+    ],
+    "pages": [
+      "61–80"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "IEEE Transactions on Neural Networks"
+    ],
+    "issue": [
+      "1"
+    ]
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "This paper introduces the foundational concept of Graph Neural Networks"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "author": [
+      {
+        "family": "Kipf",
+        "given": "T.N."
+      },
+      {
+        "family": "Welling",
+        "given": "M."
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "title": [
+      "Semi-Supervised Classification with Graph Convolutional Networks"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "ICLR.**"
+    ]
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "A seminal paper that popularized Graph Convolutional Networks (GCNs"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "author": [
+      {
+        "family": "Hamilton",
+        "given": "W.L."
+      },
+      {
+        "family": "Ying",
+        "given": "R."
+      },
+      {
+        "family": "Leskovec",
+        "given": "J."
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "title": [
+      "Inductive Representation Learning on Large Graphs"
+    ],
+    "location": [
+      "NeurIPS"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Introduces GraphSAGE, a method for inductive node representation learning"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "author": [
+      {
+        "family": "Velickovic",
+        "given": "P."
+      },
+      {
+        "family": "Cucurull",
+        "given": "G."
+      },
+      {
+        "family": "Casanova",
+        "given": "A."
+      },
+      {
+        "family": "Romero",
+        "given": "A."
+      },
+      {
+        "family": "Lio",
+        "given": "P."
+      },
+      {
+        "family": "Bengio",
+        "given": "Y."
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "title": [
+      "Graph Attention Networks"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "ICLR.**"
+    ]
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Proposes Graph Attention Networks (GATs), which leverage attention mechanisms"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "author": [
+      {
+        "family": "Gilmer",
+        "given": "J."
+      },
+      {
+        "family": "Schoenholz",
+        "given": "S.S."
+      },
+      {
+        "family": "Riley",
+        "given": "P.F."
+      },
+      {
+        "family": "Vinyals",
+        "given": "O."
+      },
+      {
+        "family": "Dahl",
+        "given": "G.E."
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "title": [
+      "Neural Message Passing for Quantum Chemistry"
+    ],
+    "container-title": [
+      "ICML.**"
+    ],
+    "type": "chapter"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Introduces the message passing framework for GNNs, applied to quantum chemistry"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "author": [
+      {
+        "family": "Xu",
+        "given": "K."
+      },
+      {
+        "family": "Hu",
+        "given": "W."
+      },
+      {
+        "family": "Leskovec",
+        "given": "J."
+      },
+      {
+        "family": "Jegelka",
+        "given": "S."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "title": [
+      "How Powerful are Graph Neural Networks?"
+    ],
+    "container-title": [
+      "ICLR.**"
+    ],
+    "type": "chapter"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Analyzes the expressive power of GNNs and introduces the Graph Isomorphism Network (GIN"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "author": [
+      {
+        "family": "Defferrard",
+        "given": "M."
+      },
+      {
+        "family": "Bresson",
+        "given": "X."
+      },
+      {
+        "family": "Vandergheynst",
+        "given": "P."
+      }
+    ],
+    "date": [
+      "2016"
+    ],
+    "title": [
+      "Convolutional Neural Networks on Graphs with Fast Localized Spectral Filtering"
+    ],
+    "location": [
+      "NeurIPS"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Proposes a spectral approach to graph convolutions"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "author": [
+      {
+        "family": "Li",
+        "given": "Y."
+      },
+      {
+        "family": "Tarlow",
+        "given": "D."
+      },
+      {
+        "family": "Brockschmidt",
+        "given": "M."
+      },
+      {
+        "family": "Zemel",
+        "given": "R."
+      }
+    ],
+    "date": [
+      "2016"
+    ],
+    "title": [
+      "Gated Graph Sequence Neural Networks"
+    ],
+    "container-title": [
+      "ICLR.**"
+    ],
+    "type": "chapter"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Introduces gated mechanisms in GNNs for sequence prediction tasks"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "author": [
+      {
+        "family": "Battaglia",
+        "given": "P.W."
+      },
+      {
+        "family": "Hamrick",
+        "given": "J.B."
+      },
+      {
+        "family": "Bapst",
+        "given": "V."
+      },
+      {
+        "family": "Sanchez-Gonzalez",
+        "given": "A."
+      },
+      {
+        "family": "Zambaldi",
+        "given": "V."
+      },
+      {
+        "family": "Malinowski",
+        "given": "M."
+      },
+      {
+        "family": "Pascanu",
+        "given": "R."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "title": [
+      "Relational inductive biases, deep learning, and graph networks"
+    ],
+    "note": [
+      "arXiv preprint arXiv:1806.01261.**"
+    ],
+    "arxiv": [
+      "1806.01261"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Discusses the importance of relational inductive biases and introduces a general framework for graph networks"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "author": [
+      {
+        "family": "Wu",
+        "given": "Z."
+      },
+      {
+        "family": "Pan",
+        "given": "S."
+      },
+      {
+        "family": "Chen",
+        "given": "F."
+      },
+      {
+        "family": "Long",
+        "given": "G."
+      },
+      {
+        "family": "Zhang",
+        "given": "C."
+      },
+      {
+        "family": "Yu",
+        "given": "P.S."
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "title": [
+      "A Comprehensive Survey on Graph Neural Networks"
+    ],
+    "container-title": [
+      "IEEE Transactions on Neural Networks and Learning Systems.**"
+    ],
+    "type": "chapter"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "A comprehensive survey covering various GNN models and applications"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "author": [
+      {
+        "family": "Ying",
+        "given": "R."
+      },
+      {
+        "family": "You",
+        "given": "J."
+      },
+      {
+        "family": "Morris",
+        "given": "C."
+      },
+      {
+        "family": "Ren",
+        "given": "X."
+      },
+      {
+        "family": "Hamilton",
+        "given": "W.L."
+      },
+      {
+        "family": "Leskovec",
+        "given": "J."
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "title": [
+      "Hierarchical Graph Representation Learning with Differentiable Pooling"
+    ],
+    "location": [
+      "NeurIPS"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Introduces DiffPool, a differentiable pooling method for hierarchical graph representation learning"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "author": [
+      {
+        "family": "Klicpera",
+        "given": "J."
+      },
+      {
+        "family": "Bojchevski",
+        "given": "A."
+      },
+      {
+        "family": "Günnemann",
+        "given": "S."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "title": [
+      "Predict then Propagate: Graph Neural Networks meet Personalized PageRank"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "ICLR.**"
+    ]
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Combines GNNs with Personalized PageRank for improved node classification"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "author": [
+      {
+        "family": "Chen",
+        "given": "J."
+      },
+      {
+        "family": "Ma",
+        "given": "T."
+      },
+      {
+        "family": "Xiao",
+        "given": "C."
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "title": [
+      "FastGCN: Fast Learning with Graph Convolutional Networks via Importance Sampling"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "ICLR.**"
+    ]
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Proposes FastGCN, an efficient approach to training GCNs using importance sampling"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "author": [
+      {
+        "family": "Zhang",
+        "given": "M."
+      },
+      {
+        "family": "Chen",
+        "given": "Y."
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "title": [
+      "Link Prediction Based on Graph Neural Networks"
+    ],
+    "location": [
+      "NeurIPS"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Applies GNNs to the link prediction problem"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "author": [
+      {
+        "family": "Veličković",
+        "given": "P."
+      },
+      {
+        "family": "Fedus",
+        "given": "W."
+      },
+      {
+        "family": "Hamilton",
+        "given": "W.L."
+      },
+      {
+        "family": "Liò",
+        "given": "P."
+      },
+      {
+        "family": "Bengio",
+        "given": "Y."
+      },
+      {
+        "family": "Hjelm",
+        "given": "R.D."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "title": [
+      "Deep Graph Infomax"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "ICLR.**"
+    ]
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Introduces Deep Graph Infomax, a method for unsupervised learning on graphs"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "author": [
+      {
+        "family": "Bojchevski",
+        "given": "A."
+      },
+      {
+        "family": "Günnemann",
+        "given": "S."
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "title": [
+      "Deep Gaussian Embedding of Graphs: Unsupervised Inductive Learning via Ranking"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "ICLR.**"
+    ]
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Proposes a method for unsupervised inductive learning on graphs using Gaussian embeddings"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "author": [
+      {
+        "family": "Liu",
+        "given": "Q."
+      },
+      {
+        "family": "Allamanis",
+        "given": "M."
+      },
+      {
+        "family": "Brockschmidt",
+        "given": "M."
+      },
+      {
+        "family": "Gaunt",
+        "given": "A.L."
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "title": [
+      "Constrained Graph Variational Autoencoders for Molecule Design"
+    ],
+    "location": [
+      "NeurIPS"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Applies variational autoencoders to graph-structured data for molecule design"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "author": [
+      {
+        "family": "Zhou",
+        "given": "J."
+      },
+      {
+        "family": "Cui",
+        "given": "G."
+      },
+      {
+        "family": "Zhang",
+        "given": "Z."
+      },
+      {
+        "family": "Yang",
+        "given": "C."
+      },
+      {
+        "family": "Liu",
+        "given": "Z."
+      },
+      {
+        "family": "Wang",
+        "given": "L."
+      },
+      {
+        "family": "Sun",
+        "given": "M."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "title": [
+      "Graph Neural Networks: A Review of Methods and Applications"
+    ],
+    "publisher": [
+      "AI Open.**"
+    ],
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "A review paper summarizing various GNN methods and their applications"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "author": [
+      {
+        "family": "Li",
+        "given": "R."
+      },
+      {
+        "family": "Wang",
+        "given": "S."
+      },
+      {
+        "family": "Zhu",
+        "given": "F."
+      },
+      {
+        "family": "Huang",
+        "given": "J."
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "title": [
+      "Adaptive Graph Convolutional Neural Networks"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "AAAI.**"
+    ]
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Introduces adaptive graph convolutional networks that learn the graph structure"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "author": [
+      {
+        "family": "Sun",
+        "given": "K."
+      },
+      {
+        "family": "Lin",
+        "given": "Z."
+      },
+      {
+        "family": "Zhu",
+        "given": "Z."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "title": [
+      "Multi-Stage Self-Supervised Learning for Graph Convolutional Networks on Graphs with Few Labels"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "AAAI.**"
+    ]
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Proposes a multi-stage self-supervised learning approach for GCNs with limited labeled data"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "These articles provide a solid foundation and a broad overview of the developments in the field of Graph Neural Networks up to"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  }
+]

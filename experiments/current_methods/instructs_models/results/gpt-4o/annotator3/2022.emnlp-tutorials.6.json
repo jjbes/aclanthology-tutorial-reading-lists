@@ -1,0 +1,658 @@
+[
+  {
+    "author": [
+      {
+        "given": "Certainly!"
+      }
+    ],
+    "title": [
+      "Non-autoregressive (NAR) sequence generation has been a significant area of research, especially in the context of natural language processing and machine translation"
+    ],
+    "note": [
+      "Here is a list of 20 influential articles on this topic up to 2022:"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "author": [
+      {
+        "family": "Gu",
+        "given": "J."
+      },
+      {
+        "family": "Bradbury",
+        "given": "J."
+      },
+      {
+        "family": "Xiong",
+        "given": "C."
+      },
+      {
+        "family": "Li",
+        "given": "V.O.K."
+      },
+      {
+        "family": "Socher",
+        "given": "R."
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "container-title": [
+      "\"Non-Autoregressive Neural Machine Translation.\" *International Conference on Learning Representations (ICLR)*"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "author": [
+      {
+        "family": "Lee",
+        "given": "J."
+      },
+      {
+        "family": "Mansimov",
+        "given": "E."
+      },
+      {
+        "family": "Cho",
+        "given": "K."
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "title": [
+      "Deterministic Non-Autoregressive Neural Sequence Modeling by Iterative Refinement"
+    ],
+    "container-title": [
+      "*Conference on Empirical Methods in Natural Language Processing (EMNLP)*"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "author": [
+      {
+        "family": "Kaiser",
+        "given": "Ł."
+      },
+      {
+        "family": "Roy",
+        "given": "A."
+      },
+      {
+        "family": "Vaswani",
+        "given": "A."
+      },
+      {
+        "family": "Parmar",
+        "given": "N."
+      },
+      {
+        "family": "Bengio",
+        "given": "S."
+      },
+      {
+        "family": "Uszkoreit",
+        "given": "J."
+      },
+      {
+        "family": "Shazeer",
+        "given": "N."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "title": [
+      "Fast Decoding in Sequence Models Using Discrete Latent Variables"
+    ],
+    "container-title": [
+      "*International Conference on Machine Learning (ICML)*"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "author": [
+      {
+        "family": "Ghazvininejad",
+        "given": "M."
+      },
+      {
+        "family": "Levy",
+        "given": "O."
+      },
+      {
+        "family": "Liu",
+        "given": "Y."
+      },
+      {
+        "family": "Zettlemoyer",
+        "given": "L."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "title": [
+      "Mask-Predict: Parallel Decoding of Conditional Masked Language Models"
+    ],
+    "container-title": [
+      "*Conference on Empirical Methods in Natural Language Processing (EMNLP)*"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "author": [
+      {
+        "family": "Stern",
+        "given": "M."
+      },
+      {
+        "family": "Chan",
+        "given": "W."
+      },
+      {
+        "family": "Kiros",
+        "given": "J."
+      },
+      {
+        "family": "Uszkoreit",
+        "given": "J."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "title": [
+      "Insertion Transformer: Flexible Sequence Generation via Insertion Operations"
+    ],
+    "container-title": [
+      "*International Conference on Machine Learning (ICML)*"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "author": [
+      {
+        "family": "Wang",
+        "given": "Y."
+      },
+      {
+        "family": "Zhang",
+        "given": "Y."
+      },
+      {
+        "family": "Chen",
+        "given": "L."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "title": [
+      "Non-Autoregressive Machine Translation with Auxiliary Regularization"
+    ],
+    "container-title": [
+      "*Conference on Empirical Methods in Natural Language Processing (EMNLP)*"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "author": [
+      {
+        "family": "Guo",
+        "given": "J."
+      },
+      {
+        "family": "Tan",
+        "given": "X."
+      },
+      {
+        "family": "He",
+        "given": "D."
+      },
+      {
+        "family": "Qin",
+        "given": "T."
+      },
+      {
+        "family": "Xu",
+        "given": "L."
+      },
+      {
+        "family": "Liu",
+        "given": "T.Y."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "container-title": [
+      "\"Non-Autoregressive Neural Machine Translation with Enhanced Decoder Input.\" *AAAI Conference on Artificial Intelligence*"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "author": [
+      {
+        "family": "Sun",
+        "given": "Y."
+      },
+      {
+        "family": "Li",
+        "given": "S."
+      },
+      {
+        "family": "Zhang",
+        "given": "Y."
+      },
+      {
+        "family": "Zhou",
+        "given": "X."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "title": [
+      "Fast Structured Decoding for Sequence Models"
+    ],
+    "container-title": [
+      "*Advances in Neural Information Processing Systems (NeurIPS)*"
+    ],
+    "type": "chapter"
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "author": [
+      {
+        "family": "Saharia",
+        "given": "C."
+      },
+      {
+        "family": "Jain",
+        "given": "M."
+      },
+      {
+        "family": "Norouzi",
+        "given": "M."
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "title": [
+      "Non-Autoregressive Machine Translation with Latent Alignments"
+    ],
+    "container-title": [
+      "*Conference on Empirical Methods in Natural Language Processing (EMNLP)*"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "author": [
+      {
+        "family": "Qian",
+        "given": "Y."
+      },
+      {
+        "family": "Zhou",
+        "given": "C."
+      },
+      {
+        "family": "He",
+        "given": "J."
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "title": [
+      "Glancing Transformer for Non-Autoregressive Neural Machine Translation"
+    ],
+    "container-title": [
+      "*Association for Computational Linguistics (ACL)*"
+    ],
+    "type": "chapter"
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "author": [
+      {
+        "family": "Ran",
+        "given": "Q."
+      },
+      {
+        "family": "Wang",
+        "given": "Y."
+      },
+      {
+        "family": "Zhang",
+        "given": "Y."
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "title": [
+      "Learning to Recover from Multi-Modality Errors for Non-Autoregressive Neural Machine Translation"
+    ],
+    "container-title": [
+      "*Association for Computational Linguistics (ACL)*"
+    ],
+    "type": "chapter"
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "author": [
+      {
+        "family": "Ghazvininejad",
+        "given": "M."
+      },
+      {
+        "family": "Mehta",
+        "given": "H."
+      },
+      {
+        "family": "Tang",
+        "given": "Y."
+      },
+      {
+        "family": "Zettlemoyer",
+        "given": "L."
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "title": [
+      "Aligned Cross Entropy for Non-Autoregressive Machine Translation"
+    ],
+    "container-title": [
+      "*International Conference on Machine Learning (ICML)*"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "author": [
+      {
+        "family": "Kasai",
+        "given": "J."
+      },
+      {
+        "family": "Cross",
+        "given": "J."
+      },
+      {
+        "family": "Muller",
+        "given": "M."
+      },
+      {
+        "family": "Smith",
+        "given": "N.A."
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "title": [
+      "Non-Autoregressive Machine Translation with Disentangled Context Transformer"
+    ],
+    "container-title": [
+      "*International Conference on Machine Learning (ICML)*"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "author": [
+      {
+        "family": "Libovický",
+        "given": "J."
+      },
+      {
+        "family": "Helcl",
+        "given": "J."
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "title": [
+      "Don’t Stop Pretraining: Adapt Language Models to Domains and Tasks"
+    ],
+    "container-title": [
+      "*Association for Computational Linguistics (ACL)*"
+    ],
+    "type": "chapter"
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "author": [
+      {
+        "family": "Ghazvininejad",
+        "given": "M."
+      },
+      {
+        "family": "Levy",
+        "given": "O."
+      },
+      {
+        "family": "Liu",
+        "given": "Y."
+      },
+      {
+        "family": "Zettlemoyer",
+        "given": "L."
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "title": [
+      "Semi-Autoregressive Training Improves Mask-Predict Decoding"
+    ],
+    "container-title": [
+      "*Conference on Empirical Methods in Natural Language Processing (EMNLP)*"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "author": [
+      {
+        "family": "Saharia",
+        "given": "C."
+      },
+      {
+        "family": "Jain",
+        "given": "M."
+      },
+      {
+        "family": "Norouzi",
+        "given": "M."
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "title": [
+      "Non-Autoregressive Machine Translation with Latent Alignments"
+    ],
+    "container-title": [
+      "*Conference on Empirical Methods in Natural Language Processing (EMNLP)*"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "author": [
+      {
+        "family": "Gu",
+        "given": "J."
+      },
+      {
+        "family": "Wang",
+        "given": "C."
+      },
+      {
+        "family": "Zhao",
+        "given": "J."
+      }
+    ],
+    "date": [
+      "2021"
+    ],
+    "title": [
+      "Levenshtein Transformer"
+    ],
+    "container-title": [
+      "*Advances in Neural Information Processing Systems (NeurIPS)*"
+    ],
+    "type": "chapter"
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "author": [
+      {
+        "family": "Huang",
+        "given": "L."
+      },
+      {
+        "family": "Ren",
+        "given": "S."
+      }
+    ],
+    "date": [
+      "2021"
+    ],
+    "title": [
+      "Non-Autoregressive Translation with Layer-Wise Prediction and Deep Supervision"
+    ],
+    "container-title": [
+      "*Association for Computational Linguistics (ACL)*"
+    ],
+    "type": "chapter"
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "author": [
+      {
+        "family": "Saharia",
+        "given": "C."
+      },
+      {
+        "family": "Jain",
+        "given": "M."
+      },
+      {
+        "family": "Norouzi",
+        "given": "M."
+      }
+    ],
+    "date": [
+      "2021"
+    ],
+    "title": [
+      "Non-Autoregressive Machine Translation with Latent Alignments"
+    ],
+    "container-title": [
+      "*Conference on Empirical Methods in Natural Language Processing (EMNLP)*"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "author": [
+      {
+        "family": "Kasai",
+        "given": "J."
+      },
+      {
+        "family": "Cross",
+        "given": "J."
+      },
+      {
+        "family": "Muller",
+        "given": "M."
+      },
+      {
+        "family": "Smith",
+        "given": "N.A."
+      }
+    ],
+    "date": [
+      "2021"
+    ],
+    "title": [
+      "Non-Autoregressive Machine Translation with Disentangled Context Transformer"
+    ],
+    "container-title": [
+      "*International Conference on Machine Learning (ICML)*"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "title": [
+      "These articles cover a range of approaches and innovations in non-autoregressive sequence generation, providing a comprehensive overview of the field up to"
+    ],
+    "date": [
+      "2022"
+    ],
+    "type": null
+  }
+]

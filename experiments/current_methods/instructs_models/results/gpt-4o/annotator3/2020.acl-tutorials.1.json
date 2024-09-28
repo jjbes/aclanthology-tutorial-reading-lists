@@ -1,0 +1,529 @@
+[
+  {
+    "author": [
+      {
+        "given": "Sure!"
+      }
+    ],
+    "title": [
+      "Here is a list of 20 articles on interpretability and analysis of neural network models in Natural Language Processing"
+    ],
+    "note": [
+      "NLP) up to 2020:"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "author": [
+      {
+        "literal": "**\"Attention is All You Need\"** - Vaswani et al."
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "This paper introduces the Transformer model, which has become foundational in NLP and includes discussions on the interpretability of attention mechanisms"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "title": [
+      "**\"A Survey of Methods for Explaining Black Box Models\"**"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "Guidotti et al"
+    ]
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "A comprehensive survey that covers various methods for explaining black-box models, including those used in NLP"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "title": [
+      "**\"Interpretable and Explainable Deep Learning: A Survey\"**"
+    ],
+    "publisher": [
+      "Zhang and Zhu"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "This survey provides an overview of interpretability and explainability techniques in deep learning, with applications in NLP"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "title": [
+      "**\"Visualizing and Understanding Neural Models in NLP\"** - Li et al"
+    ],
+    "date": [
+      "2016"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "This paper explores methods for visualizing and understanding neural network models in NLP"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "author": [
+      {
+        "literal": "**\"Rationalizing Neural Predictions\"** - Lei et al."
+      }
+    ],
+    "date": [
+      "2016"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "The authors propose a method for generating rationales that explain the predictions of neural models"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "title": [
+      "**\"Attention is not Explanation\"**"
+    ],
+    "publisher": [
+      "Jain and Wallace"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "This paper critically examines the use of attention mechanisms as explanations for model predictions"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "author": [
+      {
+        "given": "L.I.M.E."
+      }
+    ],
+    "title": [
+      "Local Interpretable Model-agnostic Explanations\"** - Ribeiro et al"
+    ],
+    "date": [
+      "2016"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Introduces LIME, a technique for explaining the predictions of any classifier, including those used in NLP"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "title": [
+      "**\"Anchors: High-Precision Model-Agnostic Explanations\"** - Ribeiro et al"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Builds on LIME to provide high-precision explanations for model predictions"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "title": [
+      "**\"Evaluating and Enhancing the Robustness of Neural Network-based Dependency Parsers\"**"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "Belinkov and Bisk"
+    ]
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Discusses methods for evaluating and improving the robustness and interpretability of dependency parsers"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "author": [
+      {
+        "family": "at?",
+        "given": "What Does B.E.R.T.Look"
+      }
+    ],
+    "title": [
+      "An Analysis of BERT's Attention\"**"
+    ],
+    "publisher": [
+      "Clark et al"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Analyzes the attention mechanisms in BERT to understand what the model focuses on during different tasks"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "title": [
+      "**\"A Benchmark for Interpretability Methods in Deep NLP\"** - DeYoung et al"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Proposes a benchmark for evaluating the interpretability of different methods in deep NLP"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "title": [
+      "**\"Learning to Explain: An Information-Theoretic Perspective on Model Interpretation\"** - Chen et al"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Introduces an information-theoretic approach to model interpretation"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "title": [
+      "**\"Interpreting Neural Networks with Nearest Neighbors\"**"
+    ],
+    "publisher": [
+      "Papernot and McDaniel"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Proposes using nearest neighbors to interpret the decisions of neural networks"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "title": [
+      "**\"Explaining Black Box Predictions and Unveiling Data Artifacts through Influence Functions\"**"
+    ],
+    "publisher": [
+      "Koh and Liang"
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Introduces influence functions to explain model predictions and identify data artifacts"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "title": [
+      "**\"Contextual Decomposition for Neural Network Interpretability\"** - Murdoch et al"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Proposes a method for decomposing neural network predictions to understand the contribution of different input features"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "title": [
+      "**\"Integrated Gradients: Axiomatic Attribution for Deep Networks\"** - Sundararajan et al"
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Introduces Integrated Gradients, a method for attributing the prediction of a deep network to its input features"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "author": [
+      {
+        "given": "DeepLIFT"
+      }
+    ],
+    "title": [
+      "Learning Important Features Through Propagating Activation Differences\"** - Shrikumar et al"
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Proposes DeepLIFT, a method for explaining the output of neural networks by propagating activation differences"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "title": [
+      "**\"The Building Blocks of Interpretability\"** - Olah et al"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Discusses various building blocks and techniques for interpreting neural networks, with applications in NLP"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "title": [
+      "**\"Towards a Rigorous Science of Interpretable Machine Learning\"**"
+    ],
+    "publisher": [
+      "Doshi-Velez and Kim"
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "A position paper that outlines the challenges and future directions for interpretable machine learning"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "title": [
+      "**\"Interpretability Beyond Feature Attribution: Quantitative Testing with Concept Activation Vectors (TCAV)\"**"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "Kim et al"
+    ]
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Introduces TCAV, a method for testing the influence of high-level concepts on model predictions"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "These articles cover a range of methods and perspectives on the interpretability and analysis of neural network models in NLP, providing a solid foundation for understanding this important area of research"
+    ],
+    "type": null
+  }
+]

@@ -3,24 +3,22 @@ import numpy as np
 from collections import defaultdict
 
 def recall(trues, preds):
-    trues = list(dict.fromkeys(trues))
-    preds = list(dict.fromkeys(preds))
     matches = set(trues) & set(preds)
     return len(matches)/len(trues)
 
 def ndcg(trues, preds):
-    trues = list(dict.fromkeys(trues))
-    preds = list(dict.fromkeys(preds))
-    matches = set(trues) & set(preds)
-    dcg = np.sum([1/math.log2(preds.index(match)+2) for match in matches])
-    dcg_i = np.sum([1/math.log2(i+2) for i in range(0, len(trues))])
-    return dcg/dcg_i
+    #Binary relevance -> could be graded for partial matching of articles (what would be a partial match?)
+    relevance_scores = [1 if item in trues else 0 for item in preds]
+    dcg  = np.sum([(pow(2,score)-1)/np.log2(i+1) for i, score in enumerate(relevance_scores, start=1)])
+    idcg = np.sum([(pow(2,1)-1)/np.log2(i+1) for i, _ in enumerate(trues, start=1)])
+    # Avoid division by zero
+    return (dcg / idcg) if idcg > 0 else 0
 
 def mrr(trues, preds):
-    trues = list(dict.fromkeys(trues))
-    preds = list(dict.fromkeys(preds))
-    matches = set(trues) & set(preds)
-    return 1/([i for i, pred in enumerate(preds) if pred in matches][0]+1) if len(matches) else 0
+    for i, pred in enumerate(preds, start=1):
+        if pred in trues:
+            return 1 / i
+    return 0
 
 def score(trues, preds, metrics, k=20):
     scores = defaultdict(list)
