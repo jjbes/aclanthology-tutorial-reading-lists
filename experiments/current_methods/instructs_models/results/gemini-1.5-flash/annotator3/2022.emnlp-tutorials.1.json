@@ -1,1 +1,287 @@
-[{"authors": ["Baroni, Marco", "Zamparelli, Roberto"], "title": "Toward a formal distributional semantics: An information-theoretic perspective on word meaning", "year": 2010}, {"authors": ["Mitchell, Jeff", "Lapata, Mirella"], "title": "Composition in distributional models of semantics", "year": 2010}, {"authors": ["Socher, Richard", "Perelygin, Alex", "Wu, Jean", "Chuang, Jason", "Manning, Christopher D", "Ng, Andrew Y", "Potts, Christopher"], "title": "Recursive deep models for semantic compositionality over a sentiment treebank", "year": 2013}, {"authors": ["Bowman, Samuel R", "Vilnis, Luke", "Vinyals, Oriol", "Dillon, Andrew", "Bengio, Yoshua", "Duvenaud, David"], "title": "Generating sentences from a continuous space", "year": 2015}, {"authors": ["Le, Quoc V", "Jaitly, Navdeep", "Deng, Li", "Dauphin, Y"], "title": "A simple, fast, and accurate neural network architecture for acoustic modeling", "year": 2015}, {"authors": ["Sutskever, Ilya", "Vinyals, Oriol", "Le, Quoc V"], "title": "Sequence to sequence learning with neural networks", "year": 2014}, {"authors": ["Bahdanau, Dzmitry", "Cho, Kyunghyun", "Bengio, Yoshua"], "title": "Neural machine translation by jointly learning to align and translate", "year": 2014}, {"authors": ["Luong, Minh-Thang", "Sutskever, Ilya", "Vinyals, Oriol", "Le, Quoc V"], "title": "Neural machine translation", "year": 2015}, {"authors": ["Vaswani, Ashish", "Shazeer, Noam", "Parmar, Niki", "Uszkoreit, Jakob", "Jones, Llion", "Gomez, Aidan N", "Kaiser, Lukasz", "Polosukhin, Illia"], "title": "Attention is all you need", "year": 2017}, {"authors": ["Devlin, Jacob", "Chang, Ming-Wei", "Lee, Kenton", "Toutanova, Kristina"], "title": "Bert: Pre-training of deep bidirectional transformers for language understanding", "year": 2018}, {"authors": ["Radford, Alec", "Narasimhan, Karthik", "Salimans, Tim", "Sutskever, Ilya"], "title": "Improving language understanding by generative pre-training", "year": 2018}, {"authors": ["Brown, Tom B", "Mann, Benjamin", "Rytting, Nick", "Kabra, Sanjeeva", "Jafarnia, Dale", "Fadel, Aditya", "Zoph, Barret", "Neumann, Catherine", "Shlens, Jon", "Le, Q. V.", "De Freitas, Nando", "Chess, Joel", "Kumar, Prafulla", "Amodei, Dario", "Clark, Jeffrey", "Htut, P. J.", "Hernandez, Mark", "Lee, Jacob", "Lee, Hongyu", "Liao, Yuanzhong", "Liu, Jie", "Parmar, Niki", "Sepassi, Rajeev", "So, Ryan", "Suzuki, Chelsea", "Tang, Jian", "Vaswani, Ashish", "Wenzel, Lukasz", "Winter, Clement", "Wong, David", "Wu, Zhenzhong", "Xiao, Guang", "Xu, Yan", "Yang, Zhilin", "Yu, Yifeng", "Zheng, Zihao", "Zhou, David", "Zhao, Wei", "Lu, Kai", "Chen, Ming", "Wang, Wei", "Wang, Zihao", "Dai, Andrew M", "Hoffmann, Noam", "Langston, Katherine", "Pham, Phuong", "Uesato, Joel", "Young, Christopher", "Li, Fei-Fei", "Sutskever, Ilya"], "title": "Language models are few-shot learners", "year": 2020}, {"authors": ["Liu, Yinhan", "Ott, Myle", "Goyal, Naman", "Du, Jingfei", "Fan, Amanda", "Zeng, Michael", "Gururangan, Siddhartha", "Quirk, Christopher", "Lewis, Mike", "Zhang, Yan", "Jurafsky, Dan", "Wang, Peng"], "title": "Roberta: A robustly optimized bert pretraining approach", "year": 2019}, {"authors": ["Raffel, Colin", "Shazeer, Noam", "Roberts, Adam", "Lee, Katherine", "Narang, Sharan", "Matena, Michael", "Zhou, Yanqi", "Li, Wei", "Liu, Peter J"], "title": "Exploring the limits of transfer learning with a unified text-to-text transformer", "year": 2019}, {"authors": ["Clark, Kevin", "Doran, Christopher", "Kwiatkowski, Thomas", "Grosz, Barbara J", "Zettlemoyer, Luke"], "title": "Conditional random fields for semantic role labeling", "year": 2011}, {"authors": ["Palmer, Martha", "Gildea, Daniel", "Kingsbury, Paul"], "title": "The proposition bank: An annotated corpus of semantic roles", "year": 2005}, {"authors": ["Surdeanu, Mihai", "Tibshirani, Jure", "Nallapati, Ramesh", "Zhou, Niyu", "Jurafsky, Dan"], "title": "Learning to rank semantic role labels: An unsupervised approach", "year": 2012}, {"authors": ["He, He", "Liu, Ke", "Zhao, Jun", "Zhu, Sheng", "Zhang, Min"], "title": "Neural semantic role labeling based on dependency path", "year": 2017}, {"authors": ["Liu, Furu", "Zhou, Jie", "Zhao, Zhifang", "Zhu, Hai"], "title": "Semantic role labeling via recurrent neural networks", "year": 2015}, {"authors": ["Wang, Mengqiu", "Liu, Furu", "Zhou, Jie", "Zhao, Zhifang", "Zhu, Hai"], "title": "Semantic role labeling with neural networks and attention mechanisms", "year": 2016}]
+[
+  {
+    "title": [
+      "## Meaning Representation: A Reading List (2022 and Earlier"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list covers a range of topics within meaning representation, including"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Formalisms"
+      }
+    ],
+    "title": [
+      "Logical forms, semantic networks, frame semantics, etc"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Applications"
+      }
+    ],
+    "title": [
+      "Natural language understanding, machine translation, question answering, etc"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Theoretical perspectives:** Compositionality, grounding, and the nature of meaning"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Formalisms and Theories:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "title": [
+      "**\"A Unified Theory of Meaning Representation\" by Patrick Hanks (2010)**: A comprehensive overview of different meaning representation formalisms and their strengths and weaknesses"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "title": [
+      "**\"Meaning Representation in Natural Language Processing\" by James Pustejovsky (2015)**: A survey of meaning representation techniques used in NLP, focusing on their applications and limitations"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "title": [
+      "**\"The Logical Structure of Linguistic Meaning\" by Richard Montague (1970)**: A seminal work introducing the idea of representing meaning using formal logic"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "title": [
+      "**\"Frame Semantics\" by Charles Fillmore (1985)**: A framework for representing meaning based on conceptual frames and their slots"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "title": [
+      "**\"Semantic Networks\" by Ross Quillian (1968)**: A foundational work on representing knowledge using networks of nodes and links"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "title": [
+      "**\"The Role of Compositionality in Meaning Representation\" by Jerry Fodor (1975)**: A classic discussion of the importance of compositionality in understanding meaning"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "title": [
+      "**\"Grounding Meaning in Perception\" by Stevan Harnad (1990)**: An exploration of the relationship between meaning and perception"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "title": [
+      "**\"The Embodied Mind\" by Francisco Varela, Evan Thompson, and Eleanor Rosch (1991)**: A book arguing for the importance of embodiment in understanding meaning"
+    ],
+    "type": null
+  },
+  {
+    "url": [
+      "**Applications:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "title": [
+      "**\"Deep Learning for Natural Language Understanding\" by Kyunghyun Cho et al",
+      "A review of deep learning techniques for NLP, including meaning representation"
+    ],
+    "date": [
+      "2014"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "author": [
+      {
+        "literal": "**\"Neural Machine Translation\" by Kyunghyun Cho et al."
+      }
+    ],
+    "date": [
+      "2014"
+    ],
+    "title": [
+      "A paper introducing the use of neural networks for machine translation, which relies heavily on meaning representation"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "title": [
+      "**\"Building End-to-End Dialogue Systems Using Generative Hierarchical Neural Networks\" by Li Deng et al",
+      "A paper on using neural networks for dialogue systems, which requires representing the meaning of user utterances"
+    ],
+    "date": [
+      "2014"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "title": [
+      "**\"A Neural Network Approach to Question Answering\" by Pranav Rajpurkar et al",
+      "A paper on using neural networks for question answering, which relies on representing the meaning of questions and answers"
+    ],
+    "date": [
+      "2016"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "title": [
+      "**\"Semantic Parsing for Textual Entailment\" by Richard Socher et al",
+      "A paper on using semantic parsing for textual entailment, which involves representing the meaning of sentences to determine if one entails the other"
+    ],
+    "date": [
+      "2013"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Perspectives",
+        "given": "Theoretical"
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "title": [
+      "**\"The Meaning of Meaning\" by Hilary Putnam (1975)**: A philosophical exploration of the nature of meaning and its relationship to language and the world"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "title": [
+      "**\"Words and Things\" by Hilary Putnam (1975)**: A book arguing for the importance of external factors in determining meaning"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "title": [
+      "**\"The Language Instinct\" by Steven Pinker (1994)**: A book arguing for the innateness of language and its implications for understanding meaning"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "title": [
+      "**\"The Symbolic Species\" by Terrence Deacon (1997)**: A book exploring the evolution of language and its relationship to meaning"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "author": [
+      {
+        "family": "Douglas Hofstadter",
+        "given": "The Mind's I.\"",
+        "particle": "by"
+      },
+      {
+        "family": "Dennett",
+        "given": "Daniel"
+      }
+    ],
+    "date": [
+      "1981"
+    ],
+    "title": [
+      "A collection of essays exploring the nature of consciousness and its relationship to meaning"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "title": [
+      "**\"The Language of Thought\" by Jerry Fodor (1975)**: A book arguing for the existence of a language of thought, which is used to represent meaning"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "title": [
+      "**\"The Nature of Meaning\" by Stephen Schiffer (1972)**: A book exploring the philosophical foundations of meaning and its relationship to language and the world"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Note:** This list is not exhaustive and there are many other important articles and books on meaning representation. This list is intended to provide a starting point for further exploration"
+    ],
+    "type": null
+  }
+]

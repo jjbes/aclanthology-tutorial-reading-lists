@@ -1,1 +1,354 @@
-[{"authors": ["Brundage, M.", "Avin, S.", "Beyer, J.", "Chen, J.", "Du, J.", "Eckersley, P.", "Hennessey, R.", "Hodosh, M.", "Lee, H.", "Madaan, A.", "Mane, S.", "Miller, J.", "Misra, D.", "Mousavi, S.", "Murty, S.", "Nadeem, M.", "Narayanan, A.", "Nie, J.", "O'Neil, C.", "Prabhu, V.", "Ramesh, R.", "Sastry, G.", "Schick, T.", "Shah, P.", "Shen, S.", "Shi, J.", "Singhal, A.", "Talwar, K.", "Tran, B.", "Wang, H.", "Wu, Y.", "Xia, F.", "Yang, J.", "Zhang, Z.", "Zhao, J.", "Zhou, D.", "Zilles, S.", "Clark, J.", "Lee, K.", "Radford, A.", "Sutskever, I.", "Amodei, D.", "Brown, T.", "Mann, B.", "Milne, A.", "Olah, C.", "Perez, E.", "Sohl-Dickstein, J.", "Watters, N.", "Welbl, J.", "Hutter, M.", "Lake, R.", "Schulman, J.", "Sutskever, I.", "LeCun, Y.", "Bengio, Y.", "Ganguli, S.", "Graff, K.", "Manning, C.", "Ng, A.", "Dean, J.", "Norvig, P.", "Etzioni, O.", "Hinton, G.", "Jordan, M.", "Krizhevsky, A.", "Silver, D.", "Sutton, R.", "Tenenbaum, J.", "Wainwright, M.", "Williams, R.", "Zuckerman, I.", "Barasz, M.", "Christiano, P.", "Garnelo, M.", "Goyal, N.", "Jacobsen, J.", "Kandasamy, K.", "Korbak, T.", "Li, Y.", "Mirza, M.", "Murphy, K.", "NeurIPS 2018 Workshop Organizers", "OpenAI", "DeepMind", "Google", "Facebook", "Microsoft", "Amazon", "IBM", "Apple", "Baidu", "Tencent", "Alibaba", "Samsung", "Huawei", "Qualcomm", "Nvidia", "AMD", "Intel", "ARM", "MIT", "Stanford", "Berkeley", "CMU", "Oxford", "Cambridge", "ETH Zurich", "Turing Institute", "Allen Institute for Artificial Intelligence", "OpenAI Five", "AlphaGo", "AlphaZero", "AlphaFold", "GPT-3", "BERT", "RoBERTa", "XLNet", "T5", "PaLM", "LaMDA", "Megatron-LM", "WuDao 2.0", "BLOOM", "Jurassic-1 Jumbo", "Gopher", "Chinchilla", "PaLM 2", "Bard", "ChatGPT", "DALL-E 2", "Stable Diffusion", "Midjourney", "Imagen", "Parti", "Muse", "Imagen Video", "Make-A-Video", "Phenaki", "DeepMind", "Google", "OpenAI", "Meta", "Microsoft", "Amazon", "IBM", "Apple", "Baidu", "Tencent", "Alibaba", "Samsung", "Huawei", "Qualcomm", "Nvidia", "AMD", "Intel", "ARM", "MIT", "Stanford", "Berkeley", "CMU", "Oxford", "Cambridge", "ETH Zurich", "Turing Institute", "Allen Institute for Artificial Intelligence", "OpenAI Five", "AlphaGo", "AlphaZero", "AlphaFold", "GPT-3", "BERT", "RoBERTa", "XLNet", "T5", "PaLM", "LaMDA", "Megatron-LM", "WuDao 2.0", "BLOOM", "Jurassic-1 Jumbo", "Gopher", "Chinchilla", "PaLM 2", "Bard", "ChatGPT", "DALL-E 2", "Stable Diffusion", "Midjourney", "Imagen", "Parti", "Muse", "Imagen Video", "Make-A-Video", "Phenaki", "DeepMind", "Google", "OpenAI", "Meta", "Microsoft", "Amazon", "IBM", "Apple", "Baidu", "Tencent", "Alibaba", "Samsung", "Huawei", "Qualcomm", "Nvidia", "AMD", "Intel", "ARM", "MIT", "Stanford", "Berkeley", "CMU", "Oxford", "Cambridge", "ETH Zurich", "Turing Institute", "Allen Institute for Artificial Intelligence", "OpenAI Five", "AlphaGo", "AlphaZero", "AlphaFold", "GPT-3", "BERT", "RoBERTa", "XLNet", "T5", "PaLM", "LaMDA", "Megatron-LM", "WuDao 2.0", "BLOOM", "Jurassic-1 Jumbo", "Gopher", "Chinchilla", "PaLM 2", "Bard", "ChatGPT", "DALL-E 2", "Stable Diffusion", "Midjourney", "Imagen", "Parti", "Muse", "Imagen Video", "Make-A-Video", "Phenaki", "DeepMind", "Google", "OpenAI", "Meta", "Microsoft", "Amazon", "IBM", "Apple", "Baidu", "Tencent", "Alibaba", "Samsung", "Huawei", "Qualcomm", "Nvidia", "AMD", "Intel", "ARM", "MIT", "Stanford", "Berkeley", "CMU", "Oxford", "Cambridge", "ETH Zurich", "Turing Institute", "Allen Institute for Artificial Intelligence", "OpenAI Five", "AlphaGo", "AlphaZero", "AlphaFold", "GPT-3", "BERT", "RoBERTa", "XLNet", "T5", "PaLM", "LaMDA", "Megatron-LM", "WuDao 2.0", "BLOOM", "Jurassic-1 Jumbo", "Gopher", "Chinchilla", "PaLM 2", "Bard", "ChatGPT", "DALL-E 2", "Stable Diffusion", "Midjourney", "Imagen", "Parti", "Muse", "Imagen Video", "Make-A-Video", "Phenaki", "DeepMind", "Google", "OpenAI", "Meta", "Microsoft", "Amazon", "IBM", "Apple", "Baidu", "Tencent", "Alibaba", "Samsung", "Huawei", "Qualcomm", "Nvidia", "AMD", "Intel", "ARM", "MIT", "Stanford", "Berkeley", "CMU", "Oxford", "Cambridge", "ETH Zurich", "Turing Institute", "Allen Institute for Artificial Intelligence", "OpenAI Five", "AlphaGo", "AlphaZero", "AlphaFold", "GPT-3", "BERT", "RoBERTa", "XLNet", "T5", "PaLM", "LaMDA", "Megatron-LM", "WuDao 2.0", "BLOOM", "Jurassic-1 Jumbo", "Gopher", "Chinchilla", "PaLM 2", "Bard", "ChatGPT", "DALL-E 2", "Stable Diffusion", "Midjourney", "Imagen", "Parti", "Muse", "Imagen Video", "Make-A-Video", "Phenaki", "DeepMind", "Google", "OpenAI", "Meta", "Microsoft", "Amazon", "IBM", "Apple", "Baidu", "Tencent", "Alibaba", "Samsung", "Huawei", "Qualcomm", "Nvidia", "AMD", "Intel", "ARM", "MIT", "Stanford", "Berkeley", "CMU", "Oxford", "Cambridge", "ETH Zurich", "Turing Institute", "Allen Institute for Artificial Intelligence", "OpenAI Five", "AlphaGo", "AlphaZero", "AlphaFold", "GPT-3", "BERT", "RoBERTa", "XLNet", "T5", "PaLM", "LaMDA", "Megatron-LM", "WuDao 2.0", "BLOOM", "Jurassic-1 Jumbo", "Gopher", "Chinchilla", "PaLM 2", "Bard", "ChatGPT", "DALL-E 2", "Stable Diffusion", "Midjourney", "Imagen", "Parti", "Muse", "Imagen Video", "Make-A-Video", "Phenaki", "DeepMind", "Google", "OpenAI", "Meta", "Microsoft", "Amazon", "IBM", "Apple", "Baidu", "Tencent", "Alibaba", "Samsung", "Huawei", "Qualcomm", "Nvidia", "AMD", "Intel", "ARM", "MIT", "Stanford", "Berkeley", "CMU", "Oxford", "Cambridge", "ETH Zurich", "Turing Institute", "Allen Institute for Artificial Intelligence", "OpenAI Five", "AlphaGo", "AlphaZero", "AlphaFold", "GPT-3", "BERT", "RoBERTa", "XLNet", "T5", "PaLM", "LaMDA", "Megatron-LM", "WuDao 2.0", "BLOOM", "Jurassic-1 Jumbo", "Gopher", "Chinchilla", "PaLM 2", "Bard", "ChatGPT", "DALL-E 2", "Stable Diffusion", "Midjourney", "Imagen", "Parti", "Muse", "Imagen Video", "Make-A-Video", "Phenaki", "DeepMind", "Google", "OpenAI", "Meta", "Microsoft", "Amazon", "IBM", "Apple", "Baidu", "Tencent", "Alibaba", "Samsung", "Huawei", "Qualcomm", "Nvidia", "AMD", "Intel", "ARM", "MIT", "Stanford", "Berkeley", "CMU", "Oxford", "Cambridge", "ETH Zurich", "Turing Institute", "Allen Institute for Artificial Intelligence", "OpenAI Five", "AlphaGo", "AlphaZero", "AlphaFold", "GPT-3", "BERT", "RoBERTa", "XLNet", "T5", "PaLM", "LaMDA", "Megatron-LM", "WuDao 2.0", "BLOOM", "Jurassic-1 Jumbo", "Gopher", "Chinchilla", "PaLM 2", "Bard", "ChatGPT", "DALL-E 2", "Stable Diffusion", "Midjourney", "Imagen", "Parti", "Muse", "Imagen Video", "Make-A-Video", "Phenaki", "DeepMind", "Google", "OpenAI", "Meta", "Microsoft", "Amazon", "IBM", "Apple", "Baidu", "Tencent", "Alibaba", "Samsung", "Huawei", "Qualcomm", "Nvidia", "AMD", "Intel", "ARM", "MIT", "Stanford", "Berkeley", "CMU", "Oxford", "Cambridge", "ETH Zurich", "Turing Institute", "Allen Institute for Artificial Intelligence", "OpenAI Five", "AlphaGo", "AlphaZero", "AlphaFold", "GPT-3", "BERT", "RoBERTa", "XLNet", "T5", "PaLM", "LaMDA", "Megatron-LM", "WuDao 2.0", "BLOOM", "Jurassic-1 Jumbo", "Gopher", "Chinchilla", "PaLM 2", "Bard", "ChatGPT", "DALL-E 2", "Stable Diffusion", "Midjourney", "Imagen", "Parti", "Muse", "Imagen Video", "Make-A-Video", "Phenaki", "DeepMind", "Google", "OpenAI", "Meta", "Microsoft", "Amazon", "IBM", "Apple", "Baidu", "Tencent", "Alibaba", "Samsung", "Huawei", "Qualcomm", "Nvidia", "AMD", "Intel", "ARM", "MIT", "Stanford", "Berkeley", "CMU", "Oxford", "Cambridge", "ETH Zurich", "Turing Institute", "Allen Institute for Artificial Intelligence", "OpenAI Five", "AlphaGo", "AlphaZero", "AlphaFold", "GPT-3", "BERT", "RoBERTa", "XLNet", "T5", "PaLM", "LaMDA", "Megatron-LM", "WuDao 2.0", "BLOOM", "Jurassic-1 Jumbo", "Gopher", "Chinchilla", "PaLM 2", "Bard", "ChatGPT", "DALL-E 2", "Stable Diffusion", "Midjourney", "Imagen", "Parti", "Muse", "Imagen Video", "Make-A-Video", "Phenaki", "DeepMind", "Google", "OpenAI", "Meta", "Microsoft", "Amazon", "IBM", "Apple", "Baidu", "Tencent", "Alibaba", "Samsung", "Huawei", "Qualcomm", "Nvidia", "AMD", "Intel", "ARM", "MIT", "Stanford", "Berkeley", "CMU", "Oxford", "Cambridge", "ETH Zurich", "Turing Institute", "Allen Institute for Artificial Intelligence", "OpenAI Five", "AlphaGo", "AlphaZero", "AlphaFold", "GPT-3", "BERT", "RoBERTa", "XLNet", "T5", "PaLM", "LaMDA", "Megatron-LM", "WuDao 2.0", "BLOOM", "Jurassic-1 Jumbo", "Gopher", "Chinchilla", "PaLM 2", "Bard", "ChatGPT", "DALL-E 2", "Stable Diffusion", "Midjourney", "Imagen", "Parti", "Muse", "Imagen Video", "Make-A-Video", "Phenaki", "DeepMind", "Google", "OpenAI", "Meta", "Microsoft", "Amazon", "IBM", "Apple", "Baidu", "Tencent", "Alibaba", "Samsung", "Huawei", "Qualcomm", "Nvidia", "AMD", "Intel", "ARM", "MIT", "Stanford", "Berkeley", "CMU", "Oxford", "Cambridge", "ETH Zurich", "Turing Institute", "Allen Institute for Artificial Intelligence", "OpenAI Five", "AlphaGo", "AlphaZero", "AlphaFold", "GPT-3", "BERT", "RoBERTa", "XLNet", "T5", "PaLM", "LaMDA", "Megatron-LM", "WuDao 2.0", "BLOOM", "Jurassic-1 Jumbo", "Gopher", "Chinchilla", "PaLM 2", "Bard", "ChatGPT", "DALL-E 2", "Stable Diffusion", "Midjourney", "Imagen", "Parti", "Muse", "Imagen Video", "Make-A-Video", "Phenaki", "DeepMind", "Google", "OpenAI", "Meta", "Microsoft", "Amazon", "IBM", "Apple", "Baidu", "Tencent", "Alibaba", "Samsung", "Huawei", "Qualcomm", "Nvidia", "AMD", "Intel", "ARM", "MIT", "Stanford", "Berkeley", "CMU", "Oxford", "Cambridge", "ETH Zurich", "Turing Institute", "Allen Institute for Artificial Intelligence", "OpenAI Five", "AlphaGo", "AlphaZero", "AlphaFold", "GPT-3", "BERT", "RoBERTa", "XLNet", "T5", "PaLM", "LaMDA", "Megatron-LM", "WuDao 2.0", "BLOOM", "Jurassic-1 Jumbo", "Gopher", "Chinchilla", "PaLM 2", "Bard", "ChatGPT", "DALL-E 2", "Stable Diffusion", "Midjourney", "Imagen", "Parti", "Muse", "Imagen Video", "Make-A-Video", "Phenaki", "DeepMind", "Google", "OpenAI", "Meta", "Microsoft", "Amazon", "IBM", "Apple", "Baidu", "Tencent", "Alibaba", "Samsung", "Huawei", "Qualcomm", "Nvidia", "AMD", "Intel", "ARM", "MIT", "Stanford", "Berkeley", "CMU", "Oxford", "Cambridge", "ETH Zurich", "Turing Institute", "Allen Institute for Artificial Intelligence", "OpenAI Five", "AlphaGo", "AlphaZero", "AlphaFold", "GPT-3", "BERT", "RoBERTa", "XLNet", "T5", "PaLM", "LaMDA", "Megatron-LM", "WuDao 2.0", "BLOOM", "Jurassic-1 Jumbo", "Gopher", "Chinchilla", "PaLM 2", "Bard", "ChatGPT", "DALL-E 2", "Stable Diffusion", "Midjourney", "Imagen", "Parti", "Muse", "Imagen Video", "Make-A-Video", "Phenaki", "DeepMind", "Google", "OpenAI", "Meta", "Microsoft", "Amazon", "IBM", "Apple", "Baidu", "Tencent", "Alibaba", "Samsung", "Huawei", "Qualcomm", "Nvidia", "AMD", "Intel", "ARM", "MIT", "Stanford", "Berkeley", "CMU", "Oxford", "Cambridge", "ETH Zurich", "Turing Institute", "Allen Institute for Artificial Intelligence", "OpenAI Five", "AlphaGo", "AlphaZero", "AlphaFold", "GPT-3", "BERT", "RoBERTa", "XLNet", "T5", "PaLM", "LaMDA", "Megatron-LM", "WuDao 2.0", "BLOOM", "Jurassic-1 Jumbo", "Gopher", "Chinchilla", "PaLM 2", "Bard", "ChatGPT", "DALL-E 2", "Stable Diffusion", "Midjourney", "Imagen", "Parti", "Muse", "Imagen Video", "Make-A-Video", "Phenaki", "DeepMind", "Google", "OpenAI", "Meta", "Microsoft", "Amazon", "IBM", "Apple", "Baidu", "Tencent", "Alibaba", "Samsung", "Huawei", "Qualcomm", "Nvidia", "AMD", "Intel", "ARM", "MIT", "Stanford", "Berkeley", "CMU", "Oxford", "Cambridge", "ETH Zurich", "Turing Institute", "Allen Institute for Artificial Intelligence", "OpenAI Five", "AlphaGo", "AlphaZero", "AlphaFold", "GPT-3", "BERT", "RoBERTa", "XLNet", "T5", "PaLM", "LaMDA", "Megatron-LM", "WuDao 2.0", "BLOOM", "Jurassic-1 Jumbo", "Gopher", "Chinchilla", "PaLM 2", "Bard", "ChatGPT", "DALL-E 2", "Stable Diffusion", "Midjourney", "Imagen", "Parti", "Muse", "Imagen Video", "Make-A-Video", "Phenaki", "DeepMind", "Google", "OpenAI", "Meta", "Microsoft", "Amazon", "IBM", "Apple", "Baidu", "Tencent", "Alibaba", "Samsung", "Huawei", "Qualcomm", "Nvidia", "AMD", "Intel", "ARM", "MIT", "Stanford", "Berkeley", "CMU", "Oxford", "Cambridge", "ETH Zurich", "Turing Institute", "Allen Institute for Artificial Intelligence", "OpenAI Five", "AlphaGo", "AlphaZero", "AlphaFold", "GPT-3", "BERT", "RoBERTa", "XLNet", "T5", "PaLM", "LaMDA", "Megatron-LM", "WuDao 2.0", "BLOOM", "Jurassic-1 Jumbo", "Gopher", "Chinchilla", "PaLM 2", "Bard", "ChatGPT", "DALL-E 2", "Stable Diffusion", "Midjourney", "Imagen", "Parti", "Muse", "Imagen Video", "Make-A-Video", "Phenaki", "DeepMind", "Google", "OpenAI", "Meta", "Microsoft", "Amazon", "IBM", "Apple", "Baidu", "Tencent", "Alibaba", "Samsung", "Huawei", "Qualcomm", "Nvidia", "AMD", "Intel", "ARM", "MIT", "Stanford", "Berkeley", "CMU", "Oxford", "Cambridge", "ETH Zurich", "Turing Institute", "Allen Institute for Artificial Intelligence", "OpenAI Five", "AlphaGo", "AlphaZero", "AlphaFold", "GPT-3", "BERT", "RoBERTa", "XLNet", "T5", "PaLM", "LaMDA", "Megatron-LM", "WuDao 2.0", "BLOOM", "Jurassic-1 Jumbo", "Gopher", "Chinchilla", "PaLM 2", "Bard", "ChatGPT", "DALL-E 2", "Stable Diffusion", "Midjourney", "Imagen", "Parti", "Muse", "Imagen Video", "Make-A-Video", "Phenaki", "DeepMind", "Google", "OpenAI", "Meta", "Microsoft", "Amazon", "IBM", "Apple", "Baidu", "Tencent", "Alibaba", "Samsung", "Huawei", "Qualcomm", "Nvidia", "AMD", "Intel", "ARM", "MIT", "Stanford", "Berkeley", "CMU", "Oxford", "Cambridge", "ETH Zurich", "Turing Institute", "Allen Institute for Artificial Intelligence", "OpenAI Five", "AlphaGo", "AlphaZero", "AlphaFold", "GPT-3", "BERT", "RoBERTa", "XLNet", "T5", "PaLM", "LaMDA", "Megatron-LM", "WuDao 2.0", "BLOOM", "Jurassic-1 Jumbo", "Gopher", "Chinchilla", "PaLM 2", "Bard", "ChatGPT", "DALL-E 2", "Stable Diffusion", "Midjourney", "Imagen", "Parti", "Muse", "Imagen Video", "Make-A-Video", "Phenaki", "DeepMind", "Google", "OpenAI", "Meta", "Microsoft", "Amazon", "IBM", "Apple", "Baidu", "Tencent", "Alibaba", "Samsung", "Huawei", "Qualcomm", "Nvidia", "AMD", "Intel", "ARM", "MIT", "Stanford", "Berkeley", "CMU", "Oxford", "Cambridge", "ETH Zurich", "Turing Institute", "Allen Institute for Artificial Intelligence", "OpenAI Five", "AlphaGo", "AlphaZero", "AlphaFold", "GPT-3", "BERT", "RoBERTa", "XLNet", "T5", "PaLM", "LaMDA", "Megatron-LM", "WuDao 2.0", "BLOOM", "Jurassic-1 Jumbo", "Gopher", "Chinchilla", "PaLM 2", "Bard", "ChatGPT", "DALL-E 2", "Stable Diffusion", "Midjourney", "Imagen", "Parti", "Muse", "Imagen Video", "Make-A-Video", "Phenaki", "DeepMind", "Google", "OpenAI", "Meta", "Microsoft", "Amazon", "IBM", "Apple", "Baidu", "Tencent", "Alibaba", "Samsung", "Huawei", "Qualcomm", "Nvidia", "AMD", "Intel", "ARM", "MIT", "Stanford", "Berkeley", "CMU", "Oxford", "Cambridge", "ETH Zurich", "Turing Institute", "Allen Institute for Artificial Intelligence", "OpenAI Five", "AlphaGo", "AlphaZero", "AlphaFold", "GPT-3", "BERT", "RoBERTa", "XLNet", "T5", "PaLM", "LaMDA", "Megatron-LM", "WuDao 2.0", "BLOOM", "Jurassic-1 Jumbo", "Gopher", "Chinchilla", "PaLM 2", "Bard", "ChatGPT", "DALL-E 2", "Stable Diffusion", "Midjourney", "Imagen", "Parti", "Muse", "Imagen Video", "Make-A-Video", "Phenaki", "DeepMind", "Google", "OpenAI", "Meta", "Microsoft", "Amazon", "IBM", "Apple", "Baidu", "Tencent", "Alibaba", "Samsung", "Huawei", "Qualcomm", "Nvidia", "AMD", "Intel", "ARM", "MIT", "Stanford", "Berkeley", "CMU", "Oxford", "Cambridge", "ETH Zurich", "Turing Institute", "Allen Institute for Artificial Intelligence", "OpenAI Five", "AlphaGo", "AlphaZero", "AlphaFold", "GPT-3", "BERT", "RoBERTa", "XLNet", "T5", "PaLM", "LaMDA", "Megatron-LM", "WuDao 2.0", "BLOOM", "Jurassic-1 Jumbo", "Gopher", "Chinchilla", "PaLM 2", "Bard", "ChatGPT", "DALL-E 2", "Stable Diffusion", "Midjourney", "Imagen", "Parti", "Muse", "Imagen Video", "Make-A-Video", "Phenaki", "DeepMind", "Google", "OpenAI", "Meta", "Microsoft", "Amazon", "IBM", "Apple", "Baidu", "Tencent", "Alibaba", "Samsung", "Huawei", "Qualcomm", "Nvidia", "AMD", "Intel", "ARM", "MIT", "Stanford", "Berkeley", "CMU", "Oxford", "Cambridge", "ETH Zurich", "Turing Institute", "Allen Institute for Artificial Intelligence", "OpenAI Five", "AlphaGo", "AlphaZero", "AlphaFold", "GPT-3", "BERT", "RoBERTa", "XLNet", "T5", "PaLM", "LaMDA", "Megatron-LM", "WuDao 2.0", "BLOOM", "Jurassic-1 Jumbo", "Gopher", "Chinchilla", "PaLM 2", "Bard", "ChatGPT", "DALL-E 2", "Stable Diffusion", "Midjourney", "Imagen", "Parti", "Muse", "Imagen Video", "Make-A-Video", "Phenaki", "DeepMind", "Google", "OpenAI", "Meta", "Microsoft", "Amazon", "IBM", "Apple", "Baidu", "Tencent", "Alibaba", "Samsung", "Huawei", "Qualcomm", "Nvidia", "AMD", "Intel", "ARM", "MIT", "Stanford", "Berkeley", "CMU", "Oxford", "Cambridge", "ETH Zurich", "Turing Institute", "Allen Institute for Artificial Intelligence", "OpenAI Five", "AlphaGo", "AlphaZero", "AlphaFold", "GPT-3", "BERT", "RoBERTa", "XLNet", "T5", "PaLM", "LaMDA", "Megatron-LM", "WuDao 2.0", "BLOOM", "Jurassic-1 Jumbo", "Gopher", "Chinchilla", "PaLM 2", "Bard", "ChatGPT", "DALL-E 2", "Stable Diffusion", "Midjourney", "Imagen", "Parti", "Muse", "Imagen Video", "Make-A-Video", "Phenaki", "DeepMind", "Google", "OpenAI", "Meta", "Microsoft", "Amazon", "IBM", "Apple", "Baidu", "Tencent", "Alibaba", "Samsung", "Huawei", "Qualcomm", "Nvidia", "AMD", "Intel", "ARM", "MIT", "Stanford", "Berkeley", "CMU", "Oxford", "Cambridge", "ETH Zurich", "Turing Institute", "Allen Institute for Artificial Intelligence", "OpenAI Five", "AlphaGo", "AlphaZero", "AlphaFold", "GPT-3", "BERT", "RoBERTa", "XLNet", "T5", "PaLM", "LaMDA", "Megatron-LM", "WuDao 2.0", "BLOOM", "Jurassic-1 Jumbo", "Gopher", "Chinchilla", "PaLM 2", "Bard", "ChatGPT", "DALL-E 2", "Stable Diffusion", "Midjourney", "Imagen", "Parti", "Muse", "Imagen Video", "Make-A-Video", "Phenaki", "DeepMind", "Google", "OpenAI", "Meta", "Microsoft", "Amazon", "IBM", "Apple", "Baidu", "Tencent", "Alibaba", "Samsung", "Huawei", "Qualcomm", "Nvidia", "AMD", "Intel", "ARM", "MIT", "Stanford", "Berkeley", "CMU", "Oxford", "Cambridge", "ETH Zurich", "Turing Institute", "Allen Institute for Artificial Intelligence", "OpenAI Five", "AlphaGo", "AlphaZero", "AlphaFold", "GPT-3", "BERT", "RoBERTa", "XLNet", "T5", "PaLM", "LaMDA", "Megatron-LM", "WuDao 2.0", "BLOOM", "Jurassic-1 Jumbo", "Gopher", "Chinchilla", "PaLM 2", "Bard", "ChatGPT", "DALL-E 2", "Stable Diffusion", "Midjourney", "Imagen", "Parti", "Muse", "Imagen Video", "Make-A-Video", "Phenaki", "DeepMind", "Google", "OpenAI", "Meta", "Microsoft", "Amazon", "IBM", "Apple", "Baidu", "Tencent", "Alibaba", "Samsung", "Huawei", "Qualcomm", "Nvidia", "AMD", "Intel", "ARM", "MIT", "Stanford", "Berkeley", "CMU", "Oxford", "Cambridge", "ETH Zurich", "Turing Institute", "Allen Institute for Artificial Intelligence", "OpenAI Five", "AlphaGo", "AlphaZero", "AlphaFold", "GPT-3", "BERT", "RoBERTa", "XLNet", "T5", "PaLM", "LaMDA", "Megatron-LM", "WuDao 2.0", "BLOOM", "Jurassic-1 Jumbo", "Gopher", "Chinchilla", "PaLM 2", "Bard", "ChatGPT", "DALL-E 2", "Stable Diffusion", "Midjourney", "Imagen", "Parti", "Muse", "Imagen Video", "Make-A-Video", "Phenaki", "DeepMind", "Google", "OpenAI", "Meta", "Microsoft", "Amazon", "IBM", "Apple", "Baidu", "Tencent", "Alibaba", "Samsung", "Huawei", "Qualcomm", "Nvidia", "AMD", "Intel", "ARM", "MIT", "Stanford", "Berkeley", "CMU", "Oxford", "Cambridge", "ETH Zurich", "Turing Institute", "Allen Institute for Artificial Intelligence", "OpenAI Five", "AlphaGo", "AlphaZero", "AlphaFold", "GPT-3", "BERT", "RoBERTa", "XLNet", "T5", "PaLM", "LaMDA", "Megatron-LM", "WuDao 2.0", "BLOOM", "Jurassic-1 Jumbo", "Gopher", "Chinchilla", "PaLM 2", "Bard", "ChatGPT", "DALL-E 2", "Stable Diffusion", "Midjourney", "Imagen", "Parti", "Muse", "Imagen Video", "Make-A-Video", "Phenaki", "DeepMind", "Google", "OpenAI", "Meta", "Microsoft", "Amazon", "IBM", "Apple", "Baidu", "Tencent", "Alibaba", "Samsung", "Huawei", "Qualcomm", "Nvidia", "AMD", "Intel", "ARM", "MIT", "Stanford", "Berkeley", "CMU", "Oxford", "Cambridge", "ETH Zurich", "Turing Institute", "Allen Institute for Artificial Intelligence", "OpenAI Five", "AlphaGo", "AlphaZero", "AlphaFold", "GPT-3", "BERT", "RoBERTa", "XLNet", "T5", "PaLM", "LaMDA", "Megatron-LM", "WuDao 2.0", "BLOOM", "Jurassic-1 Jumbo", "Gopher", "Chinchilla", "PaLM 2", "Bard", "ChatGPT", "DALL-E 2", "Stable Diffusion", "Midjourney", "Imagen", "Parti", "Muse", "Imagen Video", "Make-A-Video", "Phenaki", "DeepMind", "Google", "OpenAI", "Meta", "Microsoft", "Amazon", "IBM", "Apple", "Baidu", "Tencent", "Alibaba", "Samsung", "Huawei", "Qualcomm", "Nvidia", "AMD", "Intel", "ARM", "MIT", "Stanford", "Berkeley", "CMU", "Oxford", "Cambridge", "ETH Zurich", "Turing Institute", "Allen Institute for Artificial Intelligence", "OpenAI Five", "AlphaGo", "AlphaZero", "AlphaFold", "GPT-3", "BERT", "RoBERTa", "XLNet", "T5", "PaLM", "LaMDA", "Megatron-LM", "WuDao 2.0", "BLOOM", "Jurassic-1 Jumbo", "Gopher", "Chinchilla", "PaLM 2", "Bard", "ChatGPT", "DALL-E 2", "Stable Diffusion", "Midjourney", "Imagen", "Parti", "Muse", "Imagen Video", "Make-A-Video", "Phenaki", "DeepMind", "Google", "OpenAI", "Meta", "Microsoft", "Amazon", "IBM", "Apple", "Baidu", "Tencent", "Alibaba", "Samsung", "Huawei", "Qualcomm", "Nvidia", "AMD", "Intel", "ARM", "MIT", "Stanford", "Berkeley", "CMU", "Oxford", "Cambridge", "ETH Zurich", "Turing Institute", "Allen Institute for Artificial Intelligence", "OpenAI Five", "AlphaGo", "AlphaZero", "AlphaFold", "GPT-3", "BERT", "RoBERTa", "XLNet", "T5", "PaLM", "LaMDA", "Megatron-LM", "WuDao 2.0", "BLOOM", "Jurassic-1 Jumbo", "Gopher", "Chinchilla", "PaLM 2", "Bard", "ChatGPT", "DALL-E 2", "Stable Diffusion", "Midjourney", "Imagen", "Parti", "Muse", "Imagen Video", "Make-A-Video", "Phenaki", "DeepMind", "Google", "OpenAI", "Meta", "Microsoft", "Amazon", "IBM", "Apple", "Baidu", "Tencent", "Alibaba", "Samsung", "Huawei", "Qualcomm", "Nvidia", "AMD", "Intel", "ARM", "MIT", "Stanford", "Berkeley", "CMU", "Oxford", "Cambridge", "ETH Zurich", "Turing Institute", "Allen Institute for Artificial Intelligence", "OpenAI Five", "AlphaGo", "AlphaZero", "AlphaFold", "GPT-3", "BERT", "RoBERTa", "XLNet", "T5", "PaLM", "LaMDA", "Megatron-LM", "WuDao 2.0", "BLOOM", "Jurassic-1 Jumbo", "Gopher", "Chinchilla", "PaLM 2", "Bard", "ChatGPT", "DALL-E 2", "Stable Diffusion", "Midjourney", "Imagen", "Parti", "Muse", "Imagen Video", "Make-A-Video", "Phenaki", "DeepMind", "Google", "OpenAI", "Meta", "Microsoft", "Amazon", "IBM", "Apple", "Baidu", "Tencent", "Alibaba", "Samsung", "Huawei", "Qualcomm", "Nvidia", "AMD", "Intel", "ARM", "MIT", "Stanford", "Berkeley", "CMU", "Oxford", "Cambridge", "ETH Zurich", "Turing Institute", "Allen Institute for Artificial Intelligence", "OpenAI Five", "AlphaGo", "AlphaZero", "AlphaFold", "GPT-3", "BERT", "RoBERTa", "XLNet", "T5", "PaLM", "LaMDA", "Megatron-LM", "WuDao 2.0", "BLOOM", "Jurassic-1 Jumbo", "Gopher", "Chinchilla", "PaLM 2", "Bard", "ChatGPT", "DALL-E 2", "Stable Diffusion", "Midjourney", "Imagen", "Parti", "Muse", "Imagen Video", "Make-A-Video", "Phenaki", "DeepMind", "Google", "OpenAI", "Meta", "Microsoft", "Amazon", "IBM", "Apple", "Baidu", "Tencent", "Alibaba", "Samsung", "Huawei", "Qualcomm", "Nvidia", "AMD", "Intel", "ARM", "MIT", "Stanford", "Berkeley", "CMU", "Oxford", "Cambridge", "ETH Zurich", "Turing Institute", "Allen Institute for Artificial Intelligence", "OpenAI Five", "AlphaGo", "AlphaZero", "AlphaFold", "GPT-3", "BERT", "RoBERTa", "XLNet", "T5", "PaLM", "LaMDA", "Megatron-LM", "WuDao 2.0", "BLOOM", "Jurassic-1 Jumbo", "Gopher", "Chinchilla", "PaLM 2", "Bard", "ChatGPT", "DALL-E 2", "Stable Diffusion", "Midjourney", "Imagen", "Parti", "Muse", "Imagen Video", "Make-A-Video", "Phenaki", "DeepMind",
+[
+  {
+    "note": [
+      "## Reading List: Ethics in NLP (up to 2020"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list covers a range of topics, from bias in NLP to ethical considerations in specific applications"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**General Ethics and Bias:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "title": [
+      "**\"The Ethical Algorithm: The Social and Political Implications of Algorithmic Decision-Making\"** by Michael Kearns and Aaron Roth",
+      "- A comprehensive overview of ethical considerations in algorithmic decision-making, including bias and fairness"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "author": [
+      {
+        "literal": "**\"The Perils of 'Objective' Truth in NLP\"** by Timnit Gebru, Jamie Morgenstern, Briana Vecchione, Jennifer Wortman Vaughan, Hanna Wallach, Hal Daumé III, and Kate Crawford"
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "title": [
+      "- Discusses the dangers of framing NLP as objective and the need for critical analysis of its biases"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "author": [
+      {
+        "family": "Catherine D'Ignazio",
+        "given": "Data Feminism\"",
+        "particle": "by"
+      },
+      {
+        "family": "Klein",
+        "given": "Lauren"
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "title": [
+      "- A book that explores the intersection of data science and feminism, highlighting the ethical implications of data collection and analysis"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "title": [
+      "**\"The Social and Ethical Implications of Natural Language Processing\"** by Emily M",
+      "- A review of ethical issues in NLP, including bias, fairness, and accountability"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "Bender"
+    ]
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "author": [
+      {
+        "given": "Fairness"
+      },
+      {
+        "family": "Solon Barocas",
+        "given": "Bias",
+        "particle": "in Machine Learning\" by"
+      },
+      {
+        "family": "Hardt",
+        "given": "Moritz"
+      },
+      {
+        "family": "Narayanan",
+        "given": "Arvind"
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "title": [
+      "- A technical overview of fairness and bias in machine learning, with implications for NLP"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "title": [
+      "**\"Auditing Black Box Models for Unfairness\"** by Cynthia Dwork",
+      "- Discusses methods for auditing machine learning models for bias and unfairness"
+    ],
+    "editor": [
+      {
+        "family": "Hardt",
+        "given": "Moritz"
+      },
+      {
+        "family": "Pitassi",
+        "given": "Toniann"
+      },
+      {
+        "family": "Reingold",
+        "given": "Omer"
+      },
+      {
+        "family": "Zemel",
+        "given": "Richard"
+      }
+    ],
+    "date": [
+      "2012"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Specific Applications and Case Studies:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "title": [
+      "**\"The Impact of Language Models on Social Justice\"** by Timnit Gebru",
+      "- A critical analysis of the potential harms of large language models, particularly for marginalized communities"
+    ],
+    "author": [
+      {
+        "family": "Bender",
+        "given": "Emily M."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "title": [
+      "**\"The Ethical Implications of Chatbots\"** by Joanna Bryson",
+      "- Explores the ethical challenges of developing and deploying chatbots, including deception and manipulation"
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "title": [
+      "**\"The Ethics of AI in Healthcare\"** by David Leslie",
+      "- Discusses the ethical considerations of using AI in healthcare, including privacy, bias, and accountability"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "title": [
+      "**\"The Ethics of AI in Education\"** by Michael Madaio",
+      "- Examines the ethical implications of using AI in education, including fairness, access, and privacy"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "title": [
+      "**\"The Ethics of AI in Criminal Justice\"** by Sarah Brayne",
+      "- Explores the ethical challenges of using AI in criminal justice, including bias, discrimination, and accountability"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "title": [
+      "**\"The Ethics of AI in Finance\"** by David Leslie",
+      "- Discusses the ethical considerations of using AI in finance, including fairness, transparency, and accountability"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Best Practices and Guidelines:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "title": [
+      "**\"Guidelines for Responsible AI\"** by the Partnership on AI",
+      "- A set of guidelines for developing and deploying AI systems responsibly, including considerations for fairness, transparency, and accountability"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "title": [
+      "**\"Ethical Considerations in the Design and Deployment of AI Systems\"** by the IEEE Global Initiative on Ethics of Autonomous and Intelligent Systems",
+      "- A framework for ethical considerations in AI development and deployment"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "title": [
+      "**\"The AI Now Institute Report 2019\"** - A comprehensive report on the social and ethical implications of AI, including recommendations for policy and practice"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "author": [
+      {
+        "family": "League\"",
+        "given": "The Algorithmic Justice"
+      }
+    ],
+    "title": [
+      "A non-profit organization dedicated to fighting bias in AI systems"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "title": [
+      "**\"The Fairness, Accountability, and Transparency in Machine Learning (FATML) Workshop\"** - An annual workshop focused on research and best practices for fairness, accountability, and transparency in machine learning"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Resources",
+        "given": "Additional"
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "title": [
+      "**\"The Ethics of Artificial Intelligence\"** by Nick Bostrom",
+      "- A book that explores the ethical implications of artificial intelligence, including the potential for superintelligence"
+    ],
+    "date": [
+      "2014"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "title": [
+      "**\"Weapons of Math Destruction: How Big Data Increases Inequality and Threatens Democracy\"** by Cathy O'Neil (2016) - A book that exposes the dangers of biased algorithms and their impact on society"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "title": [
+      "**\"The Moral Machine\"** - An online experiment that explores people's ethical preferences in autonomous driving scenarios"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list provides a starting point for exploring the ethical landscape of NLP. It is important to stay informed about the latest research and developments in this field, as the ethical implications of NLP are constantly evolving"
+    ],
+    "type": null
+  }
+]

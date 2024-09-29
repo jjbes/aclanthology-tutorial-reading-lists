@@ -1,1 +1,675 @@
-[{"authors": ["Geeraerts, Dirk", "Grondelaers, Stefan", "Barðdal, Jóhanna"], "title": "Cognitive Semantics: An Introduction", "year": 2010}, {"authors": ["Traugott, Elizabeth C.", "Dasher, Richard B."],"title": "Regularity in Semantic Change", "year": 2002}, {"authors": ["Sweetser, Eve"], "title": "From Etymology to Pragmatics: Metaphorical and Metonymical Modes of Thought", "year": 1990}, {"authors": ["Lakoff, George"], "title": "Women, Fire, and Dangerous Things: What Categories Reveal about the Mind", "year": 1987}, {"authors": ["Fauconnier, Gilles"], "title": "Mental Spaces: Aspects of Meaning Construction in Natural Language", "year": 1985}, {"authors": ["Langacker, Ronald W."],"title": "Foundations of Cognitive Grammar", "year": 1987}, {"authors": ["Croft, William"], "title": "Radical Construction Grammar", "year": 2001}, {"authors": ["Haspelmath, Martin"], "title": "Understanding Morphology", "year": 2002}, {"authors": ["Bybee, Joan L."],"title": "Morphology: A Study of the Relation between Meaning and Form", "year": 2010}, {"authors": ["Levinson, Stephen C."],"title": "Presumptive Meanings: The Theory of Generalized Conversational Implicature", "year": 2000}, {"authors": ["Grice, H. Paul"], "title": "Logic and Conversation", "year": 1975}, {"authors": ["Sperber, Dan", "Wilson, Deirdre"], "title": "Relevance: Communication and Cognition", "year": 1995}, {"authors": ["Pinker, Steven"], "title": "The Language Instinct: How the Mind Creates Language", "year": 1994}, {"authors": ["Chomsky, Noam"], "title": "Syntactic Structures", "year": 1957}, {"authors": ["Jackendoff, Ray"], "title": "Semantics and Cognition", "year": 1983}, {"authors": ["Fillmore, Charles J."],"title": "Frame Semantics", "year": 1985}, {"authors": ["Talmy, Leonard"], "title": "Toward a Cognitive Semantics", "year": 2000}, {"authors": ["Goldberg, Adele E."],"title": "Constructions at Work: The Nature of Generalization in Language", "year": 2006}, {"authors": ["Tomasello, Michael"], "title": "A Usage-Based Theory of Language Acquisition", "year": 2003}, {"authors": ["Evans, Vyvyan"], "title": "The Structure of Time", "year": 2004}]
+[
+  {
+    "note": [
+      "## Reading List: Semantic Change Modelling (up to 2024"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list provides a diverse range of articles exploring various methods for modelling semantic change, encompassing computational linguistics, cognitive science, and historical linguistics"
+    ],
+    "type": null
+  },
+  {
+    "publisher": [
+      "**Computational Linguistics & Machine Learning:**"
+    ],
+    "type": "book"
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "author": [
+      {
+        "family": "Semantics",
+        "given": "Distributional"
+      },
+      {
+        "family": "Jurafsky",
+        "given": "D.",
+        "particle": "Semantic Change\" by"
+      },
+      {
+        "family": "Martin",
+        "given": "J.H."
+      }
+    ],
+    "date": [
+      "2000"
+    ],
+    "volume": [
+      "26"
+    ],
+    "pages": [
+      "1–45"
+    ],
+    "note": [
+      "Introduces distributional semantics and its application to semantic change"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "*Computational Linguistics*"
+    ],
+    "issue": [
+      "1"
+    ]
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "author": [
+      {
+        "family": "R. Boyd-Graber",
+        "given": "A.Probabilistic Model",
+        "particle": "of Semantic Change\" by"
+      },
+      {
+        "given": "J."
+      }
+    ],
+    "date": [
+      "2010"
+    ],
+    "container-title": [
+      "*Proceedings of the 48th Annual Meeting of the Association for Computational Linguistics*"
+    ],
+    "pages": [
+      "1037–1046"
+    ],
+    "note": [
+      "Proposes a probabilistic model for semantic change based on word embeddings"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "author": [
+      {
+        "family": "Detection",
+        "given": "Semantic Change"
+      },
+      {
+        "family": "Hamilton",
+        "given": "W.L.",
+        "particle": "Explanation with Word Embeddings\" by"
+      },
+      {
+        "family": "Leskovec",
+        "given": "J."
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "container-title": [
+      "*Proceedings of the 2017 Conference on Empirical Methods in Natural Language Processing*"
+    ],
+    "pages": [
+      "1487–1496"
+    ],
+    "note": [
+      "Explores using word embeddings to detect and explain semantic change"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "title": [
+      "**\"A Neural Network Approach to Modeling Semantic Change\"** by"
+    ],
+    "author": [
+      {
+        "family": "Gulordava",
+        "given": "K."
+      },
+      {
+        "family": "Baroni",
+        "given": "M."
+      },
+      {
+        "given": "L."
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "volume": [
+      "6"
+    ],
+    "pages": [
+      "621–635"
+    ],
+    "note": [
+      "Presents a neural network model for capturing semantic change"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "*Transactions of the Association for Computational Linguistics*"
+    ]
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "author": [
+      {
+        "family": "Detection",
+        "given": "Semantic Change"
+      },
+      {
+        "family": "Hamilton",
+        "given": "W.L.",
+        "particle": "Explanation with Contextualized Word Embeddings\" by"
+      },
+      {
+        "family": "Leskovec",
+        "given": "J."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "volume": [
+      "7"
+    ],
+    "pages": [
+      "487–501"
+    ],
+    "note": [
+      "Extends previous work by incorporating contextualized word embeddings"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "*Transactions of the Association for Computational Linguistics*"
+    ]
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "author": [
+      {
+        "family": "Li",
+        "given": "Y.",
+        "particle": "Modeling Semantic Change with Contrastive Learning\" by"
+      },
+      {
+        "family": "Jurafsky",
+        "given": "D."
+      }
+    ],
+    "date": [
+      "2021"
+    ],
+    "container-title": [
+      "*Proceedings of the 2021 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies*"
+    ],
+    "pages": [
+      "3251–3261"
+    ],
+    "note": [
+      "Introduces contrastive learning for semantic change modelling"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "author": [
+      {
+        "family": "Science",
+        "given": "Cognitive"
+      },
+      {
+        "given": "Psycholinguistics"
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "title": [
+      "**\"The Cognitive Basis of Semantic Change\"** by"
+    ],
+    "author": [
+      {
+        "family": "Traugott",
+        "given": "E.C."
+      }
+    ],
+    "date": [
+      "2003"
+    ],
+    "volume": [
+      "14"
+    ],
+    "pages": [
+      "161–188"
+    ],
+    "note": [
+      "Examines the cognitive mechanisms underlying semantic change"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "*Cognitive Linguistics*"
+    ],
+    "issue": [
+      "2"
+    ]
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "title": [
+      "**\"Semantic Change and the Lexicon: A Cognitive Approach\"** by Geeraerts"
+    ],
+    "author": [
+      {
+        "given": "D."
+      }
+    ],
+    "date": [
+      "2010"
+    ],
+    "volume": [
+      "21"
+    ],
+    "pages": [
+      "1–40"
+    ],
+    "note": [
+      "Focuses on the role of cognition in lexical semantic change"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "*Cognitive Linguistics*"
+    ],
+    "issue": [
+      "1"
+    ]
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "author": [
+      {
+        "family": "Mind",
+        "given": "The Embodied"
+      },
+      {
+        "family": "Gibbs",
+        "given": "R.W.",
+        "particle": "Semantic Change\" by"
+      }
+    ],
+    "date": [
+      "2011"
+    ],
+    "volume": [
+      "22"
+    ],
+    "pages": [
+      "1–32"
+    ],
+    "note": [
+      "Explores the connection between embodiment and semantic change"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "*Cognitive Linguistics*"
+    ],
+    "issue": [
+      "1"
+    ]
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "author": [
+      {
+        "family": "Change",
+        "given": "Semantic"
+      },
+      {
+        "family": "Bybee",
+        "given": "J.L.",
+        "particle": "the Evolution of Language\" by"
+      }
+    ],
+    "date": [
+      "2010"
+    ],
+    "volume": [
+      "86"
+    ],
+    "pages": [
+      "665–695"
+    ],
+    "note": [
+      "Examines semantic change within the broader context of language evolution"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "*Language*"
+    ],
+    "issue": [
+      "4"
+    ]
+  },
+  {
+    "container-title": [
+      "**Historical Linguistics & Diachronic Semantics:**"
+    ],
+    "type": "chapter"
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "location": [
+      "Semantic Change"
+    ],
+    "publisher": [
+      "A"
+    ],
+    "author": [
+      {
+        "given": "Typological"
+      },
+      {
+        "family": "Haspelmath",
+        "given": "M.",
+        "particle": "Diachronic Perspective\" by"
+      }
+    ],
+    "date": [
+      "2010"
+    ],
+    "volume": [
+      "86"
+    ],
+    "pages": [
+      "653–664"
+    ],
+    "note": [
+      "Provides a typological and diachronic perspective on semantic change"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "*Language*"
+    ],
+    "issue": [
+      "4"
+    ]
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "author": [
+      {
+        "family": "Sweetser",
+        "given": "E.",
+        "particle": "The Evolution of Meaning\" by"
+      }
+    ],
+    "date": [
+      "1990"
+    ],
+    "note": [
+      "*Cambridge University Press*. (A classic work exploring the evolution of meaning across different domains"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "author": [
+      {
+        "family": "Change",
+        "given": "Semantic"
+      },
+      {
+        "family": "Trask",
+        "given": "R.L.",
+        "particle": "the History of English\" by"
+      }
+    ],
+    "date": [
+      "2000"
+    ],
+    "note": [
+      "*Routledge*. (Focuses on semantic change in the English language"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "author": [
+      {
+        "family": "Geeraerts",
+        "given": "D.",
+        "particle": "The Oxford Handbook of Historical Semantics\" by"
+      },
+      {
+        "family": "Cuyckens",
+        "given": "H."
+      }
+    ],
+    "date": [
+      "2007"
+    ],
+    "publisher": [
+      "*Oxford University Press*"
+    ],
+    "note": [
+      "A comprehensive overview of historical semantics"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "title": [
+      "**\"Semantic Change: A Cognitive Approach\"** by Tuggy"
+    ],
+    "author": [
+      {
+        "given": "D."
+      }
+    ],
+    "date": [
+      "2012"
+    ],
+    "note": [
+      "*Cambridge University Press*. (Offers a cognitive perspective on semantic change"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "**Interdisciplinary Approaches:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "title": [
+      "**\"Semantic Change and the Evolution of Language: A Computational Perspective\"** by",
+      "*MIT Press*"
+    ],
+    "author": [
+      {
+        "family": "Lieberman",
+        "given": "E."
+      }
+    ],
+    "date": [
+      "2015"
+    ],
+    "genre": [
+      "(Combines computational linguistics and evolutionary biology to study semantic change)"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "title": [
+      "**\"The Evolution of Meaning: A Computational Approach\"** by"
+    ],
+    "author": [
+      {
+        "family": "Lieberman",
+        "given": "E."
+      },
+      {
+        "family": "Regev",
+        "given": "O."
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "volume": [
+      "2"
+    ],
+    "pages": [
+      "1–7"
+    ],
+    "note": [
+      "Presents a computational model for understanding the evolution of meaning"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "*Nature Human Behaviour*"
+    ],
+    "issue": [
+      "1"
+    ]
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "author": [
+      {
+        "family": "Change",
+        "given": "Semantic"
+      },
+      {
+        "family": "Lupyan",
+        "given": "G.",
+        "particle": "the Evolution of Culture\" by"
+      },
+      {
+        "family": "Dale",
+        "given": "R."
+      }
+    ],
+    "date": [
+      "2016"
+    ],
+    "volume": [
+      "20"
+    ],
+    "pages": [
+      "745–755"
+    ],
+    "note": [
+      "Examines the relationship between semantic change and cultural evolution"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "*Trends in Cognitive Sciences*"
+    ],
+    "issue": [
+      "10"
+    ]
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "title": [
+      "**\"The Role of Social Networks in Semantic Change\"** by Danescu-Niculescu-Mizil"
+    ],
+    "author": [
+      {
+        "family": "C."
+      },
+      {
+        "family": "Lee",
+        "given": "L."
+      }
+    ],
+    "date": [
+      "2011"
+    ],
+    "container-title": [
+      "*Proceedings of the 49th Annual Meeting of the Association for Computational Linguistics: Human Language Technologies*"
+    ],
+    "pages": [
+      "1190–1199"
+    ],
+    "note": [
+      "Investigates the influence of social networks on semantic change"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "author": [
+      {
+        "family": "Change",
+        "given": "Semantic"
+      },
+      {
+        "family": "Levinson",
+        "given": "S.C.",
+        "particle": "the Future of Language\" by"
+      }
+    ],
+    "date": [
+      "2013"
+    ],
+    "volume": [
+      "42"
+    ],
+    "pages": [
+      "1–20"
+    ],
+    "note": [
+      "Speculates on the future of language in light of semantic change"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "*Annual Review of Anthropology*"
+    ]
+  },
+  {
+    "title": [
+      "This list provides a starting point for exploring the diverse methods used to model semantic change. It is important to note that this is not an exhaustive list, and there are many other valuable articles and books available on this topic"
+    ],
+    "type": null
+  }
+]

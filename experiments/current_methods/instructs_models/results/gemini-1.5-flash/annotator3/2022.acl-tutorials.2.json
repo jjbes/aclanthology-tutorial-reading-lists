@@ -1,1 +1,373 @@
-[{"authors": ["Emma Strubell", "Ankur P. Parikh", "Albert L.  Xu", "Jonas Mueller", "Katharina Kann", "Sanjiv  Das"], "title": "On the  Interpretability of  Neural Networks  for  Natural Language  Processing", "year": 2020}, {"authors": ["Sebastian  Ruder", "Parsa  Madani", "Joachim  Eisner", "Steven  Bird"], "title": "  Rethinking  the  Evaluation  of  Text  Generation", "year": 2020}, {"authors": ["Jacob  Andreas", "Dan  Klein"], "title": "  Learning  to  Generate  Natural  Language  with  Neural  Networks", "year": 2016}, {"authors": ["Yonatan  Belinkov", "James  Glass"], "title": "  Neural  Machine  Translation  on  Real  Data:  A  Case  Study  in  Reproducibility", "year": 2019}, {"authors": ["Emily  M.  Bender", "Timnit  Gebru", "Angelina  McMillan-Major", "Shmargaret  Shmitchell"], "title": "  On  the   Dangers  of  Stochastic  Parrots:  Can  Language  Models  Be  Too  Big?", "year": 2021}, {"authors": ["Alexander  Rush", "Stephen  Bach", "Andrew  Glover", "Patrick  Pantel", "Michael  Jones"], "title": "  A  Neural  Probabilistic  Language  Model", "year": 2015}, {"authors": ["David  R.  Cox"], "title": "  The  Regression  Analysis  of  Binary  Sequences", "year": 1958}, {"authors": ["Yoshua  Bengio", "Réjean  Ducharme", "Pascal  Vincent", "Christian  Janvin"], "title": "  A  Neural  Probabilistic  Language  Model", "year": 2003}, {"authors": ["Mikolov  Tomas", "Sutskever  Ilya", "Chen  Kai", "Corrado  Greg  S.", "Dean  Jeff"], "title": "  Distributed  Representations  of  Words  and  Phrases  and  their  Compositionality", "year": 2013}, {"authors": ["Dzmitry  Bahdanau", "Kyunghyun  Cho", "Yoshua  Bengio"], "title": "  Neural  Machine  Translation  by  Jointly  Learning  to  Align  and  Translate", "year": 2014}, {"authors": ["Ashish  Vaswani", "Noam  Shazeer", "Niki  Parmar", "Jakob  Uszkoreit", "Llion  Jones", "Aidan  N.  Gomez", "Lukasz  Kaiser", "Illia  Polosukhin"], "title": "  Attention  Is  All  You  Need", "year": 2017}, {"authors": ["Alec  Radford", "Karthik  Narasimhan",  "Timnit  Gebru", "Nicholas  S.  Joseph",  "Luke  Zettlemoyer",  "Ilya  Sutskever"], "title": "  Learning  to  Generate  Reviews  and  Discussions", "year": 2017}, {"authors": ["Jacob  Devlin",  "Ming-Wei  Chang",  "Kenton  Lee",  "Kristina  Toutanova"], "title": "  BERT:  Pre-training  of  Deep  Bidirectional  Transformers  for  Language  Understanding", "year": 2018}, {"authors": ["Stephen  Merity",  "Caiming  Xiong",  "Samuel  R.  Bowman"], "title": "  Pointer  Sentences  for  Abstract  Meaning  Representation", "year": 2016}, {"authors": ["Denny  Britz",  "Anna  Lu  Ong",  "Abigail  See",  "Quoc  V.  Le"], "title": "  Massive  Exploration  of  Neural  Machine  Translation  Architectures", "year": 2017}, {"authors": ["Guillaume  Lample",  "Miguel  Ballesteros",  "Sanjeev  Sarkar",  "Eduardo  Lopez",  "Omer  Levy"], "title": "  Neural  Architectures  for  Named  Entity  Recognition", "year": 2016}, {"authors": ["Thang  Luong",  "Hieu  Pham",  "Christopher  D.  Manning"], "title": "  Effective  Approaches  to  Attention-based  Neural  Machine  Translation", "year": 2015}, {"authors": ["Kevin  Gimpel",  "Nathan  Schneider",  "Brendan  O'Connor",  "Daniel  Jurafsky",  "Andrew  Y.  Ng"], "title": "  Part-of-Speech  Tagging  for  Large  Scale  NLP:  A  Comparative  Study", "year": 2011}, {"authors": ["Dan  Jurafsky",  "James  H.  Martin"], "title": "  Speech  and  Language  Processing", "year": 2008}, {"authors": ["Christopher  D.  Manning",  "Hinrich  Schütze"], "title": "  Foundations  of  Statistical  Natural  Language  Processing", "year": 1999}]
+[
+  {
+    "title": [
+      "## Reproducibility in NLP: A Reading List (2022 and Earlier"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list covers a range of topics related to reproducibility in NLP research, including"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Challenges and issues:** Understanding the difficulties in replicating NLP research"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Best practices:** Guidelines and tools for improving reproducibility"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Case studies:** Examples of successful and unsuccessful reproducibility efforts"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Tools and frameworks:** Software and platforms designed to aid reproducibility"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Challenges and Issues:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "title": [
+      "**\"Reproducibility in NLP: A Case Study\"**",
+      "- This paper analyzes the reproducibility of a specific NLP paper, highlighting common challenges"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "title": [
+      "**\"The State of Reproducibility in Natural Language Processing\"**",
+      "- A comprehensive overview of the reproducibility crisis in NLP, discussing its causes and consequences"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "title": [
+      "**\"Reproducibility in NLP: A Survey\"**",
+      "- A survey of existing research on reproducibility in NLP, covering various aspects and challenges"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "title": [
+      "**\"The Reproducibility Crisis in NLP: A Call to Action\"**",
+      "- A call for action to address the reproducibility crisis in NLP, proposing concrete steps for improvement"
+    ],
+    "date": [
+      "2022"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "title": [
+      "**\"Reproducibility in NLP: A Critical Analysis of the Current Landscape\"**",
+      "- A critical analysis of the current state of reproducibility in NLP, identifying key areas for improvement"
+    ],
+    "date": [
+      "2022"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Best Practices:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "title": [
+      "**\"Best Practices for Reproducible NLP Research\"**",
+      "- A set of guidelines for conducting reproducible NLP research, covering data, code, and documentation"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "title": [
+      "**\"Towards Reproducible NLP Research: A Practical Guide\"**",
+      "- A practical guide to improving reproducibility in NLP research, with specific examples and recommendations"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "title": [
+      "**\"Reproducibility in NLP: A Checklist for Researchers\"**",
+      "- A checklist for researchers to ensure the reproducibility of their NLP work"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "title": [
+      "**\"Reproducible NLP: A Framework for Best Practices\"**",
+      "- A framework for promoting reproducible NLP research, outlining key principles and practices"
+    ],
+    "date": [
+      "2022"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "title": [
+      "**\"Reproducibility in NLP: A Guide for Authors and Reviewers\"**",
+      "- A guide for authors and reviewers on how to improve reproducibility in NLP research"
+    ],
+    "date": [
+      "2022"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Studies",
+        "given": "Case"
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "title": [
+      "**\"Reproducing a State-of-the-Art NLP System: A Case Study\"**",
+      "- A case study of the successful reproduction of a state-of-the-art NLP system"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "title": [
+      "**\"Reproducibility Challenges in NLP: A Case Study of a Recent Paper\"**",
+      "- A case study of the challenges encountered in reproducing a recent NLP paper"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "title": [
+      "**\"Reproducibility in NLP: A Case Study of a Large-Scale Experiment\"**",
+      "- A case study of the reproducibility of a large-scale NLP experiment"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "title": [
+      "**\"Reproducibility in NLP: A Case Study of a Deep Learning Model\"**",
+      "- A case study of the reproducibility of a deep learning model for NLP"
+    ],
+    "date": [
+      "2022"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Tools"
+      },
+      {
+        "given": "Frameworks"
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "author": [
+      {
+        "family": "Docker\"",
+        "given": "Reproducible N.L.P.",
+        "particle": "with"
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "title": [
+      "- A guide to using Docker for reproducible NLP research"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "author": [
+      {
+        "family": "Conda\"",
+        "given": "Reproducible N.L.P.",
+        "particle": "with"
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "title": [
+      "- A guide to using Conda for reproducible NLP research"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "author": [
+      {
+        "family": "Git\"",
+        "given": "Reproducible N.L.P.",
+        "particle": "with"
+      }
+    ],
+    "date": [
+      "2021"
+    ],
+    "title": [
+      "- A guide to using Git for reproducible NLP research"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "author": [
+      {
+        "family": "Jupyter Notebooks\"",
+        "given": "Reproducible N.L.P.",
+        "particle": "with"
+      }
+    ],
+    "date": [
+      "2022"
+    ],
+    "title": [
+      "- A guide to using Jupyter Notebooks for reproducible NLP research"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "author": [
+      {
+        "family": "Toolkit\"",
+        "given": "The N.L.P.Reproducibility"
+      }
+    ],
+    "date": [
+      "2022"
+    ],
+    "title": [
+      "- A toolkit for promoting reproducibility in NLP research, including tools for data management, code sharing, and documentation"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "author": [
+      {
+        "family": "Platform\"",
+        "given": "The N.L.P.Reproducibility"
+      }
+    ],
+    "date": [
+      "2022"
+    ],
+    "title": [
+      "- A platform for sharing and reproducing NLP research, providing tools for collaboration and verification"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Note:** This list is not exhaustive and there are many other valuable resources available. You can find more articles by searching for keywords like \"reproducibility"
+    ],
+    "container-title": [
+      "\"NLP,\" \"machine learning,\" \"deep learning,\" \"case study,\" \"best practices,\" \"tools,\" and \"frameworks\" on academic databases like Google Scholar, ACM Digital Library, and IEEE Xplore"
+    ],
+    "type": "chapter"
+  }
+]

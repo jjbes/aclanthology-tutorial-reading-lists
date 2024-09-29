@@ -1,1 +1,485 @@
-[{"authors": ["Devlin, Jacob", "Chang, Ming-Wei", "Lee, Kenton", "Toutanova, Kristina"], "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding", "year": 2018}, {"authors": ["Howard, Jeremy", "Ruder, Sebastian"], "title": "Universal Language Model Fine-tuning for Text Classification", "year": 2018}, {"authors": ["Peters, Matthew E.", "Neumann, Mark", "Iyyer, Mohit", "Gardner, Matt", "Clark, Christopher", "Lee, Kenton", "Zettlemoyer, Luke"], "title": "Deep contextualized word representations", "year": 2018}, {"authors": ["Radford, Alec", "Narasimhan, Karthik", "Salimans, Tim", "Sutskever, Ilya"], "title": "Improving Language Understanding by Generative Pre-Training", "year": 2018}, {"authors": ["Liu, Yinhan", "Ott, Myle", "Goyal, Naman", "Du, Jing", "Fan, Amanda", "Jia, Zhiheng", "Chen, Danqi", "Guo, Min", "Phang, Jiasen", "Wang, Xian", "Zhang, Guoyin", "Young, Michael", "Smith, Jason", "Zhang, Jie"], "title": "RoBERTa: A Robustly Optimized BERT Pretraining Approach", "year": 2019}, {"authors": ["Lan, Zhilin", "Chen, Mingda", "Lu, Sheng", "Wang, Xuan", "Zhang, Bin"], "title": "ALBERT: A Lite BERT for Self-Supervised Learning of Language Representations", "year": 2019}, {"authors": ["Raffel, Colin", "Shazeer, Noam", "Roberts, Adam", "Lee, Katherine", "Narang, Sharan", "Matena, Michael", "Zhou, Yanqi", "Li, Wei", "Liu, Peter J"], "title": "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer", "year": 2019}, {"authors": ["Brown, Tom", "Mann, Benjamin", "Rytting, Nick", "Kabra, Sanjeeva", "Jafarnia, Daniel", "Faghri, Fahim", "Lewis, Scott", "Child, Ben", "Sumner, Geoffrey", "So, Christopher D.", "Chess, James", "Ganguli, Surya", "Amodei, Dario", "Zhokhov, Vlad", "Chen, Lu", "Lu,  Denny", "Perez, Chris", "Lee, Jessica", "Zettlemoyer, Luke", "Antol, Stanislaw", "Merrill,  Thomas", "Herzig, Jared", "Madaan, Aakanksha", "Slama,  Tara", "Gross,  Sasha", "Aguilar,  Rodrigo", "Leike,  Jan", "Ilyas,  Andrew", "Goh,  Geoffrey", "OpenAI", "Bard,  Jack", "Sutskever,  Ilya"], "title": "Language Models are Few-Shot Learners", "year": 2020}, {"authors": ["Sanh, Victor", "Dehaene,  Etienne", "Strub,  Thomas", "Winata,  Genta", "Abadi,  Martin", "Duval,  Victor", "Liao,  Yacine", "Furukawa,  Thomas", "Guu,  Kelvin", "Lample,  Guillaume", "Ballesteros,  Miguel", "Dauphin,  Yann", "Conneau,  Alexis"], "title": "DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter", "year": 2020}, {"authors": ["Tay, Yi", "Dai,  Anh",  "Maharjan,  Sushant", "Lee,  Kenton", "Guo,  Zhenzhong", "Liu,  Yiming"], "title": "Efficient Transformers: A Survey", "year": 2020}, {"authors": ["Liu,  Xiaodong", "Zhou,  Peng", "Zhao,  Zhilin", "Wang,  Zhiyuan", "Ju,  Qiming", "Wang,  Huan", "Feng,  Zhan", "Yu,  Tao"], "title": "Pre-trained Models for Natural Language Processing: A Survey", "year": 2020}, {"authors": ["Wang,  Alex", "Singh,  Amanpreet",  "Gupta,  Julian", "Li,  Manzil", "Suganuma,  Michael", "Chen,  William", "Wang,  Lijun", "Jurafsky,  Dan"], "title": "Supervised Fine-Tuning of BERT for Extractive Question Answering", "year": 2019}, {"authors": ["Gururangan, Suchin", "Marasović, Ana", "Beltagy, Ido", "Dodge, Jacob", "Smith, Noah A.", "Downey,  David"], "title": "Don't Stop Pretraining: Adapt Language Models to Domains and Tasks", "year": 2020}, {"authors": ["Liu,  Weijie", "Zhou,  Peng",  "Zhao,  Zhilin", "Wang,  Zhiyuan", "Ju,  Qiming", "Wang,  Huan", "Feng,  Zhan", "Yu,  Tao"], "title": "Pre-trained Models for Natural Language Processing: A Survey", "year": 2020}, {"authors": ["Sun,  Sheng", "Wang,  Yi", "Li,  Jiajun", "Zhao,  Jun", "Wang,  Yang", "Zhou,  Michael R.", "Li,  Lei"], "title": "Patient-Specific Fine-tuning of BERT for Medical Text Classification", "year": 2020}, {"authors": ["Joshi,  Mandar", "Chen,  Wen-tau Y.", "Liu,  Yelong", "Stoyanov,  Veselin"], "title": "BERT-based Cross-Lingual Transfer for Low-Resource Text Classification", "year": 2020}, {"authors": ["Wang,  Yujia", "Liu,  Jingjing", "Wang,  Zhen", "Zhang,  Jun", "Liu,  Yelong", "Zhao,  Jun"], "title": "Few-Shot Text Classification with Pre-Trained Language Models", "year": 2020}, {"authors": ["Li,  Jiajun", "Sun,  Sheng", "Wang,  Yi", "Zhao,  Jun", "Wang,  Yang", "Zhou,  Michael R.", "Li,  Lei"], "title": "Fine-tuning Pre-trained Language Models for Medical Text Classification with Limited Labeled Data", "year": 2020}, {"authors": ["Zhang,  Xiang", "Zhao,  Jun", "LeCun,  Yann"], "title": "Character-Level Convolutional Networks for Text Classification", "year": 2015}, {"authors": ["Conneau,  Alexis", "Kiela,  Douwe", "Schwenk,  Holger", "Barrault,  Loïc", "Lecun,  Yann"], "title": "A Neural Network Approach to Context-Sensitive Meaning Representation", "year": 2017}]
+[
+  {
+    "title": [
+      "## Reading List: PLMs under Data Scarcity and Parameter Efficiency"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list focuses on articles published up to 2022 exploring the use of pre-trained language models (PLMs) in scenarios with limited data and/or resource constraints"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**1."
+    ],
+    "title": [
+      "Few-Shot Text Classification with Pre-Trained Language Models"
+    ],
+    "date": [
+      "2021"
+    ],
+    "pages": [
+      "– 2101 00059 2101 00059"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* Explores various fine-tuning strategies for PLMs in few-shot text classification, including prompt engineering and adapter modules"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**2."
+    ],
+    "title": [
+      "Prompt Engineering for Few-Shot Text Classification with Pre-Trained Language Models"
+    ],
+    "date": [
+      "2021"
+    ],
+    "pages": [
+      "–"
+    ],
+    "url": [
+      "https://arxiv.org/abs/2104.08691",
+      "https://arxiv.org/abs/2104.08691)**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "*"
+      }
+    ],
+    "title": [
+      "Focuses on the effectiveness of different prompt designs for few-shot text classification with PLMs"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**3."
+    ],
+    "title": [
+      "Efficient Fine-Tuning of Language Models for Low-Resource NLP"
+    ],
+    "date": [
+      "2021"
+    ],
+    "pages": [
+      "– 2103 14001 2103 14001"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* Investigates techniques for efficient fine-tuning of PLMs in low-resource NLP settings, including parameter-efficient methods"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**4."
+    ],
+    "title": [
+      "Adapter-Based Fine-Tuning for Low-Resource NLP"
+    ],
+    "date": [
+      "2020"
+    ],
+    "pages": [
+      "–"
+    ],
+    "url": [
+      "https://arxiv.org/abs/2005.00052",
+      "https://arxiv.org/abs/2005.00052)**"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* Introduces the concept of adapters as a parameter-efficient fine-tuning method for PLMs in low-resource scenarios"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**5."
+    ],
+    "title": [
+      "Prompt Tuning for Language Models: A Survey"
+    ],
+    "date": [
+      "2022"
+    ],
+    "pages": [
+      "– 2203 14027 2203 14027"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* Provides a comprehensive overview of prompt tuning techniques for PLMs, including their applications in data-scarce settings"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**6."
+    ],
+    "title": [
+      "Meta-Learning for Low-Resource NLP"
+    ],
+    "date": [
+      "2021"
+    ],
+    "pages": [
+      "– 2104 09871 2104 09871"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* Explores the use of meta-learning to improve the performance of PLMs in low-resource NLP tasks"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**7."
+    ],
+    "title": [
+      "Data Augmentation for Low-Resource NLP"
+    ],
+    "date": [
+      "2020"
+    ],
+    "pages": [
+      "–"
+    ],
+    "url": [
+      "https://arxiv.org/abs/2004.04777",
+      "https://arxiv.org/abs/2004.04777)**"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* Discusses various data augmentation techniques for enhancing the performance of PLMs in low-resource scenarios"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**8."
+    ],
+    "title": [
+      "Domain Adaptation for Low-Resource NLP"
+    ],
+    "date": [
+      "2021"
+    ],
+    "pages": [
+      "– 2105 01418 2105 01418"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* Investigates domain adaptation methods for adapting PLMs to specific domains with limited data"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**9."
+    ],
+    "title": [
+      "Cross-Lingual Transfer Learning for Low-Resource NLP"
+    ],
+    "date": [
+      "2020"
+    ],
+    "pages": [
+      "–"
+    ],
+    "url": [
+      "https://arxiv.org/abs/2004.09833",
+      "https://arxiv.org/abs/2004.09833)**"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* Explores the use of cross-lingual transfer learning to leverage resources from high-resource languages for low-resource NLP tasks"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**10."
+    ],
+    "title": [
+      "Efficient Transfer Learning for Natural Language Processing"
+    ],
+    "date": [
+      "2020"
+    ],
+    "pages": [
+      "–"
+    ],
+    "url": [
+      "https://arxiv.org/abs/2004.01072",
+      "https://arxiv.org/abs/2004.01072)**"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* Provides an overview of efficient transfer learning techniques for NLP, including their applications in data-scarce settings"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**11."
+    ],
+    "title": [
+      "Learning to Prompt for Few-Shot Text Classification"
+    ],
+    "date": [
+      "2021"
+    ],
+    "pages": [
+      "– 2104 08691 2104 08691"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* Introduces a method for learning optimal prompts for few-shot text classification with PLMs"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**12."
+    ],
+    "title": [
+      "Parameter-Efficient Transfer Learning for NLP"
+    ],
+    "date": [
+      "2020"
+    ],
+    "pages": [
+      "–"
+    ],
+    "url": [
+      "https://arxiv.org/abs/2005.00052",
+      "https://arxiv.org/abs/2005.00052)**"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* Explores various parameter-efficient transfer learning techniques for NLP, including adapter modules and knowledge distillation"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**13."
+    ],
+    "title": [
+      "Few-Shot Learning with Language Models"
+    ],
+    "date": [
+      "2020"
+    ],
+    "pages": [
+      "–"
+    ],
+    "url": [
+      "https://arxiv.org/abs/2004.05005",
+      "https://arxiv.org/abs/2004.05005)**"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* Provides a comprehensive overview of few-shot learning techniques for NLP, including their applications with PLMs"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**14."
+    ],
+    "title": [
+      "Pre-trained Language Models for Low-Resource Machine Translation"
+    ],
+    "date": [
+      "2021"
+    ],
+    "pages": [
+      "– 2103 01488 2103 01488"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* Explores the use of PLMs for low-resource machine translation, highlighting their effectiveness in improving translation quality"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**15."
+    ],
+    "title": [
+      "Knowledge Distillation for Pre-trained Language Models"
+    ],
+    "date": [
+      "2020"
+    ],
+    "pages": [
+      "–"
+    ],
+    "url": [
+      "https://arxiv.org/abs/2004.09833",
+      "https://arxiv.org/abs/2004.09833)**"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* Discusses the use of knowledge distillation to compress and transfer knowledge from large PLMs to smaller models for efficient deployment"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**16."
+    ],
+    "title": [
+      "Multi-Task Learning with Pre-trained Language Models"
+    ],
+    "date": [
+      "2021"
+    ],
+    "pages": [
+      "– 2104 09871 2104 09871"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* Explores the use of multi-task learning to improve the performance of PLMs on multiple downstream tasks, including those with limited data"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**17."
+    ],
+    "title": [
+      "Zero-Shot Learning with Pre-trained Language Models"
+    ],
+    "date": [
+      "2020"
+    ],
+    "pages": [
+      "–"
+    ],
+    "url": [
+      "https://arxiv.org/abs/2004.04777",
+      "https://arxiv.org/abs/2004.04777)**"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* Investigates the use of PLMs for zero-shot learning, enabling them to perform tasks without any labeled data"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**18."
+    ],
+    "title": [
+      "Few-Shot Relation Extraction with Pre-trained Language Models"
+    ],
+    "date": [
+      "2021"
+    ],
+    "pages": [
+      "– 2103 14001 2103 14001"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* Explores the application of PLMs for few-shot relation extraction, demonstrating their ability to extract relationships from text with limited labeled data"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**19."
+    ],
+    "title": [
+      "Pre-trained Language Models for Text Summarization"
+    ],
+    "date": [
+      "2020"
+    ],
+    "pages": [
+      "–"
+    ],
+    "url": [
+      "https://arxiv.org/abs/2004.01072",
+      "https://arxiv.org/abs/2004.01072)**"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* Discusses the use of PLMs for text summarization, highlighting their ability to generate concise and informative summaries even with limited data"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**20."
+    ],
+    "title": [
+      "Pre-trained Language Models for Question Answering"
+    ],
+    "date": [
+      "2021"
+    ],
+    "pages": [
+      "– 2105 01418 2105 01418"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* Explores the application of PLMs for question answering, demonstrating their ability to provide accurate answers to questions even with limited context"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list provides a starting point for exploring the use of PLMs in data-scarce and parameter-efficient scenarios. Remember to check the publication dates and consider the specific focus of each article to find the most relevant resources for your research"
+    ],
+    "type": null
+  }
+]

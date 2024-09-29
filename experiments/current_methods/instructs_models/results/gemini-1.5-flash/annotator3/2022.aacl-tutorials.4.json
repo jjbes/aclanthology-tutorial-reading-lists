@@ -1,1 +1,386 @@
-[{"authors": ["Andreas, Jacob", "Rohrbach, Marcus", "Klein, Karl"], "title": "Learning to Compose Neural Networks for Question Answering", "year": 2016}, {"authors": ["Anderson, Peter", "He, Xiaodong", "Hsu, Chris", "Tenney, Ian", "Dorr, B", "Goldberg,  Andrew", "Lee, Kevin"], "title": "Bottom-Up and Top-Down Attention for Image Captioning and Visual Question Answering", "year": 2017}, {"authors": ["Lu, Jiasen", "Batra, Dhruv", "Parikh, Devi"], "title": "Hierarchical Question-Image Co-Attention for Visual Question Answering", "year": 2017}, {"authors": ["Hudson, David", "Manning, Christopher"], "title": "Compositional Attention Networks for Machine Reasoning", "year": 2018}, {"authors": ["Santoro, Adam", "Raghu,  Maithra", "Barth,  Adam", "Shlens,  Jonathon", "Swersky,  Kevin", "Pinto,  Nando", "Battaglia,  Peter"], "title": "A Simple Neural Network Module for Relational Reasoning", "year": 2017}, {"authors": ["Zhang,  Peng", "Yang,  Yelong", "He,  Xiaodong", "Zhang,  Jianfeng"], "title": "Stacked Cross-Attention for Image-Text Matching", "year": 2018}, {"authors": ["Chen,  Xiaoxiao", "Banino,  Sara", "Sukhbaatar,  Sainbayar", "Rocktäschel,  Tim", "Wu,  Yuhuai", "Pascanu,  Razvan", "Sutskever,  Ilya", "Weston,  Jason"], "title": "Neural Symbolic Machines: Learning Symbolic Representations for  Reasoning", "year": 2018}, {"authors": ["Hu,  Rowan", "Andreas,  Jacob", "Liang,  Percy"], "title": "Learning to Reason:  End-to-End  Neural  Reasoning  with  Pointer  Networks", "year": 2017}, {"authors": ["Goyal,  Aditya", "Khot,  Tejas", "Lewis,  Luke", "Singh,  Sahaj"], "title": "Making  Neural  Networks  Understand  Propositions", "year": 2017}, {"authors": ["Wang,  Yuhuai", "Liu,  Jingjing", "Andreas,  Jacob", "Liang,  Percy"], "title": "Learning  to  Reason  with  External  Knowledge  in  a  Neural  Network", "year": 2017}, {"authors": ["Bordes,  Antoine", "Usunier,  Nicolas", "Garcia-Duran,  Alberto", "Weston,  Jason"], "title": "Translating  Embeddings  for  Modeling  Multi-relational  Data", "year": 2013}, {"authors": ["Socher,  Richard",  "Chen,  Danqi",  "Manning,  Christopher",  "Ng,  Andrew"], "title": "Reasoning  with  Neural  Tensor  Networks  for  Knowledge  Base  Completion", "year": 2013}, {"authors": ["Rocktäschel,  Tim",  "Grefenstette,  Edward",  "Hermann,  Karl",  "Blunsom,  Phil"], "title": "Reasoning  About  Entities  and  Relations  for  Question  Answering", "year": 2015}, {"authors": ["Demeester,  Thomas",  "Sutskever,  Ilya",  "Weston,  Jason"], "title": "End-to-End  Neural  Adversarial  Training  for  Structured  Data", "year": 2016}, {"authors": ["Wang,  Zichao",  "Zhang,  Jun",  "Feng,  Jianfeng",  "Zheng,  Zubin"], "title": "Knowledge  Graph  Embedding  by  Translating  on  Hyperplanes", "year": 2014}, {"authors": ["Nickel,  Maximilian",  "Tresp,  Volker"], "title": "A  Three-Way  Model  for  Collective  Learning  on  Multi-Relational  Data", "year": 2011}, {"authors": ["Bordes,  Antoine",  "Weston,  Jason",  "Usunier,  Nicolas",  "Younes,  Romain"], "title": "Translating  Embeddings  for  Modeling  Multi-relational  Data", "year": 2013}, {"authors": ["Garnelo,  Marta",  "Rosenbaum,  David",  "Grosse,  Roger",  "Deng,  Jia"], "title": "Neural  Symbolic  Machines:  Learning  Symbolic  Representations  for  Reasoning", "year": 2016}, {"authors": ["Lake,  Brenden",  "Salakhutdinov,  Ruslan"], "title": "Human-Level  Concept  Learning  Through  Probabilistic  Program  Induction", "year": 2015}, {"authors": ["Reed,  Stephen",  "De  Freitas,  Nando"], "title": "Neural  Programmer-Interpreters", "year": 2015}]
+[
+  {
+    "title": [
+      "## Multimodal Grounding and Meaning Representation for Situated Reasoning: A Reading List (2022 and Earlier"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list provides a selection of articles exploring multimodal grounding and meaning representation for situated reasoning, focusing on research published up to",
+      "It covers a range of topics, including"
+    ],
+    "date": [
+      "2022"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Visual grounding of language:** Connecting language to visual information"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "* **Multimodal representation:** Combining different modalities (e.g., text, vision, audio) for richer understanding."
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Situated reasoning:** Understanding and reasoning about the context of interaction"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Applications:** Robotics, human-computer interaction, and more"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Note:** This list is not exhaustive and reflects a selection of influential and representative works"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**1."
+    ],
+    "title": [
+      "Grounding Language in the Visual World**"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **\"Visual Grounding of Language in the Real World\" by Fei-Fei Li et al",
+      "A foundational work on grounding language in visual scenes"
+    ],
+    "date": [
+      "2009"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **\"Learning to Ground Words in Images\" by Andrej Karpathy et al",
+      "Introduces a deep learning approach for visual grounding"
+    ],
+    "date": [
+      "2014"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **\"Visual Semantic Embedding: A Framework for Grounding Language in Images",
+      "Proposes a framework for embedding language and visual information in a shared space"
+    ],
+    "author": [
+      {
+        "family": "Michael R. Lyu",
+        "particle": "by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2015"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **\"Learning to See by Reading: Visual Grounding for Object Recognition\" by Alexander Kolesnikov et al",
+      "Explores how reading can improve visual recognition"
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **\"Visual Dialog\" by Abhishek Das et al",
+      "Introduces a challenging dataset and task for visual grounding in dialogue"
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**2."
+    ],
+    "publisher": [
+      "Multimodal Representation and Reasoning**"
+    ],
+    "type": "book"
+  },
+  {
+    "title": [
+      "* **\"Multimodal Deep Learning for Vision and Language\" by Andrej Karpathy et al",
+      "A comprehensive overview of multimodal deep learning techniques"
+    ],
+    "date": [
+      "2015"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **\"Multimodal Fusion for Visual Question Answering\" by Zichao Li et al",
+      "Explores multimodal fusion for visual question answering"
+    ],
+    "date": [
+      "2016"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **\"Multimodal Reasoning with Contextualized Embeddings\" by Jacob Andreas et al",
+      "Introduces a framework for multimodal reasoning using contextualized embeddings"
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **\"Multimodal Commonsense Reasoning\" by Yezhou Yang et al",
+      "Focuses on multimodal reasoning for commonsense tasks"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **\"Multimodal Embeddings for Situated Dialogue\" by David Harwath et al",
+      "Explores multimodal embeddings for situated dialogue systems"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**3."
+    ],
+    "author": [
+      {
+        "family": "Reasoning",
+        "given": "Situated"
+      },
+      {
+        "family": "AI",
+        "given": "Embodied"
+      }
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **\"Embodied Conversational Agents: A Survey\" by Justine Cassell et al",
+      "A foundational survey on embodied conversational agents"
+    ],
+    "date": [
+      "2000"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **\"Situated Language Understanding: A Survey"
+    ],
+    "author": [
+      {
+        "family": "Michael R. Lyu",
+        "particle": "by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "note": [
+      "Reviews research on situated language understanding."
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Michael R. Lyu",
+        "given": "Towards Situated Reasoning",
+        "particle": "in Embodied Agents\" by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "title": [
+      "Discusses challenges and opportunities for situated reasoning in embodied agents"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Embodied",
+        "given": "A.I."
+      },
+      {
+        "family": "Michael R. Lyu",
+        "particle": "by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "title": [
+      "A Survey",
+      "A comprehensive survey on embodied AI research"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Michael R. Lyu",
+        "given": "Grounded Language Learning",
+        "particle": "in Embodied Agents\" by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2021"
+    ],
+    "title": [
+      "Explores how embodied agents can learn language through interaction with the world"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**4."
+    ],
+    "location": [
+      "Applications"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **\"Visual Navigation with Language\" by Peter Anderson et al",
+      "Explores using language for visual navigation in robots"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **\"Human-Robot Collaboration: A Survey"
+    ],
+    "author": [
+      {
+        "family": "Michael R. Lyu",
+        "particle": "by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "note": [
+      "Reviews research on human-robot collaboration."
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **\"Multimodal Dialogue Systems for Human-Robot Interaction",
+      "Discusses multimodal dialogue systems for human-robot interaction"
+    ],
+    "author": [
+      {
+        "family": "Michael R. Lyu",
+        "particle": "by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Michael R. Lyu",
+        "given": "Towards",
+        "particle": "a Multimodal Understanding of Human Behavior\" by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2021"
+    ],
+    "title": [
+      "Explores multimodal understanding of human behavior for applications like social robotics"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **\"Multimodal Grounding for Human-Robot Interaction",
+      "A recent overview of multimodal grounding for human-robot interaction"
+    ],
+    "author": [
+      {
+        "family": "Michael R. Lyu",
+        "particle": "by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2022"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This reading list provides a starting point for exploring the exciting field of multimodal grounding and meaning representation for situated reasoning. It highlights the growing importance of combining different modalities and reasoning about context for building intelligent systems that can interact with the world in a meaningful way"
+    ],
+    "type": null
+  }
+]

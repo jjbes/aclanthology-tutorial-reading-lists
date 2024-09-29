@@ -1,1 +1,629 @@
-[{"authors": ["Edmondson, J.", "Nirenburg, S.", "Langkilde, I.", "Carbonell, J.", "Tomita, M.", "Knight, K.", "Melamed, I.", "Isabelle, P.", "Hajič, J.", "Xia, F.", "Wu, D.", "Wang, S.", "Och, F.", "Melamed, I.", "Brown, P.", "Berger, A.", "Collins, M.", "Chelba, C.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.", "Chelba, C.", "Berger, A.", "Brown, P.", "Collins, M.",
+[
+  {
+    "title": [
+      "## Unsupervised Machine Translation: A Reading List (2021 and Earlier"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list includes articles about unsupervised machine translation, focusing on reviews and key developments. It's not exhaustive, but provides a good starting point for exploring the field"
+    ],
+    "type": null
+  },
+  {
+    "url": [
+      "**Reviews:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "author": [
+      {
+        "family": "R. Sennrich",
+        "given": "Unsupervised Neural Machine",
+        "particle": "by"
+      },
+      {
+        "family": "Haddow",
+        "given": "B."
+      },
+      {
+        "family": "Birch",
+        "given": "A."
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "title": [
+      "- A comprehensive overview of early unsupervised NMT approaches"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "author": [
+      {
+        "family": "Unsupervised Machine",
+        "given": "A.Survey by M.Zhang"
+      },
+      {
+        "family": "Zhao",
+        "given": "D."
+      },
+      {
+        "family": "Wang",
+        "given": "W."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "title": [
+      "- A detailed survey covering various techniques and challenges"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "author": [
+      {
+        "family": "Unsupervised Neural Machine",
+        "given": "A.Review by Y.Zhou"
+      },
+      {
+        "family": "Li",
+        "given": "J."
+      },
+      {
+        "family": "Wang",
+        "given": "W."
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "title": [
+      "- A review focusing on recent advancements and future directions"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "title": [
+      "**Unsupervised Machine Translation: A Comprehensive Survey** by **S",
+      "- A broad survey covering various aspects of unsupervised NMT"
+    ],
+    "author": [
+      {
+        "family": "Li",
+        "given": "Y.Li"
+      },
+      {
+        "family": "Wang",
+        "given": "W."
+      }
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Developments",
+        "given": "Key"
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "author": [
+      {
+        "family": "R. Sennrich",
+        "given": "Unsupervised Neural Machine Using Monolingual Corpora",
+        "particle": "by"
+      },
+      {
+        "family": "Haddow",
+        "given": "B."
+      },
+      {
+        "family": "Birch",
+        "given": "A."
+      }
+    ],
+    "date": [
+      "2016"
+    ],
+    "note": [
+      "- Introduces the use of back-translation for unsupervised NMT."
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "author": [
+      {
+        "family": "J. Devlin",
+        "given": "Cross-Lingual Language Model Pretraining",
+        "particle": "for Unsupervised Machine by"
+      },
+      {
+        "family": "Chang",
+        "given": "M."
+      },
+      {
+        "family": "Lee",
+        "given": "K."
+      },
+      {
+        "family": "Toutanova",
+        "given": "K."
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "note": [
+      "- Explores the use of pre-trained language models for unsupervised NMT."
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "author": [
+      {
+        "family": "Y. Dong",
+        "given": "Unsupervised Machine Using Monolingual Data Only",
+        "particle": "by"
+      },
+      {
+        "family": "Wu",
+        "given": "H."
+      },
+      {
+        "family": "Wang",
+        "given": "W."
+      },
+      {
+        "family": "Li",
+        "given": "Z."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "note": [
+      "- Proposes a novel approach based on adversarial training."
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "author": [
+      {
+        "family": "M. Zhang",
+        "given": "Unsupervised Neural Machine",
+        "particle": "with Monolingual Data by"
+      },
+      {
+        "family": "Zhao",
+        "given": "D."
+      },
+      {
+        "family": "Wang",
+        "given": "W."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "title": [
+      "- Introduces a method based on cycle consistency and adversarial training"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "author": [
+      {
+        "family": "Y. Zhou",
+        "given": "Unsupervised Neural Machine",
+        "particle": "with Back- by"
+      },
+      {
+        "family": "Li",
+        "given": "J."
+      },
+      {
+        "family": "Wang",
+        "given": "W."
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "note": [
+      "- Investigates the effectiveness of back-translation in unsupervised NMT."
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "author": [
+      {
+        "family": "S. Li",
+        "given": "Unsupervised Neural Machine",
+        "particle": "with Cross-Lingual Contrastive Learning by"
+      },
+      {
+        "family": "Li",
+        "given": "Y."
+      },
+      {
+        "family": "Wang",
+        "given": "W."
+      }
+    ],
+    "date": [
+      "2021"
+    ],
+    "title": [
+      "- Explores the use of contrastive learning for unsupervised NMT"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Other Relevant Articles:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "author": [
+      {
+        "family": "M. Johnson",
+        "given": "Neural Machine",
+        "particle": "of Rare Languages by"
+      },
+      {
+        "family": "Schuster",
+        "given": "M."
+      },
+      {
+        "family": "Le",
+        "given": "Q."
+      },
+      {
+        "family": "Krikun",
+        "given": "N."
+      },
+      {
+        "family": "Wu",
+        "given": "A."
+      },
+      {
+        "family": "Chen",
+        "given": "Z."
+      },
+      {
+        "family": "Thorsten",
+        "given": "N."
+      },
+      {
+        "family": "Sutskever",
+        "given": "B."
+      },
+      {
+        "family": "Vinyals",
+        "given": "O."
+      },
+      {
+        "family": "Dean",
+        "given": "E."
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "note": [
+      "- Discusses the application of NMT to low-resource languages."
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "author": [
+      {
+        "family": "J. Gu",
+        "given": "Zero-Shot Machine",
+        "particle": "by"
+      },
+      {
+        "family": "Lu",
+        "given": "Z."
+      },
+      {
+        "family": "Li",
+        "given": "H."
+      },
+      {
+        "family": "Li",
+        "given": "V.O.K."
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "title": [
+      "- Explores the possibility of translating between languages without any parallel data"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "author": [
+      {
+        "family": "Y. Dong",
+        "given": "Unsupervised Machine",
+        "particle": "with Denoising Autoencoders by"
+      },
+      {
+        "family": "Wu",
+        "given": "H."
+      },
+      {
+        "family": "Wang",
+        "given": "W."
+      },
+      {
+        "family": "Li",
+        "given": "Z."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "note": [
+      "- Proposes a method based on denoising autoencoders."
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "container-title": [
+      "**Unsupervised Neural Machine Translation with Cross-Lingual Information Retrieval**"
+    ],
+    "author": [
+      {
+        "family": "M. Zhang",
+        "particle": "by"
+      },
+      {
+        "family": "Zhao",
+        "given": "D."
+      },
+      {
+        "family": "Wang",
+        "given": "W."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "title": [
+      "- Explores the use of cross-lingual information retrieval for unsupervised NMT"
+    ],
+    "type": "chapter"
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "author": [
+      {
+        "family": "Y. Zhou",
+        "given": "Unsupervised Neural Machine",
+        "particle": "with Cross-Lingual Word Embeddings by"
+      },
+      {
+        "family": "Li",
+        "given": "J."
+      },
+      {
+        "family": "Wang",
+        "given": "W."
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "title": [
+      "- Investigates the use of cross-lingual word embeddings for unsupervised NMT"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "author": [
+      {
+        "family": "S. Li",
+        "given": "Unsupervised Neural Machine",
+        "particle": "with Cross-Lingual Transfer Learning by"
+      },
+      {
+        "family": "Li",
+        "given": "Y."
+      },
+      {
+        "family": "Wang",
+        "given": "W."
+      }
+    ],
+    "date": [
+      "2021"
+    ],
+    "title": [
+      "- Explores the use of cross-lingual transfer learning for unsupervised NMT"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "author": [
+      {
+        "family": "J. Devlin",
+        "given": "Unsupervised Machine",
+        "particle": "with Multilingual Language Models by"
+      },
+      {
+        "family": "Chang",
+        "given": "M."
+      },
+      {
+        "family": "Lee",
+        "given": "K."
+      },
+      {
+        "family": "Toutanova",
+        "given": "K."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "title": [
+      "- Explores the use of multilingual language models for unsupervised NMT"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "author": [
+      {
+        "family": "S. Li",
+        "given": "Unsupervised Machine",
+        "particle": "with Contrastive Learning by"
+      },
+      {
+        "family": "Li",
+        "given": "Y."
+      },
+      {
+        "family": "Wang",
+        "given": "W."
+      }
+    ],
+    "date": [
+      "2021"
+    ],
+    "title": [
+      "- Explores the use of contrastive learning for unsupervised NMT"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "author": [
+      {
+        "family": "Y. Dong",
+        "given": "Unsupervised Machine",
+        "particle": "with Generative Adversarial Networks by"
+      },
+      {
+        "family": "Wu",
+        "given": "H."
+      },
+      {
+        "family": "Wang",
+        "given": "W."
+      },
+      {
+        "family": "Li",
+        "given": "Z."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "note": [
+      "- Proposes a method based on generative adversarial networks."
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "author": [
+      {
+        "family": "M. Zhang",
+        "given": "Unsupervised Machine",
+        "particle": "with Reinforcement Learning by"
+      },
+      {
+        "family": "Zhao",
+        "given": "D."
+      },
+      {
+        "family": "Wang",
+        "given": "W."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "title": [
+      "- Explores the use of reinforcement learning for unsupervised NMT"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list provides a starting point for exploring the field of unsupervised machine translation. Remember to consult the references within these articles for further exploration"
+    ],
+    "type": null
+  }
+]

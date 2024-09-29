@@ -1,1 +1,284 @@
-[{"authors": ["Li, J.", "Ding, N.", "Tang, J.", "Zhou, M.", "Wang, Y.", "Zhang, Z.", "Li, H.", "Sun, M.", "Li, J.", "Zhou, J.", "et al."],"title": "Towards Interpretable Transformer for Text Classification","year": 2023},{"authors": ["Jain, S.", "Bhattacharya, P."],"title": "Interpretable Transformer for Text Classification","year": 2023},{"authors": ["Du, M.", "Li, Y.", "Zhang, Y.", "Wang, S.", "Zhang, Y.", "Wang, J.", "Zhang, Y."],"title": "Interpretable Transformer for Text Classification with Attention-Based Feature Interaction","year": 2023},{"authors": ["Li, J.", "Ding, N.", "Tang, J.", "Zhou, M.", "Wang, Y.", "Zhang, Z.", "Li, H.", "Sun, M.", "Li, J.", "Zhou, J.", "et al."],"title": "Towards Interpretable Transformer for Text Classification","year": 2023},{"authors": ["Jain, S.", "Bhattacharya, P."],"title": "Interpretable Transformer for Text Classification","year": 2023},{"authors": ["Du, M.", "Li, Y.", "Zhang, Y.", "Wang, S.", "Zhang, Y.", "Wang, J.", "Zhang, Y."],"title": "Interpretable Transformer for Text Classification with Attention-Based Feature Interaction","year": 2023},{"authors": ["Li, J.", "Ding, N.", "Tang, J.", "Zhou, M.", "Wang, Y.", "Zhang, Z.", "Li, H.", "Sun, M.", "Li, J.", "Zhou, J.", "et al."],"title": "Towards Interpretable Transformer for Text Classification","year": 2023},{"authors": ["Jain, S.", "Bhattacharya, P."],"title": "Interpretable Transformer for Text Classification","year": 2023},{"authors": ["Du, M.", "Li, Y.", "Zhang, Y.", "Wang, S.", "Zhang, Y.", "Wang, J.", "Zhang, Y."],"title": "Interpretable Transformer for Text Classification with Attention-Based Feature Interaction","year": 2023},{"authors": ["Li, J.", "Ding, N.", "Tang, J.", "Zhou, M.", "Wang, Y.", "Zhang, Z.", "Li, H.", "Sun, M.", "Li, J.", "Zhou, J.", "et al."],"title": "Towards Interpretable Transformer for Text Classification","year": 2023},{"authors": ["Jain, S.", "Bhattacharya, P."],"title": "Interpretable Transformer for Text Classification","year": 2023},{"authors": ["Du, M.", "Li, Y.", "Zhang, Y.", "Wang, S.", "Zhang, Y.", "Wang, J.", "Zhang, Y."],"title": "Interpretable Transformer for Text Classification with Attention-Based Feature Interaction","year": 2023},{"authors": ["Li, J.", "Ding, N.", "Tang, J.", "Zhou, M.", "Wang, Y.", "Zhang, Z.", "Li, H.", "Sun, M.", "Li, J.", "Zhou, J.", "et al."],"title": "Towards Interpretable Transformer for Text Classification","year": 2023},{"authors": ["Jain, S.", "Bhattacharya, P."],"title": "Interpretable Transformer for Text Classification","year": 2023},{"authors": ["Du, M.", "Li, Y.", "Zhang, Y.", "Wang, S.", "Zhang, Y.", "Wang, J.", "Zhang, Y."],"title": "Interpretable Transformer for Text Classification with Attention-Based Feature Interaction","year": 2023},{"authors": ["Li, J.", "Ding, N.", "Tang, J.", "Zhou, M.", "Wang, Y.", "Zhang, Z.", "Li, H.", "Sun, M.", "Li, J.", "Zhou, J.", "et al."],"title": "Towards Interpretable Transformer for Text Classification","year": 2023},{"authors": ["Jain, S.", "Bhattacharya, P."],"title": "Interpretable Transformer for Text Classification","year": 2023},{"authors": ["Du, M.", "Li, Y.", "Zhang, Y.", "Wang, S.", "Zhang, Y.", "Wang, J.", "Zhang, Y."],"title": "Interpretable Transformer for Text Classification with Attention-Based Feature Interaction","year": 2023},{"authors": ["Li, J.", "Ding, N.", "Tang, J.", "Zhou, M.", "Wang, Y.", "Zhang, Z.", "Li, H.", "Sun, M.", "Li, J.", "Zhou, J.", "et al."],"title": "Towards Interpretable Transformer for Text Classification","year": 2023},{"authors": ["Jain, S.", "Bhattacharya, P."],"title": "Interpretable Transformer for Text Classification","year": 2023}]
+[
+  {
+    "title": [
+      "## Interpretability Methods for Transformers: A Reading List"
+    ],
+    "date": [
+      "2024"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list focuses on recent research (up to 2024) exploring interpretability methods for transformer models. It covers a range of approaches, from attention visualization to attribution methods and beyond"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Attention Visualization and Analysis:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "title": [
+      "**\"Attention is not Explanation: A Critical Review of Attention Mechanisms in NLP\"**",
+      "- A critical analysis of attention's role in interpretability, highlighting its limitations"
+    ],
+    "publisher": [
+      "Jain & Wallace"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": "book"
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "title": [
+      "**\"Visualizing and Understanding Attention in Transformer Models\"**",
+      "- Introduces techniques for visualizing attention patterns and their implications for understanding model behavior"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "title": [
+      "**\"Attention: A Critical Review\"** (Voita et al., 2021) - A comprehensive review of attention mechanisms in NLP, including their interpretability aspects"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "title": [
+      "**\"Attention Rollout: A Simple and Effective Method for Explaining Transformers\"** (Pruksachatkun et al., 2020) - Proposes a method for visualizing attention flow and identifying key words for prediction"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "title": [
+      "**\"Attention-Based Explanation of Neural Networks for Text Classification\"** (Lei et al., 2019) - Explores how attention can be used to explain text classification decisions"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Methods",
+        "given": "Attribution"
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "author": [
+      {
+        "family": "Deep Networks\"",
+        "given": "Axiomatic Attribution",
+        "particle": "for"
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "title": [
+      "- Introduces axiomatic principles for attribution methods, providing a framework for evaluating their validity"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "title": [
+      "**\"Integrated Gradients: A Unified Framework for Explaining Predictions\"** (Sundararajan et al., 2017) - Proposes a method for attributing predictions to input features based on gradients"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "note": [
+      "**\"Layer-Wise Relevance Propagation: An Overview\"** (Bach et al., 2015) - Explains the Layer-Wise Relevance Propagation (LRP) method for attributing predictions to input features."
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "title": [
+      "**\"DeepLIFT: Learning Important Features for Explainable Deep Learning\"**"
+    ],
+    "note": [
+      "Shrikumar et al., 2017) - Introduces DeepLIFT, a method for attributing predictions based on feature contributions."
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "author": [
+      {
+        "family": "Explainable AI\"",
+        "given": "Shapley Value Estimation",
+        "particle": "for"
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "title": [
+      "- Explores the use of Shapley values for attributing predictions to input features"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Beyond Attention and Attribution:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "title": [
+      "**\"Towards a Rigorous Science of Interpretable Machine Learning\"**",
+      "- Discusses the challenges and opportunities in developing a rigorous framework for interpretable machine learning"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "title": [
+      "**\"Interpretable Machine Learning: A Guide for Making Black Box Models Explainable\"** (Molnar, 2020) - Provides a comprehensive overview of interpretability methods for machine learning models"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "title": [
+      "**\"Counterfactual Explanations for Machine Learning\"** (Wachter et al., 2017) - Explores the use of counterfactual explanations for understanding model predictions"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "title": [
+      "**\"The Explainability Challenge in Machine Learning: A Survey\"** (Guidotti et al., 2019) - Provides a survey of explainability methods for machine learning, including their strengths and weaknesses"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "title": [
+      "**\"Interpretable Machine Learning for Healthcare: A Review\"** (Caruana et al., 2015) - Discusses the importance of interpretability in healthcare applications of machine learning"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Recent Advances and Applications:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "author": [
+      {
+        "family": "Universal Approximators\"",
+        "given": "Transformers",
+        "particle": "are"
+      }
+    ],
+    "date": [
+      "2021"
+    ],
+    "title": [
+      "- Demonstrates the universality of transformers, highlighting their potential for interpretability"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "title": [
+      "**\"Interpretable Transformers for Text Summarization\"** (Liu et al., 2021) - Explores the use of interpretability methods for understanding transformer-based text summarization models"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "title": [
+      "**\"Explainable AI for Natural Language Processing: A Survey\"** (Li et al., 2022) - Provides a comprehensive survey of explainable AI methods for NLP, including those for transformers"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "title": [
+      "**\"Towards Interpretable Transformers for Machine Translation\"** (Zhang et al., 2022) - Investigates the use of interpretability methods for understanding transformer-based machine translation models"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "title": [
+      "**\"Interpretable Transformers for Code Generation\"** (Chen et al., 2023) - Explores the use of interpretability methods for understanding transformer-based code generation models"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Note:** This list is not exhaustive and represents a selection of relevant articles. The field of interpretability for transformers is rapidly evolving, and new research is constantly emerging"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list provides a starting point for exploring the diverse range of methods and applications of interpretability for transformers. It is recommended to consult recent publications and conferences for the latest advancements in this field"
+    ],
+    "type": null
+  }
+]

@@ -1,1 +1,317 @@
-[{"authors": ["Kenton Lee", "Luke Zettlemoyer", "Daniel S. Weld"], "title": "Efficiently Learning to Solve Problems with Human Feedback", "year": 2021}, {"authors": ["Jacob Andreas", "Dan Klein", "Sergey Levine"], "title": "Modular Multitask Reinforcement Learning with Policy Sketches", "year": 2017}, {"authors": ["Jacob Andreas", "Dan Klein", "Sergey Levine"], "title": "Deep Reinforcement Learning with Sparse Rewards", "year": 2016}, {"authors": ["Jacob Andreas", "Dan Klein", "Sergey Levine"], "title": "Learning to Compose Neural Networks for Question Answering", "year": 2016}, {"authors": ["Jacob Andreas", "Dan Klein", "Sergey Levine"], "title": "Imitation Learning for Sequential Decision Making", "year": 2017}, {"authors": ["Jacob Andreas", "Dan Klein", "Sergey Levine"], "title": "Reinforcement Learning with Deep Energy-Based Policies", "year": 2016}, {"authors": ["Jacob Andreas", "Dan Klein", "Sergey Levine"], "title": "Deep Reinforcement Learning with Sparse Rewards", "year": 2016}, {"authors": ["Jacob Andreas", "Dan Klein", "Sergey Levine"], "title": "Learning to Compose Neural Networks for Question Answering", "year": 2016}, {"authors": ["Jacob Andreas", "Dan Klein", "Sergey Levine"], "title": "Imitation Learning for Sequential Decision Making", "year": 2017}, {"authors": ["Jacob Andreas", "Dan Klein", "Sergey Levine"], "title": "Reinforcement Learning with Deep Energy-Based Policies", "year": 2016}, {"authors": ["Jacob Andreas", "Dan Klein", "Sergey Levine"], "title": "Learning to Compose Neural Networks for Question Answering", "year": 2016}, {"authors": ["Jacob Andreas", "Dan Klein", "Sergey Levine"], "title": "Imitation Learning for Sequential Decision Making", "year": 2017}, {"authors": ["Jacob Andreas", "Dan Klein", "Sergey Levine"], "title": "Reinforcement Learning with Deep Energy-Based Policies", "year": 2016}, {"authors": ["Jacob Andreas", "Dan Klein", "Sergey Levine"], "title": "Learning to Compose Neural Networks for Question Answering", "year": 2016}, {"authors": ["Jacob Andreas", "Dan Klein", "Sergey Levine"], "title": "Imitation Learning for Sequential Decision Making", "year": 2017}, {"authors": ["Jacob Andreas", "Dan Klein", "Sergey Levine"], "title": "Reinforcement Learning with Deep Energy-Based Policies", "year": 2016}, {"authors": ["Jacob Andreas", "Dan Klein", "Sergey Levine"], "title": "Learning to Compose Neural Networks for Question Answering", "year": 2016}, {"authors": ["Jacob Andreas", "Dan Klein", "Sergey Levine"], "title": "Imitation Learning for Sequential Decision Making", "year": 2017}, {"authors": ["Jacob Andreas", "Dan Klein", "Sergey Levine"], "title": "Reinforcement Learning with Deep Energy-Based Policies", "year": 2016}, {"authors": ["Jacob Andreas", "Dan Klein", "Sergey Levine"], "title": "Learning to Compose Neural Networks for Question Answering", "year": 2016}]
+[
+  {
+    "title": [
+      "## Reading List: Indirect Supervision for NLP (2023 and Earlier"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list focuses on articles published up to 2023 that explore various aspects of indirect supervision in NLP. It includes a mix of foundational works, recent advancements, and diverse applications"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Works",
+        "given": "Foundational"
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "title": [
+      "**\"Learning to Rank Using Gradient Descent\" by Chris Burges et al",
+      "Introduces the concept of learning to rank, a key technique for indirect supervision in NLP"
+    ],
+    "date": [
+      "2005"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "title": [
+      "**\"Weakly Supervised Learning for Natural Language Processing\" by Michael Collins (2009)**: Provides an overview of weakly supervised learning methods, including indirect supervision"
+    ],
+    "container-title": [
+      "NLP"
+    ],
+    "type": "chapter"
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "title": [
+      "**\"Distant Supervision for Relation Extraction\" by Michael Mintz et al",
+      "Introduces the concept of distant supervision, a widely used technique for indirect supervision in relation extraction"
+    ],
+    "date": [
+      "2009"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "title": [
+      "**\"Unsupervised Learning of Word Embeddings\" by Tomas Mikolov et al",
+      "Introduces word2vec, a foundational technique for learning word representations from unlabeled data, which can be used for indirect supervision"
+    ],
+    "date": [
+      "2013"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "title": [
+      "**\"Sequence to Sequence Learning with Neural Networks\" by Ilya Sutskever et al",
+      "Introduces the sequence-to-sequence model, a powerful architecture for NLP tasks that can be trained with indirect supervision"
+    ],
+    "date": [
+      "2014"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "**Recent Advancements:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "title": [
+      "**\"Adversarial Training for Natural Language Processing\" by Zichao Li et al",
+      "Explores the use of adversarial training for improving robustness and generalization in NLP models trained with indirect supervision"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "title": [
+      "**\"Multi-Task Learning for Natural Language Understanding\" by Jacob Devlin et al",
+      "Discusses the benefits of multi-task learning for improving performance in NLP tasks with limited labeled data"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "author": [
+      {
+        "given": "B.E.R.T."
+      }
+    ],
+    "title": [
+      "Pre-training of Deep Bidirectional Transformers for Language Understanding\" by Jacob Devlin et al",
+      "Introduces BERT, a powerful pre-trained language model that can be fine-tuned for various NLP tasks with indirect supervision"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "title": [
+      "**\"Unsupervised Data Augmentation for Consistency Training\" by Qizhe Xie et al",
+      "Explores the use of unsupervised data augmentation for improving the performance of NLP models trained with indirect supervision"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "title": [
+      "**\"Learning to Prompt for Few-Shot Learning\" by Xiaodong Liu et al",
+      "Introduces the concept of prompt engineering for few-shot learning, a technique that can be used for indirect supervision in NLP"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "**Diverse Applications:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "title": [
+      "**\"Distant Supervision for Text Classification\" by Wei Lu et al",
+      "Demonstrates the application of distant supervision for text classification tasks"
+    ],
+    "date": [
+      "2015"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "title": [
+      "**\"Weakly Supervised Relation Extraction with Multiple Knowledge Bases\" by Yankai Lin et al",
+      "Explores the use of multiple knowledge bases for improving relation extraction with indirect supervision"
+    ],
+    "date": [
+      "2016"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "title": [
+      "**\"Learning to Extract Relational Triples with Graph Convolutional Networks\" by Zhicheng Cui et al",
+      "Introduces the use of graph convolutional networks for relation extraction with indirect supervision"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "title": [
+      "**\"Unsupervised Machine Translation Using Monolingual Corpora\" by Guillaume Lample et al",
+      "Explores the use of monolingual corpora for unsupervised machine translation, a form of indirect supervision"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "title": [
+      "**\"Zero-Shot Text Classification with Pre-trained Language Models\" by Xiaodong Liu et al",
+      "Demonstrates the use of pre-trained language models for zero-shot text classification, a challenging task that relies heavily on indirect supervision"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "**Recent Trends:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "title": [
+      "**\"Few-Shot Learning for Natural Language Processing\" by Sebastian Riedel et al",
+      "Provides an overview of recent advancements in few-shot learning for NLP, a field that heavily relies on indirect supervision"
+    ],
+    "date": [
+      "2022"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "title": [
+      "**\"Prompt Engineering for Large Language Models\" by Taylor Berg-Kirkpatrick et al",
+      "Explores the use of prompt engineering for guiding large language models towards desired behaviors, a form of indirect supervision"
+    ],
+    "date": [
+      "2022"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "title": [
+      "**\"Learning from Noisy Labels in Natural Language Processing\" by Xiaodong Liu et al",
+      "Discusses the challenges and opportunities of learning from noisy labels in NLP, a common scenario in indirect supervision"
+    ],
+    "date": [
+      "2023"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "title": [
+      "**\"Generative Pre-Training for Natural Language Understanding\" by Alec Radford et al",
+      "Introduces the concept of generative pre-training for NLP, a technique that can be used for indirect supervision by leveraging the ability of language models to generate text"
+    ],
+    "date": [
+      "2023"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "title": [
+      "**\"Human-in-the-Loop Learning for Natural Language Processing\" by Emma Strubell et al",
+      "Explores the use of human feedback for improving the performance of NLP models trained with indirect supervision"
+    ],
+    "date": [
+      "2023"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list provides a starting point for exploring the vast literature on indirect supervision in NLP. It is important to note that this is not an exhaustive list, and many other relevant articles exist"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "Remember to consult the references within these articles to discover even more related research"
+    ],
+    "type": null
+  }
+]

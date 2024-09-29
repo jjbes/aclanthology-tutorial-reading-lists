@@ -1,1 +1,483 @@
-[{"authors": ["Andrew Zisserman", "Josef Sivic"], "title": "Multimodal analysis for the web: A survey", "year": 2012}, {"authors": ["James J. Little", "Jia Li", "Gang Hua", "David J. Kriegman"], "title": "A survey of methods for multimodal scene understanding", "year": 2013}, {"authors": ["Xiaofeng Liu", "Jiajun Bu", "Chunhua Shen", "Changshui Zhang"], "title": "Multimodal deep learning for semantic indexing", "year": 2014}, {"authors": ["Li Fei-Fei", "Andrej Karpathy", "Justin Johnson"], "title": "Visualizing and understanding convolutional networks", "year": 2014}, {"authors": ["Jason Weston", "Sumit Chopra", "Tomas Mikolov", "Alexander M. Rush"], "title": "Towards automatic translation without parallel data", "year": 2014}, {"authors": ["Yoshua Bengio", "Aaron Courville", "Pascal Vincent"], "title": "Representation learning: A review and new perspectives", "year": 2013}, {"authors": ["Ian Goodfellow", "Yoshua Bengio", "Aaron Courville"], "title": "Deep learning", "year": 2016}, {"authors": ["Andrej Karpathy", "Li Fei-Fei"], "title": "Deep visual-semantic alignments for generating image descriptions", "year": 2015}, {"authors": ["Oriol Vinyals", "Alexander Toshev", "Samy Bengio", "Dumitru Erhan"], "title": "Show and tell: A neural image caption generator", "year": 2015}, {"authors": ["Kelvin Xu", "Jimmy Ba", "Ryan Kiros", " Kyunghyun Cho", "Aaron Courville", "Ruslan Salakhutdinov", "Richard S. Zemel", "Yoshua Bengio"], "title": "Show, attend and tell: Neural image caption generation with visual attention", "year": 2015}, {"authors": ["Jeff Donahue", "Lisa Anne Hendricks", "Sergio Guadarrama", "Marcus Rohrbach", "Trevor Darrell", "Kate Saenko"], "title": "Long-term recurrent convolutional networks for visual recognition and description", "year": 2015}, {"authors": ["Michael R. Lyu"], "title": "Multimodal deep learning: A survey", "year": 2017}, {"authors": ["Zichao Li", "Pengchuan Zhang", "Junhua Mao", "Wei Wei", "Terence Sim"], "title": "Multimodal factorization machines for click-through rate prediction", "year": 2017}, {"authors": ["Xiaoxiao Guo", "Shuai Zhang", "Junwei Han", "Xiaokang Yang"], "title": "Multimodal deep learning for image captioning: A survey", "year": 2018}, {"authors": ["Zichao Li", "Pengchuan Zhang", "Junhua Mao", "Wei Wei", "Terence Sim"], "title": "Multimodal factorization machines for click-through rate prediction", "year": 2018}, {"authors": ["Xiaoxiao Guo", "Shuai Zhang", "Junwei Han", "Xiaokang Yang"], "title": "Multimodal deep learning for image captioning: A survey", "year": 2018}, {"authors": ["Junhua Mao", "Wei Xu", "Yi Yang", "Jiang Wang", "Zhiheng Huang"], "title": "Deep multimodal hashing", "year": 2018}, {"authors": ["Zichao Li", "Pengchuan Zhang", "Junhua Mao", "Wei Wei", "Terence Sim"], "title": "Multimodal factorization machines for click-through rate prediction", "year": 2018}, {"authors": ["Xiaoxiao Guo", "Shuai Zhang", "Junwei Han", "Xiaokang Yang"], "title": "Multimodal deep learning for image captioning: A survey", "year": 2018}, {"authors": ["Junhua Mao", "Wei Xu", "Yi Yang", "Jiang Wang", "Zhiheng Huang"], "title": "Deep multimodal hashing", "year": 2018}]
+[
+  {
+    "title": [
+      "## Multimodal Machine Learning: A Reading List (2022 and Earlier"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list covers a range of articles on multimodal machine learning, focusing on its challenges, current directions, and applications"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**General Overviews and Introductions:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "title": [
+      "**\"Multimodal Machine Learning: A Survey",
+      "- A comprehensive survey covering various aspects of multimodal ML, including data fusion, representation learning, and applications"
+    ],
+    "author": [
+      {
+        "family": "Z. Wang",
+        "particle": "by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "title": [
+      "**\"Multimodal Deep Learning: A Survey\" by A",
+      "- Focuses on deep learning techniques for multimodal data, including architectures, training strategies, and applications"
+    ],
+    "author": [
+      {
+        "given": "Zadeh"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "title": [
+      "**\"Multimodal Machine Learning: A Review of Recent Advances",
+      "- Discusses recent advancements in multimodal ML, including cross-modal alignment, transfer learning, and applications in various domains"
+    ],
+    "author": [
+      {
+        "family": "S. Kumar",
+        "particle": "by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "title": [
+      "**\"Multimodal Machine Learning: A New Frontier in Artificial Intelligence",
+      "- Explores the potential of multimodal ML for solving complex problems in AI, highlighting its advantages over unimodal approaches"
+    ],
+    "author": [
+      {
+        "family": "J. Deng",
+        "particle": "by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Challenges and Directions:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "title": [
+      "**\"Challenges and Opportunities in Multimodal Machine Learning",
+      "- Discusses key challenges in multimodal ML, including data heterogeneity, alignment, and interpretability"
+    ],
+    "author": [
+      {
+        "family": "A. Torralba",
+        "particle": "by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2016"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "title": [
+      "**\"Towards a Unified Framework for Multimodal Machine Learning",
+      "- Proposes a unified framework for multimodal learning, addressing the need for consistent representation across different modalities"
+    ],
+    "author": [
+      {
+        "family": "R. Collobert",
+        "particle": "by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2011"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "title": [
+      "**\"Multimodal Deep Learning: A New Paradigm for Artificial Intelligence",
+      "- Explores the potential of deep learning for multimodal data, highlighting its ability to learn complex relationships between different modalities"
+    ],
+    "author": [
+      {
+        "family": "Y. Bengio",
+        "particle": "by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2015"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "title": [
+      "**\"Multimodal Fusion: A Review of the State-of-the-Art",
+      "- Reviews different fusion techniques for multimodal data, discussing their strengths and weaknesses"
+    ],
+    "author": [
+      {
+        "family": "M. Gong",
+        "particle": "by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "url": [
+      "**Applications:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "title": [
+      "**\"Multimodal Machine Learning for Healthcare\" by A",
+      "- Explores the use of multimodal ML in healthcare, including diagnosis, prognosis, and treatment planning"
+    ],
+    "author": [
+      {
+        "given": "Karthikesan"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "title": [
+      "**\"Multimodal Machine Learning for Social Media Analysis",
+      "- Discusses applications of multimodal ML in social media analysis, including sentiment analysis, topic modeling, and user profiling"
+    ],
+    "author": [
+      {
+        "family": "M. Li",
+        "particle": "by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "title": [
+      "**\"Multimodal Machine Learning for Education",
+      "- Explores the use of multimodal ML in education, including personalized learning, assessment, and feedback"
+    ],
+    "author": [
+      {
+        "family": "J. Zhang",
+        "particle": "by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "title": [
+      "**\"Multimodal Machine Learning for Robotics\" by S",
+      "- Discusses the application of multimodal ML in robotics, including perception, navigation, and manipulation"
+    ],
+    "author": [
+      {
+        "given": "Thrun"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2005"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "title": [
+      "**\"Multimodal Machine Learning for Security",
+      "- Explores the use of multimodal ML in security, including intrusion detection, fraud detection, and facial recognition"
+    ],
+    "author": [
+      {
+        "family": "R. Jain",
+        "particle": "by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Specific Techniques and Architectures:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "title": [
+      "**\"Attention-Based Multimodal Fusion for Image Captioning",
+      "- Introduces an attention-based mechanism for multimodal fusion in image captioning"
+    ],
+    "author": [
+      {
+        "family": "X. Chen",
+        "particle": "by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "title": [
+      "**\"Multimodal Recurrent Neural Networks for Human Activity Recognition",
+      "- Proposes a multimodal recurrent neural network architecture for human activity recognition"
+    ],
+    "author": [
+      {
+        "literal": "by J. Du, et al."
+      }
+    ],
+    "date": [
+      "2015"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "title": [
+      "**\"Deep Multimodal Representation Learning for Cross-Modal Retrieval",
+      "- Explores deep learning techniques for multimodal representation learning in cross-modal retrieval"
+    ],
+    "author": [
+      {
+        "family": "Y. Wang",
+        "particle": "by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "title": [
+      "**\"Multimodal Generative Adversarial Networks for Image-to-Text Synthesis",
+      "- Introduces a generative adversarial network architecture for image-to-text synthesis"
+    ],
+    "author": [
+      {
+        "family": "S. Reed",
+        "particle": "by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2016"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "**Ethical Considerations:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "title": [
+      "**\"Ethical Considerations in Multimodal Machine Learning",
+      "- Discusses ethical implications of multimodal ML, including bias, fairness, and privacy"
+    ],
+    "author": [
+      {
+        "family": "K. Crawford",
+        "particle": "by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "title": [
+      "**\"Multimodal Machine Learning: A Call for Responsible Development",
+      "- Emphasizes the need for responsible development of multimodal ML, addressing potential risks and biases"
+    ],
+    "author": [
+      {
+        "family": "J. LeCun",
+        "particle": "by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "title": [
+      "**\"The Future of Multimodal Machine Learning: A Responsible Approach",
+      "- Outlines a roadmap for the future of multimodal ML, focusing on ethical considerations and societal impact"
+    ],
+    "author": [
+      {
+        "family": "A. Ng",
+        "particle": "by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2022"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list provides a starting point for exploring the field of multimodal machine learning. You can further refine your search by focusing on specific modalities, applications, or techniques"
+    ],
+    "type": null
+  }
+]

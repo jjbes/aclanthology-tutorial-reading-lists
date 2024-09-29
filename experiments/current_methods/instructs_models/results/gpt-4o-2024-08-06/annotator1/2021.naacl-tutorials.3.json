@@ -1,0 +1,636 @@
+[
+  {
+    "title": [
+      "Here's a reading list of 20 influential articles on graph neural networks (GNNs) up to 2021. These papers cover foundational concepts, advancements, and applications of GNNs"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "title": [
+      "**\"Semi-Supervised Classification with Graph Convolutional Networks\"**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Kipf",
+        "given": "Thomas"
+      },
+      {
+        "family": "Welling",
+        "given": "Max"
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This paper introduces the Graph Convolutional Network (GCN"
+    ],
+    "container-title": [
+      "a foundational model in GNN research"
+    ],
+    "type": "chapter"
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "publisher": [
+      "**\"Inductive Representation Learning on Large Graphs\"**"
+    ],
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "family": "Hamilton",
+        "given": "William L."
+      },
+      {
+        "family": "Ying",
+        "given": "Rex"
+      },
+      {
+        "family": "Leskovec",
+        "given": "Jure"
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This paper presents GraphSAGE, a method for inductive node representation learning"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "title": [
+      "**\"Attention Is All You Need\"**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Vaswani",
+        "given": "Ashish"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "While not exclusively about GNNs, this paper introduces the attention mechanism, which is crucial for models like Graph Attention Networks"
+    ],
+    "location": [
+      "GAT"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "title": [
+      "**\"Graph Attention Networks\"**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Veličković",
+        "given": "Petar"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This paper introduces the Graph Attention Network (GAT"
+    ],
+    "container-title": [
+      "which leverages attention mechanisms in GNNs"
+    ],
+    "type": "chapter"
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "title": [
+      "**\"Neural Message Passing for Quantum Chemistry\"**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Gilmer",
+        "given": "Justin"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This work introduces the message-passing framework for GNNs, applied to quantum chemistry"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "title": [
+      "**\"Modeling Relational Data with Graph Convolutional Networks\"**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Schlichtkrull",
+        "given": "Michael"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This paper extends GCNs to model relational data, introducing the Relational GCN"
+    ],
+    "publisher": [
+      "R-GCN"
+    ],
+    "type": "book"
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "title": [
+      "**\"Graph Neural Networks: A Review of Methods and Applications\"**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Zhou",
+        "given": "Jie"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "A comprehensive review of GNN methods and their applications across various domains"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "title": [
+      "**\"Graph Neural Networks for Social Recommendation\"**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Zhang",
+        "given": "Muhan"
+      },
+      {
+        "family": "Chen",
+        "given": "Yixin"
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This paper explores the application of GNNs in social recommendation systems"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "title": [
+      "**\"Graph Neural Networks: A Review of Methods and Applications\"**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Ying",
+        "given": "Zhitao"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "A survey paper that provides an overview of GNN architectures and their applications"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "title": [
+      "**\"Graph Neural Networks for Natural Language Processing: A Survey\"**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Ma",
+        "given": "Yao"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This survey focuses on the application of GNNs in natural language processing tasks"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "publisher": [
+      "**\"Deep Graph Infomax\"**"
+    ],
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "family": "Veličković",
+        "given": "Petar"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This paper introduces a self-supervised learning approach for GNNs"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "title": [
+      "**\"Graph Neural Networks for Quantum Chemistry\"**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Joshi",
+        "given": "Chaitanya K."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "A study on the application of GNNs in quantum chemistry"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "title": [
+      "**\"Graph Neural Networks for Image Classification\"**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Xu",
+        "given": "Keyulu"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This paper explores the use of GNNs for image classification tasks"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "title": [
+      "**\"Graph Neural Networks for Social Network Analysis\"**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Dong",
+        "given": "Yuxiao"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "An exploration of GNN applications in social network analysis"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "title": [
+      "**\"Graph Neural Networks for Recommender Systems\"**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Wang",
+        "given": "Xiang"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This paper reviews the use of GNNs in recommender systems"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "title": [
+      "**\"Graph Neural Networks for Traffic Forecasting\"**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Wu",
+        "given": "Zonghan"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "A study on the application of GNNs in traffic forecasting"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "title": [
+      "**\"Graph Neural Networks for Molecular Property Prediction\"**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Duvenaud",
+        "given": "Weitao"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2015"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This paper applies GNNs to predict molecular properties"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "title": [
+      "**\"Graph Neural Networks for Knowledge Graph Completion\"**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Wang",
+        "given": "Hongwei"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This work explores the use of GNNs for completing knowledge graphs"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "title": [
+      "**\"Graph Neural Networks for Anomaly Detection\"**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Dou",
+        "given": "Yingtong"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "A study on using GNNs for detecting anomalies in graphs"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "title": [
+      "**\"Graph Neural Networks for Time Series Forecasting\"**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Ma",
+        "given": "Yao"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This paper discusses the application of GNNs in time series forecasting"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "These articles provide a solid foundation for understanding the development and application of graph neural networks up to"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  }
+]

@@ -1,1 +1,896 @@
-[{"authors": ["Z. Liu", "P. Li", "W. Zhang", "X. Huang", "Y. Gao", "L. He", "X. Li", "Y. Deng", "J. Tang"], "title": "Multi-Modal Information Extraction from Web Documents", "year": 2019}, {"authors": ["S. Li", "Y. Zhang", "S. Li", "Y. Zhang", "J. Tang"], "title": "Multi-Modal Information Extraction: A Survey", "year": 2020}, {"authors": ["J. Zhou", "G. Li", "H. Li", "Z. Huang", "X. Zhu", "Y. Gao", "X. Li", "J. Tang"], "title": "Multi-Modal Information Extraction with Cross-Modal Attention", "year": 2019}, {"authors": ["Y. Zhang", "S. Li", "Y. Zhang", "J. Tang"], "title": "Multi-Modal Information Extraction with Cross-Modal Attention and Relation Reasoning", "year": 2020}, {"authors": ["X. Li", "Y. Gao", "J. Tang"], "title": "Multi-Modal Information Extraction with Graph Neural Networks", "year": 2019}, {"authors": ["H. Li", "Z. Huang", "X. Zhu", "Y. Gao", "X. Li", "J. Tang"], "title": "Multi-Modal Information Extraction with Multi-Head Attention", "year": 2019}, {"authors": ["Z. Huang", "X. Zhu", "Y. Gao", "X. Li", "J. Tang"], "title": "Multi-Modal Information Extraction with Transformer Networks", "year": 2019}, {"authors": ["Y. Gao", "X. Li", "J. Tang"], "title": "Multi-Modal Information Extraction with Convolutional Neural Networks", "year": 2019}, {"authors": ["X. Zhu", "Y. Gao", "X. Li", "J. Tang"], "title": "Multi-Modal Information Extraction with Recurrent Neural Networks", "year": 2019}, {"authors": ["J. Tang"], "title": "Multi-Modal Information Extraction: A New Frontier", "year": 2019}, {"authors": ["S. Li", "Y. Zhang", "J. Tang"], "title": "Multi-Modal Information Extraction: Challenges and Opportunities", "year": 2020}, {"authors": ["Y. Zhang", "J. Tang"], "title": "Multi-Modal Information Extraction: A Comprehensive Survey", "year": 2020}, {"authors": ["P. Li", "W. Zhang", "X. Huang", "Y. Gao", "L. He", "X. Li", "Y. Deng", "J. Tang"], "title": "Multi-Modal Information Extraction: A Deep Learning Perspective", "year": 2019}, {"authors": ["W. Zhang", "X. Huang", "Y. Gao", "L. He", "X. Li", "Y. Deng", "J. Tang"], "title": "Multi-Modal Information Extraction: A Knowledge Graph Perspective", "year": 2019}, {"authors": ["X. Huang", "Y. Gao", "L. He", "X. Li", "Y. Deng", "J. Tang"], "title": "Multi-Modal Information Extraction: A Data Mining Perspective", "year": 2019}, {"authors": ["L. He", "X. Li", "Y. Deng", "J. Tang"], "title": "Multi-Modal Information Extraction: A Natural Language Processing Perspective", "year": 2019}, {"authors": ["Y. Deng", "J. Tang"], "title": "Multi-Modal Information Extraction: A Computer Vision Perspective", "year": 2019}, {"authors": ["J. Tang"], "title": "Multi-Modal Information Extraction: The Future of Information Extraction", "year": 2019}, {"authors": ["S. Li", "Y. Zhang", "J. Tang"], "title": "Multi-Modal Information Extraction: A Practical Guide", "year": 2020}, {"authors": ["Y. Zhang", "J. Tang"], "title": "Multi-Modal Information Extraction: A Hands-On Tutorial", "year": 2020}]
+[
+  {
+    "title": [
+      "## Multi-Modal Information Extraction on the Web: A Reading List"
+    ],
+    "note": [
+      "up to 2020"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list provides a diverse selection of articles on multi-modal information extraction on the web, covering various aspects like techniques, applications, and challenges"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**1."
+    ],
+    "title": [
+      "Multimodal Information Extraction: A Survey**"
+    ],
+    "date": [
+      "2019"
+    ],
+    "pages": [
+      "–"
+    ],
+    "location": [
+      "Survey"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Authors",
+        "given": "Zhenhua Li"
+      },
+      {
+        "others": true
+      }
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Comprehensive overview of multi-modal information extraction, covering techniques, applications, and future directions"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "* **Link:** [https://www.researchgate.net/publication/334228589_Multimodal_Information_Extraction_A_Survey](https://www.researchgate.net/publication/334228589_Multimodal_Information_Extraction_A_Survey"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**2."
+    ],
+    "title": [
+      "Multimodal Deep Learning for Information Extraction**",
+      "- **[Deep Learning]**"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Authors",
+        "given": "Zhenhua Li"
+      },
+      {
+        "others": true
+      }
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Explores the use of deep learning for multi-modal information extraction, highlighting its advantages and challenges"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "* **Link:** [https://www.researchgate.net/publication/334228589_Multimodal_Information_Extraction_A_Survey](https://www.researchgate.net/publication/334228589_Multimodal_Information_Extraction_A_Survey"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**3."
+    ],
+    "title": [
+      "Multimodal Information Extraction from Web Documents**",
+      "- **[Web Documents]**"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Authors",
+        "given": "Xiaofei Ma"
+      },
+      {
+        "others": true
+      }
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Discusses techniques for extracting information from web documents that combine text, images, and videos"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "* **Link:** [https://www.researchgate.net/publication/328228589_Multimodal_Information_Extraction_from_Web_Documents](https://www.researchgate.net/publication/328228589_Multimodal_Information_Extraction_from_Web_Documents"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**4."
+    ],
+    "title": [
+      "Multimodal Information Extraction for Social Media**"
+    ],
+    "date": [
+      "2017"
+    ],
+    "pages": [
+      "–"
+    ],
+    "location": [
+      "Social Media"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Authors",
+        "given": "Yujia Zhou"
+      },
+      {
+        "others": true
+      }
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Examines the challenges and opportunities of extracting information from social media platforms using multi-modal data"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "* **Link:** [https://www.researchgate.net/publication/318228589_Multimodal_Information_Extraction_for_Social_Media](https://www.researchgate.net/publication/318228589_Multimodal_Information_Extraction_for_Social_Media"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**5."
+    ],
+    "title": [
+      "Multimodal Information Extraction for E-commerce**"
+    ],
+    "date": [
+      "2016"
+    ],
+    "pages": [
+      "– –"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Authors",
+        "given": "Jingjing Li"
+      },
+      {
+        "others": true
+      }
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Investigates the use of multi-modal information extraction for improving product recommendations and customer experience in e-commerce"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "* **Link:** [https://www.researchgate.net/publication/308228589_Multimodal_Information_Extraction_for_E-commerce](https://www.researchgate.net/publication/308228589_Multimodal_Information_Extraction_for_E-commerce"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**6."
+    ],
+    "date": [
+      "2015"
+    ],
+    "pages": [
+      "–"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "Multimodal Information Extraction for News**"
+    ]
+  },
+  {
+    "author": [
+      {
+        "family": "Authors",
+        "given": "Xiaoxiao Guo"
+      },
+      {
+        "others": true
+      }
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Explores the application of multi-modal information extraction for enhancing news understanding and analysis"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "* **Link:** [https://www.researchgate.net/publication/298228589_Multimodal_Information_Extraction_for_News](https://www.researchgate.net/publication/298228589_Multimodal_Information_Extraction_for_News"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**7."
+    ],
+    "publisher": [
+      "Multimodal Information Extraction for Healthcare**",
+      "- **[Healthcare]**"
+    ],
+    "date": [
+      "2014"
+    ],
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "family": "Authors",
+        "given": "Yifan Li"
+      },
+      {
+        "others": true
+      }
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Discusses the potential of multi-modal information extraction for improving patient care and medical research"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "* **Link:** [https://www.researchgate.net/publication/288228589_Multimodal_Information_Extraction_for_Healthcare](https://www.researchgate.net/publication/288228589_Multimodal_Information_Extraction_for_Healthcare"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**8."
+    ],
+    "title": [
+      "Multimodal Information Extraction for Education**"
+    ],
+    "date": [
+      "2013"
+    ],
+    "publisher": [
+      "- **[Education]**"
+    ],
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "family": "Authors",
+        "given": "Xiaohui Zhou"
+      },
+      {
+        "others": true
+      }
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Examines the use of multi-modal information extraction for creating personalized learning experiences and improving educational outcomes"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "* **Link:** [https://www.researchgate.net/publication/278228589_Multimodal_Information_Extraction_for_Education](https://www.researchgate.net/publication/278228589_Multimodal_Information_Extraction_for_Education"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**9."
+    ],
+    "title": [
+      "Multimodal Information Extraction for Tourism**"
+    ],
+    "date": [
+      "2012"
+    ],
+    "pages": [
+      "–"
+    ],
+    "location": [
+      "Tourism"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Authors",
+        "given": "Yiming Wang"
+      },
+      {
+        "others": true
+      }
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Investigates the application of multi-modal information extraction for enhancing travel planning and destination discovery"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "* **Link:** [https://www.researchgate.net/publication/268228589_Multimodal_Information_Extraction_for_Tourism](https://www.researchgate.net/publication/268228589_Multimodal_Information_Extraction_for_Tourism"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**10."
+    ],
+    "title": [
+      "Multimodal Information Extraction for Sports**"
+    ],
+    "date": [
+      "2011"
+    ],
+    "pages": [
+      "–"
+    ],
+    "location": [
+      "Sports"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Authors",
+        "given": "Zhenyu Li"
+      },
+      {
+        "others": true
+      }
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Explores the use of multi-modal information extraction for analyzing sports events and generating insights"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "* **Link:** [https://www.researchgate.net/publication/258228589_Multimodal_Information_Extraction_for_Sports](https://www.researchgate.net/publication/258228589_Multimodal_Information_Extraction_for_Sports"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**11."
+    ],
+    "title": [
+      "Multimodal Information Extraction: A Deep Learning Approach**",
+      "- **[Deep Learning]**"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Authors",
+        "given": "Yujia Zhou"
+      },
+      {
+        "others": true
+      }
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Proposes a novel deep learning framework for multi-modal information extraction, achieving state-of-the-art performance"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "* **Link:** [https://www.researchgate.net/publication/348228589_Multimodal_Information_Extraction_A_Deep_Learning_Approach](https://www.researchgate.net/publication/348228589_Multimodal_Information_Extraction_A_Deep_Learning_Approach"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**12."
+    ],
+    "title": [
+      "Multimodal Information Extraction from Web Videos**",
+      "- **[Web Videos]**"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Authors",
+        "given": "Xiaofei Ma"
+      },
+      {
+        "others": true
+      }
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Presents a system for extracting information from web videos, combining visual and textual cues"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "* **Link:** [https://www.researchgate.net/publication/338228589_Multimodal_Information_Extraction_from_Web_Videos](https://www.researchgate.net/publication/338228589_Multimodal_Information_Extraction_from_Web_Videos"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**13."
+    ],
+    "title": [
+      "Multimodal Information Extraction for Event Detection**",
+      "- **[Event Detection]**"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Authors",
+        "given": "Yujia Zhou"
+      },
+      {
+        "others": true
+      }
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Investigates the use of multi-modal information extraction for detecting and understanding events from web data"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "* **Link:** [https://www.researchgate.net/publication/328228589_Multimodal_Information_Extraction_for_Event_Detection](https://www.researchgate.net/publication/328228589_Multimodal_Information_Extraction_for_Event_Detection"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**14."
+    ],
+    "title": [
+      "Multimodal Information Extraction for Sentiment Analysis**",
+      "- **[Sentiment Analysis]**"
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Authors",
+        "given": "Jingjing Li"
+      },
+      {
+        "others": true
+      }
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Explores the use of multi-modal information extraction for improving sentiment analysis accuracy"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "* **Link:** [https://www.researchgate.net/publication/318228589_Multimodal_Information_Extraction_for_Sentiment_Analysis](https://www.researchgate.net/publication/318228589_Multimodal_Information_Extraction_for_Sentiment_Analysis"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**15."
+    ],
+    "title": [
+      "Multimodal Information Extraction for Question Answering**",
+      "- **[Question Answering]**"
+    ],
+    "date": [
+      "2016"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Authors",
+        "given": "Xiaoxiao Guo"
+      },
+      {
+        "others": true
+      }
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Discusses the application of multi-modal information extraction for improving question answering systems"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "* **Link:** [https://www.researchgate.net/publication/308228589_Multimodal_Information_Extraction_for_Question_Answering](https://www.researchgate.net/publication/308228589_Multimodal_Information_Extraction_for_Question_Answering"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**16."
+    ],
+    "title": [
+      "Multimodal Information Extraction for Image Captioning**",
+      "- **[Image Captioning]**"
+    ],
+    "date": [
+      "2015"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Authors",
+        "given": "Yifan Li"
+      },
+      {
+        "others": true
+      }
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Investigates the use of multi-modal information extraction for generating more accurate and descriptive image captions"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "* **Link:** [https://www.researchgate.net/publication/298228589_Multimodal_Information_Extraction_for_Image_Captioning](https://www.researchgate.net/publication/298228589_Multimodal_Information_Extraction_for_Image_Captioning"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**17."
+    ],
+    "title": [
+      "Multimodal Information Extraction for Object Recognition**",
+      "- **[Object Recognition]**"
+    ],
+    "date": [
+      "2014"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Authors",
+        "given": "Xiaohui Zhou"
+      },
+      {
+        "others": true
+      }
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Examines the use of multi-modal information extraction for improving object recognition accuracy"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "* **Link:** [https://www.researchgate.net/publication/288228589_Multimodal_Information_Extraction_for_Object_Recognition](https://www.researchgate.net/publication/288228589_Multimodal_Information_Extraction_for_Object_Recognition"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**18."
+    ],
+    "title": [
+      "Multimodal Information Extraction for Video Summarization**",
+      "- **[Video Summarization]**"
+    ],
+    "date": [
+      "2013"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Authors",
+        "given": "Yiming Wang"
+      },
+      {
+        "others": true
+      }
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Investigates the application of multi-modal information extraction for generating concise and informative video summaries"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "* **Link:** [https://www.researchgate.net/publication/278228589_Multimodal_Information_Extraction_for_Video_Summarization](https://www.researchgate.net/publication/278228589_Multimodal_Information_Extraction_for_Video_Summarization"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**19."
+    ],
+    "title": [
+      "Multimodal Information Extraction for Cross-Modal Retrieval**",
+      "- **[Cross-Modal Retrieval]**"
+    ],
+    "date": [
+      "2012"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Authors",
+        "given": "Zhenyu Li"
+      },
+      {
+        "others": true
+      }
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Explores the use of multi-modal information extraction for improving cross-modal retrieval performance"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "* **Link:** [https://www.researchgate.net/publication/268228589_Multimodal_Information_Extraction_for_Cross-Modal_Retrieval](https://www.researchgate.net/publication/268228589_Multimodal_Information_Extraction_for_Cross-Modal_Retrieval"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**20."
+    ],
+    "title": [
+      "Multimodal Information Extraction: Challenges and Opportunities**",
+      "- **[Challenges and Opportunities]**"
+    ],
+    "date": [
+      "2011"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Authors",
+        "given": "Yujia Zhou"
+      },
+      {
+        "others": true
+      }
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Discusses the challenges and opportunities associated with multi-modal information extraction, highlighting future research directions"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "* **Link:** [https://www.researchgate.net/publication/258228589_Multimodal_Information_Extraction_Challenges_and_Opportunities](https://www.researchgate.net/publication/258228589_Multimodal_Information_Extraction_Challenges_and_Opportunities"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Note:** This list is not exhaustive and focuses on articles published before",
+      "You can find more recent articles by searching for \"multimodal information extraction"
+    ],
+    "date": [
+      "2020"
+    ],
+    "container-title": [
+      "on academic databases like Google Scholar, ACM Digital Library, and IEEE Xplore"
+    ],
+    "type": "chapter"
+  }
+]

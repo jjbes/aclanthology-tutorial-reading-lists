@@ -1,1 +1,663 @@
-[{"authors": ["David Weiss,  Abhishek Kumar,  Alex Beutel,  Andrew Dai,  Jilin Chen,  Eduard Hovy,  William Yang Wang"], "title": "Minority Oversampling for Imbalanced Data Classification", "year": 2017}, {"authors": ["Xiaoxiao Guo,  Hugh Brendan McMahan,  Kevin Murphy,  Kurt Swersky,  Wang-Cheng Kang,  Yutian Chen,  Zohar S. Karnin,  Ion Stoica"], "title": "Communication-Efficient On-Device Learning for Personalized Recommendation", "year": 2019}, {"authors": ["Yujia Li,  Jingjing Li,  Sheng Gao,  Fei Wu,  Jie Tang"], "title": "Learning to Rank with Weak Supervision", "year": 2019}, {"authors": ["Yujia Li,  Jingjing Li,  Sheng Gao,  Fei Wu,  Jie Tang"], "title": "Learning to Rank with Weak Supervision", "year": 2019}, {"authors": ["Yujia Li,  Jingjing Li,  Sheng Gao,  Fei Wu,  Jie Tang"], "title": "Learning to Rank with Weak Supervision", "year": 2019}, {"authors": ["Yujia Li,  Jingjing Li,  Sheng Gao,  Fei Wu,  Jie Tang"], "title": "Learning to Rank with Weak Supervision", "year": 2019}, {"authors": ["Yujia Li,  Jingjing Li,  Sheng Gao,  Fei Wu,  Jie Tang"], "title": "Learning to Rank with Weak Supervision", "year": 2019}, {"authors": ["Yujia Li,  Jingjing Li,  Sheng Gao,  Fei Wu,  Jie Tang"], "title": "Learning to Rank with Weak Supervision", "year": 2019}, {"authors": ["Yujia Li,  Jingjing Li,  Sheng Gao,  Fei Wu,  Jie Tang"], "title": "Learning to Rank with Weak Supervision", "year": 2019}, {"authors": ["Yujia Li,  Jingjing Li,  Sheng Gao,  Fei Wu,  Jie Tang"], "title": "Learning to Rank with Weak Supervision", "year": 2019}, {"authors": ["Yujia Li,  Jingjing Li,  Sheng Gao,  Fei Wu,  Jie Tang"], "title": "Learning to Rank with Weak Supervision", "year": 2019}, {"authors": ["Yujia Li,  Jingjing Li,  Sheng Gao,  Fei Wu,  Jie Tang"], "title": "Learning to Rank with Weak Supervision", "year": 2019}, {"authors": ["Yujia Li,  Jingjing Li,  Sheng Gao,  Fei Wu,  Jie Tang"], "title": "Learning to Rank with Weak Supervision", "year": 2019}, {"authors": ["Yujia Li,  Jingjing Li,  Sheng Gao,  Fei Wu,  Jie Tang"], "title": "Learning to Rank with Weak Supervision", "year": 2019}, {"authors": ["Yujia Li,  Jingjing Li,  Sheng Gao,  Fei Wu,  Jie Tang"], "title": "Learning to Rank with Weak Supervision", "year": 2019}, {"authors": ["Yujia Li,  Jingjing Li,  Sheng Gao,  Fei Wu,  Jie Tang"], "title": "Learning to Rank with Weak Supervision", "year": 2019}, {"authors": ["Yujia Li,  Jingjing Li,  Sheng Gao,  Fei Wu,  Jie Tang"], "title": "Learning to Rank with Weak Supervision", "year": 2019}, {"authors": ["Yujia Li,  Jingjing Li,  Sheng Gao,  Fei Wu,  Jie Tang"], "title": "Learning to Rank with Weak Supervision", "year": 2019}, {"authors": ["Yujia Li,  Jingjing Li,  Sheng Gao,  Fei Wu,  Jie Tang"], "title": "Learning to Rank with Weak Supervision", "year": 2019}, {"authors": ["Yujia Li,  Jingjing Li,  Sheng Gao,  Fei Wu,  Jie Tang"], "title": "Learning to Rank with Weak Supervision", "year": 2019}]
+[
+  {
+    "container-title": [
+      "## Reading List: Indirect Supervision in ML & NLP"
+    ],
+    "type": "chapter"
+  },
+  {
+    "title": [
+      "This list focuses on articles published up to 2023 that explore indirect supervision in machine learning and natural language processing, particularly focusing on learning from incidental signals like partial labels, noisy labels, and cross-domain annotation"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**1."
+    ],
+    "title": [
+      "Weak Supervision: A New Frontier in Machine Learning**"
+    ],
+    "date": [
+      "2017"
+    ],
+    "note": [
+      "- [https://arxiv.org/abs/1705.03778](https://arxiv.org/abs/1705.03778"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Overview of weak supervision techniques, including partial labels, noisy labels, and distant supervision"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Key takeaway:** Weak supervision allows for training ML models with less labeled data, making it more accessible and efficient"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**2."
+    ],
+    "author": [
+      {
+        "family": "Noisy Labels",
+        "given": "Learning",
+        "particle": "with"
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "note": [
+      "- [https://arxiv.org/abs/1912.05909](https://arxiv.org/abs/1912.05909"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Comprehensive review of methods for learning from noisy labels, including robust loss functions and label correction techniques"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Key takeaway:** Strategies for mitigating the negative impact of noisy labels on model performance"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**3."
+    ],
+    "title": [
+      "Learning from Partial Labels**"
+    ],
+    "date": [
+      "2020"
+    ],
+    "note": [
+      "- [https://arxiv.org/abs/2003.01895](https://arxiv.org/abs/2003.01895"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Methods for training models with partial labels, where only a subset of labels is available for each instance"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Key takeaway:** Techniques for leveraging partial labels to improve model performance, particularly in scenarios with limited labeled data"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**4."
+    ],
+    "title": [
+      "Cross-Domain Adaptation for Natural Language Processing: A Survey**"
+    ],
+    "date": [
+      "2021"
+    ],
+    "note": [
+      "- [https://arxiv.org/abs/2103.08849](https://arxiv.org/abs/2103.08849"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Overview of cross-domain adaptation techniques for NLP, including methods for transferring knowledge from a source domain to a target domain"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Key takeaway:** Strategies for adapting NLP models to new domains with limited labeled data, leveraging knowledge from related domains"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**5."
+    ],
+    "title": [
+      "Learning from Noisy Labels with Deep Neural Networks: A Survey**"
+    ],
+    "date": [
+      "2021"
+    ],
+    "pages": [
+      "–"
+    ],
+    "note": [
+      "https://arxiv.org/abs/2107.01293](https://arxiv.org/abs/2107.01293"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Review of methods for learning from noisy labels in deep neural networks, including robust loss functions, label correction, and data augmentation"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Key takeaway:** Techniques for improving the robustness of deep learning models to noisy labels"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**6."
+    ],
+    "title": [
+      "Weak Supervision for Natural Language Processing**"
+    ],
+    "date": [
+      "2022"
+    ],
+    "note": [
+      "- [https://arxiv.org/abs/2201.08223](https://arxiv.org/abs/2201.08223"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Overview of weak supervision techniques for NLP, including distant supervision, crowdsourcing, and rule-based labeling"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Key takeaway:** Applications of weak supervision in NLP tasks like sentiment analysis, text classification, and information extraction"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**7."
+    ],
+    "title": [
+      "Learning with Partial Labels: A Survey**"
+    ],
+    "date": [
+      "2022"
+    ],
+    "note": [
+      "- [https://arxiv.org/abs/2203.01895](https://arxiv.org/abs/2203.01895"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Comprehensive review of methods for learning with partial labels, including label embedding, label propagation, and multi-label learning"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Key takeaway:** Strategies for effectively utilizing partial labels to improve model performance in various machine learning tasks"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**8."
+    ],
+    "title": [
+      "Deep Learning with Noisy Labels: A Survey**"
+    ],
+    "date": [
+      "2023"
+    ],
+    "note": [
+      "- [https://arxiv.org/abs/2301.00000](https://arxiv.org/abs/2301.00000"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Review of recent advances in deep learning with noisy labels, including robust training methods, label cleaning techniques, and theoretical analysis"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Key takeaway:** Emerging trends and challenges in learning from noisy labels in deep learning"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**9."
+    ],
+    "title": [
+      "Learning from Noisy Labels in Natural Language Processing**"
+    ],
+    "date": [
+      "2023"
+    ],
+    "note": [
+      "- [https://arxiv.org/abs/2303.00000](https://arxiv.org/abs/2303.00000"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Focus:** Specific challenges and solutions for learning from noisy labels in NLP tasks, including text classification, sentiment analysis, and machine translation"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Key takeaway:** Adaptation of noisy label learning techniques to the unique characteristics of NLP data"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**10."
+    ],
+    "title": [
+      "Weak Supervision for Text Classification: A Survey**"
+    ],
+    "date": [
+      "2023"
+    ],
+    "note": [
+      "- [https://arxiv.org/abs/2304.00000](https://arxiv.org/abs/2304.00000"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Overview of weak supervision techniques for text classification, including distant supervision, crowdsourcing, and rule-based labeling"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Key takeaway:** Applications of weak supervision in text classification tasks, including sentiment analysis, topic modeling, and spam detection"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**11."
+    ],
+    "title": [
+      "Learning from Partial Labels in Natural Language Processing**"
+    ],
+    "date": [
+      "2023"
+    ],
+    "note": [
+      "- [https://arxiv.org/abs/2305.00000](https://arxiv.org/abs/2305.00000"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Methods for learning from partial labels in NLP tasks, including text summarization, question answering, and dialogue systems"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Key takeaway:** Strategies for leveraging partial labels to improve model performance in NLP tasks with limited labeled data"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**12."
+    ],
+    "title": [
+      "Cross-Domain Adaptation for Text Classification**"
+    ],
+    "date": [
+      "2023"
+    ],
+    "note": [
+      "- [https://arxiv.org/abs/2306.00000](https://arxiv.org/abs/2306.00000"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Techniques for adapting text classification models to new domains with limited labeled data, leveraging knowledge from related domains"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Key takeaway:** Applications of cross-domain adaptation in text classification tasks, including sentiment analysis, topic modeling, and spam detection"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**13."
+    ],
+    "title": [
+      "Learning from Noisy Labels with Transformers**"
+    ],
+    "date": [
+      "2023"
+    ],
+    "note": [
+      "- [https://arxiv.org/abs/2307.00000](https://arxiv.org/abs/2307.00000"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Methods for learning from noisy labels in transformer-based models, including robust training methods, label cleaning techniques, and theoretical analysis"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Key takeaway:** Adaptation of noisy label learning techniques to the unique characteristics of transformer models"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**14."
+    ],
+    "title": [
+      "Weak Supervision for Machine Translation**"
+    ],
+    "date": [
+      "2023"
+    ],
+    "note": [
+      "- [https://arxiv.org/abs/2308.00000](https://arxiv.org/abs/2308.00000"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Applications of weak supervision in machine translation, including distant supervision, crowdsourcing, and rule-based labeling"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Key takeaway:** Strategies for improving machine translation performance with limited labeled data using weak supervision techniques"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**15."
+    ],
+    "title": [
+      "Learning from Partial Labels in Dialogue Systems**"
+    ],
+    "date": [
+      "2023"
+    ],
+    "note": [
+      "- [https://arxiv.org/abs/2309.00000](https://arxiv.org/abs/2309.00000"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Methods for learning from partial labels in dialogue systems, including dialogue act recognition, intent classification, and slot filling"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Key takeaway:** Strategies for leveraging partial labels to improve model performance in dialogue systems with limited labeled data"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**16."
+    ],
+    "title": [
+      "Cross-Domain Adaptation for Sentiment Analysis**"
+    ],
+    "date": [
+      "2023"
+    ],
+    "note": [
+      "- [https://arxiv.org/abs/2310.00000](https://arxiv.org/abs/2310.00000"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Techniques for adapting sentiment analysis models to new domains with limited labeled data, leveraging knowledge from related domains"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Key takeaway:** Applications of cross-domain adaptation in sentiment analysis tasks, including product reviews, social media posts, and news articles"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**17."
+    ],
+    "title": [
+      "Learning from Noisy Labels in Text Summarization**"
+    ],
+    "date": [
+      "2023"
+    ],
+    "note": [
+      "- [https://arxiv.org/abs/2311.00000](https://arxiv.org/abs/2311.00000"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Focus:** Challenges and solutions for learning from noisy labels in text summarization tasks, including extractive summarization and abstractive summarization"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Key takeaway:** Strategies for improving text summarization performance with limited labeled data using noisy label learning techniques"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**18."
+    ],
+    "title": [
+      "Weak Supervision for Question Answering**"
+    ],
+    "date": [
+      "2023"
+    ],
+    "note": [
+      "- [https://arxiv.org/abs/2312.00000](https://arxiv.org/abs/2312.00000"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Applications of weak supervision in question answering, including distant supervision, crowdsourcing, and rule-based labeling"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Key takeaway:** Strategies for improving question answering performance with limited labeled data using weak supervision techniques"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**19."
+    ],
+    "title": [
+      "Learning from Partial Labels in Image Classification**"
+    ],
+    "date": [
+      "2023"
+    ],
+    "note": [
+      "- [https://arxiv.org/abs/2301.00000](https://arxiv.org/abs/2301.00000"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Methods for learning from partial labels in image classification tasks, including image segmentation, object detection, and image retrieval"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Key takeaway:** Strategies for leveraging partial labels to improve model performance in image classification tasks with limited labeled data"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**20."
+    ],
+    "title": [
+      "Cross-Domain Adaptation for Image Recognition**"
+    ],
+    "date": [
+      "2023"
+    ],
+    "note": [
+      "- [https://arxiv.org/abs/2302.00000](https://arxiv.org/abs/2302.00000"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Techniques for adapting image recognition models to new domains with limited labeled data, leveraging knowledge from related domains"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Key takeaway:** Applications of cross-domain adaptation in image recognition tasks, including object detection, image classification, and image retrieval"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Note:** The specific article titles and links are placeholders. You can use the keywords and focus areas provided to search for relevant articles on platforms like arXiv, Google Scholar, and ACM Digital Library"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list provides a starting point for exploring the field of indirect supervision in ML and NLP. You can further refine your search by focusing on specific tasks, techniques, or applications within these areas"
+    ],
+    "type": null
+  }
+]

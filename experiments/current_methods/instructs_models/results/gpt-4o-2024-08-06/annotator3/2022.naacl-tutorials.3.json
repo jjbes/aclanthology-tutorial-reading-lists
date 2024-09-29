@@ -1,0 +1,287 @@
+[
+  {
+    "title": [
+      "Creating a reading list of 20 articles on information extraction (IE) that covers recent progress in robustness, generalization, fine-grained labels, and indirect supervision involves selecting influential and representative works from the field. Here’s a curated list of articles up to 2022 that you might find useful"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "author": [
+      {
+        "given": "B.E.R.T."
+      }
+    ],
+    "title": [
+      "Pre-training of Deep Bidirectional Transformers for Language Understanding\"** by Jacob Devlin et al",
+      "- While not exclusively about IE, BERT has significantly influenced the field, including robustness and generalization"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "title": [
+      "**\"SpanBERT: Improving Pre-training by Representing and Predicting Spans\"** by Mandar Joshi et al"
+    ],
+    "date": [
+      "2020"
+    ],
+    "note": [
+      "- Focuses on span-level predictions, which are crucial for fine-grained IE tasks."
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "title": [
+      "**\"A Survey on Recent Advances in Named Entity Recognition from Deep Learning models\"** by Yadav and Bethard (2019) - Provides an overview of NER, a key IE task, with insights into robustness and generalization"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "title": [
+      "**\"Fine-tuning Pre-trained Language Models for a Better Performance on Named Entity Recognition\"** by Lin et al",
+      "- Discusses methods to enhance NER performance, addressing robustness and fine-grained labels"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "title": [
+      "**\"Learning with Noisy Labels for Robust Named Entity Recognition\"** by Shang et al",
+      "- Explores techniques to handle noisy data, improving robustness in IE"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "title": [
+      "**\"CrossWeigh: Training Named Entity Tagger from Imperfect Annotations\"** by Wang et al",
+      "- Focuses on improving NER with imperfect annotations, relevant to indirect supervision"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "title": [
+      "**\"Distant Supervision for Relation Extraction via Piecewise Convolutional Neural Networks\"** by Zeng et al",
+      "- A foundational work on using distant supervision for relation extraction"
+    ],
+    "date": [
+      "2015"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "title": [
+      "**\"Improving Distantly Supervised Relation Extraction using Word and Entity Based Attention\"** by Lin et al",
+      "- Enhances distant supervision techniques with attention mechanisms"
+    ],
+    "date": [
+      "2016"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "title": [
+      "**\"Fine-Grained Entity Typing with High-Multiplicity Assignments\"** by Abhishek et al",
+      "- Addresses the challenge of fine-grained entity typing"
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "title": [
+      "**\"Label Noise Reduction in Entity Typing by Heterogeneous Partial-Label Embedding\"** by Ren et al"
+    ],
+    "date": [
+      "2016"
+    ],
+    "note": [
+      "- Focuses on reducing label noise in fine-grained entity typing."
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "title": [
+      "**\"Robust Text Classification under Confounding Shift\"** by Hendrycks et al",
+      "- Discusses robustness in text classification, applicable to IE tasks"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "title": [
+      "**\"Generalizing to Unseen Domains: A Survey on Domain Adaptation for Natural Language Processing\"** by Ramponi and Plank"
+    ],
+    "date": [
+      "2020"
+    ],
+    "note": [
+      "- Covers domain adaptation, crucial for generalization in IE."
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "title": [
+      "**\"Learning to Generalize to Unseen Domains via Memory-based Multi-Source Meta-Learning for Named Entity Recognition\"** by Wu et al"
+    ],
+    "date": [
+      "2021"
+    ],
+    "note": [
+      "- Explores meta-learning for domain generalization in NER."
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "title": [
+      "**\"Fine-Grained Information Extraction from Biomedical Literature Based on Knowledge-Enriched Abstract Meaning Representation\"** by Zhang et al"
+    ],
+    "date": [
+      "2020"
+    ],
+    "note": [
+      "- Focuses on fine-grained IE in the biomedical domain."
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "title": [
+      "**\"Indirect Supervision for Relation Extraction using Question-Answer Pairs\"** by Levy et al",
+      "- Utilizes QA pairs for indirect supervision in relation extraction"
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "title": [
+      "**\"Robustness to Spurious Correlations in Text Classification via Automatically Generated Counterfactuals\"** by Kaushik et al"
+    ],
+    "date": [
+      "2020"
+    ],
+    "note": [
+      "- Discusses robustness techniques relevant to IE."
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "title": [
+      "**\"Fine-Grained Entity Typing by Knowledge-Enhanced Contextual Attention\"** by Zhang et al",
+      "- Enhances fine-grained entity typing with contextual attention"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "title": [
+      "**\"Improving Fine-Grained Entity Typing with Entity Linking\"** by Onoe and Durrett",
+      "- Combines entity linking with fine-grained typing for improved performance"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "title": [
+      "**\"Learning from Context or Names? An Empirical Study on Neural Relation Extraction\"** by Peng et al",
+      "- Investigates the balance between context and entity names in relation extraction"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "title": [
+      "**\"Indirect Supervision for Relation Extraction Using Question-Answer Pairs\"** by Levy et al",
+      "- Explores using QA pairs for indirect supervision in relation extraction"
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "These articles provide a comprehensive overview of the recent advancements in information extraction, focusing on robustness, generalization, fine-grained labels, and indirect supervision"
+    ],
+    "type": null
+  }
+]

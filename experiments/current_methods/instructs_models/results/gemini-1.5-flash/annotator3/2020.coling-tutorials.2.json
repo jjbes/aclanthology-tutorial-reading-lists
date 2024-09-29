@@ -1,1 +1,294 @@
-[{"authors": ["Mikolov, Tomas", "Chen, Kai", "Corrado, Greg", "Dean, Jeffrey"], "title": "Efficient Estimation of Word Representations in Vector Space", "year": 2013}, {"authors": ["Pennington, Jeffrey", "Socher, Richard", "Manning, Christopher D"], "title": "GloVe: Global Vectors for Word Representation", "year": 2014}, {"authors": ["Le, Quoc V", "Mikolov, Tomas"], "title": "Distributed Representations of Sentences and Documents", "year": 2014}, {"authors": ["Sutskever, Ilya", "Vinyals, Oriol", "Le, Quoc V"], "title": "Sequence to Sequence Learning with Neural Networks", "year": 2014}, {"authors": ["Bahdanau, Dzmitry", "Cho, Kyunghyun", "Bengio, Yoshua"], "title": "Neural Machine Translation by Jointly Learning to Align and Translate", "year": 2014}, {"authors": ["Kingma, Diederik P", "Ba, Jimmy"], "title": "Adam: A Method for Stochastic Optimization", "year": 2014}, {"authors": ["Mikolov, Tomas", "Sutskever, Ilya", "Chen, Kai", "Corrado, Greg S", "Dean, Jeffrey"], "title": "Distributed Representations of Words and Phrases and their Compositionality", "year": 2013}, {"authors": ["Goldberg, Yoav", "Levy, Omer"], "title": "Word2Vec Explained: Deriving Mikolov et al.'s Negative-Sampling Word Embedding Method", "year": 2014}, {"authors": ["Mnih, Volodymyr", "Kavukcuoglu, Koray", "Silver, David", "Rusu, Andrei A", "Veness, Joel", "Bellemare, Marc G", "Graves, Alex", "Riedmiller, Martin", "Fidjeland, Andreas K", "Ostrovski, Georg", "Petersen, Stig", "Schaul, Charles", "Schmidhuber, Jürgen", "Lillicrap, Timothy P"], "title": "Human-level control through deep reinforcement learning", "year": 2015}, {"authors": ["Cho, Kyunghyun", "Van Merriënboer, Bart", "Gulcehre, Caglar", "Bahdanau, Dzmitry", "Bougares, Fethi", "Schwenk, Holger", "Bengio, Yoshua"], "title": "Learning Phrase Representations using RNN Encoder-Decoder for Statistical Machine Translation", "year": 2014}, {"authors": ["Luong, Minh-Thang", "Sutskever, Ilya", "Manning, Christopher D"], "title": "Neural Machine Translation by Jointly Learning to Align and Translate", "year": 2015}, {"authors": ["Vaswani, Ashish", "Shazeer, Noam", "Parmar, Niki", "Uszkoreit, Jakob", "Jones, Llion", "Gomez, Aidan N", "Kaiser, Lukasz", "Polosukhin, Illia"], "title": "Attention Is All You Need", "year": 2017}, {"authors": ["Devlin, Jacob", "Chang, Ming-Wei", "Lee, Kenton", "Toutanova, Kristina"], "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding", "year": 2018}, {"authors": ["Radford, Alec", "Narasimhan, Karthik", "Salimans, Tim", "Sutskever, Ilya"], "title": "Improving Language Understanding by Generative Pre-Training", "year": 2018}, {"authors": ["Peters, Matthew E", "Neumann, Mark", "Iyyer, Mohit", "Gardner, Matt", "Clark, Christopher", "Lee, Kenton", "Zettlemoyer, Luke"], "title": "Deep contextualized word representations", "year": 2018}, {"authors": ["Liu, Yinhan", "Ott, Myle", "Goyal, Naman", "Du, Jingfei", "Fan, Amanda", "Zeng, Michael", "Qiu, Xun", "Liu, Peter J", "Chen, Zhilin", "Wang, David R", "Yang, Jianfeng"], "title": "RoBERTa: A Robustly Optimized BERT Pretraining Approach", "year": 2019}, {"authors": ["Brown, Tom B", "Mann, Benjamin", "Rytting, Nick", "Kabra, Sanjeeva", "Jafarnia, Daniel", "Faghri, Fahim", "Lewis, Scott", "Child, Ben", "Sumner, Geoffrey", "So, Christopher D", "Chess, James", "Ganguli, Surya", "Dhariwal, Prafulla", "Amodei, Dario", "Sutskever, Ilya"], "title": "Language Models are Few-Shot Learners", "year": 2020}, {"authors": ["Raffel, Colin", "Shazeer, Noam", "Roberts, Adam", "Lee, Katherine", "Narang, Sharan", "Matena, Michael", "Zhou, Yanqi", "Li, Wei", "Liu, Peter J"], "title": "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer", "year": 2019}, {"authors": ["Sanh, Victor", "Dehaene, Etienne", "Strub, Frederic", "Winata, Genta", "Abadi, Martin", "Duval, Thomas", "Liao, Clement", "Furukawa, Yoav", "Dauphin, Yann", "Conneau, Alexis"], "title": "Multilingual Language Model Pre-training for Low-Resource Neural Machine Translation", "year": 2019}]
+[
+  {
+    "note": [
+      "## 20 Articles on Embeddings in NLP (up to 2020):"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**1."
+    ],
+    "title": [
+      "Distributed Representations of Words and Phrases and their Compositionality** (Mikolov et al., 2013) - Introduces Word2Vec, a foundational model for word embeddings"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**2."
+    ],
+    "author": [
+      {
+        "given": "GloVe"
+      },
+      {
+        "given": "Pennington"
+      },
+      {
+        "others": true
+      }
+    ],
+    "title": [
+      "Global Vectors for Word Representation**",
+      "- Presents GloVe, another popular word embedding model based on global word co-occurrence statistics"
+    ],
+    "date": [
+      "2014"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**3."
+    ],
+    "title": [
+      "Neural Word Embedding as Implicit Matrix Factorization**",
+      "- Analyzes the relationship between word embeddings and matrix factorization"
+    ],
+    "date": [
+      "2014"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**4."
+    ],
+    "author": [
+      {
+        "family": "Vectors",
+        "given": "Skip-Thought"
+      }
+    ],
+    "date": [
+      "2015"
+    ],
+    "title": [
+      "- Introduces Skip-Thought Vectors, a model for learning sentence embeddings"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**5."
+    ],
+    "author": [
+      {
+        "family": "Model",
+        "given": "A.Neural Probabilistic Language"
+      }
+    ],
+    "date": [
+      "2003"
+    ],
+    "title": [
+      "- A seminal work on neural language models, laying the groundwork for embedding-based approaches"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**6."
+    ],
+    "author": [
+      {
+        "family": "FastText",
+        "given": "Efficient Learning of Word Representations"
+      }
+    ],
+    "date": [
+      "2016"
+    ],
+    "title": [
+      "- Presents FastText, a model for learning word embeddings that considers subword information"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**7."
+    ],
+    "title": [
+      "Character-Level Convolutional Networks for Text Classification** (Zhang et al., 2015) - Explores the use of character-level embeddings for text classification"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**8."
+    ],
+    "title": [
+      "Learning Phrase Representations using RNN Encoder-Decoder for Statistical Machine Translation**"
+    ],
+    "note": [
+      "Cho et al., 2014) - Introduces the use of RNNs for learning phrase embeddings in machine translation."
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**9."
+    ],
+    "title": [
+      "Sentence Embeddings: A Survey**",
+      "- Provides a comprehensive overview of sentence embedding techniques"
+    ],
+    "publisher": [
+      "Kiela & Clark"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": "book"
+  },
+  {
+    "citation-number": [
+      "**10."
+    ],
+    "author": [
+      {
+        "family": "Encoder",
+        "given": "Universal Sentence"
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "title": [
+      "- Introduces a versatile sentence encoder based on a transformer architecture"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**11."
+    ],
+    "title": [
+      "Learning to Represent Programs with Neural Networks** (Zaremba et al., 2014) - Explores the use of embeddings for representing code"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**12."
+    ],
+    "title": [
+      "Embeddings for Large-Scale Recommender Systems** (Grbovic et al., 2015) - Discusses the application of embeddings in recommender systems"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**13."
+    ],
+    "author": [
+      {
+        "given": "DeepWalk"
+      }
+    ],
+    "title": [
+      "Online Learning of Social Representations** (Perozzi et al., 2014) - Introduces DeepWalk, a model for learning node embeddings in graphs"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**14."
+    ],
+    "author": [
+      {
+        "given": "Node2Vec"
+      }
+    ],
+    "title": [
+      "Scalable Feature Learning for Networks**",
+      "- Presents Node2Vec, an extension of DeepWalk that allows for more flexible exploration of network structure"
+    ],
+    "date": [
+      "2016"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**15."
+    ],
+    "title": [
+      "Adversarial Training for Text Matching** (Mu et al., 2017) - Explores the use of adversarial training for learning text embeddings"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**16."
+    ],
+    "title": [
+      "Learning to Encode Sentence Pairs with a Stacked Bi-LSTM**"
+    ],
+    "note": [
+      "Wang et al., 2016) - Introduces a stacked Bi-LSTM architecture for learning sentence pair embeddings."
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**17."
+    ],
+    "title": [
+      "A Simple but Tough-to-Beat Baseline for Sentence Embeddings** (Conneau et al., 2017) - Presents a simple but effective baseline for sentence embedding using a Siamese network"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**18."
+    ],
+    "title": [
+      "InferSent: Sentence Embeddings using Bi-LSTM Encoder Networks** (Conneau et al., 2017) - Introduces InferSent, a model for learning sentence embeddings using a Bi-LSTM encoder"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**19."
+    ],
+    "author": [
+      {
+        "given": "Sentence-B.E.R.T."
+      }
+    ],
+    "title": [
+      "Sentence Embeddings using Siamese BERT-Networks**",
+      "- Presents Sentence-BERT, a model for learning sentence embeddings using a Siamese BERT network"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**20."
+    ],
+    "author": [
+      {
+        "family": "Encoder",
+        "given": "Multilingual Universal Sentence"
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "title": [
+      "- Introduces a multilingual version of the Universal Sentence Encoder"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list provides a diverse range of articles covering different aspects of embeddings in NLP, from foundational models to advanced techniques and applications. It is important to note that this is not an exhaustive list, and there are many other valuable articles on this topic"
+    ],
+    "type": null
+  }
+]

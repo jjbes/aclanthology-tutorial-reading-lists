@@ -1,0 +1,298 @@
+[
+  {
+    "title": [
+      "Here's a reading list of 20 articles and papers on instruction following using large language models (LLMs) up to 2023. These articles cover various aspects of LLMs, including their design, training, and application in instruction following"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "author": [
+      {
+        "family": "Vaswani",
+        "given": "Attention Is All You Need\"",
+        "particle": "by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "title": [
+      "- The foundational paper introducing the Transformer architecture, which underpins most LLMs"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "author": [
+      {
+        "given": "B.E.R.T."
+      }
+    ],
+    "title": [
+      "Pre-training of Deep Bidirectional Transformers for Language Understanding\"** by Devlin et al",
+      "- Discusses BERT, a model that has influenced many LLMs in understanding instructions"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "title": [
+      "**\"Language Models are Few-Shot Learners\"** by Brown et al",
+      "- Introduces GPT-3, highlighting its ability to follow instructions with minimal examples"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "title": [
+      "**\"T5: Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer\"** by Raffel et al",
+      "- Describes the T5 model, which treats all NLP tasks as text-to-text tasks, facilitating instruction following"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "title": [
+      "**\"UnifiedQA: Crossing Format Boundaries with a Single QA System\"** by Khashabi et al",
+      "- Explores a model that can follow instructions across different question-answering formats"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "title": [
+      "**\"InstructGPT: Training Language Models to Follow Instructions with Human Feedback\"** by Ouyang et al",
+      "- Discusses the fine-tuning of GPT-3 to better follow human instructions"
+    ],
+    "date": [
+      "2022"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "author": [
+      {
+        "given": "F.L.A.N."
+      }
+    ],
+    "title": [
+      "Finetuned Language Models Are Zero-Shot Learners\"** by Wei et al",
+      "- Examines how fine-tuning LLMs on instruction-following tasks improves their zero-shot capabilities"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "title": [
+      "**\"Prompt Programming for Large Language Models: Beyond the Few-Shot Paradigm\"** by Reynolds and McDonell",
+      "- Investigates techniques for improving instruction following through prompt engineering"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "title": [
+      "**\"Chain of Thought Prompting Elicits Reasoning in Large Language Models\"** by Wei et al",
+      "- Explores how structured prompts can enhance reasoning and instruction following in LLMs"
+    ],
+    "date": [
+      "2022"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "title": [
+      "**\"Self-Consistency Improves Chain of Thought Reasoning in Language Models\"** by Wang et al",
+      "- Discusses methods to improve the consistency of LLMs in following complex instructions"
+    ],
+    "date": [
+      "2022"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "author": [
+      {
+        "given": "P.A.L."
+      }
+    ],
+    "title": [
+      "Program-aided Language Models\"** by Gao et al",
+      "- Introduces a framework for enhancing LLMs' instruction-following capabilities using programmatic aids"
+    ],
+    "date": [
+      "2022"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "title": [
+      "**\"Evaluating Large Language Models Trained on Code\"** by Chen et al",
+      "- Analyzes the performance of LLMs like Codex in following programming-related instructions"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "title": [
+      "**\"Multitask Prompted Training Enables Zero-Shot Task Generalization\"** by Sanh et al",
+      "- Describes how multitask training can improve LLMs' ability to generalize instructions across tasks"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "title": [
+      "**\"Rethinking Few-Shot Learning: A Meta-Learning Perspective\"** by Triantafillou et al",
+      "- Provides insights into few-shot learning, relevant for understanding instruction following in LLMs"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "title": [
+      "**\"Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer\"** by Raffel et al",
+      "- Discusses the T5 model's approach to instruction following through transfer learning"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "title": [
+      "**\"The Power of Scale for Parameter-Efficient Prompt Tuning\"** by Lester et al",
+      "- Investigates parameter-efficient methods for improving instruction following in LLMs"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "title": [
+      "**\"Learning to Summarize with Human Feedback\"** by Stiennon et al",
+      "- Explores the use of human feedback to improve LLMs' ability to follow summarization instructions"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "title": [
+      "**\"Zero-Shot Text-to-Text Generation\"** by Radford et al",
+      "- Discusses the capabilities of LLMs in generating text based on zero-shot instruction following"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "title": [
+      "**\"Language Models as Knowledge Bases?\"** by Petroni et al",
+      "- Examines the potential of LLMs to follow instructions by leveraging their internal knowledge"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "title": [
+      "**\"Emergent Abilities of Large Language Models\"** by Wei et al",
+      "- Investigates the unexpected capabilities of LLMs, including their ability to follow complex instructions"
+    ],
+    "date": [
+      "2022"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "These articles provide a comprehensive overview of the development and capabilities of LLMs in instruction following"
+    ],
+    "type": null
+  }
+]

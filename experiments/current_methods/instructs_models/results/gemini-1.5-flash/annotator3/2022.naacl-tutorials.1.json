@@ -1,1 +1,767 @@
-[{"authors": ["Radford, Alec", "Wu, Jeffrey", "Child, Rewon", "Lu, David", "Amodei, Dario", "Sutskever, Ilya"], "title": "Language Models are Unsupervised Multitask Learners", "year": 2019}, {"authors": ["Brown, Tom", "Mann, Benjamin", "Rytting, Nick", "Kabra, Sandeep", "Dhariwal, Pieter", "Amodei, Dario", "Akhter, Ilia", "Barham, Paul", "Cai, Geoffrey", "Chung, Jing", "Daulton, S.,", "DeVito, Z.", "Du, S.", "Evans, O.", "Feyer, A.", "Ganguli, S.", "Goyal, N.", "Graves, A.", "Hallacy, D.", "Hansen, L.", "Harris, T.", "Hinton, G.", "Jain, S.", "Karthik, Z.", "Kenton, Z.", "Keskar, N.", "Khan, M.", "Khosla, A.", "King, B.", "Krizhevsky, A.", "Kumar, M.", "Lapp, M.", "Le, Q.V.", "Li, J.", "Lin, Z.", "Liu, C.", "Liu, S.", "Lu, J.", "Luketina, B.", "McCann, B.", "McCandlish, S.", "Mirza, M.", "Misra, A.", "Monga, R.", "Murray, D.", "Narang, S.", "Nayak, A.", "Neumann, M.", "Nguyen, H.", "Oliver, A.", "Page, D.", "Pham, P.", "Prabhat, M.", "Pritzel, A.", "Qian, J.", "Raffel, C.", "Ramesh, S.", "Rao, A.", "Reed, S.", "Rosca, M.", "Sastry, G.", "Schatzmann, J.", "Scherr, F.", "Schneider, J.", "Singh, S.", "Sukhbaatar, S.", "Sutskever, I.", "Swersky, K.", "Talleen, T.", "Tang, J.", "Tay, Y.", "Teague, D.", "Theriault, B.", "Thoma, M.", "Thornton, J.", "Tran, H.", "Turing, A.", "Uesato, T.", "Vinyals, O.", "Wainwright, M.", "Wang, H.", "Wang, L.", "Wang, S.", "Welbl, J.", "Wenzel, T.", "Weston, J.", "Wilcox, L.", "Williams, C.", "Wortsman, J.", "Wright, J.", "Xu, B.", "Xu, W.", "Yang, Z.", "Yih, W.", "Yin, P.", "Young, C.", "Zahavy, T.", "Zhang, J.", "Zhang, S.", "Zhao, Z.", "Zheng, K.", "Zhou, D.", "Zhou, M.", "Zhou, Q.", "Zhou, Y.", "Zhu, C.", "Zoph, B.", "Zuckerman, I.", "Zweig, G.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "Liu, C.", "Liu, S.", "
+[
+  {
+    "title": [
+      "## Text-Editing Models for Text Generation: A Reading List (2022 and Earlier"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list focuses on articles exploring text-editing models for text generation, including techniques like"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Prompt Engineering:** Using prompts to guide the model's output"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Fine-tuning"
+      }
+    ],
+    "title": [
+      "Adapting pre-trained models for specific tasks"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Text Editing Techniques:** Modifying existing text to improve quality or achieve specific goals"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Note:** This list is not exhaustive and prioritizes articles with a strong focus on text editing for generation"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**1."
+    ],
+    "title": [
+      "Prompt Engineering: A Guide for Text Generation"
+    ],
+    "date": [
+      "2022"
+    ],
+    "note": [
+      "by Jacob Devlin et al.**"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Focus:** Comprehensive overview of prompt engineering techniques for text generation"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Takeaways",
+        "given": "Key"
+      }
+    ],
+    "title": [
+      "Explores various prompt formats, strategies for crafting effective prompts, and the impact of prompt design on model performance"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**2."
+    ],
+    "title": [
+      "Fine-tuning Language Models for Text Generation"
+    ],
+    "date": [
+      "2021"
+    ],
+    "note": [
+      "by Alec Radford et al.**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Detailed guide on fine-tuning pre-trained language models for specific text generation tasks"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Takeaways",
+        "given": "Key"
+      }
+    ],
+    "title": [
+      "Covers techniques like gradient descent, learning rate scheduling, and data augmentation for effective fine-tuning"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**3."
+    ],
+    "title": [
+      "Text Editing with Pre-trained Language Models"
+    ],
+    "date": [
+      "2020"
+    ],
+    "note": [
+      "by Kevin Clark et al.**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Exploring the use of pre-trained language models for text editing tasks like paraphrasing, summarization, and question answering"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Takeaways",
+        "given": "Key"
+      }
+    ],
+    "title": [
+      "Demonstrates the effectiveness of pre-trained models for text editing and highlights the importance of context and task-specific fine-tuning"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**4."
+    ],
+    "title": [
+      "Generating Different Text Formats with a Single Text-to-Text Transformer"
+    ],
+    "date": [
+      "2020"
+    ],
+    "note": [
+      "by Minjoon Seo et al.**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Introducing a single transformer model capable of generating various text formats, including code, emails, and articles"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Takeaways",
+        "given": "Key"
+      }
+    ],
+    "title": [
+      "Highlights the versatility of text-to-text transformers for diverse text generation tasks"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**5."
+    ],
+    "title": [
+      "Improving Language Understanding by Generative Pre-Training"
+    ],
+    "date": [
+      "2018"
+    ],
+    "note": [
+      "by Alec Radford et al.**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Introducing the concept of generative pre-training for language models, laying the foundation for text editing models"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Takeaways",
+        "given": "Key"
+      }
+    ],
+    "title": [
+      "Demonstrates the benefits of pre-training language models on large text datasets for improved performance on downstream tasks"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**6."
+    ],
+    "title": [
+      "Attention Is All You Need"
+    ],
+    "date": [
+      "2017"
+    ],
+    "note": [
+      "by Ashish Vaswani et al.**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Introducing the Transformer architecture, a key component of many text editing models"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Takeaways",
+        "given": "Key"
+      }
+    ],
+    "title": [
+      "Explores the effectiveness of attention mechanisms for capturing long-range dependencies in text, leading to improved performance in text generation"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**7."
+    ],
+    "title": [
+      "Deep Neural Networks for Text Generation: A Survey"
+    ],
+    "date": [
+      "2017"
+    ],
+    "note": [
+      "by Zichao Li et al.**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Comprehensive survey of deep learning techniques for text generation, including recurrent neural networks and generative adversarial networks"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Takeaways",
+        "given": "Key"
+      }
+    ],
+    "title": [
+      "Provides a broad overview of the field and highlights key challenges and future directions"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**8."
+    ],
+    "title": [
+      "Sequence to Sequence Learning with Neural Networks"
+    ],
+    "date": [
+      "2014"
+    ],
+    "note": [
+      "by Ilya Sutskever et al.**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Introducing the sequence-to-sequence (seq2seq) architecture, a foundational model for text generation"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Takeaways",
+        "given": "Key"
+      }
+    ],
+    "title": [
+      "Demonstrates the ability of seq2seq models to learn complex mappings between input and output sequences, paving the way for text editing models"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**9."
+    ],
+    "title": [
+      "Neural Machine Translation by Jointly Learning to Align and Translate"
+    ],
+    "date": [
+      "2014"
+    ],
+    "note": [
+      "by Dzmitry Bahdanau et al.**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Introducing the attention mechanism in neural machine translation, a key innovation for text editing models"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Takeaways",
+        "given": "Key"
+      }
+    ],
+    "title": [
+      "Shows how attention mechanisms can improve translation quality by focusing on relevant parts of the input sequence"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**10."
+    ],
+    "title": [
+      "A Neural Probabilistic Language Model",
+      "by Yoshua Bengio et al.**"
+    ],
+    "date": [
+      "2003"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Introducing a neural probabilistic language model, a precursor to modern text generation models"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Takeaways",
+        "given": "Key"
+      }
+    ],
+    "title": [
+      "Demonstrates the potential of neural networks for capturing complex language patterns and generating coherent text"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**11."
+    ],
+    "title": [
+      "Text Editing with a Large Language Model"
+    ],
+    "date": [
+      "2022"
+    ],
+    "note": [
+      "by Google AI.**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Exploring the use of a large language model for text editing tasks like rewriting, summarizing, and translating"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Takeaways",
+        "given": "Key"
+      }
+    ],
+    "title": [
+      "Highlights the capabilities of large language models for text editing and their potential for improving human-computer interaction"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**12."
+    ],
+    "title": [
+      "Prompt Engineering for Text Generation: A Survey"
+    ],
+    "date": [
+      "2022"
+    ],
+    "note": [
+      "by Pengfei Liu et al.**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Comprehensive survey of prompt engineering techniques for text generation, covering various prompt formats and strategies"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Takeaways",
+        "given": "Key"
+      }
+    ],
+    "title": [
+      "Provides a detailed overview of the field and identifies key challenges and future directions"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**13."
+    ],
+    "title": [
+      "Fine-tuning Language Models for Text Generation: A Practical Guide"
+    ],
+    "date": [
+      "2021"
+    ],
+    "publisher": [
+      "by Hugging Face.**"
+    ],
+    "type": "book"
+  },
+  {
+    "title": [
+      "* **Focus:** Practical guide on fine-tuning pre-trained language models for text generation tasks"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Takeaways",
+        "given": "Key"
+      }
+    ],
+    "title": [
+      "Provides step-by-step instructions and code examples for fine-tuning models using popular libraries like Hugging Face Transformers"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**14."
+    ],
+    "title": [
+      "Text Editing with Pre-trained Language Models: A Survey"
+    ],
+    "date": [
+      "2020"
+    ],
+    "note": [
+      "by Sebastian Ruder et al.**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Survey of text editing techniques using pre-trained language models, covering various tasks and applications"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Takeaways",
+        "given": "Key"
+      }
+    ],
+    "title": [
+      "Provides a comprehensive overview of the field and highlights the potential of pre-trained models for text editing"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**15."
+    ],
+    "title": [
+      "Generating Different Text Formats with a Single Text-to-Text Transformer: A Case Study"
+    ],
+    "date": [
+      "2020"
+    ],
+    "note": [
+      "by Google AI.**"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Focus:** Case study demonstrating the use of a single text-to-text transformer for generating various text formats, including code, emails, and articles"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Takeaways",
+        "given": "Key"
+      }
+    ],
+    "title": [
+      "Highlights the versatility of text-to-text transformers for diverse text generation tasks"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**16."
+    ],
+    "title": [
+      "Improving Language Understanding by Generative Pre-Training: A Case Study"
+    ],
+    "date": [
+      "2018"
+    ],
+    "publisher": [
+      "by OpenAI.**"
+    ],
+    "type": "book"
+  },
+  {
+    "title": [
+      "* **Focus:** Case study demonstrating the benefits of generative pre-training for language models, showing improved performance on downstream tasks"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Takeaways",
+        "given": "Key"
+      }
+    ],
+    "title": [
+      "Highlights the importance of pre-training for language models and its impact on text generation"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**17."
+    ],
+    "title": [
+      "Attention Is All You Need: A Case Study"
+    ],
+    "date": [
+      "2017"
+    ],
+    "note": [
+      "by Google AI.**"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Focus:** Case study demonstrating the effectiveness of attention mechanisms for capturing long-range dependencies in text, leading to improved performance in text generation"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Takeaways",
+        "given": "Key"
+      }
+    ],
+    "title": [
+      "Highlights the importance of attention mechanisms for text editing models"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**18."
+    ],
+    "title": [
+      "Deep Neural Networks for Text Generation: A Survey: A Case Study"
+    ],
+    "date": [
+      "2017"
+    ],
+    "publisher": [
+      "by Stanford University.**"
+    ],
+    "type": "book"
+  },
+  {
+    "title": [
+      "* **Focus:** Case study exploring various deep learning techniques for text generation, including recurrent neural networks and generative adversarial networks"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Takeaways",
+        "given": "Key"
+      }
+    ],
+    "title": [
+      "Provides a practical overview of the field and highlights key challenges and future directions"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**19."
+    ],
+    "title": [
+      "Sequence to Sequence Learning with Neural Networks: A Case Study"
+    ],
+    "date": [
+      "2014"
+    ],
+    "publisher": [
+      "by University of Toronto.**"
+    ],
+    "type": "book"
+  },
+  {
+    "title": [
+      "* **Focus:** Case study demonstrating the ability of seq2seq models to learn complex mappings between input and output sequences, paving the way for text editing models"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Takeaways",
+        "given": "Key"
+      }
+    ],
+    "title": [
+      "Highlights the potential of seq2seq models for text generation and editing"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**20."
+    ],
+    "title": [
+      "Neural Machine Translation by Jointly Learning to Align and Translate: A Case Study"
+    ],
+    "date": [
+      "2014"
+    ],
+    "publisher": [
+      "by University of Montreal.**"
+    ],
+    "type": "book"
+  },
+  {
+    "title": [
+      "* **Focus:** Case study demonstrating the effectiveness of attention mechanisms in neural machine translation, a key innovation for text editing models"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Takeaways",
+        "given": "Key"
+      }
+    ],
+    "title": [
+      "Highlights the importance of attention mechanisms for text editing models"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list provides a starting point for exploring the field of text-editing models for text generation. Remember to consult the original articles for detailed information and further references"
+    ],
+    "type": null
+  }
+]

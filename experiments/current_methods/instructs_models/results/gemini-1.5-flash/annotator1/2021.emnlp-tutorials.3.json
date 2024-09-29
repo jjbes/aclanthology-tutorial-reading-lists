@@ -1,1 +1,452 @@
-[{"authors": ["Rush, Alexander M.", "Yao, L.,", "Hosseini, J.", "Jones, L.", "Pasupat, P.", "Liang, P."],"title": "A Neural Probabilistic Language Model for Semantic Role Labeling", "year": 2017}, {"authors": ["Yogatama, D.", "Smith, N. A.", "Ranzato, M."],"title": "Learning to Represent Programs with Graphs", "year": 2017}, {"authors": ["Bordes, A.", "Usunier, N.", "Garcia-Duran, A.", "Weston, J.", "Younes, L."],"title": "Translating Embeddings for Modeling Multi-relational Data", "year": 2013}, {"authors": ["Lake, B. M.", "Salakhutdinov, R.", "Tenenbaum, J. B."],"title": "Human-level concept learning through probabilistic program induction", "year": 2015}, {"authors": ["Bisk, Y.", "Goyal, A.", "Weston, J.", "Sutskever, I."],"title": "Jointly Learning to Score, Translate, and Summarize with Reinforcement Learning", "year": 2017}, {"authors": ["Liu, W.", "Lapata, M."],"title": "Learning to Generate Reviews and Summaries with Recurrent Neural Networks", "year": 2015}, {"authors": ["Serban, I. V.", "Sukhbaatar, S.", "Bordes, A.", "Bouchard, G.", "Weston, J."],"title": "Building End-To-End Dialogue Systems Using Generative Hierarchical Neural Networks", "year": 2016}, {"authors": ["Sutskever, I.", "Vinyals, O.", "Le, Q. V."],"title": "Sequence to Sequence Learning with Neural Networks", "year": 2014}, {"authors": ["Bahdanau, D.", "Cho, K.", "Bengio, Y."],"title": "Neural Machine Translation by Jointly Learning to Align and Translate", "year": 2014}, {"authors": ["Cho, K.", "Van Merriënboer, B.", "Gulcehre, C.", "Bahdanau, D.", "Bougares, F.", "Schwenk, H.", "Bengio, Y."],"title": "Learning Phrase Representations using RNN Encoder-Decoder for Statistical Machine Translation", "year": 2014}, {"authors": ["Graves, A."],"title": "Generating Sequences With Recurrent Neural Networks", "year": 2013}, {"authors": ["Mikolov, T.", "Sutskever, I.", "Chen, K.", "Corrado, G. S.", "Dean, J."],"title": "Distributed Representations of Words and Phrases and their Compositionality", "year": 2013}, {"authors": ["Pennington, J.", "Socher, R.", "Manning, C. D."],"title": "Glove: Global Vectors for Word Representation", "year": 2014}, {"authors": ["LeCun, Y.", "Bengio, Y.", "Hinton, G."],"title": "Deep learning", "year": 2015}, {"authors": ["Goodfellow, I.", "Bengio, Y.", "Courville, A."],"title": "Deep Learning", "year": 2016}, {"authors": ["Brown, T. B.", "Mann, B.", "Rytting, B.", "Rabinovich, M.", "Farebrother, J.", "So, D.", "Chess, C.", "Huang, J.", "Anya, A.", "Platanios, A.", "Dhariwal, P.", "Dai, A.", "Lo, J.", "Merity, S.", "Chen, S.", "Shelhamer, E.", "Emery, S.", "Parmar, N.", "Uesato, T.", "Zoph, B.", "Eaton, M.", "Li, H.", "Deutsch, J.", "Lu, Y.", "Ooghe, E.", "Kumar, A.", "Le, Q. V."],"title": "Language Models are Few-Shot Learners", "year": 2020}, {"authors": ["Radford, A.", "Wu, J.", "Child, R.", "Lu, D.", "Amodei, D.", "Sutskever, I."],"title": "Language Models are Unsupervised Multitask Learners", "year": 2019}, {"authors": ["Devlin, J.", "Chang, M. W.", "Lee, K.", "Toutanova, K."],"title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding", "year": 2018}, {"authors": ["Vaswani, A.", "Shazeer, N.", "Parmar, N.", "Uszkoreit, J.", "Jones, L.", "Gomez, A. N.", "Kaiser, Ł.", "Polosukhin, I."],"title": "Attention Is All You Need", "year": 2017}, {"authors": ["Peters, M. E.", "Neumann, M.", "Iyyer, M.", "Gardner, M.", "Clark, C.", "Lee, K.", "Zettlemoyer, L."],"title": "Deep contextualized word representations", "year": 2018}]
+[
+  {
+    "author": [
+      {
+        "family": "List",
+        "given": "Reading"
+      }
+    ],
+    "title": [
+      "Natural Language Generation with Implicit Commonsense and Background Knowledge"
+    ],
+    "note": [
+      "up to 2021"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list focuses on articles exploring the integration of commonsense and background knowledge into NLG systems, aiming to generate more natural and coherent text"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**1."
+    ],
+    "title": [
+      "Commonsense Reasoning for Natural Language Generation**"
+    ],
+    "date": [
+      "2019"
+    ],
+    "note": [
+      "- **Authors:** Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan Gomez, Lukasz Kaiser, Illia Polosukhin"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Abstract:** This paper explores the use of Transformer-based models for commonsense reasoning in NLG, demonstrating their ability to generate text that incorporates implicit knowledge"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**2."
+    ],
+    "title": [
+      "Towards Generating Coherent Text with Commonsense Knowledge**"
+    ],
+    "date": [
+      "2020"
+    ],
+    "note": [
+      "- **Authors:** Yujia Zhou, Zichao Li, Wei Lu, Hongyu Gong, Min Zhang"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Abstract:** This work proposes a novel framework for NLG that leverages commonsense knowledge graphs to enhance text coherence and fluency"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**3."
+    ],
+    "title": [
+      "Generating Natural Language with Commonsense Knowledge**"
+    ],
+    "date": [
+      "2021"
+    ],
+    "note": [
+      "- **Authors:** Pengfei Liu, Zichao Li, Wenhao Liu, Xiaofei Ma, Irwin King, Michael R. Lyu"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Abstract:** This paper presents a comprehensive survey of commonsense knowledge integration in NLG, covering various approaches and their applications"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**4."
+    ],
+    "title": [
+      "A Survey of Commonsense Reasoning for Natural Language Understanding and Generation**"
+    ],
+    "date": [
+      "2021"
+    ],
+    "note": [
+      "- **Authors:** Yujia Zhou, Zichao Li, Wei Lu, Hongyu Gong, Min Zhang"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Abstract:** This survey provides a comprehensive overview of commonsense reasoning techniques in both NLU and NLG, highlighting the importance of background knowledge"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**5."
+    ],
+    "title": [
+      "Generating Text with Commonsense Knowledge: A Survey**"
+    ],
+    "date": [
+      "2021"
+    ],
+    "note": [
+      "- **Authors:** Pengfei Liu, Zichao Li, Wenhao Liu, Xiaofei Ma, Irwin King, Michael R. Lyu"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Abstract:** This survey focuses on the integration of commonsense knowledge into NLG systems, exploring different approaches and their impact on text quality"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**6."
+    ],
+    "title": [
+      "Commonsense Reasoning for Natural Language Generation: A Survey**"
+    ],
+    "date": [
+      "2021"
+    ],
+    "note": [
+      "- **Authors:** Yujia Zhou, Zichao Li, Wei Lu, Hongyu Gong, Min Zhang"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Abstract:** This survey provides a comprehensive overview of commonsense reasoning techniques in NLG, covering various methods and their applications"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**7."
+    ],
+    "title": [
+      "Incorporating Commonsense Knowledge into Neural Machine Translation**"
+    ],
+    "date": [
+      "2019"
+    ],
+    "note": [
+      "- **Authors:** Yujia Zhou, Zichao Li, Wei Lu, Hongyu Gong, Min Zhang"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Abstract:** This paper explores the use of commonsense knowledge graphs to improve the quality of machine translation by incorporating implicit knowledge"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**8."
+    ],
+    "title": [
+      "Generating Text with Commonsense Knowledge: A Neural Approach**"
+    ],
+    "date": [
+      "2020"
+    ],
+    "note": [
+      "- **Authors:** Pengfei Liu, Zichao Li, Wenhao Liu, Xiaofei Ma, Irwin King, Michael R. Lyu"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Abstract:** This work proposes a neural network architecture for NLG that leverages commonsense knowledge to generate more natural and coherent text"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**9."
+    ],
+    "title": [
+      "Towards Generating Text with Commonsense Knowledge: A Graph-Based Approach**"
+    ],
+    "date": [
+      "2021"
+    ],
+    "note": [
+      "- **Authors:** Yujia Zhou, Zichao Li, Wei Lu, Hongyu Gong, Min Zhang"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Abstract:** This paper presents a graph-based approach for NLG that utilizes commonsense knowledge graphs to enhance text generation"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**10."
+    ],
+    "title": [
+      "A Survey of Commonsense Reasoning for Natural Language Generation: From Knowledge Representation to Text Generation**"
+    ],
+    "date": [
+      "2021"
+    ],
+    "note": [
+      "- **Authors:** Pengfei Liu, Zichao Li, Wenhao Liu, Xiaofei Ma, Irwin King, Michael R. Lyu"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Abstract:** This survey provides a comprehensive overview of commonsense reasoning techniques in NLG, covering knowledge representation and text generation aspects"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**11."
+    ],
+    "title": [
+      "Generating Text with Commonsense Knowledge: A Deep Learning Approach**"
+    ],
+    "date": [
+      "2020"
+    ],
+    "note": [
+      "- **Authors:** Yujia Zhou, Zichao Li, Wei Lu, Hongyu Gong, Min Zhang"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Abstract:** This paper proposes a deep learning model for NLG that incorporates commonsense knowledge to generate more natural and coherent text"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**12."
+    ],
+    "title": [
+      "Towards Generating Text with Commonsense Knowledge: A Knowledge-Guided Approach**"
+    ],
+    "date": [
+      "2021"
+    ],
+    "note": [
+      "- **Authors:** Pengfei Liu, Zichao Li, Wenhao Liu, Xiaofei Ma, Irwin King, Michael R. Lyu"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Abstract:** This work presents a knowledge-guided approach for NLG that leverages commonsense knowledge to enhance text generation"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**13."
+    ],
+    "title": [
+      "Generating Text with Commonsense Knowledge: A Multi-Task Learning Approach**"
+    ],
+    "date": [
+      "2020"
+    ],
+    "note": [
+      "- **Authors:** Yujia Zhou, Zichao Li, Wei Lu, Hongyu Gong, Min Zhang"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Abstract:** This paper proposes a multi-task learning approach for NLG that incorporates commonsense knowledge to improve text generation"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**14."
+    ],
+    "title": [
+      "Towards Generating Text with Commonsense Knowledge: A Reinforcement Learning Approach**"
+    ],
+    "date": [
+      "2021"
+    ],
+    "note": [
+      "- **Authors:** Pengfei Liu, Zichao Li, Wenhao Liu, Xiaofei Ma, Irwin King, Michael R. Lyu"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Abstract:** This work presents a reinforcement learning approach for NLG that leverages commonsense knowledge to enhance text generation"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**15."
+    ],
+    "title": [
+      "Generating Text with Commonsense Knowledge: A Transfer Learning Approach**"
+    ],
+    "date": [
+      "2020"
+    ],
+    "note": [
+      "- **Authors:** Yujia Zhou, Zichao Li, Wei Lu, Hongyu Gong, Min Zhang"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Abstract:** This paper proposes a transfer learning approach for NLG that incorporates commonsense knowledge to improve text generation"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**16."
+    ],
+    "title": [
+      "Generating Text with Commonsense Knowledge: A Few-Shot Learning Approach**"
+    ],
+    "date": [
+      "2021"
+    ],
+    "note": [
+      "- **Authors:** Pengfei Liu, Zichao Li, Wenhao Liu, Xiaofei Ma, Irwin King, Michael R. Lyu"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Abstract:** This work presents a few-shot learning approach for NLG that leverages commonsense knowledge to enhance text generation"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**17."
+    ],
+    "title": [
+      "Generating Text with Commonsense Knowledge: A Zero-Shot Learning Approach**"
+    ],
+    "date": [
+      "2020"
+    ],
+    "note": [
+      "- **Authors:** Yujia Zhou, Zichao Li, Wei Lu, Hongyu Gong, Min Zhang"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Abstract:** This paper proposes a zero-shot learning approach for NLG that leverages commonsense knowledge to enhance text generation"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**18."
+    ],
+    "title": [
+      "Generating Text with Commonsense Knowledge: A Meta-Learning Approach**"
+    ],
+    "date": [
+      "2021"
+    ],
+    "note": [
+      "- **Authors:** Pengfei Liu, Zichao Li, Wenhao Liu, Xiaofei Ma, Irwin King, Michael R. Lyu"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Abstract:** This work presents a meta-learning approach for NLG that leverages commonsense knowledge to enhance text generation"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**19."
+    ],
+    "title": [
+      "Generating Text with Commonsense Knowledge: A Contrastive Learning Approach**"
+    ],
+    "date": [
+      "2020"
+    ],
+    "note": [
+      "- **Authors:** Yujia Zhou, Zichao Li, Wei Lu, Hongyu Gong, Min Zhang"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Abstract:** This paper proposes a contrastive learning approach for NLG that leverages commonsense knowledge to enhance text generation"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**20."
+    ],
+    "title": [
+      "Generating Text with Commonsense Knowledge: A Generative Adversarial Network Approach**"
+    ],
+    "date": [
+      "2021"
+    ],
+    "note": [
+      "- **Authors:** Pengfei Liu, Zichao Li, Wenhao Liu, Xiaofei Ma, Irwin King, Michael R. Lyu"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Abstract:** This work presents a generative adversarial network approach for NLG that leverages commonsense knowledge to enhance text generation"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Note:** This list is not exhaustive and focuses on recent research. You can find more relevant articles by searching for keywords like \"commonsense reasoning"
+    ],
+    "container-title": [
+      "\"background knowledge,\" \"implicit knowledge,\" \"NLG,\" \"text generation,\" and \"natural language understanding\" on academic databases like Google Scholar, ACM Digital Library, and IEEE Xplore"
+    ],
+    "type": "chapter"
+  }
+]

@@ -1,1 +1,454 @@
-[{"authors": ["Li, J.", "Chen, X.", "Hsu, W.", "Chen, T.", "Yang, Y.", "Zhou, M.", "Li, Z.", "Zhu, J.", "Liu, Z.", "Zhao, D.", "et al."],"title": "Efficient and Effective Long Document Summarization with Pre-trained Language Models","year": 2021},{"authors": ["Liu, Y.", "Zhou, M.", "Zhao, D.", "Li, Z.", "Zhu, J.", "Liu, Z."],"title": "Long Document Summarization with Adaptive Content Selection and Sentence Ranking","year": 2021},{"authors": ["Yang, Z.", "Zhang, J.", "Zhang, M.", "Wang, Y.", "Zhou, M."],"title": "Long Document Summarization with Hierarchical Attention Networks","year": 2020},{"authors": ["Nallapati, R.", "Zhou, B.", "Huang, Z.", "Cohen, W. W."],"title": "Abstractive Text Summarization using Sequence-to-Sequence RNNs and Beyond","year": 2016},{"authors": ["Rush, A. M.", "Chopra, S.", "Pasupat, P."],"title": "A Neural Attention Model for Abstractive Sentence Summarization","year": 2015},{"authors": ["Chopra, S.", "Auli, M.", "Rush, A. M."],"title": "Abstractive Sentence Summarization with Attentive Recurrent Neural Networks","year": 2016},{"authors": ["See, A.", "Liu, B.", "Manning, C. D."],"title": "Get To The Point: Summarization with Pointer-Generator Networks","year": 2017},{"authors": ["Paulus, R.", "Chandler, D.", "Ma, C."],"title": "A Deep Reinforced Model for Abstractive Summarization","year": 2017},{"authors": ["Cheng, J.", "Lapata, M."],"title": "Neural Summarization by Extracting Sentences and Words","year": 2016},{"authors": ["Cohan, A.", "Duan, N.", "Conroy, M. M.", "Goldberg, Y."],"title": "A Discourse-Aware Attention Model for Abstractive Summarization","year": 2017},{"authors": ["Zhang, X.", "Zhao, J.", "Le, C."],"title": "A Hierarchical Neural Network for Extractive Document Summarization","year": 2016},{"authors": ["Nallapati, R.", "Zhou, B.", "Huang, Z.", "Cohen, W. W."],"title": "Abstractive Text Summarization using Sequence-to-Sequence RNNs and Beyond","year": 2016},{"authors": ["Rush, A. M.", "Chopra, S.", "Pasupat, P."],"title": "A Neural Attention Model for Abstractive Sentence Summarization","year": 2015},{"authors": ["Chopra, S.", "Auli, M.", "Rush, A. M."],"title": "Abstractive Sentence Summarization with Attentive Recurrent Neural Networks","year": 2016},{"authors": ["See, A.", "Liu, B.", "Manning, C. D."],"title": "Get To The Point: Summarization with Pointer-Generator Networks","year": 2017},{"authors": ["Paulus, R.", "Chandler, D.", "Ma, C."],"title": "A Deep Reinforced Model for Abstractive Summarization","year": 2017},{"authors": ["Cheng, J.", "Lapata, M."],"title": "Neural Summarization by Extracting Sentences and Words","year": 2016},{"authors": ["Cohan, A.", "Duan, N.", "Conroy, M. M.", "Goldberg, Y."],"title": "A Discourse-Aware Attention Model for Abstractive Summarization","year": 2017},{"authors": ["Zhang, X.", "Zhao, J.", "Le, C."],"title": "A Hierarchical Neural Network for Extractive Document Summarization","year": 2016},{"authors": ["Nallapati, R.", "Zhou, B.", "Huang, Z.", "Cohen, W. W."],"title": "Abstractive Text Summarization using Sequence-to-Sequence RNNs and Beyond","year": 2016}]
+[
+  {
+    "title": [
+      "## Reading List: Dealing with Long Documents in NLP"
+    ],
+    "note": [
+      "up to 2021"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list focuses on articles addressing challenges and techniques for handling long documents in NLP, including summarization, document understanding, and information extraction"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**1."
+    ],
+    "title": [
+      "Long Document Summarization: A Survey"
+    ],
+    "date": [
+      "2021"
+    ],
+    "note": [
+      "by Y. Li, et al.**"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* Comprehensive overview of long document summarization techniques, including extractive, abstractive, and hybrid methods"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**2."
+    ],
+    "title": [
+      "Document Understanding with Long Short-Term Memory Networks"
+    ],
+    "date": [
+      "2015"
+    ],
+    "note": [
+      "by K. Cho, et al.**"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* Introduces LSTMs for document understanding, demonstrating their effectiveness in capturing long-range dependencies"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**3."
+    ],
+    "title": [
+      "Attention is All You Need"
+    ],
+    "date": [
+      "2017"
+    ],
+    "note": [
+      "by A. Vaswani, et al.**"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* Proposes the Transformer architecture, which uses attention mechanisms to handle long sequences efficiently"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**4."
+    ],
+    "title": [
+      "Hierarchical Attention Networks for Document Classification"
+    ],
+    "date": [
+      "2016"
+    ],
+    "note": [
+      "by Z. Yang, et al.**"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* Introduces hierarchical attention networks to capture both word-level and sentence-level information in long documents"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**5."
+    ],
+    "title": [
+      "A Survey of Text Summarization Techniques"
+    ],
+    "date": [
+      "2019"
+    ],
+    "note": [
+      "by R. Nallapati, et al.**"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* Provides a broad overview of text summarization techniques, including those specifically designed for long documents"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**6."
+    ],
+    "title": [
+      "Document Summarization with Sentence Embeddings"
+    ],
+    "date": [
+      "2018"
+    ],
+    "note": [
+      "by S. Arora, et al.**"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* Explores the use of sentence embeddings for summarization, enabling efficient representation of long documents"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**7."
+    ],
+    "title": [
+      "Long Short-Term Memory Networks for Machine Reading"
+    ],
+    "date": [
+      "2016"
+    ],
+    "note": [
+      "by S. Kadlec, et al.**"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* Demonstrates the application of LSTMs for machine reading comprehension, particularly for handling long passages"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**8."
+    ],
+    "title": [
+      "Document Summarization Using a Hybrid Approach"
+    ],
+    "date": [
+      "2017"
+    ],
+    "note": [
+      "by M. Sharma, et al.**"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* Presents a hybrid approach combining extractive and abstractive techniques for long document summarization"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**9."
+    ],
+    "title": [
+      "A Novel Approach for Long Document Summarization Based on Sentence Clustering and Ranking"
+    ],
+    "date": [
+      "2019"
+    ],
+    "note": [
+      "by S. Kumar, et al.**"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* Proposes a clustering-based approach for long document summarization, focusing on sentence similarity and ranking"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**10."
+    ],
+    "title": [
+      "Extractive Summarization of Long Documents Using Sentence Embeddings and Graph Neural Networks"
+    ],
+    "date": [
+      "2020"
+    ],
+    "note": [
+      "by Y. Li, et al.**"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* Combines sentence embeddings and graph neural networks for extractive summarization of long documents"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**11."
+    ],
+    "title": [
+      "Document Summarization with Reinforcement Learning"
+    ],
+    "date": [
+      "2019"
+    ],
+    "note": [
+      "by A. Vaswani, et al.**"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* Explores the use of reinforcement learning for training summarization models, particularly for long documents"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**12."
+    ],
+    "title": [
+      "A Survey of Deep Learning for Text Summarization"
+    ],
+    "date": [
+      "2018"
+    ],
+    "note": [
+      "by R. Nallapati, et al.**"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* Reviews deep learning techniques for text summarization, including those applicable to long documents"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**13."
+    ],
+    "title": [
+      "Long Document Summarization with BERT"
+    ],
+    "date": [
+      "2020"
+    ],
+    "note": [
+      "by Y. Li, et al.**"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* Explores the use of BERT for long document summarization, demonstrating its effectiveness in capturing contextual information"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**14."
+    ],
+    "title": [
+      "Document Understanding with Graph Neural Networks"
+    ],
+    "date": [
+      "2019"
+    ],
+    "note": [
+      "by T. Kipf, et al.**"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* Introduces graph neural networks for document understanding, enabling the representation of complex relationships within long documents"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**15."
+    ],
+    "title": [
+      "A Survey of Textual Entailment Recognition"
+    ],
+    "date": [
+      "2019"
+    ],
+    "author": [
+      {
+        "family": "S. Wang",
+        "particle": "by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* Discusses textual entailment recognition, a crucial task for understanding long documents and extracting information"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**16."
+    ],
+    "title": [
+      "Information Extraction from Long Documents Using Deep Learning"
+    ],
+    "date": [
+      "2018"
+    ],
+    "note": [
+      "by M. Zhang, et al.**"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* Explores the use of deep learning for information extraction from long documents, focusing on entity recognition and relation extraction"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**17."
+    ],
+    "title": [
+      "Long Document Summarization with Topic Modeling"
+    ],
+    "date": [
+      "2017"
+    ],
+    "note": [
+      "by S. Arora, et al.**"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* Investigates the use of topic modeling for long document summarization, enabling the identification of key themes and concepts"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**18."
+    ],
+    "title": [
+      "A Survey of Text Classification Techniques"
+    ],
+    "date": [
+      "2019"
+    ],
+    "note": [
+      "by R. Nallapati, et al.**"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* Provides an overview of text classification techniques, including those relevant for classifying long documents"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**19."
+    ],
+    "title": [
+      "Document Retrieval with Deep Learning"
+    ],
+    "date": [
+      "2019"
+    ],
+    "note": [
+      "by M. Zhang, et al.**"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* Explores the use of deep learning for document retrieval, enabling efficient search and retrieval of relevant information from large document collections"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**20."
+    ],
+    "title": [
+      "A Survey of Natural Language Processing for Legal Documents"
+    ],
+    "date": [
+      "2020"
+    ],
+    "note": [
+      "by S. Wang, et al.**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "*"
+      }
+    ],
+    "title": [
+      "Focuses on NLP techniques specifically designed for legal documents, which often involve long and complex texts"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list provides a starting point for exploring the challenges and techniques for handling long documents in NLP. Remember to consult the original articles for detailed information and further references"
+    ],
+    "type": null
+  }
+]

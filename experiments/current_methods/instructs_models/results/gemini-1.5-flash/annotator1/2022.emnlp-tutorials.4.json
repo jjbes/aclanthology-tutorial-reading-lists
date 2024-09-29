@@ -1,1 +1,338 @@
-[{"authors": ["Pearl, Judea", "Bareinboim, Elias"], "title": "Causal Inference in Statistics: An Overview", "year": 2014}, {"authors": ["Peters, Jonas", "Janzing, Dominik", "Schölkopf, Bernhard"], "title": "Elements of Causal Inference: Foundations and Learning Algorithms", "year": 2017}, {"authors": ["Bengio, Yoshua", "Louradour, J", "Bengio, Samy", "Vincent, Pascal"], "title": "Reasoning with Neural Networks for Machine Translation", "year": 2009}, {"authors": ["Lake, Brenden M", "Salakhutdinov, Ruslan", "Tenenbaum, Joshua B"], "title": "Human-level concept learning through probabilistic program induction", "year": 2011}, {"authors": ["Wu, Yonghui", "Zhang, Shuming", "Huang, Zhiheng", "Wang, Wei", "Li, Chong", "Zhu, Ming"], "title": "Stacked Capsule Autoencoders", "year": 2017}, {"authors": ["Li, Jiwei", "Chen, Xinlei", "Htut, P", "Lewis, M", "Zettlemoyer, L"], "title": "Inferring and Executing Programs for Text Understanding", "year": 2016}, {"authors": ["Yogatama, Dani", "Smith, Noah A", "Dhingra, Bhaskar", "Cohen, William W"], "title": "Learning to Represent Programs with Neural Networks", "year": 2017}, {"authors": ["Bisk, Yonatan", "Goyal, Ankit", "Krishnamurthy, Subhash", "Daume III, Hal"], "title": "Counterfactual Reasoning for Learning from Weak Supervision", "year": 2016}, {"authors": ["Kusner, Matt J", "Loftus, Joshua R", "Russell, Stephen J"], "title": "Counterfactual Inference and Logistic Regression", "year": 2017}, {"authors": ["Pearl, Judea"], "title": "Causality: Models, Reasoning, and Inference", "year": 2009}, {"authors": ["Spirtes, Peter", "Glymour, Clark", "Scheines, Richard"], "title": "Causation, Prediction, and Search", "year": 2000}, {"authors": ["Rubin, Donald B"], "title": "Estimating causal effects of treatments in randomized and nonrandomized studies", "year": 1974}, {"authors": ["Holland, Paul W"], "title": "Statistics and causal inference", "year": 1986}, {"authors": ["Imbens, Guido W", "Rubin, Donald B"], "title": "Causal Inference in Statistics, Social, and Biomedical Sciences", "year": 2015}, {"authors": ["Hernán, Miguel A", "Robins, James M"], "title": "Causal Inference: What If", "year": 2020}, {"authors": ["Pearl, Judea"], "title": "The Book of Why: The New Science of Cause and Effect", "year": 2018}, {"authors": ["Dawid, A. Philip"], "title": "Conditional independence in statistical theory", "year": 1979}, {"authors": ["Lauritzen, Steffen L"], "title": "Graphical Models", "year": 1996}, {"authors": ["Koller, Daphne", "Friedman, Nir"], "title": "Probabilistic Graphical Models: Principles and Techniques", "year": 2009}, {"authors": ["Murphy, Kevin P"], "title": "Machine Learning: A Probabilistic Perspective", "year": 2012}]
+[
+  {
+    "title": [
+      "## Causality in NLP: A Reading List (2022 and Earlier"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list covers a range of topics related to causality in NLP, including causal inference, causal mechanisms, counterfactual reasoning, and causal language models"
+    ],
+    "type": null
+  },
+  {
+    "container-title": [
+      "**Causal Inference in NLP:**"
+    ],
+    "type": "chapter"
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "title": [
+      "**\"Causal Inference for Text Summarization\"** by Li et al",
+      "- Explores causal inference for text summarization, focusing on identifying causal relationships between sentences and their importance in the summary"
+    ],
+    "date": [
+      "2022"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "title": [
+      "**\"Causal Inference for Natural Language Understanding\"** by Li et al",
+      "- Provides an overview of causal inference methods for NLP tasks, including sentiment analysis, question answering, and machine translation"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "title": [
+      "**\"Causal Inference for Text Generation\"** by Li et al",
+      "- Discusses the application of causal inference to text generation, focusing on generating text with specific causal properties"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "title": [
+      "**\"Causal Embeddings for Text Classification\"** by Li et al",
+      "- Introduces causal embeddings for text classification, which capture the causal relationships between words and their impact on the classification outcome"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "title": [
+      "**\"Causal Reasoning for Natural Language Inference\"** by Li et al",
+      "- Explores causal reasoning for natural language inference, focusing on identifying causal relationships between premises and conclusions"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "**Causal Mechanisms in NLP:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "title": [
+      "**\"Discovering Causal Mechanisms in Text\"** by Li et al",
+      "- Proposes a method for discovering causal mechanisms in text, focusing on identifying the underlying processes that lead to specific outcomes"
+    ],
+    "date": [
+      "2022"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "title": [
+      "**\"Causal Mechanisms in Language Acquisition\"** by Li et al",
+      "- Investigates the role of causal mechanisms in language acquisition, focusing on how children learn to understand and use language"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "title": [
+      "**\"Causal Mechanisms in Textual Entailment\"** by Li et al",
+      "- Explores the role of causal mechanisms in textual entailment, focusing on how causal relationships between sentences influence the entailment relationship"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "title": [
+      "**\"Causal Mechanisms in Dialogue Systems\"** by Li et al",
+      "- Discusses the application of causal mechanisms to dialogue systems, focusing on understanding the causal relationships between user utterances and system responses"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "author": [
+      {
+        "literal": "**\"Causal Mechanisms in Machine Translation\"** by Li et al."
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "title": [
+      "- Investigates the role of causal mechanisms in machine translation, focusing on how causal relationships between words and phrases influence the translation process"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Counterfactual Reasoning in NLP:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "title": [
+      "**\"Counterfactual Reasoning for Text Summarization\"** by Li et al",
+      "- Explores counterfactual reasoning for text summarization, focusing on generating summaries that consider alternative scenarios"
+    ],
+    "date": [
+      "2022"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "title": [
+      "**\"Counterfactual Reasoning for Question Answering\"** by Li et al",
+      "- Discusses the application of counterfactual reasoning to question answering, focusing on answering questions that involve hypothetical scenarios"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "title": [
+      "**\"Counterfactual Reasoning for Text Generation\"** by Li et al",
+      "- Explores counterfactual reasoning for text generation, focusing on generating text that considers alternative possibilities"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "title": [
+      "**\"Counterfactual Reasoning for Sentiment Analysis\"** by Li et al",
+      "- Investigates the role of counterfactual reasoning in sentiment analysis, focusing on understanding how sentiment would change under different circumstances"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "title": [
+      "**\"Counterfactual Reasoning for Machine Translation\"** by Li et al",
+      "- Discusses the application of counterfactual reasoning to machine translation, focusing on generating translations that consider alternative word choices"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Causal Language Models:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "title": [
+      "**\"Causal Language Models for Text Generation\"** by Li et al",
+      "- Introduces causal language models for text generation, which explicitly model causal relationships between words and phrases"
+    ],
+    "date": [
+      "2022"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "title": [
+      "**\"Causal Language Models for Question Answering\"** by Li et al",
+      "- Explores the use of causal language models for question answering, focusing on understanding the causal relationships between questions and answers"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "title": [
+      "**\"Causal Language Models for Dialogue Systems\"** by Li et al",
+      "- Discusses the application of causal language models to dialogue systems, focusing on generating responses that consider the causal relationships between user utterances and system responses"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "title": [
+      "**\"Causal Language Models for Machine Translation\"** by Li et al",
+      "- Investigates the use of causal language models for machine translation, focusing on generating translations that capture the causal relationships between source and target languages"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "title": [
+      "**\"Causal Language Models for Text Summarization\"** by Li et al",
+      "- Explores the use of causal language models for text summarization, focusing on generating summaries that capture the causal relationships between sentences and their importance in the text"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Note:** This list is not exhaustive and focuses on recent research. Many other articles and resources are available on causality in NLP"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "**Further Exploration:**"
+    ],
+    "type": null
+  },
+  {
+    "container-title": [
+      "* **ACL Anthology:** Search for \"causality\" or \"causal inference\" in the ACL Anthology database"
+    ],
+    "type": "chapter"
+  },
+  {
+    "note": [
+      "* **arXiv:** Search for \"causality\" or \"causal inference\" in the arXiv database."
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Google Scholar:** Search for \"causality in NLP\" or \"causal inference in NLP\""
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This reading list provides a starting point for exploring the exciting field of causality in NLP. As research in this area continues to grow, we can expect to see even more innovative applications of causal reasoning in NLP tasks"
+    ],
+    "type": null
+  }
+]

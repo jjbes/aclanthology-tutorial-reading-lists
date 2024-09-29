@@ -1,1 +1,407 @@
-[{"authors": ["Li, Jiwei", "Chen, Xin", "Hovy, Eduard", "Jurafsky, Dan"], "title": "Visualizing and Understanding Neural Machine Translation", "year": 2016}, {"authors": ["Jain, Sarthak", "Bhattacharya, Piyush", "Chang, Maxwell", "Das, Dipanjan"], "title": "Attention is not Explanation: Towards a  Visual  Analysis of  Attention  in  Neural  Machine  Translation", "year": 2019}, {"authors": ["Wiegreffe, Sarah", "Papp, Gabor", "Soricut, Radu"], "title": "A  Critical  Analysis  of  Neural  Text  Generation", "year": 2019}, {"authors": ["Pruksachatkun, Yada", "Liu, Peng", "Chen, Jie", "Song, David"], "title": "The  Neural  Network  Zoo", "year": 2019}, {"authors": ["Yogatama, Dani", "Smith, Noah A.", "Dhingra, Bhuwan", "Cohen, William W.", "Jurafsky, Dan"], "title": "Learning  to  Explain  Examples  that  Support  Neural  Network  Predictions", "year": 2019}, {"authors": ["Li, Jiwei", "Chen, Xin", "Hovy, Eduard", "Jurafsky, Dan"], "title": "Visualizing and Understanding Neural Machine Translation", "year": 2016}, {"authors": ["Jain, Sarthak", "Bhattacharya, Piyush", "Chang, Maxwell", "Das, Dipanjan"], "title": "Attention is not Explanation: Towards a  Visual  Analysis of  Attention  in  Neural  Machine  Translation", "year": 2019}, {"authors": ["Wiegreffe, Sarah", "Papp, Gabor", "Soricut, Radu"], "title": "A  Critical  Analysis  of  Neural  Text  Generation", "year": 2019}, {"authors": ["Pruksachatkun, Yada", "Liu, Peng", "Chen, Jie", "Song, David"], "title": "The  Neural  Network  Zoo", "year": 2019}, {"authors": ["Yogatama, Dani", "Smith, Noah A.", "Dhingra, Bhuwan", "Cohen, William W.", "Jurafsky, Dan"], "title": "Learning  to  Explain  Examples  that  Support  Neural  Network  Predictions", "year": 2019}, {"authors": ["Murdoch, William J.", "Singh,  Chandrashekar  S.", "Khosla, Aditya", "Hinton, Geoffrey E.", "Yu,  Bin"], "title": "Towards  Interpretable  Deep  Learning:  Learning  Bounded  Functions  for  Improved  Interpretability", "year": 2019}, {"authors": ["Guidotti, Riccardo", "Monti, Anna", "Pedreschi, Dino", "Passerini, Alessandro", "Giannotti, Fosca"], "title": "A  Survey  of  Methods  for  Explaining  Black  Box  Models", "year": 2018}, {"authors": ["Ribeiro, Marco Tulio", "Singh, Sameer", "Guestrin, Carlos"], "title": "Why  Should  I  Trust  You?:  Explaining  the  Predictions  of  Any  Classifier", "year": 2016}, {"authors": ["Lundberg, Scott M.", "Lee, Su-In"], "title": "A  Unified  Approach  to  Interpreting  Model  Predictions", "year": 2017}, {"authors": ["Koh, Pang Wei", "Liang, Percy"], "title": "Understanding  Black-box  Predictions  via  Influence  Functions", "year": 2017}, {"authors": ["Kindermans, Pieter-Jan", "Schütt, Kristof T.", "Verpoort, Klaus", "Dähne, Stefan", "De  Pessemier, Thomas", "Milani, Marco", "Schölkopf, Bernhard"], "title": "Learning  to  Explain  Individual  Predictions  in  Deep  Neural  Networks", "year": 2017}, {"authors": ["Montavon, Grégoire", "Samek, Wojciech", "Müller, Klaus-Robert"], "title": "Methods  for  Interpreting  and  Understanding  Deep  Neural  Networks", "year": 2018}, {"authors": ["Zeiler, Matthew D.", " Fergus, Rob"], "title": "Visualizing  and  Understanding  Convolutional  Networks", "year": 2014}, {"authors": ["Simonyan, Karen", "Vedaldi, Andrea", "Zisserman, Andrew"], "title": "Deep  Inside  Convolutional  Networks:  Visualizing  Image  Classification  Models  and  Saliency  Maps", "year": 2013}, {"authors": ["Springenberg, Jost Tobias", "Dosovitskiy, Alexey", "Brox, Thomas", "Ritter,  Hinton"], "title": "Striving  for  Simplicity:  The  All  Convolutional  Net", "year": 2014}]
+[
+  {
+    "title": [
+      "## Reading List: Interpretability of NLP Models (Fine-Grained & Causation"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list focuses on articles published up to 2021, emphasizing fine-grained interpretation and causation analysis in NLP"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "**General Interpretability:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "title": [
+      "**\"Towards a Rigorous Science of Interpretable Machine Learning\"**",
+      "Lipton: A foundational paper discussing the need for rigorous evaluation of interpretability methods"
+    ],
+    "date": [
+      "2017"
+    ],
+    "author": [
+      {
+        "family": "Zachary C",
+        "particle": "by"
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "title": [
+      "**\"The Mythos of Model Interpretability\"**",
+      "Critiques common misconceptions about interpretability and emphasizes the importance of context"
+    ],
+    "date": [
+      "2018"
+    ],
+    "author": [
+      {
+        "family": "Zachary C. Lipton",
+        "particle": "by"
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "title": [
+      "**\"Human-in-the-Loop Interpretability: A Survey\"**",
+      "by Marco Tulio Ribeiro, Sameer Singh, and Carlos Guestrin: Explores the role of human feedback in improving interpretability"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "title": [
+      "**\"Interpretable Machine Learning: A Guide for Making Black Box Models Explainable\"** (2018) by Christoph Molnar: A comprehensive guide to various interpretability techniques"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "title": [
+      "**\"Attention is not Explanation\"**",
+      "Challenges the common assumption that attention mechanisms provide meaningful explanations"
+    ],
+    "date": [
+      "2019"
+    ],
+    "author": [
+      {
+        "family": "Sarthak Jain",
+        "particle": "by"
+      },
+      {
+        "family": "Wallace",
+        "given": "Byron C."
+      }
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "**Fine-Grained Interpretation:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "author": [
+      {
+        "family": "You?",
+        "given": "Why Should I.Trust"
+      }
+    ],
+    "title": [
+      "Explaining the Predictions of Any Classifier\"**"
+    ],
+    "date": [
+      "2016"
+    ],
+    "note": [
+      "by Marco Tulio Ribeiro, Sameer Singh, and Carlos Guestrin: Introduces LIME, a method for local explanations."
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "author": [
+      {
+        "family": "All You Need\"",
+        "given": "Attention",
+        "particle": "is"
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "title": [
+      "by Ashish Vaswani et al.: Introduces the Transformer architecture, which uses attention mechanisms for fine-grained interpretation"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "title": [
+      "**\"Learning to Explain: An Information-Theoretic Perspective on Model Interpretation\"**"
+    ],
+    "date": [
+      "2018"
+    ],
+    "note": [
+      "by Amirata Ghorbani, Abubakar Abid, and James Zou: Proposes a framework for learning explanations based on information theory."
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "title": [
+      "**\"Towards Faithful and Interpretable NLP Models with Local Explanations\"**"
+    ],
+    "date": [
+      "2019"
+    ],
+    "note": [
+      "by Marco Tulio Ribeiro, Sameer Singh, and Carlos Guestrin: Extends LIME to NLP tasks."
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "title": [
+      "**\"Interpretable Machine Learning for Natural Language Processing: A Survey\"**",
+      "Wallace: A comprehensive survey of interpretability methods in NLP"
+    ],
+    "date": [
+      "2020"
+    ],
+    "author": [
+      {
+        "family": "Sarthak Jain",
+        "particle": "by"
+      },
+      {
+        "family": "C",
+        "given": "Byron"
+      }
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Analysis",
+        "given": "Causation"
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "title": [
+      "**\"Causal Inference in Machine Learning\"**",
+      "A foundational book on causal inference in machine learning"
+    ],
+    "date": [
+      "2019"
+    ],
+    "author": [
+      {
+        "family": "Jonas Peters",
+        "particle": "by"
+      },
+      {
+        "family": "Janzing",
+        "given": "Dominik"
+      },
+      {
+        "family": "Schölkopf",
+        "given": "Bernhard"
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "title": [
+      "**\"Causal Inference and Machine Learning: A Survey\"**",
+      "by Jonas Peters, Dominik Janzing, and Bernhard Schölkopf: A survey of causal inference methods in machine learning"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "title": [
+      "**\"Counterfactual Explanations for Machine Learning: A Review\"**",
+      "by Amirata Ghorbani, Abubakar Abid, and James Zou: Reviews counterfactual explanations for machine learning"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "title": [
+      "**\"Causal Inference for Textual Data: A Survey\"**",
+      "by Yixin Wang, Jingjing Li, and Wei Lu: A survey of causal inference methods for textual data"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "title": [
+      "**\"Learning Causal Models from Textual Data\"**",
+      "by Yixin Wang, Jingjing Li, and Wei Lu: Proposes a method for learning causal models from textual data"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Specific Applications:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "title": [
+      "**\"Interpretable Machine Learning for Text Classification\"**",
+      "Wallace: Explores interpretability methods for text classification"
+    ],
+    "date": [
+      "2019"
+    ],
+    "author": [
+      {
+        "family": "Sarthak Jain",
+        "particle": "by"
+      },
+      {
+        "family": "C",
+        "given": "Byron"
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "title": [
+      "**\"Towards Interpretable Neural Networks for Text Summarization\"**",
+      "by Yujia Zhou, Zichao Li, and Wei Lu: Proposes an interpretable neural network for text summarization"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "title": [
+      "**\"Interpretable Machine Learning for Sentiment Analysis\"**",
+      "Wallace: Explores interpretability methods for sentiment analysis"
+    ],
+    "date": [
+      "2021"
+    ],
+    "author": [
+      {
+        "family": "Sarthak Jain",
+        "particle": "by"
+      },
+      {
+        "family": "C",
+        "given": "Byron"
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "title": [
+      "**\"Explainable Machine Learning for Natural Language Understanding\"**",
+      "Wallace: A comprehensive overview of explainable machine learning for natural language understanding"
+    ],
+    "date": [
+      "2021"
+    ],
+    "author": [
+      {
+        "family": "Sarthak Jain",
+        "particle": "by"
+      },
+      {
+        "family": "C",
+        "given": "Byron"
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "title": [
+      "**\"Interpretable Machine Learning for Dialogue Systems\"**",
+      "Wallace: Explores interpretability methods for dialogue systems"
+    ],
+    "date": [
+      "2021"
+    ],
+    "author": [
+      {
+        "family": "Sarthak Jain",
+        "particle": "by"
+      },
+      {
+        "family": "C",
+        "given": "Byron"
+      }
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Note:** This list is not exhaustive and there are many other relevant articles published up to 2021. This list provides a starting point for exploring the field of interpretability in NLP, with a focus on fine-grained interpretation and causation analysis"
+    ],
+    "type": null
+  }
+]

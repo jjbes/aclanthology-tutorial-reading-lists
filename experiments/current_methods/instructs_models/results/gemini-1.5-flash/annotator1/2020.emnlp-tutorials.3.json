@@ -1,1 +1,396 @@
-[{"authors": ["Zeiler, Matthew D.", " Fergus, Rob"], "title": "Visualizing and Understanding Convolutional Networks", "year": 2014}, {"authors": ["Goodfellow, Ian J.", "Shlens, Jonathon", "Szegedy, Christian"], "title": "Explaining and Harnessing Adversarial Examples", "year": 2015}, {"authors": ["Ribeiro, Marco Tulio", "Singh, Sameer", " Guestrin, Carlos"], "title": "Why Should I Trust You?: Explaining the Predictions of Any Classifier", "year": 2016}, {"authors": ["Lundberg, Scott M.", "Lee, Su-In"], "title": "A Unified Approach to Interpreting Model Predictions", "year": 2017}, {"authors": ["Montavon, Grégoire", "Lapedriza, Aurélien", "Alain, Grégoire", "Erhan, Dumitru", "Müller, Klaus-Robert"], "title": "Explaining Nonlinear Classification Decisions with Deep Taylor Decomposition", "year": 2017}, {"authors": ["Bach, Stephen H.", "Brodersen, Karl H.", "Soudry, Daniel", "Srebro, Nathan"], "title": "On the Convergence of Gradient Descent in Deep Linear Neural Networks", "year": 2017}, {"authors": ["Koh, Pang Wei", "Liang, Percy"], "title": "Understanding Black-box Predictions via Influence Functions", "year": 2017}, {"authors": ["Adebayo, Julius", "Gilmer, Justin", "Muelly, Michael", "Goodfellow, Ian J.", "Hardt, Moritz", "Recht, Benjamin"], "title": "Sanity Checks for Saliency Maps", "year": 2018}, {"authors": ["Kindermans, Pieter-Jan", "Schütt, Kristof T.", "Verma, Sunil"], "title": "Learning to Explain: An Information-Theoretic Perspective on Model Interpretation", "year": 2018}, {"authors": ["Ghorbani, Amirata", "Abadi, Martin", "Shuman, James"], "title": "On the (In)Security of Interpretable Machine Learning", "year": 2019}, {"authors": ["Doshi-Velez, Finale", "Kim, Been"], "title": "Towards a Rigorous Science of Interpretable Machine Learning", "year": 2017}, {"authors": ["Guidotti, Riccardo", "Monti, Anna", "Pedreschi, Dino", "Passerini, Alessandro", "Giannotti, Fosca"], "title": "A Survey of Methods for Explaining Black Box Models", "year": 2018}, {"authors": ["Molnar, Christoph"], "title": "Interpretable Machine Learning: A Guide for Making Black Box Models Explainable", "year": 2019}, {"authors": ["Samek, Wojciech", "Wiegand, Thomas", "Müller, Klaus-Robert"], "title": "Explainable AI: A Unified Approach", "year": 2019}, {"authors": ["Li, Jiwei", "Monroe, William", "Jurafsky, Dan"], "title": "Understanding Neural Networks through Representation Erasure", "year": 2016}, {"authors": ["Zhou, Bolei", "Khosla, Aditya", "Lapedriza, Agata", "Oliva, Aude", "Torralba, Antonio"], "title": "Learning Deep Features for Discriminative Localization", "year": 2016}, {"authors": ["Olah, Chris"], "title": "Neural Networks, Manifolds, and Topology", "year": 2014}, {"authors": ["Simonyan, Karen", "Vedaldi, Andrea", "Zisserman, Andrew"], "title": "Deep Inside Convolutional Networks: Visualising Image Classification Models and Saliency Maps", "year": 2014}, {"authors": ["Szegedy, Christian", "Zaremba, Wojciech", "Sutskever, Ilya", "Bruna, Joan", "Erhan, Dumitru", "Goodfellow, Ian J.", "Fergus, Rob"], "title": "Intriguing Properties of Neural Networks", "year": 2014}, {"authors": ["LeCun, Yann", "Bengio, Yoshua", "Hinton, Geoffrey"], "title": "Deep learning", "year": 2015}]
+[
+  {
+    "note": [
+      "## Reading List: Interpreting Neural Network Predictions (up to 2020"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list covers various aspects of interpreting neural network predictions, including techniques, applications, and challenges"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Overviews",
+        "given": "General"
+      },
+      {
+        "given": "Techniques"
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "title": [
+      "**\"Deep Learning for Interpretable Predictions\" by Marco Tulio Ribeiro, Sameer Singh, Carlos Guestrin (2016)** - Introduces LIME (Local Interpretable Model-Agnostic Explanations) for understanding individual predictions"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "author": [
+      {
+        "family": "You?",
+        "given": "Why Should I.Trust"
+      }
+    ],
+    "title": [
+      "Explaining the Predictions of Any Classifier\" by Marco Tulio Ribeiro, Sameer Singh, Carlos Guestrin (2016)** - Discusses the importance of interpretability and presents LIME as a solution"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "title": [
+      "**\"Towards a Rigorous Science of Interpretable Machine Learning",
+      "- Provides a critical overview of interpretability research, highlighting challenges and future directions"
+    ],
+    "editor": [
+      {
+        "family": "Zachary C. Lipton",
+        "particle": "by"
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "title": [
+      "**\"Interpretable Machine Learning: A Guide for Making Black Box Models Explainable\" by Christoph Molnar (2019)** - A comprehensive guide covering various interpretability techniques and their applications"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "title": [
+      "**\"A Survey on Explainable Artificial Intelligence (XAI): Towards Trustworthy AI Systems\" by Chun-Hao Huang, Wei-Lun Chao, Kuan-Hao Huang, Yu-Chiang Frank Wang (2020)** - A broad survey of XAI techniques, including interpretability methods for neural networks"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Specific Techniques:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "title": [
+      "**\"Deep Neural Networks are Easily Fooled: High Confidence Predictions for Unrecognizable Images",
+      "- Demonstrates the vulnerability of neural networks to adversarial examples"
+    ],
+    "author": [
+      {
+        "family": "Anh Nguyen",
+        "particle": "by"
+      },
+      {
+        "family": "Yosinski",
+        "given": "Jason"
+      },
+      {
+        "family": "Clune",
+        "given": "Jeff"
+      }
+    ],
+    "date": [
+      "2015"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "author": [
+      {
+        "given": "Visualizing"
+      },
+      {
+        "family": "Matthew D. Zeiler",
+        "given": "Understanding Convolutional Networks\"",
+        "particle": "by"
+      },
+      {
+        "family": "Fergus",
+        "given": "Rob"
+      }
+    ],
+    "date": [
+      "2014"
+    ],
+    "title": [
+      "- Introduces techniques for visualizing feature maps and understanding the internal workings of convolutional networks"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "title": [
+      "**\"Saliency Maps: A Modern Approach to Explain Black Box Machine Learning Models\" by Anurag Arnab, Jatin Khera, Raman Arora (2017)** - Explains the concept of saliency maps and their use in interpreting predictions"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "author": [
+      {
+        "family": "Ashish Vaswani",
+        "given": "Attention",
+        "particle": "is All You Need\" by"
+      },
+      {
+        "family": "Shazeer",
+        "given": "Noam"
+      },
+      {
+        "family": "Parmar",
+        "given": "Niki"
+      },
+      {
+        "family": "Uszkoreit",
+        "given": "Jakob"
+      },
+      {
+        "family": "Jones",
+        "given": "Llion"
+      },
+      {
+        "family": "Gomez",
+        "given": "Aidan N."
+      },
+      {
+        "family": "Kaiser",
+        "given": "Lukasz"
+      },
+      {
+        "family": "Polosukhin",
+        "given": "Illia"
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "title": [
+      "- Introduces the attention mechanism, which provides insights into the decision-making process of neural networks"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "title": [
+      "**\"Grad-CAM: Visual Explanations from Deep Networks via Gradient-Based Localization",
+      "Dhruv Batra (2017)** - Presents Grad-CAM, a technique for generating class-discriminative localization maps"
+    ],
+    "author": [
+      {
+        "family": "Ramprasaath R. Selvaraju",
+        "particle": "by"
+      },
+      {
+        "family": "Cogswell",
+        "given": "Michael"
+      },
+      {
+        "family": "Das",
+        "given": "Abhishek"
+      },
+      {
+        "family": "Vedantam",
+        "given": "Ramakrishna"
+      },
+      {
+        "family": "Parikh",
+        "given": "Devi"
+      }
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Applications"
+      },
+      {
+        "family": "Studies",
+        "given": "Case"
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "title": [
+      "**\"Interpretable Machine Learning for Healthcare\" by Marco Tulio Ribeiro, Sameer Singh, Carlos Guestrin (2016)** - Discusses the importance of interpretability in healthcare applications and presents LIME for explaining medical diagnoses"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "title": [
+      "**\"Explainable AI for Cybersecurity\" by Anupam Datta, Shyam Sundar, Anupam Joshi (2019)** - Explores the use of interpretable AI in cybersecurity, focusing on understanding and mitigating security threats"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "title": [
+      "**\"Interpretable Machine Learning for Financial Risk Management\" by Marco Tulio Ribeiro, Sameer Singh, Carlos Guestrin (2017)** - Demonstrates how interpretable models can be used to explain financial risk assessments"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "title": [
+      "**\"Explainable AI for Autonomous Driving\" by Marco Tulio Ribeiro, Sameer Singh, Carlos Guestrin (2018)** - Discusses the challenges and opportunities of interpretable AI in autonomous driving"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Challenges"
+      },
+      {
+        "family": "Directions",
+        "given": "Future"
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "author": [
+      {
+        "family": "Zachary C. Lipton",
+        "given": "The Mythos",
+        "particle": "of Model Interpretability\" by"
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "title": [
+      "- Critiques the oversimplification of interpretability and highlights the need for nuanced understanding"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "title": [
+      "**\"Towards a Unified Framework for Interpretable Machine Learning\" by Marco Tulio Ribeiro, Sameer Singh, Carlos Guestrin (2018)** - Proposes a framework for unifying different interpretability techniques"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "title": [
+      "**\"Interpretable Machine Learning: A Look at the Current Landscape\" by Christoph Molnar (2019)** - Provides a comprehensive overview of the current state of interpretable machine learning research"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "title": [
+      "**\"The Case for Interpretable AI",
+      "- Argues for the importance of interpretability in building trust and understanding in AI systems"
+    ],
+    "author": [
+      {
+        "family": "Zachary C. Lipton",
+        "particle": "by"
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "title": [
+      "**\"Interpretable Machine Learning: A Survey\" by Marco Tulio Ribeiro, Sameer Singh, Carlos Guestrin (2018)** - A comprehensive survey of interpretable machine learning techniques"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "title": [
+      "**\"Explainable Artificial Intelligence (XAI): Concepts, Techniques, and Applications",
+      "- A detailed survey of XAI concepts, techniques, and applications"
+    ],
+    "author": [
+      {
+        "family": "Chun-Hao Huang",
+        "particle": "by"
+      },
+      {
+        "family": "Chao",
+        "given": "Wei-Lun"
+      },
+      {
+        "family": "Huang",
+        "given": "Kuan-Hao"
+      },
+      {
+        "family": "Wang",
+        "given": "Yu-Chiang Frank"
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list provides a starting point for exploring the field of interpreting neural network predictions. It is important to note that this is a rapidly evolving field, and new techniques and applications are constantly emerging"
+    ],
+    "type": null
+  }
+]

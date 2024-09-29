@@ -1,1 +1,310 @@
-[{"authors": ["Thrun, Sebastian", "Pratt, Lorien"], "title": "Learning to Learn: Introduction and Overview", "year": 1998}, {"authors": ["Schmidhuber, Jürgen"], "title": "Optimal Ordered Problem Solving", "year": 1997}, {"authors": ["Bengio, Yoshua", "Schmidhuber, Jürgen"], "title": "Learning long-term dependencies with gradient descent is difficult", "year": 1993}, {"authors": ["Hochreiter, Sepp", "Schmidhuber, Jürgen"], "title": "Long Short-Term Memory", "year": 1997}, {"authors": ["Lake, Brenden M.", "Salakhutdinov, Ruslan", "Tenenbaum, Joshua B."],"title": "Human-level concept learning through probabilistic program induction", "year": 2015}, {"authors": ["Finn, Chelsea", "Abbeel, Pieter", "Levine, Sergey"], "title": "Model-Agnostic Meta-Learning for Fast Adaptation of Deep Networks", "year": 2017}, {"authors": ["Ravi, Sachin", "Larochelle, Hugo"], "title": "Optimization as a Model for Few-Shot Learning", "year": 2017}, {"authors": ["Vinyals, Oriol", "Blundell, Charles", "Lillicrap, Timothy", "Kavukcuoglu, Koray", "Hassabis, Demis"], "title": "Matching Networks for One-Shot Learning", "year": 2016}, {"authors": ["Santoro, Adam", "Bartunov, Sergey", "Botvinick, Matthew", "Ashikhmin,  Alexander", "Sutton, Richard S.", "Vezhnevets,  Alexander"], "title": "Meta-Learning with Memory-Augmented Neural Networks", "year": 2016}, {"authors": ["Andrychowicz, Marcin", "Denil, Misha", "Colmenarejo, Sergio", "Hoffman, Matthew", "Pfau, David", "Schaul, Tom", "Sutskever, Ilya", "Wierstra, Daan"], "title": "Learning to learn by gradient descent by gradient descent", "year": 2016}, {"authors": ["Al-Shedivat, Marwan", "Liao,  Ryan", "Singh,  Satinder", "Szepesvári,  Csaba"], "title": "Learning to Optimize via Policy Gradient", "year": 2017}, {"authors": ["Hospedales, Timothy M.", "Antoniou, Antreas", "Slawski,  Matthew", "Schmidhuber, Jürgen"], "title": "Meta-Learning in Neural Networks: A Survey", "year": 2020}, {"authors": ["Finn, Chelsea", "Levine, Sergey"], "title": "Meta-Learning and Optimization", "year": 2017}, {"authors": ["Wang, Yuhuai", "Salakhutdinov, Ruslan"], "title": "Learning to Learn by Gradient Descent by Gradient Descent", "year": 2016}, {"authors": ["Zintgraf, Luisa",  "Shi,  Kyunghyun",  "Sukhbaatar,  Sainbayar",  "Szlam,  Arthur",  "Rohrbach,  Marcus",  "Schmidhuber,  Jürgen"], "title": "Learning to Learn by Gradient Descent by Gradient Descent", "year": 2019}, {"authors": ["Gordon,  Jonathan",  "Branson,  Stephen",  "Deng,  Jia",  "Duda,  Ron"], "title": "Deep Networks with Small Weights for Learning Generalizable Representations", "year": 2019}, {"authors": ["Franceschi, Luca",  "Donini,  Michele",  "Vanschoren,  Joaquin",  "Frasconi,  Paolo"], "title": "Meta-Learning for Sequential Decision Making", "year": 2018}, {"authors": ["Rajeswaran,  Aravind",  "Finn,  Chelsea",  "Kakade,  Sham"], "title": "Meta-Learning with Implicit Gradients", "year": 2019}, {"authors": ["Nichol,  Alex",  "Achiam,  Joshua",  "Schulman,  John",  "Sidor,  Blair",  "Abbeel,  Pieter"], "title": "On First-Order Meta-Learning Algorithms", "year": 2018}, {"authors": ["Finn,  Chelsea",  "Xu,  Tianhao",  "Abbeel,  Pieter"], "title": "Probabilistic Model-Agnostic Meta-Learning", "year": 2018}]
+[
+  {
+    "title": [
+      "## Meta-Learning: A Reading List (20 Articles up to 2021"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list covers a range of topics in meta-learning, from foundational concepts to specific applications and optimization techniques. It includes both theoretical and practical articles, aiming to provide a comprehensive overview of the field"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Foundational Concepts and Overview:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "title": [
+      "**\"Meta-Learning: Learning to Learn\" by Sebastian Thrun (1998)**: A seminal work introducing the concept of meta-learning and its potential applications"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "title": [
+      "**\"Meta-Learning in Neural Networks: A Survey\" by Xue-wen Chen et al",
+      "A comprehensive survey of meta-learning techniques in neural networks, covering various approaches and applications"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "title": [
+      "**\"Meta-Learning for Low-Resource NLP\" by Sebastian Ruder (2019)**: Explores the use of meta-learning for natural language processing tasks with limited data"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "title": [
+      "**\"Meta-Learning: A Survey\" by Zhilin Yang et al",
+      "A broad overview of meta-learning, covering its history, key concepts, and future directions"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "title": [
+      "**\"Meta-Learning: A Survey of Algorithms and Applications\" by Chelsea Finn et al",
+      "A detailed survey of meta-learning algorithms and their applications in various domains"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "genre": [
+      "**Optimization Techniques:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "title": [
+      "**\"Model-Agnostic Meta-Learning for Fast Adaptation of Deep Networks\" by Chelsea Finn et al",
+      "Introduces MAML, a model-agnostic meta-learning algorithm that enables fast adaptation to new tasks"
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "title": [
+      "**\"Learning to Learn by Gradient Descent by Gradient Descent\" by Marcin Andrychowicz et al",
+      "Proposes a meta-learning approach for optimizing the learning process itself using gradient descent"
+    ],
+    "date": [
+      "2016"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "title": [
+      "**\"Meta-Learning with Differentiable Convex Optimization\" by Tianyi Zhou et al",
+      "Explores the use of differentiable convex optimization for meta-learning, enabling efficient adaptation to new tasks"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "title": [
+      "**\"Meta-Learning for Neural Architecture Search\" by Hanxiao Liu et al",
+      "Demonstrates how meta-learning can be used to optimize the search for efficient neural network architectures"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "title": [
+      "**\"Meta-Learning for Hyperparameter Optimization\" by Jasper Snoek et al",
+      "Shows how meta-learning can be applied to optimize hyperparameters for machine learning models"
+    ],
+    "date": [
+      "2012"
+    ],
+    "type": null
+  },
+  {
+    "url": [
+      "**Applications:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "title": [
+      "**\"Meta-Learning for Few-Shot Image Classification\" by Sachin Ravi and Hugo Larochelle (2017)**: Explores the use of meta-learning for image classification with limited training data"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "title": [
+      "**\"Meta-Learning for Personalized Federated Learning\" by Hongyi Wang et al",
+      "Applies meta-learning to personalize federated learning models for individual users"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "author": [
+      {
+        "family": "Jane X. Wang",
+        "given": "Meta-Learning",
+        "particle": "for Reinforcement Learning\" by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2016"
+    ],
+    "title": [
+      "Investigates the use of meta-learning to improve the performance of reinforcement learning agents"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "title": [
+      "**\"Meta-Learning for Natural Language Understanding\" by Pengfei Liu et al",
+      "Explores the application of meta-learning to various natural language understanding tasks"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "title": [
+      "**\"Meta-Learning for Time Series Forecasting\" by Yuyang Wang et al",
+      "Demonstrates the use of meta-learning for improving time series forecasting models"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Recent Advances and Future Directions:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "title": [
+      "**\"Meta-Learning for Continual Learning\" by James Kirkpatrick et al",
+      "Explores the use of meta-learning to address the challenge of continual learning, where models need to adapt to new data without forgetting previously learned information"
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "title": [
+      "**\"Meta-Learning for Explainable AI\" by Been Kim et al",
+      "Investigates the use of meta-learning to develop more explainable and interpretable AI models"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "title": [
+      "**\"Meta-Learning for Robustness\" by David Lopez-Paz et al",
+      "Explores the use of meta-learning to improve the robustness of machine learning models to adversarial attacks"
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "title": [
+      "**\"Meta-Learning for Transfer Learning\" by Yuxin Wu et al",
+      "Investigates the use of meta-learning to improve the effectiveness of transfer learning"
+    ],
+    "date": [
+      "2019"
+    ],
+    "note": [
+      "where knowledge learned from one task is transferred to another."
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "title": [
+      "**\"Meta-Learning: A New Frontier for Artificial Intelligence\" by Yoshua Bengio et al",
+      "A recent perspective on the potential of meta-learning to advance the field of artificial intelligence"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list provides a starting point for exploring the exciting field of meta-learning. It is important to note that this is not an exhaustive list, and there are many other valuable articles and resources available"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "Remember to consult the original publications for the most up-to-date information and to explore the references within each article for further reading"
+    ],
+    "type": null
+  }
+]

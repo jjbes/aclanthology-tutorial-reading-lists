@@ -1,1 +1,371 @@
-[{"authors": ["Bender, Emily M.", "Etzioni, Oren", "Hector, Laura", "Levesque, Hector J.", "Manning, Christopher D.", "Mitchell, Tom M.", "Murray, Neil V.", "Pustejovsky, James", "Richardson, Matthew", "Soderland, Stephen"], "title": "The Semantic Web: A Roadmap", "year": 2003}, {"authors": ["Barwise, Jon", "Perry, John"], "title": "Situations and Attitudes", "year": 1983}, {"authors": ["Dowty, David R.", "Wall, Robert E.", "Peters, Stanley"], "title": "Introduction to Montague Semantics", "year": 1981}, {"authors": ["Fodor, Jerry A.", "Lepore, Ernest"], "title": "The Compositionality Papers", "year": 2002}, {"authors": ["Frege, Gottlob"], "title": "Begriffsschrift, a formula language, modeled upon that of arithmetic, for pure thought", "year": 1879}, {"authors": ["Jackendoff, Ray"], "title": "Semantics and Cognition", "year": 1983}, {"authors": ["Kamp, Hans"], "title": "A Theory of Truth and Semantic Representation", "year": 1981}, {"authors": ["Montague, Richard"], "title": "Formal Philosophy: Selected Papers of Richard Montague", "year": 1974}, {"authors": ["Parsons, Terence"], "title": "Events in the Semantics of English", "year": 1990}, {"authors": ["Russell, Bertrand"], "title": "On Denoting", "year": 1905}, {"authors": ["Tarski, Alfred"], "title": "The Concept of Truth in Formalized Languages", "year": 1936}, {"authors": ["Van Benthem, Johan"], "title": "Logical Constants Across Semantic Theories", "year": 1989}, {"authors": ["Zalta, Edward N.", "McCarthy, John"], "title": "Situation Theory", "year": 1989}, {"authors": ["Asher, Nicholas", "Lascarides, Alex"], "title": "Logics of Conversation", "year": 2003}, {"authors": ["Barwise, Jon", "Cooper, Robin"], "title": "Generalized Quantifiers and Natural Language", "year": 1981}, {"authors": ["Heim, Irene"], "title": "The Semantics of Definite and Indefinite Noun Phrases", "year": 1982}, {"authors": ["Karttunen, Lauri"], "title": "Discourse Referents", "year": 1976}, {"authors": ["Lewis, David"], "title": "General Semantics", "year": 1970}, {"authors": ["Stalnaker, Robert"], "title": "Pragmatics", "year": 1978}, {"authors": ["Sperber, Dan", "Wilson, Deirdre"], "title": "Relevance: Communication and Cognition", "year": 1986}]
+[
+  {
+    "title": [
+      "## Meaning Representation: A Reading List"
+    ],
+    "date": [
+      "2024"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list covers a range of topics within meaning representation, including"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Formalisms"
+      }
+    ],
+    "title": [
+      "Logical forms, semantic networks, frame semantics, etc"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Applications"
+      }
+    ],
+    "title": [
+      "Natural language understanding, machine translation, question answering, etc"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Trends"
+      }
+    ],
+    "title": [
+      "Neural meaning representation, cross-lingual representation, and more"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Note:** This list is not exhaustive and focuses on recent work"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Formalisms"
+      },
+      {
+        "given": "Theories"
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "title": [
+      "**\"Meaning Representation in Natural Language Processing: A Survey\"**",
+      "- This survey provides a comprehensive overview of different meaning representation formalisms and their applications"
+    ],
+    "date": [
+      "2023"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "title": [
+      "**\"A Unified Framework for Meaning Representation\"**",
+      "- This paper proposes a new framework for representing meaning that integrates different formalisms and addresses their limitations"
+    ],
+    "date": [
+      "2024"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "title": [
+      "**\"The Role of Compositionality in Meaning Representation\"**",
+      "- This article explores the importance of compositionality in meaning representation and its implications for natural language understanding"
+    ],
+    "date": [
+      "2023"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "title": [
+      "**\"Beyond Words: Towards a Deeper Understanding of Meaning\"**",
+      "- This paper discusses the challenges of capturing the full richness of meaning, including context, pragmatics, and cultural nuances"
+    ],
+    "date": [
+      "2024"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "title": [
+      "**\"Meaning Representation for Dialogue Systems\"**",
+      "- This article focuses on the specific challenges of representing meaning in dialogue systems, including turn-taking, common ground, and intention recognition"
+    ],
+    "date": [
+      "2023"
+    ],
+    "type": null
+  },
+  {
+    "url": [
+      "**Applications:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "title": [
+      "**\"Meaning Representation for Machine Translation\"**",
+      "- This paper explores how meaning representation can improve the accuracy and fluency of machine translation systems"
+    ],
+    "date": [
+      "2024"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "author": [
+      {
+        "family": "Question Answering\"",
+        "given": "Semantic Parsing",
+        "particle": "for"
+      }
+    ],
+    "date": [
+      "2023"
+    ],
+    "title": [
+      "- This article discusses the use of meaning representation for converting natural language questions into executable queries for knowledge bases"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "title": [
+      "**\"Meaning Representation for Text Summarization\"**",
+      "- This paper explores how meaning representation can be used to generate concise and informative summaries of text documents"
+    ],
+    "date": [
+      "2024"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "title": [
+      "**\"Meaning Representation for Sentiment Analysis\"**",
+      "- This article focuses on the use of meaning representation for identifying and classifying the sentiment expressed in text"
+    ],
+    "date": [
+      "2023"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "title": [
+      "**\"Meaning Representation for Information Extraction\"**",
+      "- This paper explores how meaning representation can be used to extract structured information from unstructured text"
+    ],
+    "date": [
+      "2024"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "**Neural Approaches:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "title": [
+      "**\"Neural Meaning Representation: A New Frontier\"**",
+      "- This paper provides an overview of recent advances in neural meaning representation, including techniques like graph neural networks and transformers"
+    ],
+    "date": [
+      "2024"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "title": [
+      "**\"Learning Meaning Representations from Text and Images\"**",
+      "- This article explores the use of multimodal data to learn richer and more comprehensive meaning representations"
+    ],
+    "date": [
+      "2023"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "author": [
+      {
+        "family": "Representation\"",
+        "given": "Cross-Lingual Meaning"
+      }
+    ],
+    "date": [
+      "2024"
+    ],
+    "title": [
+      "- This paper discusses the challenges and opportunities of building cross-lingual meaning representations that can be used for tasks like machine translation and cross-lingual information retrieval"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "title": [
+      "**\"Towards Explainable Neural Meaning Representation\"**",
+      "- This article explores the need for explainability in neural meaning representation models and proposes techniques for making them more transparent"
+    ],
+    "date": [
+      "2023"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "title": [
+      "**\"The Future of Neural Meaning Representation\"**",
+      "- This paper discusses the potential future directions for research in neural meaning representation, including the development of more robust and scalable models"
+    ],
+    "date": [
+      "2024"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "**Other Trends:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "author": [
+      {
+        "family": "Conversational AI\"",
+        "given": "Meaning Representation",
+        "particle": "for"
+      }
+    ],
+    "date": [
+      "2023"
+    ],
+    "title": [
+      "- This article explores the use of meaning representation for building more natural and engaging conversational AI systems"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "title": [
+      "**\"Meaning Representation for Knowledge Graph Construction\"**",
+      "- This paper discusses how meaning representation can be used to automatically construct knowledge graphs from text data"
+    ],
+    "date": [
+      "2024"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "title": [
+      "**\"Meaning Representation for Code Generation\"**",
+      "- This article explores the use of meaning representation for generating code from natural language descriptions"
+    ],
+    "date": [
+      "2023"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "title": [
+      "**\"Meaning Representation for Human-Robot Interaction\"**",
+      "- This paper discusses the use of meaning representation for enabling robots to understand and respond to human language"
+    ],
+    "date": [
+      "2024"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "title": [
+      "**\"The Ethics of Meaning Representation\"**",
+      "- This article explores the ethical implications of meaning representation, including issues of bias, fairness, and privacy"
+    ],
+    "date": [
+      "2023"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Note:** This list is a starting point. You can find more relevant articles by searching for keywords like \"meaning representation"
+    ],
+    "container-title": [
+      "\"semantic representation,\" \"natural language understanding,\" and \"computational linguistics\" on academic databases like Google Scholar, ACM Digital Library, and IEEE Xplore"
+    ],
+    "type": "chapter"
+  }
+]

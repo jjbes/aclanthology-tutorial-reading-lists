@@ -1,1 +1,344 @@
-[{"authors": ["Bender, Emily M.", "Gebru, Timnit", "McMillan-Major, Angelina", "Shmitchell, Shomir", "Wu, Londa"], "title": "On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?", "year": 2021}, {"authors": ["Crawford, Kate"], "title": "The Trouble with Bias: A Field Guide to Algorithmic Fairness", "year": 2017}, {"authors": ["Solove, Daniel J.", "Wachter, Sandra"], "title": "Privacy Self-Management and the Consent Dilemma", "year": 2018}, {"authors": ["Mittelstadt, Brent Daniel", "Strumbel, Jason", "Tatar, Dan", "Hardt, Moritz"], "title": "The Moral Implications of Big Data: A Framework with Recommendations", "year": 2016}, {"authors": ["Floridi, Luciano"], "title": "The Ethics of Artificial Intelligence", "year": 2019}, {"authors": ["O'Neil, Cathy"], "title": "Weapons of Math Destruction: How Big Data Increases Inequality and Threatens Democracy", "year": 2016}, {"authors": ["Eubanks, Virginia"], "title": "Automating Inequality: How High-Tech Tools are Shaping the Future of Social Policy", "year": 2018}, {"authors": ["Coeckelbergh, Mark"], "title": "The Moral Status of Artificial Agents", "year": 2015}, {"authors": ["Wallach, Wendell", "Allen, Colin"], "title": "Moral Machines: Teaching Robots Right from Wrong", "year": 2010}, {"authors": ["Russell, Stuart J.", "Norvig, Peter"], "title": "Artificial Intelligence: A Modern Approach", "year": 2010}, {"authors": ["Dwork, Cynthia"], "title": "Differential Privacy", "year": 2006}, {"authors": ["Calo, Ryan"], "title": "Privacy as a Constitutional Right", "year": 2017}, {"authors": ["Nissenbaum, Helen"], "title": "Privacy in Context: Technology, Policy, and the Integrity of Social Life", "year": 2010}, {"authors": ["Friedman, Batya", "Nissenbaum, Helen"], "title": "Bias in Computer Systems", "year": 1996}, {"authors": ["Selinger, Evan", "Sweeney, Latanya"], "title": "Data Minimization: A New Approach to Privacy", "year": 2017}, {"authors": ["Barocas, Solon", "Selbst, Andrew D.", "Raghavan, Michael"], "title": "The Fairness of Fair Machine Learning", "year": 2017}, {"authors": ["Corbett-Davies, Sam", "Goel, Sharad", "Mundra, Azim", "Sweeney, Latanya"], "title": "Algorithmic Decision Making and the Cost of Fairness", "year": 2017}, {"authors": ["Zuboff, Shoshana"], "title": "The Age of Surveillance Capitalism: The Fight for a Human Future at the New Frontier of Power", "year": 2019}, {"authors": ["Buolamwini, Joy", "Gebru, Timnit"], "title": "Gender Shades: Intersectional Accuracy Disparities in Commercial Gender Classification", "year": 2018}, {"authors": ["Noble, Safiya Umoja"], "title": "Algorithms of Oppression: How Search Engines Reinforce Racism", "year": 2018}]
+[
+  {
+    "note": [
+      "## Reading List: Integrating Ethics into NLP Curriculum (up to 2020"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list focuses on articles discussing the integration of ethics into NLP curriculum, covering various aspects like bias, fairness, and responsible AI development"
+    ],
+    "type": null
+  },
+  {
+    "container-title": [
+      "**General Ethics in NLP:**"
+    ],
+    "type": "chapter"
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "title": [
+      "**\"The Ethical Algorithm: Designing for Social Good\"** by Michael Kearns",
+      "- Discusses the ethical considerations in designing algorithms, particularly in the context of fairness and bias"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "title": [
+      "**\"The Moral Implications of Artificial Intelligence\"** by Stuart Russell",
+      "- Explores the ethical challenges posed by AI, including its potential impact on society and the need for responsible development"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "title": [
+      "**\"AI Ethics: A Primer\"** by Michael Wooldridge",
+      "- Provides an overview of key ethical issues in AI, including bias, fairness, and accountability"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "title": [
+      "**\"The Ethics of Artificial Intelligence: A Guide for the Perplexed\"** by John Danaher",
+      "- Offers a comprehensive guide to the ethical considerations surrounding AI, including its impact on employment, privacy, and autonomy"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "title": [
+      "**\"The Algorithmic Society: The Social and Political Implications of Algorithmic Decision-Making\"** by Virginia Eubanks",
+      "- Examines the social and political consequences of algorithmic decision-making, highlighting the need for ethical considerations in AI development"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Bias"
+      },
+      {
+        "family": "NLP",
+        "given": "Fairness",
+        "particle": "in"
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "author": [
+      {
+        "given": "Fairness"
+      },
+      {
+        "family": "Timnit Gebru",
+        "given": "Bias",
+        "particle": "in NLP\" by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "title": [
+      "- Discusses the prevalence of bias in NLP systems and proposes strategies for mitigating it"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "author": [
+      {
+        "family": "Emily M. Bender",
+        "given": "The Problem",
+        "particle": "of Bias in NLP\" by"
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "title": [
+      "- Explores the sources of bias in NLP and its impact on downstream applications"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "author": [
+      {
+        "family": "Margaret Mitchell",
+        "given": "Mitigating Bias",
+        "particle": "in Natural Language Processing\" by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "title": [
+      "- Presents a framework for mitigating bias in NLP systems, including data augmentation and fairness-aware training"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "title": [
+      "**\"Towards a More Equitable NLP: A Survey of Bias Mitigation Techniques\"** by Sarah Bird et al",
+      "- Reviews various techniques for mitigating bias in NLP, highlighting their strengths and limitations"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "title": [
+      "**\"The Impact of Bias in NLP: A Survey\"** by Arvind Narayanan et al",
+      "- Examines the impact of bias in NLP systems on various applications, including machine translation and sentiment analysis"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Development",
+        "given": "Responsible A.I."
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "title": [
+      "**\"Principles for Responsible AI\"** by Google AI",
+      "- Outlines a set of principles for responsible AI development, including fairness, accountability, and transparency"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "container-title": [
+      "**\"The AI Now Institute Report 2019\"** by AI Now Institute"
+    ],
+    "date": [
+      "2019"
+    ],
+    "title": [
+      "- Provides a comprehensive analysis of the social and ethical implications of AI, including recommendations for responsible development"
+    ],
+    "type": "chapter"
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "title": [
+      "**\"The Future of AI: A Guide for Policymakers\"** by OpenAI",
+      "- Offers a roadmap for policymakers on how to navigate the ethical and societal challenges posed by AI"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "title": [
+      "**\"AI for Social Good: A Framework for Ethical and Responsible AI Development\"** by Stanford University (2019) - Presents a framework for developing AI systems that benefit society while minimizing potential harms"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "title": [
+      "**\"The Ethics of Artificial Intelligence: A Framework for Responsible Innovation\"** by The Alan Turing Institute (2019) - Provides a framework for ethical AI development, emphasizing the importance of human oversight and accountability"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Integrating Ethics into NLP Curriculum:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "title": [
+      "**\"Teaching Ethics in NLP: A Practical Guide\"** by Emily M",
+      "- Offers practical advice on how to integrate ethics into NLP curriculum, including case studies and discussion prompts"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "Bender"
+    ]
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "title": [
+      "**\"Ethics in NLP: A Curriculum for Responsible AI Development\"** by Stanford University",
+      "- Presents a curriculum for teaching ethics in NLP, covering topics such as bias, fairness, and privacy"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "title": [
+      "**\"Integrating Ethics into NLP Education: A Call to Action\"** by ACL Special Interest Group on Ethics in NLP",
+      "- Calls for greater emphasis on ethics in NLP education, highlighting the need for curriculum development and faculty training"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "title": [
+      "**\"The Ethics of AI: A Guide for Educators\"** by The Partnership on AI",
+      "- Provides resources and guidance for educators on how to teach ethics in AI, including lesson plans and case studies"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "title": [
+      "**\"Teaching AI Ethics: A Practical Guide for Educators\"** by The IEEE Global Initiative on Ethics of Autonomous and Intelligent Systems",
+      "- Offers a practical guide for educators on how to teach AI ethics, including best practices and resources"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list provides a starting point for exploring the integration of ethics into NLP curriculum. It is important to note that this is not an exhaustive list, and there are many other valuable resources available"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "Remember to consider the specific needs and context of your curriculum when selecting articles and resources"
+    ],
+    "type": null
+  }
+]

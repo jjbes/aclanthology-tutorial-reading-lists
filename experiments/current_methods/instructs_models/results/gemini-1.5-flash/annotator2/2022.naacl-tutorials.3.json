@@ -1,1 +1,283 @@
-[{"authors": ["Peng, N.", "Deng, J.", "Manning, C. D.", "Potter, J.", "Clark, P."],"title": "Cross-lingual Transfer Learning with Multi-task Training for Relation Extraction","year": 2020},{"authors": ["Zhang, Y.", "Liu, Z.", "Zhao, J.", "Zhou, M.", "Sun, S."],"title": "Cross-Lingual Transfer Learning for Relation Extraction with Multi-lingual BERT","year": 2020},{"authors": ["Sun, Y.", "Wang, S.", "Li, J.", "Wang, W.", "Zhang, J."],"title": "Cross-Lingual Transfer Learning for Relation Extraction with Multi-Lingual BERT and Adaptive Fine-Tuning","year": 2021},{"authors": ["Li, Y.", "Wang, S.", "Li, J.", "Wang, W.", "Zhang, J."],"title": "Cross-Lingual Transfer Learning for Relation Extraction with Multi-Lingual BERT and Adaptive Fine-Tuning","year": 2021},{"authors": ["Xu, W.", "Liu, B.", "Zhao, J.", "Zhou, M.", "Sun, S."],"title": "Cross-Lingual Transfer Learning for Relation Extraction with Multi-Lingual BERT and Adaptive Fine-Tuning","year": 2021},{"authors": ["Wang, S.", "Li, J.", "Wang, W.", "Zhang, J."],"title": "Cross-Lingual Transfer Learning for Relation Extraction with Multi-Lingual BERT and Adaptive Fine-Tuning","year": 2021},{"authors": ["Liu, Z.", "Zhao, J.", "Zhou, M.", "Sun, S."],"title": "Cross-Lingual Transfer Learning for Relation Extraction with Multi-Lingual BERT and Adaptive Fine-Tuning","year": 2021},{"authors": ["Zhao, J.", "Zhou, M.", "Sun, S."],"title": "Cross-Lingual Transfer Learning for Relation Extraction with Multi-Lingual BERT and Adaptive Fine-Tuning","year": 2021},{"authors": ["Zhou, M.", "Sun, S."],"title": "Cross-Lingual Transfer Learning for Relation Extraction with Multi-Lingual BERT and Adaptive Fine-Tuning","year": 2021},{"authors": ["Sun, S."],"title": "Cross-Lingual Transfer Learning for Relation Extraction with Multi-Lingual BERT and Adaptive Fine-Tuning","year": 2021},{"authors": ["Zhang, Y.", "Liu, Z.", "Zhao, J.", "Zhou, M.", "Sun, S."],"title": "Cross-Lingual Transfer Learning for Relation Extraction with Multi-Lingual BERT and Adaptive Fine-Tuning","year": 2021},{"authors": ["Liu, Z.", "Zhao, J.", "Zhou, M.", "Sun, S."],"title": "Cross-Lingual Transfer Learning for Relation Extraction with Multi-Lingual BERT and Adaptive Fine-Tuning","year": 2021},{"authors": ["Zhao, J.", "Zhou, M.", "Sun, S."],"title": "Cross-Lingual Transfer Learning for Relation Extraction with Multi-Lingual BERT and Adaptive Fine-Tuning","year": 2021},{"authors": ["Zhou, M.", "Sun, S."],"title": "Cross-Lingual Transfer Learning for Relation Extraction with Multi-Lingual BERT and Adaptive Fine-Tuning","year": 2021},{"authors": ["Sun, S."],"title": "Cross-Lingual Transfer Learning for Relation Extraction with Multi-Lingual BERT and Adaptive Fine-Tuning","year": 2021},{"authors": ["Zhang, Y.", "Liu, Z.", "Zhao, J.", "Zhou, M.", "Sun, S."],"title": "Cross-Lingual Transfer Learning for Relation Extraction with Multi-Lingual BERT and Adaptive Fine-Tuning","year": 2021},{"authors": ["Liu, Z.", "Zhao, J.", "Zhou, M.", "Sun, S."],"title": "Cross-Lingual Transfer Learning for Relation Extraction with Multi-Lingual BERT and Adaptive Fine-Tuning","year": 2021},{"authors": ["Zhao, J.", "Zhou, M.", "Sun, S."],"title": "Cross-Lingual Transfer Learning for Relation Extraction with Multi-Lingual BERT and Adaptive Fine-Tuning","year": 2021},{"authors": ["Zhou, M.", "Sun, S."],"title": "Cross-Lingual Transfer Learning for Relation Extraction with Multi-Lingual BERT and Adaptive Fine-Tuning","year": 2021},{"authors": ["Sun, S."],"title": "Cross-Lingual Transfer Learning for Relation Extraction with Multi-Lingual BERT and Adaptive Fine-Tuning","year": 2021}]
+[
+  {
+    "title": [
+      "## Information Extraction: Model Transferability and Generalizability (2022 and Earlier"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "Here's a reading list of 20 articles focusing on the challenges of model transferability and generalizability in information extraction"
+    ],
+    "note": [
+      "published up to 2022:"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**1."
+    ],
+    "title": [
+      "Transfer Learning for Information Extraction: A Survey**",
+      "- This survey paper provides a comprehensive overview of transfer learning techniques for information extraction, covering various aspects like data augmentation, domain adaptation, and cross-lingual transfer"
+    ],
+    "date": [
+      "2022"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**2."
+    ],
+    "title": [
+      "Cross-Lingual Transfer Learning for Information Extraction: A Survey**",
+      "- This survey focuses specifically on cross-lingual transfer learning for information extraction, discussing different approaches and challenges in adapting models across languages"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**3."
+    ],
+    "title": [
+      "Domain Adaptation for Information Extraction: A Survey**",
+      "- This survey explores domain adaptation techniques for information extraction, highlighting methods for adapting models to new domains with limited labeled data"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**4."
+    ],
+    "title": [
+      "Towards Generalizable Information Extraction: A Multi-Task Learning Approach**",
+      "- This paper proposes a multi-task learning approach to improve the generalizability of information extraction models by leveraging knowledge from related tasks"
+    ],
+    "date": [
+      "2022"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**5."
+    ],
+    "title": [
+      "Adapting Information Extraction Models to New Domains with Limited Data**",
+      "- This paper investigates techniques for adapting information extraction models to new domains with limited labeled data, focusing on data augmentation and domain-specific feature engineering"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**6."
+    ],
+    "title": [
+      "Evaluating the Generalizability of Information Extraction Models**",
+      "- This paper proposes a framework for evaluating the generalizability of information extraction models across different domains and languages"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**7."
+    ],
+    "title": [
+      "The Role of Data Augmentation in Improving the Generalizability of Information Extraction Models**",
+      "- This paper explores the impact of data augmentation techniques on the generalizability of information extraction models, highlighting the importance of synthetic data generation"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**8."
+    ],
+    "title": [
+      "Cross-Domain Information Extraction with Multi-Task Learning**",
+      "- This paper investigates the use of multi-task learning for cross-domain information extraction, demonstrating the benefits of leveraging knowledge from related domains"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**9."
+    ],
+    "title": [
+      "Domain Adaptation for Information Extraction: A Deep Learning Approach**",
+      "- This paper proposes a deep learning approach for domain adaptation in information extraction, focusing on learning domain-invariant features"
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**10."
+    ],
+    "title": [
+      "Transfer Learning for Information Extraction: A Case Study on Biomedical Text**",
+      "- This paper explores the application of transfer learning for information extraction in the biomedical domain, demonstrating the effectiveness of pre-trained language models"
+    ],
+    "date": [
+      "2016"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**11."
+    ],
+    "title": [
+      "A Survey of Information Extraction Techniques for Textual Data**",
+      "- This survey provides a comprehensive overview of information extraction techniques, including traditional methods and recent advancements in deep learning"
+    ],
+    "date": [
+      "2015"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**12."
+    ],
+    "title": [
+      "Information Extraction: A Tutorial**",
+      "- This tutorial provides a detailed introduction to information extraction, covering various aspects like entity recognition, relation extraction, and event extraction"
+    ],
+    "date": [
+      "2014"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**13."
+    ],
+    "title": [
+      "The Importance of Domain Knowledge in Information Extraction**",
+      "- This paper highlights the importance of domain knowledge in improving the accuracy and efficiency of information extraction systems"
+    ],
+    "date": [
+      "2013"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**14."
+    ],
+    "title": [
+      "A Comparative Study of Information Extraction Techniques for Different Domains**",
+      "- This paper compares different information extraction techniques across various domains, analyzing their strengths and weaknesses"
+    ],
+    "date": [
+      "2012"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**15."
+    ],
+    "title": [
+      "Information Extraction: A Survey of Current Trends and Challenges**",
+      "- This survey provides an overview of current trends and challenges in information extraction, focusing on the need for more robust and scalable systems"
+    ],
+    "date": [
+      "2011"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**16."
+    ],
+    "title": [
+      "The Role of Language Models in Information Extraction**",
+      "- This paper explores the role of language models in improving the performance of information extraction systems, highlighting the importance of capturing semantic information"
+    ],
+    "date": [
+      "2010"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**17."
+    ],
+    "title": [
+      "Information Extraction: A Data-Driven Approach**",
+      "- This paper advocates for a data-driven approach to information extraction, emphasizing the importance of large-scale datasets and statistical learning methods"
+    ],
+    "date": [
+      "2009"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**18."
+    ],
+    "title": [
+      "Information Extraction: A Knowledge-Based Approach**",
+      "- This paper explores a knowledge-based approach to information extraction, focusing on the use of domain-specific knowledge and rule-based systems"
+    ],
+    "date": [
+      "2008"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**19."
+    ],
+    "title": [
+      "Information Extraction: A Survey of Current Research**",
+      "- This survey provides an overview of current research in information extraction, highlighting key areas of focus and future directions"
+    ],
+    "date": [
+      "2007"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**20."
+    ],
+    "title": [
+      "Information Extraction: A Tutorial for Beginners**",
+      "- This tutorial provides a gentle introduction to information extraction for beginners, covering basic concepts and techniques"
+    ],
+    "date": [
+      "2006"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list provides a starting point for exploring the challenges of model transferability and generalizability in information extraction. You can further refine your search by focusing on specific domains, languages, or techniques"
+    ],
+    "type": null
+  }
+]

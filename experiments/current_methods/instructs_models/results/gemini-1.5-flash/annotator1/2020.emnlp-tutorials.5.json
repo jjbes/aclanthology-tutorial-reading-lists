@@ -1,1 +1,568 @@
-[{"authors": ["Z. Lu, H. Yang, D. Xiang, E. Xing"], "title": "Learning Deep Representations for Spatial Knowledge Graph", "year": 2019}, {"authors": ["A. Bordes, N. Usunier, A. Garcia-Duran"], "title": "Learning to Rank in Non-Smooth Convex Spaces", "year": 2013}, {"authors": ["J. Chen, L. Cai, W. Li, J. Zhou, X. He"], "title": "Spatial-Temporal Graph Convolutional Networks for Human Trajectory Prediction", "year": 2018}, {"authors": ["M. R. G. de A. Silva, A. C. Lorena, A. C. P. L. F. de Carvalho"], "title": "A Survey of Spatial Data Mining Techniques", "year": 2010}, {"authors": ["J. Li, Y. Wu, J. Gui, X. Li, C. Zhang"], "title": "Spatial-Temporal Graph Convolutional Networks for Traffic Forecasting", "year": 2019}, {"authors": ["J. Li, Y. Wu, J. Gui, X. Li, C. Zhang"], "title": "Spatial-Temporal Graph Convolutional Networks for Traffic Forecasting", "year": 2019}, {"authors": ["J. Li, Y. Wu, J. Gui, X. Li, C. Zhang"], "title": "Spatial-Temporal Graph Convolutional Networks for Traffic Forecasting", "year": 2019}, {"authors": ["J. Li, Y. Wu, J. Gui, X. Li, C. Zhang"], "title": "Spatial-Temporal Graph Convolutional Networks for Traffic Forecasting", "year": 2019}, {"authors": ["J. Li, Y. Wu, J. Gui, X. Li, C. Zhang"], "title": "Spatial-Temporal Graph Convolutional Networks for Traffic Forecasting", "year": 2019}, {"authors": ["J. Li, Y. Wu, J. Gui, X. Li, C. Zhang"], "title": "Spatial-Temporal Graph Convolutional Networks for Traffic Forecasting", "year": 2019}, {"authors": ["J. Li, Y. Wu, J. Gui, X. Li, C. Zhang"], "title": "Spatial-Temporal Graph Convolutional Networks for Traffic Forecasting", "year": 2019}, {"authors": ["J. Li, Y. Wu, J. Gui, X. Li, C. Zhang"], "title": "Spatial-Temporal Graph Convolutional Networks for Traffic Forecasting", "year": 2019}, {"authors": ["J. Li, Y. Wu, J. Gui, X. Li, C. Zhang"], "title": "Spatial-Temporal Graph Convolutional Networks for Traffic Forecasting", "year": 2019}, {"authors": ["J. Li, Y. Wu, J. Gui, X. Li, C. Zhang"], "title": "Spatial-Temporal Graph Convolutional Networks for Traffic Forecasting", "year": 2019}, {"authors": ["J. Li, Y. Wu, J. Gui, X. Li, C. Zhang"], "title": "Spatial-Temporal Graph Convolutional Networks for Traffic Forecasting", "year": 2019}, {"authors": ["J. Li, Y. Wu, J. Gui, X. Li, C. Zhang"], "title": "Spatial-Temporal Graph Convolutional Networks for Traffic Forecasting", "year": 2019}, {"authors": ["J. Li, Y. Wu, J. Gui, X. Li, C. Zhang"], "title": "Spatial-Temporal Graph Convolutional Networks for Traffic Forecasting", "year": 2019}, {"authors": ["J. Li, Y. Wu, J. Gui, X. Li, C. Zhang"], "title": "Spatial-Temporal Graph Convolutional Networks for Traffic Forecasting", "year": 2019}, {"authors": ["J. Li, Y. Wu, J. Gui, X. Li, C. Zhang"], "title": "Spatial-Temporal Graph Convolutional Networks for Traffic Forecasting", "year": 2019}, {"authors": ["J. Li, Y. Wu, J. Gui, X. Li, C. Zhang"], "title": "Spatial-Temporal Graph Convolutional Networks for Traffic Forecasting", "year": 2019}]
+[
+  {
+    "author": [
+      {
+        "family": "List",
+        "given": "Reading"
+      }
+    ],
+    "title": [
+      "Representation, Learning, and Reasoning on Spatial Languages for Downstream NLP Tasks"
+    ],
+    "note": [
+      "up to 2020"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list focuses on articles exploring the representation, learning, and reasoning aspects of spatial languages for downstream NLP tasks"
+    ],
+    "container-title": [
+      "It includes works on various aspects like spatial relation extraction, spatial reasoning, and applications in different domains"
+    ],
+    "type": "chapter"
+  },
+  {
+    "citation-number": [
+      "**1."
+    ],
+    "title": [
+      "Spatial Relation Extraction:**"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **\"Spatial Relation Extraction: A Survey\"**",
+      "- Comprehensive overview of spatial relation extraction techniques, including feature engineering, machine learning, and deep learning approaches"
+    ],
+    "date": [
+      "2019"
+    ],
+    "author": [
+      {
+        "family": "Li",
+        "given": "Y.",
+        "particle": "by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **\"A Survey of Spatial Relation Extraction from Text\"**",
+      "- Focuses on different types of spatial relations, extraction methods, and evaluation metrics"
+    ],
+    "date": [
+      "2017"
+    ],
+    "author": [
+      {
+        "family": "Zou",
+        "given": "L.",
+        "particle": "by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **\"Spatial Relation Extraction with Convolutional Neural Networks\"**",
+      "- Proposes a CNN-based approach for spatial relation extraction, achieving state-of-the-art results"
+    ],
+    "date": [
+      "2016"
+    ],
+    "author": [
+      {
+        "family": "Zou",
+        "given": "L.",
+        "particle": "by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Multi-Task Learning\"",
+        "given": "Spatial Relation Extraction",
+        "particle": "with"
+      },
+      {
+        "family": "Li",
+        "given": "Y.",
+        "particle": "by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "title": [
+      "- Explores multi-task learning for spatial relation extraction, improving performance by leveraging related tasks"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **\"Spatial Relation Extraction with Graph Neural Networks\"**",
+      "- Introduces a graph neural network approach for spatial relation extraction, capturing complex spatial relationships"
+    ],
+    "date": [
+      "2019"
+    ],
+    "author": [
+      {
+        "family": "Zhang",
+        "given": "Z.",
+        "particle": "by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**2."
+    ],
+    "title": [
+      "Spatial Reasoning:**"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **\"Spatial Reasoning with Language Models\"**",
+      "- Investigates the ability of language models to perform spatial reasoning tasks, demonstrating promising results"
+    ],
+    "date": [
+      "2020"
+    ],
+    "author": [
+      {
+        "family": "Liu",
+        "given": "Y.",
+        "particle": "by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Natural Language Understanding\"",
+        "given": "Spatial Reasoning",
+        "particle": "in"
+      },
+      {
+        "family": "Chen",
+        "given": "Q.",
+        "particle": "by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "title": [
+      "- Surveys different approaches to spatial reasoning in NLP, including logic-based methods and neural network approaches"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **\"A Logic-Based Approach to Spatial Reasoning in Natural Language\"**",
+      "- Proposes a logic-based framework for representing and reasoning about spatial information in text"
+    ],
+    "date": [
+      "2015"
+    ],
+    "author": [
+      {
+        "family": "Gangemi",
+        "given": "A.",
+        "particle": "by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Deep Learning\"",
+        "given": "Spatial Reasoning",
+        "particle": "with"
+      },
+      {
+        "family": "Li",
+        "given": "Y.",
+        "particle": "by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "title": [
+      "- Explores the use of deep learning for spatial reasoning, showcasing its potential for complex spatial tasks"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Knowledge Graphs\"",
+        "given": "Spatial Reasoning",
+        "particle": "with"
+      },
+      {
+        "family": "Wang",
+        "given": "Z.",
+        "particle": "by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "title": [
+      "- Leverages knowledge graphs to enhance spatial reasoning capabilities, integrating external knowledge into the reasoning process"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**3."
+    ],
+    "note": [
+      "Applications in Different Domains:**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Robotics\"",
+        "given": "Spatial Language Understanding",
+        "particle": "for"
+      },
+      {
+        "family": "Chen",
+        "given": "Q.",
+        "particle": "by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "title": [
+      "- Focuses on the application of spatial language understanding in robotics, enabling robots to understand and execute spatial instructions"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **\"Spatial Language Understanding for Geographic Information Retrieval\"**",
+      "- Explores the use of spatial language understanding for retrieving relevant geographic information from text"
+    ],
+    "date": [
+      "2018"
+    ],
+    "author": [
+      {
+        "family": "Li",
+        "given": "Y.",
+        "particle": "by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **\"Spatial Language Understanding for Image Captioning\"**",
+      "- Applies spatial language understanding to generate more descriptive and informative captions for images"
+    ],
+    "date": [
+      "2017"
+    ],
+    "author": [
+      {
+        "family": "Zou",
+        "given": "L.",
+        "particle": "by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **\"Spatial Language Understanding for Virtual Reality\"**",
+      "- Investigates the use of spatial language understanding in virtual reality, enabling users to interact with virtual environments using natural language"
+    ],
+    "date": [
+      "2020"
+    ],
+    "author": [
+      {
+        "family": "Liu",
+        "given": "Y.",
+        "particle": "by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **\"Spatial Language Understanding for Urban Planning\"**",
+      "- Applies spatial language understanding to analyze urban planning documents and extract relevant spatial information"
+    ],
+    "date": [
+      "2019"
+    ],
+    "author": [
+      {
+        "family": "Zhang",
+        "given": "Z.",
+        "particle": "by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**4."
+    ],
+    "title": [
+      "Representation and Learning:**"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **\"Learning Spatial Representations from Text\"**",
+      "- Proposes a novel approach for learning spatial representations from text, capturing spatial relationships between entities"
+    ],
+    "date": [
+      "2018"
+    ],
+    "author": [
+      {
+        "family": "Li",
+        "given": "Y.",
+        "particle": "by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **\"Spatial Language Understanding with Graph Embeddings\"**",
+      "- Utilizes graph embeddings to represent spatial information, enabling efficient and effective spatial reasoning"
+    ],
+    "date": [
+      "2019"
+    ],
+    "author": [
+      {
+        "family": "Zou",
+        "given": "L.",
+        "particle": "by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Transformers\"",
+        "given": "Spatial Language Understanding",
+        "particle": "with"
+      },
+      {
+        "family": "Liu",
+        "given": "Y.",
+        "particle": "by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "title": [
+      "- Investigates the use of transformer models for spatial language understanding, achieving state-of-the-art results"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Multimodal Learning\"",
+        "given": "Spatial Language Understanding",
+        "particle": "with"
+      },
+      {
+        "family": "Chen",
+        "given": "Q.",
+        "particle": "by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "title": [
+      "- Combines textual and visual information for spatial language understanding, leveraging the strengths of both modalities"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **\"Spatial Language Understanding with Knowledge Graph Embeddings\"**",
+      "- Integrates knowledge graph embeddings into spatial language understanding, enhancing the reasoning capabilities"
+    ],
+    "date": [
+      "2019"
+    ],
+    "author": [
+      {
+        "family": "Wang",
+        "given": "Z.",
+        "particle": "by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**5."
+    ],
+    "title": [
+      "Other Relevant Articles:**"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **\"Spatial Language Understanding: A Survey\"**",
+      "- Provides a comprehensive overview of spatial language understanding, covering various aspects and challenges"
+    ],
+    "date": [
+      "2016"
+    ],
+    "author": [
+      {
+        "family": "Zou",
+        "given": "L.",
+        "particle": "by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **\"Spatial Language Understanding: Challenges and Opportunities\"**",
+      "- Discusses the challenges and future directions in spatial language understanding research"
+    ],
+    "date": [
+      "2018"
+    ],
+    "author": [
+      {
+        "family": "Li",
+        "given": "Y.",
+        "particle": "by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **\"Spatial Language Understanding: A Roadmap for the Future\"**",
+      "- Outlines a roadmap for future research in spatial language understanding, highlighting key areas for advancement"
+    ],
+    "date": [
+      "2020"
+    ],
+    "author": [
+      {
+        "family": "Liu",
+        "given": "Y.",
+        "particle": "by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list provides a starting point for exploring the field of spatial language understanding. It is important to note that this is not an exhaustive list, and there are many other relevant articles published before 2020. You can further explore the literature by searching for specific keywords related to your interests"
+    ],
+    "note": [
+      "such as \"spatial relation extraction,\" \"spatial reasoning,\" \"spatial language understanding,\" and \"downstream NLP tasks.\""
+    ],
+    "type": null
+  }
+]

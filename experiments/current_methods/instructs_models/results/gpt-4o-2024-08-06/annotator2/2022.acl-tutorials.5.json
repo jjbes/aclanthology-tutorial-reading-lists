@@ -1,0 +1,495 @@
+[
+  {
+    "title": [
+      "Here's a reading list of articles up to 2022 that focus on techniques to alleviate the lack of available labeled data in natural language processing (NLP) through data augmentation and semi-supervised learning"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "author": [
+      {
+        "given": "E.D.A."
+      }
+    ],
+    "title": [
+      "Easy Data Augmentation Techniques for Boosting Performance on Text Classification Tasks\"** by Jason Wei and Kai Zou"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "This paper introduces simple yet effective data augmentation techniques for text classification"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "title": [
+      "**\"Unsupervised Data Augmentation for Consistency Training\"** by Qizhe Xie et al"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Discusses a method that leverages unsupervised data augmentation to improve model performance"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "author": [
+      {
+        "given": "MixText"
+      }
+    ],
+    "title": [
+      "Linguistically-Informed Interpolation of Hidden Space for Semi-Supervised Text Classification\"** by Chenwei Wu et al"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Proposes a semi-supervised learning approach using interpolation in hidden space for text classification"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "title": [
+      "**\"Back-Translation as a Strategy for Improving Accuracy in NLP Tasks\"** by Rico Sennrich et al"
+    ],
+    "date": [
+      "2016"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Explores back-translation as a data augmentation technique to enhance NLP model accuracy"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "author": [
+      {
+        "family": "Andrew M. Dai",
+        "given": "Semi-Supervised Sequence Learning\"",
+        "particle": "by"
+      },
+      {
+        "family": "Le",
+        "given": "Quoc V."
+      }
+    ],
+    "date": [
+      "2015"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Introduces a semi-supervised learning framework for sequence learning tasks in NLP"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "title": [
+      "**\"Data Augmentation for Low-Resource Neural Machine Translation\"** by Jindřich Libovický et al"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Focuses on data augmentation strategies for improving neural machine translation in low-resource settings"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "title": [
+      "**\"Self-Training with Noisy Student Improves ImageNet Classification\"** by Qizhe Xie et al"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Although focused on image classification, the self-training approach can be adapted for NLP tasks"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "title": [
+      "**\"Adversarial Training for Free!\"** by Shafahi et al"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Discusses adversarial training, which can be adapted for data augmentation in NLP"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "title": [
+      "**\"Learning from Noisy Labels with Deep Neural Networks: A Survey\"** by Song et al"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Provides insights into handling noisy labels, relevant for semi-supervised learning in NLP"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "title": [
+      "**\"Consistency Regularization for Cross-Lingual Fine-Tuning\"** by Xinyi Wang et al"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Explores consistency regularization techniques for cross-lingual NLP tasks"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "title": [
+      "**\"Data Augmentation for Text Classification using Back-Translation\"** by S"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "Edunov et al"
+    ]
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Examines back-translation as a data augmentation method for text classification"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "title": [
+      "**\"Semi-Supervised Learning with Deep Generative Models\"** by Kingma et al"
+    ],
+    "date": [
+      "2014"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Introduces deep generative models for semi-supervised learning, applicable to NLP"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "title": [
+      "**\"A Survey on Semi-Supervised Learning\"** by Xiaojin Zhu"
+    ],
+    "date": [
+      "2005"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "A comprehensive survey on semi-supervised learning techniques, including applications in NLP"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "title": [
+      "**\"Data Augmentation for Neural Networks\"** by Taylor and Nitschke"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Discusses general data augmentation techniques, with applications in NLP"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "title": [
+      "**\"Self-Training for Few-Shot Neural Sequence Labeling\"** by Zhang et al"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Proposes a self-training approach for few-shot learning in sequence labeling tasks"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "title": [
+      "**\"Augmenting Data with Mixup for Sentence Classification: An Empirical Study\"** by Guo et al"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Investigates the use of Mixup for data augmentation in sentence classification"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "title": [
+      "**\"Semi-Supervised Learning with Ladder Networks\"** by Rasmus et al"
+    ],
+    "date": [
+      "2015"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Introduces ladder networks for semi-supervised learning, applicable to NLP"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "title": [
+      "**\"Data Augmentation for Text Generation: A Survey\"** by Feng et al"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Surveys various data augmentation techniques specifically for text generation tasks"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "title": [
+      "**\"Self-Training with Noisy Student Improves ImageNet Classification\"** by Xie et al"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Although focused on image classification, the self-training approach can be adapted for NLP tasks"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "title": [
+      "**\"A Survey on Data Augmentation for Text Classification\"** by Wei and Zou"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Provides a comprehensive overview of data augmentation techniques for text classification"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "These articles cover a range of techniques and approaches for addressing the challenge of limited labeled data in NLP, including data augmentation and semi-supervised learning strategies"
+    ],
+    "type": null
+  }
+]

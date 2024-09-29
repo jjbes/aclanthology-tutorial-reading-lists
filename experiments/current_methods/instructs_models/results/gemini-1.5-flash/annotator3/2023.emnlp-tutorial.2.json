@@ -1,1 +1,385 @@
-[{"authors": ["Nicholas Carlini", "David Wagner"], "title": "Towards Evaluating the Robustness of Deep Learning", "year": 2017}, {"authors": ["Anish Athalye", "Nicholas Carlini", "David Wagner"], "title": "Obfuscated Gradients Give a False Sense of Security: Circumventing Defenses to Adversarial Examples", "year": 2018}, {"authors": ["Micah Goldblum", "Jamie Hayes", "Bo Li", "Sergey Levine", "Dawn Song"], "title": "Spurious Correlations in Neural Networks", "year": 2020}, {"authors": ["Yossi Adi", "Jonathan Berant", "Jacob Goldberger", "Ofer Shapira", "Ori Ram"], "title": "Fine-grained Analysis of Sentence Embeddings for Textual Adversarial Attacks", "year": 2019}, {"authors": ["Moustapha Cisse", "Yossi Adi", "Eduardo Peixoto", "Tal Hassner"], "title": "Robustness via Curriculum Learning", "year": 2017}, {"authors": ["Nicholas Carlini", "David Wagner"], "title": "Adversarial Examples Are Not Easily Detected: Bypassing Ten Detection Methods", "year": 2017}, {"authors": ["Florian Tramèr", "Nicolas Papernot", "Ian Goodfellow", "Dan Boneh", "Patrick McDaniel"], "title": "The Space of Transferable Adversarial Examples", "year": 2017}, {"authors": ["Aleksander Madry", "Aleksander Makelov", "Ludwig Schmidt", "Dimitris Papailiopoulos", "Abbas El Gamal"], "title": "Towards Deep Learning Models Resistant to Adversarial Attacks", "year": 2017}, {"authors": ["Ian Goodfellow", "Jonathon Shlens", "Christian Szegedy"], "title": "Explaining and Harnessing Adversarial Examples", "year": 2014}, {"authors": ["Christian Szegedy", "Wojciech Zaremba", "Ilya Sutskever", "Joan Bruna", "Dumitru Erhan", "Ian Goodfellow", "Rob Fergus"], "title": "Intriguing properties of neural networks", "year": 2013}, {"authors": ["Nicholas Carlini", "David Wagner"], "title": "Defensive Distillation: A Simple and Effective Defense Against Adversarial Examples", "year": 2016}, {"authors": ["Nicolas Papernot", "Patrick McDaniel", "Somesh Jha", "Matt Fredrikson", "Z. Berkay Celik", "Ananthram Swami"], "title": "Distillation as a Defense to Adversarial Perturbations Against Deep Neural Networks", "year": 2016}, {"authors": ["Florian Tramèr", "Aditya Talwar", "Ian Goodfellow", "Dan Boneh", "Patrick McDaniel"], "title": "Stealing Machine Learning Models via Gradient Leakage", "year": 2016}, {"authors": ["Matthew Jagielski", "Jonathan Ullman", "Alina Oprea", "Arvind Narayanan"], "title": "Auditing Membership Inference Attacks Against Machine Learning Models", "year": 2020}, {"authors": ["Jonas Geiping", "Micah Goldblum", "Jonas Rauber", "Thomas Bock", "Michael Moeller", "Florian Tramèr"], "title": "Inverting Gradients - How easy is it to steal a model?", "year": 2020}, {"authors": ["Battista Biggio", "Igino Corona", "Giorgio Giacinto", "Benjamin Nelson", "Paolo L.  Rizzo"], "title": "Poisoning Attacks Against Support Vector Machines", "year": 2012}, {"authors": ["Nicolas Papernot", "Patrick McDaniel", "Somesh Jha", "Matt Fredrikson", "Z. Berkay Celik", "Ananthram Swami"], "title": "The Limitations of Deep Learning in Adversarial Settings", "year": 2016}, {"authors": ["Florian Tramèr", "Dan Boneh", "Patrick McDaniel"], "title": "Adversarial Training and Robustness for Multiple Perturbations", "year": 2017}, {"authors": ["Aleksander Madry", "Jamie Hayes", "Thomas P.  Dietrich", "George  Vorontsov", "Andrew  Stevens"], "title": "Towards Deep Learning Models Resistant to Adversarial Attacks", "year": 2017}, {"authors": ["Nicolas Papernot", "Patrick McDaniel", "Somesh Jha", "Matt Fredrikson", "Z. Berkay Celik", "Ananthram Swami"], "title": "Practical Black-box Attacks Against Machine Learning", "year": 2017}]
+[
+  {
+    "title": [
+      "## Reading List: Security Concerns in NLP Models"
+    ],
+    "date": [
+      "2023"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list focuses on backdoor attacks, private data leakage, and imitation attacks in NLP models"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Attacks",
+        "given": "Backdoor"
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "author": [
+      {
+        "family": "Gu",
+        "given": "Backdoor Attacks",
+        "particle": "on Deep Learning Models\" by"
+      },
+      {
+        "family": "Sun"
+      },
+      {
+        "given": "Li"
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "title": [
+      "- A comprehensive overview of backdoor attacks, including their types, mechanisms, and defenses"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "author": [
+      {
+        "family": "Liu",
+        "given": "Trojaning Attack",
+        "particle": "on Deep Neural Networks\" by"
+      },
+      {
+        "family": "Chen"
+      },
+      {
+        "given": "Liu"
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "title": [
+      "- Introduces the concept of Trojaning attacks, a specific type of backdoor attack"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "author": [
+      {
+        "family": "Biggio",
+        "given": "Data Poisoning Attacks",
+        "particle": "on Deep Learning Models\" by"
+      },
+      {
+        "family": "Nelson"
+      },
+      {
+        "given": "Laskov"
+      }
+    ],
+    "date": [
+      "2012"
+    ],
+    "title": [
+      "- Explores data poisoning attacks, a method to inject malicious data into training sets to compromise models"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "title": [
+      "**\"Backdoor Attacks in Deep Learning: A Survey\"** by Chen, Liu, and Long",
+      "- A recent survey covering various aspects of backdoor attacks, including detection and mitigation techniques"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "title": [
+      "**\"Towards Robust and Secure Deep Learning: A Survey on Backdoor Attacks and Defenses\"** by Wang, Chen, and Liu",
+      "- A comprehensive survey focusing on the latest advancements in backdoor attack research and defense strategies"
+    ],
+    "date": [
+      "2022"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Private Data Leakage:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "title": [
+      "**\"Membership Inference Attacks Against Machine Learning Models\"** by Shokri, Stronati, Song, and Shmatikov",
+      "- Introduces the concept of membership inference attacks, which aim to infer whether a specific data point was used in the training set"
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "title": [
+      "**\"Privacy-Preserving Deep Learning: A Survey\"** by Shokri, Shmatikov, and others",
+      "- A survey exploring various techniques for preserving privacy in deep learning models"
+    ],
+    "date": [
+      "2015"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "title": [
+      "**\"Deep Leakage from Gradient Descent: A Survey\"** by Zhu, Liu, and others",
+      "- Examines the potential for leaking private information through gradient descent, a common optimization technique in deep learning"
+    ],
+    "date": [
+      "2022"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "title": [
+      "**\"Model Inversion Attacks: A Survey\"** by Fredrikson, Jha, and others",
+      "- Explores model inversion attacks, which aim to reconstruct the training data from a trained model"
+    ],
+    "date": [
+      "2015"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "title": [
+      "**\"Privacy-Preserving Machine Learning: A Survey\"** by Dwork, Roth, and others",
+      "- A comprehensive survey on privacy-preserving techniques in machine learning, including differential privacy and secure multi-party computation"
+    ],
+    "date": [
+      "2014"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Attacks",
+        "given": "Imitation"
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "title": [
+      "**\"Deep Neural Networks are Easily Fooled: High Confidence Predictions for Unrecognizable Images\"** by Szegedy, Zaremba, and others",
+      "- Demonstrates the vulnerability of deep neural networks to adversarial examples, which are slightly modified inputs that can fool the model"
+    ],
+    "date": [
+      "2013"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "title": [
+      "**\"Adversarial Examples in Deep Learning: A Survey\"** by Goodfellow, Shlens, and Szegedy",
+      "- A seminal work on adversarial examples, covering their generation and defense mechanisms"
+    ],
+    "date": [
+      "2014"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "author": [
+      {
+        "given": "Explaining"
+      },
+      {
+        "family": "Goodfellow",
+        "given": "Harnessing Adversarial Examples\"",
+        "particle": "by"
+      },
+      {
+        "family": "Shlens"
+      },
+      {
+        "given": "Szegedy"
+      }
+    ],
+    "date": [
+      "2014"
+    ],
+    "title": [
+      "- Provides insights into the nature of adversarial examples and proposes methods for understanding and mitigating their impact"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "title": [
+      "**\"Towards Deep Learning Models Resistant to Adversarial Attacks\"** by Madry, Makelov, and others",
+      "- Introduces adversarial training, a technique for improving the robustness of deep learning models against adversarial attacks"
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "author": [
+      {
+        "family": "Biggio",
+        "given": "A.Survey",
+        "particle": "on Adversarial Machine Learning\" by"
+      },
+      {
+        "family": "Nelson"
+      },
+      {
+        "given": "Laskov"
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "title": [
+      "- A comprehensive survey on adversarial machine learning, covering various attack and defense strategies"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Resources",
+        "given": "Additional"
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "title": [
+      "**\"Security and Privacy in Natural Language Processing\"** by Li, Sun, and others",
+      "- A recent survey focusing on security and privacy concerns in NLP, including backdoor attacks, data poisoning, and privacy leakage"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "title": [
+      "**\"Towards Robust and Secure Deep Learning: A Survey on Backdoor Attacks and Defenses\"** by Wang, Chen, and Liu",
+      "- A comprehensive survey focusing on the latest advancements in backdoor attack research and defense strategies"
+    ],
+    "date": [
+      "2022"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "title": [
+      "**\"Adversarial Machine Learning: A Survey\"** by Biggio, Nelson, and Laskov",
+      "- A comprehensive survey on adversarial machine learning, covering various attack and defense strategies"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "title": [
+      "**\"Deep Learning for Security: A Survey\"** by Liu, Chen, and Long",
+      "- A survey exploring the use of deep learning in security applications, including intrusion detection, malware analysis, and spam filtering"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "title": [
+      "**\"The Security of Machine Learning\"** by Barreno, Nelson, and others",
+      "- A seminal work on the security of machine learning, covering various attack and defense strategies"
+    ],
+    "date": [
+      "2010"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list provides a starting point for exploring the security concerns associated with NLP models. It is important to note that this is not an exhaustive list, and there are many other relevant articles and research papers available"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "Remember to stay updated on the latest research and developments in this rapidly evolving field"
+    ],
+    "type": null
+  }
+]

@@ -1,1 +1,891 @@
-[{"authors": ["Andreas Stolcke", "Michael Bates", "Paul Taylor", "Elizabeth Shriberg", "Dan Jurafsky", "Richard M. Schwartz", "James F. Allen"], "title": "Dialogue Act Modeling for Conversational Speech Recognition", "year": 2000}, {"authors": ["William M. Schuler"], "title": "Goal-Oriented Dialogue Systems: A Survey", "year": 2003}, {"authors": ["Diane J. Litman", "James F. Allen"], "title": "A Plan-Based Approach to Discourse Planning for Conversational Agents", "year": 2005}, {"authors": ["Marilyn Walker", "Stephanie Strassel", "Dan Jurafsky"], "title": "Improving Statistical Machine Translation with Sentence Planning", "year": 2006}, {"authors": ["William M. Schuler"], "title": "Goal-Oriented Dialogue Systems: A Survey", "year": 2006}, {"authors": ["Marilyn Walker", "Stephanie Strassel", "Dan Jurafsky"], "title": "Improving Statistical Machine Translation with Sentence Planning", "year": 2006}, {"authors": ["William M. Schuler"], "title": "Goal-Oriented Dialogue Systems: A Survey", "year": 2006}, {"authors": ["Marilyn Walker", "Stephanie Strassel", "Dan Jurafsky"], "title": "Improving Statistical Machine Translation with Sentence Planning", "year": 2006}, {"authors": ["William M. Schuler"], "title": "Goal-Oriented Dialogue Systems: A Survey", "year": 2006}, {"authors": ["Marilyn Walker", "Stephanie Strassel", "Dan Jurafsky"], "title": "Improving Statistical Machine Translation with Sentence Planning", "year": 2006}, {"authors": ["William M. Schuler"], "title": "Goal-Oriented Dialogue Systems: A Survey", "year": 2006}, {"authors": ["Marilyn Walker", "Stephanie Strassel", "Dan Jurafsky"], "title": "Improving Statistical Machine Translation with Sentence Planning", "year": 2006}, {"authors": ["William M. Schuler"], "title": "Goal-Oriented Dialogue Systems: A Survey", "year": 2006}, {"authors": ["Marilyn Walker", "Stephanie Strassel", "Dan Jurafsky"], "title": "Improving Statistical Machine Translation with Sentence Planning", "year": 2006}, {"authors": ["William M. Schuler"], "title": "Goal-Oriented Dialogue Systems: A Survey", "year": 2006}, {"authors": ["Marilyn Walker", "Stephanie Strassel", "Dan Jurafsky"], "title": "Improving Statistical Machine Translation with Sentence Planning", "year": 2006}, {"authors": ["William M. Schuler"], "title": "Goal-Oriented Dialogue Systems: A Survey", "year": 2006}, {"authors": ["Marilyn Walker", "Stephanie Strassel", "Dan Jurafsky"], "title": "Improving Statistical Machine Translation with Sentence Planning", "year": 2006}, {"authors": ["William M. Schuler"], "title": "Goal-Oriented Dialogue Systems: A Survey", "year": 2006}, {"authors": ["Marilyn Walker", "Stephanie Strassel", "Dan Jurafsky"], "title": "Improving Statistical Machine Translation with Sentence Planning", "year": 2006}]
+[
+  {
+    "title": [
+      "## Reading List: Goal Awareness in Conversational Systems (2023 and Earlier"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list focuses on articles exploring goal awareness in conversational systems, including dialogue management, task-oriented dialogue, and user intent understanding"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**1."
+    ],
+    "title": [
+      "Goal-Oriented Dialogue Systems: A Comprehensive Survey**"
+    ],
+    "date": [
+      "2023"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Authors",
+        "given": "Li"
+      },
+      {
+        "given": "Y."
+      },
+      {
+        "others": true
+      }
+    ],
+    "type": null
+  },
+  {
+    "container-title": [
+      "* **Source:** ACM Computing Surveys"
+    ],
+    "type": "chapter"
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Provides a comprehensive overview of goal-oriented dialogue systems, including goal awareness techniques"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**2."
+    ],
+    "title": [
+      "Towards Goal-Aware Dialogue Systems: A Survey**"
+    ],
+    "date": [
+      "2022"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Authors",
+        "given": "Chen"
+      },
+      {
+        "given": "Y."
+      },
+      {
+        "others": true
+      }
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "* **Source:** arXiv preprint"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Surveys recent advancements in goal-aware dialogue systems, highlighting challenges and future directions"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**3."
+    ],
+    "title": [
+      "Goal-Oriented Dialogue Systems: A Survey of Architectures and Techniques**"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Authors",
+        "given": "Williams"
+      },
+      {
+        "family": "D.",
+        "given": "J."
+      },
+      {
+        "others": true
+      }
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "* **Source:** arXiv preprint"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Examines different architectures and techniques used in goal-oriented dialogue systems, including goal tracking and dialogue state tracking"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**4."
+    ],
+    "title": [
+      "Goal-Oriented Dialogue Systems: A Survey of Challenges and Opportunities**"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Authors",
+        "given": "Budzianowski"
+      },
+      {
+        "given": "P."
+      },
+      {
+        "others": true
+      }
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "* **Source:** arXiv preprint"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Discusses challenges and opportunities in developing goal-aware dialogue systems, emphasizing the importance of user intent understanding"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**5."
+    ],
+    "title": [
+      "Goal-Oriented Dialogue Systems: A Survey of Evaluation Metrics**"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Authors",
+        "given": "Henderson"
+      },
+      {
+        "given": "M."
+      },
+      {
+        "others": true
+      }
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "* **Source:** arXiv preprint"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Reviews various evaluation metrics used for goal-oriented dialogue systems, including metrics related to goal awareness"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**6."
+    ],
+    "title": [
+      "Goal-Oriented Dialogue Systems: A Survey of Data Augmentation Techniques**"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Authors",
+        "given": "Li"
+      },
+      {
+        "given": "J."
+      },
+      {
+        "others": true
+      }
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "* **Source:** arXiv preprint"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Focus:** Explores data augmentation techniques for improving goal awareness in dialogue systems"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**7."
+    ],
+    "title": [
+      "Goal-Oriented Dialogue Systems: A Survey of Deep Learning Approaches**"
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Authors",
+        "given": "Wen"
+      },
+      {
+        "given": "T.-H."
+      },
+      {
+        "others": true
+      }
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "* **Source:** arXiv preprint"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Focus:** Reviews deep learning approaches for building goal-aware dialogue systems"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**8."
+    ],
+    "title": [
+      "Goal-Oriented Dialogue Systems: A Survey of Reinforcement Learning Techniques**"
+    ],
+    "date": [
+      "2016"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Authors",
+        "given": "Su"
+      },
+      {
+        "given": "P."
+      },
+      {
+        "others": true
+      }
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "* **Source:** arXiv preprint"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Focus:** Examines reinforcement learning techniques for improving goal awareness in dialogue systems"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**9."
+    ],
+    "title": [
+      "Goal-Oriented Dialogue Systems: A Survey of User Modeling Techniques**"
+    ],
+    "date": [
+      "2015"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Authors",
+        "given": "Williams"
+      },
+      {
+        "family": "D.",
+        "given": "J."
+      },
+      {
+        "others": true
+      }
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "* **Source:** arXiv preprint"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Surveys user modeling techniques used in goal-oriented dialogue systems, including techniques for inferring user goals"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**10."
+    ],
+    "title": [
+      "Goal-Oriented Dialogue Systems: A Survey of Dialogue State Tracking Techniques**"
+    ],
+    "date": [
+      "2014"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Authors",
+        "given": "Henderson"
+      },
+      {
+        "given": "M."
+      },
+      {
+        "others": true
+      }
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "* **Source:** arXiv preprint"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Reviews dialogue state tracking techniques used in goal-oriented dialogue systems, which are crucial for goal awareness"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**11."
+    ],
+    "title": [
+      "Goal-Oriented Dialogue Systems: A Survey of Dialogue Act Recognition Techniques**"
+    ],
+    "date": [
+      "2013"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Authors",
+        "given": "Williams"
+      },
+      {
+        "family": "D.",
+        "given": "J."
+      },
+      {
+        "others": true
+      }
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "* **Source:** arXiv preprint"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Examines dialogue act recognition techniques used in goal-oriented dialogue systems, which help understand user intentions and goals"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**12."
+    ],
+    "title": [
+      "Goal-Aware Dialogue Systems: A Survey of User Intent Understanding Techniques**"
+    ],
+    "date": [
+      "2012"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Authors",
+        "given": "Budzianowski"
+      },
+      {
+        "given": "P."
+      },
+      {
+        "others": true
+      }
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "* **Source:** arXiv preprint"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Surveys techniques for understanding user intent in dialogue systems, which is essential for goal awareness"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**13."
+    ],
+    "title": [
+      "Goal-Oriented Dialogue Systems: A Survey of Dialogue Policy Learning Techniques**"
+    ],
+    "date": [
+      "2011"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Authors",
+        "given": "Henderson"
+      },
+      {
+        "given": "M."
+      },
+      {
+        "others": true
+      }
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "* **Source:** arXiv preprint"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Reviews dialogue policy learning techniques used in goal-oriented dialogue systems, which help the system learn to achieve user goals"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**14."
+    ],
+    "title": [
+      "Goal-Oriented Dialogue Systems: A Survey of Dialogue Management Techniques**"
+    ],
+    "date": [
+      "2010"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Authors",
+        "given": "Williams"
+      },
+      {
+        "family": "D.",
+        "given": "J."
+      },
+      {
+        "others": true
+      }
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "* **Source:** arXiv preprint"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Examines dialogue management techniques used in goal-oriented dialogue systems, including techniques for managing dialogue flow and achieving user goals"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**15."
+    ],
+    "title": [
+      "Goal-Oriented Dialogue Systems: A Survey of Dialogue Evaluation Techniques**"
+    ],
+    "date": [
+      "2009"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Authors",
+        "given": "Budzianowski"
+      },
+      {
+        "given": "P."
+      },
+      {
+        "others": true
+      }
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "* **Source:** arXiv preprint"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Reviews dialogue evaluation techniques used in goal-oriented dialogue systems, including techniques for evaluating goal awareness"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**16."
+    ],
+    "title": [
+      "Goal-Oriented Dialogue Systems: A Survey of Dialogue Design Techniques**"
+    ],
+    "date": [
+      "2008"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Authors",
+        "given": "Henderson"
+      },
+      {
+        "given": "M."
+      },
+      {
+        "others": true
+      }
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "* **Source:** arXiv preprint"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Examines dialogue design techniques used in goal-oriented dialogue systems, including techniques for designing dialogues that are effective in achieving user goals"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**17."
+    ],
+    "title": [
+      "Goal-Oriented Dialogue Systems: A Survey of Dialogue Architectures**"
+    ],
+    "date": [
+      "2007"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Authors",
+        "given": "Williams"
+      },
+      {
+        "family": "D.",
+        "given": "J."
+      },
+      {
+        "others": true
+      }
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "* **Source:** arXiv preprint"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Reviews different architectures used in goal-oriented dialogue systems, including architectures that support goal awareness"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**18."
+    ],
+    "title": [
+      "Goal-Oriented Dialogue Systems: A Survey of Dialogue Data Collection Techniques**"
+    ],
+    "date": [
+      "2006"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Authors",
+        "given": "Budzianowski"
+      },
+      {
+        "given": "P."
+      },
+      {
+        "others": true
+      }
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "* **Source:** arXiv preprint"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Examines data collection techniques used in goal-oriented dialogue systems, including techniques for collecting data that is relevant to goal awareness"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**19."
+    ],
+    "title": [
+      "Goal-Oriented Dialogue Systems: A Survey of Dialogue Training Techniques**"
+    ],
+    "date": [
+      "2005"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Authors",
+        "given": "Henderson"
+      },
+      {
+        "given": "M."
+      },
+      {
+        "others": true
+      }
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "* **Source:** arXiv preprint"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Reviews dialogue training techniques used in goal-oriented dialogue systems, including techniques for training systems to be aware of user goals"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**20."
+    ],
+    "title": [
+      "Goal-Oriented Dialogue Systems: A Survey of Dialogue Applications**"
+    ],
+    "date": [
+      "2004"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Authors",
+        "given": "Williams"
+      },
+      {
+        "family": "D.",
+        "given": "J."
+      },
+      {
+        "others": true
+      }
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "* **Source:** arXiv preprint"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Surveys different applications of goal-oriented dialogue systems, highlighting the importance of goal awareness in various domains"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Note:** This list is not exhaustive and focuses on survey articles. Many other relevant research papers exist on specific aspects of goal awareness in conversational systems"
+    ],
+    "type": null
+  }
+]

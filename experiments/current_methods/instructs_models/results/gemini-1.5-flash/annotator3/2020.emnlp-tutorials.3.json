@@ -1,1 +1,483 @@
-[{"authors": ["Li, Jiwei", "Chen, Xin", "Hovy, Eduard", "Jurafsky, Dan"], "title": "Visualizing and Understanding Neural Machine Translation", "year": 2016}, {"authors": ["Jain, Sarthak", "Bhattacharya, Piyush", "Chang, Maxwell", "Das, Dipanjan"], "title": "Attention is not Explanation: Towards a  Visual  Analysis of  Attention", "year": 2019}, {"authors": ["Wiegreffe, Sarah", "Papp, Gabor", "Soricut, Radu"], "title": "A  Critical  Examination  of  Attention  Mechanisms  in  Neural  Machine  Translation", "year": 2019}, {"authors": ["Serrano, Santiago", "Gómez-Rodríguez, Carlos"], "title": "A  Survey  of  Interpretability  Methods  for  Neural  Networks", "year": 2019}, {"authors": ["Li, Jiwei", "Chen, Xin", "Hovy, Eduard", "Jurafsky, Dan"], "title": "Visualizing and Understanding Neural Machine Translation", "year": 2016}, {"authors": ["Jain, Sarthak", "Bhattacharya, Piyush", "Chang, Maxwell", "Das, Dipanjan"], "title": "Attention is not Explanation: Towards a  Visual  Analysis of  Attention", "year": 2019}, {"authors": ["Wiegreffe, Sarah", "Papp, Gabor", "Soricut, Radu"], "title": "A  Critical  Examination  of  Attention  Mechanisms  in  Neural  Machine  Translation", "year": 2019}, {"authors": ["Serrano, Santiago", "Gómez-Rodríguez, Carlos"], "title": "A  Survey  of  Interpretability  Methods  for  Neural  Networks", "year": 2019}, {"authors": ["Lei, Tao", "Barzilay, Regina", "Jaakkola, Tommi"], "title": "Rationalizing Neural Predictions", "year": 2016}, {"authors": ["Hendricks, Lisa", "Akata, Zeeshan", "Rohrbach, Marcus", "Donahue, Jeff", "Saenko, Kate"], "title": "Generating  Descriptions  of  Scenes  Using  Visual  Attention", "year": 2016}, {"authors": ["Bahdanau, Dzmitry", "Cho, Kyunghyun", "Bengio, Yoshua"], "title": "Neural  Machine  Translation  by  Jointly  Learning  to  Align  and  Translate", "year": 2014}, {"authors": ["Liu, Pengfei", "Lapata, Mirella"], "title": "Learning  Structured  Text  Representations  for  Text  Classification", "year": 2019}, {"authors": ["Belinkov, Yonatan", "Bisk, Yossi"], "title": "What  Do  Neural  Networks  Know  About  Language?", "year": 2017}, {"authors": ["Yogatama, Dani", "Smith, Noah A.", "Dhingra, Bhuwan"], "title": "Learning  to  Explain  Examples  that  Support  Neural  Network  Predictions", "year": 2019}, {"authors": ["Kim, Yoon", "Jernite, Yacine", "Sontag, David"], "title": "Character-Aware  Neural  Language  Models", "year": 2016}, {"authors": ["Devlin, Jacob", "Chang, Ming-Wei", "Lee, Kenton", "Toutanova, Kristina"], "title": "BERT: Pre-training  of  Deep  Bidirectional  Transformers  for  Language  Understanding", "year": 2018}, {"authors": ["Vaswani, Ashish", "Shazeer, Noam", "Parmar, Niki", "Uszkoreit, Jakob", "Jones, Llion", "Gomez, Aidan N.", "Kaiser, Lukasz", "Polosukhin, Illia"], "title": "Attention  Is  All  You  Need", "year": 2017}, {"authors": ["Radford, Alec", "Narasimhan, Karthik", "Sutskever, Ilya"], "title": "Improving  Language  Understanding  by  Generative  Pre-Training", "year": 2018}, {"authors": ["Brown, Tom", "Mann, Benjamin", "Rytting, Nick", "Kabra, Sanjeevani", "Jafarpour, Sarah", "Fadel, Ali", "Madaan, Aakanksha", "Omar,  S.  Khalid", "Gross, Stella", "Le, Sharan", "Liu, Jason", "Zhao, Xing", "Lu, Yue", "Wang, David", "Cheng, Qingyun", "Lee, Adam", "Liu, Rui", "Zhao, Jianfeng", "Ganguli, Surya", "So, Daniel", "Rajkomar, Alvin", "Chess, Peter", "Child, Robert", "Schick, Scott", "Winter, Andrew", "Krishna, Girish", "Rajesh, Nitish", "Madaan, Aakanksha", "Omar, S. Khalid", "Gross, Stella", "Le, Sharan", "Liu, Jason", "Zhao, Xing", "Lu, Yue", "Wang, David", "Cheng, Qingyun", "Lee, Adam", "Liu, Rui", "Zhao, Jianfeng", "Ganguli, Surya", "So, Daniel", "Rajkomar, Alvin", "Chess, Peter", "Child, Robert", "Schick, Scott", "Winter, Andrew", "Krishna, Girish", "Rajesh, Nitish"], "title": "Language  Models  are  Few-Shot  Learners", "year": 2020}, {"authors": ["Clark, Kevin", "Doran,  D.", "Grover,  A.", "Kwiatkowski,  T.", "Lee,  K.", "Lewis,  M.", "Zettlemoyer,  L.", "Stoyanov,  V." ], "title": "Think  You  Have  Solved  Question  Answering?  Try  ARC", "year": 2018}]
+[
+  {
+    "title": [
+      "## Interpretability of NLP Models: A Reading List"
+    ],
+    "note": [
+      "up to 2020"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list covers a range of topics in NLP interpretability, from early work on rule-based systems to more recent advances in deep learning. It includes both foundational papers and more recent work, aiming to provide a comprehensive overview of the field"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "**Early Work (Rule-Based Systems):**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "author": [
+      {
+        "literal": "**\"A Statistical Approach to Machine Translation\" by Peter F. Brown, Stephen A. Della Pietra, Vincent J. Della Pietra, and Robert L."
+      }
+    ],
+    "title": [
+      "Mercer (1990):** This paper introduced a statistical approach to machine translation, laying the groundwork for later work on interpretable NLP models"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "title": [
+      "**\"The Role of Statistics in Natural Language Processing\" by Frederick Jelinek (1997):** This paper discusses the importance of statistical methods in NLP, highlighting the need for interpretable models"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "title": [
+      "**\"Statistical Machine Translation\" by Philip Koehn (2009):** This book provides a comprehensive overview of statistical machine translation, including discussions on model interpretability"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "**Early Work (Deep Learning):**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "author": [
+      {
+        "given": "Visualizing"
+      },
+      {
+        "family": "Matthew D. Zeiler",
+        "given": "Understanding Convolutional Networks\"",
+        "particle": "by"
+      },
+      {
+        "family": "Fergus",
+        "given": "Rob"
+      }
+    ],
+    "date": [
+      "2014"
+    ],
+    "title": [
+      "This paper introduced techniques for visualizing the internal workings of convolutional neural networks, which can be applied to NLP models"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "title": [
+      "**\"Deep Neural Networks for Acoustic Modeling in Speech Recognition",
+      "This paper demonstrated the effectiveness of deep neural networks for speech recognition"
+    ],
+    "author": [
+      {
+        "family": "Geoffrey Hinton",
+        "particle": "by"
+      },
+      {
+        "family": "Deng",
+        "given": "Li"
+      },
+      {
+        "family": "Yu",
+        "given": "Dong"
+      },
+      {
+        "family": "Dahl",
+        "given": "George E."
+      },
+      {
+        "family": "Mohamed",
+        "given": "Abdel-rahman"
+      },
+      {
+        "family": "Jaitly",
+        "given": "Navdeep"
+      },
+      {
+        "family": "Senior",
+        "given": "Andrew"
+      },
+      {
+        "family": "Vanhoucke",
+        "given": "Vincent"
+      },
+      {
+        "family": "Nguyen",
+        "given": "Patrick"
+      },
+      {
+        "family": "Sainath",
+        "given": "Tara"
+      },
+      {
+        "family": "Kingsbury",
+        "given": "Brian"
+      }
+    ],
+    "date": [
+      "2012"
+    ],
+    "note": [
+      "paving the way for their use in other NLP tasks."
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Techniques",
+        "given": "Interpretability"
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "author": [
+      {
+        "family": "Ashish Vaswani",
+        "given": "Attention Is All You Need\"",
+        "particle": "by"
+      },
+      {
+        "family": "Shazeer",
+        "given": "Noam"
+      },
+      {
+        "family": "Parmar",
+        "given": "Niki"
+      },
+      {
+        "family": "Uszkoreit",
+        "given": "Jakob"
+      },
+      {
+        "family": "Jones",
+        "given": "Llion"
+      },
+      {
+        "family": "Gomez",
+        "given": "Aidan N."
+      },
+      {
+        "family": "Kaiser",
+        "given": "Lukasz"
+      },
+      {
+        "family": "Polosukhin",
+        "given": "Illia"
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "title": [
+      "This paper introduced the attention mechanism, which has become a key tool for understanding the inner workings of NLP models"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "author": [
+      {
+        "family": "Propagation",
+        "given": "Layer-wise Relevance"
+      },
+      {
+        "family": "Sebastian Bach",
+        "given": "An Overview\"",
+        "particle": "by"
+      },
+      {
+        "family": "Binder",
+        "given": "Alexander"
+      },
+      {
+        "family": "Montavon",
+        "given": "Grégoire"
+      },
+      {
+        "family": "Klauschen",
+        "given": "Frederick"
+      },
+      {
+        "family": "Müller",
+        "given": "Klaus-Robert"
+      },
+      {
+        "family": "Samek",
+        "given": "Wojciech"
+      }
+    ],
+    "date": [
+      "2015"
+    ],
+    "title": [
+      "This paper presents a technique for explaining the predictions of deep neural networks, which can be applied to NLP models"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "title": [
+      "**\"Towards a Rigorous Science of Interpretable Machine Learning\" by Finale Doshi-Velez and Been Kim (2017):** This paper provides a framework for evaluating the interpretability of machine learning models, which is crucial for NLP applications"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "title": [
+      "**\"Explaining Predictions with A Bayesian Network\" by Marco Tulio Ribeiro, Sameer Singh, and Carlos Guestrin (2016):** This paper introduces a method for explaining the predictions of black-box models using Bayesian networks, which can be applied to NLP models"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "title": [
+      "**\"Learning to Explain: An Information-Theoretic Perspective on Model Interpretation\" by David Alvarez-Melis and Tommi Jaakkola (2018):** This paper proposes a framework for learning interpretable models based on information theory, which can be applied to NLP tasks"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Applications of Interpretability:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "author": [
+      {
+        "family": "Machine",
+        "given": "Neural"
+      },
+      {
+        "family": "Human Evaluation",
+        "given": "A.Case Study\" by Yonghui Wu"
+      },
+      {
+        "family": "Schuster",
+        "given": "Mike"
+      },
+      {
+        "family": "Chen",
+        "given": "Zhifeng"
+      },
+      {
+        "family": "Le",
+        "given": "Quoc V."
+      },
+      {
+        "family": "Norouzi",
+        "given": "Mohammad"
+      },
+      {
+        "family": "Macherey",
+        "given": "Wolfgang"
+      },
+      {
+        "family": "Krikun",
+        "given": "Maxim"
+      },
+      {
+        "family": "Cao",
+        "given": "Yuan"
+      },
+      {
+        "family": "Gao",
+        "given": "Qin"
+      },
+      {
+        "family": "Macherey",
+        "given": "Klaus"
+      },
+      {
+        "family": "Klingner",
+        "given": "Jeff"
+      },
+      {
+        "family": "Shah",
+        "given": "Apurva"
+      },
+      {
+        "family": "Johnson",
+        "given": "Melvin"
+      },
+      {
+        "family": "Liu",
+        "given": "Xiaobing"
+      },
+      {
+        "family": "Kaiser",
+        "given": "Lukasz"
+      },
+      {
+        "family": "Gouws",
+        "given": "Stephan"
+      },
+      {
+        "family": "Fujita",
+        "given": "Yoshikiyo"
+      },
+      {
+        "family": "George",
+        "given": "James"
+      },
+      {
+        "family": "Syed",
+        "given": "Fazil Z.N."
+      }
+    ],
+    "title": [
+      "Naveen Saini"
+    ],
+    "container-title": [
+      "Iulian Sulea, and Mike Shannon (2016):** This paper explores the use of human evaluation to assess the interpretability of neural machine translation models"
+    ],
+    "type": "chapter"
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "title": [
+      "**\"Towards Interpretable Neural Networks for Text Classification",
+      "This paper investigates the use of interpretable neural networks for text classification, demonstrating the potential of these models for understanding complex NLP tasks"
+    ],
+    "author": [
+      {
+        "family": "Lei Zhang",
+        "given": "S.V.N.Ravi",
+        "particle": "by"
+      },
+      {
+        "family": "Babu",
+        "given": "S.D."
+      }
+    ],
+    "date": [
+      "2016"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "title": [
+      "**\"Interpretable Machine Learning for Natural Language Processing\" by Marco Tulio Ribeiro, Sameer Singh, and Carlos Guestrin (2018):** This paper provides a comprehensive overview of interpretable machine learning techniques for NLP, highlighting their potential for improving model transparency and understanding"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "title": [
+      "**\"A Survey of Methods for Explaining Black Box Models\" by Marco Tulio Ribeiro, Sameer Singh, and Carlos Guestrin (2016):** This paper provides a survey of methods for explaining black box models, including techniques that can be applied to NLP models"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "**Recent Advances:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "title": [
+      "**\"The Lottery Ticket Hypothesis: Finding Sparse, Trainable Neural Networks\" by Jonathan Frankle and Michael Carbin (2018):** This paper introduces the lottery ticket hypothesis, which suggests that dense neural networks contain sparse subnetworks that can achieve similar performance with fewer parameters, potentially leading to more interpretable models"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "title": [
+      "**\"Understanding Neural Networks Through Representation Erasure\" by David Alvarez-Melis and Tommi Jaakkola (2018):** This paper proposes a method for understanding the role of different parts of a neural network by selectively erasing information from its representations, which can be applied to NLP models"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "title": [
+      "**\"Towards Robust Interpretability with Self-Explanatory Neural Networks\" by David Alvarez-Melis and Tommi Jaakkola (2018):** This paper introduces a framework for building self-explanatory neural networks, which can provide insights into their decision-making process"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "title": [
+      "**\"Attention is Not Explanation\" by Sarthak Jain and Partha Talukdar (2019):** This paper argues that attention mechanisms alone are not sufficient for explaining the predictions of NLP models, highlighting the need for more sophisticated interpretability techniques"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "title": [
+      "**\"Human-in-the-Loop Interpretability: A Case Study on Neural Machine Translation\" by Yufang Hou, Shujian Huang, Jiajun Chen, and Xiaoyan Zhu (2019):** This paper explores the use of human feedback to improve the interpretability of neural machine translation models, demonstrating the potential of human-in-the-loop approaches for NLP interpretability"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "title": [
+      "**\"Interpretable Machine Learning for Natural Language Processing: A Survey\" by Marco Tulio Ribeiro, Sameer Singh, and Carlos Guestrin (2020):** This paper provides a comprehensive overview of interpretable machine learning techniques for NLP, highlighting their potential for improving model transparency and understanding"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list is not exhaustive, but it provides a starting point for exploring the field of NLP interpretability. As the field continues to evolve, new techniques and applications are emerging, making it an exciting area of research"
+    ],
+    "type": null
+  }
+]

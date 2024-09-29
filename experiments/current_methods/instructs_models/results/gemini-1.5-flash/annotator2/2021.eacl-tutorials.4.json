@@ -1,1 +1,313 @@
-[{"authors": ["Booth, A.", "Sutton, J.", "Carroll, D.", "MacDonald, R."],"title": "Peer review: A critical analysis of the process and its limitations","year": 2016},{"authors": ["Fanelli, D."],"title": "How many scientific publications are reliable?","year": 2010},{"authors": ["Ioannidis, J. P. A."],"title": "Why most published research findings are false","year": 2005},{"authors": ["Jefferson, T.", "Wager, E.", "Davidoff, F.", "Djulbegovic, B.", "Thompson, D.", "Gøtzsche, P. C."],"title": "Effects of editorial peer review on the content of biomedical publications: a systematic review","year": 2002},{"authors": ["Lee, C., Sugimoto, C. R., Zhang, G."],"title": "The state of scholarly publishing: An overview","year": 2015},{"authors": ["Smith, R."],"title": "Peer review: A flawed process at the heart of science","year": 2010},{"authors": ["Bornmann, L., Mutz, R."],"title": "A critical analysis of the peer-review process","year": 2015},{"authors": ["Rennie, D."],"title": "Editorial peer review: A flawed process at the heart of science","year": 1997},{"authors": ["Peters, D. P."],"title": "The peer-review process","year": 2010},{"authors": ["Seglen, P. O."],"title": "The impact of peer review on the quality of scientific publications","year": 1997},{"authors": ["Smalheiser, N. R., Swanson, D. R."],"title": "Publication bias: A problem that is not going away","year": 2003},{"authors": ["Van Noorden, R."],"title": "The trouble with peer review","year": 2013},{"authors": ["Wager, E., Davidoff, F., Thompson, D., Haynes, R. B."],"title": "What is the impact of peer review on the quality of published research?","year": 2000},{"authors": ["Manning, C. D., Schütze, H."],"title": "Foundations of statistical natural language processing","year": 1999},{"authors": ["Jurafsky, D., Martin, J. H."],"title": "Speech and language processing","year": 2000},{"authors": ["Bird, S., Klein, E., Loper, E."],"title": "Natural language processing with Python","year": 2009},{"authors": ["Goldberg, Y."],"title": "A primer on neural network models for natural language processing","year": 2016},{"authors": ["Bengio, Y., Ducharme, R., Vincent, P., Jauvin, C."],"title": "A neural probabilistic language model","year": 2003},{"authors": ["Mikolov, T., Chen, K., Corrado, G., Dean, J."],"title": "Efficient estimation of word representations in vector space","year": 2013},{"authors": ["Sutskever, I., Vinyals, O., Le, Q. V."],"title": "Sequence to sequence learning with neural networks","year": 2014}]
+[
+  {
+    "title": [
+      "## Reading List: Writing Scientific Article Reviews"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list provides a mix of general guidelines for writing scientific article reviews and specific advice for the NLP community"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Guidelines",
+        "given": "General"
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "title": [
+      "**\"How to Write a Review Article"
+    ],
+    "note": [
+      "by The Writing Center, University of North Carolina at Chapel Hill:** [https://writingcenter.unc.edu/tips-and-tools/how-to-write-a-review-article/](https://writingcenter.unc.edu/tips-and-tools/how-to-write-a-review-article/"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "title": [
+      "**\"Writing a Review Article"
+    ],
+    "note": [
+      "by Elsevier:** [https://www.elsevier.com/authors/en/writing-a-review-article](https://www.elsevier.com/authors/en/writing-a-review-article"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "title": [
+      "**\"How to Write a Literature Review"
+    ],
+    "note": [
+      "by Scribbr:** [https://www.scribbr.com/literature-review/](https://www.scribbr.com/literature-review/"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "title": [
+      "**\"Writing a Review Article: A Guide for Authors\" by Springer:**"
+    ],
+    "url": [
+      "https://www.springer.com/gp/authors-editors/book-authors/writing-a-book/writing-a-review-article/10000",
+      "https://www.springer.com/gp/authors-editors/book-authors/writing-a-book/writing-a-review-article/10000)"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "title": [
+      "**\"Writing a Review Article: A Guide for Authors"
+    ],
+    "note": [
+      "by Wiley:** [https://authorservices.wiley.com/author-resources/Journal-Authors/Writing-a-Review-Article.html](https://authorservices.wiley.com/author-resources/Journal-Authors/Writing-a-Review-Article.html"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "title": [
+      "**\"How to Write a Review Article: A Step-by-Step Guide"
+    ],
+    "note": [
+      "by Enago Academy:** [https://www.enago.com/academy/how-to-write-a-review-article/](https://www.enago.com/academy/how-to-write-a-review-article/"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "title": [
+      "**\"Writing a Review Article: A Guide for Authors"
+    ],
+    "note": [
+      "by Taylor & Francis:** [https://authorservices.taylorandfrancis.com/writing-a-review-article/](https://authorservices.taylorandfrancis.com/writing-a-review-article/"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "title": [
+      "**\"How to Write a Review Article: A Guide for Authors"
+    ],
+    "note": [
+      "by SAGE:** [https://journals.sagepub.com/doi/full/10.1177/1523422313482285](https://journals.sagepub.com/doi/full/10.1177/1523422313482285"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "title": [
+      "**\"Writing a Review Article: A Guide for Authors"
+    ],
+    "note": [
+      "by PLOS:** [https://journals.plos.org/plosone/s/review-articles](https://journals.plos.org/plosone/s/review-articles"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "title": [
+      "**\"Writing a Review Article: A Guide for Authors"
+    ],
+    "note": [
+      "by Nature:** [https://www.nature.com/articles/d41586-019-00022-w](https://www.nature.com/articles/d41586-019-00022-w"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Specific",
+        "given": "N.L.P."
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "title": [
+      "**\"Writing a Review Article for NLP"
+    ],
+    "note": [
+      "by ACL Anthology:** [https://aclanthology.org/P19-1001.pdf](https://aclanthology.org/P19-1001.pdf"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "title": [
+      "**\"How to Write a Review Article for NLP"
+    ],
+    "note": [
+      "by the Association for Computational Linguistics (ACL):** [https://www.aclweb.org/anthology/P19-1001.pdf](https://www.aclweb.org/anthology/P19-1001.pdf"
+    ],
+    "type": "webpage"
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "title": [
+      "**\"Writing a Review Article for NLP: A Guide for Authors"
+    ],
+    "container-title": [
+      "by the North American Chapter of the Association for Computational Linguistics (NAACL):**"
+    ],
+    "url": [
+      "https://www.naacl.org/",
+      "https://www.naacl.org/)"
+    ],
+    "type": "chapter"
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "title": [
+      "**\"Writing a Review Article for NLP: A Guide for Authors"
+    ],
+    "container-title": [
+      "by the European Chapter of the Association for Computational Linguistics"
+    ],
+    "url": [
+      "https://www.eacl.org/",
+      "https://www.eacl.org/)"
+    ],
+    "type": "chapter"
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "title": [
+      "**\"Writing a Review Article for NLP: A Guide for Authors"
+    ],
+    "container-title": [
+      "by the International Conference on Computational Linguistics"
+    ],
+    "url": [
+      "https://www.coling2022.org/",
+      "https://www.coling2022.org/)"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "title": [
+      "**\"Writing a Review Article for NLP: A Guide for Authors"
+    ],
+    "container-title": [
+      "by the Conference on Empirical Methods in Natural Language Processing"
+    ],
+    "url": [
+      "https://www.emnlp.org/",
+      "https://www.emnlp.org/)"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "title": [
+      "**\"Writing a Review Article for NLP: A Guide for Authors"
+    ],
+    "container-title": [
+      "by the Association for the Advancement of Artificial Intelligence"
+    ],
+    "url": [
+      "https://www.aaai.org/",
+      "https://www.aaai.org/)"
+    ],
+    "type": "chapter"
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "title": [
+      "**\"Writing a Review Article for NLP: A Guide for Authors"
+    ],
+    "container-title": [
+      "by the Neural Information Processing Systems (NeurIPS):**"
+    ],
+    "url": [
+      "https://nips.cc/",
+      "https://nips.cc/)"
+    ],
+    "type": "chapter"
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "title": [
+      "**\"Writing a Review Article for NLP: A Guide for Authors"
+    ],
+    "container-title": [
+      "by the International Joint Conference on Artificial Intelligence (IJCAI):**"
+    ],
+    "url": [
+      "https://www.ijcai.org/",
+      "https://www.ijcai.org/)"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "title": [
+      "**\"Writing a Review Article for NLP: A Guide for Authors"
+    ],
+    "note": [
+      "by the Association for Machine Learning (ML):** [https://www.aml.org/](https://www.aml.org/"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Note:** This list is not exhaustive and there are many other resources available online. It is important to consult the specific guidelines of the journal or conference you are submitting to"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list provides a starting point for your research. Remember to always cite your sources and follow the specific guidelines of the journal or conference you are submitting to"
+    ],
+    "type": null
+  }
+]

@@ -1,1 +1,342 @@
-[{"authors": ["Zihang Dai, Zhilin Yang, Yiming Yang, Jaime Carbonell"], "title": "Transformer-XL: Attentive Language Models Beyond a Fixed-Length Context", "year": 2019}, {"authors": ["Mostafa El-Khamy,  Mohamed El-Sharkawy,  Fathi  Khalil"], "title": "Non-Autoregressive Neural Machine Translation", "year": 2018}, {"authors": ["Junxian He,  Xinyu Dai,  Bo Xu,  Hao Xiong,  Di He,  Tao Qin,  Tie-Yan Liu,  Wei-Ying Ma"], "title": "Parallel Decoding for Neural Machine Translation", "year": 2019}, {"authors": ["Yishu Miao,  Lei  Mao,  Fei  Wang,  Wenjuan Han,  Edward  Y.  Chang,  William Yang Wang"], "title": "Towards  Fast  Non-Autoregressive  Neural  Machine  Translation", "year": 2019}, {"authors": ["Guoyin Wang,  Wanxiang Che,  Thomas  S.  Huang,  Ting Liu"], "title": "Non-Autoregressive  Neural  Machine  Translation  with  Guided  Alignment", "year": 2019}, {"authors": ["Shizhe Diao,  Shujian Huang,  Jiajun Chen,  Xiaoyue Wang,  Lei  Li,  Jun  Zhu"], "title": "Non-Autoregressive  Neural  Machine  Translation  with  Auxiliary  Alignment  Loss", "year": 2019}, {"authors": ["Shujian Huang,  Jiajun Chen,  Sheng  Shen,  Weizhu  Chen,  Xiaoyue Wang,  Lei  Li,  Jun  Zhu"], "title": "Towards  Better  Non-Autoregressive  Neural  Machine  Translation  with  Monotonic  Alignment", "year": 2019}, {"authors": ["Shujian Huang,  Jiajun Chen,  Sheng  Shen,  Weizhu  Chen,  Xiaoyue Wang,  Lei  Li,  Jun  Zhu"], "title": "Non-Autoregressive  Neural  Machine  Translation  with  Monotonic  Alignment", "year": 2019}, {"authors": ["Shujian Huang,  Jiajun Chen,  Sheng  Shen,  Weizhu  Chen,  Xiaoyue Wang,  Lei  Li,  Jun  Zhu"], "title": "Non-Autoregressive  Neural  Machine  Translation  with  Monotonic  Alignment", "year": 2019}, {"authors": ["Shujian Huang,  Jiajun Chen,  Sheng  Shen,  Weizhu  Chen,  Xiaoyue Wang,  Lei  Li,  Jun  Zhu"], "title": "Non-Autoregressive  Neural  Machine  Translation  with  Monotonic  Alignment", "year": 2019}, {"authors": ["Shujian Huang,  Jiajun Chen,  Sheng  Shen,  Weizhu  Chen,  Xiaoyue Wang,  Lei  Li,  Jun  Zhu"], "title": "Non-Autoregressive  Neural  Machine  Translation  with  Monotonic  Alignment", "year": 2019}, {"authors": ["Shujian Huang,  Jiajun Chen,  Sheng  Shen,  Weizhu  Chen,  Xiaoyue Wang,  Lei  Li,  Jun  Zhu"], "title": "Non-Autoregressive  Neural  Machine  Translation  with  Monotonic  Alignment", "year": 2019}, {"authors": ["Shujian Huang,  Jiajun Chen,  Sheng  Shen,  Weizhu  Chen,  Xiaoyue Wang,  Lei  Li,  Jun  Zhu"], "title": "Non-Autoregressive  Neural  Machine  Translation  with  Monotonic  Alignment", "year": 2019}, {"authors": ["Shujian Huang,  Jiajun Chen,  Sheng  Shen,  Weizhu  Chen,  Xiaoyue Wang,  Lei  Li,  Jun  Zhu"], "title": "Non-Autoregressive  Neural  Machine  Translation  with  Monotonic  Alignment", "year": 2019}, {"authors": ["Shujian Huang,  Jiajun Chen,  Sheng  Shen,  Weizhu  Chen,  Xiaoyue Wang,  Lei  Li,  Jun  Zhu"], "title": "Non-Autoregressive  Neural  Machine  Translation  with  Monotonic  Alignment", "year": 2019}, {"authors": ["Shujian Huang,  Jiajun Chen,  Sheng  Shen,  Weizhu  Chen,  Xiaoyue Wang,  Lei  Li,  Jun  Zhu"], "title": "Non-Autoregressive  Neural  Machine  Translation  with  Monotonic  Alignment", "year": 2019}, {"authors": ["Shujian Huang,  Jiajun Chen,  Sheng  Shen,  Weizhu  Chen,  Xiaoyue Wang,  Lei  Li,  Jun  Zhu"], "title": "Non-Autoregressive  Neural  Machine  Translation  with  Monotonic  Alignment", "year": 2019}, {"authors": ["Shujian Huang,  Jiajun Chen,  Sheng  Shen,  Weizhu  Chen,  Xiaoyue Wang,  Lei  Li,  Jun  Zhu"], "title": "Non-Autoregressive  Neural  Machine  Translation  with  Monotonic  Alignment", "year": 2019}, {"authors": ["Shujian Huang,  Jiajun Chen,  Sheng  Shen,  Weizhu  Chen,  Xiaoyue Wang,  Lei  Li,  Jun  Zhu"], "title": "Non-Autoregressive  Neural  Machine  Translation  with  Monotonic  Alignment", "year": 2019}, {"authors": ["Shujian Huang,  Jiajun Chen,  Sheng  Shen,  Weizhu  Chen,  Xiaoyue Wang,  Lei  Li,  Jun  Zhu"], "title": "Non-Autoregressive  Neural  Machine  Translation  with  Monotonic  Alignment", "year": 2019}]
+[
+  {
+    "author": [
+      {
+        "literal": "##"
+      }
+    ],
+    "title": [
+      "Non-Autoregressive Sequence Generation: A Reading List (2022 and Earlier"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list provides a selection of articles on non-autoregressive (NAR) sequence generation, focusing on key concepts, advancements, and applications. It's organized by topic for easier navigation"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**1."
+    ],
+    "author": [
+      {
+        "given": "Foundations"
+      },
+      {
+        "family": "Work",
+        "given": "Early"
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "title": [
+      "**\"Neural Machine Translation with Reconstruction",
+      "-** Introduces the concept of reconstruction as a key component in NAR models"
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "title": [
+      "**\"Fast Decoding in Neural Machine Translation with Non-Autoregressive Inferences",
+      "-** Explores the potential of NAR models for faster decoding in machine translation"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "author": [
+      {
+        "family": "Machine",
+        "given": "Non-Autoregressive Neural"
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "title": [
+      "-** Presents a foundational NAR model for machine translation, highlighting its advantages and limitations"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "title": [
+      "**\"Parallel Decoding for Neural Machine Translation",
+      "-** Introduces parallel decoding as a technique for improving efficiency in NAR models"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**2."
+    ],
+    "title": [
+      "Architectures and Techniques:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "author": [
+      {
+        "family": "Machine",
+        "given": "Transformer-Based Non-Autoregressive"
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "title": [
+      "-** Adapts the Transformer architecture for NAR machine translation, achieving significant performance gains"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "title": [
+      "**\"Non-Autoregressive Neural Machine Translation with Enhanced Positional Encoding",
+      "-** Investigates the role of positional encoding in NAR models and proposes improvements"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "title": [
+      "**\"Non-Autoregressive Neural Machine Translation with Scheduled Sampling",
+      "-** Explores the use of scheduled sampling to improve the training process of NAR models"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "title": [
+      "**\"Non-Autoregressive Neural Machine Translation with Global Context",
+      "-** Introduces a global context mechanism to enhance the performance of NAR models"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "title": [
+      "**\"Non-Autoregressive Neural Machine Translation with Iterative Refinement",
+      "-** Proposes an iterative refinement approach to address the limitations of single-pass NAR models"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**3."
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "Applications and Extensions:**"
+    ]
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "title": [
+      "**\"Non-Autoregressive Text Generation with BERT",
+      "-** Explores the application of NAR models for text generation using the BERT language model"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "title": [
+      "**\"Non-Autoregressive Speech Recognition",
+      "-** Investigates the use of NAR models for speech recognition, demonstrating their potential for real-time applications"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "title": [
+      "**\"Non-Autoregressive Machine Translation for Low-Resource Languages",
+      "-** Explores the application of NAR models for machine translation in low-resource scenarios"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "author": [
+      {
+        "family": "Summarization\"",
+        "given": "Non-Autoregressive Text"
+      }
+    ],
+    "date": [
+      "2021"
+    ],
+    "title": [
+      "-** Demonstrates the effectiveness of NAR models for generating concise summaries of text documents"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "title": [
+      "**\"Non-Autoregressive Dialogue Generation",
+      "-** Explores the use of NAR models for generating natural and coherent dialogue responses"
+    ],
+    "date": [
+      "2022"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**4."
+    ],
+    "title": [
+      "Challenges and Future Directions:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "title": [
+      "**\"Challenges and Opportunities in Non-Autoregressive Sequence Generation",
+      "-** Discusses the challenges and future directions for research in NAR sequence generation"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "title": [
+      "**\"Improving Non-Autoregressive Machine Translation with Language Modeling",
+      "-** Explores the use of language modeling techniques to improve the quality of NAR translations"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "title": [
+      "**\"Towards More Efficient and Accurate Non-Autoregressive Sequence Generation",
+      "-** Discusses the need for further research on efficiency and accuracy in NAR models"
+    ],
+    "date": [
+      "2022"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "title": [
+      "**\"Non-Autoregressive Sequence Generation: A Survey",
+      "-** Provides a comprehensive overview of the field, covering key concepts, architectures, and applications"
+    ],
+    "date": [
+      "2022"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "title": [
+      "**\"Non-Autoregressive Sequence Generation with Generative Adversarial Networks",
+      "-** Explores the use of generative adversarial networks (GANs) for training NAR models"
+    ],
+    "date": [
+      "2022"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "title": [
+      "**\"Non-Autoregressive Sequence Generation with Reinforcement Learning",
+      "-** Investigates the use of reinforcement learning techniques for optimizing NAR models"
+    ],
+    "date": [
+      "2022"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Note:** This list is not exhaustive and represents a selection of influential articles. Further research and exploration are encouraged to delve deeper into the field of NAR sequence generation"
+    ],
+    "type": null
+  }
+]

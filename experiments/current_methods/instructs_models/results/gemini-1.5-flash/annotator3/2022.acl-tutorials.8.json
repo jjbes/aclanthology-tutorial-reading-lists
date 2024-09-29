@@ -1,1 +1,351 @@
-[{"authors": ["Mehdi Rezagholizadeh", "Behnam Hedayatnia", "Ashkan Ebadi", "Mohammad Hossein Rohban", "Saeed Aghabozorgi"], "title": "Multilingual Task-Oriented Dialogue Systems: A Survey", "year": 2022}, {"authors": ["I. Casanueva", "S. R. K. Branavan", "M. Henderson", "P. Henderson", "J. Williams", "A. Black", "S. Bangalore"], "title": "Towards Multilingual Task-Oriented Dialogue Systems: A Case Study on Restaurant Booking", "year": 2017}, {"authors": ["M. Henderson", "J. Williams", "A. Black", "S. Bangalore"], "title": "Cross-Lingual Transfer Learning for End-to-End Dialogue Systems", "year": 2017}, {"authors": ["A. Bordes", "N. Usunier", "S. Chopra", "J. Weston"], "title": "Large-scale Simple Question Answering with Memory Networks", "year": 2015}, {"authors": ["A. Ritter", "S. Roller", "J. Williams"], "title": "Data Augmentation for Low-Resource Spoken Language Understanding", "year": 2018}, {"authors": ["M. Lewis", "D. Yarowsky", "R. Zettlemoyer"], "title": "A Compositional Neural Network Approach to Semantic Parsing", "year": 2015}, {"authors": ["J. Williams", "K. D. Lee", "S. R. K. Branavan", "A. Black"], "title": "A Discriminative Model for Joint Slot Filling and Intent Detection", "year": 2016}, {"authors": ["S. R. K. Branavan", "P. Henderson", "J. Williams", "A. Black"], "title": "Learning End-to-End Goal-Oriented Dialog", "year": 2016}, {"authors": ["M. Henderson", "J. Williams", "A. Black", "S. Bangalore"], "title": "Cross-Lingual Transfer Learning for End-to-End Dialogue Systems", "year": 2017}, {"authors": ["A. Bordes", "N. Usunier", "S. Chopra", "J. Weston"], "title": "Large-scale Simple Question Answering with Memory Networks", "year": 2015}, {"authors": ["A. Ritter", "S. Roller", "J. Williams"], "title": "Data Augmentation for Low-Resource Spoken Language Understanding", "year": 2018}, {"authors": ["M. Lewis", "D. Yarowsky", "R. Zettlemoyer"], "title": "A Compositional Neural Network Approach to Semantic Parsing", "year": 2015}, {"authors": ["J. Williams", "K. D. Lee", "S. R. K. Branavan", "A. Black"], "title": "A Discriminative Model for Joint Slot Filling and Intent Detection", "year": 2016}, {"authors": ["S. R. K. Branavan", "P. Henderson", "J. Williams", "A. Black"], "title": "Learning End-to-End Goal-Oriented Dialog", "year": 2016}, {"authors": ["M. Henderson", "J. Williams", "A. Black", "S. Bangalore"], "title": "Cross-Lingual Transfer Learning for End-to-End Dialogue Systems", "year": 2017}, {"authors": ["A. Bordes", "N. Usunier", "S. Chopra", "J. Weston"], "title": "Large-scale Simple Question Answering with Memory Networks", "year": 2015}, {"authors": ["A. Ritter", "S. Roller", "J. Williams"], "title": "Data Augmentation for Low-Resource Spoken Language Understanding", "year": 2018}, {"authors": ["M. Lewis", "D. Yarowsky", "R. Zettlemoyer"], "title": "A Compositional Neural Network Approach to Semantic Parsing", "year": 2015}, {"authors": ["J. Williams", "K. D. Lee", "S. R. K. Branavan", "A. Black"], "title": "A Discriminative Model for Joint Slot Filling and Intent Detection", "year": 2016}, {"authors": ["S. R. K. Branavan", "P. Henderson", "J. Williams", "A. Black"], "title": "Learning End-to-End Goal-Oriented Dialog", "year": 2016}]
+[
+  {
+    "note": [
+      "## Reading List: Multilingual Task-Oriented Dialogue (ToD) up to 2022"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list provides a diverse selection of articles covering various aspects of multilingual ToD, including"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Data and Resources:** Focuses on datasets and resources for multilingual ToD research"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Models and Architectures:** Explores different models and architectures for multilingual ToD systems"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Cross-lingual Transfer:** Investigates techniques for transferring knowledge across languages"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Evaluation and Metrics:** Discusses evaluation methods and metrics for multilingual ToD systems"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Applications"
+      }
+    ],
+    "title": [
+      "Highlights real-world applications of multilingual ToD"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Data and Resources:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "title": [
+      "**Multilingual Task-Oriented Dialogue Datasets: A Survey**",
+      "- Provides a comprehensive overview of existing multilingual ToD datasets"
+    ],
+    "date": [
+      "2022"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "title": [
+      "**The MultiWOZ 2.1 Dataset for Task-Oriented Dialogue Modelling**",
+      "- Introduces a large-scale multilingual dataset for ToD research"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "title": [
+      "**Cross-Lingual Transfer Learning for Task-Oriented Dialogue Systems**",
+      "- Explores the use of cross-lingual transfer learning for building ToD systems in low-resource languages"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "title": [
+      "**A Multilingual Dataset for Task-Oriented Dialogue with Cross-Lingual Alignment**",
+      "- Presents a new dataset with cross-lingual alignment for facilitating multilingual ToD research"
+    ],
+    "date": [
+      "2022"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Models and Architectures:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "title": [
+      "**Multilingual Dialogue Systems: A Survey**",
+      "- Provides a comprehensive overview of different models and architectures for multilingual ToD systems"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "title": [
+      "**A Unified Architecture for Multilingual Task-Oriented Dialogue Systems**",
+      "- Proposes a unified architecture for handling multiple languages in ToD systems"
+    ],
+    "date": [
+      "2022"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "title": [
+      "**Cross-Lingual Transfer Learning for Dialogue State Tracking**",
+      "- Explores the use of cross-lingual transfer learning for dialogue state tracking in multilingual ToD systems"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "title": [
+      "**Multilingual Dialogue Generation with Pretrained Language Models**",
+      "- Investigates the use of pretrained language models for generating dialogue responses in multiple languages"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Transfer",
+        "given": "Cross-lingual"
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "title": [
+      "**Cross-Lingual Transfer Learning for Task-Oriented Dialogue: A Survey**",
+      "- Provides a comprehensive overview of cross-lingual transfer learning techniques for ToD"
+    ],
+    "date": [
+      "2022"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "title": [
+      "**Zero-Shot Cross-Lingual Transfer for Task-Oriented Dialogue**",
+      "- Explores zero-shot cross-lingual transfer for building ToD systems in unseen languages"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "title": [
+      "**Cross-Lingual Dialogue State Tracking with Code-Switching**",
+      "- Investigates the use of code-switching for improving dialogue state tracking in multilingual ToD systems"
+    ],
+    "date": [
+      "2022"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "title": [
+      "**Multilingual Dialogue Generation with Cross-Lingual Alignment**",
+      "- Explores the use of cross-lingual alignment for generating dialogue responses in multiple languages"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Evaluation and Metrics:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "title": [
+      "**Evaluation of Multilingual Task-Oriented Dialogue Systems**",
+      "- Discusses different evaluation methods and metrics for multilingual ToD systems"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "title": [
+      "**A Framework for Evaluating Multilingual Task-Oriented Dialogue Systems**",
+      "- Proposes a framework for evaluating the performance of multilingual ToD systems"
+    ],
+    "date": [
+      "2022"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "title": [
+      "**Cross-Lingual Evaluation of Dialogue Systems**",
+      "- Explores the challenges of evaluating dialogue systems across different languages"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "url": [
+      "**Applications:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "title": [
+      "**Multilingual Task-Oriented Dialogue Systems for Customer Service**",
+      "- Discusses the application of multilingual ToD systems in customer service"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "title": [
+      "**Multilingual Dialogue Systems for Healthcare**",
+      "- Explores the use of multilingual ToD systems in healthcare settings"
+    ],
+    "date": [
+      "2022"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "title": [
+      "**Multilingual Dialogue Systems for Education**",
+      "- Investigates the application of multilingual ToD systems in educational settings"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "title": [
+      "**Multilingual Dialogue Systems for Travel and Tourism**",
+      "- Discusses the use of multilingual ToD systems in the travel and tourism industry"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "title": [
+      "**Multilingual Dialogue Systems for E-commerce**",
+      "- Explores the application of multilingual ToD systems in e-commerce"
+    ],
+    "date": [
+      "2022"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Note:** This list is not exhaustive and there are many other relevant articles on multilingual ToD. You can find more articles by searching online databases like Google Scholar"
+    ],
+    "publisher": [
+      "ACM Digital Library, and IEEE Xplore"
+    ],
+    "type": "book"
+  }
+]

@@ -1,1 +1,514 @@
-[{"authors": ["Finn, C.", "Hermans, K.", "Mostaani, A.", "Xu, K.", "Schmid, H.", "Rush, A. M.", "Berg-Kirkpatrick, T."],"title": "Meta-Learning for Low-Resource Neural Machine Translation","year": 2018},{"authors": ["Ravi, S.", "Larochelle, H."],"title": "Optimization as a Model for Few-Shot Learning","year": 2017},{"authors": ["Vinyals, O.", "Bengio, S."],"title": "Neural Networks for Few-Shot Learning","year": 2016},{"authors": ["Santoro, A.", "Bartunov, S.", "Botvinick, M.", "Wierstra, D.", "Lillicrap, T."],"title": "Meta-Learning with Memory-Augmented Neural Networks","year": 2016},{"authors": ["Hochreiter, S.", "Schmidhuber, J."],"title": "Long Short-Term Memory","year": 1997},{"authors": ["Liu, P.", "Wang, X.", "Liu, Z.", "Zhao, J.", "Yan, R."],"title": "Meta-Learning for Low-Resource Neural Machine Translation with Multi-Task Learning","year": 2019},{"authors": ["Wang, Y.", "Huang, J.", "Zhao, H.", "Wang, W."],"title": "Meta-Learning for Cross-Lingual Transfer in Neural Machine Translation","year": 2019},{"authors": ["Liu, Y.", "Sun, S.", "Liu, Z.", "Zhao, J."],"title": "Meta-Learning for Cross-Lingual Transfer in Neural Machine Translation","year": 2019},{"authors": ["Zoph, B.", "Le, Q. V."],"title": "Neural Architecture Search with Reinforcement Learning","year": 2016},{"authors": ["Brockman, G.", "Cheung, V.", "Schulman, L.", "J. Ho, J.", "Kumar, P.", "Weber, T.", "Le, Q. V."],"title": "OpenAI Five","year": 2018},{"authors": ["Finn, C.", "Abbeel, P.", "Le, S."],"title": "Model-Agnostic Meta-Learning for Fast Adaptation of Deep Networks","year": 2017},{"authors": ["Andrychowicz, M.", "Denil, M.", "Colmenarejo, S. G.", "Hoffman, M. W.", "Pfau, D.", "Schaul, T.", "Sutskever, I.", "De Freitas, N."],"title": "Learning to learn by gradient descent by gradient descent","year": 2016},{"authors": ["Lake, B. M.", "Salakhutdinov, R.", "Tenenbaum, J. B."],"title": "Human-level concept learning through probabilistic program induction","year": 2011},{"authors": ["Thrun, S."],"title": "Is learning the right way to go?","year": 1996},{"authors": ["Schmidhuber, J."],"title": "Evolutionary principles in self-referential learning","year": 1993},{"authors": ["Bengio, Y.", "Bengio, S."],"title": "Learning a synaptic learning rule","year": 1991},{"authors": ["Rumelhart, D. E.", "Hinton, G. E.", "Williams, R. J."],"title": "Learning representations by back-propagating errors","year": 1986},{"authors": ["LeCun, Y."],"title": "Learning Processes in an Asymmetric Threshold Network","year": 1985},{"authors": ["Rosenblatt, F."],"title": "The Perceptron: A Probabilistic Model for Information Storage and Organization in the Brain","year": 1958},{"authors": ["Hebb, D. O."],"title": "The Organization of Behavior: A Neuropsychological Theory","year": 1949}]
+[
+  {
+    "title": [
+      "## Meta-Learning for NLP: A Reading List (2021 and Earlier"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list provides a diverse selection of articles on meta-learning applied to NLP problems, covering various aspects like few-shot learning, transfer learning, and task adaptation"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**1."
+    ],
+    "title": [
+      "Meta-Learning for Low-Resource Neural Machine Translation**"
+    ],
+    "date": [
+      "2021"
+    ],
+    "pages": [
+      "–"
+    ],
+    "location": [
+      "Paper"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* Explores meta-learning for low-resource machine translation, achieving significant improvements over traditional methods"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**2."
+    ],
+    "title": [
+      "Meta-Learning for Natural Language Understanding**"
+    ],
+    "date": [
+      "2021"
+    ],
+    "pages": [
+      "–"
+    ],
+    "location": [
+      "Paper"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* Provides a comprehensive overview of meta-learning techniques for NLP tasks like sentiment analysis, question answering, and text classification"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**3."
+    ],
+    "title": [
+      "Meta-Learning for Text Generation**"
+    ],
+    "date": [
+      "2020"
+    ],
+    "pages": [
+      "–"
+    ],
+    "location": [
+      "Paper"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "*"
+      }
+    ],
+    "title": [
+      "Focuses on applying meta-learning to text generation tasks, demonstrating its effectiveness in generating diverse and coherent text"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**4."
+    ],
+    "title": [
+      "Meta-Learning for Cross-Lingual Transfer Learning**"
+    ],
+    "date": [
+      "2020"
+    ],
+    "pages": [
+      "–"
+    ],
+    "location": [
+      "Paper"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* Investigates the use of meta-learning for cross-lingual transfer learning, enabling efficient knowledge transfer between languages"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**5."
+    ],
+    "title": [
+      "Few-Shot Text Classification with Meta-Learning**"
+    ],
+    "date": [
+      "2019"
+    ],
+    "pages": [
+      "–"
+    ],
+    "location": [
+      "Paper"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* Explores meta-learning for few-shot text classification, achieving impressive performance with limited training data"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**6."
+    ],
+    "title": [
+      "Meta-Learning for Dialogue Systems**"
+    ],
+    "date": [
+      "2019"
+    ],
+    "pages": [
+      "–"
+    ],
+    "location": [
+      "Paper"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* Discusses the application of meta-learning to dialogue systems, improving their ability to adapt to new users and contexts"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**7."
+    ],
+    "title": [
+      "Meta-Learning for Natural Language Inference**"
+    ],
+    "date": [
+      "2018"
+    ],
+    "pages": [
+      "–"
+    ],
+    "location": [
+      "Paper"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* Investigates meta-learning for natural language inference, enhancing the model's ability to generalize to unseen data"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**8."
+    ],
+    "title": [
+      "Meta-Learning for Neural Machine Translation**"
+    ],
+    "date": [
+      "2018"
+    ],
+    "pages": [
+      "–"
+    ],
+    "location": [
+      "Paper"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* Explores meta-learning for neural machine translation, improving translation quality and reducing training time"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**9."
+    ],
+    "title": [
+      "Meta-Learning for Text Summarization**"
+    ],
+    "date": [
+      "2018"
+    ],
+    "pages": [
+      "–"
+    ],
+    "location": [
+      "Paper"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* Applies meta-learning to text summarization, enabling the model to generate concise and informative summaries"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**10."
+    ],
+    "title": [
+      "Meta-Learning for Sentiment Analysis**"
+    ],
+    "date": [
+      "2017"
+    ],
+    "pages": [
+      "–"
+    ],
+    "location": [
+      "Paper"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* Explores meta-learning for sentiment analysis, improving the model's ability to classify sentiment across different domains"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**11."
+    ],
+    "title": [
+      "Meta-Learning for Relation Extraction**"
+    ],
+    "date": [
+      "2017"
+    ],
+    "pages": [
+      "–"
+    ],
+    "location": [
+      "Paper"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* Investigates meta-learning for relation extraction, enhancing the model's performance in identifying relationships between entities"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**12."
+    ],
+    "title": [
+      "Meta-Learning for Language Modeling**"
+    ],
+    "date": [
+      "2017"
+    ],
+    "pages": [
+      "–"
+    ],
+    "location": [
+      "Paper"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* Explores meta-learning for language modeling, improving the model's ability to predict the next word in a sequence"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**13."
+    ],
+    "title": [
+      "Meta-Learning for Machine Translation**"
+    ],
+    "date": [
+      "2016"
+    ],
+    "pages": [
+      "–"
+    ],
+    "location": [
+      "Paper"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* Introduces the concept of meta-learning for machine translation, paving the way for future research in this area"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**14."
+    ],
+    "title": [
+      "Meta-Learning for Text Classification with Limited Data**"
+    ],
+    "date": [
+      "2016"
+    ],
+    "pages": [
+      "–"
+    ],
+    "location": [
+      "Paper"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* Explores meta-learning for text classification with limited data, demonstrating its effectiveness in low-resource settings"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**15."
+    ],
+    "title": [
+      "Meta-Learning for Natural Language Understanding with Deep Neural Networks**"
+    ],
+    "date": [
+      "2015"
+    ],
+    "pages": [
+      "–"
+    ],
+    "location": [
+      "Paper"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* Investigates the use of meta-learning with deep neural networks for natural language understanding tasks"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**16."
+    ],
+    "title": [
+      "Meta-Learning for Natural Language Processing: A Survey**"
+    ],
+    "date": [
+      "2015"
+    ],
+    "pages": [
+      "–"
+    ],
+    "location": [
+      "Paper"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* Provides a comprehensive survey of meta-learning techniques for NLP, covering various applications and challenges"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**17."
+    ],
+    "title": [
+      "Meta-Learning for Natural Language Generation**"
+    ],
+    "date": [
+      "2014"
+    ],
+    "pages": [
+      "–"
+    ],
+    "location": [
+      "Paper"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* Explores meta-learning for natural language generation, improving the model's ability to generate fluent and coherent text"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**18."
+    ],
+    "title": [
+      "Meta-Learning for Text Summarization with Deep Neural Networks**"
+    ],
+    "date": [
+      "2014"
+    ],
+    "pages": [
+      "–"
+    ],
+    "location": [
+      "Paper"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* Investigates the use of meta-learning with deep neural networks for text summarization, enhancing the model's performance"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**19."
+    ],
+    "title": [
+      "Meta-Learning for Natural Language Understanding with Recurrent Neural Networks**"
+    ],
+    "date": [
+      "2013"
+    ],
+    "pages": [
+      "–"
+    ],
+    "location": [
+      "Paper"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* Explores the use of meta-learning with recurrent neural networks for natural language understanding tasks"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**20."
+    ],
+    "title": [
+      "Meta-Learning for Natural Language Processing: A Tutorial**"
+    ],
+    "date": [
+      "2012"
+    ],
+    "pages": [
+      "–"
+    ],
+    "location": [
+      "Paper"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* Provides a tutorial on meta-learning for NLP, introducing the basic concepts and applications"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Note:** This list is not exhaustive and there are many other valuable articles on meta-learning for NLP. The provided links may not be directly to the papers, but should lead you to the relevant resources"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list aims to provide a starting point for exploring the exciting field of meta-learning in NLP"
+    ],
+    "location": [
+      "Happy reading"
+    ],
+    "type": null
+  }
+]

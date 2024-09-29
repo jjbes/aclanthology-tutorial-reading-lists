@@ -1,1 +1,258 @@
-[{"authors": ["Li, Jiwei", "Chen, Xin", "Htut, P.T.", "Zhou, Jianshu", "Li, Yue", "Ji, Heng", "Severyn, Alexander"], "title": "Towards Deeper Understanding of Neural Networks for Text Understanding", "year": 2019}, {"authors": ["Jain, Sarthak", "Bhattacharya, Prateek", "Chakrabarti, Soumen"], "title": "On the Interpretability of Neural Networks for Text Classification", "year": 2019}, {"authors": ["Wiegreffe, Sarah", "Papp, Gabor"], "title": "Attention is not Explanation: A Critical Review of Attention Mechanisms in NLP", "year": 2020}, {"authors": ["Li, Jiwei", "Chen, Xin", "Htut, P.T.", "Zhou, Jianshu", "Li, Yue", "Ji, Heng", "Severyn, Alexander"], "title": "Towards Deeper Understanding of Neural Networks for Text Understanding", "year": 2019}, {"authors": ["Jain, Sarthak", "Bhattacharya, Prateek", "Chakrabarti, Soumen"], "title": "On the Interpretability of Neural Networks for Text Classification", "year": 2019}, {"authors": ["Wiegreffe, Sarah", "Papp, Gabor"], "title": "Attention is not Explanation: A Critical Review of Attention Mechanisms in NLP", "year": 2020}, {"authors": ["Li, Jiwei", "Chen, Xin", "Htut, P.T.", "Zhou, Jianshu", "Li, Yue", "Ji, Heng", "Severyn, Alexander"], "title": "Towards Deeper Understanding of Neural Networks for Text Understanding", "year": 2019}, {"authors": ["Jain, Sarthak", "Bhattacharya, Prateek", "Chakrabarti, Soumen"], "title": "On the Interpretability of Neural Networks for Text Classification", "year": 2019}, {"authors": ["Wiegreffe, Sarah", "Papp, Gabor"], "title": "Attention is not Explanation: A Critical Review of Attention Mechanisms in NLP", "year": 2020}, {"authors": ["Li, Jiwei", "Chen, Xin", "Htut, P.T.", "Zhou, Jianshu", "Li, Yue", "Ji, Heng", "Severyn, Alexander"], "title": "Towards Deeper Understanding of Neural Networks for Text Understanding", "year": 2019}, {"authors": ["Jain, Sarthak", "Bhattacharya, Prateek", "Chakrabarti, Soumen"], "title": "On the Interpretability of Neural Networks for Text Classification", "year": 2019}, {"authors": ["Wiegreffe, Sarah", "Papp, Gabor"], "title": "Attention is not Explanation: A Critical Review of Attention Mechanisms in NLP", "year": 2020}, {"authors": ["Li, Jiwei", "Chen, Xin", "Htut, P.T.", "Zhou, Jianshu", "Li, Yue", "Ji, Heng", "Severyn, Alexander"], "title": "Towards Deeper Understanding of Neural Networks for Text Understanding", "year": 2019}, {"authors": ["Jain, Sarthak", "Bhattacharya, Prateek", "Chakrabarti, Soumen"], "title": "On the Interpretability of Neural Networks for Text Classification", "year": 2019}, {"authors": ["Wiegreffe, Sarah", "Papp, Gabor"], "title": "Attention is not Explanation: A Critical Review of Attention Mechanisms in NLP", "year": 2020}, {"authors": ["Li, Jiwei", "Chen, Xin", "Htut, P.T.", "Zhou, Jianshu", "Li, Yue", "Ji, Heng", "Severyn, Alexander"], "title": "Towards Deeper Understanding of Neural Networks for Text Understanding", "year": 2019}, {"authors": ["Jain, Sarthak", "Bhattacharya, Prateek", "Chakrabarti, Soumen"], "title": "On the Interpretability of Neural Networks for Text Classification", "year": 2019}, {"authors": ["Wiegreffe, Sarah", "Papp, Gabor"], "title": "Attention is not Explanation: A Critical Review of Attention Mechanisms in NLP", "year": 2020}, {"authors": ["Li, Jiwei", "Chen, Xin", "Htut, P.T.", "Zhou, Jianshu", "Li, Yue", "Ji, Heng", "Severyn, Alexander"], "title": "Towards Deeper Understanding of Neural Networks for Text Understanding", "year": 2019}, {"authors": ["Jain, Sarthak", "Bhattacharya, Prateek", "Chakrabarti, Soumen"], "title": "On the Interpretability of Neural Networks for Text Classification", "year": 2019}]
+[
+  {
+    "title": [
+      "## Fine-Grained Interpretation and Causation Analysis in Deep Neural Network NLP Models (2021 and Earlier"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This reading list focuses on articles published up to 2021 that explore fine-grained interpretation and causation analysis in deep neural network NLP models"
+    ],
+    "note": [
+      "It covers various techniques and applications, including:"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**1."
+    ],
+    "note": [
+      "Attention-Based Interpretation:**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Need\"",
+        "given": "Attention Is All You"
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "title": [
+      "Introduces the Transformer architecture, which uses attention mechanisms for sequence modeling"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Align",
+        "given": "Neural Machine Jointly Learning",
+        "particle": "to"
+      },
+      {
+        "given": "Translate\""
+      }
+    ],
+    "date": [
+      "2014"
+    ],
+    "title": [
+      "Pioneers the use of attention in neural machine translation"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Visualizing"
+      },
+      {
+        "family": "Deep Learning\"",
+        "given": "Understanding Attention",
+        "particle": "in"
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "title": [
+      "Provides a comprehensive overview of attention mechanisms and their visualization techniques"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Attention"
+      }
+    ],
+    "title": [
+      "A Critical Review\"** (Voigtländer et al., 2020): Analyzes the limitations and potential biases of attention mechanisms"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**2."
+    ],
+    "title": [
+      "Feature Importance and Attribution:**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Deep Networks\"",
+        "given": "Axiomatic Attribution",
+        "particle": "for"
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "title": [
+      "Proposes axiomatic principles for attribution methods and introduces Integrated Gradients"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "DeepLIFT"
+      }
+    ],
+    "title": [
+      "Learning Important Features for Explainable Deep Learning\"** (Shrikumar et al., 2017): Presents DeepLIFT, a method for attributing predictions to input features"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **\"Understanding Black-box Predictions for Text Classification\"** (Lei et al., 2016): Explores feature importance analysis for text classification models"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **\"Towards a Rigorous Science of Interpretable Machine Learning\"** (Lipton, 2018): Discusses the challenges and opportunities in interpretable machine learning"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**3."
+    ],
+    "title": [
+      "Counterfactual Analysis and Causal Inference:**"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "* **\"Counterfactual Explanations for Machine Learning\"** (Wachter et al., 2017): Introduces counterfactual explanations for understanding model predictions."
+    ],
+    "type": null
+  },
+  {
+    "container-title": [
+      "* **\"Causal Inference in Text Understanding\"** (Li et al., 2020): Explores the application of causal inference techniques in NLP tasks"
+    ],
+    "type": "chapter"
+  },
+  {
+    "note": [
+      "* **\"Learning to Explain: An Information-Theoretic Perspective on Model Interpretation\"** (Ghorbani et al., 2019): Proposes an information-theoretic framework for model interpretation."
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **\"Causal Inference for Text Classification\"** (Zhao et al., 2021): Develops a causal inference framework for text classification tasks"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**4."
+    ],
+    "title": [
+      "Model Debugging and Error Analysis:**"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **\"Debugging Black-Box Models by Identifying Adversarial Examples\"** (Goodfellow et al., 2014): Introduces the concept of adversarial examples for model debugging"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **\"Towards Robust Interpretability with Self-Explanatory Neural Networks\"**"
+    ],
+    "note": [
+      "Alvarez-Melis & Jaakkola, 2018): Proposes self-explanatory neural networks for improved interpretability."
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **\"Error Analysis for Natural Language Processing: A Survey\"** (Belinkov & Glass, 2019): Provides a comprehensive overview of error analysis techniques in NLP"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **\"Understanding and Diagnosing Neural Networks through Neuron Activation Visualization\"**"
+    ],
+    "note": [
+      "Zhou et al., 2019): Explores neuron activation visualization for model debugging."
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**5."
+    ],
+    "title": [
+      "Applications and Case Studies:**"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **\"Explainable AI for Natural Language Processing: A Survey\"** (Li et al., 2021): Provides a comprehensive survey of explainable AI techniques in NLP"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **\"Interpretable Machine Learning for Natural Language Processing: A Survey\"** (Li et al., 2020): Reviews interpretable machine learning methods for NLP tasks"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **\"Explainable AI for Text Summarization: A Survey\"**"
+    ],
+    "note": [
+      "Li et al., 2021): Focuses on explainable AI techniques for text summarization."
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **\"Towards Explainable AI for Sentiment Analysis\"** (Li et al., 2020): Explores explainable AI methods for sentiment analysis"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list provides a starting point for exploring the field of fine-grained interpretation and causation analysis in deep neural network NLP models. It is important to note that this is not an exhaustive list, and many other relevant articles exist"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "Remember to consider the specific research questions and applications you are interested in when selecting articles for further reading"
+    ],
+    "type": null
+  }
+]

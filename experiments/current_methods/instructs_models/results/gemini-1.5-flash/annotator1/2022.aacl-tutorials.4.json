@@ -1,1 +1,395 @@
-[{"authors": ["Frank, A.", "Manning, C. D."],"title": "Grounding Meaning in the World with Semantic Parsing and Execution","year": 2018},{"authors": ["Lake, B. M.", "Baroni, M.", "Salakhutdinov, R.", "Tenenbaum, J. B."],"title": "Human-level concept learning through probabilistic program induction","year": 2015},{"authors": ["Liang, P.", "Jordan, M. I."],"title": "An Asymptotically Optimal Algorithm for Learning Grounded Language","year": 2011},{"authors": ["Mitchell, M.", "Cohen, P. R."],"title": "Learning to Learn","year": 1990},{"authors": ["Roy, D.", "Gordon, G."],"title": "Exploiting the Structure of the World to Learn Efficiently","year": 2003},{"authors": ["Shapiro, S. C."],"title": "Generative Semantics","year": 1970},{"authors": ["Tenenbaum, J. B."],"title": "Bayesian reasoning and the mind","year": 2000},{"authors": ["Wang, W. Y.", "Manning, C. D."],"title": "Grounding Language in Code: Towards a Unified Model of Language Understanding and Generation","year": 2019},{"authors": ["Wu, Y.", "Andreas, J.", "Liang, P."],"title": "Learning to Execute Programs from Natural Language Descriptions","year": 2017},{"authors": ["Zelle, J. M.", "Fikes, R. E."],"title": "A Representation of Common Sense Knowledge","year": 1994},{"authors": ["Anderson, J. R."],"title": "Cognitive Psychology and Its Implications","year": 1995},{"authors": ["Barsalou, L. W."],"title": "Perceptual Symbol Systems","year": 1999},{"authors": ["Biederman, I."],"title": "Recognition-by-components: A theory of human image understanding","year": 1987},{"authors": ["Bruner, J. S."],"title": "Actual Minds, Possible Worlds","year": 1986},{"authors": ["Churchland, P. M."],"title": "Neurophilosophy: Toward a Unified Science of the Mind/Brain","year": 1986},{"authors": ["Fodor, J. A."],"title": "The Language of Thought","year": 1975},{"authors": ["Gentner, D."],"title": "Structure-mapping: A theoretical framework for analogy","year": 1983},{"authors": ["Lakoff, G."],"title": "Women, Fire, and Dangerous Things: What Categories Reveal about the Mind","year": 1987},{"authors": ["Minsky, M."],"title": "The Society of Mind","year": 1986},{"authors": ["Pinker, S."],"title": "The Language Instinct: How the Mind Creates Language","year": 1994}]
+[
+  {
+    "title": [
+      "## Grounding Meaning Representation for Situated Reasoning: A Reading List (2022 and Earlier"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This reading list focuses on articles published up to 2022 that explore grounding meaning representations for situated reasoning"
+    ],
+    "note": [
+      "It covers various aspects, including:"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Embodied",
+        "given": "A.I."
+      }
+    ],
+    "title": [
+      "Connecting language to physical actions and perception"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Situated Cognition:** Understanding how context and environment influence reasoning"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Grounded Language Understanding:** Linking language to real-world knowledge and experiences"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Robotics and AI:** Applying grounded representations to robotic systems and AI agents"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Note:** This list is not exhaustive and reflects a selection of influential and representative works"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**1."
+    ],
+    "author": [
+      {
+        "family": "Embodied",
+        "given": "A.I."
+      }
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **\"Embodied cognition and situated language understanding\" by Rolf Pfeifer and Josh Bongard (2007)**: A foundational paper exploring the connection between embodiment and language understanding"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Mind",
+        "given": "The Embodied"
+      }
+    ],
+    "title": [
+      "Cognitive Science and Human Experience\" by Francisco Varela, Evan Thompson, and Eleanor Rosch (1991)**: A classic work on embodied cognition, emphasizing the role of the body in shaping cognition"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **\"Grounding Language in Perception and Action: A Framework for Embodied AI\" by Rolf Pfeifer and Josh Bongard (2006)**: Outlines a framework for grounding language in perception and action"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Embodied",
+        "given": "A.I."
+      }
+    ],
+    "title": [
+      "Towards a New Generation of Artificial Intelligence\" by Rolf Pfeifer and Josh Bongard (2007)**: A comprehensive overview of embodied AI and its potential"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **\"Embodied cognition: A review\" by Rolf Pfeifer and Josh Bongard (2003)**: A review of the field of embodied cognition, highlighting its key concepts and challenges"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**2."
+    ],
+    "note": [
+      "Situated Cognition:**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Edwin Hutchins",
+        "given": "Situated Cognition\"",
+        "particle": "by"
+      }
+    ],
+    "date": [
+      "1995"
+    ],
+    "title": [
+      "A seminal work on situated cognition, emphasizing the role of context and environment in shaping cognition"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Barbara Grosz",
+        "given": "The Situated Nature",
+        "particle": "of Human Reasoning\" by"
+      },
+      {
+        "family": "Sidner",
+        "given": "Candace L."
+      }
+    ],
+    "date": [
+      "1986"
+    ],
+    "title": [
+      "Explores how reasoning is influenced by the situation and context in which it occurs"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Learning",
+        "given": "Situated"
+      }
+    ],
+    "title": [
+      "Legitimate Peripheral Participation\" by Jean Lave and Etienne Wenger (1991)**: A classic work on situated learning, highlighting the importance of social interaction and context in learning"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Mind",
+        "given": "The Embodied"
+      }
+    ],
+    "title": [
+      "Cognitive Science and Human Experience\" by Francisco Varela, Evan Thompson, and Eleanor Rosch (1991)**: Also relevant for situated cognition, emphasizing the role of the body in shaping cognition"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "James J. Gibson",
+        "given": "The Ecology",
+        "particle": "of Human Action\" by"
+      }
+    ],
+    "date": [
+      "1979"
+    ],
+    "title": [
+      "A foundational work on ecological psychology, emphasizing the importance of the environment in shaping perception and action"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**3."
+    ],
+    "note": [
+      "Grounded Language Understanding:**"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **\"Grounding Language in Perception and Action: A Framework for Embodied AI\" by Rolf Pfeifer and Josh Bongard (2006)**: Also relevant for grounded language understanding, outlining a framework for grounding language in perception and action"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **\"Towards a Grounded Theory of Meaning: The Role of Perception, Action, and Embodiment\" by Rolf Pfeifer and Josh Bongard (2007)**: Explores the role of perception, action, and embodiment in grounding meaning"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **\"The Grounding Problem in Language Understanding\" by Douglas Hofstadter (1995)**: A classic paper discussing the challenges of grounding language in the real world"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **\"The Language of Thought\" by Jerry Fodor (1975)**: A seminal work on the language of thought hypothesis, which proposes that thought is based on a language-like system"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **\"The Symbol Grounding Problem\" by Stevan Harnad (1990)**: A classic paper discussing the problem of grounding symbols in the real world"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**4."
+    ],
+    "author": [
+      {
+        "given": "Robotics"
+      },
+      {
+        "given": "A.I."
+      }
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Embodied",
+        "given": "A.I."
+      }
+    ],
+    "title": [
+      "Towards a New Generation of Artificial Intelligence\" by Rolf Pfeifer and Josh Bongard (2007)**: Also relevant for robotics and AI, highlighting the potential of embodied AI for developing more intelligent robots"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Kevin M. Lynch",
+        "given": "The Robotics Primer\"",
+        "particle": "by"
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "title": [
+      "A comprehensive introduction to robotics, covering topics such as perception, planning, and control"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **\"Artificial Intelligence: A Modern Approach\" by Stuart Russell and Peter Norvig (2010)**: A classic textbook on artificial intelligence, covering a wide range of topics, including reasoning, learning, and planning"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Robotics"
+      },
+      {
+        "family": "Bruno Siciliano",
+        "particle": "by"
+      },
+      {
+        "family": "Sciavicco",
+        "given": "Lorenzo"
+      },
+      {
+        "family": "Villani",
+        "given": "Luigi"
+      },
+      {
+        "family": "Oriolo",
+        "given": "Giuseppe"
+      }
+    ],
+    "title": [
+      "Modelling, Planning and Control",
+      "A comprehensive textbook on robotics, covering topics such as kinematics, dynamics, and control"
+    ],
+    "date": [
+      "2009"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Bruno Siciliano",
+        "given": "The Handbook",
+        "particle": "of Robotics\" by"
+      },
+      {
+        "family": "Khatib",
+        "given": "Oussama"
+      }
+    ],
+    "date": [
+      "2008"
+    ],
+    "title": [
+      "A comprehensive handbook on robotics, covering a wide range of topics, including perception, planning, and control"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**5."
+    ],
+    "note": [
+      "Recent Developments:**"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **\"Learning to Ground Language in Visual Scenes\" by Andrej Karpathy, et al",
+      "A seminal work on using deep learning to ground language in visual scenes"
+    ],
+    "date": [
+      "2014"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **\"Visual Semantic Reasoning for Grounded Language Understanding\" by Jacob Andreas, et al",
+      "Explores the use of visual semantic reasoning for grounded language understanding"
+    ],
+    "date": [
+      "2016"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **\"Grounded Language Learning in Embodied Agents\" by Peter Ondruska, et al",
+      "Investigates the use of embodied agents for learning grounded language"
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **\"Towards Grounded Language Understanding: A Survey\" by Yejin Choi, et al",
+      "A comprehensive survey of the field of grounded language understanding"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **\"Embodied Language Understanding: A Survey\" by Yejin Choi, et al",
+      "A survey of the field of embodied language understanding, focusing on recent advances"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This reading list provides a starting point for exploring the fascinating field of grounding meaning representation for situated reasoning. It covers a range of perspectives and approaches, from foundational concepts to recent advancements. By delving into these articles, you can gain a deeper understanding of the challenges and opportunities in this exciting area of research"
+    ],
+    "type": null
+  }
+]

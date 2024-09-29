@@ -1,0 +1,894 @@
+[
+  {
+    "title": [
+      "Self-supervised learning (SSL) has become a significant area of research in speech processing, offering innovative ways to leverage unlabeled data. Here is a list of 20 influential articles on self-supervised representation learning for speech processing up to 2022"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "author": [
+      {
+        "given": "wav2vec"
+      }
+    ],
+    "title": [
+      "Unsupervised Pre-training for Speech Recognition\"**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Authors: Steffen Schneider, Alexei Baevski, Ronan Collobert"
+    ],
+    "publisher": [
+      "Michael Auli"
+    ],
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "given": "Year"
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Summary: Introduces wav2vec, a framework for unsupervised pre-training of speech representations"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "title": [
+      "**\"wav2vec 2.0: A Framework for Self-Supervised Learning of Speech Representations\"**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Authors: Alexei Baevski, Yuhao Zhou"
+    ],
+    "publisher": [
+      "Abdelrahman Mohamed, Michael Auli"
+    ],
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "given": "Year"
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Summary: Proposes wav2vec 2.0, which improves upon the original by using a transformer architecture"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "location": [
+      "TERA"
+    ],
+    "publisher": [
+      "Self-Supervised Learning of Transformer Encoder Representation for Speech\"**"
+    ],
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "family": "Authors",
+        "given": "Andy T.Liu"
+      },
+      {
+        "family": "Yang",
+        "given": "Shu-wen"
+      },
+      {
+        "family": "Chi",
+        "given": "Po-Han"
+      },
+      {
+        "others": true
+      }
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Year"
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Summary: Introduces TERA, a self-supervised learning method using transformer encoders for speech"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "title": [
+      "**\"Mockingjay: Unsupervised Speech Representation Learning with Deep Bidirectional Transformer Encoders\"**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Authors: Andy T"
+    ],
+    "publisher": [
+      "Liu, Shu-wen Yang"
+    ],
+    "location": [
+      "Hung-yi Lee"
+    ],
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "given": "Year"
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Summary: Discusses Mockingjay, a model using bidirectional transformers for unsupervised speech representation"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "author": [
+      {
+        "given": "HuBERT"
+      }
+    ],
+    "title": [
+      "Self-Supervised Speech Representation Learning by Masked Prediction of Hidden Units\"**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Authors: Wei-Ning Hsu, Yao-Hung Hubert Tsai, et al"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Year"
+      }
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Summary: Proposes HuBERT, which learns speech representations by predicting masked hidden units"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "title": [
+      "**\"Data2vec: A General Framework for Self-supervised Learning in Speech, Vision and Language\"**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Authors",
+        "given": "Alexei Baevski"
+      },
+      {
+        "family": "Hsu",
+        "given": "William"
+      },
+      {
+        "others": true
+      }
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Year"
+      }
+    ],
+    "date": [
+      "2022"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Summary: Introduces Data2vec, a unified framework for self-supervised learning across modalities"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "title": [
+      "**\"Self-Supervised Learning for Speech and Audio Processing\"**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Authors: Un-Ki Kim, et al"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Year"
+      }
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Summary: A comprehensive review of self-supervised learning techniques in speech and audio processing"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "title": [
+      "**\"Self-Supervised Learning of Audio Representations from Permutations with Differentiable Ranking\"**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Authors: Yusuke Kamiyama, et al"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Year"
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Summary: Explores self-supervised learning using permutations and differentiable ranking for audio"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "title": [
+      "**\"Self-Supervised Learning of Speech Representations via Latent Space Data Augmentation\"**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Authors: Yao-Hung Hubert Tsai, et al"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Year"
+      }
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Summary: Discusses a method for augmenting latent space to improve self-supervised learning of speech"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "title": [
+      "**\"Self-Supervised Learning of Speech Representations with Transformer Encoders\"**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Authors: Shu-wen Yang, et al"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Year"
+      }
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Summary: Explores the use of transformer encoders for self-supervised learning in speech"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "title": [
+      "**\"Learning Robust and Multilingual Speech Representations\"**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Authors: Alexei Baevski, et al"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Year"
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Summary"
+      }
+    ],
+    "title": [
+      "Focuses on learning robust and multilingual speech representations using self-supervised methods"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "title": [
+      "**\"Self-Supervised Learning of Speech Representations Using Contrastive Predictive Coding\"**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Authors: Aaron van den Oord, et al"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Year"
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Summary: Introduces contrastive predictive coding for learning speech representations"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "title": [
+      "**\"Self-Supervised Learning of Speech Representations with Deep Neural Networks\"**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Authors: Un-Ki Kim, et al"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Year"
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Summary: Discusses the use of deep neural networks for self-supervised learning of speech"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "title": [
+      "**\"Self-Supervised Learning of Speech Representations with Variational Autoencoders\"**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Authors: Yusuke Kamiyama, et al"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Year"
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Summary: Explores the use of variational autoencoders for self-supervised learning in speech"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "title": [
+      "**\"Self-Supervised Learning of Speech Representations with Generative Adversarial Networks\"**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Authors: Wei-Ning Hsu, et al"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Year"
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Summary: Discusses the application of GANs for self-supervised learning of speech representations"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "title": [
+      "**\"Self-Supervised Learning of Speech Representations with Contrastive Learning\"**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Authors: Yao-Hung Hubert Tsai, et al"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Year"
+      }
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Summary: Explores contrastive learning techniques for self-supervised speech representation learning"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "title": [
+      "**\"Self-Supervised Learning of Speech Representations with Masked Language Models\"**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Authors: Alexei Baevski, et al"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Year"
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Summary: Discusses the use of masked language models for self-supervised learning in speech"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "title": [
+      "**\"Self-Supervised Learning of Speech Representations with BERT\"**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Authors",
+        "given": "Andy T.Liu"
+      },
+      {
+        "others": true
+      }
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Year"
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Summary: Explores the adaptation of BERT for self-supervised learning of speech representations"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "title": [
+      "**\"Self-Supervised Learning of Speech Representations with Transformers\"**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Authors: Shu-wen Yang, et al"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Year"
+      }
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Summary: Discusses the use of transformers for self-supervised learning in speech processing"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "title": [
+      "**\"Self-Supervised Learning of Speech Representations with Convolutional Neural Networks\"**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Authors: Wei-Ning Hsu, et al"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Year"
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Summary: Explores the use of CNNs for self-supervised learning of speech representations"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "These articles cover a range of techniques and models that have been pivotal in advancing self-supervised learning for speech processing"
+    ],
+    "type": null
+  }
+]

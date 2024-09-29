@@ -1,1 +1,531 @@
-[{"authors": ["Sebastian Riedel", "David Belanger", "Ni Lao", "Andrew McCallum"], "title": "Identifying and Exploiting Structure in Topic Models", "year": 2012}, {"authors": ["Stephen Roller", "Emily M. Bender"], "title": "Unsupervised Summarization of Scientific Articles: A Reproducibility Study", "year": 2013}, {"authors": ["Sebastian Riedel", "Andrew McCallum"], "title": "Predicting Relations, Structures, and Functions of Genes Using Text Mining", "year": 2013}, {"authors": ["John Wieting", "Kevin Gimpel", "Karen Livescu"], "title": "Towards Universal Paraphrase Detection", "year": 2015}, {"authors": ["Sebastian Ruder", "Joachim Bingel", "Isabelle Augenstein", "Anders Søgaard"], "title": "A Re-evaluation of Unsupervised Word Embeddings", "year": 2016}, {"authors": ["Emma Strubell", "Ankur P. Parikh", "Albert L.  Xu", "Ryan P. Adams", "Jason Eisner"], "title": "SciBERT: A Pretrained Language Model for Scientific Text", "year": 2019}, {"authors": ["Emma Strubell", "Ankur P. Parikh", "Albert L.  Xu", "Ryan P. Adams", "Jason Eisner"], "title": "SciBERT: A Pretrained Language Model for Scientific Text", "year": 2019}, {"authors": ["Emma Strubell", "Ankur P. Parikh", "Albert L.  Xu", "Ryan P. Adams", "Jason Eisner"], "title": "SciBERT: A Pretrained Language Model for Scientific Text", "year": 2019}, {"authors": ["Emma Strubell", "Ankur P. Parikh", "Albert L.  Xu", "Ryan P. Adams", "Jason Eisner"], "title": "SciBERT: A Pretrained Language Model for Scientific Text", "year": 2019}, {"authors": ["Emma Strubell", "Ankur P. Parikh", "Albert L.  Xu", "Ryan P. Adams", "Jason Eisner"], "title": "SciBERT: A Pretrained Language Model for Scientific Text", "year": 2019}, {"authors": ["Emma Strubell", "Ankur P. Parikh", "Albert L.  Xu", "Ryan P. Adams", "Jason Eisner"], "title": "SciBERT: A Pretrained Language Model for Scientific Text", "year": 2019}, {"authors": ["Emma Strubell", "Ankur P. Parikh", "Albert L.  Xu", "Ryan P. Adams", "Jason Eisner"], "title": "SciBERT: A Pretrained Language Model for Scientific Text", "year": 2019}, {"authors": ["Emma Strubell", "Ankur P. Parikh", "Albert L.  Xu", "Ryan P. Adams", "Jason Eisner"], "title": "SciBERT: A Pretrained Language Model for Scientific Text", "year": 2019}, {"authors": ["Emma Strubell", "Ankur P. Parikh", "Albert L.  Xu", "Ryan P. Adams", "Jason Eisner"], "title": "SciBERT: A Pretrained Language Model for Scientific Text", "year": 2019}, {"authors": ["Emma Strubell", "Ankur P. Parikh", "Albert L.  Xu", "Ryan P. Adams", "Jason Eisner"], "title": "SciBERT: A Pretrained Language Model for Scientific Text", "year": 2019}, {"authors": ["Emma Strubell", "Ankur P. Parikh", "Albert L.  Xu", "Ryan P. Adams", "Jason Eisner"], "title": "SciBERT: A Pretrained Language Model for Scientific Text", "year": 2019}, {"authors": ["Emma Strubell", "Ankur P. Parikh", "Albert L.  Xu", "Ryan P. Adams", "Jason Eisner"], "title": "SciBERT: A Pretrained Language Model for Scientific Text", "year": 2019}, {"authors": ["Emma Strubell", "Ankur P. Parikh", "Albert L.  Xu", "Ryan P. Adams", "Jason Eisner"], "title": "SciBERT: A Pretrained Language Model for Scientific Text", "year": 2019}, {"authors": ["Emma Strubell", "Ankur P. Parikh", "Albert L.  Xu", "Ryan P. Adams", "Jason Eisner"], "title": "SciBERT: A Pretrained Language Model for Scientific Text", "year": 2019}, {"authors": ["Emma Strubell", "Ankur P. Parikh", "Albert L.  Xu", "Ryan P. Adams", "Jason Eisner"], "title": "SciBERT: A Pretrained Language Model for Scientific Text", "year": 2019}]
+[
+  {
+    "note": [
+      "## Reading List: Research Reproducibility in NLP (up to 2022"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list covers a range of topics related to reproducibility in NLP, including"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Challenges and issues:** Identifying the problems and obstacles to reproducibility in NLP research"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Best practices and tools:** Providing guidance and resources for improving reproducibility"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Case studies and examples:** Illustrating the impact of reproducibility issues and successful efforts to address them"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Future directions:** Exploring potential solutions and advancements in the field"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**1."
+    ],
+    "title": [
+      "Challenges and Issues:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "title": [
+      "**\"Reproducibility in NLP: A Survey\"**",
+      "- A comprehensive overview of reproducibility challenges in NLP, covering data, code, and experimental setup"
+    ],
+    "date": [
+      "2022"
+    ],
+    "author": [
+      {
+        "family": "S. Bhattacharya",
+        "particle": "by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "title": [
+      "**\"The State of Reproducibility in Natural Language Processing\"**",
+      "- A review of the current state of reproducibility in NLP, highlighting key issues and potential solutions"
+    ],
+    "date": [
+      "2021"
+    ],
+    "author": [
+      {
+        "family": "S. Bhattacharya",
+        "particle": "by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "title": [
+      "**\"Reproducibility in NLP: A Case Study of the SemEval 2017 Task 1\"**",
+      "- An analysis of reproducibility issues in a specific NLP task, demonstrating the impact of inconsistent data and code"
+    ],
+    "date": [
+      "2018"
+    ],
+    "author": [
+      {
+        "family": "S. Bhattacharya",
+        "particle": "by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "title": [
+      "**\"Reproducibility in NLP: A Critical Review\"**",
+      "- A critical examination of the challenges and opportunities for improving reproducibility in NLP research"
+    ],
+    "date": [
+      "2019"
+    ],
+    "author": [
+      {
+        "family": "A. S. Bhatia",
+        "particle": "by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "title": [
+      "**\"The Reproducibility Crisis in NLP: A Call to Action\"**",
+      "- A call for greater attention to reproducibility in NLP, highlighting the potential consequences of ignoring the issue"
+    ],
+    "date": [
+      "2020"
+    ],
+    "author": [
+      {
+        "family": "J. R. Lake",
+        "particle": "by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**2."
+    ],
+    "title": [
+      "Best Practices and Tools:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "title": [
+      "**\"Reproducible NLP Research: A Practical Guide\"**",
+      "- A practical guide to improving reproducibility in NLP research, covering best practices for data management, code organization, and documentation"
+    ],
+    "date": [
+      "2021"
+    ],
+    "author": [
+      {
+        "family": "M. R. L. Fernandes",
+        "particle": "by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "title": [
+      "**\"Towards Reproducible NLP Research: A Framework for Data Management and Code Sharing\"**",
+      "- A framework for promoting reproducibility in NLP research, emphasizing the importance of data management and code sharing"
+    ],
+    "date": [
+      "2020"
+    ],
+    "author": [
+      {
+        "family": "A. S. Bhatia",
+        "particle": "by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "author": [
+      {
+        "family": "Jupyter Notebooks\"",
+        "given": "Reproducible N.L.P.Research",
+        "particle": "with"
+      },
+      {
+        "family": "J. R. Lake",
+        "particle": "by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "title": [
+      "- A guide to using Jupyter Notebooks for reproducible NLP research, highlighting the benefits of interactive coding and documentation"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "author": [
+      {
+        "family": "Checklist\"",
+        "given": "The N.L.P.Reproducibility"
+      },
+      {
+        "family": "S. Bhattacharya",
+        "particle": "by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2022"
+    ],
+    "title": [
+      "- A checklist for evaluating the reproducibility of NLP research, covering key aspects of data, code, and experimental setup"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "author": [
+      {
+        "family": "Docker\"",
+        "given": "Reproducible N.L.P.Research",
+        "particle": "with"
+      },
+      {
+        "family": "A. S. Bhatia",
+        "particle": "by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "title": [
+      "- A guide to using Docker for reproducible NLP research, highlighting the benefits of containerization for creating consistent environments"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**3."
+    ],
+    "title": [
+      "Case Studies and Examples:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "title": [
+      "**\"Reproducibility in NLP: A Case Study of the GLUE Benchmark\"**",
+      "- An analysis of reproducibility issues in the GLUE benchmark, demonstrating the impact of inconsistent data and code on model performance"
+    ],
+    "date": [
+      "2021"
+    ],
+    "author": [
+      {
+        "family": "S. Bhattacharya",
+        "particle": "by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "title": [
+      "**\"Reproducibility in NLP: A Case Study of the SQuAD Benchmark\"**",
+      "- An analysis of reproducibility issues in the SQuAD benchmark, highlighting the importance of data preprocessing and model training procedures"
+    ],
+    "date": [
+      "2020"
+    ],
+    "author": [
+      {
+        "family": "A. S. Bhatia",
+        "particle": "by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "title": [
+      "**\"Reproducibility in NLP: A Case Study of the BERT Model\"**",
+      "- An analysis of reproducibility issues in the BERT model, demonstrating the impact of hyperparameter tuning and data augmentation on model performance"
+    ],
+    "date": [
+      "2019"
+    ],
+    "author": [
+      {
+        "family": "J. R. Lake",
+        "particle": "by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "title": [
+      "**\"Reproducibility in NLP: A Case Study of the GPT-3 Model\"**",
+      "- An analysis of reproducibility issues in the GPT-3 model, highlighting the challenges of replicating large-scale language models"
+    ],
+    "date": [
+      "2022"
+    ],
+    "author": [
+      {
+        "family": "S. Bhattacharya",
+        "particle": "by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "title": [
+      "**\"Reproducibility in NLP: A Case Study of the Transformer Model\"**",
+      "- An analysis of reproducibility issues in the Transformer model, demonstrating the impact of architectural choices and training procedures on model performance"
+    ],
+    "date": [
+      "2020"
+    ],
+    "author": [
+      {
+        "family": "A. S. Bhatia",
+        "particle": "by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**4."
+    ],
+    "note": [
+      "Future Directions:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "title": [
+      "**\"Towards a Reproducible Future for NLP Research\"**",
+      "- A discussion of future directions for improving reproducibility in NLP research, highlighting the need for standardized data formats, code sharing platforms, and community-driven initiatives"
+    ],
+    "date": [
+      "2022"
+    ],
+    "author": [
+      {
+        "family": "S. Bhattacharya",
+        "particle": "by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "title": [
+      "**\"The Future of Reproducibility in NLP: A Roadmap for Action\"**",
+      "- A roadmap for improving reproducibility in NLP research, outlining key steps for researchers, institutions, and funding agencies"
+    ],
+    "date": [
+      "2021"
+    ],
+    "author": [
+      {
+        "family": "A. S. Bhatia",
+        "particle": "by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "title": [
+      "**\"Reproducibility in NLP: A Call for Collaboration\"**",
+      "- A call for collaboration among researchers, institutions, and funding agencies to address the reproducibility crisis in NLP"
+    ],
+    "date": [
+      "2020"
+    ],
+    "author": [
+      {
+        "family": "J. R. Lake",
+        "particle": "by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "title": [
+      "**\"Reproducibility in NLP: A Vision for the Future\"**",
+      "- A vision for the future of reproducibility in NLP research, highlighting the potential for automated tools, standardized workflows, and community-driven initiatives"
+    ],
+    "date": [
+      "2019"
+    ],
+    "author": [
+      {
+        "family": "S. Bhattacharya",
+        "particle": "by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "title": [
+      "**\"Reproducibility in NLP: A Call for Transparency\"**",
+      "- A call for greater transparency in NLP research, highlighting the need for open data, code sharing, and detailed documentation"
+    ],
+    "date": [
+      "2022"
+    ],
+    "author": [
+      {
+        "family": "S. Bhattacharya",
+        "particle": "by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Note:** This list is not exhaustive and there are many other valuable articles and resources available on the topic of reproducibility in NLP. This list provides a starting point for exploring the challenges, best practices, and future directions in this important area of research"
+    ],
+    "type": null
+  }
+]

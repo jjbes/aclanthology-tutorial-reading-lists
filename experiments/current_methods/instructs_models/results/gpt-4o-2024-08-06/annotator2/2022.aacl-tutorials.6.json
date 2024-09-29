@@ -1,0 +1,787 @@
+[
+  {
+    "title": [
+      "Here's a reading list of 20 articles up to 2022 that cover word sense disambiguation, parsing, and semantic role labeling in a multilingual context, with a focus on semantic relations captured by language models"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "author": [
+      {
+        "family": "Navigli",
+        "given": "R."
+      }
+    ],
+    "date": [
+      "2009"
+    ],
+    "title": [
+      "Word Sense Disambiguation: A Survey"
+    ],
+    "container-title": [
+      "ACM Computing Surveys.**"
+    ],
+    "type": "chapter"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "A comprehensive survey on word sense disambiguation techniques, including multilingual approaches"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "author": [
+      {
+        "family": "Ruder",
+        "given": "S."
+      },
+      {
+        "family": "Vulic",
+        "given": "I."
+      },
+      {
+        "family": "Søgaard",
+        "given": "A."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "title": [
+      "A Survey of Cross-lingual Word Embedding Models"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "Journal of Artificial Intelligence Research.**"
+    ]
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Discusses cross-lingual embeddings and their applications in tasks like word sense disambiguation"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "author": [
+      {
+        "family": "Pires",
+        "given": "T."
+      },
+      {
+        "family": "Schlinger",
+        "given": "E."
+      },
+      {
+        "family": "Garrette",
+        "given": "D."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "title": [
+      "How Multilingual is Multilingual BERT?"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "ACL.**"
+    ]
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Analyzes the multilingual capabilities of BERT, including its performance on parsing and semantic tasks"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "author": [
+      {
+        "family": "Conia",
+        "given": "S."
+      },
+      {
+        "family": "Navigli",
+        "given": "R."
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "title": [
+      "Conception: Multilingually-Enhanced, Human-Readable Concept Vector Representations"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "ACL.**"
+    ]
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Introduces concept vectors for multilingual semantic understanding"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "author": [
+      {
+        "family": "Wu",
+        "given": "S."
+      },
+      {
+        "family": "Dredze",
+        "given": "M."
+      },
+      {
+        "family": "Cotterell",
+        "given": "R."
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "title": [
+      "Are All Languages Equally Hard to Language-Model?"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "ACL.**"
+    ]
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Examines language models' performance across different languages, relevant for multilingual parsing"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "author": [
+      {
+        "family": "Kondratyuk",
+        "given": "D."
+      },
+      {
+        "family": "Straka",
+        "given": "M."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "title": [
+      "75 Languages, 1 Model: Parsing Universal Dependencies Universally"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "EMNLP.**"
+    ]
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Proposes a multilingual model for parsing universal dependencies"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "author": [
+      {
+        "family": "Roth",
+        "given": "M."
+      },
+      {
+        "family": "Lapata",
+        "given": "M."
+      }
+    ],
+    "date": [
+      "2016"
+    ],
+    "title": [
+      "Neural Semantic Role Labeling with Dependency Path Embeddings"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "ACL.**"
+    ]
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Explores neural approaches to semantic role labeling with multilingual considerations"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "author": [
+      {
+        "family": "Artetxe",
+        "given": "M."
+      },
+      {
+        "family": "Schwenk",
+        "given": "H."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "title": [
+      "Massively Multilingual Sentence Embeddings for Zero-Shot Cross-Lingual Transfer and Beyond"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "TACL.**"
+    ]
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Discusses sentence embeddings for cross-lingual tasks, including semantic role labeling"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "author": [
+      {
+        "family": "Vulic",
+        "given": "I."
+      },
+      {
+        "family": "Moens",
+        "given": "M.-F."
+      }
+    ],
+    "date": [
+      "2015"
+    ],
+    "title": [
+      "Bilingual Word Embeddings from Non-Parallel Document-Aligned Data"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "EMNLP.**"
+    ]
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Focuses on creating bilingual embeddings for tasks like word sense disambiguation"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "author": [
+      {
+        "family": "Liu",
+        "given": "Y."
+      },
+      {
+        "family": "Ott",
+        "given": "M."
+      },
+      {
+        "family": "Goyal",
+        "given": "N."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "title": [
+      "RoBERTa: A Robustly Optimized BERT Pretraining Approach"
+    ],
+    "note": [
+      "arXiv.**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "While not exclusively multilingual, RoBERTa's improvements are relevant for multilingual semantic tasks"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "author": [
+      {
+        "family": "Devlin",
+        "given": "J."
+      },
+      {
+        "family": "Chang",
+        "given": "M.-W."
+      },
+      {
+        "family": "Lee",
+        "given": "K."
+      },
+      {
+        "family": "Toutanova",
+        "given": "K."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "title": [
+      "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "NAACL.**"
+    ]
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Introduces BERT, a foundational model for multilingual semantic tasks"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "author": [
+      {
+        "family": "Conneau",
+        "given": "A."
+      },
+      {
+        "family": "Khandelwal",
+        "given": "K."
+      },
+      {
+        "family": "Goyal",
+        "given": "N."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "title": [
+      "Unsupervised Cross-lingual Representation Learning at Scale"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "ACL.**"
+    ]
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Discusses large-scale cross-lingual representation learning, applicable to parsing and semantic role labeling"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "author": [
+      {
+        "family": "Raganato",
+        "given": "A."
+      },
+      {
+        "family": "Camacho-Collados",
+        "given": "J."
+      },
+      {
+        "family": "Navigli",
+        "given": "R."
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "title": [
+      "Word Sense Disambiguation: A Unified Evaluation Framework and Empirical Comparison"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "EACL.**"
+    ]
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Provides a framework for evaluating word sense disambiguation methods, including multilingual ones"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "author": [
+      {
+        "family": "Mulcaire",
+        "given": "P."
+      },
+      {
+        "family": "Swayamdipta",
+        "given": "S."
+      },
+      {
+        "family": "Smith",
+        "given": "N.A."
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "title": [
+      "Polyglot Semantic Role Labeling"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "ACL.**"
+    ]
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Investigates semantic role labeling across multiple languages"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "author": [
+      {
+        "family": "Peters",
+        "given": "M.E."
+      },
+      {
+        "family": "Neumann",
+        "given": "M."
+      },
+      {
+        "family": "Iyyer",
+        "given": "M."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "title": [
+      "Deep Contextualized Word Representations"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "NAACL.**"
+    ]
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Introduces ELMo, which has implications for multilingual semantic tasks"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "author": [
+      {
+        "family": "Kumar",
+        "given": "V."
+      },
+      {
+        "family": "Joshi",
+        "given": "A."
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "title": [
+      "Cross-lingual Training for Automatic Question Generation"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "ACL.**"
+    ]
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Explores cross-lingual training methods that can be applied to semantic tasks"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "author": [
+      {
+        "family": "Lample",
+        "given": "G."
+      },
+      {
+        "family": "Conneau",
+        "given": "A."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "title": [
+      "Cross-lingual Language Model Pretraining"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "NeurIPS.**"
+    ]
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Discusses pretraining methods for cross-lingual language models, relevant for semantic role labeling"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "author": [
+      {
+        "family": "Schuster",
+        "given": "S."
+      },
+      {
+        "family": "Aralikatte",
+        "given": "R."
+      },
+      {
+        "family": "Gupta",
+        "given": "A."
+      },
+      {
+        "family": "Linzen",
+        "given": "T."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "title": [
+      "Towards Debiasing Sentence Representations"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "ACL.**"
+    ]
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Examines biases in sentence representations, with implications for multilingual semantic tasks"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "author": [
+      {
+        "family": "Zhou",
+        "given": "J."
+      },
+      {
+        "family": "Xu",
+        "given": "W."
+      }
+    ],
+    "date": [
+      "2015"
+    ],
+    "title": [
+      "End-to-end Learning of Semantic Role Labeling Using Recurrent Neural Networks"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "ACL.**"
+    ]
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Discusses RNN-based approaches to semantic role labeling, applicable in a multilingual context"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "author": [
+      {
+        "family": "Wu",
+        "given": "Y."
+      },
+      {
+        "family": "Dredze",
+        "given": "M."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "title": [
+      "Beto, Bentz, Becas: The Surprising Cross-Lingual Effectiveness of BERT"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "EMNLP.**"
+    ]
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Analyzes BERT's cross-lingual effectiveness, including its impact on semantic tasks"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "These articles provide a broad overview of the state-of-the-art in multilingual word sense disambiguation, parsing, and semantic role labeling, with a focus on the role of language models in capturing semantic relations"
+    ],
+    "type": null
+  }
+]

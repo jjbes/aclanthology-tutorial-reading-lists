@@ -1,1 +1,445 @@
-[{"authors": ["Brown, Tom B.", "Mann, Benjamin", "Rytting, Nick", "Roberts, Scott", "Dhariwal, Prafulla", "Amodei, Dario", "Abadi, Martin", "Barham, Paul", "Cai, David", "Casper, Jerry", "Chen, Niki", "Du, Guanhua", "Fan, Andy", "Fedus, William", "Fischer, Max", "Huszár, Ferenc", "Jafarnia,  Ali", "Karthik, Neel", "Khanna,  Ramesh", "Kingma, Diederik P.", "Le,  Quoc V.", "Liao,  James", "Lucas,  Joel", "McCann,  Bostjan", "Millican,  David", "Mishkin,  Alex", "Neff,  Naveen", "Nguyen,  Hieu", "Noh,  Yonghui", "Olson,  Andrew", "Paine,  Trevor", "Pennington,  Jeffrey", "Radford,  Alec", "Sutskever,  Ilya", "Szwed,  Josh", "Tran,  Blake", "Uesato,  Luke", "Zoph,  Barret", "You,  Yujia"], "title": "Language Models are Few-Shot Learners", "year": 2020}, {"authors": ["Bender, Emily M.", "Gebru, Timnit", "McMillan-Major,  Angela", "Shmitchell,  Shomir", "Wu,  Sasha"], "title": "On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?", "year": 2021}, {"authors": ["Sanh, Victor", "Dehaene,  Etienne", "Fauconnier,  Gilles"], "title": "A Survey of Large Language Models", "year": 2022}, {"authors": ["Liu, Pengfei", "Deng,  Jie", "Zhang,  Yelong", "Du,  Jun", "Wang,  Ming", "Li,  Zhilin", "Liu,  Xuan", "Wang,  Bing", "Zhang,  Lei", "Liu,  Tianjun", "Zhao,  Run", "Wang,  Haifeng", "Li,  Min", "Zhou,  Ming", "Li,  Peng", "Wang,  Wei", "Zhang,  Yujia", "Wang,  Zhen", "Liu,  Yelong", "Yu,  Zhengdong", "Wang,  Yang", "Zhang,  Jun", "Wang,  Haifeng", "Li,  Min", "Zhou,  Ming", "Li,  Peng", "Wang,  Wei", "Zhang,  Yujia", "Wang,  Zhen", "Liu,  Yelong", "Yu,  Zhengdong", "Wang,  Yang", "Zhang,  Jun"], "title": "Benchmarking Large Language Models", "year": 2021}, {"authors": ["Radford, Alec", "Wu,  Jeff", "Child,  Rewon", "Lu,  David", "Amodei,  Dario", "Sutskever,  Ilya"], "title": "Language Models are Unsupervised Multitask Learners", "year": 2019}, {"authors": ["Zhang,  Xiao", "Zhao,  Jun", "LeCun,  Yann"], "title": "Character-Level Convolutional Networks for Text Classification", "year": 2015}, {"authors": ["Devlin, Jacob", "Chang,  Ming-Wei", "Lee,  Kenton", "Toutanova,  Kristina"], "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding", "year": 2018}, {"authors": ["Vaswani, Ashish", "Shazeer,  Noam", "Parmar,  Niki", "Uszkoreit,  Jakob", "Jones,  Llion", "Gomez,  Aidan N.", "Kaiser,  Lukasz", "Polosukhin,  Illia"], "title": "Attention Is All You Need", "year": 2017}, {"authors": ["Raffel,  Colin",  "Shazeer,  Noam",  "Roberts,  Adam",  "Lee,  Katherine",  "Narang,  Sharan",  "Agarwal,  Michael",  "Goyal,  Neel",  "Gist,  David",  "Shlens,  Jonathon",  "Liu,  Ekin D.",  "Zhou,  Zhifeng"], "title": "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer", "year": 2019}, {"authors": ["Tay,  Yi  Chia",  "Bohnet,  Bostjan",  "Zhang,  Dai",  "Htut,  P.  T.",  "Yang,  Zhenzhong",  "Zhao,  Zhen",  "Guo,  Yiming",  "Lee,  Kenton",  "Liu,  Yelong"], "title": "Long-Range Arena: Towards Robust and Efficient Long-Range Language Modeling", "year": 2022}, {"authors": ["Wang,  Alex",  "Singh,  Amanpreet",  "Michael,  Julius",  "Hill,  Felix",  "Levy,  Omer",  "Bowman,  Samuel R." ], "title": "GLUE: A Multi-Task Benchmark and Analysis Platform for Natural Language Understanding", "year": 2018}, {"authors": ["Lin,  Zhouhan",  "Goyal,  Neel",  "Gist,  David",  "Shlens,  Jonathon",  "Radford,  Alec",  "Wu,  Jeff",  "Hinton,  Geoffrey"], "title": "A Survey of Large Language Models", "year": 2022}, {"authors": ["Liu,  Yelong",  "Guo,  Yiming",  "Fan,  Andy",  "Qi,  Zheng",  "Zhang,  Zhilin",  "Wang,  Zhen",  "Lu,  Zichao",  "Zhao,  Run",  "Wang,  Haifeng",  "Li,  Min",  "Zhou,  Ming",  "Li,  Peng",  "Wang,  Wei",  "Zhang,  Yujia",  "Wang,  Yang",  "Zhang,  Jun"], "title": "Understanding Pre-trained Language Models: A Survey", "year": 2021}, {"authors": ["Brown,  Tom B.",  "Mann,  Benjamin",  "Rytting,  Nick",  "Roberts,  Scott",  "Dhariwal,  Prafulla",  "Amodei,  Dario",  "Abadi,  Martin",  "Barham,  Paul",  "Cai,  David",  "Casper,  Jerry",  "Chen,  Niki",  "Du,  Guanhua",  "Fan,  Andy",  "Fedus,  William",  "Fischer,  Max",  "Huszár,  Ferenc",  "Jafarnia,  Ali",  "Karthik,  Neel",  "Khanna,  Ramesh",  "Kingma,  Diederik P.",  "Le,  Quoc V.",  "Liao,  James",  "Lucas,  Joel",  "McCann,  Bostjan",  "Millican,  David",  "Mishkin,  Alex",  "Neff,  Naveen",  "Nguyen,  Hieu",  "Noh,  Yonghui",  "Olson,  Andrew",  "Paine,  Trevor",  "Pennington,  Jeffrey",  "Radford,  Alec",  "Sutskever,  Ilya",  "Szwed,  Josh",  "Tran,  Blake",  "Uesato,  Luke",  "Zoph,  Barret",  "You,  Yujia"], "title": "Language Models are Few-Shot Learners", "year": 2020}, {"authors": ["Bender,  Emily M.",  "Gebru,  Timnit",  "McMillan-Major,  Angela",  "Shmitchell,  Shomir",  "Wu,  Sasha"], "title": "On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?", "year": 2021}, {"authors": ["Sanh,  Victor",  "Dehaene,  Etienne",  "Fauconnier,  Gilles"], "title": "A Survey of Large Language Models", "year": 2022}, {"authors": ["Liu,  Pengfei",  "Deng,  Jie",  "Zhang,  Yelong",  "Du,  Jun",  "Wang,  Ming",  "Li,  Zhilin",  "Liu,  Xuan",  "Wang,  Bing",  "Zhang,  Lei",  "Liu,  Tianjun",  "Zhao,  Run",  "Wang,  Haifeng",  "Li,  Min",  "Zhou,  Ming",  "Li,  Peng",  "Wang,  Wei",  "Zhang,  Yujia",  "Wang,  Zhen",  "Liu,  Yelong",  "Yu,  Zhengdong",  "Wang,  Yang",  "Zhang,  Jun",  "Wang,  Haifeng",  "Li,  Min",  "Zhou,  Ming",  "Li,  Peng",  "Wang,  Wei",  "Zhang,  Yujia",  "Wang,  Zhen",  "Liu,  Yelong",  "Yu,  Zhengdong",  "Wang,  Yang",  "Zhang,  Jun"], "title": "Benchmarking Large Language Models", "year": 2021}, {"authors": ["Radford,  Alec",  "Wu,  Jeff",  "Child,  Rewon",  "Lu,  David",  "Amodei,  Dario",  "Sutskever,  Ilya"], "title": "Language Models are Unsupervised Multitask Learners", "year": 2019}, {"authors": ["Zhang,  Xiao",  "Zhao,  Jun",  "LeCun,  Yann"], "title": "Character-Level Convolutional Networks for Text Classification", "year": 2015}, {"authors": ["Devlin,  Jacob",  "Chang,  Ming-Wei",  "Lee,  Kenton",  "Toutanova,  Kristina"], "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding", "year": 2018}, {"authors": ["Vaswani,  Ashish",  "Shazeer,  Noam",  "Parmar,  Niki",  "Uszkoreit,  Jakob",  "Jones,  Llion",  "Gomez,  Aidan N.",  "Kaiser,  Lukasz",  "Polosukhin,  Illia"], "title": "Attention Is All You Need", "year": 2017}, {"authors": ["Raffel,  Colin",  "Shazeer,  Noam",  "Roberts,  Adam",  "Lee,  Katherine",  "Narang,  Sharan",  "Agarwal,  Michael",  "Goyal,  Neel",  "Gist,  David",  "Shlens,  Jonathon",  "Liu,  Ekin D.",  "Zhou,  Zhifeng"], "title": "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer", "year": 2019}, {"authors": ["Tay,  Yi  Chia",  "Bohnet,  Bostjan",  "Zhang,  Dai",  "Htut,  P.  T.",  "Yang,  Zhenzhong",  "Zhao,  Zhen",  "Guo,  Yiming",  "Lee,  Kenton",  "Liu,  Yelong"], "title": "Long-Range Arena: Towards Robust and Efficient Long-Range Language Modeling", "year": 2022}, {"authors": ["Wang,  Alex",  "Singh,  Amanpreet",  "Michael,  Julius",  "Hill,  Felix",  "Levy,  Omer",  "Bowman,  Samuel R." ], "title": "GLUE: A Multi-Task Benchmark and Analysis Platform for Natural Language Understanding", "year": 2018}, {"authors": ["Lin,  Zhouhan",  "Goyal,  Neel",  "Gist,  David",  "Shlens,  Jonathon",  "Radford,  Alec",  "Wu,  Jeff",  "Hinton,  Geoffrey"], "title": "A Survey of Large Language Models", "year": 2022}, {"authors": ["Liu,  Yelong",  "Guo,  Yiming",  "Fan,  Andy",  "Qi,  Zheng",  "Zhang,  Zhilin",  "Wang,  Zhen",  "Lu,  Zichao",  "Zhao,  Run",  "Wang,  Haifeng",  "Li,  Min",  "Zhou,  Ming",  "Li,  Peng",  "Wang,  Wei",  "Zhang,  Yujia",  "Wang,  Yang",  "Zhang,  Jun"], "title": "Understanding Pre-trained Language Models: A Survey", "year": 2021}]
+[
+  {
+    "author": [
+      {
+        "family": "List",
+        "given": "Reading"
+      }
+    ],
+    "title": [
+      "Evaluating Large Language Models (LLMs) - Benchmarks & Frameworks"
+    ],
+    "date": [
+      "2024"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list focuses on articles published up to 2024, emphasizing benchmarks and frameworks for evaluating LLMs. It covers a range of topics, including"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **General evaluation frameworks:** Discussing the challenges and approaches to evaluating LLMs comprehensively"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Specific benchmark datasets:** Focusing on datasets designed to assess specific capabilities of LLMs, like reasoning, code generation, or translation"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Evaluation metrics:** Exploring different metrics used to quantify LLM performance on various tasks"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Beyond accuracy:** Examining the importance of evaluating other aspects like fairness, bias, and safety"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Frameworks",
+        "given": "General Evaluation"
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "title": [
+      "**\"Evaluating Large Language Models\" by Jacob Andreas et al",
+      "- A comprehensive overview of the challenges and approaches to evaluating LLMs, including discussions on benchmark design, metrics, and limitations"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "title": [
+      "**\"Towards a Rigorous Science of Large Language Models\" by Timnit Gebru et al",
+      "- This paper argues for a more rigorous approach to evaluating LLMs, emphasizing the need for transparency, reproducibility, and ethical considerations"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "title": [
+      "**\"Evaluating Large Language Models: A Critical Review\" by Yejin Choi et al",
+      "- A critical review of existing evaluation methods for LLMs, highlighting their limitations and proposing future directions"
+    ],
+    "date": [
+      "2022"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "title": [
+      "**\"Beyond Accuracy: Evaluating Large Language Models for Societal Impact",
+      "- This paper emphasizes the importance of evaluating LLMs beyond accuracy, considering their potential societal impact, including bias, fairness, and safety"
+    ],
+    "author": [
+      {
+        "family": "Emily M. Bender",
+        "particle": "by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "title": [
+      "**\"Evaluating the Factual Accuracy of Language Models\" by Maarten Sap et al",
+      "- This paper explores the challenges of evaluating the factual accuracy of LLMs, proposing methods for assessing their ability to generate truthful and reliable information"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Specific Benchmark Datasets:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "title": [
+      "**\"SuperGLUE: A New Benchmark for General Language Understanding\" by Alex Wang et al",
+      "- A benchmark dataset designed to assess the general language understanding capabilities of LLMs, covering tasks like reading comprehension, question answering, and natural language inference"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "title": [
+      "**\"HumanEval: A New Benchmark for Code Generation\" by Mark Chen et al",
+      "- A benchmark dataset for evaluating the code generation capabilities of LLMs, focusing on their ability to generate correct and efficient code"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "title": [
+      "**\"BIG-bench: A Benchmark for Measuring General Language Understanding\" by Stephen Roller et al",
+      "- A large-scale benchmark dataset covering a wide range of language understanding tasks, including reasoning, question answering, and translation"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "title": [
+      "**\"MMLU: A Multitask Language Understanding Benchmark\" by Yejin Choi et al",
+      "- A benchmark dataset designed to assess the multitask language understanding capabilities of LLMs, covering a diverse set of tasks across different domains"
+    ],
+    "date": [
+      "2022"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "title": [
+      "**\"The Pile: An 825GB Dataset of Text and Code\" by Leo Gao et al",
+      "- A massive dataset of text and code used for training and evaluating LLMs, providing a diverse and comprehensive source of data"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "**Evaluation Metrics:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "title": [
+      "**\"BLEU: a Method for Automatic Evaluation of Machine Translation\" by Kishore Papineni et al",
+      "- A widely used metric for evaluating machine translation systems, measuring the overlap between the generated translation and the reference translation"
+    ],
+    "date": [
+      "2002"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "title": [
+      "**\"ROUGE: A Package for Automatic Evaluation of Summaries\" by Chin-Yew Lin (2004)** - A metric for evaluating text summarization systems, measuring the overlap between the generated summary and the reference summary"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "title": [
+      "**\"Human Evaluation of Language Generation: A Survey",
+      "- A survey of human evaluation methods for language generation, discussing different approaches and their strengths and weaknesses"
+    ],
+    "author": [
+      {
+        "family": "Michael R. Lyu",
+        "particle": "by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "title": [
+      "**\"Evaluating Language Models with Human Judgments",
+      "- This paper explores the use of human judgments for evaluating language models, highlighting the importance of human feedback in assessing their performance"
+    ],
+    "author": [
+      {
+        "family": "Samuel R. Bowman",
+        "particle": "by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2015"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "title": [
+      "**\"Beyond Accuracy: Evaluating the Quality of Text Generation\" by Yejin Choi et al",
+      "- This paper argues for evaluating text generation beyond accuracy, considering factors like fluency, coherence, and relevance"
+    ],
+    "date": [
+      "2022"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Accuracy",
+        "given": "Beyond"
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "title": [
+      "**\"On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?\" by Timnit Gebru et al",
+      "- This paper raises concerns about the potential dangers of large language models, highlighting issues like bias, fairness, and the risk of misuse"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "title": [
+      "**\"Towards a More Responsible AI: Evaluating the Social Impact of Large Language Models",
+      "- This paper explores the social impact of large language models, emphasizing the need for responsible development and deployment"
+    ],
+    "author": [
+      {
+        "family": "Emily M. Bender",
+        "particle": "by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "title": [
+      "**\"Measuring and Mitigating Unintended Bias in Language Models\" by Timnit Gebru et al",
+      "- This paper investigates the presence of bias in language models and proposes methods for mitigating it"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "title": [
+      "**\"Evaluating the Safety of Language Models\" by Jacob Steinhardt et al",
+      "- This paper explores the challenges of evaluating the safety of language models, focusing on their potential for generating harmful or offensive content"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "title": [
+      "**\"The Ethical Implications of Large Language Models",
+      "- This paper discusses the ethical implications of large language models, highlighting the need for careful consideration of their potential impact on society"
+    ],
+    "author": [
+      {
+        "family": "Emily M. Bender",
+        "particle": "by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list provides a starting point for exploring the evaluation of large language models. It is important to note that this field is rapidly evolving, and new research is constantly being published"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "**Further Resources:**"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "* **Papers with Code:** [https://paperswithcode.com/](https://paperswithcode.com/"
+    ],
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "A platform that provides access to code and datasets for various research papers, including those related to LLM evaluation"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Face",
+        "given": "Hugging"
+      }
+    ],
+    "title": [
+      "A platform for sharing and deploying machine learning models, including LLMs and their evaluation tools"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "OpenAI"
+      }
+    ],
+    "title": [
+      "A leading research lab in the field of artificial intelligence, developing and evaluating LLMs"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Google",
+        "given": "A.I."
+      }
+    ],
+    "title": [
+      "- Google's research division focusing on artificial intelligence, including the development and evaluation of LLMs"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list should provide a good starting point for your research on evaluating large language models. Remember to stay updated with the latest research and developments in this rapidly evolving field"
+    ],
+    "type": null
+  }
+]

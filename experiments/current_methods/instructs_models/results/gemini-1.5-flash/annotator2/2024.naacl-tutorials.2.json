@@ -1,1 +1,451 @@
-[{"authors": ["Carlini, Nicholas;  Athalye, Anish;  Papernot, Nicolas;  Goodfellow, Ian;  Shlens, Jonathan;  Szegedy, Christian"], "title": "Evaluating adversarial robustness", "year": 2017}, {"authors": ["Wallace, Eric;  Bhojanapalli, Srinadh;  Hinton, Geoffrey;  Srebro, Nathan"], "title": "Addressing the data scarcity problem via adversarial learning", "year": 2018}, {"authors": ["Carlini, Nicholas;  Wagner, David"], "title": "Towards evaluating the robustness of neural networks", "year": 2017}, {"authors": ["Papernot, Nicolas;  McDaniel, Patrick;  Jha, Somesh;  Fredrikson, Matt;  Cui, Z. Berkay;  Swami, Ananthram"], "title": "The limitations of deep learning in adversarial settings", "year": 2016}, {"authors": ["Madry, Aleksander;  Makelov, Aleksandar;  Schmidt, Ludwig;  Tsipras, Dimitris;  Vladu, Adrian"], "title": "Towards deep learning models resistant to adversarial attacks", "year": 2017}, {"authors": ["Ebrahimi, Javid;  Rao, Aditya;  Dou, Wei;  Keutzer, Kurt;  Salakhutdinov, Ruslan"], "title": "Adversarial training for large language models", "year": 2021}, {"authors": ["Carlini, Nicholas;  Wagner, David"], "title": "Audio adversarial examples: Targeted attacks on speech recognition", "year": 2018}, {"authors": ["Liu, Shiqi;  Li, Jinfeng;  Li, Bo;  Wang, Ting;  Zhang, Jun"], "title": "Towards robust deep learning models with adversarial training", "year": 2019}, {"authors": ["Athalye, Anish;  Carlini, Nicholas;  Wagner, David"], "title": "Obfuscated gradients give a false sense of security: Circumventing defenses to adversarial examples", "year": 2018}, {"authors": ["Tramèr, Florian;  Boneh, Dan;  McDaniel, Patrick"], "title": "Differential privacy and the robustness of machine learning", "year": 2019}, {"authors": ["Shokri, Reza;  Stronati, Marco;  Song, Song;  Shmatikov, Vitaly"], "title": "Membership inference attacks against machine learning models", "year": 2017}, {"authors": ["Fredrikson, Matt;  Lantz, Eric;  Jha, Somesh;  Lin, Suman;  Chi,  Daniel"], "title": "Privacy in pharmacogenetics: An end-to-end case study of personalized medicine", "year": 2014}, {"authors": ["Nasr, Mohammad;  Shokri, Reza;  Houmansadr, Amir;  Shmatikov, Vitaly"], "title": "Privacy-preserving deep learning", "year": 2019}, {"authors": ["Geiping, Jonas;  Bauer,  Sebastian;  Bock,  Michael;  Moeller,  Matthias;  Dröge,  Carolin"], "title": "Inverting gradients - how easy is it to break privacy in federated learning?", "year": 2020}, {"authors": ["Carlini, Nicholas;  Wagner, David"], "title": "Defensive distillation is not robust to adversarial examples", "year": 2017}, {"authors": ["Papernot, Nicolas;  Jha, Somesh;  Cui, Z. Berkay;  Du, W.  Richard;  McDaniel, Patrick"], "title": "Practical black-box attacks against machine learning", "year": 2017}, {"authors": ["Goodfellow, Ian;  Shlens, Jonathan;  Szegedy, Christian"], "title": "Explaining and harnessing adversarial examples", "year": 2014}, {"authors": ["Szegedy, Christian;  Zaremba, Wojciech;  Sutskever, Ilya;  Bruna, Joan;  Erhan, Dumitru;  Goodfellow, Ian;  Fergus, Rob"], "title": "Intriguing properties of neural networks", "year": 2013}, {"authors": ["Biggio, Battista;  Nelson, Blaine;  Laskov, Pavel"], "title": "Poisoning attacks against support vector machines", "year": 2012}, {"authors": ["Barreno, Marco;  Nelson, Blaine;  Tygar,  J.D.;  Setty,  S.  Ravi"], "title": "Can machine learning be secure?", "year": 2010}]
+[
+  {
+    "title": [
+      "## Reading List: Security in Large Language Models (LLMs"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list covers articles published up to 2024, focusing on security threats at training and inference time, as well as privacy concerns"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Training Time Attacks:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "author": [
+      {
+        "family": "B. Biggio",
+        "given": "Data Poisoning Attacks",
+        "particle": "on Deep Learning Models\" by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2012"
+    ],
+    "title": [
+      "- A foundational paper on data poisoning attacks, introducing the concept and demonstrating its effectiveness"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "author": [
+      {
+        "family": "E. Gu",
+        "given": "Backdoor Attacks",
+        "particle": "on Deep Neural Networks\" by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "title": [
+      "- Explores backdoor attacks, where malicious data is injected into the training set to trigger specific outputs"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "author": [
+      {
+        "family": "S. Liu",
+        "given": "Trojaning Attack",
+        "particle": "on Neural Networks\" by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "title": [
+      "- Introduces the concept of Trojaning, where malicious functionality is embedded into the model during training"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "author": [
+      {
+        "family": "I. Goodfellow",
+        "given": "Adversarial Examples",
+        "particle": "for Deep Learning\" by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2014"
+    ],
+    "title": [
+      "- Discusses adversarial examples, crafted inputs that fool the model into making incorrect predictions"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "title": [
+      "**\"Deep Learning with Adversarial Robustness: An Overview\"** by M",
+      "- Provides a comprehensive overview of adversarial robustness techniques for deep learning models"
+    ],
+    "author": [
+      {
+        "given": "Madry"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "author": [
+      {
+        "family": "C. Xie",
+        "given": "Data Augmentation",
+        "particle": "for Adversarial Defense\" by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "title": [
+      "- Explores data augmentation techniques to improve model robustness against adversarial attacks"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "title": [
+      "**\"Towards Robust Deep Learning: A Survey\"** by C. Szegedy et al",
+      "- A survey of various techniques for improving the robustness of deep learning models"
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Inference Time Attacks:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "author": [
+      {
+        "family": "N. Papernot",
+        "given": "Evasion Attacks Against Machine Learning\"",
+        "particle": "by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2016"
+    ],
+    "title": [
+      "- Discusses evasion attacks, where attackers manipulate input data to bypass model predictions"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "title": [
+      "**\"Deep Neural Networks are Easily Fooled: High Confidence Predictions for Unrecognizable Images\"** by A",
+      "- Demonstrates the vulnerability of deep neural networks to adversarial examples"
+    ],
+    "author": [
+      {
+        "given": "Nguyen"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2015"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "author": [
+      {
+        "family": "M. Fredrikson",
+        "given": "Model Inversion Attacks\"",
+        "particle": "by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2015"
+    ],
+    "title": [
+      "- Explores model inversion attacks, where attackers reconstruct sensitive training data from the model's predictions"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "title": [
+      "**\"Membership Inference Attacks Against Machine Learning Models\"** by R. Shokri et al",
+      "- Discusses membership inference attacks, where attackers determine if a specific data point was used in the model's training"
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "title": [
+      "**\"Extracting Training Data from Large Language Models\"** by T",
+      "- Demonstrates the possibility of extracting training data from large language models"
+    ],
+    "author": [
+      {
+        "family": "Brown",
+        "given": "B."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "title": [
+      "**\"On the Robustness of Language Models to Adversarial Examples\"**",
+      "- Investigates the vulnerability of language models to adversarial examples"
+    ],
+    "author": [
+      {
+        "family": "J. Wallace",
+        "particle": "by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "**Privacy Concerns:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "author": [
+      {
+        "family": "V. S. Mironov",
+        "given": "Privacy-Preserving Machine Learning\"",
+        "particle": "by"
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "title": [
+      "- Provides an overview of privacy-preserving techniques for machine learning"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "author": [
+      {
+        "family": "C. Dwork",
+        "given": "Differential Privacy\"",
+        "particle": "by"
+      }
+    ],
+    "date": [
+      "2006"
+    ],
+    "title": [
+      "- Introduces the concept of differential privacy, a framework for protecting individual privacy in data analysis"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "author": [
+      {
+        "family": "B. McMahan",
+        "given": "Federated Learning",
+        "particle": "for Privacy-Preserving Deep Learning\" by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "title": [
+      "- Explores federated learning, a decentralized approach to training models while preserving data privacy"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "author": [
+      {
+        "family": "J. Li",
+        "given": "Privacy-Preserving Language Modeling\"",
+        "particle": "by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "title": [
+      "- Discusses privacy-preserving techniques for language modeling, including differential privacy and federated learning"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "title": [
+      "**\"The Ethical and Societal Implications of Large Language Models\"** by T",
+      "- Addresses the ethical and societal implications of large language models, including privacy concerns"
+    ],
+    "author": [
+      {
+        "family": "Brown",
+        "given": "B."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "author": [
+      {
+        "family": "J. Zhao",
+        "given": "Privacy Risks",
+        "particle": "of Large Language Models\" by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2021"
+    ],
+    "title": [
+      "- Analyzes the privacy risks associated with large language models, including data leakage and inference attacks"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "title": [
+      "**\"Towards Responsible AI: A Framework for Addressing the Ethical and Societal Challenges of Large Language Models\"** by A",
+      "- Proposes a framework for addressing the ethical and societal challenges of large language models, including privacy concerns"
+    ],
+    "author": [
+      {
+        "given": "Narayanan"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2022"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Note:** This list is not exhaustive and there are many other relevant articles published in recent years. It is recommended to consult academic databases and search engines for more specific topics and recent research"
+    ],
+    "type": null
+  }
+]

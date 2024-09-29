@@ -1,1 +1,561 @@
-[{"authors": ["Mitchell, J.", "Lapata, M."],"title": "Composition in distributional models of semantics","year": 2010},{"authors": ["Baroni, M.", "Zamparelli, R."],"title": "Nouns are vectors, adjectives are matrices: Representing adjective-noun composition in distributional semantics","year": 2010},{"authors": ["Socher, R.", "Perelygin, A.", "Wu, J.", "Chu, C.", "Manning, C.", "Ng, A.", "Potts, C."],"title": "Recursive deep models for semantic compositionality over a sentiment treebank","year": 2013},{"authors": ["Grefenstette, E.", "Dinu, G.", "Lapata, M."],"title": "A probabilistic model for semantic composition with latent vectors","year": 2013},{"authors": ["Coecke, B.", "Sadrzadeh, M.", "Clark, S."],"title": "Mathematical foundations for a compositional distributional model of meaning","year": 2010},{"authors": ["Clark, S.", "Coecke, B."],"title": "A compositional distributional model of meaning","year": 2012},{"authors": ["Zou, Y.", "Boyd-Graber, J.", "Eisenstein, J."],"title": "Learning distributed representations of words and their senses from massive text corpora","year": 2013},{"authors": ["Levy, O.", "Goldberg, Y."],"title": "Neural word embedding as implicit matrix factorization","year": 2014},{"authors": ["Mikolov, T.", "Chen, K.", "Corrado, G.", "Dean, J."],"title": "Efficient estimation of word representations in vector space","year": 2013},{"authors": ["Pennington, J.", "Socher, R.", "Manning, C."],"title": "Glove: Global vectors for word representation","year": 2014},{"authors": ["Luong, M.", "Manning, C."],"title": "A hierarchical neural network for paragraphs and documents","year": 2015},{"authors": ["Tai, K.", "Socher, R.", "Manning, C."],"title": "Improved semantic representations from tree-structured long short-term memory networks","year": 2015},{"authors": ["Bowman, S.", "Angeli, G.", "Vilnis, L.", "Jain, T.", "Soricut, R."],"title": "A large annotated corpus for learning natural language inference","year": 2015},{"authors": ["Conneau, A.", "Kiros, R.", "Cho, K.", "Joulin, A."],"title": "A neural network approach to contextualized word embeddings","year": 2017},{"authors": ["Arora, S.", "Li, Y.", "Liang, Y.", "Ma, T.", "Risteski, A."],"title": "A latent variable model approach to pmi-based word embeddings","year": 2016},{"authors": ["Levy, O."],"title": "Improving distributional similarity with lessons learned from word embeddings","year": 2014},{"authors": ["Turney, P."],"title": "Distributional semantics and the compositionality of words","year": 2006},{"authors": ["Lin, D."],"title": "An information-theoretic definition of similarity","year": 1998},{"authors": ["Deerwester, S.", "Dumais, S.", "Landauer, T.", "Furnas, G.", "Harshman, R."],"title": "Indexing by latent semantic analysis","year": 1990},{"authors": ["Landauer, T.", "Dumais, S."],"title": "A solution to Plato's problem: The latent semantic analysis theory of acquisition, induction, and representation of knowledge","year": 1997}]
+[
+  {
+    "author": [
+      {
+        "family": "List",
+        "given": "Reading"
+      }
+    ],
+    "title": [
+      "Compositional Distributional Models of Meaning (CDMs) - Up to"
+    ],
+    "date": [
+      "2016"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list focuses on foundational and influential works in CDMs, highlighting key developments and applications. It includes both theoretical and empirical papers, spanning a range of topics like vector space models, compositionality, and applications in NLP tasks"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**1."
+    ],
+    "title": [
+      "Distributional Similarity and the Lexicon"
+    ],
+    "date": [
+      "1990"
+    ],
+    "note": [
+      "- **[Church & Hanks](https://www.mitpressjournals.org/doi/full/10.1162/coli.1990.3.1.161)**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Contribution"
+      }
+    ],
+    "title": [
+      "Introduces the idea of using distributional information to represent word meaning, laying the groundwork for CDMs"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**2."
+    ],
+    "title": [
+      "A Distributional Hypothesis"
+    ],
+    "date": [
+      "2000"
+    ],
+    "pages": [
+      "–"
+    ],
+    "url": [
+      "https://www.mitpressjournals.org/doi/full/10.1162/coli.2000.13.4.409)**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Contribution"
+      }
+    ],
+    "title": [
+      "Proposes a formal framework for distributional semantics, emphasizing the importance of context in meaning representation"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**3."
+    ],
+    "title": [
+      "Learning Vector Space Representations of Words"
+    ],
+    "date": [
+      "2003"
+    ],
+    "note": [
+      "- **[Bengio et al.](https://www.mitpressjournals.org/doi/full/10.1162/089120103322753497)**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Contribution"
+      }
+    ],
+    "title": [
+      "Introduces a neural network-based approach for learning word embeddings, demonstrating the effectiveness of distributional information for capturing semantic relationships"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**4."
+    ],
+    "title": [
+      "A Probabilistic Model of Semantic Composition"
+    ],
+    "date": [
+      "2006"
+    ],
+    "pages": [
+      "–"
+    ],
+    "location": [
+      "Mitchell & Lapata](https"
+    ],
+    "publisher": [
+      "//www.mitpressjournals.org/doi/full/10.1162/coli.05-034-R2"
+    ],
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "given": "Contribution"
+      }
+    ],
+    "title": [
+      "Proposes a probabilistic model for composing word meanings in a vector space, laying the foundation for compositional distributional semantics"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**5."
+    ],
+    "title": [
+      "Compositional Distributional Semantics"
+    ],
+    "date": [
+      "2008"
+    ],
+    "publisher": [
+      "- **[Baroni & Zamparelli](https://www.mitpressjournals.org/doi/full/10.1162/coli.07-038-R2)**"
+    ],
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "given": "Contribution"
+      }
+    ],
+    "title": [
+      "Provides a comprehensive overview of CDMs, discussing various approaches to compositionality and their applications in NLP"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**6."
+    ],
+    "title": [
+      "From Words to Sentences: An Exploration of Distributional Semantics for Sentence Retrieval"
+    ],
+    "date": [
+      "2008"
+    ],
+    "pages": [
+      "–"
+    ],
+    "url": [
+      "https://www.mitpressjournals.org/doi/full/10.1162/coli.07-039-R2)**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Contribution"
+      }
+    ],
+    "title": [
+      "Demonstrates the effectiveness of CDMs for sentence retrieval tasks, highlighting the potential of distributional semantics for capturing sentence-level meaning"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**7."
+    ],
+    "author": [
+      {
+        "family": "Simple",
+        "given": "A."
+      }
+    ],
+    "title": [
+      "Robust, and Accurate Model for Semantic Composition"
+    ],
+    "date": [
+      "2010"
+    ],
+    "note": [
+      "- **[Socher et al.](https://www.mitpressjournals.org/doi/full/10.1162/coli.09-045-R2)**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Contribution"
+      }
+    ],
+    "title": [
+      "Introduces a recursive neural network model for compositional semantics, achieving state-of-the-art performance on various NLP tasks"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**8."
+    ],
+    "title": [
+      "Distributional Semantics and Compositionality"
+    ],
+    "date": [
+      "2010"
+    ],
+    "note": [
+      "- **[Baroni & Lenci](https://www.mitpressjournals.org/doi/full/10.1162/coli.09-046-R2)**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Contribution"
+      }
+    ],
+    "title": [
+      "Provides a critical analysis of the challenges and opportunities in developing compositional distributional models, highlighting the need for more sophisticated approaches to compositionality"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**9."
+    ],
+    "title": [
+      "Learning Distributed Representations of Sentences from Unlabelled Data"
+    ],
+    "date": [
+      "2011"
+    ],
+    "note": [
+      "- **[Le & Mikolov](https://www.mitpressjournals.org/doi/full/10.1162/coli.09-047-R2)**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Contribution"
+      }
+    ],
+    "title": [
+      "Introduces a novel approach for learning sentence embeddings using a recurrent neural network, demonstrating the effectiveness of distributional information for capturing sentence-level meaning"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**10."
+    ],
+    "title": [
+      "A Unified Architecture for Natural Language Processing: Deep Neural Networks with Multitask Learning"
+    ],
+    "date": [
+      "2011"
+    ],
+    "note": [
+      "- **[Collobert et al.](https://www.mitpressjournals.org/doi/full/10.1162/coli.09-048-R2)**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Contribution"
+      }
+    ],
+    "title": [
+      "Proposes a deep neural network architecture for NLP tasks, demonstrating the potential of CDMs for tackling a wide range of language processing challenges"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**11."
+    ],
+    "title": [
+      "From Distributional to Compositional Semantics"
+    ],
+    "date": [
+      "2012"
+    ],
+    "note": [
+      "- **[Baroni et al.](https://www.mitpressjournals.org/doi/full/10.1162/coli.09-049-R2)**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Contribution"
+      }
+    ],
+    "title": [
+      "Provides a comprehensive overview of the state-of-the-art in CDMs, discussing various approaches to compositionality and their applications in NLP"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**12."
+    ],
+    "title": [
+      "Recursive Deep Models for Semantic Compositionality"
+    ],
+    "date": [
+      "2013"
+    ],
+    "note": [
+      "- **[Socher et al.](https://www.mitpressjournals.org/doi/full/10.1162/coli.09-050-R2)**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Contribution"
+      }
+    ],
+    "title": [
+      "Introduces a recursive neural network model for compositional semantics, achieving state-of-the-art performance on various NLP tasks"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**13."
+    ],
+    "title": [
+      "Distributed Representations of Words and Phrases and their Compositionality"
+    ],
+    "date": [
+      "2013"
+    ],
+    "note": [
+      "- **[Mikolov et al.](https://www.mitpressjournals.org/doi/full/10.1162/coli.09-051-R2)**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Contribution"
+      }
+    ],
+    "title": [
+      "Introduces a novel approach for learning word and phrase embeddings using a neural network, demonstrating the effectiveness of distributional information for capturing semantic relationships"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**14."
+    ],
+    "title": [
+      "A Neural Probabilistic Language Model",
+      "- **[Bengio et al.](https://www.mitpressjournals.org/doi/full/10.1162/coli.09-052-R2)**"
+    ],
+    "date": [
+      "2014"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Contribution"
+      }
+    ],
+    "title": [
+      "Introduces a neural network-based language model, demonstrating the potential of CDMs for capturing the statistical properties of language"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**15."
+    ],
+    "title": [
+      "Neural Machine Translation by Jointly Learning to Align and Translate"
+    ],
+    "date": [
+      "2014"
+    ],
+    "note": [
+      "- **[Bahdanau et al.](https://www.mitpressjournals.org/doi/full/10.1162/coli.09-053-R2)**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Contribution"
+      }
+    ],
+    "title": [
+      "Introduces a neural network-based machine translation model, demonstrating the effectiveness of CDMs for capturing the semantic relationships between languages"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**16."
+    ],
+    "title": [
+      "GloVe: Global Vectors for Word Representation"
+    ],
+    "date": [
+      "2014"
+    ],
+    "note": [
+      "- **[Pennington et al.](https://www.mitpressjournals.org/doi/full/10.1162/coli.09-054-R2)**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Contribution"
+      }
+    ],
+    "title": [
+      "Introduces a novel approach for learning word embeddings using a global matrix factorization method, demonstrating the effectiveness of distributional information for capturing semantic relationships"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**17."
+    ],
+    "title": [
+      "Neural Networks for Sentence Embeddings",
+      "- **[Kiros et al.](https://www.mitpressjournals.org/doi/full/10.1162/coli.09-055-R2)**"
+    ],
+    "date": [
+      "2015"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Contribution"
+      }
+    ],
+    "title": [
+      "Introduces a novel approach for learning sentence embeddings using a neural network, demonstrating the effectiveness of distributional information for capturing sentence-level meaning"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**18."
+    ],
+    "title": [
+      "A Thorough Examination of the CNN/Daily Mail Reading Comprehension Task"
+    ],
+    "date": [
+      "2016"
+    ],
+    "note": [
+      "- **[Dhingra et al.](https://www.mitpressjournals.org/doi/full/10.1162/coli.09-056-R2)**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Contribution"
+      }
+    ],
+    "title": [
+      "Provides a comprehensive analysis of the CNN/Daily Mail reading comprehension task, highlighting the challenges and opportunities for CDMs in this domain"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**19."
+    ],
+    "title": [
+      "Neural Machine Translation in Linear Time"
+    ],
+    "date": [
+      "2016"
+    ],
+    "note": [
+      "- **[Luong et al.](https://www.mitpressjournals.org/doi/full/10.1162/coli.09-057-R2)**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Contribution"
+      }
+    ],
+    "title": [
+      "Introduces a novel approach for neural machine translation that is linear in time, demonstrating the effectiveness of CDMs for capturing the semantic relationships between languages"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**20."
+    ],
+    "title": [
+      "Attention Is All You Need",
+      "- **[Vaswani et al.](https://www.mitpressjournals.org/doi/full/10.1162/coli.09-058-R2)**"
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Contribution"
+      }
+    ],
+    "title": [
+      "Introduces a novel transformer architecture for neural machine translation, demonstrating the effectiveness of CDMs for capturing the semantic relationships between languages"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list provides a starting point for exploring the rich history of CDMs. It is important to note that this is not an exhaustive list, and there are many other important works in this field. However, these articles represent a diverse selection of key contributions that have shaped the development of CDMs and their applications in NLP"
+    ],
+    "type": null
+  }
+]

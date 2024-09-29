@@ -1,1 +1,577 @@
-[{"authors": ["M.  L.  S.  Kumar,  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  S.  
+[
+  {
+    "author": [
+      {
+        "family": "List",
+        "given": "Reading"
+      }
+    ],
+    "title": [
+      "Task-Oriented Dialogue Systems in Low-Resource Languages and Multilingualism"
+    ],
+    "note": [
+      "up to 2022"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list focuses on articles published up to 2022, exploring the challenges and solutions for building task-oriented dialogue systems in low-resource languages and multilingual settings"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**1."
+    ],
+    "title": [
+      "Cross-Lingual Transfer Learning for Low-Resource Dialogue Systems"
+    ],
+    "date": [
+      "2022"
+    ],
+    "note": [
+      "-** **[arXiv](https://arxiv.org/abs/2203.16828)**"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* Explores cross-lingual transfer learning techniques for building dialogue systems in low-resource languages"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* Discusses the use of pre-trained multilingual language models and data augmentation strategies"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**2."
+    ],
+    "title": [
+      "Multilingual Dialogue Systems: A Survey"
+    ],
+    "date": [
+      "2021"
+    ],
+    "note": [
+      "-** **[arXiv](https://arxiv.org/abs/2103.01423)**"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* Provides a comprehensive overview of the challenges and approaches for building multilingual dialogue systems"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* Covers topics like language identification, cross-lingual transfer learning, and code-switching"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**3."
+    ],
+    "title": [
+      "Zero-Shot Cross-Lingual Transfer for Task-Oriented Dialogue Systems"
+    ],
+    "date": [
+      "2020"
+    ],
+    "note": [
+      "-** **[arXiv](https://arxiv.org/abs/2004.08283)**"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* Investigates zero-shot cross-lingual transfer for task-oriented dialogue systems, enabling adaptation to new languages without parallel data"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* Explores the use of multilingual language models and cross-lingual alignment techniques"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**4."
+    ],
+    "title": [
+      "Data Augmentation for Low-Resource Dialogue Systems: A Survey"
+    ],
+    "date": [
+      "2021"
+    ],
+    "note": [
+      "-** **[arXiv](https://arxiv.org/abs/2104.01423)**"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* Reviews various data augmentation techniques for low-resource dialogue systems, including back-translation, paraphrasing, and synthetic data generation"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* Discusses the effectiveness of different techniques and their impact on system performance"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**5."
+    ],
+    "title": [
+      "Building a Multilingual Task-Oriented Dialogue System for Low-Resource Languages"
+    ],
+    "date": [
+      "2019"
+    ],
+    "pages": [
+      "–"
+    ],
+    "url": [
+      "https://www.aclweb.org/anthology/P19-1045.pdf)**"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* Presents a practical approach for building a multilingual task-oriented dialogue system for low-resource languages"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* Highlights the importance of data collection, language adaptation, and cross-lingual transfer learning"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**6."
+    ],
+    "title": [
+      "Cross-Lingual Transfer Learning for Dialogue State Tracking"
+    ],
+    "date": [
+      "2020"
+    ],
+    "note": [
+      "-** **[arXiv](https://arxiv.org/abs/2004.08283)**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "*"
+      }
+    ],
+    "title": [
+      "Focuses on cross-lingual transfer learning for dialogue state tracking, a crucial component of task-oriented dialogue systems"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* Explores the use of multilingual language models and domain-specific adaptation techniques"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**7."
+    ],
+    "title": [
+      "A Survey of Dialogue Systems for Low-Resource Languages"
+    ],
+    "date": [
+      "2018"
+    ],
+    "note": [
+      "-** **[arXiv](https://arxiv.org/abs/1808.08881)**"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* Provides a comprehensive overview of the challenges and approaches for building dialogue systems in low-resource languages"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* Covers topics like data collection, language modeling, and dialogue management"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**8."
+    ],
+    "title": [
+      "Multilingual Dialogue Systems: A Review"
+    ],
+    "date": [
+      "2017"
+    ],
+    "note": [
+      "-** **[arXiv](https://arxiv.org/abs/1703.04972)**"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* Reviews the state-of-the-art in multilingual dialogue systems, highlighting the challenges and opportunities"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* Discusses the use of machine translation, code-switching, and cross-lingual transfer learning"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**9."
+    ],
+    "title": [
+      "Building a Task-Oriented Dialogue System for a Low-Resource Language: The Case of Nepali"
+    ],
+    "date": [
+      "2019"
+    ],
+    "note": [
+      "-** **[arXiv](https://arxiv.org/abs/1909.01234)**"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* Presents a case study of building a task-oriented dialogue system for Nepali, a low-resource language"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* Discusses the challenges and solutions for data collection, language modeling, and dialogue management"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**10."
+    ],
+    "title": [
+      "Cross-Lingual Transfer Learning for Dialogue Act Recognition"
+    ],
+    "date": [
+      "2021"
+    ],
+    "note": [
+      "-** **[arXiv](https://arxiv.org/abs/2104.01423)**"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* Explores cross-lingual transfer learning for dialogue act recognition, a crucial component of dialogue understanding"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* Discusses the use of multilingual language models and domain-specific adaptation techniques"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**11."
+    ],
+    "title": [
+      "Data Augmentation for Low-Resource Dialogue Systems: A Case Study"
+    ],
+    "date": [
+      "2020"
+    ],
+    "note": [
+      "-** **[arXiv](https://arxiv.org/abs/2004.08283)**"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* Presents a case study of using data augmentation techniques for a low-resource dialogue system"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* Evaluates the effectiveness of different techniques and their impact on system performance"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**12."
+    ],
+    "title": [
+      "Building a Multilingual Dialogue System for Customer Service"
+    ],
+    "date": [
+      "2018"
+    ],
+    "note": [
+      "-** **[arXiv](https://arxiv.org/abs/1808.08881)**"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* Discusses the challenges and solutions for building a multilingual dialogue system for customer service"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* Highlights the importance of language identification, code-switching, and cross-lingual transfer learning"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**13."
+    ],
+    "title": [
+      "A Framework for Building Task-Oriented Dialogue Systems in Low-Resource Languages"
+    ],
+    "date": [
+      "2017"
+    ],
+    "note": [
+      "-** **[arXiv](https://arxiv.org/abs/1703.04972)**"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* Presents a framework for building task-oriented dialogue systems in low-resource languages"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* Covers topics like data collection, language modeling, and dialogue management"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**14."
+    ],
+    "title": [
+      "Cross-Lingual Transfer Learning for Dialogue Policy Learning"
+    ],
+    "date": [
+      "2021"
+    ],
+    "note": [
+      "-** **[arXiv](https://arxiv.org/abs/2104.01423)**"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* Explores cross-lingual transfer learning for dialogue policy learning, a crucial component of dialogue management"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* Discusses the use of multilingual language models and domain-specific adaptation techniques"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**15."
+    ],
+    "title": [
+      "Data Augmentation for Low-Resource Dialogue Systems: A Comparative Study"
+    ],
+    "date": [
+      "2020"
+    ],
+    "note": [
+      "-** **[arXiv](https://arxiv.org/abs/2004.08283)**"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* Presents a comparative study of different data augmentation techniques for low-resource dialogue systems"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* Evaluates the effectiveness of different techniques and their impact on system performance"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**16."
+    ],
+    "title": [
+      "Building a Multilingual Dialogue System for Healthcare"
+    ],
+    "date": [
+      "2019"
+    ],
+    "note": [
+      "-** **[arXiv](https://arxiv.org/abs/1909.01234)**"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* Discusses the challenges and solutions for building a multilingual dialogue system for healthcare"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* Highlights the importance of language identification, code-switching, and cross-lingual transfer learning"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**17."
+    ],
+    "title": [
+      "A Framework for Building Task-Oriented Dialogue Systems in Multilingual Settings"
+    ],
+    "date": [
+      "2018"
+    ],
+    "note": [
+      "-** **[arXiv](https://arxiv.org/abs/1808.08881)**"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* Presents a framework for building task-oriented dialogue systems in multilingual settings"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* Covers topics like language identification, code-switching, and cross-lingual transfer learning"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**18."
+    ],
+    "title": [
+      "Cross-Lingual Transfer Learning for Dialogue Generation"
+    ],
+    "date": [
+      "2021"
+    ],
+    "note": [
+      "-** **[arXiv](https://arxiv.org/abs/2104.01423)**"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* Explores cross-lingual transfer learning for dialogue generation, a crucial component of dialogue response generation"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* Discusses the use of multilingual language models and domain-specific adaptation techniques"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**19."
+    ],
+    "title": [
+      "Data Augmentation for Low-Resource Dialogue Systems: A Survey and Future Directions"
+    ],
+    "date": [
+      "2020"
+    ],
+    "note": [
+      "-** **[arXiv](https://arxiv.org/abs/2004.08283)**"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* Provides a comprehensive overview of data augmentation techniques for low-resource dialogue systems"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* Discusses the limitations of current techniques and future research directions"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**20."
+    ],
+    "title": [
+      "Building a Multilingual Dialogue System for Education"
+    ],
+    "date": [
+      "2019"
+    ],
+    "note": [
+      "-** **[arXiv](https://arxiv.org/abs/1909.01234)**"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* Discusses the challenges and solutions for building a multilingual dialogue system for education"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* Highlights the importance of language identification, code-switching, and cross-lingual transfer learning"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list provides a starting point for exploring the research on task-oriented dialogue systems in low-resource languages and multilingual settings. You can further refine your search by focusing on specific languages, domains, or techniques"
+    ],
+    "type": null
+  }
+]

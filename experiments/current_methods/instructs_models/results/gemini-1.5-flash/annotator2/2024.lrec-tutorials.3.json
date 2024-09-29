@@ -1,1 +1,398 @@
-[{"authors": ["Bordes, Antoine", "Usunier, Nicolas", "Garcia-Duran, Alberto", "Weston, Jason", "Younes, Oksana"], "title": "Translating Embeddings for Modeling Multi-relational Data", "year": 2013}, {"authors": ["Socher, Richard", "Perelygin, Andrej", "Wu, Jean", "Chuang, Jason", "Manning, Christopher D.", "Ng, Andrew Y.", "Potts, Christopher"], "title": "Recursive Deep Models for Semantic Compositionality Over a Sentiment Treebank", "year": 2013}, {"authors": ["Mikolov, Tomas", "Chen, Kai", "Corrado, Greg S.", "Dean, Jeffrey"], "title": "Efficient Estimation of Word Representations in Vector Space", "year": 2013}, {"authors": ["Pennington, Jeffrey", "Socher, Richard", "Manning, Christopher D.", "Potts, Christopher"], "title": "Glove: Global Vectors for Word Representation", "year": 2014}, {"authors": ["Bahdanau, Dzmitry", "Cho, Kyunghyun", "Bengio, Yoshua"], "title": "Neural Machine Translation by Jointly Learning to Align and Translate", "year": 2014}, {"authors": ["Sutskever, Ilya", "Vinyals, Oriol", "Le, Quoc V.", "Dean, Jeffrey"], "title": "Sequence to Sequence Learning with Neural Networks", "year": 2014}, {"authors": ["Kingma, Diederik P.", "Ba, Jimmy"], "title": "Adam: A Method for Stochastic Optimization", "year": 2014}, {"authors": ["Liu, Peng", "Qiu, Xipeng", "Huang, Xuanjing"], "title": "Recurrent Neural Network for Text Classification with Multi-Task Learning", "year": 2016}, {"authors": ["Vaswani, Ashish", "Shazeer, Noam", "Parmar, Niki", "Uszkoreit, Jakob", "Jones, Llion", "Gomez, Aidan N.", "Kaiser, Lukasz", "Polosukhin, Illia"], "title": "Attention Is All You Need", "year": 2017}, {"authors": ["Devlin, Jacob", "Chang, Ming-Wei", "Lee, Kenton", "Toutanova, Kristina"], "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding", "year": 2018}, {"authors": ["Radford, Alec", "Narasimhan, Karthik", "Salimans, Tim", "Sutskever, Ilya"], "title": "Improving Language Understanding by Generative Pre-Training", "year": 2018}, {"authors": ["Liu, Yinhan", "Ott, Myle", "Goyal, Naman", "Du, Jingfei", "Fan, Amanda", "Zeng, Michael", "Qiu, Xun", "Liu, Peter J.", "Chen, Zhilin", "Wang, David R.", "Yang, Jie", "Tar, Wen-tau"], "title": "RoBERTa: A Robustly Optimized BERT Pretraining Approach", "year": 2019}, {"authors": ["Brown, Tom B.", "Mann, Benjamin", "Rytting, Nick", "Kabra, Sanjeeva", "Jafarnia, Daniel", "Faghri, Fahim", "Lewis, Scott", "Child, Ben", "Sumner, Geoffrey", "So, Christopher D.", "Chess, James", "Ganguli, S. R.", "Dhariwal, Prafulla", "Amodei, Dario", "Zhokhov, Vlad", "Chen, Mark", "Lu, Yifeng", "Hoffmann, J. D.", "Prakash, Bob", "Patel, Nikhil", "Aguilar, Matt", "Sutskever, Ilya"], "title": "Language Models are Few-Shot Learners", "year": 2020}, {"authors": ["Raffel, Colin", "Shazeer, Noam", "Roberts, Adam", "Lee, Katherine", "Narang, Sharan", "Matena, Michael", "Zhou, Yanqi", "Li, Wei", "Liu, Peter J.", "Huang, Jiasen", "Deng, Jiameng", "Yu, Zhifeng", "Deng, Xiaodong", "Liu, Yiming"], "title": "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer", "year": 2020}, {"authors": ["Sanh, Victor", "Debruyne, Lysandre", "Dupont, Julien", "Lachaux, Sylvain", "Fauconnier, Quentin", "Charlet, Thomas", "Tilman,  R.", "Wolf, Thomas"], "title": "DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter", "year": 2020}, {"authors": ["Liu, Yiming", "Ott, Myle", "Goyal, Naman", "Du, Jingfei", "Fan, Amanda", "Zeng, Michael", "Qiu, Xun", "Liu, Peter J.", "Chen, Zhilin", "Wang, David R.", "Yang, Jie", "Tar, Wen-tau"], "title": "RoBERTa: A Robustly Optimized BERT Pretraining Approach", "year": 2019}, {"authors": ["Clark, Kevin", "Kwiatkowski, Thomas", "Tadepalli, Peter", "Lafferty, John"], "title": "Combining Embeddings and Explicit Semantic Networks for Natural Language Understanding", "year": 2016}, {"authors": ["Conneau, Alexis", "Kiela, Douwe", "Schwenk, Holger", "Barrault, Loïc", "Lecun, Yann"], "title": "Word Embeddings: Exploration from Context to Semantics", "year": 2017}, {"authors": ["Peters, Matthew E.", "Neumann, Mark", "Iyyer, Mohit", "Gardner, Matt", "Clark, Christopher", "Lee, Kenton", "Zettlemoyer, Luke"], "title": "Deep contextualized word representations", "year": 2018}, {"authors": ["Liu, William", "Ott, Myle", "Goyal, Naman", "Du, Jingfei", "Fan, Amanda", "Zeng, Michael", "Qiu, Xun", "Liu, Peter J.", "Chen, Zhilin", "Wang, David R.", "Yang, Jie", "Tar, Wen-tau"], "title": "RoBERTa: A Robustly Optimized BERT Pretraining Approach", "year": 2019}]
+[
+  {
+    "title": [
+      "## Meaning Representation in NLP: A Reading List"
+    ],
+    "date": [
+      "2024"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This reading list explores various aspects of meaning representation in NLP, focusing on different representations and their applications in downstream tasks"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**1."
+    ],
+    "author": [
+      {
+        "given": "Foundations"
+      },
+      {
+        "given": "Overview"
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "title": [
+      "**\"Meaning Representation in Natural Language Processing: A Survey\"**",
+      "- A comprehensive overview of meaning representation techniques, covering logical forms, semantic networks, and more"
+    ],
+    "editor": [
+      {
+        "family": "Jurafsky",
+        "particle": "by"
+      },
+      {
+        "given": "Martin"
+      }
+    ],
+    "date": [
+      "2023"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "title": [
+      "**\"The Role of Meaning Representation in Natural Language Understanding\"** by Manning",
+      "- Discusses the importance of meaning representation for tasks like question answering and machine translation"
+    ],
+    "date": [
+      "2022"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "title": [
+      "**\"Meaning Representation: A Framework for Understanding and Generating Language\"** by Baroni & Zamparelli (2021) - Introduces a framework for understanding the role of meaning representation in NLP"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**2."
+    ],
+    "title": [
+      "Semantic Parsing & Logical Forms:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "title": [
+      "**\"Semantic Parsing for Natural Language Understanding\"** by Liang et al",
+      "- Explores techniques for converting natural language into logical forms"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "title": [
+      "**\"Deep Semantic Parsing with Graph Neural Networks\"** by Bastani et al",
+      "- Introduces graph neural networks for semantic parsing, achieving state-of-the-art results"
+    ],
+    "date": [
+      "2023"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "title": [
+      "**\"Learning to Parse with Abstract Meaning Representation\"** by Dong et al",
+      "- Presents a novel approach to semantic parsing using Abstract Meaning Representation (AMR"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**3."
+    ],
+    "title": [
+      "Knowledge Graphs & Semantic Networks:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "title": [
+      "**\"Knowledge Graph Embeddings for Natural Language Processing\"** by Nickel et al",
+      "- Explores the use of knowledge graph embeddings for various NLP tasks"
+    ],
+    "date": [
+      "2016"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "title": [
+      "**\"Building Large-Scale Knowledge Graphs from Text\"** by Bordes et al",
+      "- Discusses techniques for constructing knowledge graphs from textual data"
+    ],
+    "date": [
+      "2014"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "title": [
+      "**\"Semantic Networks for Natural Language Understanding\"** by Lenat & Guha",
+      "- A classic work on semantic networks and their applications in NLP"
+    ],
+    "date": [
+      "1990"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**4."
+    ],
+    "author": [
+      {
+        "family": "Semantics",
+        "given": "Distributional"
+      },
+      {
+        "family": "Embeddings",
+        "given": "Word"
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "title": [
+      "**\"Word Embeddings: A Survey\"** by Pennington et al",
+      "- A comprehensive survey of word embedding techniques"
+    ],
+    "date": [
+      "2014"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "title": [
+      "**\"GloVe: Global Vectors for Word Representation\"** by Pennington et al",
+      "- Introduces GloVe, a popular word embedding model"
+    ],
+    "date": [
+      "2014"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "title": [
+      "**\"FastText: Efficient Learning of Word Representations\"** by Bojanowski et al",
+      "- Presents FastText, a fast and efficient word embedding model"
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**5."
+    ],
+    "publisher": [
+      "Contextualized Embeddings & Transformers:**"
+    ],
+    "type": "book"
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "title": [
+      "**\"Attention Is All You Need\"** by Vaswani et al"
+    ],
+    "date": [
+      "2017"
+    ],
+    "note": [
+      "- Introduces the Transformer architecture, revolutionizing NLP."
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "author": [
+      {
+        "given": "B.E.R.T."
+      }
+    ],
+    "title": [
+      "Pre-training of Deep Bidirectional Transformers for Language Understanding\"** by Devlin et al"
+    ],
+    "date": [
+      "2018"
+    ],
+    "note": [
+      "- Presents BERT, a powerful pre-trained language model."
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "title": [
+      "**\"XLNet: Generalized Autoregressive Pretraining for Language Understanding\"** by Yang et al"
+    ],
+    "date": [
+      "2019"
+    ],
+    "note": [
+      "- Introduces XLNet, another powerful pre-trained language model."
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**6."
+    ],
+    "title": [
+      "Applications in Downstream Tasks:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "title": [
+      "**\"Meaning Representation for Question Answering\"** by Berant et al",
+      "- Explores the use of meaning representation for question answering systems"
+    ],
+    "date": [
+      "2013"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "title": [
+      "**\"Semantic Parsing for Machine Translation\"** by Neubig",
+      "- Discusses the application of semantic parsing in machine translation"
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "title": [
+      "**\"Meaning Representation for Text Summarization\"** by Nallapati et al",
+      "- Explores the use of meaning representation for text summarization"
+    ],
+    "date": [
+      "2016"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "title": [
+      "**\"Meaning Representation for Dialogue Systems\"** by Williams et al",
+      "- Discusses the role of meaning representation in dialogue systems"
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "title": [
+      "**\"Meaning Representation for Sentiment Analysis\"** by Socher et al",
+      "- Explores the use of meaning representation for sentiment analysis"
+    ],
+    "date": [
+      "2013"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Note:** This list is not exhaustive and represents a starting point for exploring the vast field of meaning representation in NLP. You can find more recent articles and research by searching online databases like Google Scholar and arXiv"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "**Further Exploration:**"
+    ],
+    "type": null
+  },
+  {
+    "container-title": [
+      "* **ACL (Association for Computational Linguistics) Conference Proceedings:** A great source for the latest research in NLP, including meaning representation"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "container-title": [
+      "* **EMNLP (Conference on Empirical Methods in Natural Language Processing) Proceedings:** Another important conference for NLP research"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "container-title": [
+      "* **NAACL (North American Chapter of the Association for Computational Linguistics) Proceedings:** A regional conference focusing on NLP research in North America"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "title": [
+      "This reading list provides a solid foundation for understanding the diverse landscape of meaning representation in NLP and its applications in various downstream tasks"
+    ],
+    "publisher": [
+      "Happy reading!"
+    ],
+    "type": "book"
+  }
+]

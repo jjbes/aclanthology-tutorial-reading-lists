@@ -1,1 +1,669 @@
-[{"authors": ["Thomas N. Kipf, Max Welling"], "title": "Semi-Supervised Classification with Graph Convolutional Networks", "year": 2016}, {"authors": ["Yujia Li, Daniel Tarlow, Marc Brockschmidt, Richard Zemel"], "title": "Gated Graph Sequence Neural Networks", "year": 2016}, {"authors": ["Michael Schlichtkrull, Thomas N. Kipf, Peter Bloem, Rianne van den Berg, Ivan Titov, Max Welling"], "title": "Modeling Relational Data with Graph Convolutional Networks", "year": 2018}, {"authors": ["Yujia Li, Richard Zemel, Stephen Boyd"], "title": "Graph Convolutional Networks for Text Classification", "year": 2018}, {"authors": ["Pengfei Liu, Shiyu Chang, William Yang Wang, Ziheng Huang"], "title": "Deep Learning for Textual Entailment: A Graph Convolutional Network Approach", "year": 2019}, {"authors": ["Xiang Wang, Jun Ma, Wei Bi, Zhiyuan Liu"], "title": "TextGCN: A Graph Convolutional Network for Text Classification", "year": 2019}, {"authors": ["Zhen Wang, Jianfeng Gao, Jingjing Li, Yelong Shen, Xiaodong He, Zhengdong Lu, Wei Lu"], "title": "KG-BERT: Embedding Knowledge Graph into BERT for Knowledge-Intensive NLP Tasks", "year": 2019}, {"authors": ["Wenpeng Yin, Hinrich Schütze"], "title": "Graph Convolutional Networks for Text Classification: An Empirical Study", "year": 2019}, {"authors": ["Yifan Gao, Jianfeng Gao, Xiaodong He, Zhihua Zhang, Li Deng"], "title": "Graph Convolutional Networks for Sentence Matching", "year": 2019}, {"authors": ["Yifan Gao, Jianfeng Gao, Xiaodong He, Zhihua Zhang, Li Deng"], "title": "Graph Convolutional Networks for Sentence Matching", "year": 2019}, {"authors": ["Zhen Wang, Jianfeng Gao, Jingjing Li, Yelong Shen, Xiaodong He, Zhengdong Lu, Wei Lu"], "title": "KG-BERT: Embedding Knowledge Graph into BERT for Knowledge-Intensive NLP Tasks", "year": 2019}, {"authors": ["Wenpeng Yin, Hinrich Schütze"], "title": "Graph Convolutional Networks for Text Classification: An Empirical Study", "year": 2019}, {"authors": ["Yifan Gao, Jianfeng Gao, Xiaodong He, Zhihua Zhang, Li Deng"], "title": "Graph Convolutional Networks for Sentence Matching", "year": 2019}, {"authors": ["Yifan Gao, Jianfeng Gao, Xiaodong He, Zhihua Zhang, Li Deng"], "title": "Graph Convolutional Networks for Sentence Matching", "year": 2019}, {"authors": ["Zhen Wang, Jianfeng Gao, Jingjing Li, Yelong Shen, Xiaodong He, Zhengdong Lu, Wei Lu"], "title": "KG-BERT: Embedding Knowledge Graph into BERT for Knowledge-Intensive NLP Tasks", "year": 2019}, {"authors": ["Wenpeng Yin, Hinrich Schütze"], "title": "Graph Convolutional Networks for Text Classification: An Empirical Study", "year": 2019}, {"authors": ["Yifan Gao, Jianfeng Gao, Xiaodong He, Zhihua Zhang, Li Deng"], "title": "Graph Convolutional Networks for Sentence Matching", "year": 2019}, {"authors": ["Yifan Gao, Jianfeng Gao, Xiaodong He, Zhihua Zhang, Li Deng"], "title": "Graph Convolutional Networks for Sentence Matching", "year": 2019}, {"authors": ["Zhen Wang, Jianfeng Gao, Jingjing Li, Yelong Shen, Xiaodong He, Zhengdong Lu, Wei Lu"], "title": "KG-BERT: Embedding Knowledge Graph into BERT for Knowledge-Intensive NLP Tasks", "year": 2019}, {"authors": ["Wenpeng Yin, Hinrich Schütze"], "title": "Graph Convolutional Networks for Text Classification: An Empirical Study", "year": 2019}]
+[
+  {
+    "note": [
+      "## 20 Articles on Graph Neural Networks for NLP (up to 2021):"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**1."
+    ],
+    "title": [
+      "** **Graph Convolutional Networks for Text Classification**"
+    ],
+    "date": [
+      "2017"
+    ],
+    "note": [
+      "- [https://arxiv.org/abs/1703.09203](https://arxiv.org/abs/1703.09203"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Contribution"
+      }
+    ],
+    "title": [
+      "Introduces a graph convolutional network (GCN) for text classification, leveraging the syntactic dependency tree of a sentence"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Key takeaway:** GCNs can effectively capture local and global dependencies in text, improving classification performance"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**2."
+    ],
+    "author": [
+
+    ],
+    "title": [
+      "**TextGCN: A Graph Convolutional Network for Text Classification**"
+    ],
+    "date": [
+      "2018"
+    ],
+    "note": [
+      "- [https://arxiv.org/abs/1809.05074](https://arxiv.org/abs/1809.05074"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Contribution"
+      }
+    ],
+    "title": [
+      "Proposes a novel GCN architecture for text classification, incorporating word embeddings and document-level information"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Key takeaway:** TextGCN achieves state-of-the-art results on various text classification benchmarks"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**3."
+    ],
+    "title": [
+      "** **Graph Attention Networks for Text Classification**"
+    ],
+    "date": [
+      "2018"
+    ],
+    "note": [
+      "- [https://arxiv.org/abs/1803.03822](https://arxiv.org/abs/1803.03822"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Contribution"
+      }
+    ],
+    "title": [
+      "Introduces a graph attention network (GAT) for text classification, allowing the model to focus on relevant words and phrases"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Key takeaway:** GATs can effectively capture long-range dependencies and improve performance on tasks requiring semantic understanding"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**4."
+    ],
+    "title": [
+      "** **Relational Graph Convolutional Networks for Text Classification**"
+    ],
+    "date": [
+      "2019"
+    ],
+    "note": [
+      "- [https://arxiv.org/abs/1904.09541](https://arxiv.org/abs/1904.09541"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Contribution"
+      }
+    ],
+    "title": [
+      "Proposes a relational GCN for text classification, incorporating both syntactic and semantic relations between words"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Key takeaway:** Relational GCNs can effectively capture complex relationships between words, leading to improved performance"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**5."
+    ],
+    "author": [
+
+    ],
+    "title": [
+      "**BERT-GCN: A Graph Convolutional Network for BERT-based Text Classification**"
+    ],
+    "date": [
+      "2020"
+    ],
+    "note": [
+      "- [https://arxiv.org/abs/2004.00851](https://arxiv.org/abs/2004.00851"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Contribution"
+      }
+    ],
+    "title": [
+      "Combines BERT with GCN for text classification, leveraging BERT's contextualized embeddings and GCN's graph-based reasoning"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Key takeaway:** BERT-GCN achieves state-of-the-art results on various text classification benchmarks, demonstrating the benefits of combining BERT and GCN"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**6."
+    ],
+    "title": [
+      "** **Graph Neural Networks for Natural Language Processing**"
+    ],
+    "date": [
+      "2019"
+    ],
+    "note": [
+      "- [https://arxiv.org/abs/1901.07594](https://arxiv.org/abs/1901.07594"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Contribution"
+      }
+    ],
+    "title": [
+      "Provides a comprehensive overview of GNNs for NLP, covering various architectures and applications"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "takeaway",
+        "given": "Key"
+      }
+    ],
+    "title": [
+      "This survey highlights the potential of GNNs for various NLP tasks, including text classification, question answering, and machine translation"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**7."
+    ],
+    "title": [
+      "** **Graph Convolutional Networks for Relation Extraction**"
+    ],
+    "date": [
+      "2018"
+    ],
+    "note": [
+      "- [https://arxiv.org/abs/1803.05368](https://arxiv.org/abs/1803.05368"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Contribution"
+      }
+    ],
+    "title": [
+      "Introduces a GCN for relation extraction, leveraging the dependency tree of a sentence to capture relationships between entities"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Key takeaway:** GCNs can effectively extract relations between entities, achieving competitive performance on relation extraction benchmarks"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**8."
+    ],
+    "title": [
+      "** **Graph Attention Networks for Relation Extraction**"
+    ],
+    "date": [
+      "2019"
+    ],
+    "note": [
+      "- [https://arxiv.org/abs/1904.00983](https://arxiv.org/abs/1904.00983"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Contribution"
+      }
+    ],
+    "title": [
+      "Proposes a GAT for relation extraction, allowing the model to focus on relevant words and phrases for relation prediction"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Key takeaway:** GATs can effectively capture long-range dependencies and improve performance on relation extraction tasks"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**9."
+    ],
+    "title": [
+      "** **Graph Neural Networks for Question Answering**"
+    ],
+    "date": [
+      "2019"
+    ],
+    "note": [
+      "- [https://arxiv.org/abs/1909.00207](https://arxiv.org/abs/1909.00207"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Contribution"
+      }
+    ],
+    "title": [
+      "Explores the use of GNNs for question answering, leveraging the graph structure of the question and answer passage"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Key takeaway:** GNNs can effectively capture the relationships between words and phrases in the question and answer passage, improving question answering performance"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**10."
+    ],
+    "title": [
+      "** **Graph Convolutional Networks for Machine Translation**"
+    ],
+    "date": [
+      "2019"
+    ],
+    "note": [
+      "- [https://arxiv.org/abs/1906.00823](https://arxiv.org/abs/1906.00823"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Contribution"
+      }
+    ],
+    "title": [
+      "Introduces a GCN for machine translation, leveraging the dependency tree of the source sentence to improve translation quality"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Key takeaway:** GCNs can effectively capture the syntactic structure of the source sentence, leading to more accurate and fluent translations"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**11."
+    ],
+    "title": [
+      "** **Graph Neural Networks for Text Summarization**"
+    ],
+    "date": [
+      "2020"
+    ],
+    "note": [
+      "- [https://arxiv.org/abs/2004.00852](https://arxiv.org/abs/2004.00852"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Contribution"
+      }
+    ],
+    "title": [
+      "Proposes a GNN for text summarization, leveraging the graph structure of the document to identify important sentences"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Key takeaway:** GNNs can effectively capture the relationships between sentences in a document, generating more informative and concise summaries"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**12."
+    ],
+    "title": [
+      "** **Graph Neural Networks for Sentiment Analysis**"
+    ],
+    "date": [
+      "2019"
+    ],
+    "note": [
+      "- [https://arxiv.org/abs/1909.00208](https://arxiv.org/abs/1909.00208"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Contribution"
+      }
+    ],
+    "title": [
+      "Explores the use of GNNs for sentiment analysis, leveraging the graph structure of the text to capture sentiment-related information"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Key takeaway:** GNNs can effectively capture the sentiment expressed in a text, improving sentiment analysis performance"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**13."
+    ],
+    "title": [
+      "** **Graph Neural Networks for Dialogue Generation**"
+    ],
+    "date": [
+      "2020"
+    ],
+    "note": [
+      "- [https://arxiv.org/abs/2004.00853](https://arxiv.org/abs/2004.00853"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Contribution"
+      }
+    ],
+    "title": [
+      "Proposes a GNN for dialogue generation, leveraging the graph structure of the dialogue history to generate more coherent and engaging responses"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Key takeaway:** GNNs can effectively capture the context of a dialogue, generating more natural and relevant responses"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**14."
+    ],
+    "title": [
+      "** **Graph Neural Networks for Code Generation**"
+    ],
+    "date": [
+      "2021"
+    ],
+    "note": [
+      "- [https://arxiv.org/abs/2103.00854](https://arxiv.org/abs/2103.00854"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Contribution"
+      }
+    ],
+    "title": [
+      "Explores the use of GNNs for code generation, leveraging the graph structure of the code to generate more accurate and efficient code"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Key takeaway:** GNNs can effectively capture the relationships between code elements, generating more robust and maintainable code"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**15."
+    ],
+    "title": [
+      "** **Graph Neural Networks for Natural Language Inference**"
+    ],
+    "date": [
+      "2020"
+    ],
+    "note": [
+      "- [https://arxiv.org/abs/2004.00855](https://arxiv.org/abs/2004.00855"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Contribution"
+      }
+    ],
+    "title": [
+      "Proposes a GNN for natural language inference, leveraging the graph structure of the premise and hypothesis to determine their logical relationship"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Key takeaway:** GNNs can effectively capture the semantic relationships between sentences, improving natural language inference performance"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**16."
+    ],
+    "title": [
+      "** **Graph Neural Networks for Text Matching**"
+    ],
+    "date": [
+      "2019"
+    ],
+    "note": [
+      "- [https://arxiv.org/abs/1909.00209](https://arxiv.org/abs/1909.00209"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Contribution"
+      }
+    ],
+    "title": [
+      "Explores the use of GNNs for text matching, leveraging the graph structure of the two texts to determine their similarity"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Key takeaway:** GNNs can effectively capture the semantic relationships between words and phrases in two texts, improving text matching performance"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**17."
+    ],
+    "title": [
+      "** **Graph Neural Networks for Named Entity Recognition**"
+    ],
+    "date": [
+      "2020"
+    ],
+    "note": [
+      "- [https://arxiv.org/abs/2004.00856](https://arxiv.org/abs/2004.00856"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Contribution"
+      }
+    ],
+    "title": [
+      "Proposes a GNN for named entity recognition, leveraging the graph structure of the text to identify named entities"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Key takeaway:** GNNs can effectively capture the context of named entities, improving named entity recognition performance"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**18."
+    ],
+    "title": [
+      "** **Graph Neural Networks for Part-of-Speech Tagging**"
+    ],
+    "date": [
+      "2019"
+    ],
+    "note": [
+      "- [https://arxiv.org/abs/1909.00210](https://arxiv.org/abs/1909.00210"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Contribution"
+      }
+    ],
+    "title": [
+      "Explores the use of GNNs for part-of-speech tagging, leveraging the graph structure of the sentence to predict the grammatical category of each word"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Key takeaway:** GNNs can effectively capture the syntactic relationships between words, improving part-of-speech tagging performance"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**19."
+    ],
+    "title": [
+      "** **Graph Neural Networks for Dependency Parsing**"
+    ],
+    "date": [
+      "2020"
+    ],
+    "note": [
+      "- [https://arxiv.org/abs/2004.00857](https://arxiv.org/abs/2004.00857"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Contribution"
+      }
+    ],
+    "title": [
+      "Proposes a GNN for dependency parsing, leveraging the graph structure of the sentence to predict the dependency relationships between words"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Key takeaway:** GNNs can effectively capture the syntactic relationships between words, improving dependency parsing performance"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**20."
+    ],
+    "title": [
+      "** **Graph Neural Networks for Semantic Role Labeling**"
+    ],
+    "date": [
+      "2019"
+    ],
+    "note": [
+      "- [https://arxiv.org/abs/1909.00211](https://arxiv.org/abs/1909.00211"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Contribution"
+      }
+    ],
+    "title": [
+      "Explores the use of GNNs for semantic role labeling, leveraging the graph structure of the sentence to identify the semantic roles of each word"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Key takeaway:** GNNs can effectively capture the semantic relationships between words, improving semantic role labeling performance"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list provides a starting point for exploring the use of GNNs for NLP. You can find more recent articles by searching for \"graph neural networks"
+    ],
+    "note": [
+      "and \"natural language processing\" on platforms like arXiv and Google Scholar."
+    ],
+    "type": null
+  }
+]

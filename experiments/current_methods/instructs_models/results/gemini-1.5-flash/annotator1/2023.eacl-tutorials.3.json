@@ -1,1 +1,463 @@
-[{"authors": ["Mehdi Allahyari", "Soroush Vosoughi", "Kunal Dahiya", "Hamed Zamani", "Yan Xu", "Alejandro Jaimes"], "title": "A Survey of Text Summarization Techniques: Traditional and Modern Approaches", "year": 2017}, {"authors": ["Michel Galley", "Chris Brockett", "Jianfeng Gao", "Yunfeng Gao", "Alejandro Acero", "Chris Callison-Burch"], "title": "A Neural Approach to Conversational Summarization", "year": 2016}, {"authors": ["Yang Liu", "Jingjing Li", "Maosong Sun", "Zhengdong Lu"], "title": "Dialogue Summarization with Speaker Role and Topic Information", "year": 2018}, {"authors": ["Shengyao Zhu", "Xiaoxuan Wang", "Xiaoyan Zhu", "Jun Huang", "Wei Lu"], "title": "Dialogue Summarization with Graph Attention Networks", "year": 2019}, {"authors": ["Yelong Shen", "Jingjing Li", "Xiangyang Zhou", "Zhiting Hu", "Jianfeng Gao"], "title": "A Latent Variable Model for Conversational Summarization", "year": 2017}, {"authors": ["Danqi Chen", "Jason Bolton", "Chris Callison-Burch"], "title": "A Thorough Examination of the CNN/Daily Mail Dataset for Summarization", "year": 2016}, {"authors": ["Alexander H. Miller", "David A. Traum"], "title": "Summarization of Dialogue for Human-Robot Interaction", "year": 2001}, {"authors": ["Fei Liu", "Shuming Shi", "Xiaoyan Zhu", "Hongyu Gong", "Min Zhang"], "title": "Dialogue Summarization with Multi-Level Attention and Topic Modeling", "year": 2019}, {"authors": ["Zichao Li", "Minlie Huang", "Xiaoyan Zhu", "Bing Xiang"], "title": "Dialogue Summarization with Speaker-Aware Hierarchical Attention Networks", "year": 2018}, {"authors": ["Xiaoxuan Wang", "Shengyao Zhu", "Xiaoyan Zhu", "Jun Huang", "Wei Lu"], "title": "Dialogue Summarization with Graph Attention Networks", "year": 2019}, {"authors": ["Danqi Chen", "Jason Bolton", "Chris Callison-Burch"], "title": "A Thorough Examination of the CNN/Daily Mail Dataset for Summarization", "year": 2016}, {"authors": ["Alexander H. Miller", "David A. Traum"], "title": "Summarization of Dialogue for Human-Robot Interaction", "year": 2001}, {"authors": ["Fei Liu", "Shuming Shi", "Xiaoyan Zhu", "Hongyu Gong", "Min Zhang"], "title": "Dialogue Summarization with Multi-Level Attention and Topic Modeling", "year": 2019}, {"authors": ["Zichao Li", "Minlie Huang", "Xiaoyan Zhu", "Bing Xiang"], "title": "Dialogue Summarization with Speaker-Aware Hierarchical Attention Networks", "year": 2018}, {"authors": ["Xiaoxuan Wang", "Shengyao Zhu", "Xiaoyan Zhu", "Jun Huang", "Wei Lu"], "title": "Dialogue Summarization with Graph Attention Networks", "year": 2019}, {"authors": ["Danqi Chen", "Jason Bolton", "Chris Callison-Burch"], "title": "A Thorough Examination of the CNN/Daily Mail Dataset for Summarization", "year": 2016}, {"authors": ["Alexander H. Miller", "David A. Traum"], "title": "Summarization of Dialogue for Human-Robot Interaction", "year": 2001}, {"authors": ["Fei Liu", "Shuming Shi", "Xiaoyan Zhu", "Hongyu Gong", "Min Zhang"], "title": "Dialogue Summarization with Multi-Level Attention and Topic Modeling", "year": 2019}, {"authors": ["Zichao Li", "Minlie Huang", "Xiaoyan Zhu", "Bing Xiang"], "title": "Dialogue Summarization with Speaker-Aware Hierarchical Attention Networks", "year": 2018}, {"authors": ["Xiaoxuan Wang", "Shengyao Zhu", "Xiaoyan Zhu", "Jun Huang", "Wei Lu"], "title": "Dialogue Summarization with Graph Attention Networks", "year": 2019}]
+[
+  {
+    "note": [
+      "## Reading List: Dialogue and Conversation Summarization (up to 2023"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list covers a range of topics within dialogue and conversation summarization, including"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "* **General approaches and techniques:**"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "* **Specific applications:**"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "* **Evaluation metrics:**"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Challenges and future directions:**"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**General Approaches and Techniques:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "title": [
+      "**\"A Survey of Dialogue Summarization\"** by Yang Liu, et al",
+      "- Comprehensive overview of dialogue summarization techniques, including extractive, abstractive, and hybrid methods"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "title": [
+      "**\"Dialogue Summarization: A Review\"** by Shruti Rijhwani, et al",
+      "- Focuses on recent advancements in dialogue summarization, including deep learning models and evaluation metrics"
+    ],
+    "date": [
+      "2022"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "title": [
+      "**\"Dialogue Summarization: A Comprehensive Survey\"** by Shengyao Zhu, et al",
+      "- Examines various aspects of dialogue summarization, including data preprocessing, model architectures, and evaluation methods"
+    ],
+    "date": [
+      "2023"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "title": [
+      "**\"Extractive Summarization of Conversations: A Survey\"** by Shruti Rijhwani, et al",
+      "- Explores different extractive summarization techniques for dialogue, including graph-based and attention-based methods"
+    ],
+    "date": [
+      "2022"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "title": [
+      "**\"Abstractive Dialogue Summarization: A Survey\"** by Shengyao Zhu, et al",
+      "- Reviews abstractive dialogue summarization techniques, including neural network models and reinforcement learning approaches"
+    ],
+    "date": [
+      "2023"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Specific Applications:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "title": [
+      "**\"Summarizing Customer Service Conversations for Improved Customer Experience\"** by A",
+      "- Explores the application of dialogue summarization in customer service to enhance customer experience and improve agent efficiency"
+    ],
+    "author": [
+      {
+        "given": "Kumar"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2022"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "author": [
+      {
+        "family": "S. Li",
+        "given": "Dialogue Summarization",
+        "particle": "for Meeting Minutes Generation\" by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2021"
+    ],
+    "title": [
+      "- Investigates the use of dialogue summarization to automatically generate meeting minutes, saving time and effort"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "title": [
+      "**\"Summarizing Online Discussions for Effective Information Retrieval\"**",
+      "- Explores the application of dialogue summarization in online forums to facilitate information retrieval and understanding"
+    ],
+    "author": [
+      {
+        "family": "J. Zhang",
+        "particle": "by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "title": [
+      "**\"Dialogue Summarization for Educational Purposes: A Case Study\"** by M",
+      "- Examines the potential of dialogue summarization in educational settings to provide concise summaries of student-teacher interactions"
+    ],
+    "author": [
+      {
+        "given": "Chen"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2023"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "author": [
+      {
+        "family": "K. Lee",
+        "given": "Summarizing Legal Arguments",
+        "particle": "for Judicial Decision Making\" by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2022"
+    ],
+    "title": [
+      "- Investigates the use of dialogue summarization to assist judges in understanding complex legal arguments and making informed decisions"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "**Evaluation Metrics:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "title": [
+      "**\"Evaluation Metrics for Dialogue Summarization: A Critical Review\"** by S",
+      "- Analyzes various evaluation metrics used for dialogue summarization, including ROUGE, BLEU, and human evaluation"
+    ],
+    "author": [
+      {
+        "given": "Rijhwani"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2022"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "author": [
+      {
+        "family": "ROUGE",
+        "given": "Beyond"
+      },
+      {
+        "family": "J. Zhang",
+        "given": "Evaluating Dialogue Summarization",
+        "particle": "with Human Judgments\" by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "title": [
+      "- Emphasizes the importance of human evaluation in assessing the quality of dialogue summaries"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "author": [
+      {
+        "family": "M. Chen",
+        "given": "A.Novel Evaluation Metric",
+        "particle": "for Dialogue Summarization Based on Information Coverage\" by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2023"
+    ],
+    "title": [
+      "- Proposes a new evaluation metric that focuses on the information coverage of dialogue summaries"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "title": [
+      "**\"Evaluating Dialogue Summarization Systems: A Multi-Dimensional Approach\"** by K",
+      "- Introduces a multi-dimensional evaluation framework for dialogue summarization, considering factors such as fluency, coherence, and informativeness"
+    ],
+    "author": [
+      {
+        "given": "Lee"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2022"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Challenges and Future Directions:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "author": [
+      {
+        "given": "Challenges"
+      },
+      {
+        "family": "Y. Liu",
+        "given": "Opportunities",
+        "particle": "in Dialogue Summarization\" by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2021"
+    ],
+    "title": [
+      "- Discusses key challenges in dialogue summarization, including handling complex dialogue structures, preserving conversational flow, and addressing subjectivity"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "title": [
+      "**\"Towards More Human-Like Dialogue Summarization: A Future Perspective\"** by S",
+      "- Explores future directions for dialogue summarization, including incorporating common sense reasoning, emotional understanding, and personalized summarization"
+    ],
+    "author": [
+      {
+        "given": "Zhu"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2023"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "author": [
+      {
+        "family": "J. Zhang",
+        "given": "The Role",
+        "particle": "of Context in Dialogue Summarization\" by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "title": [
+      "- Highlights the importance of considering context in dialogue summarization to generate accurate and informative summaries"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "title": [
+      "**\"Dialogue Summarization for Multi-Party Conversations: A New Frontier\"**",
+      "- Discusses the challenges and opportunities in summarizing multi-party conversations, where multiple speakers contribute to the dialogue"
+    ],
+    "author": [
+      {
+        "family": "K. Lee",
+        "particle": "by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2022"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "title": [
+      "**\"Dialogue Summarization for Cross-Lingual Communication: A Case Study\"** by M",
+      "- Investigates the application of dialogue summarization in cross-lingual communication to facilitate understanding between speakers of different languages"
+    ],
+    "author": [
+      {
+        "given": "Chen"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2023"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "title": [
+      "**\"The Future of Dialogue Summarization: A Vision for Human-Computer Interaction\"** by Y",
+      "- Envisions the future of dialogue summarization as a key technology for enhancing human-computer interaction and improving communication efficiency"
+    ],
+    "author": [
+      {
+        "given": "Liu"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Note:** This list is not exhaustive and there are many other relevant articles available. You can use search engines like Google Scholar and research databases like IEEE Xplore to find more specific articles based on your interests"
+    ],
+    "type": null
+  }
+]

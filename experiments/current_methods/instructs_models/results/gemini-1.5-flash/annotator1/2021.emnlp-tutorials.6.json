@@ -1,1 +1,329 @@
-[{"authors": ["Dyer, Chris", "Ballesteros, Miguel", "Smith, Noah A.", "Black, Jason R.", "Riezler, Stefan"], "title": "Transition-Based Dependency Parsing with Tree-Structured Features", "year": 2015}, {"authors": ["Kiperwasser, E.", "Jones, P.", "Goldwasser, D.", "Eisner, J.", "Rush, A. M.", "Choe, D.", "Du, J.", "Stoyanov, V.", "Kurihara, K.", "Melamed, I. D.", "etal"], "title": "Universal Neural Machine Translation", "year": 2016}, {"authors": ["Dozat, Timothy", "Manning, Christopher D."],"title": "Deep Biaffine Attention for Neural Dependency Parsing", "year": 2016}, {"authors": ["Zhang, Yue", "Zhao, Jingjing", "Le, Quoc V.", "Sutskever, Ilya"], "title": "Character-Level Convolutional Networks for Text Classification", "year": 2015}, {"authors": ["Devlin, Jacob", "Chang, Ming-Wei", "Lee, Kenton", "Toutanova, Kristina"], "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding", "year": 2018}, {"authors": ["Vaswani, Ashish", "Shazeer, Noam", "Parmar, Niki", "Uszkoreit, Jakob", "Jones, Llion", "Gomez, Aidan N.", "Kaiser, Lukasz", "Polosukhin, Illia"], "title": "Attention Is All You Need", "year": 2017}, {"authors": ["Liu, Yang", "Zhou, Peng", "Zhao, Zhiruo", "Wang, Zhihua", "Ju, Wei"], "title": "Multi-Task Learning for Joint Semantic Role Labeling and Dependency Parsing", "year": 2019}, {"authors": ["Sennrich, Rico", "Haddow, Barry", "Birch, Alexandra"], "title": "Neural Machine Translation of Rare Words with Subword Units", "year": 2016}, {"authors": ["Bahdanau, Dzmitry", "Cho, Kyunghyun", "Bengio, Yoshua"], "title": "Neural Machine Translation by Jointly Learning to Align and Translate", "year": 2014}, {"authors": ["Liu, Shiyu", "Zhou, Peng", "Zhao, Zhiruo", "Wang, Zhihua"], "title": "Joint Semantic Role Labeling and Dependency Parsing with Graph Convolutional Networks", "year": 2020}, {"authors": ["Søgaard, Anders", "Goldberg, Yoav"], "title": "Deep Multi-Task Learning for Semantic Role Labeling", "year": 2016}, {"authors": ["Zhou, Jie", "Qi, Zihang", "Sun, Shujian", "Li, Hao"], "title": "Joint Learning of Dependency Parsing and Semantic Role Labeling with Graph Convolutional Networks", "year": 2019}, {"authors": ["Zhang, Yu", "Zhao, Jingjing", "Le, Quoc V.", "Sutskever, Ilya"], "title": "Character-Level Convolutional Networks for Text Classification", "year": 2015}, {"authors": ["Hochreiter, Sepp", "Schmidhuber, Jürgen"], "title": "Long Short-Term Memory", "year": 1997}, {"authors": ["Collobert, Ronan", "Weston, Jason", "Bottou, Léon", "Karlen, Michael", "Kavukcuoglu, Koray", "Farabet,  C.", "Bengio, Yoshua"], "title": "Natural Language Processing (Almost) from Scratch", "year": 2011}, {"authors": ["Goldberg, Yoav"], "title": "A Primer on Dependency Parsing", "year": 2013}, {"authors": ["Kiperwasser, E.", "Jones, P.", "Goldwasser, D.", "Eisner, J.", "Rush, A. M.", "Choe, D.", "Du, J.", "Stoyanov, V.", "Kurihara, K.", "Melamed, I. D.", "etal"], "title": "Universal Neural Machine Translation", "year": 2016}, {"authors": ["Brown, Tom B.", "Mann, Benjamin", "Rytting, Nick", "Roberts,  B.", "Prater, J.", "Khan, S.", "Burnett, P.", "Chen, Z.", "Dhariwal, P.", "Arora, S.", "etal"], "title": "Language Models are Few-Shot Learners", "year": 2020}, {"authors": ["Radford, Alec", "Wu, Jeffrey", "Child, Rewon", "Lu, David", "Amodei, Dario"], "title": "Language Models are Unsupervised Multitask Learners", "year": 2019}, {"authors": ["Liu, Yang", "Zhou, Peng", "Zhao, Zhiruo", "Wang, Zhihua", "Ju, Wei"], "title": "Multi-Task Learning for Joint Semantic Role Labeling and Dependency Parsing", "year": 2019}]
+[
+  {
+    "title": [
+      "## Reading List: Syntax in End-to-End Models (2021 and Earlier"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list focuses on articles exploring syntax in end-to-end models, specifically for syntactic parsing, semantic role labeling, and machine translation"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Parsing",
+        "given": "Syntactic"
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "title": [
+      "**\"Neural Network Models for Parsing\"** by Richard Socher, et al",
+      "- Introduces early work on neural network models for dependency parsing"
+    ],
+    "date": [
+      "2013"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "title": [
+      "**\"Globally Normalized Transition-Based Neural Networks for Dependency Parsing\"** by Danqi Chen and Christopher Manning",
+      "- Proposes a globally normalized transition-based neural network for dependency parsing"
+    ],
+    "date": [
+      "2014"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "title": [
+      "**\"A Fast and Accurate Dependency Parser using Neural Networks\"** by Mihai Surdeanu, et al",
+      "- Presents a fast and accurate dependency parser based on neural networks"
+    ],
+    "date": [
+      "2014"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "title": [
+      "**\"End-to-End Neural Parsing\"** by Chris Dyer, et al",
+      "- Introduces an end-to-end neural network for dependency parsing"
+    ],
+    "date": [
+      "2015"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "author": [
+      {
+        "family": "Minh-Thang Luong",
+        "given": "Neural Machine",
+        "particle": "in Linear Time\" by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2015"
+    ],
+    "title": [
+      "- Explores the use of neural networks for machine translation, highlighting the importance of syntax"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "title": [
+      "**\"A Simple but Tough-to-Beat Baseline for Sentence Embeddings\"** by Stephen Merity, et al",
+      "- Discusses the effectiveness of simple neural network architectures for sentence embedding, which can be used for syntactic parsing"
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "title": [
+      "**\"Universal Dependencies 2.0\"** by Joakim Nivre, et al",
+      "- Introduces the Universal Dependencies project, a valuable resource for syntactic parsing research"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "author": [
+      {
+        "given": "B.E.R.T."
+      }
+    ],
+    "title": [
+      "Pre-training of Deep Bidirectional Transformers for Language Understanding\"** by Jacob Devlin, et al"
+    ],
+    "date": [
+      "2018"
+    ],
+    "note": [
+      "- Presents BERT, a powerful pre-trained language model that can be used for syntactic parsing."
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "author": [
+      {
+        "literal": "**\"Syntax-Aware Neural Machine Translation\"** by Jonas Koehn"
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "title": [
+      "- Explores the role of syntax in neural machine translation"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "title": [
+      "**\"A Survey of Neural Network Methods for Dependency Parsing\"** by Zhou, et al",
+      "- Provides a comprehensive overview of neural network methods for dependency parsing"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Semantic Role Labeling:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "title": [
+      "**\"Neural Semantic Role Labeling\"** by He, et al",
+      "- Introduces a neural network model for semantic role labeling"
+    ],
+    "date": [
+      "2015"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "title": [
+      "**\"End-to-End Neural Semantic Role Labeling with BERT\"** by Zhang, et al",
+      "- Explores the use of BERT for semantic role labeling"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "title": [
+      "**\"Jointly Learning Syntax and Semantics for Semantic Role Labeling\"** by Liu, et al",
+      "- Proposes a joint learning approach for semantic role labeling that incorporates syntactic information"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "title": [
+      "**\"A Survey of Neural Network Methods for Semantic Role Labeling\"** by Zhou, et al",
+      "- Provides a comprehensive overview of neural network methods for semantic role labeling"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "**Machine Translation:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "title": [
+      "**\"Neural Machine Translation by Jointly Learning to Align and Translate\"** by Bahdanau, et al",
+      "- Introduces the attention mechanism in neural machine translation, which helps capture syntactic relationships"
+    ],
+    "date": [
+      "2014"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "title": [
+      "**\"Sequence to Sequence – Autoregressive Neural Networks for Machine Translation\"** by Sutskever, et al",
+      "- Presents a sequence-to-sequence model for machine translation, which can be used to learn syntactic structures"
+    ],
+    "date": [
+      "2014"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "title": [
+      "**\"Neural Machine Translation with Syntax-Aware Encoder-Decoder\"** by Liu, et al",
+      "- Explores the use of syntax-aware encoder-decoder architectures for machine translation"
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "author": [
+      {
+        "literal": "**\"Syntax-Based Neural Machine Translation\"** by Liu, et al."
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "title": [
+      "- Presents a syntax-based neural machine translation model that incorporates syntactic information"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "title": [
+      "**\"Neural Machine Translation with Syntactic Guidance\"** by Zhang, et al",
+      "- Explores the use of syntactic guidance for neural machine translation"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "author": [
+      {
+        "literal": "**\"A Survey of Neural Machine Translation\"** by Wu, et al."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "title": [
+      "- Provides a comprehensive overview of neural machine translation, including the role of syntax"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Note:** This list is not exhaustive and there are many other relevant articles published before 2021. It is recommended to explore further based on your specific interests and research questions"
+    ],
+    "type": null
+  }
+]

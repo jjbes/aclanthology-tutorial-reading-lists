@@ -1,1 +1,267 @@
-[{"authors": ["Manning, C. D.", "Schütze, H."],"title": "Foundations of Statistical Natural Language Processing","year": 2003},{"authors": ["Collins, M."],"title": "Head-Driven Statistical Models for Natural Language Parsing","year": 2003},{"authors": ["Charniak, E."],"title": "Statistical Parsing with a Context-Free Grammar and Word Statistics","year": 2000},{"authors": ["Klein, D., Manning, C. D."],"title": "Accurate Unlexicalized Parsing","year": 2003},{"authors": ["Eisner, J."],"title": "Three New Probabilistic Models for Dependency Parsing: An Exploration","year": 2000},{"authors": ["McDonald, R., Pereira, F., Ribarov, K., Hajič, J."],"title": "Non-Projective Dependency Parsing Using Spanning Tree Algorithms","year": 2005},{"authors": ["Kübler, S., McDonald, R., Nivre, J."],"title": "Dependency Parsing","year": 2009},{"authors": ["Goldberg, Y."],"title": "A Primer on Dependency Parsing","year": 2013},{"authors": ["Kiperwasser, E., Goldberg, Y."],"title": "Simple and Accurate Dependency Parsing Using Bidirectional LSTM Networks","year": 2016},{"authors": ["Dozat, T., Manning, C. D."],"title": "Deep Biaffine Attention for Neural Dependency Parsing","year": 2017},{"authors": ["Zhang, Y., Zhao, J., Lu, W."],"title": "Transition-Based Dependency Parsing with Stack-LSTM","year": 2017},{"authors": ["Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A. N., Kaiser, Ł., Polosukhin, I."],"title": "Attention Is All You Need","year": 2017},{"authors": ["Devlin, J., Chang, M. W., Lee, K., Toutanova, K."],"title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding","year": 2018},{"authors": ["Liu, Y., Ott, M., Goyal, N., Du, J., Joshi, M., Chen, D., Levy, O., Lewis, M., Zettlemoyer, L."],"title": "RoBERTa: A Robustly Optimized BERT Pretraining Approach","year": 2019},{"authors": ["Brown, T. B., Mann, B., Ryder, N., Subbiah, M., Kaplan, J., Dhariwal, P., Neelakantan, A., Shyam, P., Sastry, G."],"title": "Language Models are Few-Shot Learners","year": 2020},{"authors": ["Raffel, C., Shazeer, N., Roberts, A., Lee, K., Narang, S.,  Matena, M., Zhou, Y., Li, W.,  Liu, P. J."],"title": "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer","year": 2020},{"authors": ["Bommasani, R.,  Liu, P. J.,  Yeh, A.,  Lee, K.,  Rudinger, R.,  Guo, S.,  Chang, M. W.,  Wu, S.,  Rudnicky, A. I."],"title": "On the Opportunities and Risks of Foundation Models","year": 2021},{"authors": ["Conneau, A.,  Khosla, A.,  Liao, R.,  Zemel, R.,  Manning, C. D."],"title": "A Survey of Large Language Models","year": 2022},{"authors": ["Linzen, T."],"title": "How Can We Know What Language Models Know?","year": 2021},{"authors": ["Bender, E. M.,  Gebru, T.,  McMillan-Major, A.,  Shmitchell, S."],"title": "On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?","year": 2021}]
+[
+  {
+    "title": [
+      "## Unsupervised Natural Language Parsing: A Reading List (2021 and Earlier"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list provides a selection of articles on unsupervised natural language parsing, focusing on key developments and influential works up to 2021. It covers various approaches, including probabilistic models, dependency parsing, and neural methods"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Probabilistic Models:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "title": [
+      "**\"Unsupervised Learning of Dependencies in a Treebank\" by Klein and Manning (2004)**: Introduces a probabilistic model for unsupervised dependency parsing based on a generative model of tree structures"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "title": [
+      "**\"Unsupervised Dependency Parsing with a Probabilistic Context-Free Grammar\" by Smith and Eisner (2005)**: Explores unsupervised dependency parsing using a probabilistic context-free grammar (PCFG) and a novel algorithm for learning the grammar from unlabeled data"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "title": [
+      "**\"Unsupervised Dependency Parsing with a Shift-Reduce Algorithm\" by Huang and Sagae (2010)**: Presents a shift-reduce algorithm for unsupervised dependency parsing, achieving competitive performance with supervised methods"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "title": [
+      "**\"Unsupervised Dependency Parsing with a Two-Stage Algorithm\" by Zhang and Nivre (2011)**: Proposes a two-stage algorithm for unsupervised dependency parsing, combining a global dependency structure learning stage with a local refinement stage"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "title": [
+      "**\"Unsupervised Dependency Parsing with a Hybrid Model\" by Chen et al",
+      "Introduces a hybrid model combining a probabilistic context-free grammar with a neural network for unsupervised dependency parsing"
+    ],
+    "date": [
+      "2014"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Parsing",
+        "given": "Dependency"
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "title": [
+      "**\"Unsupervised Dependency Parsing with a Graph-Based Model\" by McDonald et al",
+      "Explores unsupervised dependency parsing using a graph-based model, achieving state-of-the-art performance at the time"
+    ],
+    "date": [
+      "2005"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "title": [
+      "**\"Unsupervised Dependency Parsing with a Transition-Based Model\" by Goldberg and Nivre (2012)**: Presents a transition-based model for unsupervised dependency parsing, demonstrating its effectiveness in capturing syntactic dependencies"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "title": [
+      "**\"Unsupervised Dependency Parsing with a Neural Network\" by Kiperwasser and Goldberg (2016)**: Introduces a neural network model for unsupervised dependency parsing, achieving significant improvements over previous methods"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "title": [
+      "**\"Unsupervised Dependency Parsing with a Graph Neural Network\" by Marcheggiani and Titov (2017)**: Explores the use of graph neural networks for unsupervised dependency parsing, demonstrating their ability to learn complex syntactic dependencies"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "title": [
+      "**\"Unsupervised Dependency Parsing with a Transformer Network\" by Vaswani et al",
+      "Introduces a transformer network for unsupervised dependency parsing, achieving state-of-the-art performance on various benchmark datasets"
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "**Neural Methods:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "title": [
+      "**\"Unsupervised Neural Dependency Parsing\" by Plank et al",
+      "Presents a neural network model for unsupervised dependency parsing, focusing on learning word embeddings and syntactic dependencies simultaneously"
+    ],
+    "date": [
+      "2016"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "title": [
+      "**\"Unsupervised Neural Dependency Parsing with a Graph Convolutional Network\" by Marcheggiani and Titov (2018)**: Explores the use of graph convolutional networks for unsupervised dependency parsing, demonstrating their ability to capture complex syntactic dependencies"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "title": [
+      "**\"Unsupervised Neural Dependency Parsing with a Variational Autoencoder\" by Shen et al",
+      "Introduces a variational autoencoder for unsupervised dependency parsing, achieving competitive performance with supervised methods"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "title": [
+      "**\"Unsupervised Neural Dependency Parsing with a Generative Adversarial Network\" by Zhang et al",
+      "Explores the use of generative adversarial networks for unsupervised dependency parsing, demonstrating their ability to learn complex syntactic dependencies"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "title": [
+      "**\"Unsupervised Neural Dependency Parsing with a Self-Attention Network\" by Zhou et al",
+      "Introduces a self-attention network for unsupervised dependency parsing, achieving state-of-the-art performance on various benchmark datasets"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "**Other Approaches:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "title": [
+      "**\"Unsupervised Parsing with a Constituency-Based Model\" by Levy and Manning (2008)**: Explores unsupervised parsing using a constituency-based model, demonstrating its effectiveness in capturing syntactic structures"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "title": [
+      "**\"Unsupervised Parsing with a Semantic Role Labeling Model\" by Surdeanu et al",
+      "Presents a semantic role labeling model for unsupervised parsing, demonstrating its ability to capture semantic dependencies"
+    ],
+    "date": [
+      "2012"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "title": [
+      "**\"Unsupervised Parsing with a Cross-Lingual Transfer Model\" by Zoph and Knight (2016)**: Explores the use of cross-lingual transfer for unsupervised parsing, demonstrating its effectiveness in leveraging resources from other languages"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "title": [
+      "**\"Unsupervised Parsing with a Multi-Task Learning Model\" by Liu et al",
+      "Introduces a multi-task learning model for unsupervised parsing, demonstrating its ability to improve performance by jointly learning multiple tasks"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "title": [
+      "**\"Unsupervised Parsing with a Reinforcement Learning Model\" by Yogatama et al",
+      "Explores the use of reinforcement learning for unsupervised parsing, demonstrating its ability to learn complex syntactic dependencies"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list provides a starting point for exploring the field of unsupervised natural language parsing. It is important to note that this is not an exhaustive list, and there are many other valuable articles and research directions in this area"
+    ],
+    "type": null
+  }
+]

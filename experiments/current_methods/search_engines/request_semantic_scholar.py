@@ -1,13 +1,16 @@
 import os
 import json
+import dotenv
 import requests
-import numpy as np
 import pandas as pd
 from tqdm import tqdm
-from dotenv import load_dotenv
-load_dotenv()
+import typing_extensions as typing 
 
-def query_scholar(query, max_year=None):   
+dotenv.load_dotenv()
+
+# S2 API rate limit is 1RPM, async is not needed
+
+def get_papers(query:str, max_year:typing.Optional[int]=None) -> typing.Dict:   
     apiKey = os.environ['SEMANTIC_SCHOLAR_API']
     payload = {
         "query":query,
@@ -19,9 +22,9 @@ def query_scholar(query, max_year=None):
     r = requests.get('https://api.semanticscholar.org/graph/v1/paper/search', params=payload, headers={"x-api-key":apiKey})
     return r.json()
 
-def generate_list(query, max_year=None):
+def fetch_s2(query:str, max_year:typing.Optional[int]=None) -> list:
     results = []
-    response = query_scholar(query, max_year=max_year)
+    response = get_papers(query, max_year=max_year)
     if "data" in response :
         for paper in response["data"]:
             results.append({
@@ -31,9 +34,13 @@ def generate_list(query, max_year=None):
             })
     return results     
 
-for annotator_i in [1,2,3]:
-    print(f"Requesting annotator {annotator_i}")
-    annotator_queries = pd.read_csv(f"../../../annotations/annotation_{annotator_i}.csv")[["id", "year", "query_keywords"]].to_dict(orient='records')
-    preds_annot = {query["id"]: generate_list(query["query_keywords"], max_year=query["year"]) for query in tqdm(annotator_queries)}
-    with open(f"preds/semantic_scholar/preds_annot{annotator_i}.json", "w") as fp:
-        json.dump(preds_annot , fp) 
+def process_s2_request() -> None :
+    for annotator_i in [1, 2, 3]:
+        print(f"Requesting S2's top 20 results")
+        annotator_queries = pd.read_csv(f"../../../annotations/annotation_{annotator_i}.csv")[["id", "year", "query_keywords"]].to_dict(orient='records')
+        preds_annot = {query["id"]: fetch_s2(query["query_keywords"], max_year=query["year"]) for query in tqdm(annotator_queries)}
+        with open(f"preds/semantic_scholar/preds_annot{annotator_i}.json", "w") as fp:
+            json.dump(preds_annot , fp) 
+
+if __name__ == "__main__":
+    process_s2_request()

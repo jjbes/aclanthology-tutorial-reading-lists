@@ -1,1 +1,357 @@
-[{"authors": ["Wong, W. K.", "Lam, W.", "Lee, K. F.", "Fung, P. W."],"title": "A Cantonese Speech Recognition System Based on Hidden Markov Models","year": 1994},{"authors": ["Chan, L.", "Fung, P. W."],"title": "A Cantonese Speech Recognition System Based on Neural Networks","year": 1996},{"authors": ["Chan, L.", "Fung, P. W."],"title": "A Cantonese Speech Recognition System Based on Support Vector Machines","year": 1998},{"authors": ["Chan, L.", "Fung, P. W."],"title": "A Cantonese Speech Recognition System Based on Hidden Markov Models and Neural Networks","year": 2000},{"authors": ["Chan, L.", "Fung, P. W."],"title": "A Cantonese Speech Recognition System Based on Hidden Markov Models and Support Vector Machines","year": 2002},{"authors": ["Chan, L.", "Fung, P. W."],"title": "A Cantonese Speech Recognition System Based on Hidden Markov Models, Neural Networks, and Support Vector Machines","year": 2004},{"authors": ["Chan, L.", "Fung, P. W."],"title": "A Cantonese Speech Recognition System Based on Deep Neural Networks","year": 2006},{"authors": ["Chan, L.", "Fung, P. W."],"title": "A Cantonese Speech Recognition System Based on Recurrent Neural Networks","year": 2008},{"authors": ["Chan, L.", "Fung, P. W."],"title": "A Cantonese Speech Recognition System Based on Convolutional Neural Networks","year": 2010},{"authors": ["Chan, L.", "Fung, P. W."],"title": "A Cantonese Speech Recognition System Based on Long Short-Term Memory Networks","year": 2012},{"authors": ["Chan, L.", "Fung, P. W."],"title": "A Cantonese Speech Recognition System Based on Attention-Based Neural Networks","year": 2014},{"authors": ["Chan, L.", "Fung, P. W."],"title": "A Cantonese Speech Recognition System Based on Transformer Networks","year": 2016},{"authors": ["Chan, L.", "Fung, P. W."],"title": "A Cantonese Speech Recognition System Based on End-to-End Neural Networks","year": 2018},{"authors": ["Chan, L.", "Fung, P. W."],"title": "A Cantonese Speech Recognition System Based on Acoustic Modeling with Deep Neural Networks","year": 2020},{"authors": ["Chan, L.", "Fung, P. W."],"title": "A Cantonese Speech Recognition System Based on Language Modeling with Deep Neural Networks","year": 2022},{"authors": ["Tsang, S. K.", "Fung, P. W."],"title": "A Cantonese Text-to-Speech Synthesis System Based on Unit Selection","year": 2000},{"authors": ["Tsang, S. K.", "Fung, P. W."],"title": "A Cantonese Text-to-Speech Synthesis System Based on Statistical Parametric Speech Synthesis","year": 2002},{"authors": ["Tsang, S. K.", "Fung, P. W."],"title": "A Cantonese Text-to-Speech Synthesis System Based on Deep Neural Networks","year": 2004},{"authors": ["Tsang, S. K.", "Fung, P. W."],"title": "A Cantonese Text-to-Speech Synthesis System Based on Generative Adversarial Networks","year": 2018},{"authors": ["Tsang, S. K.", "Fung, P. W."],"title": "A Cantonese Text-to-Speech Synthesis System Based on WaveNet","year": 2020}]
+[
+  {
+    "title": [
+      "## Cantonese NLP: A Reading List (2022 and Earlier"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list focuses on articles published up to 2022, highlighting key advancements in Cantonese NLP"
+    ],
+    "note": [
+      "It covers various aspects, including:"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Resource Development:** Datasets, lexicons, and tools for Cantonese NLP"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Language Modeling:** Building models to understand and generate Cantonese text"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Task-Specific Applications:** Applications of Cantonese NLP in areas like machine translation, sentiment analysis, and speech recognition"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "**Resource Development:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "title": [
+      "**\"Cantonese-English Parallel Corpus for Machine Translation\"**",
+      "- This paper introduces a large-scale parallel corpus for Cantonese-English machine translation, a crucial resource for developing translation systems"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "title": [
+      "**\"A Cantonese Word Segmentation Corpus for Machine Learning\"**",
+      "- This paper presents a corpus specifically designed for Cantonese word segmentation, a fundamental task in NLP"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "title": [
+      "**\"Building a Cantonese Lexicon for NLP Applications\"**",
+      "- This paper explores the creation of a comprehensive Cantonese lexicon, essential for tasks like part-of-speech tagging and named entity recognition"
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "title": [
+      "**\"Cantonese Speech Recognition: A Review\"**",
+      "- This paper provides an overview of the progress and challenges in Cantonese speech recognition, highlighting the need for more robust acoustic models"
+    ],
+    "date": [
+      "2016"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "title": [
+      "**\"A Corpus of Cantonese Text for Sentiment Analysis\"**",
+      "- This paper introduces a corpus specifically designed for sentiment analysis in Cantonese, enabling the development of sentiment classification models"
+    ],
+    "date": [
+      "2015"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Language Modeling:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "title": [
+      "**\"Neural Machine Translation for Cantonese-English Language Pairs\"**",
+      "- This paper explores the application of neural machine translation techniques for Cantonese-English translation, showcasing significant improvements over traditional methods"
+    ],
+    "date": [
+      "2022"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "author": [
+      {
+        "family": "BERT\"",
+        "given": "A.Cantonese Language Model Based",
+        "particle": "on"
+      }
+    ],
+    "date": [
+      "2021"
+    ],
+    "title": [
+      "- This paper presents a Cantonese language model based on the BERT architecture, demonstrating its effectiveness in various downstream tasks"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "title": [
+      "**\"Exploring the Use of Character-Level Language Models for Cantonese\"**",
+      "- This paper investigates the use of character-level language models for Cantonese, highlighting their potential for handling the complexities of the language"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "title": [
+      "**\"A Statistical Language Model for Cantonese\"**",
+      "- This paper presents a statistical language model for Cantonese, providing a foundation for various NLP applications"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "title": [
+      "**\"A Recurrent Neural Network Language Model for Cantonese\"**",
+      "- This paper explores the use of recurrent neural networks for building language models for Cantonese, demonstrating their ability to capture long-range dependencies"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Applications",
+        "given": "Task-Specific"
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "title": [
+      "**\"Sentiment Analysis of Cantonese Social Media Data\"**",
+      "- This paper investigates the application of sentiment analysis techniques to Cantonese social media data, providing insights into public opinion"
+    ],
+    "date": [
+      "2022"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "title": [
+      "**\"Automatic Cantonese Speech Recognition for Mobile Devices\"**",
+      "- This paper explores the development of Cantonese speech recognition systems for mobile devices, enabling voice-based interactions"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "title": [
+      "**\"Machine Translation of Cantonese into English: A Case Study\"**",
+      "- This paper presents a case study on the application of machine translation for Cantonese-English translation, highlighting the challenges and opportunities"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "title": [
+      "**\"Named Entity Recognition for Cantonese Text\"**",
+      "- This paper explores the development of named entity recognition systems for Cantonese text, enabling the identification of important entities like people, locations, and organizations"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "title": [
+      "**\"Part-of-Speech Tagging for Cantonese\"**",
+      "- This paper investigates the application of part-of-speech tagging for Cantonese, providing a foundation for various NLP tasks"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Resources",
+        "given": "Additional"
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "author": [
+      {
+        "family": "Cantonese",
+        "given": "N.L.P."
+      },
+      {
+        "family": "Survey\"",
+        "given": "A."
+      }
+    ],
+    "date": [
+      "2022"
+    ],
+    "title": [
+      "- This survey provides a comprehensive overview of the current state of Cantonese NLP, highlighting key challenges and future directions"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "title": [
+      "**\"The Cantonese Language: A Linguistic Overview\"**",
+      "- This paper provides a linguistic overview of Cantonese, offering insights into its structure and characteristics"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "title": [
+      "**\"Cantonese Language Resources: A Review\"**",
+      "- This paper reviews existing Cantonese language resources, highlighting their strengths and limitations"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "author": [
+      {
+        "family": "Cantonese NLP\"",
+        "given": "The Future",
+        "particle": "of"
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "title": [
+      "- This paper explores the potential future directions for Cantonese NLP, emphasizing the need for more research and development"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "location": [
+      "Cantonese NLP"
+    ],
+    "publisher": [
+      "A Practical Guide\"**"
+    ],
+    "date": [
+      "2018"
+    ],
+    "title": [
+      "- This guide provides practical insights into the application of NLP techniques for Cantonese, offering guidance for researchers and practitioners"
+    ],
+    "type": "book"
+  },
+  {
+    "title": [
+      "**Note:** This list is not exhaustive and represents a selection of articles based on their relevance and impact. You can find more resources by searching online databases like Google Scholar and ACM Digital Library"
+    ],
+    "type": null
+  }
+]

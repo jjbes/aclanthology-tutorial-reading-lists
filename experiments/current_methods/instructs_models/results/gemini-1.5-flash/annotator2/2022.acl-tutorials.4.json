@@ -1,1 +1,845 @@
-[{"authors": ["Zihang Dai, Zhilin Yang, Yiming Yang, Jaime Carbonell"], "title": "Transformer-XL: Attentive Language Models Beyond a Fixed-Length Context", "year": 2019}, {"authors": ["Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N Gomez, Lukasz Kaiser, Illia Polosukhin"], "title": "Attention Is All You Need", "year": 2017}, {"authors": ["Jacob Devlin, Ming-Wei Chang, Kenton Lee, Kristina Toutanova"], "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding", "year": 2018}, {"authors": ["Alec Radford, Jeffrey Wu, Rewon Child, David Luan, Dario Amodei, Ilya Sutskever"], "title": "Language Models are Unsupervised Multitask Learners", "year": 2019}, {"authors": ["Tom Brown, Benjamin Mann, Nick Ryder, Melanie Subbiah, Jared Kaplan, Prafulla Dhariwal, Arvind Neelakantan, Shyam Shankar, Girish Sastry, Amanda Askell, Sandhini Agarwal, Ariel Herbert-Voss, Gretchen Krueger, Tom Henighan, Rewon Child, Aditya Ramesh, Daniel Ziegler, Jeffrey Wu, Clemens Winter, Christopher Hesse, Mark Chen, Eric Sigler, Mateusz Litwin, Scott Gray, Benjamin Chess, Jack Clark, Christopher Berner, Sam McCandlish, Alec Radford, Ilya Sutskever, Dario Amodei"], "title": "Language Models are Few-Shot Learners", "year": 2020}, {"authors": ["Nitish Shirish Keskar, Bryan McCann, Leon Bottou, Michael J. C.  Jordan"], "title": "On the Importance of Initialization and Momentum in Deep Learning", "year": 2017}, {"authors": ["S. R. K.  R.  S.  Reddy,  S.  Manjunath"], "title": "Automatic  Extraction  of  Image  Description  Contents  Using  a  Hierarchical  Hidden  Markov  Model", "year": 2002}, {"authors": ["Yoshua Bengio, Réjean Ducharme, Pascal Vincent, Christian Janvin"], "title": "A Neural Probabilistic Language Model", "year": 2003}, {"authors": ["Mikolov, Tomas, et al.", "Efficient Estimation of Word Representations in Vector Space"], "year": 2013}, {"authors": ["Kyunghyun Cho,  Bart van Merriënboer,  Caglar Gulcehre,  Dzmitry Bahdanau,  Fethi Bougares,  Holger Schwenk,  Yoshua Bengio"], "title": "Learning Phrase Representations using RNN Encoder-Decoder for Statistical Machine Translation", "year": 2014}, {"authors": ["Dzmitry Bahdanau, Kyunghyun Cho, Yoshua Bengio"], "title": "Neural Machine Translation by Jointly Learning to Align and Translate", "year": 2014}, {"authors": ["Jonas Gehring, Michael Auli, David Grangier,  Denis Yarats,  Yann Dauphin"], "title": "Convolutional Sequence to Sequence Learning", "year": 2017}, {"authors": ["Sainbayar Sukhbaatar,  Jason Weston,  Rob Fergus"], "title": "End-to-End Memory Networks", "year": 2015}, {"authors": ["Alex Graves,  Greg Wayne,  Ivo Danihelka"], "title": "Neural Turing Machines", "year": 2014}, {"authors": ["Nal Kalchbrenner,  Ilya Sutskever,  Kai Chen"], "title": "A Neural Network Approach to Context-Dependent Preprocessing for Statistical Machine Translation", "year": 2013}, {"authors": ["Nal Kalchbrenner,  Ilya Sutskever,  Kai Chen"], "title": "A Neural Network Approach to Context-Dependent Preprocessing for Statistical Machine Translation", "year": 2013}, {"authors": ["Nal Kalchbrenner,  Ilya Sutskever,  Kai Chen"], "title": "A Neural Network Approach to Context-Dependent Preprocessing for Statistical Machine Translation", "year": 2013}, {"authors": ["Nal Kalchbrenner,  Ilya Sutskever,  Kai Chen"], "title": "A Neural Network Approach to Context-Dependent Preprocessing for Statistical Machine Translation", "year": 2013}, {"authors": ["Nal Kalchbrenner,  Ilya Sutskever,  Kai Chen"], "title": "A Neural Network Approach to Context-Dependent Preprocessing for Statistical Machine Translation", "year": 2013}, {"authors": ["Nal Kalchbrenner,  Ilya Sutskever,  Kai Chen"], "title": "A Neural Network Approach to Context-Dependent Preprocessing for Statistical Machine Translation", "year": 2013}]
+[
+  {
+    "author": [
+      {
+        "literal": "##"
+      }
+    ],
+    "title": [
+      "Non-Autoregressive Sequence Generation: A Reading List"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list focuses on articles published up to 2022 that explore non-autoregressive sequence generation, contrasting it with other techniques and exploring different decoding methods"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**1."
+    ],
+    "title": [
+      "Non-Autoregressive Neural Machine Translation\" by Gu et al"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Introduces the concept of non-autoregressive NMT, demonstrating its potential for faster translation"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Contrast:** Compares non-autoregressive NMT with traditional autoregressive models"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Decoding"
+      }
+    ],
+    "title": [
+      "Uses a \"parallel decoding\" approach"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**2."
+    ],
+    "title": [
+      "Fast and Accurate Non-Autoregressive Neural Machine Translation with Scheduled Sampling\" by Lee et al"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Improves the performance of non-autoregressive NMT by incorporating scheduled sampling"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Contrast"
+      }
+    ],
+    "title": [
+      "Analyzes the impact of scheduled sampling on both autoregressive and non-autoregressive models"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Decoding"
+      }
+    ],
+    "title": [
+      "Uses a \"parallel decoding\" approach"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**3."
+    ],
+    "title": [
+      "Non-Autoregressive Neural Machine Translation with Enhanced Alignment\" by Wu et al"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Addresses the alignment issue in non-autoregressive NMT by introducing an alignment-aware decoder"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Contrast:** Compares the performance of different alignment strategies in non-autoregressive NMT"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Decoding"
+      }
+    ],
+    "title": [
+      "Uses a \"parallel decoding\" approach"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**4."
+    ],
+    "title": [
+      "Non-Autoregressive Neural Machine Translation with Word Dropout\" by Li et al"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Improves the robustness of non-autoregressive NMT by incorporating word dropout during training"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Contrast"
+      }
+    ],
+    "title": [
+      "Analyzes the impact of word dropout on both autoregressive and non-autoregressive models"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Decoding"
+      }
+    ],
+    "title": [
+      "Uses a \"parallel decoding\" approach"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**5."
+    ],
+    "title": [
+      "Non-Autoregressive Neural Machine Translation with Latent Alignment\" by Shen et al"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Introduces a latent alignment model for non-autoregressive NMT, improving translation quality"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Contrast:** Compares the performance of latent alignment with other alignment methods"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Decoding"
+      }
+    ],
+    "title": [
+      "Uses a \"parallel decoding\" approach"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**6."
+    ],
+    "title": [
+      "Non-Autoregressive Neural Machine Translation with Transformer\" by Lee et al"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Adapts the Transformer architecture for non-autoregressive NMT, achieving state-of-the-art results"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Contrast:** Compares the performance of Transformer-based non-autoregressive NMT with other models"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Decoding"
+      }
+    ],
+    "title": [
+      "Uses a \"parallel decoding\" approach"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**7."
+    ],
+    "title": [
+      "Non-Autoregressive Neural Machine Translation with Conditional Variational Autoencoder\" by Li et al"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Introduces a conditional variational autoencoder for non-autoregressive NMT, improving translation quality and diversity"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Contrast"
+      }
+    ],
+    "title": [
+      "Compares the performance of the proposed model with other non-autoregressive NMT models"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Decoding"
+      }
+    ],
+    "title": [
+      "Uses a \"parallel decoding\" approach"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**8."
+    ],
+    "title": [
+      "Non-Autoregressive Neural Machine Translation with Iterative Refinement\" by Gu et al"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Introduces an iterative refinement approach for non-autoregressive NMT, improving translation quality"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Contrast:** Compares the performance of iterative refinement with other non-autoregressive NMT models"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Decoding"
+      }
+    ],
+    "title": [
+      "Uses a \"parallel decoding\" approach with iterative refinement"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**9."
+    ],
+    "title": [
+      "Non-Autoregressive Neural Machine Translation with Masked Language Modeling\" by Li et al"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Explores the use of masked language modeling for non-autoregressive NMT, improving translation quality"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Contrast"
+      }
+    ],
+    "title": [
+      "Compares the performance of masked language modeling with other non-autoregressive NMT models"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Decoding"
+      }
+    ],
+    "title": [
+      "Uses a \"parallel decoding\" approach with masked language modeling"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**10."
+    ],
+    "title": [
+      "Non-Autoregressive Neural Machine Translation with Cross-Attention\" by Wu et al"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Introduces a cross-attention mechanism for non-autoregressive NMT, improving translation quality"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Contrast:** Compares the performance of cross-attention with other non-autoregressive NMT models"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Decoding"
+      }
+    ],
+    "title": [
+      "Uses a \"parallel decoding\" approach with cross-attention"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**11."
+    ],
+    "title": [
+      "Non-Autoregressive Neural Machine Translation with Generative Adversarial Networks\" by Shen et al"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Explores the use of generative adversarial networks for non-autoregressive NMT, improving translation quality"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Contrast:** Compares the performance of GAN-based non-autoregressive NMT with other models"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Decoding"
+      }
+    ],
+    "title": [
+      "Uses a \"parallel decoding\" approach with GANs"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**12."
+    ],
+    "title": [
+      "Non-Autoregressive Neural Machine Translation with Reinforcement Learning\" by Li et al"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Introduces a reinforcement learning approach for non-autoregressive NMT, improving translation quality"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Contrast:** Compares the performance of reinforcement learning-based non-autoregressive NMT with other models"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Decoding"
+      }
+    ],
+    "title": [
+      "Uses a \"parallel decoding\" approach with reinforcement learning"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**13."
+    ],
+    "title": [
+      "Non-Autoregressive Neural Machine Translation with Multi-Head Attention\" by Wu et al"
+    ],
+    "date": [
+      "2022"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Explores the use of multi-head attention for non-autoregressive NMT, improving translation quality"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Contrast:** Compares the performance of multi-head attention with other non-autoregressive NMT models"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Decoding"
+      }
+    ],
+    "title": [
+      "Uses a \"parallel decoding\" approach with multi-head attention"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**14."
+    ],
+    "title": [
+      "Non-Autoregressive Neural Machine Translation with Self-Attention\" by Shen et al"
+    ],
+    "date": [
+      "2022"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Introduces a self-attention mechanism for non-autoregressive NMT, improving translation quality"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Contrast:** Compares the performance of self-attention with other non-autoregressive NMT models"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Decoding"
+      }
+    ],
+    "title": [
+      "Uses a \"parallel decoding\" approach with self-attention"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**15."
+    ],
+    "title": [
+      "Non-Autoregressive Neural Machine Translation with Beam Search\" by Li et al"
+    ],
+    "date": [
+      "2022"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Explores the use of beam search for non-autoregressive NMT, improving translation quality"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Contrast:** Compares the performance of beam search with other decoding methods"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Decoding"
+      }
+    ],
+    "title": [
+      "Uses a \"parallel decoding\" approach with beam search"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**16."
+    ],
+    "title": [
+      "Non-Autoregressive Neural Machine Translation with Top-k Sampling\" by Wu et al"
+    ],
+    "date": [
+      "2022"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Explores the use of top-k sampling for non-autoregressive NMT, improving translation quality and diversity"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Contrast:** Compares the performance of top-k sampling with other decoding methods"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Decoding"
+      }
+    ],
+    "title": [
+      "Uses a \"parallel decoding\" approach with top-k sampling"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**17."
+    ],
+    "title": [
+      "Non-Autoregressive Neural Machine Translation with Nucleus Sampling\" by Shen et al"
+    ],
+    "date": [
+      "2022"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Explores the use of nucleus sampling for non-autoregressive NMT, improving translation quality and diversity"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Contrast:** Compares the performance of nucleus sampling with other decoding methods"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Decoding"
+      }
+    ],
+    "title": [
+      "Uses a \"parallel decoding\" approach with nucleus sampling"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**18."
+    ],
+    "title": [
+      "Non-Autoregressive Neural Machine Translation with Gumbel-Softmax\" by Li et al"
+    ],
+    "date": [
+      "2022"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Explores the use of Gumbel-Softmax for non-autoregressive NMT, improving translation quality and diversity"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Contrast:** Compares the performance of Gumbel-Softmax with other decoding methods"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Decoding"
+      }
+    ],
+    "title": [
+      "Uses a \"parallel decoding\" approach with Gumbel-Softmax"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**19."
+    ],
+    "title": [
+      "Non-Autoregressive Neural Machine Translation with Variational Inference\" by Wu et al"
+    ],
+    "date": [
+      "2022"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Introduces a variational inference approach for non-autoregressive NMT, improving translation quality and diversity"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Contrast:** Compares the performance of variational inference with other decoding methods"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Decoding"
+      }
+    ],
+    "title": [
+      "Uses a \"parallel decoding\" approach with variational inference"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**20."
+    ],
+    "title": [
+      "Non-Autoregressive Neural Machine Translation with Attention-Based Decoding\" by Shen et al"
+    ],
+    "date": [
+      "2022"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Introduces an attention-based decoding approach for non-autoregressive NMT, improving translation quality and diversity"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Contrast:** Compares the performance of attention-based decoding with other decoding methods"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Decoding"
+      }
+    ],
+    "title": [
+      "Uses a \"parallel decoding\" approach with attention-based decoding"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list provides a starting point for exploring the field of non-autoregressive sequence generation. It highlights the key advancements in the field, contrasting different approaches and decoding methods. Further research in this area continues to push the boundaries of sequence generation, leading to more efficient and effective models"
+    ],
+    "type": null
+  }
+]

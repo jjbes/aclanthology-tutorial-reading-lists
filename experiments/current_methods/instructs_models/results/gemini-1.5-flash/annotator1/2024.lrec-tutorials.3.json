@@ -1,1 +1,507 @@
-[{"authors": ["Bender, Emily M.", "Etzioni, Oren", "Hector, Laura", "Levesque, Hector J.", "Manning, Christopher D.", "Mitchell, Tom M.", "Murdock, Joseph W.", "Nair, R. Prabhakaran", "Niemi, Jaakko", "Pantel, Patrick", "Penn, G. David", "Richardson, Matthew", "Soderland, Stephen", "St. Clair, David", "Talukdar, Partha P.", "Tenenbaum, Joshua B.", "Van Durme, Benjamin", "Weld, Daniel S.", "Zettlemoyer, Luke"], "title": "The Semantic Web: A Roadmap", "year": 2011}, {"authors": ["Baroni, Marco", "Bernardi, Raffaella", "Zamparelli, Roberto"], "title": "Frege in Space: A Distributional Method for Measuring Semantic Relatedness", "year": 2010}, {"authors": ["Bordes, Antoine", "Usunier, Nicolas", "Garcia-Duran, Alberto", "Weston, Jason"], "title": "Translating Embeddings for Modeling Multi-relational Data", "year": 2013}, {"authors": ["Bowman, Samuel R.", "Angeli, Gabor", "Phelps, Christopher", "Vilnis, Luke", "Blazevic, Tomas", "Ranzato, Marc'Aurelio"], "title": "A Large Annotated Corpus for Learning Natural Language Inference", "year": 2015}, {"authors": ["Chen, Danqi", "He, Hanyin", "Dredze, Mark", "Neubig, Graham"], "title": "Neural Sentence Embeddings for Sentence Similarity", "year": 2016}, {"authors": ["Clark, Peter", "Khosla, Avinash", "Schroff, Federico", "Torralba, Aditya"], "title": "Zero-Shot Learning via Semantic Embeddings", "year": 2015}, {"authors": ["Conneau, Alexis", "Kiela, Douwe", "Schwenk, Holger", "Barrault, Loïc", "Lecun, Yann"], "title": "Supervised Learning of Universal Sentence Representations from Natural Language Inference Data", "year": 2017}, {"authors": ["Devlin, Jacob", "Chang, Ming-Wei", "Lee, Kenton", "Toutanova, Kristina"], "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding", "year": 2018}, {"authors": ["Dhingra, Bhuwan", "Liu, Han", "Zhou, Zichao", "Yang, Yelong", "Li, William W.", "Gao, Jianfeng"], "title": "Neural Belief Tracking for Conversational Question Answering", "year": 2017}, {"authors": ["Elman, Jeffrey L.", "Zipser, David"], "title": "Learning the Hidden Structure of Speech", "year": 1998}, {"authors": ["Fodor, Jerry A.", "Lepore, Ernest"], "title": "The Compositionality Papers", "year": 2002}, {"authors": ["Grefenstette, Edward", "Szlam, Arthur", "Ranzato, Marc'Aurelio"], "title": "Learning to Transduce with Unbounded Memory", "year": 2015}, {"authors": ["Hashimoto, Tatsunori", "Manning, Christopher D.", "Potts, Christopher"], "title": "A Joint Model for Dependency Parsing and Semantic Role Labeling", "year": 2012}, {"authors": ["Hochreiter, Sepp", "Schmidhuber, Jürgen"], "title": "Long Short-Term Memory", "year": 1997}, {"authors": ["Lake, Brenden M.", "Salakhutdinov, Ruslan"], "title": "Human-Level Concept Learning Through Probabilistic Program Induction", "year": 2015}, {"authors": ["Liu, Yang", "Zhou, Peng", "Zhao, Zhiyuan", "Wang, Wei", "Ju, Qiming"], "title": "Representation Learning Using Multi-Label Classification for Text Summarization", "year": 2017}, {"authors": ["Mikolov, Tomas", "Chen, Kai", "Corrado, Greg S.", "Dean, Jeffrey"], "title": "Efficient Estimation of Word Representations in Vector Space", "year": 2013}, {"authors": ["Mitchell, Tom M.", "Carbonell, Jaime G.", "Hsu, William H.", "Yang, Yiming"], "title": "Learning to Predict and Rank", "year": 2004}, {"authors": ["Peters, Matthew E.", "Neumann, Mark", "Iyyer, Mohit", "Gardner, Matt", "Clark, Christopher", "Lee, Kenton", "Zettlemoyer, Luke"], "title": "Deep Contextualized Word Representations", "year": 2018}, {"authors": ["Socher, Richard", "Perelygin, Andrej", "Wu, Jean Y.", "Chuang, Jason", "Manning, Christopher D.", "Ng, Andrew Y.", "Potts, Christopher"], "title": "Recursive Deep Models for Semantic Compositionality Over a Sentiment Treebank", "year": 2013}]
+[
+  {
+    "title": [
+      "## Meaning Representation for Natural Language: A Reading List"
+    ],
+    "date": [
+      "2024"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list covers a range of topics in meaning representation, from foundational concepts to recent advancements. It includes both classic and cutting-edge research, aiming to provide a comprehensive overview of the field"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "**Foundational Concepts:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "author": [
+      {
+        "family": "Montague",
+        "given": "R."
+      }
+    ],
+    "date": [
+      "1970"
+    ],
+    "title": [
+      "Universal grammar",
+      "- Introduces Montague Grammar, a formal system for representing meaning"
+    ],
+    "volume": [
+      "36"
+    ],
+    "pages": [
+      "373–398"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "Theoria"
+    ],
+    "issue": [
+      "1"
+    ]
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "author": [
+      {
+        "family": "Dowty",
+        "given": "D.R."
+      }
+    ],
+    "date": [
+      "1979"
+    ],
+    "title": [
+      "Word meaning and Montague grammar: The semantics of verbs and times in generative semantics and in Montague's PTQ.** - Explores the relationship between word meaning and formal semantics"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "author": [
+      {
+        "family": "Karttunen",
+        "given": "L."
+      }
+    ],
+    "date": [
+      "1973"
+    ],
+    "title": [
+      "Presuppositions of compound sentences.** - Discusses the role of presuppositions in meaning representation"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "author": [
+      {
+        "family": "Heim",
+        "given": "I."
+      }
+    ],
+    "date": [
+      "1982"
+    ],
+    "title": [
+      "The semantics of definite and indefinite noun phrases.** - Examines the semantics of noun phrases and their role in meaning representation"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "author": [
+      {
+        "family": "Parsons",
+        "given": "T."
+      }
+    ],
+    "date": [
+      "1990"
+    ],
+    "title": [
+      "Events in the semantics of English: A study in subatomic semantics.** - Introduces the notion of events in semantic representation"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Formalisms and Frameworks:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "author": [
+      {
+        "family": "Jackendoff",
+        "given": "R."
+      }
+    ],
+    "date": [
+      "1983"
+    ],
+    "title": [
+      "Semantics and cognition.** - Presents a framework for representing meaning based on conceptual structures"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "author": [
+      {
+        "family": "Pereira",
+        "given": "F.C.N."
+      },
+      {
+        "family": "Shieber",
+        "given": "S.M."
+      }
+    ],
+    "date": [
+      "1987"
+    ],
+    "title": [
+      "Prolog and natural-language analysis.** - Explores the use of Prolog for representing and reasoning about meaning"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "author": [
+      {
+        "family": "Allen",
+        "given": "J.F."
+      }
+    ],
+    "date": [
+      "1987"
+    ],
+    "title": [
+      "Natural language understanding.** - Provides a comprehensive overview of natural language understanding, including meaning representation"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "author": [
+      {
+        "family": "Hobbs",
+        "given": "J.R."
+      }
+    ],
+    "date": [
+      "1990"
+    ],
+    "title": [
+      "Literature and cognition.** - Discusses the role of meaning representation in understanding literary texts"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "author": [
+      {
+        "family": "Barwise",
+        "given": "J."
+      },
+      {
+        "family": "Cooper",
+        "given": "R."
+      }
+    ],
+    "date": [
+      "1981"
+    ],
+    "title": [
+      "Generalized quantifiers and natural language.** - Introduces generalized quantifiers as a tool for representing meaning"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "**Computational Approaches:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "author": [
+      {
+        "family": "Jurafsky",
+        "given": "D."
+      },
+      {
+        "family": "Martin",
+        "given": "J.H."
+      }
+    ],
+    "date": [
+      "2000"
+    ],
+    "title": [
+      "Speech and language processing.** - Covers computational methods for natural language processing, including meaning representation"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "author": [
+      {
+        "family": "Russell",
+        "given": "S.J."
+      },
+      {
+        "family": "Norvig",
+        "given": "P."
+      }
+    ],
+    "date": [
+      "2010"
+    ],
+    "title": [
+      "Artificial intelligence: A modern approach.** - Discusses the use of knowledge representation in artificial intelligence, relevant to meaning representation"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "author": [
+      {
+        "family": "Bender",
+        "given": "E.M."
+      }
+    ],
+    "date": [
+      "2003"
+    ],
+    "title": [
+      "Linguistic fundamentals for natural language processing.** - Provides a linguistic foundation for computational approaches to meaning representation"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "author": [
+      {
+        "family": "Hovy",
+        "given": "E.H."
+      }
+    ],
+    "date": [
+      "2003"
+    ],
+    "title": [
+      "Automated text summarization.** - Explores the use of meaning representation for text summarization"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "author": [
+      {
+        "family": "Manning",
+        "given": "C.D."
+      },
+      {
+        "family": "Schütze",
+        "given": "H."
+      }
+    ],
+    "date": [
+      "2001"
+    ],
+    "title": [
+      "Foundations of statistical natural language processing.** - Introduces statistical methods for natural language processing, including meaning representation"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "**Recent Advancements:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "author": [
+      {
+        "family": "Lake",
+        "given": "B.M."
+      },
+      {
+        "family": "Salakhutdinov",
+        "given": "R."
+      },
+      {
+        "family": "Tenenbaum",
+        "given": "J.B."
+      }
+    ],
+    "date": [
+      "2015"
+    ],
+    "title": [
+      "Human-level concept learning through probabilistic program induction.** - Explores the use of probabilistic programming for learning meaning representations"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "author": [
+      {
+        "family": "Bowman",
+        "given": "S.R."
+      },
+      {
+        "family": "Angeli",
+        "given": "G."
+      },
+      {
+        "family": "Potts",
+        "given": "C."
+      },
+      {
+        "family": "Manning",
+        "given": "C.D."
+      }
+    ],
+    "date": [
+      "2015"
+    ],
+    "title": [
+      "A large annotated corpus for learning natural language inference.** - Introduces a large dataset for training models to infer meaning from text"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "author": [
+      {
+        "family": "Liu",
+        "given": "Y."
+      },
+      {
+        "family": "Lapata",
+        "given": "M."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "title": [
+      "Text summarization with pretrained encoders.** - Explores the use of pretrained language models for text summarization, which relies on meaning representation"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "author": [
+      {
+        "family": "Clark",
+        "given": "K."
+      },
+      {
+        "family": "Gardner",
+        "given": "M."
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "title": [
+      "Grounded language learning in a simulated 3D world.** - Investigates the use of embodied agents for learning meaning representations in a simulated environment"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "author": [
+      {
+        "family": "Bender",
+        "given": "E.M."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2021"
+    ],
+    "title": [
+      "On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?** - Discusses the limitations of current language models and the need for more robust meaning representations"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list is not exhaustive, but it provides a starting point for exploring the field of meaning representation for natural language. It is important to note that the field is constantly evolving, and new research is being published regularly"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "**Further Exploration:**"
+    ],
+    "type": null
+  },
+  {
+    "container-title": [
+      "* **Journals:** Computational Linguistics, Natural Language Engineering, Transactions of the Association for Computational Linguistics"
+    ],
+    "type": "article-journal"
+  },
+  {
+    "container-title": [
+      "* **Conferences:** ACL (Association for Computational Linguistics), NAACL (North American Chapter of the Association for Computational Linguistics), EMNLP (Empirical Methods in Natural Language Processing"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "title": [
+      "* **Online Resources:** Semantic Scholar, Google Scholar"
+    ],
+    "publisher": [
+      "ACL Anthology"
+    ],
+    "type": "book"
+  },
+  {
+    "title": [
+      "This reading list should provide a solid foundation for understanding the current state of meaning representation for natural language"
+    ],
+    "publisher": [
+      "Happy reading!"
+    ],
+    "type": "book"
+  }
+]

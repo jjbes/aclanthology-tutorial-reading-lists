@@ -1,0 +1,743 @@
+[
+  {
+    "title": [
+      "Creating a reading list of articles on meaning representation in NLP, including different representation methods and their applications in downstream tasks, involves selecting a mix of foundational papers, recent advancements, and application-focused studies"
+    ],
+    "note": [
+      "Here’s a list of 20 articles that cover these aspects up to 2024:"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "author": [
+      {
+        "family": "Mikolov",
+        "given": "T."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2013"
+    ],
+    "title": [
+      "Efficient Estimation of Word Representations in Vector Space"
+    ],
+    "note": [
+      "*arXiv preprint arXiv:1301.3781.*"
+    ],
+    "arxiv": [
+      "1301.3781"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Introduces word2vec, a foundational model for word embeddings"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "author": [
+      {
+        "family": "Pennington",
+        "given": "J."
+      },
+      {
+        "family": "Socher",
+        "given": "R."
+      },
+      {
+        "family": "Manning",
+        "given": "C.D."
+      }
+    ],
+    "date": [
+      "2014",
+      "2014"
+    ],
+    "title": [
+      "GloVe: Global Vectors for Word Representation"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "*EMNLP"
+    ]
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Discusses GloVe, another influential word embedding model"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "author": [
+      {
+        "family": "Devlin",
+        "given": "J."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2019",
+      "2019"
+    ],
+    "title": [
+      "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "*NAACL-HLT"
+    ]
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Presents BERT, a transformer-based model that revolutionized NLP tasks"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "author": [
+      {
+        "family": "Peters",
+        "given": "M.E."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "title": [
+      "Deep Contextualized Word Representations"
+    ],
+    "container-title": [
+      "*NAACL 2018.*"
+    ],
+    "type": "chapter"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Introduces ELMo, which captures context-dependent word meanings"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "author": [
+      {
+        "family": "Radford",
+        "given": "A."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "title": [
+      "Language Models are Unsupervised Multitask Learners"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "*OpenAI.*"
+    ]
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Discusses GPT-2, highlighting its capabilities in various NLP tasks"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "author": [
+      {
+        "family": "Brown",
+        "given": "T.B."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2020",
+      "2020"
+    ],
+    "title": [
+      "Language Models are Few-Shot Learners"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "*NeurIPS"
+    ]
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Introduces GPT-3, focusing on its few-shot learning abilities"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "author": [
+      {
+        "family": "Liu",
+        "given": "Y."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "title": [
+      "RoBERTa: A Robustly Optimized BERT Pretraining Approach"
+    ],
+    "note": [
+      "*arXiv preprint arXiv:1907.11692.*"
+    ],
+    "arxiv": [
+      "1907.11692"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Explores improvements over BERT with RoBERTa"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "author": [
+      {
+        "family": "Clark",
+        "given": "K."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2019",
+      "2019"
+    ],
+    "title": [
+      "What Does BERT Look at? An Analysis of BERT’s Attention"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "*EMNLP-IJCNLP"
+    ]
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Analyzes the attention mechanisms in BERT"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "author": [
+      {
+        "family": "Raffel",
+        "given": "C."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "title": [
+      "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer"
+    ],
+    "container-title": [
+      "*JMLR.*"
+    ],
+    "type": "chapter"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Discusses T5, a model that frames all NLP tasks as text-to-text problems"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "author": [
+      {
+        "family": "Lewis",
+        "given": "M."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2020",
+      "2020"
+    ],
+    "title": [
+      "BART: Denoising Sequence-to-Sequence Pre-training for Natural Language Generation, Translation, and Comprehension"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "*ACL"
+    ]
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Introduces BART, a model for text generation and comprehension"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "author": [
+      {
+        "family": "Lan",
+        "given": "Z."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2020",
+      "2020"
+    ],
+    "title": [
+      "ALBERT: A Lite BERT for Self-supervised Learning of Language Representations"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "*ICLR"
+    ]
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Proposes ALBERT, a more efficient version of BERT"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "author": [
+      {
+        "family": "Conneau",
+        "given": "A."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2020",
+      "2020"
+    ],
+    "title": [
+      "Unsupervised Cross-lingual Representation Learning at Scale"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "*ACL"
+    ]
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Discusses XLM-R, a model for cross-lingual understanding"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "author": [
+      {
+        "family": "Bommasani",
+        "given": "R."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2021"
+    ],
+    "title": [
+      "On the Opportunities and Risks of Foundation Models"
+    ],
+    "note": [
+      "*arXiv preprint arXiv:2108.07258.*"
+    ],
+    "arxiv": [
+      "2108.07258"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Explores the implications of large-scale models like GPT-3 and BERT"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "author": [
+      {
+        "family": "Ruder",
+        "given": "S."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2019",
+      "2019"
+    ],
+    "title": [
+      "Transfer Learning in Natural Language Processing"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "*NAACL"
+    ]
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Provides an overview of transfer learning techniques in NLP"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "author": [
+      {
+        "family": "Vaswani",
+        "given": "A."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "title": [
+      "Attention is All You Need"
+    ],
+    "container-title": [
+      "*NeurIPS 2017.*"
+    ],
+    "type": "chapter"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Introduces the transformer architecture, foundational for many modern NLP models"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "author": [
+      {
+        "family": "Kenton",
+        "given": "J.D.M.-W."
+      },
+      {
+        "family": "Toutanova",
+        "given": "L."
+      }
+    ],
+    "date": [
+      "2019",
+      "2019"
+    ],
+    "title": [
+      "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "*NAACL-HLT"
+    ]
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Discusses the impact of BERT on various NLP tasks"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "author": [
+      {
+        "family": "Yang",
+        "given": "Z."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2019",
+      "2019"
+    ],
+    "title": [
+      "XLNet: Generalized Autoregressive Pretraining for Language Understanding"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "*NeurIPS"
+    ]
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Introduces XLNet, which combines autoregressive and autoencoding approaches"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "author": [
+      {
+        "family": "Zhang",
+        "given": "Y."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2021"
+    ],
+    "title": [
+      "A Survey on Deep Learning for Named Entity Recognition"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "*IEEE Transactions on Knowledge and Data Engineering.*"
+    ]
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Reviews deep learning approaches for NER, a key NLP task"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "author": [
+      {
+        "family": "Rogers",
+        "given": "A."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "title": [
+      "A Primer in BERTology: What We Know About How BERT Works"
+    ],
+    "container-title": [
+      "*Transactions of the Association for Computational Linguistics.*"
+    ],
+    "type": "chapter"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Analyzes the inner workings and applications of BERT"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "author": [
+      {
+        "family": "Lample",
+        "given": "G."
+      },
+      {
+        "family": "Conneau",
+        "given": "A."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "title": [
+      "Cross-lingual Language Model Pretraining"
+    ],
+    "container-title": [
+      "*NeurIPS 2019.*"
+    ],
+    "type": "chapter"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Discusses cross-lingual pretraining techniques for multilingual NLP"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "These articles provide a comprehensive overview of meaning representation in NLP, covering both theoretical foundations and practical applications in various downstream tasks"
+    ],
+    "type": null
+  }
+]

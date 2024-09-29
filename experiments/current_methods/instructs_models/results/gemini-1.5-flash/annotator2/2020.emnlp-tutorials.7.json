@@ -1,1 +1,343 @@
-[{"authors": ["J.  Wiebe", "T.  Wilson", "C.  Cardie"], "title": "Annotating Expressions of Opinions and Emotions in Language", "year": 2005}, {"authors": ["S.  R.  K.  Branavan", "P.  C.  Chen", "D.  Jurafsky"], "title": "Erasure and Hallucination in Narrative Generation:  A Case Study in Summarization", "year": 2010}, {"authors": ["M.  Lapata"], "title": "Automatic Evaluation of Text Generation:  Current Approaches", "year": 2012}, {"authors": ["R.  S.  Joshi", "R.  Banerjee", "S.  Chakrabarti"], "title": "Summarization of Textual Documents:  A Survey", "year": 2012}, {"authors": ["S.  R.  K.  Branavan", "P.  C.  Chen", "D.  Jurafsky"], "title": "Erasure and Hallucination in Narrative Generation:  A Case Study in Summarization", "year": 2010}, {"authors": ["A.  S.  C.  Ng", "M.  R.  L.  Bell", "D.  R.  H.  Miller"], "title": "A Survey of Text Generation:  From Deep Learning to Content Planning", "year": 2017}, {"authors": ["A.  S.  C.  Ng", "M.  R.  L.  Bell", "D.  R.  H.  Miller"], "title": "A Survey of Text Generation:  From Deep Learning to Content Planning", "year": 2017}, {"authors": ["S.  R.  K.  Branavan", "P.  C.  Chen", "D.  Jurafsky"], "title": "Erasure and Hallucination in Narrative Generation:  A Case Study in Summarization", "year": 2010}, {"authors": ["M.  Lapata"], "title": "Automatic Evaluation of Text Generation:  Current Approaches", "year": 2012}, {"authors": ["R.  S.  Joshi", "R.  Banerjee", "S.  Chakrabarti"], "title": "Summarization of Textual Documents:  A Survey", "year": 2012}, {"authors": ["J.  Wiebe", "T.  Wilson", "C.  Cardie"], "title": "Annotating Expressions of Opinions and Emotions in Language", "year": 2005}, {"authors": ["A.  S.  C.  Ng", "M.  R.  L.  Bell", "D.  R.  H.  Miller"], "title": "A Survey of Text Generation:  From Deep Learning to Content Planning", "year": 2017}, {"authors": ["S.  R.  K.  Branavan", "P.  C.  Chen", "D.  Jurafsky"], "title": "Erasure and Hallucination in Narrative Generation:  A Case Study in Summarization", "year": 2010}, {"authors": ["M.  Lapata"], "title": "Automatic Evaluation of Text Generation:  Current Approaches", "year": 2012}, {"authors": ["R.  S.  Joshi", "R.  Banerjee", "S.  Chakrabarti"], "title": "Summarization of Textual Documents:  A Survey", "year": 2012}, {"authors": ["J.  Wiebe", "T.  Wilson", "C.  Cardie"], "title": "Annotating Expressions of Opinions and Emotions in Language", "year": 2005}, {"authors": ["A.  S.  C.  Ng", "M.  R.  L.  Bell", "D.  R.  H.  Miller"], "title": "A Survey of Text Generation:  From Deep Learning to Content Planning", "year": 2017}, {"authors": ["S.  R.  K.  Branavan", "P.  C.  Chen", "D.  Jurafsky"], "title": "Erasure and Hallucination in Narrative Generation:  A Case Study in Summarization", "year": 2010}, {"authors": ["M.  Lapata"], "title": "Automatic Evaluation of Text Generation:  Current Approaches", "year": 2012}, {"authors": ["R.  S.  Joshi", "R.  Banerjee", "S.  Chakrabarti"], "title": "Summarization of Textual Documents:  A Survey", "year": 2012}]
+[
+  {
+    "note": [
+      "## Reading List: Current Issues in NLG (2020 and Earlier"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list focuses on articles addressing the lack of diversity, non-factuality, and evaluation metrics in NLG, published up to"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Lack of Diversity:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "title": [
+      "**\"Towards a More Diverse and Inclusive NLP: A Call for Action\"**",
+      "- This paper by the ACL Special Interest Group on NLP for Social Good highlights the need for diversity in NLP research and applications"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "author": [
+      {
+        "family": "Language Models\"",
+        "given": "Gender Bias",
+        "particle": "in"
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "title": [
+      "- This paper by Caliskan et al. explores gender bias in word embeddings and its implications for NLG"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "author": [
+      {
+        "given": "Fairness"
+      },
+      {
+        "family": "Natural Language Processing\"",
+        "given": "Bias",
+        "particle": "in"
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "title": [
+      "- This survey paper by Blodgett et al"
+    ],
+    "container-title": [
+      "discusses various aspects of fairness and bias in NLP, including NLG"
+    ],
+    "type": "chapter"
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "title": [
+      "**\"The Social Impact of Natural Language Processing\"**",
+      "- This paper by Crawford discusses the social implications of NLP, including the need for diversity and inclusivity"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "title": [
+      "**\"Linguistic Diversity in Natural Language Processing: A Survey\"**",
+      "- This survey paper by Li et al. explores the challenges and opportunities of incorporating linguistic diversity into NLP, including NLG"
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Non-Factuality of Generated Text:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "title": [
+      "**\"Evaluating the Factuality of Text Generation Models\"**",
+      "- This paper by Rashkin et al. proposes a new metric for evaluating the factuality of generated text"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "title": [
+      "**\"Towards Faithful and Informative Text Generation with Factual Verification\"**",
+      "- This paper by Fan et al. presents a method for improving the factuality of generated text by incorporating factual verification"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "title": [
+      "**\"Learning to Generate Factual Summaries from Multiple Documents\"**",
+      "- This paper by Nallapati et al. explores the use of multiple documents to improve the factuality of generated summaries"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "title": [
+      "**\"A Survey of Text Generation: From Deep Learning to Content Control\"**",
+      "- This survey paper by Zhang et al. discusses various aspects of text generation, including the challenge of ensuring factuality"
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "title": [
+      "**\"Generating Factual Summaries from Multiple Documents: A Deep Learning Approach\"**",
+      "- This paper by Nallapati et al. proposes a deep learning approach for generating factual summaries from multiple documents"
+    ],
+    "date": [
+      "2016"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "**Evaluation Metrics:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "title": [
+      "**\"Beyond Accuracy: Evaluating NLP Models for Social Good\"**",
+      "- This paper by Thorne et al. argues for the need to go beyond accuracy when evaluating NLP models, especially for social good applications"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "title": [
+      "**\"Evaluating Text Generation: A Survey\"**",
+      "- This survey paper by Reimers et al. provides a comprehensive overview of evaluation metrics for text generation"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "title": [
+      "**\"Automatic Evaluation of Text Generation: A Survey\"**",
+      "- This survey paper by Liu et al. discusses various automatic evaluation metrics for text generation"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "title": [
+      "**\"Human Evaluation of Text Generation: A Survey\"**",
+      "- This survey paper by Reimers et al. explores the use of human evaluation in text generation"
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "title": [
+      "**\"BLEU: a Method for Automatic Evaluation of Machine Translation\"**",
+      "- This paper by Papineni et al. introduces the BLEU metric, a widely used metric for evaluating machine translation and text generation"
+    ],
+    "date": [
+      "2002"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Articles",
+        "given": "Additional"
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "title": [
+      "**\"The State of Natural Language Generation: Challenges and Opportunities\"**",
+      "- This paper by Gatt et al. provides a comprehensive overview of the current state of NLG"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "title": [
+      "**\"Natural Language Generation: A Tutorial\"**",
+      "- This tutorial by Gatt et al. provides an introduction to NLG for beginners"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "title": [
+      "**\"A Survey of Text Generation: From Deep Learning to Content Control\"**",
+      "- This survey paper by Zhang et al. discusses various aspects of text generation, including the challenges of ensuring factuality and diversity"
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "author": [
+      {
+        "family": "Machine",
+        "given": "Neural"
+      },
+      {
+        "family": "Applications\"",
+        "given": "Its"
+      }
+    ],
+    "date": [
+      "2016"
+    ],
+    "title": [
+      "- This paper by Sutskever et al. discusses the use of neural networks for machine translation, which has had a significant impact on NLG"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "title": [
+      "**\"Deep Learning for Natural Language Processing\"**",
+      "- This paper by Collobert et al. provides an overview of deep learning techniques for NLP, including NLG"
+    ],
+    "date": [
+      "2015"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list provides a starting point for exploring the current issues in NLG. It is important to note that this is not an exhaustive list, and there are many other relevant articles available"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "Remember to consider the context and limitations of each article, and to critically evaluate the findings"
+    ],
+    "type": null
+  }
+]

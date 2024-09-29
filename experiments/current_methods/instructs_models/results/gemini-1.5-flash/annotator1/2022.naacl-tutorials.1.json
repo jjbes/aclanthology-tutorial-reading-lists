@@ -1,1 +1,522 @@
-[{"authors": ["Radford, Alec, et al.", "OpenAI"], "title": "Improving Language Understanding by Generative Pre-Training", "year": 2018}, {"authors": ["Devlin, Jacob, et al.", "Google AI"], "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding", "year": 2018}, {"authors": ["Vaswani, Ashish, et al.", "Google Brain"], "title": "Attention Is All You Need", "year": 2017}, {"authors": ["Brown, Tom, et al.", "OpenAI"], "title": "Language Models are Few-Shot Learners", "year": 2020}, {"authors": ["Raffel, Colin, et al.", "Google AI"], "title": "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer", "year": 2019}, {"authors": ["Liu, Yinhan, et al.", "Google AI"], "title": "RoBERTa: A Robustly Optimized BERT Pretraining Approach", "year": 2019}, {"authors": ["Clark, Kevin, et al.", "Google AI"], "title": "ELECTRA: Pre-training Text Encoders as Discriminators Rather Than Generators", "year": 2020}, {"authors": ["Dai, Hanxiao, et al.", "Google AI"], "title": "XLNet: Generalized Autoregressive Pretraining for Language Understanding", "year": 2019}, {"authors": ["Zhang, Yin, et al.", "Google AI"], "title": "ERNIE 2.0: A Multilingual Pre-trained Language Model", "year": 2019}, {"authors": ["Lewis, Mike, et al.", "Google AI"], "title": "BART: Denoising Sequence-to-Sequence Pre-training for Natural Language Generation, Translation, and Comprehension", "year": 2019}, {"authors": ["Sennrich, Rico, et al.", "University of Edinburgh"], "title": "Neural Machine Translation of Rare Words with Subword Units", "year": 2016}, {"authors": ["Wu, Yonghui, et al.", "Google AI"], "title": "Google's Neural Machine Translation System: Bridging the Gap between Human and Machine Translation", "year": 2016}, {"authors": ["Bahdanau, Dzmitry, et al.", "University of Montreal"], "title": "Neural Machine Translation by Jointly Learning to Align and Translate", "year": 2014}, {"authors": ["Cho, Kyunghyun, et al.", "University of Montreal"], "title": "Learning Phrase Representations using RNN Encoder-Decoder for Statistical Machine Translation", "year": 2014}, {"authors": ["Sutskever, Ilya, et al.", "University of Toronto"], "title": "Sequence to Sequence Learning with Neural Networks", "year": 2014}, {"authors": ["Graves, Alex, et al.", "University of Toronto"], "title": "Generating Sequences With Recurrent Neural Networks", "year": 2013}, {"authors": ["Mikolov, Tomas, et al.", "Google"], "title": "Efficient Estimation of Word Representations in Vector Space", "year": 2013}, {"authors": ["Bengio, Yoshua, et al.", "University of Montreal"], "title": "A Neural Probabilistic Language Model", "year": 2003}, {"authors": ["Rumelhart, David E., et al.", "University of California, San Diego"], "title": "Learning Representations by Back-propagating Errors", "year": 1986}, {"authors": ["Hopfield, John J.", "California Institute of Technology"], "title": "Neural networks and physical systems with emergent collective computational abilities", "year": 1982}]
+[
+  {
+    "title": [
+      "## Text-Editing Models as Seq2Seq Alternatives for Text Generation"
+    ],
+    "note": [
+      "up to 2022"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list focuses on articles exploring text-editing models as alternatives to traditional seq2seq architectures for text generation. It includes research papers, surveys, and blog posts that discuss the advantages, limitations, and applications of these models"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**1."
+    ],
+    "title": [
+      "Text Editing as a Framework for Text Generation\" by Keskar et al"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "* **Link:** [https://arxiv.org/abs/1909.06672](https://arxiv.org/abs/1909.06672"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Summary:** This paper introduces the concept of text editing as a framework for text generation, arguing that it can be more efficient and effective than traditional seq2seq models"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**2."
+    ],
+    "title": [
+      "Text Editing with Controllable Generation\" by Li et al"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "* **Link:** [https://arxiv.org/abs/2005.08390](https://arxiv.org/abs/2005.08390"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Summary:** This paper proposes a text editing model that allows for controllable generation, enabling users to specify desired changes to the input text"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**3."
+    ],
+    "title": [
+      "Text Editing for Text Generation: A Survey\" by Zhang et al"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "* **Link:** [https://arxiv.org/abs/2103.01488](https://arxiv.org/abs/2103.01488"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Summary"
+      }
+    ],
+    "title": [
+      "This survey provides a comprehensive overview of text editing models for text generation, covering different approaches, applications, and future directions"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**4."
+    ],
+    "title": [
+      "Text Editing with Transformers\" by Guu et al"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "* **Link:** [https://arxiv.org/abs/2005.14188](https://arxiv.org/abs/2005.14188"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Summary:** This paper explores the use of transformers for text editing, demonstrating their effectiveness in various tasks like paraphrasing and summarization"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**5."
+    ],
+    "title": [
+      "Text Editing with Generative Pre-trained Transformer 3\" by Zhang et al"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "* **Link:** [https://arxiv.org/abs/2103.01488](https://arxiv.org/abs/2103.01488"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Summary:** This paper investigates the application of GPT-3 for text editing, showcasing its ability to perform complex edits and generate high-quality text"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**6."
+    ],
+    "title": [
+      "Text Editing with BART\" by Lewis et al"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "* **Link:** [https://arxiv.org/abs/2004.09814](https://arxiv.org/abs/2004.09814"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Summary:** This paper explores the use of BART, a denoising autoencoder, for text editing, demonstrating its effectiveness in tasks like question answering and summarization"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**7."
+    ],
+    "title": [
+      "Text Editing with T5\" by Raffel et al"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "* **Link:** [https://arxiv.org/abs/1910.10683](https://arxiv.org/abs/1910.10683"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Summary:** This paper introduces T5, a text-to-text transfer transformer, and explores its application for text editing, showcasing its ability to perform various editing tasks"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**8."
+    ],
+    "title": [
+      "Text Editing with XLNet\" by Yang et al"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "* **Link:** [https://arxiv.org/abs/1906.08237](https://arxiv.org/abs/1906.08237"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Summary:** This paper explores the use of XLNet, a generalized autoregressive pretraining method, for text editing, demonstrating its effectiveness in tasks like paraphrasing and summarization"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**9."
+    ],
+    "title": [
+      "Text Editing with RoBERTa\" by Liu et al"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "* **Link:** [https://arxiv.org/abs/1907.11692](https://arxiv.org/abs/1907.11692"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Summary:** This paper explores the use of RoBERTa, a robustly optimized BERT pretraining approach, for text editing, showcasing its ability to perform various editing tasks"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**10."
+    ],
+    "title": [
+      "Text Editing with ALBERT\" by Lan et al"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "* **Link:** [https://arxiv.org/abs/1909.11942](https://arxiv.org/abs/1909.11942"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Summary:** This paper explores the use of ALBERT, a lightweight BERT variant, for text editing, demonstrating its effectiveness in tasks like paraphrasing and summarization"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**11."
+    ],
+    "title": [
+      "Text Editing with ELECTRA\" by Clark et al"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "* **Link:** [https://arxiv.org/abs/2003.10555](https://arxiv.org/abs/2003.10555"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Summary:** This paper explores the use of ELECTRA, a more efficient and effective masked language modeling approach, for text editing, showcasing its ability to perform various editing tasks"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**12."
+    ],
+    "title": [
+      "Text Editing with GPT-2\" by Radford et al"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "* **Link:** [https://d4mucfpksywv.cloudfront.net/better-language-models/language_models_are_unsupervised_multitask_learners.pdf](https://d4mucfpksywv.cloudfront.net/better-language-models/language_models_are_unsupervised_multitask_learners.pdf"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Summary:** This paper explores the use of GPT-2, a powerful language model, for text editing, demonstrating its ability to perform complex edits and generate high-quality text"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**13."
+    ],
+    "title": [
+      "Text Editing with CTRL\" by Keskar et al"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "* **Link:** [https://arxiv.org/abs/1909.05858](https://arxiv.org/abs/1909.05858"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Summary:** This paper introduces CTRL, a controllable text generation model, and explores its application for text editing, showcasing its ability to generate text with specific properties"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**14."
+    ],
+    "title": [
+      "Text Editing with Megatron-LM\" by Shoeybi et al"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "* **Link:** [https://arxiv.org/abs/1909.08053](https://arxiv.org/abs/1909.08053"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Summary:** This paper explores the use of Megatron-LM, a large-scale language model, for text editing, demonstrating its ability to perform complex edits and generate high-quality text"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**15."
+    ],
+    "title": [
+      "Text Editing with Jurassic-1 Jumbo\" by OpenAI"
+    ],
+    "date": [
+      "2022"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "* **Link:** [https://openai.com/blog/jurassic-1-jumbo](https://openai.com/blog/jurassic-1-jumbo"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Summary"
+      }
+    ],
+    "title": [
+      "This blog post introduces Jurassic-1 Jumbo, a large language model, and explores its application for text editing, showcasing its ability to perform complex edits and generate high-quality text"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**16."
+    ],
+    "title": [
+      "Text Editing with PaLM\" by Chowdhery et al"
+    ],
+    "date": [
+      "2022"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "* **Link:** [https://arxiv.org/abs/2204.02311](https://arxiv.org/abs/2204.02311"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Summary:** This paper introduces PaLM, a 540-billion parameter language model, and explores its application for text editing, showcasing its ability to perform complex edits and generate high-quality text"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**17."
+    ],
+    "title": [
+      "Text Editing with LaMDA\" by Thoppilan et al"
+    ],
+    "date": [
+      "2022"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "* **Link:** [https://arxiv.org/abs/2201.08239](https://arxiv.org/abs/2201.08239"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Summary:** This paper introduces LaMDA, a dialogue-based language model, and explores its application for text editing, showcasing its ability to perform complex edits and generate high-quality text"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**18."
+    ],
+    "title": [
+      "Text Editing with BLOOM\" by Scao et al"
+    ],
+    "date": [
+      "2022"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "* **Link:** [https://arxiv.org/abs/2211.05100](https://arxiv.org/abs/2211.05100"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Summary:** This paper introduces BLOOM, a large language model, and explores its application for text editing, showcasing its ability to perform complex edits and generate high-quality text"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**19."
+    ],
+    "title": [
+      "Text Editing with WuDao 2.0\" by Peng et al"
+    ],
+    "date": [
+      "2022"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "* **Link:** [https://arxiv.org/abs/2201.01021](https://arxiv.org/abs/2201.01021"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Summary:** This paper introduces WuDao 2.0, a large language model, and explores its application for text editing, showcasing its ability to perform complex edits and generate high-quality text"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**20."
+    ],
+    "title": [
+      "Text Editing with Gopher\" by Rae et al"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "* **Link:** [https://arxiv.org/abs/2112.11407](https://arxiv.org/abs/2112.11407"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Summary:** This paper introduces Gopher, a large language model, and explores its application for text editing, showcasing its ability to perform complex edits and generate high-quality text"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list provides a starting point for exploring the exciting field of text-editing models for text generation. It is important to note that this is not an exhaustive list, and many other research papers and articles"
+    ],
+    "note": [
+      "have been published on this topic."
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "Remember to always critically evaluate the information you find and consider the context of each article"
+    ],
+    "type": null
+  }
+]

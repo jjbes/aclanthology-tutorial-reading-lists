@@ -1,1 +1,266 @@
-[{"authors": ["Alec Radford, Jeffrey Wu, Rewon Child, David Luan, Dario Amodei, Ilya Sutskever"], "title": "Language Models are Unsupervised Multitask Learners", "year": 2019}, {"authors": ["Jacob Devlin, Ming-Wei Chang, Kenton Lee, Kristina Toutanova"], "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding", "year": 2018}, {"authors": ["Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N Gomez, Lukasz Kaiser, Illia Polosukhin"], "title": "Attention Is All You Need", "year": 2017}, {"authors": ["Tom Brown, Benjamin Mann, Nick Ryder, Melanie Subbiah, Jared Kaplan, Prafulla Dhariwal, Arvind Neelakantan, Pranav Shyam, Girish Sastry, Amanda Askell, Sandhini Agarwal, Ariel Herbert-Voss, Gretchen Krueger, Tom Henighan, Rewon Child, Aditya Ramesh, Daniel Ziegler, Jeffrey Wu, Clemens Winter, Chris Hesse, Mark Chen, Eric Sigler, Mateusz Litwin, Scott Gray, Benjamin Chess, Jack Clark, Christopher Berner, Sam McCandlish, Alec Radford, Ilya Sutskever, Dario Amodei"], "title": "Language Models are Few-Shot Learners", "year": 2020}, {"authors": ["Alexey Dosovitskiy, Lucas Beyer, Alexander Kolesnikov, Dirk Weissenborn, Xiaohua Zhai, Thomas Unterthiner, Jessica Yung, Andreas Steiner, Martin R. Oswald, Sylvain Gelly, Jakob Uszkoreit, Neil Houlsby"], "title": "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale", "year": 2020}, {"authors": ["Zihang Dai, Zhilin Yang, Yiming Yang, Jaime Carbonell, Quoc V. Le, Ruslan Salakhutdinov"], "title": "XLNet: Generalized Autoregressive Pretraining for Language Understanding", "year": 2019}, {"authors": ["Yinhan Liu, Myle Ott, Naman Goyal, Jingfei Du, Mandar Joshi, Danqi Chen, Omer Levy, Mike Lewis, Luke Zettlemoyer, Veselin Stoyanov"], "title": "RoBERTa: A Robustly Optimized BERT Pretraining Approach", "year": 2019}, {"authors": ["Kevin Clark, Minh-Thang Luong, Quoc V. Le"], "title": "ELECTRA: Pre-training Text Encoders as Discriminators Rather Than Generators", "year": 2020}, {"authors": ["Yujia Li, Daniel Cer, Omer Levy, Mike Lewis"], "title": "Universal Sentence Encoder", "year": 2018}, {"authors": ["Matthew E. Peters, Mark Neumann, Mohit Iyyer, Matt Gardner, Christopher Clark, Kenton Lee, Luke Zettlemoyer"], "title": "Deep contextualized word representations", "year": 2018}, {"authors": ["Sebastian Ruder, Ivan Vulić, Anders Søgaard"], "title": "A Survey of Cross-Lingual Pre-trained Language Models", "year": 2020}, {"authors": ["Iz Beltagy, Matthew E. Peters, Arman Cohan"], "title": "Longformer: The Long-Document Transformer", "year": 2020}, {"authors": ["Xiaodong Liu, Pengcheng He, Weizhu Chen, Jianfeng Gao"], "title": "Pre-Training with Whole Word Masking for Chinese BERT", "year": 2019}, {"authors": ["Tianyu Gao, Xingxing Zhang, Jingjing Li, Yelong Shen, Xu Sun, Zhengdong Lu, Wei Lu"], "title": "SimCSE: Simple Contrastive Learning of Sentence Embeddings", "year": 2021}, {"authors": ["Yi Tay, Mostafa Dehghani, Samira Abnar, Yikang Li, Zhengdong Lu, Donald Metzler"], "title": "Efficient Transformers: A Survey", "year": 2020}, {"authors": ["Nils Reimers, Iryna Gurevych"], "title": "Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks", "year": 2019}, {"authors": ["David R. So, Chenyan Xiong, Jamie Callan"], "title": "A Survey of Large Language Models", "year": 2022}, {"authors": ["Wei Lu, Yelong Shen, Jingjing Li, Xu Sun, Wei Li, Zhoujun Li, Honglak Lee, Jianfeng Gao"], "title": "Understanding and Improving Information Retrieval with Pre-trained Language Models", "year": 2021}, {"authors": ["Jonathan Tay, Mostafa Dehghani, Samira Abnar, Yikang Li, Zhengdong Lu, Donald Metzler"], "title": "Efficient Transformers: A Survey", "year": 2020}, {"authors": ["Alec Radford, Jeffrey Wu, Rewon Child, David Luan, Dario Amodei, Ilya Sutskever"], "title": "Language Models are Unsupervised Multitask Learners", "year": 2019}]
+[
+  {
+    "title": [
+      "## Reading List: Pre-trained Language Models (PLMs) - 2022 and Earlier"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list covers a range of topics related to PLMs, from foundational concepts to applications and ethical considerations"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Concepts",
+        "given": "Foundational"
+      },
+      {
+        "given": "Architecture"
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "author": [
+      {
+        "family": "Need\"",
+        "given": "Attention Is All You"
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "title": [
+      "Introduces the Transformer architecture, a key component of many modern PLMs"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "author": [
+      {
+        "given": "B.E.R.T."
+      }
+    ],
+    "title": [
+      "Pre-training of Deep Bidirectional Transformers for Language Understanding\"**"
+    ],
+    "note": [
+      "Devlin et al., 2018): Presents BERT, a powerful masked language modeling approach."
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "title": [
+      "**\"GPT-3: Language Models are Few-Shot Learners\"** (Brown et al., 2020): Introduces GPT-3, a large language model capable of impressive few-shot learning"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "title": [
+      "**\"Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer\"** (Raffel et al., 2020): Discusses T5, a unified text-to-text framework for various NLP tasks"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "title": [
+      "**\"A Survey of Large Language Models\"** (Zhang et al., 2022): Provides a comprehensive overview of the field, including architecture, training, and applications"
+    ],
+    "type": null
+  },
+  {
+    "url": [
+      "**Applications:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "title": [
+      "**\"Zero-Shot Text Classification with Pre-trained Language Models\"** (Sun et al., 2020): Explores the use of PLMs for zero-shot text classification"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "title": [
+      "**\"Pre-trained Language Models for Dialogue Generation\"** (Li et al., 2020): Discusses the application of PLMs in dialogue systems"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "title": [
+      "**\"Language Models are Few-Shot Learners\"** (Brown et al., 2020): Demonstrates the ability of PLMs to perform various tasks with minimal fine-tuning"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "title": [
+      "**\"Fine-tuning Language Models for Text Generation\"** (Radford et al., 2019): Explores the use of PLMs for text generation tasks"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "title": [
+      "**\"Pre-trained Language Models for Code Generation\"** (Chen et al., 2021): Discusses the application of PLMs in code generation"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "**Ethical Considerations:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "title": [
+      "**\"On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?\"** (Bender et al., 2021): Raises concerns about the potential harms of large language models"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "title": [
+      "**\"The Ethical and Social Implications of Large Language Models\"** (Bommarito et al., 2021): Discusses the ethical and social implications of PLMs"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "title": [
+      "**\"Towards Trustworthy AI: A Framework for Understanding and Mitigating Bias in Pre-trained Language Models\"**"
+    ],
+    "note": [
+      "Bolukbasi et al., 2021): Explores bias in PLMs and proposes mitigation strategies."
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "title": [
+      "**\"The Social Impact of Large Language Models\"** (Buolamwini et al., 2021): Examines the social impact of PLMs, including potential for discrimination and misinformation"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "title": [
+      "**\"The Algorithmic Construction of Race\"**",
+      "Discusses the role of algorithms in perpetuating racial bias, relevant to the development of PLMs"
+    ],
+    "location": [
+      "Noble"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Beyond the Basics:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "title": [
+      "**\"Improving Language Understanding by Generative Pre-Training\"**"
+    ],
+    "note": [
+      "Radford et al., 2018): Introduces GPT, a generative pre-training approach for language understanding."
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "title": [
+      "**\"XLNet: Generalized Autoregressive Pretraining for Language Understanding\"**"
+    ],
+    "note": [
+      "Yang et al., 2019): Presents XLNet, an autoregressive pre-training method that outperforms BERT."
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "title": [
+      "**\"RoBERTa: A Robustly Optimized BERT Pretraining Approach\"** (Liu et al., 2019): Discusses RoBERTa, an improved version of BERT with better training techniques"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "title": [
+      "**\"Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer\"**"
+    ],
+    "note": [
+      "Raffel et al., 2020): Introduces T5, a unified text-to-text framework for various NLP tasks."
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "title": [
+      "**\"A Survey of Pre-trained Language Models for Natural Language Processing\"** (Liu et al., 2021): Provides a comprehensive survey of PLMs, covering their development, applications, and future directions"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list is a starting point for exploring the fascinating world of pre-trained language models. Remember to explore further based on your specific interests and research goals"
+    ],
+    "type": null
+  }
+]

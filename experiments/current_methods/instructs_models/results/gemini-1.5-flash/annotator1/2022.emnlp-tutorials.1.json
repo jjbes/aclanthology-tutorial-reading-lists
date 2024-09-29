@@ -1,1 +1,439 @@
-[{"authors": ["Jurafsky, D.", "Martin, J. H."],"title": "Speech and Language Processing", "year": 2000}, {"authors": ["Jackendoff, R."],"title": "Foundations of Language", "year": 2002}, {"authors": ["Partee, B. H."],"title": "Compositionality", "year": 2004}, {"authors": ["Montague, R."],"title": "Formal Philosophy: Selected Papers of Richard Montague", "year": 2008}, {"authors": ["Dowty, D. R."],"title": "Word Meaning and Montague Grammar: The Semantics of Verbs and Times in Generative Semantics and in Montague's PTQ", "year": 2010}, {"authors": ["Kamp, H."],"title": "A Theory of Truth and Semantic Representation", "year": 2011}, {"authors": ["Heim, I."],"title": "The Semantics of Definite and Indefinite Noun Phrases", "year": 2012}, {"authors": ["Barwise, J."],"title": "The Situation in Logic", "year": 2013}, {"authors": ["Cooper, R."],"title": "Quantification and Syntactic Theory", "year": 2014}, {"authors": ["van Benthem, J."],"title": "Logical Dynamics of Information and Interaction", "year": 2015}, {"authors": ["Keenan, E. L."],"title": "Semantic Theory", "year": 2016}, {"authors": ["Chierchia, G."],"title": "Meaning and Grammar: An Introduction to Semantics", "year": 2017}, {"authors": ["Pollard, C."],"title": "Head-Driven Phrase Structure Grammar", "year": 2018}, {"authors": ["Sag, I. A."],"title": "Semantic Interpretation in Generative Grammar", "year": 2019}, {"authors": ["Szabolcsi, A."],"title": "The Semantics of Focus", "year": 2020}, {"authors": ["von Fintel, K."],"title": "Intensional Semantics", "year": 2021}, {"authors": ["Winter, Y."],"title": "Understanding Semantics", "year": 2022}, {"authors": ["Lascarides, A."],"title": "The Logic of Commonsense Reasoning", "year": 2022}, {"authors": ["Grice, H. P."],"title": "Logic and Conversation", "year": 2022}, {"authors": ["Sperber, D."],"title": "Relevance: Communication and Cognition", "year": 2022}]
+[
+  {
+    "title": [
+      "## Meaning Representation in Natural Languages: A Reading List (2022 and Earlier"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list covers a range of topics within meaning representation, from foundational theories to recent advancements in computational linguistics. It includes both classic and contemporary works, aiming to provide a diverse and informative overview"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "**Foundational Theories:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "author": [
+      {
+        "family": "Montague",
+        "given": "R."
+      }
+    ],
+    "date": [
+      "1970"
+    ],
+    "title": [
+      "Universal grammar",
+      "- Introduces Montague Grammar, a formal system for representing meaning in natural language"
+    ],
+    "volume": [
+      "36"
+    ],
+    "pages": [
+      "373–398"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "Theoria"
+    ],
+    "issue": [
+      "1"
+    ]
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "author": [
+      {
+        "family": "Dowty",
+        "given": "D.R."
+      }
+    ],
+    "date": [
+      "1979"
+    ],
+    "title": [
+      "Word meaning and Montague grammar: The semantics of verbs and times in generative semantics and in Montague's PTQ.** - Explores the relationship between word meaning and formal semantics"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "author": [
+      {
+        "family": "Karttunen",
+        "given": "L."
+      }
+    ],
+    "date": [
+      "1973"
+    ],
+    "title": [
+      "Presuppositions of compound sentences.** - Discusses the role of presuppositions in sentence meaning"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "author": [
+      {
+        "family": "Heim",
+        "given": "I."
+      }
+    ],
+    "date": [
+      "1982"
+    ],
+    "title": [
+      "The semantics of definite and indefinite noun phrases.** - Examines the semantics of noun phrases and their role in meaning representation"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "author": [
+      {
+        "family": "Parsons",
+        "given": "T."
+      }
+    ],
+    "date": [
+      "1990"
+    ],
+    "title": [
+      "Events in the semantics of English: A study in subatomic semantics.** - Introduces the notion of events as fundamental units of meaning"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "**Computational Approaches:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "author": [
+      {
+        "family": "Jurafsky",
+        "given": "D."
+      },
+      {
+        "family": "Martin",
+        "given": "J.H."
+      }
+    ],
+    "date": [
+      "2000"
+    ],
+    "title": [
+      "Speech and language processing: An introduction to natural language processing, computational linguistics, and speech recognition.** - A comprehensive introduction to computational linguistics, including meaning representation"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "author": [
+      {
+        "family": "Allen",
+        "given": "J."
+      }
+    ],
+    "date": [
+      "1995"
+    ],
+    "title": [
+      "Natural language understanding.** - Covers various aspects of natural language understanding, including meaning representation"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "author": [
+      {
+        "family": "Barwise",
+        "given": "J."
+      },
+      {
+        "family": "Perry",
+        "given": "J."
+      }
+    ],
+    "date": [
+      "1983"
+    ],
+    "title": [
+      "Situations and attitudes.** - Introduces situation semantics, a framework for representing meaning based on situations and their properties"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "author": [
+      {
+        "family": "Hobbs",
+        "given": "J.R."
+      }
+    ],
+    "date": [
+      "1985"
+    ],
+    "title": [
+      "Ontological promiscuity.** - Discusses the challenges of representing meaning in a way that is flexible and adaptable to different domains"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "author": [
+      {
+        "family": "McCawley",
+        "given": "J.D."
+      }
+    ],
+    "date": [
+      "1979"
+    ],
+    "title": [
+      "Everything that linguists have always known about syntax is wrong.** - A critical analysis of traditional syntactic theories and their limitations in capturing meaning"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "**Recent Advancements:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "author": [
+      {
+        "family": "Bender",
+        "given": "E.M."
+      }
+    ],
+    "date": [
+      "2003"
+    ],
+    "title": [
+      "Linguistic typology and semantic universals.** - Explores the relationship between linguistic typology and semantic universals"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "author": [
+      {
+        "family": "Jackendoff",
+        "given": "R."
+      }
+    ],
+    "date": [
+      "2002"
+    ],
+    "title": [
+      "Foundations of language: Brain, meaning, grammar, evolution.** - Examines the cognitive foundations of language and meaning representation"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "author": [
+      {
+        "family": "Talmy",
+        "given": "L."
+      }
+    ],
+    "date": [
+      "2000"
+    ],
+    "title": [
+      "Toward a cognitive semantics.** - Introduces cognitive semantics, a framework that emphasizes the role of human cognition in meaning representation"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "author": [
+      {
+        "family": "Pustejovsky",
+        "given": "J."
+      }
+    ],
+    "date": [
+      "1995"
+    ],
+    "title": [
+      "The generative lexicon.** - Presents a theory of lexical semantics that emphasizes the role of generative processes in meaning representation"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "author": [
+      {
+        "family": "Nunberg",
+        "given": "G."
+      }
+    ],
+    "date": [
+      "1995"
+    ],
+    "title": [
+      "Transfers of meaning.** - Explores the phenomenon of meaning transfer and its implications for meaning representation"
+    ],
+    "type": null
+  },
+  {
+    "url": [
+      "**Applications:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "author": [
+      {
+        "family": "Hovy",
+        "given": "E.H."
+      }
+    ],
+    "date": [
+      "2003"
+    ],
+    "title": [
+      "Automated text summarization.** - Discusses the role of meaning representation in automated text summarization"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "author": [
+      {
+        "family": "Manning",
+        "given": "C.D."
+      },
+      {
+        "family": "Schütze",
+        "given": "H."
+      }
+    ],
+    "date": [
+      "1999"
+    ],
+    "title": [
+      "Foundations of statistical natural language processing.** - Introduces statistical methods for natural language processing, including meaning representation"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "author": [
+      {
+        "family": "Sowa",
+        "given": "J.F."
+      }
+    ],
+    "date": [
+      "2000"
+    ],
+    "title": [
+      "Knowledge representation: Logical, philosophical, and computational foundations.** - Explores the use of knowledge representation techniques for representing meaning"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "author": [
+      {
+        "family": "Russell",
+        "given": "S.J."
+      },
+      {
+        "family": "Norvig",
+        "given": "P."
+      }
+    ],
+    "date": [
+      "2003"
+    ],
+    "title": [
+      "Artificial intelligence: A modern approach.** - Covers the use of meaning representation in artificial intelligence"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "author": [
+      {
+        "family": "Levesque",
+        "given": "H.J."
+      }
+    ],
+    "date": [
+      "1984"
+    ],
+    "title": [
+      "Foundations of a functional approach to knowledge representation.** - Discusses the use of functional representations for knowledge representation and meaning"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list is not exhaustive, but it provides a starting point for exploring the fascinating field of meaning representation in natural languages"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Note:** This list includes articles published up to 2022. For more recent research, consider searching for articles on specific topics within meaning representation, such as semantic role labeling, dependency parsing, or distributional semantics"
+    ],
+    "type": null
+  }
+]

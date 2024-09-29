@@ -1,1 +1,349 @@
-[{"authors": ["M. Ben-Or, S. Goldwasser, and A. Wigderson"], "title": "Completeness theorems for non-cryptographic fault-tolerant distributed computation", "year": 1988}, {"authors": ["D. Chaum, C. Crépeau, and I. Damgård"], "title": "Multiparty unconditionally secure protocols", "year": 1988}, {"authors": ["O. Goldreich, S. Micali, and A. Wigderson"], "title": "How to play any mental game", "year": 1987}, {"authors": ["R. Canetti"], "title": "Universally composable security: A new paradigm for cryptographic protocols", "year": 2001}, {"authors": ["V. Shoup"], "title": "Practical threshold signatures", "year": 2000}, {"authors": ["P. D. MacKenzie and M. K. Reiter"], "title": "Two-party generation of RSA keys", "year": 2003}, {"authors": ["M. Burkhart, M. Strasser, D. Many, and X. Dimitropoulos"], "title": "Securing data in the cloud via multi-party computation", "year": 2013}, {"authors": ["A. C. Yao"], "title": "Protocols for secure computations", "year": 1982}, {"authors": ["D. Beaver"], "title": "Foundations for secure interactive computing", "year": 1991}, {"authors": ["R. Cramer, I. Damgård, and J. B. Nielsen"], "title": "Multiparty computation from threshold homomorphic encryption", "year": 2001}, {"authors": ["M. J. Atallah, M. Frikken, and M. A. Goodrich"], "title": "Private collaborative filtering using secure multi-party computation", "year": 2010}, {"authors": ["A. Shamir"], "title": "How to share a secret", "year": 1979}, {"authors": ["T. P. Pedersen"], "title": "Non-interactive and information-theoretic secure verifiable secret sharing", "year": 1991}, {"authors": ["R. Gennaro, M. O. Rabin, and T. Rabin"], "title": "Simplified VSS and fast-track multiparty computations with applications to threshold cryptography", "year": 1998}, {"authors": ["D. Boneh and M. Franklin"], "title": "Identity-based encryption from the Weil pairing", "year": 2001}, {"authors": ["J. Katz and N. Wang"], "title": "Efficient and secure multiparty computation using indistinguishability obfuscation", "year": 2014}, {"authors": ["B. Schoenmakers"], "title": "A simple publicly verifiable secret sharing scheme and its application to electronic voting", "year": 1999}, {"authors": ["M. Ben-Or, S. Goldwasser, and J. Kilian"], "title": "Perfectly secure message transmission", "year": 1988}, {"authors": ["C. Gentry"], "title": "Fully homomorphic encryption using ideal lattices", "year": 2009}, {"authors": ["I. Damgård, V. Pastro, N. Smart, and S. Zakarias"], "title": "Multiparty computation from somewhat homomorphic encryption", "year": 2012}]
+[
+  {
+    "author": [
+      {
+        "family": "List",
+        "given": "Multi-Party Computation Reading"
+      }
+    ],
+    "date": [
+      "2023"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list focuses on recent articles (up to 2023) covering various aspects of MPC, including its applications, security, and efficiency"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Introductions",
+        "given": "General"
+      },
+      {
+        "given": "Overviews"
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "title": [
+      "**Secure Multi-Party Computation: A Comprehensive Survey**",
+      "- A detailed survey of MPC, covering its history, techniques, applications, and future directions"
+    ],
+    "date": [
+      "2023"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "title": [
+      "**Multi-Party Computation: A Primer**",
+      "- A beginner-friendly introduction to MPC, explaining its core concepts and applications"
+    ],
+    "date": [
+      "2022"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "title": [
+      "**Secure Multi-Party Computation: A Tutorial**",
+      "- A tutorial on MPC, focusing on its theoretical foundations and practical implementations"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "url": [
+      "**Applications:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "title": [
+      "**Privacy-Preserving Machine Learning with Secure Multi-Party Computation**",
+      "- Discusses the use of MPC for secure machine learning, enabling collaborative training and inference without revealing private data"
+    ],
+    "date": [
+      "2023"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "title": [
+      "**MPC for Secure Data Analytics: A Survey**",
+      "- Explores the application of MPC in data analytics, allowing for secure computations on sensitive data"
+    ],
+    "date": [
+      "2022"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "title": [
+      "**Secure Multi-Party Computation for Blockchain: A Review**",
+      "- Examines the use of MPC in blockchain technology, enhancing privacy and security in decentralized systems"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "title": [
+      "**MPC for Secure Voting: A Comprehensive Overview**",
+      "- Discusses the application of MPC in secure and verifiable elections, ensuring privacy and integrity"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Security"
+      },
+      {
+        "given": "Privacy"
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "title": [
+      "**Security Analysis of Multi-Party Computation Protocols**",
+      "- Analyzes the security properties of MPC protocols, focusing on their resilience against various attacks"
+    ],
+    "date": [
+      "2023"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "title": [
+      "**Privacy-Preserving Data Sharing with Secure Multi-Party Computation**",
+      "- Explores how MPC enables secure data sharing while preserving privacy for individuals and organizations"
+    ],
+    "date": [
+      "2022"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "title": [
+      "**Differential Privacy in Secure Multi-Party Computation**",
+      "- Discusses the integration of differential privacy with MPC, further enhancing privacy guarantees"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Efficiency"
+      },
+      {
+        "given": "Performance"
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "title": [
+      "**Optimizing Secure Multi-Party Computation for Large-Scale Applications**",
+      "- Investigates techniques for improving the efficiency and scalability of MPC for real-world applications"
+    ],
+    "date": [
+      "2023"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "title": [
+      "**Efficient Secure Multi-Party Computation for Machine Learning**",
+      "- Focuses on optimizing MPC protocols for machine learning tasks, reducing computational overhead"
+    ],
+    "date": [
+      "2022"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "title": [
+      "**Hardware Acceleration for Secure Multi-Party Computation**",
+      "- Explores the use of specialized hardware to accelerate MPC computations, enhancing performance"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "container-title": [
+      "**Specific Techniques & Protocols:**"
+    ],
+    "type": "chapter"
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "title": [
+      "**Garbled Circuits: A Practical Approach to Secure Multi-Party Computation**",
+      "- Discusses the garbled circuit technique, a widely used approach for implementing MPC"
+    ],
+    "date": [
+      "2023"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "title": [
+      "**Homomorphic Encryption for Secure Multi-Party Computation**",
+      "- Explores the use of homomorphic encryption in MPC"
+    ],
+    "date": [
+      "2022"
+    ],
+    "note": [
+      "enabling computations on encrypted data."
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "title": [
+      "**Secret Sharing Schemes for Secure Multi-Party Computation**",
+      "- Examines different secret sharing schemes used in MPC, ensuring data security and privacy"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "publisher": [
+      "**Emerging Trends & Future Directions:**"
+    ],
+    "type": "book"
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "title": [
+      "**Federated Learning with Secure Multi-Party Computation**",
+      "- Explores the integration of MPC with federated learning, enabling collaborative model training while preserving data privacy"
+    ],
+    "date": [
+      "2023"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "author": [
+      {
+        "family": "Computation",
+        "given": "Quantum-Resistant Secure Multi-Party"
+      }
+    ],
+    "date": [
+      "2022"
+    ],
+    "title": [
+      "- Discusses the development of MPC protocols resistant to attacks from quantum computers"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "title": [
+      "**MPC for Privacy-Preserving Data Analysis in the Cloud**",
+      "- Examines the use of MPC for secure data analysis in cloud environments, ensuring privacy and security"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "title": [
+      "**The Future of Secure Multi-Party Computation**",
+      "- Discusses the potential impact of MPC on various fields and its future development"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Note:** This list is not exhaustive and represents a selection of recent articles. You can find more relevant articles by searching for specific keywords related to your interests on platforms like Google Scholar"
+    ],
+    "note": [
+      "arXiv, and ACM Digital Library."
+    ],
+    "type": null
+  }
+]

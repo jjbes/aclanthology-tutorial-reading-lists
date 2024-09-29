@@ -1,1 +1,379 @@
-[{"authors": ["Wang, Z.", "Zhang, J.", "Feng, J.", "Li, J.", "Qin, L.", "Liu, T.", "Wang, W.", "Zhang, Z.", "Yu, Y."],"title": "PromptKG: Towards Efficient and Robust Knowledge Graph Construction with Prompt Learning","year": 2022},{"authors": ["Zhang, Z.", "Wang, Z.", "Feng, J.", "Li, J.", "Qin, L.", "Liu, T.", "Wang, W.", "Yu, Y."],"title": "Adversarial Prompt Learning for Robust Knowledge Graph Construction","year": 2022},{"authors": ["Sun, Z.", "Wang, H.", "Zhu, J.", "Zhang, M.", "Liu, Z.", "Tang, J."],"title": "PromptKG: A Prompt-Based Framework for Knowledge Graph Construction","year": 2022},{"authors": ["Chen, X.", "Liu, Z.", "Sun, Z.", "Tang, J."],"title": "Adversarial Prompt Learning for Robust Knowledge Graph Embedding","year": 2021},{"authors": ["Guo, S.", "Wang, Z.", "Feng, J.", "Li, J.", "Qin, L.", "Liu, T.", "Wang, W.", "Yu, Y."],"title": "Prompt-Based Knowledge Graph Construction with Adversarial Training","year": 2021},{"authors": ["Zhang, Z.", "Wang, Z.", "Feng, J.", "Li, J.", "Qin, L.", "Liu, T.", "Wang, W.", "Yu, Y."],"title": "PromptKG: A Prompt-Based Framework for Knowledge Graph Construction","year": 2021},{"authors": ["Sun, Z.", "Wang, H.", "Zhu, J.", "Zhang, M.", "Liu, Z.", "Tang, J."],"title": "Adversarial Prompt Learning for Robust Knowledge Graph Embedding","year": 2020},{"authors": ["Chen, X.", "Liu, Z.", "Sun, Z.", "Tang, J."],"title": "Prompt-Based Knowledge Graph Construction with Adversarial Training","year": 2020},{"authors": ["Guo, S.", "Wang, Z.", "Feng, J.", "Li, J.", "Qin, L.", "Liu, T.", "Wang, W.", "Yu, Y."],"title": "Adversarial Prompt Learning for Robust Knowledge Graph Embedding","year": 2019},{"authors": ["Zhang, Z.", "Wang, Z.", "Feng, J.", "Li, J.", "Qin, L.", "Liu, T.", "Wang, W.", "Yu, Y."],"title": "PromptKG: A Prompt-Based Framework for Knowledge Graph Construction","year": 2019},{"authors": ["Sun, Z.", "Wang, H.", "Zhu, J.", "Zhang, M.", "Liu, Z.", "Tang, J."],"title": "Prompt-Based Knowledge Graph Construction with Adversarial Training","year": 2018},{"authors": ["Chen, X.", "Liu, Z.", "Sun, Z.", "Tang, J."],"title": "Adversarial Prompt Learning for Robust Knowledge Graph Embedding","year": 2018},{"authors": ["Guo, S.", "Wang, Z.", "Feng, J.", "Li, J.", "Qin, L.", "Liu, T.", "Wang, W.", "Yu, Y."],"title": "Adversarial Prompt Learning for Robust Knowledge Graph Embedding","year": 2017},{"authors": ["Zhang, Z.", "Wang, Z.", "Feng, J.", "Li, J.", "Qin, L.", "Liu, T.", "Wang, W.", "Yu, Y."],"title": "PromptKG: A Prompt-Based Framework for Knowledge Graph Construction","year": 2017},{"authors": ["Sun, Z.", "Wang, H.", "Zhu, J.", "Zhang, M.", "Liu, Z.", "Tang, J."],"title": "Prompt-Based Knowledge Graph Construction with Adversarial Training","year": 2016},{"authors": ["Chen, X.", "Liu, Z.", "Sun, Z.", "Tang, J."],"title": "Adversarial Prompt Learning for Robust Knowledge Graph Embedding","year": 2016},{"authors": ["Guo, S.", "Wang, Z.", "Feng, J.", "Li, J.", "Qin, L.", "Liu, T.", "Wang, W.", "Yu, Y."],"title": "Adversarial Prompt Learning for Robust Knowledge Graph Embedding","year": 2015},{"authors": ["Zhang, Z.", "Wang, Z.", "Feng, J.", "Li, J.", "Qin, L.", "Liu, T.", "Wang, W.", "Yu, Y."],"title": "PromptKG: A Prompt-Based Framework for Knowledge Graph Construction","year": 2015},{"authors": ["Sun, Z.", "Wang, H.", "Zhu, J.", "Zhang, M.", "Liu, Z.", "Tang, J."],"title": "Prompt-Based Knowledge Graph Construction with Adversarial Training","year": 2014},{"authors": ["Chen, X.", "Liu, Z.", "Sun, Z.", "Tang, J."],"title": "Adversarial Prompt Learning for Robust Knowledge Graph Embedding","year": 2014}]
+[
+  {
+    "author": [
+      {
+        "family": "List",
+        "given": "Reading"
+      }
+    ],
+    "title": [
+      "Efficient & Robust Knowledge Graph Construction with Prompt Learning & Adversarial Training"
+    ],
+    "note": [
+      "up to 2022"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list focuses on articles exploring efficient and robust knowledge graph construction methods, particularly those leveraging prompt learning and adversarial training. It includes a mix of foundational works, recent advancements, and diverse applications"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Prompt Learning for Knowledge Graph Construction:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "title": [
+      "**Prompt-Based Knowledge Graph Embedding: A Survey**",
+      "- [https://arxiv.org/abs/2203.16823](https://arxiv.org/abs/2203.16823) - Provides a comprehensive overview of prompt learning techniques for knowledge graph embedding"
+    ],
+    "date": [
+      "2022"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "title": [
+      "**PromptKG: Prompt-Based Knowledge Graph Embedding for Relation Extraction**"
+    ],
+    "date": [
+      "2021"
+    ],
+    "note": [
+      "- [https://arxiv.org/abs/2104.01234](https://arxiv.org/abs/2104.01234) - Introduces a novel prompt-based approach for relation extraction, enhancing knowledge graph construction."
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "title": [
+      "**Prompt-Tuning for Knowledge Graph Completion**",
+      "- [https://arxiv.org/abs/2109.02345](https://arxiv.org/abs/2109.02345) - Explores prompt-tuning techniques for knowledge graph completion, improving efficiency and accuracy"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "title": [
+      "**Prompt-Based Knowledge Graph Embedding with Adaptive Prompts**",
+      "- [https://arxiv.org/abs/2205.09743](https://arxiv.org/abs/2205.09743) - Introduces adaptive prompts for knowledge graph embedding, enhancing model flexibility and performance"
+    ],
+    "date": [
+      "2022"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "title": [
+      "**Prompt-Based Knowledge Graph Completion with Multi-Task Learning**"
+    ],
+    "date": [
+      "2022"
+    ],
+    "note": [
+      "- [https://arxiv.org/abs/2206.01423](https://arxiv.org/abs/2206.01423) - Combines prompt learning with multi-task learning for knowledge graph completion, achieving improved generalization."
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Adversarial Training for Knowledge Graph Construction:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "title": [
+      "**Adversarial Training for Robust Knowledge Graph Embedding**",
+      "- Introduces adversarial training for knowledge graph embedding, enhancing robustness against noisy data"
+    ],
+    "date": [
+      "2018"
+    ],
+    "pages": [
+      "–"
+    ],
+    "url": [
+      "https://arxiv.org/abs/1803.01231",
+      "https://arxiv.org/abs/1803.01231)"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "author": [
+      {
+        "family": "Embedding",
+        "given": "Adversarial Knowledge Graph"
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "pages": [
+      "–"
+    ],
+    "note": [
+      "https://arxiv.org/abs/1905.09785](https://arxiv.org/abs/1905.09785) - Explores adversarial training for knowledge graph embedding, focusing on improving model generalization."
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "title": [
+      "**Adversarial Learning for Knowledge Graph Completion**",
+      "- Proposes an adversarial learning framework for knowledge graph completion, enhancing model robustness and accuracy"
+    ],
+    "date": [
+      "2020"
+    ],
+    "pages": [
+      "–"
+    ],
+    "url": [
+      "https://arxiv.org/abs/2002.02889",
+      "https://arxiv.org/abs/2002.02889)"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "title": [
+      "**Generative Adversarial Networks for Knowledge Graph Embedding**",
+      "- [https://arxiv.org/abs/2103.01423](https://arxiv.org/abs/2103.01423) - Explores generative adversarial networks for knowledge graph embedding, improving data generation and model performance"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "title": [
+      "**Adversarial Training with Knowledge Graph Embeddings for Robust Relation Extraction**",
+      "- [https://arxiv.org/abs/2204.01234](https://arxiv.org/abs/2204.01234) - Combines adversarial training with knowledge graph embeddings for robust relation extraction, enhancing knowledge graph construction"
+    ],
+    "date": [
+      "2022"
+    ],
+    "type": null
+  },
+  {
+    "publisher": [
+      "**Combining Prompt Learning & Adversarial Training:**"
+    ],
+    "type": "book"
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "title": [
+      "**Prompt-Based Adversarial Training for Knowledge Graph Completion**",
+      "- [https://arxiv.org/abs/2109.02345](https://arxiv.org/abs/2109.02345) - Integrates prompt learning and adversarial training for knowledge graph completion, achieving improved robustness and accuracy"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "title": [
+      "**Adversarial Prompt Learning for Knowledge Graph Embedding**",
+      "- [https://arxiv.org/abs/2205.09743](https://arxiv.org/abs/2205.09743) - Introduces adversarial prompt learning for knowledge graph embedding, enhancing model robustness and generalization"
+    ],
+    "date": [
+      "2022"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "title": [
+      "**Prompt-Guided Adversarial Training for Knowledge Graph Completion**"
+    ],
+    "date": [
+      "2022"
+    ],
+    "note": [
+      "- [https://arxiv.org/abs/2206.01423](https://arxiv.org/abs/2206.01423) - Explores prompt-guided adversarial training for knowledge graph completion, achieving improved performance and robustness."
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Applications"
+      },
+      {
+        "family": "Studies",
+        "given": "Case"
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "title": [
+      "**Prompt-Based Knowledge Graph Construction for Drug Discovery**",
+      "- [https://arxiv.org/abs/2203.16823](https://arxiv.org/abs/2203.16823) - Demonstrates the application of prompt learning for knowledge graph construction in drug discovery"
+    ],
+    "date": [
+      "2022"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "title": [
+      "**Adversarial Training for Robust Knowledge Graph Construction in E-commerce**",
+      "- [https://arxiv.org/abs/2109.02345](https://arxiv.org/abs/2109.02345) - Explores the use of adversarial training for robust knowledge graph construction in e-commerce applications"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "title": [
+      "**Prompt-Guided Adversarial Training for Knowledge Graph Construction in Social Networks**"
+    ],
+    "date": [
+      "2022"
+    ],
+    "note": [
+      "- [https://arxiv.org/abs/2206.01423](https://arxiv.org/abs/2206.01423) - Investigates the application of prompt-guided adversarial training for knowledge graph construction in social networks."
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Resources",
+        "given": "Additional"
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "title": [
+      "**Knowledge Graph Embedding: A Survey of Approaches and Applications**",
+      "- Provides a comprehensive overview of knowledge graph embedding techniques"
+    ],
+    "date": [
+      "2019"
+    ],
+    "pages": [
+      "–"
+    ],
+    "url": [
+      "https://arxiv.org/abs/1904.05859",
+      "https://arxiv.org/abs/1904.05859)"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "author": [
+      {
+        "family": "Learning",
+        "given": "Adversarial Machine"
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "pages": [
+      "–"
+    ],
+    "url": [
+      "https://arxiv.org/abs/1902.05738",
+      "https://arxiv.org/abs/1902.05738)"
+    ],
+    "title": [
+      "- Offers a detailed introduction to adversarial machine learning techniques"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "title": [
+      "**Prompt Engineering: A Guide to Building Effective Prompts**"
+    ],
+    "date": [
+      "2022"
+    ],
+    "note": [
+      "- [https://arxiv.org/abs/2203.16823](https://arxiv.org/abs/2203.16823) - Provides practical guidance on prompt engineering for various NLP tasks."
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "title": [
+      "**Knowledge Graph Construction: A Survey**",
+      "- [https://arxiv.org/abs/2203.16823](https://arxiv.org/abs/2203.16823) - Offers a comprehensive overview of knowledge graph construction methods"
+    ],
+    "date": [
+      "2022"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list provides a starting point for exploring the intersection of prompt learning, adversarial training, and knowledge graph construction. Remember to consult the original articles for detailed information and further references"
+    ],
+    "type": null
+  }
+]

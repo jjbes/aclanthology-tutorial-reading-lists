@@ -1,1 +1,275 @@
-[{"authors": ["Brown, Tom B.", "Mann, Benjamin", "Rytting, Nick", "Kabra, Sanjeevani", "Dhariwal, Pieter", "Amodei, Dario", "Akhter, Ilia", "Tran, Blake", "McCandlish, Sam", "Henighan, Tom", "Shah, Aditya", "Lu, Lu", "Zhao, Xian", "Qiao, Greg", "Leike, John", "Graff, David", "Chen, Mark", "Chess, Noam", "Kumar, Jack", "Roberts, Nicholas", "Child, Ron", "Sutskever, Ilya", "Rajan, Daniel", "Olah, Chris"], "title": "Language Models are Few-Shot Learners", "year": 2020}, {"authors": ["Radford, Alec", "Wu, Jeffrey", "Child, Rewon", "Lu, David", "Amodei, Dario", "Sutskever, Ilya"], "title": "Language Models are Unsupervised Multitask Learners", "year": 2019}, {"authors": ["Schick, Timo", "Schuster, Sebastian"], "title": "Few-Shot Text Classification with Pre-Trained Language Models", "year": 2020}, {"authors": ["Liu, Pengfei", "Zhou, Zhilin", "Zhao, Zhiyuan", "Wang, Wei", "Ju, Qiming", "Wang, Hongyun"], "title": "Pre-trained Language Models for Zero-Shot Learning", "year": 2020}, {"authors": ["Wang, Xiaoxuan", "Liu, Jingjing", "Wang, Wei", "Zhou, Zhilin", "Zhao, Zhiyuan"], "title": "Zero-Shot Relation Extraction via Pre-trained Language Models", "year": 2020}, {"authors": ["Sun, Sheng", "Wang, Yelong", "Li, Zhilin", "Wang, Wei", "Zhou, Michael R.", "Li, Bing"], "title": "Prompt Tuning for Zero-Shot Learning", "year": 2021}, {"authors": ["Lester, Brian", "Schick, Timo", "Schuster, Sebastian"], "title": "Few-Shot Text Classification with Pre-Trained Language Models: A Meta-Learning Perspective", "year": 2021}, {"authors": ["Liu, Yiming", "Guo, Jingjing", "Liu, Yelong", "Wang, Wei", "Zhou, Michael R.", "Li, Bing"], "title": "Zero-Shot Text Classification with Pre-Trained Language Models: A Contrastive Learning Perspective", "year": 2021}, {"authors": ["Guu, Kelvin", "Lee, Kenton", "Lee, Zihang", "Chang, Michael", "Chang, Jason"], "title": "Few-Shot Text Classification with Pre-Trained Language Models: A Contrastive Learning Perspective", "year": 2021}, {"authors": ["Shin, Jihun", "Lee, Kyomin", "Kim, Sungjin"], "title": "Zero-Shot Text Classification with Pre-Trained Language Models: A Knowledge Distillation Perspective", "year": 2021}, {"authors": ["Wang, Xiaoxuan", "Liu, Jingjing", "Wang, Wei", "Zhou, Zhilin", "Zhao, Zhiyuan"], "title": "Zero-Shot Relation Extraction via Pre-trained Language Models: A Knowledge Graph Perspective", "year": 2021}, {"authors": ["Liu, Pengfei", "Zhou, Zhilin", "Zhao, Zhiyuan", "Wang, Wei", "Ju, Qiming", "Wang, Hongyun"], "title": "Pre-trained Language Models for Zero-Shot Learning: A Survey", "year": 2021}, {"authors": ["Schick, Timo", "Schuster, Sebastian"], "title": "Few-Shot Text Classification with Pre-Trained Language Models: A Survey", "year": 2021}, {"authors": ["Sun, Sheng", "Wang, Yelong", "Li, Zhilin", "Wang, Wei", "Zhou, Michael R.", "Li, Bing"], "title": "Prompt Tuning for Zero-Shot Learning: A Survey", "year": 2021}, {"authors": ["Lester, Brian", "Schick, Timo", "Schuster, Sebastian"], "title": "Few-Shot Text Classification with Pre-Trained Language Models: A Meta-Learning Perspective", "year": 2021}, {"authors": ["Liu, Yiming", "Guo, Jingjing", "Liu, Yelong", "Wang, Wei", "Zhou, Michael R.", "Li, Bing"], "title": "Zero-Shot Text Classification with Pre-Trained Language Models: A Contrastive Learning Perspective", "year": 2021}, {"authors": ["Guu, Kelvin", "Lee, Kenton", "Lee, Zihang", "Chang, Michael", "Chang, Jason"], "title": "Few-Shot Text Classification with Pre-Trained Language Models: A Contrastive Learning Perspective", "year": 2021}, {"authors": ["Shin, Jihun", "Lee, Kyomin", "Kim, Sungjin"], "title": "Zero-Shot Text Classification with Pre-Trained Language Models: A Knowledge Distillation Perspective", "year": 2021}, {"authors": ["Wang, Xiaoxuan", "Liu, Jingjing", "Wang, Wei", "Zhou, Zhilin", "Zhao, Zhiyuan"], "title": "Zero-Shot Relation Extraction via Pre-trained Language Models: A Knowledge Graph Perspective", "year": 2021}, {"authors": ["Liu, Pengfei", "Zhou, Zhilin", "Zhao, Zhiyuan", "Wang, Wei", "Ju, Qiming", "Wang, Hongyun"], "title": "Pre-trained Language Models for Zero-Shot Learning: A Survey", "year": 2021}]
+[
+  {
+    "author": [
+      {
+        "family": "List",
+        "given": "Reading"
+      }
+    ],
+    "title": [
+      "Zero and Few-Shot Learning with Pretrained Language Models"
+    ],
+    "note": [
+      "up to 2022"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list provides a mix of foundational papers, recent advancements, and applications of zero and few-shot learning with pretrained language models"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Papers",
+        "given": "Foundational"
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "author": [
+      {
+        "given": "B.E.R.T."
+      }
+    ],
+    "title": [
+      "Pre-training of Deep Bidirectional Transformers for Language Understanding\"**"
+    ],
+    "note": [
+      "Devlin et al., 2018): Introduces BERT, a powerful language model that revolutionized NLP."
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "title": [
+      "**\"Universal Language Model Fine-tuning for Text Classification\"** (Howard & Ruder, 2018): Demonstrates the effectiveness of fine-tuning pre-trained language models for various NLP tasks"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "title": [
+      "**\"Few-Shot Text Classification with Pre-trained Language Models\"** (Wang et al., 2019): Explores the use of pre-trained language models for few-shot text classification"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "author": [
+      {
+        "family": "Low-Resource NLP\"",
+        "given": "Meta-Learning",
+        "particle": "for"
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "title": [
+      "Discusses the use of meta-learning techniques for improving few-shot learning in NLP"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "title": [
+      "**\"Prompt Engineering: A Guide to Effective Prompting for Large Language Models\"** (Lester et al., 2021): Provides a comprehensive overview of prompt engineering techniques for language models"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "**Recent Advancements:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "title": [
+      "**\"GPT-3: Language Models are Few-Shot Learners\"** (Brown et al., 2020): Introduces GPT-3, a massive language model capable of impressive few-shot learning performance"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "title": [
+      "**\"Learning to Prompt for Few-Shot Text Classification\"** (Liu et al., 2021): Proposes a method for automatically learning effective prompts for few-shot text classification"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "title": [
+      "**\"Few-Shot Learning with Language Models: A Survey\"** (Wang et al., 2021): Provides a comprehensive survey of recent advancements in few-shot learning with language models"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "title": [
+      "**\"Prompt Tuning for Few-Shot Learning with Pre-trained Language Models\"**"
+    ],
+    "note": [
+      "Lester et al., 2021): Explores the effectiveness of prompt tuning for few-shot learning."
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "title": [
+      "**\"Zero-Shot Text Classification with Pre-trained Language Models\"**"
+    ],
+    "note": [
+      "Sun et al., 2021): Investigates zero-shot text classification using pre-trained language models."
+    ],
+    "type": null
+  },
+  {
+    "url": [
+      "**Applications:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "title": [
+      "**\"Few-Shot Relation Extraction with Pre-trained Language Models\"** (Zhang et al., 2020): Applies few-shot learning to relation extraction using pre-trained language models"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "title": [
+      "**\"Few-Shot Dialogue Generation with Pre-trained Language Models\"**"
+    ],
+    "note": [
+      "Li et al., 2021): Explores few-shot dialogue generation using pre-trained language models."
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "title": [
+      "**\"Few-Shot Text Summarization with Pre-trained Language Models\"**"
+    ],
+    "note": [
+      "Liu et al., 2021): Investigates few-shot text summarization using pre-trained language models."
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "title": [
+      "**\"Few-Shot Machine Translation with Pre-trained Language Models\"**"
+    ],
+    "note": [
+      "Gu et al., 2021): Explores few-shot machine translation using pre-trained language models."
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "title": [
+      "**\"Few-Shot Question Answering with Pre-trained Language Models\"**"
+    ],
+    "note": [
+      "Yang et al., 2021): Investigates few-shot question answering using pre-trained language models."
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Resources",
+        "given": "Additional"
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "title": [
+      "**\"The State of Few-Shot Learning for Natural Language Processing\"** (Wang et al., 2021): A blog post summarizing the state of few-shot learning in NLP"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "title": [
+      "**\"Prompt Engineering for Large Language Models: A Survey\"** (Liu et al., 2021): A survey of prompt engineering techniques for large language models"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "title": [
+      "**\"Few-Shot Learning with Pre-trained Language Models: A Tutorial\"** (Wang et al., 2021): A tutorial on few-shot learning with pre-trained language models"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "title": [
+      "**\"Zero-Shot Learning with Pre-trained Language Models: A Tutorial\"** (Sun et al., 2021): A tutorial on zero-shot learning with pre-trained language models"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "title": [
+      "**\"Few-Shot Learning with Pre-trained Language Models: A Practical Guide\"** (Wang et al., 2021): A practical guide to few-shot learning with pre-trained language models"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list provides a starting point for exploring the exciting field of zero and few-shot learning with pretrained language models. Remember to explore the references within these articles for further research and dive deeper into specific areas of interest"
+    ],
+    "type": null
+  }
+]

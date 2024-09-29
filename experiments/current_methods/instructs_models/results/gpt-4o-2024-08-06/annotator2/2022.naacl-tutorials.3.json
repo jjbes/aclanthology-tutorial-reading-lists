@@ -1,0 +1,275 @@
+[
+  {
+    "title": [
+      "Creating a reading list of articles on information extraction, focusing on issues like model transferability and generalizability, involves selecting a mix of foundational papers, recent advancements, and critical reviews. Here’s a list of 20 articles up to 2022 that you might find useful"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "author": [
+      {
+        "given": "B.E.R.T."
+      }
+    ],
+    "title": [
+      "Pre-training of Deep Bidirectional Transformers for Language Understanding\"** by Jacob Devlin et al",
+      "- A foundational paper introducing BERT, which has significant implications for transferability in NLP tasks"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "title": [
+      "**\"A Survey on Recent Advances in Named Entity Recognition from Deep Learning models\"** by Yadav and Bethard",
+      "- Provides insights into the challenges of generalizability in NER tasks"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "title": [
+      "**\"Transfer Learning for Natural Language Processing\"** by Ruder et al",
+      "- Discusses various transfer learning techniques and their applications in NLP"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "title": [
+      "**\"Cross-lingual Language Model Pretraining\"** by Conneau et al",
+      "- Explores transferability across languages, a key challenge in multilingual information extraction"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "title": [
+      "**\"Unsupervised Cross-lingual Representation Learning\"** by Lample and Conneau",
+      "- Focuses on unsupervised methods for improving model generalizability across languages"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "title": [
+      "**\"Information Extraction from Text: Past, Present and Future\"** by Grishman (2019) - A comprehensive review of the field, highlighting ongoing challenges"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "title": [
+      "**\"Fine-tuned Language Models for Text Classification\"** by Howard and Ruder",
+      "- Discusses the impact of fine-tuning on model performance and generalizability"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "title": [
+      "**\"A General Language Model Fine-tuning for Text Classification\"** by Howard and Ruder",
+      "- Introduces ULMFiT, a method for improving transferability in text classification"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "title": [
+      "**\"Improving Language Understanding by Generative Pre-Training\"** by Radford et al",
+      "- Discusses the GPT model, which has implications for transferability in language tasks"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "title": [
+      "**\"XLNet: Generalized Autoregressive Pretraining for Language Understanding\"** by Yang et al",
+      "- Proposes a model that improves upon BERT, addressing some generalizability issues"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "title": [
+      "**\"RoBERTa: A Robustly Optimized BERT Pretraining Approach\"** by Liu et al",
+      "- Enhances BERT’s performance, focusing on robustness and generalizability"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "title": [
+      "**\"SpanBERT: Improving Pre-training by Representing and Predicting Spans\"** by Joshi et al",
+      "- Aims to improve information extraction by focusing on span prediction"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "title": [
+      "**\"T5: Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer\"** by Raffel et al",
+      "- Explores a unified approach to transfer learning in NLP"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "title": [
+      "**\"Language Models are Few-Shot Learners\"** by Brown et al",
+      "- Introduces GPT-3, highlighting its capabilities and challenges in few-shot learning"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "title": [
+      "**\"Adversarial Training for Large Neural Language Models\"** by Zhu et al",
+      "- Discusses methods to improve model robustness and generalizability"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "title": [
+      "**\"A Survey on Domain Adaptation for Natural Language Processing\"** by Ramponi and Plank",
+      "- Reviews techniques for adapting models to new domains, a key challenge in generalizability"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "title": [
+      "**\"Multi-Task Learning for Dense Prediction Tasks: A Survey\"** by Zhang and Yang",
+      "- Explores multi-task learning as a method to improve model generalizability"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "title": [
+      "**\"Pre-trained Models for Natural Language Processing: A Survey\"** by Qiu et al",
+      "- Provides an overview of pre-trained models and their impact on transferability"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "title": [
+      "**\"Challenges in Information Extraction from Scientific Articles\"** by Augenstein et al",
+      "- Discusses domain-specific challenges in information extraction"
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "title": [
+      "**\"Towards Robust and Domain Agnostic Information Extraction Models\"** by Lin et al",
+      "- Focuses on creating models that perform well across different domains"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "These articles cover a range of topics related to information extraction, including foundational models, transfer learning, domain adaptation, and the challenges of generalizability. They should provide a solid foundation for understanding the current landscape and ongoing challenges in the field"
+    ],
+    "type": null
+  }
+]

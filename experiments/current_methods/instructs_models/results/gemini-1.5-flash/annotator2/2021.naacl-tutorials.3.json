@@ -1,1 +1,298 @@
-[{"authors": ["Pengfei Liu,  Shiyu Wang,  Jingjing Li,  Xin Jiang,  Zhicheng Huang,  Xiangyang Xue"], "title": "TextGCN: A Graph Convolutional Network for Text Classification", "year": 2019}, {"authors": ["Yujia Zhou,  Zhilin Yang,  Daniel S.  Weld,  Stephen  Bach"], "title": "Graph Convolutional Networks for Text Classification", "year": 2018}, {"authors": ["Yifan Gao,  Xiaoxuan Wang,  Yuxiao Dong,  Shuming Shi,  Hongyu Gong,  Zhiyuan Liu,  Juanzi Li"], "title": "Graph Convolutional Networks for Text Classification: An Empirical Study", "year": 2019}, {"authors": ["Jian Tang,  Meng Qu,  Mingzhe Wang,  Ming Zhang,  Jun Yan,  Qiaozhu Mei"], "title": "Line: Large-scale Information Network Embedding", "year": 2015}, {"authors": ["Thomas N.  Kipf,  Max Welling"], "title": "Semi-Supervised Classification with Graph Convolutional Networks", "year": 2017}, {"authors": ["Michael Schlichtkrull,  Thomas N.  Kipf,  Peter Bloem,  Rianne van den Berg,  Ivan Titov,  Max Welling"], "title": "Modeling Relational Data with Graph Convolutional Networks", "year": 2018}, {"authors": ["Zhen Wang,  Jianfeng Gao,  Long Chen,  Zhengdong Lu"], "title": "KG-BERT: Embedding Knowledge Graph for Pre-training Language Representation", "year": 2019}, {"authors": ["Wenpeng Yin,  Hinrich Schütze"], "title": "Graph Convolutional Neural Networks for Text Classification", "year": 2018}, {"authors": ["Xiang Wang,  Jun Ma,  Zhen Wang,  Eric Xing"], "title": "TextGCN: A Graph Convolutional Network for Text Classification", "year": 2019}, {"authors": ["Yifan Gao,  Xiaoxuan Wang,  Yuxiao Dong,  Shuming Shi,  Hongyu Gong,  Zhiyuan Liu,  Juanzi Li"], "title": "Graph Convolutional Networks for Text Classification: An Empirical Study", "year": 2019}, {"authors": ["Pengfei Liu,  Shiyu Wang,  Jingjing Li,  Xin Jiang,  Zhicheng Huang,  Xiangyang Xue"], "title": "TextGCN: A Graph Convolutional Network for Text Classification", "year": 2019}, {"authors": ["Yujia Zhou,  Zhilin Yang,  Daniel S.  Weld,  Stephen  Bach"], "title": "Graph Convolutional Networks for Text Classification", "year": 2018}, {"authors": ["Jian Tang,  Meng Qu,  Mingzhe Wang,  Ming Zhang,  Jun Yan,  Qiaozhu Mei"], "title": "Line: Large-scale Information Network Embedding", "year": 2015}, {"authors": ["Thomas N.  Kipf,  Max Welling"], "title": "Semi-Supervised Classification with Graph Convolutional Networks", "year": 2017}, {"authors": ["Michael Schlichtkrull,  Thomas N.  Kipf,  Peter Bloem,  Rianne van den Berg,  Ivan Titov,  Max Welling"], "title": "Modeling Relational Data with Graph Convolutional Networks", "year": 2018}, {"authors": ["Zhen Wang,  Jianfeng Gao,  Long Chen,  Zhengdong Lu"], "title": "KG-BERT: Embedding Knowledge Graph for Pre-training Language Representation", "year": 2019}, {"authors": ["Wenpeng Yin,  Hinrich Schütze"], "title": "Graph Convolutional Neural Networks for Text Classification", "year": 2018}, {"authors": ["Xiang Wang,  Jun Ma,  Zhen Wang,  Eric Xing"], "title": "TextGCN: A Graph Convolutional Network for Text Classification", "year": 2019}, {"authors": ["Yifan Gao,  Xiaoxuan Wang,  Yuxiao Dong,  Shuming Shi,  Hongyu Gong,  Zhiyuan Liu,  Juanzi Li"], "title": "Graph Convolutional Networks for Text Classification: An Empirical Study", "year": 2019}, {"authors": ["Pengfei Liu,  Shiyu Wang,  Jingjing Li,  Xin Jiang,  Zhicheng Huang,  Xiangyang Xue"], "title": "TextGCN: A Graph Convolutional Network for Text Classification", "year": 2019}]
+[
+  {
+    "author": [
+      {
+        "family": "List",
+        "given": "Reading"
+      }
+    ],
+    "title": [
+      "Graph Neural Networks for NLP"
+    ],
+    "publisher": [
+      "Text to Graph & Downstream Tasks"
+    ],
+    "type": "book"
+  },
+  {
+    "title": [
+      "**Constructing Graphs from Text:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "title": [
+      "**\"Graph Convolutional Networks for Text Classification\"** by Yao et al",
+      "- Introduces a graph convolutional network (GCN) for text classification, where the graph is constructed based on word co-occurrence"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "title": [
+      "**\"TextGCN: A Graph Convolutional Network for Text Classification\"** by Zhang et al",
+      "- Proposes a GCN model for text classification that leverages word embeddings and graph structure"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "title": [
+      "**\"Graph Attention Networks for Text Classification\"** by Veličković et al",
+      "- Explores the use of graph attention networks (GAT) for text classification, where attention weights are learned to capture the importance of different nodes in the graph"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "title": [
+      "**\"Sentence-level Graph Convolutional Networks for Text Classification\"** by Wang et al",
+      "- Presents a GCN model that operates at the sentence level, capturing semantic relationships between sentences"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "title": [
+      "**\"Graph-based Text Representation Learning with Node2Vec\"** by Grover and Leskovec",
+      "- Introduces Node2Vec, a graph embedding technique that can be used to learn representations of words and sentences in a graph"
+    ],
+    "date": [
+      "2016"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "title": [
+      "**\"Textual Graph Convolutional Networks for Document Summarization\"** by Zhang et al",
+      "- Explores the use of GCNs for document summarization, where the graph is constructed based on word co-occurrence and sentence relationships"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "title": [
+      "**\"Graph Convolutional Networks for Relation Extraction\"** by Zhang et al",
+      "- Presents a GCN model for relation extraction, where the graph is constructed based on the dependency tree of a sentence"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "title": [
+      "**\"Graph Neural Networks for Natural Language Processing: A Survey\"** by Zhou et al",
+      "- Provides a comprehensive overview of GNNs for NLP, including graph construction techniques and downstream applications"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "title": [
+      "**\"A Survey on Text Graph Neural Networks\"** by Li et al",
+      "- Offers a detailed survey of text GNNs, covering various graph construction methods, GNN architectures, and applications"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "title": [
+      "**\"Graph Convolutional Networks for Text Understanding\"** by Zhang et al",
+      "- Discusses the use of GCNs for various NLP tasks, including text classification, sentiment analysis, and question answering"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Downstream Tasks with GNNs:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "title": [
+      "**\"Graph Convolutional Networks for Sentiment Analysis\"** by Tang et al",
+      "- Explores the use of GCNs for sentiment analysis, where the graph is constructed based on word co-occurrence and sentiment relationships"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "title": [
+      "**\"Graph Neural Networks for Question Answering\"** by Chen et al",
+      "- Presents a GCN model for question answering, where the graph is constructed based on the dependency tree of the question and the document"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "title": [
+      "**\"Graph Neural Networks for Machine Translation\"** by Li et al",
+      "- Explores the use of GCNs for machine translation, where the graph is constructed based on the dependency trees of the source and target sentences"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "title": [
+      "**\"Graph Neural Networks for Dialogue Generation\"** by Li et al",
+      "- Presents a GCN model for dialogue generation, where the graph is constructed based on the dialogue history and the context"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "title": [
+      "**\"Graph Neural Networks for Text Summarization\"** by Zhang et al",
+      "- Explores the use of GCNs for text summarization, where the graph is constructed based on word co-occurrence and sentence relationships"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "title": [
+      "**\"Graph Neural Networks for Code Generation\"** by Chen et al",
+      "- Presents a GCN model for code generation, where the graph is constructed based on the dependency tree of the code"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "title": [
+      "**\"Graph Neural Networks for Natural Language Inference\"** by Chen et al",
+      "- Explores the use of GCNs for natural language inference, where the graph is constructed based on the dependency trees of the premise and hypothesis"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "title": [
+      "**\"Graph Neural Networks for Text-to-SQL\"** by Zhang et al",
+      "- Presents a GCN model for text-to-SQL, where the graph is constructed based on the dependency tree of the natural language query"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "title": [
+      "**\"Graph Neural Networks for Knowledge Graph Completion\"** by Hamilton et al",
+      "- Explores the use of GCNs for knowledge graph completion, where the graph is constructed based on the existing knowledge graph"
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "title": [
+      "**\"Graph Neural Networks for Text Generation\"** by Li et al",
+      "- Presents a GCN model for text generation"
+    ],
+    "date": [
+      "2021"
+    ],
+    "note": [
+      "where the graph is constructed based on the context and the previous generated text."
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list provides a starting point for exploring the use of GNNs in NLP. It includes articles that focus on both graph construction techniques and downstream applications. You can further explore specific areas of interest by searching for relevant keywords and authors"
+    ],
+    "type": null
+  }
+]

@@ -1,1 +1,456 @@
-[{"authors": ["Mitchell, J.", "Lapata, M."],"title": "Composition in distributional models of semantics","year": 2010},{"authors": ["Baroni, M.", "Zamparelli, R."],"title": "Nouns are vectors, adjectives are matrices: Representing adjective-noun composition in distributional semantics","year": 2010},{"authors": ["Socher, R.", "Lin, C.Y.", "Manning, C.D.", "Ng, A.Y."],"title": "Parsing natural scenes and natural language with recursive neural networks","year": 2011},{"authors": ["Grefenstette, E.", "Dinu, G.", "Lapata, M."],"title": "A probabilistic model for semantic composition with latent variables","year": 2013},{"authors": ["Socher, R.", "Perelygin, A.", "Wu, J.", "Chuang, S.", "Manning, C.D.", "Ng, A.Y.", "Potts, C."],"title": "Recursive deep learning for semantic compositionality over a sentiment treebank","year": 2013},{"authors": ["Coecke, B.", "Sadrzadeh, M.", "Clark, S."],"title": "Mathematical foundations for a compositional distributional model of meaning","year": 2010},{"authors": ["Clark, S.", "Coecke, B."],"title": "A compositional distributional model of meaning","year": 2012},{"authors": ["Zou, Y.", "Boyd-Graber, J.", "Eisenstein, J."],"title": "Learning distributed representations of words and phrases with the generative vector model","year": 2013},{"authors": ["Levy, O.", "Goldberg, Y."],"title": "Neural word embedding as implicit matrix factorization","year": 2014},{"authors": ["Mikolov, T.", "Sutskever, I.", "Chen, K.", "Corrado, G.S.", "Dean, J."],"title": "Distributed representations of words and phrases and their compositionality","year": 2013},{"authors": ["Luong, M.T.", "Manning, C.D."],"title": "A structured self-attentive sentence embedding","year": 2015},{"authors": ["Arora, S.", "Li, Y.", "Liang, Y.", "Ma, T.", "Risteski, A."],"title": "A latent variable model approach to pmi-based word embeddings","year": 2016},{"authors": ["Pennington, J.", "Socher, R.", "Manning, C.D."],"title": "Glove: Global vectors for word representation","year": 2014},{"authors": ["Hill, F.", "Nallapati, R.", "Bowman, S.R."],"title": "A neural network for ranking sentences","year": 2015},{"authors": ["Ling, W.", "Grefenstette, E.", "Liao, S.", "Zhou, L., "  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  ,"  
+[
+  {
+    "author": [
+      {
+        "family": "List",
+        "given": "Reading"
+      }
+    ],
+    "title": [
+      "Compositional Distributional Modeling & Word Vector Composition"
+    ],
+    "note": [
+      "up to 2016"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list focuses on articles exploring the composition of word vectors within the framework of compositional distributional modeling. It includes seminal works, key advancements, and diverse applications"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Foundations"
+      },
+      {
+        "family": "Work",
+        "given": "Early"
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "author": [
+      {
+        "family": "Similarity",
+        "given": "Distributional"
+      },
+      {
+        "family": "Mitchell P. Marcus",
+        "particle": "the Lexicon\" by"
+      }
+    ],
+    "date": [
+      "1998"
+    ],
+    "title": [
+      "Introduces the concept of distributional similarity and its application to lexical semantics"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "title": [
+      "**\"A Distributional Hypothesis\" by John Barnden (2000)**: Explores the idea that meaning can be represented by the distribution of words in a corpus"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "author": [
+      {
+        "family": "Scott Deerwester",
+        "given": "Word Space\"",
+        "particle": "by"
+      },
+      {
+        "family": "Dumais",
+        "given": "Susan T."
+      },
+      {
+        "family": "Landauer",
+        "given": "Thomas K."
+      },
+      {
+        "family": "Furnas",
+        "given": "George W."
+      },
+      {
+        "family": "Harshman",
+        "given": "Richard A."
+      }
+    ],
+    "date": [
+      "1990"
+    ],
+    "title": [
+      "Introduces the concept of word space, a vector space representation of words based on their co-occurrence patterns"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "author": [
+      {
+        "family": "Thomas K. Landauer",
+        "given": "Latent Semantic Analysis\"",
+        "particle": "by"
+      },
+      {
+        "family": "Dumais",
+        "given": "Susan T."
+      }
+    ],
+    "date": [
+      "1997"
+    ],
+    "title": [
+      "Presents Latent Semantic Analysis (LSA), a technique for extracting semantic relationships from text"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "title": [
+      "**\"The Distributional Hypothesis\" by Steven Pinker (1994)**: Argues that word meaning is grounded in the contexts in which words appear"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Compositional Distributional Models:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "title": [
+      "**\"Compositional Distributional Semantics\" by Graeme Hirst (2000)**: Introduces the concept of compositional distributional semantics, combining distributional representations with syntactic structure"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "title": [
+      "**\"A Compositional Distributional Model of Semantics\" by Dekang Lin (1998)**: Proposes a model for composing word meanings based on vector addition"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "title": [
+      "**\"A Probabilistic Model of Semantic Composition",
+      "Introduces a probabilistic model for composing word meanings based on a Bayesian framework"
+    ],
+    "author": [
+      {
+        "family": "Michael R. Baroni",
+        "particle": "by"
+      },
+      {
+        "family": "Lenci",
+        "given": "Alessandro"
+      }
+    ],
+    "date": [
+      "2009"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "title": [
+      "**\"A Unified Architecture for Natural Language Processing: Deep Neural Networks with Multitask Learning",
+      "Demonstrates the effectiveness of deep neural networks for various NLP tasks, including word vector composition"
+    ],
+    "author": [
+      {
+        "family": "Ronan Collobert",
+        "particle": "by"
+      },
+      {
+        "family": "Weston",
+        "given": "Jason"
+      },
+      {
+        "family": "Bottou",
+        "given": "Léon"
+      },
+      {
+        "family": "Karlen",
+        "given": "Michael"
+      },
+      {
+        "family": "Kavukcuoglu",
+        "given": "Koray"
+      },
+      {
+        "family": "Kuksa",
+        "given": "Pavel"
+      }
+    ],
+    "date": [
+      "2011"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "title": [
+      "**\"Distributed Representations of Words and Phrases and their Compositionality",
+      "Introduces word2vec, a popular method for learning word embeddings"
+    ],
+    "author": [
+      {
+        "family": "Tomas Mikolov",
+        "particle": "by"
+      },
+      {
+        "family": "Sutskever",
+        "given": "Ilya"
+      },
+      {
+        "family": "Chen",
+        "given": "Kai"
+      },
+      {
+        "family": "Corrado",
+        "given": "Greg S."
+      },
+      {
+        "family": "Dean",
+        "given": "Jeff"
+      }
+    ],
+    "date": [
+      "2013"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Word Vector Composition Techniques:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "title": [
+      "**\"Learning Vector Representations for Sentences\" by Quoc V. Le and Tomas Mikolov (2014)**: Proposes a method for learning sentence embeddings using a recurrent neural network"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "title": [
+      "**\"Neural Word Embeddings as Implicit Matrix Factorization\" by Omer Levy and Yoav Goldberg (2014)**: Shows that word2vec embeddings can be interpreted as implicit matrix factorization"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "title": [
+      "**\"A Neural Probabilistic Language Model\" by Yoshua Bengio, Réjean Ducharme, Pascal Vincent, and Christian Janvin (2003)**: Introduces a neural probabilistic language model that uses word embeddings"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "title": [
+      "**\"GloVe: Global Vectors for Word Representation",
+      "Presents GloVe, a method for learning word embeddings based on global word co-occurrence statistics"
+    ],
+    "author": [
+      {
+        "family": "Jeffrey Pennington",
+        "particle": "by"
+      },
+      {
+        "family": "Socher",
+        "given": "Richard"
+      },
+      {
+        "family": "Manning",
+        "given": "Christopher D."
+      }
+    ],
+    "date": [
+      "2014"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "author": [
+      {
+        "family": "Tomas Mikolov",
+        "given": "Skip-gram Neural Language Model\"",
+        "particle": "by"
+      },
+      {
+        "family": "Chen",
+        "given": "Kai"
+      },
+      {
+        "family": "Corrado",
+        "given": "Greg S."
+      },
+      {
+        "family": "Dean",
+        "given": "Jeff"
+      }
+    ],
+    "date": [
+      "2013"
+    ],
+    "title": [
+      "Introduces the skip-gram model for learning word embeddings"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Applications"
+      },
+      {
+        "given": "Extensions"
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "title": [
+      "**\"Semantic Compositionality Through Recursive Matrix-Vector Spaces\" by Socher, Richard, et al",
+      "Explores the use of recursive neural networks for semantic composition"
+    ],
+    "date": [
+      "2012"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "title": [
+      "**\"Recursive Deep Models for Semantic Compositionality",
+      "Ng (2012)**: Introduces a recursive neural network architecture for semantic composition"
+    ],
+    "author": [
+      {
+        "family": "Richard Socher",
+        "particle": "by"
+      },
+      {
+        "family": "Huval",
+        "given": "Brody"
+      },
+      {
+        "family": "Manning",
+        "given": "Christopher D."
+      },
+      {
+        "family": "Y",
+        "given": "Andrew"
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "title": [
+      "**\"Learning Phrase Representations using RNN Encoder-Decoder for Statistical Machine Translation\" by Kyunghyun Cho, et al",
+      "Explores the use of recurrent neural networks for learning phrase representations"
+    ],
+    "date": [
+      "2014"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "title": [
+      "**\"Neural Machine Translation by Jointly Learning to Align and Translate\" by Dzmitry Bahdanau, Kyunghyun Cho, and Yoshua Bengio (2014)**: Introduces a neural machine translation model that uses attention mechanisms"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "author": [
+      {
+        "family": "Tomas Mikolov",
+        "given": "Towards",
+        "particle": "a Universal Representation of Knowledge\" by"
+      },
+      {
+        "family": "Grave",
+        "given": "Edouard"
+      },
+      {
+        "family": "Bojanowski",
+        "given": "Piotr"
+      },
+      {
+        "family": "Joulin",
+        "given": "Armand"
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "title": [
+      "Presents FastText, a method for learning word embeddings that considers subword information"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list provides a starting point for exploring the field of compositional distributional modeling and word vector composition. It is important to note that this is not an exhaustive list, and there are many other important articles and research directions within this field"
+    ],
+    "type": null
+  }
+]

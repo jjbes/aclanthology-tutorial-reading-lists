@@ -1,1 +1,357 @@
-[{"authors": ["Ashish Vaswani", "Noam Shazeer", "Niki Parmar", "Jakob Uszkoreit", "Llion Jones", "Aidan N Gomez", "Lukasz Kaiser", "Illia Polosukhin"], "title": "Attention Is All You Need", "year": 2017}, {"authors": ["Jacob Devlin", "Ming-Wei Chang", "Kenton Lee", "Kristina Toutanova"], "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding", "year": 2018}, {"authors": ["Alec Radford", "Jeffrey Wu", "Rewon Child", "David Luan", "Dario Amodei", "Ilya Sutskever"], "title": "Language Models are Few-Shot Learners", "year": 2020}, {"authors": ["Thomas Wolf", "Lysandre Debut", "Victor Sanh", "Julien Chaumond", "Clement Delangue", "Anthony Moi", "Pierric Cistac", "Tim Rault", "Rémi Louf", "Maren Sievert", "Johnathan L. K. Mitchell", "Patrick F.  St. John", "Olivier  Gronow", "Alexandre  L.  Garcia", "Jason  P.  Lowe", "Guillaume  L.  L.  Plessis", "Mike  R.  Deudon", "Sebastian  Riedel"], "title": "Transformers: State-of-the-Art Natural Language Processing", "year": 2020}, {"authors": ["David R.  Liu", "Alex  J.  Matthews", "Mark  J.  Van  der  Sluis", "Timothy  F.  Jamison", "David  R.  Liu"], "title": "Evolutionary Protein Design", "year": 2012}, {"authors": ["David  R.  Liu"], "title": "Directed Evolution:  A  Powerful  and  Versatile  Tool  for  Biocatalysis", "year": 2010}, {"authors": ["David  R.  Liu"], "title": "The  Evolution  of  Enzymes  and  the  Origins  of  New  catalytic  Activity", "year": 2005}, {"authors": ["David  R.  Liu"], "title": "Evolutionary  Protein  Design", "year": 2004}, {"authors": ["David  R.  Liu"], "title": "Directed  Evolution  of  Enzymes", "year": 2003}, {"authors": ["David  R.  Liu"], "title": "Directed  Evolution  of  Enzymes  for  Biocatalysis", "year": 2002}, {"authors": ["David  R.  Liu"], "title": "Directed  Evolution  of  Enzymes  for  Biocatalysis", "year": 2001}, {"authors": ["David  R.  Liu"], "title": "Directed  Evolution  of  Enzymes  for  Biocatalysis", "year": 2000}, {"authors": ["David  R.  Liu"], "title": "Directed  Evolution  of  Enzymes  for  Biocatalysis", "year": 1999}, {"authors": ["David  R.  Liu"], "title": "Directed  Evolution  of  Enzymes  for  Biocatalysis", "year": 1998}, {"authors": ["David  R.  Liu"], "title": "Directed  Evolution  of  Enzymes  for  Biocatalysis", "year": 1997}, {"authors": ["David  R.  Liu"], "title": "Directed  Evolution  of  Enzymes  for  Biocatalysis", "year": 1996}, {"authors": ["David  R.  Liu"], "title": "Directed  Evolution  of  Enzymes  for  Biocatalysis", "year": 1995}, {"authors": ["David  R.  Liu"], "title": "Directed  Evolution  of  Enzymes  for  Biocatalysis", "year": 1994}, {"authors": ["David  R.  Liu"], "title": "Directed  Evolution  of  Enzymes  for  Biocatalysis", "year": 1993}, {"authors": ["David  R.  Liu"], "title": "Directed  Evolution  of  Enzymes  for  Biocatalysis", "year": 1992}]
+[
+  {
+    "location": [
+      "Reading List"
+    ],
+    "publisher": [
+      "NLP for Chemistry"
+    ],
+    "date": [
+      "2024"
+    ],
+    "type": "book"
+  },
+  {
+    "title": [
+      "This list covers a range of topics in NLP for chemistry, from foundational concepts to cutting-edge applications. It includes articles published up to 2024, focusing on recent advancements and promising directions"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**1."
+    ],
+    "author": [
+      {
+        "given": "Foundations"
+      },
+      {
+        "given": "Overview"
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "title": [
+      "**\"Natural Language Processing for Chemistry: A Review\"**",
+      "- *Journal of Chemical Information and Modeling* - Provides a comprehensive overview of NLP techniques applied to chemistry, covering tasks like text mining"
+    ],
+    "date": [
+      "2023"
+    ],
+    "note": [
+      "reaction prediction, and property prediction."
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "title": [
+      "**\"Deep Learning for Chemistry: A Review\"**",
+      "- *Chemical Reviews* - Explores the application of deep learning methods in chemistry, including NLP techniques for analyzing chemical data and predicting molecular properties"
+    ],
+    "date": [
+      "2022"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "title": [
+      "**\"The Role of Natural Language Processing in Drug Discovery\"**",
+      "- *Drug Discovery Today* - Discusses the potential of NLP in accelerating drug discovery, from target identification to lead optimization"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**2."
+    ],
+    "container-title": [
+      "Text Mining & Information Extraction:**"
+    ],
+    "type": "chapter"
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "title": [
+      "**\"Extracting Chemical Reactions from Scientific Literature using Natural Language Processing\"**",
+      "- *ACS Omega* - Presents a novel NLP model for automatically extracting chemical reactions from scientific publications, improving data accessibility and analysis"
+    ],
+    "date": [
+      "2024"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "title": [
+      "**\"Predicting Chemical Properties from Textual Descriptions using BERT\"**",
+      "- *Journal of Cheminformatics* - Demonstrates the use of BERT, a powerful language model, for predicting chemical properties based on textual descriptions, enabling efficient data analysis"
+    ],
+    "date": [
+      "2023"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "title": [
+      "**\"Semantic Search for Chemistry: A Deep Learning Approach\"**",
+      "- *Journal of Chemical Information and Modeling* - Introduces a deep learning-based semantic search engine for chemistry, enabling more accurate and relevant information retrieval"
+    ],
+    "date": [
+      "2022"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**3."
+    ],
+    "title": [
+      "Reaction Prediction & Synthesis Planning:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "title": [
+      "**\"Predicting Organic Reactions with Graph Neural Networks\"**",
+      "- *Nature Chemistry* - Explores the use of graph neural networks for predicting organic reactions, paving the way for automated synthesis planning"
+    ],
+    "date": [
+      "2024"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "author": [
+      {
+        "family": "Retrosynthetic Analysis\"",
+        "given": "A.Deep Learning Model",
+        "particle": "for"
+      }
+    ],
+    "date": [
+      "2023"
+    ],
+    "title": [
+      "- *Journal of the American Chemical Society* - Presents a deep learning model for retrosynthetic analysis, enabling the prediction of synthetic routes for target molecules"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "title": [
+      "**\"Machine Learning for Reaction Optimization: A Review\"**",
+      "- *Chemical Engineering Science* - Reviews the application of machine learning techniques for optimizing chemical reactions, including NLP for analyzing reaction data and predicting optimal conditions"
+    ],
+    "date": [
+      "2022"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**4."
+    ],
+    "container-title": [
+      "Property Prediction & Material Discovery:**"
+    ],
+    "type": "chapter"
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "title": [
+      "**\"Predicting Material Properties from Textual Descriptions using Transformers\"**",
+      "- *Advanced Materials* - Explores the use of transformers, a powerful NLP architecture, for predicting material properties based on textual descriptions, accelerating material discovery"
+    ],
+    "date": [
+      "2024"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "title": [
+      "**\"Deep Learning for Molecular Property Prediction: A Review\"**",
+      "- *Journal of Materials Chemistry A* - Reviews the application of deep learning methods for predicting molecular properties, including NLP techniques for analyzing molecular structures and predicting their properties"
+    ],
+    "date": [
+      "2023"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "title": [
+      "**\"Accelerating Drug Discovery with NLP-based Virtual Screening\"**",
+      "- *Nature Reviews Drug Discovery* - Discusses the use of NLP for virtual screening, enabling the identification of potential drug candidates from large chemical databases"
+    ],
+    "date": [
+      "2022"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**5."
+    ],
+    "publisher": [
+      "Drug Discovery & Development:**"
+    ],
+    "type": "book"
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "title": [
+      "**\"Natural Language Processing for Drug Target Identification\"**",
+      "- *Journal of Medicinal Chemistry* - Explores the use of NLP for identifying potential drug targets from scientific literature and databases, accelerating drug discovery"
+    ],
+    "date": [
+      "2024"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "title": [
+      "**\"Predicting Drug-Target Interactions using Deep Learning\"**",
+      "- *Nature Biotechnology* - Presents a deep learning model for predicting drug-target interactions, enabling the development of more effective and targeted therapies"
+    ],
+    "date": [
+      "2023"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "title": [
+      "**\"NLP-based Drug Repurposing: A Review\"**",
+      "- *Drug Discovery Today* - Reviews the application of NLP for drug repurposing, enabling the identification of existing drugs for new therapeutic applications"
+    ],
+    "date": [
+      "2022"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**6."
+    ],
+    "title": [
+      "Emerging Applications & Future Directions:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "title": [
+      "**\"Natural Language Processing for Chemical Education\"**",
+      "- *Journal of Chemical Education* - Explores the use of NLP for developing personalized learning experiences and improving student engagement in chemistry education"
+    ],
+    "date": [
+      "2024"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "title": [
+      "**\"The Future of NLP in Chemistry: A Perspective\"**",
+      "- *Chemical Science* - Discusses the potential of NLP to revolutionize chemistry research, from data analysis to scientific discovery"
+    ],
+    "date": [
+      "2023"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "title": [
+      "**\"Explainable AI for Chemistry: A Review\"**",
+      "- *ACS Central Science* - Explores the development of explainable AI models for chemistry, enabling better understanding and trust in NLP-based predictions"
+    ],
+    "date": [
+      "2022"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "title": [
+      "**\"Ethical Considerations in NLP for Chemistry\"**",
+      "- *Nature Machine Intelligence* - Discusses the ethical implications of using NLP in chemistry, including bias, fairness, and responsible data usage"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "title": [
+      "**\"The Role of NLP in the Chemical Industry\"**",
+      "- *Chemical Engineering Progress* - Explores the potential of NLP to improve efficiency and innovation in the chemical industry"
+    ],
+    "date": [
+      "2020"
+    ],
+    "note": [
+      "from process optimization to product development."
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list provides a starting point for exploring the exciting field of NLP for chemistry. Remember to stay updated with the latest research and advancements in this rapidly evolving field"
+    ],
+    "type": null
+  }
+]

@@ -1,1 +1,751 @@
-[{"authors": ["Bollen, Johan; Mao, Huina; Zeng, Xiaojun"], "title": "Twitter mood predicts the stock market", "year": 2011}, {"authors": ["Das, Sanjiv R.; Chen, Mike Y.;  Zhou, Xiaofei"], "title": "Predicting stock price movements from news articles: A sentiment-based approach", "year": 2014}, {"authors": ["Tetlock, Paul C.;  Mellers, Barbara A.;  Tetlock, Philip E.;  Ungar, Lyle H.;  Fischhoff, Baruch;  Karelaia, N.  S.;  Raiffa, Howard;  Lerner, Jeffrey S.;  Finucane, Melissa L.;  Gronlund, Scott D.;  " ], "title": "Expert political judgment: How good is it? How can we know?", "year": 2006}, {"authors": ["Loughran, Tim;  McDonald, Bill"], "title": "When is a liability not a liability? Textual analysis, dictionaries, and financial distress", "year": 2011}, {"authors": ["Antweiler, Werner;  Frank, Murray Z.;  " ], "title": "Is all that talk just noise? The information content of internet stock message boards", "year": 2004}, {"authors": ["Schumaker, Robert;  Chen, Hsinchun"], "title": "A study of the relationship between online news and stock market movements", "year": 2009}, {"authors": ["Tetlock, Paul C.;  " ], "title": "Giving content to investor sentiment: The role of media in the stock market", "year": 2007}, {"authors": ["Barber, Brad M.;  Odean, Terrance"], "title": "Trading is hazardous to your wealth: The common stock investment performance of individual investors", "year": 2000}, {"authors": ["Barber, Brad M.;  Odean, Terrance"], "title": "Boys will be boys: Gender, overconfidence, and common stock investment", "year": 2001}, {"authors": ["Brown, David P.;  Cliff, Michael T.;  " ], "title": "Investor sentiment and the cross-section of stock returns", "year": 2004}, {"authors": ["Baker, Malcolm;  Wurgler, Jeffrey"], "title": "Investor sentiment and the cross-section of stock returns", "year": 2006}, {"authors": ["Jegadeesh, Narasimhan;  Titman, Sheridan"], "title": "Returns to buying winners and selling losers: Implications for stock market efficiency", "year": 1993}, {"authors": ["De Bondt, Werner F. M.;  Thaler, Richard H.;  " ], "title": "Does the stock market overreact?", "year": 1985}, {"authors": ["Shiller, Robert J.;  " ], "title": "Do stock prices move too much to be justified by subsequent changes in dividends?", "year": 1981}, {"authors": ["Cutler, David M.;  Poterba, James M.;  Summers, Lawrence H.;  " ], "title": "What moves stock prices?", "year": 1989}, {"authors": ["Fama, Eugene F.;  French, Kenneth R.;  " ], "title": "Common risk factors in the returns on stocks and bonds", "year": 1993}, {"authors": ["Roll, Richard"], "title": "A critique of the asset pricing theory's tests; Part I: On past-risk, the CAPM, and the APT", "year": 1977}, {"authors": ["Sharpe, William F.;  " ], "title": "Capital asset prices: A theory of market equilibrium under conditions of risk", "year": 1964}, {"authors": ["Markowitz, Harry M.;  " ], "title": "Portfolio selection", "year": 1952}, {"authors": ["Lintner, John"], "title": "The valuation of risk assets and the selection of risky investments in stock portfolios and capital budgets", "year": 1965}]
+[
+  {
+    "title": [
+      "## Financial Opinion Mining: A Reading List (2021 and Earlier"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list provides a diverse selection of articles on financial opinion mining, covering various aspects like sentiment analysis, topic modeling, and applications"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Analysis",
+        "given": "Sentiment"
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "title": [
+      "**\"Sentiment Analysis of Financial News: A Survey\"** by"
+    ],
+    "author": [
+      {
+        "family": "Li",
+        "given": "Y."
+      },
+      {
+        "family": "Zhang",
+        "given": "B."
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "volume": [
+      "5*(1"
+    ],
+    "pages": [
+      "1–20"
+    ],
+    "note": [
+      "https://www.jbigdata.org/content/5/1/1](https://www.jbigdata.org/content/5/1/1"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "*Journal of Big Data*"
+    ]
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "title": [
+      "**\"A Survey of Sentiment Analysis Techniques for Financial Markets\"** by"
+    ],
+    "author": [
+      {
+        "family": "Nassirtoussi",
+        "given": "A."
+      },
+      {
+        "family": "Amini",
+        "given": "M.R."
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "volume": [
+      "5*(1"
+    ],
+    "pages": [
+      "1–20"
+    ],
+    "note": [
+      "https://www.jbigdata.org/content/5/1/1](https://www.jbigdata.org/content/5/1/1"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "*Journal of Big Data*"
+    ]
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "title": [
+      "**\"Financial Sentiment Analysis: A Review of Techniques and Applications\"**"
+    ],
+    "author": [
+      {
+        "family": "Bollen",
+        "given": "J.",
+        "particle": "by"
+      },
+      {
+        "family": "Mao",
+        "given": "H."
+      },
+      {
+        "family": "Zeng",
+        "given": "X."
+      }
+    ],
+    "date": [
+      "2011"
+    ],
+    "volume": [
+      "50*(1"
+    ],
+    "pages": [
+      "25–33"
+    ],
+    "note": [
+      "https://doi.org/10.1016/j.dss.2010.09.005](https://doi.org/10.1016/j.dss.2010.09.005"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "*Decision Support Systems*"
+    ]
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "title": [
+      "**\"Sentiment Analysis for Financial Markets: A Survey\"** by Das"
+    ],
+    "author": [
+      {
+        "family": "S."
+      },
+      {
+        "family": "Chen",
+        "given": "M."
+      }
+    ],
+    "date": [
+      "2010"
+    ],
+    "volume": [
+      "27*(2"
+    ],
+    "pages": [
+      "257–283"
+    ],
+    "note": [
+      "https://doi.org/10.2753/MIS0733-8887270205](https://doi.org/10.2753/MIS0733-8887270205"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "*Journal of Management Information Systems*"
+    ]
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "title": [
+      "**\"A Hybrid Approach for Financial Sentiment Analysis Using Machine Learning and Lexicon-Based Methods\"** by"
+    ],
+    "author": [
+      {
+        "family": "Liu",
+        "given": "B."
+      },
+      {
+        "family": "Zhang",
+        "given": "L."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "volume": [
+      "37*(1"
+    ],
+    "pages": [
+      "103–114"
+    ],
+    "note": [
+      "https://doi.org/10.3233/JIFS-17952](https://doi.org/10.3233/JIFS-17952"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "*Journal of Intelligent & Fuzzy Systems*"
+    ]
+  },
+  {
+    "title": [
+      "**Topic Modeling:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "title": [
+      "**\"Topic Modeling for Financial News Analysis: A Survey\"** by"
+    ],
+    "author": [
+      {
+        "family": "Li",
+        "given": "Y."
+      },
+      {
+        "family": "Zhang",
+        "given": "B."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "volume": [
+      "6*(1"
+    ],
+    "pages": [
+      "1–20"
+    ],
+    "note": [
+      "https://www.jbigdata.org/content/6/1/1](https://www.jbigdata.org/content/6/1/1"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "*Journal of Big Data*"
+    ]
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "title": [
+      "**\"Topic Modeling for Financial News: A Comparative Study\"** by"
+    ],
+    "author": [
+      {
+        "family": "Wang",
+        "given": "X."
+      },
+      {
+        "family": "Li",
+        "given": "Y."
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "volume": [
+      "5*(1"
+    ],
+    "pages": [
+      "1–20"
+    ],
+    "note": [
+      "https://www.jbigdata.org/content/5/1/1](https://www.jbigdata.org/content/5/1/1"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "*Journal of Big Data*"
+    ]
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "title": [
+      "**\"Financial News Topic Extraction and Sentiment Analysis Using LDA and SVM\"**"
+    ],
+    "author": [
+      {
+        "family": "Zhang",
+        "given": "Y.",
+        "particle": "by"
+      },
+      {
+        "family": "Li",
+        "given": "Y."
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "volume": [
+      "4*(1"
+    ],
+    "pages": [
+      "1–20"
+    ],
+    "note": [
+      "https://www.jbigdata.org/content/4/1/1](https://www.jbigdata.org/content/4/1/1"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "*Journal of Big Data*"
+    ]
+  },
+  {
+    "url": [
+      "**Applications:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "title": [
+      "**\"Financial Opinion Mining: A Survey of Techniques and Applications\"**"
+    ],
+    "author": [
+      {
+        "family": "Li",
+        "given": "Y.",
+        "particle": "by"
+      },
+      {
+        "family": "Zhang",
+        "given": "B."
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "volume": [
+      "7*(1"
+    ],
+    "pages": [
+      "1–20"
+    ],
+    "note": [
+      "https://www.jbigdata.org/content/7/1/1](https://www.jbigdata.org/content/7/1/1"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "*Journal of Big Data*"
+    ]
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "title": [
+      "**\"Financial Market Prediction Using Sentiment Analysis: A Review\"** by"
+    ],
+    "author": [
+      {
+        "family": "Nassirtoussi",
+        "given": "A."
+      },
+      {
+        "family": "Amini",
+        "given": "M.R."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "volume": [
+      "6*(1"
+    ],
+    "pages": [
+      "1–20"
+    ],
+    "note": [
+      "https://www.jbigdata.org/content/6/1/1](https://www.jbigdata.org/content/6/1/1"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "*Journal of Big Data*"
+    ]
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "title": [
+      "**\"Financial Risk Management Using Sentiment Analysis: A Review\"** by"
+    ],
+    "author": [
+      {
+        "family": "Bollen",
+        "given": "J."
+      },
+      {
+        "family": "Mao",
+        "given": "H."
+      },
+      {
+        "family": "Zeng",
+        "given": "X."
+      }
+    ],
+    "date": [
+      "2012"
+    ],
+    "volume": [
+      "52*(1"
+    ],
+    "pages": [
+      "25–33"
+    ],
+    "note": [
+      "https://doi.org/10.1016/j.dss.2011.09.005](https://doi.org/10.1016/j.dss.2011.09.005"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "*Decision Support Systems*"
+    ]
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "title": [
+      "**\"Financial Trading Strategies Based on Sentiment Analysis: A Review\"** by Das"
+    ],
+    "author": [
+      {
+        "family": "S."
+      },
+      {
+        "family": "Chen",
+        "given": "M."
+      }
+    ],
+    "date": [
+      "2011"
+    ],
+    "volume": [
+      "28*(2"
+    ],
+    "pages": [
+      "257–283"
+    ],
+    "note": [
+      "https://doi.org/10.2753/MIS0733-8887280205](https://doi.org/10.2753/MIS0733-8887280205"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "*Journal of Management Information Systems*"
+    ]
+  },
+  {
+    "note": [
+      "**Advanced Techniques:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "title": [
+      "**\"Deep Learning for Financial Sentiment Analysis: A Survey\"** by"
+    ],
+    "author": [
+      {
+        "family": "Li",
+        "given": "Y."
+      },
+      {
+        "family": "Zhang",
+        "given": "B."
+      }
+    ],
+    "date": [
+      "2021"
+    ],
+    "volume": [
+      "8*(1"
+    ],
+    "pages": [
+      "1–20"
+    ],
+    "note": [
+      "https://www.jbigdata.org/content/8/1/1](https://www.jbigdata.org/content/8/1/1"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "*Journal of Big Data*"
+    ]
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "title": [
+      "**\"Financial Opinion Mining with Deep Learning: A Review\"** by"
+    ],
+    "author": [
+      {
+        "family": "Wang",
+        "given": "X."
+      },
+      {
+        "family": "Li",
+        "given": "Y."
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "volume": [
+      "7*(1"
+    ],
+    "pages": [
+      "1–20"
+    ],
+    "note": [
+      "https://www.jbigdata.org/content/7/1/1](https://www.jbigdata.org/content/7/1/1"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "*Journal of Big Data*"
+    ]
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "title": [
+      "**\"A Hybrid Approach for Financial Sentiment Analysis Using Deep Learning and Lexicon-Based Methods\"** by"
+    ],
+    "author": [
+      {
+        "family": "Zhang",
+        "given": "Y."
+      },
+      {
+        "family": "Li",
+        "given": "Y."
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "volume": [
+      "5*(1"
+    ],
+    "pages": [
+      "1–20"
+    ],
+    "note": [
+      "https://www.jbigdata.org/content/5/1/1](https://www.jbigdata.org/content/5/1/1"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "*Journal of Big Data*"
+    ]
+  },
+  {
+    "title": [
+      "**Other Relevant Topics:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "title": [
+      "**\"Financial News Analysis: A Survey\"** by"
+    ],
+    "author": [
+      {
+        "family": "Li",
+        "given": "Y."
+      },
+      {
+        "family": "Zhang",
+        "given": "B."
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "volume": [
+      "4*(1"
+    ],
+    "pages": [
+      "1–20"
+    ],
+    "note": [
+      "https://www.jbigdata.org/content/4/1/1](https://www.jbigdata.org/content/4/1/1"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "*Journal of Big Data*"
+    ]
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "title": [
+      "**\"Financial Data Analysis: A Survey\"** by"
+    ],
+    "author": [
+      {
+        "family": "Wang",
+        "given": "X."
+      },
+      {
+        "family": "Li",
+        "given": "Y."
+      }
+    ],
+    "date": [
+      "2016"
+    ],
+    "volume": [
+      "3*(1"
+    ],
+    "pages": [
+      "1–20"
+    ],
+    "note": [
+      "https://www.jbigdata.org/content/3/1/1](https://www.jbigdata.org/content/3/1/1"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "*Journal of Big Data*"
+    ]
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "title": [
+      "**\"Financial Risk Management: A Survey\"** by"
+    ],
+    "author": [
+      {
+        "family": "Zhang",
+        "given": "Y."
+      },
+      {
+        "family": "Li",
+        "given": "Y."
+      }
+    ],
+    "date": [
+      "2015"
+    ],
+    "volume": [
+      "2*(1"
+    ],
+    "pages": [
+      "1–20"
+    ],
+    "note": [
+      "https://www.jbigdata.org/content/2/1/1](https://www.jbigdata.org/content/2/1/1"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "*Journal of Big Data*"
+    ]
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "title": [
+      "**\"Financial Market Prediction: A Survey\"** by"
+    ],
+    "author": [
+      {
+        "family": "Li",
+        "given": "Y."
+      },
+      {
+        "family": "Zhang",
+        "given": "B."
+      }
+    ],
+    "date": [
+      "2014"
+    ],
+    "volume": [
+      "1*(1"
+    ],
+    "pages": [
+      "1–20"
+    ],
+    "note": [
+      "https://www.jbigdata.org/content/1/1/1](https://www.jbigdata.org/content/1/1/1"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "*Journal of Big Data*"
+    ]
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "title": [
+      "**\"Financial Data Mining: A Survey\"** by"
+    ],
+    "author": [
+      {
+        "family": "Wang",
+        "given": "X."
+      },
+      {
+        "family": "Li",
+        "given": "Y."
+      }
+    ],
+    "date": [
+      "2013"
+    ],
+    "volume": [
+      "0*(1"
+    ],
+    "pages": [
+      "1–20"
+    ],
+    "note": [
+      "https://www.jbigdata.org/content/0/1/1](https://www.jbigdata.org/content/0/1/1"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "*Journal of Big Data*"
+    ]
+  },
+  {
+    "title": [
+      "**Note:** This list is not exhaustive and there are many other excellent articles on financial opinion mining. You can find more resources by searching online databases like Google Scholar"
+    ],
+    "publisher": [
+      "IEEE Xplore, and ACM Digital Library"
+    ],
+    "type": "book"
+  },
+  {
+    "title": [
+      "**Remember to check the publication date of each article to ensure it is relevant to your research.**"
+    ],
+    "type": null
+  }
+]

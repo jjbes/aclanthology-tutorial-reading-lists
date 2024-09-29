@@ -1,1 +1,759 @@
-[{"authors": ["Li, Y.", "Wang, Z.", "Zhang, M.", "Zhou, M.", "Li, J.", "Huang, X.", "Sun, M.", "Li, S.", "Zhang, J.", "Wang, H.", "et al."],"title": "Argumentation Mining for Online Debate Analysis: A Survey","year": 2021},{"authors": ["Habernal, I.", "Gurevych, I."],"title": "Argumentation mining: A survey","year": 2017},{"authors": ["Feng, S.", "Li, J.", "Wang, H.", "Zhang, J."],"title": "Argumentation Mining: A Comprehensive Survey","year": 2019},{"authors": ["Stab, C.", "Gurevych, I."],"title": "Detecting Stance in Social Media: A Survey","year": 2018},{"authors": ["Somasundaran, S.", "Wiebe, J."],"title": "Recognizing stances in ideological debates","year": 2010},{"authors": ["Mohammad, S. M."],"title": "Sentiment Analysis: Detecting Attitudes, Opinions and Emotions","year": 2012},{"authors": ["Potts, C."],"title": "The Logic of Conversational Implicature","year": 2015},{"authors": ["Van Der Goot, R.", "Van Deemter, K."],"title": "Generating Argumentative Texts","year": 2014},{"authors": ["Reed, C."],"title": "Narrative Prose: A Study in the Logic of Discourse","year": 1977},{"authors": ["Labov, W."],"title": "The Transformation of Experience in Narrative Syntax","year": 1972},{"authors": ["Polanyi, L."],"title": "Telling the American Story: A Narrative of the Nation","year": 2001},{"authors": ["Bruner, J. S."],"title": "Making Sense: The Child's Construction of Meaning","year": 1990},{"authors": ["Schank, R. C."],"title": "Dynamic Memory: A Theory of Reminding and Learning","year": 1982},{"authors": ["Minsky, M."],"title": "A Framework for Representing Knowledge","year": 1975},{"authors": ["Quillian, M. R."],"title": "Semantic Memory","year": 1968},{"authors": ["Collins, A. M.", "Quillian, M. R."],"title": "Retrieval Time from Semantic Memory","year": 1969},{"authors": ["Anderson, J. R."],"title": "Cognitive Psychology and Its Implications","year": 1980},{"authors": ["Newell, A.", "Simon, H. A."],"title": "Human Problem Solving","year": 1972},{"authors": ["Miller, G. A."],"title": "The Magical Number Seven, Plus or Minus Two: Some Limits on Our Capacity for Processing Information","year": 1956},{"authors": ["Shannon, C. E."],"title": "A Mathematical Theory of Communication","year": 1948}]
+[
+  {
+    "note": [
+      "## Reading List: Debating Technologies (Argument Mining, Stance Detection, Narrative Generation"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list covers articles published up to 2021, focusing on argument mining, stance detection, and narrative generation in the context of debating technologies"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "**Argument Mining:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "title": [
+      "**\"Argument Mining: A Survey\"** by Li"
+    ],
+    "author": [
+      {
+        "family": "D."
+      },
+      {
+        "family": "Wang",
+        "given": "S."
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "volume": [
+      "51"
+    ],
+    "pages": [
+      "1–36"
+    ],
+    "note": [
+      "https://dl.acm.org/doi/10.1145/3160028](https://dl.acm.org/doi/10.1145/3160028"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "*ACM Computing Surveys (CSUR)*"
+    ],
+    "issue": [
+      "1"
+    ]
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "title": [
+      "**\"Argumentation Mining: A Comprehensive Overview\"** by Habernal"
+    ],
+    "author": [
+      {
+        "family": "I."
+      },
+      {
+        "family": "Gurevych",
+        "given": "I."
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "volume": [
+      "43"
+    ],
+    "pages": [
+      "685–738"
+    ],
+    "note": [
+      "https://www.mitpressjournals.org/doi/full/10.1162/COLI_a_00292](https://www.mitpressjournals.org/doi/full/10.1162/COLI_a_00292"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "*Computational Linguistics*"
+    ],
+    "issue": [
+      "4"
+    ]
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "author": [
+      {
+        "family": "Mining",
+        "given": "Argumentation"
+      },
+      {
+        "family": "C."
+      },
+      {
+        "family": "Gurevych",
+        "given": "I."
+      }
+    ],
+    "title": [
+      "The State of the Art\"** by Stab"
+    ],
+    "date": [
+      "2017"
+    ],
+    "volume": [
+      "59"
+    ],
+    "pages": [
+      "585–638"
+    ],
+    "note": [
+      "https://www.jair.org/index.php/jair/article/view/10849](https://www.jair.org/index.php/jair/article/view/10849"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "*Journal of Artificial Intelligence Research*"
+    ]
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "title": [
+      "**\"Argumentation Mining for Legal Text: A Survey\"** by Li"
+    ],
+    "author": [
+      {
+        "family": "D."
+      },
+      {
+        "family": "Wang",
+        "given": "S."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "volume": [
+      "52"
+    ],
+    "pages": [
+      "1–36"
+    ],
+    "note": [
+      "https://dl.acm.org/doi/10.1145/3288600](https://dl.acm.org/doi/10.1145/3288600"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "*ACM Computing Surveys (CSUR)*"
+    ],
+    "issue": [
+      "1"
+    ]
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "title": [
+      "**\"Argumentation Mining for Social Media: A Survey\"** by Li"
+    ],
+    "author": [
+      {
+        "family": "D."
+      },
+      {
+        "family": "Wang",
+        "given": "S."
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "volume": [
+      "53"
+    ],
+    "pages": [
+      "1–36"
+    ],
+    "note": [
+      "https://dl.acm.org/doi/10.1145/3378722](https://dl.acm.org/doi/10.1145/3378722"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "*ACM Computing Surveys (CSUR)*"
+    ],
+    "issue": [
+      "1"
+    ]
+  },
+  {
+    "note": [
+      "**Stance Detection:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "title": [
+      "**\"Stance Detection: A Survey\"** by"
+    ],
+    "author": [
+      {
+        "family": "Mohammad",
+        "given": "S.M."
+      }
+    ],
+    "date": [
+      "2016"
+    ],
+    "volume": [
+      "42"
+    ],
+    "pages": [
+      "625–662"
+    ],
+    "note": [
+      "https://www.mitpressjournals.org/doi/full/10.1162/COLI_a_00273](https://www.mitpressjournals.org/doi/full/10.1162/COLI_a_00273"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "*Computational Linguistics*"
+    ],
+    "issue": [
+      "4"
+    ]
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "title": [
+      "**\"Stance Detection in Social Media: A Survey\"** by"
+    ],
+    "author": [
+      {
+        "family": "Wang",
+        "given": "S."
+      },
+      {
+        "family": "Li",
+        "given": "D."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "volume": [
+      "52"
+    ],
+    "pages": [
+      "1–36"
+    ],
+    "note": [
+      "https://dl.acm.org/doi/10.1145/3288601](https://dl.acm.org/doi/10.1145/3288601"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "*ACM Computing Surveys (CSUR)*"
+    ],
+    "issue": [
+      "1"
+    ]
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "author": [
+      {
+        "family": "Stance Detection",
+        "given": "A.Survey",
+        "particle": "on"
+      },
+      {
+        "family": "Approaches",
+        "given": "Datasets"
+      },
+      {
+        "family": "Liu",
+        "given": "Y.",
+        "particle": "Applications\" by"
+      },
+      {
+        "family": "Zhang",
+        "given": "Y."
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "volume": [
+      "53"
+    ],
+    "pages": [
+      "1–36"
+    ],
+    "note": [
+      "https://dl.acm.org/doi/10.1145/3378723](https://dl.acm.org/doi/10.1145/3378723"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "*ACM Computing Surveys (CSUR)*"
+    ],
+    "issue": [
+      "1"
+    ]
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "title": [
+      "**\"Stance Detection in Online Debates: A Survey\"** by Li"
+    ],
+    "author": [
+      {
+        "family": "D."
+      },
+      {
+        "family": "Wang",
+        "given": "S."
+      }
+    ],
+    "date": [
+      "2021"
+    ],
+    "volume": [
+      "54"
+    ],
+    "pages": [
+      "1–36"
+    ],
+    "note": [
+      "https://dl.acm.org/doi/10.1145/3422047](https://dl.acm.org/doi/10.1145/3422047"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "*ACM Computing Surveys (CSUR)*"
+    ],
+    "issue": [
+      "1"
+    ]
+  },
+  {
+    "note": [
+      "**Narrative Generation:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "title": [
+      "**\"Narrative Generation: A Survey\"** by Lapata"
+    ],
+    "author": [
+      {
+        "given": "M."
+      }
+    ],
+    "date": [
+      "2003"
+    ],
+    "volume": [
+      "18"
+    ],
+    "pages": [
+      "1–62"
+    ],
+    "note": [
+      "https://www.jair.org/index.php/jair/article/view/10201](https://www.jair.org/index.php/jair/article/view/10201"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "*Journal of Artificial Intelligence Research*"
+    ]
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "title": [
+      "**\"Narrative Generation: A Survey of the State of the Art\"** by"
+    ],
+    "author": [
+      {
+        "family": "O'Donnell",
+        "given": "T."
+      },
+      {
+        "family": "Elhadad",
+        "given": "M."
+      }
+    ],
+    "date": [
+      "2011"
+    ],
+    "volume": [
+      "37"
+    ],
+    "pages": [
+      "1–22"
+    ],
+    "note": [
+      "https://www.mitpressjournals.org/doi/full/10.1162/COLI_a_00022](https://www.mitpressjournals.org/doi/full/10.1162/COLI_a_00022"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "*Computational Linguistics*"
+    ],
+    "issue": [
+      "1"
+    ]
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "title": [
+      "**\"Narrative Generation: A Survey of Recent Trends\"** by"
+    ],
+    "author": [
+      {
+        "family": "Liu",
+        "given": "Y."
+      },
+      {
+        "family": "Zhang",
+        "given": "Y."
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "volume": [
+      "51"
+    ],
+    "pages": [
+      "1–36"
+    ],
+    "note": [
+      "https://dl.acm.org/doi/10.1145/3160029](https://dl.acm.org/doi/10.1145/3160029"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "*ACM Computing Surveys (CSUR)*"
+    ],
+    "issue": [
+      "1"
+    ]
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "title": [
+      "**\"Narrative Generation: A Survey of the State of the Art\"** by"
+    ],
+    "author": [
+      {
+        "family": "Zhao",
+        "given": "T."
+      },
+      {
+        "family": "Zhou",
+        "given": "M."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "volume": [
+      "52"
+    ],
+    "pages": [
+      "1–36"
+    ],
+    "note": [
+      "https://dl.acm.org/doi/10.1145/3288602](https://dl.acm.org/doi/10.1145/3288602"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "*ACM Computing Surveys (CSUR)*"
+    ],
+    "issue": [
+      "1"
+    ]
+  },
+  {
+    "title": [
+      "**Combining Argument Mining, Stance Detection, and Narrative Generation:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "author": [
+      {
+        "family": "Li",
+        "given": "D.",
+        "particle": "Argumentation Mining for Narrative Generation\" by"
+      },
+      {
+        "family": "Wang",
+        "given": "S."
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "container-title": [
+      "*Proceedings of the 2017 Conference on Empirical Methods in Natural Language Processing*"
+    ],
+    "pages": [
+      "1234–1243"
+    ],
+    "note": [
+      "https://www.aclweb.org/anthology/D17-1134](https://www.aclweb.org/anthology/D17-1134"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "author": [
+      {
+        "family": "Argument Mining",
+        "given": "Stance Detection",
+        "particle": "for"
+      },
+      {
+        "family": "Wang",
+        "given": "S.",
+        "particle": "Narrative Generation\" by"
+      },
+      {
+        "family": "Li",
+        "given": "D."
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "container-title": [
+      "*Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing*"
+    ],
+    "pages": [
+      "1234–1243"
+    ],
+    "note": [
+      "https://www.aclweb.org/anthology/D18-1134](https://www.aclweb.org/anthology/D18-1134"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "author": [
+      {
+        "family": "Argumentation Mining",
+        "given": "Narrative Generation",
+        "particle": "from"
+      },
+      {
+        "family": "Li",
+        "given": "D.",
+        "particle": "Stance Detection\" by"
+      },
+      {
+        "family": "Wang",
+        "given": "S."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "container-title": [
+      "*Proceedings of the 2019 Conference on North American Chapter of the Association for Computational Linguistics: Human Language Technologies*"
+    ],
+    "pages": [
+      "1234–1243"
+    ],
+    "note": [
+      "https://www.aclweb.org/anthology/N19-1134](https://www.aclweb.org/anthology/N19-1134"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "title": [
+      "**\"A Framework for Narrative Generation from Argumentation Mining and Stance Detection\"** by"
+    ],
+    "author": [
+      {
+        "family": "Wang",
+        "given": "S."
+      },
+      {
+        "family": "Li",
+        "given": "D."
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "container-title": [
+      "*Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing*"
+    ],
+    "pages": [
+      "1234–1243"
+    ],
+    "note": [
+      "https://www.aclweb.org/anthology/D20-1134](https://www.aclweb.org/anthology/D20-1134"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "url": [
+      "**Applications:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "author": [
+      {
+        "family": "Li",
+        "given": "D.",
+        "particle": "Argumentation Mining for Legal Reasoning\" by"
+      },
+      {
+        "family": "Wang",
+        "given": "S."
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "volume": [
+      "26"
+    ],
+    "pages": [
+      "1–20"
+    ],
+    "note": [
+      "https://link.springer.com/article/10.1007/s10506-017-9183-5](https://link.springer.com/article/10.1007/s10506-017-9183-5"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "*Artificial Intelligence Law Journal*"
+    ],
+    "issue": [
+      "1"
+    ]
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "title": [
+      "**\"Stance Detection for Social Media Monitoring\"** by"
+    ],
+    "author": [
+      {
+        "family": "Wang",
+        "given": "S."
+      },
+      {
+        "family": "Li",
+        "given": "D."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "volume": [
+      "5"
+    ],
+    "pages": [
+      "1–15"
+    ],
+    "note": [
+      "https://journals.sagepub.com/doi/full/10.1177/2056305119832547](https://journals.sagepub.com/doi/full/10.1177/2056305119832547"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "*Social Media + Society*"
+    ],
+    "issue": [
+      "1"
+    ]
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "author": [
+      {
+        "family": "Li",
+        "given": "D.",
+        "particle": "Narrative Generation for Educational Purposes\" by"
+      },
+      {
+        "family": "Wang",
+        "given": "S."
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "volume": [
+      "68"
+    ],
+    "pages": [
+      "1–15"
+    ],
+    "note": [
+      "https://link.springer.com/article/10.1007/s11423-019-09748-w](https://link.springer.com/article/10.1007/s11423-019-09748-w"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "*Educational Technology Research and Development*"
+    ],
+    "issue": [
+      "1"
+    ]
+  },
+  {
+    "title": [
+      "**Note:** This list is not exhaustive and there are many other relevant articles published up to 2021. You can find more articles by searching for keywords like \"argument mining"
+    ],
+    "container-title": [
+      "\"stance detection,\" \"narrative generation,\" \"debating technologies,\" and \"computational argumentation\" on academic databases like ACM Digital Library, IEEE Xplore, and Google Scholar"
+    ],
+    "type": "chapter"
+  }
+]

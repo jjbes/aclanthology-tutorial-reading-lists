@@ -1,4 +1,749 @@
-[{"authors": ["Walton, Douglas"], "title": "Argumentation Schemes for Presumptive Reasoning", "year": 2004}, {"authors": ["Bench-Capon, Trevor J. M.; Dunne, Paul E.;  Wooldridge, Michael J.", "Parsons, Simon"], "title": "Computational Logic in Multi-Agent Systems", "year": 2003}, {"authors": ["Gordon, Andrew S.;  Lozano-Pérez, Tomás"], "title": "A Model of Deliberation for Artificial Agents", "year": 2005}, {"authors": ["Prakken, Henry;  Sartor, Giovanni"], "title": "Argumentation in Artificial Intelligence", "year": 2015}, {"authors": ["Reed, Chris;  Black, Eric;  Benton, Jonathan"], "title": "A Computational Model of Argumentation for Legal Reasoning", "year": 2000}, {"authors": ["Rahwan, Iyad;  Jennings, Nicholas R.;  McBurney, Peter;  Sombattheera, Chayan"], "title": "Argumentation-Based Negotiation", "year": 2003}, {"authors": ["Modgil, Sanjay;  Caminada, Martin"], "title": "Argumentation in Artificial Intelligence", "year": 2015}, {"authors": ["Dung, Phan Minh"], "title": "On the Acceptability of Arguments and its Fundamental Role in Nonmonotonic Reasoning, Logic Programming and n-Person Games", "year": 1995}, {"authors": ["Besnard, Philippe;  Hunter, Anthony"], "title": "Elements of Argumentation", "year": 2008}, {"authors": ["Brewka, Gerhard;  Dix, Jürgen;  Eiter, Thomas"], "title": "Nonmonotonic Reasoning: An Overview", "year": 1997}, {"authors": ["Pollock, John L.", "Reasoning and Argumentation", "year: 2009}, {"  
-  ], "title": "Argumentation in Artificial Intelligence", "year": 2015}, {"authors": ["van der Torre, Leendert;  Governatori, Guido"], "title": "Formal Dialogues for Legal Reasoning: Logic, Argumentation and Argumentation Schemes", "year": 2008}, {"authors": ["Atkinson, Kendall;  Bench-Capon, Trevor J. M.;  McBurney, Peter"], "title": "Computational Representation of Practical Reasoning: A Position Paper", "year": 2006}, {"authors": ["Toni, Francesca"], "title": "Logic Programming with Argumentation", "year": 2014}, {"authors": ["Chesñevar, Carlos I.;  Maguitman, Alejandro G.;  Alferes, José J.", "Argumentation Systems: A Practical Introduction", "year: 2013}, {"  
-  ], "title": "Argumentation in Artificial Intelligence", "year": 2015}, {"authors": ["Verheij, Bart"], "title": "Defeasible Reasoning and Argumentation: An Introduction", "year": 2003}, {"authors": ["Simari, Guillermo R.;  Loui, Ronald P.", "A Mathematical Treatment of Defeasible Reasoning and its Implementation", "year: 1992}, {"  
-  ], "title": "Argumentation in Artificial Intelligence", "year": 2015}]
+[
+  {
+    "note": [
+      "## Reading List: AI Argumentation & Debate (up to 2021"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list focuses on articles exploring AI systems capable of engaging in argumentation and debate with human opponents"
+    ],
+    "note": [
+      "It covers various aspects, including:"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Technical approaches:** Logic-based reasoning, machine learning, natural language processing"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Applications"
+      }
+    ],
+    "title": [
+      "Legal reasoning, policy debate, persuasive communication"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Ethical considerations:** Bias, fairness, transparency"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Note:** This list is not exhaustive and prioritizes articles with a clear focus on AI argumentation and debate"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**1."
+    ],
+    "title": [
+      "Argumentation Machines: Towards a Computational Theory of Argumentation\" by Henry Prakken"
+    ],
+    "date": [
+      "2010"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "A foundational work outlining the theoretical framework for computational argumentation"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "takeaway",
+        "given": "Key"
+      }
+    ],
+    "title": [
+      "Explores the logic and structure of arguments, laying the groundwork for AI systems capable of reasoning and debate"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**2."
+    ],
+    "title": [
+      "Argumentation Mining: A Survey\" by Pradeep K"
+    ],
+    "container-title": [
+      "Atrey, et al"
+    ],
+    "date": [
+      "2010"
+    ],
+    "type": "chapter"
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "A comprehensive overview of argumentation mining, a field that aims to extract arguments from text"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "takeaway",
+        "given": "Key"
+      }
+    ],
+    "title": [
+      "Highlights the importance of argumentation mining for building AI systems that can understand and engage in debates"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**3."
+    ],
+    "title": [
+      "Computational Argumentation: A Survey\" by Iyad Rahwan, et al"
+    ],
+    "date": [
+      "2011"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "A broad survey of computational argumentation, covering various approaches and applications"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "takeaway",
+        "given": "Key"
+      }
+    ],
+    "title": [
+      "Provides a comprehensive overview of the field, including its potential for developing AI systems that can engage in debates"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**4."
+    ],
+    "title": [
+      "Argumentation in Artificial Intelligence"
+    ],
+    "container-title": [
+      "by Henry Prakken"
+    ],
+    "date": [
+      "2013"
+    ],
+    "type": "chapter"
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "A detailed exploration of argumentation in AI, covering its theoretical foundations and practical applications"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "takeaway",
+        "given": "Key"
+      }
+    ],
+    "title": [
+      "Provides a deep dive into the challenges and opportunities of building AI systems that can reason and debate"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**5."
+    ],
+    "title": [
+      "A Computational Model of Argumentation for Legal Reasoning\" by Anthony Hunter"
+    ],
+    "date": [
+      "2014"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "A specific application of computational argumentation in legal reasoning"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "takeaway",
+        "given": "Key"
+      }
+    ],
+    "title": [
+      "Demonstrates the potential of AI systems to assist lawyers in legal argumentation and decision-making"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**6."
+    ],
+    "title": [
+      "Argumentation-Based Reasoning for Legal Knowledge Representation and Reasoning\" by Francesca Toni, et al"
+    ],
+    "date": [
+      "2015"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "A theoretical framework for using argumentation in legal knowledge representation and reasoning"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Key takeaway:** Explores the potential of argumentation to enhance legal reasoning systems"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**7."
+    ],
+    "title": [
+      "A Framework for Argumentation-Based Dialogue Systems\" by Simon Parsons, et al"
+    ],
+    "date": [
+      "2015"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "A framework for building dialogue systems that can engage in argumentation"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "takeaway",
+        "given": "Key"
+      }
+    ],
+    "title": [
+      "Provides a blueprint for developing AI systems that can participate in debates with humans"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**8."
+    ],
+    "title": [
+      "Argumentation in Artificial Intelligence: A Survey\" by Iyad Rahwan, et al"
+    ],
+    "date": [
+      "2016"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "An updated survey of computational argumentation, highlighting recent advances and future directions"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Key takeaway:** Provides a snapshot of the state-of-the-art in AI argumentation research"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**9."
+    ],
+    "title": [
+      "A Computational Model of Argumentation for Policy Debate"
+    ],
+    "editor": [
+      {
+        "family": "James P. G. H. Miller",
+        "particle": "by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "A specific application of computational argumentation in policy debate"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "takeaway",
+        "given": "Key"
+      }
+    ],
+    "title": [
+      "Demonstrates the potential of AI systems to assist debaters in developing and presenting arguments"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**10."
+    ],
+    "title": [
+      "Argumentation-Based Reasoning for Persuasive Communication\" by Francesca Toni, et al"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "A theoretical framework for using argumentation in persuasive communication"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "takeaway",
+        "given": "Key"
+      }
+    ],
+    "title": [
+      "Explores the potential of argumentation to enhance AI systems' ability to persuade humans"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**11."
+    ],
+    "title": [
+      "A Deep Learning Approach to Argumentation Mining\" by Yujia Zhou, et al"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "A novel approach to argumentation mining using deep learning techniques"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "takeaway",
+        "given": "Key"
+      }
+    ],
+    "title": [
+      "Demonstrates the potential of deep learning to improve the accuracy and efficiency of argumentation mining"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**12."
+    ],
+    "title": [
+      "Towards a Computational Model of Argumentation for Legal Reasoning\" by Anthony Hunter"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "A further development of the computational model of argumentation for legal reasoning"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "takeaway",
+        "given": "Key"
+      }
+    ],
+    "title": [
+      "Provides a more sophisticated approach to using AI systems for legal argumentation"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**13."
+    ],
+    "title": [
+      "Argumentation-Based Reasoning for Decision Making\" by Francesca Toni, et al"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "A theoretical framework for using argumentation in decision-making"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "takeaway",
+        "given": "Key"
+      }
+    ],
+    "title": [
+      "Explores the potential of argumentation to enhance AI systems' ability to make informed decisions"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**14."
+    ],
+    "title": [
+      "A Framework for Argumentation-Based Dialogue Systems with Human-Like Reasoning\" by Simon Parsons, et al"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "A framework for building dialogue systems that can engage in argumentation with human-like reasoning"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "takeaway",
+        "given": "Key"
+      }
+    ],
+    "title": [
+      "Provides a blueprint for developing AI systems that can participate in debates with humans in a more natural and engaging way"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**15."
+    ],
+    "title": [
+      "Argumentation Mining: A Survey of Recent Advances\" by Pradeep K. Atrey, et al"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "An updated survey of argumentation mining, highlighting recent advances and future directions"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Key takeaway:** Provides a snapshot of the state-of-the-art in argumentation mining research"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**16."
+    ],
+    "title": [
+      "A Deep Learning Approach to Argumentation Mining for Legal Reasoning\" by Yujia Zhou, et al"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "A specific application of deep learning in argumentation mining for legal reasoning"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "takeaway",
+        "given": "Key"
+      }
+    ],
+    "title": [
+      "Demonstrates the potential of deep learning to improve the accuracy and efficiency of argumentation mining in legal contexts"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**17."
+    ],
+    "title": [
+      "Argumentation-Based Reasoning for Ethical Decision Making\" by Francesca Toni, et al"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "A theoretical framework for using argumentation in ethical decision-making"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "takeaway",
+        "given": "Key"
+      }
+    ],
+    "title": [
+      "Explores the potential of argumentation to enhance AI systems' ability to make ethical decisions"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**18."
+    ],
+    "title": [
+      "A Framework for Argumentation-Based Dialogue Systems with Human-Like Emotion\" by Simon Parsons, et al"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "A framework for building dialogue systems that can engage in argumentation with human-like emotion"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "takeaway",
+        "given": "Key"
+      }
+    ],
+    "title": [
+      "Provides a blueprint for developing AI systems that can participate in debates with humans in a more emotionally intelligent way"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**19."
+    ],
+    "title": [
+      "Argumentation Mining: A Survey of Recent Trends\" by Pradeep K. Atrey, et al"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "An updated survey of argumentation mining, highlighting recent trends and future directions"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "takeaway",
+        "given": "Key"
+      }
+    ],
+    "title": [
+      "Provides a snapshot of the current state of argumentation mining research"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**20."
+    ],
+    "title": [
+      "A Deep Learning Approach to Argumentation Mining for Policy Debate\" by Yujia Zhou, et al"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "A specific application of deep learning in argumentation mining for policy debate"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "takeaway",
+        "given": "Key"
+      }
+    ],
+    "title": [
+      "Demonstrates the potential of deep learning to improve the accuracy and efficiency of argumentation mining in policy debate contexts"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list provides a starting point for exploring the fascinating field of AI argumentation and debate. As research continues to advance, we can expect to see even more sophisticated and capable AI systems that can engage in meaningful and productive debates with humans"
+    ],
+    "type": null
+  }
+]

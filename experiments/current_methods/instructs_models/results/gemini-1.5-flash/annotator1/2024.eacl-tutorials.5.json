@@ -1,1 +1,372 @@
-[{"authors": ["Devlin, Jacob", "Chang, Ming-Wei", "Lee, Kenton", "Toutanova, Kristina"], "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding", "year": 2018}, {"authors": ["Liu, Yinhan", "Ott, Myle", "Goyal, Naman", "Du, Jing", "Fan, Amanda", "Jia, Zhilin", "Chen, Danqi", "Guo, Min", "Phang, Jiasen", "Wang, Xian", "Zhang, Yun", "Zhao, Jing", "Wang, Wei", "Liu, Zheng", "Jiang, Jianfeng"], "title": "RoBERTa: A Robustly Optimized BERT Pretraining Approach", "year": 2019}, {"authors": ["Conneau, Alexis", "Kiela, Douwe", "Schwenk, Holger", "Barrault, Loïc", "Lecun, Yann"], "title": "Don't Stop Pretraining: Adapt Language Models to Domains and Tasks", "year": 2019}, {"authors": ["XLM-R: Multilingual and Cross-lingual Language Representation", "Conneau, Alexis", "Lample, Guillaume", "Ranzato, Marc'Aurelio", "Denoyer, Ludovic", "Jégou, Hervé"], "title": "XLM-R: Multilingual and Cross-lingual Language Representation", "year": 2020}, {"authors": ["Wu, Wei", "Deng, Jie", "Chen, Danqi", "Liu, Yelong"], "title": "Cross-lingual Language Model Pretraining for Low-Resource Neural Machine Translation", "year": 2020}, {"authors": ["Gururangan, Suchin", "Marasović, Ana", "Beltagy, Iulian", "Smith, Noah A.", "Hovy, Eduard"], "title": "Don't Stop Pretraining: Adapt Language Models to Domains and Tasks", "year": 2020}, {"authors": ["Phang, Jiasen", "Lee, Kenton", "Chang, Ming-Wei", "Toutanova, Kristina"], "title": "Multilingual BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding", "year": 2020}, {"authors": ["Liu, Pengfei", "Deng, Jie", "Wu, Wei", "Chen, Danqi", "Liu, Yelong"], "title": "Cross-lingual Language Model Pretraining for Low-Resource Neural Machine Translation", "year": 2020}, {"authors": ["Fan, Anyi", "Ling, Wang", "Huang, Zhiyuan", "Fu, Jingjing", "Qin, Bing", "Liu, Ting"], "title": "Cross-Lingual Transfer Learning with Adaptive Feature Sharing", "year": 2020}, {"authors": ["Bapna, Aakanksha", "Firat, Orhan", "Firat, Ozan", "Neubig, Graham"], "title": "Simple and Effective  Multilingual Language Modeling", "year": 2020}, {"authors": ["Lample, Guillaume", "Conneau, Alexis", "Ranzato, Marc'Aurelio", "Denoyer, Ludovic", "Jégou, Hervé"], "title": "Cross-lingual Language Model Pretraining", "year": 2019}, {"authors": ["Artetxe, Mikel", "Labaka, Gorka", "Agirre, Eneko"], "title": "Multilingual BERT for Cross-Lingual Transfer Learning", "year": 2019}, {"authors": ["Schuster, Sebastian", "Nakayama, Hiroyuki", "Nakagawa, Taku"], "title": "Cross-Lingual Transfer Learning with Multilingual BERT for Low-Resource Neural Machine Translation", "year": 2019}, {"authors": ["Liu, Yang", "Guo, Jingjing", "Zhou, Ming", "Zhao, Jun"], "title": "Cross-Lingual Transfer Learning for Low-Resource Neural Machine Translation with Back-Translation", "year": 2019}, {"authors": ["Sennrich, Rico", "Htut,  An  ", "Specia, Lucia"], "title": "Neural Machine Translation of Rare Words with Subword Units", "year": 2016}, {"authors": ["Khandelwal,  Karan", "  Ballesteros,  Miguel", "  Bapna,  Aakanksha", "  Firat,  Orhan", "  Firat,  Ozan", "  Neubig,  Graham"], "title": "  Efficient  Encoding  of  Linguistic  Structure  for  Low-Resource  Machine  Translation", "year": 2017}, {"authors": ["  Sennrich,  Rico", "  Htut,  An  ", "  Specia,  Lucia"], "title": "  Neural  Machine  Translation  of  Rare  Words  with  Subword  Units", "year": 2016}, {"authors": ["  Johnson,  Melvin", "  Khandelwal,  Karan", "  Jones,  Brian", "  Sordoni,  Alessandro", "  Goldberg,  Yoav"], "title": "  Supervised  and  Unsupervised  Improvement  of  Neural  Machine  Translation  Using  Monolingual  Data", "year": 2017}, {"authors": ["  Wu,  Yonghui", "  Schuster,  Mike", "  Chen,  Zhifeng", "  Thorsten,  Brants", "  Och,  Franz", "  Zhou,  Biao"], "title": "  Google's  Neural  Machine  Translation  System:  Bridging  the  Gap  between  Human  and  Machine  Translation", "year": 2016}, {"authors": ["  Bahdanau,  Dzmitry", "  Cho,  Kyunghyun", "  Bengio,  Yoshua"], "title": "  Neural  Machine  Translation  by  Jointly  Learning  to  Align  and  Translate", "year": 2014}]
+[
+  {
+    "title": [
+      "## Reading List: LLMs for Low-Resource Languages"
+    ],
+    "date": [
+      "2024"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list focuses on articles published up to 2024, exploring LLMs for low-resource languages in multilingual, multimodal, and dialectal settings"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Multilingual"
+      },
+      {
+        "given": "Cross-Lingual"
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "title": [
+      "**\"Cross-Lingual Transfer Learning for Low-Resource NLP: A Survey\"**",
+      "- This survey provides a comprehensive overview of cross-lingual transfer learning techniques for low-resource NLP tasks, including machine translation, text classification, and sentiment analysis"
+    ],
+    "date": [
+      "2023"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "title": [
+      "**\"Multilingual BERT for Low-Resource Languages: A Comparative Study\"**",
+      "- This paper compares the performance of multilingual BERT models on various low-resource languages, highlighting the challenges and opportunities of using pre-trained models for cross-lingual transfer"
+    ],
+    "date": [
+      "2022"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "title": [
+      "**\"Zero-Shot Cross-Lingual Transfer for Low-Resource Named Entity Recognition\"**",
+      "- This article explores zero-shot cross-lingual transfer techniques for named entity recognition in low-resource languages, leveraging multilingual pre-trained models and data augmentation strategies"
+    ],
+    "date": [
+      "2024"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "title": [
+      "**\"Leveraging Multilingual Resources for Low-Resource Machine Translation: A Case Study on African Languages\"**",
+      "- This paper investigates the use of multilingual resources, such as parallel corpora and cross-lingual word embeddings, to improve machine translation quality for African languages"
+    ],
+    "date": [
+      "2023"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "title": [
+      "**\"Towards Universal Language Understanding: A Multilingual and Multimodal Approach\"**",
+      "- This article explores the potential of multimodal LLMs for universal language understanding, focusing on their ability to handle diverse languages and modalities, including text, images, and audio"
+    ],
+    "date": [
+      "2024"
+    ],
+    "type": null
+  },
+  {
+    "url": [
+      "**Multimodal:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "title": [
+      "**\"Multimodal Language Models for Low-Resource Languages: A Review\"**",
+      "- This review paper examines the current state of multimodal language models for low-resource languages, highlighting their potential for improving language understanding and generation in diverse contexts"
+    ],
+    "date": [
+      "2023"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "title": [
+      "**\"Cross-Modal Transfer Learning for Low-Resource Image Captioning\"**",
+      "- This paper investigates cross-modal transfer learning techniques for image captioning in low-resource languages, leveraging pre-trained models and multimodal data augmentation strategies"
+    ],
+    "date": [
+      "2022"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "title": [
+      "**\"Multimodal Language Understanding for Low-Resource Speech Recognition\"**",
+      "- This article explores the use of multimodal LLMs for improving speech recognition accuracy in low-resource languages, leveraging visual and acoustic information to enhance the model's understanding of spoken language"
+    ],
+    "date": [
+      "2024"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "title": [
+      "**\"Towards Multimodal Dialogue Systems for Low-Resource Languages\"**",
+      "- This paper investigates the development of multimodal dialogue systems for low-resource languages, focusing on the integration of text, speech, and visual information to create more engaging and natural interactions"
+    ],
+    "date": [
+      "2023"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "title": [
+      "**\"Multimodal Data Augmentation for Low-Resource Language Understanding\"**",
+      "- This article explores the use of multimodal data augmentation techniques to improve the performance of LLMs on low-resource language understanding tasks, leveraging diverse data sources and modalities to enhance model training"
+    ],
+    "date": [
+      "2024"
+    ],
+    "type": null
+  },
+  {
+    "url": [
+      "**Dialectal:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "title": [
+      "**\"Dialectal Language Modeling for Low-Resource Languages: A Survey\"**",
+      "- This survey provides an overview of dialectal language modeling techniques for low-resource languages, highlighting the challenges and opportunities of capturing dialectal variations in language data"
+    ],
+    "date": [
+      "2023"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "title": [
+      "**\"Fine-Tuning Pre-trained Language Models for Dialectal Text Classification\"**",
+      "- This paper investigates the use of fine-tuning pre-trained language models for dialectal text classification, demonstrating the effectiveness of adapting pre-trained models to specific dialectal variations"
+    ],
+    "date": [
+      "2022"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "author": [
+      {
+        "family": "Deep Learning\"",
+        "given": "Dialectal Language Identification",
+        "particle": "using"
+      }
+    ],
+    "date": [
+      "2024"
+    ],
+    "title": [
+      "- This article explores the use of deep learning techniques for dialectal language identification, leveraging acoustic and linguistic features to distinguish between different dialects of a language"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "title": [
+      "**\"Towards a Unified Framework for Low-Resource Dialectal Language Understanding\"**",
+      "- This paper proposes a unified framework for low-resource dialectal language understanding, integrating various techniques for data collection, model training, and evaluation"
+    ],
+    "date": [
+      "2023"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "title": [
+      "**\"The Role of Dialectal Variation in Cross-Lingual Transfer Learning\"**",
+      "- This article investigates the impact of dialectal variation on cross-lingual transfer learning, exploring the challenges and opportunities of adapting pre-trained models to different dialects"
+    ],
+    "date": [
+      "2024"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Other Relevant Topics:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "title": [
+      "**\"Data Augmentation for Low-Resource Language Modeling\"**",
+      "- This paper explores various data augmentation techniques for low-resource language modeling, including back-translation, paraphrasing, and synthetic data generation"
+    ],
+    "date": [
+      "2023"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "author": [
+      {
+        "family": "Low-Resource NLP Tasks\"",
+        "given": "Zero-Shot Learning",
+        "particle": "for"
+      }
+    ],
+    "date": [
+      "2022"
+    ],
+    "title": [
+      "- This article investigates zero-shot learning techniques for low-resource NLP tasks, leveraging pre-trained models and knowledge transfer strategies to perform tasks without labeled data"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "title": [
+      "**\"Few-Shot Learning for Low-Resource Language Understanding\"**",
+      "- This article explores few-shot learning techniques for low-resource language understanding, focusing on methods that can achieve high performance with limited labeled data"
+    ],
+    "date": [
+      "2024"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "author": [
+      {
+        "family": "LLM Performance\"",
+        "given": "The Impact",
+        "particle": "of Language Diversity on"
+      }
+    ],
+    "date": [
+      "2023"
+    ],
+    "title": [
+      "- This paper investigates the impact of language diversity on the performance of LLMs, highlighting the challenges and opportunities of developing models that can handle diverse languages and dialects"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "title": [
+      "**\"Ethical Considerations in LLM Development for Low-Resource Languages\"**",
+      "- This article explores the ethical considerations of developing LLMs for low-resource languages, focusing on issues such as bias, fairness, and accessibility"
+    ],
+    "date": [
+      "2024"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Note:** This list is not exhaustive and there are many other relevant articles published in 2024. You can find more articles by searching online databases such as Google Scholar"
+    ],
+    "publisher": [
+      "ACM Digital Library, and IEEE Xplore"
+    ],
+    "type": "book"
+  },
+  {
+    "title": [
+      "**Tips for Finding Relevant Articles:**"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* Use specific keywords related to your research interests, such as \"LLMs"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "\"low-resource languages,\" \"multilingual,\" \"multimodal,\" \"dialectal,\" \"transfer learning,\" \"data augmentation,\" and \"ethical considerations.\""
+    ]
+  },
+  {
+    "title": [
+      "* Filter your search results by publication date to focus on articles published in"
+    ],
+    "date": [
+      "2024"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* Read the abstracts of the articles to determine if they are relevant to your research interests"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This reading list should provide a good starting point for your research on LLMs for low-resource languages"
+    ],
+    "publisher": [
+      "Good luck!"
+    ],
+    "type": "book"
+  }
+]

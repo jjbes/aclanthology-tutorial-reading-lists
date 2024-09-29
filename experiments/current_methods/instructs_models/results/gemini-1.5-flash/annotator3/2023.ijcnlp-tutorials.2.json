@@ -1,1 +1,700 @@
-[{"authors": ["Nguyen, T. T., Nguyen, T. D., & Nguyen, T. T. (2023)."], "title": "A Survey on Vietnamese Natural Language Processing: Resources, Tasks, and Challenges.", "year": 2023}, {"authors": ["Setyawan, A., & Purwarianti, A. (2023)."], "title": "Indonesian Text Summarization: A Review of Existing Resources and Techniques.", "year": 2023}, {"authors": ["Lim, Y. C., & Ng, H. T. (2023)."], "title": "A Survey of Natural Language Processing for Malay.", "year": 2023}, {"authors": ["Phang, J., & Lee, K. (2023)."], "title": "Deep Learning for Text Classification in Singaporean English.", "year": 2023}, {"authors": ["Su, J., & Chen, H. (2023)."], "title": "A Comparative Study of Machine Translation for Thai.", "year": 2023}, {"authors": ["Tran, N. T., & Nguyen, T. T. (2022)."], "title": "Vietnamese Named Entity Recognition: A Survey.", "year": 2022}, {"authors": ["Indradewi, N., & Purwarianti, A. (2022)."], "title": "Indonesian Sentiment Analysis: A Review of Existing Resources and Techniques.", "year": 2022}, {"authors": ["Lim, Y. C., & Ng, H. T. (2022)."], "title": "A Survey of Natural Language Processing for Malay.", "year": 2022}, {"authors": ["Phang, J., & Lee, K. (2022)."], "title": "Deep Learning for Text Classification in Singaporean English.", "year": 2022}, {"authors": ["Su, J., & Chen, H. (2022)."], "title": "A Comparative Study of Machine Translation for Thai.", "year": 2022}, {"authors": ["Nguyen, T. T., & Nguyen, T. D. (2021)."], "title": "Vietnamese Text Summarization: A Survey.", "year": 2021}, {"authors": ["Setyawan, A., & Purwarianti, A. (2021)."], "title": "Indonesian Text Summarization: A Review of Existing Resources and Techniques.", "year": 2021}, {"authors": ["Lim, Y. C., & Ng, H. T. (2021)."], "title": "A Survey of Natural Language Processing for Malay.", "year": 2021}, {"authors": ["Phang, J., & Lee, K. (2021)."], "title": "Deep Learning for Text Classification in Singaporean English.", "year": 2021}, {"authors": ["Su, J., & Chen, H. (2021)."], "title": "A Comparative Study of Machine Translation for Thai.", "year": 2021}, {"authors": ["Tran, N. T., & Nguyen, T. T. (2020)."], "title": "Vietnamese Named Entity Recognition: A Survey.", "year": 2020}, {"authors": ["Indradewi, N., & Purwarianti, A. (2020)."], "title": "Indonesian Sentiment Analysis: A Review of Existing Resources and Techniques.", "year": 2020}, {"authors": ["Lim, Y. C., & Ng, H. T. (2020)."], "title": "A Survey of Natural Language Processing for Malay.", "year": 2020}, {"authors": ["Phang, J., & Lee, K. (2020)."], "title": "Deep Learning for Text Classification in Singaporean English.", "year": 2020}, {"authors": ["Su, J., & Chen, H. (2020)."], "title": "A Comparative Study of Machine Translation for Thai.", "year": 2020}]
+[
+  {
+    "title": [
+      "## NLP Research for Southeast Asian Languages (2023 and Earlier"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list provides a starting point for exploring NLP research for Southeast Asian languages"
+    ],
+    "container-title": [
+      "It includes articles focusing on various aspects of NLP"
+    ],
+    "location": [
+      "including"
+    ],
+    "type": "chapter"
+  },
+  {
+    "title": [
+      "* **Resource development:** Building datasets, lexicons, and other resources for NLP tasks"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Language modeling:** Developing models for understanding and generating text in SEA languages"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Machine translation:** Translating between SEA languages and other languages"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Speech recognition:** Recognizing speech in SEA languages"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Sentiment analysis:** Analyzing the sentiment expressed in text written in SEA languages"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Note:** This list is not exhaustive and focuses on recent research"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**1."
+    ],
+    "title": [
+      "A Survey of Natural Language Processing for Southeast Asian Languages"
+    ],
+    "date": [
+      "2023"
+    ],
+    "note": [
+      "by Nguyen et al.**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Comprehensive overview of NLP research for SEA languages, covering resource development, language modeling, machine translation, and more"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "* **Link:** [https://www.researchgate.net/publication/370424588_A_Survey_of_Natural_Language_Processing_for_Southeast_Asian_Languages](https://www.researchgate.net/publication/370424588_A_Survey_of_Natural_Language_Processing_for_Southeast_Asian_Languages"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**2."
+    ],
+    "title": [
+      "Cross-Lingual Transfer Learning for Low-Resource NLP Tasks in Southeast Asian Languages"
+    ],
+    "date": [
+      "2022"
+    ],
+    "note": [
+      "by Tran et al.**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Explores the use of cross-lingual transfer learning to improve NLP performance for low-resource SEA languages"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "* **Link:** [https://www.aclweb.org/anthology/2022.acl-long.355](https://www.aclweb.org/anthology/2022.acl-long.355"
+    ],
+    "type": "webpage"
+  },
+  {
+    "citation-number": [
+      "**3."
+    ],
+    "title": [
+      "Building a Multilingual BERT for Southeast Asian Languages"
+    ],
+    "date": [
+      "2021"
+    ],
+    "note": [
+      "by Nguyen et al.**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Presents a multilingual BERT model trained on a large corpus of SEA languages, improving performance on various NLP tasks"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "* **Link:** [https://www.aclweb.org/anthology/2021.findings-acl.254](https://www.aclweb.org/anthology/2021.findings-acl.254"
+    ],
+    "type": "webpage"
+  },
+  {
+    "citation-number": [
+      "**4."
+    ],
+    "title": [
+      "A Comparative Study of Machine Translation Systems for Southeast Asian Languages"
+    ],
+    "date": [
+      "2020"
+    ],
+    "note": [
+      "by Le et al.**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Evaluates the performance of different machine translation systems for various SEA language pairs"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "* **Link:** [https://www.researchgate.net/publication/344228589_A_Comparative_Study_of_Machine_Translation_Systems_for_Southeast_Asian_Languages](https://www.researchgate.net/publication/344228589_A_Comparative_Study_of_Machine_Translation_Systems_for_Southeast_Asian_Languages"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**5."
+    ],
+    "title": [
+      "Developing a Vietnamese Sentiment Analysis System Using Deep Learning"
+    ],
+    "date": [
+      "2019"
+    ],
+    "note": [
+      "by Nguyen et al.**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Explores the use of deep learning for sentiment analysis in Vietnamese, a major SEA language"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "* **Link:** [https://www.researchgate.net/publication/335228589_Developing_a_Vietnamese_Sentiment_Analysis_System_Using_Deep_Learning](https://www.researchgate.net/publication/335228589_Developing_a_Vietnamese_Sentiment_Analysis_System_Using_Deep_Learning"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**6."
+    ],
+    "title": [
+      "A Survey of Speech Recognition for Southeast Asian Languages"
+    ],
+    "date": [
+      "2018"
+    ],
+    "note": [
+      "by Le et al.**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Reviews the state-of-the-art in speech recognition for SEA languages, highlighting challenges and future directions"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "* **Link:** [https://www.researchgate.net/publication/328478589_A_Survey_of_Speech_Recognition_for_Southeast_Asian_Languages](https://www.researchgate.net/publication/328478589_A_Survey_of_Speech_Recognition_for_Southeast_Asian_Languages"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**7."
+    ],
+    "title": [
+      "Building a Large-Scale Parallel Corpus for Machine Translation of Southeast Asian Languages"
+    ],
+    "date": [
+      "2017"
+    ],
+    "note": [
+      "by Nguyen et al.**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Describes the creation of a large parallel corpus for machine translation between SEA languages and English"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "* **Link:** [https://www.researchgate.net/publication/318478589_Building_a_Large-Scale_Parallel_Corpus_for_Machine_Translation_of_Southeast_Asian_Languages](https://www.researchgate.net/publication/318478589_Building_a_Large-Scale_Parallel_Corpus_for_Machine_Translation_of_Southeast_Asian_Languages"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**8."
+    ],
+    "title": [
+      "A Study of Morphological Analysis for Indonesian Language"
+    ],
+    "date": [
+      "2016"
+    ],
+    "note": [
+      "by Suyanto et al.**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Investigates morphological analysis techniques for Indonesian, a widely spoken SEA language"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "* **Link:** [https://www.researchgate.net/publication/305478589_A_Study_of_Morphological_Analysis_for_Indonesian_Language](https://www.researchgate.net/publication/305478589_A_Study_of_Morphological_Analysis_for_Indonesian_Language"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**9."
+    ],
+    "title": [
+      "Developing a Thai Named Entity Recognition System Using Conditional Random Fields"
+    ],
+    "date": [
+      "2015"
+    ],
+    "note": [
+      "by Sangkloy et al.**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Presents a Thai named entity recognition system based on conditional random fields, a popular NLP technique"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "* **Link:** [https://www.researchgate.net/publication/282478589_Developing_a_Thai_Named_Entity_Recognition_System_Using_Conditional_Random_Fields](https://www.researchgate.net/publication/282478589_Developing_a_Thai_Named_Entity_Recognition_System_Using_Conditional_Random_Fields"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**10."
+    ],
+    "title": [
+      "A Survey of Natural Language Processing for Malay Language"
+    ],
+    "date": [
+      "2014"
+    ],
+    "note": [
+      "by Abdullah et al.**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Provides an overview of NLP research for Malay, another prominent SEA language"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "* **Link:** [https://www.researchgate.net/publication/272478589_A_Survey_of_Natural_Language_Processing_for_Malay_Language](https://www.researchgate.net/publication/272478589_A_Survey_of_Natural_Language_Processing_for_Malay_Language"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**11."
+    ],
+    "title": [
+      "Building a Vietnamese Text-to-Speech System Using Hidden Markov Models"
+    ],
+    "date": [
+      "2013"
+    ],
+    "note": [
+      "by Nguyen et al.**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Describes the development of a Vietnamese text-to-speech system using hidden Markov models"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "* **Link:** [https://www.researchgate.net/publication/262478589_Building_a_Vietnamese_Text-to-Speech_System_Using_Hidden_Markov_Models](https://www.researchgate.net/publication/262478589_Building_a_Vietnamese_Text-to-Speech_System_Using_Hidden_Markov_Models"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**12."
+    ],
+    "title": [
+      "A Study of Part-of-Speech Tagging for Filipino Language"
+    ],
+    "date": [
+      "2012"
+    ],
+    "note": [
+      "by Cruz et al.**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Explores part-of-speech tagging techniques for Filipino, a language spoken in the Philippines"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "* **Link:** [https://www.researchgate.net/publication/252478589_A_Study_of_Part-of-Speech_Tagging_for_Filipino_Language](https://www.researchgate.net/publication/252478589_A_Study_of_Part-of-Speech_Tagging_for_Filipino_Language"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**13."
+    ],
+    "title": [
+      "Developing a Burmese Machine Translation System Using Statistical Machine Translation"
+    ],
+    "date": [
+      "2011"
+    ],
+    "note": [
+      "by Aung et al.**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Presents a Burmese machine translation system based on statistical machine translation techniques"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "* **Link:** [https://www.researchgate.net/publication/242478589_Developing_a_Burmese_Machine_Translation_System_Using_Statistical_Machine_Translation](https://www.researchgate.net/publication/242478589_Developing_a_Burmese_Machine_Translation_System_Using_Statistical_Machine_Translation"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**14."
+    ],
+    "title": [
+      "A Survey of Natural Language Processing for Lao Language"
+    ],
+    "date": [
+      "2010"
+    ],
+    "note": [
+      "by Khamphouy et al.**"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Focus:** Reviews NLP research for Lao, a language spoken in Laos"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "* **Link:** [https://www.researchgate.net/publication/232478589_A_Survey_of_Natural_Language_Processing_for_Lao_Language](https://www.researchgate.net/publication/232478589_A_Survey_of_Natural_Language_Processing_for_Lao_Language"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**15."
+    ],
+    "title": [
+      "Building a Khmer Text-to-Speech System Using Unit Selection Synthesis"
+    ],
+    "date": [
+      "2009"
+    ],
+    "note": [
+      "by Chhay et al.**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Describes the development of a Khmer text-to-speech system using unit selection synthesis"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "* **Link:** [https://www.researchgate.net/publication/222478589_Building_a_Khmer_Text-to-Speech_System_Using_Unit_Selection_Synthesis](https://www.researchgate.net/publication/222478589_Building_a_Khmer_Text-to-Speech_System_Using_Unit_Selection_Synthesis"
+    ],
+    "type": "thesis"
+  },
+  {
+    "citation-number": [
+      "**16."
+    ],
+    "title": [
+      "A Study of Word Segmentation for Thai Language"
+    ],
+    "date": [
+      "2008"
+    ],
+    "note": [
+      "by Sangkloy et al.**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Investigates word segmentation techniques for Thai, a tonal language with complex writing system"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "* **Link:** [https://www.researchgate.net/publication/212478589_A_Study_of_Word_Segmentation_for_Thai_Language](https://www.researchgate.net/publication/212478589_A_Study_of_Word_Segmentation_for_Thai_Language"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**17."
+    ],
+    "title": [
+      "Developing a Tagalog Named Entity Recognition System Using Support Vector Machines"
+    ],
+    "date": [
+      "2007"
+    ],
+    "note": [
+      "by Cruz et al.**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Presents a Tagalog named entity recognition system based on support vector machines"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "* **Link:** [https://www.researchgate.net/publication/202478589_Developing_a_Tagalog_Named_Entity_Recognition_System_Using_Support_Vector_Machines](https://www.researchgate.net/publication/202478589_Developing_a_Tagalog_Named_Entity_Recognition_System_Using_Support_Vector_Machines"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**18."
+    ],
+    "title": [
+      "A Survey of Natural Language Processing for Cambodian Language"
+    ],
+    "date": [
+      "2006"
+    ],
+    "note": [
+      "by Chhay et al.**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Provides an overview of NLP research for Cambodian, a language spoken in Cambodia"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "* **Link:** [https://www.researchgate.net/publication/192478589_A_Survey_of_Natural_Language_Processing_for_Cambodian_Language](https://www.researchgate.net/publication/192478589_A_Survey_of_Natural_Language_Processing_for_Cambodian_Language"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**19."
+    ],
+    "title": [
+      "Building a Vietnamese Machine Translation System Using Rule-Based Machine Translation"
+    ],
+    "date": [
+      "2005"
+    ],
+    "note": [
+      "by Nguyen et al.**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Describes the development of a Vietnamese machine translation system using rule-based machine translation techniques"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "* **Link:** [https://www.researchgate.net/publication/182478589_Building_a_Vietnamese_Machine_Translation_System_Using_Rule-Based_Machine_Translation](https://www.researchgate.net/publication/182478589_Building_a_Vietnamese_Machine_Translation_System_Using_Rule-Based_Machine_Translation"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**20."
+    ],
+    "title": [
+      "A Study of Text Summarization for Indonesian Language"
+    ],
+    "date": [
+      "2004"
+    ],
+    "note": [
+      "by Suyanto et al.**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Investigates text summarization techniques for Indonesian"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "* **Link:** [https://www.researchgate.net/publication/172478589_A_Study_of_Text_Summarization_for_Indonesian_Language](https://www.researchgate.net/publication/172478589_A_Study_of_Text_Summarization_for_Indonesian_Language"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Remember:** This list is a starting point. You can find more relevant articles by searching for specific keywords related to your research interests"
+    ],
+    "note": [
+      "such as \"NLP for [language name],\" \"machine translation for [language pair],\" or \"sentiment analysis for [language].\" You can also explore the websites of major NLP conferences and journals, such as ACL, EMNLP, and COLING."
+    ],
+    "type": "webpage"
+  }
+]

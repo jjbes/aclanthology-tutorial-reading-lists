@@ -1,1 +1,359 @@
-[{"authors": ["Pearl, Judea"], "title": "Causality: Models, Reasoning, and Inference", "year": 2000}, {"authors": ["Spirtes, Peter; Glymour, Clark; Scheines, Richard"], "title": "Causation, Prediction, and Search", "year": 2000}, {"authors": ["Rubin, Donald B"], "title": "Estimating causal effects from large data sets using propensity scores", "year": 2004}, {"authors": ["Pearl, Judea"], "title": "Causality", "year": 2009}, {"authors": ["Peters, Jonas; Janzing, Dominik; Schölkopf, Bernhard"], "title": "Elements of Causal Inference: Foundations and Learning Algorithms", "year": 2017}, {"authors": ["Hernán, Miguel A; Robins, James M"], "title": "Causal Inference: What If", "year": 2020}, {"authors": ["Schölkopf, Bernhard"], "title": "Causality for Machine Learning", "year": 2021}, {"authors": ["Bottou, Léon; Peters, Jonas; Schölkopf, Bernhard"], "title": "Counterfactual Reasoning and Learning Systems: The Example of Computational Advertising", "year": 2013}, {"authors": ["Shalit, Uri; Johansson, Fredrik D; Sontag, David"], "title": "Estimating individual treatment effect: generalization bounds and algorithms", "year": 2017}, {"authors": ["Athey, Susan; Imbens, Guido W"], "title": "Machine Learning Methods for Estimating Heterogeneous Causal Effects", "year": 2019}, {"authors": ["Kallus, Nathan"], "title": "Generalized Linear Models for Inference in Personalized Medicine", "year": 2017}, {"authors": ["Louizos, Christos; Shalit, Uri; Mooij, Joris M; Sontag, David"], "title": "Causal Inference with Deep Latent-Variable Models", "year": 2017}, {"authors": ["Kocaoglu, Murat; Snyder, James; Dimakis, Alexandros G; Jordan, Michael I"], "title": "Causal Inference with Unobserved Confounders via Invariant Risk Minimization", "year": 2019}, {"authors": ["Arjovsky, Martin; Bottou, Léon; Gulcehre, Cengiz; Lu, Xun; Hashimoto, Tom; Li, Yanshuai; Seldin, Yury; Valko, Marc; Zhang, Yoshua"], "title": "Invariant Risk Minimization", "year": 2019}, {"authors": ["Higgins, Irina; Matthey, Loic; Pal, Arka; Burgess, Christopher; Glorot, Xavier; Botvinick, Matthew; Mohamed, Shakir; Lerchner, Alexander"], "title": "beta-VAE: Learning Basic Visual Concepts with a Constrained Variational Framework", "year": 2017}, {"authors": ["Kusner, Matt J; Loftus, Joshua R; Russell, Chris; Silva, Ricardo"], "title": "Counterfactual Fairness", "year": 2017}, {"authors": ["Chiappa, Silvia; Zisserman, Andrew"], "title": "Stochastic Gradient Descent with Random Restart for Causal Inference", "year": 2018}, {"authors": ["Pearl, Judea"], "title": "The Book of Why: The New Science of Cause and Effect", "year": 2018}, {"authors": ["Tian, Jin; Pearl, Judea"], "title": "Causal Inference and Learning in Linear Structural Equation Models", "year": 2002}, {"authors": ["Hoyer, Patrik O; Shimizu, Shohei; Kerminen, Antti J; Palviainen, Harri"], "title": "Estimation of causal effects using linear non-Gaussian acyclic models", "year": 2009}]
+[
+  {
+    "note": [
+      "## Reading List: Causal Inference in ML & NLP (up to 2022"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "**Causality in General:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "title": [
+      "**\"Causal Inference in Statistics: A Primer\"** by Judea Pearl",
+      "- A foundational text introducing the concepts of causal inference and the \"do-calculus\""
+    ],
+    "date": [
+      "2009"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "title": [
+      "**\"The Book of Why: The New Science of Cause and Effect\"**",
+      "- A more accessible introduction to causal inference for a general audience"
+    ],
+    "author": [
+      {
+        "family": "Judea Pearl",
+        "particle": "by"
+      },
+      {
+        "family": "Mackenzie",
+        "given": "Dana"
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "title": [
+      "**\"Causal Inference for the Brave and True\"** by Scott Cunningham (2021) - A practical guide to causal inference with real-world examples"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "title": [
+      "**\"Elements of Causal Inference: Foundations and Applications\"**",
+      "- A comprehensive treatment of causal inference with a focus on machine learning"
+    ],
+    "author": [
+      {
+        "family": "Jonas Peters",
+        "particle": "by"
+      },
+      {
+        "family": "Janzing",
+        "given": "Dominik"
+      },
+      {
+        "family": "Schölkopf",
+        "given": "Bernhard"
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "title": [
+      "**\"Causal Inference in Machine Learning\"** by Jonas Peters",
+      "- A review article summarizing the state-of-the-art in causal inference for machine learning"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Discovery",
+        "given": "Causal"
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "title": [
+      "**\"Causal Discovery with Continuous Additive Noise Models\"** by Peter Spirtes, Clark Glymour, and Richard Scheines",
+      "- A classic paper introducing the PC algorithm for causal discovery"
+    ],
+    "date": [
+      "2000"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "title": [
+      "**\"Causal Inference and the Data-Fusion Problem\"** by Judea Pearl",
+      "- Discusses the challenges of causal discovery from multiple data sources"
+    ],
+    "date": [
+      "2000"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "title": [
+      "**\"Learning Causal Bayesian Networks from Incomplete Data\"** by Nir Friedman (1998) - Explores causal discovery in the context of Bayesian networks"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "title": [
+      "**\"Causal Discovery in Time Series Data: A Review\"** by Kun Zhang and Aapo Hyvärinen",
+      "- A review of causal discovery methods for time series data"
+    ],
+    "date": [
+      "2009"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "title": [
+      "**\"Causal Inference and Machine Learning: A Review\"** by Judea Pearl and Elias Bareinboim",
+      "- A comprehensive review of the intersection between causal inference and machine learning"
+    ],
+    "date": [
+      "2014"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Effects",
+        "given": "Causal"
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "title": [
+      "**\"Estimating Causal Effects Using Propensity Score Matching: A Review and Assessment\"**",
+      "- A seminal paper introducing propensity score matching for estimating causal effects"
+    ],
+    "author": [
+      {
+        "family": "Paul R. Rosenbaum",
+        "particle": "by"
+      },
+      {
+        "family": "Rubin",
+        "given": "Donald B."
+      }
+    ],
+    "date": [
+      "1983"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "title": [
+      "**\"Causal Inference in Non-randomized Studies: Design, Analysis, and Interpretation\"** by Paul R",
+      "- A comprehensive guide to causal inference in observational studies"
+    ],
+    "date": [
+      "2002"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "Rosenbaum"
+    ]
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "author": [
+      {
+        "family": "Laan",
+        "given": "Doubly Robust Estimation",
+        "particle": "of Causal Effects\" by Mark J. van der"
+      },
+      {
+        "family": "Robins",
+        "given": "James M."
+      }
+    ],
+    "date": [
+      "2003"
+    ],
+    "title": [
+      "- Introduces doubly robust estimators for causal effects, which are robust to model misspecification"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "title": [
+      "**\"Causal Inference with Instrumental Variables: A Review\"** by Joshua D",
+      "- A review of instrumental variable methods for estimating causal effects"
+    ],
+    "author": [
+      {
+        "family": "Angrist",
+        "given": "Guido W.Imbens"
+      },
+      {
+        "family": "Rubin",
+        "given": "Donald B."
+      }
+    ],
+    "date": [
+      "1996"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "title": [
+      "**\"Causal Inference in the Presence of Unobserved Confounders: A Review\"** by Judea Pearl",
+      "- Discusses the challenges of estimating causal effects in the presence of unobserved confounders"
+    ],
+    "date": [
+      "2010"
+    ],
+    "type": null
+  },
+  {
+    "container-title": [
+      "**Causal Inference in ML & NLP:**"
+    ],
+    "type": "chapter"
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "title": [
+      "**\"Causal Inference for Recommendation Systems\"** by Yihan Sun, et al",
+      "- Explores causal inference methods for improving recommendation systems"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "title": [
+      "**\"Causal Inference for Text Generation\"** by Yixin Nie, et al",
+      "- Discusses the use of causal inference for improving text generation models"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "title": [
+      "**\"Causal Embeddings for Explainable Recommendation\"** by Hongteng Xu, et al",
+      "- Introduces causal embeddings for improving the explainability of recommendation systems"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "title": [
+      "**\"Causal Inference for Natural Language Understanding\"** by Timnit Gebru, et al",
+      "- Explores the use of causal inference for improving natural language understanding models"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "title": [
+      "**\"Causal Reasoning for Explainable AI\"** by Marco Tulio Ribeiro, et al",
+      "- Discusses the use of causal reasoning for improving the explainability of AI systems"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list provides a starting point for exploring the field of causal inference in ML and NLP. It includes both foundational works and recent research papers that highlight the growing importance of causal reasoning in these fields"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "Remember that this is just a small selection of the vast literature on causal inference. You can find many more relevant articles by searching online databases like Google Scholar or PubMed"
+    ],
+    "type": null
+  }
+]

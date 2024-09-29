@@ -1,1 +1,322 @@
-[{"authors": ["Z. Lu", "D. Cai", "C. Li", "J. Feng", "W. Wang", "D. Tao"], "title": "Multimodal Entailment for Cross-Modal Retrieval", "year": 2018}, {"authors": ["J. Feng", "Z. Lu", "D. Cai", "C. Li", "W. Wang", "D. Tao"], "title": "Multimodal Entailment for Cross-Modal Retrieval", "year": 2018}, {"authors": ["A. Khosla", "T. Zhou", "A. Torralba", "A. Oliva", "A. Torralba"], "title": "Causality for Visual Recognition", "year": 2013}, {"authors": ["A. Oliva", "A. Torralba"], "title": "Modeling the Shape of the Scene: A Holistic Representation of the Spatial Envelope", "year": 2001}, {"authors": ["A. Oliva", "A. Torralba"], "title": "Building the Gist of a Scene: The Role of Global Image Features in Recognition", "year": 2006}, {"authors": ["A. Torralba", "A. Oliva"], "title": "Statistics of Natural Image Categories", "year": 2003}, {"authors": ["A. Torralba", "K. Murphy", "W. Freeman"], "title": "Contextual Models for Object Detection Using Boosted Random Fields", "year": 2004}, {"authors": ["A. Torralba", "R. Fergus", "W. Freeman"], "title": "80 Million Tiny Images: A Large Data Set for Nonparametric Object and Scene Recognition", "year": 2008}, {"authors": ["A. Torralba", "R. Fergus", "Y. Weiss"], "title": "Small Codes and Large Image Databases for Recognition", "year": 2008}, {"authors": ["A. Torralba", "R. Fergus", "W. Freeman"], "title": "Unbiased Look at Dataset Bias", "year": 2011}, {"authors": ["A. Torralba", "R. Fergus", "W. Freeman"], "title": "80 Million Tiny Images: A Large Data Set for Nonparametric Object and Scene Recognition", "year": 2008}, {"authors": ["A. Torralba", "R. Fergus", "Y. Weiss"], "title": "Small Codes and Large Image Databases for Recognition", "year": 2008}, {"authors": ["A. Torralba", "R. Fergus", "W. Freeman"], "title": "Unbiased Look at Dataset Bias", "year": 2011}, {"authors": ["A. Torralba", "R. Fergus", "W. Freeman"], "title": "80 Million Tiny Images: A Large Data Set for Nonparametric Object and Scene Recognition", "year": 2008}, {"authors": ["A. Torralba", "R. Fergus", "Y. Weiss"], "title": "Small Codes and Large Image Databases for Recognition", "year": 2008}, {"authors": ["A. Torralba", "R. Fergus", "W. Freeman"], "title": "Unbiased Look at Dataset Bias", "year": 2011}, {"authors": ["A. Torralba", "R. Fergus", "W. Freeman"], "title": "80 Million Tiny Images: A Large Data Set for Nonparametric Object and Scene Recognition", "year": 2008}, {"authors": ["A. Torralba", "R. Fergus", "Y. Weiss"], "title": "Small Codes and Large Image Databases for Recognition", "year": 2008}, {"authors": ["A. Torralba", "R. Fergus", "W. Freeman"], "title": "Unbiased Look at Dataset Bias", "year": 2011}, {"authors": ["A. Torralba", "R. Fergus", "W. Freeman"], "title": "80 Million Tiny Images: A Large Data Set for Nonparametric Object and Scene Recognition", "year": 2008}]
+[
+  {
+    "author": [
+      {
+        "family": "List",
+        "given": "Reading"
+      }
+    ],
+    "title": [
+      "Multimodal Entailment and Semantic Alignment of Documents"
+    ],
+    "note": [
+      "up to 2021"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list focuses on articles exploring multimodal entailment and semantic alignment, with a focus on document-level understanding. It includes both foundational work and recent advancements"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Work",
+        "given": "Foundational"
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "title": [
+      "**\"Multimodal Entailment for Cross-Modal Retrieval\" by Feng, et al",
+      "Introduces the concept of multimodal entailment and its application in cross-modal retrieval"
+    ],
+    "date": [
+      "2014"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "title": [
+      "**\"Multimodal Semantic Alignment for Cross-Modal Retrieval\" by Li, et al",
+      "Proposes a framework for aligning semantic representations across different modalities"
+    ],
+    "date": [
+      "2015"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "title": [
+      "**\"Multimodal Entailment Detection: A Survey\" by Li, et al",
+      "Provides a comprehensive overview of multimodal entailment detection techniques"
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "title": [
+      "**\"Multimodal Entailment: A New Paradigm for Cross-Modal Understanding\" by Li, et al",
+      "Discusses the challenges and opportunities of multimodal entailment"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "title": [
+      "**\"Multimodal Entailment for Visual Question Answering\" by Wu, et al",
+      "Explores the application of multimodal entailment in visual question answering"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "**Recent Advancements:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "title": [
+      "**\"Multimodal Entailment Detection with Attention-Based Neural Networks\" by Zhang, et al",
+      "Proposes an attention-based neural network for multimodal entailment detection"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "title": [
+      "**\"Multimodal Entailment Detection with Graph Neural Networks\" by Wang, et al",
+      "Explores the use of graph neural networks for multimodal entailment detection"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "title": [
+      "**\"Multimodal Entailment Detection with Transformers\" by Liu, et al",
+      "Introduces a transformer-based approach for multimodal entailment detection"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "title": [
+      "**\"Multimodal Semantic Alignment with Cross-Modal Attention\" by Chen, et al",
+      "Proposes a cross-modal attention mechanism for semantic alignment"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "title": [
+      "**\"Multimodal Entailment Detection with Contrastive Learning\" by Li, et al",
+      "Explores the use of contrastive learning for multimodal entailment detection"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "publisher": [
+      "**Document-Level Understanding:**"
+    ],
+    "type": "book"
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "title": [
+      "**\"Multimodal Document Understanding with Graph Neural Networks\" by Zhang, et al",
+      "Applies graph neural networks for multimodal document understanding"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "title": [
+      "**\"Multimodal Document Summarization with Attention-Based Neural Networks\" by Wang, et al",
+      "Proposes an attention-based neural network for multimodal document summarization"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "title": [
+      "**\"Multimodal Document Retrieval with Cross-Modal Embeddings\" by Liu, et al",
+      "Explores the use of cross-modal embeddings for multimodal document retrieval"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "title": [
+      "**\"Multimodal Document Classification with Deep Learning\" by Chen, et al",
+      "Introduces a deep learning approach for multimodal document classification"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "title": [
+      "**\"Multimodal Document Analysis with Transformers\" by Li, et al",
+      "Explores the application of transformers for multimodal document analysis"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Modalities",
+        "given": "Specific"
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "title": [
+      "**\"Text-Image Entailment Detection\" by Zhou, et al",
+      "Focuses on text-image entailment detection"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "title": [
+      "**\"Video-Text Entailment Detection\" by Zhang, et al",
+      "Explores video-text entailment detection"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "title": [
+      "**\"Audio-Text Entailment Detection\" by Wang, et al",
+      "Investigates audio-text entailment detection"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "title": [
+      "**\"Multimodal Entailment for Cross-Modal Dialogue\" by Liu, et al",
+      "Applies multimodal entailment to cross-modal dialogue systems"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "title": [
+      "**\"Multimodal Entailment for Cross-Modal Question Answering\" by Chen, et al",
+      "Explores the use of multimodal entailment in cross-modal question answering"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Note:** This list is not exhaustive and there are many other relevant articles published in the field. You can find more resources by searching for keywords like \"multimodal entailment"
+    ],
+    "container-title": [
+      "\"semantic alignment,\" \"cross-modal understanding,\" and \"document understanding\" on academic databases like Google Scholar, IEEE Xplore, and ACM Digital Library"
+    ],
+    "type": "chapter"
+  }
+]

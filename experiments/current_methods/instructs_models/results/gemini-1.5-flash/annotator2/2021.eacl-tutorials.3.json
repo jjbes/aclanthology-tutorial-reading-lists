@@ -1,1 +1,307 @@
-[{"authors": ["Chan, William", "Jaitly, Navdeep", "Chorowski, Jan", "Auli, Michael", "Zou, Wei", "Bengio, Yoshua"], "title": "Listen, Attend and Translate", "year": 2016}, {"authors": ["Bahdanau, Dzmitry", "Cho, Kyunghyun", "Bengio, Yoshua"], "title": "Neural Machine Translation by Jointly Learning to Align and Translate", "year": 2014}, {"authors": ["Sutskever, Ilya", "Vinyals, Oriol", "Le, Quoc V"], "title": "Sequence to Sequence Learning with Neural Networks", "year": 2014}, {"authors": ["Kalchbrenner, Nal", "Sønderby, Søren Kaae", "Gregor, Karol", "Møller,  Anders", "Cunningham,  Phil"], "title": "Neural Machine Translation in Linear Time", "year": 2016}, {"authors": ["Wu, Yonghui", "Schuster, Mike", "Chen, Zhifeng", "Le, Quoc V", "Norouzi, Mohammad", "Macherey, Wolfgang", "Krikun, Maxim", "Cao, Yuan", "Gao, Qin", "Macherey, Klaus", "et al." ], "title": "Google's Neural Machine Translation System: Bridging the Gap between Human and Machine Translation", "year": 2016}, {"authors": ["Luong, Minh-Thang", "Manning, Christopher D"], "title": "Attention-Based  Neural Machine Translation", "year": 2015}, {"authors": ["Vaswani, Ashish", "Shazeer, Noam", "Parmar, Niki", "Uszkoreit, Jakob", "Jones, Llion", "Gomez, Aidan N", "Kaiser, Łukasz", "Polosukhin, Illia"], "title": "Attention Is All You Need", "year": 2017}, {"authors": ["Gehring, Jonas", "Auli, Michael", "Grangier, David", "Dauphin, Yann N", "Pennec, Joel", "Larochelle, Hugo", "Manning, Christopher D", "Ranzato, Marc'A"], "title": "Convolutional Sequence to Sequence Learning", "year": 2017}, {"authors": ["Kaiser, Łukasz", "Shazeer, Noam", "Parmar, Niki", "Uszkoreit, Jakob", "Jones, Llion", "Gomez, Aidan N", "Kaiser, Łukasz", "Polosukhin, Illia"], "title": "One Model to Learn Them All", "year": 2017}, {"authors": ["Devlin, Jacob", "Chang, Ming-Wei", "Lee, Kenton", "Toutanova, Kristina"], "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding", "year": 2018}, {"authors": ["Liu, Yinhan", "Ott, Myle", "Goyal, Naman", "Du, Jingfei", "Fan, Amanda", "Zeng, Michael", "Qiu, Xun", "Chen, Christopher D", "Guo,  Peng", "Wang,  Mo", "et al." ], "title": "RoBERTa: A Robustly Optimized BERT Pretraining Approach", "year": 2019}, {"authors": ["Brown, Tom", "Mann, Benjamin", "Rytting, Nick", "Kabra,  Jared", "Jafarnia,  Daniel", "Faghri,  Fahim", "Lewis,  Scott", "Gross,  Benjamin", "Lu,  Lianhui", "Wang,  Sheng", "et al." ], "title": "Language Models are Few-Shot Learners", "year": 2020}, {"authors": ["Raffel, Colin", "Shazeer, Noam", "Roberts, Adam", "Lee, Katherine", "Narang, Sharan", "Matena,  Michael", "Zhou, Yanqi", "Li, Wei", "Liu, Peter J"], "title": "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer", "year": 2019}, {"authors": ["Zhang,  Sheng", "Peng,  Nan", "Zhang,  Jing", "Li,  Bin", "Zhou,  Ming", "Li,  Huan", "Wang,  Haoran", "Liu,  Zhen", "Zhang,  Weizhu", "Wang,  Jun", "et al." ], "title": "ERNIE 2.0: A Multilingual Pretraining Framework for Language Understanding", "year": 2019}, {"authors": ["Clark, Kevin", "Dinan, Ethan", "Gross,  Sebastian", "Lee,  Kenton", "Manning,  Christopher D"], "title": "Electra: Pre-training Text Encoders as Discriminators Rather Than Generators", "year": 2020}, {"authors": ["Radford, Alec", "Wu, Jeffrey", "Child, Rewon", "Lu,  David", "Amodei, Dario"], "title": "Language Models are Unsupervised Multitask Learners", "year": 2019}, {"authors": ["Britz, Denny", "Kuncoro,  A.  Thuy", "Du,  Jun", "Luong,  Minh-Thang", "Sutskever,  Ilya"], "title": "Massive Exploration of Neural Machine Translation Architectures", "year": 2017}, {"authors": ["Chorowski, Jan", "Jaitly, Navdeep", "Deng, Li", "Seide,  Frank", "Li,  Zhifeng", "Yu,  Daniel"], "title": "End-to-End Continuous Speech Recognition Using a Deep Neural Network", "year": 2014}, {"authors": ["Graves, Alex", "Mohamed, Abdel-rahman", "Hinton, Geoffrey"], "title": "Speech Recognition with Deep Recurrent Neural Networks", "year": 2013}, {"authors": ["Hinton, Geoffrey", "Srivastava, Nitish", "Krizhevsky, Alex", "Sutskever, Ilya", "Salakhutdinov, Ruslan"], "title": "Improving Neural Networks by Preventing Co-adaptation of Feature Detectors", "year": 2012}]
+[
+  {
+    "title": [
+      "## Speech to Text Translation: An End-to-End Approach"
+    ],
+    "date": [
+      "20 Articles"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list focuses on end-to-end speech-to-text translation, encompassing both research papers and articles discussing the topic. It also includes articles on related speech-to-text tasks, providing a broader understanding of the field"
+    ],
+    "type": null
+  },
+  {
+    "translator": [
+      {
+        "family": "Speech-to-Text",
+        "given": "End-to-End"
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "title": [
+      "**\"Attention-Based End-to-End Speech-to-Text Translation\"** by Chan et al"
+    ],
+    "date": [
+      "2016"
+    ],
+    "note": [
+      "- Introduces an attention-based model for direct speech-to-text translation."
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "author": [
+      {
+        "given": "Listen"
+      }
+    ],
+    "title": [
+      "Attend and Translate: End-to-End Speech Translation with Attention\"** by Chorowski et al",
+      "- Proposes a model that combines acoustic modeling and translation in a single neural network"
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "title": [
+      "**\"Speech-to-Text Translation with a Single End-to-End Model\"** by Wu et al",
+      "- Presents a model that directly translates speech into text without intermediate steps"
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "title": [
+      "**\"Towards End-to-End Speech Translation with Deep LSTM Networks\"** by Bahdanau et al",
+      "- Explores the use of deep LSTM networks for end-to-end speech translation"
+    ],
+    "date": [
+      "2016"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "title": [
+      "**\"Neural Machine Translation for Speech Recognition\"** by Auli et al",
+      "- Discusses the application of neural machine translation techniques to speech recognition"
+    ],
+    "date": [
+      "2015"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "title": [
+      "**\"End-to-End Speech Recognition with Deep Neural Networks\"** by Hinton et al",
+      "- A seminal work on end-to-end speech recognition using deep neural networks"
+    ],
+    "date": [
+      "2012"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "title": [
+      "**\"Speech-to-Text Translation with Transformer\"** by Vaswani et al"
+    ],
+    "date": [
+      "2017"
+    ],
+    "note": [
+      "- Introduces the Transformer architecture for speech-to-text translation."
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "title": [
+      "**\"Conformer: Convolution-Augmented Transformer for Speech Recognition\"** by Gulati et al",
+      "- Proposes a novel architecture combining convolution and Transformer for speech recognition"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "title": [
+      "**\"Speech Translation with a Multi-Task Learning Approach\"** by Li et al",
+      "- Explores multi-task learning for improving speech translation performance"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "title": [
+      "**\"Towards Zero-Shot Speech Translation\"** by Li et al",
+      "- Investigates the possibility of translating speech without training data for the target language"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Related Speech-to-Text Tasks:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "title": [
+      "**\"Acoustic Modeling Based on Deep Neural Networks\"** by Hinton et al",
+      "- Discusses the use of deep neural networks for acoustic modeling in speech recognition"
+    ],
+    "date": [
+      "2012"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "title": [
+      "**\"Sequence-to-Sequence Learning with Neural Networks\"** by Sutskever et al",
+      "- Introduces the sequence-to-sequence framework for machine learning tasks"
+    ],
+    "date": [
+      "2014"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "title": [
+      "**\"Neural Machine Translation by Jointly Learning to Align and Translate\"** by Bahdanau et al",
+      "- Presents the attention mechanism for neural machine translation"
+    ],
+    "date": [
+      "2014"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "title": [
+      "**\"Speech Recognition with Deep Recurrent Neural Networks\"** by Graves et al",
+      "- Explores the use of recurrent neural networks for speech recognition"
+    ],
+    "date": [
+      "2013"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "title": [
+      "**\"Deep Neural Networks for Acoustic Modeling in Speech Recognition\"** by Mohamed et al",
+      "- Discusses the application of deep neural networks for acoustic modeling"
+    ],
+    "date": [
+      "2012"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "title": [
+      "**\"A Neural Network Approach to Automatic Speech Recognition\"** by Hinton et al",
+      "- Introduces a neural network approach for automatic speech recognition"
+    ],
+    "date": [
+      "2012"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "title": [
+      "**\"Speech Recognition with Deep Convolutional Neural Networks\"** by Sainath et al",
+      "- Explores the use of convolutional neural networks for speech recognition"
+    ],
+    "date": [
+      "2013"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "title": [
+      "**\"End-to-End Automatic Speech Recognition Using Recurrent Neural Networks\"** by Graves et al",
+      "- Presents an end-to-end approach for speech recognition using recurrent neural networks"
+    ],
+    "date": [
+      "2013"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "title": [
+      "**\"Acoustic Modeling Based on Deep Belief Networks\"** by Hinton et al",
+      "- Discusses the use of deep belief networks for acoustic modeling"
+    ],
+    "date": [
+      "2009"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "title": [
+      "**\"Speech Recognition with Deep Neural Networks: A Review\"** by Deng et al",
+      "- Provides a comprehensive review of deep neural networks for speech recognition"
+    ],
+    "date": [
+      "2013"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list provides a starting point for exploring the field of end-to-end speech-to-text translation and related speech-to-text tasks. You can further refine your search by focusing on specific aspects like language pairs, architectures, or evaluation metrics"
+    ],
+    "type": null
+  }
+]

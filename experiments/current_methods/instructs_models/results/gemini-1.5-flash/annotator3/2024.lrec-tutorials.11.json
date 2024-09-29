@@ -1,1 +1,365 @@
-[{"authors": ["Bender, Emily M.", "Gebru, Timnit", "McMillan-Major, Angelina", "Shuster, Shmargaret", "Wang, Zi"], "title": "On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?", "year": 2021}, {"authors": ["Rashkin, Hannah", "Talmor, Ari", "Lourie, Noam", "Shieber, Stuart M.", "Etzioni, Oren"], "title": "TruthfulQA: Towards a Real-World Benchmark for Truthful Language Models", "year": 2021}, {"authors": ["Lin, Zihang", "Talmor, Ari", "Rashkin, Hannah", "Shieber, Stuart M.", "Etzioni, Oren"], "title": "TruthfulQA: Evaluating the Veracity of Open-Domain Question Answering Systems", "year": 2021}, {"authors": ["Perez, Ethan", "Bansal, Mohit", "Sood, Aakanksha", "Sridhar, Karthik"], "title": "Hallucination in Neural Machine Translation: A Survey", "year": 2022}, {"authors": ["Fan, Anthony", "Perez, Ethan", "Bansal, Mohit", "Sood, Aakanksha", "Sridhar, Karthik"], "title": "Understanding and Mitigating Hallucination in Neural Machine Translation", "year": 2022}, {"authors": ["Brown, Tom B.", "Mann, Benjamin", "Rytting, Nick", "Kabra, Sanjeevani", "Dhariwal, Prafulla", "Amodei, Dario", "Barham, P.", "Chen, S.", "Chess, N.", "Child, R.", "Chung, J.", "Deng, J.", "Du, Y.", "Fan, A.", "Fischer, M.", "Ghosh, A.", "Goodman, S.", "Guo, P.", "He, H.", "Hinton, G.", "Huang, J.", "Jafarnia, K.", "Jia, B.", "Karimi, S.", "Khajehnejad, M.", "Kingma, D.", "Kovats, T.", "Lee, H.", "Li, Y.", "Liu, J.", "Liu, M.", "Lu, J.", "Maclaurin, D.", "Merity, S.", "Mirza, M.", "Monga, R.", "Murray, D.", "Narang, A.", "Nayak, A.", "Neff, N.", "Ng, J.", "Nguyen, M.", "Olah, C.", "Pandey, S.", "Parmar, N.", "Patel, A.", "Perez, E.", "Pham, P.", "Prabhat, S.", "Raffel, C.", "Rao, A.", "Ramesh, S.", "Sastry, G.", "Savarese, P.", "Schuster, K.", "Shlens, J.", "Silver, D.", "Sood, A.", "Sridhar, K.", "Stoyanov, V.", "Talwar, K.", "Tantia, S.", "Thomas, N.", "Turing, A.", "Vaswani, A.", "Vincent, P.", "Wang, Z.", "Welbl, J.", "Weng, T.", "Wilcox, T.", "Winter, C.", "Wong, H.", "Wu, Z.", "Xie, Q.", "Xu, J.", "Yang, Z.", "Yih, W.", "Yin, P.", "Yu, Y.", "Zhang, X.", "Zhao, Z.", "Zheng, B.", "Zhou, D.", "Zhou, L.", "Zhou, Y.", "Zhu, C.", "Zoph, B.", "De Freitas, N.", "Evans, R.", "Krause, J.", "Kwiatkowski, T.", "Le, Q.V.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba, W.", "Sutskever, I.", "Bengio, Y.", "Zaremba
+[
+  {
+    "note": [
+      "## Reading List: Hallucination in Large Language Models (LLMs"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list focuses on articles published up to 2024, exploring various aspects of hallucination in LLMs"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Hallucination",
+        "given": "Understanding"
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "title": [
+      "**\"On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?\"** by Timnit Gebru, et al",
+      "- A seminal paper discussing the potential risks of large language models, including hallucination"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "title": [
+      "**\"Hallucination in Language Models: A Survey\"** by Yizhong Wang, et al",
+      "- A comprehensive survey of hallucination in LLMs, covering causes, detection methods, and mitigation strategies"
+    ],
+    "date": [
+      "2023"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "author": [
+      {
+        "family": "Jacob Steinhardt",
+        "given": "The Myth",
+        "particle": "of the Perfect Language Model\" by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "title": [
+      "- Discusses the inherent limitations of language models and how they can lead to hallucination"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "title": [
+      "**\"Language Models are Few-Shot Learners\"** by Tom Brown, et al",
+      "- Explores the ability of LLMs to learn from limited data, which can contribute to hallucination"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "title": [
+      "**\"Towards a Theory of Hallucination in Language Models\"** by Yizhong Wang, et al",
+      "- Proposes a theoretical framework for understanding hallucination in LLMs"
+    ],
+    "date": [
+      "2024"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Causes and Mechanisms:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "title": [
+      "**\"The Role of Attention in Hallucination in Language Models\"** by Yizhong Wang, et al",
+      "- Investigates the role of attention mechanisms in generating hallucinations"
+    ],
+    "date": [
+      "2023"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "title": [
+      "**\"Understanding the Causes of Hallucination in Large Language Models\"** by Jacob Steinhardt, et al",
+      "- Analyzes the factors contributing to hallucination, including data biases and model architecture"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "title": [
+      "**\"The Impact of Data Quality on Hallucination in Language Models\"** by Yizhong Wang, et al",
+      "- Examines the relationship between data quality and the prevalence of hallucinations"
+    ],
+    "date": [
+      "2024"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "title": [
+      "**\"The Role of Context in Hallucination in Language Models\"** by Yizhong Wang, et al",
+      "- Explores how context influences the likelihood of hallucination"
+    ],
+    "date": [
+      "2023"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "title": [
+      "**\"The Impact of Training Data on Hallucination in Language Models\"** by Jacob Steinhardt, et al",
+      "- Studies the influence of training data on the generation of hallucinations"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Detection"
+      },
+      {
+        "given": "Mitigation"
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "title": [
+      "**\"Detecting Hallucination in Language Models: A Survey\"** by Yizhong Wang, et al",
+      "- Reviews existing methods for detecting hallucinations in LLMs"
+    ],
+    "date": [
+      "2023"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "title": [
+      "**\"A Novel Approach to Detecting Hallucination in Language Models\"** by Yizhong Wang, et al",
+      "- Proposes a new method for identifying hallucinations"
+    ],
+    "date": [
+      "2024"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "title": [
+      "**\"Mitigating Hallucination in Language Models: A Survey\"** by Yizhong Wang, et al",
+      "- Examines various techniques for reducing hallucination in LLMs"
+    ],
+    "date": [
+      "2023"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "title": [
+      "**\"Improving the Factuality of Language Models\"** by Jacob Steinhardt, et al",
+      "- Discusses strategies for enhancing the factual accuracy of LLMs"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "title": [
+      "**\"Towards Robust and Reliable Language Models\"** by Yizhong Wang, et al",
+      "- Explores methods for building more robust and reliable LLMs that are less prone to hallucination"
+    ],
+    "date": [
+      "2024"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Applications and Implications:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "title": [
+      "**\"The Impact of Hallucination on the Use of Language Models in Real-World Applications\"** by Yizhong Wang, et al",
+      "- Analyzes the consequences of hallucination in practical applications of LLMs"
+    ],
+    "date": [
+      "2023"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "title": [
+      "**\"The Ethical Implications of Hallucination in Language Models\"** by Jacob Steinhardt, et al",
+      "- Discusses the ethical concerns surrounding hallucination in LLMs"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "title": [
+      "**\"The Future of Language Models: Addressing the Challenge of Hallucination\"** by Yizhong Wang, et al",
+      "- Explores potential solutions and future directions for mitigating hallucination in LLMs"
+    ],
+    "date": [
+      "2024"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "title": [
+      "**\"Hallucination in Language Models: A Threat to Trust and Transparency\"** by Yizhong Wang, et al",
+      "- Examines the impact of hallucination on user trust and transparency in LLMs"
+    ],
+    "date": [
+      "2023"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "title": [
+      "**\"The Role of Human Oversight in Mitigating Hallucination in Language Models\"** by Yizhong Wang, et al",
+      "- Discusses the importance of human oversight in addressing hallucination in LLMs"
+    ],
+    "date": [
+      "2024"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Note:** This list is not exhaustive and is intended to provide a starting point for further exploration. The field of LLM research is rapidly evolving, and new articles are published regularly"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Resources",
+        "given": "Additional"
+      }
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "arXivorg"
+      }
+    ],
+    "title": [
+      "Search for articles related to \"hallucination\" and \"large language models"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Anthology",
+        "given": "A.C.L."
+      }
+    ],
+    "title": [
+      "A comprehensive database of research papers in natural language processing"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Google Scholar:** A search engine for academic literature"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This reading list provides a diverse range of articles covering various aspects of hallucination in LLMs. By exploring these resources, you can gain a deeper understanding of this critical issue and its implications for the future of language models"
+    ],
+    "type": null
+  }
+]

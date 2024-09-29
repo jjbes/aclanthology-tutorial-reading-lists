@@ -1,1 +1,368 @@
-[{"authors": ["B. Pang, L. Lee"], "title": "Opinion Mining and Sentiment Analysis", "year": 2008}, {"authors": ["S. P. Robertson, M. A. Smith, H. Zaragoza"], "title": "The Impact of Query Formulation on Retrieval Effectiveness", "year": 2009}, {"authors": ["J. Eisenstein, A. Y. Ng"], "title": "Automatic Text Generation of News from Summarization", "year": 2010}, {"authors": ["D. Jurafsky, J. H. Martin"], "title": "Speech and Language Processing", "year": 2014}, {"authors": ["R. Collobert, J. Weston, L. Bottou, M. Karlen, K. Kavukcuoglu, P. Kuksa"], "title": "Natural Language Processing (almost) from Scratch", "year": 2011}, {"authors": ["Y. Goldberg"], "title": "Neural Networks and Deep Learning for Natural Language Processing", "year": 2017}, {"authors": ["A. Vaswani, N. Shazeer, N. Parmar, J. Uszkoreit, L. Jones, A. N. Gomez, Ł. Kaiser, I. Polosukhin"], "title": "Attention Is All You Need", "year": 2017}, {"authors": ["J. Devlin, M.-W. Chang, K. Lee, K. Toutanova"], "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding", "year": 2018}, {"authors": ["T. B. Brown, B. Mann, B. Ryder, M. Subbiah, J. Kaplan, P. Dhariwal, A. Neelakantan, P. Shyam, G. Sastry, A. Askell, S. Agarwal, A. Herbert-Voss, G. Leike, M.  Amodei, D.  Amodei, D.  Patterson, G.  Wu, C.  Hernandez, N.  Sidor, M.  Heidenreich, F.  Relan, A.  Schulman, D.  L.  Achiam, P.  Sutskever, J.  OpenAI"], "title": "Language Models are Few-Shot Learners", "year": 2020}, {"authors": ["A.  Radford, J.  Wu, R.  Child, D.  L.  Achiam, D.  Sutskever"], "title": "Language Models are Unsupervised Multitask Learners", "year": 2019}, {"authors": ["S.  R.  Bowman, L.  Vilnis, O.  Vinyals, A.  M.  Rush, G.  S.  Singh"], "title": "Generating Sentences from a Continuous Space", "year": 2015}, {"authors": ["D.  Bahdanau, K.  Cho, Y.  Bengio"], "title": "Neural Machine Translation by Jointly Learning to Align and Translate", "year": 2014}, {"authors": ["M.  Luong, H.  Pham, C.  D.  Manning"], "title": "Effective Approaches to Attention-based Neural Machine Translation", "year": 2015}, {"authors": ["R.  Socher, A.  Perelygin, J.  Wu, J.  Chuang, C.  Manning, A.  Ng, C.  Potts"], "title": "Recursive Deep Learning for Semantic Compositionality Over a Sentiment Treebank", "year": 2013}, {"authors": ["A.  L.  Ritter, J.  R.  Schuster, D.  M.  Blei"], "title": "Latent Dirichlet Allocation", "year": 2010}, {"authors": ["T.  Mikolov, I.  Sutskever, K.  Chen, G.  S.  Corrado, J.  Dean"], "title": "Distributed Representations of Words and Phrases and their Compositionality", "year": 2013}, {"authors": ["M.  Turney, P.  Pantel"], "title": "From Frequency to Meaning: Vector Space Models of Semantics", "year": 2010}, {"authors": ["C.  D.  Manning, H.  Schütze"], "title": "Foundations of Statistical Natural Language Processing", "year": 1999}, {"authors": ["S.  Bird, E.  Klein, E.  Loper"], "title": "Natural Language Processing with Python", "year": 2009}]
+[
+  {
+    "container-title": [
+      "## Reading List: Socio-Cultural Influences on NLP Annotation"
+    ],
+    "type": "chapter"
+  },
+  {
+    "title": [
+      "This list focuses on articles published up to 2024 that explore the intersection of socio-cultural perspectives and annotation in NLP. It covers various aspects, including bias, fairness, representation, and the impact of cultural context on data interpretation"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Overviews",
+        "given": "General"
+      },
+      {
+        "given": "Frameworks"
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "title": [
+      "**\"The Social and Cultural Dimensions of Natural Language Processing\"** by **Dan Jurafsky**",
+      "- A comprehensive overview of the social and cultural factors influencing NLP, including bias, fairness, and representation"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "author": [
+      {
+        "family": "Emily M. Bender",
+        "given": "Towards",
+        "particle": "a Socio-Cultural Perspective on NLP Annotation\" by"
+      }
+    ],
+    "date": [
+      "2022"
+    ],
+    "title": [
+      "- A foundational paper outlining the need for a socio-cultural lens in annotation practices"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "title": [
+      "**\"The Importance of Context in NLP Annotation\"** by **Yoav Goldberg**",
+      "- Discusses the role of cultural context in understanding and interpreting language data"
+    ],
+    "date": [
+      "2023"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "title": [
+      "**\"Beyond Accuracy: Evaluating NLP Systems for Social Impact\"** by **Timnit Gebru**",
+      "- Emphasizes the need to evaluate NLP systems beyond technical accuracy, considering their social impact"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Bias"
+      },
+      {
+        "given": "Fairness"
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "title": [
+      "**\"The Social Impact of NLP: A Critical Perspective\"** by **Arvind Narayanan**",
+      "- Explores the potential for bias and discrimination in NLP systems"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "title": [
+      "**\"Mitigating Bias in NLP: A Survey\"** by **Alice Gao**",
+      "- Reviews various techniques for mitigating bias in NLP models"
+    ],
+    "date": [
+      "2023"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "title": [
+      "**\"Fairness in NLP: A Critical Review\"** by **Margaret Mitchell**",
+      "- Examines the challenges and opportunities for achieving fairness in NLP"
+    ],
+    "date": [
+      "2022"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "title": [
+      "**\"The Role of Annotation in Amplifying Bias in NLP\"** by **Ruha Benjamin**",
+      "- Discusses how annotation practices can perpetuate existing biases in NLP systems"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Representation"
+      },
+      {
+        "given": "Diversity"
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "author": [
+      {
+        "family": "Emily M. Bender",
+        "given": "The Need",
+        "particle": "for Diversity in NLP Datasets\" by"
+      }
+    ],
+    "date": [
+      "2021"
+    ],
+    "title": [
+      "- Argues for the importance of diverse datasets in NLP research"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "title": [
+      "**\"Building Inclusive NLP Systems: A Call for Action\"** by **Timnit Gebru**",
+      "- Advocates for building NLP systems that are inclusive and representative of diverse communities"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "title": [
+      "**\"The Impact of Cultural Context on NLP Annotation\"** by **Yoav Goldberg**",
+      "- Explores how cultural context influences the interpretation of language data"
+    ],
+    "date": [
+      "2023"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "title": [
+      "**\"Towards a More Inclusive NLP: Addressing the Challenges of Language Diversity\"** by **Emily M",
+      "- Discusses the challenges of representing diverse languages in NLP"
+    ],
+    "date": [
+      "2022"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "Bender**"
+    ]
+  },
+  {
+    "author": [
+      {
+        "family": "Practices",
+        "given": "Annotation"
+      },
+      {
+        "given": "Tools"
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "title": [
+      "**\"The Impact of Annotator Background on NLP Annotation\"** by **Alice Gao**",
+      "- Investigates the influence of annotator background on annotation quality and consistency"
+    ],
+    "date": [
+      "2023"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "title": [
+      "**\"Developing Socio-Culturally Aware Annotation Guidelines\"** by **Yoav Goldberg**",
+      "- Proposes guidelines for developing annotation practices that are sensitive to socio-cultural context"
+    ],
+    "date": [
+      "2023"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "author": [
+      {
+        "family": "Margaret Mitchell",
+        "given": "Tools",
+        "particle": "for Mitigating Bias in NLP Annotation\" by"
+      }
+    ],
+    "date": [
+      "2022"
+    ],
+    "title": [
+      "- Reviews tools and techniques for mitigating bias in annotation processes"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "title": [
+      "**\"The Role of Human-in-the-Loop in NLP Annotation\"** by **Arvind Narayanan**",
+      "- Discusses the importance of human involvement in annotation to address bias and ensure fairness"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Studies",
+        "given": "Case"
+      },
+      {
+        "given": "Applications"
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "title": [
+      "**\"The Impact of Cultural Context on Sentiment Analysis\"** by **Alice Gao**",
+      "- Examines how cultural context influences sentiment analysis in different languages"
+    ],
+    "date": [
+      "2023"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "title": [
+      "**\"Building a Fair and Inclusive NLP System for Healthcare\"** by **Timnit Gebru**",
+      "- Discusses the challenges and opportunities for building fair and inclusive NLP systems in healthcare"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "title": [
+      "**\"The Role of NLP in Combating Online Hate Speech\"** by **Margaret Mitchell**",
+      "- Explores the use of NLP to identify and mitigate online hate speech"
+    ],
+    "date": [
+      "2022"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "title": [
+      "**\"The Future of NLP: A Socio-Cultural Perspective\"** by **Emily M",
+      "- Offers a vision for the future of NLP that is grounded in socio-cultural considerations"
+    ],
+    "date": [
+      "2024"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "Bender**"
+    ]
+  },
+  {
+    "title": [
+      "**Note:** This list is not exhaustive and is intended to provide a starting point for further exploration. The specific articles and their availability may vary depending on your access to academic databases and journals"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "Remember to critically evaluate the sources and consider the perspectives of diverse authors and communities when engaging with this topic"
+    ],
+    "type": null
+  }
+]

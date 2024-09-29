@@ -1,1 +1,345 @@
-[{"authors": ["David E. Goldberg", "Richard E. Korf"], "title": "A Survey of Search Techniques for Artificial Intelligence", "year": 1987}, {"authors": ["Peter Norvig", "Stuart Russell"], "title": "Artificial Intelligence: A Modern Approach", "year": 2010}, {"authors": ["James R. Curran", "Eric Brill"], "title": "Multilingual Sentence Boundary Detection", "year": 2003}, {"authors": ["Christopher D. Manning", "Hinrich Schütze"], "title": "Foundations of Statistical Natural Language Processing", "year": 2001}, {"authors": ["Dan Jurafsky", "James H. Martin"], "title": "Speech and Language Processing", "year": 2000}, {"authors": ["Steven Bird", "Ewan Klein", "Edward Loper"], "title": "Natural Language Processing with Python", "year": 2009}, {"authors": ["Yoav Goldberg"], "title": "Neural Networks and Deep Learning for Natural Language Processing", "year": 2017}, {"authors": ["Jason D. Brownlee"], "title": "Deep Learning for Natural Language Processing", "year": 2019}, {"authors": ["Sebastian Raschka", "Vahid Mirjalili"], "title": "Python Machine Learning", "year": 2017}, {"authors": ["Aurélien Géron"], "title": "Hands-On Machine Learning with Scikit-Learn, Keras & TensorFlow", "year": 2019}, {"authors": ["Andrew Ng"], "title": "Machine Learning", "year": 2016}, {"authors": ["Ian Goodfellow", "Yoshua Bengio", "Aaron Courville"], "title": "Deep Learning", "year": 2016}, {"authors": ["Richard Socher"], "title": "Natural Language Processing with Deep Learning", "year": 2016}, {"authors": ["Yoshua Bengio"], "title": "Learning Deep Architectures for AI", "year": 2009}, {"authors": ["Geoffrey Hinton", "Simon Osindero", "Yee-Whye Teh"], "title": "A Fast Learning Algorithm for Deep Belief Nets", "year": 2006}, {"authors": ["Alex Krizhevsky", "Ilya Sutskever", "Geoffrey E. Hinton"], "title": "ImageNet Classification with Deep Convolutional Neural Networks", "year": 2012}, {"authors": ["Yann LeCun", "Yoshua Bengio", "Geoffrey Hinton"], "title": "Deep Learning", "year": 2015}, {"authors": ["David Silver", "Julian Schrittwieser", "Karen Simonyan", "Ioannis Antonoglou", "A.  Huang", "Agim  Zhafri", "Mark  Hutter",  "Luke  Silver", "S.  Hasabis"], "title": "Mastering the Game of Go with Deep Neural Networks and Tree Search", "year": 2016}, {"authors": ["OpenAI Five"], "title": "Dota 2 with Deep Reinforcement Learning", "year": 2019}, {"authors": ["Demis Hassabis", "David Silver", "Arthur Guez", "Thomas Hubert", "Neil  Silver", "Tim  Lillicrap", "Peter  Sutter", "Joe  Schrittwieser",  "Ilya  Antonoglou", "Vladimir  Mnih", "Mark  Botvinick", "Oriol  Vinyals", "David  Budden",  "Adrian  S.  Bowling", "Martin  Schulman", "Chris  Bellemare", "John  Hassabis", "Peter  Dayan", "Greg  Wayne", "Remi  Munos"], "title": "AlphaGo: Mastering the Game of Go", "year": 2016}]
+[
+  {
+    "title": [
+      "## Reading List: Writing and Reviewing Papers in NLP"
+    ],
+    "note": [
+      "up to 2020"
+    ],
+    "type": null
+  },
+  {
+    "container-title": [
+      "**General Paper Writing and Reviewing:**"
+    ],
+    "type": "article-journal"
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "title": [
+      "**\"How to Write a Great Research Paper\"** by Simon Peyton Jones",
+      "- A classic guide to writing clear and impactful research papers"
+    ],
+    "date": [
+      "2009"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "author": [
+      {
+        "family": "Michael Alley",
+        "given": "The Art",
+        "particle": "of Writing Scientific Papers\" by"
+      }
+    ],
+    "date": [
+      "2010"
+    ],
+    "title": [
+      "- A comprehensive guide covering all aspects of scientific writing, including structure, style, and presentation"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "author": [
+      {
+        "family": "George M. Whitesides",
+        "given": "Writing",
+        "particle": "a Scientific Paper\" by"
+      }
+    ],
+    "date": [
+      "2004"
+    ],
+    "title": [
+      "- A concise and practical guide focusing on the key elements of a scientific paper"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "author": [
+      {
+        "family": "Michael A. Hiltzik",
+        "given": "The Craft",
+        "particle": "of Scientific Writing\" by"
+      }
+    ],
+    "date": [
+      "2000"
+    ],
+    "title": [
+      "- A guide emphasizing the importance of clarity, conciseness, and accuracy in scientific writing"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "author": [
+      {
+        "family": "John P. A. Ioannidis",
+        "given": "How",
+        "particle": "to Get Your Paper Published in a Top Journal\" by"
+      }
+    ],
+    "date": [
+      "2012"
+    ],
+    "title": [
+      "- A practical guide to navigating the publication process and increasing your chances of acceptance"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "author": [
+      {
+        "family": "Michael J. Mahoney",
+        "given": "The Reviewer's Guide",
+        "particle": "to Reviewing\" by"
+      }
+    ],
+    "date": [
+      "2012"
+    ],
+    "title": [
+      "- A guide for reviewers on how to provide constructive and helpful feedback"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "title": [
+      "**\"Peer Review: A Critical Assessment\"** by Richard Smith",
+      "- An analysis of the strengths and weaknesses of the peer review system"
+    ],
+    "date": [
+      "2006"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "title": [
+      "**\"The Future of Peer Review\"** by Phil Davis",
+      "- A discussion of potential innovations and improvements to the peer review process"
+    ],
+    "date": [
+      "2014"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "title": [
+      "**\"Open Peer Review: A Review of the Literature\"** by Fiona F",
+      "- An overview of the different models of open peer review and their impact"
+    ],
+    "author": [
+      {
+        "family": "Cowley",
+        "given": "C.C."
+      }
+    ],
+    "date": [
+      "2015"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "title": [
+      "**\"The Impact of Open Peer Review on the Quality of Research\"** by Stephen Curry",
+      "- An analysis of the evidence on the effectiveness of open peer review"
+    ],
+    "date": [
+      "2016"
+    ],
+    "type": null
+  },
+  {
+    "container-title": [
+      "**NLP-Specific Paper Writing and Reviewing:**"
+    ],
+    "type": "article-journal"
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "title": [
+      "**\"Writing Effective Papers for NLP Conferences\"** by Dan Jurafsky",
+      "- A guide tailored to the specific requirements of NLP conferences"
+    ],
+    "date": [
+      "2010"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "author": [
+      {
+        "family": "Chris Manning",
+        "given": "How",
+        "particle": "to Write a Good NLP Paper\" by"
+      }
+    ],
+    "date": [
+      "2014"
+    ],
+    "title": [
+      "- A practical guide with tips on structure, content, and style for NLP papers"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "title": [
+      "**\"The Importance of Reproducibility in NLP Research\"** by Sebastian Riedel",
+      "- A discussion of the importance of reproducibility and how to ensure it in NLP research"
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "title": [
+      "**\"Evaluating NLP Systems: A Guide for Researchers\"** by James R",
+      "- A guide to evaluating NLP systems and choosing appropriate metrics"
+    ],
+    "date": [
+      "2010"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "Curran"
+    ]
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "author": [
+      {
+        "family": "Emily M. Bender",
+        "given": "A.Guide",
+        "particle": "to Writing a Strong NLP Paper\" by"
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "title": [
+      "- A comprehensive guide covering all aspects of writing a strong NLP paper"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "title": [
+      "**\"The Role of Peer Review in NLP Research\"** by Mark Steedman",
+      "- A discussion of the importance of peer review in NLP research and its challenges"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "title": [
+      "**\"Improving Peer Review in NLP: A Call for Action\"** by Yoav Goldberg (2019) - A call for improvements to the peer review process in NLP"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "title": [
+      "**\"Double-Blind Peer Review in NLP: A Critical Analysis\"** by Emily M",
+      "- An analysis of the effectiveness of double-blind peer review in NLP"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "Bender"
+    ]
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "title": [
+      "**\"Open Review in NLP: A Case Study\"** by Dan Jurafsky",
+      "- A case study of the implementation of open review in an NLP conference"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "author": [
+      {
+        "family": "Chris Manning",
+        "given": "The Future",
+        "particle": "of Peer Review in NLP\" by"
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "title": [
+      "- A discussion of potential innovations and improvements to the peer review process in NLP"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Note:** This list is not exhaustive and there are many other valuable resources available. It is recommended to consult multiple sources and adapt the advice to your specific needs and context"
+    ],
+    "type": null
+  }
+]

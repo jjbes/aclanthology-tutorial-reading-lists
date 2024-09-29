@@ -1,1 +1,694 @@
-[{"authors": ["Manning, C. D.", "Schütze, H.", "Raghavan, P.", "Singh, A.", "Liu, H.", "Tseng, B.", "Zhou, D.", "Zhao, J.", "Li, Y.", "Wang, M.", "Zhang, Y.", "Li, J.", "Liu, T.", "Chen, Y.", "Wang, Z.", "Yang, J.", "Wang, W.", "Zhang, X.", "Liu, Y.", "Li, X.", "Zhang, Z.", "Wang, S.", "Li, H.", "Zhang, Y.", "Wang, Y.", "Li, Z.", "Wang, X.", "Zhang, L.", "Liu, X.", "Chen, Z.", "Wang, Q.", "Li, S.", "Zhang, H.", "Wang, B.", "Li, P.", "Zhang, S.", "Wang, J.", "Li, L.", "Zhang, W.", "Wang, H.", "Li, Q.", "Zhang, X.", "Wang, G.", "Li, Y.", "Zhang, J.", "Wang, D.", "Li, R.", "Zhang, Y.", "Wang, F.", "Li, T.", "Zhang, K.", "Wang, C.", "Li, M.", "Zhang, Q.", "Wang, A.", "Li, X.", "Zhang, P.", "Wang, E.", "Li, W.", "Zhang, R.", "Wang, Z.", "Li, J.", "Zhang, T.", "Wang, S.", "Li, H.", "Zhang, Y.", "Wang, Y.", "Li, Z.", "Wang, X.", "Zhang, L.", "Liu, X.", "Chen, Z.", "Wang, Q.", "Li, S.", "Zhang, H.", "Wang, B.", "Li, P.", "Zhang, S.", "Wang, J.", "Li, L.", "Zhang, W.", "Wang, H.", "Li, Q.", "Zhang, X.", "Wang, G.", "Li, Y.", "Zhang, J.", "Wang, D.", "Li, R.", "Zhang, Y.", "Wang, F.", "Li, T.", "Zhang, K.", "Wang, C.", "Li, M.", "Zhang, Q.", "Wang, A.", "Li, X.", "Zhang, P.", "Wang, E.", "Li, W.", "Zhang, R.", "Wang, Z.", "Li, J.", "Zhang, T.", "Wang, S.", "Li, H.", "Zhang, Y.", "Wang, Y.", "Li, Z.", "Wang, X.", "Zhang, L.", "Liu, X.", "Chen, Z.", "Wang, Q.", "Li, S.", "Zhang, H.", "Wang, B.", "Li, P.", "Zhang, S.", "Wang, J.", "Li, L.", "Zhang, W.", "Wang, H.", "Li, Q.", "Zhang, X.", "Wang, G.", "Li, Y.", "Zhang, J.", "Wang, D.", "Li, R.", "Zhang, Y.", "Wang, F.", "Li, T.", "Zhang, K.", "Wang, C.", "Li, M.", "Zhang, Q.", "Wang, A.", "Li, X.", "Zhang, P.", "Wang, E.", "Li, W.", "Zhang, R.", "Wang, Z.", "Li, J.", "Zhang, T.", "Wang, S.", "Li, H.", "Zhang, Y.", "Wang, Y.", "Li, Z.", "Wang, X.", "Zhang, L.", "Liu, X.", "Chen, Z.", "Wang, Q.", "Li, S.", "Zhang, H.", "Wang, B.", "Li, P.", "Zhang, S.", "Wang, J.", "Li, L.", "Zhang, W.", "Wang, H.", "Li, Q.", "Zhang, X.", "Wang, G.", "Li, Y.", "Zhang, J.", "Wang, D.", "Li, R.", "Zhang, Y.", "Wang, F.", "Li, T.", "Zhang, K.", "Wang, C.", "Li, M.", "Zhang, Q.", "Wang, A.", "Li, X.", "Zhang, P.", "Wang, E.", "Li, W.", "Zhang, R.", "Wang, Z.", "Li, J.", "Zhang, T.", "Wang, S.", "Li, H.", "Zhang, Y.", "Wang, Y.", "Li, Z.", "Wang, X.", "Zhang, L.", "Liu, X.", "Chen, Z.", "Wang, Q.", "Li, S.", "Zhang, H.", "Wang, B.", "Li, P.", "Zhang, S.", "Wang, J.", "Li, L.", "Zhang, W.", "Wang, H.", "Li, Q.", "Zhang, X.", "Wang, G.", "Li, Y.", "Zhang, J.", "Wang, D.", "Li, R.", "Zhang, Y.", "Wang, F.", "Li, T.", "Zhang, K.", "Wang, C.", "Li, M.", "Zhang, Q.", "Wang, A.", "Li, X.", "Zhang, P.", "Wang, E.", "Li, W.", "Zhang, R.", "Wang, Z.", "Li, J.", "Zhang, T.", "Wang, S.", "Li, H.", "Zhang, Y.", "Wang, Y.", "Li, Z.", "Wang, X.", "Zhang, L.", "Liu, X.", "Chen, Z.", "Wang, Q.", "Li, S.", "Zhang, H.", "Wang, B.", "Li, P.", "Zhang, S.", "Wang, J.", "Li, L.", "Zhang, W.", "Wang, H.", "Li, Q.", "Zhang, X.", "Wang, G.", "Li, Y.", "Zhang, J.", "Wang, D.", "Li, R.", "Zhang, Y.", "Wang, F.", "Li, T.", "Zhang, K.", "Wang, C.", "Li, M.", "Zhang, Q.", "Wang, A.", "Li, X.", "Zhang, P.", "Wang, E.", "Li, W.", "Zhang, R.", "Wang, Z.", "Li, J.", "Zhang, T.", "Wang, S.", "Li, H.", "Zhang, Y.", "Wang, Y.", "Li, Z.", "Wang, X.", "Zhang, L.", "Liu, X.", "Chen, Z.", "Wang, Q.", "Li, S.", "Zhang, H.", "Wang, B.", "Li, P.", "Zhang, S.", "Wang, J.", "Li, L.", "Zhang, W.", "Wang, H.", "Li, Q.", "Zhang, X.", "Wang, G.", "Li, Y.", "Zhang, J.", "Wang, D.", "Li, R.", "Zhang, Y.", "Wang, F.", "Li, T.", "Zhang, K.", "Wang, C.", "Li, M.", "Zhang, Q.", "Wang, A.", "Li, X.", "Zhang, P.", "Wang, E.", "Li, W.", "Zhang, R.", "Wang, Z.", "Li, J.", "Zhang, T.", "Wang, S.", "Li, H.", "Zhang, Y.", "Wang, Y.", "Li, Z.", "Wang, X.", "Zhang, L.", "Liu, X.", "Chen, Z.", "Wang, Q.", "Li, S.", "Zhang, H.", "Wang, B.", "Li, P.", "Zhang, S.", "Wang, J.", "Li, L.", "Zhang, W.", "Wang, H.", "Li, Q.", "Zhang, X.", "Wang, G.", "Li, Y.", "Zhang, J.", "Wang, D.", "Li, R.", "Zhang, Y.", "Wang, F.", "Li, T.", "Zhang, K.", "Wang, C.", "Li, M.", "Zhang, Q.", "Wang, A.", "Li, X.", "Zhang, P.", "Wang, E.", "Li, W.", "Zhang, R.", "Wang, Z.", "Li, J.", "Zhang, T.", "Wang, S.", "Li, H.", "Zhang, Y.", "Wang, Y.", "Li, Z.", "Wang, X.", "Zhang, L.", "Liu, X.", "Chen, Z.", "Wang, Q.", "Li, S.", "Zhang, H.", "Wang, B.", "Li, P.", "Zhang, S.", "Wang, J.", "Li, L.", "Zhang, W.", "Wang, H.", "Li, Q.", "Zhang, X.", "Wang, G.", "Li, Y.", "Zhang, J.", "Wang, D.", "Li, R.", "Zhang, Y.", "Wang, F.", "Li, T.", "Zhang, K.", "Wang, C.", "Li, M.", "Zhang, Q.", "Wang, A.", "Li, X.", "Zhang, P.", "Wang, E.", "Li, W.", "Zhang, R.", "Wang, Z.", "Li, J.", "Zhang, T.", "Wang, S.", "Li, H.", "Zhang, Y.", "Wang, Y.", "Li, Z.", "Wang, X.", "Zhang, L.", "Liu, X.", "Chen, Z.", "Wang, Q.", "Li, S.", "Zhang, H.", "Wang, B.", "Li, P.", "Zhang, S.", "Wang, J.", "Li, L.", "Zhang, W.", "Wang, H.", "Li, Q.", "Zhang, X.", "Wang, G.", "Li, Y.", "Zhang, J.", "Wang, D.", "Li, R.", "Zhang, Y.", "Wang, F.", "Li, T.", "Zhang, K.", "Wang, C.", "Li, M.", "Zhang, Q.", "Wang, A.", "Li, X.", "Zhang, P.", "Wang, E.", "Li, W.", "Zhang, R.", "Wang, Z.", "Li, J.", "Zhang, T.", "Wang, S.", "Li, H.", "Zhang, Y.", "Wang, Y.", "Li, Z.", "Wang, X.", "Zhang, L.", "Liu, X.", "Chen, Z.", "Wang, Q.", "Li, S.", "Zhang, H.", "Wang, B.", "Li, P.", "Zhang, S.", "Wang, J.", "Li, L.", "Zhang, W.", "Wang, H.", "Li, Q.", "Zhang, X.", "Wang, G.", "Li, Y.", "Zhang, J.", "Wang, D.", "Li, R.", "Zhang, Y.", "Wang, F.", "Li, T.", "Zhang, K.", "Wang, C.", "Li, M.", "Zhang, Q.", "Wang, A.", "Li, X.", "Zhang, P.", "Wang, E.", "Li, W.", "Zhang, R.", "Wang, Z.", "Li, J.", "Zhang, T.", "Wang, S.", "Li, H.", "Zhang, Y.", "Wang, Y.", "Li, Z.", "Wang, X.", "Zhang, L.", "Liu, X.", "Chen, Z.", "Wang, Q.", "Li, S.", "Zhang, H.", "Wang, B.", "Li, P.", "Zhang, S.", "Wang, J.", "Li, L.", "Zhang, W.", "Wang, H.", "Li, Q.", "Zhang, X.", "Wang, G.", "Li, Y.", "Zhang, J.", "Wang, D.", "Li, R.", "Zhang, Y.", "Wang, F.", "Li, T.", "Zhang, K.", "Wang, C.", "Li, M.", "Zhang, Q.", "Wang, A.", "Li, X.", "Zhang, P.", "Wang, E.", "Li, W.", "Zhang, R.", "Wang, Z.", "Li, J.", "Zhang, T.", "Wang, S.", "Li, H.", "Zhang, Y.", "Wang, Y.", "Li, Z.", "Wang, X.", "Zhang, L.", "Liu, X.", "Chen, Z.", "Wang, Q.", "Li, S.", "Zhang, H.", "Wang, B.", "Li, P.", "Zhang, S.", "Wang, J.", "Li, L.", "Zhang, W.", "Wang, H.", "Li, Q.", "Zhang, X.", "Wang, G.", "Li, Y.", "Zhang, J.", "Wang, D.", "Li, R.", "Zhang, Y.", "Wang, F.", "Li, T.", "Zhang, K.", "Wang, C.", "Li, M.", "Zhang, Q.", "Wang, A.", "Li, X.", "Zhang, P.", "Wang, E.", "Li, W.", "Zhang, R.", "Wang, Z.", "Li, J.", "Zhang, T.", "Wang, S.", "Li, H.", "Zhang, Y.", "Wang, Y.", "Li, Z.", "Wang, X.", "Zhang, L.", "Liu, X.", "Chen, Z.", "Wang, Q.", "Li, S.", "Zhang, H.", "Wang, B.", "Li, P.", "Zhang, S.", "Wang, J.", "Li, L.", "Zhang, W.", "Wang, H.", "Li, Q.", "Zhang, X.", "Wang, G.", "Li, Y.", "Zhang, J.", "Wang, D.", "Li, R.", "Zhang, Y.", "Wang, F.", "Li, T.", "Zhang, K.", "Wang, C.", "Li, M.", "Zhang, Q.", "Wang, A.", "Li, X.", "Zhang, P.", "Wang, E.", "Li, W.", "Zhang, R.", "Wang, Z.", "Li, J.", "Zhang, T.", "Wang, S.", "Li, H.", "Zhang, Y.", "Wang, Y.", "Li, Z.", "Wang, X.", "Zhang, L.", "Liu, X.", "Chen, Z.", "Wang, Q.", "Li, S.", "Zhang, H.", "Wang, B.", "Li, P.", "Zhang, S.", "Wang, J.", "Li, L.", "Zhang, W.", "Wang, H.", "Li, Q.", "Zhang, X.", "Wang, G.", "Li, Y.", "Zhang, J.", "Wang, D.", "Li, R.", "Zhang, Y.", "Wang, F.", "Li, T.", "Zhang, K.", "Wang, C.", "Li, M.", "Zhang, Q.", "Wang, A.", "Li, X.", "Zhang, P.", "Wang, E.", "Li, W.", "Zhang, R.", "Wang, Z.", "Li, J.", "Zhang, T.", "Wang, S.", "Li, H.", "Zhang, Y.", "Wang, Y.", "Li, Z.", "Wang, X.", "Zhang, L.", "Liu, X.", "Chen, Z.", "Wang, Q.", "Li, S.", "Zhang, H.", "Wang, B.", "Li, P.", "Zhang, S.", "Wang, J.", "Li, L.", "Zhang, W.", "Wang, H.", "Li, Q.", "Zhang, X.", "Wang, G.", "Li, Y.", "Zhang, J.", "Wang, D.", "Li, R.", "Zhang, Y.", "Wang, F.", "Li, T.", "Zhang, K.", "Wang, C.", "Li, M.", "Zhang, Q.", "Wang, A.", "Li, X.", "Zhang, P.", "Wang, E.", "Li, W.", "Zhang, R.", "Wang, Z.", "Li, J.", "Zhang, T.", "Wang, S.", "Li, H.", "Zhang, Y.", "Wang, Y.", "Li, Z.", "Wang, X.", "Zhang, L.", "Liu, X.", "Chen, Z.", "Wang, Q.", "Li, S.", "Zhang, H.", "Wang, B.", "Li, P.", "Zhang, S.", "Wang, J.", "Li, L.", "Zhang, W.", "Wang, H.", "Li, Q.", "Zhang, X.", "Wang, G.", "Li, Y.", "Zhang, J.", "Wang, D.", "Li, R.", "Zhang, Y.", "Wang, F.", "Li, T.", "Zhang, K.", "Wang, C.", "Li, M.", "Zhang, Q.", "Wang, A.", "Li, X.", "Zhang, P.", "Wang, E.", "Li, W.", "Zhang, R.", "Wang, Z.", "Li, J.", "Zhang, T.", "Wang, S.", "Li, H.", "Zhang, Y.", "Wang, Y.", "Li, Z.", "Wang, X.", "Zhang, L.", "Liu, X.", "Chen, Z.", "Wang, Q.", "Li, S.", "Zhang, H.", "Wang, B.", "Li, P.", "Zhang, S.", "Wang, J.", "Li, L.", "Zhang, W.", "Wang, H.", "Li, Q.", "Zhang, X.", "Wang, G.", "Li, Y.", "Zhang, J.", "Wang, D.", "Li, R.", "Zhang, Y.", "Wang, F.", "Li, T.", "Zhang, K.", "Wang, C.", "Li, M.", "Zhang, Q.", "Wang, A.", "Li, X.", "Zhang, P.", "Wang, E.", "Li, W.", "Zhang, R.", "Wang, Z.", "Li, J.", "Zhang, T.", "Wang, S.", "Li, H.", "Zhang, Y.", "Wang, Y.", "Li, Z.", "Wang, X.", "Zhang, L.", "Liu, X.", "Chen, Z.", "Wang, Q.", "Li, S.", "Zhang, H.", "Wang, B.", "Li, P.", "Zhang, S.", "Wang, J.", "Li, L.", "Zhang, W.", "Wang, H.", "Li, Q.", "Zhang, X.", "Wang, G.", "Li, Y.", "Zhang, J.", "Wang, D.", "Li, R.", "Zhang, Y.", "Wang, F.", "Li, T.", "Zhang, K.", "Wang, C.", "Li, M.", "Zhang, Q.", "Wang, A.", "Li, X.", "Zhang, P.", "Wang, E.", "Li, W.", "Zhang, R.", "Wang, Z.", "Li, J.", "Zhang, T.", "Wang, S.", "Li, H.", "Zhang, Y.", "Wang, Y.", "Li, Z.", "Wang, X.", "Zhang, L.", "Liu, X.", "Chen, Z.", "Wang, Q.", "Li, S.", "Zhang, H.", "Wang, B.", "Li, P.", "Zhang, S.", "Wang, J.", "Li, L.", "Zhang, W.", "Wang, H.", "Li, Q.", "Zhang, X.", "Wang, G.", "Li, Y.", "Zhang, J.", "Wang, D.", "Li, R.", "Zhang, Y.", "Wang, F.", "Li, T.", "Zhang, K.", "Wang, C.", "Li, M.", "Zhang, Q.", "Wang, A.", "Li, X.", "Zhang, P.", "Wang, E.", "Li, W.", "Zhang, R.", "Wang, Z.", "Li, J.", "Zhang, T.", "Wang, S.", "Li, H.", "Zhang, Y.", "Wang, Y.", "Li, Z.", "Wang, X.", "Zhang, L.", "Liu, X.", "Chen, Z.", "Wang, Q.", "Li, S.", "Zhang, H.", "Wang, B.", "Li, P.", "Zhang, S.", "Wang, J.", "Li, L.", "Zhang, W.", "Wang, H.", "Li, Q.", "Zhang, X.", "Wang, G.", "Li, Y.", "Zhang, J.", "Wang, D.", "Li, R.", "Zhang, Y.", "Wang, F.", "Li, T.", "Zhang, K.", "Wang, C.", "Li, M.", "Zhang, Q.", "Wang, A.", "Li, X.", "Zhang, P.", "Wang, E.", "Li, W.", "Zhang, R.", "Wang, Z.", "Li, J.", "Zhang, T.", "Wang, S.", "Li, H.", "Zhang, Y.", "Wang, Y.", "Li, Z.", "Wang, X.", "Zhang, L.", "Liu, X.", "Chen, Z.", "Wang, Q.", "Li, S.", "Zhang, H.", "Wang, B.", "Li, P.", "Zhang, S.", "Wang, J.", "Li, L.", "Zhang, W.", "Wang, H.", "Li, Q.", "Zhang, X.", "Wang, G.", "Li, Y.", "Zhang, J.", "Wang, D.", "Li, R.", "Zhang, Y.", "Wang, F.", "Li, T.", "Zhang, K.", "Wang, C.", "Li, M.", "Zhang, Q.", "Wang, A.", "Li, X.", "Zhang, P.", "Wang, E.", "Li, W.", "Zhang, R.", "Wang, Z.", "Li, J.", "Zhang, T.", "Wang, S.", "Li, H.", "Zhang, Y.", "Wang, Y.", "Li, Z.", "Wang, X.", "Zhang, L.", "Liu, X.", "Chen, Z.", "Wang, Q.", "Li, S.", "Zhang, H.", "Wang, B.", "Li, P.", "Zhang, S.", "Wang, J.", "Li, L.", "Zhang, W.", "Wang, H.", "Li, Q.", "Zhang, X.", "Wang, G.", "Li, Y.", "Zhang, J.", "Wang, D.", "Li, R.", "Zhang, Y.", "Wang, F.", "Li, T.", "Zhang, K.", "Wang, C.", "Li, M.", "Zhang, Q.", "Wang, A.", "Li, X.", "Zhang, P.", "Wang, E.", "Li, W.", "Zhang, R.", "Wang, Z.", "Li, J.", "Zhang, T.", "Wang, S.", "Li, H.", "Zhang, Y.", "Wang, Y.", "Li, Z.", "Wang, X.", "Zhang, L.", "Liu, X.", "Chen, Z.", "Wang, Q.", "Li, S.", "Zhang, H.", "Wang, B.", "Li, P.", "Zhang, S.", "Wang, J.", "Li, L.", "Zhang, W.", "Wang, H.", "Li, Q.", "Zhang, X.", "Wang, G.", "Li, Y.", "Zhang, J.", "Wang, D.", "Li, R.", "Zhang, Y.", "Wang, F.", "Li, T.", "Zhang, K.", "Wang, C.", "Li, M.", "Zhang, Q.", "Wang, A.", "Li, X.", "Zhang, P.", "Wang, E.", "Li, W.", "Zhang, R.", "Wang, Z.", "Li, J.", "Zhang, T.", "Wang, S.", "Li, H.", "Zhang, Y.", "Wang, Y.", "Li, Z.", "Wang, X.", "Zhang, L.", "Liu, X.", "Chen, Z.", "Wang, Q.", "Li, S.", "Zhang, H.", "Wang, B.", "Li, P.", "Zhang, S.", "Wang, J.", "Li, L.", "Zhang, W.", "Wang, H.", "Li, Q.", "Zhang, X.", "Wang, G.", "Li, Y.", "Zhang, J.", "Wang, D.", "Li, R.", "Zhang, Y.", "Wang, F.", "Li, T.", "Zhang, K.", "Wang, C.", "Li, M.", "Zhang, Q.", "Wang, A.", "Li, X.", "Zhang, P.", "Wang, E.", "Li, W.", "Zhang, R.", "Wang, Z.", "Li, J.", "Zhang, T.", "Wang, S.", "Li, H.", "Zhang, Y.", "Wang, Y.", "Li, Z.", "Wang, X.", "Zhang, L.", "Liu, X.", "Chen, Z.", "Wang, Q.", "Li, S.", "Zhang, H.", "Wang, B.", "Li, P.", "Zhang, S.", "Wang, J.", "Li, L.", "Zhang, W.", "Wang, H.", "Li, Q.", "Zhang, X.", "Wang, G.", "Li, Y.", "Zhang, J.", "Wang, D.", "Li, R.", "Zhang, Y.", "Wang, F.", "Li, T.", "Zhang, K.", "Wang, C.", "Li, M.", "Zhang, Q.", "Wang, A.", "Li, X.", "Zhang, P.", "Wang, E.", "Li, W.", "Zhang, R.", "Wang, Z.", "Li, J.", "Zhang, T.", "Wang, S.", "Li, H.", "Zhang, Y.", "Wang, Y.", "Li, Z.", "Wang, X.", "Zhang, L.", "Liu, X.", "Chen, Z.", "Wang, Q.", "Li, S.", "Zhang, H.", "Wang, B.", "Li, P.", "Zhang, S.", "Wang, J.", "Li, L.", "Zhang, W.", "Wang, H.", "Li, Q.", "Zhang, X.", "Wang, G.", "Li, Y.", "Zhang, J.", "Wang, D.", "Li, R.", "Zhang, Y.", "Wang, F.", "Li, T.", "Zhang, K.", "Wang, C.", "Li, M.", "Zhang, Q.", "Wang, A.", "Li, X.", "Zhang, P.", "Wang, E.", "Li, W.", "Zhang, R.", "Wang, Z.", "Li, J.", "Zhang, T.", "Wang, S.", "Li, H.", "Zhang, Y.", "Wang, Y.", "Li, Z.", "Wang, X.", "Zhang, L.", "Liu, X.", "Chen, Z.", "Wang, Q.", "Li, S.", "Zhang, H.", "Wang, B.", "Li, P.", "Zhang, S.", "Wang, J.", "Li, L.", "Zhang, W.", "Wang, H.", "Li, Q.", "Zhang, X.", "Wang, G.", "Li, Y.", "Zhang, J.", "Wang, D.", "Li, R.", "Zhang, Y.", "Wang, F.", "Li, T.", "Zhang, K.", "Wang, C.", "Li, M.", "Zhang, Q.", "Wang, A.", "Li, X.", "Zhang, P.", "Wang, E.", "Li, W.", "Zhang, R.", "Wang, Z.", "Li, J.", "Zhang, T.", "Wang, S.", "Li, H.", "Zhang, Y.", "Wang, Y.", "Li, Z.", "Wang, X.", "Zhang, L.", "Liu, X.", "Chen, Z.", "Wang, Q.", "Li, S.", "Zhang, H.", "Wang, B.", "Li, P.", "Zhang, S.", "Wang, J.", "Li, L.", "Zhang, W.", "Wang, H.", "Li, Q.", "Zhang, X.", "Wang, G.", "Li, Y.", "Zhang, J.", "Wang, D.", "Li, R.", "Zhang, Y.", "Wang, F.", "Li, T.", "Zhang, K.", "Wang, C.", "Li, M.", "Zhang, Q.", "Wang, A.", "Li, X.", "Zhang, P.", "Wang, E.", "Li, W.", "Zhang, R.", "Wang, Z.", "Li, J.", "Zhang, T.", "Wang, S.", "Li, H.", "Zhang, Y.", "Wang, Y.", "Li, Z.", "Wang, X.", "Zhang, L.", "Liu, X.", "Chen, Z.", "Wang, Q.", "Li, S.", "Zhang, H.", "Wang, B.", "Li, P.", "Zhang, S.", "Wang, J.", "Li, L.", "Zhang, W.", "Wang, H.", "Li, Q.", "Zhang, X.", "Wang, G.", "Li, Y.", "Zhang, J.", "Wang, D.", "Li, R.", "Zhang, Y.", "Wang, F.", "Li, T.", "Zhang, K.", "Wang, C.", "Li, M.", "Zhang, Q.", "Wang, A.", "Li, X.", "Zhang, P.", "Wang, E.", "Li, W.", "Zhang, R.", "Wang, Z.", "Li, J.", "Zhang, T.", "Wang, S.", "Li, H.", "Zhang, Y.", "Wang, Y.", "Li, Z.", "Wang, X.", "Zhang, L.", "Liu, X.", "Chen, Z.", "Wang, Q.", "Li, S.", "Zhang, H.", "Wang, B.", "Li, P.", "Zhang, S.", "Wang, J.", "Li, L.", "Zhang, W.", "Wang, H.", "Li, Q.", "Zhang, X.", "Wang, G.", "Li, Y.", "Zhang, J.", "Wang, D.", "Li, R.", "Zhang, Y.", "Wang, F.", "Li, T.", "Zhang, K.", "Wang, C.", "Li, M.", "Zhang, Q.", "Wang, A.", "Li, X.", "Zhang, P.", "Wang, E.", "Li, W.", "Zhang, R.", "Wang, Z.", "Li, J.", "Zhang, T.", "Wang, S.", "Li, H.", "Zhang, Y.", "Wang, Y.", "Li, Z.", "Wang, X.", "Zhang, L.", "Liu, X.", "Chen, Z.", "Wang, Q.", "Li, S.", "Zhang, H.", "Wang, B.", "Li, P.", "Zhang, S.", "Wang, J.", "Li, L.", "Zhang, W.", "Wang, H.", "Li, Q.", "Zhang, X.", "Wang, G.", "Li, Y.", "Zhang, J.", "Wang, D.", "Li, R.", "Zhang, Y.", "Wang, F.", "Li, T.", "Zhang, K.", "Wang, C.", "Li, M.", "Zhang, Q.", "Wang, A.", "Li, X.", "Zhang, P.", "Wang, E.", "Li, W.", "Zhang, R.", "Wang, Z.", "Li, J.", "Zhang, T.", "Wang, S.", "Li, H.", "Zhang, Y.", "Wang, Y.", "Li, Z.", "Wang, X.", "Zhang, L.", "Liu, X.", "Chen, Z.", "Wang, Q.", "Li, S.", "Zhang, H.", "Wang, B.", "Li, P.", "Zhang, S.", "Wang, J.", "Li, L.", "Zhang, W.", "Wang, H.", "Li, Q.", "Zhang, X.", "Wang, G.", "Li, Y.", "Zhang, J.", "Wang, D.", "Li, R.", "Zhang, Y.", "Wang, F.", "Li, T.", "Zhang, K.", "Wang, C.", "Li, M.", "Zhang, Q.", "Wang, A.", "Li, X.", "Zhang, P.", "Wang, E.", "Li, W.", "Zhang, R.", "Wang, Z.", "Li, J.", "Zhang, T.", "Wang, S.", "Li, H.", "Zhang, Y.", "Wang, Y.", "Li, Z.", "Wang, X.", "Zhang, L.", "Liu, X.", "Chen, Z.", "Wang, Q.", "Li, S.", "Zhang, H.", "Wang, B.", "Li, P.", "Zhang, S.", "Wang, J.", "Li, L.", "Zhang, W.", "Wang, H.", "Li, Q.", "Zhang, X.", "Wang, G.", "Li, Y.", "Zhang, J.", "Wang, D.", "Li, R.", "Zhang, Y.", "Wang, F.", "Li, T.", "Zhang, K.", "Wang, C.", "Li, M.", "Zhang, Q.", "Wang, A.", "Li, X.", "Zhang, P.", "Wang, E.", "Li, W.", "Zhang, R.", "Wang, Z.", "Li, J.", "Zhang, T.", "Wang, S.", "Li, H.", "Zhang, Y.", "Wang, Y.", "Li, Z.", "Wang, X.", "Zhang, L.", "Liu, X.", "Chen, Z.", "Wang, Q.", "Li, S.", "Zhang, H.", "Wang, B.", "Li, P.", "Zhang, S.", "Wang, J.", "Li, L.", "Zhang, W.", "Wang, H.", "Li, Q.", "Zhang, X.", "Wang, G.", "Li, Y.", "Zhang, J.", "Wang, D.", "Li, R.", "Zhang, Y.", "Wang, F.", "Li, T.", "Zhang, K.", "Wang, C.", "Li, M.", "Zhang, Q.", "Wang, A.", "Li, X.", "Zhang, P.", "Wang, E.", "Li, W.", "Zhang, R.", "Wang, Z.", "Li, J.", "Zhang, T.", "Wang, S.", "Li, H.", "Zhang, Y.", "Wang, Y.", "Li, Z.", "Wang, X.", "Zhang, L.", "Liu, X.", "Chen, Z.", "Wang, Q.", "Li, S.", "Zhang, H.", "Wang, B.", "Li, P.", "Zhang, S.", "Wang, J.", "Li, L.", "Zhang, W.", "Wang, H.", "Li, Q.", "Zhang, X.", "Wang, G.", "Li, Y.", "Zhang, J.", "Wang, D.", "Li, R.", "Zhang, Y.", "Wang, F.", "Li, T.", "Zhang, K.", "Wang, C.", "Li, M.", "Zhang, Q.", "Wang, A.", "Li, X.", "Zhang, P.", "Wang, E.", "Li, W.", "Zhang, R.", "Wang, Z.", "Li, J.", "Zhang, T.", "Wang, S.", "Li, H.", "Zhang, Y.", "Wang, Y.", "Li, Z.", "Wang, X.", "Zhang, L.", "Liu, X.", "Chen, Z.", "Wang, Q.", "Li, S.", "Zhang, H.", "Wang, B.", "Li, P.", "Zhang, S.", "Wang, J.", "Li, L.", "Zhang, W.", "Wang, H.", "Li, Q.", "Zhang, X.", "Wang, G.", "Li, Y.", "Zhang, J.", "Wang, D.", "Li, R.", "Zhang, Y.", "Wang, F.", "Li, T.", "Zhang, K.", "Wang, C.", "Li, M.", "Zhang, Q.", "Wang, A.", "Li, X.", "Zhang, P.", "Wang, E.", "Li, W.", "Zhang, R.", "Wang, Z.", "Li, J.", "Zhang, T.", "Wang, S.", "Li, H.", "Zhang, Y.", "Wang, Y.", "Li, Z.", "Wang, X.", "Zhang, L.", "Liu, X.", "Chen, Z.", "Wang, Q.", "Li, S.", "Zhang, H.", "Wang, B.", "Li, P.", "Zhang, S.", "Wang, J.", "Li, L.", "Zhang, W.", "Wang, H.", "Li, Q.", "Zhang, X.", "Wang, G.", "Li, Y.", "Zhang, J.", "Wang, D.", "Li, R.", "Zhang, Y.", "Wang, F.", "Li, T.", "Zhang, K.", "Wang, C.", "Li, M.", "Zhang, Q.", "Wang, A.", "Li, X.", "Zhang, P.", "Wang, E.", "Li, W.", "Zhang, R.", "Wang, Z.", "Li, J.", "Zhang, T.", "Wang, S.", "Li, H.", "Zhang, Y.", "Wang, Y.", "Li, Z.", "Wang, X.", "Zhang, L.", "Liu, X.", "Chen, Z.", "Wang, Q.", "Li, S.", "Zhang, H.", "Wang, B.", "Li, P.", "Zhang, S.", "Wang, J.", "Li, L.", "Zhang, W.", "Wang, H.", "Li
+[
+  {
+    "title": [
+      "## Event-Focused Natural Language Processing: A Reading List (2021 and Earlier"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list focuses on articles published up to 2021, covering various aspects of event-focused NLP, including event extraction, temporal reasoning, event summarization, and event prediction"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "**Event Extraction:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "title": [
+      "**\"Event Extraction: A Survey\"** by"
+    ],
+    "author": [
+      {
+        "family": "Li",
+        "given": "J."
+      },
+      {
+        "family": "Ji",
+        "given": "H."
+      }
+    ],
+    "date": [
+      "2014"
+    ],
+    "volume": [
+      "46*(4"
+    ],
+    "pages": [
+      "1–42"
+    ],
+    "note": [
+      "https://dl.acm.org/doi/10.1145/2629079](https://dl.acm.org/doi/10.1145/2629079"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "*ACM Computing Surveys (CSUR)*"
+    ]
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "author": [
+      {
+        "family": "Nguyen",
+        "given": "T.H.",
+        "particle": "Joint Event Extraction via Recurrent Neural Networks\" by"
+      },
+      {
+        "family": "Grishman",
+        "given": "R."
+      }
+    ],
+    "date": [
+      "2016"
+    ],
+    "container-title": [
+      "*Proceedings of the 2016 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies*"
+    ],
+    "pages": [
+      "101–109"
+    ],
+    "note": [
+      "https://www.aclweb.org/anthology/N16-1012](https://www.aclweb.org/anthology/N16-1012"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "author": [
+      {
+        "family": "Zhang",
+        "given": "M.",
+        "particle": "End-to-End Neural Event Extraction with Multi-Task Learning\" by"
+      },
+      {
+        "family": "Zhou",
+        "given": "J."
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "container-title": [
+      "*Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)*"
+    ],
+    "pages": [
+      "176–185"
+    ],
+    "note": [
+      "https://www.aclweb.org/anthology/P17-1019](https://www.aclweb.org/anthology/P17-1019"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "author": [
+      {
+        "family": "Zhou",
+        "given": "P.",
+        "particle": "Event Extraction with Graph Convolutional Networks\" by"
+      },
+      {
+        "family": "Shi",
+        "given": "W."
+      },
+      {
+        "family": "Zhang",
+        "given": "J."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "container-title": [
+      "*Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics*"
+    ],
+    "pages": [
+      "1415–1424"
+    ],
+    "note": [
+      "https://www.aclweb.org/anthology/P19-1142](https://www.aclweb.org/anthology/P19-1142"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "author": [
+      {
+        "family": "Liu",
+        "given": "Y.",
+        "particle": "Event Extraction with Pre-trained Language Models\" by"
+      },
+      {
+        "family": "Zhang",
+        "given": "J."
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "container-title": [
+      "*Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)*"
+    ],
+    "pages": [
+      "6251–6261"
+    ],
+    "note": [
+      "https://www.aclweb.org/anthology/2020.emnlp-main.525](https://www.aclweb.org/anthology/2020.emnlp-main.525"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "genre": [
+      "**Temporal Reasoning:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "title": [
+      "**\"Temporal Reasoning in Natural Language Processing\"** by"
+    ],
+    "author": [
+      {
+        "family": "Verhagen",
+        "given": "M."
+      },
+      {
+        "family": "Moens",
+        "given": "M."
+      }
+    ],
+    "date": [
+      "2009"
+    ],
+    "volume": [
+      "35*(4"
+    ],
+    "pages": [
+      "491–530"
+    ],
+    "note": [
+      "https://www.mitpressjournals.org/doi/full/10.1162/coli.08-024-R2](https://www.mitpressjournals.org/doi/full/10.1162/coli.08-024-R2"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "*Computational Linguistics*"
+    ]
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "title": [
+      "**\"Temporal Relation Extraction with a Multi-Task Learning Framework\"**"
+    ],
+    "author": [
+      {
+        "family": "Liu",
+        "given": "Y.",
+        "particle": "by"
+      },
+      {
+        "family": "Zhang",
+        "given": "J."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "container-title": [
+      "*Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics*"
+    ],
+    "pages": [
+      "1405–1414"
+    ],
+    "note": [
+      "https://www.aclweb.org/anthology/P19-1141](https://www.aclweb.org/anthology/P19-1141"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "author": [
+      {
+        "family": "Li",
+        "given": "A.Survey",
+        "particle": "of Temporal Relation Extraction\" by"
+      },
+      {
+        "family": "Y."
+      },
+      {
+        "family": "Ji",
+        "given": "H."
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "volume": [
+      "53*(4"
+    ],
+    "pages": [
+      "1–38"
+    ],
+    "note": [
+      "https://dl.acm.org/doi/10.1145/3398283](https://dl.acm.org/doi/10.1145/3398283"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "*ACM Computing Surveys (CSUR)*"
+    ]
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "author": [
+      {
+        "family": "Liu",
+        "given": "Y.",
+        "particle": "Temporal Reasoning with Language Models\" by"
+      },
+      {
+        "family": "Zhang",
+        "given": "J."
+      }
+    ],
+    "date": [
+      "2021"
+    ],
+    "container-title": [
+      "*Proceedings of the 2021 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies*"
+    ],
+    "pages": [
+      "1255–1265"
+    ],
+    "note": [
+      "https://www.aclweb.org/anthology/2021.naacl-main.108](https://www.aclweb.org/anthology/2021.naacl-main.108"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "author": [
+      {
+        "family": "Summarization",
+        "given": "Event"
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "title": [
+      "**\"Event Summarization: A Survey\"** by"
+    ],
+    "author": [
+      {
+        "family": "Li",
+        "given": "J."
+      },
+      {
+        "family": "Ji",
+        "given": "H."
+      }
+    ],
+    "date": [
+      "2016"
+    ],
+    "volume": [
+      "48*(4"
+    ],
+    "pages": [
+      "1–35"
+    ],
+    "note": [
+      "https://dl.acm.org/doi/10.1145/2897310](https://dl.acm.org/doi/10.1145/2897310"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "*ACM Computing Surveys (CSUR)*"
+    ]
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "author": [
+      {
+        "family": "Nallapati",
+        "given": "R.",
+        "particle": "Event Summarization with Neural Networks\" by"
+      },
+      {
+        "family": "Zhou",
+        "given": "B."
+      },
+      {
+        "family": "Huang",
+        "given": "Z."
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "container-title": [
+      "*Proceedings of the 2017 Conference on Empirical Methods in Natural Language Processing*"
+    ],
+    "pages": [
+      "199–209"
+    ],
+    "note": [
+      "https://www.aclweb.org/anthology/D17-1021](https://www.aclweb.org/anthology/D17-1021"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "author": [
+      {
+        "family": "Zhou",
+        "given": "P.",
+        "particle": "Event Summarization with Graph Neural Networks\" by"
+      },
+      {
+        "family": "Shi",
+        "given": "W."
+      },
+      {
+        "family": "Zhang",
+        "given": "J."
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "container-title": [
+      "*Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing*"
+    ],
+    "pages": [
+      "425–435"
+    ],
+    "note": [
+      "https://www.aclweb.org/anthology/D18-1043](https://www.aclweb.org/anthology/D18-1043"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "author": [
+      {
+        "family": "Liu",
+        "given": "Y.",
+        "particle": "Event Summarization with Pre-trained Language Models\" by"
+      },
+      {
+        "family": "Zhang",
+        "given": "J."
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "container-title": [
+      "*Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)*"
+    ],
+    "pages": [
+      "6262–6272"
+    ],
+    "note": [
+      "https://www.aclweb.org/anthology/2020.emnlp-main.526](https://www.aclweb.org/anthology/2020.emnlp-main.526"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "note": [
+      "**Event Prediction:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "title": [
+      "**\"Event Prediction: A Survey\"** by"
+    ],
+    "author": [
+      {
+        "family": "Li",
+        "given": "J."
+      },
+      {
+        "family": "Ji",
+        "given": "H."
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "volume": [
+      "50*(2"
+    ],
+    "pages": [
+      "1–35"
+    ],
+    "note": [
+      "https://dl.acm.org/doi/10.1145/3060279](https://dl.acm.org/doi/10.1145/3060279"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "*ACM Computing Surveys (CSUR)*"
+    ]
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "author": [
+      {
+        "family": "Nguyen",
+        "given": "T.H.",
+        "particle": "Event Prediction with Recurrent Neural Networks\" by"
+      },
+      {
+        "family": "Grishman",
+        "given": "R."
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "container-title": [
+      "*Proceedings of the 2017 Conference on Empirical Methods in Natural Language Processing*"
+    ],
+    "pages": [
+      "210–220"
+    ],
+    "note": [
+      "https://www.aclweb.org/anthology/D17-1022](https://www.aclweb.org/anthology/D17-1022"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "author": [
+      {
+        "family": "Zhou",
+        "given": "P.",
+        "particle": "Event Prediction with Graph Neural Networks\" by"
+      },
+      {
+        "family": "Shi",
+        "given": "W."
+      },
+      {
+        "family": "Zhang",
+        "given": "J."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "container-title": [
+      "*Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing*"
+    ],
+    "pages": [
+      "436–446"
+    ],
+    "note": [
+      "https://www.aclweb.org/anthology/D19-1044](https://www.aclweb.org/anthology/D19-1044"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "author": [
+      {
+        "family": "Liu",
+        "given": "Y.",
+        "particle": "Event Prediction with Pre-trained Language Models\" by"
+      },
+      {
+        "family": "Zhang",
+        "given": "J."
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "container-title": [
+      "*Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)*"
+    ],
+    "pages": [
+      "6273–6283"
+    ],
+    "note": [
+      "https://www.aclweb.org/anthology/2020.emnlp-main.527](https://www.aclweb.org/anthology/2020.emnlp-main.527"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "title": [
+      "**Other Relevant Topics:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "author": [
+      {
+        "family": "Detection",
+        "given": "Event"
+      },
+      {
+        "family": "Petrovic",
+        "given": "S.",
+        "particle": "Tracking in Social Media\" by"
+      },
+      {
+        "family": "Osborne",
+        "given": "M."
+      },
+      {
+        "family": "Lavrenko",
+        "given": "V."
+      }
+    ],
+    "date": [
+      "2010"
+    ],
+    "container-title": [
+      "*Proceedings of the 19th ACM International Conference on Information and Knowledge Management*"
+    ],
+    "pages": [
+      "1507–1516"
+    ],
+    "note": [
+      "https://dl.acm.org/doi/10.1145/1871437.1871669](https://dl.acm.org/doi/10.1145/1871437.1871669"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "author": [
+      {
+        "family": "Li",
+        "given": "J.",
+        "particle": "Event-Driven Text Summarization\" by"
+      },
+      {
+        "family": "Ji",
+        "given": "H."
+      }
+    ],
+    "date": [
+      "2011"
+    ],
+    "container-title": [
+      "*Proceedings of the 49th Annual Meeting of the Association for Computational Linguistics: Human Language Technologies*"
+    ],
+    "pages": [
+      "1011–1019"
+    ],
+    "note": [
+      "https://www.aclweb.org/anthology/P11-1103](https://www.aclweb.org/anthology/P11-1103"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "title": [
+      "**\"Event-Based Information Extraction: A Survey\"** by"
+    ],
+    "author": [
+      {
+        "family": "Li",
+        "given": "J."
+      },
+      {
+        "family": "Ji",
+        "given": "H."
+      }
+    ],
+    "date": [
+      "2012"
+    ],
+    "volume": [
+      "44*(4"
+    ],
+    "pages": [
+      "1–35"
+    ],
+    "note": [
+      "https://dl.acm.org/doi/10.1145/2209201.2209202](https://dl.acm.org/doi/10.1145/2209201.2209202"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "*ACM Computing Surveys (CSUR)*"
+    ]
+  },
+  {
+    "title": [
+      "**Note:** This list is not exhaustive and there are many other relevant articles published in the field. You can find more articles by searching for keywords like \"event extraction"
+    ],
+    "container-title": [
+      "\"temporal reasoning,\" \"event summarization,\" \"event prediction,\" and \"event-focused NLP\" on academic databases like ACM Digital Library, IEEE Xplore, and Google Scholar"
+    ],
+    "type": "chapter"
+  }
+]

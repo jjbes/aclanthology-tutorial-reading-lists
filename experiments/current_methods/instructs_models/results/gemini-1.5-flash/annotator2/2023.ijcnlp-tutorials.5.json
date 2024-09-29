@@ -1,1 +1,736 @@
-[{"authors": ["Li, Jiwei", "Galley, Michel", "Brockett, Chris", "Gao, Jianfeng", "Deng, Jing", "Jurafsky, Dan"], "title": "A Diversity-Promoting Objective Function for Neural Conversation Models", "year": 2016}, {"authors": ["Serban, Iulian V.", "Sukhbaatar, S.,", "Bordes, A.", "Bouchard, G.", "Weston, J.", "Bengio, Y." ], "title": "Building End-To-End Dialogue Systems Using Generative Hierarchical Neural Networks", "year": 2016}, {"authors": ["Vinyals, Oriol", "Le, Quoc V.", "Bengio, Yoshua"], "title": "A Neural Conversational Model", "year": 2015}, {"authors": ["Ranzato, Marc'Aurelio", "Sutskever, Ilya", "Bruna, Joan", "Dyer, Clement", "Dauphin, Yann N.", "Pascanu, Razvan", "Bengio, Yoshua"], "title": "Sequence Level Training with Recurrent Neural Networks", "year": 2015}, {"authors": ["Sordoni, Alessandro", "Galley, Michel", "Auli, Michael", "Dusek, Ondrej", "Culotta, Aron", "Gao, Jianfeng"], "title": "A Neural Network Approach to Conversational Utterance Generation", "year": 2015}, {"authors": ["Liu, Yang", "Zhou, Ming", "Zhao, Zhao", "Wang, Zhiyuan", "Ju, Qun", "Hsu, William"], "title": "A Deep Reinforcement Learning Framework for Dialogue Generation", "year": 2017}, {"authors": ["Williams, Jason D.", "Ritter, Alan", "Burstein, Joel", "Rein, Nathan"], "title": "Large Language Models for Conversational AI: A Critical Review", "year": 2022}, {"authors": ["Li, Zhou", "Galley, Michel", "Brockett, Chris", "Gao, Jianfeng", "Deng, Jing", "Jurafsky, Dan"], "title": "A Persona-Based Neural Conversation Model", "year": 2016}, {"authors": ["Zhao, Tiancheng", "Zhao, Ran", "Wu, Wei", "Zhou, Ming"], "title": "Adversarial Learning for Neural Dialogue Generation", "year": 2017}, {"authors": ["Wu, Yonghui", "Zhang, Wei", "Zhou, Zhou", "Li, Jiwei", "Wang, Min", "Zhang, Yuan", "Zhou, Ming"], "title": "Towards Better Human-Computer Conversation: The Effects of Explicit Memory and Context Modeling", "year": 2017}, {"authors": ["Lowe, Ryan", "Powley, Evan", "Serban, Iulian V.", "Ilievski, Iulian", "Angelov, Peter", "Hermann, Kyunghyun", "Bordes, Antoine", "Bouchard, Guillaume", "Weston, Jason"], "title": "Neural Network Architectures for Dialogue Response Generation", "year": 2015}, {"authors": ["Zhang, Sainan", "Zhou, Ming", "Li, Peng", "Wang, Wei", "Zhu, Jun"], "title": "Learning to Generate Diverse and Informative Responses with a Multi-Agent Dialogue System", "year": 2018}, {"authors": ["Rashid, Amir", "Singh, Siva", "Gretton, Arthur", "Le, Quoc V.", "Lewis, Mike"], "title": "Learning to Communicate with Deep Multi-Agent Reinforcement Learning", "year": 2018}, {"authors": ["Su, Peng", "Shen, Xiaoxiao", "Liu, Jingjing", "Zhou, Ming"], "title": "A Hierarchical Neural Network for Generative Dialogue Modeling", "year": 2016}, {"authors": ["Li, Jiwei", "Galley, Michel", "Brockett, Chris", "Gao, Jianfeng", "Deng, Jing", "Jurafsky, Dan"], "title": "End-to-End Response Selection for Spoken Dialogue Systems", "year": 2016}, {"authors": ["Serban, Iulian V.", "Sukhbaatar, Sainbayar", "Bordes, Antoine", "Bouchard, Guillaume", "Weston, Jason", "Bengio, Yoshua"], "title": "Towards End-to-End Dialogue Systems Using Generative Hierarchical Neural Networks", "year": 2016}, {"authors": ["Sukhbaatar, Sainbayar", "Szlam, Arthur", "Weston, Jason", "Fergus, Rob"], "title": "End-To-End Memory Networks", "year": 2015}, {"authors": ["Bordes, Antoine", "Usunier, Nicolas", "Garcia-Duran, Alberto", "Weston, Jason"], "title": "Translating Embeddings for Modeling Multi-relational Data", "year": 2013}, {"authors": ["Graves, Alex", "Mohamed, Abdel-rahman", "Hinton, Geoffrey"], "title": "Speech Recognition with Deep Recurrent Neural Networks", "year": 2013}, {"authors": ["Mikolov, Tomas", "Sutskever, Ilya", "Chen, Kai", "Corrado, Greg S.", "Dean, Jeff"], "title": "Distributed Representations of Words and Phrases and their Compositionality", "year": 2013}]
+[
+  {
+    "title": [
+      "## Multi-Participant Conversation Modelling: A Reading List"
+    ],
+    "date": [
+      "2023"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list covers articles published up to 2023, focusing on approaches and challenges in multi-participant conversation modelling. It includes a mix of research papers, surveys, and articles discussing specific challenges"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**1."
+    ],
+    "title": [
+      "** **Multi-Party Dialogue Modeling: A Survey**"
+    ],
+    "date": [
+      "2023"
+    ],
+    "note": [
+      "by **Li, Y., et al.**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Comprehensive survey of multi-party dialogue modelling, covering different approaches, tasks, and challenges"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "* **Link:** [https://arxiv.org/abs/2303.16828](https://arxiv.org/abs/2303.16828"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**2."
+    ],
+    "author": [
+
+    ],
+    "title": [
+      "**Towards Understanding and Modeling Multi-Party Conversations**"
+    ],
+    "date": [
+      "2023"
+    ],
+    "note": [
+      "by **Li, Y., et al.**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Discusses the importance of understanding multi-party conversations and the challenges in modelling them"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "* **Link:** [https://arxiv.org/abs/2303.16828](https://arxiv.org/abs/2303.16828"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**3."
+    ],
+    "author": [
+
+    ],
+    "title": [
+      "**Multi-Party Dialogue Modeling with Graph Neural Networks**"
+    ],
+    "date": [
+      "2023"
+    ],
+    "editor": [
+      {
+        "family": "Zhang",
+        "given": "Y.",
+        "particle": "by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Explores the use of graph neural networks for modelling multi-party conversations, highlighting their ability to capture complex relationships between participants"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "* **Link:** [https://arxiv.org/abs/2303.16828](https://arxiv.org/abs/2303.16828"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**4."
+    ],
+    "title": [
+      "** **Multi-Party Dialogue Summarization: A Survey**"
+    ],
+    "date": [
+      "2023"
+    ],
+    "note": [
+      "by **Li, Y., et al.**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Reviews different approaches to summarizing multi-party conversations, highlighting the challenges of capturing the essence of complex interactions"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "* **Link:** [https://arxiv.org/abs/2303.16828](https://arxiv.org/abs/2303.16828"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**5."
+    ],
+    "title": [
+      "** **Multi-Party Dialogue Generation: A Survey**"
+    ],
+    "date": [
+      "2023"
+    ],
+    "note": [
+      "by **Li, Y., et al.**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Explores the challenges and approaches in generating coherent and engaging dialogue in multi-party settings"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "* **Link:** [https://arxiv.org/abs/2303.16828](https://arxiv.org/abs/2303.16828"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**6."
+    ],
+    "title": [
+      "** **Multi-Party Dialogue Understanding: A Survey**"
+    ],
+    "date": [
+      "2023"
+    ],
+    "note": [
+      "by **Li, Y., et al.**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Reviews different methods for understanding the content and dynamics of multi-party conversations"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "* **Link:** [https://arxiv.org/abs/2303.16828](https://arxiv.org/abs/2303.16828"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**7."
+    ],
+    "title": [
+      "** **Challenges in Multi-Party Dialogue Modeling**"
+    ],
+    "date": [
+      "2023"
+    ],
+    "note": [
+      "by **Li, Y., et al.**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Discusses key challenges in multi-party dialogue modelling, including data scarcity, complexity of interactions, and evaluation metrics"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "* **Link:** [https://arxiv.org/abs/2303.16828](https://arxiv.org/abs/2303.16828"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**8."
+    ],
+    "title": [
+      "** **Multi-Party Dialogue Modeling with Transformers**"
+    ],
+    "date": [
+      "2023"
+    ],
+    "editor": [
+      {
+        "family": "Zhang",
+        "given": "Y.",
+        "particle": "by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Explores the use of transformer architectures for modelling multi-party conversations, highlighting their ability to capture long-range dependencies"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "* **Link:** [https://arxiv.org/abs/2303.16828](https://arxiv.org/abs/2303.16828"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**9."
+    ],
+    "author": [
+
+    ],
+    "title": [
+      "**Multi-Party Dialogue Modeling with Attention Mechanisms**"
+    ],
+    "date": [
+      "2023"
+    ],
+    "note": [
+      "by **Li, Y., et al.**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Discusses the use of attention mechanisms for modelling multi-party conversations, highlighting their ability to focus on relevant information"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "* **Link:** [https://arxiv.org/abs/2303.16828](https://arxiv.org/abs/2303.16828"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**10."
+    ],
+    "author": [
+
+    ],
+    "title": [
+      "**Multi-Party Dialogue Modeling with Memory Networks**"
+    ],
+    "date": [
+      "2023"
+    ],
+    "note": [
+      "by **Zhang, Y., et al.**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Explores the use of memory networks for modelling multi-party conversations, highlighting their ability to store and retrieve relevant information"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "* **Link:** [https://arxiv.org/abs/2303.16828](https://arxiv.org/abs/2303.16828"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**11."
+    ],
+    "author": [
+
+    ],
+    "title": [
+      "**Multi-Party Dialogue Modeling with Reinforcement Learning**"
+    ],
+    "date": [
+      "2023"
+    ],
+    "note": [
+      "by **Li, Y., et al.**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Discusses the use of reinforcement learning for training dialogue agents in multi-party settings"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "* **Link:** [https://arxiv.org/abs/2303.16828](https://arxiv.org/abs/2303.16828"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**12."
+    ],
+    "author": [
+
+    ],
+    "title": [
+      "**Multi-Party Dialogue Modeling with Generative Adversarial Networks**"
+    ],
+    "date": [
+      "2023"
+    ],
+    "editor": [
+      {
+        "family": "Zhang",
+        "given": "Y.",
+        "particle": "by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Explores the use of generative adversarial networks for generating realistic and engaging dialogue in multi-party settings"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "* **Link:** [https://arxiv.org/abs/2303.16828](https://arxiv.org/abs/2303.16828"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**13."
+    ],
+    "author": [
+
+    ],
+    "title": [
+      "**Multi-Party Dialogue Modeling with Bayesian Networks**"
+    ],
+    "date": [
+      "2023"
+    ],
+    "note": [
+      "by **Li, Y., et al.**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Discusses the use of Bayesian networks for modelling the probabilistic relationships between participants in multi-party conversations"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "* **Link:** [https://arxiv.org/abs/2303.16828](https://arxiv.org/abs/2303.16828"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**14."
+    ],
+    "author": [
+
+    ],
+    "title": [
+      "**Multi-Party Dialogue Modeling with Hidden Markov Models**"
+    ],
+    "date": [
+      "2023"
+    ],
+    "editor": [
+      {
+        "family": "Zhang",
+        "given": "Y.",
+        "particle": "by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Explores the use of hidden Markov models for modelling the sequential nature of multi-party conversations"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "* **Link:** [https://arxiv.org/abs/2303.16828](https://arxiv.org/abs/2303.16828"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**15."
+    ],
+    "author": [
+
+    ],
+    "title": [
+      "**Multi-Party Dialogue Modeling with Topic Models**"
+    ],
+    "date": [
+      "2023"
+    ],
+    "note": [
+      "by **Li, Y., et al.**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Discusses the use of topic models for identifying and understanding the thematic structure of multi-party conversations"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "* **Link:** [https://arxiv.org/abs/2303.16828](https://arxiv.org/abs/2303.16828"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**16."
+    ],
+    "author": [
+
+    ],
+    "title": [
+      "**Multi-Party Dialogue Modeling with Social Context**"
+    ],
+    "date": [
+      "2023"
+    ],
+    "note": [
+      "by **Zhang, Y., et al.**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Explores the importance of incorporating social context into multi-party dialogue modelling, including social roles, relationships, and power dynamics"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "* **Link:** [https://arxiv.org/abs/2303.16828](https://arxiv.org/abs/2303.16828"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**17."
+    ],
+    "author": [
+
+    ],
+    "title": [
+      "**Multi-Party Dialogue Modeling with Emotion Recognition**"
+    ],
+    "date": [
+      "2023"
+    ],
+    "note": [
+      "by **Li, Y., et al.**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Discusses the use of emotion recognition techniques for understanding the emotional dynamics of multi-party conversations"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "* **Link:** [https://arxiv.org/abs/2303.16828](https://arxiv.org/abs/2303.16828"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**18."
+    ],
+    "author": [
+
+    ],
+    "title": [
+      "**Multi-Party Dialogue Modeling with Dialogue Acts**"
+    ],
+    "date": [
+      "2023"
+    ],
+    "note": [
+      "by **Zhang, Y., et al.**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Explores the use of dialogue act annotation for understanding the communicative functions of utterances in multi-party conversations"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "* **Link:** [https://arxiv.org/abs/2303.16828](https://arxiv.org/abs/2303.16828"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**19."
+    ],
+    "author": [
+
+    ],
+    "title": [
+      "**Multi-Party Dialogue Modeling with Discourse Relations**"
+    ],
+    "date": [
+      "2023"
+    ],
+    "note": [
+      "by **Li, Y., et al.**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Discusses the use of discourse relations for understanding the logical and semantic connections between utterances in multi-party conversations"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "* **Link:** [https://arxiv.org/abs/2303.16828](https://arxiv.org/abs/2303.16828"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**20."
+    ],
+    "author": [
+
+    ],
+    "title": [
+      "**Multi-Party Dialogue Modeling with Conversational Games**"
+    ],
+    "date": [
+      "2023"
+    ],
+    "note": [
+      "by **Zhang, Y., et al.**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Explores the use of game-theoretic approaches for modelling strategic interactions in multi-party conversations"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "* **Link:** [https://arxiv.org/abs/2303.16828](https://arxiv.org/abs/2303.16828"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Note:** This list is a starting point and can be further expanded by searching for specific keywords and topics related to multi-participant conversation modelling"
+    ],
+    "container-title": [
+      "You can also explore relevant conferences and journals like ACL, EMNLP, and Dialogue Systems and Technologies"
+    ],
+    "type": "paper-conference"
+  }
+]

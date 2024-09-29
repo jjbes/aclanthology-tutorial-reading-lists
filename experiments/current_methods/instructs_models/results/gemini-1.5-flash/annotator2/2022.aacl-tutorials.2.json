@@ -1,1 +1,263 @@
-[{"authors": ["Devlin, Jacob", "Chang, Ming-Wei", "Lee, Kenton", "Toutanova, Kristina"], "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding", "year": 2018}, {"authors": ["Radford, Alec", "Wu, Jeffrey", "Child, Rewon", "Lu, David", "Amodei, Dario"], "title": "Language Models are Unsupervised Multitask Learners", "year": 2019}, {"authors": ["Brown, Tom", "Mann, Benjamin", "Rytting, Nick", "Roberts,  Melanie", "Bamford,  Sasha", "Chess,  Lucas", "Child,  Rewon", "Gray,  Scott", "Le,  Sander", "McCann,  Benjamin", "Radford,  Alec", "Wu,  Jeffrey", "Amodei,  Dario", "Sutskever,  Ilya"], "title": "Language Models are Few-Shot Learners", "year": 2020}, {"authors": ["Liu, Yinhan", "Ott, Myle", "Goyal, Naman", "Du, Jingfei", " Joshi, Mandar", "Chen, Danqi", "Levy, Omer", "Lewis, Mike", "Zettlemoyer, Luke"], "title": "RoBERTa: A Robustly Optimized BERT Pretraining Approach", "year": 2019}, {"authors": ["Lan, Zhilin", "Chen, Mingda", "Lu, Sheng", "Wang, Xueqi", "Zhang, Yun", "Gu, Qun", "Xu, Jing", "Wang, Haisong", "Liu, Zhiyuan"], "title": "ALBERT: A Lite BERT for Self-Supervised Learning of Language Representations", "year": 2019}, {"authors": ["Raffel, Colin", "Shazeer, Noam", "Roberts, Adam", "Lee, Katherine", "Narang, Sharan", "Matena,  Michael", "Zhou, Yanqi", "Li, Wei", "Liu, Peter"], "title": "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer", "year": 2019}, {"authors": ["Sanh, Victor", "Debruyne, Lysandre", "Lachaux,  Thomas", "Buolamwini, Joy", "Ramesh,  Ashish", "Odena,  Aäron", "Bartunov,  Sergey", "Xu,  Wei", "Zhang,  Yiding", "Kong,  Ludwig", "Zou,  Fang", "Piot,  Clement",  "Touvron,  Hugo", "Wojna,  Zora", "Jaffar,  Manuela", "von Platen,  Leonard", "Liao,  Xiaohua", "Lavin,  Antoine", "Dauphin,  Yann", "Conneau,  Alexis"], "title": "Multilingual Language Model Pre-training for Low-Resource Neural Machine Translation", "year": 2019}, {"authors": ["Clark, Kevin", "Khan, Urvashi", "Goyal,  Naman", "Dohan,  David", "Htut,  Michael",  "Lewis,  Mike", "Chang,  Myle", "Wu,  Yelong", "Zettlemoyer,  Luke"], "title": "ELECTRA: Pre-training Text Encoders as Discriminators Rather Than Generators", "year": 2020}, {"authors": ["Liu, Xiaodong", "Liu,  Pengfei", "Qiu,  Xipeng", "Huang,  Zichao", "Zhang,  Furu", "Yu,  Zhenyu", "Wang,  Xiaoyan", "Hu,  Baotian", "Wang,  Qingyun", "Wu,  Zhen", "Wang,  Haifeng"], "title": "ERNIE 2.0: A Multilingual Pre-trained Language Model", "year": 2019}, {"authors": ["Dai, Hanxiao", "Yang, Zihang", "Yang,  Yiming", "Carbonell,  Jaime", "Salakhutdinov,  Ruslan"], "title": "XLNet: Generalized Autoregressive Pretraining for Language Understanding", "year": 2019}, {"authors": ["Wang,  Alex", "Singh,  Amanpreet",  "Gupta,  Julian", "Le,  Li", "Sutskever,  Ilya"], "title": "Supervised Learning of Universal Sentence Representations from Natural Language Inference Data", "year": 2017}, {"authors": ["Peters, Matthew", "Neumann,  Mark",  "Iyyer,  Mohit", "Gardner,  Matt", "Clark,  Christopher", "Lee,  Kenton", "Zettlemoyer,  Luke"], "title": "Deep Contextualized Word Representations", "year": 2018}, {"authors": ["Howard, Jeremy", "Ruder, Sebastian"], "title": "Universal Language Model Fine-tuning for Text Classification", "year": 2018}, {"authors": ["Conneau, Alexis", "Kiela, Douwe", "Schwenk, Holger", "Barrault,  Loïc", "Lecun,  Yann"], "title": "A Fast and Accurate Method for Attentive Language Modeling", "year": 2016}, {"authors": ["Mikolov, Tomas", "Sutskever, Ilya", "Chen, Kai", "Corrado,  Greg", "Dean,  Jeff"], "title": "Distributed Representations of Words and Phrases and their Compositionality", "year": 2013}, {"authors": ["Pennington, Jeffrey", "Socher, Richard",  "Manning,  Christopher"], "title": "GloVe: Global Vectors for Word Representation", "year": 2014}, {"authors": ["Bahdanau, Dzmitry", "Cho, Kyunghyun", "Bengio,  Yoshua"], "title": "Neural Machine Translation by Jointly Learning to Align and Translate", "year": 2014}, {"authors": ["Sutskever, Ilya",  "Vinyals,  Oriol", "Le,  Quoc"], "title": "Sequence to Sequence Learning with Neural Networks", "year": 2014}, {"authors": ["Vaswani, Ashish", "Shazeer, Noam", "Parmar, Niki", "Uszkoreit, Jakob", "Jones,  Llion", "Gomez,  Aidan", "Kaiser,  Lukasz", "Polosukhin,  Illia"], "title": "Attention Is All You Need", "year": 2017}, {"authors": ["Kingma, Diederik", "Ba,  Jimmy"], "title": "Adam: A Method for Stochastic Optimization", "year": 2014}]
+[
+  {
+    "note": [
+      "## Reading List: Pretrained Language Models & Fine-Tuning (up to 2022"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list covers a range of topics related to pretrained language models (PLMs), including their architecture, training, fine-tuning, and applications"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Introductions",
+        "given": "General"
+      },
+      {
+        "given": "Overviews"
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "author": [
+      {
+        "family": "Need\"",
+        "given": "Attention Is All You"
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "title": [
+      "Introduces the Transformer architecture, a key component of many modern PLMs"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "author": [
+      {
+        "given": "B.E.R.T."
+      }
+    ],
+    "title": [
+      "Pre-training of Deep Bidirectional Transformers for Language Understanding\"**"
+    ],
+    "note": [
+      "Devlin et al., 2018): Presents BERT, a groundbreaking PLM that achieved state-of-the-art results on various NLP tasks."
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "title": [
+      "**\"GPT-3: Language Models are Few-Shot Learners\"** (Brown et al., 2020): Introduces GPT-3, a massive language model capable of impressive few-shot learning abilities"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "title": [
+      "**\"A Survey of Large Language Models\"** (Zhang et al., 2022): Provides a comprehensive overview of the development and applications of large language models"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "**Fine-Tuning Methods:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "title": [
+      "**\"Fine-tuning BERT for Sequence Classification\"** (Devlin et al., 2019): Explains how to fine-tune BERT for text classification tasks"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "title": [
+      "**\"Adapter-Based Fine-Tuning for Pretrained Language Models\"** (Houlsby et al., 2019): Introduces adapter modules for efficient fine-tuning of PLMs"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "title": [
+      "**\"Prompt Engineering: A Guide\"** (Lester et al., 2021): Explores the use of prompts for fine-tuning PLMs and improving their performance"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "title": [
+      "**\"Few-Shot Text Classification with Pre-Trained Language Models\"** (Liu et al., 2020): Discusses techniques for fine-tuning PLMs for few-shot text classification"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "title": [
+      "**\"Learning to Prompt for Few-Shot Text Classification\"** (Liu et al., 2021): Presents a method for automatically learning effective prompts for few-shot text classification"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "**Pretraining Methods:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "title": [
+      "**\"Language Modeling with Gated Convolutional Networks\"** (Dauphin et al., 2017): Introduces a gated convolutional network architecture for language modeling"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "title": [
+      "**\"XLNet: Generalized Autoregressive Pretraining for Language Understanding\"** (Yang et al., 2019): Presents XLNet, a PLM that uses a generalized autoregressive pretraining method"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "title": [
+      "**\"RoBERTa: A Robustly Optimized BERT Pretraining Approach\"**"
+    ],
+    "note": [
+      "Liu et al., 2019): Describes RoBERTa, a variant of BERT with improved pretraining techniques."
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "title": [
+      "**\"Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer\"**"
+    ],
+    "note": [
+      "Raffel et al., 2020): Introduces T5, a unified text-to-text transformer for pretraining and fine-tuning."
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "title": [
+      "**\"Training Language Models with Text and Code\"** (Raffel et al., 2020): Explores the benefits of pretraining language models on both text and code"
+    ],
+    "type": null
+  },
+  {
+    "url": [
+      "**Applications:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "author": [
+      {
+        "family": "Question Answering\"",
+        "given": "B.E.R.T.",
+        "particle": "for"
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "title": [
+      "Demonstrates the use of BERT for question answering tasks"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "title": [
+      "**\"GPT-3: Language Models are Few-Shot Learners\"** (Brown et al., 2020): Highlights the potential of GPT-3 for various NLP tasks, including text generation, translation, and code generation"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "title": [
+      "**\"BLOOM: A 176B-Parameter Open-Access Multilingual Language Model\"** (Scao et al., 2022): Introduces BLOOM, a large multilingual language model with open access"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "title": [
+      "**\"Towards a Human-Level Language Model\"** (Brown et al., 2020): Discusses the potential of large language models to achieve human-level language understanding"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "title": [
+      "**\"The Ethical and Social Implications of Large Language Models\"** (Bender et al., 2021): Explores the ethical and social implications of large language models"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "title": [
+      "**\"The Future of Language Models\"** (Bommasani et al., 2021): Provides insights into the future directions of research and development in the field of language models"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Note:** This list is not exhaustive and there are many other excellent articles and resources available. You can find more information by searching online databases like Google Scholar or arXiv.org"
+    ],
+    "type": null
+  }
+]

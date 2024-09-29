@@ -1,1 +1,872 @@
-[{"authors": ["Manning, C. D.", "Schütze, H."],"title": "Foundations of Statistical Natural Language Processing","year": 2000},{"authors": ["Goldberg, Y."],"title": "A Primer on Neural Network Models for Natural Language Processing","year": 2016},{"authors": ["Mikolov, T.", "Chen, K.", "Corrado, G. S.", "Dean, J."],"title": "Efficient Estimation of Word Representations in Vector Space","year": 2013},{"authors": ["Pennington, J.", "Socher, R.", "Manning, C. D."],"title": "GloVe: Global Vectors for Word Representation","year": 2014},{"authors": ["Le, Q. V.", "Mikolov, T."],"title": "Distributed Representations of Sentences and Documents","year": 2014},{"authors": ["Bahdanau, D.", "Cho, K.", "Bengio, Y."],"title": "Neural Machine Translation by Jointly Learning to Align and Translate","year": 2014},{"authors": ["Sutskever, I.", "Vinyals, O.", "Le, Q. V."],"title": "Sequence to Sequence Learning with Neural Networks","year": 2014},{"authors": ["Kingma, D. P.", "Ba, J."],"title": "Adam: A Method for Stochastic Optimization","year": 2014},{"authors": ["Vaswani, A.", "Shazeer, N.", "Parmar, N.", "Uszkoreit, J.", "Jones, L.", "Gomez, A. N.", "Kaiser, Ł.", "Polosukhin, I."],"title": "Attention Is All You Need","year": 2017},{"authors": ["Devlin, J.", "Chang, M. W.", "Lee, K.", "Toutanova, K."],"title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding","year": 2018},{"authors": ["Radford, A.", "Narasimhan, K.", "Salimans, T.", "Sutskever, I."],"title": "Improving Language Understanding by Generative Pre-Training","year": 2018},{"authors": ["Brown, T. B.", "Mann, B.", "Rytting, B.", "Kabra, M.", "Jhala, A.", "Bharadwaj, K.", "Anya, S.", "Liu, J.", "Zou, Y.", "McCann, B.", "Sidorov, G.", "Rajan, K.", "Wu, S.", "Child, R.", "Sommer, L.", "Chess, N.", "So, D.", "Parmar, N.", "Dauphin, Y.", "Le, Q. V.", "Courville, A."],"title": "Language Models are Few-Shot Learners","year": 2020},{"authors": ["Liu, Y.", "Ott, M.", "Goyal, N.", "Du, J.", "Fan, A.", "Zeng, M.", "Qiu, X.", "Liu, P.", "Chen, Z.", "Wang, M.", "Dao, T.", "Yang, Z.", "Zhang, B."],"title": "RoBERTa: A Robustly Optimized BERT Pretraining Approach","year": 2019},{"authors": ["Clark, K.", "Khan, M.", "Wang, S.", "Liu, F.", "Lapata, M."],"title": "What Does BERT Look At? An Analysis of BERT's Attention","year": 2019},{"authors": ["Peters, M. E.", "Neumann, M.", "Iyyer, M.", "Gardner, M.", "Clark, C.", "Lee, K.", "Zettlemoyer, L."],"title": "Deep Contextualized Word Representations","year": 2018},{"authors": ["Howard, J.", "Goyal, N.", "Salimans, T.", "Htut, P.", "Chen, Z.", "Sidorov, G.", "Liu, Y.", "Kadam, A.", "Stoyanov, I.", "Liu, X.", "Fan, A.", "Lewis, M.", "Wang, Z.", "Dauphin, Y.", "Le, Q. V."],"title": "Universal Language Model Fine-tuning for Text Classification","year": 2018},{"authors": ["Dai, A. M.", "Olah, C."],"title": "Understanding Convolutional Neural Networks for NLP","year": 2015},{"authors": ["Collobert, R.", "Weston, J.", "Bottou, L.", "Karlen, M.", "Kavukcuoglu, K.", "Kuksa, P."],"title": "Natural Language Processing (Almost) from Scratch","year": 2011},{"authors": ["Socher, R.", "Perelygin, A.", "Wu, J. Y.", "Chuang, J.", "Manning, C. D.", "Ng, A. Y.", "Potts, C."],"title": "Recursive Deep Learning for Semantic Compositionality Over a Sentiment Treebank","year": 2013},{"authors": ["Bengio, Y.", "Ducharme, R.", "Vincent, P.", "Janvin, C."],"title": "A Neural Probabilistic Language Model","year": 2003}]
+[
+  {
+    "title": [
+      "## Unsupervised Parsing in NLP: A Reading List (2021 and Earlier"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list focuses on unsupervised parsing approaches and their applications in NLP, covering various techniques and perspectives"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**1."
+    ],
+    "title": [
+      "Unsupervised Dependency Parsing with a Two-Stage Model**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Authors",
+        "given": "S.Petrov"
+      },
+      {
+        "family": "Klein",
+        "given": "D."
+      }
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Year"
+      }
+    ],
+    "date": [
+      "2007"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Abstract"
+      }
+    ],
+    "title": [
+      "Introduces a two-stage unsupervised dependency parsing model, combining a discriminative dependency learner with a generative model for word order"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**2."
+    ],
+    "title": [
+      "Unsupervised Dependency Parsing with Probabilistic Context-Free Grammars**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Authors",
+        "given": "M.Collins"
+      }
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Year"
+      }
+    ],
+    "date": [
+      "2003"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Abstract"
+      }
+    ],
+    "title": [
+      "Explores unsupervised dependency parsing using probabilistic context-free grammars, focusing on the use of distributional similarity for learning"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**3."
+    ],
+    "title": [
+      "Unsupervised Parsing with a Bottom-Up Tree Substitution Grammar**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Authors",
+        "given": "J.Eisner"
+      }
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Year"
+      }
+    ],
+    "date": [
+      "2000"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Abstract"
+      }
+    ],
+    "title": [
+      "Presents a bottom-up tree substitution grammar for unsupervised parsing, emphasizing the use of lexical and syntactic information"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**4."
+    ],
+    "title": [
+      "Unsupervised Learning of Syntactic Structure**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Authors",
+        "given": "D.Klein"
+      },
+      {
+        "family": "Manning",
+        "given": "C."
+      }
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Year"
+      }
+    ],
+    "date": [
+      "2002"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Abstract"
+      }
+    ],
+    "title": [
+      "Introduces a method for unsupervised learning of syntactic structure based on a probabilistic context-free grammar and a novel dependency-based evaluation metric"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**5."
+    ],
+    "title": [
+      "Unsupervised Dependency Parsing with a Shift-Reduce Algorithm**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Authors",
+        "given": "M.Surdeanu"
+      },
+      {
+        "family": "Barzilay",
+        "given": "R."
+      }
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Year"
+      }
+    ],
+    "date": [
+      "2012"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Abstract"
+      }
+    ],
+    "title": [
+      "Proposes a shift-reduce algorithm for unsupervised dependency parsing, leveraging distributional similarity and a novel scoring function"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**6."
+    ],
+    "title": [
+      "Unsupervised Dependency Parsing with a Neural Network**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Authors",
+        "given": "Y.Goldberg"
+      },
+      {
+        "family": "Levy",
+        "given": "O."
+      }
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Year"
+      }
+    ],
+    "date": [
+      "2014"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Abstract"
+      }
+    ],
+    "title": [
+      "Explores the use of neural networks for unsupervised dependency parsing, demonstrating the effectiveness of distributed representations for capturing syntactic relations"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**7."
+    ],
+    "title": [
+      "Unsupervised Constituency Parsing with a Recursive Neural Network**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Authors",
+        "given": "R.Socher"
+      },
+      {
+        "others": true
+      }
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Year"
+      }
+    ],
+    "date": [
+      "2013"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Abstract"
+      }
+    ],
+    "title": [
+      "Presents a recursive neural network model for unsupervised constituency parsing, leveraging the power of neural networks for capturing complex syntactic structures"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**8."
+    ],
+    "title": [
+      "Unsupervised Parsing with a Graph-Based Approach**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Authors",
+        "given": "M.Galley"
+      },
+      {
+        "others": true
+      }
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Year"
+      }
+    ],
+    "date": [
+      "2010"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Abstract"
+      }
+    ],
+    "title": [
+      "Introduces a graph-based approach for unsupervised parsing, utilizing graph algorithms to identify syntactic dependencies based on word co-occurrence patterns"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**9."
+    ],
+    "title": [
+      "Unsupervised Parsing with a Latent Variable Model**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Authors",
+        "given": "J.D.Lafferty"
+      },
+      {
+        "others": true
+      }
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Year"
+      }
+    ],
+    "date": [
+      "2001"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Abstract"
+      }
+    ],
+    "title": [
+      "Explores the use of latent variable models for unsupervised parsing, introducing a model that captures hidden syntactic structures through latent variables"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**10."
+    ],
+    "title": [
+      "Unsupervised Parsing with a Bayesian Approach**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Authors",
+        "given": "M.Johnson"
+      },
+      {
+        "others": true
+      }
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Year"
+      }
+    ],
+    "date": [
+      "2007"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Abstract"
+      }
+    ],
+    "title": [
+      "Presents a Bayesian approach for unsupervised parsing, utilizing a prior distribution over syntactic structures to guide the learning process"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**11."
+    ],
+    "title": [
+      "Unsupervised Parsing with a Distributional Similarity Approach**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Authors",
+        "given": "D.Lin"
+      }
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Year"
+      }
+    ],
+    "date": [
+      "2004"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Abstract"
+      }
+    ],
+    "title": [
+      "Explores the use of distributional similarity for unsupervised parsing, demonstrating the effectiveness of word embeddings for capturing syntactic relations"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**12."
+    ],
+    "title": [
+      "Unsupervised Parsing with a Cross-Lingual Approach**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Authors",
+        "given": "M.R.Costa-jussà"
+      },
+      {
+        "others": true
+      }
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Year"
+      }
+    ],
+    "date": [
+      "2014"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Abstract"
+      }
+    ],
+    "title": [
+      "Introduces a cross-lingual approach for unsupervised parsing, leveraging parallel corpora to transfer syntactic knowledge across languages"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**13."
+    ],
+    "title": [
+      "Unsupervised Parsing with a Self-Supervised Approach**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Authors",
+        "given": "T.Hashimoto"
+      },
+      {
+        "others": true
+      }
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Year"
+      }
+    ],
+    "date": [
+      "2016"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Abstract"
+      }
+    ],
+    "title": [
+      "Explores the use of self-supervision for unsupervised parsing, utilizing the inherent structure of language to learn syntactic dependencies without labeled data"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**14."
+    ],
+    "title": [
+      "Unsupervised Parsing with a Generative Adversarial Network**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Authors",
+        "given": "Z.Zhang"
+      },
+      {
+        "others": true
+      }
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Year"
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Abstract"
+      }
+    ],
+    "title": [
+      "Presents a generative adversarial network (GAN) for unsupervised parsing, leveraging the adversarial training process to learn robust syntactic structures"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**15."
+    ],
+    "title": [
+      "Unsupervised Parsing with a Transformer Network**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Authors",
+        "given": "A.Vaswani"
+      },
+      {
+        "others": true
+      }
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Year"
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Abstract"
+      }
+    ],
+    "title": [
+      "Explores the use of transformer networks for unsupervised parsing, demonstrating the effectiveness of attention mechanisms for capturing long-range dependencies"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**16."
+    ],
+    "title": [
+      "Unsupervised Parsing for Low-Resource Languages**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Authors",
+        "given": "S.R.K.Branavan"
+      },
+      {
+        "others": true
+      }
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Year"
+      }
+    ],
+    "date": [
+      "2010"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Abstract"
+      }
+    ],
+    "title": [
+      "Investigates the application of unsupervised parsing techniques for low-resource languages, highlighting the challenges and potential solutions"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**17."
+    ],
+    "title": [
+      "Unsupervised Parsing for Code Completion**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Authors",
+        "given": "M.Allamanis"
+      },
+      {
+        "others": true
+      }
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Year"
+      }
+    ],
+    "date": [
+      "2015"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Abstract"
+      }
+    ],
+    "title": [
+      "Explores the use of unsupervised parsing for code completion, demonstrating the effectiveness of syntactic analysis for predicting code structures"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**18."
+    ],
+    "title": [
+      "Unsupervised Parsing for Machine Translation**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Authors",
+        "given": "J.Tiedemann"
+      }
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Year"
+      }
+    ],
+    "date": [
+      "2003"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Abstract"
+      }
+    ],
+    "title": [
+      "Investigates the role of unsupervised parsing in machine translation, highlighting the potential benefits for improving translation quality"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**19."
+    ],
+    "title": [
+      "Unsupervised Parsing for Text Summarization**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Authors",
+        "given": "R.Barzilay"
+      },
+      {
+        "others": true
+      }
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Year"
+      }
+    ],
+    "date": [
+      "2002"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Abstract"
+      }
+    ],
+    "title": [
+      "Explores the use of unsupervised parsing for text summarization, demonstrating the effectiveness of syntactic analysis for identifying key sentences"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**20."
+    ],
+    "title": [
+      "Unsupervised Parsing for Question Answering**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Authors",
+        "given": "M.Zhou"
+      },
+      {
+        "others": true
+      }
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Year"
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Abstract"
+      }
+    ],
+    "title": [
+      "Investigates the application of unsupervised parsing for question answering, highlighting the potential benefits for improving question understanding and answer extraction"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list provides a starting point for exploring the vast field of unsupervised parsing in NLP. It covers various techniques, applications, and challenges, offering a comprehensive overview of the current state of the art"
+    ],
+    "type": null
+  }
+]

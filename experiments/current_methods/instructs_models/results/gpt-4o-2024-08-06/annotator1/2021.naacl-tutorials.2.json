@@ -1,0 +1,305 @@
+[
+  {
+    "title": [
+      "Creating a reading list of articles on fine-grained interpretation and causation analysis of opaque deep NLP models up to 2021 involves selecting influential and insightful papers that have contributed to the understanding and interpretability of these models"
+    ],
+    "note": [
+      "Here is a list of 20 articles that you might find useful:"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "author": [
+      {
+        "family": "Vaswani",
+        "given": "Attention",
+        "particle": "is All You Need\" by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "title": [
+      "- Introduces the Transformer model, which has become foundational in NLP and interpretability studies"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "author": [
+      {
+        "given": "B.E.R.T."
+      }
+    ],
+    "title": [
+      "Pre-training of Deep Bidirectional Transformers for Language Understanding\"** by Devlin et al",
+      "- Discusses BERT, a model that has spurred numerous interpretability studies"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "title": [
+      "**\"A Survey of Methods for Explaining Black Box Models\"** by Guidotti et al",
+      "- Provides a comprehensive overview of interpretability methods applicable to NLP"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "title": [
+      "**\"Interpretable Machine Learning: A Guide for Making Black Box Models Explainable\"** by Christoph Molnar",
+      "- A book that covers various interpretability techniques, including those relevant to NLP"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "author": [
+      {
+        "given": "L.I.M.E."
+      }
+    ],
+    "title": [
+      "Local Interpretable Model-Agnostic Explanations\"** by Ribeiro et al",
+      "- Introduces LIME, a popular method for interpreting model predictions"
+    ],
+    "date": [
+      "2016"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "title": [
+      "**\"Anchors: High-Precision Model-Agnostic Explanations\"** by Ribeiro et al"
+    ],
+    "date": [
+      "2018"
+    ],
+    "note": [
+      "- Builds on LIME to provide more precise explanations."
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "title": [
+      "**\"The Shapley Value in Machine Learning\"** by Lundberg and Lee (2017) - Discusses SHAP values, a method for interpreting model predictions"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "title": [
+      "**\"Visualizing and Understanding Neural Models in NLP\"** by Li et al",
+      "- Explores visualization techniques for understanding NLP models"
+    ],
+    "date": [
+      "2016"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "title": [
+      "**\"A Unified Approach to Interpreting Model Predictions\"** by Lundberg and Lee",
+      "- Introduces SHAP, a unified framework for interpreting predictions"
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "author": [
+      {
+        "family": "at?",
+        "given": "What Does B.E.R.T.Look"
+      }
+    ],
+    "title": [
+      "An Analysis of BERT's Attention\"** by Clark et al",
+      "- Analyzes the attention mechanisms in BERT to understand its predictions"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "title": [
+      "**\"Explaining Black Box Predictions and Unveiling Data Artifacts through Influence Functions\"** by Koh and Liang",
+      "- Uses influence functions to interpret model predictions"
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "title": [
+      "**\"Integrated Gradients: Axiomatic Attribution for Deep Networks\"** by Sundararajan et al",
+      "- Proposes a method for attributing predictions to input features"
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "title": [
+      "**\"Evaluating and Understanding the Robustness of Dialogue Systems: A Case Study on a Negotiation Agent\"** by He et al",
+      "- Examines robustness and interpretability in dialogue systems"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "title": [
+      "**\"Towards a Rigorous Science of Interpretable Machine Learning\"** by Doshi-Velez and Kim (2017) - Discusses the principles and challenges of interpretability in machine learning"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "title": [
+      "**\"Attention is not Explanation\"** by Jain and Wallace",
+      "- Critically examines the use of attention mechanisms as explanations"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "title": [
+      "**\"Learning Important Features Through Propagating Activation Differences\"** by Shrikumar et al",
+      "- Introduces DeepLIFT, a method for interpreting neural networks"
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "title": [
+      "**\"Interpretability Beyond Feature Attribution: Quantitative Testing with Concept Activation Vectors (TCAV)\"** by Kim et al",
+      "- Proposes a method for testing model interpretability using concept activation vectors"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "author": [
+      {
+        "family": "Lei",
+        "given": "Rationalizing Neural Predictions\"",
+        "particle": "by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2016"
+    ],
+    "title": [
+      "- Discusses methods for generating rationales for model predictions"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "title": [
+      "**\"Contextual Decomposition for Neural Network Interpretability\"** by Murdoch et al",
+      "- Introduces a method for decomposing neural network predictions"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "title": [
+      "**\"A Benchmark for Interpretability Methods in Deep Neural Networks\"** by Hooker et al",
+      "- Provides a benchmark for evaluating interpretability methods"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "These articles cover a range of topics related to the interpretability and causation analysis of deep NLP models, offering insights into various methods and their applications"
+    ],
+    "type": null
+  }
+]

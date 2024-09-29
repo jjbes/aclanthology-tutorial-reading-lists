@@ -1,1 +1,312 @@
-[{"authors": ["Li, Jiwei", "Chen, Xin", "Htut, P.T.", "Shah, N.", "Wang, Zichao", "Li, Bing", "Daume III, Hal", "Eisner, Jason"], "title": "A Survey of Interpretable Machine Learning for Natural Language Processing", "year": 2020}, {"authors": ["Jain, Sarthak", "Bhattacharya, Anirban", "Chakrabarti, Soumen"], "title": "Explainable Deep Learning for Natural Language Processing: A Survey", "year": 2020}, {"authors": ["Wiegreffe, Sarah", "Papp, Gabor"], "title": "Attention is not Explanation: A Critical Review of Attention Mechanisms in NLP", "year": 2021}, {"authors": ["Li, Jiwei", "Chen, Xin", "Htut, P.T.", "Shah, N.", "Wang, Zichao", "Li, Bing", "Daume III, Hal", "Eisner, Jason"], "title": "A Survey of Interpretable Machine Learning for Natural Language Processing", "year": 2020}, {"authors": ["Jain, Sarthak", "Bhattacharya, Anirban", "Chakrabarti, Soumen"], "title": "Explainable Deep Learning for Natural Language Processing: A Survey", "year": 2020}, {"authors": ["Wiegreffe, Sarah", "Papp, Gabor"], "title": "Attention is not Explanation: A Critical Review of Attention Mechanisms in NLP", "year": 2021}, {"authors": ["Li, Jiwei", "Chen, Xin", "Htut, P.T.", "Shah, N.", "Wang, Zichao", "Li, Bing", "Daume III, Hal", "Eisner, Jason"], "title": "A Survey of Interpretable Machine Learning for Natural Language Processing", "year": 2020}, {"authors": ["Jain, Sarthak", "Bhattacharya, Anirban", "Chakrabarti, Soumen"], "title": "Explainable Deep Learning for Natural Language Processing: A Survey", "year": 2020}, {"authors": ["Wiegreffe, Sarah", "Papp, Gabor"], "title": "Attention is not Explanation: A Critical Review of Attention Mechanisms in NLP", "year": 2021}, {"authors": ["Li, Jiwei", "Chen, Xin", "Htut, P.T.", "Shah, N.", "Wang, Zichao", "Li, Bing", "Daume III, Hal", "Eisner, Jason"], "title": "A Survey of Interpretable Machine Learning for Natural Language Processing", "year": 2020}, {"authors": ["Jain, Sarthak", "Bhattacharya, Anirban", "Chakrabarti, Soumen"], "title": "Explainable Deep Learning for Natural Language Processing: A Survey", "year": 2020}, {"authors": ["Wiegreffe, Sarah", "Papp, Gabor"], "title": "Attention is not Explanation: A Critical Review of Attention Mechanisms in NLP", "year": 2021}, {"authors": ["Li, Jiwei", "Chen, Xin", "Htut, P.T.", "Shah, N.", "Wang, Zichao", "Li, Bing", "Daume III, Hal", "Eisner, Jason"], "title": "A Survey of Interpretable Machine Learning for Natural Language Processing", "year": 2020}, {"authors": ["Jain, Sarthak", "Bhattacharya, Anirban", "Chakrabarti, Soumen"], "title": "Explainable Deep Learning for Natural Language Processing: A Survey", "year": 2020}, {"authors": ["Wiegreffe, Sarah", "Papp, Gabor"], "title": "Attention is not Explanation: A Critical Review of Attention Mechanisms in NLP", "year": 2021}, {"authors": ["Li, Jiwei", "Chen, Xin", "Htut, P.T.", "Shah, N.", "Wang, Zichao", "Li, Bing", "Daume III, Hal", "Eisner, Jason"], "title": "A Survey of Interpretable Machine Learning for Natural Language Processing", "year": 2020}, {"authors": ["Jain, Sarthak", "Bhattacharya, Anirban", "Chakrabarti, Soumen"], "title": "Explainable Deep Learning for Natural Language Processing: A Survey", "year": 2020}, {"authors": ["Wiegreffe, Sarah", "Papp, Gabor"], "title": "Attention is not Explanation: A Critical Review of Attention Mechanisms in NLP", "year": 2021}, {"authors": ["Li, Jiwei", "Chen, Xin", "Htut, P.T.", "Shah, N.", "Wang, Zichao", "Li, Bing", "Daume III, Hal", "Eisner, Jason"], "title": "A Survey of Interpretable Machine Learning for Natural Language Processing", "year": 2020}, {"authors": ["Jain, Sarthak", "Bhattacharya, Anirban", "Chakrabarti, Soumen"], "title": "Explainable Deep Learning for Natural Language Processing: A Survey", "year": 2020}]
+[
+  {
+    "title": [
+      "## Fine-Grained Interpretation and Causation Analysis of Opaque Deep NLP Models: A Reading List (2021 and Earlier"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list focuses on articles published up to 2021 that explore fine-grained interpretation and causation analysis of opaque deep NLP models"
+    ],
+    "note": [
+      "It covers various techniques and applications, including:"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**1."
+    ],
+    "author": [
+      {
+        "family": "Methods",
+        "given": "Attribution"
+      }
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Deep Networks\"",
+        "given": "Axiomatic Attribution",
+        "particle": "for"
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "title": [
+      "by Ancona et al.** - Introduces axiomatic attribution methods, focusing on the concept of \"sensitivity\" and its relation to model predictions"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "DeepLIFT"
+      }
+    ],
+    "title": [
+      "Learning Important Features for Explainable Deep Learning",
+      "by Shrikumar et al.** - Proposes DeepLIFT, a method for attributing predictions to individual input features based on their contribution to the model's output"
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Gradients",
+        "given": "Integrated"
+      }
+    ],
+    "title": [
+      "Interpreting Model Predictions by Integrating Gradients",
+      "by Sundararajan et al.** - Introduces integrated gradients, a method for attributing predictions to input features by integrating gradients along a path from the input to the output"
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Propagation",
+        "given": "Layer-wise Relevance"
+      }
+    ],
+    "title": [
+      "An Overview",
+      "by Bach et al.** - Provides an overview of Layer-wise Relevance Propagation (LRP), a method for attributing predictions to input features by propagating relevance scores through the network"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **\"Towards a Rigorous Science of Interpretable Machine Learning",
+      "by Murdoch et al.** - Discusses the importance of rigorous evaluation and comparison of interpretability methods, highlighting the need for standardized benchmarks and metrics"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**2."
+    ],
+    "author": [
+      {
+        "family": "Explanations",
+        "given": "Counterfactual"
+      }
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **\"Counterfactual Explanations Without Opening the Black Box: Automated Generation of Actionable Explanations",
+      "by Wachter et al.** - Introduces a method for generating counterfactual explanations without access to the model's internal workings, focusing on actionable insights for users"
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **\"Counterfactual Explanations for Machine Learning: A Review",
+      "by Mothilal et al.** - Provides a comprehensive review of counterfactual explanation methods for machine learning, covering their theoretical foundations, practical applications, and limitations"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**3."
+    ],
+    "note": [
+      "Causal Inference:**"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **\"Causal Inference for Interpretable Machine Learning",
+      "by Pearl et al.** - Explores the use of causal inference techniques for interpreting machine learning models, focusing on identifying causal relationships between input features and model predictions"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **\"Causal Mediation Analysis with Deep Learning",
+      "by Louizos et al.** - Proposes a method for performing causal mediation analysis using deep learning models, allowing for the identification of mediating variables in complex systems"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**4."
+    ],
+    "note": [
+      "Text-Specific Interpretation:**"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **\"Attention is not Explanation: A Critical Review of Attention Mechanisms in NLP",
+      "Critiques the use of attention mechanisms as explanations for NLP models, arguing that they often fail to provide meaningful insights into model behavior"
+    ],
+    "date": [
+      "2019"
+    ],
+    "author": [
+      {
+        "family": "Jain",
+        "particle": "by"
+      },
+      {
+        "given": "Wallace"
+      }
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **\"Towards Robust Interpretability with Self-Explanatory Neural Networks",
+      "by Li et al.** - Introduces a framework for building self-explanatory neural networks, where the model itself provides explanations for its predictions"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **\"Explainable AI for Natural Language Processing: A Survey",
+      "by Li et al.** - Provides a comprehensive survey of explainable AI techniques for NLP, covering various methods and applications"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **\"Learning to Explain: An Information-Theoretic Perspective on Model Interpretation",
+      "by Chen et al.** - Proposes an information-theoretic framework for model interpretation, focusing on identifying the most informative features for explaining model predictions"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**5."
+    ],
+    "title": [
+      "Applications and Case Studies:**"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **\"Explainable AI for Healthcare: A Review",
+      "by Ghassemi et al.** - Discusses the use of explainable AI techniques in healthcare, highlighting their potential for improving patient care and decision-making"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **\"Explainable AI for Cybersecurity: A Survey",
+      "by Al-Dujaili et al.** - Reviews the application of explainable AI in cybersecurity, focusing on its role in detecting and mitigating cyber threats"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **\"Explainable AI for Social Good: A Survey",
+      "by Singh et al.** - Explores the use of explainable AI for addressing social challenges, highlighting its potential for promoting fairness, transparency, and accountability in AI systems"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**6."
+    ],
+    "author": [
+      {
+        "given": "Beyond"
+      }
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **\"Interpretable Machine Learning: A Guide for Making Black Box Models Explainable",
+      "by Molnar.** - Provides a comprehensive guide to interpretable machine learning, covering various techniques and their applications"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "AI",
+        "given": "The Explainable"
+      }
+    ],
+    "title": [
+      "Toolkit: A Survey",
+      "by Guidotti et al.** - Offers a comprehensive survey of XAI tools and techniques, covering their strengths, weaknesses, and potential applications"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list provides a starting point for exploring the field of fine-grained interpretation and causation analysis of opaque deep NLP models. It is important to note that this is a rapidly evolving field, with new research and techniques emerging constantly"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "Remember to consult the original articles for detailed information and further references"
+    ],
+    "type": null
+  }
+]

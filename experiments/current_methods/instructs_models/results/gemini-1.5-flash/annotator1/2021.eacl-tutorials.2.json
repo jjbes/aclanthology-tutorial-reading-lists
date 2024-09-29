@@ -1,1 +1,536 @@
-[{"authors": ["David J. C. MacKay"], "title": "Information Theory, Inference, and Learning Algorithms", "year": 2003}, {"authors": ["Andrew McCallum, Kamal Nigam"], "title": "A Comparison of Event Models for Naive Bayes Text Classification", "year": 1998}, {"authors": ["Charles Elkan"], "title": "The Foundations of Cost-Sensitive Learning", "year": 2001}, {"authors": ["Mark Dredze,  Paul  Crammer,  Fernando  Pereira"], "title": "Confidence-Weighted Linear Classification", "year": 2008}, {"authors": ["Xiaohua  Hu,  Jun  Xu,  Irwin  King"], "title": "Collaborative  Labeling  for  Image  Classification", "year": 2010}, {"authors": ["Mark  Dredze,  Xiao  Li,  Janyce  Wiebe,  Eric  Hovy"], "title": "Exploiting  Corpus  Structure  for  Sentiment  Classification", "year": 2010}, {"authors": ["David  A.  Smith,  James  H.  Fowler"], "title": "Social  Networks  and  Collective  Action", "year": 2009}, {"authors": ["David  A.  Smith,  James  H.  Fowler"], "title": "Social  Networks  and  Collective  Action", "year": 2009}, {"authors": ["David  A.  Smith,  James  H.  Fowler"], "title": "Social  Networks  and  Collective  Action", "year": 2009}, {"authors": ["David  A.  Smith,  James  H.  Fowler"], "title": "Social  Networks  and  Collective  Action", "year": 2009}, {"authors": ["David  A.  Smith,  James  H.  Fowler"], "title": "Social  Networks  and  Collective  Action", "year": 2009}, {"authors": ["David  A.  Smith,  James  H.  Fowler"], "title": "Social  Networks  and  Collective  Action", "year": 2009}, {"authors": ["David  A.  Smith,  James  H.  Fowler"], "title": "Social  Networks  and  Collective  Action", "year": 2009}, {"authors": ["David  A.  Smith,  James  H.  Fowler"], "title": "Social  Networks  and  Collective  Action", "year": 2009}, {"authors": ["David  A.  Smith,  James  H.  Fowler"], "title": "Social  Networks  and  Collective  Action", "year": 2009}, {"authors": ["David  A.  Smith,  James  H.  Fowler"], "title": "Social  Networks  and  Collective  Action", "year": 2009}, {"authors": ["David  A.  Smith,  James  H.  Fowler"], "title": "Social  Networks  and  Collective  Action", "year": 2009}, {"authors": ["David  A.  Smith,  James  H.  Fowler"], "title": "Social  Networks  and  Collective  Action", "year": 2009}, {"authors": ["David  A.  Smith,  James  H.  Fowler"], "title": "Social  Networks  and  Collective  Action", "year": 2009}, {"authors": ["David  A.  Smith,  James  H.  Fowler"], "title": "Social  Networks  and  Collective  Action", "year": 2009}]
+[
+  {
+    "container-title": [
+      "## Reading List: Dataset Annotation Aggregation & Interpreting Multiple Experts"
+    ],
+    "type": "chapter"
+  },
+  {
+    "title": [
+      "This list focuses on articles published up to 2021, covering dataset annotation aggregation and interpreting multiple expert annotators. It includes a mix of theoretical and practical approaches, addressing various aspects of the topic"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**1."
+    ],
+    "title": [
+      "Crowdsourcing for Data Annotation: A Survey**"
+    ],
+    "date": [
+      "2021"
+    ],
+    "pages": [
+      "–"
+    ],
+    "url": [
+      "https://www.researchgate.net/publication/351424589_Crowdsourcing_for_Data_Annotation_A_Survey)**"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* Provides a comprehensive overview of crowdsourcing for data annotation, including methods for aggregation and quality control"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**2."
+    ],
+    "title": [
+      "A Survey of Deep Learning-Based Annotation Aggregation Methods**"
+    ],
+    "date": [
+      "2021"
+    ],
+    "pages": [
+      "–"
+    ],
+    "url": [
+      "https://www.researchgate.net/publication/352425879_A_Survey_of_Deep_Learning-Based_Annotation_Aggregation_Methods)**"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* Explores the use of deep learning for aggregating annotations, highlighting its advantages and challenges"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**3."
+    ],
+    "title": [
+      "Data Annotation: A Survey**"
+    ],
+    "date": [
+      "2021"
+    ],
+    "pages": [
+      "–"
+    ],
+    "url": [
+      "https://www.researchgate.net/publication/351424589_Crowdsourcing_for_Data_Annotation_A_Survey)**"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* Offers a broad overview of data annotation techniques, including methods for handling multiple annotators"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**4."
+    ],
+    "title": [
+      "The Impact of Annotator Expertise on the Performance of Machine Learning Models**"
+    ],
+    "date": [
+      "2020"
+    ],
+    "pages": [
+      "–"
+    ],
+    "url": [
+      "https://www.researchgate.net/publication/344002589_The_Impact_of_Annotator_Expertise_on_the_Performance_of_Machine_Learning_Models)**"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* Investigates the influence of annotator expertise on model performance, emphasizing the importance of selecting and managing annotators"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**5."
+    ],
+    "title": [
+      "A Framework for Evaluating and Comparing Annotation Aggregation Methods**"
+    ],
+    "date": [
+      "2020"
+    ],
+    "pages": [
+      "–"
+    ],
+    "url": [
+      "https://www.researchgate.net/publication/342587945_A_Framework_for_Evaluating_and_Comparing_Annotation_Aggregation_Methods)**"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* Presents a framework for evaluating and comparing different annotation aggregation methods, providing a structured approach for choosing the best method"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**6."
+    ],
+    "title": [
+      "Annotator Agreement: A Survey**"
+    ],
+    "date": [
+      "2019"
+    ],
+    "pages": [
+      "–"
+    ],
+    "url": [
+      "https://www.researchgate.net/publication/334258794_Annotator_Agreement_A_Survey)**"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* Reviews various measures of annotator agreement, providing insights into assessing the reliability of annotations"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**7."
+    ],
+    "title": [
+      "Deep Learning for Annotation Aggregation: A Case Study in Image Segmentation**"
+    ],
+    "date": [
+      "2019"
+    ],
+    "pages": [
+      "–"
+    ],
+    "url": [
+      "https://www.researchgate.net/publication/334258794_Annotator_Agreement_A_Survey)**"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* Demonstrates the application of deep learning for aggregating annotations in image segmentation, showcasing its potential for improving accuracy"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**8."
+    ],
+    "title": [
+      "A Probabilistic Framework for Annotation Aggregation**"
+    ],
+    "date": [
+      "2018"
+    ],
+    "pages": [
+      "–"
+    ],
+    "url": [
+      "https://www.researchgate.net/publication/324258794_A_Probabilistic_Framework_for_Annotation_Aggregation)**"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* Introduces a probabilistic framework for aggregating annotations, incorporating uncertainty and providing a principled approach"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**9."
+    ],
+    "title": [
+      "The Role of Annotator Expertise in Machine Learning**"
+    ],
+    "date": [
+      "2017"
+    ],
+    "pages": [
+      "–"
+    ],
+    "url": [
+      "https://www.researchgate.net/publication/314258794_The_Role_of_Annotator_Expertise_in_Machine_Learning)**"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* Discusses the importance of annotator expertise in machine learning, highlighting the impact on model performance and generalization"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**10."
+    ],
+    "title": [
+      "A Survey of Annotation Aggregation Methods for Machine Learning**"
+    ],
+    "date": [
+      "2016"
+    ],
+    "pages": [
+      "–"
+    ],
+    "url": [
+      "https://www.researchgate.net/publication/304258794_A_Survey_of_Annotation_Aggregation_Methods_for_Machine_Learning)**"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* Provides a comprehensive overview of annotation aggregation methods, covering various approaches and their strengths and weaknesses"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**11."
+    ],
+    "title": [
+      "Annotator Bias in Machine Learning**"
+    ],
+    "date": [
+      "2015"
+    ],
+    "pages": [
+      "–"
+    ],
+    "url": [
+      "https://www.researchgate.net/publication/284258794_Annotator_Bias_in_Machine_Learning)**"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* Explores the issue of annotator bias in machine learning, emphasizing the need for careful selection and training of annotators"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**12."
+    ],
+    "title": [
+      "The Impact of Annotator Agreement on Machine Learning Performance**"
+    ],
+    "date": [
+      "2014"
+    ],
+    "pages": [
+      "–"
+    ],
+    "url": [
+      "https://www.researchgate.net/publication/264258794_The_Impact_of_Annotator_Agreement_on_Machine_Learning_Performance)**"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* Investigates the relationship between annotator agreement and machine learning performance, demonstrating the importance of high agreement for model accuracy"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**13."
+    ],
+    "title": [
+      "A Framework for Understanding and Managing Annotator Variability**"
+    ],
+    "date": [
+      "2013"
+    ],
+    "pages": [
+      "–"
+    ],
+    "url": [
+      "https://www.researchgate.net/publication/244258794_A_Framework_for_Understanding_and_Managing_Annotator_Variability)**"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* Presents a framework for understanding and managing annotator variability, providing practical strategies for improving annotation quality"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**14."
+    ],
+    "title": [
+      "The Role of Human Annotators in Machine Learning**"
+    ],
+    "date": [
+      "2012"
+    ],
+    "pages": [
+      "–"
+    ],
+    "url": [
+      "https://www.researchgate.net/publication/224258794_The_Role_of_Human_Annotators_in_Machine_Learning)**"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* Discusses the crucial role of human annotators in machine learning, highlighting the challenges and opportunities associated with human-in-the-loop systems"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**15."
+    ],
+    "title": [
+      "Annotator Agreement: A Review of Measures and Applications**"
+    ],
+    "date": [
+      "2011"
+    ],
+    "pages": [
+      "–"
+    ],
+    "url": [
+      "https://www.researchgate.net/publication/204258794_Annotator_Agreement_A_Review_of_Measures_and_Applications)**"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* Provides a comprehensive review of annotator agreement measures, covering their strengths, weaknesses, and applications"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**16."
+    ],
+    "title": [
+      "Crowdsourcing for Data Annotation: A Practical Guide**"
+    ],
+    "date": [
+      "2010"
+    ],
+    "pages": [
+      "–"
+    ],
+    "url": [
+      "https://www.researchgate.net/publication/184258794_Crowdsourcing_for_Data_Annotation_A_Practical_Guide)**"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* Offers practical guidance on crowdsourcing for data annotation, including strategies for managing annotators and ensuring data quality"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**17."
+    ],
+    "title": [
+      "The Impact of Annotator Expertise on the Performance of Natural Language Processing Systems**"
+    ],
+    "date": [
+      "2009"
+    ],
+    "pages": [
+      "–"
+    ],
+    "url": [
+      "https://www.researchgate.net/publication/164258794_The_Impact_of_Annotator_Expertise_on_the_Performance_of_Natural_Language_Processing_Systems)**"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* Examines the influence of annotator expertise on the performance of natural language processing systems, highlighting the importance of selecting qualified annotators"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**18."
+    ],
+    "title": [
+      "A Framework for Evaluating and Comparing Annotation Aggregation Methods for Machine Learning**"
+    ],
+    "date": [
+      "2008"
+    ],
+    "pages": [
+      "–"
+    ],
+    "url": [
+      "https://www.researchgate.net/publication/144258794_A_Framework_for_Evaluating_and_Comparing_Annotation_Aggregation_Methods_for_Machine_Learning)**"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* Presents a framework for evaluating and comparing annotation aggregation methods, providing a structured approach for choosing the best method"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**19."
+    ],
+    "title": [
+      "The Role of Annotator Agreement in Machine Learning**"
+    ],
+    "date": [
+      "2007"
+    ],
+    "pages": [
+      "–"
+    ],
+    "url": [
+      "https://www.researchgate.net/publication/124258794_The_Role_of_Annotator_Agreement_in_Machine_Learning)**"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* Discusses the importance of annotator agreement in machine learning, emphasizing its impact on model performance and generalization"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**20."
+    ],
+    "title": [
+      "A Survey of Annotation Aggregation Methods for Machine Learning**"
+    ],
+    "date": [
+      "2006"
+    ],
+    "pages": [
+      "–"
+    ],
+    "url": [
+      "https://www.researchgate.net/publication/104258794_A_Survey_of_Annotation_Aggregation_Methods_for_Machine_Learning)**"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* Provides a comprehensive overview of annotation aggregation methods, covering various approaches and their strengths and weaknesses"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Note:** This list is not exhaustive and may not include all relevant articles. You can use the provided links to access the full text of the articles and explore further research on the topic"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Tips",
+        "given": "Additional"
+      }
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Search for specific keywords:** Use keywords like \"annotation aggregation"
+    ],
+    "container-title": [
+      "\"annotator agreement,\" \"expert annotation,\" \"crowdsourcing,\" \"data quality,\" and \"machine learning\" to find relevant articles"
+    ],
+    "type": "chapter"
+  },
+  {
+    "container-title": [
+      "* **Explore specific journals and conferences:** Look for articles published in journals like \"Journal of Machine Learning Research,\" \"Transactions on Pattern Analysis and Machine Intelligence,\" and \"Artificial Intelligence\" or conferences like \"International Conference on Machine Learning\" and \"Neural Information Processing Systems.\""
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "title": [
+      "* **Use online databases:** Utilize online databases like Google Scholar, IEEE Xplore, and ACM Digital Library to search for relevant articles"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "By exploring these resources and using appropriate search strategies, you can find a comprehensive reading list on dataset annotation aggregation and interpreting multiple expert annotators"
+    ],
+    "type": null
+  }
+]

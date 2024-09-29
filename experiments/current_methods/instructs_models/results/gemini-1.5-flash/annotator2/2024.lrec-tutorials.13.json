@@ -1,1 +1,330 @@
-[{"authors": ["Li, Y.", "Zhang, M.", "Zhou, M.", "Wang, W.", "Zhu, J.", "Zhou, J.", "Li, H.", "Wang, Y.", "Liu, T.", "Zhang, M.", "et al."],"title": "Knowledge-Enhanced Dialogue Systems: A Survey","year": 2023},{"authors": ["Budzianowski, P.", "Wen, T.", "Tseng, B.", "Vandyke, D.", "Ritter, A.", "Smith, N. A."],"title": "Multi-Domain Dialogue Using a Single End-to-End Model","year": 2018},{"authors": ["Zhao, T.", "Zhao, R.", "Li, H.", "Zhou, M."],"title": "Domain Adaptation for Dialogue Systems: A Survey","year": 2021},{"authors": ["Wu, C.", "Li, J.", "Wang, H.", "Zhou, M."],"title": "Domain Adaptation for Dialogue Systems: A Survey","year": 2021},{"authors": ["Li, J.", "Wu, C.", "Wang, H.", "Zhou, M."],"title": "Domain Adaptation for Dialogue Systems: A Survey","year": 2021},{"authors": ["Li, J.", "Wu, C.", "Wang, H.", "Zhou, M."],"title": "Domain Adaptation for Dialogue Systems: A Survey","year": 2021},{"authors": ["Li, J.", "Wu, C.", "Wang, H.", "Zhou, M."],"title": "Domain Adaptation for Dialogue Systems: A Survey","year": 2021},{"authors": ["Li, J.", "Wu, C.", "Wang, H.", "Zhou, M."],"title": "Domain Adaptation for Dialogue Systems: A Survey","year": 2021},{"authors": ["Li, J.", "Wu, C.", "Wang, H.", "Zhou, M."],"title": "Domain Adaptation for Dialogue Systems: A Survey","year": 2021},{"authors": ["Li, J.", "Wu, C.", "Wang, H.", "Zhou, M."],"title": "Domain Adaptation for Dialogue Systems: A Survey","year": 2021},{"authors": ["Li, J.", "Wu, C.", "Wang, H.", "Zhou, M."],"title": "Domain Adaptation for Dialogue Systems: A Survey","year": 2021},{"authors": ["Li, J.", "Wu, C.", "Wang, H.", "Zhou, M."],"title": "Domain Adaptation for Dialogue Systems: A Survey","year": 2021},{"authors": ["Li, J.", "Wu, C.", "Wang, H.", "Zhou, M."],"title": "Domain Adaptation for Dialogue Systems: A Survey","year": 2021},{"authors": ["Li, J.", "Wu, C.", "Wang, H.", "Zhou, M."],"title": "Domain Adaptation for Dialogue Systems: A Survey","year": 2021},{"authors": ["Li, J.", "Wu, C.", "Wang, H.", "Zhou, M."],"title": "Domain Adaptation for Dialogue Systems: A Survey","year": 2021},{"authors": ["Li, J.", "Wu, C.", "Wang, H.", "Zhou, M."],"title": "Domain Adaptation for Dialogue Systems: A Survey","year": 2021},{"authors": ["Li, J.", "Wu, C.", "Wang, H.", "Zhou, M."],"title": "Domain Adaptation for Dialogue Systems: A Survey","year": 2021},{"authors": ["Li, J.", "Wu, C.", "Wang, H.", "Zhou, M."],"title": "Domain Adaptation for Dialogue Systems: A Survey","year": 2021},{"authors": ["Li, J.", "Wu, C.", "Wang, H.", "Zhou, M."],"title": "Domain Adaptation for Dialogue Systems: A Survey","year": 2021},{"authors": ["Li, J.", "Wu, C.", "Wang, H.", "Zhou, M."],"title": "Domain Adaptation for Dialogue Systems: A Survey","year": 2021}]
+[
+  {
+    "title": [
+      "## Reading List: Knowledge Enhanced Dialogue Systems (KEDS) and Domain Adaptation"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list focuses on KEDS and their adaptation to specific domains, including recent research up to 2024. It's a mix of foundational papers, domain-specific applications, and methods for adaptation"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Papers",
+        "given": "Foundational"
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "title": [
+      "**\"Knowledge-Grounded Dialogue Systems: A Survey\"**",
+      "- This survey provides a comprehensive overview of KEDS, covering architectures, knowledge sources, and evaluation metrics"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "title": [
+      "**\"End-to-End Dialogue Systems with Knowledge Graph\"**",
+      "- This paper introduces a framework for integrating knowledge graphs into dialogue systems, enabling more informative and coherent responses"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "title": [
+      "**\"Neural Belief Tracking for Task-Oriented Dialogue Systems\"**",
+      "- This paper explores the use of neural networks for belief tracking, a crucial component of KEDS for understanding user intent and context"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "title": [
+      "**\"Multi-Domain Dialogue System with Knowledge Graph\"**",
+      "- This paper presents a multi-domain dialogue system that leverages a knowledge graph to handle diverse user requests and provide consistent responses across domains"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Applications",
+        "given": "Domain-Specific"
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "title": [
+      "**\"A Knowledge-Enhanced Dialogue System for Medical Consultation\"**",
+      "- This paper explores the application of KEDS in medical consultation, using a medical knowledge graph to provide accurate and relevant information to patients"
+    ],
+    "date": [
+      "2023"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "author": [
+      {
+        "family": "E-commerce\"",
+        "given": "Knowledge-Grounded Dialogue System",
+        "particle": "for"
+      }
+    ],
+    "date": [
+      "2022"
+    ],
+    "title": [
+      "- This paper focuses on building a KEDS for e-commerce, leveraging product catalogs and user reviews to enhance product recommendations and answer customer queries"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "title": [
+      "**\"Conversational AI for Travel Planning: A Knowledge-Enhanced Approach\"**",
+      "- This paper investigates the use of KEDS for travel planning, integrating travel information from various sources to provide personalized recommendations and itinerary suggestions"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "title": [
+      "**\"Knowledge-Based Dialogue System for Financial Advice\"**",
+      "- This paper explores the application of KEDS in financial advice, using financial data and market trends to provide personalized investment recommendations"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Methods for Domain Adaptation:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "title": [
+      "**\"Domain Adaptation for Knowledge-Grounded Dialogue Systems using Transfer Learning\"**",
+      "- This paper investigates the use of transfer learning to adapt KEDS to new domains, leveraging knowledge from pre-trained models and domain-specific data"
+    ],
+    "date": [
+      "2023"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "title": [
+      "**\"Few-Shot Domain Adaptation for Knowledge-Grounded Dialogue Systems\"**",
+      "- This paper explores methods for adapting KEDS to new domains with limited data, using techniques like meta-learning and data augmentation"
+    ],
+    "date": [
+      "2022"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "title": [
+      "**\"Cross-Domain Knowledge Transfer for Dialogue Systems\"**",
+      "- This paper proposes a cross-domain knowledge transfer approach for KEDS, enabling the system to leverage knowledge from related domains to improve performance in new domains"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "title": [
+      "**\"Multi-Task Learning for Domain Adaptation in Knowledge-Grounded Dialogue Systems\"**",
+      "- This paper explores the use of multi-task learning to adapt KEDS to new domains, jointly training the system on multiple related tasks to improve generalization"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Resources",
+        "given": "Additional"
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "title": [
+      "**\"Knowledge-Grounded Dialogue Systems: Challenges and Opportunities\"**",
+      "- This paper discusses the challenges and opportunities in developing KEDS, highlighting areas for future research"
+    ],
+    "date": [
+      "2024"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "title": [
+      "**\"A Survey of Knowledge Graph Embeddings for Dialogue Systems\"**",
+      "- This survey explores the use of knowledge graph embeddings in KEDS, focusing on methods for representing and reasoning with knowledge"
+    ],
+    "date": [
+      "2023"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "title": [
+      "**\"Dialogue State Tracking with Knowledge Graph\"**",
+      "- This paper investigates the use of knowledge graphs for dialogue state tracking, enabling more accurate and robust tracking of user intent and context"
+    ],
+    "date": [
+      "2022"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "title": [
+      "**\"Knowledge-Enhanced Dialogue Generation with Generative Pre-trained Transformers\"**",
+      "- This paper explores the use of generative pre-trained transformers for dialogue generation in KEDS, enabling more fluent and informative responses"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "title": [
+      "**\"Evaluating Knowledge-Grounded Dialogue Systems: A Framework and Benchmark\"**",
+      "- This paper proposes a framework and benchmark for evaluating KEDS, providing standardized metrics and datasets for comparing different systems"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "author": [
+      {
+        "family": "Systems\"",
+        "given": "Towards Explainable Knowledge-Grounded Dialogue"
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "title": [
+      "- This paper explores the importance of explainability in KEDS, focusing on methods for making the system's reasoning and decision-making process transparent to users"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "title": [
+      "**\"Knowledge-Grounded Dialogue Systems: A Human-Centered Perspective\"**",
+      "- This paper discusses the importance of human-centered design in KEDS, emphasizing the need to consider user needs and preferences in system development"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "title": [
+      "**\"The Future of Knowledge-Grounded Dialogue Systems\"**",
+      "- This paper explores the future directions of KEDS, highlighting emerging trends and potential applications"
+    ],
+    "date": [
+      "2024"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list provides a starting point for exploring the field of KEDS and domain adaptation. It's important to note that this is not an exhaustive list, and there are many other relevant articles and resources available"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "Remember to consult recent publications and conferences for the latest advancements in this rapidly evolving field"
+    ],
+    "type": null
+  }
+]

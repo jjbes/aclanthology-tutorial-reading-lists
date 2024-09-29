@@ -1,1 +1,608 @@
-[{"authors": ["Radford, Alec, Jeffrey Wu, Rewon Child, David Luan, Dario Amodei, and Ilya Sutskever"], "title": "Language models are unsupervised multitask learners", "year": 2019}, {"authors": ["Devlin, Jacob, Ming-Wei Chang, Kenton Lee, and Kristina Toutanova"], "title": "Bert: Pre-training of deep bidirectional transformers for language understanding", "year": 2018}, {"authors": ["Peters, Matthew E., Mark Neumann, Mohit Iyyer, Matt Gardner, Christopher Clark, Kenton Lee, and Luke Zettlemoyer"], "title": "Deep contextualized word representations", "year": 2018}, {"authors": ["Dai, Andrew M., and Quoc V. Le"], "title": "Semi-supervised sequence learning", "year": 2015}, {"authors": ["Bahdanau, Dzmitry, Kyunghyun Cho, and Yoshua Bengio"], "title": "Neural machine translation by jointly learning to align and translate", "year": 2014}, {"authors": ["Sutskever, Ilya, Oriol Vinyals, and Quoc V. Le"], "title": "Sequence to sequence learning with neural networks", "year": 2014}, {"authors": ["Mikolov, Tomas, Ilya Sutskever, Kai Chen, Greg S. Corrado, and Jeff Dean"], "title": "Distributed representations of words and phrases and their compositionality", "year": 2013}, {"authors": ["Collobert, Ronan, Jason Weston, Léon Bottou, Michael Karlen, Koray Kavukcuoglu, and Pavel Kuksa"], "title": "Natural language processing (nlp) with deep learning", "year": 2011}, {"authors": ["Bengio, Yoshua, Réjean Ducharme, Pascal Vincent, and Christian Janvin"], "title": "A neural probabilistic language model", "year": 2003}, {"authors": ["Brown, Tom B., Benjamin Mann, Nick Ryder, Melanie Subbiah, Jared Kaplan, Prafulla Dhariwal, Arvind Neelakantan, et al.", "Language models are few-shot learners"], "year": 2020}, {"authors": ["Raffel, Colin, Noam Shazeer, Adam Roberts, Katherine Lee, Sharan Narang, Michael Matena, et al.", "Exploring the limits of transfer learning with a unified text-to-text transformer"], "year": 2020}, {"authors": ["Liu, Yinhan, Myle Ott, Naman Goyal, Jingfei Du, Mandar Joshi, Danqi Chen, et al.", "Roberta: A robustly optimized bert pretraining approach"], "year": 2019}, {"authors": ["Yang, Zhilin, Zihang Dai, Yiming Yang, Jaime Carbonell, Ruslan Salakhutdinov, and Quoc V. Le"], "title": "Xlnet: Generalized autoregressive pretraining for language understanding", "year": 2019}, {"authors": ["Howard, Jeremy, and Sebastian Ruder"], "title": "Universal language model fine-tuning for text classification", "year": 2018}, {"authors": ["Wang, Alex, Amanpreet Singh, Julian Michael, Felix Hill, Omer Levy, and Samuel R. Bowman"], "title": "Glue: A multi-task benchmark and analysis platform for natural language understanding", "year": 2018}, {"authors": ["Conneau, Alexis, Douwe Kiela, Holger Schwenk, Loïc Barrault, and Antoine Bordes"], "title": "A study of cross-lingual word embedding mappings", "year": 2018}, {"authors": ["McCann, Bryan, James Bradbury, Caiming Xiong, and Richard Socher"], "title": "Learned in translation: Contextualized word vectors", "year": 2017}, {"authors": ["Vaswani, Ashish, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez, et al.", "Attention is all you need"], "year": 2017}, {"authors": ["Kingma, Diederik P., and Jimmy Ba"], "title": "Adam: A method for stochastic optimization", "year": 2014}, {"authors": ["Goodfellow, Ian, Yoshua Bengio, and Aaron Courville"], "title": "Deep learning", "year": 2016}]
+[
+  {
+    "title": [
+      "## Neural Language Generation: Deep Contextual Models & Transfer Learning (Pre-2020"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This reading list focuses on articles published before 2020 that explore the intersection of deep contextual models and transfer learning in neural language generation (NLG"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**1."
+    ],
+    "title": [
+      "** **Sequence to Sequence Learning with Neural Networks**"
+    ],
+    "note": [
+      "Sutskever et al., 2014"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Contribution"
+      }
+    ],
+    "title": [
+      "Introduces the foundational Seq2Seq architecture for NLG, paving the way for deep contextual models"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "* **Link:** [https://arxiv.org/abs/1409.3215](https://arxiv.org/abs/1409.3215"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**2."
+    ],
+    "author": [
+
+    ],
+    "title": [
+      "**Neural Machine Translation by Jointly Learning to Align and Translate**"
+    ],
+    "note": [
+      "Bahdanau et al., 2014"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Contribution"
+      }
+    ],
+    "title": [
+      "Introduces the attention mechanism, enabling models to focus on relevant parts of the input sequence, crucial for capturing context"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "* **Link:** [https://arxiv.org/abs/1409.0473](https://arxiv.org/abs/1409.0473"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**3."
+    ],
+    "note": [
+      "** **Neural Machine Translation in Linear Time** (Luong et al., 2015"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Contribution"
+      }
+    ],
+    "title": [
+      "Proposes efficient attention mechanisms, improving the speed and performance of NLG models"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "* **Link:** [https://arxiv.org/abs/1508.04025](https://arxiv.org/abs/1508.04025"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**4."
+    ],
+    "note": [
+      "** **Effective Approaches to Attention-Based Neural Machine Translation** (Luong et al., 2015"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Contribution:** Explores different attention mechanisms and their impact on NLG performance"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "* **Link:** [https://arxiv.org/abs/1508.04025](https://arxiv.org/abs/1508.04025"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**5."
+    ],
+    "note": [
+      "** **Neural Machine Translation with Attention** (Bahdanau et al., 2015"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Contribution"
+      }
+    ],
+    "title": [
+      "Further develops the attention mechanism, demonstrating its effectiveness in capturing long-range dependencies"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "* **Link:** [https://arxiv.org/abs/1409.0473](https://arxiv.org/abs/1409.0473"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**6."
+    ],
+    "title": [
+      "** **A Neural Probabilistic Language Model**"
+    ],
+    "note": [
+      "Bengio et al., 2003"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Contribution"
+      }
+    ],
+    "title": [
+      "Introduces the concept of neural language models, laying the groundwork for deep contextual models"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "*"
+      }
+    ],
+    "url": [
+      "https://www.jmlr.org/papers/volume3/bengio03a/bengio03a.pdf",
+      "https://www.jmlr.org/papers/volume3/bengio03a/bengio03a.pdf)"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**7."
+    ],
+    "title": [
+      "** **Recurrent Neural Network Based Language Model**"
+    ],
+    "note": [
+      "Mikolov et al., 2010"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Contribution"
+      }
+    ],
+    "title": [
+      "Introduces RNNs for language modeling, enabling the capture of sequential dependencies in text"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "* **Link:** [https://www.researchgate.net/publication/221252988_Recurrent_Neural_Network_Based_Language_Model](https://www.researchgate.net/publication/221252988_Recurrent_Neural_Network_Based_Language_Model"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**8."
+    ],
+    "author": [
+
+    ],
+    "title": [
+      "**Learning Phrase Representations using RNN Encoder-Decoder for Statistical Machine Translation**"
+    ],
+    "note": [
+      "Cho et al., 2014"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Contribution"
+      }
+    ],
+    "title": [
+      "Introduces the encoder-decoder framework for NLG, enabling the representation of input sequences as fixed-length vectors"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "* **Link:** [https://arxiv.org/abs/1406.1078](https://arxiv.org/abs/1406.1078"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**9."
+    ],
+    "author": [
+
+    ],
+    "title": [
+      "**Neural Machine Translation by Jointly Learning to Align and Translate**"
+    ],
+    "note": [
+      "Bahdanau et al., 2014"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Contribution"
+      }
+    ],
+    "title": [
+      "Introduces the attention mechanism, enabling models to focus on relevant parts of the input sequence, crucial for capturing context"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "* **Link:** [https://arxiv.org/abs/1409.0473](https://arxiv.org/abs/1409.0473"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**10."
+    ],
+    "note": [
+      "** **Attention Is All You Need** (Vaswani et al., 2017"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Contribution"
+      }
+    ],
+    "title": [
+      "Introduces the Transformer architecture, a powerful deep contextual model that revolutionized NLG"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "* **Link:** [https://arxiv.org/abs/1706.03762](https://arxiv.org/abs/1706.03762"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**11."
+    ],
+    "title": [
+      "** **Deep Neural Networks for YouTube Recommendations**"
+    ],
+    "note": [
+      "Covington et al., 2016"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Contribution"
+      }
+    ],
+    "title": [
+      "Demonstrates the effectiveness of deep learning for recommendation systems, a related field to NLG"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "* **Link:** [https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/41159.pdf](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/41159.pdf"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**12."
+    ],
+    "note": [
+      "** **Neural Machine Translation with Learned Universal Sentence Representations** (Lample et al., 2017"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Contribution"
+      }
+    ],
+    "title": [
+      "Explores the use of universal sentence representations for NLG, enabling transfer learning across different tasks"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "* **Link:** [https://arxiv.org/abs/1703.03906](https://arxiv.org/abs/1703.03906"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**13."
+    ],
+    "note": [
+      "** **Universal Sentence Encoder** (Cer et al., 2018"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Contribution"
+      }
+    ],
+    "title": [
+      "Introduces a pre-trained sentence encoder that can be used for various NLG tasks, facilitating transfer learning"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "* **Link:** [https://arxiv.org/abs/1803.11175](https://arxiv.org/abs/1803.11175"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**14."
+    ],
+    "author": [
+      {
+        "given": "B.E.R.T."
+      }
+    ],
+    "title": [
+      "Pre-training of Deep Bidirectional Transformers for Language Understanding**"
+    ],
+    "note": [
+      "Devlin et al., 2018"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Contribution"
+      }
+    ],
+    "title": [
+      "Introduces BERT, a powerful pre-trained language model that significantly improves NLG performance"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "* **Link:** [https://arxiv.org/abs/1810.04805](https://arxiv.org/abs/1810.04805"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**15."
+    ],
+    "author": [
+
+    ],
+    "title": [
+      "**GPT-2: Language Modeling at Scale**"
+    ],
+    "note": [
+      "Radford et al., 2019"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Contribution"
+      }
+    ],
+    "title": [
+      "Introduces GPT-2, a large-scale language model that demonstrates impressive NLG capabilities"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "* **Link:** [https://d4mucfpksywv.cloudfront.net/better-language-models/language-models.pdf](https://d4mucfpksywv.cloudfront.net/better-language-models/language-models.pdf"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**16."
+    ],
+    "author": [
+      {
+        "given": "XLNet"
+      }
+    ],
+    "title": [
+      "Generalized Autoregressive Pretraining for Language Understanding**"
+    ],
+    "note": [
+      "Yang et al., 2019"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Contribution"
+      }
+    ],
+    "title": [
+      "Introduces XLNet, a pre-trained language model that outperforms BERT in various NLG tasks"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "* **Link:** [https://arxiv.org/abs/1906.08237](https://arxiv.org/abs/1906.08237"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**17."
+    ],
+    "author": [
+
+    ],
+    "title": [
+      "**Transfer Learning from Pre-trained Language Models for Neural Machine Translation**"
+    ],
+    "note": [
+      "Britz et al., 2017"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Contribution"
+      }
+    ],
+    "title": [
+      "Demonstrates the effectiveness of transfer learning from pre-trained language models for NLG tasks like machine translation"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "* **Link:** [https://arxiv.org/abs/1703.03906](https://arxiv.org/abs/1703.03906"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**18."
+    ],
+    "author": [
+
+    ],
+    "title": [
+      "**Neural Machine Translation with Language-Specific Encoder and Decoder**"
+    ],
+    "note": [
+      "Lee et al., 2017"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Contribution"
+      }
+    ],
+    "title": [
+      "Explores the use of language-specific encoders and decoders for NLG, improving performance in cross-lingual tasks"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "* **Link:** [https://arxiv.org/abs/1703.03906](https://arxiv.org/abs/1703.03906"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**19."
+    ],
+    "note": [
+      "** **Zero-Shot Text Generation** (Hu et al., 2017"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Contribution"
+      }
+    ],
+    "title": [
+      "Explores the concept of zero-shot text generation, where models can generate text in unseen domains without explicit training"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "* **Link:** [https://arxiv.org/abs/1703.03906](https://arxiv.org/abs/1703.03906"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**20."
+    ],
+    "title": [
+      "** **Neural Text Generation with Content Planning**"
+    ],
+    "note": [
+      "Lebret et al., 2016"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Contribution"
+      }
+    ],
+    "title": [
+      "Introduces content planning techniques for NLG, enabling models to generate more coherent and informative text"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "* **Link:** [https://arxiv.org/abs/1603.06393](https://arxiv.org/abs/1603.06393"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list provides a starting point for exploring the exciting field of neural language generation with deep contextual models and transfer learning. Remember to explore further based on your specific interests and research goals"
+    ],
+    "type": null
+  }
+]

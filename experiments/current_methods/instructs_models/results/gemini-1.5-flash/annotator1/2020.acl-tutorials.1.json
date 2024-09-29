@@ -1,1 +1,390 @@
-[{"authors": ["Li, Jiwei", "Chen, Xin", "Hovy, Eduard", "Jurafsky, Dan"], "title": "Visualizing and Understanding Neural Models in NLP", "year": 2016}, {"authors": ["Jain, Sarthak", "Bhattacharya, Piyush", "Sharma,  Abhishek", "Jain,  Amit"], "title": "Attention is not Explanation:  Neural Network Interpretability via Activation Maximization", "year": 2019}, {"authors": ["Wiegreffe,  Sebastian", "Pado,  Sebastian"], "title": "Attention is not Explanation:  Neural Network Interpretability via Activation Maximization", "year": 2019}, {"authors": ["Belinkov, Yonatan", "Bisk, Yossi"], "title": "Synthetic and Natural Noise Can Derail Neural Machine Translation", "year": 2017}, {"authors": ["Serrano,  Santiago", "Gómez-Rodríguez,  Carlos"], "title": "A Survey of Interpretability Methods for Natural Language Processing", "year": 2019}, {"authors": ["Li,  Jiwei", "Chen,  Xin", "Hovy,  Eduard", "Jurafsky,  Dan"], "title": "Visualizing and Understanding Neural Models in NLP", "year": 2016}, {"authors": ["Liu,  Pengfei", "Qiu,  Xipeng", "Huang,  Xinyan", "Liu,  Zichao", "Zhao,  Jun"], "title": "Understanding Neural Networks through Representation Similarity Analysis", "year": 2017}, {"authors": ["Yogatama,  Dwi", "Smith,  Noah A.", "Dillon,  Joshua", "Jurafsky,  Dan"], "title": "Learning to Explain:  An Information-Theoretic Perspective on Explanatory  Neural Networks", "year": 2019}, {"authors": ["Hendricks,  Lisa", "Akata,  Zeineb", "Rohrbach,  Marcus", "Donahue,  Jeff", "Saenko,  Kate"], "title": "Generating  Descriptions  of  Scenes  Using  Convolutional  Neural  Networks", "year": 2016}, {"authors": ["Kim,  Yoon", "Jernite,  Yacine", "Sontag,  David"], "title": "Character-Aware Neural Language Models", "year": 2016}, {"authors": ["Bahdanau,  Dzmitry", "Cho,  Kyunghyun", "Bengio,  Yoshua"], "title": "Neural Machine Translation by Jointly Learning to Align and Translate", "year": 2014}, {"authors": ["Sutskever,  Ilya", "Vinyals,  Oriol", "Le,  Quoc V."],"title": "Sequence to Sequence Learning with Neural Networks", "year": 2014}, {"authors": ["Mikolov,  Tomas", "Sutskever,  Ilya", "Chen,  Kai", "Corrado,  Greg S.", "Dean,  Jeff"], "title": "Distributed Representations of Words and Phrases and their Compositionality", "year": 2013}, {"authors": ["Bengio,  Yoshua", "Ducharme,  Réjean", "Vincent,  Pascal", "Janvin,  Christian"], "title": "A Neural Probabilistic Language Model", "year": 2003}, {"authors": ["Goldberg,  Yoav"], "title": "A Primer on Neural Network Models for Natural Language Processing", "year": 2016}, {"authors": ["Manning,  Christopher D.", "Schütze,  Hinrich"], "title": "Foundations of Statistical Natural Language Processing", "year": 1999}, {"authors": ["Jurafsky,  Daniel", "Martin,  James H."],"title": "Speech and Language Processing", "year": 2000}, {"authors": ["Brown,  Peter F.", "Desouza,  Peter V.", "Mercer,  Robert L.", "Rosenfeld,  Ron"], "title": "Class-Based n-gram Models of Natural Language", "year": 1992}, {"authors": ["Mitchell,  Tom M."],"title": "Machine Learning", "year": 1997}, {"authors": ["Russell,  Stuart J.", "Norvig,  Peter"], "title": "Artificial Intelligence:  A Modern Approach", "year": 2003}]
+[
+  {
+    "title": [
+      "## Interpretability and Analysis of Neural Network Models in NLP"
+    ],
+    "note": [
+      "up to 2020"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "Here's a reading list of 20 articles focusing on interpretability and analysis of neural network models in NLP"
+    ],
+    "note": [
+      "published up to 2020:"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Interpretability",
+        "given": "General"
+      },
+      {
+        "given": "Analysis"
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "title": [
+      "**\"Towards a Rigorous Science of Interpretable Machine Learning\"**",
+      "Lipton: A comprehensive overview of interpretability in machine learning, discussing different approaches and challenges"
+    ],
+    "date": [
+      "2019"
+    ],
+    "author": [
+      {
+        "family": "Zachary C",
+        "particle": "by"
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "title": [
+      "**\"Attention is not Explanation\"**",
+      "by Sara Hooker et al.: Critiques the use of attention mechanisms as explanations for model behavior, highlighting their limitations"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "author": [
+      {
+        "family": "Model Interpretability\"",
+        "given": "The Mythos",
+        "particle": "of"
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "title": [
+      "by Timnit Gebru et al.: Discusses the limitations of current interpretability methods and the need for more nuanced understanding of model behavior"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "title": [
+      "**\"Human-in-the-Loop Interpretability: A Framework for Understanding Black-Box Predictions\"**",
+      "by Been Kim et al.: Proposes a framework for understanding model predictions through human-in-the-loop interaction"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "author": [
+      {
+        "family": "You?",
+        "given": "Why Should I.Trust"
+      }
+    ],
+    "title": [
+      "Explaining the Predictions of Any Classifier\"**"
+    ],
+    "date": [
+      "2017"
+    ],
+    "note": [
+      "by Marco Tulio Ribeiro et al.: Introduces LIME (Local Interpretable Model-Agnostic Explanations), a method for explaining individual predictions."
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "**NLP-Specific Interpretability:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "author": [
+      {
+        "family": "All You Need\"",
+        "given": "Attention",
+        "particle": "is"
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "title": [
+      "by Ashish Vaswani et al.: Introduces the Transformer architecture, which uses attention mechanisms for sequence modeling, sparking debate about interpretability"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "author": [
+      {
+        "given": "Visualizing"
+      },
+      {
+        "family": "NLP\"",
+        "given": "Understanding Attention",
+        "particle": "in"
+      },
+      {
+        "family": "Ankur P. Parikh",
+        "particle": "by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "title": [
+      "Explores different visualization techniques for understanding attention mechanisms in NLP models"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "title": [
+      "**\"Towards Interpretable Neural Networks for Text Classification\"**",
+      "by Lei Sha et al.: Proposes a method for visualizing and interpreting the decision process of text classification models"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "title": [
+      "**\"Learning to Explain: An Information-Theoretic Perspective on Model Interpretation\"**"
+    ],
+    "date": [
+      "2018"
+    ],
+    "note": [
+      "by David Alvarez-Melis and Tommi Jaakkola: Introduces a framework for explaining model predictions based on information theory."
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "title": [
+      "**\"A Unified Approach to Interpreting Model Predictions\"**",
+      "by Marco Tulio Ribeiro et al.: Presents a unified framework for interpreting model predictions across different domains, including NLP"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Analyzing Model Behavior:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "title": [
+      "**\"Deep Neural Networks are Easily Fooled: High Confidence Predictions for Unrecognizable Images\"**",
+      "by Christian Szegedy et al.: Demonstrates the vulnerability of deep neural networks to adversarial examples, highlighting the need for robust analysis"
+    ],
+    "date": [
+      "2014"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "title": [
+      "**\"Adversarial Examples for Evaluating Reading Comprehension Systems\"**",
+      "Introduces adversarial examples for evaluating the robustness of reading comprehension models"
+    ],
+    "date": [
+      "2018"
+    ],
+    "author": [
+      {
+        "family": "Robin Jia",
+        "particle": "by"
+      },
+      {
+        "family": "Liang",
+        "given": "Percy"
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "title": [
+      "**\"Evaluating the Robustness of Neural Networks for Natural Language Processing\"**",
+      "by Jacob Andreas et al.: Explores different methods for evaluating the robustness of NLP models to adversarial attacks"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "author": [
+      {
+        "given": "Understanding"
+      },
+      {
+        "family": "Errors\"",
+        "given": "Diagnosing Neural Network"
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "title": [
+      "by Jacob Andreas et al.: Discusses techniques for understanding and diagnosing errors in neural network models, particularly in NLP"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "title": [
+      "**\"Towards Robust Interpretable NLP: A Case Study on Sentiment Analysis\"**",
+      "by Yifan Gao et al.: Investigates the robustness and interpretability of sentiment analysis models using adversarial examples"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Tasks",
+        "given": "Specific N.L.P."
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "author": [
+      {
+        "family": "Machine",
+        "given": "Neural"
+      },
+      {
+        "family": "Learning\"",
+        "given": "Human-in-the-Loop"
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "title": [
+      "by Kevin Gimpel et al.: Explores the use of human feedback to improve the interpretability and performance of neural machine translation models"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "title": [
+      "**\"Interpretable Neural Networks for Text Summarization\"**",
+      "by Yifan Gao et al.: Proposes a method for interpreting the decisions of neural text summarization models"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "title": [
+      "**\"Towards Interpretable Dialogue Systems: A Case Study on Task-Oriented Dialogue\"**",
+      "by Yifan Gao et al.: Investigates the interpretability of task-oriented dialogue systems using attention mechanisms"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "title": [
+      "**\"Explainable AI for Natural Language Processing: A Survey\"**",
+      "by Sarvnaz Karimi et al.: Provides a comprehensive survey of explainable AI techniques for NLP, covering various tasks and methods"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "title": [
+      "**\"Interpretable Machine Learning for Natural Language Processing: A Survey\"**",
+      "by Lei Sha et al.: Offers a detailed survey of interpretable machine learning methods for NLP, focusing on different approaches and applications"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list provides a starting point for exploring the field of interpretability and analysis of neural network models in NLP. It includes articles covering general concepts, NLP-specific techniques, and applications to various tasks. Remember to explore further based on your specific interests and research questions"
+    ],
+    "type": null
+  }
+]

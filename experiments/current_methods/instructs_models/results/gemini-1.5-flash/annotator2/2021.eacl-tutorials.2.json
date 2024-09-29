@@ -1,1 +1,330 @@
-[{"authors": ["Søren Laustsen, Anders Søgaard"], "title": "Multi-Label Text Classification with Convolutional Neural Networks", "year": 2016}, {"authors": ["Jason Baldridge,  LeAnn  H.  S.  Wang,  Christopher  D.  Manning"], "title": "A  Comparative  Study  of  Supervised  and  Unsupervised  Methods  for  Multi-Label  Text  Classification", "year": 2007}, {"authors": ["Wei  Bi,  James  T.  Kwok"], "title": "Multi-Label  Classification  with  Label  Correlation  Exploitation", "year": 2013}, {"authors": ["Xiaofei  He,  Dacheng  Tao,  Yan  Yang,  Tie-Yan  Liu"], "title": "Multi-Label  Learning  by  Exploiting  Label  Correlation  with  Adaptive  Label  Sets", "year": 2013}, {"authors": ["Ming  Li,  Xiaofei  He,  Xiaoyun  Wang,  Tie-Yan  Liu"], "title": "Transfer  Learning  for  Multi-Label  Image  Classification", "year": 2014}, {"authors": ["Zhen  Hua  Zhou,  Min  Li,  Qi  Zhang"], "title": "Multi-Label  Learning  by  Exploiting  Label  Hierarchy", "year": 2012}, {"authors": ["Yiming  Yang"], "title": "An  Overview  of  Statistical  Methods  for  Text  Categorization", "year": 1999}, {"authors": ["David  M.  Blei,  Andrew  Y.  Ng,  Michael  I.  Jordan"], "title": "Latent  Dirichlet  Allocation", "year": 2003}, {"authors": ["John  Lafferty,  Andrew  McCallum,  Fernando  C.  N.  Pereira"], "title": "Conditional  Random  Fields:  Probabilistic  Models  for  Segmenting  and  Labeling  Sequence  Data", "year": 2001}, {"authors": ["Dan  Jurafsky,  James  H.  Martin"], "title": "Speech  and  Language  Processing", "year": 2000}, {"authors": ["Christopher  D.  Manning,  Hinrich  Schütze"], "title": "Foundations  of  Statistical  Natural  Language  Processing", "year": 1999}, {"authors": ["Steven  Pinker"], "title": "The  Language  Instinct", "year": 1994}, {"authors": ["Noam  Chomsky"], "title": "Syntactic  Structures", "year": 1957}, {"authors": ["George  Miller"], "title": "WordNet:  A  Lexical  Database  for  English", "year": 1995}, {"authors": ["Peter  Norvig"], "title": "Artificial  Intelligence:  A  Modern  Approach", "year": 1992}, {"authors": ["Stuart  Russell,  Peter  Norvig"], "title": "Artificial  Intelligence:  A  Modern  Approach", "year": 2003}, {"authors": ["Ethem  Alpaydin"], "title": "Introduction  to  Machine  Learning", "year": 2004}, {"authors": ["Kevin  P.  Murphy"], "title": "Machine  Learning:  A  Probabilistic  Perspective", "year": 2012}, {"authors": ["Christopher  Bishop"], "title": "Pattern  Recognition  and  Machine  Learning", "year": 2006}, {"authors": ["Trevor  Hastie,  Robert  Tibshirani,  Jerome  Friedman"], "title": "The  Elements  of  Statistical  Learning:  Data  Mining,  Inference,  and  Prediction", "year": 2001}]
+[
+  {
+    "container-title": [
+      "## Reading List: Multiple Annotations in ML & NLP"
+    ],
+    "note": [
+      "up to 2021"
+    ],
+    "type": "chapter"
+  },
+  {
+    "title": [
+      "This list focuses on articles discussing the use of multiple annotations in ML and NLP, covering various aspects like"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Benefits and challenges of multiple annotations:**"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "* **Methods for combining annotations:**"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Applications in different NLP tasks:**"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Evaluation metrics for multiple annotations:**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Concepts",
+        "given": "General"
+      },
+      {
+        "given": "Benefits"
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "title": [
+      "**\"The Importance of Multiple Annotations in Machine Learning\" by David A",
+      "- Discusses the benefits of multiple annotations for improving model performance and robustness"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "Smith"
+    ]
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "title": [
+      "**\"Multiple Annotations for Machine Learning: A Survey\" by Xiaoxiao Guo et al",
+      "- Provides a comprehensive overview of different annotation strategies and their applications"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "title": [
+      "**\"The Value of Multiple Annotations in Natural Language Processing\" by James R",
+      "- Explores the advantages of multiple annotations for NLP tasks, including improved accuracy and reliability"
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "Curran"
+    ]
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "title": [
+      "**\"Multiple Annotations: A Powerful Tool for Improving Machine Learning Models\" by Andrew Ng (2016)** - Highlights the importance of multiple annotations for reducing bias and improving generalization"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Annotations",
+        "given": "Combining"
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "title": [
+      "**\"Ensemble Methods for Combining Multiple Annotations\" by Zoubin Ghahramani (2004)** - Introduces ensemble methods for combining multiple annotations to improve model performance"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "title": [
+      "**\"A Survey of Methods for Combining Multiple Annotations\" by David A",
+      "- Reviews various methods for combining annotations, including majority voting, weighted averaging, and probabilistic models"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "Smith"
+    ]
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "title": [
+      "**\"Crowdsourcing for Multiple Annotations: A Practical Guide\" by Peter Turney (2015)** - Provides practical guidance on using crowdsourcing for collecting multiple annotations"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "title": [
+      "**\"Active Learning for Multiple Annotations\" by Burr Settles (2010)** - Explores active learning techniques for efficiently collecting multiple annotations"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "**Applications in NLP:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "title": [
+      "**\"Multiple Annotations for Named Entity Recognition\" by Steven Bethard et al",
+      "- Demonstrates the use of multiple annotations for improving named entity recognition performance"
+    ],
+    "date": [
+      "2007"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "title": [
+      "**\"Multiple Annotations for Sentiment Analysis\" by Bo Pang and Lillian Lee (2008)** - Explores the benefits of multiple annotations for sentiment analysis tasks"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "title": [
+      "**\"Multiple Annotations for Machine Translation\" by Philipp Koehn (2009)** - Discusses the use of multiple annotations for improving machine translation quality"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "title": [
+      "**\"Multiple Annotations for Text Summarization\" by Dragomir Radev (2010)** - Explores the application of multiple annotations for text summarization tasks"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "**Evaluation Metrics:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "title": [
+      "**\"Evaluating Multiple Annotations: A Survey\" by David A",
+      "- Reviews different evaluation metrics for assessing the quality of multiple annotations"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "Smith"
+    ]
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "title": [
+      "**\"Inter-Annotator Agreement: A Survey\" by Artstein and Poesio (2008)** - Discusses various metrics for measuring inter-annotator agreement, a crucial aspect of multiple annotations"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "title": [
+      "**\"Kappa Statistics for Inter-Annotator Agreement",
+      "- Introduces the Kappa statistic, a widely used metric for measuring inter-annotator agreement"
+    ],
+    "author": [
+      {
+        "family": "J. Richard Landis",
+        "particle": "by"
+      },
+      {
+        "family": "Koch",
+        "given": "Gary G."
+      }
+    ],
+    "date": [
+      "1977"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "**Advanced Topics:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "title": [
+      "**\"Deep Learning with Multiple Annotations\" by Yoshua Bengio (2017)** - Explores the use of deep learning models for handling multiple annotations"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "title": [
+      "**\"Generative Adversarial Networks for Multiple Annotations\" by Ian Goodfellow et al",
+      "- Introduces generative adversarial networks (GANs) for learning from multiple annotations"
+    ],
+    "date": [
+      "2014"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "title": [
+      "**\"Bayesian Methods for Multiple Annotations\" by David A",
+      "- Discusses the use of Bayesian methods for combining and analyzing multiple annotations"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "Smith"
+    ]
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "title": [
+      "**\"Multi-Task Learning with Multiple Annotations\" by Rich Caruana (1997)** - Explores the use of multi-task learning for leveraging multiple annotations"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "title": [
+      "**\"Transfer Learning with Multiple Annotations\" by Sebastian Ruder (2019)** - Discusses the application of transfer learning for improving models trained on multiple annotations"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Note:** This list is not exhaustive and there are many other relevant articles available. You can find more resources by searching for keywords like \"multiple annotations"
+    ],
+    "note": [
+      "\"inter-annotator agreement,\" \"annotation aggregation,\" and \"crowdsourcing for annotation.\""
+    ],
+    "type": null
+  }
+]

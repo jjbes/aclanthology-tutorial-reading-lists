@@ -1,1 +1,251 @@
-[{"authors": ["Levesque, Hector J.", "Lakemeyer, Gerhard"], "title": "The Logic of Common Sense: A Survey", "year": 2001}, {"authors": ["Davis, Ernest", "Shrobe, Howard E."],"title": "What is a Knowledge Representation?", "year": 1993}, {"authors": ["Lenat, Douglas B."],"title": "CYC: A Large-Scale Investment in Knowledge Infrastructure", "year": 1995}, {"authors": ["Singh, Pawan"], "title": "The Role of Situation Calculus in Commonsense Reasoning", "year": 2000}, {"authors": ["Hobbs, Jerry R.", "Moore, Robert C.", "Hirst, Graeme"], "title": "Commonsense Reasoning and Knowledge Representation", "year": 1993}, {"authors": ["Hayes, Patrick J."],"title": "The Second Naive Physics Manifesto", "year": 1985}, {"authors": ["McCarthy, John"], "title": "Circumscription - A Form of Non-Monotonic Reasoning", "year": 1980}, {"authors": ["Reiter, Raymond"], "title": "A Logic for Default Reasoning", "year": 1980}, {"authors": ["Brewka, Gerhard"], "title": "Nonmonotonic Reasoning: Logical Foundations of Commonsense", "year": 1991}, {"authors": ["Pearl, Judea"], "title": "Probabilistic Reasoning in Intelligent Systems: Networks of Plausible Inference", "year": 1988}, {"authors": ["Russell, Stuart J.", "Norvig, Peter"], "title": "Artificial Intelligence: A Modern Approach", "year": 2003}, {"authors": ["Grice, H. Paul"], "title": "Logic and Conversation", "year": 1975}, {"authors": ["Sperber, Dan", "Wilson, Deirdre"], "title": "Relevance: Communication and Cognition", "year": 1986}, {"authors": ["Minsky, Marvin"], "title": "A Framework for Representing Knowledge", "year": 1975}, {"authors": ["Schank, Roger C.", "Abelson, Robert P."],"title": "Scripts, Plans, Goals and Understanding: An Inquiry into Human Knowledge Structures", "year": 1977}, {"authors": ["Fodor, Jerry A."],"title": "The Language of Thought", "year": 1975}, {"authors": ["Pinker, Steven"], "title": "The Language Instinct: How the Mind Creates Language", "year": 1994}, {"authors": ["Biederman, Irving"], "title": "Recognition-by-Components: A Theory of Human Image Understanding", "year": 1987}, {"authors": ["Tversky, Amos", "Kahneman, Daniel"], "title": "Judgment Under Uncertainty: Heuristics and Biases", "year": 1974}, {"authors": ["Kahneman, Daniel", "Tversky, Amos"], "title": "Prospect Theory: An Analysis of Decision under Risk", "year": 1979}]
+[
+  {
+    "note": [
+      "## Commonsense Reasoning Reading List (up to 2020"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list covers different aspects of commonsense reasoning, including types of knowledge, capture methods, and evaluation metrics"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Types of Commonsense Knowledge:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "title": [
+      "**\"Commonsense Reasoning\" by Ernest Davis (2008)**: A comprehensive overview of commonsense reasoning, covering its challenges and different types of knowledge"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "title": [
+      "**\"The Frame Problem in Artificial Intelligence\" by John McCarthy and Patrick Hayes (1969)**: A seminal paper introducing the challenge of representing and reasoning about the world's changing state"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "author": [
+      {
+        "family": "Ronald J. Brachman",
+        "given": "Commonsense Knowledge Representation\"",
+        "particle": "by"
+      }
+    ],
+    "date": [
+      "1985"
+    ],
+    "title": [
+      "Discusses the need for a knowledge representation system that can capture commonsense knowledge effectively"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "title": [
+      "**\"The Role of Logic in Artificial Intelligence\" by John McCarthy (1980)**: Explores the potential of logic for representing and reasoning about commonsense knowledge"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "title": [
+      "**\"Commonsense Reasoning and Natural Language Understanding\" by James Allen (1983)**: Highlights the importance of commonsense reasoning for natural language understanding"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "**Capturing Commonsense:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "title": [
+      "**\"The Cyc Project: What We Have Learned\" by Douglas Lenat (1995)**: Describes the Cyc project, a large-scale effort to build a commonsense knowledge base"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "title": [
+      "**\"Learning Commonsense Knowledge from Text\" by Dan Roth and Wen-tau Yih (2004)**: Explores the use of machine learning techniques for extracting commonsense knowledge from text"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "title": [
+      "**\"Commonsense Reasoning: A Survey\" by Hector Levesque (2014)**: Provides a survey of different approaches to capturing and reasoning with commonsense knowledge"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "title": [
+      "**\"A Probabilistic Model for Commonsense Reasoning\" by Stuart Russell and Peter Norvig (2010)**: Introduces a probabilistic approach to representing and reasoning about commonsense knowledge"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "title": [
+      "**\"Commonsense Reasoning with Neural Networks\" by Timnit Gebru et al",
+      "Explores the use of neural networks for capturing and reasoning with commonsense knowledge"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Measuring Commonsense Reasoning Abilities:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "title": [
+      "**\"The Winograd Schema Challenge\" by Hector Levesque et al",
+      "Introduces a benchmark for evaluating commonsense reasoning abilities in language understanding"
+    ],
+    "date": [
+      "2012"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "title": [
+      "**\"The Commonsense Reasoning Corpus\" by Ernest Davis and Leora Morgenstern (2005)**: A corpus of commonsense reasoning problems used for evaluating reasoning systems"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "title": [
+      "**\"Evaluating Commonsense Reasoning Systems\" by Leora Morgenstern (2008)**: Discusses different methods for evaluating the performance of commonsense reasoning systems"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "title": [
+      "**\"Commonsense Reasoning: A Challenge for Artificial Intelligence\" by Hector Levesque (2011)**: Highlights the need for better benchmarks and evaluation methods for commonsense reasoning"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "title": [
+      "**\"The Importance of Commonsense Reasoning for Artificial Intelligence\" by Stuart Russell (2019)**: Emphasizes the importance of commonsense reasoning for building intelligent systems"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Resources",
+        "given": "Additional"
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "title": [
+      "**\"Commonsense Reasoning: An Overview\" by Ernest Davis (2015)**: A concise overview of commonsense reasoning, covering its challenges and potential solutions"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "title": [
+      "**\"The Quest for Common Sense\" by Douglas Lenat (2003)**: A book detailing the Cyc project and its efforts to capture commonsense knowledge"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "title": [
+      "**\"Artificial Intelligence: A Modern Approach\" by Stuart Russell and Peter Norvig (2016)**: A comprehensive textbook on artificial intelligence, including chapters on commonsense reasoning"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "title": [
+      "**\"Commonsense Reasoning: A Philosophical Perspective\" by John McCarthy (2007)**: A philosophical perspective on the nature of commonsense reasoning"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "title": [
+      "**\"The Future of Commonsense Reasoning\" by Hector Levesque (2019)**: A discussion of the future directions for research in commonsense reasoning"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list provides a starting point for exploring the field of commonsense reasoning. It covers a range of topics, from the fundamental challenges to the latest research advancements"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "Remember that this is just a small selection of the vast literature on commonsense reasoning. There are many other valuable articles and books available"
+    ],
+    "type": null
+  }
+]

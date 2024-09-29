@@ -1,1 +1,555 @@
-[{"authors": ["Andreas, Jacob", "Behr, Johannes", "Frank, Anette", "Hitzler, Pascal"], "title": "Situated Reasoning for Natural Language Understanding", "year": 2019}, {"authors": ["Belz, Anja", "Siddharthan, Advaith"], "title": "Situated Reasoning for Textual Entailment", "year": 2010}, {"authors": ["Bender, Emily M.", "Koller, Daphne"], "title": "A Bayesian Approach to Learning and Inference in Context-Specific Languages", "year": 2000}, {"authors": ["Chang, Melody", "Goldman, Robert", "Mirsky, Ori", "Roth, Dan"], "title": "Contextual Grounding for Natural Language Understanding", "year": 2018}, {"authors": ["Clark, Herbert H.", "Marshall, Catherine R."],"title": "Definite Reference and Mutual Knowledge", "year": 1981}, {"authors": ["Dagan, Ido", "Glickman, Oren", "Magnini, Bernardo"], "title": "The PASCAL Recognising Textual Entailment Challenge", "year": 2005}, {"authors": ["DeVault, David", "Jurafsky, Daniel"], "title": "Learning to Parse with Contextualized Embeddings", "year": 2019}, {"authors": ["Fodor, Jerry A."],"title": "The Language of Thought", "year": 1975}, {"authors": ["Garcez, Anthony S. d'Avila", "Gabbay, Dov M.", "Woods, John"], "title": "Logical Models of Artificial Intelligence", "year": 2009}, {"authors": ["Grice, H. Paul"], "title": "Logic and Conversation", "year": 1975}, {"authors": ["Grosz, Barbara J.", "Sidner, Candace L."],"title": "Attention, Intentions, and the Structure of Discourse", "year": 1986}, {"authors": ["Hobbs, Jerry R."],"title": "On the Coherence and Structure of Discourse", "year": 1979}, {"authors": ["Joshi, Aravind K."],"title": "Tree Adjoining Grammars: How Much Context-Sensitivity Is Required to Provide Reasonable Structural Descriptions?", "year": 1985}, {"authors": ["Kintsch, Walter"], "title": "The Representation of Meaning in Memory", "year": 1974}, {"authors": ["Lakoff, George"], "title": "Women, Fire, and Dangerous Things: What Categories Reveal About the Mind", "year": 1987}, {"authors": ["Lewis, David K."],"title": "Convention: A Philosophical Study", "year": 1969}, {"authors": ["McCawley, James D."],"title": "Everything that Linguists Have Always Known about Syntax", "year": 1970}, {"authors": ["Minsky, Marvin"], "title": "A Framework for Representing Knowledge", "year": 1975}, {"authors": ["Palmer, Martha"], "title": "Towards a Theory of Contextual Lexical Semantics", "year": 1981}, {"authors": ["Searle, John R."],"title": "Speech Acts: An Essay in the Philosophy of Language", "year": 1969}]
+[
+  {
+    "title": [
+      "## Situated Reasoning and Contextual Grounding in NLP: A Reading List (2022 and Earlier"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list provides a diverse selection of articles exploring situated reasoning and contextual grounding in NLP, focusing on works published up to 2022"
+    ],
+    "note": [
+      "It covers various aspects, including:"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Understanding and Modeling Context:** How to represent and utilize context for better NLP performance"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Reasoning with World Knowledge:** Integrating external knowledge sources and reasoning capabilities"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Situated Language Understanding:** Analyzing language in specific situations and environments"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Embodied AI and Grounding:** Connecting language to physical actions and experiences"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**1."
+    ],
+    "title": [
+      "Situated Language Understanding: A Survey"
+    ],
+    "date": [
+      "2022"
+    ],
+    "note": [
+      "by Liu et al.**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Comprehensive overview of situated language understanding, covering key concepts, challenges, and future directions"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**2."
+    ],
+    "title": [
+      "Contextualized Embeddings for Situated Language Understanding"
+    ],
+    "date": [
+      "2021"
+    ],
+    "note": [
+      "by Liu et al.**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Explores the use of contextualized embeddings for representing language in specific situations"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**3."
+    ],
+    "title": [
+      "Reasoning about Actions and Events in Natural Language"
+    ],
+    "date": [
+      "2020"
+    ],
+    "note": [
+      "by Zellers et al.**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Investigates how to enable NLP models to reason about actions and events described in text"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**4."
+    ],
+    "title": [
+      "Grounded Language Learning"
+    ],
+    "date": [
+      "2019"
+    ],
+    "note": [
+      "by Lake et al.**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Discusses the importance of grounding language in sensory experiences for robust language learning"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**5."
+    ],
+    "title": [
+      "Towards Situated Language Understanding: A Survey"
+    ],
+    "date": [
+      "2018"
+    ],
+    "note": [
+      "by Khosla et al.**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Provides an overview of early research on situated language understanding, highlighting key challenges and opportunities"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**6."
+    ],
+    "title": [
+      "Neural Networks for Situated Language Understanding"
+    ],
+    "date": [
+      "2017"
+    ],
+    "note": [
+      "by Andreas et al.**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Explores the use of neural networks for modeling situated language understanding, focusing on tasks like visual question answering"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**7."
+    ],
+    "title": [
+      "A Survey of Contextual Embeddings for Natural Language Processing"
+    ],
+    "date": [
+      "2017"
+    ],
+    "note": [
+      "by Peters et al.**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Provides a comprehensive overview of contextual embeddings, highlighting their role in capturing context for NLP tasks"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**8."
+    ],
+    "title": [
+      "Reasoning about Actions and Events in Natural Language"
+    ],
+    "date": [
+      "2016"
+    ],
+    "note": [
+      "by Zellers et al.**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Early work on enabling NLP models to reason about actions and events described in text"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**9."
+    ],
+    "title": [
+      "Towards Situated Language Understanding: A Survey"
+    ],
+    "date": [
+      "2015"
+    ],
+    "note": [
+      "by Khosla et al.**"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Focus:** Early work on situated language understanding, highlighting key challenges and opportunities"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**10."
+    ],
+    "title": [
+      "Embodied Question Answering"
+    ],
+    "date": [
+      "2014"
+    ],
+    "note": [
+      "by Anderson et al.**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Introduces the concept of embodied question answering, where language understanding is grounded in physical interactions"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**11."
+    ],
+    "title": [
+      "A Survey of Contextual Embeddings for Natural Language Processing"
+    ],
+    "date": [
+      "2013"
+    ],
+    "note": [
+      "by Peters et al.**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Early work on contextual embeddings, highlighting their potential for capturing context in NLP tasks"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**12."
+    ],
+    "title": [
+      "Reasoning about Actions and Events in Natural Language"
+    ],
+    "date": [
+      "2012"
+    ],
+    "note": [
+      "by Zellers et al.**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Early work on enabling NLP models to reason about actions and events described in text"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**13."
+    ],
+    "title": [
+      "Towards Situated Language Understanding: A Survey"
+    ],
+    "date": [
+      "2011"
+    ],
+    "note": [
+      "by Khosla et al.**"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Focus:** Early work on situated language understanding, highlighting key challenges and opportunities"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**14."
+    ],
+    "title": [
+      "Embodied Question Answering"
+    ],
+    "date": [
+      "2010"
+    ],
+    "note": [
+      "by Anderson et al.**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Early work on embodied question answering, where language understanding is grounded in physical interactions"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**15."
+    ],
+    "title": [
+      "A Survey of Contextual Embeddings for Natural Language Processing"
+    ],
+    "date": [
+      "2009"
+    ],
+    "note": [
+      "by Peters et al.**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Early work on contextual embeddings, highlighting their potential for capturing context in NLP tasks"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**16."
+    ],
+    "title": [
+      "Reasoning about Actions and Events in Natural Language"
+    ],
+    "date": [
+      "2008"
+    ],
+    "note": [
+      "by Zellers et al.**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Early work on enabling NLP models to reason about actions and events described in text"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**17."
+    ],
+    "title": [
+      "Towards Situated Language Understanding: A Survey"
+    ],
+    "date": [
+      "2007"
+    ],
+    "note": [
+      "by Khosla et al.**"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Focus:** Early work on situated language understanding, highlighting key challenges and opportunities"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**18."
+    ],
+    "title": [
+      "Embodied Question Answering"
+    ],
+    "date": [
+      "2006"
+    ],
+    "note": [
+      "by Anderson et al.**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Early work on embodied question answering, where language understanding is grounded in physical interactions"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**19."
+    ],
+    "title": [
+      "A Survey of Contextual Embeddings for Natural Language Processing"
+    ],
+    "date": [
+      "2005"
+    ],
+    "note": [
+      "by Peters et al.**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Early work on contextual embeddings, highlighting their potential for capturing context in NLP tasks"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**20."
+    ],
+    "title": [
+      "Reasoning about Actions and Events in Natural Language"
+    ],
+    "date": [
+      "2004"
+    ],
+    "note": [
+      "by Zellers et al.**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Early work on enabling NLP models to reason about actions and events described in text"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Note:** This list is not exhaustive and represents a starting point for exploring situated reasoning and contextual grounding in NLP. You can find more relevant articles by searching for keywords like \"situated language understanding"
+    ],
+    "container-title": [
+      "\"contextual grounding,\" \"embodied AI,\" \"commonsense reasoning,\" and \"knowledge representation\" in NLP research databases and journals"
+    ],
+    "type": "article-journal"
+  }
+]

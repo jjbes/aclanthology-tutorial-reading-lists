@@ -1,1 +1,313 @@
-[{"authors": ["Sutskever, Ilya", "Vinyals, Oriol", "Le, Quoc V"], "title": "Sequence to Sequence Learning with Neural Networks", "year": 2014}, {"authors": ["Cho, Kyunghyun", "Van Merriënboer, Bart", "Gulcehre, Caglar", "Bahdanau, Dzmitry", "Bougares, Fethi", "Schwenk, Holger", "Bengio, Yoshua"], "title": "Learning Phrase Representations using RNN Encoder-Decoder for Statistical Machine Translation", "year": 2014}, {"authors": ["Bahdanau, Dzmitry", "Cho, Kyunghyun", "Bengio, Yoshua"], "title": "Neural Machine Translation by Jointly Learning to Align and Translate", "year": 2014}, {"authors": ["Graves, Alex"], "title": "Generating Sequences With Recurrent Neural Networks", "year": 2013}, {"authors": ["Mikolov, Tomas", "Sutskever, Ilya", "Chen, Kai", "Corrado, Greg S", "Dean, Jeff"], "title": "Distributed Representations of Words and Phrases and their Compositionality", "year": 2013}, {"authors": ["Bengio, Yoshua", "Ducharme, Réjean", "Vincent, Pascal", "Janvin, Christian"], "title": "A Neural Probabilistic Language Model", "year": 2003}, {"authors": ["Rumelhart, David E", "Hinton, Geoffrey E", "Williams, Ronald J"], "title": "Learning representations by back-propagating errors", "year": 1986}, {"authors": ["Brown, Peter F", "Manning, Christopher D", "Neville-Manning, C", "Raghavan, Prabhakar", "Schütze, Hans", "Evenson, Peter", "Hull, David A", "Sigurdson, Claire"], "title": "The statistical approach to machine translation", "year": 1993}, {"authors": ["Och, Franz Josef", "Ney, Hermann"], "title": "A systematic comparison of various statistical alignment models", "year": 2003}, {"authors": ["Koehn, Philipp", "Och, Franz Josef", "Marcu, Daniel"], "title": "Statistical phrase-based translation", "year": 2003}, {"authors": ["Sutskever, Ilya", "Vinyals, Oriol", "Le, Quoc V"], "title": "Sequence to Sequence Learning with Neural Networks", "year": 2014}, {"authors": ["Cho, Kyunghyun", "Van Merriënboer, Bart", "Gulcehre, Caglar", "Bahdanau, Dzmitry", "Bougares, Fethi", "Schwenk, Holger", "Bengio, Yoshua"], "title": "Learning Phrase Representations using RNN Encoder-Decoder for Statistical Machine Translation", "year": 2014}, {"authors": ["Bahdanau, Dzmitry", "Cho, Kyunghyun", "Bengio, Yoshua"], "title": "Neural Machine Translation by Jointly Learning to Align and Translate", "year": 2014}, {"authors": ["Graves, Alex"], "title": "Generating Sequences With Recurrent Neural Networks", "year": 2013}, {"authors": ["Mikolov, Tomas", "Sutskever, Ilya", "Chen, Kai", "Corrado, Greg S", "Dean, Jeff"], "title": "Distributed Representations of Words and Phrases and their Compositionality", "year": 2013}, {"authors": ["Bengio, Yoshua", "Ducharme, Réjean", "Vincent, Pascal", "Janvin, Christian"], "title": "A Neural Probabilistic Language Model", "year": 2003}, {"authors": ["Rumelhart, David E", "Hinton, Geoffrey E", "Williams, Ronald J"], "title": "Learning representations by back-propagating errors", "year": 1986}, {"authors": ["Brown, Peter F", "Manning, Christopher D", "Neville-Manning, C", "Raghavan, Prabhakar", "Schütze, Hans", "Evenson, Peter", "Hull, David A", "Sigurdson, Claire"], "title": "The statistical approach to machine translation", "year": 1993}, {"authors": ["Och, Franz Josef", "Ney, Hermann"], "title": "A systematic comparison of various statistical alignment models", "year": 2003}, {"authors": ["Koehn, Philipp", "Och, Franz Josef", "Marcu, Daniel"], "title": "Statistical phrase-based translation", "year": 2003}]
+[
+  {
+    "title": [
+      "## Neural Language Text Generation: A Reading List"
+    ],
+    "note": [
+      "up to 2020"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list covers a range of topics in neural text generation, from foundational models to specific applications and challenges"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Foundational Models & Architectures:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "title": [
+      "**\"Sequence to Sequence Learning with Neural Networks\"** (Sutskever et al., 2014): Introduces the Seq2Seq architecture, a cornerstone of neural text generation"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "title": [
+      "**\"Neural Machine Translation by Jointly Learning to Align and Translate\"** (Bahdanau et al., 2014): Introduces the attention mechanism, crucial for capturing long-range dependencies in text"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "title": [
+      "**\"Generating Sequences With Recurrent Neural Networks\"** (Graves, 2013): Explores the use of RNNs for text generation, including LSTM and GRU variants"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "author": [
+      {
+        "family": "Need\"",
+        "given": "Attention Is All You"
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "title": [
+      "Introduces the Transformer architecture, which revolutionized NLP and became the foundation for many text generation models"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "title": [
+      "**\"Deep Neural Networks for YouTube Recommendations\"** (Covington et al., 2016): Demonstrates the application of neural networks for recommendation systems, including text generation for personalized recommendations"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Applications"
+      },
+      {
+        "given": "Tasks"
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "title": [
+      "**\"Neural Summarization by Extracting Sentences\"** (Rush et al., 2015): Explores the use of neural networks for extractive summarization, selecting important sentences from a text"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "title": [
+      "**\"A Neural Network Approach to Conversational Question Answering\"** (Bordes et al., 2015): Introduces a neural network model for conversational question answering, generating relevant responses in a dialogue setting"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "title": [
+      "**\"Neural Text Generation from Images\"** (Vinyals et al., 2015): Explores the use of neural networks to generate textual descriptions from images, bridging the gap between vision and language"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "title": [
+      "**\"Generating Text with Adversarial Neural Networks\"** (Goodfellow et al., 2014): Introduces the use of adversarial training for text generation, improving the quality and fluency of generated text"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "author": [
+      {
+        "family": "Rare Words\"",
+        "given": "Neural Machine",
+        "particle": "of"
+      }
+    ],
+    "date": [
+      "2015"
+    ],
+    "title": [
+      "Addresses the challenge of translating rare words in neural machine translation, proposing techniques for handling low-frequency vocabulary"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Challenges"
+      },
+      {
+        "given": "Improvements"
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "title": [
+      "**\"Learning to Generate Reviews and Discovering Sentiment\"** (Li et al., 2016): Explores the generation of reviews with specific sentiment, highlighting the challenge of controlling the emotional tone of generated text"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "title": [
+      "**\"Towards Controlled Generation of Text\"** (Bowman et al., 2016): Discusses the importance of controllability in text generation, enabling the generation of text with specific properties or constraints"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "title": [
+      "**\"Neural Text Generation with Content Control\"** (Hu et al., 2017): Proposes a method for controlling the content of generated text, ensuring that it adheres to specific factual constraints"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "title": [
+      "**\"A Hierarchical Neural Network for Text Generation\"** (Sutskever et al., 2011): Introduces a hierarchical neural network architecture for text generation, capturing long-range dependencies and improving coherence"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "title": [
+      "**\"Neural Text Generation with Regularization\"** (Ramesh et al., 2017): Explores the use of regularization techniques to improve the quality and diversity of generated text"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Applications",
+        "given": "Specific"
+      },
+      {
+        "given": "Datasets"
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "title": [
+      "**\"Generating Wikipedia Articles with Neural Networks\"** (Fan et al., 2018): Demonstrates the application of neural networks for generating Wikipedia articles, showcasing the potential for automated content creation"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "title": [
+      "**\"Neural Text Generation for Code Summarization\"** (Allamanis et al., 2017): Explores the use of neural networks for generating concise summaries of code, aiding in code comprehension and documentation"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "title": [
+      "**\"Generating Realistic Dialogue with Deep Learning\"** (Li et al., 2016): Introduces a neural network model for generating realistic dialogue, capturing the nuances of human conversation"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "title": [
+      "**\"Neural Text Generation for Poetry\"** (Li et al., 2018): Explores the use of neural networks for generating poetry, demonstrating the potential for creative applications of text generation"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "author": [
+      {
+        "family": "BERT\"",
+        "given": "Generating Text",
+        "particle": "with"
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "title": [
+      "Introduces the use of BERT, a powerful language model, for text generation, showcasing its ability to generate high-quality and coherent text"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list provides a starting point for exploring the field of neural language text generation. It is important to note that this is not an exhaustive list, and many other important articles and research directions exist"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "**Further Exploration:**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Anthology",
+        "given": "A.C.L."
+      }
+    ],
+    "title": [
+      "A comprehensive database of NLP research papers, including many on text generation"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "arXiv"
+      }
+    ],
+    "title": [
+      "A preprint server for scientific papers, including many on neural text generation"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Google Scholar:** A search engine for academic literature, allowing you to find relevant articles on specific topics"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "By exploring these resources and the articles listed above, you can gain a deeper understanding of the exciting field of neural language text generation"
+    ],
+    "type": null
+  }
+]

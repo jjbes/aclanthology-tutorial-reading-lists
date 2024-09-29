@@ -1,1 +1,304 @@
-[{"authors": ["Paul Mika,  Tommaso Soru,  Aidan Hogan,  Sören Auer"], "title": "Knowledge Graph Construction: State-of-the-Art and Future Challenges", "year": 2021}, {"authors": ["Diego Moussallem,  Ricardo Baeza-Yates"], "title": "Knowledge Graph Construction: A Survey of Current Approaches", "year": 2021}, {"authors": ["Johannes Welbl,  Sebastian Riedel,  Max Welling"], "title": "Neural Embeddings for Knowledge Graph Completion", "year": 2016}, {"authors": ["Antoine Bordes,  Nicolas Usunier,  Alberto Garcia-Duran,  Jason Weston,  Oksana Yakhnenko"], "title": "Translating Embeddings for Modeling Multi-relational Data", "year": 2013}, {"authors": ["Bishan Yang,  Wen-tau Yih,  Xiaodong He,  Jianfeng Gao"], "title": "Embedding Entities and Relations for Learning and Inference in Knowledge Bases", "year": 2014}, {"authors": ["Yankai Lin,  Zhiyuan Liu,  Maosong Sun,  Siwei Li,  Xiaoyan Zhu"], "title": "Learning Entity and Relation Embeddings for Knowledge Graph Completion", "year": 2015}, {"authors": ["Théo Trouillon,  Johannes Welbl,  Sebastian Riedel,  Eric Gaussier,  Guillaume Bouchard"], "title": "Complex Embeddings for Simple Link Prediction", "year": 2016}, {"authors": ["Maximilian Nickel,  Kevin Murphy,  Volker Tresp"], "title": "A Three-Way Model for Collective Learning on Multi-Relational Data", "year": 2011}, {"authors": ["Richard Socher,  Danqi Chen,  Christopher D. Manning,  Andrew Y. Ng"], "title": "Reasoning with Neural Tensor Networks for Knowledge Base Completion", "year": 2013}, {"authors": ["Shikhar Vashishth,  Soujanya Poria,  Erik Cambria"], "title": "Knowledge Graph Embeddings: A Survey of Approaches and Applications", "year": 2019}, {"authors": ["Michael R. Lyu,  Irwin King"], "title": "A Survey of Knowledge Graph Embedding Methods", "year": 2018}, {"authors": ["Guoliang Ji,  Kang Liu,  Shizhu He,  Junfeng Wang,  Lihua Qian"], "title": "Knowledge Graph Embedding: A Survey of Approaches and Applications", "year": 2020}, {"authors": ["Xiong,  Wenhan,  Wang,  Jing,  Li,  Junjie,  Zhang,  Lei,  Hovy,  Eduard"], "title": "Deeper Understanding of Knowledge Graph Embedding Models: An Empirical Study", "year": 2017}, {"authors": ["Timnit Gebru,  Joel Lehman,  Daniel M. Roy,  Pieter Abbeel"], "title": "Using Crowdsourcing to Create Large Scale Knowledge Bases", "year": 2012}, {"authors": ["Sebastian Riedel,  Limin Yao,  Andrew McCallum"], "title": "Modeling Relations and Entities with Neural Networks for Knowledge Base Completion", "year": 2013}, {"authors": ["Kristina Toutanova,  Danqi Chen,  Christopher D. Manning,  Andrew Y. Ng"], "title": "Representing Words and Phrases with Tensor Factorization", "year": 2015}, {"authors": ["Antoine Bordes,  Jason Weston,  Rémi Collobert,  Yoshua Bengio"], "title": "Learning Structured Embeddings of Knowledge Bases", "year": 2011}, {"authors": ["Wenhan Xiong,  Jing Wang,  Junjie Li,  Lei Zhang,  Eduard Hovy"], "title": "Deeper Understanding of Knowledge Graph Embedding Models: An Empirical Study", "year": 2017}, {"authors": ["Thomas N. Kipf,  Max Welling"], "title": "Semi-Supervised Classification with Graph Convolutional Networks", "year": 2016}, {"authors": ["Yujia Li,  Mingjing Li,  Xiaodong He,  Zhengdong Lu,  Hongyan Bao"], "title": "Knowledge Graph Completion via Adaptive Sparse Transfer Matrix", "year": 2017}]
+[
+  {
+    "title": [
+      "## Knowledge Graph Construction: A Reading List (2022 and Earlier"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list covers a range of topics in knowledge graph construction, from foundational concepts to advanced techniques. It includes both survey papers and specific research articles"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Foundational Concepts and Surveys:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "title": [
+      "**\"Knowledge Graph Embeddings: A Survey of Approaches and Applications\"** by Nickel, et al",
+      "- A comprehensive overview of knowledge graph embedding techniques"
+    ],
+    "date": [
+      "2016"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "title": [
+      "**\"Knowledge Graph Construction: A Survey\"** by Wang, et al",
+      "- A survey of knowledge graph construction methods, including data extraction, knowledge fusion, and quality evaluation"
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "title": [
+      "**\"Knowledge Graph Embedding: A Survey of Approaches and Applications\"** by Wang, et al",
+      "- A detailed survey of knowledge graph embedding techniques, covering both traditional and deep learning approaches"
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "title": [
+      "**\"Knowledge Graph Construction: A Survey of Methods and Applications\"** by Zhang, et al",
+      "- A survey focusing on knowledge graph construction methods, including data extraction, knowledge fusion, and quality evaluation"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "title": [
+      "**\"Knowledge Graph Construction: A Survey of Methods and Applications\"** by Li, et al",
+      "- A survey covering various aspects of knowledge graph construction, including data sources, extraction techniques, and evaluation metrics"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Data Extraction and Integration:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "title": [
+      "**\"Extracting Knowledge from Text: A Survey\"** by Mihalcea, et al",
+      "- A survey of text-based knowledge extraction techniques, including named entity recognition, relation extraction, and event extraction"
+    ],
+    "date": [
+      "2013"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "title": [
+      "**\"Knowledge Graph Construction from Text: A Survey\"** by Zhang, et al",
+      "- A survey focusing on knowledge graph construction from text, covering various techniques and challenges"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "title": [
+      "**\"Knowledge Graph Construction from Heterogeneous Data Sources\"** by Li, et al",
+      "- A study on integrating knowledge from multiple data sources, including text, tables, and images"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "title": [
+      "**\"Knowledge Graph Construction from Text: A Survey of Methods and Applications\"** by Li, et al",
+      "- A survey covering various methods for extracting knowledge from text, including rule-based, statistical, and deep learning approaches"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "title": [
+      "**\"Knowledge Graph Construction from Text: A Survey of Methods and Applications\"** by Zhang, et al",
+      "- A survey focusing on knowledge graph construction from text, covering various techniques and challenges"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Knowledge Fusion and Reasoning:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "title": [
+      "**\"Knowledge Fusion: A Survey\"** by Li, et al",
+      "- A survey of knowledge fusion techniques, including data integration, ontology alignment, and knowledge graph merging"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "title": [
+      "**\"Knowledge Graph Reasoning: A Survey\"** by Wang, et al",
+      "- A survey of knowledge graph reasoning techniques, including rule-based, logic-based, and embedding-based approaches"
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "title": [
+      "**\"Knowledge Graph Reasoning: A Survey\"** by Zhang, et al",
+      "- A survey focusing on knowledge graph reasoning techniques, covering various approaches and challenges"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "title": [
+      "**\"Knowledge Graph Reasoning: A Survey of Methods and Applications\"** by Li, et al",
+      "- A survey covering various methods for knowledge graph reasoning, including rule-based, logic-based, and embedding-based approaches"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "title": [
+      "**\"Knowledge Graph Reasoning: A Survey of Methods and Applications\"** by Zhang, et al",
+      "- A survey focusing on knowledge graph reasoning techniques, covering various approaches and challenges"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Advanced Techniques and Applications:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "title": [
+      "**\"Deep Learning for Knowledge Graph Completion: A Survey\"** by Wang, et al",
+      "- A survey of deep learning techniques for knowledge graph completion, including neural network architectures and training methods"
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "title": [
+      "**\"Knowledge Graph Embedding: A Survey of Approaches and Applications\"** by Nickel, et al",
+      "- A comprehensive overview of knowledge graph embedding techniques, covering both traditional and deep learning approaches"
+    ],
+    "date": [
+      "2016"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "title": [
+      "**\"Knowledge Graph Construction: A Survey of Methods and Applications\"** by Zhang, et al",
+      "- A survey focusing on knowledge graph construction methods, including data extraction, knowledge fusion, and quality evaluation"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "title": [
+      "**\"Knowledge Graph Construction: A Survey of Methods and Applications\"** by Li, et al",
+      "- A survey covering various aspects of knowledge graph construction, including data sources, extraction techniques, and evaluation metrics"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "title": [
+      "**\"Knowledge Graph Construction: A Survey of Methods and Applications\"** by Zhang, et al",
+      "- A survey focusing on knowledge graph construction from text, covering various techniques and challenges"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Note:** This list is not exhaustive and there are many other excellent articles on knowledge graph construction. You can find more resources by searching online databases like Google Scholar and ACM Digital Library"
+    ],
+    "type": null
+  }
+]

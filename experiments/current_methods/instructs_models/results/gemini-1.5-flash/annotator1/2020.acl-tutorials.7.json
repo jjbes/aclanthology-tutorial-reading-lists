@@ -1,1 +1,253 @@
-[{"authors": ["Levesque, Hector J.", "Lakemeyer, Gerhard"], "title": "The Logic of Common Sense: A Survey", "year": 2001}, {"authors": ["Davis, Ernest"], "title": "Representing Commonsense Knowledge", "year": 1990}, {"authors": ["Hayes, Patrick J.", "Levesque, Hector J.", "Sandewall, Erik"], "title": "A Common-Sense Theory of Actions, Narratives, and Plans", "year": 1995}, {"authors": ["McCarthy, John"], "title": "Circumscription - A Form of Non-Monotonic Reasoning", "year": 1980}, {"authors": ["Reiter, Raymond"], "title": "A Logic for Default Reasoning", "year": 1980}, {"authors": ["Lifschitz, Vladimir"], "title": "Nonmonotonic Databases", "year": 1991}, {"authors": ["Brewka, Gerhard"], "title": "Nonmonotonic Reasoning: Logical Foundations of Commonsense", "year": 1991}, {"authors": ["Pearl, Judea"], "title": "Probabilistic Reasoning in Intelligent Systems: Networks of Plausible Inference", "year": 1988}, {"authors": ["Russell, Stuart J.", "Norvig, Peter"], "title": "Artificial Intelligence: A Modern Approach", "year": 2003}, {"authors": ["Singh, Satinder P.", "S. J. Russell"], "title": "Reasoning about Uncertainty", "year": 2004}, {"authors": ["Ginsberg, Matthew L.", "Smith, David E.", "McAllester, David A.", "Selman, Bart"], "title": "Reasoning about Action I: A Possible Worlds Approach", "year": 1991}, {"authors": ["Fikes, Richard E.", "Nilsson, Nils J."],"title": "STRIPS: A New Approach to the Application of Theorem Proving to Problem Solving", "year": 1971}, {"authors": ["Schank, Roger C.", "Abelson, Robert P."],"title": "Scripts, Plans, Goals and Understanding: An Inquiry into Human Knowledge Structures", "year": 1977}, {"authors": ["Minsky, Marvin"], "title": "A Framework for Representing Knowledge", "year": 1975}, {"authors": ["Lenat, Douglas B.", "Feigenbaum, Edward A."],"title": "On the  *AI*  Problem", "year": 1987}, {"authors": ["Brachman, Ronald J.", "Levesque, Hector J."],"title": "Knowledge Representation and Reasoning", "year": 2004}, {"authors": ["Hobbs, Jerry R.", "Moore, Robert C.", "Sandewall, Erik"], "title": "Commonsense Reasoning: An Informal Introduction", "year": 1991}, {"authors": ["van Benthem, Johan"], "title": "Logical Dynamics of Information and Interaction", "year": 2011}, {"authors": ["Besnard, Philippe", "Hunter, Anthony"], "title": "Elements of Nonmonotonic Reasoning", "year": 2001}, {"authors": ["Halpern, Joseph Y.", "Moses, Yoram"], "title": "A Guide to Completeness and Complexity for Modal Logics of Knowledge and Belief", "year": 1992}]
+[
+  {
+    "title": [
+      "## Commonsense Reasoning: A Reading List"
+    ],
+    "note": [
+      "up to 2020"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list provides a diverse selection of articles on commonsense reasoning, covering various aspects like philosophical foundations, computational approaches, and applications"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Philosophical Foundations:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "title": [
+      "**\"The Frame Problem in Artificial Intelligence\" by Daniel Dennett (1987):** A seminal work exploring the challenges of representing and reasoning about the world's dynamic nature"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "title": [
+      "**\"Commonsense Reasoning\" by John McCarthy (1980):** A foundational paper outlining the importance and challenges of commonsense reasoning in AI"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "title": [
+      "**\"The Logic of Commonsense\" by Hector Levesque (1986):** Discusses the need for a formal logic capable of capturing commonsense knowledge and reasoning"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "title": [
+      "**\"Commonsense Reasoning and Natural Language Understanding\" by Jerry Hobbs (1985):** Explores the role of commonsense reasoning in understanding natural language"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "title": [
+      "**\"The Problem of Commonsense\" by Ernest Davis (2008):** A comprehensive overview of the challenges and progress in commonsense reasoning research"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "**Computational Approaches:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "title": [
+      "**\"A Computational Theory of Commonsense Psychology\" by Ken Forbus (1985):** Introduces the Qualitative Process Theory (QPT) for modeling commonsense reasoning about physical systems"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "title": [
+      "**\"The Cyc Project: The Cyc Representation Language\" by Douglas Lenat (1995):** Describes the Cyc project, a large-scale knowledge base aimed at capturing commonsense knowledge"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "title": [
+      "**\"Commonsense Reasoning with Logic Programs\" by Michael Gelfond and Vladimir Lifschitz (1991):** Introduces Answer Set Programming (ASP) as a framework for commonsense reasoning"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "title": [
+      "**\"Probabilistic Reasoning in Intelligent Systems\" by Judea Pearl (1988):** Explores the use of probability theory for representing and reasoning about uncertainty in commonsense reasoning"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "title": [
+      "**\"A Probabilistic Approach to Commonsense Reasoning\" by Judea Pearl (1988):** Discusses the application of Bayesian networks for modeling commonsense reasoning"
+    ],
+    "type": null
+  },
+  {
+    "url": [
+      "**Applications:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "title": [
+      "**\"Commonsense Reasoning in Natural Language Understanding\" by Michael Moens (1993):** Explores the use of commonsense reasoning in natural language processing tasks"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "title": [
+      "**\"Commonsense Reasoning in Robotics\" by Michael Beetz (2002):** Discusses the role of commonsense reasoning in enabling robots to interact with the world"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "title": [
+      "**\"Commonsense Reasoning in Artificial Intelligence: A Survey\" by Ernest Davis (2010):** Provides a comprehensive overview of applications of commonsense reasoning in AI"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "title": [
+      "**\"Commonsense Reasoning for Human-Robot Interaction\" by Michael Beetz (2010):** Explores the use of commonsense reasoning for building more natural and intuitive human-robot interactions"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "title": [
+      "**\"Commonsense Reasoning for Explainable AI\" by Tim Miller (2019):** Discusses the importance of commonsense reasoning for building explainable AI systems"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "**Recent Advances:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "title": [
+      "**\"Neural Networks for Commonsense Reasoning\" by Timnit Gebru et al",
+      "Explores the use of neural networks for learning and reasoning about commonsense knowledge"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "title": [
+      "**\"Commonsense Reasoning with Knowledge Graphs\" by Antoine Bordes et al",
+      "Discusses the use of knowledge graphs for representing and reasoning about commonsense knowledge"
+    ],
+    "date": [
+      "2014"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "title": [
+      "**\"Commonsense Reasoning with Deep Learning\" by Yejin Choi et al",
+      "Explores the use of deep learning for capturing and reasoning about commonsense knowledge"
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "title": [
+      "**\"Towards a Commonsense Reasoning Engine for AI\" by Ernest Davis (2019):** Discusses the need for a dedicated commonsense reasoning engine for AI systems"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "title": [
+      "**\"Commonsense Reasoning: A New Frontier for AI\" by LeCun et al",
+      "A recent perspective on the importance of commonsense reasoning for the future of AI"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list provides a starting point for exploring the vast field of commonsense reasoning. It is important to note that this is not an exhaustive list, and there are many other valuable articles and resources available"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Note:** This list includes articles published up to",
+      "For more recent research, you can search for articles on specific topics or keywords related to commonsense reasoning"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  }
+]

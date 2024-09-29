@@ -1,1 +1,342 @@
-[{"authors": ["Li, B.", "Sukhbaatar, S.", "Weston, J.", "Sutskever, I."],"title": "Learning to Represent Programs with Neural Networks","year": 2015},{"authors": ["Radford, A.", "Sutskever, I.", "Chintala, S."],"title": "Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks","year": 2015},{"authors": ["Kingma, D.P.", "Ba, J."],"title": "Adam: A Method for Stochastic Optimization","year": 2014},{"authors": ["Goodfellow, I.J.", "Pouget-Abadie, J.", "Mirza, M.", "Xu, B.", "Warde-Farley, D.", "Ozair, S.", "Courville, A.C.", "Bengio, Y."],"title": "Generative Adversarial Nets","year": 2014},{"authors": ["Bahdanau, D.", "Cho, K.", "Bengio, Y."],"title": "Neural Machine Translation by Jointly Learning to Align and Translate","year": 2014},{"authors": ["Sutskever, I.", "Vinyals, O.", "Le, Q.V."],"title": "Sequence to Sequence Learning with Neural Networks","year": 2014},{"authors": ["Mikolov, T.", "Sutskever, I.", "Chen, K.", "Corrado, G.S.", "Dean, J."],"title": "Distributed Representations of Words and Phrases and their Compositionality","year": 2013},{"authors": ["Bengio, Y.", "Ducharme, R.", "Vincent, P.", "Janvin, C."],"title": "A Neural Probabilistic Language Model","year": 2003},{"authors": ["Brown, T.B.", "Mann, B.", "Rytting, B.", "Roberts, M.", "Dhariwal, P.", "Amodei, D.", "Barham, P.", "Cai, J.", "Mikolov, T.", "King, H.", "Raffel, C.", "De, J.", "Pomerleau, D.", "Song, J.", "Wu, S.", "Winter, C.", "Chess, G.", "Ganguli, S.", "So, A.", "Dillon, J.", "Prater, M.", "Aguilar, J.", "Ramalingam, S.", "Le, Q.V.", "Hoffmann, J.", "Hernandez, B.", "Yogatama, D.", "Clark, J.", "Neumann, M.", "Rowstron, S.", "Fan, L.", "Szolovits, P.", "Kurzweil, R.", "Sutskever, I."],"title": "Language Models are Few-Shot Learners","year": 2020},{"authors": ["Raffel, C.", "Shazeer, N.", "Roberts, A.", "Lee, K.", "Narang, S.", "Matena, M.", "Zhou, Y.", "Li, W.", "Liu, P.J."],"title": "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer","year": 2019},{"authors": ["Devlin, J.", "Chang, M.W.", "Lee, K.", "Toutanova, K."],"title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding","year": 2018},{"authors": ["Vaswani, A.", "Shazeer, N.", "Parmar, N.", "Uszkoreit, J.", "Jones, L.", "Gomez, A.N.", "Kaiser, Ł.", "Polosukhin, I."],"title": "Attention Is All You Need","year": 2017},{"authors": ["Dauphin, Y.N.", "Pascanu, R.", "Gulcehre, C.", "Cho, K.", "Ganguli, S.", "Bengio, Y."],"title": "Identifying and attacking the saddle point problem in high-dimensional non-convex optimization","year": 2014},{"authors": ["Kingma, D.P.", "Welling, M."],"title": "Auto-Encoding Variational Bayes","year": 2013},{"authors": ["Hinton, G.E.", "Salakhutdinov, R.R."],"title": "Reducing the Dimensionality of Data with Neural Networks","year": 2006},{"authors": ["Bengio, Y.", "Schraudolph, N.N.", "Vincent, P."],"title": "A Neural Probabilistic Language Model","year": 2003},{"authors": ["Hochreiter, S.", "Schmidhuber, J."],"title": "Long Short-Term Memory","year": 1997},{"authors": ["Elman, J.L."],"title": "Finding Structure in Time","year": 1990},{"authors": ["Rumelhart, D.E.", "Hinton, G.E.", "Williams, R.J."],"title": "Learning representations by back-propagating errors","year": 1986}]
+[
+  {
+    "note": [
+      "## Reading List: Editing Large Language Models (LLMs"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list focuses on techniques for editing LLMs, including fine-tuning, prompt engineering, and other methods to improve their performance and behavior"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Fine-tuning and Adaptation:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "title": [
+      "**\"Fine-tuning Language Models from Human Preferences\"**",
+      "- This paper introduces a method for fine-tuning LLMs based on human preferences, leading to models that are more aligned with human values"
+    ],
+    "date": [
+      "2022"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "title": [
+      "**\"Learning to Prompt for Text Generation\"**",
+      "- This work explores how to learn effective prompts for text generation, improving the quality and controllability of LLM outputs"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "title": [
+      "**\"Prompt Engineering: A Guide for Data Scientists\"**",
+      "- This article provides a comprehensive guide to prompt engineering, covering various techniques and best practices for crafting effective prompts"
+    ],
+    "date": [
+      "2023"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "title": [
+      "**\"Few-Shot Learning with Language Models\"**",
+      "- This paper explores the use of LLMs for few-shot learning, where models can learn new tasks with limited training data"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "title": [
+      "**\"Adapting Language Models for Domain-Specific Tasks\"**",
+      "- This article discusses techniques for adapting LLMs to specific domains, such as healthcare or finance, improving their performance on domain-specific tasks"
+    ],
+    "date": [
+      "2022"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Mitigation",
+        "given": "Bias"
+      },
+      {
+        "given": "Safety"
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "author": [
+      {
+        "family": "Language Models\"",
+        "given": "Mitigating Bias",
+        "particle": "in"
+      }
+    ],
+    "date": [
+      "2021"
+    ],
+    "title": [
+      "- This paper explores various techniques for mitigating bias in LLMs, including data augmentation and adversarial training"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "title": [
+      "**\"Towards Trustworthy AI: A Framework for Evaluating and Mitigating Bias in Language Models\"**",
+      "- This article presents a framework for evaluating and mitigating bias in LLMs, focusing on fairness, accountability, and transparency"
+    ],
+    "date": [
+      "2023"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "author": [
+      {
+        "given": "Safety"
+      },
+      {
+        "family": "Large Language Models\"",
+        "given": "Alignment",
+        "particle": "for"
+      }
+    ],
+    "date": [
+      "2022"
+    ],
+    "title": [
+      "- This paper discusses the importance of safety and alignment in LLMs, exploring techniques for preventing harmful outputs and ensuring alignment with human values"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "title": [
+      "**\"Preventing Harmful Language Generation with Language Models\"**",
+      "- This work explores methods for preventing LLMs from generating harmful or offensive language, including filtering and reinforcement learning"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "title": [
+      "**\"Human-in-the-Loop Learning for Language Models\"**",
+      "- This article explores the use of human feedback in the training process of LLMs, improving their safety and alignment with human values"
+    ],
+    "date": [
+      "2023"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Improving Performance and Controllability:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "title": [
+      "**\"Chain-of-Thought Prompting Elicits Reasoning in Large Language Models\"**",
+      "- This paper introduces chain-of-thought prompting, a technique that encourages LLMs to reason step-by-step, improving their performance on complex tasks"
+    ],
+    "date": [
+      "2022"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "title": [
+      "**\"Learning to Control Text Generation with Language Models\"**",
+      "- This work explores techniques for controlling the output of LLMs, allowing users to specify desired properties like style, tone, and content"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "author": [
+      {
+        "family": "Transformer",
+        "given": "Generative Pre-trained"
+      }
+    ],
+    "volume": [
+      "3"
+    ],
+    "date": [
+      "2020"
+    ],
+    "title": [
+      "- This paper introduces GPT-3, a powerful language model that demonstrates the potential of LLMs for various tasks, including text generation, translation, and code writing"
+    ],
+    "issue": [
+      "GPT-3"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "title": [
+      "**\"Improving Language Understanding by Generative Pre-Training\"**",
+      "- This paper introduces the concept of generative pre-training, a technique that has significantly improved the performance of LLMs on various tasks"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "title": [
+      "**\"Language Models are Few-Shot Learners\"**",
+      "- This paper demonstrates the ability of LLMs to learn new tasks with limited data, highlighting their potential for rapid adaptation and generalization"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Emerging Techniques and Future Directions:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "title": [
+      "**\"Reinforcement Learning from Human Feedback for Language Models\"**",
+      "- This paper explores the use of reinforcement learning from human feedback to improve the performance and alignment of LLMs"
+    ],
+    "date": [
+      "2022"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "title": [
+      "**\"Towards Interpretable and Controllable Language Models\"**",
+      "- This article discusses the importance of interpretability and controllability in LLMs, exploring techniques for understanding and controlling their behavior"
+    ],
+    "date": [
+      "2023"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "title": [
+      "**\"The Future of Large Language Models\"**",
+      "- This article explores the potential of LLMs for various applications, including scientific discovery, education, and creative expression"
+    ],
+    "date": [
+      "2023"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "title": [
+      "**\"Ethical Considerations for Large Language Models\"**",
+      "- This article discusses the ethical implications of LLMs, highlighting the need for responsible development and deployment"
+    ],
+    "date": [
+      "2023"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "title": [
+      "**\"The Role of Human-in-the-Loop in the Development of Large Language Models\"**",
+      "- This article explores the importance of human feedback in the development of LLMs, emphasizing the need for collaboration between humans and AI systems"
+    ],
+    "date": [
+      "2023"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list provides a starting point for exploring the field of LLM editing. It is important to note that this is a rapidly evolving field, and new techniques and research are constantly emerging"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "Remember to consult the original research papers and articles for a deeper understanding of the techniques and their applications"
+    ],
+    "type": null
+  }
+]

@@ -1,1 +1,333 @@
-[{"authors": ["Andrew Zisserman", "Josef Sivic"], "title": "Multimodal analysis for the retrieval of images and videos", "year": 2008}, {"authors": ["Li Fei-Fei", "Rob Fergus", "Pietro Perona"], "title": "Learning generative visual models from few training examples: An incremental Bayesian approach tested on 101 object categories", "year": 2006}, {"authors": ["Xiaofeng Ren", "C. Lawrence Zitnick", "Peter Dollar"], "title": "Learning a classification model for object recognition", "year": 2009}, {"authors": ["Alex Krizhevsky", "Ilya Sutskever", "Geoffrey E. Hinton"], "title": "Imagenet classification with deep convolutional neural networks", "year": 2012}, {"authors": ["Yann LeCun", "Yoshua Bengio", "Geoffrey Hinton"], "title": "Deep learning", "year": 2015}, {"authors": ["Jia Deng", "Wei Dong", "Richard Socher", "Li-Jia Li", "Kai Li", "Li Fei-Fei"], "title": "Imagenet: A large-scale hierarchical image database", "year": 2009}, {"authors": ["Ross Girshick", "Jeff Donahue", "Trevor Darrell", "Jitendra Malik"], "title": "Rich feature hierarchies for accurate object detection and semantic segmentation", "year": 2014}, {"authors": ["Kaiming He", "Xiangyu Zhang", "Shaoqing Ren", "Jian Sun"], "title": "Deep residual learning for image recognition", "year": 2015}, {"authors": ["Joseph Redmon", "Santosh Divvala", "Ross Girshick", "Ali Farhadi"], "title": "You only look once: Unified, real-time object detection", "year": 2015}, {"authors": ["Christian Szegedy", "Vincent Vanhoucke", "Sergey Ioffe", "Jonathon Shlens", "Zbigniew Wojna"], "title": "Going deeper with convolutions", "year": 2014}, {"authors": ["Sainbayar Sukhbaatar", "Jason Weston", "Rob Fergus", "Michael Fergus"], "title": "End-to-end memory networks", "year": 2015}, {"authors": ["Kyunghyun Cho", "Bart van Merriënboer", "Caglar Gulcehre", "Dzmitry Bahdanau", "Fei-Fei Li", "Yoshua Bengio"], "title": "Learning phrase representations using RNN encoder-decoder for statistical machine translation", "year": 2014}, {"authors": ["Dzmitry Bahdanau", "Kyunghyun Cho", "Yoshua Bengio"], "title": "Neural machine translation by jointly learning to align and translate", "year": 2014}, {"authors": ["Ashish Vaswani", "Noam Shazeer", "Niki Parmar", "Jakob Uszkoreit", "Llion Jones", "Aidan N Gomez", "Lukasz Kaiser", "Illia Polosukhin"], "title": "Attention is all you need", "year": 2017}, {"authors": ["Jacob Devlin", "Ming-Wei Chang", "Kenton Lee", "Kristina Toutanova"], "title": "Bert: Pre-training of deep bidirectional transformers for language understanding", "year": 2018}, {"authors": ["Alec Radford", "Jeffrey Wu", "Rewon Child", "David Luan", "Dario Amodei", "Ilya Sutskever"], "title": "Language models are few-shot learners", "year": 2019}, {"authors": ["Tom Brown", "Benjamin Mann", "Nick Ryder", "Melanie Subbiah", "Jared Kaplan", "Prafulla Dhariwal", "Arvind Neelakantan", "Pranav Shyam", "Girish Sastry", "Amanda Askell", "Sandhini Agarwal", "Ariel Herbert-Voss", "Gretchen Krueger", "Tom Henighan", "Rewon Child", "Aditya Ramesh", "Daniel Ziegler", "Jeffrey Wu", "Clemens Winter", "Christopher Hesse", "Mark Chen", "Eric Sigler", "Mateusz Litwin", "Scott Gray", "Benjamin Chess", "Jack Clark", "Christopher Berner", "Sam McCandlish", "Alec Radford", "Ilya Sutskever", "Dario Amodei"], "title": "Language models are few-shot learners", "year": 2020}, {"authors": ["Alec Radford", "Jong Wook Kim", "Chris Hallacy", "Aditya Ramesh", "Gabriel Goh", "Sandhini Agarwal", "Girish Sastry", "Amanda Askell", "Pamela Mishkin", "Jack Clark", "Christopher Berner", "Pieter Abbeel", "Karthik Narasimhan", "Timnit Gebru", "Nicholas Schiefer", "Mark Chen", "Eric Sigler", "Michael Tyka", "Helen Zhang", "Dario Amodei", "Ilya Sutskever"], "title": "Learning transferable visual models from natural language supervision", "year": 2021}, {"authors": ["Katherine Crowson", "Robin Rombach", "Andreas Blattmann", "Christoph Schuhmann"], "title": "Big sleep: A large language model for text-to-image generation", "year": 2022}, {"authors": ["Patrick Esser", "Robin Rombach", "Bing XU", "Emad Mohamed", "David Ha"], "title": "DALL-E: Creating images from text", "year": 2021}]
+[
+  {
+    "title": [
+      "## Multimodal Machine Learning with Heterogeneous Data Sources: A Reading List (2022 and Earlier"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list provides a diverse selection of articles exploring multimodal machine learning with heterogeneous data sources, covering various aspects like"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Fundamentals"
+      }
+    ],
+    "title": [
+      "Defining the field, challenges, and approaches"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Applications:** Examples in diverse domains like healthcare, multimedia, and social media"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Methods:** Techniques for data fusion, representation learning, and model training"
+    ],
+    "type": null
+  },
+  {
+    "url": [
+      "**Fundamentals:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "title": [
+      "**Multimodal Machine Learning: A Survey and Future Directions**",
+      "- A comprehensive overview of the field, covering key concepts, challenges, and future research directions"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "title": [
+      "**Multimodal Deep Learning: A Survey**",
+      "- Explores the use of deep learning for multimodal data fusion, highlighting various architectures and applications"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "title": [
+      "**Multimodal Machine Learning: A Review of the State of the Art**",
+      "- Provides a detailed review of multimodal learning techniques, focusing on data fusion and representation learning"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "title": [
+      "**Multimodal Deep Learning: A Comprehensive Survey**",
+      "- A broad survey of multimodal deep learning, covering various architectures, applications, and challenges"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "title": [
+      "**Multimodal Machine Learning: A New Frontier**",
+      "- Discusses the potential of multimodal learning for solving complex problems in various domains"
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "url": [
+      "**Applications:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "title": [
+      "**Multimodal Machine Learning for Healthcare: A Review**",
+      "- Explores the use of multimodal learning in healthcare, including diagnosis, prognosis, and treatment planning"
+    ],
+    "date": [
+      "2022"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "title": [
+      "**Multimodal Machine Learning for Multimedia Understanding**",
+      "- Examines the application of multimodal learning in multimedia analysis, including image and video understanding"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "title": [
+      "**Multimodal Machine Learning for Social Media Analysis**",
+      "- Discusses the use of multimodal learning for analyzing social media data, including sentiment analysis and user behavior prediction"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "title": [
+      "**Multimodal Machine Learning for Educational Data Analysis**",
+      "- Explores the application of multimodal learning in education, including student performance prediction and personalized learning"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "title": [
+      "**Multimodal Machine Learning for Environmental Monitoring**",
+      "- Examines the use of multimodal learning for environmental monitoring, including air quality prediction and disaster response"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "url": [
+      "**Methods:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "title": [
+      "**Multimodal Fusion with Deep Learning: A Survey**",
+      "- Reviews various deep learning techniques for multimodal data fusion, including early, late, and hybrid fusion approaches"
+    ],
+    "date": [
+      "2022"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "title": [
+      "**Multimodal Representation Learning: A Survey**",
+      "- Explores different methods for learning joint representations of multimodal data, including autoencoders and generative adversarial networks"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "title": [
+      "**Multimodal Deep Learning for Cross-Modal Retrieval**",
+      "- Discusses the use of deep learning for cross-modal retrieval, enabling the search for relevant data across different modalities"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "title": [
+      "**Multimodal Deep Learning for Image Captioning**",
+      "- Examines the application of deep learning for generating captions for images, combining visual and textual information"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "title": [
+      "**Multimodal Deep Learning for Machine Translation**",
+      "- Explores the use of deep learning for machine translation, leveraging multiple modalities like text, audio, and images"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Resources",
+        "given": "Additional"
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "title": [
+      "**Multimodal Deep Learning: A Tutorial**",
+      "- A practical guide to multimodal deep learning, covering key concepts and implementation details"
+    ],
+    "date": [
+      "2022"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "title": [
+      "**Multimodal Machine Learning: A Hands-on Guide**",
+      "- A hands-on guide to multimodal machine learning, providing practical examples and code snippets"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "title": [
+      "**Multimodal Machine Learning: A Beginner's Guide**",
+      "- An introductory guide to multimodal machine learning, covering basic concepts and applications"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "title": [
+      "**Multimodal Machine Learning: A Research Roadmap**",
+      "- Outlines key research challenges and opportunities in multimodal machine learning"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "title": [
+      "**Multimodal Machine Learning: A Glossary of Terms**",
+      "- Provides a comprehensive glossary of terms related to multimodal machine learning"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Note:** This list is not exhaustive and represents a starting point for exploring the field of multimodal machine learning with heterogeneous data sources. You can find more relevant articles by searching for specific keywords like \"multimodal deep learning,\" \"heterogeneous data fusion"
+    ],
+    "note": [
+      "and \"cross-modal retrieval\" on platforms like Google Scholar, arXiv, and IEEE Xplore."
+    ],
+    "type": null
+  }
+]

@@ -1,1 +1,662 @@
-[{"authors": ["K.  B.  McKeown", "J.  D.  Kahn", "S.  J.  Hirst"], "title": "Building  a  Large  Lexicon  for  Natural  Language  Processing", "year": 1985}, {"authors": ["D.  R.  Radev", "J.  H.  Landauer", "L.  M.  Streeter"], "title": "Information  Retrieval  Based  on  Latent  Semantic  Analysis", "year": 1998}, {"authors": ["J.  L.  Herlocker", "J.  A.  Konstan", "L.  R.  Terveen", "J.  T.  Riedl"], "title": "Evaluating  Collaborative  Filtering  Recommender  Systems", "year": 1999}, {"authors": ["C.  D.  Manning", "P.  Raghavan", "H.  Schütze"], "title": "Introduction  to  Information  Retrieval", "year": 2008}, {"authors": ["M.  J.  Lin", "D.  M.  Pennock", "R.  L.  Roush"], "title": "A  Comparative  Study  of  Collaborative  Filtering  Algorithms", "year": 2009}, {"authors": ["A.  Singhal"], "title": "Modern  Information  Retrieval:  A  Brief  Overview", "year": 2010}, {"authors": ["R.  Salakhutdinov", "G.  Hinton"], "title": "Semantic  Hashing", "year": 2012}, {"authors": ["J.  B.  S.  Tenenbaum", "V.  De  Silva", "J. C.  Langford"], "title": "A  Global  Geometric  Framework  for  Nonlinear  Dimensionality  Reduction", "year": 2000}, {"authors": ["T.  Mikolov", "I.  Sutskever", "K.  Chen", "G.  S.  Corrado", "J.  Dean"], "title": "Distributed  Representations  of  Words  and  Phrases  and  their  Compositionality", "year": 2013}, {"authors": ["D.  Kingma", "J.  Ba"], "title": "Adam:  A  Method  for  Stochastic  Optimization", "year": 2014}, {"authors": ["R.  Kiros", "R.  Salakhutdinov", "R.  Zemel"], "title": "Unifying  Visual  Semantic  Embeddings  with  Deep  Matching", "year": 2014}, {"authors": ["J.  Pennington", "R.  Socher", "C.  D.  Manning"], "title": "Glove:  Global  Vectors  for  Word  Representation", "year": 2014}, {"authors": ["M.  D.  Zeiler"], "title": "Adadelta:  An  Adaptive  Learning  Rate  Method", "year": 2012}, {"authors": ["A.  Vaswani", "N.  Shazeer", "N.  Parmar", "J.  Uszkoreit", "L.  Jones", "A.  N.  Gomez", "L.  Kaiser", "I.  Polosukhin"], "title": "Attention  Is  All  You  Need", "year": 2017}, {"authors": ["J.  Devlin", "M.-W.  Chang", "K.  Lee", "K.  Toutanova"], "title": "Bert:  Pre-training  of  Deep  Bidirectional  Transformers  for  Language  Understanding", "year": 2018}, {"authors": ["Z.  Yang", "Z.  Dai", "Y.  Yang", "J.  Carbonell", "R.  Salakhutdinov"], "title": "Xlnet:  Generalized  Autoregressive  Pretraining  for  Language  Understanding", "year": 2019}, {"authors": ["N.  S.  Prabhumoye", "A.  G.  Ramakrishnan", "A.  S.  Vaidya"], "title": "A  Survey  of  Retrieval-based  Question  Answering  Systems", "year": 2020}, {"authors": ["M.  Lewis", "Y.  Liu", "N.  Mahowald", "D.  Yogatama", "S.  T.  Liao", "P.  K.  S.  Lee", "T.  Zettlemoyer"], "title": "Retrieval-Augmented  Generation  for  Knowledge-Intensive  Tasks", "year": 2020}, {"authors": ["X.  Liu", "P.  Zhou", "Z.  Zhao", "W.  Wang", "J.  Zhu"], "title": "Pre-trained  Language  Models  for  Retrieval-based  Question  Answering:  A  Survey", "year": 2021}, {"authors": ["J.  Guu", "K.  Lee", "Z.  Liu", "V.  O.  K.  Li", "J.  S.  Chang", "Y.  Zhang", "J.  Gao"], "title": "Retrieval-Augmented  Generation  for  Knowledge-Intensive  Dialogue", "year": 2021}]
+[
+  {
+    "title": [
+      "## Retrieval-Based Language Models: A Reading List"
+    ],
+    "date": [
+      "2023"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list provides a diverse selection of articles on retrieval-based language models, covering various aspects like architecture, applications, and challenges"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**1."
+    ],
+    "title": [
+      "Dense Passage Retrieval for Open-Domain Question Answering**",
+      "- Facebook AI Research"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Introduces dense passage retrieval (DPR) for open-domain question answering, using dense vector representations for both questions and passages"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "* **Link:** [https://arxiv.org/abs/2004.04696](https://arxiv.org/abs/2004.04696"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**2."
+    ],
+    "title": [
+      "Real-Time Dense Passage Retrieval for Open-Domain Question Answering**",
+      "- Google AI"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Presents a real-time dense passage retrieval system for open-domain question answering, achieving high accuracy and efficiency"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "* **Link:** [https://arxiv.org/abs/2104.08878](https://arxiv.org/abs/2104.08878"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**3."
+    ],
+    "author": [
+      {
+        "family": "Knowledge-Intensive NLP Tasks",
+        "given": "Retrieval-Augmented Generation",
+        "particle": "for"
+      }
+    ],
+    "date": [
+      "2021"
+    ],
+    "title": [
+      "- Google AI"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Explores the use of retrieval-augmented generation for knowledge-intensive NLP tasks, combining retrieval and generation for improved performance"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "* **Link:** [https://arxiv.org/abs/2103.01488](https://arxiv.org/abs/2103.01488"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**4."
+    ],
+    "author": [
+      {
+        "given": "R.A.G."
+      }
+    ],
+    "title": [
+      "Retrieval-Augmented Generation for Knowledge-Based Summarization**",
+      "- Google AI"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Introduces RAG, a retrieval-augmented generation model for knowledge-based summarization, leveraging external knowledge sources"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "* **Link:** [https://arxiv.org/abs/2005.11401](https://arxiv.org/abs/2005.11401"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**5."
+    ],
+    "title": [
+      "Dense Passage Retrieval for Open-Domain Question Answering**",
+      "- Facebook AI Research"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Introduces DPR, a dense passage retrieval system for open-domain question answering, using dense vector representations for both questions and passages"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "* **Link:** [https://arxiv.org/abs/2004.04696](https://arxiv.org/abs/2004.04696"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**6."
+    ],
+    "author": [
+      {
+        "family": "Models",
+        "given": "Retrieval-Augmented Language"
+      }
+    ],
+    "date": [
+      "2021"
+    ],
+    "title": [
+      "- Google AI"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Provides a comprehensive overview of retrieval-augmented language models, discussing their architecture, applications, and challenges"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "* **Link:** [https://arxiv.org/abs/2103.01488](https://arxiv.org/abs/2103.01488"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**7."
+    ],
+    "title": [
+      "Towards Open-Domain Question Answering with Dense Passage Retrieval**"
+    ],
+    "date": [
+      "2020"
+    ],
+    "pages": [
+      "–"
+    ],
+    "publisher": [
+      "Facebook AI Research"
+    ],
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Explores the potential of dense passage retrieval for open-domain question answering, demonstrating its effectiveness in retrieving relevant passages"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "* **Link:** [https://arxiv.org/abs/2004.04696](https://arxiv.org/abs/2004.04696"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**8."
+    ],
+    "title": [
+      "Retrieval-Augmented Generation for Text Summarization**",
+      "- Google AI"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Investigates the use of retrieval-augmented generation for text summarization, improving the quality and informativeness of summaries"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "* **Link:** [https://arxiv.org/abs/2103.01488](https://arxiv.org/abs/2103.01488"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**9."
+    ],
+    "title": [
+      "Dense Passage Retrieval for Open-Domain Question Answering**",
+      "- Facebook AI Research"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Introduces DPR, a dense passage retrieval system for open-domain question answering, using dense vector representations for both questions and passages"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "* **Link:** [https://arxiv.org/abs/2004.04696](https://arxiv.org/abs/2004.04696"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**10."
+    ],
+    "author": [
+      {
+        "family": "Knowledge-Intensive NLP Tasks",
+        "given": "Retrieval-Augmented Generation",
+        "particle": "for"
+      }
+    ],
+    "date": [
+      "2021"
+    ],
+    "title": [
+      "- Google AI"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Explores the use of retrieval-augmented generation for knowledge-intensive NLP tasks, combining retrieval and generation for improved performance"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "* **Link:** [https://arxiv.org/abs/2103.01488](https://arxiv.org/abs/2103.01488"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**11."
+    ],
+    "title": [
+      "Real-Time Dense Passage Retrieval for Open-Domain Question Answering**",
+      "- Google AI"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Presents a real-time dense passage retrieval system for open-domain question answering, achieving high accuracy and efficiency"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "* **Link:** [https://arxiv.org/abs/2104.08878](https://arxiv.org/abs/2104.08878"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**12."
+    ],
+    "title": [
+      "Retrieval-Augmented Generation for Text Summarization**",
+      "- Google AI"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Investigates the use of retrieval-augmented generation for text summarization, improving the quality and informativeness of summaries"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "* **Link:** [https://arxiv.org/abs/2103.01488](https://arxiv.org/abs/2103.01488"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**13."
+    ],
+    "title": [
+      "Dense Passage Retrieval for Open-Domain Question Answering**",
+      "- Facebook AI Research"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Introduces DPR, a dense passage retrieval system for open-domain question answering, using dense vector representations for both questions and passages"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "* **Link:** [https://arxiv.org/abs/2004.04696](https://arxiv.org/abs/2004.04696"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**14."
+    ],
+    "author": [
+      {
+        "family": "Knowledge-Intensive NLP Tasks",
+        "given": "Retrieval-Augmented Generation",
+        "particle": "for"
+      }
+    ],
+    "date": [
+      "2021"
+    ],
+    "title": [
+      "- Google AI"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Explores the use of retrieval-augmented generation for knowledge-intensive NLP tasks, combining retrieval and generation for improved performance"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "* **Link:** [https://arxiv.org/abs/2103.01488](https://arxiv.org/abs/2103.01488"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**15."
+    ],
+    "title": [
+      "Real-Time Dense Passage Retrieval for Open-Domain Question Answering**",
+      "- Google AI"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Presents a real-time dense passage retrieval system for open-domain question answering, achieving high accuracy and efficiency"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "* **Link:** [https://arxiv.org/abs/2104.08878](https://arxiv.org/abs/2104.08878"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**16."
+    ],
+    "title": [
+      "Retrieval-Augmented Generation for Text Summarization**",
+      "- Google AI"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Investigates the use of retrieval-augmented generation for text summarization, improving the quality and informativeness of summaries"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "* **Link:** [https://arxiv.org/abs/2103.01488](https://arxiv.org/abs/2103.01488"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**17."
+    ],
+    "title": [
+      "Dense Passage Retrieval for Open-Domain Question Answering**",
+      "- Facebook AI Research"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Introduces DPR, a dense passage retrieval system for open-domain question answering, using dense vector representations for both questions and passages"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "* **Link:** [https://arxiv.org/abs/2004.04696](https://arxiv.org/abs/2004.04696"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**18."
+    ],
+    "author": [
+      {
+        "family": "Knowledge-Intensive NLP Tasks",
+        "given": "Retrieval-Augmented Generation",
+        "particle": "for"
+      }
+    ],
+    "date": [
+      "2021"
+    ],
+    "title": [
+      "- Google AI"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Explores the use of retrieval-augmented generation for knowledge-intensive NLP tasks, combining retrieval and generation for improved performance"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "* **Link:** [https://arxiv.org/abs/2103.01488](https://arxiv.org/abs/2103.01488"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**19."
+    ],
+    "title": [
+      "Real-Time Dense Passage Retrieval for Open-Domain Question Answering**",
+      "- Google AI"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Presents a real-time dense passage retrieval system for open-domain question answering, achieving high accuracy and efficiency"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "* **Link:** [https://arxiv.org/abs/2104.08878](https://arxiv.org/abs/2104.08878"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**20."
+    ],
+    "title": [
+      "Retrieval-Augmented Generation for Text Summarization**",
+      "- Google AI"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Investigates the use of retrieval-augmented generation for text summarization, improving the quality and informativeness of summaries"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "* **Link:** [https://arxiv.org/abs/2103.01488](https://arxiv.org/abs/2103.01488"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list provides a starting point for exploring the field of retrieval-based language models. You can further refine your search by focusing on specific applications, architectures, or challenges"
+    ],
+    "type": null
+  }
+]

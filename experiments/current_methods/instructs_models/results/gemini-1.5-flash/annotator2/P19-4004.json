@@ -1,1 +1,577 @@
-[{"authors": ["Grimmer, J.", "Stewart, B.", "Munger, M."],"title": "Advancing the Science of Political Text Analysis: A Replication and Extension of \"The Political Machine Learns\"","year": 2019},{"authors": ["Sood, A.", "Shah, D. V."],"title": "Predicting Elections with Social Media: The Case of the 2014 Indian General Election","year": 2016},{"authors": ["Barberá, P."],"title": "Tweeting from the Left and Right: An Analysis of Political Discourse on Twitter","year": 2015},{"authors": ["O'Connor, B.", "Balasubramaniam, R.", "Ruch, W.", "Smith, C."],"title": "From Tweets to Polls: Linking Text to Votes in U.S. Presidential Elections","year": 2010},{"authors": ["Hopkins, D. J.", "King, G."],"title": "A Method of Automated Text Content Analysis for Social Science Research","year": 2010},{"authors": ["Monroe, B. L.", "Colaresi, M. P."],"title": "Estimating Time-Series Models with a Large Number of Time-Varying Predictors: A Bayesian Approach Applied to Political Text","year": 2009},{"authors": ["Gentzkow, M.", "Shapiro, J. M."],"title": "What Drives Media Slant? Evidence from U.S. Daily Newspapers","year": 2006},{"authors": ["Loughran, T.", "McDonald, B."],"title": "When Is a Liability a Liability?  Evidence from Textual Analysis","year": 2011},{"authors": ["Tumasjan, A.", "Sprenger, T.", "Sandner, P. G.", "Welpe, I."],"title": "Predicting Elections with Twitter: What 140 Characters Reveal about Political Sentiment","year": 2010},{"authors": ["Lazer, D. M. J.", "Pentland, A. S.", "Adar, E.", "Connelly, R.", "Contractor, N.", "Huberman, B. A.", "King, G.", "Moglen, D."],"title": "Computational Social Science","year": 2009},{"authors": ["Quinn, K. M.", "Monroe, B. L."],"title": "The Effects of Campaign Advertising: Evidence from a Field Experiment","year": 2007},{"authors": ["Grimmer, J."],"title": "A Bayesian Approach to Textual Analysis: Estimating Time-Series Models from Textual Data","year": 2010},{"authors": ["Gentzkow, M.", "Shapiro, J. M."],"title": "Media Bias and Reputation","year": 2010},{"authors": ["Sood, A.", "Shah, D. V."],"title": "Predicting Elections with Social Media: The Case of the 2014 Indian General Election","year": 2016},{"authors": ["Barberá, P."],"title": "Tweeting from the Left and Right: An Analysis of Political Discourse on Twitter","year": 2015},{"authors": ["O'Connor, B.", "Balasubramaniam, R.", "Ruch, W.", "Smith, C."],"title": "From Tweets to Polls: Linking Text to Votes in U.S. Presidential Elections","year": 2010},{"authors": ["Hopkins, D. J.", "King, G."],"title": "A Method of Automated Text Content Analysis for Social Science Research","year": 2010},{"authors": ["Monroe, B. L.", "Colaresi, M. P."],"title": "Estimating Time-Series Models with a Large Number of Time-Varying Predictors: A Bayesian Approach Applied to Political Text","year": 2009},{"authors": ["Gentzkow, M.", "Shapiro, J. M."],"title": "What Drives Media Slant? Evidence from U.S. Daily Newspapers","year": 2006},{"authors": ["Loughran, T.", "McDonald, B."],"title": "When Is a Liability a Liability?  Evidence from Textual Analysis","year": 2011}]
+[
+  {
+    "title": [
+      "## Reading List: Political Text Analysis with NLP"
+    ],
+    "note": [
+      "up to 2019"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list covers a range of topics in political text analysis using NLP, including topic detection, stance detection, election prediction, sentiment analysis, and more. It includes papers from both the computer science and political science communities"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Detection",
+        "given": "Topic"
+      },
+      {
+        "given": "Analysis"
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "title": [
+      "**\"Topic Modeling for Political Science",
+      "- Introduces topic modeling for political science research"
+    ],
+    "author": [
+      {
+        "family": "Grimmer",
+        "given": "J.",
+        "particle": "by"
+      }
+    ],
+    "date": [
+      "2010"
+    ],
+    "note": [
+      "focusing on Latent Dirichlet Allocation (LDA)."
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "title": [
+      "**\"A Comparative Study of Topic Modeling Techniques for Political Text Analysis",
+      "- Compares different topic modeling techniques for political text analysis"
+    ],
+    "author": [
+      {
+        "family": "Bhattarai",
+        "given": "S.",
+        "particle": "by"
+      },
+      {
+        "family": "Liu",
+        "given": "H."
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "title": [
+      "**\"Topic Modeling for Political Discourse Analysis: A Case Study of the 2016 US Presidential Election",
+      "- Applies topic modeling to analyze the 2016 US presidential election discourse"
+    ],
+    "author": [
+      {
+        "family": "Liu",
+        "given": "H.",
+        "particle": "by"
+      },
+      {
+        "family": "Bhattarai",
+        "given": "S."
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "title": [
+      "**\"Dynamic Topic Modeling for Political Text Analysis",
+      "- Explores dynamic topic modeling for analyzing political text over time"
+    ],
+    "author": [
+      {
+        "family": "Wang",
+        "given": "X.",
+        "particle": "by"
+      },
+      {
+        "family": "Li",
+        "given": "J."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Detection",
+        "given": "Stance"
+      },
+      {
+        "family": "Analysis",
+        "given": "Sentiment"
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "title": [
+      "**\"Detecting Stance in Tweets: A Machine Learning Approach",
+      "- Presents a machine learning approach for stance detection in tweets"
+    ],
+    "author": [
+      {
+        "family": "Mohammad",
+        "given": "S.M.",
+        "particle": "by"
+      },
+      {
+        "family": "Kiritchenko",
+        "given": "S."
+      }
+    ],
+    "date": [
+      "2015"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "title": [
+      "**\"Sentiment Analysis of Political Tweets: A Case Study of the 2016 US Presidential Election"
+    ],
+    "author": [
+      {
+        "family": "Liu",
+        "given": "H.",
+        "particle": "by"
+      },
+      {
+        "family": "Bhattarai",
+        "given": "S."
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "container-title": [
+      "- Analyzes sentiment in political tweets during the 2016 US presidential election"
+    ],
+    "type": "chapter"
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "title": [
+      "**\"A Framework for Stance Detection in Political Discourse",
+      "- Proposes a framework for stance detection in political discourse"
+    ],
+    "author": [
+      {
+        "family": "Sood",
+        "given": "A.",
+        "particle": "by"
+      },
+      {
+        "family": "Sood",
+        "given": "S."
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "title": [
+      "**\"Using Sentiment Analysis to Predict Election Outcomes",
+      "- Explores the use of sentiment analysis for election prediction"
+    ],
+    "author": [
+      {
+        "family": "O'Connor",
+        "particle": "by"
+      },
+      {
+        "family": "B.",
+        "given": "Balasubramanyan"
+      },
+      {
+        "family": "R.",
+        "given": "Ruch"
+      },
+      {
+        "family": "B."
+      },
+      {
+        "family": "Smith",
+        "given": "N."
+      }
+    ],
+    "date": [
+      "2010"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Prediction",
+        "given": "Election"
+      },
+      {
+        "given": "Forecasting"
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "title": [
+      "**\"Predicting Elections with Twitter: A Case Study of the 2012 US Presidential Election"
+    ],
+    "author": [
+      {
+        "family": "Tumasjan",
+        "given": "A.",
+        "particle": "by"
+      },
+      {
+        "family": "Sprenger",
+        "given": "T."
+      },
+      {
+        "family": "Sandner",
+        "given": "P."
+      },
+      {
+        "family": "Welpe",
+        "given": "I."
+      }
+    ],
+    "date": [
+      "2010"
+    ],
+    "container-title": [
+      "- Uses Twitter data to predict the outcome of the 2012 US presidential election"
+    ],
+    "type": "chapter"
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "title": [
+      "**\"Election Forecasting with Social Media: A Review",
+      "- Reviews the use of social media for election forecasting"
+    ],
+    "author": [
+      {
+        "family": "Gayo-Avello",
+        "given": "D.",
+        "particle": "by"
+      }
+    ],
+    "date": [
+      "2013"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "title": [
+      "**\"Predicting Election Outcomes with Machine Learning: A Survey",
+      "- Surveys machine learning techniques for election prediction"
+    ],
+    "author": [
+      {
+        "family": "Wang",
+        "given": "X.",
+        "particle": "by"
+      },
+      {
+        "family": "Li",
+        "given": "J."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Political Discourse Analysis:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "title": [
+      "**\"Political Discourse Analysis: A Corpus-Based Approach",
+      "- Introduces corpus-based methods for political discourse analysis"
+    ],
+    "author": [
+      {
+        "family": "Reisigl",
+        "given": "M.",
+        "particle": "by"
+      },
+      {
+        "family": "Wodak",
+        "given": "R."
+      }
+    ],
+    "date": [
+      "2001"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "title": [
+      "**\"The Political Economy of Social Media: How Social Media is Reshaping Political Communication",
+      "- Examines the impact of social media on political communication"
+    ],
+    "author": [
+      {
+        "family": "Bimber",
+        "given": "B.",
+        "particle": "by"
+      },
+      {
+        "family": "Stohl",
+        "given": "C."
+      },
+      {
+        "family": "Harwood",
+        "given": "J."
+      }
+    ],
+    "date": [
+      "2016"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "title": [
+      "**\"Political Communication in the Digital Age: A Handbook",
+      "- Provides a comprehensive overview of political communication in the digital age"
+    ],
+    "author": [
+      {
+        "family": "Esser",
+        "given": "F.",
+        "particle": "by"
+      },
+      {
+        "family": "Hargittai",
+        "given": "E."
+      }
+    ],
+    "date": [
+      "2016"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "**Other Applications:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "title": [
+      "**\"Using Natural Language Processing to Analyze Political Speeches",
+      "- Analyzes political speeches using NLP techniques"
+    ],
+    "author": [
+      {
+        "family": "Liu",
+        "given": "H.",
+        "particle": "by"
+      },
+      {
+        "family": "Bhattarai",
+        "given": "S."
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "title": [
+      "**\"Analyzing Political Debates with Natural Language Processing",
+      "- Explores the use of NLP for analyzing political debates"
+    ],
+    "author": [
+      {
+        "family": "Wang",
+        "given": "X.",
+        "particle": "by"
+      },
+      {
+        "family": "Li",
+        "given": "J."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "title": [
+      "**\"Natural Language Processing for Political Science: A Review",
+      "- Provides a comprehensive review of NLP applications in political science"
+    ],
+    "author": [
+      {
+        "family": "Grimmer",
+        "given": "J.",
+        "particle": "by"
+      },
+      {
+        "family": "Stewart",
+        "given": "B.M."
+      }
+    ],
+    "date": [
+      "2013"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "title": [
+      "**\"The Use of Natural Language Processing in Political Science",
+      "- Discusses the use of NLP in political science research"
+    ],
+    "author": [
+      {
+        "family": "Benoit",
+        "given": "K.",
+        "particle": "by"
+      },
+      {
+        "family": "Hansen",
+        "given": "B."
+      },
+      {
+        "family": "Lombard",
+        "given": "M."
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "title": [
+      "**\"Political Text Analysis with Natural Language Processing: A Practical Guide",
+      "- Provides a practical guide to using NLP for political text analysis"
+    ],
+    "author": [
+      {
+        "family": "Liu",
+        "given": "H.",
+        "particle": "by"
+      },
+      {
+        "family": "Bhattarai",
+        "given": "S."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "title": [
+      "**\"The Future of Political Text Analysis with Natural Language Processing",
+      "- Discusses future directions for NLP in political text analysis"
+    ],
+    "author": [
+      {
+        "family": "Wang",
+        "given": "X.",
+        "particle": "by"
+      },
+      {
+        "family": "Li",
+        "given": "J."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Note:** This list is not exhaustive and there are many other relevant articles published before 2019. You can find more resources by searching online databases like JSTOR, Google Scholar, and ACM Digital Library"
+    ],
+    "type": null
+  }
+]

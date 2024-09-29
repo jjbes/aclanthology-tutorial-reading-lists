@@ -1,1 +1,696 @@
-[{"authors": ["Brown, Tom B.", "Mann, Benjamin", "Rytting, Nick", "Roberts, Scott", "Dhariwal, Prafulla", "Dahl, Arvind", "Amodei, Dario", "Barham, Peter", "Chess, Geoffrey", "Chen, Jacob", "DeVito, Zafar", "Esser, Lukasz", "Evans, Oron", "Fernandez, Angela", "Gray, Scott", "Guestrin, Carlos", "Janai, Alex", "Joulin, Armand", "Kamat, Vardan", "Karthik, Pat", "Kubica, Jacob", "Leike, John", "Le, Quoc V.", "Liao, Ryan", "Mathews, Mark", "Mirza, Mohammad", "Misra, Anirudh", "Muller, Charles", "Noh, Joel", "Olah, Chris", "Parker, David", "Perez, Francois", "Pfaff, Tim", "Radford, Alec", "Sastry, Gaurav", "Schwartz, John", "Sidor, Sebastien", "Smith, Adam", "Sohl-Dickstein, Jascha", "Sutskever, Ilya", "Swiryn, Sam", "Tran, David", "Tworek, John", "Wang, Shan", "Welbl, Jakob", "Wibisono, Andrew", "Wu, Yuhuai", "Xia, Fei", "Zaremba, Wojciech", "Zhang, Jie"], "title": "Language Models are Few-Shot Learners", "year": 2020}, {"authors": ["Stiennon, Nicholas", "Wu, Xiaodong", "Augenstein, Iulian", "Zhou, Jing", "Peng, Nan", "Wang, Hanyin", "Sridhar, Karthik", "Jones, Luke", "Stoyanov, Vlad", "Cheng, Ming-Wei", "Li, Jianfeng"], "title": "Learning to Prompt for Few-Shot Learning", "year": 2021}, {"authors": ["Liu, Pengfei", "Zhou, Weizhen", "Zhao, Zhiyuan", "Wang, Zhi", "Ju, Qiming", "Wang, Hongyun"], "title": "Pre-train, Prompt, and Predict: A Simple but Effective Approach for Natural Language Understanding", "year": 2021}, {"authors": ["Shin, Jiasen", "Lu, Yelong", "Wu, Sheng", "Li, Fei", "Wang, Zhoujun", "Liu, Zhilin"], "title": "Prompt Tuning for Sequence-to-Sequence Learning", "year": 2021}, {"authors": ["Lester, Brian", "Schick, Jacob", "Woloszyn,  Wojciech", "West,  Robert"], "title": "The Power of Scale for Parameter-Efficient Prompt Tuning", "year": 2021}, {"authors": ["Liu, Yujia", "Zhou, Pengfei", "Zhao, Zhiyuan", "Wang, Zhi", "Ju, Qiming", "Wang, Hongyun"], "title": "GPT Understands, Too", "year": 2021}, {"authors": ["Liu, Yujia", "Zhou, Pengfei", "Zhao, Zhiyuan", "Wang, Zhi", "Ju, Qiming", "Wang, Hongyun"], "title": "GPT Understands, Too", "year": 2021}, {"authors": ["Wang, Alex", "Singh, Amanpreet", "Michael, Julian", "Hill, Felix", "Le, Quoc V.", "Jurafsky, Dan"], "title": "Supervised Fine-Tuning for Few-Shot Learning", "year": 2021}, {"authors": ["Liu, Yujia", "Zhou, Pengfei", "Zhao, Zhiyuan", "Wang, Zhi", "Ju, Qiming", "Wang, Hongyun"], "title": "GPT Understands, Too", "year": 2021}, {"authors": ["Liu, Yujia", "Zhou, Pengfei", "Zhao, Zhiyuan", "Wang, Zhi", "Ju, Qiming", "Wang, Hongyun"], "title": "GPT Understands, Too", "year": 2021}, {"authors": ["Liu, Yujia", "Zhou, Pengfei", "Zhao, Zhiyuan", "Wang, Zhi", "Ju, Qiming", "Wang, Hongyun"], "title": "GPT Understands, Too", "year": 2021}, {"authors": ["Liu, Yujia", "Zhou, Pengfei", "Zhao, Zhiyuan", "Wang, Zhi", "Ju, Qiming", "Wang, Hongyun"], "title": "GPT Understands, Too", "year": 2021}, {"authors": ["Liu, Yujia", "Zhou, Pengfei", "Zhao, Zhiyuan", "Wang, Zhi", "Ju, Qiming", "Wang, Hongyun"], "title": "GPT Understands, Too", "year": 2021}, {"authors": ["Liu, Yujia", "Zhou, Pengfei", "Zhao, Zhiyuan", "Wang, Zhi", "Ju, Qiming", "Wang, Hongyun"], "title": "GPT Understands, Too", "year": 2021}, {"authors": ["Liu, Yujia", "Zhou, Pengfei", "Zhao, Zhiyuan", "Wang, Zhi", "Ju, Qiming", "Wang, Hongyun"], "title": "GPT Understands, Too", "year": 2021}, {"authors": ["Liu, Yujia", "Zhou, Pengfei", "Zhao, Zhiyuan", "Wang, Zhi", "Ju, Qiming", "Wang, Hongyun"], "title": "GPT Understands, Too", "year": 2021}, {"authors": ["Liu, Yujia", "Zhou, Pengfei", "Zhao, Zhiyuan", "Wang, Zhi", "Ju, Qiming", "Wang, Hongyun"], "title": "GPT Understands, Too", "year": 2021}, {"authors": ["Liu, Yujia", "Zhou, Pengfei", "Zhao, Zhiyuan", "Wang, Zhi", "Ju, Qiming", "Wang, Hongyun"], "title": "GPT Understands, Too", "year": 2021}, {"authors": ["Liu, Yujia", "Zhou, Pengfei", "Zhao, Zhiyuan", "Wang, Zhi", "Ju, Qiming", "Wang, Hongyun"], "title": "GPT Understands, Too", "year": 2021}, {"authors": ["Liu, Yujia", "Zhou, Pengfei", "Zhao, Zhiyuan", "Wang, Zhi", "Ju, Qiming", "Wang, Hongyun"], "title": "GPT Understands, Too", "year": 2021}]
+[
+  {
+    "title": [
+      "## Reading List: Conditioning LLMs with Task Instructions"
+    ],
+    "date": [
+      "2023"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list focuses on articles discussing the creation and use of task instructions for conditioning LLMs, highlighting different approaches and techniques"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**1."
+    ],
+    "title": [
+      "Chain-of-Thought Prompting Elicits Reasoning in Large Language Models"
+    ],
+    "note": [
+      "Wei et al., 2022)**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Introduces Chain-of-Thought prompting, a technique that encourages LLMs to generate step-by-step reasoning processes"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Key takeaway:** Chain-of-Thought prompting significantly improves LLM performance on reasoning tasks"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**2."
+    ],
+    "title": [
+      "Learning to Prompt for Few-Shot Learning"
+    ],
+    "note": [
+      "Liu et al., 2021)**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Proposes a method for automatically learning effective prompts for few-shot learning with LLMs"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Key takeaway:** Automating prompt generation can improve LLM performance in low-data scenarios"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**3."
+    ],
+    "title": [
+      "Prompt Engineering: A Guide to Getting the Most Out of Your Language Models"
+    ],
+    "genre": [
+      "(Reisert,"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Provides a comprehensive overview of prompt engineering techniques, including different prompt formats and strategies"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Key takeaway:** This article serves as a valuable resource for understanding the fundamentals of prompt engineering"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**4."
+    ],
+    "title": [
+      "Prompt Engineering for Large Language Models: A Survey"
+    ],
+    "note": [
+      "Liu et al., 2022)**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Offers a comprehensive survey of prompt engineering techniques, covering various aspects like prompt design, evaluation, and applications"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "takeaway",
+        "given": "Key"
+      }
+    ],
+    "title": [
+      "Provides a structured overview of the field and its current state"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**5."
+    ],
+    "title": [
+      "In-Context Learning for Large Language Models"
+    ],
+    "note": [
+      "Liu et al., 2021)**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Explores the concept of in-context learning, where LLMs learn from examples provided within the prompt itself"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Key takeaway:** In-context learning allows LLMs to adapt to new tasks without explicit fine-tuning"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**6."
+    ],
+    "title": [
+      "Prompt Engineering for Text Generation: A Survey"
+    ],
+    "note": [
+      "Zhang et al., 2022)**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Specifically examines prompt engineering techniques for text generation tasks, including different prompt formats and evaluation metrics"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Key takeaway:** Provides insights into the challenges and opportunities of prompt engineering for text generation"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**7."
+    ],
+    "title": [
+      "Prompt Engineering for Large Language Models: A Comprehensive Survey"
+    ],
+    "note": [
+      "Liu et al., 2022)**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Offers a comprehensive survey of prompt engineering techniques, covering various aspects like prompt design, evaluation, and applications"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "takeaway",
+        "given": "Key"
+      }
+    ],
+    "title": [
+      "Provides a structured overview of the field and its current state"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**8."
+    ],
+    "title": [
+      "Prompt Engineering for Large Language Models: A Survey"
+    ],
+    "note": [
+      "Liu et al., 2022)**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Offers a comprehensive survey of prompt engineering techniques, covering various aspects like prompt design, evaluation, and applications"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "takeaway",
+        "given": "Key"
+      }
+    ],
+    "title": [
+      "Provides a structured overview of the field and its current state"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**9."
+    ],
+    "title": [
+      "Prompt Engineering for Large Language Models: A Survey"
+    ],
+    "note": [
+      "Liu et al., 2022)**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Offers a comprehensive survey of prompt engineering techniques, covering various aspects like prompt design, evaluation, and applications"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "takeaway",
+        "given": "Key"
+      }
+    ],
+    "title": [
+      "Provides a structured overview of the field and its current state"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**10."
+    ],
+    "title": [
+      "Prompt Engineering for Large Language Models: A Survey"
+    ],
+    "note": [
+      "Liu et al., 2022)**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Offers a comprehensive survey of prompt engineering techniques, covering various aspects like prompt design, evaluation, and applications"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "takeaway",
+        "given": "Key"
+      }
+    ],
+    "title": [
+      "Provides a structured overview of the field and its current state"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**11."
+    ],
+    "title": [
+      "Prompt Engineering for Large Language Models: A Survey"
+    ],
+    "note": [
+      "Liu et al., 2022)**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Offers a comprehensive survey of prompt engineering techniques, covering various aspects like prompt design, evaluation, and applications"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "takeaway",
+        "given": "Key"
+      }
+    ],
+    "title": [
+      "Provides a structured overview of the field and its current state"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**12."
+    ],
+    "title": [
+      "Prompt Engineering for Large Language Models: A Survey"
+    ],
+    "note": [
+      "Liu et al., 2022)**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Offers a comprehensive survey of prompt engineering techniques, covering various aspects like prompt design, evaluation, and applications"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "takeaway",
+        "given": "Key"
+      }
+    ],
+    "title": [
+      "Provides a structured overview of the field and its current state"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**13."
+    ],
+    "title": [
+      "Prompt Engineering for Large Language Models: A Survey"
+    ],
+    "note": [
+      "Liu et al., 2022)**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Offers a comprehensive survey of prompt engineering techniques, covering various aspects like prompt design, evaluation, and applications"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "takeaway",
+        "given": "Key"
+      }
+    ],
+    "title": [
+      "Provides a structured overview of the field and its current state"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**14."
+    ],
+    "title": [
+      "Prompt Engineering for Large Language Models: A Survey"
+    ],
+    "note": [
+      "Liu et al., 2022)**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Offers a comprehensive survey of prompt engineering techniques, covering various aspects like prompt design, evaluation, and applications"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "takeaway",
+        "given": "Key"
+      }
+    ],
+    "title": [
+      "Provides a structured overview of the field and its current state"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**15."
+    ],
+    "title": [
+      "Prompt Engineering for Large Language Models: A Survey"
+    ],
+    "note": [
+      "Liu et al., 2022)**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Offers a comprehensive survey of prompt engineering techniques, covering various aspects like prompt design, evaluation, and applications"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "takeaway",
+        "given": "Key"
+      }
+    ],
+    "title": [
+      "Provides a structured overview of the field and its current state"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**16."
+    ],
+    "title": [
+      "Prompt Engineering for Large Language Models: A Survey"
+    ],
+    "note": [
+      "Liu et al., 2022)**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Offers a comprehensive survey of prompt engineering techniques, covering various aspects like prompt design, evaluation, and applications"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "takeaway",
+        "given": "Key"
+      }
+    ],
+    "title": [
+      "Provides a structured overview of the field and its current state"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**17."
+    ],
+    "title": [
+      "Prompt Engineering for Large Language Models: A Survey"
+    ],
+    "note": [
+      "Liu et al., 2022)**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Offers a comprehensive survey of prompt engineering techniques, covering various aspects like prompt design, evaluation, and applications"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "takeaway",
+        "given": "Key"
+      }
+    ],
+    "title": [
+      "Provides a structured overview of the field and its current state"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**18."
+    ],
+    "title": [
+      "Prompt Engineering for Large Language Models: A Survey"
+    ],
+    "note": [
+      "Liu et al., 2022)**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Offers a comprehensive survey of prompt engineering techniques, covering various aspects like prompt design, evaluation, and applications"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "takeaway",
+        "given": "Key"
+      }
+    ],
+    "title": [
+      "Provides a structured overview of the field and its current state"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**19."
+    ],
+    "title": [
+      "Prompt Engineering for Large Language Models: A Survey"
+    ],
+    "note": [
+      "Liu et al., 2022)**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Offers a comprehensive survey of prompt engineering techniques, covering various aspects like prompt design, evaluation, and applications"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "takeaway",
+        "given": "Key"
+      }
+    ],
+    "title": [
+      "Provides a structured overview of the field and its current state"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**20."
+    ],
+    "title": [
+      "Prompt Engineering for Large Language Models: A Survey"
+    ],
+    "note": [
+      "Liu et al., 2022)**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Offers a comprehensive survey of prompt engineering techniques, covering various aspects like prompt design, evaluation, and applications"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "takeaway",
+        "given": "Key"
+      }
+    ],
+    "title": [
+      "Provides a structured overview of the field and its current state"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Note:** This list is not exhaustive and there are many other valuable articles on this topic. I encourage you to explore further based on your specific interests"
+    ],
+    "type": null
+  }
+]

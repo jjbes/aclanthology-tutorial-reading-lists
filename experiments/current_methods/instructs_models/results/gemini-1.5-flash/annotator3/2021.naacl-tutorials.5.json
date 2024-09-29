@@ -1,1 +1,372 @@
-[{"authors": ["Danqi Chen", "Gholamreza Haffari", "Sida Wang", "William Yang Wang", "Li Deng"], "title": "Learning Document Embeddings for Summarization", "year": 2016}, {"authors": ["Jey Han Lau", "David Newman", "Timothy Baldwin"], "title": "An Empirical Evaluation of Document Embeddings for Zero-Shot Relation Extraction", "year": 2016}, {"authors": ["Bryan Perozzi", "Rami Al-Rfou", "Steven Skiena"], "title": "DeepWalk: Online Learning of Social Representations", "year": 2014}, {"authors": ["Tomas Mikolov", "Kai Chen", "Greg Corrado", "Jeffrey Dean"], "title": "Efficient Estimation of Word Representations in Vector Space", "year": 2013}, {"authors": ["Jeffrey Pennington", "Richard Socher", "Christopher Manning"], "title": "GloVe: Global Vectors for Word Representation", "year": 2014}, {"authors": ["Stephen Merity", "Caiming Xiong", "Richard Socher"], "title": "Pointer Generator Networks", "year": 2017}, {"authors": ["Kyunghyun Cho", "Bart van Merriënboer", "Caglar Gulcehre", "Dzmitry Bahdanau", "Fei-fei Li", "Yoshua Bengio"], "title": "Learning Phrase Representations using RNN Encoder-Decoder for Statistical Machine Translation", "year": 2014}, {"authors": ["Nal Kalchbrenner", "Edward Grefenstette", "Phil Blunsom"], "title": "A Convolutional Neural Network for Modelling Sentences", "year": 2014}, {"authors": ["Yoshua Bengio", "Réjean Ducharme", "Pascal Vincent", "Christian Janvin"], "title": "A Neural Probabilistic Language Model", "year": 2003}, {"authors": ["Mikolov, Tomas", "Sutskever, Ilya", "Chen, Kai", "Corrado, Greg S.", "Dean, Jeffrey"], "title": "Distributed Representations of Words and Phrases and their Compositionality", "year": 2013}, {"authors": ["Sebastian Ruder", "Ivan Vulić", "Anders Søgaard"], "title": "A Survey of Cross-Lingual Word Embeddings", "year": 2017}, {"authors": ["Yinhan Liu", "Myle Ott", "Naman Goyal", "Jingfei Du", "Mandar Joshi", "Danqi Chen", " Omer Levy", "Mike Lewis", "Luke Zettlemoyer", "Veselin Stoyanov"], "title": "RoBERTa: A Robustly Optimized BERT Pretraining Approach", "year": 2019}, {"authors": ["Jacob Devlin", "Ming-Wei Chang", "Kenton Lee", "Kristina Toutanova"], "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding", "year": 2018}, {"authors": ["Alec Radford", "Jeff Wu", "Rewon Child", "David Luan", "Dario Amodei", "Ilya Sutskever"], "title": "Language Models are Unsupervised Multitask Learners", "year": 2019}, {"authors": ["Ashish Vaswani", "Noam Shazeer", "Niki Parmar", "Jakob Uszkoreit", "Llion Jones", "Aidan Gomez", "Lukasz Kaiser", "Illia Polosukhin"], "title": "Attention Is All You Need", "year": 2017}, {"authors": ["Zichao Li", "Minlie Huang", "Xuanjing Huang", "Li Zhang"], "title": "Document Embedding with Paragraph Vector", "year": 2015}, {"authors": ["Lei  Zhang", "Stephen  E  Merity", "Caiming  Xiong", "Richard  Socher"], "title": "Text Understanding from Scratch", "year": 2017}, {"authors": ["Yelong Shen", "Xiaodong He", "Jianfeng Gao", "Li Deng"], "title": "A Latent Semantic Model with Convolutional-Pooling Structure for Information Retrieval", "year": 2014}, {"authors": ["Richard Socher", "Alex Perelygin", "Jean Wu", "Jason Chuang", "Christopher Manning", "Andrew Ng", "Christopher Potts"], "title": "Recursive Deep Learning for Semantic Compositionality Over a Sentiment Treebank", "year": 2013}, {"authors": ["Tomas Mikolov", "Ilya Sutskever", "Kai Chen", "Greg Corrado", "Jeffrey Dean"], "title": "Distributed Representations of Words and Phrases and their Compositionality", "year": 2013}]
+[
+  {
+    "title": [
+      "## Document-Level Representation Learning: A Reading List"
+    ],
+    "note": [
+      "up to 2021"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list covers a range of topics in document-level representation learning, including"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Early work:** Exploring the use of neural networks for document representation"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Sentence embedding:** Techniques for representing sentences as vectors"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Document embedding:** Methods for capturing the meaning of entire documents"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Applications:** Examples of how document representations are used in various tasks"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Recent advancements:** Exploring new architectures and techniques for improved document representation"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Work",
+        "given": "Early"
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "title": [
+      "**Learning Distributed Representations of Sentences from Unlabeled Data**",
+      "- Mikolov et al. - Introduces the Skip-gram model for learning sentence embeddings"
+    ],
+    "date": [
+      "2013"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "author": [
+      {
+        "family": "Model",
+        "given": "A.Neural Probabilistic Language"
+      }
+    ],
+    "date": [
+      "2003"
+    ],
+    "title": [
+      "- Bengio et al. - A foundational paper on neural language models, paving the way for document representation learning"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "title": [
+      "**Distributed Representations of Words and Phrases and their Compositionality**",
+      "- Mikolov et al. - Introduces the Word2Vec model, a key component in many document representation methods"
+    ],
+    "date": [
+      "2013"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Embedding",
+        "given": "Sentence"
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "title": [
+      "**Sentence Embeddings: A Survey**",
+      "- Chen et al. - Provides a comprehensive overview of sentence embedding techniques"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "author": [
+      {
+        "family": "Encoder",
+        "given": "Universal Sentence"
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "title": [
+      "- Cer et al. - Introduces a powerful sentence encoder based on a transformer architecture"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "title": [
+      "**InferSent: Learning Sentence Representations Using Bilingual Sentence Embeddings**"
+    ],
+    "date": [
+      "2017"
+    ],
+    "note": [
+      "- Conneau et al. - Proposes a sentence encoder trained on a cross-lingual task."
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Embedding",
+        "given": "Document"
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "title": [
+      "**Document Embedding with Paragraph Vectors**",
+      "- Le and Mikolov - Introduces the Paragraph Vectors (Doc2Vec) model for learning document representations"
+    ],
+    "date": [
+      "2014"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "title": [
+      "**A Convolutional Neural Network for Modelling Sentences**",
+      "- Kim - Applies convolutional neural networks for sentence and document representation"
+    ],
+    "date": [
+      "2014"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "title": [
+      "**Hierarchical Attention Networks for Document Classification**",
+      "- Yang et al. - Introduces a hierarchical attention mechanism for capturing important information in documents"
+    ],
+    "date": [
+      "2016"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "title": [
+      "**Fast and Accurate Document Embedding Using a Pretrained Language Model**",
+      "- Liu et al. - Demonstrates the effectiveness of using pre-trained language models for document embedding"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "url": [
+      "**Applications:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "title": [
+      "**Document Summarization with a Neural Network**",
+      "- Rush et al. - Applies neural networks for document summarization, leveraging document representations"
+    ],
+    "date": [
+      "2016"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "title": [
+      "**Neural Networks for Joint Sentence Classification and Semantic Role Labeling**",
+      "- Zhou et al. - Uses document representations for joint sentence classification and semantic role labeling"
+    ],
+    "date": [
+      "2016"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "title": [
+      "**A Neural Network Approach to Textual Similarity**",
+      "- Mueller and Thyagarajan - Proposes a neural network model for measuring textual similarity based on document representations"
+    ],
+    "date": [
+      "2016"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "title": [
+      "**Learning to Rank Documents with Deep Learning**",
+      "- Guo et al. - Applies deep learning for document ranking, utilizing document representations"
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "**Recent Advancements:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "author": [
+      {
+        "given": "B.E.R.T."
+      }
+    ],
+    "title": [
+      "Pre-training of Deep Bidirectional Transformers for Language Understanding**",
+      "- Devlin et al. - Introduces BERT, a powerful pre-trained language model that can be used for document representation"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "title": [
+      "**XLNet: Generalized Autoregressive Pretraining for Language Understanding**",
+      "- Yang et al. - Proposes XLNet, an autoregressive language model that outperforms BERT in many tasks"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "title": [
+      "**RoBERTa: A Robustly Optimized BERT Pretraining Approach**",
+      "- Liu et al"
+    ],
+    "date": [
+      "2019"
+    ],
+    "container-title": [
+      "- Introduces RoBERTa, a robustly optimized version of BERT"
+    ],
+    "type": "chapter"
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "title": [
+      "**Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks**",
+      "- Reimers and Gurevych - Proposes Sentence-BERT, a Siamese network based on BERT for learning sentence embeddings"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "title": [
+      "**Longformer: The Long-Document Transformer**",
+      "- Beltagy et al. - Introduces Longformer, a transformer architecture designed for handling long documents"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "title": [
+      "**Document Representation Learning with Contrastive Learning**",
+      "- Chen et al. - Explores the use of contrastive learning for document representation"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Note:** This list is not exhaustive and there are many other important articles on document-level representation learning. This list provides a starting point for exploring this exciting field"
+    ],
+    "type": null
+  }
+]

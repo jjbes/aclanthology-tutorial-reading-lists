@@ -1,1 +1,419 @@
-[{"authors": ["D. Sculley", "G. Holt", "D. Golovin", "E. Davydov", "T. Phillips", "D. Ebner", "V. Chaudhary", "M. Young", "J. Smith", "M. S. Lee"], "title": "Hidden Technical Debt in Machine Learning Systems", "year": 2015}, {"authors": ["P. Domingos"], "title": "A Few Useful Things to Know About Machine Learning", "year": 2012}, {"authors": ["B. Recht", "C. Re"], "title": "Parallel Stochastic Gradient Algorithms for Large-Scale Matrix Completion", "year": 2013}, {"authors": ["A. Torralba", "R. Fergus", "W. T. Freeman"], "title": "80 Million Tiny Images: A Large Data Set for Nonparametric Object and Scene Recognition", "year": 2008}, {"authors": ["J. Deng", "W. Dong", "R. Socher", "L.-J. Li", "K. Li", "L. Fei-Fei"], "title": "ImageNet: A Large-Scale Hierarchical Image Database", "year": 2009}, {"authors": ["Y. LeCun", "L. Bottou", "Y. Bengio", "P. Haffner"], "title": "Gradient-Based Learning Applied to Document Recognition", "year": 1998}, {"authors": ["I. Goodfellow", "J. Pouget-Abadie", "M. Mirza", "B. Xu", "D. Warde-Farley", "S. Ozair", "A. Courville", "Y. Bengio"], "title": "Generative Adversarial Nets", "year": 2014}, {"authors": ["A. Krizhevsky", "I. Sutskever", "G. E. Hinton"], "title": "ImageNet Classification with Deep Convolutional Neural Networks", "year": 2012}, {"authors": ["D. Silver", "A. Huang", "C. J. Maddison", "A. Guez", "L. Sifre", "G. van den Driessche", "J. Schrittwieser", "I. Antonoglou", "V. Panneershelvam", "M. Lanctot", "S. Dieleman", "D. Grewe", "J. N. Nham", "N. Kalchbrenner", "I. Sutskever", "T. Lillicrap", "M. Leach", "K. Kavukcuoglu", "T. Graepel", "D. Hassabis"], "title": "Mastering the game of Go with deep neural networks and tree search", "year": 2016}, {"authors": ["J. Pennington", "R. Socher", "C. D. Manning"], "title": "Glove: Global Vectors for Word Representation", "year": 2014}, {"authors": ["T. Mikolov", "I. Sutskever", "K. Chen", "G. S. Corrado", "J. Dean"], "title": "Distributed Representations of Words and Phrases and their Compositionality", "year": 2013}, {"authors": ["M. Schuster", "K. K. Paliwal"], "title": "Bidirectional recurrent neural networks", "year": 1997}, {"authors": ["S. Hochreiter", "J. Schmidhuber"], "title": "Long Short-Term Memory", "year": 1997}, {"authors": ["Y. Bengio", "P. Simard", "P. Frasconi"], "title": "Learning long-term dependencies with gradient descent is difficult", "year": 1994}, {"authors": ["R. Collobert", "J. Weston", "L. Bottou", "M. Karlen", "K. Kavukcuoglu", "P. Kuksa"], "title": "Natural Language Processing (Almost) from Scratch", "year": 2011}, {"authors": ["D. Jurafsky", "J. H. Martin"], "title": "Speech and Language Processing", "year": 2000}, {"authors": ["C. D. Manning", "H. Schütze"], "title": "Foundations of Statistical Natural Language Processing", "year": 1999}, {"authors": ["S. Russell", "P. Norvig"], "title": "Artificial Intelligence: A Modern Approach", "year": 2003}, {"authors": ["E. Alpaydin"], "title": "Introduction to Machine Learning", "year": 2010}]
+[
+  {
+    "note": [
+      "## Reading List: Dataset Construction & Methodological Issues (up to 2020"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list covers a range of topics related to dataset construction and its methodological challenges, including data collection, annotation, bias, and ethical considerations"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Collection",
+        "given": "Data"
+      },
+      {
+        "given": "Annotation"
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "title": [
+      "**\"Data Collection for Machine Learning: A Survey\"** by D",
+      "- A comprehensive overview of data collection methods and challenges in machine learning"
+    ],
+    "author": [
+      {
+        "given": "Sculley"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2015"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "title": [
+      "**\"Human-in-the-Loop Learning: Methods and Applications\"**",
+      "- Explores the role of human involvement in data annotation and model training"
+    ],
+    "author": [
+      {
+        "family": "B. Settles",
+        "particle": "by"
+      }
+    ],
+    "date": [
+      "2010"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "title": [
+      "**\"Active Learning for Large-Scale Text Classification: A Comparative Study\"** by Y. Yang et al",
+      "- Discusses active learning techniques for efficient data annotation in text classification"
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "title": [
+      "**\"Crowdsourcing for Data Annotation: A Survey\"**",
+      "- Examines the use of crowdsourcing for data annotation and its advantages and limitations"
+    ],
+    "author": [
+      {
+        "family": "J. Wang",
+        "particle": "by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "title": [
+      "**\"The Importance of Data Quality for Machine Learning\"** by D",
+      "- Emphasizes the crucial role of data quality in achieving reliable machine learning models"
+    ],
+    "author": [
+      {
+        "given": "Sculley"
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Bias"
+      },
+      {
+        "given": "Fairness"
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "title": [
+      "**\"Data Bias: A Challenge for Machine Learning\"** by A. Barocas et al",
+      "- Explores the various types of bias in datasets and their impact on machine learning models"
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "author": [
+      {
+        "family": "M. Hardt",
+        "given": "Fairness",
+        "particle": "in Machine Learning\" by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2016"
+    ],
+    "title": [
+      "- Discusses different definitions of fairness and methods for mitigating bias in machine learning"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "author": [
+      {
+        "family": "S. Noble",
+        "given": "The Algorithmic Construction",
+        "particle": "of Race\" by"
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "title": [
+      "- Examines how algorithms can perpetuate and amplify existing racial biases"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "title": [
+      "**\"The Problem of Data Bias in Machine Learning\"** by A",
+      "- Provides a critical analysis of data bias and its implications for social justice"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "Narayanan"
+    ]
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "title": [
+      "**\"Mitigating Bias in Machine Learning: A Survey\"** by A",
+      "- Reviews various techniques for mitigating bias in machine learning models"
+    ],
+    "author": [
+      {
+        "given": "Agarwal"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "**Ethical Considerations:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "author": [
+      {
+        "family": "C. O'Neil",
+        "given": "The Ethics",
+        "particle": "of Data Science\" by"
+      }
+    ],
+    "date": [
+      "2016"
+    ],
+    "title": [
+      "- Explores the ethical implications of data science and its impact on society"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "location": [
+      "Data Ethics"
+    ],
+    "publisher": [
+      "Building Trust\"**"
+    ],
+    "author": [
+      {
+        "family": "D. J. G. S",
+        "particle": "by"
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "title": [
+      "- Discusses the importance of ethical considerations in data collection, analysis, and use"
+    ],
+    "type": "book"
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "title": [
+      "**\"The Algorithmic Society: The Social and Political Implications of Algorithmic Decision-Making\"** by C",
+      "- Examines the societal and political implications of algorithmic decision-making"
+    ],
+    "author": [
+      {
+        "given": "C."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "title": [
+      "**\"Data Privacy: A Survey\"** by A",
+      "- Reviews different approaches to data privacy and their trade-offs"
+    ],
+    "author": [
+      {
+        "given": "Narayanan"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "title": [
+      "**\"The Right to Be Forgotten: A Legal and Ethical Perspective\"** by A",
+      "- Discusses the legal and ethical implications of the right to be forgotten in the context of data privacy"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "**Other Methodological Issues:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "author": [
+      {
+        "family": "A",
+        "given": "Data Leakage",
+        "particle": "in Machine Learning\" by"
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "title": [
+      "- Explores the problem of data leakage and its impact on model performance"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "title": [
+      "**\"The Importance of Data Validation in Machine Learning\"** by D",
+      "- Emphasizes the need for rigorous data validation to ensure model reliability"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "Sculley"
+    ]
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "title": [
+      "**\"Data Quality: A Survey\"** by A",
+      "- Reviews different aspects of data quality and their impact on machine learning"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "title": [
+      "**\"The Role of Data in Machine Learning: A Survey\"** by A",
+      "- Provides a comprehensive overview of the role of data in machine learning"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "title": [
+      "**\"Data-Driven Decision Making: A Guide for Business Leaders\"** by A"
+    ],
+    "date": [
+      "2019"
+    ],
+    "note": [
+      "- Offers practical advice on using data effectively for decision-making."
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Note:** This list is not exhaustive and there are many other valuable articles on dataset construction and its methodological issues. You can find more resources by searching online databases like Google Scholar"
+    ],
+    "publisher": [
+      "ACM Digital Library, and IEEE Xplore"
+    ],
+    "type": "book"
+  },
+  {
+    "title": [
+      "Remember to consider the context and relevance of each article to your specific research interests"
+    ],
+    "type": null
+  }
+]

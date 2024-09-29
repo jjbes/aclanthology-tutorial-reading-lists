@@ -1,0 +1,1005 @@
+[
+  {
+    "title": [
+      "Here's a reading list of 20 influential articles and papers on pretrained language models, their pretraining, and fine-tuning methods up to 2022"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "author": [
+      {
+        "given": "B.E.R.T."
+      }
+    ],
+    "title": [
+      "Pre-training of Deep Bidirectional Transformers for Language Understanding**"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "Authors: Jacob Devlin, Ming-Wei Chang"
+    ],
+    "location": [
+      "Kenton Lee"
+    ],
+    "publisher": [
+      "Kristina Toutanova"
+    ],
+    "type": "book"
+  },
+  {
+    "note": [
+      "Year: 2018"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "Summary: Introduces BERT, a model that pretrains deep bidirectional representations by jointly conditioning on both left and right context in all layers"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "title": [
+      "**GPT-2: Language Models are Unsupervised Multitask Learners**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Authors",
+        "given": "Alec Radford"
+      },
+      {
+        "family": "Wu",
+        "given": "Jeffrey"
+      },
+      {
+        "family": "Child",
+        "given": "Rewon"
+      },
+      {
+        "family": "Luan",
+        "given": "David"
+      },
+      {
+        "family": "Amodei",
+        "given": "Dario"
+      },
+      {
+        "family": "Sutskever",
+        "given": "Ilya"
+      }
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "Year: 2019"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "Summary: Discusses GPT-2, a large transformer-based language model trained with a simple objective: predict the next word, given all of the previous words"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "title": [
+      "**RoBERTa: A Robustly Optimized BERT Pretraining Approach**"
+    ],
+    "type": null
+  },
+  {
+    "editor": [
+      {
+        "family": "Authors",
+        "given": "Yinhan Liu"
+      },
+      {
+        "family": "Ott",
+        "given": "Myle"
+      },
+      {
+        "family": "Goyal",
+        "given": "Naman"
+      },
+      {
+        "family": "Du",
+        "given": "Jingfei"
+      },
+      {
+        "family": "Joshi",
+        "given": "Mandar"
+      },
+      {
+        "family": "Chen",
+        "given": "Danqi"
+      },
+      {
+        "family": "Levy",
+        "given": "Omer"
+      },
+      {
+        "family": "Lewis",
+        "given": "Mike"
+      },
+      {
+        "family": "Zettlemoyer",
+        "given": "Luke"
+      },
+      {
+        "family": "Stoyanov",
+        "given": "Veselin"
+      }
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "Year: 2019"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "Summary: Explores the impact of hyperparameter choices and training data size on BERT's performance, leading to the development of RoBERTa"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "title": [
+      "**XLNet: Generalized Autoregressive Pretraining for Language Understanding**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Authors",
+        "given": "Zhilin Yang"
+      },
+      {
+        "family": "Dai",
+        "given": "Zihang"
+      },
+      {
+        "family": "Yang",
+        "given": "Yiming"
+      },
+      {
+        "family": "Carbonell",
+        "given": "Jaime"
+      },
+      {
+        "family": "Salakhutdinov",
+        "given": "Ruslan"
+      },
+      {
+        "family": "Le",
+        "given": "Quoc V."
+      }
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "Year: 2019"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "Summary: Proposes XLNet, which integrates the best of both autoregressive and autoencoding language models"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "title": [
+      "**ALBERT: A Lite BERT for Self-supervised Learning of Language Representations**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Authors",
+        "given": "Zhenzhong Lan"
+      },
+      {
+        "family": "Chen",
+        "given": "Mingda"
+      },
+      {
+        "family": "Goodman",
+        "given": "Sebastian"
+      },
+      {
+        "family": "Gimpel",
+        "given": "Kevin"
+      },
+      {
+        "family": "Sharma",
+        "given": "Piyush"
+      },
+      {
+        "family": "Soricut",
+        "given": "Radu"
+      }
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "Year: 2019"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "Summary: Introduces ALBERT, a model that reduces the memory consumption and increases the training speed of BERT"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "title": [
+      "**T5: Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Authors",
+        "given": "Colin Raffel"
+      },
+      {
+        "family": "Shazeer",
+        "given": "Noam"
+      },
+      {
+        "family": "Roberts",
+        "given": "Adam"
+      },
+      {
+        "family": "Lee",
+        "given": "Katherine"
+      },
+      {
+        "family": "Narang",
+        "given": "Sharan"
+      },
+      {
+        "family": "Matena",
+        "given": "Michael"
+      },
+      {
+        "family": "Zhou",
+        "given": "Yanqi"
+      },
+      {
+        "family": "Li",
+        "given": "Wei"
+      },
+      {
+        "family": "Liu",
+        "given": "Peter J."
+      }
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "Year: 2019"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "Summary: Proposes a unified framework that converts all text-based language problems into a text-to-text format"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "author": [
+      {
+        "given": "E.L.E.C.T.R.A."
+      }
+    ],
+    "title": [
+      "Pre-training Text Encoders as Discriminators Rather Than Generators**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Authors",
+        "given": "Kevin Clark"
+      },
+      {
+        "family": "Luong",
+        "given": "Minh-Thang"
+      },
+      {
+        "family": "Le",
+        "given": "Quoc V."
+      },
+      {
+        "family": "Manning",
+        "given": "Christopher D."
+      }
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "Year: 2020"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "Summary: Introduces ELECTRA, a model that pretrains text encoders as discriminators rather than generators, leading to more efficient training"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "title": [
+      "**DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter**"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "Authors: Victor Sanh, Lysandre Debut"
+    ],
+    "publisher": [
+      "Julien Chaumond, Thomas Wolf"
+    ],
+    "type": "book"
+  },
+  {
+    "note": [
+      "Year: 2019"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "Summary: Discusses DistilBERT, a smaller version of BERT that retains 97% of its language understanding while being 60% faster"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "author": [
+      {
+        "given": "E.R.N.I.E."
+      }
+    ],
+    "title": [
+      "Enhanced Representation through Knowledge Integration**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Authors",
+        "given": "Yu Sun"
+      },
+      {
+        "family": "Wang",
+        "given": "Shuohuan"
+      },
+      {
+        "family": "Li",
+        "given": "Yukun"
+      },
+      {
+        "family": "Feng",
+        "given": "Shikun"
+      }
+    ],
+    "publisher": [
+      "Hao Tian, Hua Wu, Haifeng Wang"
+    ],
+    "type": "book"
+  },
+  {
+    "note": [
+      "Year: 2019"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "Summary: Introduces ERNIE, a model that incorporates knowledge graphs into the pretraining process to enhance language representations"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "title": [
+      "**SpanBERT: Improving Pre-training by Representing and Predicting Spans**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Authors",
+        "given": "Mandar Joshi"
+      },
+      {
+        "family": "Chen",
+        "given": "Danqi"
+      },
+      {
+        "family": "Liu",
+        "given": "Yinhan"
+      },
+      {
+        "family": "Weld",
+        "given": "Daniel S."
+      }
+    ],
+    "title": [
+      "Luke Zettlemoyer"
+    ],
+    "location": [
+      "Omer Levy"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "Year: 2020"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "Summary: Proposes SpanBERT, which improves BERT by focusing on span-level predictions rather than token-level predictions"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "author": [
+      {
+        "given": "B.A.R.T."
+      }
+    ],
+    "title": [
+      "Denoising Sequence-to-Sequence Pre-training for Natural Language Generation"
+    ],
+    "translator": [
+      {
+        "given": "Comprehension"
+      }
+    ],
+    "type": null
+  },
+  {
+    "editor": [
+      {
+        "family": "Authors",
+        "given": "Mike Lewis"
+      },
+      {
+        "family": "Liu",
+        "given": "Yinhan"
+      },
+      {
+        "family": "Goyal",
+        "given": "Naman"
+      },
+      {
+        "family": "Ghazvininejad",
+        "given": "Marjan"
+      },
+      {
+        "family": "Mohamed",
+        "given": "Abdelrahman"
+      },
+      {
+        "family": "Levy",
+        "given": "Omer"
+      },
+      {
+        "family": "Stoyanov",
+        "given": "Veselin"
+      },
+      {
+        "family": "Zettlemoyer",
+        "given": "Luke"
+      }
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "Year: 2019"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "Summary: Introduces BART, a model that combines BERT and GPT architectures for sequence-to-sequence tasks"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "title": [
+      "**PEGASUS: Pre-training with Extracted Gap-sentences for Abstractive Summarization**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Authors",
+        "given": "Jingqing Zhang"
+      },
+      {
+        "family": "Zhao",
+        "given": "Yao"
+      },
+      {
+        "family": "Saleh",
+        "given": "Mohammad"
+      },
+      {
+        "family": "Liu",
+        "given": "Peter J."
+      }
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "Year: 2019"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "Summary: Proposes PEGASUS, a model specifically designed for abstractive summarization by pretraining with gap-sentence generation"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "note": [
+      "**DeBERTa: Decoding-enhanced BERT with Disentangled Attention**"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "Authors: Pengcheng He, Xiaodong Liu"
+    ],
+    "publisher": [
+      "Jianfeng Gao, Weizhu Chen"
+    ],
+    "type": "book"
+  },
+  {
+    "note": [
+      "Year: 2020"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "Summary: Introduces DeBERTa, which improves BERT by using disentangled attention and enhanced mask decoder"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "location": [
+      "Reformer"
+    ],
+    "publisher": [
+      "The Efficient Transformer**"
+    ],
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "family": "Authors",
+        "given": "Nikita Kitaev"
+      },
+      {
+        "family": "Kaiser",
+        "given": "Łukasz"
+      },
+      {
+        "family": "Levskaya",
+        "given": "Anselm"
+      }
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "Year: 2020"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "Summary: Proposes Reformer, which reduces the memory footprint of transformers using locality-sensitive hashing and reversible layers"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "location": [
+      "Longformer"
+    ],
+    "publisher": [
+      "The Long-Document Transformer**"
+    ],
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "family": "Authors",
+        "given": "Iz Beltagy"
+      },
+      {
+        "family": "Peters",
+        "given": "Matthew E."
+      },
+      {
+        "family": "Cohan",
+        "given": "Arman"
+      }
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "Year: 2020"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "Summary: Introduces Longformer, a transformer model designed to handle long documents efficiently"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "title": [
+      "**Switch Transformers: Scaling to Trillion Parameter Models with Simple and Efficient Sparsity**"
+    ],
+    "type": null
+  },
+  {
+    "location": [
+      "Authors"
+    ],
+    "publisher": [
+      "William Fedus, Barret Zoph, Noam Shazeer"
+    ],
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "given": "Year"
+      }
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "Summary: Discusses Switch Transformers, which use a mixture of experts to scale models efficiently to trillions of parameters"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "title": [
+      "**Big Bird: Transformers for Longer Sequences**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Authors",
+        "given": "Manzil Zaheer"
+      },
+      {
+        "family": "Guruganesh",
+        "given": "Guru"
+      },
+      {
+        "family": "Dubey",
+        "given": "Avinava"
+      },
+      {
+        "family": "Ainslie",
+        "given": "Joshua"
+      },
+      {
+        "family": "Alberti",
+        "given": "Chris"
+      },
+      {
+        "family": "Ontanon",
+        "given": "Santiago"
+      },
+      {
+        "family": "Pham",
+        "given": "Philip"
+      }
+    ],
+    "title": [
+      "Anirudh Ravula"
+    ],
+    "note": [
+      "Qifan Wang, Li Yang, Amr Ahmed"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "Year: 2020"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "Summary: Proposes Big Bird, a transformer model that can handle longer sequences by using sparse attention"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "title": [
+      "**Funnel-Transformer: Filtering out Sequential Redundancy for Efficient Language Processing**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Authors",
+        "given": "Zihang Dai"
+      },
+      {
+        "family": "Lai",
+        "given": "Guokun"
+      },
+      {
+        "family": "Yang",
+        "given": "Yiming"
+      },
+      {
+        "family": "Le",
+        "given": "Quoc V."
+      }
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "Year: 2020"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "Summary: Introduces Funnel-Transformer, which reduces the sequence length progressively to improve efficiency"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "title": [
+      "**GShard: Scaling Giant Models with Conditional Computation and Automatic Sharding**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Authors",
+        "given": "Noam Shazeer"
+      },
+      {
+        "family": "Cheng",
+        "given": "Youlong"
+      },
+      {
+        "family": "Parmar",
+        "given": "Niki"
+      },
+      {
+        "family": "Tran",
+        "given": "Dustin"
+      },
+      {
+        "family": "Vaswani",
+        "given": "Ashish"
+      },
+      {
+        "family": "Koanantakool",
+        "given": "Penporn"
+      },
+      {
+        "family": "Hawkins",
+        "given": "Peter"
+      },
+      {
+        "family": "Lee",
+        "given": "HyoukJoong"
+      },
+      {
+        "family": "Krikun",
+        "given": "Maxim"
+      },
+      {
+        "family": "Frazier",
+        "given": "Nino"
+      },
+      {
+        "others": true
+      }
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "Year: 2020"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "Summary: Discusses GShard, a framework for scaling large models using conditional computation and automatic sharding"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "author": [
+      {
+        "given": "F.L.A.N."
+      }
+    ],
+    "title": [
+      "Few-Shot Learning with Auxiliary Natural Language Tasks**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Authors",
+        "given": "Jason Wei"
+      },
+      {
+        "family": "Bosma",
+        "given": "Maarten"
+      },
+      {
+        "family": "Zhao",
+        "given": "Vincent Y."
+      },
+      {
+        "family": "Guu",
+        "given": "Kelvin"
+      },
+      {
+        "family": "Yu",
+        "given": "Adams Wei"
+      },
+      {
+        "family": "Lester",
+        "given": "Brian"
+      },
+      {
+        "family": "Du",
+        "given": "Nan"
+      },
+      {
+        "family": "Dai",
+        "given": "Andrew M."
+      },
+      {
+        "family": "Le",
+        "given": "Quoc V."
+      }
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Year"
+      }
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "Summary: Introduces FLAN, a model that improves few-shot learning by leveraging auxiliary natural language tasks"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "These articles provide a comprehensive overview of the development and evolution of pretrained language models, as well as various techniques for pretraining and fine-tuning them"
+    ],
+    "type": null
+  }
+]

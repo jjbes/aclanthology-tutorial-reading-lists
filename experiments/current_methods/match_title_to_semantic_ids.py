@@ -1,66 +1,69 @@
-import json
 import os
-from tqdm.asyncio import tqdm_asyncio
-from pathlib import Path
-from collections import defaultdict
-from dotenv import load_dotenv
-load_dotenv()
-
+import json
+import dotenv
 import asyncio
 import aiohttp
+from pathlib import Path
+import typing_extensions as typing 
 from collections import defaultdict
+from tqdm.asyncio import tqdm_asyncio
+from asynciolimiter import StrictLimiter
 
-REQUESTS_PER_MINUTE = 100
-CONCURRENT_REQUESTS = 10
-RATE_LIMIT_WINDOW = 60.0 / REQUESTS_PER_MINUTE
+dotenv.load_dotenv()
 
-async def fetch_s2(query, session, semaphore):
-    async with semaphore:
-        async with session.get(
-                                'https://api.semanticscholar.org/graph/v1/paper/search/match', 
-                                params={"query": query}, 
-                                headers={"x-api-key": os.environ['SEMANTIC_SCHOLAR_API']}
-                            ) as response:
-            if response.status == 200:
-                data = await response.json()
-                await asyncio.sleep(RATE_LIMIT_WINDOW)
-                return data["data"][0]["paperId"] if "data" in data and len(data["data"]) > 0 else None
+# 500 RPM
+RATE_LIMITER = StrictLimiter(499/60)
+
+async def get_id(query:str, session:typing.Any) -> typing.Optional[str]:
+
+    await RATE_LIMITER.wait()
+    async with session.get(
+                            'https://api.semanticscholar.org/graph/v1/paper/search/match', 
+                            params={"query": query}, 
+                            headers={"x-api-key": os.environ['SEMANTIC_SCHOLAR_API']}
+                        ) as response:
+        if response.status == 200:
+            data = await response.json()
+            return data["data"][0]["paperId"] if "data" in data and len(data["data"]) > 0 else None
+        else:
+            return None
  
-async def match_s2_id(preds):
-    semaphore = asyncio.Semaphore(CONCURRENT_REQUESTS) 
+async def fetch_s2_batch(preds_list:list[typing.Dict]) -> list[typing.Dict] :
     matched = defaultdict(list)
     async with aiohttp.ClientSession() as session:
         tasks = []
-        for k, vs in preds.items():
-            if len(vs):
-                for v in vs:
-                    task = fetch_s2(v["title"], session, semaphore)
-                    tasks.append((k, task, v))
+        for k, preds in preds_list.items():
+            if len(preds):
+                for pred in preds:
+                    task = get_id((pred.get("title") or ''), session)
+                    tasks.append((k, task, pred))
             else:
                 matched[k] = []
-
         results = await tqdm_asyncio.gather(*[task for _, task, _ in tasks])
-        for i, (k, task, v) in enumerate(tasks):
+        for i, (k, task, pred) in enumerate(tasks):
             scholar_id = results[i]
             matched[k].append({
                 "id": scholar_id,
-                "title": v["title"],
-                "year": v.get("year", None)
+                "title": pred["title"],
+                "year": pred.get("year")
             })
     return matched
 
-#Scholarly Engines
-for model in ["google_scholar"]:
-    for annotator_i in [1,2,3]:
-        preds = json.loads(Path(f'search_engines/preds/{model}/preds_annot{annotator_i}.json').read_text())
-        preds_ids = asyncio.run(match_s2_id(preds))
-        with open(f'preds/{model}/preds_annot{annotator_i}.json', 'w') as f:
+def process_s2_match(preds_name:str, model_type:str) -> None:
+    print(f"Parsing S2 id from predictions of model: {preds_name}")
+    for annotator_num in [1, 2, 3]:
+        file_path = f'{model_type}/preds/{preds_name}/preds_annot{annotator_num}.json'
+        preds = json.loads(Path(file_path).read_text())
+        preds_ids = asyncio.run(fetch_s2_batch(preds))
+        with open(file_path, 'w') as f:
             json.dump(preds_ids, f)
 
-#Instruction models
-for model in ["gpt-4o","gpt-4o_json", "gpt-4o-2024-08-06", "gemini-1.5-flash"]:
-    for annotator_i in [1,2,3]:
-        preds = json.loads(Path(f'instruct_models/preds/{model}/preds_annot{annotator_i}.json').read_text())
-        preds_ids = asyncio.run(match_s2_id(preds))
-        with open(f'preds/{model}/preds_annot{annotator_i}.json', 'w') as f:
-            json.dump(preds_ids, f)
+if __name__ == "__main__":
+    process_s2_match("google_scholar", "search_engines")
+    process_s2_match("gpt-4o", "instructs_models")
+    process_s2_match("gpt-4o_json", "instructs_models")
+    process_s2_match("gpt-4o-2024-08-06", "instructs_models")
+    process_s2_match("gpt-4o-2024-08-06_json", "instructs_models")
+    process_s2_match("gpt-4o-2024-08-06_structured_output", "instructs_models")
+    process_s2_match("gemini-1.5-flash", "instructs_models")
+    process_s2_match("gemini-1.5-flash_json", "instructs_models")

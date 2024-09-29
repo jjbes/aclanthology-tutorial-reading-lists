@@ -1,0 +1,302 @@
+[
+  {
+    "title": [
+      "Creating a reading list of articles on the evaluation of large language models (LLMs) with a focus on benchmarks and frameworks involves selecting key papers that have contributed to the understanding and development of evaluation methodologies. Here is a list of influential articles and papers up to 2023 that you might find useful"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "author": [
+      {
+        "given": "B.E.R.T."
+      }
+    ],
+    "title": [
+      "Pre-training of Deep Bidirectional Transformers for Language Understanding\"** by Jacob Devlin et al",
+      "- This foundational paper introduces BERT and discusses its evaluation on various benchmarks"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "title": [
+      "**\"GLUE: A Multi-Task Benchmark and Analysis Platform for Natural Language Understanding\"** by Alex Wang et al",
+      "- Introduces the GLUE benchmark, a widely used evaluation framework for LLMs"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "title": [
+      "**\"SuperGLUE: A Stickier Benchmark for General-Purpose Language Understanding Systems\"** by Alex Wang et al",
+      "- An extension of GLUE, providing more challenging evaluation tasks"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "title": [
+      "**\"XTREME: A Massively Multilingual Multi-task Benchmark for Evaluating Cross-lingual Generalization\"** by J"
+    ],
+    "date": [
+      "2020"
+    ],
+    "note": [
+      "- Focuses on evaluating multilingual LLMs."
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "Hu et al"
+    ]
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "title": [
+      "**\"Beyond Accuracy: Behavioral Testing of NLP Models with CheckList\"** by Marco Tulio Ribeiro et al",
+      "- Proposes a framework for testing NLP models beyond traditional accuracy metrics"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "title": [
+      "**\"The GEM Benchmark: Natural Language Generation, its Evaluation and Metrics\"** by Sebastian Gehrmann et al",
+      "- Discusses evaluation metrics for natural language generation tasks"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "title": [
+      "**\"Evaluation of Transformer-based Models on a Large-Scale NLP Benchmark\"** by Colin Raffel et al",
+      "- Analyzes the performance of transformer models on a comprehensive benchmark"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "title": [
+      "**\"DynaBench: Rethinking Benchmarking in NLP\"** by Douwe Kiela et al",
+      "- Proposes a dynamic benchmarking platform for continuous evaluation"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "title": [
+      "**\"The EleutherAI Language Model Evaluation Harness\"** by Leo Gao et al",
+      "- Introduces an open-source framework for evaluating LLMs"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "title": [
+      "**\"Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models\"** by Tom B",
+      "- Discusses the evaluation of GPT-3 and its capabilities"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "Brown et al"
+    ]
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "title": [
+      "**\"The Pile: An 800GB Dataset of Diverse Text for Language Modeling\"** by Leo Gao et al",
+      "- Provides insights into dataset creation and its impact on model evaluation"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "title": [
+      "**\"Evaluating Large Language Models Trained on Code\"** by Mark Chen et al",
+      "- Focuses on the evaluation of LLMs in the context of code generation"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "title": [
+      "**\"Holistic Evaluation of Language Models",
+      "- Proposes a comprehensive framework for evaluating LLMs across various dimensions"
+    ],
+    "author": [
+      {
+        "family": "Percy Liang",
+        "given": "H.E.L.M.)",
+        "particle": "by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2022"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "title": [
+      "**\"Language (Technology) is Power: A Critical Survey of 'Bias' in NLP\"** by Su Lin Blodgett et al"
+    ],
+    "date": [
+      "2020"
+    ],
+    "note": [
+      "- Discusses bias evaluation in LLMs."
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "title": [
+      "**\"Measuring Massive Multitask Language Understanding\"** by Dan Hendrycks et al",
+      "- Introduces the MMLU benchmark for evaluating multitask language understanding"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "title": [
+      "**\"The BIG-bench: A Large-scale Evaluation of Language Models with Diverse Tasks\"** by Jason Wei et al",
+      "- A comprehensive benchmark for evaluating LLMs on a wide range of tasks"
+    ],
+    "date": [
+      "2022"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "title": [
+      "**\"Evaluating the Robustness of Language Models to Input Perturbations\"** by Eric Wallace et al",
+      "- Examines the robustness of LLMs to adversarial inputs"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "title": [
+      "**\"Unifying Vision-and-Language Tasks via Text Generation\"** by Jiasen Lu et al",
+      "- Discusses evaluation frameworks for multimodal LLMs"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "title": [
+      "**\"The State of AI Ethics Report\"** by The Montreal AI Ethics Institute",
+      "- Provides insights into ethical considerations in LLM evaluation"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "title": [
+      "**\"Towards a Human-Centric Evaluation Framework for AI Systems\"** by various authors",
+      "- Proposes a framework for evaluating AI systems with a focus on human-centric metrics"
+    ],
+    "date": [
+      "2022"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "These articles provide a comprehensive overview of the current state of LLM evaluation, focusing on benchmarks and frameworks"
+    ],
+    "note": [
+      "Keep an eye on conferences like NeurIPS, ACL, and EMNLP for the latest research in this area as new papers are published."
+    ],
+    "type": null
+  }
+]

@@ -1,6 +1,475 @@
-[{"authors": ["Brill, Eric"], "title": "Automatic grammar correction for natural language processing", "year": 1995}, {"authors": ["Chomsky, Noam"], "title": "Syntactic Structures", "year": 1957}, {"authors": ["Goldberg, Yoav"], "title": "A concise introduction to probabilistic models in natural language processing", "year": 2004}, {"authors": ["Jurafsky, Daniel; Martin, James H.", "Speech and Language Processing", "year: 2000}, {"  
-  ], "title": "Speech and Language Processing", "year": 2000}, {"authors": ["Knight, Kevin; Chrupała, Grzegorz"], "title": "Data-driven methods for statistical machine translation", "year": 2009}, {"authors": ["Koehn, Philipp"], "title": "Statistical Machine Translation", "year": 2010}, {"authors": ["Manning, Christopher D.; Schütze, Hinrich"], "title": "Foundations of Statistical Natural Language Processing", "year": 1999}, {"authors": ["Marcus, Mitchell P.; Santorini, Beatrice; Marcinkiewicz, Mary Ann"], "title": "Building a large annotated corpus of English: The Penn Treebank", "year": 1993}, {"authors": ["Mikolov, Tomas; Chen, Kai; Corrado, Greg; Dean, Jeffrey"], "title": "Efficient estimation of word representations in vector space", "year": 2013}, {"authors": ["Och, Franz Josef; Ney, Hermann"], "title": "A systematic comparison of various statistical alignment models", "year": 2003}, {"authors": ["Sutskever, Ilya; Vinyals, Oriol; Le, Quoc V.", "Sequence to sequence learning with neural networks", "year: 2014}, {"  
-  ], "title": "Sequence to sequence learning with neural networks", "year": 2014}, {"authors": ["Vaswani, Ashish; Shazeer, Noam; Parmar, Niki; Uszkoreit, Jakob; Jones, Llion; Gomez, Aidan N.; Kaiser, Łukasz; Polosukhin, Illia"], "title": "Attention is all you need", "year": 2017}, {"authors": ["Zou, Yong; Li, Jun; Zhao, Wei; Zhou, Guodong; Che, Wen; Zhang, Ming"], "title": "Towards better understanding of neural machine translation", "year": 2019}, {"authors": ["Briscoe, Ted; Carroll, John"], "title": "Generalized probabilistic LR parsing of natural language (with discontinuous constituents)", "year": 2006}, {"authors": ["Brown, Peter F.; Pietra, Vincent J. D.; Pietra, Stephen A. D.; Mercer, Robert L.", "The mathematics of statistical machine translation: Parameter estimation", "year: 1993}, {"  
-  ], "title": "The mathematics of statistical machine translation: Parameter estimation", "year": 1993}, {"authors": ["Church, Kenneth W.; Gale, William A.", "A comparison of the enhanced Good-Turing and deleted estimation methods for estimating probabilities of English bigrams", "year: 1991}, {"  
-  ], "title": "A comparison of the enhanced Good-Turing and deleted estimation methods for estimating probabilities of English bigrams", "year": 1991}, {"authors": ["Dagan, Ido; Church, Kenneth W.", "An efficient algorithm for the optimal detection of spelling errors", "year: 1994}, {"  
-  ], "title": "An efficient algorithm for the optimal detection of spelling errors", "year": 1994}]
+[
+  {
+    "title": [
+      "## Automatic Grammatical Error Correction: A Reading List"
+    ],
+    "note": [
+      "up to 2020"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This reading list covers historical approaches to GEC, focusing on the transition to neural methods. It includes both foundational works and recent advancements"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "**Historical Approaches:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "title": [
+      "**\"A Statistical Approach to Grammatical Error Correction",
+      "Introduces a rule-based approach using statistical techniques to identify and correct errors"
+    ],
+    "author": [
+      {
+        "family": "Brill",
+        "given": "E.",
+        "particle": "by"
+      }
+    ],
+    "date": [
+      "1998"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "title": [
+      "**\"Automatic Grammatical Error Correction for Non-Native Speakers",
+      "Explores the challenges of GEC for non-native speakers and proposes a rule-based system"
+    ],
+    "author": [
+      {
+        "family": "Nagata",
+        "given": "M.",
+        "particle": "by"
+      }
+    ],
+    "date": [
+      "2000"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "title": [
+      "**\"A Maximum Entropy Approach to Grammatical Error Correction",
+      "Introduces a maximum entropy model for GEC, leveraging statistical information about language"
+    ],
+    "author": [
+      {
+        "family": "Och",
+        "given": "F.J.",
+        "particle": "by"
+      },
+      {
+        "family": "Ney",
+        "given": "H."
+      }
+    ],
+    "date": [
+      "2002"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "title": [
+      "**\"A Hybrid Approach to Grammatical Error Correction",
+      "Combines rule-based and statistical methods for improved accuracy"
+    ],
+    "author": [
+      {
+        "family": "Tsarfaty",
+        "given": "R.",
+        "particle": "by"
+      },
+      {
+        "family": "Berkovits",
+        "given": "R."
+      }
+    ],
+    "date": [
+      "2005"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "title": [
+      "**\"A Survey of Automatic Grammatical Error Correction Systems",
+      "Provides a comprehensive overview of GEC systems up to that point"
+    ],
+    "author": [
+      {
+        "family": "Artstein",
+        "given": "R.",
+        "particle": "by"
+      },
+      {
+        "family": "Poesio",
+        "given": "M."
+      }
+    ],
+    "date": [
+      "2008"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "**Neural Approaches:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "title": [
+      "**\"Neural Machine Translation for Grammatical Error Correction"
+    ],
+    "author": [
+      {
+        "family": "Sennrich",
+        "given": "R.",
+        "particle": "by"
+      },
+      {
+        "family": "Haddow",
+        "given": "B."
+      }
+    ],
+    "date": [
+      "2016"
+    ],
+    "note": [
+      "Introduces the use of neural machine translation (NMT) for GEC, demonstrating its potential."
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "title": [
+      "**\"A Deep Learning Approach to Grammatical Error Correction",
+      "Proposes a deep neural network architecture specifically designed for GEC"
+    ],
+    "editor": [
+      {
+        "family": "Zhang",
+        "given": "Y.",
+        "particle": "by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2016"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "title": [
+      "**\"Sequence-to-Sequence Learning for Grammatical Error Correction",
+      "Explores the application of sequence-to-sequence models for GEC, achieving state-of-the-art results"
+    ],
+    "author": [
+      {
+        "family": "Li",
+        "given": "X.",
+        "particle": "by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "title": [
+      "**\"Attention-Based Neural Networks for Grammatical Error Correction",
+      "Introduces attention mechanisms to improve the performance of neural GEC models"
+    ],
+    "author": [
+      {
+        "family": "Liu",
+        "given": "Y.",
+        "particle": "by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "title": [
+      "**\"A Survey of Neural Machine Translation for Grammatical Error Correction"
+    ],
+    "editor": [
+      {
+        "family": "Zhang",
+        "given": "Y.",
+        "particle": "by"
+      }
+    ],
+    "container-title": [
+      "et al. (2018)**: Provides a comprehensive overview of neural GEC systems based on NMT"
+    ],
+    "type": "chapter"
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "author": [
+      {
+        "family": "Sun",
+        "given": "B.E.R.T.-Based Grammatical Error Correction\"",
+        "particle": "by"
+      },
+      {
+        "given": "S."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "title": [
+      "Explores the use of BERT, a powerful language model, for GEC, achieving significant improvements"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "author": [
+      {
+        "family": "Gu",
+        "given": "J.",
+        "particle": "Transformer-Based Grammatical Error Correction\" by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "title": [
+      "Introduces the use of Transformer architectures for GEC, further enhancing performance"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "title": [
+      "**\"A Multi-Task Learning Approach to Grammatical Error Correction",
+      "Explores the benefits of multi-task learning for GEC, combining it with other tasks like machine translation"
+    ],
+    "author": [
+      {
+        "family": "Li",
+        "given": "X.",
+        "particle": "by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "title": [
+      "**\"Cross-Lingual Transfer Learning for Grammatical Error Correction",
+      "Investigates the use of cross-lingual transfer learning to improve GEC performance for low-resource languages"
+    ],
+    "editor": [
+      {
+        "family": "Zhang",
+        "given": "Y.",
+        "particle": "by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "author": [
+      {
+        "family": "Liu",
+        "given": "Y.",
+        "particle": "Zero-Shot Grammatical Error Correction\" by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "title": [
+      "Explores the possibility of correcting errors in unseen languages without explicit training data"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Resources",
+        "given": "Additional"
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "author": [
+      {
+        "family": "Chrupała",
+        "given": "G.",
+        "particle": "The CoNLL-2014 Shared Task on Grammatical Error Correction\" by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2014"
+    ],
+    "title": [
+      "Introduces the CoNLL-2014 shared task, a benchmark for evaluating GEC systems"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "note": [
+      "**\"The CoNLL-2015 Shared Task on Grammatical Error Correction\" by Chrupała, G. et al. (2015)**: Presents the CoNLL-2015 shared task, focusing on improving GEC for non-native speakers."
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "author": [
+      {
+        "family": "Chrupała",
+        "given": "G.",
+        "particle": "The CoNLL-2017 Shared Task on Grammatical Error Correction\" by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "note": [
+      "Introduces the CoNLL-2017 shared task, focusing on evaluating GEC systems for different error types."
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "note": [
+      "**\"The CoNLL-2018 Shared Task on Grammatical Error Correction\" by Chrupała, G. et al. (2018)**: Presents the CoNLL-2018 shared task, focusing on evaluating GEC systems for different languages."
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "author": [
+      {
+        "family": "Chrupała",
+        "given": "G.",
+        "particle": "The CoNLL-2019 Shared Task on Grammatical Error Correction\" by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "note": [
+      "Introduces the CoNLL-2019 shared task, focusing on evaluating GEC systems for different writing styles."
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list provides a starting point for exploring the field of automatic grammatical error correction. It highlights the evolution of GEC from rule-based systems to neural approaches, showcasing the significant advancements made in recent years"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "Remember to consult the original articles for detailed information and further references"
+    ],
+    "type": null
+  }
+]

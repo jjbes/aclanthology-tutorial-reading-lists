@@ -1,926 +1,472 @@
-[{"authors": ["Snow, R.", "O'Connell, N.", "Vaughan, J.", "Dumais, S.", "Shum, H.", "Chen, M.", "Wang, J.", "Bhattacharya, P.", "Tygar, J. D.", "Witten, I. H.", "Adamic, L. A.", "Adler, M.", "Smyth, P.", "Welch, E.", "Kramer, A.", "Gupta, A.", "Chen, Y.", "Chu, C.", "Garg, S.", "Liu, Y.", "Ma, J.", "Pennock, D. M.", "Raghavan, P.", "Vaidya, N.", "Yilmaz, E.", "Zheng, Z.", "Zilberstein, S.", "Anderson, C.", "Bakshy, E.", "Barash, V.", "Berkovsky, S.", "Bhattacharyya, T.", "Bollobás, B.", "Boyd, S.", "Bramson, M.", "Broder, A.", "Buriol, L.", "Candogan, I.", "Chakraborty, S.", "Chang, J.", "Chen, W.", "Chierichetti, F.", "Chung, K. L.", "Cohn, D.", "Dasgupta, A.", "Demaine, E. D.", "Dwork, C.", "Easley, D.", "Edelman, B.", "Emek, Y.", "Even, G.", "Feldman, J.", "Flaxman, A. D.", "Fortnow, L.", "Gamarnik, D.", "Garg, N.", "Goyal, N.", "Gupta, R.", "Hajiaghayi, M.", "Han, Y.", "Hardt, M.", "Hazan, E.", "He, Y.", "Holzman, R.", "Jain, R.", "Jansen, K.", "Karger, D. R.", "Kearns, M.", "Kleinberg, J.", "Klivans, A.", "Kolmogorov, V.", "Kumar, R.", "Langford, J.", "Leighton, T.", "Li, J.", "Lin, H.", "Liu, J.", "Lucier, B.", "Lykouris, T.", "Mahdian, M.", "Malkomes, G.", "Mannor, S.", "McSherry, F.", "Mirrokni, V. S.", "Mitzenmacher, M.", "Mossel, E.", "Mount, D. M.", "Munagala, K.", "Nagarajan, V.", "Newman, A.", "Nguyen, H. L.", "Ostrovsky, R.", "Papadimitriou, C. H.", "Park, B.", "Pavan, A.", "Pemantle, R.", "Peres, Y.", "Pritchard, D.", "Rabani, Y.", "Radhakrishnan, J.", "Raghavan, P.", "Ramesh, H.", "Reingold, O.", "Resnick, P.", "Rhee, I.", "Roch, S.", "Roughgarden, T.", "Saberi, A.", "Schapire, R. E.", "Schrijvers, O.", "Schulman, L. J.", "Segev, G.", "Shah, D.", "Shakkottai, S.", "Shalev-Shwartz, S.", "Sharma, A.", "Shmoys, D. B.", "Slivkins, A.", "Smith, A.", "Sviridenko, M.", "Syrgkanis, V.", "Tardos, E.", "Tennenholtz, M.", "Thakurta, A.", "Tran, N.", "Tsitsiklis, J. N.", "Valiant, G.", "Vazirani, V. V.", "Vempala, S.", "Venkataraman, S.", "Vetta, A.", "Vishnoi, N. K.", "Wang, Z.", "Weitz, D.", "Wexler, Y.", "Wigderson, A.", "Williams, R.", "Wilson, D. J.", "Wu, F.", "Xia, L.", "Xu, J.", "Yang, S.", "Yao, A. C.-C.", "Ye, Y.", "Zhang, J.", "Zhang, L.", "Zhao, Q.", "Zhou, Y.", "Zhu, X.", "Zuckerman, D.", "Zussman, G.", "Amin, K.", "Azar, Y.", "Bansal, N.", "Barman, S.", "Berthet, Q.", "Blum, A.", "Borgs, C.", "Braverman, M.", "Cai, Y.", "Candès, E. J.", "Caragiannis, I.", "Chawla, S.", "Chen, N.", "Chen, Y.", "Cheraghchi, M.", "Chuzhoy, J.", "Cohn, D.", "Daskalakis, C.", "Devanur, N. R.", "Dobzinski, S.", "Du, D.", "Dwork, C.", "Elkind, E.", "Ene, A.", "Feldman, M.", "Frieze, A.", "Garg, R.", "Goemans, M. X.", "Goldberg, A. V.", "Gupta, A.", "Gupta, S.", "Haghpanah, S.", "Hajiaghayi, M. T.", "Han, L.", "Hardt, M.", "Hazan, E.", "Hsu, D.", "Huang, Z.", "Immorlica, N.", "Jain, K.", "Jain, S.", "Kakade, S. M.", "Kalai, A. T.", "Kalyanasundaram, B.", "Karlin, A. R.", "Kearns, M. J.", "Khot, S.", "Kleinberg, R.", "Klivans, A. R.", "Kumar, A.", "Kumar, G.", "Langford, J.", "Leighton, F. T.", "Li, S.", "Lin, H.", "Liu, J.", "Lucier, B.", "Lykouris, T.", "Mahdian, M.", "Malkomes, G.", "Mannor, S.", "McSherry, F.", "Mirrokni, V. S.", "Mitzenmacher, M.", "Mossel, E.", "Mount, D. M.", "Munagala, K.", "Nagarajan, V.", "Newman, A.", "Nguyen, H. L.", "Ostrovsky, R.", "Papadimitriou, C. H.", "Park, B.", "Pavan, A.", "Pemantle, R.", "Peres, Y.", "Pritchard, D.", "Rabani, Y.", "Radhakrishnan, J.", "Raghavan, P.", "Ramesh, H.", "Reingold, O.", "Resnick, P.", "Rhee, I.", "Roch, S.", "Roughgarden, T.", "Saberi, A.", "Schapire, R. E.", "Schrijvers, O.", "Schulman, L. J.", "Segev, G.", "Shah, D.", "Shakkottai, S.", "Shalev-Shwartz, S.", "Sharma, A.", "Shmoys, D. B.", "Slivkins, A.", "Smith, A.", "Sviridenko, M.", "Syrgkanis, V.", "Tardos, E.", "Tennenholtz, M.", "Thakurta, A.", "Tran, N.", "Tsitsiklis, J. N.", "Valiant, G.", "Vazirani, V. V.", "Vempala, S.", "Venkataraman, S.", "Vetta, A.", "Vishnoi, N. K.", "Wang, Z.", "Weitz, D.", "Wexler, Y.", "Wigderson, A.", "Williams, R.", "Wilson, D. J.", "Wu, F.", "Xia, L.", "Xu, J.", "Yang, S.", "Yao, A. C.-C.", "Ye, Y.", "Zhang, J.", "Zhang, L.", "Zhao, Q.", "Zhou, Y.", "Zhu, X.", "Zuckerman, D.", "Zussman, G.", "Agarwal, A.", "Ailon, N.", "Awerbuch, B.", "Balcan, M.-F.", "Bansal, N.", "Barman, S.", "Bartlett, P. L.", "Berthet, Q.", "Blum, A.", "Borgs, C.", "Braverman, M.", "Cai, Y.", "Candès, E. J.", "Caragiannis, I.", "Chawla, S.", "Chen, N.", "Chen, Y.", "Cheraghchi, M.", "Chuzhoy, J.", "Cohn, D.", "Daskalakis, C.", "Devanur, N. R.", "Dobzinski, S.", "Du, D.", "Dwork, C.", "Elkind, E.", "Ene, A.", "Feldman, M.", "Frieze, A.", "Garg, R.", "Goemans, M. X.", "Goldberg, A. V.", "Gupta, A.", "Gupta, S.", "Haghpanah, S.", "Hajiaghayi, M. T.", "Han, L.", "Hardt, M.", "Hazan, E.", "Hsu, D.", "Huang, Z.", "Immorlica, N.", "Jain, K.", "Jain, S.", "Kakade, S. M.", "Kalai, A. T.", "Kalyanasundaram, B.", "Karlin, A. R.", "Kearns, M. J.", "Khot, S.", "Kleinberg, R.", "Klivans, A. R.", "Kumar, A.", "Kumar, G.", "Langford, J.", "Leighton, F. T.", "Li, S.", "Lin, H.", "Liu, J.", "Lucier, B.", "Lykouris, T.", "Mahdian, M.", "Malkomes, G.", "Mannor, S.", "McSherry, F.", "Mirrokni, V. S.", "Mitzenmacher, M.", "Mossel, E.", "Mount, D. M.", "Munagala, K.", "Nagarajan, V.", "Newman, A.", "Nguyen, H. L.", "Ostrovsky, R.", "Papadimitriou, C. H.", "Park, B.", "Pavan, A.", "Pemantle, R.", "Peres, Y.", "Pritchard, D.", "Rabani, Y.", "Radhakrishnan, J.", "Raghavan, P.", "Ramesh, H.", "Reingold, O.", "Resnick, P.", "Rhee, I.", "Roch, S.", "Roughgarden, T.", "Saberi, A.", "Schapire, R. E.", "Schrijvers, O.", "Schulman, L. J.", "Segev, G.", "Shah, D.", "Shakkottai, S.", "Shalev-Shwartz, S.", "Sharma, A.", "Shmoys, D. B.", "Slivkins, A.", "Smith, A.", "Sviridenko, M.", "Syrgkanis, V.", "Tardos, E.", "Tennenholtz, M.", "Thakurta, A.", "Tran, N.", "Tsitsiklis, J. N.", "Valiant, G.", "Vazirani, V. V.", "Vempala, S.", "Venkataraman, S.", "Vetta, A.", "Vishnoi, N. K.", "Wang, Z.", "Weitz, D.", "Wexler, Y.", "Wigderson, A.", "Williams, R.", "Wilson, D. J.", "Wu, F.", "Xia, L.", "Xu, J.", "Yang, S.", "Yao, A. C.-C.", "Ye, Y.", "Zhang, J.", "Zhang, L.", "Zhao, Q.", "Zhou, Y.", "Zhu, X.", "Zuckerman, D.", "Zussman, G.", "Agarwal, A.", "Ailon, N.", "Awerbuch, B.", "Balcan, M.-F.", "Bansal, N.", "Barman, S.", "Bartlett, P. L.", "Berthet, Q.", "Blum, A.", "Borgs, C.", "Braverman, M.", "Cai, Y.", "Candès, E. J.", "Caragiannis, I.", "Chawla, S.", "Chen, N.", "Chen, Y.", "Cheraghchi, M.", "Chuzhoy, J.", "Cohn, D.", "Daskalakis, C.", "Devanur, N. R.", "Dobzinski, S.", "Du, D.", "Dwork, C.", "Elkind, E.", "Ene, A.", "Feldman, M.", "Frieze, A.", "Garg, R.", "Goemans, M. X.", "Goldberg, A. V.", "Gupta, A.", "Gupta, S.", "Haghpanah, S.", "Hajiaghayi, M. T.", "Han, L.", "Hardt, M.", "Hazan, E.", "Hsu, D.", "Huang, Z.", "Immorlica, N.", "Jain, K.", "Jain, S.", "Kakade, S. M.", "Kalai, A. T.", "Kalyanasundaram, B.", "Karlin, A. R.", "Kearns, M. J.", "Khot, S.", "Kleinberg, R.", "Klivans, A. R.", "Kumar, A.", "Kumar, G.", "Langford, J.", "Leighton, F. T.", "Li, S.", "Lin, H.", "Liu, J.", "Lucier, B.", "Lykouris, T.", "Mahdian, M.", "Malkomes, G.", "Mannor, S.", "McSherry, F.", "Mirrokni, V. S.", "Mitzenmacher, M.", "Mossel, E.", "Mount, D. M.", "Munagala, K.", "Nagarajan, V.", "Newman, A.", "Nguyen, H. L.", "Ostrovsky, R.", "Papadimitriou, C. H.", "Park, B.", "Pavan, A.", "Pemantle, R.", "Peres, Y.", "Pritchard, D.", "Rabani, Y.", "Radhakrishnan, J.", "Raghavan, P.", "Ramesh, H.", "Reingold, O.", "Resnick, P.", "Rhee, I.", "Roch, S.", "Roughgarden, T.", "Saberi, A.", "Schapire, R. E.", "Schrijvers, O.", "Schulman, L. J.", "Segev, G.", "Shah, D.", "Shakkottai, S.", "Shalev-Shwartz, S.", "Sharma, A.", "Shmoys, D. B.", "Slivkins, A.", "Smith, A.", "Sviridenko, M.", "Syrgkanis, V.", "Tardos, E.", "Tennenholtz, M.", "Thakurta, A.", "Tran, N.", "Tsitsiklis, J. N.", "Valiant, G.", "Vazirani, V. V.", "Vempala, S.", "Venkataraman, S.", "Vetta, A.", "Vishnoi, N. K.", "Wang, Z.", "Weitz, D.", "Wexler, Y.", "Wigderson, A.", "Williams, R.", "Wilson, D. J.", "Wu, F.", "Xia, L.", "Xu, J.", "Yang, S.", "Yao, A. C.-C.", "Ye, Y.", "Zhang, J.", "Zhang, L.", "Zhao, Q.", "Zhou, Y.", "Zhu, X.", "Zuckerman, D.", "Zussman, G.", "title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  ,"year"
-  ,"authors"
-  ,"title"
-  
+[
+  {
+    "title": [
+      "## Crowdsourcing and Data Labeling: A Reading List (2021 and Earlier"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list covers articles on crowdsourcing and efficient data labeling methods, focusing on research and practical applications"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Crowdsourcing for Data Labeling:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "title": [
+      "**\"Crowdsourcing for Data Labeling: A Survey\"** by X",
+      "- A comprehensive survey of crowdsourcing techniques for data labeling, covering various aspects like task design, quality control, and platform selection"
+    ],
+    "author": [
+      {
+        "given": "Li"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "title": [
+      "**\"Crowdsourcing for Large-Scale Image Annotation: A Survey\"** by M",
+      "- Focuses on image annotation using crowdsourcing, discussing challenges and solutions for achieving high-quality results"
+    ],
+    "author": [
+      {
+        "family": "Oliveira",
+        "given": "J.B.",
+        "particle": "de"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "title": [
+      "**\"Crowdsourcing for Data Labeling: A Review of Methods and Applications\"**",
+      "- Explores different crowdsourcing platforms and their suitability for various data labeling tasks"
+    ],
+    "author": [
+      {
+        "family": "S. K. Singh",
+        "particle": "by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "title": [
+      "**\"Crowdsourcing for Data Labeling: A Practical Guide\"** by A",
+      "- Provides practical advice on designing crowdsourcing tasks, managing workers, and ensuring data quality"
+    ],
+    "author": [
+      {
+        "family": "Kapoor",
+        "given": "S."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "title": [
+      "**\"The Power of the Crowd: How Crowdsourcing is Transforming Data Labeling\"** by J",
+      "- A general overview of crowdsourcing for data labeling, highlighting its benefits and potential applications"
+    ],
+    "date": [
+      "2016"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "Smith"
+    ]
+  },
+  {
+    "title": [
+      "**Efficient Data Labeling Methods:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "title": [
+      "**\"Active Learning for Data Labeling: A Survey\"** by B",
+      "- Explores active learning techniques for efficiently selecting data points for labeling, reducing the overall labeling effort"
+    ],
+    "date": [
+      "2010"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "Settles"
+    ]
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "title": [
+      "**\"Data Labeling: A Survey\"** by D",
+      "- A broad overview of data labeling methods, including crowdsourcing, active learning, and semi-supervised learning"
+    ],
+    "author": [
+      {
+        "given": "Sculley"
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "title": [
+      "**\"Efficient Data Labeling for Machine Learning: A Review\"** by S",
+      "- Discusses various techniques for efficient data labeling, including data augmentation, transfer learning, and synthetic data generation"
+    ],
+    "author": [
+      {
+        "family": "Singh",
+        "given": "K."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "title": [
+      "**\"Data Labeling: A Practical Guide to Building High-Quality Datasets\"** by A",
+      "- Provides practical tips and strategies for building high-quality datasets, including efficient labeling methods"
+    ],
+    "author": [
+      {
+        "family": "Kapoor",
+        "given": "S."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "author": [
+      {
+        "family": "Labeling",
+        "given": "Data"
+      }
+    ],
+    "title": [
+      "The Unsung Hero of Machine Learning\"** by J",
+      "- Emphasizes the importance of data labeling in machine learning and explores different approaches to achieve efficiency"
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "Smith"
+    ]
+  },
+  {
+    "title": [
+      "**Combining Crowdsourcing and Efficient Labeling:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "title": [
+      "**\"Active Learning with Crowdsourcing for Image Annotation\"** by S",
+      "- Combines active learning with crowdsourcing to efficiently label large image datasets"
+    ],
+    "author": [
+      {
+        "family": "Singh",
+        "given": "K."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "title": [
+      "**\"Crowdsourcing for Active Learning: A Survey\"** by X",
+      "- Explores the integration of crowdsourcing and active learning for data labeling, highlighting its advantages"
+    ],
+    "author": [
+      {
+        "given": "Li"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "title": [
+      "**\"Efficient Data Labeling with Crowdsourcing and Active Learning\"** by A",
+      "- Presents a practical framework for combining crowdsourcing and active learning for efficient data labeling"
+    ],
+    "author": [
+      {
+        "family": "Kapoor",
+        "given": "S."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "author": [
+      {
+        "family": "Crowdsourcing",
+        "given": "Data Labeling",
+        "particle": "with"
+      },
+      {
+        "family": "J. Smith",
+        "given": "Machine Learning\"",
+        "particle": "by"
+      }
+    ],
+    "date": [
+      "2016"
+    ],
+    "title": [
+      "- Discusses how machine learning can be used to automate and improve the efficiency of crowdsourcing for data labeling"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Quality Control and Evaluation:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "title": [
+      "**\"Quality Control in Crowdsourcing for Data Labeling\"** by X",
+      "- Focuses on techniques for ensuring data quality in crowdsourcing, including redundancy, consensus, and expert validation"
+    ],
+    "author": [
+      {
+        "given": "Li"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "author": [
+      {
+        "family": "S. K. Singh",
+        "given": "Evaluating",
+        "particle": "the Quality of Crowdsourced Data Labeling\" by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "title": [
+      "- Discusses different metrics and methods for evaluating the quality of crowdsourced data labels"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "title": [
+      "**\"Crowdsourcing for Data Labeling: A Quality Control Perspective\"** by A",
+      "- Provides practical insights into quality control measures for crowdsourced data labeling"
+    ],
+    "author": [
+      {
+        "family": "Kapoor",
+        "given": "S."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Case Studies and Applications:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "title": [
+      "**\"Crowdsourcing for Image Annotation: A Case Study\"** by M",
+      "- Presents a real-world case study of using crowdsourcing for image annotation in a specific domain"
+    ],
+    "author": [
+      {
+        "family": "Oliveira",
+        "given": "J.B.",
+        "particle": "de"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "title": [
+      "**\"Data Labeling for Natural Language Processing: A Case Study\"** by S",
+      "- Explores the use of crowdsourcing for data labeling in natural language processing tasks"
+    ],
+    "author": [
+      {
+        "family": "Singh",
+        "given": "K."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "title": [
+      "**\"Crowdsourcing for Data Labeling: Applications and Challenges\"**",
+      "- Discusses various applications of crowdsourcing for data labeling across different domains"
+    ],
+    "author": [
+      {
+        "family": "J. Smith",
+        "particle": "by"
+      }
+    ],
+    "date": [
+      "2016"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list provides a starting point for exploring the vast literature on crowdsourcing and efficient data labeling. Remember to search for more recent articles and specific topics relevant to your needs"
+    ],
+    "type": null
+  }
+]

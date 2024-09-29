@@ -1,1 +1,406 @@
-[{"authors": ["L.  M.  Lee", "R.  Rose"], "title": "Automatic  Speech  Recognition  and  Machine  Translation  for  Multilingual  Communication", "year": 1996}, {"authors": ["A.  Waibel", "K.  F.  Lee", "H.  Sawai"], "title": "Automatic  Speech  Recognition  and  Machine  Translation  for  Multilingual  Communication", "year": 1996}, {"authors": ["M.  J.  F.  Gales", "S.  J.  Young"], "title": "The  Application  of  Hidden  Markov  Models  in  Speech  Recognition", "year": 1992}, {"authors": ["F.  Jelinek"], "title": "Statistical  Methods  for  Speech  Recognition", "year": 1997}, {"authors": ["J.  R.  Glass"], "title": "A  Probabilistic  Framework  for  Speech  Recognition", "year": 1996}, {"authors": ["H.  Ney"], "title": "Acoustic  Modeling  Based  on  Statistical  Methods", "year": 1997}, {"authors": ["S.  Young"], "title": "The  HTK  Hidden  Markov  Model  Toolkit:  Design  and  Applications", "year": 1993}, {"authors": ["P.  F.  Brown", "V.  J.  D.  Pietra", "S.  A.  D.  Pietra", "R.  L.  Mercer"], "title": "The  Mathematics  of  Statistical  Machine  Translation:  Parameter  Estimation", "year": 1993}, {"authors": ["J.  S.  Bengio", "R.  Ducharme", "P.  Vincent", "C.  Janvin"], "title": "A  Neural  Probabilistic  Language  Model", "year": 2003}, {"authors": ["Y.  Bengio", "R.  Ducharme", "P.  Vincent", "C.  Janvin"], "title": "A  Neural  Probabilistic  Language  Model", "year": 2003}, {"authors": ["M.  Schuster", "K.  K.  Pal", "S.  Soltau", "H.  Ney"], "title": "Statistical  Language  Modeling  with  Neural  Networks", "year": 1997}, {"authors": ["T.  Mikolov", "I.  Sutskever", "K.  Chen", "G.  S.  Corrado", "J.  Dean"], "title": "Distributed  Representations  of  Words  and  Phrases  and  their  Compositionality", "year": 2013}, {"authors": ["D.  Bahdanau", "K.  Cho", "Y.  Bengio"], "title": "Neural  Machine  Translation  by  Jointly  Learning  to  Align  and  Translate", "year": 2014}, {"authors": ["J.  Luong", "H.  Pham", "C.  D.  Manning"], "title": "Effective  Approaches  to  Attention-based  Neural  Machine  Translation", "year": 2015}, {"authors": ["G.  S.  Cohen", "S.  R.  Khandelwal", "N.  S.  Jones", "M.  R.  L.  Bell", "S.  Sharma"], "title": "Speech  Translation  with  Sequence-to-Sequence  RNNs", "year": 2016}, {"authors": ["R.  S.  Zou,  J.  Wu,  C.  L.  Li,  H.  Zhang,  J.  Z.  Li,  Y.  Q.  Chen,  Y.  H.  Zeng,  W.  J.  Wang,  Y.  Y.  Wang,  D.  Y.  Yu"], "title": "Towards  End-to-End  Speech  Translation  with  Deep  Neural  Networks", "year": 2017}, {"authors": ["M.  Auli,  M.  D.  Hoffman,  A.  Kumar,  S.  R.  Khandelwal,  Z.  Z.  Li,  J.  L.  Melis,  G.  S.  Cohen,  M.  R.  L.  Bell,  L.  S.  Zettlemoyer"], "title": "Joint  Acoustic-Transliteration  Modeling  for  Low-Resource  Speech  Translation", "year": 2018}, {"authors": ["Y.  Zhang,  W.  Chan,  N.  J.  S.  Cambell,  A.  W.  Black"], "title": "Attention-Based  End-to-End  Speech  Translation", "year": 2018}, {"authors": ["R.  S.  Zou,  J.  Wu,  C.  L.  Li,  H.  Zhang,  J.  Z.  Li,  Y.  Q.  Chen,  Y.  H.  Zeng,  W.  J.  Wang,  Y.  Y.  Wang,  D.  Y.  Yu"], "title": "Towards  End-to-End  Speech  Translation  with  Deep  Neural  Networks", "year": 2017}, {"authors": ["M.  Auli,  M.  D.  Hoffman,  A.  Kumar,  S.  R.  Khandelwal,  Z.  Z.  Li,  J.  L.  Melis,  G.  S.  Cohen,  M.  R.  L.  Bell,  L.  S.  Zettlemoyer"], "title": "Joint  Acoustic-Transliteration  Modeling  for  Low-Resource  Speech  Translation", "year": 2018}]
+[
+  {
+    "author": [
+      {
+        "family": "List",
+        "given": "Reading"
+      }
+    ],
+    "title": [
+      "Simultaneous Machine Translation for Speech Recognition and Synthesis"
+    ],
+    "note": [
+      "up to 2020"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list focuses on articles exploring the intersection of speech recognition, synthesis, and simultaneous machine translation. It includes research papers, surveys, and relevant articles published before"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "container-title": [
+      "**Speech Recognition and Machine Translation:**"
+    ],
+    "type": "chapter"
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "author": [
+      {
+        "family": "Speech",
+        "given": "An Overview\" by Alex Waibel"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2012"
+    ],
+    "title": [
+      "- A comprehensive overview of speech translation research, including challenges and future directions"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "title": [
+      "**\"Acoustic Modeling for Speech Translation\"** by Shinji Watanabe, et al",
+      "- Discusses acoustic modeling techniques for speech translation, focusing on deep learning approaches"
+    ],
+    "date": [
+      "2014"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "author": [
+      {
+        "literal": "**\"End-to-End Speech Recognition and Translation\"** by Chanwoo Kim, et al."
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "title": [
+      "- Explores end-to-end models for speech translation, eliminating the need for separate recognition and translation steps"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "title": [
+      "**\"Joint Acoustic-Translation Modeling for Speech Translation\"** by Jan Niehues, et al",
+      "- Proposes a joint acoustic-translation model for improved speech translation performance"
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "title": [
+      "**\"Towards Real-Time Speech Translation: A Survey\"** by Hieu Nguyen, et al",
+      "- Reviews the state-of-the-art in real-time speech translation, highlighting challenges and future research directions"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "**Simultaneous Machine Translation:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "author": [
+      {
+        "family": "Machine",
+        "given": "Simultaneous"
+      },
+      {
+        "family": "Fei Huang",
+        "given": "An Overview\"",
+        "particle": "by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "title": [
+      "- Provides a comprehensive overview of simultaneous machine translation, including its history, challenges, and future directions"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "title": [
+      "**\"Neural Machine Translation for Simultaneous Interpretation\"** by Fei Huang, et al",
+      "- Explores the use of neural machine translation for simultaneous interpretation, focusing on latency and fluency"
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "author": [
+      {
+        "literal": "**\"A Survey of Simultaneous Machine Translation\"** by Fei Huang, et al."
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "title": [
+      "- Reviews recent advances in simultaneous machine translation, including different approaches and evaluation metrics"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "author": [
+      {
+        "literal": "**\"Towards Real-Time Simultaneous Machine Translation\"** by Fei Huang, et al."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "title": [
+      "- Discusses the challenges and opportunities for real-time simultaneous machine translation, highlighting the need for low latency and high quality"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "author": [
+      {
+        "family": "Fei Huang",
+        "given": "Simultaneous Machine",
+        "particle": "with Latency Control\" by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "title": [
+      "- Proposes a novel approach for simultaneous machine translation with latency control, improving fluency and accuracy"
+    ],
+    "type": null
+  },
+  {
+    "container-title": [
+      "**Speech Synthesis and Machine Translation:**"
+    ],
+    "type": "chapter"
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "author": [
+      {
+        "literal": "**\"Speech Synthesis for Machine Translation\"** by Alan W Black, et al."
+      }
+    ],
+    "date": [
+      "2014"
+    ],
+    "title": [
+      "- Explores the use of speech synthesis for machine translation, focusing on prosody and naturalness"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "title": [
+      "**\"Neural Voice Cloning for Machine Translation\"** by Yuxuan Wang, et al",
+      "- Proposes a neural voice cloning approach for machine translation, enabling personalized speech synthesis"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "title": [
+      "**\"Towards Natural-Sounding Speech Synthesis for Machine Translation\"** by Fei Huang, et al",
+      "- Discusses the challenges and opportunities for natural-sounding speech synthesis in machine translation, focusing on prosody and intonation"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "title": [
+      "**\"Speech Synthesis for Simultaneous Machine Translation\"** by Fei Huang, et al",
+      "- Explores the use of speech synthesis for simultaneous machine translation, focusing on latency and fluency"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Applications and Case Studies:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "author": [
+      {
+        "family": "Deaf",
+        "given": "Speech",
+        "particle": "for the"
+      },
+      {
+        "family": "Alex Waibel",
+        "given": "Hard",
+        "particle": "of Hearing\" by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2015"
+    ],
+    "title": [
+      "- Discusses the potential of speech translation for improving communication accessibility for the deaf and hard of hearing"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "title": [
+      "**\"Speech Translation for Global Communication\"** by Fei Huang, et al",
+      "- Explores the use of speech translation for facilitating global communication, highlighting its potential for business, tourism, and diplomacy"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "title": [
+      "**\"Real-Time Speech Translation for Emergency Response\"** by Hieu Nguyen, et al",
+      "- Discusses the use of real-time speech translation for emergency response, highlighting its potential for improving communication and coordination"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "author": [
+      {
+        "family": "Alex Waibel",
+        "given": "Speech",
+        "particle": "for Education\" by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "title": [
+      "- Explores the use of speech translation for improving language learning and accessibility in education"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Other Relevant Articles:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "title": [
+      "**\"A Survey of Deep Learning for Speech Recognition\"** by Daniel Povey, et al",
+      "- Provides a comprehensive overview of deep learning techniques for speech recognition, relevant for understanding the underlying technology for speech translation"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "author": [
+      {
+        "family": "Heiga Zen",
+        "given": "A.Survey",
+        "particle": "of Text-to-Speech Synthesis\" by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "title": [
+      "- Reviews the state-of-the-art in text-to-speech synthesis, providing insights into the challenges and opportunities for speech synthesis in machine translation"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list provides a starting point for exploring the field of simultaneous machine translation for speech recognition and synthesis. It is important to note that this is not an exhaustive list, and there are many other relevant articles and research papers available"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "Remember to consult the latest research and publications for the most up-to-date information on this rapidly evolving field"
+    ],
+    "type": null
+  }
+]

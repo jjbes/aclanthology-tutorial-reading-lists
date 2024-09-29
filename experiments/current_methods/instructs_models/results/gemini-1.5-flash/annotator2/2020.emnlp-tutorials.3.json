@@ -1,1 +1,285 @@
-[{"authors": ["Li, Jiwei", "Chen, Xin", "Hovy, Eduard", "Jurafsky, Dan"], "title": "Visualizing and Understanding Neural Models in NLP", "year": 2016}, {"authors": ["Belinkov, Yonatan", "Bisk, Yonatan"], "title": "Neural Machine Translation and the Curse of Dimensionality", "year": 2017}, {"authors": ["Jain, Sarthak", "Bhattacharya, Piyush", "Chang, Michael W.", "Das, Dipanjan"], "title": "Attention is not Explanation: Interpreting Attention Mechanisms", "year": 2019}, {"authors": ["Wiegreffe, Sarah", "Papp, Gabor", "Clark, Peter"], "title": "Attention is not Explanation: A Critical Review of Attention Mechanisms in NLP", "year": 2020}, {"authors": ["Liu, Pengfei", "Lee, Jie", "Huang, Xiaoxiao", "Zhao, Zhiyuan", "Zhou, Min", "Zhao, Lei"], "title": "Towards Better Understanding of Black-box Predictions in Text Classification", "year": 2018}, {"authors": ["Yogatama, Daniel", "Smith, Noah A.", "Dhingra, Bhaskar", "Cohen, William W.", "Jurafsky, Dan"], "title": "Learning to Explain: An Information-Theoretic Perspective on Explanatory Neural Networks", "year": 2019}, {"authors": ["Rudin, Cynthia"], "title": "Stop Explaining Black Box Machine Learning Models for High Stakes Decisions and Use Interpretable Models Instead", "year": 2019}, {"authors": ["Ribeiro, Marco Tulio", "Singh, Sameer", "Guestrin, Carlos"], "title": "Why Should I Trust You?: Explaining the Predictions of Any Classifier", "year": 2016}, {"authors": ["Lundberg, Scott M.", "Lee, Su-In"], "title": "A Unified Approach to Interpreting Model Predictions", "year": 2017}, {"authors": ["Zeiler, Matthew D.", " Fergus, Rob"], "title": "Visualizing and Understanding Convolutional Networks", "year": 2014}, {"authors": ["Simonyan, Karen", "Vedaldi, Andrea", "Zisserman, Andrew"], "title": "Deep Inside Convolutional Networks: Visualising Image Classification Models and Saliency Maps", "year": 2013}, {"authors": ["Bahdanau, Dzmitry", "Cho, Kyunghyun", "Bengio, Yoshua"], "title": "Neural Machine Translation by Jointly Learning to Align and Translate", "year": 2014}, {"authors": ["Vaswani, Ashish", "Shazeer, Noam", "Parmar, Niki", "Uszkoreit, Jakob", "Jones, Llion", "Gomez, Aidan N.", "Kaiser, Lukasz", "Polosukhin, Illia"], "title": "Attention Is All You Need", "year": 2017}, {"authors": ["Devlin, Jacob", "Chang, Ming-Wei", "Lee, Kenton", "Toutanova, Kristina"], "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding", "year": 2018}, {"authors": ["Radford, Alec", "Narasimhan, Karthik", "Salimans, Tim", "Sutskever, Ilya"], "title": "Improving Language Understanding by Generative Pre-Training", "year": 2018}, {"authors": ["Brown, Tom B.", "Mann, Benjamin", "Rytting, Nick", "Kabra, Sanjeeva", "Jafarnia, Daniel", "Faghri, Fahim", "Lewis, Scott", "Child, Ben", "Sumner, Geoffrey", "So, Christopher D.", "Chess, James", "Ganguli, Surya", "Dhariwal, Prafulla", "Amodei, Dario", "Sutskever, Ilya"], "title": "Language Models are Few-Shot Learners", "year": 2020}, {"authors": ["Liu, Yinhan", "Ott, Myle", "Goyal, Naman", "Du, Jingfei", " Joshi, Mandar", "Chen, Danqi", "Levy, Omer", "Lewis, Mike", "Zettlemoyer, Luke"], "title": "RoBERTa: A Robustly Optimized BERT Pretraining Approach", "year": 2019}, {"authors": ["Clark, Kevin", "Doran, Christopher", "Grover, Alexander", "Kwiatkowski, Tom", "Lee, Kensen", "Lewis, Michael", "Zettlemoyer, Luke"], "title": "ELECTRA: Pre-training Text Encoders as Discriminators Rather Than Generators", "year": 2020}, {"authors": ["Dai, Andrew M.", "Yang, Zihang", "Yang, Yiming", "Carbonell, Jaime G.", "Salakhutdinov, Ruslan"], "title": "Transformer-XL: Attentive Language Models Beyond a Fixed-Length Context", "year": 2019}, {"authors": ["Raffel, Colin", "Shazeer, Noam", "Roberts, Adam", "Lee, Katherine", "Narang, Sharan", "Matena, Michael", "Zhou, Yanqi", "Li, Wei", "Liu, Peter J.", "Huang, Jiasen", "Deng, Jiameng", "Yu, Zhifeng", "Deng, Xiaobing"], "title": "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer", "year": 2019}]
+[
+  {
+    "author": [
+      {
+        "family": "List",
+        "given": "Reading"
+      }
+    ],
+    "title": [
+      "Analyzing, Explaining, and Interpreting NLP Model Output"
+    ],
+    "note": [
+      "up to 2020"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list focuses on articles exploring methods for understanding and interpreting NLP model outputs, covering various aspects like model explainability, bias detection, and evaluation metrics"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**1."
+    ],
+    "title": [
+      "Why Should I Trust You?: Explaining the Predictions of Any Classifier\"**"
+    ],
+    "note": [
+      "Ribeiro et al., 2016) - Introduces LIME (Local Interpretable Model-Agnostic Explanations), a method for explaining individual predictions of any black-box classifier."
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**2."
+    ],
+    "author": [
+      {
+        "family": "All You Need\"",
+        "given": "Attention",
+        "particle": "is"
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "title": [
+      "- Introduces the Transformer architecture, which uses attention mechanisms to understand relationships between words in a sentence, providing insights into model reasoning"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**3."
+    ],
+    "title": [
+      "Towards a Rigorous Science of Interpretable Machine Learning\"**",
+      "- Discusses the importance of interpretability in machine learning and outlines key challenges and research directions"
+    ],
+    "publisher": [
+      "Doshi-Velez & Kim"
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": "book"
+  },
+  {
+    "citation-number": [
+      "**4."
+    ],
+    "title": [
+      "Human-in-the-Loop Learning for Interpretable NLP\"** (Belinkov et al., 2017) - Explores the use of human feedback to improve the interpretability of NLP models"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**5."
+    ],
+    "title": [
+      "The Curious Case of Neural Text Degeneration\"** (Holtzman et al., 2019) - Investigates the phenomenon of text quality degradation in neural language models, highlighting the need for better understanding of model behavior"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**6."
+    ],
+    "title": [
+      "A Survey of Methods for Explaining Black Box Models\"** (Guidotti et al., 2018) - Provides a comprehensive overview of various methods for explaining black-box models, including LIME, SHAP, and others"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**7."
+    ],
+    "title": [
+      "Understanding Neural Networks through Representation Erasure\"**",
+      "- Introduces a technique for visualizing and understanding the features learned by neural networks, applicable to NLP models"
+    ],
+    "date": [
+      "2014"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**8."
+    ],
+    "author": [
+      {
+        "family": "Not Explanation\"",
+        "given": "Attention",
+        "particle": "is"
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "title": [
+      "- Critiques the use of attention weights as explanations for model behavior, arguing for more rigorous methods"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**9."
+    ],
+    "title": [
+      "Measuring the Sensitivity of NLP Models to Input Perturbations\"** (Pruksachatkun et al., 2019) - Explores the use of adversarial attacks to understand the robustness and sensitivity of NLP models"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**10."
+    ],
+    "title": [
+      "Towards a Unified View of Model Interpretability for NLP\"** (Li et al., 2019) - Proposes a framework for unifying different approaches to model interpretability in NLP"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**11."
+    ],
+    "author": [
+      {
+        "given": "Fairness"
+      },
+      {
+        "family": "NLP\"",
+        "given": "Bias",
+        "particle": "in"
+      }
+    ],
+    "date": [
+      "2016"
+    ],
+    "title": [
+      "- Discusses the importance of fairness and bias mitigation in NLP, highlighting the need for methods to detect and address bias in model outputs"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**12."
+    ],
+    "title": [
+      "Measuring and Mitigating Unintended Bias in Text Generation\"** (Shuster et al., 2019) - Investigates bias in text generation models and proposes methods for mitigating it"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**13."
+    ],
+    "author": [
+      {
+        "family": "Understanding",
+        "given": "A.Framework",
+        "particle": "for"
+      },
+      {
+        "family": "NLP\"",
+        "given": "Mitigating Bias",
+        "particle": "in"
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "title": [
+      "- Provides a comprehensive framework for understanding and mitigating bias in NLP models"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**14."
+    ],
+    "title": [
+      "Beyond Accuracy: Behavioral Testing of NLP Models with Real Users\"** (Gururangan et al., 2018) - Emphasizes the importance of evaluating NLP models in real-world scenarios with human users"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**15."
+    ],
+    "title": [
+      "Human Evaluation of Text Generation: A Survey\"**",
+      "- Provides a survey of methods for evaluating text generation models using human judgments"
+    ],
+    "publisher": [
+      "Reimers & Gurevych"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": "book"
+  },
+  {
+    "citation-number": [
+      "**16."
+    ],
+    "title": [
+      "Evaluating Text Generation: Beyond BLEU\"** (Liu et al., 2018) - Discusses the limitations of BLEU and other traditional metrics for evaluating text generation, advocating for more nuanced evaluation methods"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**17."
+    ],
+    "title": [
+      "The Effectiveness of Human-in-the-Loop Evaluation for Text Generation\"** (He et al., 2019) - Explores the use of human feedback in evaluating text generation models"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**18."
+    ],
+    "title": [
+      "Towards Robust Interpretability with Self-Explanatory Neural Networks\"**",
+      "- Introduces the concept of self-explanatory neural networks, which aim to provide interpretable explanations for their predictions"
+    ],
+    "publisher": [
+      "Alvarez-Melis & Jaakkola"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": "book"
+  },
+  {
+    "citation-number": [
+      "**19."
+    ],
+    "title": [
+      "Interpretable Machine Learning for NLP: A Survey\"** (Li et al., 2020) - Provides a comprehensive survey of interpretable machine learning methods for NLP, covering various techniques and applications"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**20."
+    ],
+    "title": [
+      "The Role of Interpretability in NLP\"** (Yogatama et al., 2020) - Discusses the importance of interpretability in NLP, highlighting its potential benefits for model development, debugging, and trust"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list provides a starting point for exploring the field of NLP model analysis and interpretation. It is important to note that this is not an exhaustive list, and many other valuable articles and research papers exist"
+    ],
+    "type": null
+  }
+]

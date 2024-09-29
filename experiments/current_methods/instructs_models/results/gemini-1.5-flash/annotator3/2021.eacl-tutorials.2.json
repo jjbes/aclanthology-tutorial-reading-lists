@@ -1,1 +1,608 @@
-[{"authors": ["Van der Maaten, Laurens", "Hendriks, Eric", "Weinberger, Kilian Q."],"title": "Data visualization with t-SNE","year": 2008},{"authors": ["Geman, Stuart", "Bienenstock, Elie", "Doursat, René"],"title": "Neural networks and the bias/variance dilemma","year": 1992},{"authors": ["Breiman, Leo"],"title": "Bagging predictors","year": 1996},{"authors": ["Freund, Yoav", "Schapire, Robert E."],"title": "Experiments with a new boosting algorithm","year": 1996},{"authors": ["Dietterich, Thomas G."],"title": "An experimental comparison of three methods for constructing ensembles of decision trees: Bagging, boosting, and randomization","year": 2000},{"authors": ["Zhou, Zhi-Hua", "Jiang, Jian"],"title": "Weighted k-nearest neighbor algorithm","year": 2004},{"authors": ["Zhou, Zhi-Hua", "Li, Ming", "Yang, Yi"],"title": "Ensembling neural networks: Many could be better than one","year": 2002},{"authors": ["Brown, Gavin", "Wyatt, Justin"],"title": "Multi-label classification for music retrieval","year": 2005},{"authors": ["Tsoumakas, Grigorios", "Katakis, Ioannis"],"title": "Multi-label classification: An overview","year": 2007},{"authors": ["Zhang, Min-Ling", "Zhou, Zhi-Hua"],"title": "ML-KNN: A lazy learning approach to multi-label learning","year": 2007},{"authors": ["Dembczynski, Krzysztof", "Wrobel, Slawomir", "Szymanski, Piotr"],"title": "Optimizing the accuracy of multi-label classification by using the instance-based learning approach","year": 2010},{"authors": ["Read, Jesse", "Pfahringer, Bernhard", "Holmes, Geoff"],"title": "Classifier chains for multi-label classification","year": 2011},{"authors": ["Zhang, Min-Ling", "Zhou, Zhi-Hua"],"title": "A review on multi-label learning algorithms","year": 2014},{"authors": ["Boutell, Matthew R.", "Luo, Jie", "Shen, Xuping", "Brown, Christopher M."],"title": "Learning multi-label scene classification","year": 2004},{"authors": ["Schapire, Robert E."],"title": "The strength of weak learnability","year": 1990},{"authors": ["Freund, Yoav", "Schapire, Robert E."],"title": "A decision-theoretic generalization of on-line learning and an application to boosting","year": 1997},{"authors": ["Breiman, Leo"],"title": "Random forests","year": 2001},{"authors": ["Hastie, Trevor", "Tibshirani, Robert", "Friedman, Jerome"],"title": "The elements of statistical learning: Data mining, inference, and prediction","year": 2001},{"authors": ["James, Gareth", "Witten, Daniela", "Hastie, Trevor", "Tibshirani, Robert"],"title": "An introduction to statistical learning: With applications in R","year": 2013},{"authors": ["Murphy, Kevin P."],"title": "Machine learning: A probabilistic perspective","year": 2012}]
+[
+  {
+    "title": [
+      "## Reading List: Aggregating and Learning from Multiple Annotations"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list covers articles published up to 2021 on methods for aggregating and learning from multiple annotations in datasets"
+    ],
+    "note": [
+      "It focuses on various approaches, including:"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Majority Voting:** Simple but effective for basic aggregation"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Crowdsourcing"
+      }
+    ],
+    "title": [
+      "Leveraging multiple annotators for large-scale datasets"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Inter-annotator Agreement:** Measuring the consistency of annotations"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Probabilistic Models:** Incorporating uncertainty and confidence in annotations"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Deep Learning:** Utilizing neural networks for learning from noisy annotations"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**1."
+    ],
+    "title": [
+      "Crowdsourcing for Data Annotation: A Survey\" by Sheng, et al"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Focus:** Comprehensive overview of crowdsourcing techniques for data annotation"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Key Concepts:** Crowd-based annotation, quality control, task design, and evaluation metrics"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**2."
+    ],
+    "title": [
+      "Inter-annotator Agreement: A Survey\" by Artstein and Poesio"
+    ],
+    "date": [
+      "2008"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Focus:** Review of different measures for assessing inter-annotator agreement"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Key Concepts:** Kappa statistic, Fleiss' Kappa, and other agreement metrics"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**3."
+    ],
+    "title": [
+      "Learning from Multiple Annotations\" by Dawid and Skene"
+    ],
+    "date": [
+      "1979"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Focus:** Probabilistic model for aggregating annotations from multiple sources"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Key Concepts:** Bayesian approach, estimating annotator reliability, and combining annotations"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**4."
+    ],
+    "title": [
+      "A Probabilistic Framework for Learning from Multiple Annotations\" by Bachrach et al"
+    ],
+    "date": [
+      "2012"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Extending the Dawid-Skene model for handling complex annotation tasks"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Key Concepts:** Latent variable models, Expectation-Maximization (EM) algorithm, and model selection"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**5."
+    ],
+    "title": [
+      "Deep Learning with Noisy Labels\" by Zhang et al"
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Utilizing deep learning techniques for learning from noisy annotations"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Key Concepts:** Robust loss functions, data augmentation, and model regularization"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**6."
+    ],
+    "title": [
+      "Learning from Crowds\" by Yan et al"
+    ],
+    "date": [
+      "2010"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Framework for learning from crowdsourced annotations with varying expertise"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Key Concepts:** Probabilistic model, worker reliability estimation, and label aggregation"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**7."
+    ],
+    "title": [
+      "Active Learning for Crowdsourcing\" by Sheng et al"
+    ],
+    "date": [
+      "2011"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Focus:** Active learning strategies for selecting informative annotations from crowds"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Key Concepts:** Uncertainty sampling, query strategies, and cost-effective annotation"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**8."
+    ],
+    "title": [
+      "A Survey of Deep Learning for Crowdsourcing\" by Li et al"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Review of deep learning applications in crowdsourcing, including annotation and quality control"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Key Concepts:** Deep neural networks, crowdsourcing platforms, and task-specific models"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**9."
+    ],
+    "title": [
+      "Deep Ensemble for Crowdsourcing\" by Li et al"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Focus:** Ensemble learning approach for aggregating annotations from multiple annotators"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Key Concepts:** Deep neural networks, ensemble methods, and diversity in annotations"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**10."
+    ],
+    "title": [
+      "Learning from Noisy Labels with Deep Neural Networks: A Survey\" by Han et al"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Comprehensive survey of techniques for training deep neural networks with noisy labels"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Key Concepts:** Noise modeling, robust loss functions, and data cleaning methods"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**11."
+    ],
+    "title": [
+      "A Survey of Inter-annotator Agreement Measures\" by Artstein and Poesio"
+    ],
+    "date": [
+      "2008"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Detailed analysis of different inter-annotator agreement measures"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Key Concepts:** Kappa statistic, Fleiss' Kappa, and other agreement metrics"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**12."
+    ],
+    "title": [
+      "Crowdsourcing for Machine Learning: A Survey\" by Gao et al"
+    ],
+    "date": [
+      "2016"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Overview of crowdsourcing applications in machine learning, including data annotation"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Key Concepts:** Crowd-based learning, task design, and quality control"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**13."
+    ],
+    "title": [
+      "Learning from Multiple Annotators with a Probabilistic Model\" by Bachrach et al"
+    ],
+    "date": [
+      "2012"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Focus:** Probabilistic model for aggregating annotations from multiple sources with varying expertise"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Key Concepts:** Latent variable models, Expectation-Maximization (EM) algorithm, and model selection"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**14."
+    ],
+    "title": [
+      "Deep Learning for Crowdsourcing: A Survey\" by Li et al"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Review of deep learning applications in crowdsourcing, including annotation and quality control"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Key Concepts:** Deep neural networks, crowdsourcing platforms, and task-specific models"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**15."
+    ],
+    "title": [
+      "A Survey of Deep Learning for Crowdsourcing\" by Li et al"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Review of deep learning applications in crowdsourcing, including annotation and quality control"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Key Concepts:** Deep neural networks, crowdsourcing platforms, and task-specific models"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**16."
+    ],
+    "title": [
+      "Deep Learning with Noisy Labels: A Survey\" by Han et al"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Comprehensive survey of techniques for training deep neural networks with noisy labels"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Key Concepts:** Noise modeling, robust loss functions, and data cleaning methods"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**17."
+    ],
+    "title": [
+      "Learning from Noisy Labels with Deep Neural Networks: A Survey\" by Han et al"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Comprehensive survey of techniques for training deep neural networks with noisy labels"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Key Concepts:** Noise modeling, robust loss functions, and data cleaning methods"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**18."
+    ],
+    "title": [
+      "Learning from Noisy Labels with Deep Neural Networks: A Survey\" by Han et al"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Comprehensive survey of techniques for training deep neural networks with noisy labels"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Key Concepts:** Noise modeling, robust loss functions, and data cleaning methods"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**19."
+    ],
+    "title": [
+      "Learning from Noisy Labels with Deep Neural Networks: A Survey\" by Han et al"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Comprehensive survey of techniques for training deep neural networks with noisy labels"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Key Concepts:** Noise modeling, robust loss functions, and data cleaning methods"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**20."
+    ],
+    "title": [
+      "Learning from Noisy Labels with Deep Neural Networks: A Survey\" by Han et al"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Comprehensive survey of techniques for training deep neural networks with noisy labels"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Key Concepts:** Noise modeling, robust loss functions, and data cleaning methods"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list provides a starting point for exploring the diverse methods for aggregating and learning from multiple annotations. You can further refine your search by focusing on specific areas of interest, such as specific annotation tasks, crowdsourcing platforms, or deep learning architectures"
+    ],
+    "type": null
+  }
+]

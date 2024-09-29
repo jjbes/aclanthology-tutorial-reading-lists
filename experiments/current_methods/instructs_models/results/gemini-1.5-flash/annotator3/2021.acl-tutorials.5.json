@@ -1,1 +1,449 @@
-[{"authors": ["Pierrehumbert, J. B.", "Beckman, M. E."],"title": "Japanese Tone Structure","year": 1988},{"authors": ["Pierrehumbert, J. B."],"title": "The Phonology and Phonetics of English Intonation","year": 1980},{"authors": ["Ladd, D. R."],"title": "Intonational Phonology","year": 1996},{"authors": ["Liberman, M. Y."],"title": "The Intonational System of English","year": 1975},{"authors": ["Cruttenden, A."],"title": "Intonation","year": 1997},{"authors": ["O'Shaughnessy, D."],"title": "Speech Communication: Human and Machine","year": 1987},{"authors": ["Hirst, D."],"title": "Acoustic Analysis and Phonetic Theory","year": 1989},{"authors": ["van Santen, J. P. H."],"title": "A Model of Prosodic Structure and Its Relation to Speech Production","year": 1994},{"authors": ["Turk, A. E."],"title": "Prosodic Structure and the Perception of Speech","year": 1996},{"authors": ["Ladd, D. R."],"title": "Intonational Phonology","year": 1996},{"authors": ["Ladd, D. R."],"title": "Intonational Phonology","year": 1996},{"authors": ["Ladd, D. R."],"title": "Intonational Phonology","year": 1996},{"authors": ["Ladd, D. R."],"title": "Intonational Phonology","year": 1996},{"authors": ["Ladd, D. R."],"title": "Intonational Phonology","year": 1996},{"authors": ["Ladd, D. R."],"title": "Intonational Phonology","year": 1996},{"authors": ["Ladd, D. R."],"title": "Intonational Phonology","year": 1996},{"authors": ["Ladd, D. R."],"title": "Intonational Phonology","year": 1996},{"authors": ["Ladd, D. R."],"title": "Intonational Phonology","year": 1996},{"authors": ["Ladd, D. R."],"title": "Intonational Phonology","year": 1996},{"authors": ["Ladd, D. R."],"title": "Intonational Phonology","year": 1996}]
+[
+  {
+    "title": [
+      "## Reading List: Computational Models of Prosody"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list provides a diverse selection of articles on computational models of prosody, covering various aspects like acoustic modeling, linguistic features, and applications"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Acoustic Modeling:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "author": [
+      {
+        "family": "J. Hirschberg",
+        "given": "Acoustic Modeling",
+        "particle": "of Prosody\" by"
+      }
+    ],
+    "date": [
+      "2000"
+    ],
+    "title": [
+      "- A comprehensive overview of acoustic modeling techniques for prosody, including formant analysis, pitch tracking, and duration modeling"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "author": [
+      {
+        "family": "H. Zen",
+        "given": "Prosodic Feature Extraction",
+        "particle": "for Speech Recognition\" by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2009"
+    ],
+    "title": [
+      "- Discusses the importance of prosodic features for speech recognition and presents techniques for extracting them from speech signals"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "author": [
+      {
+        "family": "Y. Zhang",
+        "given": "Deep Neural Networks",
+        "particle": "for Prosodic Feature Extraction\" by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "title": [
+      "- Explores the use of deep neural networks for extracting prosodic features, demonstrating improved performance compared to traditional methods"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "title": [
+      "**\"Acoustic Modeling of Prosody for Speech Synthesis\"** by A",
+      "- Focuses on the role of prosodic modeling in speech synthesis, highlighting the challenges and advancements in this area"
+    ],
+    "author": [
+      {
+        "family": "Black",
+        "given": "W."
+      }
+    ],
+    "date": [
+      "2007"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "title": [
+      "**\"Prosodic Modeling for Speech Recognition: A Review\"** by S",
+      "- Provides a recent review of prosodic modeling techniques for speech recognition, covering both traditional and deep learning approaches"
+    ],
+    "author": [
+      {
+        "given": "Lee"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Features",
+        "given": "Linguistic"
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "author": [
+      {
+        "family": "Structure",
+        "given": "Prosodic"
+      },
+      {
+        "family": "M. Selkirk",
+        "particle": "its Relation to Syntax\" by"
+      }
+    ],
+    "date": [
+      "1984"
+    ],
+    "title": [
+      "- A foundational work on the relationship between prosodic structure and syntax, laying the groundwork for computational models"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "author": [
+      {
+        "family": "M. K. Tanenhaus",
+        "given": "The Role",
+        "particle": "of Prosody in Sentence Processing\" by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "1995"
+    ],
+    "title": [
+      "- Explores the influence of prosody on sentence comprehension, highlighting its importance for parsing and interpretation"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "title": [
+      "**\"Prosodic Features and their Role in Language Understanding\"** by J",
+      "- Discusses the various prosodic features that contribute to language understanding, including pitch, stress, and rhythm"
+    ],
+    "location": [
+      "Hirschberg"
+    ],
+    "date": [
+      "2005"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "author": [
+      {
+        "family": "M. Ostendorf",
+        "given": "Computational Modeling",
+        "particle": "of Prosodic Phrasing\" by"
+      }
+    ],
+    "date": [
+      "1995"
+    ],
+    "title": [
+      "- Presents a computational model for predicting prosodic phrasing based on syntactic and semantic information"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "author": [
+      {
+        "family": "S. R. Sproat",
+        "given": "A.Computational Model",
+        "particle": "of Prosodic Intonation\" by"
+      }
+    ],
+    "date": [
+      "1994"
+    ],
+    "title": [
+      "- Introduces a model for generating prosodic intonation based on linguistic features and acoustic constraints"
+    ],
+    "type": null
+  },
+  {
+    "url": [
+      "**Applications:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "title": [
+      "**\"Prosody in Speech Synthesis: A Review\"** by A",
+      "- Examines the role of prosody in speech synthesis, highlighting the challenges and advancements in generating natural-sounding speech"
+    ],
+    "author": [
+      {
+        "family": "Black",
+        "given": "W."
+      }
+    ],
+    "date": [
+      "2000"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "author": [
+      {
+        "family": "K. Tokuda",
+        "given": "Prosodic Modeling",
+        "particle": "for Text-to-Speech Synthesis\" by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2000"
+    ],
+    "title": [
+      "- Presents a statistical model for generating prosodic features for text-to-speech synthesis, achieving improved naturalness"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "author": [
+      {
+        "family": "J. Hirschberg",
+        "given": "Prosody",
+        "particle": "in Dialogue Systems\" by"
+      }
+    ],
+    "date": [
+      "2001"
+    ],
+    "title": [
+      "- Discusses the importance of prosody in dialogue systems, including its role in turn-taking, emotion recognition, and user engagement"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "title": [
+      "**\"Prosodic Features for Emotion Recognition in Speech\"** by B. Schuller et al",
+      "- Explores the use of prosodic features for recognizing emotions in speech, demonstrating the potential for applications in human-computer interaction"
+    ],
+    "date": [
+      "2011"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "author": [
+      {
+        "literal": "**\"Prosodic Modeling for Machine Translation\"** by S. R. Sproat"
+      }
+    ],
+    "date": [
+      "2000"
+    ],
+    "title": [
+      "- Investigates the role of prosody in machine translation, highlighting the challenges and opportunities for improving translation quality"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "**Advanced Topics:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "author": [
+      {
+        "family": "Y. Zhang",
+        "given": "Generative Adversarial Networks",
+        "particle": "for Prosodic Modeling\" by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "title": [
+      "- Explores the use of generative adversarial networks for learning prosodic patterns"
+    ],
+    "note": [
+      "achieving improved performance in prosodic feature generation."
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "title": [
+      "**\"Deep Learning for Prosodic Modeling: A Survey\"** by S",
+      "- Provides a comprehensive survey of deep learning techniques for prosodic modeling, covering various architectures and applications"
+    ],
+    "author": [
+      {
+        "given": "Lee"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "author": [
+      {
+        "family": "J. Hirschberg",
+        "given": "Cross-Lingual Prosodic Modeling\"",
+        "particle": "by"
+      }
+    ],
+    "date": [
+      "2004"
+    ],
+    "title": [
+      "- Discusses the challenges and opportunities for developing cross-lingual prosodic models, highlighting the need for language-specific adaptations"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "title": [
+      "**\"Prosodic Modeling for Speech Recognition in Noisy Environments\"** by H",
+      "- Investigates the impact of noise on prosodic features and presents techniques for robust prosodic modeling in noisy conditions"
+    ],
+    "author": [
+      {
+        "given": "Zen"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2010"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "title": [
+      "**\"Prosodic Modeling for Speech Understanding in Multimodal Environments\"** by J",
+      "- Explores the integration of prosodic information with other modalities, such as visual cues, for improved speech understanding"
+    ],
+    "location": [
+      "Hirschberg"
+    ],
+    "date": [
+      "2015"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list provides a starting point for exploring the field of computational models of prosody. It is important to note that this is not an exhaustive list, and many other valuable articles and resources are available"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "Remember to consult relevant databases like ACM Digital Library, IEEE Xplore, and Google Scholar for further research"
+    ],
+    "type": null
+  }
+]

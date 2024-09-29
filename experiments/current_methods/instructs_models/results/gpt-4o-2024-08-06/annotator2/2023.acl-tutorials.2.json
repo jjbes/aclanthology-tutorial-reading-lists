@@ -1,0 +1,479 @@
+[
+  {
+    "title": [
+      "Here's a reading list of 20 articles up to 2023 that focus on improving the reasoning and robustness of natural language processing (NLP) models"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "author": [
+      {
+        "given": "B.E.R.T."
+      }
+    ],
+    "title": [
+      "Pre-training of Deep Bidirectional Transformers for Language Understanding\"** by Jacob Devlin et al"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "This foundational paper introduces BERT, a model that significantly improved NLP tasks through bidirectional training"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "title": [
+      "**\"RoBERTa: A Robustly Optimized BERT Pretraining Approach\"** by Yinhan Liu et al"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "This paper discusses improvements over BERT, focusing on training strategies that enhance robustness"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "title": [
+      "**\"ALBERT: A Lite BERT for Self-supervised Learning of Language Representations\"** by Zhenzhong Lan et al"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "ALBERT reduces model size while maintaining performance, addressing efficiency and robustness"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "title": [
+      "**\"T5: Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer\"** by Colin Raffel et al"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "T5 explores transfer learning and its impact on model robustness across various NLP tasks"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "title": [
+      "**\"Improving Language Understanding by Generative Pre-Training\"** by Alec Radford et al"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "This paper introduces GPT, focusing on generative pre-training to enhance language understanding"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "title": [
+      "**\"Language Models are Few-Shot Learners\"** by Tom B. Brown et al"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "The GPT-3 paper, which highlights few-shot learning capabilities, improving reasoning in NLP models"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "title": [
+      "**\"Adversarial Examples for Evaluating Reading Comprehension Systems\"** by Robin Jia and Percy Liang"
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Discusses adversarial examples to test and improve the robustness of reading comprehension models"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "title": [
+      "**\"SWAG: A Large-Scale Adversarial Dataset for Grounded Commonsense Inference\"** by Rowan Zellers et al"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Introduces a dataset to test and improve commonsense reasoning in NLP models"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "title": [
+      "**\"Counterfactual Data Augmentation for Mitigating Gender Stereotypes in Languages Models\"** by Tony Sun et al"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Explores data augmentation techniques to improve model robustness against biases"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "title": [
+      "**\"Rationalizing Neural Predictions\"** by Tao Lei et al"
+    ],
+    "date": [
+      "2016"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Focuses on making neural network predictions more interpretable, enhancing reasoning transparency"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "title": [
+      "**\"Self-Supervised Learning of Pretext-Invariant Representations\"** by Mathilde Caron et al"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Discusses self-supervised learning techniques to improve model robustness and reasoning"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "title": [
+      "**\"Improving Robustness of Language Models from An Information Theoretic Perspective\"** by Yifan Gao et al"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Analyzes robustness improvements through information theory"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "title": [
+      "**\"Robustness Gym: Unifying the NLP Evaluation Landscape\"** by John Goel et al"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Introduces a framework for evaluating and improving NLP model robustness"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "title": [
+      "**\"Beyond Accuracy: Behavioral Testing of NLP Models with CheckList\"** by Marco Tulio Ribeiro et al"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Proposes a testing methodology to evaluate and enhance NLP model robustness"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "title": [
+      "**\"Factual Probing Is [MASK]: Learning vs. Learning to Recall\"** by Fabio Petroni et al"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Investigates how models recall factual knowledge, impacting reasoning capabilities"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "title": [
+      "**\"Improving Robustness of Machine Translation with Synthetic Noise\"** by Yunsu Kim et al"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Discusses using synthetic noise to enhance the robustness of translation models"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "title": [
+      "**\"On the Robustness of Language Encoders against Grammatical Errors\"** by Yijia Liu et al"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Examines how language models handle grammatical errors, aiming to improve robustness"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "title": [
+      "**\"Robustness and Generalization of Language Models\"** by Dan Hendrycks et al"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Analyzes the generalization and robustness of language models under various conditions"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "title": [
+      "**\"Improving Robustness of Language Models to Named Entity Replacement\"** by Yifan Gao et al"
+    ],
+    "date": [
+      "2022"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Focuses on enhancing model robustness to changes in named entities"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "title": [
+      "**\"Evaluating and Enhancing the Robustness of Dialogue Systems: A Case Study on Adversarial Attacks\"** by Chinnadhurai Sankar et al"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Investigates adversarial attacks on dialogue systems to improve their robustness"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "These articles cover a range of techniques and methodologies aimed at enhancing the reasoning and robustness of NLP models"
+    ],
+    "type": null
+  }
+]

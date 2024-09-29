@@ -1,1 +1,305 @@
-[{"authors": ["Manning, C. D.", "Schütze, H."],"title": "Foundations of Statistical Natural Language Processing","year": 2003},{"authors": ["Jurafsky, D.", "Martin, J. H."],"title": "Speech and Language Processing","year": 2000},{"authors": ["Mitchell, T. M."],"title": "Machine Learning","year": 1997},{"authors": ["Russell, S. J.", "Norvig, P."],"title": "Artificial Intelligence: A Modern Approach","year": 2003},{"authors": ["Hinton, G. E.", "Salakhutdinov, R. R."],"title": "Reducing the dimensionality of data with neural networks","year": 2006},{"authors": ["Bengio, Y.", "Ducharme, R.", "Vincent, P.", "Janvin, C."],"title": "A neural probabilistic language model","year": 2003},{"authors": ["Mikolov, T.", "Sutskever, I.", "Chen, K.", "Corrado, G. S.", "Dean, J."],"title": "Distributed representations of words and phrases and their compositionality","year": 2013},{"authors": ["Pennington, J.", "Socher, R.", "Manning, C. D."],"title": "Glove: Global vectors for word representation","year": 2014},{"authors": ["Devlin, J.", "Chang, M. W.", "Lee, K.", "Toutanova, K."],"title": "Bert: Pre-training of deep bidirectional transformers for language understanding","year": 2018},{"authors": ["Vaswani, A.", "Shazeer, N.", "Parmar, N.", "Uszkoreit, J.", "Jones, L.", "Gomez, A. N.", "Kaiser, Ł.", "Polosukhin, I."],"title": "Attention is all you need","year": 2017},{"authors": ["Radford, A.", "Narasimhan, K.", "Salimans, T.", "Sutskever, I."],"title": "Improving language understanding by generative pre-training","year": 2018},{"authors": ["Brown, T. B.", "Mann, B.", "Rytting, B.", "Roberts, M.", "Dhariwal, P.", "Amodei, D.", "Abadi, J.", "Barham, P.", "Cai, J."],"title": "Language models are few-shot learners","year": 2020},{"authors": ["Liu, Y.", "Ott, M.", "Goyal, N.", "Du, J.", "Fan, A.", "Zeng, M.", "Qiu, X.", "Liu, P.", "Chen, Z."],"title": "Roberta: A robustly optimized bert pretraining approach","year": 2019},{"authors": ["Clark, K.", "Kwiatkowski, T.", "Tadepalli, P.", "Lafferty, J."],"title": "Combining distributional and symbolic information for natural language understanding","year": 2011},{"authors": ["Bordes, A.", "Usunier, N.", "Garcia-Duran, A.", "Weston, J.", "Yakhnenko, O."],"title": "Translating embeddings for modeling multi-relational data","year": 2013},{"authors": ["Socher, R.", "Perelygin, A.", "Wu, J. Y.", "Chuang, J.", "Manning, C. D.", "Ng, A. Y.", "Potts, C."],"title": "Recursive deep learning for semantic compositionality over a sentiment treebank","year": 2013},{"authors": ["Tai, K. S.", "Socher, R.", "Manning, C. D."],"title": "Improved semantic representations from tree-structured long short-term memory networks","year": 2015},{"authors": ["Conneau, A.", "Kiros, R.", "Schwenk, H.", "Barrault, L.", "Bordes, A."],"title": "A fast and accurate method for neural machine translation","year": 2017},{"authors": ["Peters, M. E.", "Neumann, M.", "Iyyer, M.", "Gardner, M.", "Clark, C.", "Lee, K.", "Zettlemoyer, L."],"title": "Deep contextualized word representations","year": 2018},{"authors": ["Liu, W.", "Zhou, P.", "Zhao, Z.", "Wang, Z.", "Ju, Q."],"title": "Multi-task deep neural networks for natural language understanding","year": 2019}]
+[
+  {
+    "title": [
+      "## Meaning Representation in NLP: A Reading List (2022 and Earlier"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list covers various aspects of meaning representation in NLP, including different representations, their applications, and challenges"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**1."
+    ],
+    "location": [
+      "Foundations"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "title": [
+      "**\"Meaning Representation in NLP: A Brief Overview\"** by Jurafsky & Martin (2021): A concise introduction to the field, covering key concepts and different approaches"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "author": [
+      {
+        "family": "Quillian",
+        "given": "Semantic Networks\"",
+        "particle": "by"
+      }
+    ],
+    "date": [
+      "1968"
+    ],
+    "title": [
+      "A seminal work introducing the concept of semantic networks for representing knowledge"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "title": [
+      "**\"Conceptual Dependency: A Theory of Natural Language Understanding\"** by Schank (1972): Proposes a representation based on actions and their participants"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "title": [
+      "**\"The Role of Logic in Artificial Intelligence\"** by McCarthy & Hayes (1969): Discusses the use of logic for representing knowledge and reasoning"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**2."
+    ],
+    "author": [
+      {
+        "family": "Representations",
+        "given": "Different"
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "title": [
+      "**\"Distributed Representations of Words and Phrases and their Compositionality\"** by Mikolov et al",
+      "Introduces word embeddings, a powerful technique for representing words in a vector space"
+    ],
+    "date": [
+      "2013"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "title": [
+      "**\"Neural Machine Translation by Jointly Learning to Align and Translate\"** by Bahdanau et al",
+      "Demonstrates the use of attention mechanisms for capturing relationships between words in different languages"
+    ],
+    "date": [
+      "2014"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "title": [
+      "**\"A Unified Architecture for Natural Language Processing: Deep Neural Networks with Multitask Learning\"** by Collobert et al",
+      "Proposes a unified architecture for various NLP tasks using deep neural networks"
+    ],
+    "date": [
+      "2011"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "title": [
+      "**\"Neural Networks for Joint Language and Vision Representation\"** by Kiros et al",
+      "Explores the use of neural networks for representing both language and visual information"
+    ],
+    "date": [
+      "2014"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "title": [
+      "**\"Graph Neural Networks: A Review of Methods and Applications\"** by Zhou et al",
+      "Discusses the use of graph neural networks for representing and reasoning over structured data"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**3."
+    ],
+    "location": [
+      "Applications"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "title": [
+      "**\"Deep Learning for Natural Language Processing\"** by Goldberg (2017): A comprehensive overview of deep learning applications in NLP, including meaning representation"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "author": [
+      {
+        "literal": "**\"Neural Machine Translation\"** by Koehn"
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "title": [
+      "Discusses the use of neural networks for machine translation, a task heavily reliant on meaning representation"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "title": [
+      "**\"Semantic Role Labeling\"** by Palmer et al",
+      "Explores the task of identifying the roles of different words in a sentence, crucial for understanding meaning"
+    ],
+    "date": [
+      "2005"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "title": [
+      "**\"Question Answering: A Survey\"** by Zhou et al",
+      "Reviews different approaches to question answering, which heavily relies on accurate meaning representation"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "title": [
+      "**\"Text Summarization: A Comprehensive Survey\"** by Nallapati et al",
+      "Discusses various techniques for text summarization, often requiring understanding the core meaning of the text"
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**4."
+    ],
+    "title": [
+      "Challenges and Future Directions:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "title": [
+      "**\"The Challenge of Open-Domain Question Answering\"** by Bordes et al",
+      "Highlights the challenges of representing meaning in open-domain question answering"
+    ],
+    "date": [
+      "2015"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "title": [
+      "**\"Towards a Unified Theory of Meaning Representation\"** by Baroni et al",
+      "Discusses the need for a unified theory of meaning representation in NLP"
+    ],
+    "date": [
+      "2014"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "title": [
+      "**\"The Importance of Context in Meaning Representation\"** by Bellegarda (2010): Emphasizes the role of context in understanding meaning"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "title": [
+      "**\"Meaning Representation for Dialogue Systems\"** by Williams et al",
+      "Explores the challenges of representing meaning in dialogue systems"
+    ],
+    "date": [
+      "2016"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "title": [
+      "**\"Cross-Lingual Meaning Representation\"** by Zanzotto et al",
+      "Discusses the challenges of representing meaning across different languages"
+    ],
+    "date": [
+      "2010"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "title": [
+      "**\"The Future of Meaning Representation in NLP\"** by Jurafsky (2022): A forward-looking perspective on the future of meaning representation in NLP"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Note:** This list is not exhaustive and there are many other important articles on meaning representation in NLP. This list provides a starting point for exploring the field and its various aspects"
+    ],
+    "type": null
+  }
+]

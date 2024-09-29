@@ -1,1 +1,624 @@
-[{"authors": ["Lewis, M. Paul", "Evans, Nicholas", "Dutton, Tom"], "title": "Estimating the Endangerment of the World's Languages", "year": 2016}, {"authors": ["Smith, John", "Jones, Mary"], "title": "Using NLP to Revitalize Endangered Languages: A Case Study of the Cherokee Language", "year": 2018}, {"authors": ["Brown, Peter", "Williams, Sarah"], "title": "The Role of NLP in Documenting Endangered Languages: A Survey of Current Practices", "year": 2019}, {"authors": ["Davis, Emily", "Garcia, Luis"], "title": "Leveraging NLP for Language Revitalization: A Focus on Noisy Data", "year": 2020}, {"authors": ["Johnson, David", "Lee, Kevin"], "title": "Building a Corpus for an Endangered Language: Challenges and Solutions", "year": 2017}, {"authors": ["Wilson, Thomas", "Martin, Jennifer"], "title": "Using Machine Learning to Improve the Accuracy of Endangered Language Transcription", "year": 2019}, {"authors": ["Rodriguez, Maria", "Lopez, Carlos"], "title": "The Impact of NLP on Endangered Language Documentation: A Case Study of the Quechua Language", "year": 2018}, {"authors": ["Anderson, Michael", "Thompson, Emily"], "title": "Developing NLP Tools for Endangered Language Revitalization: A Framework for Success", "year": 2019}, {"authors": ["Miller, James", "Clark, Susan"], "title": "The Use of NLP in Endangered Language Education: A Review of Current Practices", "year": 2017}, {"authors": ["White, David", "Black, John"], "title": "The Role of NLP in Endangered Language Preservation: A Case Study of the Hawaiian Language", "year": 2018}, {"authors": ["Green, Sarah", "Brown, Emily"], "title": "Using NLP to Create Educational Resources for Endangered Languages", "year": 2019}, {"authors": ["Jones, Michael", "Smith, David"], "title": "The Impact of NLP on Endangered Language Revitalization: A Global Perspective", "year": 2020}, {"authors": ["Williams, Robert", "Davis, Jennifer"], "title": "The Use of NLP in Endangered Language Research: A Survey of Current Trends", "year": 2017}, {"authors": ["Garcia, Maria", "Rodriguez, Luis"], "title": "The Role of NLP in Endangered Language Documentation: A Case Study of the Mayan Languages", "year": 2018}, {"authors": ["Anderson, Emily", "Thompson, Michael"], "title": "Developing NLP Tools for Endangered Language Revitalization: A Framework for Success", "year": 2019}, {"authors": ["Miller, Susan", "Clark, James"], "title": "The Use of NLP in Endangered Language Education: A Review of Current Practices", "year": 2017}, {"authors": ["White, John", "Black, David"], "title": "The Role of NLP in Endangered Language Preservation: A Case Study of the Maori Language", "year": 2018}, {"authors": ["Green, Emily", "Brown, Sarah"], "title": "Using NLP to Create Educational Resources for Endangered Languages", "year": 2019}, {"authors": ["Jones, David", "Smith, Michael"], "title": "The Impact of NLP on Endangered Language Revitalization: A Global Perspective", "year": 2020}, {"authors": ["Williams, Jennifer", "Davis, Robert"], "title": "The Use of NLP in Endangered Language Research: A Survey of Current Trends", "year": 2017}]
+[
+  {
+    "author": [
+      {
+        "family": "List",
+        "given": "Reading"
+      }
+    ],
+    "title": [
+      "Endangered Language Documentation & Revitalization with NLP"
+    ],
+    "publisher": [
+      "Noisy Data Focus"
+    ],
+    "type": "book"
+  },
+  {
+    "title": [
+      "This list focuses on articles published up to 2020 that explore the use of NLP for documenting and revitalizing endangered languages, particularly in the context of noisy data"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "**General NLP for Endangered Languages:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "title": [
+      "**\"Natural Language Processing for Endangered Languages: A Survey\"** by S",
+      "- Provides a comprehensive overview of NLP applications for endangered languages"
+    ],
+    "author": [
+      {
+        "family": "Singh",
+        "given": "K."
+      },
+      {
+        "family": "Kumar",
+        "given": "A."
+      },
+      {
+        "family": "Singh",
+        "given": "S.K."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "title": [
+      "**\"Endangered Language Documentation and Revitalization: A Role for Natural Language Processing\"** by S",
+      "- Discusses the potential of NLP in supporting documentation and revitalization efforts"
+    ],
+    "author": [
+      {
+        "family": "Singh",
+        "given": "K."
+      },
+      {
+        "family": "Kumar",
+        "given": "A."
+      },
+      {
+        "family": "Singh",
+        "given": "S.K."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "title": [
+      "**\"Natural Language Processing for Endangered Languages: Challenges and Opportunities\"**",
+      "- Highlights the challenges and opportunities of using NLP for endangered languages"
+    ],
+    "author": [
+      {
+        "family": "S. K. Singh",
+        "particle": "by"
+      },
+      {
+        "family": "Kumar",
+        "given": "A."
+      },
+      {
+        "family": "Singh",
+        "given": "S.K."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "title": [
+      "**\"The Role of Natural Language Processing in Endangered Language Documentation and Revitalization\"**",
+      "- Explores the role of NLP in various aspects of language documentation and revitalization"
+    ],
+    "author": [
+      {
+        "family": "S. K. Singh",
+        "particle": "by"
+      },
+      {
+        "family": "Kumar",
+        "given": "A."
+      },
+      {
+        "family": "Singh",
+        "given": "S.K."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "container-title": [
+      "**NLP with Noisy Data:**"
+    ],
+    "type": "chapter"
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "title": [
+      "**\"Robust Text Normalization for Endangered Languages: A Case Study of the Tuvan Language\"** by A",
+      "- Addresses text normalization challenges in Tuvan, an endangered language with limited resources"
+    ],
+    "author": [
+      {
+        "family": "Singh",
+        "given": "K."
+      },
+      {
+        "family": "Singh",
+        "given": "S.K."
+      },
+      {
+        "family": "Kumar",
+        "given": "A."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "title": [
+      "**\"A Comparative Study of Text Normalization Techniques for Endangered Languages\"** by S"
+    ],
+    "author": [
+      {
+        "family": "Singh",
+        "given": "K."
+      },
+      {
+        "family": "Kumar",
+        "given": "A."
+      },
+      {
+        "family": "Singh",
+        "given": "A.K."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "note": [
+      "- Compares different text normalization techniques for endangered languages."
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "title": [
+      "**\"Unsupervised Text Normalization for Endangered Languages: A Case Study of the Santali Language\"** by A"
+    ],
+    "author": [
+      {
+        "family": "Singh",
+        "given": "K."
+      },
+      {
+        "family": "Singh",
+        "given": "S.K."
+      },
+      {
+        "family": "Kumar",
+        "given": "A."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "note": [
+      "- Explores unsupervised text normalization for Santali, an endangered language with limited resources."
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "author": [
+      {
+        "family": "S. K. Singh",
+        "given": "A.Hybrid Approach",
+        "particle": "to Text Normalization for Endangered Languages\" by"
+      },
+      {
+        "family": "Kumar",
+        "given": "A."
+      },
+      {
+        "family": "Singh",
+        "given": "A.K."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "title": [
+      "- Proposes a hybrid approach combining supervised and unsupervised techniques for text normalization"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "title": [
+      "**\"Data Augmentation for Endangered Languages: A Case Study of the Maori Language\"** by S",
+      "- Explores data augmentation techniques for Maori, an endangered language with limited resources"
+    ],
+    "author": [
+      {
+        "family": "Singh",
+        "given": "K."
+      },
+      {
+        "family": "Kumar",
+        "given": "A."
+      },
+      {
+        "family": "Singh",
+        "given": "A.K."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "title": [
+      "**\"Low-Resource Machine Translation for Endangered Languages: A Case Study of the Cherokee Language\"** by S"
+    ],
+    "author": [
+      {
+        "family": "Singh",
+        "given": "K."
+      },
+      {
+        "family": "Kumar",
+        "given": "A."
+      },
+      {
+        "family": "Singh",
+        "given": "A.K."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "note": [
+      "- Investigates low-resource machine translation for Cherokee, an endangered language with limited resources."
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Specific Applications:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "title": [
+      "**\"Building a Corpus for Endangered Languages: A Case Study of the Ainu Language\"** by S",
+      "- Discusses the challenges and strategies for building a corpus for Ainu, an endangered language"
+    ],
+    "author": [
+      {
+        "family": "Singh",
+        "given": "K."
+      },
+      {
+        "family": "Kumar",
+        "given": "A."
+      },
+      {
+        "family": "Singh",
+        "given": "A.K."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "title": [
+      "**\"Developing a Speech Recognition System for Endangered Languages: A Case Study of the Hawaiian Language\"** by S",
+      "- Explores the development of a speech recognition system for Hawaiian, an endangered language"
+    ],
+    "author": [
+      {
+        "family": "Singh",
+        "given": "K."
+      },
+      {
+        "family": "Kumar",
+        "given": "A."
+      },
+      {
+        "family": "Singh",
+        "given": "A.K."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "title": [
+      "**\"Using Natural Language Processing to Create Educational Resources for Endangered Languages: A Case Study of the Navajo Language\"** by S",
+      "- Demonstrates the use of NLP for creating educational resources for Navajo, an endangered language"
+    ],
+    "author": [
+      {
+        "family": "Singh",
+        "given": "K."
+      },
+      {
+        "family": "Kumar",
+        "given": "A."
+      },
+      {
+        "family": "Singh",
+        "given": "A.K."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "title": [
+      "**\"Natural Language Processing for Language Revitalization: A Case Study of the Irish Language\"** by S"
+    ],
+    "author": [
+      {
+        "family": "Singh",
+        "given": "K."
+      },
+      {
+        "family": "Kumar",
+        "given": "A."
+      },
+      {
+        "family": "Singh",
+        "given": "A.K."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "note": [
+      "- Explores the use of NLP for revitalizing the Irish language."
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Theoretical"
+      },
+      {
+        "given": "Methodological"
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "title": [
+      "**\"The Role of Natural Language Processing in Language Documentation and Revitalization: A Theoretical Framework\"** by S",
+      "- Provides a theoretical framework for understanding the role of NLP in language documentation and revitalization"
+    ],
+    "author": [
+      {
+        "family": "Singh",
+        "given": "K."
+      },
+      {
+        "family": "Kumar",
+        "given": "A."
+      },
+      {
+        "family": "Singh",
+        "given": "A.K."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "title": [
+      "**\"A Methodology for Developing NLP Resources for Endangered Languages\"** by S",
+      "- Outlines a methodology for developing NLP resources for endangered languages"
+    ],
+    "author": [
+      {
+        "family": "Singh",
+        "given": "K."
+      },
+      {
+        "family": "Kumar",
+        "given": "A."
+      },
+      {
+        "family": "Singh",
+        "given": "A.K."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "title": [
+      "**\"Evaluating the Effectiveness of NLP Techniques for Endangered Language Documentation and Revitalization\"**",
+      "- Discusses methods for evaluating the effectiveness of NLP techniques for endangered languages"
+    ],
+    "author": [
+      {
+        "family": "S. K. Singh",
+        "particle": "by"
+      },
+      {
+        "family": "Kumar",
+        "given": "A."
+      },
+      {
+        "family": "Singh",
+        "given": "A.K."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "**Community Engagement:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "title": [
+      "**\"Engaging Communities in the Development of NLP Resources for Endangered Languages\"** by S",
+      "- Emphasizes the importance of community engagement in NLP development for endangered languages"
+    ],
+    "author": [
+      {
+        "family": "Singh",
+        "given": "K."
+      },
+      {
+        "family": "Kumar",
+        "given": "A."
+      },
+      {
+        "family": "Singh",
+        "given": "A.K."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "title": [
+      "**\"The Role of NLP in Empowering Endangered Language Communities\"** by S",
+      "- Explores how NLP can empower endangered language communities"
+    ],
+    "author": [
+      {
+        "family": "Singh",
+        "given": "K."
+      },
+      {
+        "family": "Kumar",
+        "given": "A."
+      },
+      {
+        "family": "Singh",
+        "given": "A.K."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "**Future Directions:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "title": [
+      "**\"The Future of Natural Language Processing for Endangered Languages\"** by S",
+      "- Discusses future directions for NLP research in the context of endangered languages"
+    ],
+    "author": [
+      {
+        "family": "Singh",
+        "given": "K."
+      },
+      {
+        "family": "Kumar",
+        "given": "A."
+      },
+      {
+        "family": "Singh",
+        "given": "A.K."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Note:** This list uses placeholder authors and titles as a starting point. You can use these keywords and concepts to search for relevant articles in academic databases like JSTOR, Google Scholar, and ACM Digital Library"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "Remember to adjust your search terms and refine your criteria based on your specific interests and the availability of resources"
+    ],
+    "type": null
+  }
+]

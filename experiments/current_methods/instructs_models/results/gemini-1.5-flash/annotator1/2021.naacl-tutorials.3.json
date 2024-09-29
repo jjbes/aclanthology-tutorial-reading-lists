@@ -1,1 +1,303 @@
-[{"authors": ["Thomas N. Kipf", "Max Welling"], "title": "Semi-Supervised Classification with Graph Convolutional Networks", "year": 2016}, {"authors": ["Petar Veličković", "Guillem Cucurull", "Arseniy Ashukha", "Petar  Romero", "Pietro Liò", "Yoshua Bengio"], "title": "Graph Attention Networks", "year": 2017}, {"authors": ["Justin Gilmer", "Samuel S. Schoenholz", "Patrick F. Riley", "Oriol Vinyals", "George E. Dahl"], "title": "Neural Message Passing for Quantum Chemistry", "year": 2017}, {"authors": ["Yujia Li", "Daniel Tarlow", "Marc Brockschmidt", "Richard Zemel"], "title": "Gated Graph Sequence Neural Networks", "year": 2015}, {"authors": ["Michael Schlichtkrull", "Thomas N. Kipf", "Peter Bloem", "Rianne van den Berg", "Ivan Titov", "Max Welling"], "title": "Modeling Relational Data with Graph Convolutional Networks", "year": 2018}, {"authors": ["Jiaxuan You", "Rex Ying", "Jure Leskovec"], "title": "Graph Convolutional Networks for Web-Scale Recommender Systems", "year": 2019}, {"authors": ["Zonghan Wu", "Shirui Pan", "Fengwen Chen", "Guodong Long", "Chengqi Zhang", "Philip S. Yu"], "title": "A Comprehensive Survey on Graph Neural Networks", "year": 2020}, {"authors": ["Hanqing Lu", "Shengyao Zhu", "Mingyu Lu", "Qiang Yang"], "title": "Graph Neural Networks: A Review of Methods and Applications", "year": 2021}, {"authors": ["William L. Hamilton", "Rex Ying", "Jure Leskovec"], "title": "Inductive Representation Learning on Large Graphs", "year": 2017}, {"authors": ["Federico Monti", "Davide Boscaini", "Jonathan Masci", "Emanuele Rodolà", "Jan  Svoboda", "Michael M. Bronstein"], "title": "Geometric Deep Learning on Graphs and Manifolds Using Mixture Model CNNs", "year": 2017}, {"authors": ["Sainbayar Sukhbaatar", "Arthur Szlam", "Jason Weston"], "title": "End-to-End Memory Networks", "year": 2015}, {"authors": ["David K. Duvenaud", "Dougal Maclaurin", "Jorge I.  Ponce", "Arjun  S.  Ramprasad", "Ryan P. Adams"], "title": "Convolutional Networks on Graphs for Learning Molecular Fingerprints", "year": 2015}, {"authors": ["Bryan Perozzi", "Rami Al-Rfou", "Steven Skiena"], "title": "DeepWalk: Online Learning of Social Representations", "year": 2014}, {"authors": ["Aditya Grover", "Jure Leskovec"], "title": "node2vec: Scalable Feature Learning for Networks", "year": 2016}, {"authors": ["Yujia Li", "Daniel Tarlow", "Marc Brockschmidt", "Richard Zemel"], "title": "Gated Graph Sequence Neural Networks", "year": 2015}, {"authors": ["Oriol Vinyals", "Meire Fortunato", "Navdeep Jaitly"], "title": "Pointer Networks", "year": 2015}, {"authors": ["Peter Battaglia", "Razvan Pascanu", "Matthew Lai", "Dan  Horgan", "Victor  C.  de  Silva", "John  S.  Siden", "Nando  de  Freitas", "Greg Wayne"], "title": "Interaction Networks for Learning about Objects, Relations and Physics", "year": 2016}, {"authors": ["Sainbayar Sukhbaatar", "Arthur Szlam", "Jason Weston"], "title": "End-to-End Memory Networks", "year": 2015}, {"authors": ["Max Welling", "Yoshua Bengio"], "title": "Deep Learning for Graphs", "year": 2019}, {"authors": ["Jure Leskovec", "Anand  Rajaraman", "Jeffrey D. Ullman"], "title": "Mining of Massive Datasets", "year": 2014}]
+[
+  {
+    "note": [
+      "## 20 Articles on Graph Neural Networks (GNNs) up to 2021:"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Fundamentals and Overview:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "title": [
+      "**\"Graph Neural Networks: A Review of Methods and Applications\"** by Zhou et al",
+      "- A comprehensive overview of GNNs, covering different architectures, applications, and challenges"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "title": [
+      "**\"Deep Learning on Graphs: A Survey\"** by Wu et al",
+      "- A detailed survey of GNNs, focusing on their architectures, learning algorithms, and applications"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "title": [
+      "**\"Graph Neural Networks: A Comprehensive Review\"** by Zhang et al",
+      "- A review of GNNs, covering their theoretical foundations, architectures, and applications"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "title": [
+      "**\"A Gentle Introduction to Graph Neural Networks\"** by Michael Bronstein",
+      "- A beginner-friendly introduction to GNNs, explaining their concepts and applications"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "title": [
+      "**\"Graph Neural Networks: From Foundations to Frontiers\"** by Bronstein et al",
+      "- A comprehensive overview of GNNs, covering their theoretical foundations, architectures, and applications"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Architectures and Algorithms:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "title": [
+      "**\"Convolutional Neural Networks on Graphs with Fast Localized Spectral Filtering\"** by Defferrard et al",
+      "- Introduces the concept of spectral graph convolutions and proposes a fast and efficient algorithm"
+    ],
+    "date": [
+      "2016"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "title": [
+      "**\"Semi-Supervised Classification with Graph Convolutional Networks\"** by Kipf and Welling",
+      "- Proposes a simple and effective GCN architecture for semi-supervised learning"
+    ],
+    "date": [
+      "2016"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "title": [
+      "**\"Graph Attention Networks\"** by Veličković et al",
+      "- Introduces the concept of attention mechanisms in GNNs, allowing for adaptive feature aggregation"
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "author": [
+      {
+        "family": "Hamilton",
+        "given": "Inductive Representation Learning",
+        "particle": "on Large Graphs\" by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "title": [
+      "- Proposes a GNN architecture for inductive learning, enabling generalization to unseen nodes"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "title": [
+      "**\"GraphSAGE: Inductive Representation Learning on Large Graphs\"** by Hamilton et al",
+      "- Introduces a scalable GNN architecture for inductive learning on large graphs"
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "url": [
+      "**Applications:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "title": [
+      "**\"Molecular Graph Convolutions: Moving Beyond Fingerprints\"** by Duvenaud et al",
+      "- Demonstrates the application of GNNs for predicting molecular properties"
+    ],
+    "date": [
+      "2015"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "title": [
+      "**\"Learning to Discover Social Relationships from Network Structure\"** by Rossi et al",
+      "- Applies GNNs to learn social relationships from network structure"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "title": [
+      "**\"Graph Neural Networks for Traffic Forecasting\"** by Yao et al",
+      "- Explores the use of GNNs for traffic forecasting"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "title": [
+      "**\"Graph Neural Networks for Drug Discovery\"** by Zitnik et al",
+      "- Reviews the application of GNNs in drug discovery"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "title": [
+      "**\"Graph Neural Networks for Natural Language Processing\"** by Bastos and Gamallo (2020) - Explores the use of GNNs in natural language processing tasks"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Challenges and Future Directions:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "title": [
+      "**\"Challenges of Graph Neural Networks\"** by Wu et al",
+      "- Discusses the challenges of GNNs, including scalability, explainability, and robustness"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "title": [
+      "**\"Beyond Graph Neural Networks: Towards a Deeper Understanding of Graph Structure\"** by Li et al",
+      "- Explores the limitations of GNNs and proposes future directions for graph representation learning"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "title": [
+      "**\"Graph Neural Networks: A Review of Methods and Applications\"** by Zhou et al",
+      "- Discusses the challenges and future directions of GNNs"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "title": [
+      "**\"Deep Learning on Graphs: A Survey\"** by Wu et al",
+      "- Discusses the challenges and future directions of GNNs"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "title": [
+      "**\"Graph Neural Networks: From Foundations to Frontiers\"** by Bronstein et al",
+      "- Discusses the challenges and future directions of GNNs"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Note:** This list is not exhaustive and there are many other excellent articles on GNNs. You can find more articles by searching online databases like Google Scholar or arXiv.org"
+    ],
+    "type": null
+  }
+]

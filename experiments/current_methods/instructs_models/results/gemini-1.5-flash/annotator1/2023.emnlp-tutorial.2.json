@@ -1,1 +1,417 @@
-[{"authors": ["Carlini, Nicholas;  Wagner, David;  Schulman, John;  Athalye, Anish;  Zhang,  Chun-Liang;  Papernot, Nicolas;  Goodfellow, Ian;  Sheats,  Jonathan;  Uesato,  Jasper;  Feinman,  Robin;  Matyasko,  Ian;  Koh,  Pang Wei;  Tang,  Jiajun;  Miller,  Jacob;  Raghunathan,  Aravind;  So,  David;  Li,  Yuxin;  Song,  Daniel;  Liu,  Chuan;  Liu,  Yinan;  Li,  Bo;  Li,  Jinyuan;  Li,  Xinyun;  Li,  Yujia;  Li,  Zheng;  Li,  Zhilin;  Li,  Zihang;  Li,  Zihao;  Li,  Zijie;  Li,  Zikun;  Li,  Zilin;  Li,  Zining;  Li,  Ziqi;  Li,  Ziqiao;  Li,  Ziqun;  Li,  Ziyuan;  Li,  Ziyu;  Li,  Ziyun;  Li,  Zizhao;  Li,  Zizhen;  Li,  Zizhong;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  Li,  Zizhuang;  Li,  Zizhuang;  Li,  Zizhu;  Li,  Zizhuo;  
+[
+  {
+    "author": [
+      {
+        "family": "List",
+        "given": "Reading"
+      }
+    ],
+    "title": [
+      "Security Challenges in NLP (Black-box Models"
+    ],
+    "publisher": [
+      "Data Leakage, Backdoors, Imitation Attacks"
+    ],
+    "type": "book"
+  },
+  {
+    "title": [
+      "This list focuses on articles published up to 2023, exploring security challenges in NLP, particularly concerning black-box models, data leakage, backdoors, and imitation attacks"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Black-box Models:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "title": [
+      "**\"Adversarial Examples for Natural Language Processing: A Survey\"**"
+    ],
+    "date": [
+      "2021"
+    ],
+    "note": [
+      "by Li, et al. - Comprehensive overview of adversarial attacks and defenses in NLP."
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "title": [
+      "**\"Deep Neural Networks are Easily Fooled: High Confidence Predictions for Unrecognizable Images\"**",
+      "by Szegedy, et al. - Groundbreaking work demonstrating the vulnerability of deep learning models to adversarial examples"
+    ],
+    "date": [
+      "2014"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "title": [
+      "**\"Towards Robust Deep Learning Models: An Overview\"**",
+      "- Discusses the importance of robustness in deep learning and explores various defense mechanisms"
+    ],
+    "date": [
+      "2020"
+    ],
+    "author": [
+      {
+        "family": "Madry",
+        "particle": "by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "author": [
+      {
+        "family": "Deep Neural Networks\"",
+        "given": "Black-box Attacks",
+        "particle": "on"
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "title": [
+      "by Papernot, et al. - Introduces black-box adversarial attacks, targeting models without access to their internal structure"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "author": [
+      {
+        "given": "Explaining"
+      },
+      {
+        "family": "Examples\"",
+        "given": "Harnessing Adversarial"
+      },
+      {
+        "family": "Goodfellow",
+        "particle": "by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2016"
+    ],
+    "title": [
+      "- Explores the nature of adversarial examples and proposes methods for understanding and mitigating them"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Leakage",
+        "given": "Data"
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "title": [
+      "**\"Data Leakage in NLP: A Survey\"**",
+      "by Liu, et al. - Comprehensive survey of data leakage issues in NLP, covering various types and mitigation strategies"
+    ],
+    "date": [
+      "2023"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "title": [
+      "**\"Membership Inference Attacks Against Machine Learning Models\"**",
+      "- Demonstrates how attackers can infer the presence of specific data points in a training dataset"
+    ],
+    "date": [
+      "2019"
+    ],
+    "author": [
+      {
+        "family": "Shokri",
+        "particle": "by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "title": [
+      "**\"Privacy-Preserving Machine Learning: A Survey\"**",
+      "by Dwork, et al. - Explores techniques for protecting privacy in machine learning, including differential privacy and federated learning"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "title": [
+      "**\"Data Poisoning Attacks Against Machine Learning\"**",
+      "by Biggio, et al. - Discusses how attackers can manipulate training data to degrade the performance of machine learning models"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "title": [
+      "**\"Towards Robust and Private Machine Learning\"**",
+      "- Explores the intersection of robustness and privacy in machine learning"
+    ],
+    "date": [
+      "2021"
+    ],
+    "author": [
+      {
+        "family": "Abadi",
+        "particle": "by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "note": [
+      "highlighting the need for both."
+    ],
+    "type": null
+  },
+  {
+    "url": [
+      "**Backdoors:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "author": [
+      {
+        "family": "Deep Neural Networks\"",
+        "given": "Backdoor Attacks",
+        "particle": "on"
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "title": [
+      "by Gu, et al. - Introduces the concept of backdoor attacks, where attackers inject malicious triggers into models during training"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "author": [
+      {
+        "family": "Deep Neural Networks\"",
+        "given": "Trojaning Attack",
+        "particle": "on"
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "title": [
+      "by Liu, et al. - Explores the use of Trojan horses to manipulate the behavior of deep learning models"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "title": [
+      "**\"Detecting Backdoor Attacks in Deep Neural Networks\"**",
+      "by Liu, et al. - Discusses methods for identifying and mitigating backdoor attacks in deep learning models"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "title": [
+      "**\"Backdoor Attacks in NLP: A Survey\"**",
+      "- Comprehensive survey of backdoor attacks in NLP, covering various attack strategies and defense mechanisms"
+    ],
+    "date": [
+      "2023"
+    ],
+    "author": [
+      {
+        "family": "Wang",
+        "particle": "by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "title": [
+      "**\"Towards Robust and Secure Deep Learning: A Survey\"**",
+      "by Liu, et al. - Explores various security threats to deep learning models, including backdoor attacks, and proposes mitigation strategies"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Attacks",
+        "given": "Imitation"
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "author": [
+      {
+        "family": "Deep Neural Networks\"",
+        "given": "Imitation Attacks",
+        "particle": "on"
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "title": [
+      "by Sun, et al. - Introduces the concept of imitation attacks, where attackers create models that mimic the behavior of target models"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "title": [
+      "**\"Deep Neural Networks are Easily Fooled: High Confidence Predictions for Unrecognizable Images\"**",
+      "by Szegedy, et al. - This paper, while not specifically focused on imitation attacks, highlights the vulnerability of deep learning models to manipulation, which can be exploited for imitation attacks"
+    ],
+    "date": [
+      "2014"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "title": [
+      "**\"Adversarial Examples for Natural Language Processing: A Survey\"**",
+      "- This survey covers adversarial attacks, including imitation attacks, and discusses their implications for NLP security"
+    ],
+    "date": [
+      "2021"
+    ],
+    "author": [
+      {
+        "family": "Li",
+        "particle": "by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "title": [
+      "**\"Towards Robust and Secure Deep Learning: A Survey\"**",
+      "by Liu, et al. - This survey explores various security threats to deep learning models, including imitation attacks, and proposes mitigation strategies"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "title": [
+      "**\"Deep Learning for Security: A Survey\"**",
+      "- This survey explores the use of deep learning in security applications, including the detection and mitigation of imitation attacks"
+    ],
+    "date": [
+      "2021"
+    ],
+    "author": [
+      {
+        "family": "Liu",
+        "particle": "by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Note:** This list is not exhaustive and there are many other relevant articles published in recent years. It is recommended to explore further based on your specific interests and research needs"
+    ],
+    "type": null
+  }
+]

@@ -1,0 +1,484 @@
+[
+  {
+    "title": [
+      "Here's a reading list of 20 articles up to 2022 that focus on the usage of pre-trained language models (PLMs) in scenarios involving data scarcity and parameter efficiency"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "author": [
+      {
+        "given": "B.E.R.T."
+      }
+    ],
+    "title": [
+      "Pre-training of Deep Bidirectional Transformers for Language Understanding\"** by Jacob Devlin et al"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "This foundational paper introduces BERT, a model that has been widely adapted for various downstream tasks"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "title": [
+      "**\"XLNet: Generalized Autoregressive Pretraining for Language Understanding\"** by Zhilin Yang et al"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "XLNet improves upon BERT by using a permutation-based training objective, which can be beneficial in data-scarce scenarios"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "title": [
+      "**\"ALBERT: A Lite BERT for Self-supervised Learning of Language Representations\"** by Zhenzhong Lan et al"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "ALBERT reduces the number of parameters while maintaining performance, making it efficient for deployment"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "title": [
+      "**\"DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter\"** by Victor Sanh et al"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "This paper discusses model distillation to create a smaller version of BERT, useful for parameter efficiency"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "title": [
+      "**\"RoBERTa: A Robustly Optimized BERT Pretraining Approach\"** by Yinhan Liu et al"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "RoBERTa optimizes BERT's pre-training process, which can be advantageous in low-resource settings"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "author": [
+      {
+        "given": "E.L.E.C.T.R.A."
+      }
+    ],
+    "title": [
+      "Pre-training Text Encoders as Discriminators Rather Than Generators\"** by Kevin Clark et al"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "ELECTRA introduces a more sample-efficient pre-training method, which is beneficial under data scarcity"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "title": [
+      "**\"TinyBERT: Distilling BERT for Natural Language Understanding\"** by Jiao et al"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "This paper presents a method for distilling BERT into a smaller model, focusing on efficiency"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "title": [
+      "**\"Reformer: The Efficient Transformer\"** by Nikita Kitaev et al"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Reformer reduces the memory footprint of transformers, making it suitable for parameter-efficient applications"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "title": [
+      "**\"Adapter-BERT: Adapting BERT for Domain-Specific Tasks\"** by Houlsby et al"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Introduces adapters, which allow for efficient fine-tuning of BERT on specific tasks with fewer parameters"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "title": [
+      "**\"Parameter-Efficient Transfer Learning for NLP\"** by Neil Houlsby et al"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Discusses methods for parameter-efficient transfer learning, crucial for adapting PLMs to new tasks"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "title": [
+      "**\"Few-Shot Text Classification with Distributional Signatures\"** by Yu et al"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Explores few-shot learning techniques, which are essential for handling data scarcity in text classification"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "title": [
+      "**\"Meta-Learning for Low-Resource Natural Language Generation in Task-Oriented Dialogue Systems\"** by Madotto et al"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Focuses on meta-learning approaches to tackle low-resource scenarios in dialogue systems"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "title": [
+      "**\"Lightweight and Efficient Neural Natural Language Processing with Quaternion Networks\"** by Tay et al"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Proposes quaternion networks for efficient NLP, reducing the number of parameters needed"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "title": [
+      "**\"Low-Resource Text Classification: A Parameter-Efficient Approach\"** by Pfeiffer et al"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Discusses parameter-efficient methods for text classification in low-resource settings"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "title": [
+      "**\"Efficient Transformers: A Survey\"** by Tay et al"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "A comprehensive survey of efficient transformer architectures, focusing on reducing computational costs"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "title": [
+      "**\"Improving Language Understanding by Generative Pre-Training\"** by Radford et al"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Introduces the concept of generative pre-training, which can be adapted for efficient downstream task performance"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "title": [
+      "**\"Unsupervised Data Augmentation for Consistency Training\"** by Xie et al"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Explores data augmentation techniques to improve model performance under data scarcity"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "title": [
+      "**\"Learning to Learn with Gradients\"** by Andrychowicz et al"
+    ],
+    "date": [
+      "2016"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Discusses meta-learning techniques that can be applied to improve PLM performance in low-data scenarios"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "title": [
+      "**\"Cross-lingual Language Model Pretraining\"** by Conneau et al"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Examines cross-lingual pre-training, which can be leveraged for tasks with limited data in specific languages"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "title": [
+      "**\"Parameter-Efficient Transfer Learning with Diff Pruning\"** by Guo et al"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Introduces diff pruning, a method for efficient transfer learning by pruning unnecessary parameters"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "These articles provide a comprehensive overview of strategies and innovations in using PLMs efficiently, especially in contexts where data and computational resources are limited"
+    ],
+    "type": null
+  }
+]

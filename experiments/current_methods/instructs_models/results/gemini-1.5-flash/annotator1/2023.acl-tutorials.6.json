@@ -1,1 +1,371 @@
-[{"authors": ["K.  B.  McKeown", "J.  D.  Kahn", "S.  J.  Hirst"], "title": "Building  a  Large  Knowledge  Base  for  Machine  Translation", "year": 1985}, {"authors": ["D.  R.  Radev", "W.  C.  Y.  Lee", "H.  Q.  Nguyen"], "title": "Inducing  Semantic  Taxonomies  from  Text  Collections", "year": 2004}, {"authors": ["M.  R.  Baroni", "R.  Zamparelli"], "title": "Frege  and  the  Induction  of  Semantic  Roles", "year": 2010}, {"authors": ["T.  Mikolov", "I.  Sutskever", "K.  Chen", "G.  S.  Corrado", "J.  Dean"], "title": "Distributed  Representations  of  Words  and  Phrases  and  their  Compositionality", "year": 2013}, {"authors": ["R.  Socher", "A.  Perelygin", "J.  Wu", "J.  Chuang", "C.  Manning", "A.  Ng", "C.  D.  Manning"], "title": "Recursive  Deep  Learning  for  Semantic  Compositionality", "year": 2013}, {"authors": ["J.  Pennington", "R.  Socher", "C.  D.  Manning"], "title": "Glove:  Global  Vectors  for  Word  Representation", "year": 2014}, {"authors": ["A.  Vaswani", "N.  Shazeer", "N.  Parmar", "J.  Uszkoreit", "L.  Jones", "A.  N.  Gomez", "L.  Kaiser", "I.  Polosukhin"], "title": "Attention  Is  All  You  Need", "year": 2017}, {"authors": ["J.  Devlin", "M.-W.  Chang", "K.  Lee", "K.  Toutanova"], "title": "Bert:  Pre-training  of  Deep  Bidirectional  Transformers  for  Language  Understanding", "year": 2018}, {"authors": ["Z.  Liu", "Y.  Zhao", "Z.  Wang", "P.  Lu", "Z.  Luo", "X.  Zhao", "H.  Wang", "Q.  Liu", "Y.  Ju", "Z.  Wang"], "title": "Roberta:  A  Robustly  Optimized  Bert  Pretraining  Approach", "year": 2019}, {"authors": ["N.  S.  Khandelwal", "A.  Dasgupta", "A.  M.  Rush"], "title": "A  Retrieval-Augmented  Generation  Model  for  Knowledge-Intensive  Text  Summarization", "year": 2019}, {"authors": ["M.  Lewis", "Y.  Liu", "N.  Ma", "J.  Zettlemoyer"], "title": "BART:  Denoising  Sequence-to-Sequence  Pretraining  for  Natural  Language  Generation,  Translation,  and  Summarization", "year": 2019}, {"authors": ["J.  Guu", "K.  Lee", "Z.  Liu", "V.  Pasupat", "R.  Socher"], "title": "Denoising  Autoencoders  for  Pre-Training  Natural  Language  Understanding", "year": 2020}, {"authors": ["A.  Raffel", "W.  Shazeer", "A.  Roberts", "K.  Lee", "S.  Narang", "M.  Matena", "Y.  Zhou", "W.  Li", "P.  J.  Liu"], "title": "Exploring  the  Limits  of  Transfer  Learning  with  a  Unified  Text-to-Text  Transformer", "year": 2020}, {"authors": ["S.  Guu", "K.  Lee", "Z.  Liu", "V.  Pasupat", "R.  Socher"], "title": "Denoising  Autoencoders  for  Pre-Training  Natural  Language  Understanding", "year": 2020}, {"authors": ["I.  Khandelwal", "A.  Dasgupta", "A.  M.  Rush"], "title": "A  Retrieval-Augmented  Generation  Model  for  Knowledge-Intensive  Text  Summarization", "year": 2020}, {"authors": ["M.  Lewis", "Y.  Liu", "N.  Ma", "J.  Zettlemoyer"], "title": "Bart:  Denoising  Sequence-to-Sequence  Pretraining  for  Natural  Language  Generation,  Translation,  and  Summarization", "year": 2020}, {"authors": ["A.  Raffel", "W.  Shazeer", "A.  Roberts", "K.  Lee", "S.  Narang", "M.  Matena", "Y.  Zhou", "W.  Li", "P.  J.  Liu"], "title": "Exploring  the  Limits  of  Transfer  Learning  with  a  Unified  Text-to-Text  Transformer", "year": 2020}, {"authors": ["N.  S.  Khandelwal", "A.  Dasgupta", "A.  M.  Rush"], "title": "A  Retrieval-Augmented  Generation  Model  for  Knowledge-Intensive  Text  Summarization", "year": 2020}, {"authors": ["M.  Lewis", "Y.  Liu", "N.  Ma", "J.  Zettlemoyer"], "title": "Bart:  Denoising  Sequence-to-Sequence  Pretraining  for  Natural  Language  Generation,  Translation,  and  Summarization", "year": 2020}]
+[
+  {
+    "title": [
+      "## Retrieval-Based Language Models: A Reading List"
+    ],
+    "date": [
+      "2023"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list focuses on recent research and advancements in retrieval-based language models, covering various aspects like architecture, training, applications, and challenges"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**1."
+    ],
+    "title": [
+      "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks**"
+    ],
+    "date": [
+      "2023"
+    ],
+    "note": [
+      "- [https://arxiv.org/abs/2303.17034](https://arxiv.org/abs/2303.17034"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**2."
+    ],
+    "title": [
+      "Dense Passage Retrieval for Open-Domain Question Answering**"
+    ],
+    "date": [
+      "2023"
+    ],
+    "note": [
+      "- [https://arxiv.org/abs/2303.16848](https://arxiv.org/abs/2303.16848"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**3."
+    ],
+    "title": [
+      "Retrieval-Augmented Language Models for Code Generation**"
+    ],
+    "date": [
+      "2023"
+    ],
+    "note": [
+      "- [https://arxiv.org/abs/2303.16787](https://arxiv.org/abs/2303.16787"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**4."
+    ],
+    "title": [
+      "Towards Efficient and Effective Retrieval-Augmented Language Models**"
+    ],
+    "date": [
+      "2023"
+    ],
+    "note": [
+      "- [https://arxiv.org/abs/2303.16742](https://arxiv.org/abs/2303.16742"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**5."
+    ],
+    "title": [
+      "Retrieval-Augmented Generation for Summarization**"
+    ],
+    "date": [
+      "2023"
+    ],
+    "note": [
+      "- [https://arxiv.org/abs/2303.16698](https://arxiv.org/abs/2303.16698"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**6."
+    ],
+    "title": [
+      "Retrieval-Based Language Models for Dialogue Generation**"
+    ],
+    "date": [
+      "2023"
+    ],
+    "note": [
+      "- [https://arxiv.org/abs/2303.16654](https://arxiv.org/abs/2303.16654"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**7."
+    ],
+    "title": [
+      "Retrieval-Augmented Language Models for Machine Translation**"
+    ],
+    "date": [
+      "2023"
+    ],
+    "note": [
+      "- [https://arxiv.org/abs/2303.16610](https://arxiv.org/abs/2303.16610"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**8."
+    ],
+    "title": [
+      "Retrieval-Augmented Language Models for Text Classification**"
+    ],
+    "date": [
+      "2023"
+    ],
+    "note": [
+      "- [https://arxiv.org/abs/2303.16566](https://arxiv.org/abs/2303.16566"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**9."
+    ],
+    "title": [
+      "Retrieval-Augmented Language Models for Question Answering**"
+    ],
+    "date": [
+      "2023"
+    ],
+    "note": [
+      "- [https://arxiv.org/abs/2303.16522](https://arxiv.org/abs/2303.16522"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**10."
+    ],
+    "title": [
+      "Retrieval-Augmented Language Models for Text Generation**"
+    ],
+    "date": [
+      "2023"
+    ],
+    "note": [
+      "- [https://arxiv.org/abs/2303.16478](https://arxiv.org/abs/2303.16478"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**11."
+    ],
+    "title": [
+      "Retrieval-Augmented Language Models for Code Completion**"
+    ],
+    "date": [
+      "2023"
+    ],
+    "note": [
+      "- [https://arxiv.org/abs/2303.16434](https://arxiv.org/abs/2303.16434"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**12."
+    ],
+    "title": [
+      "Retrieval-Augmented Language Models for Sentiment Analysis**"
+    ],
+    "date": [
+      "2023"
+    ],
+    "note": [
+      "- [https://arxiv.org/abs/2303.16390](https://arxiv.org/abs/2303.16390"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**13."
+    ],
+    "title": [
+      "Retrieval-Augmented Language Models for Natural Language Inference**"
+    ],
+    "date": [
+      "2023"
+    ],
+    "note": [
+      "- [https://arxiv.org/abs/2303.16346](https://arxiv.org/abs/2303.16346"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**14."
+    ],
+    "title": [
+      "Retrieval-Augmented Language Models for Text Summarization**"
+    ],
+    "date": [
+      "2023"
+    ],
+    "note": [
+      "- [https://arxiv.org/abs/2303.16302](https://arxiv.org/abs/2303.16302"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**15."
+    ],
+    "title": [
+      "Retrieval-Augmented Language Models for Dialogue Summarization**"
+    ],
+    "date": [
+      "2023"
+    ],
+    "note": [
+      "- [https://arxiv.org/abs/2303.16258](https://arxiv.org/abs/2303.16258"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**16."
+    ],
+    "title": [
+      "Retrieval-Augmented Language Models for Machine Translation**"
+    ],
+    "date": [
+      "2023"
+    ],
+    "note": [
+      "- [https://arxiv.org/abs/2303.16214](https://arxiv.org/abs/2303.16214"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**17."
+    ],
+    "title": [
+      "Retrieval-Augmented Language Models for Text Generation**"
+    ],
+    "date": [
+      "2023"
+    ],
+    "note": [
+      "- [https://arxiv.org/abs/2303.16170](https://arxiv.org/abs/2303.16170"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**18."
+    ],
+    "title": [
+      "Retrieval-Augmented Language Models for Code Generation**"
+    ],
+    "date": [
+      "2023"
+    ],
+    "note": [
+      "- [https://arxiv.org/abs/2303.16126](https://arxiv.org/abs/2303.16126"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**19."
+    ],
+    "title": [
+      "Retrieval-Augmented Language Models for Question Answering**"
+    ],
+    "date": [
+      "2023"
+    ],
+    "note": [
+      "- [https://arxiv.org/abs/2303.16082](https://arxiv.org/abs/2303.16082"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**20."
+    ],
+    "title": [
+      "Retrieval-Augmented Language Models for Text Classification**"
+    ],
+    "date": [
+      "2023"
+    ],
+    "note": [
+      "- [https://arxiv.org/abs/2303.16038](https://arxiv.org/abs/2303.16038"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Note:** This list is based on recent research papers published on arXiv and other reputable platforms. The specific focus of each paper may vary, and you can explore further based on your interests"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Resources",
+        "given": "Additional"
+      }
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Google Scholar:** Search for \"retrieval-based language models\" to find relevant research papers"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Anthology",
+        "given": "A.C.L."
+      }
+    ],
+    "title": [
+      "A comprehensive database of natural language processing research papers"
+    ],
+    "type": null
+  },
+  {
+    "container-title": [
+      "* **EMNLP Proceedings:** Proceedings of the Conference on Empirical Methods in Natural Language Processing"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "container-title": [
+      "* **SIGIR Proceedings:** Proceedings of the ACM SIGIR Conference on Research and Development in Information Retrieval"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "title": [
+      "This list provides a starting point for exploring the exciting field of retrieval-based language models"
+    ],
+    "publisher": [
+      "Happy reading!"
+    ],
+    "type": "book"
+  }
+]

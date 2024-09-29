@@ -1,1 +1,276 @@
-[{"authors": ["Guillaume Lample", "Alexis Conneau", "Ludovic Denoyer", "Marc'Aurelio Ranzato"], "title": "Unsupervised Machine Translation Using Monolingual Corpora Only", "year": 2017}, {"authors": ["Yonghui Wu", "Mike Schuster", "Zhifeng Chen", "Quoc V. Le", "Mohammad Norouzi", "Wolfgang Macherey", "Maxim Krikun", "Yuan Cao", "Qin Gao", "Klaus Macherey", "Jeff Klingner", "Apurva  Shah", " Melvin Johnson", "Xiaobing  Dean", "Thomas  Luong", "  Alex  Rios", "  Ines  Melamed", "  Brian  Ota"], "title": "Google's Neural Machine Translation System: Bridging the Gap between Human and Machine Translation", "year": 2016}, {"authors": ["Minh-Thang Luong", "Hieu Pham", "Christopher D. Manning"], "title": "Effective Approaches to Attention-based Neural Machine Translation", "year": 2015}, {"authors": ["Dzmitry Bahdanau", "Kyunghyun Cho", "Yoshua Bengio"], "title": "Neural Machine Translation by Jointly Learning to Align and Translate", "year": 2014}, {"authors": ["Rico Sennrich", "Barry Haddow", "Alexandra Birch"], "title": "Neural Machine Translation of Rare Words with Subword Units", "year": 2016}, {"authors": ["Ashish Vaswani", "Noam Shazeer", "Niki Parmar", "Jakob Uszkoreit", "Llion Jones", "Aidan N. Gomez", "Lukasz Kaiser", "Illia Polosukhin"], "title": "Attention Is All You Need", "year": 2017}, {"authors": ["Jacob Devlin", "Ming-Wei Chang", "Kenton Lee", "Kristina Toutanova"], "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding", "year": 2018}, {"authors": ["Alec Radford", "Jeff Wu", "Rewon Child", "David Luan", "Dario Amodei", "Ilya Sutskever"], "title": "Language Models are Unsupervised Multitask Learners", "year": 2019}, {"authors": ["Tom Brown", "Benjamin Mann", "Nick Ryder", "Melanie Subbiah", "Jared Kaplan", "Prafulla Dhariwal", "Arvind Neelakantan", "Pranav Shyam", "Girish Sastry", "Amanda Askell", "Sandhini Agarwal", "Ariel Herbert-Voss", "Gretchen Krueger", "Tom Henighan", "Rewon Child", "Aditya Ramesh", "Daniel Ziegler", "Jeffrey Wu", "Clemens Winter", "Christopher Hesse", "Mark Chen", "Eric Sigler", "Mateusz Litwin", "Scott Gray", "Benjamin Chess", "Jack Clark", "Christopher Berner", "Sam McCandlish", "Alec Radford", "Ilya Sutskever", "Dario Amodei"], "title": "Language Models are Few-Shot Learners", "year": 2020}, {"authors": ["Yinhan Liu", "Myle Ott", "Naman Goyal", "Jingfei Du", "Mandar Joshi", "Danqi Chen", "Zhifeng Chen", "David R. So", "Jane Weston", "Adam M. Dai"], "title": "RoBERTa: A Robustly Optimized BERT Pretraining Approach", "year": 2019}, {"authors": ["Kevin Clark", "Urvashi  Bhaskar", "  T.  K.  Prasad", "  Michael  R.  Lyons", "  Peter  Norvig"], "title": "Don't Stop Pretraining: Adapt Language Models to Domains and Tasks", "year": 2020}, {"authors": ["Zihang Dai", "Zhilin Yang", "Yiming Yang", "Jaime Carbonell", "Quoc V. Le"], "title": "XLNet: Generalized Autoregressive Pretraining for Language Understanding", "year": 2019}, {"authors": ["Alex  Conneau", "  Guillaume  Lample", "  Marc'Aurelio  Ranzato", "  Ludovic  Denoyer", "  Hervé  Jégou"], "title": "Word Embeddings: Exploration and Applications", "year": 2017}, {"authors": ["Guillaume Lample", "Myle Ott", "Alexis Conneau", "Ludovic Denoyer", "Marc'Aurelio Ranzato"], "title": "Phrase-Based & Neural Unsupervised Machine Translation", "year": 2018}, {"authors": ["Sebastian Ruder", "Iulian  Serban", "  Oriol  Vinyals", "  Alexander  Rush"], "title": "Neural Machine Translation with Reconstruction", "year": 2017}, {"authors": ["Yonghui Wu", "Mike Schuster", "Zhifeng Chen", "Quoc V. Le", "Mohammad Norouzi", "Wolfgang Macherey", "Maxim Krikun", "Yuan Cao", "Qin Gao", "Klaus Macherey", "Jeff Klingner", "Apurva  Shah", " Melvin Johnson", "Xiaobing  Dean", "Thomas  Luong", "  Alex  Rios", "  Ines  Melamed", "  Brian  Ota"], "title": "Google's Neural Machine Translation System: Bridging the Gap between Human and Machine Translation", "year": 2016}, {"authors": ["Minh-Thang Luong", "Hieu Pham", "Christopher D. Manning"], "title": "Effective Approaches to Attention-based Neural Machine Translation", "year": 2015}, {"authors": ["Dzmitry Bahdanau", "Kyunghyun Cho", "Yoshua Bengio"], "title": "Neural Machine Translation by Jointly Learning to Align and Translate", "year": 2014}, {"authors": ["Rico Sennrich", "Barry Haddow", "Alexandra Birch"], "title": "Neural Machine Translation of Rare Words with Subword Units", "year": 2016}, {"authors": ["Ashish Vaswani", "Noam Shazeer", "Niki Parmar", "Jakob Uszkoreit", "Llion Jones", "Aidan N. Gomez", "Lukasz Kaiser", "Illia Polosukhin"], "title": "Attention Is All You Need", "year": 2017}]
+[
+  {
+    "note": [
+      "## Reading List: Transfer Learning for Machine Translation Pre-training (up to 2021"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list focuses on articles exploring pre-training techniques for machine translation models using transfer learning. It includes both foundational works and recent advancements"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Works",
+        "given": "Foundational"
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "container-title": [
+      "**\"Neural Machine Translation by Jointly Learning to Align and Translate\"** (Bahdanau et al., 2014): Introduces the attention mechanism, a key component in modern neural machine translation"
+    ],
+    "type": "chapter"
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "title": [
+      "**\"Sequence to Sequence Learning with Neural Networks\"** (Sutskever et al., 2014): Proposes the encoder-decoder architecture, a fundamental building block for sequence-to-sequence tasks like machine translation"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "container-title": [
+      "**\"Neural Machine Translation in Linear Time\"** (Luong et al., 2015): Introduces the \"global attention\" mechanism, improving translation quality and efficiency"
+    ],
+    "type": "chapter"
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "title": [
+      "**\"Effective Approaches to Attention-Based Neural Machine Translation\"**"
+    ],
+    "note": [
+      "Luong et al., 2015): Explores different attention mechanisms and their impact on translation performance."
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "container-title": [
+      "**\"Google's Neural Machine Translation System: Bridging the Gap between Human and Machine Translation\"** (Wu et al., 2016): Describes Google's pioneering work in applying neural machine translation to real-world scenarios"
+    ],
+    "type": "chapter"
+  },
+  {
+    "title": [
+      "**Pre-training Techniques:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "author": [
+      {
+        "family": "Learning\"",
+        "given": "Semi-supervised Sequence"
+      }
+    ],
+    "date": [
+      "2015"
+    ],
+    "title": [
+      "Introduces the concept of semi-supervised learning for sequence models, paving the way for pre-training with unlabeled data"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "note": [
+      "**\"Unsupervised Neural Machine Translation\"** (Artetxe et al., 2017): Explores unsupervised pre-training methods for machine translation, leveraging monolingual data."
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "title": [
+      "**\"Neural Machine Translation with Language Modeling\"** (Lample et al., 2018): Proposes using language modeling as a pre-training objective for improving translation quality"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "title": [
+      "**\"Cross-Lingual Language Model Pretraining for Machine Translation\"** (Lample et al., 2019): Introduces cross-lingual language modeling, a powerful pre-training technique for multilingual machine translation"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "author": [
+      {
+        "given": "M.A.S.S."
+      }
+    ],
+    "title": [
+      "Masked Sequence to Sequence Pre-training for Language Generation\"** (Song et al., 2019): Proposes a masked language modeling approach for pre-training sequence-to-sequence models, including machine translation"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "title": [
+      "**\"XLNet: Generalized Autoregressive Pretraining for Language Understanding\"** (Yang et al., 2019): Introduces XLNet, a pre-training method that outperforms BERT in various tasks, including machine translation"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "author": [
+      {
+        "given": "B.A.R.T."
+      }
+    ],
+    "title": [
+      "Denoising Sequence-to-Sequence Pre-training for Natural Language Generation"
+    ],
+    "translator": [
+      {
+        "given": "Comprehension\""
+      }
+    ],
+    "note": [
+      "Lewis et al., 2020): Proposes BART, a pre-training method based on denoising, achieving state-of-the-art results in machine translation."
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "**Multilingual Pre-training:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "title": [
+      "**\"Multilingual Neural Machine Translation with a Shared Encoder\"** (Johnson et al., 2017): Explores the benefits of sharing encoder parameters across multiple languages for improved translation quality"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "title": [
+      "**\"Zero-Shot Translation with Cross-Lingual Language Models\"** (Lample et al., 2019): Demonstrates the ability of cross-lingual language models to perform zero-shot translation between unseen language pairs"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "title": [
+      "**\"mBART: A Multilingual Denosing Autoencoder for Machine Translation\"** (Liu et al., 2020): Extends BART to a multilingual setting, achieving significant improvements in cross-lingual transfer learning"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "author": [
+      {
+        "family": "XLM-R",
+        "given": "Multilingual"
+      },
+      {
+        "family": "Representations\"",
+        "given": "Cross-lingual"
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "title": [
+      "Introduces XLM-R, a multilingual language model that achieves state-of-the-art results in various cross-lingual tasks, including machine translation"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "**Recent Advancements:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "title": [
+      "**\"Pre-training with Contrastive Sentence-Pair Objectives for Machine Translation\"**"
+    ],
+    "note": [
+      "Wang et al., 2020): Explores contrastive learning for pre-training machine translation models, achieving improved performance."
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "title": [
+      "**\"Unsupervised Pre-training for Neural Machine Translation with Back-Translation\"** (Lample et al., 2020): Proposes a novel unsupervised pre-training method using back-translation, achieving competitive results"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "title": [
+      "**\"Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer\"**"
+    ],
+    "note": [
+      "Raffel et al., 2020): Introduces a unified text-to-text transformer architecture that can be pre-trained for various tasks, including machine translation."
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "title": [
+      "**\"Efficient Pre-training of Language Models for Machine Translation\"** (Guu et al., 2021): Explores efficient pre-training strategies for machine translation, reducing computational costs while maintaining performance"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list provides a starting point for exploring the vast literature on transfer learning for machine translation pre-training. It is important to note that this field is rapidly evolving, and new research is constantly emerging"
+    ],
+    "type": null
+  }
+]

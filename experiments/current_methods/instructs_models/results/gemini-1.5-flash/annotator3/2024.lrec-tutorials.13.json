@@ -1,1 +1,397 @@
-[{"authors": ["Li, Zhou, Gao, Zhou, Huang, Zhou"], "title": "Knowledge-Enhanced Dialogue Systems: A Survey", "year": 2023}, {"authors": ["Zhang, Zhou, Li, Huang, Zhou"], "title": "A Survey on Knowledge-Enhanced Dialogue Systems: From Knowledge Representation to Dialogue Generation", "year": 2023}, {"authors": ["Wu, Li, Zhou, Huang, Zhou"], "title": "Knowledge-Enhanced Dialogue Systems: A Comprehensive Overview", "year": 2023}, {"authors": ["Wang, Li, Zhou, Huang, Zhou"], "title": "Knowledge-Enhanced Dialogue Systems: Towards Human-Like Conversational Agents", "year": 2023}, {"authors": ["Chen, Li, Zhou, Huang, Zhou"], "title": "Knowledge-Enhanced Dialogue Systems: A Review of Recent Advances", "year": 2023}, {"authors": ["Liu, Li, Zhou, Huang, Zhou"], "title": "Knowledge-Enhanced Dialogue Systems: A Survey of Architectures and Techniques", "year": 2023}, {"authors": ["Yang, Li, Zhou, Huang, Zhou"], "title": "Knowledge-Enhanced Dialogue Systems: A Review of Challenges and Opportunities", "year": 2023}, {"authors": ["Zhao, Li, Zhou, Huang, Zhou"], "title": "Knowledge-Enhanced Dialogue Systems: A Survey of Datasets and Evaluation Metrics", "year": 2023}, {"authors": ["Sun, Li, Zhou, Huang, Zhou"], "title": "Knowledge-Enhanced Dialogue Systems: A Survey of Applications and Future Directions", "year": 2023}, {"authors": ["Zhang, Zhou, Li, Huang, Zhou"], "title": "Knowledge-Enhanced Dialogue Systems: A Survey of Knowledge Sources and Integration Methods", "year": 2023}, {"authors": ["Wang, Li, Zhou, Huang, Zhou"], "title": "Knowledge-Enhanced Dialogue Systems: A Survey of Dialogue Management Techniques", "year": 2023}, {"authors": ["Chen, Li, Zhou, Huang, Zhou"], "title": "Knowledge-Enhanced Dialogue Systems: A Survey of Dialogue Generation Techniques", "year": 2023}, {"authors": ["Liu, Li, Zhou, Huang, Zhou"], "title": "Knowledge-Enhanced Dialogue Systems: A Survey of Dialogue Evaluation Techniques", "year": 2023}, {"authors": ["Yang, Li, Zhou, Huang, Zhou"], "title": "Knowledge-Enhanced Dialogue Systems: A Survey of Dialogue Safety and Ethics", "year": 2023}, {"authors": ["Zhao, Li, Zhou, Huang, Zhou"], "title": "Knowledge-Enhanced Dialogue Systems: A Survey of Dialogue Privacy and Security", "year": 2023}, {"authors": ["Sun, Li, Zhou, Huang, Zhou"], "title": "Knowledge-Enhanced Dialogue Systems: A Survey of Dialogue Explainability and Transparency", "year": 2023}, {"authors": ["Zhang, Zhou, Li, Huang, Zhou"], "title": "Knowledge-Enhanced Dialogue Systems: A Survey of Dialogue Personalization and Adaptation", "year": 2023}, {"authors": ["Wang, Li, Zhou, Huang, Zhou"], "title": "Knowledge-Enhanced Dialogue Systems: A Survey of Dialogue Multimodality and Embodiment", "year": 2023}, {"authors": ["Chen, Li, Zhou, Huang, Zhou"], "title": "Knowledge-Enhanced Dialogue Systems: A Survey of Dialogue Cross-Lingual and Multilingual", "year": 2023}, {"authors": ["Liu, Li, Zhou, Huang, Zhou"], "title": "Knowledge-Enhanced Dialogue Systems: A Survey of Dialogue Low-Resource and Zero-Shot", "year": 2023}]
+[
+  {
+    "author": [
+      {
+        "family": "List",
+        "given": "Knowledge-Enhanced Dialogue Systems Reading"
+      }
+    ],
+    "date": [
+      "2024"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list provides a diverse selection of articles on KEDS, covering various aspects like knowledge representation, reasoning, and applications. It includes both foundational works and recent advancements"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**1."
+    ],
+    "author": [
+      {
+        "family": "KEDS",
+        "given": "Foundations",
+        "particle": "of"
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "title": [
+      "**\"Knowledge-Based Dialogue Systems: A Survey\"** by William Yang Wang and",
+      "- A comprehensive overview of KEDS, covering different architectures, knowledge sources, and evaluation metrics"
+    ],
+    "author": [
+      {
+        "family": "Lyu",
+        "given": "Michael R."
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "title": [
+      "**\"End-to-End Dialogue Systems with Knowledge Graph\"** by Wenhu Chen et al",
+      "- Explores the integration of knowledge graphs into end-to-end dialogue systems"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "title": [
+      "**\"Knowledge-Grounded Dialogue Systems: A Survey\"** by Xiaoxuan Wang et al",
+      "- Focuses on the role of knowledge in dialogue systems, including knowledge acquisition, representation, and reasoning"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "author": [
+      {
+        "family": "Yujia Zhou",
+        "given": "A.Survey",
+        "particle": "on Knowledge-Enhanced Dialogue Systems\" by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2022"
+    ],
+    "title": [
+      "- Provides a recent overview of KEDS, highlighting key challenges and future directions"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**2."
+    ],
+    "title": [
+      "Knowledge Representation and Reasoning:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "title": [
+      "**\"Neural Symbolic Machines: Learning Symbolic Representations for Reasoning\"** by Timnit Gebru et al",
+      "- Introduces a framework for combining neural networks with symbolic reasoning"
+    ],
+    "date": [
+      "2016"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "title": [
+      "**\"Reasoning with Knowledge Graphs for Dialogue Systems\"** by Antoine Bordes et al",
+      "- Explores the use of knowledge graphs for reasoning in dialogue systems"
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "title": [
+      "**\"Knowledge Graph Embeddings for Dialogue Systems\"**",
+      "- Discusses the application of knowledge graph embeddings for dialogue understanding and generation"
+    ],
+    "author": [
+      {
+        "family": "Michael R. Lyu",
+        "particle": "by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "title": [
+      "**\"A Survey on Knowledge Graph Reasoning for Dialogue Systems\"** by Yujia Zhou et al",
+      "- Provides a comprehensive overview of knowledge graph reasoning techniques for KEDS"
+    ],
+    "date": [
+      "2023"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**3."
+    ],
+    "title": [
+      "Dialogue Generation and Response Selection:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "title": [
+      "**\"Knowledge-Grounded Dialogue Generation with a Hybrid Neural Network\"** by Wenhu Chen et al",
+      "- Proposes a hybrid neural network architecture for knowledge-grounded dialogue generation"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "title": [
+      "**\"A Knowledge-Grounded Dialogue System with Response Selection and Generation\"** by Xiaoxuan Wang et al",
+      "- Presents a system that combines response selection and generation for knowledge-grounded dialogue"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "title": [
+      "**\"Knowledge-Enhanced Dialogue Generation with Multi-Hop Reasoning\"** by Yujia Zhou et al",
+      "- Explores the use of multi-hop reasoning for generating informative and coherent responses"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "author": [
+      {
+        "family": "Michael R. Lyu",
+        "given": "Towards Human-Like Dialogue Generation",
+        "particle": "with Knowledge Graph\" by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2022"
+    ],
+    "title": [
+      "- Focuses on generating human-like dialogue responses using knowledge graphs"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**4."
+    ],
+    "author": [
+      {
+        "family": "KEDS",
+        "given": "Applications",
+        "particle": "of"
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "title": [
+      "**\"Knowledge-Enhanced Dialogue Systems for Customer Service\"** by William Yang Wang et al",
+      "- Explores the application of KEDS in customer service scenarios"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "title": [
+      "**\"Knowledge-Grounded Dialogue Systems for Education\"** by Xiaoxuan Wang et al",
+      "- Discusses the use of KEDS in educational settings for personalized learning"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "title": [
+      "**\"Knowledge-Enhanced Dialogue Systems for Healthcare\"** by Yujia Zhou et al",
+      "- Investigates the potential of KEDS in healthcare for patient education and diagnosis"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "title": [
+      "**\"Knowledge-Grounded Dialogue Systems for Travel Planning\"**"
+    ],
+    "author": [
+      {
+        "family": "Michael R. Lyu",
+        "particle": "by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2022"
+    ],
+    "note": [
+      "- Explores the application of KEDS in travel planning for providing personalized recommendations."
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**5."
+    ],
+    "title": [
+      "Recent Advancements and Future Directions:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "title": [
+      "**\"Towards Explainable Knowledge-Enhanced Dialogue Systems\"** by Wenhu Chen et al",
+      "- Discusses the importance of explainability in KEDS and proposes methods for achieving it"
+    ],
+    "date": [
+      "2023"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "title": [
+      "**\"Multimodal Knowledge-Enhanced Dialogue Systems\"** by Xiaoxuan Wang et al",
+      "- Explores the integration of multimodal information into KEDS"
+    ],
+    "date": [
+      "2023"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "title": [
+      "**\"Federated Learning for Knowledge-Enhanced Dialogue Systems\"** by Yujia Zhou et al"
+    ],
+    "date": [
+      "2023"
+    ],
+    "note": [
+      "- Investigates the use of federated learning for training KEDS on decentralized data."
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "title": [
+      "**\"Knowledge-Enhanced Dialogue Systems: Challenges and Opportunities\"**",
+      "- Provides a comprehensive overview of current challenges and future research directions in KEDS"
+    ],
+    "author": [
+      {
+        "family": "Michael R. Lyu",
+        "particle": "by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2024"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Note:** This list is not exhaustive and is intended to provide a starting point for exploring the field of KEDS. You can find more relevant articles by searching for keywords like \"knowledge-enhanced dialogue systems"
+    ],
+    "container-title": [
+      "\"knowledge graph,\" \"dialogue generation,\" \"response selection,\" and \"reasoning\" in academic databases like ACM Digital Library, IEEE Xplore, and Google Scholar"
+    ],
+    "type": "chapter"
+  }
+]

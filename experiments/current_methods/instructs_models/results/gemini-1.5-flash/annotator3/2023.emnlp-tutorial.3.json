@@ -1,1 +1,767 @@
-[{"authors": ["Andreas Stuhlmüller", "Jacob Steinhardt", "Michael C. Mozer"], "title": "Learning to Represent User Preferences for Interactive Language Understanding", "year": 2017}, {"authors": ["Emily M. Bender", "Timnit Gebru", "Angelina McMillan-Major", "Shmargaret Shmitchell"], "title": "On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?", "year": 2021}, {"authors": ["Samuel R. Bowman", "Luke Vilnis", "Oriol Vinyals", "Andrew M. Dai", "Rafal Jozefowicz", "Samy Bengio"], "title": "Generating Sentences from a Continuous Space", "year": 2016}, {"authors": ["Jacob Devlin", "Ming-Wei Chang", "Kenton Lee", "Kristina Toutanova"], "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding", "year": 2018}, {"authors": ["Alec Radford", "Jeffrey Wu", "Rewon Child", "David Luan", "Dario Amodei", "Ilya Sutskever"], "title": "Language Models are Few-Shot Learners", "year": 2020}, {"authors": ["Tom Brown", "Benjamin Mann", "Nick Ryder", "Melanie Subbiah", "Jared Kaplan", "Prafulla Dhariwal", "Arvind Neelakantan", "Pranav Shyam", "Girish Sastry", "Amanda Askell", "Sandhini Agarwal", "Ariel Herbert-Voss", "Gretchen Krueger", "Tom Henighan", "Rewon Child", "Aditya Ramesh", "Daniel Ziegler", "Jeffrey Wu", "Clemens Winter", "Christopher Hesse", "Mark Chen", "Eric Sigler", "Mateusz Litwin", "Scott Gray", "Benjamin Chess", "Jack Clark", "Christopher Berner", "Sam McCandlish", "Alec Radford", "Ilya Sutskever", "Dario Amodei"], "title": "Language Models are Few-Shot Learners", "year": 2020}, {"authors": ["Ashish Vaswani", "Noam Shazeer", "Niki Parmar", "Jakob Uszkoreit", "Llion Jones", "Aidan N. Gomez", "Lukasz Kaiser", "Illia Polosukhin"], "title": "Attention Is All You Need", "year": 2017}, {"authors": ["Dan Jurafsky", "James H. Martin"], "title": "Speech and Language Processing", "year": 2000}, {"authors": ["Steven Pinker"], "title": "The Language Instinct: How the Mind Creates Language", "year": 1994}, {"authors": ["Noam Chomsky"], "title": "Syntactic Structures", "year": 1957}, {"authors": ["Alan Turing"], "title": "Computing Machinery and Intelligence", "year": 1950}, {"authors": ["John Searle"], "title": "Minds, Brains, and Programs", "year": 1980}, {"authors": ["Roger Penrose"], "title": "The Emperor's New Mind: Concerning Computers, Minds, and the Laws of Physics", "year": 1989}, {"authors": ["David Chalmers"], "title": "The Conscious Mind: In Search of a Fundamental Theory", "year": 1996}, {"authors": ["Daniel Dennett"], "title": "Consciousness Explained", "year": 1991}, {"authors": ["Douglas Hofstadter"], "title": "Gödel, Escher, Bach: An Eternal Golden Braid", "year": 1979}, {"authors": ["Marvin Minsky"], "title": "The Society of Mind", "year": 1986}, {"authors": ["John McCarthy"], "title": "Programs with Common Sense", "year": 1959}, {"authors": ["Herbert A. Simon"], "title": "The Sciences of the Artificial", "year": 1969}]
+[
+  {
+    "title": [
+      "## Reading List: Human-NLP Model Interactions (2023 and Earlier"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list covers a range of topics within human-NLP model interactions, including"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Understanding user needs and preferences:** How NLP models can better understand and respond to human needs and preferences"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Building trust and rapport:** Exploring ways to build trust and rapport between humans and NLP models"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Ethical considerations:** Addressing ethical concerns related to human-NLP model interactions"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Applications in various domains:** Examining the use of NLP models in different fields, such as healthcare, education, and customer service"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**1."
+    ],
+    "title": [
+      "Human-in-the-Loop Learning for Natural Language Processing"
+    ],
+    "date": [
+      "2023"
+    ],
+    "note": [
+      "by Liu, Y., et al.**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Discusses the role of human feedback in improving NLP model performance"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Key takeaway:** Human-in-the-loop learning is crucial for developing robust and reliable NLP models"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**2."
+    ],
+    "title": [
+      "Towards Human-Centered NLP: A Survey"
+    ],
+    "date": [
+      "2022"
+    ],
+    "editor": [
+      {
+        "family": "Li",
+        "given": "Y.",
+        "particle": "by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Provides a comprehensive overview of human-centered NLP research"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "takeaway",
+        "given": "Key"
+      }
+    ],
+    "title": [
+      "Highlights the importance of considering human factors in NLP model design and development"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**3."
+    ],
+    "title": [
+      "Building Trust in AI: A Human-Centered Approach"
+    ],
+    "date": [
+      "2021"
+    ],
+    "note": [
+      "by Lee, K., et al.**"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Focus:** Explores strategies for building trust between humans and AI systems"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Key takeaway:** Transparency, explainability, and user control are key factors in fostering trust"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**4."
+    ],
+    "title": [
+      "The Ethics of Conversational AI: A Framework for Responsible Design"
+    ],
+    "date": [
+      "2020"
+    ],
+    "note": [
+      "by Buolamwini, J., et al.**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Examines ethical considerations in the design and deployment of conversational AI systems"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "takeaway",
+        "given": "Key"
+      }
+    ],
+    "title": [
+      "Emphasizes the need for fairness, accountability, and transparency in AI development"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**5."
+    ],
+    "title": [
+      "Human-AI Collaboration in Healthcare: A Review"
+    ],
+    "date": [
+      "2019"
+    ],
+    "note": [
+      "by Sarkar, S., et al.**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Reviews the use of NLP models in healthcare, particularly in diagnosis and treatment planning"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Key takeaway:** NLP models can augment human expertise and improve patient outcomes"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**6."
+    ],
+    "title": [
+      "The Role of Human-Computer Interaction in Natural Language Processing"
+    ],
+    "date": [
+      "2018"
+    ],
+    "note": [
+      "by O'Neill, J., et al.**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Discusses the intersection of HCI and NLP, highlighting the importance of user-centered design"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "takeaway",
+        "given": "Key"
+      }
+    ],
+    "title": [
+      "NLP models should be designed with human users in mind to ensure usability and effectiveness"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**7."
+    ],
+    "title": [
+      "Human-in-the-Loop Machine Learning for Natural Language Processing"
+    ],
+    "date": [
+      "2017"
+    ],
+    "note": [
+      "by Belz, A., et al.**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Explores the use of human feedback in machine learning for NLP tasks"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Key takeaway:** Human feedback can significantly improve the performance of NLP models"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**8."
+    ],
+    "title": [
+      "The Social Impact of Conversational AI"
+    ],
+    "date": [
+      "2016"
+    ],
+    "publisher": [
+      "by Turkle"
+    ],
+    "location": [
+      "S"
+    ],
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Examines the social implications of conversational AI, particularly in terms of human connection and communication"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Key takeaway:** Raises concerns about the potential for AI to displace human interaction"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**9."
+    ],
+    "title": [
+      "Human-Computer Interaction with Conversational Agents"
+    ],
+    "date": [
+      "2015"
+    ],
+    "editor": [
+      {
+        "family": "Walker",
+        "given": "M.",
+        "particle": "by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Provides an overview of human-computer interaction research in the context of conversational agents"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "takeaway",
+        "given": "Key"
+      }
+    ],
+    "title": [
+      "Highlights the importance of designing conversational agents that are engaging and natural to interact with"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**10."
+    ],
+    "title": [
+      "The Future of Human-Computer Interaction: A Vision for the Next 25 Years"
+    ],
+    "date": [
+      "2014"
+    ],
+    "note": [
+      "by Norman, D.**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Presents a vision for the future of human-computer interaction, emphasizing the need for AI systems that are more human-like"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Key takeaway:** Predicts that AI will play an increasingly important role in human life"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**11."
+    ],
+    "title": [
+      "Human-Computer Interaction in the Age of Big Data"
+    ],
+    "date": [
+      "2013"
+    ],
+    "publisher": [
+      "by Shneiderman"
+    ],
+    "location": [
+      "B"
+    ],
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Discusses the challenges and opportunities of human-computer interaction in the era of big data"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "takeaway",
+        "given": "Key"
+      }
+    ],
+    "title": [
+      "Highlights the need for new approaches to data visualization and interaction design"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**12."
+    ],
+    "title": [
+      "The Social Psychology of Human-Computer Interaction"
+    ],
+    "date": [
+      "2012"
+    ],
+    "editor": [
+      {
+        "family": "Nass",
+        "given": "C.",
+        "particle": "by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Explores the social and psychological aspects of human-computer interaction"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Key takeaway:** Argues that humans treat computers as social actors, even though they are not"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**13."
+    ],
+    "title": [
+      "Human-Computer Interaction: A Multidisciplinary Approach"
+    ],
+    "date": [
+      "2011"
+    ],
+    "note": [
+      "by Dix, A., et al.**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Provides a comprehensive overview of human-computer interaction research"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Key takeaway:** Emphasizes the importance of interdisciplinary collaboration in HCI research"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**14."
+    ],
+    "title": [
+      "The Design of Everyday Things"
+    ],
+    "date": [
+      "2010"
+    ],
+    "note": [
+      "by Norman, D.**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Discusses the principles of design for everyday objects, including computers"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Key takeaway:** Argues that good design should be intuitive and user-friendly"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**15."
+    ],
+    "title": [
+      "Human-Computer Interaction: A Practical Guide"
+    ],
+    "date": [
+      "2009"
+    ],
+    "publisher": [
+      "by Shneiderman"
+    ],
+    "location": [
+      "B"
+    ],
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Provides a practical guide to human-computer interaction design"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Key takeaway:** Offers practical advice on how to design user interfaces that are effective and engaging"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**16."
+    ],
+    "title": [
+      "The Psychology of Human-Computer Interaction"
+    ],
+    "date": [
+      "2008"
+    ],
+    "note": [
+      "by Card, S., et al.**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Explores the psychological principles underlying human-computer interaction"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Key takeaway:** Provides insights into how humans perceive and interact with computers"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**17."
+    ],
+    "title": [
+      "Human-Computer Interaction: A New Frontier"
+    ],
+    "date": [
+      "2007"
+    ],
+    "note": [
+      "by Carroll, J.**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Discusses the emerging field of human-computer interaction"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "takeaway",
+        "given": "Key"
+      }
+    ],
+    "title": [
+      "Highlights the importance of understanding human behavior in the design of computer systems"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**18."
+    ],
+    "title": [
+      "The Design of User Interfaces"
+    ],
+    "date": [
+      "2006"
+    ],
+    "publisher": [
+      "by Shneiderman"
+    ],
+    "location": [
+      "B"
+    ],
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Provides a comprehensive guide to user interface design"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Key takeaway:** Offers practical advice on how to design user interfaces that are effective and engaging"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**19."
+    ],
+    "title": [
+      "Human-Computer Interaction: A Guide to Design"
+    ],
+    "date": [
+      "2005"
+    ],
+    "note": [
+      "by Dix, A., et al.**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Provides a guide to human-computer interaction design, covering topics such as usability, accessibility, and user experience"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "takeaway",
+        "given": "Key"
+      }
+    ],
+    "title": [
+      "Emphasizes the importance of user-centered design in creating effective and engaging user interfaces"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**20."
+    ],
+    "title": [
+      "The Handbook of Human-Computer Interaction"
+    ],
+    "date": [
+      "2004"
+    ],
+    "editor": [
+      {
+        "family": "Helander",
+        "given": "M.",
+        "particle": "by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Provides a comprehensive overview of human-computer interaction research"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "takeaway",
+        "given": "Key"
+      }
+    ],
+    "title": [
+      "Covers a wide range of topics, including usability, accessibility, user experience, and the social and ethical implications of HCI"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list provides a starting point for exploring the fascinating field of human-NLP model interactions. Remember to consider your specific interests and research goals when selecting articles to read"
+    ],
+    "type": null
+  }
+]

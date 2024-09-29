@@ -1,0 +1,536 @@
+[
+  {
+    "title": [
+      "Understanding and interpreting the predictions of neural networks is a crucial area of research, especially given the complexity and opacity of these models. Here is a list of 20 articles and papers up to 2020 that focus on interpreting neural network predictions and understanding their decision-making processes"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "author": [
+      {
+        "given": "Visualizing"
+      },
+      {
+        "family": "Matthew D. Zeiler",
+        "given": "Understanding Convolutional Networks\"",
+        "particle": "by"
+      },
+      {
+        "family": "Fergus",
+        "given": "Rob"
+      }
+    ],
+    "date": [
+      "2013"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "This paper introduces deconvolutional networks to visualize the features learned by convolutional networks"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "title": [
+      "**\"Explaining Explanations: Axiomatic Feature Interactions for Deep Networks\"** by Mukund Sundararajan, Ankur Taly, and Qiqi Yan"
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "This work presents Integrated Gradients, a method for attributing the prediction of a deep network to its input features"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "author": [
+      {
+        "given": "DeepLIFT"
+      }
+    ],
+    "title": [
+      "Learning Important Features Through Propagating Activation Differences\"** by Avanti Shrikumar, Peyton Greenside, and Anshul Kundaje"
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "DeepLIFT is introduced as a method for decomposing the output prediction of a neural network to its input features"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "title": [
+      "**\"Axiomatic Attribution for Deep Networks\"** by Mukund Sundararajan, Ankur Taly, and Qiqi Yan"
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "This paper discusses the axiomatic properties that attribution methods should satisfy and introduces Integrated Gradients"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "title": [
+      "**\"Grad-CAM: Visual Explanations from Deep Networks via Gradient-based Localization\"** by Ramprasaath R"
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "Selvaraju et al"
+    ]
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Grad-CAM is a technique for producing visual explanations for decisions from a wide variety of CNN-based models"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "author": [
+      {
+        "given": "L.I.M.E."
+      }
+    ],
+    "title": [
+      "Local Interpretable Model-agnostic Explanations\"** by Marco Tulio Ribeiro, Sameer Singh, and Carlos Guestrin"
+    ],
+    "date": [
+      "2016"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "LIME is a technique to explain the predictions of any classifier in an interpretable and faithful manner"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "title": [
+      "**\"The Building Blocks of Interpretability\"** by Chris Olah et al"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "This article explores various techniques for understanding neural networks, including feature visualization and attribution"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "title": [
+      "**\"Understanding Black-box Predictions via Influence Functions\"** by Pang Wei Koh and Percy Liang"
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Influence functions are used to trace a model’s prediction through the learning algorithm and back to its training data"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "title": [
+      "**\"Anchors: High-Precision Model-Agnostic Explanations\"** by Marco Tulio Ribeiro, Sameer Singh, and Carlos Guestrin"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "This paper introduces Anchors, a method for providing high-precision explanations for model predictions"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "title": [
+      "**\"Interpretable and Explorable Approximations of Black Box Models\"**"
+    ],
+    "editor": [
+      {
+        "family": "Scott M. Lundberg",
+        "particle": "by"
+      },
+      {
+        "family": "Lee",
+        "given": "Su-In"
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "SHAP (SHapley Additive exPlanations) is introduced as a unified measure of feature importance"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "author": [
+      {
+        "family": "Chris Olah",
+        "given": "Feature Visualization\"",
+        "particle": "by"
+      },
+      {
+        "family": "Mordvintsev",
+        "given": "Alexander"
+      },
+      {
+        "family": "Schubert",
+        "given": "Ludwig"
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "This article discusses techniques for visualizing the features learned by neural networks"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "title": [
+      "**\"Deep Inside Convolutional Networks: Visualising Image Classification Models and Saliency Maps\"** by Karen Simonyan, Andrea Vedaldi, and Andrew Zisserman"
+    ],
+    "date": [
+      "2013"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "The paper introduces saliency maps to visualize the spatial support of a particular class in an image"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "title": [
+      "**\"Understanding Neural Networks Through Deep Visualization\"** by Jason Yosinski et al"
+    ],
+    "date": [
+      "2015"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "This work explores visualization techniques to understand the features learned by deep neural networks"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "title": [
+      "**\"Towards a Rigorous Science of Interpretable Machine Learning\"** by Finale Doshi-Velez and Been Kim"
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "This paper discusses the challenges and future directions for interpretable machine learning"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "title": [
+      "**\"Learning Important Features Through Propagating Activation Differences\"** by Avanti Shrikumar et al"
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "This paper introduces DeepLIFT, a method for attributing the prediction of a deep network to its input features"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "title": [
+      "**\"The Mythos of Model Interpretability\"** by Zachary C"
+    ],
+    "publisher": [
+      "Lipton"
+    ],
+    "date": [
+      "2016"
+    ],
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "This article critically examines the concept of interpretability in machine learning models"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "title": [
+      "**\"Interpretability is Harder in the Multiclass Setting: Axiomatic Interpretability for Multiclass Additive Models\"** by Scott M"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "Lundberg et al"
+    ]
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "This paper extends SHAP values to multiclass models, providing a framework for interpretability"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "title": [
+      "**\"Saliency Methods for Neural Networks: A Survey\"** by Sara Hooker et al"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "A comprehensive survey of saliency methods used to interpret neural network predictions"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "title": [
+      "**\"Counterfactual Explanations without Opening the Black Box: Automated Decisions and the GDPR\"** by Sandra Wachter"
+    ],
+    "editor": [
+      {
+        "family": "Mittelstadt",
+        "given": "Brent"
+      },
+      {
+        "family": "Russell",
+        "given": "Chris"
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "This paper discusses counterfactual explanations as a way to provide insights into model decisions"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "title": [
+      "**\"Explainable Artificial Intelligence (XAI): Concepts, Taxonomies, Opportunities and Challenges toward Responsible AI\"** by Daniele Magazzeni et al"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "A broad overview of the field of explainable AI, discussing various methods and their applications"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "These articles and papers provide a comprehensive overview of the methods and challenges associated with interpreting neural network predictions. They cover a range of techniques, from visualization and feature attribution to model-agnostic approaches"
+    ],
+    "type": null
+  }
+]

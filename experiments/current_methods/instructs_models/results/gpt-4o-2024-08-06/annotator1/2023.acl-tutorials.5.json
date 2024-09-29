@@ -1,0 +1,490 @@
+[
+  {
+    "title": [
+      "Creating a reading list of articles on indirectly supervised natural language processing (NLP) involves selecting papers that explore techniques like weak supervision, semi-supervised learning, and other methods that do not rely on fully labeled datasets"
+    ],
+    "container-title": [
+      "Here’s a list of influential and relevant articles up to 2023"
+    ],
+    "type": "chapter"
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "title": [
+      "**\"Snorkel: Rapid Training Data Creation with Weak Supervision\"** by Alex Ratner et al"
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Introduces Snorkel, a system for creating training datasets using weak supervision"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "title": [
+      "**\"Data Programming: Creating Large Training Sets, Quickly\"** by Alex Ratner et al"
+    ],
+    "date": [
+      "2016"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Discusses data programming as a method for generating labeled data through weak supervision"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "title": [
+      "**\"Learning from Noisy Labels with Deep Neural Networks: A Survey\"** by Jindong Wang et al"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Provides a comprehensive survey on handling noisy labels in deep learning"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "author": [
+      {
+        "family": "Andrew M. Dai",
+        "given": "Semi-Supervised Sequence Learning\"",
+        "particle": "by"
+      },
+      {
+        "family": "Le",
+        "given": "Quoc V."
+      }
+    ],
+    "date": [
+      "2015"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Explores semi-supervised learning techniques for sequence data"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "title": [
+      "**\"Self-Training with Noisy Student Improves ImageNet Classification\"** by Qizhe Xie et al"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Although focused on image classification, the self-training approach is applicable to NLP"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "title": [
+      "**\"Unsupervised Data Augmentation for Consistency Training\"** by Qizhe Xie et al"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Discusses unsupervised data augmentation techniques that can be applied to NLP"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "title": [
+      "**\"MixMatch: A Holistic Approach to Semi-Supervised Learning\"** by David Berthelot et al"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Introduces MixMatch, a method that combines multiple semi-supervised learning techniques"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "title": [
+      "**\"FixMatch: Simplifying Semi-Supervised Learning with Consistency and Confidence\"** by Kihyuk Sohn et al"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Proposes a simplified approach to semi-supervised learning using consistency regularization"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "title": [
+      "**\"Noisy Student Training: An Efficient Semi-Supervised Learning Method\"** by Qizhe Xie et al"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Describes a method that iteratively refines models using noisy student-teacher training"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "author": [
+      {
+        "given": "Pseudo-Label"
+      }
+    ],
+    "title": [
+      "The Simple and Efficient Semi-Supervised Learning Method for Deep Neural Networks\"** by Dong-Hyun Lee"
+    ],
+    "date": [
+      "2013"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Introduces pseudo-labeling, a simple semi-supervised learning technique"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "title": [
+      "**\"Learning with Noisy Labels\"** by Bo Han et al"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Reviews methods for learning with noisy labels, relevant for indirectly supervised NLP"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "title": [
+      "**\"Weakly Supervised Learning of Semantic Parsers for Mapping Instructions to Actions\"** by Yoav Artzi and Luke Zettlemoyer"
+    ],
+    "date": [
+      "2013"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Discusses weak supervision in the context of semantic parsing"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "title": [
+      "**\"Self-Training for Few-Shot Neural Sequence Labeling\"** by Xiaoman Pan et al"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Explores self-training methods for few-shot learning in sequence labeling tasks"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "title": [
+      "**\"Learning from Weakly Labeled Web Data with Noise-Aware Deep Neural Networks\"** by Xiaozhi Wang et al"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Focuses on learning from weakly labeled web data using noise-aware models"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "title": [
+      "**\"Meta Pseudo Labels\"** by Hieu Pham et al"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Introduces a meta-learning approach to improve pseudo-labeling"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "title": [
+      "**\"Weakly Supervised Learning of Deep Metrics for Stereo Reconstruction\"** by Benjamin Ummenhofer et al"
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "While focused on stereo reconstruction, the weak supervision techniques are applicable to NLP"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "title": [
+      "**\"Learning from Noisy Labels with Deep Neural Networks: A Survey\"** by Jindong Wang et al"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "A survey on techniques for learning from noisy labels, applicable to NLP"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "title": [
+      "**\"Self-Training with Noisy Student Improves ImageNet Classification\"** by Qizhe Xie et al"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Discusses self-training methods that can be adapted for NLP tasks"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "title": [
+      "**\"Learning from Noisy Labels with Deep Neural Networks: A Survey\"** by Jindong Wang et al"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "A comprehensive survey on handling noisy labels in deep learning"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "title": [
+      "**\"Weakly Supervised Learning of Deep Metrics for Stereo Reconstruction\"** by Benjamin Ummenhofer et al"
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Discusses weak supervision techniques that can be applied to NLP"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "These articles cover a range of techniques and applications in indirectly supervised NLP, providing a solid foundation for understanding the field"
+    ],
+    "type": null
+  }
+]

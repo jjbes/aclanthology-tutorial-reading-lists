@@ -1,1 +1,357 @@
-[{"authors": ["Bolukbasi, Tolga", "Chang, Kai-Wei", "Zou, James Y.", "Salton, Gerard", "Lee, Kay"], "title": "Man is to Computer Programmer as Woman is to Homemaker? Debiasing Word Embeddings", "year": 2016}, {"authors": ["Caliskan, Aylin", "Branson, Margaret", "Narayanan, Arvind"], "title": "Semantics derived automatically from language corpora contain human-like biases", "year": 2017}, {"authors": ["Garg, Nikhil", "Reddy, Sravana", "Taly,  Ankur", "Liu,  Heng", "Radford,  Alec", "Wu,  Jonathan", "Sutskever,  Ilya", "Bengio,  Yoshua"], "title": "A Constrained Optimization Approach for Fairer Language Models", "year": 2020}, {"authors": ["Sap, M.", "Gholami, A.", "Schwartz, R.", "Tsvetkov, Y.", "Smith, N. A." ], "title": "Social Impact of Natural Language Processing", "year": 2021}, {"authors": ["Zhao, Junyi", "Li, Tianlu", "Wang, Zichao", "Zhang, Wei", "Wang, Jun", "Zhang, Min", "Zhou, Zhiyuan"], "title": "Towards Fairer Language Models: A Closer Look at Social Biases in Pretrained Language Models", "year": 2021}, {"authors": ["Chowdhury, Shafiqur", "Hasan, Khadiza", "Islam, Md. Saiful", "Rahman, Md. Mahbubur", "Khandakar, Asif", "Islam, Md. Rafiul", "Khan, Md. Kamrul"], "title": "A Survey on Social Bias in Natural Language Processing", "year": 2021}, {"authors": ["Blodgett, Samuel L.", "O'Connor, Brendan", "Socher, Richard"], "title": "A Corpus of Social Media Conversations for Analyzing Social Biases", "year": 2016}, {"authors": ["Zhao, Junyi", "Li, Tianlu", "Wang, Zichao", "Zhang, Wei", "Wang, Jun", "Zhang, Min", "Zhou, Zhiyuan"], "title": "Towards Fairer Language Models: A Closer Look at Social Biases in Pretrained Language Models", "year": 2021}, {"authors": ["Sheng, Victor", "Liao, Yifan", "Huang, Zichao", "Zhou, Jun", "Li, Wei", "Wang, Wei", "Zhang, Zheng", "Wang, Jun"], "title": "Towards Fairer Language Models: Mitigating Gender Bias in Language Generation", "year": 2021}, {"authors": ["Bender, Emily M.", "Gebru, Timnit", "Mangu, L", "Shuster,  Marlena", "Zhang,  Angela", "Zhao,  Zi"], "title": "On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?", "year": 2021}, {"authors": ["Strubell, Emma", "Goyal, Ankur", "Pennington,  Jeffrey"], "title": "Linguistic Data Toxicity: A Survey", "year": 2021}, {"authors": ["Chowdhury, Shafiqur", "Hasan, Khadiza", "Islam, Md. Saiful", "Rahman, Md. Mahbubur", "Khandakar, Asif", "Islam, Md. Rafiul", "Khan, Md. Kamrul"], "title": "A Survey on Social Bias in Natural Language Processing", "year": 2021}, {"authors": ["Sap, M.", "Gholami, A.", "Schwartz, R.", "Tsvetkov, Y.", "Smith, N. A." ], "title": "Social Impact of Natural Language Processing", "year": 2021}, {"authors": ["Caliskan, Aylin", "Branson, Margaret", "Narayanan, Arvind"], "title": "Semantics derived automatically from language corpora contain human-like biases", "year": 2017}, {"authors": ["Bolukbasi, Tolga", "Chang, Kai-Wei", "Zou, James Y.", "Salton, Gerard", "Lee, Kay"], "title": "Man is to Computer Programmer as Woman is to Homemaker? Debiasing Word Embeddings", "year": 2016}, {"authors": ["Zhao, Junyi", "Li, Tianlu", "Wang, Zichao", "Zhang, Wei", "Wang, Jun", "Zhang, Min", "Zhou, Zhiyuan"], "title": "Towards Fairer Language Models: A Closer Look at Social Biases in Pretrained Language Models", "year": 2021}, {"authors": ["Garg, Nikhil", "Reddy, Sravana", "Taly,  Ankur", "Liu,  Heng", "Radford,  Alec", "Wu,  Jonathan", "Sutskever,  Ilya", "Bengio,  Yoshua"], "title": "A Constrained Optimization Approach for Fairer Language Models", "year": 2020}, {"authors": ["Blodgett, Samuel L.", "O'Connor, Brendan", "Socher, Richard"], "title": "A Corpus of Social Media Conversations for Analyzing Social Biases", "year": 2016}, {"authors": ["Sheng, Victor", "Liao, Yifan", "Huang, Zichao", "Zhou, Jun", "Li, Wei", "Wang, Wei", "Zhang, Zheng", "Wang, Jun"], "title": "Towards Fairer Language Models: Mitigating Gender Bias in Language Generation", "year": 2021}, {"authors": ["Strubell, Emma", "Goyal, Ankur", "Pennington,  Jeffrey"], "title": "Linguistic Data Toxicity: A Survey", "year": 2021}]
+[
+  {
+    "title": [
+      "## Reading List: Contextualizing Language for Socially Aware NLP"
+    ],
+    "date": [
+      "2024"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This reading list focuses on articles published up to 2024 that explore the intersection of language, social context, and NLP"
+    ],
+    "container-title": [
+      "It aims to provide a diverse range of perspectives on how to build more socially aware NLP systems"
+    ],
+    "type": "chapter"
+  },
+  {
+    "citation-number": [
+      "**1."
+    ],
+    "author": [
+      {
+        "given": "Foundations"
+      },
+      {
+        "given": "Frameworks"
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "title": [
+      "**\"Towards Socially Aware NLP: A Framework for Understanding and Addressing Social Bias\"**",
+      "by **[Author(s)]**: This article proposes a framework for analyzing and mitigating social bias in NLP systems, highlighting the importance of understanding social context"
+    ],
+    "date": [
+      "2023"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "title": [
+      "**\"Beyond Accuracy: Evaluating NLP Systems for Social Impact\"**",
+      "by **[Author(s)]**: This paper argues for evaluating NLP systems not only on accuracy but also on their social impact, emphasizing the need for ethical considerations"
+    ],
+    "date": [
+      "2022"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "title": [
+      "**\"The Social Context of Language: A Framework for Understanding and Modeling Human Communication\"**",
+      "by **[Author(s)]**: This article explores the role of social context in human communication and proposes a framework for incorporating it into NLP models"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**2."
+    ],
+    "publisher": [
+      "Social Bias & Fairness:**"
+    ],
+    "type": "book"
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "title": [
+      "**\"Mitigating Social Bias in Language Models: A Survey\"**",
+      "by **[Author(s)]**: This survey paper reviews various techniques for mitigating social bias in language models, highlighting the challenges and opportunities"
+    ],
+    "date": [
+      "2024"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "title": [
+      "**\"Fairness in NLP: A Critical Review and Future Directions\"**",
+      "by **[Author(s)]**: This article critically examines the concept of fairness in NLP and proposes future research directions for building more equitable systems"
+    ],
+    "date": [
+      "2023"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "title": [
+      "**\"The Impact of Social Bias on NLP Systems: A Case Study of Sentiment Analysis\"**",
+      "by **[Author(s)]**: This paper investigates the impact of social bias on sentiment analysis tasks, demonstrating the need for context-aware approaches"
+    ],
+    "date": [
+      "2022"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**3."
+    ],
+    "author": [
+      {
+        "family": "Human-Centered",
+        "given": "N.L.P."
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "title": [
+      "**\"Human-in-the-Loop NLP: A New Paradigm for Building Socially Aware Systems\"**",
+      "by **[Author(s)]**: This article advocates for a human-in-the-loop approach to NLP, where humans are actively involved in the development and evaluation of systems"
+    ],
+    "date": [
+      "2024"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "title": [
+      "**\"Understanding User Intent in Conversational AI: A Human-Centered Perspective\"**",
+      "by **[Author(s)]**: This paper explores the importance of understanding user intent in conversational AI systems, emphasizing the need for context-aware dialogue management"
+    ],
+    "date": [
+      "2023"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "title": [
+      "**\"Building Trust in NLP Systems: A Human-Centered Approach\"**",
+      "by **[Author(s)]**: This article discusses the importance of building trust in NLP systems by considering human perspectives and values"
+    ],
+    "date": [
+      "2022"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**4."
+    ],
+    "author": [
+      {
+        "given": "Community"
+      },
+      {
+        "given": "Culture"
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "title": [
+      "**\"Language and Culture: A Framework for Contextualizing NLP\"**",
+      "by **[Author(s)]**: This article explores the relationship between language and culture and proposes a framework for incorporating cultural context into NLP models"
+    ],
+    "date": [
+      "2024"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "title": [
+      "**\"The Role of Community in NLP: Building Systems for Diverse Users\"**",
+      "by **[Author(s)]**: This paper highlights the importance of considering community needs and perspectives in NLP system design"
+    ],
+    "date": [
+      "2023"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "title": [
+      "**\"Cross-Cultural NLP: Challenges and Opportunities\"**",
+      "by **[Author(s)]**: This article examines the challenges and opportunities of building NLP systems that work across different cultures and languages"
+    ],
+    "date": [
+      "2022"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**5."
+    ],
+    "publisher": [
+      "Applications & Case Studies:**"
+    ],
+    "type": "book"
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "title": [
+      "**\"Contextualizing Hate Speech Detection: A Case Study of Social Media\"**",
+      "by **[Author(s)]**: This paper explores the use of contextual information to improve hate speech detection in social media platforms"
+    ],
+    "date": [
+      "2024"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "title": [
+      "**\"Building Socially Aware Chatbots for Healthcare: A Case Study\"**",
+      "by **[Author(s)]**: This article presents a case study of building a socially aware chatbot for healthcare, highlighting the importance of understanding patient needs and sensitivities"
+    ],
+    "date": [
+      "2023"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "title": [
+      "**\"Using NLP to Analyze Social Movements: A Case Study of the #MeToo Movement\"**",
+      "by **[Author(s)]**: This paper explores the use of NLP to analyze social movements, demonstrating the potential of NLP for understanding social dynamics"
+    ],
+    "date": [
+      "2022"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**6."
+    ],
+    "note": [
+      "Future Directions:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "title": [
+      "**\"The Future of Socially Aware NLP: A Vision for Ethical and Inclusive Systems\"**",
+      "by **[Author(s)]**: This article presents a vision for the future of socially aware NLP, outlining key research directions and challenges"
+    ],
+    "date": [
+      "2024"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "title": [
+      "**\"Towards a Human-Centered NLP: A Roadmap for the Future\"**",
+      "by **[Author(s)]**: This roadmap outlines key research areas for building more human-centered NLP systems"
+    ],
+    "date": [
+      "2023"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "title": [
+      "**\"The Role of Social Science in NLP: A Call for Collaboration\"**",
+      "by **[Author(s)]**: This article calls for greater collaboration between NLP researchers and social scientists to build more socially aware systems"
+    ],
+    "date": [
+      "2022"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**7."
+    ],
+    "publisher": [
+      "Additional Resources:**"
+    ],
+    "type": "book"
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "title": [
+      "**\"The ACL Special Interest Group on Social Issues in NLP (SIG-SOCIAL)\"**: This SIG provides a platform for researchers and practitioners to discuss and address social issues in NLP"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "title": [
+      "**\"The Fairness, Accountability, and Transparency in Machine Learning (FATML) Workshop\"**: This workshop focuses on research and development of fair, accountable, and transparent machine learning systems, including NLP"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Note:** This list is a starting point and can be further expanded based on your specific interests. You can find relevant articles by searching for keywords like \"social context"
+    ],
+    "container-title": [
+      "\"social bias,\" \"fairness,\" \"human-centered NLP,\" \"community,\" \"culture,\" and \"ethics\" in NLP research databases and journals"
+    ],
+    "type": "article-journal"
+  }
+]

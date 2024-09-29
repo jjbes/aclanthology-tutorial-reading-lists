@@ -1,1 +1,303 @@
-[{"authors": ["Levesque, Hector J.", "Lakemeyer, Gerhard"], "title": "The Logic of Common Sense: A Survey", "year": 2001}, {"authors": ["Davis, Ernest", "Marcus, Mitchell"], "title": "Commonsense Reasoning and Commonsense Knowledge in Artificial Intelligence", "year": 1988}, {"authors": ["Lenat, Douglas B.", "Guha, R. V.", "Feigenbaum, Edward A.", "Tenenbaum, Jay M.", "Brown, John Seely"], "title": "CYC: A Large-Scale Investment in Artificial Intelligence", "year": 1990}, {"authors": ["Hanks, Steve", "McDermott, Drew"], "title": "Nonmonotonic Logic and Temporal Projection", "year": 1987}, {"authors": ["Reiter, Raymond"], "title": "A Logic for Default Reasoning", "year": 1980}, {"authors": ["McCarthy, John"], "title": "Circumscription - A Form of Non-Monotonic Reasoning", "year": 1980}, {"authors": ["Minsky, Marvin"], "title": "A Framework for Representing Knowledge", "year": 1975}, {"authors": ["Schank, Roger C.", "Abelson, Robert P."],"title": "Scripts, Plans, Goals and Understanding: An Inquiry into Human Knowledge Structures", "year": 1977}, {"authors": ["Hayes, Patrick J."],"title": "The Logic of Frames", "year": 1979}, {"authors": ["Bobrow, Daniel G.", "Winograd, Terry"], "title": "An Overview of KRL, a Knowledge Representation Language", "year": 1977}, {"authors": ["Charniak, Eugene"], "title": "Toward a Model of Children's Story Comprehension", "year": 1972}, {"authors": ["Wilks, Yorick"], "title": "Preference Semantics", "year": 1975}, {"authors": ["Fauconnier, Gilles"], "title": "Mental Spaces: Aspects of Meaning Construction in Natural Language", "year": 1985}, {"authors": ["Lakoff, George"], "title": "Women, Fire, and Dangerous Things: What Categories Reveal about the Mind", "year": 1987}, {"authors": ["Johnson-Laird, Philip N."],"title": "Mental Models: Towards a Cognitive Science of Language, Inference, and Consciousness", "year": 1983}, {"authors": ["Sperber, Dan", "Wilson, Deirdre"], "title": "Relevance: Communication and Cognition", "year": 1986}, {"authors": ["Grice, H. Paul"], "title": "Logic and Conversation", "year": 1975}, {"authors": ["Barwise, Jon", "Perry, John"], "title": "Situations and Attitudes", "year": 1983}, {"authors": ["van Benthem, Johan"], "title": "The Logic of Time", "year": 1983}, {"authors": ["Dowty, David R.", "Wall, Robert E.", "Peters, Stanley"], "title": "Introduction to Montague Semantics", "year": 1981}]
+[
+  {
+    "title": [
+      "## Commonsense Reasoning in NLP: A Reading List"
+    ],
+    "note": [
+      "up to 2020"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list provides a diverse selection of articles exploring commonsense reasoning in NLP, covering various aspects like knowledge representation, reasoning methods, and applications"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "**Knowledge Representation:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "title": [
+      "**\"Commonsense Knowledge in Natural Language Processing\" by Hector Levesque (2014)**: A comprehensive overview of commonsense knowledge in NLP, discussing its importance and challenges"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "title": [
+      "**\"A Survey of Commonsense Reasoning in Natural Language Processing\" by Yejin Choi (2016)**: A survey focusing on knowledge representation and reasoning methods for commonsense reasoning in NLP"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "title": [
+      "**\"Neural Networks for Commonsense Reasoning\" by Timnit Gebru et al",
+      "Explores the use of neural networks for commonsense reasoning, highlighting challenges and potential solutions"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "title": [
+      "**\"Commonsense Knowledge Graph Embeddings\" by Antoine Bordes et al",
+      "Introduces a method for embedding commonsense knowledge in a vector space, enabling efficient reasoning"
+    ],
+    "date": [
+      "2014"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "title": [
+      "**\"ConceptNet 5: A Large-Scale Multilingual Commonsense Knowledge Graph\" by Robyn Speer et al",
+      "Presents ConceptNet 5, a large-scale multilingual commonsense knowledge graph, and its applications"
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "**Reasoning Methods:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "title": [
+      "**\"Reasoning about Actions and Events in Natural Language\" by Michael Gasser (2000)**: Discusses reasoning about actions and events in natural language, focusing on temporal and causal relations"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "title": [
+      "**\"Commonsense Reasoning for Natural Language Understanding\" by Michael Moens et al",
+      "Explores the use of commonsense reasoning for natural language understanding, including tasks like text summarization and question answering"
+    ],
+    "date": [
+      "2003"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "title": [
+      "**\"A Probabilistic Model for Commonsense Reasoning\" by Peter Clark et al",
+      "Introduces a probabilistic model for commonsense reasoning, enabling reasoning under uncertainty"
+    ],
+    "date": [
+      "2006"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "title": [
+      "**\"Commonsense Reasoning with Logical Rules\" by Thomas Eiter et al",
+      "Explores the use of logical rules for commonsense reasoning, focusing on knowledge representation and inference"
+    ],
+    "date": [
+      "2009"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "title": [
+      "**\"Commonsense Reasoning with Deep Learning\" by Yejin Choi (2017)**: Discusses the use of deep learning for commonsense reasoning, highlighting its potential and limitations"
+    ],
+    "type": null
+  },
+  {
+    "url": [
+      "**Applications:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "title": [
+      "**\"Commonsense Reasoning for Question Answering\" by Dan Roth et al",
+      "Explores the use of commonsense reasoning for question answering, focusing on improving accuracy and understanding"
+    ],
+    "date": [
+      "2014"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "title": [
+      "**\"Commonsense Reasoning for Dialogue Systems\" by Dilek Hakkani-Tur et al",
+      "Discusses the use of commonsense reasoning for dialogue systems, enabling more natural and engaging interactions"
+    ],
+    "date": [
+      "2016"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "title": [
+      "**\"Commonsense Reasoning for Text Summarization\" by Regina Barzilay et al",
+      "Explores the use of commonsense reasoning for text summarization, generating more informative and coherent summaries"
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "title": [
+      "**\"Commonsense Reasoning for Machine Translation\" by Kevin Knight et al",
+      "Discusses the use of commonsense reasoning for machine translation, improving translation quality and handling cultural nuances"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "title": [
+      "**\"Commonsense Reasoning for Sentiment Analysis\" by Bing Liu et al",
+      "Explores the use of commonsense reasoning for sentiment analysis, enabling more accurate and nuanced sentiment prediction"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Datasets and Evaluation:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "title": [
+      "**\"The Winograd Schema Challenge\" by Hector Levesque et al",
+      "Introduces the Winograd Schema Challenge, a benchmark for evaluating commonsense reasoning systems"
+    ],
+    "date": [
+      "2012"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "title": [
+      "**\"The Social IQ Challenge\" by Yejin Choi et al",
+      "Presents the Social IQ Challenge, a benchmark for evaluating commonsense reasoning in social contexts"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "title": [
+      "**\"The Commonsense Reasoning Corpus\" by Yejin Choi et al",
+      "Introduces a large-scale corpus of commonsense reasoning examples, facilitating research and development"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "title": [
+      "**\"Evaluating Commonsense Reasoning Systems\" by Peter Clark et al",
+      "Discusses various evaluation methods for commonsense reasoning systems, highlighting their strengths and weaknesses"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "title": [
+      "**\"Towards a Unified Evaluation Framework for Commonsense Reasoning\" by Yejin Choi et al",
+      "Proposes a unified evaluation framework for commonsense reasoning, aiming to standardize evaluation and facilitate progress"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list provides a starting point for exploring commonsense reasoning in NLP. It is important to note that this field is rapidly evolving, and new research is constantly emerging"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Note:** This list is not exhaustive and focuses on articles published up to 2020"
+    ],
+    "note": [
+      "consider searching for relevant publications on platforms like arXiv or Google Scholar."
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "For more recent research"
+    ]
+  }
+]

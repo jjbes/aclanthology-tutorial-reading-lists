@@ -1,0 +1,311 @@
+[
+  {
+    "title": [
+      "Creating a reading list of articles on syntax in end-to-end models, particularly focusing on syntactic parsing, semantic role labeling, and machine translation, involves selecting influential and insightful papers. Here is a list of 20 articles up to 2021 that you might find useful"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "author": [
+      {
+        "family": "Vaswani",
+        "given": "Attention",
+        "particle": "is All You Need\" by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "title": [
+      "- This foundational paper introduces the Transformer model, which has become central to many NLP tasks, including machine translation"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "author": [
+      {
+        "given": "B.E.R.T."
+      }
+    ],
+    "title": [
+      "Pre-training of Deep Bidirectional Transformers for Language Understanding\"** by Devlin et al",
+      "- Discusses BERT, a model that has influenced syntactic parsing and semantic role labeling"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "title": [
+      "**\"Universal Dependencies: A Cross-Linguistic Perspective on Syntax\"** by Nivre et al",
+      "- Explores the Universal Dependencies framework, which is crucial for syntactic parsing"
+    ],
+    "date": [
+      "2016"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "author": [
+      {
+        "family": "Peters",
+        "given": "Deep Contextualized Word Representations\"",
+        "particle": "by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "title": [
+      "- Introduces ELMo, which has applications in syntactic parsing and semantic role labeling"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "title": [
+      "**\"End-to-End Neural Coreference Resolution\"** by Lee et al",
+      "- While focused on coreference, this paper's methods are relevant to syntactic and semantic tasks"
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "title": [
+      "**\"A Fast and Accurate Dependency Parser using Neural Networks\"** by Chen and Manning",
+      "- Discusses a neural network approach to dependency parsing"
+    ],
+    "date": [
+      "2014"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "title": [
+      "**\"Neural Machine Translation by Jointly Learning to Align and Translate\"** by Bahdanau et al",
+      "- Introduces the attention mechanism in the context of machine translation"
+    ],
+    "date": [
+      "2015"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "author": [
+      {
+        "given": "SyntaxNet"
+      }
+    ],
+    "title": [
+      "The World's Most Accurate Parser\"** by Weiss et al",
+      "- Describes Google's SyntaxNet, a neural network-based syntactic parser"
+    ],
+    "date": [
+      "2015"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "title": [
+      "**\"Semantic Role Labeling with Associated Memory Network\"** by He et al",
+      "- Focuses on semantic role labeling using memory networks"
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "author": [
+      {
+        "family": "Kamath",
+        "given": "A.Survey",
+        "particle": "on Semantic Parsing\" by"
+      },
+      {
+        "given": "Das"
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "title": [
+      "- Provides an overview of semantic parsing techniques, including end-to-end models"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "title": [
+      "**\"Tree-LSTM: A Flexible Model for Semantic Compositionality over a Tree Structure\"** by Tai et al",
+      "- Discusses a model that captures syntactic structure in semantic tasks"
+    ],
+    "date": [
+      "2015"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "title": [
+      "**\"Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer\"** by Raffel et al",
+      "- Introduces T5, a model applicable to various NLP tasks, including parsing and translation"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "title": [
+      "**\"Constituency Parsing with a Self-Attentive Encoder\"** by Kitaev and Klein",
+      "- Focuses on constituency parsing using self-attention mechanisms"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "title": [
+      "**\"A Simple and Accurate Syntax-Agnostic Neural Model for Dependency Parsing\"** by Dozat and Manning",
+      "- Proposes a syntax-agnostic approach to dependency parsing"
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "title": [
+      "**\"Semantic Role Labeling for Open Information Extraction\"** by Stanovsky et al",
+      "- Discusses semantic role labeling in the context of information extraction"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "title": [
+      "**\"Neural Architectures for Named Entity Recognition\"** by Lample et al",
+      "- While focused on NER, the techniques are relevant to syntactic and semantic tasks"
+    ],
+    "date": [
+      "2016"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "title": [
+      "**\"Multilingual Neural Machine Translation with Soft Decoupled Encoding\"** by Wang et al",
+      "- Explores multilingual NMT with implications for syntactic and semantic understanding"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "title": [
+      "**\"Jointly Predicting Predicates and Arguments in Neural Semantic Role Labeling\"** by He et al",
+      "- Discusses a joint model for semantic role labeling"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "title": [
+      "**\"Dependency Parsing with Bi-Directional LSTM-CNNs\"** by Kiperwasser and Goldberg",
+      "- Combines LSTMs and CNNs for dependency parsing"
+    ],
+    "date": [
+      "2016"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "title": [
+      "**\"Syntax-Aware Neural Semantic Role Labeling\"** by Strubell et al",
+      "- Integrates syntactic information into neural models for semantic role labeling"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "These articles provide a comprehensive overview of the developments in syntactic parsing, semantic role labeling, and machine translation using end-to-end models"
+    ],
+    "type": null
+  }
+]

@@ -1,1 +1,530 @@
-[{"authors": ["Snow, R.", "O'Connor, B.", "Jurafsky, D.", "Ng, A. Y."],"title": "Cheap and Fast—But is it Good?: Evaluating Non-Expert Annotations for Natural Language Understanding", "year": 2008}, {"authors": ["Welbl, J.", "Piskorski, J.", "Sukhbaatar, S.", "Weston, J.", "Bottou, L."],"title": "Crowdsourcing for Large-Scale Image Annotation: A Learning-Based Approach", "year": 2017}, {"authors": ["Doan, A.", "Ramakrishnan, R.", "Vaithyanathan, S."],"title": "Freebase: A Shared Database of Structured Data", "year": 2008}, {"authors": ["Raykar, V. C.", "Yu, S.", "Zhao, L. H.", "Vinh, N. X.", "Hsu, C. N."],"title": "Learning from Crowds", "year": 2010}, {"authors": ["Rodrigues, F.", "Gonçalves, M. A."],"title": "Crowdsourcing for Image Annotation: A Survey", "year": 2016}, {"authors": ["Kittur, A.", "Chi, E. H.", "Suh, B."],"title": "Crowdsourcing for User Studies: Design and Analysis Methods", "year": 2013}, {"authors": ["Zhou, D.", "Yang, Y.", "Nie, J.", "Zhu, S."],"title": "Active Learning for Crowdsourcing", "year": 2014}, {"authors": ["Slaughter, D."],"title": "Human Computation: A Survey", "year": 2012}, {"authors": ["Wah, C.", "Branson, S.", "Welinder, P.", "Perona, P."],"title": "Improving Crowdsourced Image Annotation with Human-in-the-Loop Active Learning", "year": 2011}, {"authors": ["Kazai, G.", "Alonso, O.", "Fernández, M."],"title": "Crowdsourcing for Information Retrieval: A Survey", "year": 2011}, {"authors": ["Liu, Q.", "Li, J.", "Tang, J."],"title": "Crowdsourcing for Sentiment Analysis: A Survey", "year": 2015}, {"authors": ["Gomes, R.", "Welbl, J.", "Sukhbaatar, S.", "Weston, J.", "Bottou, L."],"title": "Human-in-the-Loop Learning for Large-Scale Image Annotation", "year": 2017}, {"authors": ["Yan, Y.", "Doan, A.", "Madhavan, J."],"title": "CrowdDB: Enabling Query Answering over Crowdsourced Data", "year": 2011}, {"authors": ["Chen, X.", "Lin, Q.", "Han, J."],"title": "S-Crow: Efficient and Effective Crowdsourcing for Sentiment Analysis", "year": 2014}, {"authors": ["Li, Y.", "Liu, Z.", "Tang, J."],"title": "Crowdsourcing for Text Summarization: A Survey", "year": 2016}, {"authors": ["Wang, J.", "Yang, Y.,", "Zhu, S."],"title": "Adaptive Crowdsourcing for Image Annotation", "year": 2013}, {"authors": ["Karger, D. R.", "Oh, S.", "Shah, D."],"title": "Iterative Learning for Reliable Crowdsourcing", "year": 2011}, {"authors": ["Ipeirotis, P. G."],"title": "Analyzing the Impact of Crowdsourcing on Data Quality", "year": 2010}, {"authors": ["Bernstein, M. S.", "Zilberstein, S."],"title": "Crowdsourcing for Machine Learning: A Survey", "year": 2011}, {"authors": ["Suh, B.", "Chi, E. H.", "Kittur, A."],"title": "Crowdsourcing annotations for large-scale image classification", "year": 2010}]
+[
+  {
+    "title": [
+      "## Crowdsourcing for Efficient Label Collection: A Reading List (2021 and Earlier"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list covers articles on crowdsourcing for annotation, focusing on different approaches for efficient label collection"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**General Crowdsourcing for Annotation:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "title": [
+      "**\"Crowdsourcing for Data Annotation: A Survey\"**",
+      "- A comprehensive survey of crowdsourcing techniques for data annotation, covering various aspects like task design, quality control, and evaluation"
+    ],
+    "author": [
+      {
+        "family": "X. Li",
+        "particle": "by"
+      },
+      {
+        "family": "Li",
+        "given": "T."
+      },
+      {
+        "family": "Zhang",
+        "given": "S."
+      },
+      {
+        "family": "Zhang",
+        "given": "Y."
+      }
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "title": [
+      "**\"Crowdsourcing for Image Annotation: A Survey\"** by M",
+      "- Focuses on image annotation using crowdsourcing, discussing different approaches and challenges"
+    ],
+    "author": [
+      {
+        "family": "Zou",
+        "given": "J."
+      },
+      {
+        "family": "Li",
+        "given": "L."
+      },
+      {
+        "family": "Zhang",
+        "given": "L."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "title": [
+      "**\"Crowdsourcing for Text Annotation: A Survey\"** by S",
+      "- Explores crowdsourcing techniques for text annotation, including sentiment analysis, named entity recognition, and relation extraction"
+    ],
+    "author": [
+      {
+        "family": "Wang",
+        "given": "J.Li"
+      },
+      {
+        "family": "Zhang",
+        "given": "Y."
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "title": [
+      "**\"Crowdsourcing for Machine Learning: A Survey\"** by J",
+      "- A broad overview of crowdsourcing for machine learning, covering various applications and challenges"
+    ],
+    "author": [
+      {
+        "family": "Wang",
+        "given": "J.Li"
+      },
+      {
+        "family": "Zhang",
+        "given": "Y."
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "author": [
+      {
+        "family": "Human Computation",
+        "given": "A.Survey\" by J.von Ahn"
+      }
+    ],
+    "date": [
+      "2006"
+    ],
+    "title": [
+      "- A foundational paper on human computation, introducing the concept and its potential applications"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Efficient Approaches to Crowdsourcing:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "author": [
+      {
+        "family": "S. Settles",
+        "given": "Active Learning",
+        "particle": "for Crowdsourcing\" by"
+      }
+    ],
+    "date": [
+      "2010"
+    ],
+    "title": [
+      "- Explores active learning techniques for efficient label collection in crowdsourcing, focusing on selecting the most informative data points for annotation"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "title": [
+      "**\"Crowdsourcing for Large-Scale Image Annotation: A Survey\"** by J",
+      "- Discusses efficient strategies for large-scale image annotation using crowdsourcing, including task decomposition and quality control"
+    ],
+    "author": [
+      {
+        "family": "Wang",
+        "given": "J.Li"
+      },
+      {
+        "family": "Zhang",
+        "given": "Y."
+      }
+    ],
+    "date": [
+      "2016"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "title": [
+      "**\"Efficient Crowdsourcing for Image Annotation: A Survey\"** by M",
+      "- Focuses on efficient crowdsourcing techniques for image annotation, including active learning, multi-label annotation, and quality control"
+    ],
+    "author": [
+      {
+        "family": "Zou",
+        "given": "J."
+      },
+      {
+        "family": "Li",
+        "given": "L."
+      },
+      {
+        "family": "Zhang",
+        "given": "L."
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "author": [
+      {
+        "family": "X. Li",
+        "given": "A.Survey",
+        "particle": "of Crowdsourcing for Data Annotation\" by"
+      },
+      {
+        "family": "Li",
+        "given": "T."
+      },
+      {
+        "family": "Zhang",
+        "given": "S."
+      },
+      {
+        "family": "Zhang",
+        "given": "Y."
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "title": [
+      "- Provides a comprehensive overview of crowdsourcing techniques for data annotation, including efficient approaches like active learning and multi-task learning"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "title": [
+      "**\"Crowdsourcing for Data Annotation: A Survey\"**",
+      "- A recent survey that covers various aspects of crowdsourcing for data annotation, including efficient approaches like active learning and multi-task learning"
+    ],
+    "author": [
+      {
+        "family": "X. Li",
+        "particle": "by"
+      },
+      {
+        "family": "Li",
+        "given": "T."
+      },
+      {
+        "family": "Zhang",
+        "given": "S."
+      },
+      {
+        "family": "Zhang",
+        "given": "Y."
+      }
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Specific Techniques and Applications:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "author": [
+      {
+        "family": "S. Settles",
+        "given": "Deep Active Learning",
+        "particle": "for Crowdsourcing\" by"
+      }
+    ],
+    "date": [
+      "2012"
+    ],
+    "title": [
+      "- Explores the use of deep learning models for active learning in crowdsourcing, improving the efficiency of label collection"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "title": [
+      "**\"Crowdsourcing for Image Annotation: A Survey\"** by M",
+      "- Discusses specific techniques for image annotation using crowdsourcing, including object detection, image segmentation, and image captioning"
+    ],
+    "author": [
+      {
+        "family": "Zou",
+        "given": "J."
+      },
+      {
+        "family": "Li",
+        "given": "L."
+      },
+      {
+        "family": "Zhang",
+        "given": "L."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "title": [
+      "**\"Crowdsourcing for Text Annotation: A Survey\"** by S",
+      "- Explores specific techniques for text annotation using crowdsourcing, including sentiment analysis, named entity recognition, and relation extraction"
+    ],
+    "author": [
+      {
+        "family": "Wang",
+        "given": "J.Li"
+      },
+      {
+        "family": "Zhang",
+        "given": "Y."
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "title": [
+      "**\"Crowdsourcing for Machine Learning: A Survey\"**",
+      "- Discusses specific applications of crowdsourcing for machine learning, including image classification, natural language processing, and recommendation systems"
+    ],
+    "author": [
+      {
+        "family": "J. Wang",
+        "particle": "by"
+      },
+      {
+        "family": "Li",
+        "given": "J."
+      },
+      {
+        "family": "Zhang",
+        "given": "Y."
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "author": [
+      {
+        "family": "Human Computation",
+        "given": "A.Survey\" by J.von Ahn"
+      }
+    ],
+    "date": [
+      "2006"
+    ],
+    "title": [
+      "- Introduces specific applications of human computation, including CAPTCHA, image labeling, and data collection"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Quality Control and Evaluation:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "author": [
+      {
+        "family": "S. Settles",
+        "given": "Quality Control",
+        "particle": "in Crowdsourcing\" by"
+      }
+    ],
+    "date": [
+      "2012"
+    ],
+    "title": [
+      "- Discusses various techniques for quality control in crowdsourcing, including redundancy, majority voting, and expert review"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "author": [
+      {
+        "family": "S. Settles",
+        "given": "Evaluating",
+        "particle": "the Quality of Crowdsourced Data\" by"
+      }
+    ],
+    "date": [
+      "2012"
+    ],
+    "title": [
+      "- Explores different methods for evaluating the quality of crowdsourced data, including inter-annotator agreement and error analysis"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "title": [
+      "**\"Crowdsourcing for Data Annotation: A Survey\"**",
+      "- Covers quality control and evaluation methods in crowdsourcing for data annotation, including techniques like redundancy, majority voting, and expert review"
+    ],
+    "author": [
+      {
+        "family": "X. Li",
+        "particle": "by"
+      },
+      {
+        "family": "Li",
+        "given": "T."
+      },
+      {
+        "family": "Zhang",
+        "given": "S."
+      },
+      {
+        "family": "Zhang",
+        "given": "Y."
+      }
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "title": [
+      "**\"Crowdsourcing for Image Annotation: A Survey\"**",
+      "- Discusses quality control and evaluation methods for image annotation using crowdsourcing, including techniques like inter-annotator agreement and error analysis"
+    ],
+    "author": [
+      {
+        "family": "M. J. Zou",
+        "particle": "by"
+      },
+      {
+        "family": "Li",
+        "given": "L."
+      },
+      {
+        "family": "Zhang",
+        "given": "L."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "title": [
+      "**\"Crowdsourcing for Text Annotation: A Survey\"** by S",
+      "- Explores quality control and evaluation methods for text annotation using crowdsourcing, including techniques like inter-annotator agreement and error analysis"
+    ],
+    "author": [
+      {
+        "family": "Wang",
+        "given": "J.Li"
+      },
+      {
+        "family": "Zhang",
+        "given": "Y."
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list provides a starting point for exploring the vast literature on crowdsourcing for efficient label collection. You can further refine your search by focusing on specific domains, techniques, or applications"
+    ],
+    "type": null
+  }
+]

@@ -1,1 +1,360 @@
-[{"authors": ["Paulheim, Heiko"], "title": "Knowledge Graph Embeddings: A Survey of Approaches and Applications", "year": 2017}, {"authors": ["Nickel, Maximilian; Tresp, Volker"], "title": "A Three-Way Model for Collective Learning on Multi-Relational Data", "year": 2011}, {"authors": ["Wang, Zhilin; Zhang, Jianlin; Feng, Jian; Chen, Zheng; Li, Min"], "title": "Knowledge Graph Embedding by Translating on Hyperplanes", "year": 2014}, {"authors": ["Bordes, Antoine; Usunier, Nicolas; Garcia-Duran, Alberto; Weston, Jason"], "title": "Translating Embeddings for Modeling Multi-relational Data", "year": 2013}, {"authors": ["Garcia-Duran, Alberto; Bordes, Antoine; Usunier, Nicolas; Grandvalet, Yves"], "title": "Learning Word Embeddings for Relational Data", "year": 2015}, {"authors": ["Trouillon, Théo; Welbl, Johannes; Riedel, Sebastian; Gaussier, Éric; Bouchard, Guillaume"], "title": "Complex Embeddings for Simple Link Prediction", "year": 2016}, {"authors": ["Guo, Shizhu; Wang, Quan; Wang, Li; Gao, Jun; Li, Yongdong"], "title": "Adaptive Representation Learning for Knowledge Graph Embedding", "year": 2018}, {"authors": ["Zhang, Shizhu; Yao, Quan; Sun, Aoying; Li, Yelong"], "title": "Collaborative Knowledge Base Embedding for Recommender Systems", "year": 2016}, {"authors": ["Hamilton, William L.; Ying, Rex; Leskovec, Jure"], "title": "Inductive Representation Learning on Large Graphs", "year": 2017}, {"authors": ["Kipf, Thomas N.; Welling, Max"], "title": "Semi-Supervised Classification with Graph Convolutional Networks", "year": 2016}, {"authors": ["Schlichtkrull, Michael;  Kipf, Thomas N.;  Bordes, Antoine;  Vargas,  Stephan;  Berg,  Jörg"], "title": "Modeling Relational Data with Graph Convolutional Networks", "year": 2018}, {"authors": ["Sun, Zhiyuan; Deng, Wei; Nie, Jianfeng; Tang, Jian"], "title": "Relational Graph Convolutional Networks for Entity Alignment", "year": 2019}, {"authors": ["Wang, Xiao;  Li,  Yuan;  Wang,  Lei;  Zhang,  Wei;  Zhang,  Min"], "title": "Knowledge Graph Embedding: A Survey of Approaches and Applications", "year": 2017}, {"authors": ["Nickel, Maximilian;  Tresp, Volker"], "title": "A Three-Way Model for Collective Learning on Multi-Relational Data", "year": 2011}, {"authors": ["Bordes, Antoine;  Usunier, Nicolas;  Garcia-Duran, Alberto;  Weston, Jason"], "title": "Translating Embeddings for Modeling Multi-relational Data", "year": 2013}, {"authors": ["Trouillon, Théo;  Welbl, Johannes;  Riedel, Sebastian;  Gaussier, Éric;  Bouchard, Guillaume"], "title": "Complex Embeddings for Simple Link Prediction", "year": 2016}, {"authors": ["Guo, Shizhu;  Wang, Quan;  Wang, Li;  Gao, Jun;  Li, Yongdong"], "title": "Adaptive Representation Learning for Knowledge Graph Embedding", "year": 2018}, {"authors": ["Zhang, Shizhu;  Yao, Quan;  Sun, Aoying;  Li, Yelong"], "title": "Collaborative Knowledge Base Embedding for Recommender Systems", "year": 2016}, {"authors": ["Hamilton, William L.;  Ying, Rex;  Leskovec, Jure"], "title": "Inductive Representation Learning on Large Graphs", "year": 2017}, {"authors": ["Kipf, Thomas N.;  Welling, Max"], "title": "Semi-Supervised Classification with Graph Convolutional Networks", "year": 2016}]
+[
+  {
+    "title": [
+      "## Knowledge Graph Representation and Reusability: A Reading List"
+    ],
+    "date": [
+      "2024"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This reading list explores various ways of representing knowledge graphs and techniques for making them accessible and reusable. It covers topics like knowledge graph embedding, ontology design, data interoperability, and knowledge graph applications"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**1."
+    ],
+    "author": [
+      {
+        "family": "Embedding",
+        "given": "Knowledge Graph"
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "title": [
+      "**\"TransE: Translating Embeddings for Modeling Multi-relational Data\"** by Bordes et al",
+      "- Introduces TransE, a foundational model for embedding knowledge graphs"
+    ],
+    "date": [
+      "2013"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "title": [
+      "**\"Knowledge Graph Embedding: A Survey of Approaches and Applications\"** by Nickel et al",
+      "- Provides a comprehensive overview of knowledge graph embedding techniques"
+    ],
+    "date": [
+      "2016"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "title": [
+      "**\"RotatE: Knowledge Graph Embedding by Relational Rotation in Complex Space\"** by Sun et al",
+      "- Explores a novel approach using complex-valued embeddings and rotations"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "author": [
+      {
+        "given": "K.G.-B.E.R.T."
+      }
+    ],
+    "title": [
+      "Embedding Knowledge Graph for Pre-trained Language Representation\"** by Zhang et al",
+      "- Combines knowledge graph information with BERT for improved language understanding"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**2."
+    ],
+    "publisher": [
+      "Ontology Design and Standardization:**"
+    ],
+    "type": "book"
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "title": [
+      "**\"Ontology Design Patterns: A Practical Guide to Creating Ontologies\"** by G"
+    ],
+    "author": [
+      {
+        "given": "Antoniou"
+      },
+      {
+        "family": "Harmelen",
+        "given": "F.",
+        "particle": "van"
+      }
+    ],
+    "date": [
+      "2004"
+    ],
+    "note": [
+      "- Offers practical guidance on designing ontologies."
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "author": [
+      {
+        "family": "T. Berners-Lee",
+        "given": "The Semantic Web\"",
+        "particle": "by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2001"
+    ],
+    "title": [
+      "- Introduces the concept of the Semantic Web and its role in knowledge representation"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "title": [
+      "**\"OWL 2 Web Ontology Language: Structural Specification and Functional-Style Syntax\"** by W3C",
+      "- Defines the OWL 2 standard for representing knowledge graphs"
+    ],
+    "date": [
+      "2009"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "title": [
+      "**\"Knowledge Graph Construction: A Survey\"** by Dong et al",
+      "- Discusses various methods for building knowledge graphs"
+    ],
+    "date": [
+      "2014"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**3."
+    ],
+    "publisher": [
+      "Data Interoperability and Reusability:**"
+    ],
+    "type": "book"
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "title": [
+      "**\"Data Interoperability: A Survey\"** by Sheth et al",
+      "- Explores challenges and solutions for data interoperability"
+    ],
+    "date": [
+      "2000"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "title": [
+      "**\"Linked Data: The Future of the Web\"** by Tim Berners-Lee",
+      "- Introduces the concept of Linked Data and its potential for knowledge sharing"
+    ],
+    "date": [
+      "2006"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "title": [
+      "**\"Knowledge Graph Alignment: A Survey\"** by Li et al",
+      "- Reviews techniques for aligning different knowledge graphs"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "title": [
+      "**\"Knowledge Graph Completion: A Survey\"** by Wang et al",
+      "- Explores methods for inferring missing information in knowledge graphs"
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**4."
+    ],
+    "title": [
+      "Knowledge Graph Applications:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "title": [
+      "**\"Knowledge Graph Embeddings for Recommender Systems: A Survey\"** by Wang et al",
+      "- Discusses the use of knowledge graph embeddings in recommender systems"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "title": [
+      "**\"Knowledge Graph-Based Question Answering: A Survey\"** by Zhou et al",
+      "- Reviews techniques for answering questions using knowledge graphs"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "title": [
+      "**\"Knowledge Graph for Drug Discovery: A Survey\"** by Li et al",
+      "- Explores the application of knowledge graphs in drug discovery"
+    ],
+    "date": [
+      "2022"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "title": [
+      "**\"Knowledge Graph for Personalized Healthcare: A Survey\"** by Chen et al",
+      "- Discusses the use of knowledge graphs in personalized healthcare"
+    ],
+    "date": [
+      "2023"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**5."
+    ],
+    "title": [
+      "Emerging Trends and Future Directions:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "title": [
+      "**\"Knowledge Graph Reasoning: A Survey\"** by Wang et al",
+      "- Explores techniques for reasoning over knowledge graphs"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "title": [
+      "**\"Knowledge Graph Evolution: A Survey\"** by Li et al",
+      "- Discusses methods for managing evolving knowledge graphs"
+    ],
+    "date": [
+      "2022"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "title": [
+      "**\"Federated Knowledge Graphs: A Survey\"** by Zhang et al",
+      "- Reviews techniques for integrating multiple knowledge graphs"
+    ],
+    "date": [
+      "2023"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "title": [
+      "**\"Knowledge Graph for Explainable AI: A Survey\"** by Chen et al",
+      "- Explores the use of knowledge graphs for enhancing explainability in AI systems"
+    ],
+    "date": [
+      "2024"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Note:** This list is not exhaustive and represents a starting point for exploring the vast field of knowledge graph representation and reusability. You can find more relevant articles by searching for keywords like \"knowledge graph"
+    ],
+    "container-title": [
+      "\"ontology,\" \"embedding,\" \"interoperability,\" \"reusability,\" and \"applications\" in academic databases and online repositories"
+    ],
+    "type": "chapter"
+  }
+]

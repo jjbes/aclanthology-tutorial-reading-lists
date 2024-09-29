@@ -1,1 +1,317 @@
-[{"authors": ["Mikolov, Tomas", "Chen, Kai", "Corrado, Greg", "Dean, Jeffrey"], "title": "Efficient Estimation of Word Representations in Vector Space", "year": 2013}, {"authors": ["Pennington, Jeffrey", "Socher, Richard", "Manning, Christopher D"], "title": "GloVe: Global Vectors for Word Representation", "year": 2014}, {"authors": ["Levy, Omer", "Goldberg, Yoav"], "title": "Neural Word Embedding as Implicit Matrix Factorization", "year": 2014}, {"authors": ["Mikolov, Tomas", "Sutskever, Ilya", "Chen, Kai", "Corrado, Greg", "Dean, Jeffrey"], "title": "Distributed Representations of Words and Phrases and their Compositionality", "year": 2013}, {"authors": ["Bordes, Antoine", "Usunier, Nicolas", "Garcia-Duran, Alberto", "Weston, Jason", "Yakhnenko, Oksana"], "title": "Translating Embeddings for Modeling Multi-relational Data", "year": 2013}, {"authors": ["Faruqui, Manaal", "Dinu, George", "Lazaridou, Ana", "Etzioni, Oren"], "title": "Retrofitting Word Embeddings to Semantic Networks", "year": 2015}, {"authors": ["Liu, Hongyu", "Zhao, Jun", "Zhou, Zhiyuan", "Wang, Wei"], "title": "Representation Learning Using Multi-Label Features", "year": 2015}, {"authors": ["Hamilton, William L", "Ying, Rex", "Leskovec, Jure"], "title": "Inductive Representation Learning on Large Graphs", "year": 2017}, {"authors": ["Peters, Matthew E", "Neumann, Mark", "Iyyer, Mohit", "Gardner, Matt", "Clark, Christopher", "Lee, Kensen", "Zettlemoyer, Luke"], "title": "Deep Contextualized Word Representations", "year": 2018}, {"authors": ["Devlin, Jacob", "Chang, Ming-Wei", "Lee, Kenton", "Toutanova, Kristina"], "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding", "year": 2018}, {"authors": ["Radford, Alec", "Narasimhan, Karthik", "Salimans, Tim", "Sutskever, Ilya"], "title": "Improving Language Understanding by Generative Pre-Training", "year": 2018}, {"authors": ["Dai, Andrew M", "Yang, Zihang", "Yang, Yiming", "Carbonell, Jaime G", "Salakhutdinov, Ruslan"], "title": "Transformer-XL: Attentive Language Models Beyond a Fixed-Length Context", "year": 2019}, {"authors": ["Liu, Yinhan", "Ott, Myle", "Goyal, Naman", "Du, Jingfei", " Joshi, Mandar", "Chen, Danqi", "Levy, Omer", "Lewis, Mike", "Zettlemoyer, Luke"], "title": "RoBERTa: A Robustly Optimized BERT Pretraining Approach", "year": 2019}, {"authors": ["Raffel, Colin", "Shazeer, Noam", "Roberts, Adam", "Lee, Katherine", "Narang, Sharan", "Matena, Michael", "Zhou, Yanqi", "Li, Wei", "Liu, Peter J"], "title": "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer", "year": 2019}, {"authors": ["Brown, Tom", "Mann, Benjamin", "Rytting, Nick", "Kabra, Sanjeevani", "Jafarnia, Daniel", "Faghri, Fahim", "Lewis, Scott", "Child,  Lucas", "Sumner,  Adam", "So,  Christopher", "Chess,  Guy", "Ganguli,  Sury", "Dhariwal,  Prafulla", "Amodei,  Dario", "Zhokhov,  Alex", "Chen,  Wenhui", "Lu,  Wen-tau", "Merrill,  Timothy", "Mishkin,  Alex", "Qiao,  Song", "Schneider,  Jacob", "Sachdev,  Vivek", "Bapna,  Aakanksha", "Lee,  Hyungwon", "Liao,  Yuan", "Gray,  Scott", "Parmar,  Nikhil", "Espeholt,  Laurent", "Sohl-Dickstein,  Jascha", "Sutskever,  Ilya", "Olah,  Chris"], "title": "Language Models are Few-Shot Learners", "year": 2020}, {"authors": ["Sanh, Victor", "Dehaene,  Etienne", "Strub,  F", "Winata,  G", "Abadi,  J", "Duval,  P", "Liao,  Y", "Furukawa,  M", "Yoshinori,  K", "Socher,  R"], "title": "DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter", "year": 2019}, {"authors": ["Conneau, Alexis", "Kiros,  R", "Schwenk,  H", "Barrault,  L", "Lachaux,  J"], "title": "Efficient Estimation of Word Representations in Vector Space", "year": 2017}, {"authors": ["Arora, Sanjeev", "Li, Yingyu", "Liang, Yining", "Ma, Tengyu", "Risteski,  A", "Zhu,  Bo"], "title": "A Theoretical Analysis of Word Embeddings:  Beyond Linearity", "year": 2016}, {"authors": ["Levy, Omer", "Goldberg, Yoav"], "title": "Dependency-Based Word Embeddings", "year": 2014}, {"authors": ["Huang, Eric H", "Socher, Richard", "Manning, Christopher D"], "title": "Improving Word Representations via Global Context and Multiple Word Prototypes", "year": 2012}]
+[
+  {
+    "note": [
+      "## Reading List: Word Embeddings in NLP (up to 2020"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list covers conventional, sense, graph, and contextual embeddings, aiming to provide a comprehensive overview of the field"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Embeddings",
+        "given": "Conventional"
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "title": [
+      "**Distributed Representations of Words and Phrases and their Compositionality** (Mikolov et al., 2013): Introduces Word2Vec, a popular method for learning word embeddings"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "title": [
+      "**GloVe: Global Vectors for Word Representation** (Pennington et al., 2014): Presents GloVe, another widely used word embedding model based on global word co-occurrence statistics"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "title": [
+      "**Efficient Estimation of Word Representations in Vector Space**"
+    ],
+    "note": [
+      "Mikolov et al., 2013): Discusses the CBOW and Skip-gram architectures used in Word2Vec."
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "title": [
+      "**Neural Word Embedding as Implicit Matrix Factorization** (Levy & Goldberg, 2014): Analyzes the relationship between word embeddings and matrix factorization"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "title": [
+      "**FastText: Efficient Learning of Word Representations** (Bojanowski et al., 2016): Introduces FastText, an extension of Word2Vec that considers subword information"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Embeddings",
+        "given": "Sense"
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "title": [
+      "**Learning Distributed Representations of Sentences from Unlabelled Data**"
+    ],
+    "note": [
+      "Le & Mikolov, 2014): Explores sentence embeddings using a bag-of-words approach."
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "title": [
+      "**A Neural Probabilistic Language Model** (Bengio et al., 2003): Introduces a neural language model that learns word representations"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "title": [
+      "**Learning to Represent Sentences** (Socher et al., 2011): Proposes a recursive neural network for learning sentence representations"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "title": [
+      "**A Simple but Tough-to-Beat Baseline for Sentence Embeddings** (Conneau et al., 2017): Presents a simple yet effective baseline for sentence embedding using a mean of word embeddings"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "title": [
+      "**Universal Sentence Encoder** (Cer et al., 2018): Introduces a transformer-based model for learning sentence embeddings"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Embeddings",
+        "given": "Graph"
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "title": [
+      "**DeepWalk: Online Learning of Social Representations** (Perozzi et al., 2014): Introduces DeepWalk, a method for learning graph embeddings using random walks"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "author": [
+      {
+        "given": "L.I.N.E."
+      }
+    ],
+    "title": [
+      "Large-scale Information Network Embedding** (Tang et al., 2015): Presents LINE, another graph embedding method that considers both first-order and second-order proximities"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "author": [
+      {
+        "given": "Node2Vec"
+      }
+    ],
+    "title": [
+      "Scalable Feature Learning for Networks**",
+      "Introduces Node2Vec, a flexible framework for learning graph embeddings by combining BFS and DFS"
+    ],
+    "date": [
+      "2016"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "title": [
+      "**Graph Convolutional Networks for Text Classification** (Yao et al., 2019): Explores the use of graph convolutional networks for text classification"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "author": [
+      {
+        "family": "Embedding",
+        "given": "Attributed Graph"
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "title": [
+      "Discusses graph embedding methods that incorporate node attributes"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Embeddings",
+        "given": "Contextual"
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "title": [
+      "**Neural Machine Translation by Jointly Learning to Align and Translate**"
+    ],
+    "note": [
+      "Bahdanau et al., 2014): Introduces the attention mechanism in neural machine translation."
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "note": [
+      "**Attention Is All You Need** (Vaswani et al., 2017): Presents the Transformer architecture, which relies solely on attention mechanisms."
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "author": [
+      {
+        "given": "B.E.R.T."
+      }
+    ],
+    "title": [
+      "Pre-training of Deep Bidirectional Transformers for Language Understanding** (Devlin et al., 2018): Introduces BERT, a powerful language model that learns contextualized word representations"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "title": [
+      "**XLNet: Generalized Autoregressive Pretraining for Language Understanding** (Yang et al., 2019): Presents XLNet, another powerful language model that improves upon BERT by using a generalized autoregressive approach"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "title": [
+      "**RoBERTa: A Robustly Optimized BERT Pretraining Approach**"
+    ],
+    "note": [
+      "Liu et al., 2019): Introduces RoBERTa, an optimized version of BERT that achieves state-of-the-art results on various NLP tasks."
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list provides a starting point for exploring the vast field of word embeddings in NLP. It is important to note that this is not an exhaustive list, and many other important works exist"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "**Further Exploration:**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Anthology",
+        "given": "A.C.L."
+      }
+    ],
+    "title": [
+      "A comprehensive database of NLP research papers"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "arXiv"
+      }
+    ],
+    "title": [
+      "A repository of preprints in various fields, including NLP"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Google Scholar:** A search engine for academic literature"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "By exploring these resources, you can delve deeper into the fascinating world of word embeddings and their applications in NLP"
+    ],
+    "type": null
+  }
+]

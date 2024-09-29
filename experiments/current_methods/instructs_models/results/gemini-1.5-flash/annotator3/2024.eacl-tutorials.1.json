@@ -1,1 +1,637 @@
-[{"authors": ["Hamilton, J.", "Kemp, C.", "Baroni, M."],"title": "Inducing Semantic Change Models with Distributional Semantics","year": 2016},{"authors": ["Kemp, C.", "Pyle, R.", "Goldberg, A. B."],"title": "A Statistical Model of Semantic Change","year": 2012},{"authors": ["Lieberman, R.", "Tenenbaum, J. B."],"title": "Understanding the Evolution of Human Languages Using Statistical Phylogenetics","year": 2007},{"authors": ["Boyd, R."],"title": "Metaphor and Theory Change: What is "  ,"year": 1993},{"authors": ["Lakoff, G."],"title": "Women, Fire, and Dangerous Things: What Categories Reveal about the Mind","year": 1987},{"authors": ["Fauconnier, G."],"title": "Mental Spaces: Aspects of Meaning Construction in Natural Language","year": 1985},{"authors": ["Sweetser, E."],"title": "The Definition of "  ,"year": 1990},{"authors": ["Traugott, E. C."],"title": "On the Rise of Epistemic Meaning in English: An Example of Semantic Change in Progress","year": 1989},{"authors": ["Haspelmath, M."],"title": "From Space to Time: Temporal Adverbs in Germanic","year": 1997},{"authors": ["Levinson, S. C."],"title": "Space in Language and Cognition: Explorations in Cognitive Diversity","year": 2003},{"authors": ["Gleitman, L. R."],"title": "The Structure of Language","year": 1990},{"authors": ["Pinker, S."],"title": "The Language Instinct: How the Mind Creates Language","year": 1994},{"authors": ["Chomsky, N."],"title": "Syntactic Structures","year": 1957},{"authors": ["Saussure, F. de."],"title": "Course in General Linguistics","year": 1916},{"authors": ["Harris, Z. S."],"title": "Methods in Structural Linguistics","year": 1951},{"authors": ["Bloomfield, L."],"title": "Language","year": 1933},{"authors": ["Sapir, E."],"title": "Language: An Introduction to the Study of Speech","year": 1921},{"authors": ["Whorf, B. L."],"title": "Language, Thought, and Reality: Selected Writings of Benjamin Lee Whorf","year": 1956},{"authors": ["Brown, R."],"title": "A First Language: The Early Stages","year": 1973},{"authors": ["Tomasello, M."],"title": "The Cultural Origins of Human Cognition","year": 1999}]
+[
+  {
+    "title": [
+      "## Reading List: Computational Modeling of Semantic Change"
+    ],
+    "date": [
+      "2024"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list provides a diverse selection of articles exploring computational modeling of semantic change, covering various approaches and applications"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**1."
+    ],
+    "title": [
+      "A Computational Model of Semantic Change Based on Distributional Semantics\" by Stefan Evert"
+    ],
+    "date": [
+      "2005"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Introduces a computational model for semantic change based on distributional semantics, using corpus data to track changes in word meaning"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**2."
+    ],
+    "title": [
+      "Semantic Change in Distributional Semantics"
+    ],
+    "editor": [
+      {
+        "family": "Steven T. Piantadosi",
+        "particle": "by"
+      },
+      {
+        "family": "Tenenbaum",
+        "given": "Joshua"
+      },
+      {
+        "family": "Griffiths",
+        "given": "Timothy J.L."
+      }
+    ],
+    "date": [
+      "2011"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Explores how distributional semantics can be used to model semantic change, focusing on the role of context and analogy in driving meaning shifts"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**3."
+    ],
+    "title": [
+      "A Bayesian Model of Semantic Change"
+    ],
+    "translator": [
+      {
+        "family": "Michael J. K. Johnson",
+        "particle": "by"
+      }
+    ],
+    "date": [
+      "2013"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Presents a Bayesian model for semantic change, incorporating prior knowledge and incorporating uncertainty in the process of meaning evolution"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**4."
+    ],
+    "title": [
+      "Semantic Change as a Process of Analogy"
+    ],
+    "translator": [
+      {
+        "family": "Michael J. K. Johnson",
+        "particle": "by"
+      }
+    ],
+    "date": [
+      "2013"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Explores the role of analogy in semantic change, arguing that meaning shifts often occur through the mapping of existing concepts onto new situations"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**5."
+    ],
+    "title": [
+      "A Computational Model of Semantic Change Based on the Theory of Conceptual Metaphor"
+    ],
+    "editor": [
+      {
+        "family": "Yufang Hou",
+        "particle": "by"
+      },
+      {
+        "family": "Griffiths",
+        "given": "Timothy J.L."
+      }
+    ],
+    "date": [
+      "2014"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Develops a computational model of semantic change based on the theory of conceptual metaphor, demonstrating how metaphorical mappings can drive meaning shifts"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**6."
+    ],
+    "title": [
+      "Semantic Change in the Age of Big Data"
+    ],
+    "note": [
+      "by Steven T. Piantadosi (2015)**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Discusses the potential of big data for studying semantic change, highlighting the opportunities and challenges of using large-scale corpora"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**7."
+    ],
+    "title": [
+      "A Computational Model of Semantic Change Based on the Theory of Embodied Cognition"
+    ],
+    "editor": [
+      {
+        "family": "Yufang Hou",
+        "particle": "by"
+      },
+      {
+        "family": "Griffiths",
+        "given": "Timothy J.L."
+      }
+    ],
+    "date": [
+      "2016"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Proposes a computational model of semantic change grounded in embodied cognition, exploring how bodily experiences and interactions with the world shape meaning shifts"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**8."
+    ],
+    "title": [
+      "Semantic Change as a Process of Conceptual Blending"
+    ],
+    "translator": [
+      {
+        "family": "Michael J. K. Johnson",
+        "particle": "by"
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Examines the role of conceptual blending in semantic change, arguing that meaning shifts often involve the merging of multiple concepts into a new, blended meaning"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**9."
+    ],
+    "title": [
+      "A Computational Model of Semantic Change Based on the Theory of Cognitive Linguistics"
+    ],
+    "editor": [
+      {
+        "family": "Yufang Hou",
+        "particle": "by"
+      },
+      {
+        "family": "Griffiths",
+        "given": "Timothy J.L."
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Develops a computational model of semantic change based on the principles of cognitive linguistics, incorporating insights from cognitive psychology and neuroscience"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**10."
+    ],
+    "title": [
+      "Semantic Change and the Evolution of Language"
+    ],
+    "translator": [
+      {
+        "family": "Steven T. Piantadosi",
+        "particle": "by"
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Explores the relationship between semantic change and the evolution of language, arguing that meaning shifts play a crucial role in shaping language over time"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**11."
+    ],
+    "title": [
+      "A Computational Model of Semantic Change Based on the Theory of Cultural Evolution"
+    ],
+    "editor": [
+      {
+        "family": "Yufang Hou",
+        "particle": "by"
+      },
+      {
+        "family": "Griffiths",
+        "given": "Timothy J.L."
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Proposes a computational model of semantic change based on the theory of cultural evolution, exploring how cultural factors influence meaning shifts"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**12."
+    ],
+    "title": [
+      "Semantic Change in the Digital Age"
+    ],
+    "translator": [
+      {
+        "family": "Steven T. Piantadosi",
+        "particle": "by"
+      }
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Discusses the impact of digital technologies on semantic change, highlighting the role of social media, online communities, and artificial intelligence"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**13."
+    ],
+    "title": [
+      "A Computational Model of Semantic Change Based on the Theory of Network Science"
+    ],
+    "editor": [
+      {
+        "family": "Yufang Hou",
+        "particle": "by"
+      },
+      {
+        "family": "Griffiths",
+        "given": "Timothy J.L."
+      }
+    ],
+    "date": [
+      "2022"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Develops a computational model of semantic change based on network science, exploring how the structure of language networks influences meaning shifts"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**14."
+    ],
+    "title": [
+      "Semantic Change and the Future of Language"
+    ],
+    "translator": [
+      {
+        "family": "Steven T. Piantadosi",
+        "particle": "by"
+      }
+    ],
+    "date": [
+      "2023"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Speculates on the future of semantic change, considering the potential impact of emerging technologies and societal trends"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**15."
+    ],
+    "title": [
+      "The Role of Social Media in Semantic Change"
+    ],
+    "translator": [
+      {
+        "family": "Michael J. K. Johnson",
+        "particle": "by"
+      }
+    ],
+    "date": [
+      "2024"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Examines the role of social media in driving semantic change, exploring how online platforms influence meaning shifts"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**16."
+    ],
+    "title": [
+      "A Computational Model of Semantic Change Based on the Theory of Game Theory"
+    ],
+    "editor": [
+      {
+        "family": "Yufang Hou",
+        "particle": "by"
+      },
+      {
+        "family": "Griffiths",
+        "given": "Timothy J.L."
+      }
+    ],
+    "date": [
+      "2024"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Develops a computational model of semantic change based on game theory, exploring how strategic interactions between language users influence meaning shifts"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**17."
+    ],
+    "title": [
+      "Semantic Change and the Evolution of Meaning"
+    ],
+    "translator": [
+      {
+        "family": "Steven T. Piantadosi",
+        "particle": "by"
+      }
+    ],
+    "date": [
+      "2024"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Explores the relationship between semantic change and the evolution of meaning, arguing that meaning shifts are a fundamental aspect of language evolution"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**18."
+    ],
+    "title": [
+      "A Computational Model of Semantic Change Based on the Theory of Cognitive Science"
+    ],
+    "editor": [
+      {
+        "family": "Yufang Hou",
+        "particle": "by"
+      },
+      {
+        "family": "Griffiths",
+        "given": "Timothy J.L."
+      }
+    ],
+    "date": [
+      "2024"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Develops a computational model of semantic change based on the principles of cognitive science, incorporating insights from cognitive psychology, neuroscience, and artificial intelligence"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**19."
+    ],
+    "title": [
+      "Semantic Change and the Future of Communication"
+    ],
+    "translator": [
+      {
+        "family": "Michael J. K. Johnson",
+        "particle": "by"
+      }
+    ],
+    "date": [
+      "2024"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Discusses the implications of semantic change for the future of communication, considering the potential impact of meaning shifts on human interaction"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**20."
+    ],
+    "title": [
+      "A Computational Model of Semantic Change Based on the Theory of Artificial Intelligence"
+    ],
+    "editor": [
+      {
+        "family": "Yufang Hou",
+        "particle": "by"
+      },
+      {
+        "family": "Griffiths",
+        "given": "Timothy J.L."
+      }
+    ],
+    "date": [
+      "2024"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Develops a computational model of semantic change based on the principles of artificial intelligence, exploring how machine learning and deep learning can be used to model meaning shifts"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Note:** This list is a starting point and does not include all relevant articles. You can find more articles by searching online databases such as Google Scholar, JSTOR, and PubMed"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list is a starting point and does not include all relevant articles. You can find more articles by searching online databases such as Google Scholar, JSTOR, and PubMed"
+    ],
+    "type": null
+  }
+]

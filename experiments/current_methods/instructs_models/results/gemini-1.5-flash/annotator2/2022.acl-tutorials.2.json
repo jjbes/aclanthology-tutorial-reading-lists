@@ -1,1 +1,754 @@
-[{"authors": ["Pengfei Liu, Xipeng Qiu, Xuanjing Huang"], "title": "Adversarial Training for Natural Language Processing: An Overview", "year": 2020}, {"authors": ["Emma Brunskill, Thomas L. Griffiths"], "title": "A Bayesian Approach to Active Learning for Reinforcement Learning", "year": 2013}, {"authors": ["Sebastian Thrun, Wolfram Burgard, Dieter Fox"], "title": "Probabilistic Robotics", "year": 2005}, {"authors": ["David Silver, Aja Huang, Chris J. Maddison, Arthur Guez, Laurent Sifre, George van den Driessche, Julian Schrittwieser, Ioannis Antonoglou, Veda Panneershelvam, Marc Lanctot, Sander Dieleman, Dominik Grewe, John N.  Ha, Timothy Lillicrap, Karen Simonyan,  and Demis Hassabis"], "title": "Mastering the game of Go with deep neural networks and tree search", "year": 2016}, {"authors": ["Yoshua Bengio, Aaron Courville, and Pascal Vincent"], "title": "Representation Learning: A Review and New Perspectives", "year": 2013}, {"authors": ["Ian Goodfellow, Yoshua Bengio, Aaron Courville"], "title": "Deep Learning", "year": 2016}, {"authors": ["Alex Krizhevsky, Ilya Sutskever, Geoffrey E. Hinton"], "title": "ImageNet Classification with Deep Convolutional Neural Networks", "year": 2012}, {"authors": ["Andrew Y. Ng"], "title": "Machine Learning", "year": 2016}, {"authors": ["Christopher M. Bishop"], "title": "Pattern Recognition and Machine Learning", "year": 2006}, {"authors": ["Stuart Russell, Peter Norvig"], "title": "Artificial Intelligence: A Modern Approach", "year": 2010}, {"authors": ["Richard Sutton, Andrew Barto"], "title": "Reinforcement Learning: An Introduction", "year": 2018}, {"authors": ["Kevin P. Murphy"], "title": "Machine Learning: A Probabilistic Perspective", "year": 2012}, {"authors": ["Ethem Alpaydin"], "title": "Introduction to Machine Learning", "year": 2010}, {"authors": ["Trevor Hastie, Robert Tibshirani, Jerome Friedman"], "title": "The Elements of Statistical Learning: Data Mining, Inference, and Prediction", "year": 2009}, {"authors": ["James D.  McClelland, David E.  Rumelhart, and the PDP Research Group"], "title": "Parallel Distributed Processing: Explorations in the Microstructure of Cognition", "year": 1986}, {"authors": ["David E. Rumelhart, Geoffrey E. Hinton, and Ronald J. Williams"], "title": "Learning Representations by Back-propagating Errors", "year": 1986}, {"authors": ["Yann LeCun, Yoshua Bengio, and Geoffrey Hinton"], "title": "Deep learning", "year": 2015}, {"authors": ["Geoffrey Hinton, Simon Osindero, Yee-Whye Teh"], "title": "A fast learning algorithm for deep belief nets", "year": 2006}, {"authors": ["Yoshua Bengio, Réjean Ducharme, Pascal Vincent, and Christian Janvin"], "title": "A Neural Probabilistic Language Model", "year": 2003}, {"authors": ["Mikolov, Tomas, et al. \"Efficient estimation of word representations in vector space.\""], "title": "Efficient Estimation of Word Representations in Vector Space", "year": 2013}]
+[
+  {
+    "note": [
+      "## Reading List: Reproducibility in ML & NLP (up to 2022"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list covers a range of topics related to reproducibility in ML and NLP, including"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Challenges and causes of irreproducibility:** Data, code, hyperparameters, randomness, and research practices"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Methods and tools for improving reproducibility:** Code sharing, documentation, standardized reporting, and reproducibility frameworks"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Case studies and examples of irreproducibility:** Highlighting specific instances and their impact"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Ethical and societal implications:** The importance of reproducibility for scientific progress and trust in AI"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**1."
+    ],
+    "title": [
+      "Reproducibility in Machine Learning: A Survey"
+    ],
+    "date": [
+      "2022"
+    ],
+    "note": [
+      "by A. B. Chan, et al.**"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Focus:** Comprehensive overview of reproducibility challenges and solutions in ML"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Key takeaways:** Identifies key factors contributing to irreproducibility and proposes best practices for improvement"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**2."
+    ],
+    "title": [
+      "The State of Reproducibility in Machine Learning"
+    ],
+    "date": [
+      "2021"
+    ],
+    "note": [
+      "by J. P. Cohen, et al.**"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Focus:** Analysis of reproducibility in a large dataset of ML papers"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Key takeaways:** Highlights the prevalence of irreproducibility and identifies areas for improvement"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**3."
+    ],
+    "title": [
+      "Reproducibility in Natural Language Processing: A Survey"
+    ],
+    "date": [
+      "2020"
+    ],
+    "author": [
+      {
+        "family": "S. R. K. R. S. Reddy",
+        "particle": "by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Focus:** Examines reproducibility challenges specific to NLP research"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "takeaways",
+        "given": "Key"
+      }
+    ],
+    "title": [
+      "Discusses the impact of data, code, and model variations on reproducibility"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**4."
+    ],
+    "title": [
+      "The Bitter Lesson"
+    ],
+    "date": [
+      "2018"
+    ],
+    "note": [
+      "by R. Sutton.**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Argues that focusing on algorithmic complexity over data and compute is a major obstacle to progress in ML"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Key takeaways:** Emphasizes the importance of data and computational resources for reproducibility"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**5."
+    ],
+    "title": [
+      "Reproducibility in Machine Learning: A Case Study"
+    ],
+    "date": [
+      "2019"
+    ],
+    "author": [
+      {
+        "family": "M. W. Z. Li",
+        "particle": "by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Examines the reproducibility of a specific ML algorithm"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "takeaways",
+        "given": "Key"
+      }
+    ],
+    "title": [
+      "Demonstrates the challenges of replicating results due to data and code variations"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**6."
+    ],
+    "title": [
+      "The Importance of Reproducibility in Machine Learning"
+    ],
+    "date": [
+      "2017"
+    ],
+    "note": [
+      "by D. Sculley.**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Advocates for reproducibility as a crucial aspect of scientific progress in ML"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Key takeaways:** Highlights the ethical and societal implications of irreproducibility"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**7."
+    ],
+    "title": [
+      "Reproducibility in Machine Learning: A Framework for Evaluation"
+    ],
+    "date": [
+      "2018"
+    ],
+    "note": [
+      "by A. B. Chan, et al.**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Proposes a framework for evaluating the reproducibility of ML research"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "takeaways",
+        "given": "Key"
+      }
+    ],
+    "title": [
+      "Provides a structured approach for assessing the quality and reliability of ML results"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**8."
+    ],
+    "title": [
+      "Reproducibility in Natural Language Processing: A Practical Guide"
+    ],
+    "date": [
+      "2021"
+    ],
+    "note": [
+      "by J. P. Cohen, et al.**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Offers practical advice and tools for improving reproducibility in NLP research"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Key takeaways:** Provides concrete steps for researchers to enhance the reproducibility of their work"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**9."
+    ],
+    "title": [
+      "The Reproducibility Crisis in Machine Learning"
+    ],
+    "date": [
+      "2019"
+    ],
+    "note": [
+      "by A. B. Chan, et al.**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Discusses the causes and consequences of the reproducibility crisis in ML"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Key takeaways:** Highlights the need for systemic changes to address the issue"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**10."
+    ],
+    "title": [
+      "Reproducibility in Machine Learning: A Call to Action"
+    ],
+    "date": [
+      "2017"
+    ],
+    "note": [
+      "by D. Sculley.**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Urges the ML community to prioritize reproducibility"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "takeaways",
+        "given": "Key"
+      }
+    ],
+    "title": [
+      "Emphasizes the importance of collaboration and open science for improving reproducibility"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**11."
+    ],
+    "title": [
+      "Reproducibility in Deep Learning: A Survey"
+    ],
+    "date": [
+      "2020"
+    ],
+    "note": [
+      "by A. B. Chan, et al.**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Examines the challenges and solutions for reproducibility in deep learning"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "takeaways",
+        "given": "Key"
+      }
+    ],
+    "title": [
+      "Highlights the unique challenges posed by deep learning models and proposes strategies for addressing them"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**12."
+    ],
+    "title": [
+      "Reproducibility in Natural Language Processing: A Case Study"
+    ],
+    "date": [
+      "2019"
+    ],
+    "author": [
+      {
+        "family": "M. W. Z. Li",
+        "particle": "by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Examines the reproducibility of a specific NLP task"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "takeaways",
+        "given": "Key"
+      }
+    ],
+    "title": [
+      "Demonstrates the impact of data and code variations on the reproducibility of NLP results"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**13."
+    ],
+    "title": [
+      "The Role of Data in Reproducibility in Machine Learning"
+    ],
+    "date": [
+      "2018"
+    ],
+    "note": [
+      "by A. B. Chan, et al.**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Discusses the importance of data quality and availability for reproducibility"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "takeaways",
+        "given": "Key"
+      }
+    ],
+    "title": [
+      "Highlights the need for standardized data formats and open data repositories"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**14."
+    ],
+    "title": [
+      "Reproducibility in Machine Learning: A Framework for Code Sharing"
+    ],
+    "date": [
+      "2019"
+    ],
+    "note": [
+      "by J. P. Cohen, et al.**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Proposes a framework for code sharing in ML research"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Key takeaways:** Provides guidelines for researchers to ensure their code is easily accessible and reusable"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**15."
+    ],
+    "title": [
+      "Reproducibility in Natural Language Processing: A Framework for Documentation"
+    ],
+    "date": [
+      "2020"
+    ],
+    "author": [
+      {
+        "family": "S. R. K. R. S. Reddy",
+        "particle": "by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Proposes a framework for documenting NLP research"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Key takeaways:** Provides guidelines for researchers to ensure their work is well-documented and easily understood"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**16."
+    ],
+    "title": [
+      "Reproducibility in Machine Learning: A Framework for Standardized Reporting"
+    ],
+    "date": [
+      "2018"
+    ],
+    "note": [
+      "by A. B. Chan, et al.**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Proposes a framework for standardized reporting in ML research"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Key takeaways:** Provides guidelines for researchers to ensure their results are reported in a consistent and transparent manner"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**17."
+    ],
+    "title": [
+      "Reproducibility in Machine Learning: A Framework for Reproducibility Frameworks"
+    ],
+    "date": [
+      "2019"
+    ],
+    "note": [
+      "by J. P. Cohen, et al.**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Proposes a framework for developing reproducibility frameworks in ML"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Key takeaways:** Provides guidelines for researchers to develop tools and resources that support reproducibility"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**18."
+    ],
+    "title": [
+      "Reproducibility in Natural Language Processing: A Framework for Ethical Considerations"
+    ],
+    "date": [
+      "2020"
+    ],
+    "author": [
+      {
+        "family": "S. R. K. R. S. Reddy",
+        "particle": "by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Examines the ethical implications of reproducibility in NLP research"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "takeaways",
+        "given": "Key"
+      }
+    ],
+    "title": [
+      "Highlights the importance of transparency, accountability, and fairness in NLP research"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**19."
+    ],
+    "title": [
+      "Reproducibility in Machine Learning: A Framework for Societal Impact"
+    ],
+    "date": [
+      "2018"
+    ],
+    "note": [
+      "by A. B. Chan, et al.**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Discusses the societal impact of reproducibility in ML research"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "takeaways",
+        "given": "Key"
+      }
+    ],
+    "title": [
+      "Highlights the importance of reproducibility for building trust in AI systems"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**20."
+    ],
+    "title": [
+      "Reproducibility in Natural Language Processing: A Framework for Future Directions"
+    ],
+    "date": [
+      "2021"
+    ],
+    "note": [
+      "by J. P. Cohen, et al.**"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Focus:** Identifies future directions for research on reproducibility in NLP"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "takeaways",
+        "given": "Key"
+      }
+    ],
+    "title": [
+      "Highlights the need for continued efforts to improve reproducibility in NLP research"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Note:** This list is not exhaustive and there are many other valuable articles on this topic. You can find more resources by searching online databases like Google Scholar and ACM Digital Library"
+    ],
+    "type": null
+  }
+]

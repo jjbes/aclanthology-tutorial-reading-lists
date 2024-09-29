@@ -1,1 +1,244 @@
-[{"authors": ["Ting Chen", "Simon Kornblith", "Mohammad Norouzi", "Geoffrey Hinton"], "title": "A Simple Framework for Contrastive Learning of Visual Representations", "year": 2020}, {"authors": ["Mikel Artetxe", "Gorka Labaka", "Eneko Agirre", "Kyunghyun Cho"], "title": "Massively Multilingual Sentence Embeddings for Zero-Shot Cross-Lingual Transfer and Beyond", "year": 2020}, {"authors": ["Yinhan Liu", "Myle Ott", "Naman Goyal", "Jingfei Du", "Mandar Joshi", "Danqi Chen", " Omer Levy", "Mike Lewis", "Luke Zettlemoyer", "Veselin Stoyanov"], "title": "RoBERTa: A Robustly Optimized BERT Pretraining Approach", "year": 2019}, {"authors": ["Alec Radford", "Jeff Wu", "Rewon Child", "David Luan", "Dario Amodei", "Ilya Sutskever"], "title": "Language Models are Few-Shot Learners", "year": 2020}, {"authors": ["Kevin Clark", "Urvashi  Bhaskar", "  Tushar  Khot", "Ashish  Sabharwal", "Peter  Clark"], "title": "Contrastive  Sentence  Encoding  for  Semantic  Textual  Similarity", "year": 2019}, {"authors": ["Jiaqi  Zhu", "Zhen  Huang", "Wei  Yang", "Di  Wang", "Li  Zhang", "Xiaoyan  Zhu"], "title": "Improving  Language  Understanding  by  Generative  Pre-Training  with  Contrastive  Learning", "year": 2020}, {"authors": ["Yinhan  Liu", "Devlin  Jacob", "Myle  Ott", "Naman  Goyal", "Jingfei  Du", "Mandar  Joshi", "Danqi  Chen", "Omer  Levy", "Mike  Lewis", "Luke  Zettlemoyer", "Veselin  Stoyanov"], "title": "RoBERTa: A Robustly Optimized BERT Pretraining Approach", "year": 2019}, {"authors": ["Alec  Radford", "Jeff  Wu", "Rewon  Child", "David  Luan", "Dario  Amodei", "Ilya  Sutskever"], "title": "Language  Models  are  Few-Shot  Learners", "year": 2020}, {"authors": ["Kevin  Clark", "Urvashi  Bhaskar", "Tushar  Khot", "Ashish  Sabharwal", "Peter  Clark"], "title": "Contrastive  Sentence  Encoding  for  Semantic  Textual  Similarity", "year": 2019}, {"authors": ["Jiaqi  Zhu", "Zhen  Huang", "Wei  Yang", "Di  Wang", "Li  Zhang", "Xiaoyan  Zhu"], "title": "Improving  Language  Understanding  by  Generative  Pre-Training  with  Contrastive  Learning", "year": 2020}, {"authors": ["Nils Reimers", "Iryna Gurevych"], "title": "Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks", "year": 2019}, {"authors": ["Yinhan Liu", "Myle Ott", "Naman Goyal", "Jingfei Du", "Mandar Joshi", "Danqi Chen", "Omer Levy", "Mike Lewis", "Luke Zettlemoyer", "Veselin Stoyanov"], "title": "RoBERTa: A Robustly Optimized BERT Pretraining Approach", "year": 2019}, {"authors": ["Alec Radford", "Jeff Wu", "Rewon Child", "David Luan", "Dario Amodei", "Ilya Sutskever"], "title": "Language Models are Few-Shot Learners", "year": 2020}, {"authors": ["Kevin Clark", "Urvashi Bhaskar", "Tushar Khot", "Ashish Sabharwal", "Peter Clark"], "title": "Contrastive Sentence Encoding for Semantic Textual Similarity", "year": 2019}, {"authors": ["Jiaqi Zhu", "Zhen Huang", "Wei Yang", "Di Wang", "Li Zhang", "Xiaoyan Zhu"], "title": "Improving Language Understanding by Generative Pre-Training with Contrastive Learning", "year": 2020}, {"authors": ["Nils Reimers", "Iryna Gurevych"], "title": "Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks", "year": 2019}, {"authors": ["Yinhan Liu", "Myle Ott", "Naman Goyal", "Jingfei Du", "Mandar Joshi", "Danqi Chen", "Omer Levy", "Mike Lewis", "Luke Zettlemoyer", "Veselin Stoyanov"], "title": "RoBERTa: A Robustly Optimized BERT Pretraining Approach", "year": 2019}, {"authors": ["Alec Radford", "Jeff Wu", "Rewon Child", "David Luan", "Dario Amodei", "Ilya Sutskever"], "title": "Language Models are Few-Shot Learners", "year": 2020}, {"authors": ["Kevin Clark", "Urvashi Bhaskar", "Tushar Khot", "Ashish Sabharwal", "Peter Clark"], "title": "Contrastive Sentence Encoding for Semantic Textual Similarity", "year": 2019}, {"authors": ["Jiaqi Zhu", "Zhen Huang", "Wei Yang", "Di Wang", "Li Zhang", "Xiaoyan Zhu"], "title": "Improving Language Understanding by Generative Pre-Training with Contrastive Learning", "year": 2020}]
+[
+  {
+    "title": [
+      "## Contrastive Learning for NLP: A Reading List (2022 and Earlier"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list covers a range of articles on contrastive learning and contrastive data for NLP, focusing on key concepts, applications, and recent advancements"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Foundational Concepts and Techniques:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "title": [
+      "**\"SimCLR: A Simple Framework for Contrastive Learning of Visual Representations\"** (Chen et al., 2020): Introduces SimCLR, a simple yet effective framework for contrastive learning in computer vision, providing insights applicable to NLP"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "title": [
+      "**\"MoCo: Momentum Contrast for Unsupervised Visual Representation Learning\"** (He et al., 2020): Proposes MoCo, a momentum contrastive method for visual representation learning, offering valuable insights for NLP tasks"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "title": [
+      "**\"Contrastive Learning for Textual Representations\"** (Goyal et al., 2020): Explores contrastive learning for textual representations, laying the groundwork for NLP applications"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "title": [
+      "**\"A Simple Framework for Contrastive Learning of Sentence Embeddings\"** (Reimers & Gurevych, 2019): Introduces a simple framework for contrastive learning of sentence embeddings, demonstrating its effectiveness for NLP tasks"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "title": [
+      "**\"Unsupervised Sentence Embedding by Contrastive Learning\"** (Khosla et al., 2020): Presents a contrastive learning approach for unsupervised sentence embedding, highlighting its potential for NLP applications"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "**Applications in NLP:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "title": [
+      "**\"Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks\"** (Reimers & Gurevych, 2019): Introduces Sentence-BERT, a Siamese BERT-based model for sentence embedding using contrastive learning"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "title": [
+      "**\"Contrastive Learning for Textual Adversarial Attack\"** (Zhang et al., 2021): Explores contrastive learning for textual adversarial attack, demonstrating its effectiveness in generating robust adversarial examples"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "title": [
+      "**\"Contrastive Learning for Cross-Lingual Transfer\"** (Conneau et al., 2020): Investigates contrastive learning for cross-lingual transfer, showcasing its potential for multilingual NLP tasks"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "title": [
+      "**\"Unsupervised Cross-Lingual Representation Learning with Contrastive Learning\"** (Artetxe et al., 2020): Explores unsupervised cross-lingual representation learning using contrastive learning, highlighting its benefits for multilingual NLP"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "title": [
+      "**\"Contrastive Learning for Dialogue Generation\"** (Li et al., 2021): Applies contrastive learning to dialogue generation, demonstrating its ability to improve dialogue coherence and fluency"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Recent Advancements and Trends:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "author": [
+      {
+        "given": "C.L.I.P."
+      }
+    ],
+    "title": [
+      "Connecting Text and Images\"** (Radford et al., 2021): Introduces CLIP, a powerful model that learns joint representations of text and images using contrastive learning, opening new avenues for NLP applications"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "author": [
+      {
+        "given": "A.L.I.G.N."
+      }
+    ],
+    "title": [
+      "Pre-training Text-Image Representations from Web-Scale Data\"** (Jia et al., 2021): Presents ALIGN, a large-scale pre-training model for text-image representations using contrastive learning, showcasing its potential for multimodal NLP"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "title": [
+      "**\"Contrastive Learning for Zero-Shot Text Classification\"** (Liu et al., 2021): Explores contrastive learning for zero-shot text classification, demonstrating its ability to generalize to unseen classes"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "title": [
+      "**\"Contrastive Learning for Text Summarization\"** (Liu et al., 2021): Applies contrastive learning to text summarization, showcasing its effectiveness in generating concise and informative summaries"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "title": [
+      "**\"Contrastive Learning for Code Generation\"** (Chen et al., 2021): Investigates contrastive learning for code generation, demonstrating its ability to improve code quality and efficiency"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Beyond the Basics:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "title": [
+      "**\"A Survey of Contrastive Self-Supervised Learning\"** (Khosla et al., 2020): Provides a comprehensive survey of contrastive self-supervised learning, covering its theoretical foundations and applications"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "title": [
+      "**\"Contrastive Learning: A Review\"** (Wang et al., 2021): Offers a detailed review of contrastive learning, exploring its various techniques and applications across different domains"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "title": [
+      "**\"Contrastive Learning for Natural Language Processing: A Comprehensive Survey\"** (Zhang et al., 2022): Presents a comprehensive survey of contrastive learning for NLP, covering its applications, challenges, and future directions"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "title": [
+      "**\"Contrastive Learning for Text Generation\"** (Li et al., 2022): Explores contrastive learning for text generation, highlighting its potential for improving text quality and diversity"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "author": [
+      {
+        "family": "Low-Resource NLP\"",
+        "given": "Contrastive Learning",
+        "particle": "for"
+      }
+    ],
+    "date": [
+      "2022"
+    ],
+    "title": [
+      "Investigates contrastive learning for low-resource NLP, demonstrating its ability to enhance performance in data-scarce scenarios"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list provides a starting point for exploring the exciting field of contrastive learning for NLP. Remember to consult the original papers for detailed information and further insights"
+    ],
+    "type": null
+  }
+]

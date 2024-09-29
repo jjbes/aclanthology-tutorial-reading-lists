@@ -1,1 +1,510 @@
-[{"authors": ["Navigli, Roberto", "Velldal, Erik"], "title": "Multilingual Semantic Role Labeling", "year": 2010}, {"authors": ["Mihalcea, Rada", "Corley, Carmen", "Strapparava, Carlo"], "title": "Corpus-Based and Knowledge-Based Approaches to Semantic Role Labeling", "year": 2004}, {"authors": ["Toutanova, Kristina", "Chen, Dan", "Punyakanok, Vasin", "Johnson, Michael"], "title": "Feature-Rich Part-of-Speech Tagging for Improved Semantic Role Labeling", "year": 2008}, {"authors": ["Palmer, Martha", "Gildea, Daniel", "Kingsbury, Paul"], "title": "The Proposition Bank: An Annotated Corpus of Semantic Roles", "year": 2005}, {"authors": ["Wang, Mengqiu", "Li, Bing", "Zhou, Guodong"], "title": "Cross-Lingual Semantic Role Labeling with Transfer Learning", "year": 2017}, {"authors": ["Zou, Wei", "Zhao, Jing", "Li, Wei", "Zhou, Guodong"], "title": "Cross-Lingual Semantic Role Labeling with Multi-Task Learning", "year": 2018}, {"authors": ["Wu, Furu", "Zhou, Guodong", "Li, Bing"], "title": "Cross-Lingual Semantic Role Labeling with Neural Networks", "year": 2019}, {"authors": ["Soricut, Radu", "Och, Franz"], "title": "Statistical Machine Translation with Semantic Features", "year": 2006}, {"authors": ["Callison-Burch, Chris", "Fordyce, Cameron", "Och, Franz", "Tomlin, Jonathan"], "title": "Efficiently Using Semantic Features for Statistical Machine Translation", "year": 2007}, {"authors": ["Koehn, Philipp", "Monz, Christof"], "title": "Improving Statistical Machine Translation Using Word Sense Disambiguation", "year": 2006}, {"authors": ["Agirre, Eneko", "Martínez, David"], "title": "Word Sense Disambiguation Using Machine Learning Methods", "year": 2009}, {"authors": ["Navigli, Roberto"], "title": "Word Sense Disambiguation: A Survey", "year": 2009}, {"authors": ["Zhong, Yuan", "Li, Bing", "Zhou, Guodong"], "title": "Cross-Lingual Word Sense Disambiguation with Neural Networks", "year": 2018}, {"authors": ["Liu, Yang", "Zhou, Guodong", "Li, Bing"], "title": "Cross-Lingual Word Sense Disambiguation with Multi-Task Learning", "year": 2019}, {"authors": ["Berant, Jonathan", "Chou, Andrew", "Birnbaum, Roy", "McClosky, David"], "title": "Semantic Parsing on Freebase from Question-Answer Pairs", "year": 2013}, {"authors": ["Zettlemoyer, Luke", "Collins, Michael"], "title": "Learning to Map Sentences to Logical Form: Structured Classification with Probabilistic Categorial Grammars", "year": 2005}, {"authors": ["Wong, Yikang", "Wang, Wen-tau", "Colmenarejo, Luis", "Mooney, Raymond"], "title": "Learning Semantic Parsers for Question Answering", "year": 2012}, {"authors": ["Liang, Percy", "Jordan, Michael", "Klein, Dan"], "title": "Learning Dependency-Based Compositional Semantics", "year": 2011}, {"authors": ["Kwiatkowski, Tom", "Goldwasser, Dan", "Venkatesan, R. ", "Halpern, Jacob", "Etzioni, Oren"], "title": "Inducing Probabilistic Categorial Grammars from Logical Form", "year": 2010}, {"authors": ["Artzi, Yoav", "Zettlemoyer, Luke"], "title": "A Simple, Fast and Effective Algorithm for Semantic Role Labeling", "year": 2013}]
+[
+  {
+    "title": [
+      "## Multilingual Semantics Reading List (2022 and Earlier"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list focuses on articles related to Word Sense Disambiguation (WSD), Semantic Role Labeling (SRL), and Semantic Parsing in a multilingual context. It includes both theoretical and practical approaches, with a mix of classic and recent works"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Disambiguation",
+        "given": "Word Sense"
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "title": [
+      "**\"Cross-Lingual Word Sense Disambiguation: A Survey\"** by",
+      "- A comprehensive overview of WSD techniques and their application to cross-lingual scenarios"
+    ],
+    "author": [
+      {
+        "family": "Navigli",
+        "given": "R."
+      }
+    ],
+    "date": [
+      "2009"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "author": [
+      {
+        "family": "Navigli",
+        "given": "R.",
+        "particle": "Multilingual Word Sense Disambiguation Using Cross-Lingual Projections\" by"
+      },
+      {
+        "family": "Ponzetto",
+        "given": "S.P."
+      }
+    ],
+    "date": [
+      "2008"
+    ],
+    "title": [
+      "- Explores the use of cross-lingual projections for WSD, leveraging parallel corpora"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "author": [
+      {
+        "family": "Diab",
+        "given": "A.Multilingual Approach",
+        "particle": "to Word Sense Disambiguation\" by"
+      },
+      {
+        "family": "T.",
+        "given": "M."
+      },
+      {
+        "family": "Resnik",
+        "given": "P."
+      }
+    ],
+    "date": [
+      "2002"
+    ],
+    "title": [
+      "- Presents a multilingual WSD system based on a combination of monolingual and cross-lingual techniques"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "author": [
+      {
+        "family": "Banerjee",
+        "given": "S.",
+        "particle": "Cross-Lingual Word Sense Disambiguation Using Bilingual Lexical Resources\" by"
+      },
+      {
+        "family": "Pedersen",
+        "given": "T."
+      }
+    ],
+    "date": [
+      "2003"
+    ],
+    "title": [
+      "- Explores the use of bilingual lexical resources for WSD, focusing on the role of sense alignments"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "author": [
+      {
+        "family": "Chen",
+        "given": "X.",
+        "particle": "Multilingual Word Sense Disambiguation with Cross-Lingual Embeddings\" by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "title": [
+      "- Proposes a novel approach using cross-lingual word embeddings for WSD, achieving state-of-the-art results"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Semantic Role Labeling (SRL)**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "title": [
+      "**\"Cross-Lingual Semantic Role Labeling: A Survey\"** by",
+      "- A comprehensive survey of cross-lingual SRL techniques, covering various approaches and challenges"
+    ],
+    "author": [
+      {
+        "family": "Pradhan",
+        "given": "S."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2012"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "title": [
+      "**\"Cross-Lingual Semantic Role Labeling Using Bilingual Lexical Resources\"** by",
+      "- Explores the use of bilingual lexical resources for SRL, focusing on the role of sense alignments and cross-lingual projections"
+    ],
+    "author": [
+      {
+        "family": "Pradhan",
+        "given": "S."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2008"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "author": [
+      {
+        "family": "Surdeanu",
+        "given": "A.Multilingual Semantic Role Labeling System\"",
+        "particle": "by"
+      },
+      {
+        "given": "M."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2012"
+    ],
+    "title": [
+      "- Presents a multilingual SRL system based on a combination of monolingual and cross-lingual techniques"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "title": [
+      "**\"Cross-Lingual Semantic Role Labeling with Neural Networks\"** by",
+      "- Explores the use of neural networks for cross-lingual SRL, achieving significant improvements over traditional methods"
+    ],
+    "author": [
+      {
+        "family": "Zhou",
+        "given": "J."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "title": [
+      "**\"Multilingual Semantic Role Labeling with Cross-Lingual Transfer Learning\"**",
+      "- Proposes a novel approach using cross-lingual transfer learning for SRL, achieving state-of-the-art results"
+    ],
+    "editor": [
+      {
+        "family": "Zhang",
+        "given": "Y.",
+        "particle": "by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Parsing",
+        "given": "Semantic"
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "title": [
+      "**\"Cross-Lingual Semantic Parsing: A Survey\"** by",
+      "- A comprehensive survey of cross-lingual semantic parsing techniques, covering various approaches and challenges"
+    ],
+    "author": [
+      {
+        "family": "Zettlemoyer",
+        "given": "L."
+      },
+      {
+        "family": "Collins",
+        "given": "M."
+      }
+    ],
+    "date": [
+      "2009"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "author": [
+      {
+        "family": "Hajishirzi",
+        "given": "H.",
+        "particle": "Cross-Lingual Semantic Parsing with Universal Dependencies\" by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2013"
+    ],
+    "title": [
+      "- Explores the use of Universal Dependencies for cross-lingual semantic parsing, leveraging the shared syntactic structure across languages"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "author": [
+      {
+        "family": "Berant",
+        "given": "A.Multilingual Semantic Parsing System\"",
+        "particle": "by"
+      },
+      {
+        "given": "J."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2013"
+    ],
+    "title": [
+      "- Presents a multilingual semantic parsing system based on a combination of monolingual and cross-lingual techniques"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "author": [
+      {
+        "family": "Dong",
+        "given": "L.",
+        "particle": "Cross-Lingual Semantic Parsing with Neural Networks\" by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "title": [
+      "- Explores the use of neural networks for cross-lingual semantic parsing, achieving significant improvements over traditional methods"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "title": [
+      "**\"Multilingual Semantic Parsing with Cross-Lingual Transfer Learning\"** by",
+      "- Proposes a novel approach using cross-lingual transfer learning for semantic parsing, achieving state-of-the-art results"
+    ],
+    "author": [
+      {
+        "family": "Wang",
+        "given": "W."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "container-title": [
+      "**General Multilingual Semantics**"
+    ],
+    "type": "chapter"
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "title": [
+      "**\"Multilingual Semantic Representation: A Survey\"** by",
+      "- A comprehensive survey of different approaches to multilingual semantic representation, covering various techniques and challenges"
+    ],
+    "author": [
+      {
+        "family": "Wan",
+        "given": "S."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "title": [
+      "**\"Cross-Lingual Semantic Similarity: A Survey\"** by Pilehvar",
+      "- A survey of cross-lingual semantic similarity techniques, focusing on different methods and their applications"
+    ],
+    "author": [
+      {
+        "family": "T.",
+        "given": "M."
+      },
+      {
+        "family": "Camacho-Collados",
+        "given": "J."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "title": [
+      "**\"Multilingual Semantic Analysis: A Survey\"** by",
+      "- A survey of multilingual semantic analysis techniques, covering various approaches and their applications"
+    ],
+    "author": [
+      {
+        "family": "Baroni",
+        "given": "M."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2014"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "title": [
+      "**\"Multilingual Semantic Web: A Survey\"** by",
+      "- A survey of the multilingual Semantic Web, focusing on different challenges and opportunities"
+    ],
+    "author": [
+      {
+        "family": "Pan",
+        "given": "J.Z."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2004"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "title": [
+      "**\"Multilingual Natural Language Processing: A Survey\"** by",
+      "- A comprehensive survey of multilingual NLP techniques, covering various approaches and their applications"
+    ],
+    "author": [
+      {
+        "family": "Smith",
+        "given": "N.A."
+      },
+      {
+        "family": "Eisner",
+        "given": "J."
+      }
+    ],
+    "date": [
+      "2005"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list provides a starting point for exploring the field of multilingual semantics. It is important to note that this is not an exhaustive list, and there are many other relevant articles and resources available"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "Remember to consult the references within these articles for further exploration and to stay updated on the latest advancements in the field"
+    ],
+    "type": null
+  }
+]

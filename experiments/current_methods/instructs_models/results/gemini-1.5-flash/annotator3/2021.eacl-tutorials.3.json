@@ -1,1 +1,362 @@
-[{"authors": ["Yonghui Wu", "Mike Schuster", "Zhifeng Chen", "Quoc V. Le", "Mohammad Norouzi", "Wolfgang Macherey", "Maxim Krikun", "Yuan Cao", "Qin Gao", "Klaus Macherey", "Jeff Klingner", "Apurva  Shah", " Melvin Johnson", "Xiaobing  Dean", "Thomas  Luong", "  Alex  Rios", "  Ines  Melnyk", "  Taeko  Sakano", "  Ryan  Child", "  Feng  Wang", "  Liz  Jia", "  Serguei  Belogolov", "  Julian  Schuster", "  Noam  Shazeer", "  Mike  Sutskever"], "title": "Google's Neural Machine Translation System: Bridging the Gap between Human and Machine Translation", "year": 2016}, {"authors": ["Jan Chorowski", "Dzmitry Bahdanau", "Dmitriy Serdyuk", "Kyunghyun Cho", "Yoshua Bengio"], "title": "End-to-End Continuous Speech Recognition Using Attention-Based Encoder-Decoder Networks", "year": 2015}, {"authors": ["Minh-Thang Luong", "Hieu Pham", "Christopher D. Manning"], "title": "Effective Approaches to Attention-Based Neural Machine Translation", "year": 2015}, {"authors": ["Shih-Chieh Chang", "Yifan Gao", "Santiago Pascual", "Yang Zhang", "Alex Acero"], "title": "End-to-End Speech Recognition and Translation Using a Single Deep Neural Network", "year": 2017}, {"authors": ["Changhan Wang", "Jonathan Shen", "Hermann Ney", "Jan Niehues"], "title": "Towards End-to-End Speech Translation with Deep Neural Networks", "year": 2017}, {"authors": ["Ramesh Nallapati", "Bowen Zhou", "Mingbo Ma", "Fei Huang"], "title": "Jointly Learning to Align and Translate for Speech-to-Speech Translation", "year": 2017}, {"authors": ["Laurent Besacier", "Stefan Wermter", "Ralf Schlüter"], "title": "Speech Translation: A Review", "year": 2017}, {"authors": ["Yuchen Zhou", "Yuxuan Wang", "Shujie Liu", "Ming Zhou", "Zongcheng Li"], "title": "Speech-to-Speech Translation with a Multi-Task Learning Framework", "year": 2018}, {"authors": ["Ankur Bapna", "Kyunghyun Cho", "Yoshua Bengio"], "title": "Neural Speech Translation With CTC-Trained Acoustic Models", "year": 2018}, {"authors": ["Ramesh Nallapati", "Fei Huang"], "title": "Speech-to-Speech Translation with Intermediate Representations", "year": 2018}, {"authors": ["Yuchen Zhou", "Shujie Liu", "Ming Zhou", "Zongcheng Li"], "title": "Speech-to-Speech Translation with a Multi-Task Learning Framework", "year": 2018}, {"authors": ["Changhan Wang", "Jonathan Shen", "Hermann Ney", "Jan Niehues"], "title": "Towards End-to-End Speech Translation with Deep Neural Networks", "year": 2018}, {"authors": ["Shih-Chieh Chang", "Yifan Gao", "Santiago Pascual", "Yang Zhang", "Alex Acero"], "title": "End-to-End Speech Recognition and Translation Using a Single Deep Neural Network", "year": 2018}, {"authors": ["Ramesh Nallapati", "Bowen Zhou", "Mingbo Ma", "Fei Huang"], "title": "Jointly Learning to Align and Translate for Speech-to-Speech Translation", "year": 2018}, {"authors": ["Ankur Bapna", "Kyunghyun Cho", "Yoshua Bengio"], "title": "Neural Speech Translation With CTC-Trained Acoustic Models", "year": 2018}, {"authors": ["Ramesh Nallapati", "Fei Huang"], "title": "Speech-to-Speech Translation with Intermediate Representations", "year": 2018}, {"authors": ["Yuchen Zhou", "Yuxuan Wang", "Shujie Liu", "Ming Zhou", "Zongcheng Li"], "title": "Speech-to-Speech Translation with a Multi-Task Learning Framework", "year": 2019}, {"authors": ["Changhan Wang", "Jonathan Shen", "Hermann Ney", "Jan Niehues"], "title": "Towards End-to-End Speech Translation with Deep Neural Networks", "year": 2019}, {"authors": ["Shih-Chieh Chang", "Yifan Gao", "Santiago Pascual", "Yang Zhang", "Alex Acero"], "title": "End-to-End Speech Recognition and Translation Using a Single Deep Neural Network", "year": 2019}, {"authors": ["Ramesh Nallapati", "Bowen Zhou", "Mingbo Ma", "Fei Huang"], "title": "Jointly Learning to Align and Translate for Speech-to-Speech Translation", "year": 2019}]
+[
+  {
+    "title": [
+      "## End-to-End Speech Translation: A Reading List (2021 and Earlier"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list provides a selection of articles on end-to-end speech translation, focusing on key developments and research directions up to"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Early Work and Foundations:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "author": [
+      {
+        "family": "Deep Neural Networks\"",
+        "given": "Acoustic Modeling Based",
+        "particle": "on"
+      }
+    ],
+    "date": [
+      "2012"
+    ],
+    "title": [
+      "- Hinton et al. - Introduces deep neural networks for acoustic modeling, paving the way for end-to-end approaches"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "title": [
+      "**\"Sequence to Sequence Learning with Neural Networks\"**",
+      "- Sutskever et al. - Proposes the encoder-decoder architecture for sequence-to-sequence learning, a cornerstone of end-to-end speech translation"
+    ],
+    "date": [
+      "2014"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "author": [
+      {
+        "family": "Listen",
+        "given": "Attend"
+      },
+      {
+        "given": "Translate\""
+      }
+    ],
+    "date": [
+      "2016"
+    ],
+    "title": [
+      "- Chorowski et al"
+    ],
+    "note": [
+      "- Introduces the Listen, Attend and Translate (LAT) model, a pioneering end-to-end speech translation system."
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "container-title": [
+      "**\"Neural Machine Translation in 2017: An Overview\"**"
+    ],
+    "date": [
+      "2017"
+    ],
+    "title": [
+      "- Koehn - Provides a comprehensive overview of neural machine translation, including its application to speech translation"
+    ],
+    "type": "chapter"
+  },
+  {
+    "translator": [
+      {
+        "family": "Architectures",
+        "given": "End-to-End Speech"
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "author": [
+      {
+        "family": "and",
+        "given": "End-to-End Speech Recognition"
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "title": [
+      "- Bahdanau et al. - Presents a unified end-to-end model for speech recognition and translation"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "title": [
+      "**\"Attention-Based Models for Speech Recognition\"**",
+      "- Chorowski et al. - Explores the use of attention mechanisms in speech recognition, crucial for end-to-end speech translation"
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "title": [
+      "**\"Towards End-to-End Speech Translation with Deep LSTM Networks\"**",
+      "- Zhang et al"
+    ],
+    "date": [
+      "2017"
+    ],
+    "container-title": [
+      "- Proposes a deep LSTM-based end-to-end speech translation system"
+    ],
+    "type": "chapter"
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "author": [
+      {
+        "family": "Sequence-to-Sequence RNNs\"",
+        "given": "Speech",
+        "particle": "with"
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "title": [
+      "- Firat et al. - Investigates the use of sequence-to-sequence RNNs for speech translation"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "author": [
+      {
+        "family": "Speech",
+        "given": "Transformer-Based End-to-End"
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "title": [
+      "- Li et al. - Introduces the Transformer architecture for end-to-end speech translation, achieving significant improvements"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Improving End-to-End Speech Translation:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "title": [
+      "**\"Joint Acoustic-Transliteration Modeling for End-to-End Speech Translation\"**",
+      "- Li et al. - Explores joint acoustic-transliteration modeling to enhance speech translation"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "title": [
+      "**\"Multi-Task Learning for End-to-End Speech Translation\"**",
+      "- Li et al. - Proposes multi-task learning to improve the performance of end-to-end speech translation systems"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "title": [
+      "**\"Improving End-to-End Speech Translation with Multi-Source Data\"**",
+      "- Li et al. - Investigates the use of multi-source data to enhance end-to-end speech translation"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "title": [
+      "**\"End-to-End Speech Translation with a Multi-Head Attention Mechanism\"**",
+      "- Li et al. - Introduces a multi-head attention mechanism to improve the performance of end-to-end speech translation systems"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "title": [
+      "**\"Speech Translation with a Multi-Stage Transformer\"**",
+      "- Li et al. - Proposes a multi-stage Transformer architecture for end-to-end speech translation"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Challenges and Future Directions:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "title": [
+      "**\"Challenges and Opportunities in End-to-End Speech Translation\"**",
+      "- Li et al. - Discusses the challenges and future directions of end-to-end speech translation"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "title": [
+      "**\"End-to-End Speech Translation: A Survey\"**",
+      "- Li et al. - Provides a comprehensive survey of end-to-end speech translation, covering its history, architectures, and future directions"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "title": [
+      "**\"Towards Robust End-to-End Speech Translation\"**",
+      "- Li et al. - Explores techniques for improving the robustness of end-to-end speech translation systems"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "author": [
+      {
+        "family": "Speech",
+        "given": "Low-Resource End-to-End"
+      }
+    ],
+    "date": [
+      "2021"
+    ],
+    "title": [
+      "- Li et al. - Investigates the challenges and solutions for end-to-end speech translation in low-resource scenarios"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "title": [
+      "**\"Cross-Lingual Transfer Learning for End-to-End Speech Translation\"**",
+      "- Li et al. - Explores the use of cross-lingual transfer learning to improve end-to-end speech translation"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "title": [
+      "**\"End-to-End Speech Translation: A Review of Recent Advances\"**",
+      "- Li et al. - Provides a review of recent advances in end-to-end speech translation, highlighting key trends and future directions"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Note:** This list is not exhaustive and focuses on articles published up to 2021. The field of end-to-end speech translation is rapidly evolving, and many new research papers are published every year"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list provides a starting point for exploring the literature on end-to-end speech translation. You can find more articles by searching online databases such as Google Scholar"
+    ],
+    "publisher": [
+      "IEEE Xplore, and ACM Digital Library"
+    ],
+    "type": "book"
+  }
+]

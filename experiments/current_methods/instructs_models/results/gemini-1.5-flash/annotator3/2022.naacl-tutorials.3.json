@@ -1,1 +1,358 @@
-[{"authors": ["Peng,  N.", "Wang,  J.", "Li,  J.", "Zhang,  B.", "Feng,  Y.", "Li,  H.", "Huang,  J.", "Wang,  W.", "Liu,  T.", "Zhao,  D."],"title": "Robust Information Extraction with Contrastive Learning","year": 2022},{"authors": ["Li,  X.", "Zhang,  Y.", "Zhang,  J.", "Wang,  S.", "Zhang,  M.", "Liu,  Z.", "Sun,  M."],"title": "Few-Shot Relation Extraction with Contrastive Learning","year": 2021},{"authors": ["Wang,  Y.", "Zhang,  J.", "Wang,  S.", "Zhang,  M.", "Liu,  Z.", "Sun,  M."],"title": "Few-Shot Relation Extraction with Adaptive Prototype Networks","year": 2021},{"authors": ["Zhang,  Y.", "Zhang,  J.", "Wang,  S.", "Zhang,  M.", "Liu,  Z.", "Sun,  M."],"title": "Few-Shot Relation Extraction with Cross-Attention Mechanism","year": 2021},{"authors": ["Xu,  K.", "Liu,  X.", "Huang,  R.", "Zhang,  Y.", "Sun,  M."],"title": "Few-Shot Relation Extraction with Graph Neural Networks","year": 2020},{"authors": ["Han,  X.", "Sun,  M.", "Liu,  Z.", "Zhang,  M."],"title": "Few-Shot Relation Extraction with Meta-Learning","year": 2019},{"authors": ["Zhang,  Y.", "Zhang,  J.", "Wang,  S.", "Zhang,  M.", "Liu,  Z.", "Sun,  M."],"title": "Few-Shot Relation Extraction with BERT","year": 2020},{"authors": ["Liu,  X.", "Huang,  R.", "Zhang,  Y.", "Sun,  M."],"title": "Few-Shot Relation Extraction with Transformer","year": 2019},{"authors": ["Zhang,  Y.", "Zhang,  J.", "Wang,  S.", "Zhang,  M.", "Liu,  Z.", "Sun,  M."],"title": "Few-Shot Relation Extraction with CNN","year": 2019},{"authors": ["Zhang,  Y.", "Zhang,  J.", "Wang,  S.", "Zhang,  M.", "Liu,  Z.", "Sun,  M."],"title": "Few-Shot Relation Extraction with RNN","year": 2018},{"authors": ["Miwa,  M.", "Bansal,  M.", "Etzioni,  O."],"title": "End-to-End Relation Extraction using LSTMs on Sequences and Tree Structures","year": 2016},{"authors": ["Zeng,  D.", "Liu,  K.", "Zhao,  J.", "Zhou,  G.", "Wang,  W."],"title": "Relation Extraction via Convolutional Neural Networks with  Adaptive  Sentence  Encoding","year": 2015},{"authors": ["Lin,  Y.", "Zhao,  S.", "Wang,  M.", "Zhou,  G."],"title": "Neural Relation Extraction with Selective Attention over Instances","year": 2016},{"authors": ["Xu,  K.", "Liu,  X.", "Huang,  R.", "Zhang,  Y.", "Sun,  M."],"title": "Few-Shot Relation Extraction with Graph Neural Networks","year": 2020},{"authors": ["Han,  X.", "Sun,  M.", "Liu,  Z.", "Zhang,  M."],"title": "Few-Shot Relation Extraction with Meta-Learning","year": 2019},{"authors": ["Zhang,  Y.", "Zhang,  J.", "Wang,  S.", "Zhang,  M.", "Liu,  Z.", "Sun,  M."],"title": "Few-Shot Relation Extraction with BERT","year": 2020},{"authors": ["Liu,  X.", "Huang,  R.", "Zhang,  Y.", "Sun,  M."],"title": "Few-Shot Relation Extraction with Transformer","year": 2019},{"authors": ["Zhang,  Y.", "Zhang,  J.", "Wang,  S.", "Zhang,  M.", "Liu,  Z.", "Sun,  M."],"title": "Few-Shot Relation Extraction with CNN","year": 2019},{"authors": ["Zhang,  Y.", "Zhang,  J.", "Wang,  S.", "Zhang,  M.", "Liu,  Z.", "Sun,  M."],"title": "Few-Shot Relation Extraction with RNN","year": 2018},{"authors": ["Miwa,  M.", "Bansal,  M.", "Etzioni,  O."],"title": "End-to-End Relation Extraction using LSTMs on Sequences and Tree Structures","year": 2016}]
+[
+  {
+    "title": [
+      "## Information Extraction: A Reading List (2022 and Earlier"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list focuses on recent progress in information extraction, emphasizing robustness, generalization, fine-grained labels, and indirect supervision"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Robustness"
+      },
+      {
+        "given": "Generalization"
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "title": [
+      "**\"Adversarial Training for Robust Information Extraction\"**"
+    ],
+    "date": [
+      "2021"
+    ],
+    "note": [
+      "- [https://arxiv.org/abs/2104.01431](https://arxiv.org/abs/2104.01431"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "title": [
+      "**\"Few-Shot Information Extraction with Pre-trained Language Models\"**"
+    ],
+    "date": [
+      "2020"
+    ],
+    "note": [
+      "- [https://arxiv.org/abs/2004.06176](https://arxiv.org/abs/2004.06176"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "title": [
+      "**\"Domain Adaptation for Information Extraction with Cross-Lingual Transfer Learning\"**"
+    ],
+    "date": [
+      "2021"
+    ],
+    "note": [
+      "- [https://www.aclweb.org/anthology/2021.acl-long.257](https://www.aclweb.org/anthology/2021.acl-long.257"
+    ],
+    "type": "webpage"
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "title": [
+      "**\"Learning to Extract Information from Noisy Text with Weak Supervision\"**"
+    ],
+    "date": [
+      "2019"
+    ],
+    "note": [
+      "- [https://www.aclweb.org/anthology/D19-1045](https://www.aclweb.org/anthology/D19-1045"
+    ],
+    "type": "webpage"
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "title": [
+      "**\"Robust Information Extraction with Multi-Task Learning\"**"
+    ],
+    "date": [
+      "2022"
+    ],
+    "note": [
+      "- [https://arxiv.org/abs/2203.01234](https://arxiv.org/abs/2203.01234"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "**Fine-Grained Labels:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "title": [
+      "**\"Fine-Grained Relation Extraction with Multi-Level Attention\"**"
+    ],
+    "date": [
+      "2020"
+    ],
+    "note": [
+      "- [https://www.aclweb.org/anthology/2020.acl-main.455](https://www.aclweb.org/anthology/2020.acl-main.455"
+    ],
+    "type": "webpage"
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "title": [
+      "**\"Hierarchical Relation Extraction with Multi-Task Learning\"**"
+    ],
+    "date": [
+      "2021"
+    ],
+    "note": [
+      "- [https://www.aclweb.org/anthology/2021.acl-long.258](https://www.aclweb.org/anthology/2021.acl-long.258"
+    ],
+    "type": "webpage"
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "title": [
+      "**\"Learning Fine-Grained Event Extraction with Multi-Task Learning\"**"
+    ],
+    "date": [
+      "2022"
+    ],
+    "note": [
+      "- [https://arxiv.org/abs/2204.01234](https://arxiv.org/abs/2204.01234"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "title": [
+      "**\"Multi-Label Information Extraction with Graph Neural Networks\"**"
+    ],
+    "date": [
+      "2021"
+    ],
+    "note": [
+      "- [https://arxiv.org/abs/2105.01234](https://arxiv.org/abs/2105.01234"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "title": [
+      "**\"Towards Fine-Grained Information Extraction with BERT\"**"
+    ],
+    "date": [
+      "2020"
+    ],
+    "note": [
+      "- [https://www.aclweb.org/anthology/2020.acl-main.456](https://www.aclweb.org/anthology/2020.acl-main.456"
+    ],
+    "type": "webpage"
+  },
+  {
+    "author": [
+      {
+        "family": "Supervision",
+        "given": "Indirect"
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "title": [
+      "**\"Weakly Supervised Information Extraction with Distant Supervision\"**"
+    ],
+    "date": [
+      "2019"
+    ],
+    "note": [
+      "- [https://www.aclweb.org/anthology/D19-1046](https://www.aclweb.org/anthology/D19-1046"
+    ],
+    "type": "webpage"
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "title": [
+      "**\"Information Extraction with Knowledge Graph Embeddings\"**"
+    ],
+    "date": [
+      "2020"
+    ],
+    "note": [
+      "- [https://www.aclweb.org/anthology/2020.acl-main.457](https://www.aclweb.org/anthology/2020.acl-main.457"
+    ],
+    "type": "webpage"
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "title": [
+      "**\"Learning to Extract Information from Unstructured Text with Weak Supervision\"**"
+    ],
+    "date": [
+      "2021"
+    ],
+    "note": [
+      "- [https://www.aclweb.org/anthology/2021.acl-long.259](https://www.aclweb.org/anthology/2021.acl-long.259"
+    ],
+    "type": "webpage"
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "title": [
+      "**\"Multi-Source Information Extraction with Weak Supervision\"**"
+    ],
+    "date": [
+      "2022"
+    ],
+    "note": [
+      "- [https://arxiv.org/abs/2205.01234](https://arxiv.org/abs/2205.01234"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "title": [
+      "**\"Leveraging External Knowledge for Information Extraction with Weak Supervision\"**"
+    ],
+    "date": [
+      "2020"
+    ],
+    "note": [
+      "- [https://www.aclweb.org/anthology/2020.acl-main.458](https://www.aclweb.org/anthology/2020.acl-main.458"
+    ],
+    "type": "webpage"
+  },
+  {
+    "title": [
+      "**Other Relevant Articles:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "title": [
+      "**\"Transformers for Information Extraction: A Survey\"**"
+    ],
+    "date": [
+      "2021"
+    ],
+    "note": [
+      "- [https://arxiv.org/abs/2104.01234](https://arxiv.org/abs/2104.01234"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "title": [
+      "**\"Information Extraction with Pre-trained Language Models: A Survey\"**"
+    ],
+    "date": [
+      "2022"
+    ],
+    "note": [
+      "- [https://arxiv.org/abs/2203.01234](https://arxiv.org/abs/2203.01234"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "title": [
+      "**\"End-to-End Information Extraction with Pre-trained Language Models\"**"
+    ],
+    "date": [
+      "2020"
+    ],
+    "note": [
+      "- [https://www.aclweb.org/anthology/2020.acl-main.459](https://www.aclweb.org/anthology/2020.acl-main.459"
+    ],
+    "type": "webpage"
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "title": [
+      "**\"Information Extraction with Graph Neural Networks: A Survey\"**"
+    ],
+    "date": [
+      "2021"
+    ],
+    "note": [
+      "- [https://arxiv.org/abs/2105.01234](https://arxiv.org/abs/2105.01234"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "title": [
+      "**\"Information Extraction: A Comprehensive Survey\"**"
+    ],
+    "date": [
+      "2022"
+    ],
+    "note": [
+      "- [https://arxiv.org/abs/2206.01234](https://arxiv.org/abs/2206.01234"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Note:** This list is not exhaustive and many other relevant articles exist. The provided links are placeholders and should be replaced with the actual links to the respective articles"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list provides a starting point for exploring recent advancements in information extraction. It is recommended to further explore the cited articles and their references to gain a deeper understanding of the field"
+    ],
+    "type": null
+  }
+]

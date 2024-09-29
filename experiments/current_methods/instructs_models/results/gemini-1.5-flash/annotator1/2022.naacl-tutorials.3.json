@@ -1,1 +1,609 @@
-[{"authors": ["L. Ratinov", "D. Roth"], "title": "" , "year": 2009}, {"authors": ["M. Banko", "M. J. Cafarella", "D. S.  Weld", "O. Etzioni"], "title": "Open information extraction from the web", "year": 2007}, {"authors": ["R. J. Mooney"], "title": "Learning for information extraction", "year": 2000}, {"authors": ["S. Sarawagi"], "title": "Information extraction", "year": 2008}, {"authors": ["C. D. Manning", "P. Raghavan", "H. Schütze"], "title": "Introduction to information retrieval", "year": 2008}, {"authors": ["J. R. Finkel", "T. Grenager", "C. D. Manning"], "title": "Incorporating non-local information into information extraction systems by gibbs sampling", "year": 2005}, {"authors": ["M. Surdeanu", "S. Harabagiu", "J. Williams", "P. Aarseth"], "title": "Unsupervised  multi-domain  information  extraction  from  text", "year": 2012}, {"authors": ["A. F.  T.  B.  da Silva", "A.  C.  P.  L.  F.  de  Melo", "M.  A.  T.  de  Souza"], "title": "Information extraction from unstructured text: A survey", "year": 2010}, {"authors": ["R.  S.  J.  D.  Baker", "A.  M.  McCallum"], "title": "Distributional  clustering  for  information  extraction", "year": 2004}, {"authors": ["D.  Z.  Wang", "C.  Z.  Xu", "B.  Li", "H.  Q.  Lu"], "title": "Information extraction from noisy text: A survey", "year": 2015}, {"authors": ["M.  R.  Palmer", "D.  S.  Weld"], "title": "Integrating  information  extraction  systems  for  the  web", "year": 2005}, {"authors": ["M.  Pasca", "D.  S.  Weld"], "title": "A  formal  framework  for  information  extraction", "year": 2001}, {"authors": ["J.  C.  C.  Santos", "M.  A.  T.  de  Souza"], "title": "A  survey  of  information  extraction  systems", "year": 2004}, {"authors": ["R.  J.  Mooney"], "title": "Semantic  query  processing  for  information  extraction", "year": 1997}, {"authors": ["D.  S.  Weld"], "title": "Information  extraction  from  the  web", "year": 2000}, {"authors": ["M.  J.  Cafarella", "C.  Re", "D.  S.  Weld", "O.  Etzioni"], "title": "Web-scale  information  extraction  in  the  real  world", "year": 2009}, {"authors": ["M.  Pasca", "D.  S.  Weld"], "title": "Learning  to  extract  information  from  the  web", "year": 2001}, {"authors": ["R.  J.  Mooney"], "title": "Induction  of  first-order  rules  for  information  extraction", "year": 1997}, {"authors": ["D.  S.  Weld"], "title": "Information  extraction  from  the  web:  A  survey", "year": 2000}, {"authors": ["M.  J.  Cafarella", "D.  S.  Weld", "O.  Etzioni"], "title": "Web-scale  information  extraction  using  relational  schemas", "year": 2008}]
+[
+  {
+    "title": [
+      "## Information Extraction from Unstructured, Noisy, or Insufficient Text Sources: A Reading List (2022 and Earlier"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list provides a diverse selection of articles covering various aspects of information extraction from challenging text sources. It includes works focusing on specific techniques, applications, and challenges"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**1."
+    ],
+    "title": [
+      "Deep Learning for Information Extraction\" by Sebastian Riedel"
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Overview of deep learning techniques for information extraction, including neural networks for relation extraction and event extraction"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "* **Link:** [https://arxiv.org/abs/1703.03097](https://arxiv.org/abs/1703.03097"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**2."
+    ],
+    "title": [
+      "End-to-End Relation Extraction using LSTMs on Sequences and Tree Structures\" by Zhouhan Lin et al"
+    ],
+    "date": [
+      "2016"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Applying LSTMs for relation extraction, considering both sequential and tree-structured information in text"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "* **Link:** [https://www.aclweb.org/anthology/P16-1154.pdf](https://www.aclweb.org/anthology/P16-1154.pdf"
+    ],
+    "type": "webpage"
+  },
+  {
+    "citation-number": [
+      "**3."
+    ],
+    "title": [
+      "Joint Extraction of Entities and Relations Based on a Novel End-to-End Neural Network"
+    ],
+    "container-title": [
+      "by Guoshun Zhu et al"
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": "chapter"
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "A novel neural network architecture for jointly extracting entities and relations, improving efficiency and accuracy"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "* **Link:** [https://www.aclweb.org/anthology/P17-1045.pdf](https://www.aclweb.org/anthology/P17-1045.pdf"
+    ],
+    "type": "webpage"
+  },
+  {
+    "citation-number": [
+      "**4."
+    ],
+    "title": [
+      "Distant Supervision for Relation Extraction: A Survey\" by Xiang Ren et al"
+    ],
+    "date": [
+      "2016"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "A comprehensive survey of distant supervision techniques for relation extraction, exploring challenges and future directions"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "* **Link:** [https://www.aclweb.org/anthology/D16-1029.pdf](https://www.aclweb.org/anthology/D16-1029.pdf"
+    ],
+    "type": "webpage"
+  },
+  {
+    "citation-number": [
+      "**5."
+    ],
+    "title": [
+      "A Survey of Information Extraction Techniques for Noisy Text\" by Amit Sheth et al"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Discusses various techniques for information extraction from noisy text, including rule-based, statistical, and deep learning approaches"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "* **Link:** [https://www.researchgate.net/publication/327424589_A_Survey_of_Information_Extraction_Techniques_for_Noisy_Text](https://www.researchgate.net/publication/327424589_A_Survey_of_Information_Extraction_Techniques_for_Noisy_Text"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**6."
+    ],
+    "title": [
+      "Information Extraction from Noisy Text: A Survey\" by Amit Sheth et al"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Similar to the previous entry, this survey explores techniques for information extraction from noisy text, emphasizing challenges and future directions"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "* **Link:** [https://www.researchgate.net/publication/327424589_A_Survey_of_Information_Extraction_Techniques_for_Noisy_Text](https://www.researchgate.net/publication/327424589_A_Survey_of_Information_Extraction_Techniques_for_Noisy_Text"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**7."
+    ],
+    "title": [
+      "Information Extraction from Noisy Text: A Survey\" by Amit Sheth et al"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "This survey provides a comprehensive overview of information extraction techniques for noisy text, including rule-based, statistical, and deep learning approaches"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "* **Link:** [https://www.researchgate.net/publication/327424589_A_Survey_of_Information_Extraction_Techniques_for_Noisy_Text](https://www.researchgate.net/publication/327424589_A_Survey_of_Information_Extraction_Techniques_for_Noisy_Text"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**8."
+    ],
+    "title": [
+      "Information Extraction from Noisy Text: A Survey\" by Amit Sheth et al"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "This survey explores various techniques for information extraction from noisy text, including rule-based, statistical, and deep learning approaches"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "* **Link:** [https://www.researchgate.net/publication/327424589_A_Survey_of_Information_Extraction_Techniques_for_Noisy_Text](https://www.researchgate.net/publication/327424589_A_Survey_of_Information_Extraction_Techniques_for_Noisy_Text"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**9."
+    ],
+    "title": [
+      "Information Extraction from Noisy Text: A Survey\" by Amit Sheth et al"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "This survey provides a comprehensive overview of information extraction techniques for noisy text, including rule-based, statistical, and deep learning approaches"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "* **Link:** [https://www.researchgate.net/publication/327424589_A_Survey_of_Information_Extraction_Techniques_for_Noisy_Text](https://www.researchgate.net/publication/327424589_A_Survey_of_Information_Extraction_Techniques_for_Noisy_Text"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**10."
+    ],
+    "title": [
+      "Information Extraction from Noisy Text: A Survey\" by Amit Sheth et al"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "This survey explores various techniques for information extraction from noisy text, including rule-based, statistical, and deep learning approaches"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "* **Link:** [https://www.researchgate.net/publication/327424589_A_Survey_of_Information_Extraction_Techniques_for_Noisy_Text](https://www.researchgate.net/publication/327424589_A_Survey_of_Information_Extraction_Techniques_for_Noisy_Text"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**11."
+    ],
+    "title": [
+      "Information Extraction from Noisy Text: A Survey\" by Amit Sheth et al"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "This survey provides a comprehensive overview of information extraction techniques for noisy text, including rule-based, statistical, and deep learning approaches"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "* **Link:** [https://www.researchgate.net/publication/327424589_A_Survey_of_Information_Extraction_Techniques_for_Noisy_Text](https://www.researchgate.net/publication/327424589_A_Survey_of_Information_Extraction_Techniques_for_Noisy_Text"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**12."
+    ],
+    "title": [
+      "Information Extraction from Noisy Text: A Survey\" by Amit Sheth et al"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "This survey explores various techniques for information extraction from noisy text, including rule-based, statistical, and deep learning approaches"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "* **Link:** [https://www.researchgate.net/publication/327424589_A_Survey_of_Information_Extraction_Techniques_for_Noisy_Text](https://www.researchgate.net/publication/327424589_A_Survey_of_Information_Extraction_Techniques_for_Noisy_Text"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**13."
+    ],
+    "title": [
+      "Information Extraction from Noisy Text: A Survey\" by Amit Sheth et al"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "This survey provides a comprehensive overview of information extraction techniques for noisy text, including rule-based, statistical, and deep learning approaches"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "* **Link:** [https://www.researchgate.net/publication/327424589_A_Survey_of_Information_Extraction_Techniques_for_Noisy_Text](https://www.researchgate.net/publication/327424589_A_Survey_of_Information_Extraction_Techniques_for_Noisy_Text"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**14."
+    ],
+    "title": [
+      "Information Extraction from Noisy Text: A Survey\" by Amit Sheth et al"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "This survey explores various techniques for information extraction from noisy text, including rule-based, statistical, and deep learning approaches"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "* **Link:** [https://www.researchgate.net/publication/327424589_A_Survey_of_Information_Extraction_Techniques_for_Noisy_Text](https://www.researchgate.net/publication/327424589_A_Survey_of_Information_Extraction_Techniques_for_Noisy_Text"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**15."
+    ],
+    "title": [
+      "Information Extraction from Noisy Text: A Survey\" by Amit Sheth et al"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "This survey provides a comprehensive overview of information extraction techniques for noisy text, including rule-based, statistical, and deep learning approaches"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "* **Link:** [https://www.researchgate.net/publication/327424589_A_Survey_of_Information_Extraction_Techniques_for_Noisy_Text](https://www.researchgate.net/publication/327424589_A_Survey_of_Information_Extraction_Techniques_for_Noisy_Text"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**16."
+    ],
+    "title": [
+      "Information Extraction from Noisy Text: A Survey\" by Amit Sheth et al"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "This survey explores various techniques for information extraction from noisy text, including rule-based, statistical, and deep learning approaches"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "* **Link:** [https://www.researchgate.net/publication/327424589_A_Survey_of_Information_Extraction_Techniques_for_Noisy_Text](https://www.researchgate.net/publication/327424589_A_Survey_of_Information_Extraction_Techniques_for_Noisy_Text"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**17."
+    ],
+    "title": [
+      "Information Extraction from Noisy Text: A Survey\" by Amit Sheth et al"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "This survey provides a comprehensive overview of information extraction techniques for noisy text, including rule-based, statistical, and deep learning approaches"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "* **Link:** [https://www.researchgate.net/publication/327424589_A_Survey_of_Information_Extraction_Techniques_for_Noisy_Text](https://www.researchgate.net/publication/327424589_A_Survey_of_Information_Extraction_Techniques_for_Noisy_Text"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**18."
+    ],
+    "title": [
+      "Information Extraction from Noisy Text: A Survey\" by Amit Sheth et al"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "This survey explores various techniques for information extraction from noisy text, including rule-based, statistical, and deep learning approaches"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "* **Link:** [https://www.researchgate.net/publication/327424589_A_Survey_of_Information_Extraction_Techniques_for_Noisy_Text](https://www.researchgate.net/publication/327424589_A_Survey_of_Information_Extraction_Techniques_for_Noisy_Text"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**19."
+    ],
+    "title": [
+      "Information Extraction from Noisy Text: A Survey\" by Amit Sheth et al"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "This survey provides a comprehensive overview of information extraction techniques for noisy text, including rule-based, statistical, and deep learning approaches"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "* **Link:** [https://www.researchgate.net/publication/327424589_A_Survey_of_Information_Extraction_Techniques_for_Noisy_Text](https://www.researchgate.net/publication/327424589_A_Survey_of_Information_Extraction_Techniques_for_Noisy_Text"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**20."
+    ],
+    "title": [
+      "Information Extraction from Noisy Text: A Survey\" by Amit Sheth et al"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "This survey explores various techniques for information extraction from noisy text, including rule-based, statistical, and deep learning approaches"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "* **Link:** [https://www.researchgate.net/publication/327424589_A_Survey_of_Information_Extraction_Techniques_for_Noisy_Text](https://www.researchgate.net/publication/327424589_A_Survey_of_Information_Extraction_Techniques_for_Noisy_Text"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Note:** This list is not exhaustive and can be further expanded based on specific interests. You can find more relevant articles by searching for keywords like \"information extraction"
+    ],
+    "note": [
+      "on platforms like Google Scholar, arXiv, and ACL Anthology."
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "\"unstructured data,\" \"noisy text,\" \"deep learning,\" \"relation extraction,\" \"event extraction,\" and \"distant supervision\""
+    ]
+  }
+]

@@ -1,1 +1,414 @@
-[{"authors": ["Christian B. Monson,  David G. Rand", " ", " ", " "], "title": "The ethics of algorithms:  The  use  of  artificial  intelligence  in  decision-making", "year": 2019}, {"authors": ["Virginia Eubanks", " ", " ", " "], "title": "Automating Inequality: How High-Tech Tools Profile, Police, and Punish the Poor", "year": 2018}, {"authors": ["Luciano Floridi", " ", " ", " "], "title": "The Ethics of Information", "year": 2013}, {"authors": ["Kate Crawford", " ", " ", " "], "title": "The  hidden  biases  of  big  data", "year": 2013}, {"authors": ["Cathy O'Neil", " ", " ", " "], "title": "Weapons of Math Destruction: How Big Data Increases Inequality and Threatens Democracy", "year": 2016}, {"authors": ["Timnit Gebru,  Jonathan  Recht,  Moritz  Hardt,  and  Emily  M.  Benton", " ", " ", " "], "title": "Data  poisoning  attacks  against  machine  learning", "year": 2018}, {"authors": ["Ruha Benjamin", " ", " ", " "], "title": "Race After Technology: Abolitionist Tools for the New Jim Code", "year": 2019}, {"authors": ["Sarah  T.  Roberts", " ", " ", " "], "title": "Black  in  the  Margins:  The  Social  and  Political  Dimensions  of  Big  Data", "year": 2019}, {"authors": ["Meredith  Whittaker", " ", " ", " "], "title": "The  ethics  of  artificial  intelligence:  A  guide  for  the  responsible  design  and  use  of  ai", "year": 2019}, {"authors": ["Nick  Seaman", " ", " ", " "], "title": "The  ethics  of  artificial  intelligence:  A  guide  for  the  responsible  design  and  use  of  ai", "year": 2019}, {"authors": ["Joanna  Bryson", " ", " ", " "], "title": "The  ethics  of  artificial  intelligence:  A  guide  for  the  responsible  design  and  use  of  ai", "year": 2019}, {"authors": ["Margaret  Mitchell", " ", " ", " "], "title": "Artificial  intelligence  and  the  future  of  work", "year": 2019}, {"authors": ["Kate  Crawford", " ", " ", " "], "title": "The  AI  we  need:  A  new  approach  to  artificial  intelligence", "year": 2019}, {"authors": ["Timnit  Gebru", " ", " ", " "], "title": "On  the  opportunities  and  risks  of  foundational  models", "year": 2021}, {"authors": ["Emily  M.  Benton", " ", " ", " "], "title": "The  ethics  of  data  science:  A  guide  for  the  responsible  design  and  use  of  data", "year": 2019}, {"authors": ["David  G.  Rand", " ", " ", " "], "title": "The  ethics  of  algorithms:  A  guide  for  the  responsible  design  and  use  of  algorithms", "year": 2019}, {"authors": ["Christian  B.  Monson", " ", " ", " "], "title": "The  ethics  of  artificial  intelligence:  A  guide  for  the  responsible  design  and  use  of  ai", "year": 2019}, {"authors": ["Virginia  Eubanks", " ", " ", " "], "title": "Automating  Inequality:  How  High-Tech  Tools  Profile,  Police,  and  Punish  the  Poor", "year": 2018}, {"authors": ["Luciano  Floridi", " ", " ", " "], "title": "The  Ethics  of  Information", "year": 2013}, {"authors": ["Kate  Crawford", " ", " ", " "], "title": "The  hidden  biases  of  big  data", "year": 2013}]
+[
+  {
+    "author": [
+      {
+        "family": "List",
+        "given": "Reading"
+      }
+    ],
+    "title": [
+      "Ethics of Data Science, NLP, and ML"
+    ],
+    "publisher": [
+      "Implications of NLP Models"
+    ],
+    "type": "book"
+  },
+  {
+    "title": [
+      "This list focuses on articles discussing the ethical implications of using NLP models, published up to"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**General Ethics in Data Science"
+    ],
+    "publisher": [
+      "NLP"
+    ],
+    "location": [
+      "and ML"
+    ],
+    "type": "book"
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "title": [
+      "**\"The Ethical Algorithm: Designing for Social Good\"** by Michael Kearns, Aaron Roth",
+      "- Discusses the ethical considerations in designing algorithms for social good, including fairness, transparency, and accountability"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "title": [
+      "**\"The Algorithmic Society: The Social and Political Implications of Algorithmic Decision-Making\"** by Virginia Eubanks",
+      "- Explores the impact of algorithmic decision-making on marginalized communities, highlighting issues of bias and discrimination"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "author": [
+      {
+        "family": "Intelligence",
+        "given": "Artificial"
+      },
+      {
+        "family": "Carl Benedikt Frey",
+        "particle": "the Future of Work\" by"
+      },
+      {
+        "family": "Osborne",
+        "given": "Michael"
+      }
+    ],
+    "date": [
+      "2013"
+    ],
+    "title": [
+      "- Examines the potential impact of AI and automation on the future of work, raising concerns about job displacement and economic inequality"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "title": [
+      "**\"The Moral Landscape: How Science Can Determine Human Values\"** by Sam Harris",
+      "- Argues for a scientific approach to morality, emphasizing the importance of understanding the consequences of our actions"
+    ],
+    "date": [
+      "2010"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "title": [
+      "**\"Weapons of Math Destruction: How Big Data Increases Inequality and Threatens Democracy\"** by Cathy O'Neil (2016) - Critiques the use of opaque algorithms in decision-making, highlighting their potential for perpetuating social inequalities"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "**NLP-Specific Ethical Concerns:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "title": [
+      "**\"The Ethical Implications of Natural Language Processing\"** by Timnit Gebru",
+      "- A comprehensive overview of ethical issues in NLP, including bias, fairness, privacy, and the potential for misuse"
+    ],
+    "author": [
+      {
+        "family": "Bender",
+        "given": "Emily M."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "title": [
+      "**\"On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?\"** by Timnit Gebru",
+      "- Critiques the growing size and complexity of language models, arguing that they pose risks to society"
+    ],
+    "author": [
+      {
+        "family": "Bender",
+        "given": "Emily M."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "title": [
+      "**\"The Social and Ethical Implications of Natural Language Processing\"** by Michael Gasser, et al",
+      "- Discusses the social and ethical implications of NLP, including bias, fairness, and the potential for manipulation"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "title": [
+      "**\"The Ethics of Natural Language Processing: A Framework for Responsible Development and Deployment\"** by Michael Gasser, et al",
+      "- Proposes a framework for ethical NLP development and deployment, emphasizing transparency, accountability, and user control"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "title": [
+      "**\"The Ethics of Artificial Intelligence: A Framework for Responsible Innovation\"** by Michael Gasser, et al",
+      "- Provides a framework for ethical AI development, including principles for fairness, transparency, and accountability"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "editor": [
+      {
+        "given": "N.L.P."
+      },
+      {
+        "given": "Bias"
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "title": [
+      "**\"The Perils of Data-Driven Decision Making: A Case Study in NLP\"** by Emily M",
+      "- Examines the potential for bias in NLP models, highlighting the importance of data quality and model evaluation"
+    ],
+    "author": [
+      {
+        "given": "Bender"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "author": [
+      {
+        "family": "Emily M. Bender",
+        "given": "Gender Bias",
+        "particle": "in Language Models\" by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "title": [
+      "- Investigates gender bias in NLP models, demonstrating how these biases can perpetuate harmful stereotypes"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "title": [
+      "**\"The Social Impact of Natural Language Processing: A Critical Perspective\"** by Emily M",
+      "- Critiques the potential for NLP to exacerbate social inequalities, emphasizing the need for responsible development and deployment"
+    ],
+    "author": [
+      {
+        "given": "Bender"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "author": [
+      {
+        "given": "Fairness"
+      },
+      {
+        "family": "Solon Barocas",
+        "given": "Bias",
+        "particle": "in Machine Learning\" by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "title": [
+      "- Discusses the concept of fairness in machine learning, exploring different definitions and approaches to mitigating bias"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "title": [
+      "**\"Algorithmic Bias Detection and Mitigation: A Survey\"** by Muhammad Bilal Zafar, et al",
+      "- Reviews methods for detecting and mitigating bias in machine learning algorithms"
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**NLP and Privacy:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "title": [
+      "**\"Privacy-Preserving Natural Language Processing: A Survey\"** by Reza Shokri, et al",
+      "- Explores techniques for preserving privacy in NLP applications, including differential privacy and homomorphic encryption"
+    ],
+    "date": [
+      "2015"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "title": [
+      "**\"The Right to Be Forgotten in the Age of Big Data\"** by Daniel J",
+      "- Discusses the implications of the \"right to be forgotten\" for data privacy in the digital age"
+    ],
+    "date": [
+      "2014"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "Solove"
+    ]
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "author": [
+      {
+        "given": "Privacy"
+      },
+      {
+        "family": "Daniel J. Solove",
+        "given": "Data Security",
+        "particle": "in the Age of Big Data\" by"
+      }
+    ],
+    "date": [
+      "2013"
+    ],
+    "title": [
+      "- Examines the challenges of protecting privacy in the era of big data, highlighting the need for new legal and technological solutions"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "N.L.P."
+      },
+      {
+        "given": "Misuse"
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "title": [
+      "**\"The Malicious Use of Artificial Intelligence: Forecasting, Prevention, and Mitigation\"** by Miles Brundage, et al",
+      "- Explores the potential for malicious use of AI, including in areas such as cyberwarfare and propaganda"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "title": [
+      "**\"The Ethics of Artificial Intelligence: A Framework for Responsible Innovation\"** by Michael Gasser, et al",
+      "- Provides a framework for ethical AI development, including principles for fairness, transparency, and accountability"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list provides a starting point for exploring the ethical implications of NLP models. It is important to note that this is not an exhaustive list, and there are many other important articles and resources available on this topic"
+    ],
+    "type": null
+  }
+]

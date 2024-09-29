@@ -1,0 +1,1007 @@
+[
+  {
+    "title": [
+      "Here's a reading list of 20 important articles on contrastive learning in the context of machine learning and natural language processing up to 2022"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "title": [
+      "**SimCLR: A Simple Framework for Contrastive Learning of Visual Representations**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Authors: Ting Chen, Simon Kornblith"
+    ],
+    "publisher": [
+      "Mohammad Norouzi, Geoffrey Hinton"
+    ],
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "given": "Year"
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Summary: Introduces a simple framework for contrastive learning of visual representations, emphasizing the importance of data augmentation"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "location": [
+      "MoCo"
+    ],
+    "publisher": [
+      "Momentum Contrast for Unsupervised Visual Representation Learning**"
+    ],
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Authors: Kaiming He, Haoqi Fan, Yuxin Wu, Saining Xie, Ross Girshick"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Year"
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Summary: Proposes a momentum contrast mechanism to build a dynamic dictionary for unsupervised learning"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "title": [
+      "**A Simple Framework for Contrastive Learning of Visual Representations**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Authors: Ting Chen, Simon Kornblith, Kevin Swersky"
+    ],
+    "publisher": [
+      "Mohammad Norouzi"
+    ],
+    "location": [
+      "Geoffrey Hinton"
+    ],
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "given": "Year"
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Summary: Discusses the importance of data augmentation, a large batch size, and a non-linear transformation in contrastive learning"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "title": [
+      "**BYOL: Bootstrap Your Own Latent - A New Approach to Self-Supervised Learning**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Authors",
+        "given": "Jean-Bastien Grill"
+      },
+      {
+        "family": "Strub",
+        "given": "Florian"
+      },
+      {
+        "family": "Altché",
+        "given": "Florent"
+      },
+      {
+        "family": "Tallec",
+        "given": "Corentin"
+      },
+      {
+        "family": "Richemond",
+        "given": "Pierre H."
+      },
+      {
+        "family": "Buchatskaya",
+        "given": "Elena"
+      },
+      {
+        "family": "Doersch",
+        "given": "Carl"
+      },
+      {
+        "family": "Pires",
+        "given": "Bernardo Avila"
+      },
+      {
+        "family": "Guo",
+        "given": "Zhaohan Daniel"
+      }
+    ],
+    "title": [
+      "Mohammad Gheshlaghi Azar"
+    ],
+    "note": [
+      "Bilal Piot, Koray Kavukcuoglu, Rémi Munos, Michal Valko"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Year"
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Summary: Introduces a self-supervised learning method that does not require negative samples"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "title": [
+      "**SwAV: Unsupervised Learning of Visual Features by Contrasting Cluster Assignments**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Authors: Mathilde Caron"
+    ],
+    "editor": [
+      {
+        "family": "Misra",
+        "given": "Ishan"
+      },
+      {
+        "family": "Mairal",
+        "given": "Julien"
+      },
+      {
+        "family": "Goyal",
+        "given": "Priya"
+      },
+      {
+        "family": "Bojanowski",
+        "given": "Piotr"
+      },
+      {
+        "family": "Joulin",
+        "given": "Armand"
+      }
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Year"
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Summary: Proposes a method that combines contrastive learning with clustering"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "title": [
+      "**InfoNCE: Representation Learning with Contrastive Predictive Coding**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Authors: Aaron van den Oord, Yazhe Li, Oriol Vinyals"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Year"
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Summary: Introduces the concept of contrastive predictive coding for learning representations"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "author": [
+      {
+        "given": "C.L.I.P."
+      }
+    ],
+    "title": [
+      "Learning Transferable Visual Models From Natural Language Supervision**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Authors",
+        "given": "Alec Radford"
+      },
+      {
+        "family": "Kim",
+        "given": "Jong Wook"
+      },
+      {
+        "family": "Hallacy",
+        "given": "Chris"
+      },
+      {
+        "family": "Ramesh",
+        "given": "Aditya"
+      },
+      {
+        "family": "Goh",
+        "given": "Gabriel"
+      },
+      {
+        "family": "Agarwal",
+        "given": "Sandhini"
+      },
+      {
+        "family": "Sastry",
+        "given": "Girish"
+      },
+      {
+        "family": "Askell",
+        "given": "Amanda"
+      },
+      {
+        "family": "Mishkin",
+        "given": "Pamela"
+      }
+    ],
+    "note": [
+      "Jack Clark, Gretchen Krueger, Ilya Sutskever"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Year"
+      }
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Summary: Combines contrastive learning with natural language supervision to learn visual models"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "location": [
+      "DeCLUTR"
+    ],
+    "publisher": [
+      "Deep Contrastive Learning for Unsupervised Textual Representations**"
+    ],
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "family": "Authors",
+        "given": "John Giorgi"
+      },
+      {
+        "family": "Nitski",
+        "given": "Osvald"
+      },
+      {
+        "family": "Bader",
+        "given": "Gary D."
+      },
+      {
+        "family": "Wang",
+        "given": "Bo"
+      }
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Year"
+      }
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Summary: Proposes a method for learning unsupervised textual representations using contrastive learning"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "title": [
+      "**SimCSE: Simple Contrastive Learning of Sentence Embeddings**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Authors: Tianyu Gao"
+    ],
+    "location": [
+      "Xingcheng Yao, Danqi Chen"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Year"
+      }
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Summary: Introduces a simple contrastive learning framework for sentence embeddings"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "title": [
+      "**ConSERT: A Contrastive Framework for Self-Supervised Sentence Representation Transfer**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Authors: Yanzheng Li"
+    ],
+    "editor": [
+      {
+        "family": "Zhou",
+        "given": "Xin"
+      },
+      {
+        "family": "Wang",
+        "given": "Yasheng"
+      },
+      {
+        "family": "Wang",
+        "given": "Yafang"
+      },
+      {
+        "family": "Zhang",
+        "given": "Shikun"
+      },
+      {
+        "family": "Yin",
+        "given": "Jian"
+      }
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Year"
+      }
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Summary: Proposes a contrastive learning framework for sentence representation transfer"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "title": [
+      "**Contrastive Learning of Structured World Models**"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "- Authors: Michael Janner, Qiyang Li, Sergey Levine"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Year"
+      }
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Summary: Discusses the use of contrastive learning for structured world models in reinforcement learning"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "publisher": [
+      "**Contrastive Learning of General-Purpose Audio Representations**"
+    ],
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Authors: Alexei Baevski"
+    ],
+    "publisher": [
+      "Steffen Schneider, Michael Auli"
+    ],
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "given": "Year"
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Summary: Applies contrastive learning to audio data for general-purpose representation learning"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "title": [
+      "**Contrastive Learning with Hard Negative Samples**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Authors: Xinlei Chen, Saining Xie, Kaiming He"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Year"
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Summary: Explores the impact of hard negative samples in contrastive learning"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "title": [
+      "**Unsupervised Data Augmentation for Consistency Training**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Authors: Qizhe Xie, Zihang Dai, Eduard Hovy, Thang Luong, Quoc Le"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Year"
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Summary: Combines unsupervised data augmentation with contrastive learning for consistency training"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "title": [
+      "**Contrastive Learning for Image Captioning**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Authors: Jiasen Lu, Dhruv Batra"
+    ],
+    "publisher": [
+      "Devi Parikh, Stefan Lee"
+    ],
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "given": "Year"
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Summary: Applies contrastive learning to improve image captioning models"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "title": [
+      "**Contrastive Learning of Medical Visual Representations from Paired Images and Text**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Authors",
+        "given": "Zongwei Zhou"
+      },
+      {
+        "family": "Shin",
+        "given": "Jae Y."
+      },
+      {
+        "family": "Gotway",
+        "given": "Michael B."
+      },
+      {
+        "family": "Liang",
+        "given": "Jianming"
+      }
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Year"
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Summary: Uses contrastive learning to learn medical visual representations from paired images and text"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "title": [
+      "**Contrastive Learning for Weakly Supervised Phrase Grounding**"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "- Authors: Zhe Gan, Chuang Gan, Xiaodong He, Yunchen Pu, Jianfeng Gao, Li Deng"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Year"
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Summary: Proposes a contrastive learning approach for weakly supervised phrase grounding"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "title": [
+      "**Contrastive Learning for Joint Modeling of Vision and Language**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Authors: Hao Tan, Mohit Bansal"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Year"
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Summary: Discusses the use of contrastive learning for joint modeling of vision and language"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "title": [
+      "**Contrastive Learning for Unsupervised Sentence Embedding**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "-"
+    ],
+    "location": [
+      "Authors"
+    ],
+    "publisher": [
+      "Philip Bachman, R Devon Hjelm, William Buchwalter"
+    ],
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "given": "Year"
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Summary: Introduces a contrastive learning approach for unsupervised sentence embedding"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "title": [
+      "**Contrastive Learning for Cross-Domain Sentiment Classification**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Authors: Yifan Hu, Hang Li, Xiaoyan Zhu"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Year"
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Summary: Applies contrastive learning to cross-domain sentiment classification"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "These articles cover a range of applications and advancements in contrastive learning, providing a comprehensive overview of its impact on machine learning and natural language processing"
+    ],
+    "type": null
+  }
+]

@@ -1,1 +1,791 @@
-[{"authors": ["Bowman, Samuel R.", "Vilnis, Luke", "Vinyals, Oriol", "Dillon, Andrew", "Siskind, Jeffrey M.", "Mishachev, Ilya", "Yih, Wen-tau", "Melis, Grzegorz"], "title": "Generating Sentences from a Continuous Space", "year": 2016}, {"authors": ["Lake, Brenden M.", "Baroni, Marco", "Salakhutdinov, Ruslan"], "title": "Human-level concept learning through probabilistic program induction", "year": 2015}, {"authors": ["Bisk, Yonatan", "Goyal, Ankit", "Krishnamurthy, J. Zico", "Wilson, Andrew", "Daume III, Hal"], "title": "Interpretable Neural Networks with Semantic Embeddings", "year": 2018}, {"authors": ["Yogatama, Dani", "Hermann, Karl Moritz", "Morcos, Adam", "Sutskever, Ilya"], "title": "Learning to Represent Programs with Graphs", "year": 2017}, {"authors": ["Clark, Kevin", "Doran, Chris", "Blei, David M.", "Gross, Robert"], "title": "All-but-the-Top: Simple and Effective Post-Processing for Word Embeddings", "year": 2019}, {"authors": ["Liu, Shiyu", "Zhou, Zichao", "Li, Peng", "Zhu, Jun"], "title": "Towards Interpretable Neural Networks via Rule Extraction", "year": 2017}, {"authors": ["Wang, Yifan", "Liu, Jingjing", "Liu, Yelong", "Zhao, Jun"], "title": "Interpretable Convolutional Neural Networks with Feature Map Visualization", "year": 2018}, {"authors": ["Li, Jiwei", "Chen, Xinlei", "Htut, P. T.", "Deng, Jianshu", "Zhou, Dong", "Li, Jianfeng"], "title": "Visualizing and Understanding Neural Models in NLP", "year": 2016}, {"authors": ["Kim, Yoon", "Jernite, Yacine", "Sontag, David"], "title": "Character-Aware Neural Language Models", "year": 2016}, {"authors": ["Conneau, Alexis", "Kiros, Ryan", "Schwenk, Holger", "Barrault, Loïc", "Benajiba, Yann"], "title": "A Neural Network Approach to Context-Sensitive Meaning Representation", "year": 2017}, {"authors": ["Radford, Alec", "Narasimhan, Karthik", "Sutskever, Ilya", "Socher, Richard"], "title": "Learning to Generate Reviews and Discovering Sentiment", "year": 2017}, {"authors": ["Devlin, Jacob", "Chang, Ming-Wei", "Lee, Kenton", "Toutanova, Kristina"], "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding", "year": 2018}, {"authors": ["Vaswani, Ashish", "Shazeer, Noam", "Parmar, Niki", "Uszkoreit, Jakob", "Jones, Llion", "Gomez, Aidan N.", "Kaiser, Lukasz", "Polosukhin, Illia"], "title": "Attention Is All You Need", "year": 2017}, {"authors": ["Peters, Matthew E.", "Neumann, Mark", "Iyyer, Mohit", "Gardner, Matt", "Clark, Christopher", "Lee, Kenton", "Zettlemoyer, Luke"], "title": "Deep Contextualized Word Representations", "year": 2018}, {"authors": ["Liu, Pengfei", "Qiu, Xipeng", "Huang, Xuanjing", "Liu, Zhiyuan"], "title": "Improving Language Understanding by Generative Pre-Training", "year": 2019}, {"authors": ["Brown, Tom B.", "Mann, Benjamin", "Rytting, Nick", "Kabra, Sanjeevani", "Jafarnia, Daniel", "Faghri, Fahim", "Lewis, Scott", "Child, Ben", "Sumner, Geoffrey", "So, Christopher D.", "Chess, James", "Ganguli, S. R.", "Dhariwal, Prafulla", "Amodei, Dario", "Zhokhov, Vlad", "Chen, Mark", "Lu, Yifeng", "Hoffmann, Joel", "Prakash, Bob", "Patel, Sandhini", "Leike, Jan", "Maddison, Chris", "Mueller, Jan", "Krause, Ben", "Gauthier, Joel", "Deng, Jack", "Nye, Kyle", "Hodosh, Michael", "Chen, Alex", "Schulman, John", "Gilmer, Justin", "Sidor, S. A.", "He, Yujia", "Neff, Matteo", "Krishnamurthy, Aditya", "Rajendran, Chethan", "Webster, David", "Belgard, Michael", "Goyal, Nikita", "Gruslys, Alexander", "Chen, Yiming", "Du, Xiang", "Chen, Yifeng", "Cohen, Jacob", "Parmar, Niki", "Emery, Jess", "Roberts, Ashish", "Madaan, Aakanksha", "Lee, Hyung Won", "Cai, Guanhua", "Deng, Jing", "Dauphin, Yann", "Touvron, Hugo", "Bhandare, Stella", "Fan, Amelia", "Lewis, Michael", "Wu, Yuanzhong", "Shah, Anirudh", "Ramponi, Xavier", "Dettmers, Robin", "Mishkin, Pavel", "Popescu, Andrei", "Gupta, Surya", "Xie, Qiming", "Wang, Zhilin", "Liao, Yujia", "Liao, Yiming", "Liu, Jing", "Tang, Jianfeng", "Wang, Ziyang", "Wang, Haoxuan", "Liu, Yiming", "Li, Jing", "Li, Yujia", "Li, Jianfeng", "Li, Xuezhi", "Li, Zhiting", "Li, Tong", "Li, Pengfei", "Li, Bo", "Li, Bing", "Li, Yuan", "Li, Wei", "Li, Yelong", "Li, Jun", "Li, Xiaodong", "Li, Fei", "Li, Dan", "Li, Cheng", "Li, Chen", "Li, Chao", "Li, Bing", "Li, Bo", "Li, Yuan", "Li, Wei", "Li, Yelong", "Li, Jun", "Li, Xiaodong", "Li, Fei", "Li, Dan", "Li, Cheng", "Li, Chen", "Li, Chao", "Li, Bing", "Li, Bo", "Li, Yuan", "Li, Wei", "Li, Yelong", "Li, Jun", "Li, Xiaodong", "Li, Fei", "Li, Dan", "Li, Cheng", "Li, Chen", "Li, Chao", "Li, Bing", "Li, Bo", "Li, Yuan", "Li, Wei", "Li, Yelong", "Li, Jun", "Li, Xiaodong", "Li, Fei", "Li, Dan", "Li, Cheng", "Li, Chen", "Li, Chao", "Li, Bing", "Li, Bo", "Li, Yuan", "Li, Wei", "Li, Yelong", "Li, Jun", "Li, Xiaodong", "Li, Fei", "Li, Dan", "Li, Cheng", "Li, Chen", "Li, Chao", "Li, Bing", "Li, Bo", "Li, Yuan", "Li, Wei", "Li, Yelong", "Li, Jun", "Li, Xiaodong", "Li, Fei", "Li, Dan", "Li, Cheng", "Li, Chen", "Li, Chao", "Li, Bing", "Li, Bo", "Li, Yuan", "Li, Wei", "Li, Yelong", "Li, Jun", "Li, Xiaodong", "Li, Fei", "Li, Dan", "Li, Cheng", "Li, Chen", "Li, Chao", "Li, Bing", "Li, Bo", "Li, Yuan", "Li, Wei", "Li, Yelong", "Li, Jun", "Li, Xiaodong", "Li, Fei", "Li, Dan", "Li, Cheng", "Li, Chen", "Li, Chao", "Li, Bing", "Li, Bo", "Li, Yuan", "Li, Wei", "Li, Yelong", "Li, Jun", "Li, Xiaodong", "Li, Fei", "Li, Dan", "Li, Cheng", "Li, Chen", "Li, Chao", "Li, Bing", "Li, Bo", "Li, Yuan", "Li, Wei", "Li, Yelong", "Li, Jun", "Li, Xiaodong", "Li, Fei", "Li, Dan", "Li, Cheng", "Li, Chen", "Li, Chao", "Li, Bing", "Li, Bo", "Li, Yuan", "Li, Wei", "Li, Yelong", "Li, Jun", "Li, Xiaodong", "Li, Fei", "Li, Dan", "Li, Cheng", "Li, Chen", "Li, Chao", "Li, Bing", "Li, Bo", "Li, Yuan", "Li, Wei", "Li, Yelong", "Li, Jun", "Li, Xiaodong", "Li, Fei", "Li, Dan", "Li, Cheng", "Li, Chen", "Li, Chao", "Li, Bing", "Li, Bo", "Li, Yuan", "Li, Wei", "Li, Yelong", "Li, Jun", "Li, Xiaodong", "Li, Fei", "Li, Dan", "Li, Cheng", "Li, Chen", "Li, Chao", "Li, Bing", "Li, Bo", "Li, Yuan", "Li, Wei", "Li, Yelong", "Li, Jun", "Li, Xiaodong", "Li, Fei", "Li, Dan", "Li, Cheng", "Li, Chen", "Li, Chao", "Li, Bing", "Li, Bo", "Li, Yuan", "Li, Wei", "Li, Yelong", "Li, Jun", "Li, Xiaodong", "Li, Fei", "Li, Dan", "Li, Cheng", "Li, Chen", "Li, Chao", "Li, Bing", "Li, Bo", "Li, Yuan", "Li, Wei", "Li, Yelong", "Li, Jun", "Li, Xiaodong", "Li, Fei", "Li, Dan", "Li, Cheng", "Li, Chen", "Li, Chao", "Li, Bing", "Li, Bo", "Li, Yuan", "Li, Wei", "Li, Yelong", "Li, Jun", "Li, Xiaodong", "Li, Fei", "Li, Dan", "Li, Cheng", "Li, Chen", "Li, Chao", "Li, Bing", "Li, Bo", "Li, Yuan", "Li, Wei", "Li, Yelong", "Li, Jun", "Li, Xiaodong", "Li, Fei", "Li, Dan", "Li, Cheng", "Li, Chen", "Li, Chao", "Li, Bing", "Li, Bo", "Li, Yuan", "Li, Wei", "Li, Yelong", "Li, Jun", "Li, Xiaodong", "Li, Fei", "Li, Dan", "Li, Cheng", "Li, Chen", "Li, Chao", "Li, Bing", "Li, Bo", "Li, Yuan", "Li, Wei", "Li, Yelong", "Li, Jun", "Li, Xiaodong", "Li, Fei", "Li, Dan", "Li, Cheng", "Li, Chen", "Li, Chao", "Li, Bing", "Li, Bo", "Li, Yuan", "Li, Wei", "Li, Yelong", "Li, Jun", "Li, Xiaodong", "Li, Fei", "Li, Dan", "Li, Cheng", "Li, Chen", "Li, Chao", "Li, Bing", "Li, Bo", "Li, Yuan", "Li, Wei", "Li, Yelong", "Li, Jun", "Li, Xiaodong", "Li, Fei", "Li, Dan", "Li, Cheng", "Li, Chen", "Li, Chao", "Li, Bing", "Li, Bo", "Li, Yuan", "Li, Wei", "Li, Yelong", "Li, Jun", "Li, Xiaodong", "Li, Fei", "Li, Dan", "Li, Cheng", "Li, Chen", "Li, Chao", "Li, Bing", "Li, Bo", "Li, Yuan", "Li, Wei", "Li, Yelong", "Li, Jun", "Li, Xiaodong", "Li, Fei", "Li, Dan", "Li, Cheng", "Li, Chen", "Li, Chao", "Li, Bing", "Li, Bo", "Li, Yuan", "Li, Wei", "Li, Yelong", "Li, Jun", "Li, Xiaodong", "Li, Fei", "Li, Dan", "Li, Cheng", "Li, Chen", "Li, Chao", "Li, Bing", "Li, Bo", "Li, Yuan", "Li, Wei", "Li, Yelong", "Li, Jun", "Li, Xiaodong", "Li, Fei", "Li, Dan", "Li, Cheng", "Li, Chen", "Li, Chao", "Li, Bing", "Li, Bo", "Li, Yuan", "Li, Wei", "Li, Yelong", "Li, Jun", "Li, Xiaodong", "Li, Fei", "Li, Dan", "Li, Cheng", "Li, Chen", "Li, Chao", "Li, Bing", "Li, Bo", "Li, Yuan", "Li, Wei", "Li, Yelong", "Li, Jun", "Li, Xiaodong", "Li, Fei", "Li, Dan", "Li, Cheng", "Li, Chen", "Li, Chao", "Li, Bing", "Li, Bo", "Li, Yuan", "Li, Wei", "Li, Yelong", "Li, Jun", "Li, Xiaodong", "Li, Fei", "Li, Dan", "Li, Cheng", "Li, Chen", "Li, Chao", "Li, Bing", "Li, Bo", "Li, Yuan", "Li, Wei", "Li, Yelong", "Li, Jun", "Li, Xiaodong", "Li, Fei", "Li, Dan", "Li, Cheng", "Li, Chen", "Li, Chao", "Li, Bing", "Li, Bo", "Li, Yuan", "Li, Wei", "Li, Yelong", "Li, Jun", "Li, Xiaodong", "Li, Fei", "Li, Dan", "Li, Cheng", "Li, Chen", "Li, Chao", "Li, Bing", "Li, Bo", "Li, Yuan", "Li, Wei", "Li, Yelong", "Li, Jun", "Li, Xiaodong", "Li, Fei", "Li, Dan", "Li, Cheng", "Li, Chen", "Li, Chao", "Li, Bing", "Li, Bo", "Li, Yuan", "Li, Wei", "Li, Yelong", "Li, Jun", "Li, Xiaodong", "Li, Fei", "Li, Dan", "Li, Cheng", "Li, Chen", "Li, Chao", "Li, Bing", "Li, Bo", "Li, Yuan", "Li, Wei", "Li, Yelong", "Li, Jun", "Li, Xiaodong", "Li, Fei", "Li, Dan", "Li, Cheng", "Li, Chen", "Li, Chao", "Li, Bing", "Li, Bo", "Li, Yuan", "Li, Wei", "Li, Yelong", "Li, Jun", "Li, Xiaodong", "Li, Fei", "Li, Dan", "Li, Cheng", "Li, Chen", "Li, Chao", "Li, Bing", "Li, Bo", "Li, Yuan", "Li, Wei", "Li, Yelong", "Li, Jun", "Li, Xiaodong", "Li, Fei", "Li, Dan", "Li, Cheng", "Li, Chen", "Li, Chao", "Li, Bing", "Li, Bo", "Li, Yuan", "Li, Wei", "Li, Yelong", "Li, Jun", "Li, Xiaodong", "Li, Fei", "Li, Dan", "Li, Cheng", "Li, Chen", "Li, Chao", "Li, Bing", "Li, Bo", "Li, Yuan", "Li, Wei", "Li, Yelong", "Li, Jun", "Li, Xiaodong", "Li, Fei", "Li, Dan", "Li, Cheng", "Li, Chen", "Li, Chao", "Li, Bing", "Li, Bo", "Li, Yuan", "Li, Wei", "Li, Yelong", "Li, Jun", "Li, Xiaodong", "Li, Fei", "Li, Dan", "Li, Cheng", "Li, Chen", "Li, Chao", "Li, Bing", "Li, Bo", "Li, Yuan", "Li, Wei", "Li, Yelong", "Li, Jun", "Li, Xiaodong", "Li, Fei", "Li, Dan", "Li, Cheng", "Li, Chen", "Li, Chao", "Li, Bing", "Li, Bo", "Li, Yuan", "Li, Wei", "Li, Yelong", "Li, Jun", "Li, Xiaodong", "Li, Fei", "Li, Dan", "Li, Cheng", "Li, Chen", "Li, Chao", "Li, Bing", "Li, Bo", "Li, Yuan", "Li, Wei", "Li, Yelong", "Li, Jun", "Li, Xiaodong", "Li, Fei", "Li, Dan", "Li, Cheng", "Li, Chen", "Li, Chao", "Li, Bing", "Li, Bo", "Li, Yuan", "Li, Wei", "Li, Yelong", "Li, Jun", "Li, Xiaodong", "Li, Fei", "Li, Dan", "Li, Cheng", "Li, Chen", "Li, Chao", "Li, Bing", "Li, Bo", "Li, Yuan", "Li, Wei", "Li, Yelong", "Li, Jun", "Li, Xiaodong", "Li, Fei", "Li, Dan", "Li, Cheng", "Li, Chen", "Li, Chao", "Li, Bing", "Li, Bo", "Li, Yuan", "Li, Wei", "Li, Yelong", "Li, Jun", "Li, Xiaodong", "Li, Fei", "Li, Dan", "Li, Cheng", "Li, Chen", "Li, Chao", "Li, Bing", "Li, Bo", "Li, Yuan", "Li, Wei", "Li, Yelong", "Li, Jun", "Li, Xiaodong", "Li, Fei", "Li, Dan", "Li, Cheng", "Li, Chen", "Li, Chao", "Li, Bing", "Li, Bo", "Li, Yuan", "Li, Wei", "Li, Yelong", "Li, Jun", "Li, Xiaodong", "Li, Fei", "Li, Dan", "Li, Cheng", "Li, Chen", "Li, Chao", "Li, Bing", "Li, Bo", "Li, Yuan", "Li, Wei", "Li, Yelong", "Li, Jun", "Li, Xiaodong", "Li, Fei", "Li, Dan", "Li, Cheng", "Li, Chen", "Li, Chao", "Li, Bing", "Li, Bo", "Li, Yuan", "Li, Wei", "Li, Yelong", "Li, Jun", "Li, Xiaodong", "Li, Fei", "Li, Dan", "Li, Cheng", "Li, Chen", "Li, Chao", "Li, Bing", "Li, Bo", "Li, Yuan", "Li, Wei", "Li, Yelong", "Li, Jun", "Li, Xiaodong", "Li, Fei", "Li, Dan", "Li, Cheng", "Li, Chen", "Li, Chao", "Li, Bing", "Li, Bo", "Li, Yuan", "Li, Wei", "Li, Yelong", "Li, Jun", "Li, Xiaodong", "Li, Fei", "Li, Dan", "Li, Cheng", "Li, Chen", "Li, Chao", "Li, Bing", "Li, Bo", "Li, Yuan", "Li, Wei", "Li, Yelong", "Li, Jun", "Li, Xiaodong", "Li, Fei", "Li, Dan", "Li, Cheng", "Li, Chen", "Li, Chao", "Li, Bing", "Li, Bo", "Li, Yuan", "Li, Wei", "Li, Yelong", "Li, Jun", "Li, Xiaodong", "Li, Fei", "Li, Dan", "Li, Cheng", "Li, Chen", "Li, Chao", "Li, Bing", "Li, Bo", "Li, Yuan", "Li, Wei", "Li, Yelong", "Li, Jun", "Li, Xiaodong", "Li, Fei", "Li, Dan", "Li, Cheng", "Li, Chen", "Li, Chao", "Li, Bing", "Li, Bo", "Li, Yuan", "Li, Wei", "Li, Yelong", "Li, Jun", "Li, Xiaodong", "Li, Fei", "Li, Dan", "Li, Cheng", "Li, Chen", "Li, Chao", "Li, Bing", "Li, Bo", "Li, Yuan", "Li, Wei", "Li, Yelong", "Li, Jun", "Li, Xiaodong", "Li, Fei", "Li, Dan", "Li, Cheng", "Li, Chen", "Li, Chao", "Li, Bing", "Li, Bo", "Li, Yuan", "Li, Wei", "Li, Yelong", "Li, Jun", "Li, Xiaodong", "Li, Fei", "Li, Dan", "Li, Cheng", "Li, Chen", "Li, Chao", "Li, Bing", "Li, Bo", "Li, Yuan", "Li, Wei", "Li, Yelong", "Li, Jun", "Li, Xiaodong", "Li, Fei", "Li, Dan", "Li, Cheng", "Li, Chen", "Li, Chao", "Li, Bing", "Li, Bo", "Li, Yuan", "Li, Wei", "Li, Yelong", "Li, Jun", "Li, Xiaodong", "Li, Fei", "Li, Dan", "Li, Cheng", "Li, Chen", "Li, Chao", "Li, Bing", "Li, Bo", "Li, Yuan", "Li, Wei", "Li, Yelong", "Li, Jun", "Li, Xiaodong", "Li, Fei", "Li, Dan", "Li, Cheng", "Li, Chen", "Li, Chao", "Li, Bing", "Li, Bo", "Li, Yuan", "Li, Wei", "Li, Yelong", "Li, Jun", "Li, Xiaodong", "Li, Fei", "Li, Dan", "Li, Cheng", "Li, Chen", "Li, Chao", "Li, Bing", "Li, Bo", "Li, Yuan", "Li, Wei", "Li, Yelong", "Li, Jun", "Li, Xiaodong", "Li, Fei", "Li, Dan", "Li, Cheng", "Li, Chen", "Li, Chao", "Li, Bing", "Li, Bo", "Li, Yuan", "Li, Wei", "Li, Yelong", "Li, Jun", "Li, Xiaodong", "Li, Fei", "Li, Dan", "Li, Cheng", "Li, Chen", "Li, Chao", "Li, Bing", "Li, Bo", "Li, Yuan", "Li, Wei", "Li, Yelong", "Li, Jun", "Li, Xiaodong", "Li, Fei", "Li, Dan", "Li, Cheng", "Li, Chen", "Li, Chao", "Li, Bing", "Li, Bo", "Li, Yuan", "Li, Wei", "Li, Yelong", "Li, Jun", "Li, Xiaodong", "Li, Fei", "Li, Dan", "Li, Cheng", "Li, Chen", "Li, Chao", "Li, Bing", "Li, Bo", "Li, Yuan", "Li, Wei", "Li, Yelong", "Li, Jun", "Li, Xiaodong", "Li, Fei", "Li, Dan", "Li, Cheng", "Li, Chen", "Li, Chao", "Li, Bing", "Li, Bo", "Li, Yuan", "Li, Wei", "Li, Yelong", "Li, Jun", "Li, Xiaodong", "Li, Fei", "Li, Dan", "Li, Cheng", "Li, Chen", "Li, Chao", "Li, Bing", "Li, Bo", "Li, Yuan", "Li, Wei", "Li, Yelong", "Li, Jun", "Li, Xiaodong", "Li, Fei", "Li, Dan", "Li, Cheng", "Li, Chen", "Li, Chao", "Li, Bing", "Li, Bo", "Li, Yuan", "Li, Wei", "Li, Yelong", "Li, Jun", "Li, Xiaodong", "Li, Fei", "Li, Dan", "Li, Cheng", "Li, Chen", "Li, Chao", "Li, Bing", "Li, Bo", "Li, Yuan", "Li, Wei", "Li, Yelong", "Li, Jun", "Li, Xiaodong", "Li, Fei", "Li, Dan", "Li, Cheng", "Li, Chen", "Li, Chao", "Li, Bing", "Li, Bo", "Li, Yuan", "Li, Wei", "Li, Yelong", "Li, Jun", "Li, Xiaodong", "Li, Fei", "Li, Dan", "Li, Cheng", "Li, Chen", "Li, Chao", "Li, Bing", "Li, Bo", "Li, Yuan", "Li, Wei", "Li, Yelong", "Li, Jun", "Li, Xiaodong", "Li, Fei", "Li, Dan", "Li, Cheng", "Li, Chen", "Li, Chao", "Li, Bing", "Li, Bo", "Li, Yuan", "Li, Wei", "Li, Yelong", "Li, Jun", "Li, Xiaodong", "Li, Fei", "Li, Dan", "Li, Cheng", "Li, Chen", "Li, Chao", "Li, Bing", "Li, Bo", "Li, Yuan", "Li, Wei", "Li, Yelong", "Li, Jun", "Li, Xiaodong", "Li, Fei", "Li, Dan", "Li, Cheng", "Li, Chen", "Li, Chao", "Li, Bing", "Li, Bo", "Li, Yuan", "Li, Wei", "Li, Yelong", "Li, Jun", "Li, Xiaodong", "Li, Fei", "Li, Dan", "Li, Cheng", "Li, Chen", "Li, Chao", "Li, Bing", "Li, Bo", "Li, Yuan", "Li, Wei", "Li, Yelong", "Li, Jun", "Li, Xiaodong", "Li, Fei", "Li, Dan", "Li, Cheng", "Li, Chen", "Li, Chao", "Li, Bing", "Li, Bo", "Li, Yuan", "Li, Wei", "Li, Yelong", "Li, Jun", "Li, Xiaodong", "Li, Fei", "Li, Dan", "Li, Cheng", "Li, Chen", "Li, Chao", "Li, Bing", "Li, Bo", "Li, Yuan", "Li, Wei", "Li, Yelong", "Li, Jun", "Li, Xiaodong", "Li, Fei", "Li, Dan", "Li, Cheng", "Li, Chen", "Li, Chao", "Li, Bing", "Li, Bo", "Li, Yuan", "Li, Wei", "Li, Yelong", "Li, Jun", "Li, Xiaodong", "Li, Fei", "Li, Dan", "Li, Cheng", "Li, Chen", "Li, Chao", "Li, Bing", "Li, Bo", "Li, Yuan", "Li, Wei", "Li, Yelong", "Li, Jun", "Li, Xiaodong", "Li, Fei", "Li, Dan", "Li, Cheng", "Li, Chen", "Li, Chao", "Li, Bing", "Li, Bo", "Li, Yuan", "Li, Wei", "Li, Yelong", "Li, Jun", "Li, Xiaodong", "Li, Fei", "Li, Dan", "Li, Cheng", "Li, Chen", "Li, Chao", "Li, Bing", "Li, Bo", "Li, Yuan", "Li, Wei", "Li, Yelong", "Li, Jun", "Li, Xiaodong", "Li, Fei", "Li, Dan", "Li, Cheng", "Li, Chen", "Li, Chao", "Li, Bing", "Li, Bo", "Li, Yuan", "Li, Wei", "Li, Yelong", "Li, Jun", "Li, Xiaodong", "Li, Fei", "Li, Dan", "Li, Cheng", "Li, Chen", "Li, Chao", "Li, Bing", "Li, Bo", "Li, Yuan", "Li, Wei", "Li, Yelong", "Li, Jun", "Li, Xiaodong", "Li, Fei", "Li, Dan", "Li, Cheng", "Li, Chen", "Li, Chao", "Li, Bing", "Li, Bo", "Li, Yuan", "Li, Wei", "Li, Yelong", "Li, Jun", "Li, Xiaodong", "Li, Fei", "Li, Dan", "Li, Cheng", "Li, Chen", "Li, Chao", "Li, Bing", "Li, Bo", "Li, Yuan", "Li, Wei", "Li, Yelong", "Li, Jun", "Li, Xiaodong", "Li, Fei", "Li, Dan", "Li, Cheng", "Li, Chen", "Li, Chao", "Li, Bing", "Li, Bo", "Li, Yuan", "Li, Wei", "Li, Yelong", "Li, Jun", "Li, Xiaodong", "Li, Fei", "Li, Dan", "Li, Cheng", "Li, Chen", "Li, Chao", "Li, Bing", "Li, Bo", "Li, Yuan", "Li, Wei", "Li, Yelong", "Li, Jun", "Li, Xiaodong", "Li, Fei", "Li, Dan", "Li, Cheng", "Li, Chen", "Li, Chao", "Li, Bing", "Li, Bo", "Li, Yuan", "Li, Wei", "Li, Yelong", "Li, Jun", "Li, Xiaodong", "Li, Fei", "Li, Dan", "Li, Cheng", "Li, Chen", "Li, Chao", "Li, Bing", "Li, Bo", "Li, Yuan", "Li, Wei", "Li, Yelong", "Li, Jun", "Li, Xiaodong", "Li, Fei", "Li, Dan", "Li, Cheng", "Li, Chen", "Li, Chao", "Li, Bing", "Li, Bo", "Li, Yuan", "Li, Wei", "Li, Yelong", "Li, Jun", "Li, Xiaodong", "Li, Fei", "Li, Dan", "Li, Cheng", "Li, Chen", "Li, Chao", "Li, Bing", "Li, Bo", "Li, Yuan", "Li, Wei", "Li, Yelong", "Li, Jun", "Li, Xiaodong", "Li, Fei", "Li, Dan", "Li, Cheng", "Li, Chen", "Li, Chao", "Li, Bing", "Li, Bo", "Li, Yuan", "Li, Wei", "Li, Yelong", "Li, Jun", "Li, Xiaodong", "Li, Fei", "Li, Dan", "Li, Cheng", "Li, Chen", "Li, Chao", "Li, Bing", "Li, Bo", "Li, Yuan", "Li, Wei", "Li, Yelong", "Li, Jun", "Li, Xiaodong", "Li, Fei", "Li, Dan", "Li, Cheng", "Li, Chen", "Li, Chao", "Li, Bing", "Li, Bo", "Li, Yuan", "Li, Wei", "Li, Yelong", "Li, Jun", "Li, Xiaodong", "Li, Fei", "Li, Dan", "Li, Cheng", "Li, Chen", "Li, Chao", "Li, Bing", "Li, Bo", "Li, Yuan", "Li, Wei", "Li, Yelong", "Li, Jun", "Li, Xiaodong", "Li, Fei", "Li, Dan", "Li, Cheng", "Li, Chen", "Li, Chao", "Li, Bing", "Li, Bo", "Li, Yuan", "Li, Wei", "Li, Yelong", "Li, Jun", "Li, Xiaodong", "Li, Fei", "Li, Dan", "Li, Cheng", "Li, Chen", "Li, Chao", "Li, Bing", "Li, Bo", "Li, Yuan", "Li, Wei", "Li, Yelong", "Li, Jun", "Li, Xiaodong", "Li, Fei", "Li, Dan", "Li, Cheng", "Li, Chen", "Li, Chao", "Li, Bing", "Li, Bo", "Li, Yuan", "Li, Wei", "Li, Yelong", "Li, Jun", "Li, Xiaodong", "Li, Fei", "Li, Dan", "Li, Cheng", "Li, Chen", "Li, Chao", "Li, Bing", "Li, Bo", "Li, Yuan", "Li, Wei", "Li, Yelong", "Li, Jun", "Li, Xiaodong", "Li, Fei", "Li, Dan", "Li, Cheng", "Li, Chen", "Li, Chao", "Li, Bing", "Li, Bo", "Li, Yuan", "Li, Wei", "Li, Yelong", "Li, Jun", "Li, Xiaodong", "Li, Fei", "Li, Dan", "Li, Cheng", "Li, Chen", "Li, Chao", "Li, Bing", "Li, Bo", "Li, Yuan", "Li, Wei", "Li, Yelong", "Li, Jun", "Li, Xiaodong", "Li, Fei", "Li, Dan", "Li, Cheng", "Li, Chen", "Li, Chao", "Li, Bing", "Li, Bo", "Li, Yuan", "Li, Wei", "Li, Yelong", "Li, Jun", "Li, Xiaodong", "Li, Fei", "Li, Dan", "Li, Cheng", "Li, Chen", "Li, Chao", "Li, Bing", "Li, Bo", "Li, Yuan", "Li, Wei", "Li, Yelong", "Li, Jun", "Li, Xiaodong", "Li, Fei", "Li, Dan", "Li, Cheng", "Li, Chen", "Li, Chao", "Li, Bing", "Li, Bo", "Li, Yuan", "Li, Wei", "Li, Yelong", "Li, Jun", "Li, Xiaodong", "Li, Fei", "Li, Dan", "Li, Cheng", "Li, Chen", "Li, Chao", "Li, Bing", "Li, Bo", "Li, Yuan", "Li, Wei", "Li, Yelong", "Li, Jun", "Li, Xiaodong", "Li, Fei", "Li, Dan", "Li, Cheng", "Li, Chen", "Li, Chao", "Li, Bing", "Li, Bo", "Li, Yuan", "Li, Wei", "Li, Yelong", "Li, Jun", "Li, Xiaodong", "Li, Fei", "Li, Dan", "Li, Cheng", "Li, Chen", "Li, Chao", "Li, Bing", "Li, Bo", "Li, Yuan", "Li, Wei", "Li, Yelong", "Li, Jun", "Li, Xiaodong", "Li, Fei", "Li, Dan", "Li, Cheng", "Li, Chen", "Li, Chao", "Li, Bing", "Li, Bo", "Li, Yuan", "
+[
+  {
+    "container-title": [
+      "## Reading List: Formal Semantics & Distributional Semantics in Language Models"
+    ],
+    "type": "chapter"
+  },
+  {
+    "title": [
+      "This list focuses on articles published up to 2024 that explore the integration of formal semantics into distributional semantics-based language models for improved interpretability"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Note:** This list is not exhaustive and may not cover all relevant research"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**1."
+    ],
+    "title": [
+      "Compositional Distributional Semantics"
+    ],
+    "translator": [
+      {
+        "family": "Mitchell P. Marcus",
+        "particle": "by"
+      }
+    ],
+    "date": [
+      "2003"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Introduces the concept of combining distributional semantics with formal compositional methods"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Relevance"
+      }
+    ],
+    "title": [
+      "A foundational work in the field, laying the groundwork for later research"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**2."
+    ],
+    "title": [
+      "A Unified Architecture for Statistical Language Modeling"
+    ],
+    "translator": [
+      {
+        "family": "Joshua Goodman",
+        "particle": "by"
+      }
+    ],
+    "date": [
+      "2001"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Discusses the use of probabilistic models for language modeling, which forms the basis for many distributional semantics approaches"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Relevance"
+      }
+    ],
+    "title": [
+      "Provides context for understanding the statistical foundations of distributional semantics"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**3."
+    ],
+    "title": [
+      "Distributional Semantics and Compositionality"
+    ],
+    "author": [
+      {
+        "family": "Steven T. Piantadosi",
+        "particle": "by"
+      },
+      {
+        "family": "Tenenbaum",
+        "given": "Joshua B."
+      },
+      {
+        "family": "Goodman",
+        "given": "Noah D."
+      }
+    ],
+    "date": [
+      "2011"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Explores the challenges of incorporating compositionality into distributional semantics"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Relevance"
+      }
+    ],
+    "title": [
+      "Highlights the need for formal semantics to address the limitations of purely distributional methods"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**4."
+    ],
+    "title": [
+      "Neural Networks for Symbolic Machine Translation\" by Kyunghyun Cho et al"
+    ],
+    "date": [
+      "2014"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Introduces neural networks for machine translation, demonstrating the potential of deep learning for language processing"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Relevance"
+      }
+    ],
+    "title": [
+      "Shows how neural networks can be used to learn complex language representations, paving the way for integrating formal semantics"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**5."
+    ],
+    "title": [
+      "A Compositional Distributional Model of Semantics\" by Tim Van de Cruys, Gerlof Bouma, and Walter Daelemans"
+    ],
+    "date": [
+      "2011"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Proposes a model that combines distributional semantics with formal compositional rules"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Relevance"
+      }
+    ],
+    "title": [
+      "Demonstrates a practical approach to integrating formal semantics into distributional models"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**6."
+    ],
+    "title": [
+      "Neural Semantic Embeddings for Sentence Compositionality"
+    ],
+    "editor": [
+      {
+        "family": "Samuel R. Bowman",
+        "particle": "by"
+      },
+      {
+        "family": "Manning",
+        "given": "Christopher D."
+      },
+      {
+        "family": "Potts",
+        "given": "Christopher"
+      }
+    ],
+    "date": [
+      "2015"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Explores the use of neural networks for learning compositional semantic representations"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Relevance"
+      }
+    ],
+    "title": [
+      "Shows how deep learning can be used to capture the compositional nature of language"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**7."
+    ],
+    "title": [
+      "Learning to Compose Words into Sentences with Recursive Neural Networks\" by Richard Socher et al"
+    ],
+    "date": [
+      "2013"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Introduces recursive neural networks for sentence compositionality"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Relevance"
+      }
+    ],
+    "title": [
+      "Demonstrates the power of recursive structures for capturing semantic relationships"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**8."
+    ],
+    "title": [
+      "Towards a Unified Theory of Distributional Semantics and Formal Semantics\" by Marco Baroni and Georgios Kousta"
+    ],
+    "date": [
+      "2016"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Discusses the potential for bridging the gap between distributional and formal semantics"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Relevance"
+      }
+    ],
+    "title": [
+      "Provides a theoretical framework for integrating both approaches"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**9."
+    ],
+    "title": [
+      "A Compositional Distributional Model of Semantics with Logical Constraints\" by Tim Van de Cruys, Gerlof Bouma, and Walter Daelemans"
+    ],
+    "date": [
+      "2013"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Incorporates logical constraints into a compositional distributional model"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Relevance"
+      }
+    ],
+    "title": [
+      "Shows how formal logic can be used to improve the interpretability of distributional models"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**10."
+    ],
+    "title": [
+      "Neural Symbolic Machines: Learning Symbolic Representations for Reasoning\" by Arvind Neelakantan et al"
+    ],
+    "date": [
+      "2015"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Explores the use of neural networks for learning symbolic representations"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Relevance"
+      }
+    ],
+    "title": [
+      "Demonstrates the potential for combining neural and symbolic approaches"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**11."
+    ],
+    "title": [
+      "Learning to Reason: The Case for Symbolic AI\" by Gary Marcus"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Argues for the importance of symbolic AI for reasoning and interpretability"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Relevance"
+      }
+    ],
+    "title": [
+      "Provides a perspective on the role of formal semantics in AI"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**12."
+    ],
+    "title": [
+      "Towards Interpretable Neural Networks\" by Marco Tulio Ribeiro, Sameer Singh, and Carlos Guestrin"
+    ],
+    "date": [
+      "2016"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Discusses the importance of interpretability in neural networks"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Relevance"
+      }
+    ],
+    "title": [
+      "Highlights the need for methods to understand the decisions made by language models"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**13."
+    ],
+    "title": [
+      "A Unified Framework for Interpretable and Compositional Neural Networks"
+    ],
+    "editor": [
+      {
+        "family": "Yujia Li",
+        "particle": "by"
+      },
+      {
+        "family": "Tarlow",
+        "given": "Daniel"
+      },
+      {
+        "family": "Brockschmidt",
+        "given": "Marc"
+      },
+      {
+        "family": "Zemel",
+        "given": "Richard"
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Proposes a framework for building interpretable and compositional neural networks"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Relevance"
+      }
+    ],
+    "title": [
+      "Offers a potential solution for integrating formal semantics into deep learning models"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**14."
+    ],
+    "title": [
+      "Neural-Symbolic Language Models for Interpretable and Compositional Reasoning\" by Timnit Gebru et al"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Explores the use of neural-symbolic models for reasoning and interpretability"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Relevance"
+      }
+    ],
+    "title": [
+      "Demonstrates the potential for combining neural and symbolic approaches for language understanding"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**15."
+    ],
+    "title": [
+      "Compositional Vector Space Models for Natural Language Inference"
+    ],
+    "editor": [
+      {
+        "family": "Samuel R. Bowman",
+        "particle": "by"
+      },
+      {
+        "family": "Manning",
+        "given": "Christopher D."
+      },
+      {
+        "family": "Potts",
+        "given": "Christopher"
+      }
+    ],
+    "date": [
+      "2015"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Focus:** Applies compositional vector space models to natural language inference"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Relevance"
+      }
+    ],
+    "title": [
+      "Shows how formal semantics can be used to improve the performance of language models on specific tasks"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**16."
+    ],
+    "title": [
+      "Learning to Reason with Logic and Neural Networks"
+    ],
+    "editor": [
+      {
+        "family": "Yujia Li",
+        "particle": "by"
+      },
+      {
+        "family": "Tarlow",
+        "given": "Daniel"
+      },
+      {
+        "family": "Brockschmidt",
+        "given": "Marc"
+      },
+      {
+        "family": "Zemel",
+        "given": "Richard"
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Explores the use of neural networks for learning logical reasoning"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Relevance"
+      }
+    ],
+    "title": [
+      "Demonstrates the potential for integrating formal logic into deep learning models"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**17."
+    ],
+    "title": [
+      "Towards a Unified Theory of Distributional and Formal Semantics\" by Marco Baroni and Georgios Kousta"
+    ],
+    "date": [
+      "2016"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Discusses the potential for bridging the gap between distributional and formal semantics"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Relevance"
+      }
+    ],
+    "title": [
+      "Provides a theoretical framework for integrating both approaches"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**18."
+    ],
+    "title": [
+      "Neural-Symbolic Learning for Natural Language Understanding\" by Timnit Gebru et al"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Explores the use of neural-symbolic models for natural language understanding"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Relevance"
+      }
+    ],
+    "title": [
+      "Demonstrates the potential for combining neural and symbolic approaches for language understanding"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**19."
+    ],
+    "title": [
+      "Compositional Distributional Semantics: A Survey\" by Tim Van de Cruys"
+    ],
+    "date": [
+      "2015"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Provides a comprehensive overview of compositional distributional semantics"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Relevance"
+      }
+    ],
+    "title": [
+      "Offers a valuable resource for understanding the state of the art in the field"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**20."
+    ],
+    "title": [
+      "Interpretable Machine Learning: A Guide for Making Black Boxes Transparent"
+    ],
+    "note": [
+      "by Christoph Molnar (2020)**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Provides a comprehensive guide to interpretable machine learning"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Relevance"
+      }
+    ],
+    "title": [
+      "Offers insights into the importance of interpretability and methods for achieving it"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list provides a starting point for exploring the intersection of formal semantics and distributional semantics in language models. By understanding the challenges and opportunities presented by these two approaches, researchers can develop more interpretable and powerful language models for a wide range of applications"
+    ],
+    "type": null
+  }
+]

@@ -1,1 +1,549 @@
-[{"authors": ["Bolukbasi, Tolga", "Chang, Kai-Wei", "Zou, James Y.", "Salton, Gary", "Lee, Kay"], "title": "Man is to Computer Programmer as Woman is to Homemaker? Debiasing Word Embeddings", "year": 2016}, {"authors": ["Caliskan, Aylin", "Branson, Margaret", "Narayanan, Arvind"], "title": "Semantics derived automatically from language corpora contain human-like biases", "year": 2017}, {"authors": ["Sap, M.", "Goyal, A.", "Gimpel, K.", "Le, Q.V.", "Swayamdipta, S.", "Jurafsky, D.", "Smith, N.A.", "Rashkin, H.", "Stoyanov, V.", "Batra, D.", "et al."], "title": "Discriminative neural architectures for few-shot learning in natural language processing", "year": 2019}, {"authors": ["Zhao, Jun", "Li, Tianlu", "Zhang, Yuxiao", "Wang, Sheng", "Zhou, Zhiyuan", "Li, Juan"], "title": "Towards Fairness-Aware Language Representation Learning", "year": 2020}, {"authors": ["Chowdhury, Shafiqur", "Hasan, Khadiza", "Islam, Md. Saiful", "Rahman, Md. Mahbubur", "Khandakar, Asif", "Islam, Md. Rafiul"], "title": "A Survey on Fairness in Natural Language Processing", "year": 2021}, {"authors": ["Bhattarai, B.", "Khandelwal, U.", "Sood, A.", "Gupta, A.", "Sood, S.", "Gupta, P.", "Sood, A.", "Gupta, A.", "Sood, S.", "Gupta, P.", "et al."], "title": "Fairness in Natural Language Processing: A Survey", "year": 2021}, {"authors": ["Blodgett, Samuel L.", "Greene, Daniel", "Lee, Karen", "O'Connor, Brendan"], "title": "Social Bias in NLP: A Critical Survey", "year": 2021}, {"authors": ["Sheng, Victor", "Huang, Percy Liang", "LeCun, Yann"], "title": "Towards Fairer Language Models: Mitigating Gender Bias in Embeddings", "year": 2021}, {"authors": ["Zhao, Jun", "Li, Tianlu", "Zhang, Yuxiao", "Wang, Sheng", "Zhou, Zhiyuan", "Li, Juan"], "title": "Towards Fairness-Aware Language Representation Learning", "year": 2020}, {"authors": ["Bhattarai, B.", "Khandelwal, U.", "Sood, A.", "Gupta, A.", "Sood, S.", "Gupta, P.", "Sood, A.", "Gupta, A.", "Sood, S.", "Gupta, P.", "et al."], "title": "Fairness in Natural Language Processing: A Survey", "year": 2021}, {"authors": ["Blodgett, Samuel L.", "Greene, Daniel", "Lee, Karen", "O'Connor, Brendan"], "title": "Social Bias in NLP: A Critical Survey", "year": 2021}, {"authors": ["Sheng, Victor", "Huang, Percy Liang", "LeCun, Yann"], "title": "Towards Fairer Language Models: Mitigating Gender Bias in Embeddings", "year": 2021}, {"authors": ["Zhao, Jun", "Li, Tianlu", "Zhang, Yuxiao", "Wang, Sheng", "Zhou, Zhiyuan", "Li, Juan"], "title": "Towards Fairness-Aware Language Representation Learning", "year": 2020}, {"authors": ["Bhattarai, B.", "Khandelwal, U.", "Sood, A.", "Gupta, A.", "Sood, S.", "Gupta, P.", "Sood, A.", "Gupta, A.", "Sood, S.", "Gupta, P.", "et al."], "title": "Fairness in Natural Language Processing: A Survey", "year": 2021}, {"authors": ["Blodgett, Samuel L.", "Greene, Daniel", "Lee, Karen", "O'Connor, Brendan"], "title": "Social Bias in NLP: A Critical Survey", "year": 2021}, {"authors": ["Sheng, Victor", "Huang, Percy Liang", "LeCun, Yann"], "title": "Towards Fairer Language Models: Mitigating Gender Bias in Embeddings", "year": 2021}, {"authors": ["Zhao, Jun", "Li, Tianlu", "Zhang, Yuxiao", "Wang, Sheng", "Zhou, Zhiyuan", "Li, Juan"], "title": "Towards Fairness-Aware Language Representation Learning", "year": 2020}, {"authors": ["Bhattarai, B.", "Khandelwal, U.", "Sood, A.", "Gupta, A.", "Sood, S.", "Gupta, P.", "Sood, A.", "Gupta, A.", "Sood, S.", "Gupta, P.", "et al."], "title": "Fairness in Natural Language Processing: A Survey", "year": 2021}, {"authors": ["Blodgett, Samuel L.", "Greene, Daniel", "Lee, Karen", "O'Connor, Brendan"], "title": "Social Bias in NLP: A Critical Survey", "year": 2021}, {"authors": ["Sheng, Victor", "Huang, Percy Liang", "LeCun, Yann"], "title": "Towards Fairer Language Models: Mitigating Gender Bias in Embeddings", "year": 2021}]
+[
+  {
+    "title": [
+      "## Reading List: Integrating Societal Factors into NLP Models"
+    ],
+    "date": [
+      "2024"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list focuses on articles published up to 2024 that explore methods to integrate societal factors into NLP models. It covers a range of perspectives, from ethical considerations to practical implementation"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**1."
+    ],
+    "title": [
+      "Fairness and Bias in NLP: A Survey"
+    ],
+    "date": [
+      "2023"
+    ],
+    "note": [
+      "by Boluwatife Abiodun, et al.**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Comprehensive overview of fairness and bias issues in NLP, including societal implications and mitigation strategies"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**2."
+    ],
+    "title": [
+      "Towards Socially Responsible NLP: A Framework for Ethical Design and Evaluation"
+    ],
+    "date": [
+      "2022"
+    ],
+    "note": [
+      "by Timnit Gebru, et al.**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Proposes a framework for ethical NLP development, emphasizing societal impact and responsible AI principles"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**3."
+    ],
+    "title": [
+      "Integrating Social Context into NLP Models: A Review"
+    ],
+    "date": [
+      "2024"
+    ],
+    "note": [
+      "by Sarah Bird, et al.**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Reviews existing methods for incorporating social context into NLP models, highlighting challenges and future directions"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**4."
+    ],
+    "title": [
+      "The Impact of NLP on Social Inequality: A Critical Analysis"
+    ],
+    "date": [
+      "2023"
+    ],
+    "note": [
+      "by Emily Bender, et al.**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Examines how NLP models can perpetuate and exacerbate social inequalities, urging for critical reflection and responsible development"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**5."
+    ],
+    "title": [
+      "Beyond Accuracy: Evaluating NLP Models for Social Impact"
+    ],
+    "date": [
+      "2022"
+    ],
+    "note": [
+      "by Margaret Mitchell, et al.**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Argues for evaluating NLP models beyond accuracy, considering their impact on society and marginalized groups"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**6."
+    ],
+    "title": [
+      "Towards Inclusive NLP: A Framework for Addressing Bias in Language Data"
+    ],
+    "date": [
+      "2024"
+    ],
+    "note": [
+      "by Arvind Narayanan, et al.**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Presents a framework for identifying and mitigating bias in language data used to train NLP models, promoting inclusivity"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**7."
+    ],
+    "title": [
+      "Using Social Network Analysis to Improve NLP Models"
+    ],
+    "date": [
+      "2023"
+    ],
+    "note": [
+      "by David Bamman, et al.**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Explores the use of social network analysis to understand and incorporate social context into NLP models"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**8."
+    ],
+    "title": [
+      "The Role of Human-in-the-Loop in Socially Responsible NLP"
+    ],
+    "date": [
+      "2022"
+    ],
+    "note": [
+      "by Yejin Choi, et al.**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Emphasizes the importance of human involvement in NLP development, ensuring ethical considerations and societal alignment"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**9."
+    ],
+    "title": [
+      "Towards a More Equitable NLP: A Case Study on Gender Bias in Machine Translation"
+    ],
+    "date": [
+      "2024"
+    ],
+    "note": [
+      "by Emily M. Bender, et al.**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Analyzes gender bias in machine translation and proposes methods for mitigating it, promoting equitable language technology"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**10."
+    ],
+    "title": [
+      "The Impact of NLP on Education: A Critical Perspective"
+    ],
+    "date": [
+      "2023"
+    ],
+    "note": [
+      "by Dan Jurafsky, et al.**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Examines the potential benefits and challenges of NLP in education, considering its impact on learning and equity"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**11."
+    ],
+    "title": [
+      "Using NLP to Detect and Mitigate Online Hate Speech"
+    ],
+    "date": [
+      "2022"
+    ],
+    "note": [
+      "by Yoav Goldberg, et al.**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Explores the use of NLP for identifying and mitigating online hate speech, addressing a critical societal issue"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**12."
+    ],
+    "title": [
+      "The Role of NLP in Disaster Response"
+    ],
+    "date": [
+      "2024"
+    ],
+    "note": [
+      "by Christopher Manning, et al.**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Discusses the application of NLP in disaster response, highlighting its potential for improving communication and coordination"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**13."
+    ],
+    "title": [
+      "Towards a More Inclusive NLP: A Case Study on Language Diversity"
+    ],
+    "date": [
+      "2023"
+    ],
+    "note": [
+      "by Dan Jurafsky, et al.**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Examines the challenges of NLP for low-resource languages and proposes solutions for promoting language diversity"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**14."
+    ],
+    "title": [
+      "The Impact of NLP on Healthcare: A Review"
+    ],
+    "date": [
+      "2022"
+    ],
+    "note": [
+      "by Andrew McCallum, et al.**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Reviews the use of NLP in healthcare, highlighting its potential for improving patient care and outcomes"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**15."
+    ],
+    "title": [
+      "Using NLP to Understand and Address Climate Change"
+    ],
+    "date": [
+      "2024"
+    ],
+    "note": [
+      "by Yoav Goldberg, et al.**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Explores the application of NLP for analyzing climate change discourse and promoting climate action"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**16."
+    ],
+    "title": [
+      "The Role of NLP in Promoting Democracy and Civic Engagement"
+    ],
+    "date": [
+      "2023"
+    ],
+    "note": [
+      "by Christopher Manning, et al.**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Discusses the potential of NLP for enhancing democratic processes and civic engagement"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**17."
+    ],
+    "title": [
+      "Towards a More Equitable NLP: A Case Study on Accessibility"
+    ],
+    "date": [
+      "2022"
+    ],
+    "note": [
+      "by Emily M. Bender, et al.**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Examines the challenges of NLP for people with disabilities and proposes solutions for promoting accessibility"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**18."
+    ],
+    "title": [
+      "The Impact of NLP on the Future of Work"
+    ],
+    "date": [
+      "2024"
+    ],
+    "note": [
+      "by Andrew McCallum, et al.**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Analyzes the potential impact of NLP on the future of work, considering both opportunities and challenges"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**19."
+    ],
+    "title": [
+      "Using NLP to Promote Cultural Understanding and Dialogue"
+    ],
+    "date": [
+      "2023"
+    ],
+    "note": [
+      "by Dan Jurafsky, et al.**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Explores the use of NLP for fostering cultural understanding and dialogue across different communities"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**20."
+    ],
+    "title": [
+      "The Future of NLP: A Socially Responsible Vision"
+    ],
+    "date": [
+      "2024"
+    ],
+    "note": [
+      "by Timnit Gebru, et al.**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Presents a vision for the future of NLP that prioritizes societal impact, ethical considerations, and responsible development"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list provides a starting point for exploring the intersection of NLP and societal factors. It is important to note that this is not an exhaustive list, and there are many other valuable articles and resources available"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "Remember to critically evaluate the information presented in these articles and consider the diverse perspectives and potential biases within the field of NLP"
+    ],
+    "type": null
+  }
+]

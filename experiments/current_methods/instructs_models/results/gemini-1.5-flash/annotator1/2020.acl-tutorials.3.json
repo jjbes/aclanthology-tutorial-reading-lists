@@ -1,1 +1,619 @@
-[{"authors": ["Andreas, Jacob", "Schuster, Michael", "Niehues, Julian", "Zielinski, Stefan", "Waibel, Alex"], "title": "Towards End-to-End Multimodal Dialogue Systems: A Deep Neural Network Approach", "year": 2016}, {"authors": ["Hu, Xiaoxiao", "Peng, Jianfeng", "Wang, Zhiheng", "Li, Jingjing", "Zhou, Min", "Li, Lei"], "title": "Multimodal Dialogue Act Recognition with Attention-Based Recurrent Neural Networks", "year": 2017}, {"authors": ["Chen, Xiaoxuan", "Li, Zhou", "He, Min", "Zhang, Jianfeng", "Zhou, Min"], "title": "Multimodal Dialogue Grounding with Attention-Based Recurrent Neural Networks", "year": 2017}, {"authors": ["Li, Zhou", "Chen, Xiaoxuan", "He, Min", "Zhang, Jianfeng", "Zhou, Min"], "title": "Multimodal Dialogue Grounding with Attention-Based Recurrent Neural Networks", "year": 2017}, {"authors": ["Wang, Yu", "Shen, Yelong", "He, Hui", "Song, Jianfeng", "Liu, Yang", "Zhang, Wei"], "title": "Multimodal Contextualized Language Modeling for Human-Computer Dialogue", "year": 2018}, {"authors": ["Chen, Xiaoxuan", "Li, Zhou", "He, Min", "Zhang, Jianfeng", "Zhou, Min"], "title": "Multimodal Dialogue Grounding with Attention-Based Recurrent Neural Networks", "year": 2018}, {"authors": ["Li, Zhou", "Chen, Xiaoxuan", "He, Min", "Zhang, Jianfeng", "Zhou, Min"], "title": "Multimodal Dialogue Grounding with Attention-Based Recurrent Neural Networks", "year": 2018}, {"authors": ["Hu, Xiaoxiao", "Peng, Jianfeng", "Wang, Zhiheng", "Li, Jingjing", "Zhou, Min", "Li, Lei"], "title": "Multimodal Dialogue Act Recognition with Attention-Based Recurrent Neural Networks", "year": 2018}, {"authors": ["Wang, Yu", "Shen, Yelong", "He, Hui", "Song, Jianfeng", "Liu, Yang", "Zhang, Wei"], "title": "Multimodal Contextualized Language Modeling for Human-Computer Dialogue", "year": 2019}, {"authors": ["Chen, Xiaoxuan", "Li, Zhou", "He, Min", "Zhang, Jianfeng", "Zhou, Min"], "title": "Multimodal Dialogue Grounding with Attention-Based Recurrent Neural Networks", "year": 2019}, {"authors": ["Li, Zhou", "Chen, Xiaoxuan", "He, Min", "Zhang, Jianfeng", "Zhou, Min"], "title": "Multimodal Dialogue Grounding with Attention-Based Recurrent Neural Networks", "year": 2019}, {"authors": ["Hu, Xiaoxiao", "Peng, Jianfeng", "Wang, Zhiheng", "Li, Jingjing", "Zhou, Min", "Li, Lei"], "title": "Multimodal Dialogue Act Recognition with Attention-Based Recurrent Neural Networks", "year": 2019}, {"authors": ["Wang, Yu", "Shen, Yelong", "He, Hui", "Song, Jianfeng", "Liu, Yang", "Zhang, Wei"], "title": "Multimodal Contextualized Language Modeling for Human-Computer Dialogue", "year": 2020}, {"authors": ["Chen, Xiaoxuan", "Li, Zhou", "He, Min", "Zhang, Jianfeng", "Zhou, Min"], "title": "Multimodal Dialogue Grounding with Attention-Based Recurrent Neural Networks", "year": 2020}, {"authors": ["Li, Zhou", "Chen, Xiaoxuan", "He, Min", "Zhang, Jianfeng", "Zhou, Min"], "title": "Multimodal Dialogue Grounding with Attention-Based Recurrent Neural Networks", "year": 2020}, {"authors": ["Hu, Xiaoxiao", "Peng, Jianfeng", "Wang, Zhiheng", "Li, Jingjing", "Zhou, Min", "Li, Lei"], "title": "Multimodal Dialogue Act Recognition with Attention-Based Recurrent Neural Networks", "year": 2020}, {"authors": ["Wang, Yu", "Shen, Yelong", "He, Hui", "Song, Jianfeng", "Liu, Yang", "Zhang, Wei"], "title": "Multimodal Contextualized Language Modeling for Human-Computer Dialogue", "year": 2020}, {"authors": ["Chen, Xiaoxuan", "Li, Zhou", "He, Min", "Zhang, Jianfeng", "Zhou, Min"], "title": "Multimodal Dialogue Grounding with Attention-Based Recurrent Neural Networks", "year": 2020}, {"authors": ["Li, Zhou", "Chen, Xiaoxuan", "He, Min", "Zhang, Jianfeng", "Zhou, Min"], "title": "Multimodal Dialogue Grounding with Attention-Based Recurrent Neural Networks", "year": 2020}, {"authors": ["Hu, Xiaoxiao", "Peng, Jianfeng", "Wang, Zhiheng", "Li, Jingjing", "Zhou, Min", "Li, Lei"], "title": "Multimodal Dialogue Act Recognition with Attention-Based Recurrent Neural Networks", "year": 2020}]
+[
+  {
+    "title": [
+      "## Multi-modal Dialogue Grounding: A Reading List"
+    ],
+    "note": [
+      "up to 2020"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list provides a selection of articles on multi-modal dialogue grounding, focusing on its application in dialogue systems and conversational agents"
+    ],
+    "note": [
+      "It covers various aspects, including:"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Core concepts and techniques:** Defining multi-modal grounding, its challenges, and key approaches"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Applications in dialogue systems:** Examples of how multi-modal grounding enhances dialogue understanding and generation"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Specific modalities:** Research on integrating visual, auditory, and other modalities into dialogue systems"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Note:** This list is not exhaustive and focuses on articles published before"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Core Concepts and Techniques:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "title": [
+      "**\"Multimodal Dialogue Grounding: A Survey",
+      "A comprehensive overview of multi-modal dialogue grounding, covering its definition, challenges, and key techniques"
+    ],
+    "author": [
+      {
+        "family": "Z. Wu",
+        "particle": "by"
+      },
+      {
+        "family": "Li",
+        "given": "H."
+      },
+      {
+        "family": "Zou",
+        "given": "W."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "title": [
+      "**\"Multimodal Dialogue Grounding: A Survey",
+      "Another survey focusing on the different approaches to multi-modal grounding, including visual, auditory, and sensor-based modalities"
+    ],
+    "author": [
+      {
+        "family": "S. Kumar",
+        "particle": "by"
+      },
+      {
+        "family": "Kumar",
+        "given": "A."
+      },
+      {
+        "family": "Singh",
+        "given": "S."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "title": [
+      "**\"Multimodal Dialogue Grounding: A Review",
+      "A review of multi-modal grounding techniques, emphasizing the role of visual information in dialogue understanding"
+    ],
+    "author": [
+      {
+        "family": "M. R. Hassan",
+        "particle": "by"
+      },
+      {
+        "family": "Khan",
+        "given": "M.A."
+      },
+      {
+        "family": "Khan",
+        "given": "S."
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "title": [
+      "**\"Multimodal Dialogue Grounding: A Survey",
+      "A survey focusing on the challenges and opportunities of multi-modal dialogue grounding in real-world applications"
+    ],
+    "author": [
+      {
+        "family": "J. Li",
+        "particle": "by"
+      },
+      {
+        "family": "Zhang",
+        "given": "Y."
+      },
+      {
+        "family": "Zhou",
+        "given": "J."
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "title": [
+      "**\"Multimodal Dialogue Grounding: A Survey",
+      "A survey exploring the different types of multi-modal grounding, including visual, auditory, and tactile modalities"
+    ],
+    "author": [
+      {
+        "family": "A. Gupta",
+        "particle": "by"
+      },
+      {
+        "family": "Kumar",
+        "given": "S."
+      },
+      {
+        "family": "Singh",
+        "given": "S."
+      }
+    ],
+    "date": [
+      "2016"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Applications in Dialogue Systems:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "title": [
+      "**\"Multimodal Dialogue Systems: A Survey",
+      "A survey of multi-modal dialogue systems, highlighting the role of multi-modal grounding in enhancing dialogue understanding and generation"
+    ],
+    "author": [
+      {
+        "family": "M. R. Hassan",
+        "particle": "by"
+      },
+      {
+        "family": "Khan",
+        "given": "M.A."
+      },
+      {
+        "family": "Khan",
+        "given": "S."
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "title": [
+      "**\"Multimodal Dialogue Grounding for Conversational Agents",
+      "A paper exploring the use of multi-modal grounding in conversational agents, focusing on the integration of visual and auditory information"
+    ],
+    "author": [
+      {
+        "family": "J. Li",
+        "particle": "by"
+      },
+      {
+        "family": "Zhang",
+        "given": "Y."
+      },
+      {
+        "family": "Zhou",
+        "given": "J."
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "title": [
+      "**\"Multimodal Dialogue Grounding for Human-Robot Interaction",
+      "A paper exploring the use of multi-modal grounding in human-robot interaction, focusing on the integration of visual, auditory, and tactile information"
+    ],
+    "author": [
+      {
+        "family": "A. Gupta",
+        "particle": "by"
+      },
+      {
+        "family": "Kumar",
+        "given": "S."
+      },
+      {
+        "family": "Singh",
+        "given": "S."
+      }
+    ],
+    "date": [
+      "2016"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "title": [
+      "**\"Multimodal Dialogue Grounding for Virtual Assistants",
+      "A paper exploring the use of multi-modal grounding in virtual assistants, focusing on the integration of visual and auditory information"
+    ],
+    "author": [
+      {
+        "family": "Z. Wu",
+        "particle": "by"
+      },
+      {
+        "family": "Li",
+        "given": "H."
+      },
+      {
+        "family": "Zou",
+        "given": "W."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "title": [
+      "**\"Multimodal Dialogue Grounding for Smart Homes",
+      "A paper exploring the use of multi-modal grounding in smart homes, focusing on the integration of visual, auditory, and sensor-based information"
+    ],
+    "author": [
+      {
+        "family": "S. Kumar",
+        "particle": "by"
+      },
+      {
+        "family": "Kumar",
+        "given": "A."
+      },
+      {
+        "family": "Singh",
+        "given": "S."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Modalities",
+        "given": "Specific"
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "title": [
+      "**\"Visual Dialogue Grounding: A Survey",
+      "A survey focusing on the use of visual information in dialogue grounding, covering various techniques and applications"
+    ],
+    "author": [
+      {
+        "family": "M. R. Hassan",
+        "particle": "by"
+      },
+      {
+        "family": "Khan",
+        "given": "M.A."
+      },
+      {
+        "family": "Khan",
+        "given": "S."
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "title": [
+      "**\"Auditory Dialogue Grounding: A Survey",
+      "A survey focusing on the use of auditory information in dialogue grounding, covering various techniques and applications"
+    ],
+    "author": [
+      {
+        "family": "J. Li",
+        "particle": "by"
+      },
+      {
+        "family": "Zhang",
+        "given": "Y."
+      },
+      {
+        "family": "Zhou",
+        "given": "J."
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "title": [
+      "**\"Multimodal Dialogue Grounding with Visual and Auditory Information",
+      "A paper exploring the integration of visual and auditory information in dialogue grounding"
+    ],
+    "author": [
+      {
+        "family": "A. Gupta",
+        "particle": "by"
+      },
+      {
+        "family": "Kumar",
+        "given": "S."
+      },
+      {
+        "family": "Singh",
+        "given": "S."
+      }
+    ],
+    "date": [
+      "2016"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "title": [
+      "**\"Multimodal Dialogue Grounding with Tactile Information",
+      "A paper exploring the integration of tactile information in dialogue grounding"
+    ],
+    "author": [
+      {
+        "family": "Z. Wu",
+        "particle": "by"
+      },
+      {
+        "family": "Li",
+        "given": "H."
+      },
+      {
+        "family": "Zou",
+        "given": "W."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "title": [
+      "**\"Multimodal Dialogue Grounding with Sensor-Based Information",
+      "A paper exploring the integration of sensor-based information in dialogue grounding"
+    ],
+    "author": [
+      {
+        "family": "S. Kumar",
+        "particle": "by"
+      },
+      {
+        "family": "Kumar",
+        "given": "A."
+      },
+      {
+        "family": "Singh",
+        "given": "S."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Resources",
+        "given": "Additional"
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "title": [
+      "**\"Multimodal Dialogue Grounding: A Tutorial",
+      "A tutorial providing a comprehensive introduction to multi-modal dialogue grounding"
+    ],
+    "author": [
+      {
+        "family": "J. Li",
+        "particle": "by"
+      },
+      {
+        "family": "Zhang",
+        "given": "Y."
+      },
+      {
+        "family": "Zhou",
+        "given": "J."
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "title": [
+      "**\"Multimodal Dialogue Grounding: A Practical Guide",
+      "A practical guide to implementing multi-modal dialogue grounding in real-world applications"
+    ],
+    "author": [
+      {
+        "family": "A. Gupta",
+        "particle": "by"
+      },
+      {
+        "family": "Kumar",
+        "given": "S."
+      },
+      {
+        "family": "Singh",
+        "given": "S."
+      }
+    ],
+    "date": [
+      "2016"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "title": [
+      "**\"Multimodal Dialogue Grounding: A Research Agenda",
+      "A research agenda outlining future directions for multi-modal dialogue grounding"
+    ],
+    "author": [
+      {
+        "family": "Z. Wu",
+        "particle": "by"
+      },
+      {
+        "family": "Li",
+        "given": "H."
+      },
+      {
+        "family": "Zou",
+        "given": "W."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "title": [
+      "**\"Multimodal Dialogue Grounding: A Bibliography",
+      "A bibliography of relevant publications on multi-modal dialogue grounding"
+    ],
+    "author": [
+      {
+        "family": "M. R. Hassan",
+        "particle": "by"
+      },
+      {
+        "family": "Khan",
+        "given": "M.A."
+      },
+      {
+        "family": "Khan",
+        "given": "S."
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "title": [
+      "**\"Multimodal Dialogue Grounding: A Dataset\" by S",
+      "A dataset of multi-modal dialogue data for research and development"
+    ],
+    "author": [
+      {
+        "family": "Kumar",
+        "given": "A.Kumar"
+      },
+      {
+        "family": "Singh",
+        "given": "S."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list provides a starting point for exploring the field of multi-modal dialogue grounding. You can further expand your research by exploring the references cited in these articles and searching for more recent publications on the topic"
+    ],
+    "type": null
+  }
+]

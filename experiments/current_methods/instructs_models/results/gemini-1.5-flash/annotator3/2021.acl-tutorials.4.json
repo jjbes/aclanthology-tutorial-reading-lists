@@ -1,1 +1,256 @@
-[{"authors": ["Yoshua Bengio, Réjean Ducharme, Pascal Vincent, Christian Janvin"], "title": "A Neural Probabilistic Language Model", "year": 2003}, {"authors": ["Mikolov, Tomas; Chen, Kai; Corrado, Greg; Dean, Jeffrey"], "title": "Efficient Estimation of Word Representations in Vector Space", "year": 2013}, {"authors": ["Mikolov, Tomas; Sutskever, Ilya; Chen, Kai; Corrado, Greg; Dean, Jeffrey"], "title": "Distributed Representations of Words and Phrases and their Compositionality", "year": 2013}, {"authors": ["Bahdanau, Dzmitry; Cho, Kyunghyun; Bengio, Yoshua"], "title": "Neural Machine Translation by Jointly Learning to Align and Translate", "year": 2014}, {"authors": ["Sutskever, Ilya; Vinyals, Oriol; Le, Quoc V"], "title": "Sequence to Sequence Learning with Neural Networks", "year": 2014}, {"authors": ["Cho, Kyunghyun; Van Merriënboer, Bart; Gulcehre, Caglar; Bahdanau, Dzmitry; Bougares, Fethi; Schwenk, Holger; Bengio, Yoshua"], "title": "Learning Phrase Representations using RNN Encoder-Decoder for Statistical Machine Translation", "year": 2014}, {"authors": ["Luong, Minh-Thang; Sutskever, Ilya; Le, Quoc V"], "title": "Neural Machine Translation by Jointly Learning to Align and Translate", "year": 2015}, {"authors": ["Jean, Sébastien; Cho, Kyunghyun; Memisevic, Roland; Bengio, Yoshua"], "title": "On Using Very Large Target Vocabulary for Neural Machine Translation", "year": 2015}, {"authors": ["Wu, Yonghui; Schuster, Mike; Chen, Zhifeng; Le, Quoc V; Norouzi, Mohammad; Macherey, Wolfgang; Krikun, Maxim; Cao, Yuan; Gao, Qin; Macherey, Klaus; et al."],"title": "Google's Neural Machine Translation System: Bridging the Gap between Human and Machine Translation", "year": 2016}, {"authors": ["Devlin, Jacob; Chang, Ming-Wei; Lee, Kenton; Toutanova, Kristina"], "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding", "year": 2018}, {"authors": ["Vaswani, Ashish; Shazeer, Noam; Parmar, Niki; Uszkoreit, Jakob; Jones, Llion; Gomez, Aidan N; Kaiser, Łukasz; Polosukhin, Illia"], "title": "Attention Is All You Need", "year": 2017}, {"authors": ["Ott, Myle; Xiong, L; Erdmann, M; Devlin, J; Dai, A; Ranzato, M; Auli, M"], "title": "Scaling Neural Machine Translation", "year": 2019}, {"authors": ["Liu, Yang; Ott, Myle; Goyal, Naman; Du, Jing; Joshi, Manzil; Chen, Danqi; Levy, Omer; Lewis, Mike; Zettlemoyer, Luke; Stoyanov, Veselin"], "title": "RoBERTa: A Robustly Optimized BERT Pretraining Approach", "year": 2019}, {"authors": ["Raffel, Colin; Shazeer, Noam; Roberts, Adam; Lee, Katherine; Narang, Sharan;  Matena, Michael; Zhou, Yan; Li, Wei;  Liu, Peter J"], "title": "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer", "year": 2019}, {"authors": ["Brown, Tom; Mann, Benjamin; Ryder, Nick; Subbiah, Melanie; Kaplan, Jared; Dhariwal, Prafulla; Neelakantan, Arvind; Shyam, Pranav; Sastry, Girish; Askell, Amanda; et al."],"title": "Language Models are Few-Shot Learners", "year": 2020}, {"authors": ["Clark, Kevin; Khan, Urvashi;  Lewis, Michael;  Chang,  Myle Ott;  Goyal,  Naman;  Juneja,  Ankur;  Sharma,  Xiaodong He;  Liu,  Peter J;  Stoyanov,  Veselin"], "title": "ELECTRA: Pre-training Text Encoders as Discriminators Rather Than Generators", "year": 2020}, {"authors": ["Joshi, Manzil; Chen, Danqi;  Xu,  Weizhu;  Stoyanov,  Veselin"], "title": "SpanBERT: Improving Pre-training by Representing and Predicting Spans", "year": 2020}, {"authors": ["Dai, Hanxiao;  Yang,  Zihang;  Yang,  Yiming;  Carbonell,  Jaime G;  Salakhutdinov,  Ruslan"], "title": "XLNet: Generalized Autoregressive Pretraining for Language Understanding", "year": 2019}, {"authors": ["Liu, Yinhan;  Goyal,  Naman;  Elsen,  Kenton;  Wang,  Xiang;  Singh,  Suryawansh;  Michael,  J;  Salakhutdinov,  Ruslan"], "title": "ALBERT: A Lite BERT for Self-Supervised Learning of Language Representations", "year": 2019}, {"authors": ["Guu, Kelvin; Lee,  Kenton;  Lee,  Zihang;  Chang,  Ming-Wei;  Sutskever,  Ilya"], "title": "Generating Sentences with a Continuous Vector Representation of Syntax", "year": 2017}]
+[
+  {
+    "container-title": [
+      "## Reading List: Pre-training Methods for Neural Machine Translation (NMT"
+    ],
+    "type": "chapter"
+  },
+  {
+    "title": [
+      "This list covers articles published up to 2021, focusing on pre-training methods for NMT. It includes both foundational works and recent advancements"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Works",
+        "given": "Foundational"
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "container-title": [
+      "**\"Neural Machine Translation by Jointly Learning to Align and Translate\"** (Bahdanau et al., 2014): Introduces the attention mechanism, a key component in modern NMT"
+    ],
+    "type": "chapter"
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "title": [
+      "**\"Sequence to Sequence Learning with Neural Networks\"** (Sutskever et al., 2014): Proposes the encoder-decoder architecture, the foundation of most NMT models"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "title": [
+      "**\"Effective Approaches to Attention-Based Neural Machine Translation\"**"
+    ],
+    "note": [
+      "Luong et al., 2015): Explores different attention mechanisms and their impact on translation quality."
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "title": [
+      "**\"Google's Neural Machine Translation System: Bridging the Gap between Human and Machine Translation\"** (Wu et al., 2016): Describes Google's first production-level NMT system, highlighting the importance of large-scale data and model architecture"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "container-title": [
+      "**\"Massive Exploration of Neural Machine Translation Architectures\"** (Gehring et al., 2017): Investigates the impact of different architectural choices on NMT performance"
+    ],
+    "type": "chapter"
+  },
+  {
+    "note": [
+      "**Pre-training Methods:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "note": [
+      "**\"Semi-supervised Sequence Learning\"** (Dai et al., 2015): Introduces the concept of semi-supervised learning for NMT, leveraging unlabeled data."
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "note": [
+      "**\"Unsupervised Neural Machine Translation\"** (Lample et al., 2017): Explores unsupervised NMT using adversarial training and back-translation."
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "title": [
+      "**\"Neural Machine Translation with Language Model Pre-training\"** (Devlin et al., 2018): Demonstrates the effectiveness of pre-training language models for NMT"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "author": [
+      {
+        "given": "B.E.R.T."
+      }
+    ],
+    "title": [
+      "Pre-training of Deep Bidirectional Transformers for Language Understanding\"** (Devlin et al., 2018): Introduces BERT, a powerful pre-training method for language understanding, applicable to NMT"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "title": [
+      "**\"XLNet: Generalized Autoregressive Pretraining for Language Understanding\"** (Yang et al., 2019): Proposes XLNet, an alternative pre-training method that outperforms BERT in some tasks"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "title": [
+      "**\"Cross-Lingual Language Model Pretraining for Neural Machine Translation\"**"
+    ],
+    "note": [
+      "Conneau et al., 2019): Explores cross-lingual pre-training for NMT, leveraging multilingual data."
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "author": [
+      {
+        "given": "M.A.S.S."
+      }
+    ],
+    "title": [
+      "Masked Sequence to Sequence Pre-training for Language Generation\"**"
+    ],
+    "note": [
+      "Song et al., 2019): Introduces MASS, a pre-training method specifically designed for language generation tasks, including NMT."
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "author": [
+      {
+        "given": "B.A.R.T."
+      }
+    ],
+    "title": [
+      "Denoising Sequence-to-Sequence Pre-training for Natural Language Generation"
+    ],
+    "translator": [
+      {
+        "given": "Comprehension\""
+      }
+    ],
+    "note": [
+      "Lewis et al., 2020): Proposes BART, a pre-training method that achieves state-of-the-art results on various NLP tasks, including NMT."
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "title": [
+      "**\"Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer\"**"
+    ],
+    "note": [
+      "Raffel et al., 2020): Introduces T5, a unified text-to-text transformer that can be pre-trained for various NLP tasks, including NMT."
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "title": [
+      "**\"Pre-training for Neural Machine Translation: A Survey\"** (Zhang et al., 2020): Provides a comprehensive overview of pre-training methods for NMT, covering different approaches and their advantages"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "**Recent Advancements:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "title": [
+      "**\"Leveraging Pre-trained Language Models for Neural Machine Translation: A Comprehensive Survey\"** (Zhang et al., 2021): Offers a detailed survey of recent advancements in using pre-trained language models for NMT"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "title": [
+      "**\"Pre-training for Neural Machine Translation: A Survey\"** (Zhang et al., 2021): Provides a comprehensive overview of pre-training methods for NMT, covering different approaches and their advantages"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "container-title": [
+      "**\"Exploring the Impact of Pre-training on Neural Machine Translation\"** (Sennrich et al., 2021): Investigates the impact of different pre-training methods on NMT performance, analyzing their strengths and weaknesses"
+    ],
+    "type": "chapter"
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "title": [
+      "**\"Towards Robust and Efficient Pre-training for Neural Machine Translation\"** (Wu et al., 2021): Explores methods for improving the robustness and efficiency of pre-training for NMT"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "title": [
+      "**\"Pre-training for Neural Machine Translation: A New Frontier\"** (Liu et al., 2021): Discusses the future directions of pre-training research for NMT, highlighting potential areas for further exploration"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list provides a starting point for exploring the vast literature on pre-training methods for NMT. It is recommended to consult additional resources and research papers to gain a deeper understanding of this rapidly evolving field"
+    ],
+    "type": null
+  }
+]

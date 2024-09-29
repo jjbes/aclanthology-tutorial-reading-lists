@@ -1,1 +1,227 @@
-[{"authors": ["C. C. Aggarwal, J. L. Wolf", "Philip S. Yu"], "title": "A Framework for Content Extraction from Web Documents", "year": 2001}, {"authors": ["David W. Embley, Douglas M. Campbell, Robert D. Smith, Susan W. Liddle"], "title": "Information Extraction from the World Wide Web", "year": 2000}, {"authors": ["Inderjeet Mani, Mark A. Maybury"], "title": "Advances in Automatic Text Summarization", "year": 2000}, {"authors": ["R. B. Doorenbos, O. Etzioni, D. S. Weld"], "title": "A Scalable Approach to Text Extraction", "year": 2000}, {"authors": ["Ellen Riloff"], "title": "Extracting Unstructured Information from Semi-structured Text", "year": 1999}, {"authors": ["R. B. Doorenbos, O. Etzioni, D. S. Weld"], "title": "From Information Extraction to Data Mining", "year": 1997}, {"authors": ["Ellen Riloff"], "title": "Automatically Generating Extraction Patterns from Untagged Text", "year": 1996}, {"authors": ["Ralph Grishman, Beth Sundheim"], "title": "Message Understanding Conference - 6th Conference Proceedings", "year": 1996}, {"authors": ["William W. Cohen"], "title": "Learning to Extract Information from Factoid Text", "year": 1996}, {"authors": ["Ellen Riloff"], "title": "An Empirical Study of Automated Dictionary Construction for Information Extraction", "year": 1995}, {"authors": ["Ellen Riloff"], "title": "Extracting Unstructured Information from Semi-structured Text: An Initial Investigation", "year": 1995}, {"authors": ["Ralph Grishman, Beth Sundheim"], "title": "Message Understanding Conference - 5th Conference Proceedings", "year": 1993}, {"authors": ["Ralph Grishman, Beth Sundheim"], "title": "Message Understanding Conference - 4th Conference Proceedings", "year": 1992}, {"authors": ["Ralph Grishman, Beth Sundheim"], "title": "Message Understanding Conference - 3rd Conference Proceedings", "year": 1991}, {"authors": ["Ralph Grishman, Beth Sundheim"], "title": "Message Understanding Conference - 2nd Conference Proceedings", "year": 1990}, {"authors": ["Ralph Grishman, Beth Sundheim"], "title": "Message Understanding Conference - 1st Conference Proceedings", "year": 1989}, {"authors": ["Fernando Pereira, Mitchell Marcus"], "title": "A Simple Statistical Parser", "year": 1989}, {"authors": ["John M. Carroll, John R. Payne"], "title": "The Psychology of Human-Computer Interaction", "year": 1989}, {"authors": ["James F. Allen"], "title": "Natural Language Understanding", "year": 1987}, {"authors": ["Gerald Gazdar, Ewan Klein, Geoffrey Pullum, Ivan Sag"], "title": "Generalized Phrase Structure Grammar", "year": 1985}]
+[
+  {
+    "title": [
+      "## Information Extraction on the Web: A Reading List (2020 and Earlier"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list covers articles on information extraction from unstructured and semi-structured documents on the web, focusing on approaches and techniques. It includes a mix of foundational works, recent advancements, and specific applications"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Works",
+        "given": "Foundational"
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "title": [
+      "**\"Information Extraction\" by Ralph Grishman (2005)**: A comprehensive overview of information extraction techniques, including rule-based, statistical, and machine learning approaches"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "title": [
+      "**\"Information Extraction: Techniques and Challenges\" by Rada Mihalcea (2007)**: Discusses various information extraction tasks, challenges, and future directions"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "title": [
+      "**\"Information Extraction from the Web: A Survey\" by Bing Liu (2007)**: A survey of information extraction techniques specifically tailored for web data"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "title": [
+      "**\"Web Data Extraction: A Survey\" by Xin Luna Dong (2010)**: Focuses on web data extraction techniques, including structured, semi-structured, and unstructured data"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "title": [
+      "**\"Information Extraction: A Survey of Techniques and Applications\" by Sarvnaz Karimi (2011)**: A broad survey covering various information extraction techniques and their applications"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "**Recent Advancements:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "title": [
+      "**\"Deep Learning for Information Extraction\" by Sebastian Riedel (2016)**: Explores the application of deep learning techniques for information extraction tasks"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "title": [
+      "**\"End-to-End Neural Information Extraction\" by Zhouhan Lin (2016)**: Introduces an end-to-end neural network architecture for information extraction"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "title": [
+      "**\"Neural Networks for Joint Sentence Segmentation and Information Extraction\" by Peng Zhou (2016)**: Proposes a neural network model for jointly performing sentence segmentation and information extraction"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "title": [
+      "**\"Relation Extraction with Multi-Level Attention\" by Zhilin Yang (2016)**: Introduces a multi-level attention mechanism for relation extraction"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "title": [
+      "**\"A Survey of Deep Learning for Information Extraction\" by Jingjing Li (2017)**: A comprehensive survey of deep learning applications in information extraction"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Specific Applications:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "title": [
+      "**\"Extracting Product Features from Online Reviews\" by Bing Liu (2005)**: Explores techniques for extracting product features from online reviews"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "title": [
+      "**\"Extracting Social Network Information from Web Documents\" by Amit Sheth (2008)**: Focuses on extracting social network information from web documents"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "title": [
+      "**\"Information Extraction from Web Tables\" by Xin Luna Dong (2010)**: Discusses techniques for extracting information from web tables"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "title": [
+      "**\"Extracting Knowledge from the Web: A Survey\" by Amit Sheth (2011)**: Explores techniques for extracting knowledge from the web, including information extraction"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "title": [
+      "**\"Extracting Information from Social Media\" by Amit Sheth (2012)**: Focuses on information extraction from social media platforms"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Other Relevant Articles:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "title": [
+      "**\"Information Extraction from the Web: A Survey\" by Bing Liu (2007)**: A survey of information extraction techniques specifically tailored for web data"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "title": [
+      "**\"Web Data Extraction: A Survey\" by Xin Luna Dong (2010)**: Focuses on web data extraction techniques, including structured, semi-structured, and unstructured data"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "title": [
+      "**\"Information Extraction: A Survey of Techniques and Applications\" by Sarvnaz Karimi (2011)**: A broad survey covering various information extraction techniques and their applications"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "title": [
+      "**\"A Survey of Deep Learning for Information Extraction\" by Jingjing Li (2017)**: A comprehensive survey of deep learning applications in information extraction"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "title": [
+      "**\"Information Extraction from the Web: A Survey\" by Bing Liu (2007)**: A survey of information extraction techniques specifically tailored for web data"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Note:** This list is not exhaustive and there are many other excellent articles on information extraction from the web. This list provides a starting point for exploring the field and understanding the different approaches and techniques used"
+    ],
+    "type": null
+  }
+]

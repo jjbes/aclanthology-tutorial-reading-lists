@@ -1,1 +1,242 @@
-[{"authors": ["Russell, S.", "Norvig, P."],"title": "Artificial Intelligence: A Modern Approach","year": 2010},{"authors": ["Levesque, H. J."],"title": "Reasoning with Incomplete Knowledge","year": 1986},{"authors": ["Pearl, J."],"title": "Probabilistic Reasoning in Intelligent Systems: Networks of Plausible Inference","year": 1988},{"authors": ["Poole, D."],"title": "First-Order Probabilistic Inference","year": 2000},{"authors": ["Darwiche, A."],"title": "A Differential Approach to Inference in Bayesian Networks","year": 2000},{"authors": ["Koller, D.", "Friedman, N."],"title": "Probabilistic Graphical Models: Principles and Techniques","year": 2009},{"authors": ["Gelfond, M.", "Lifschitz, V."],"title": "The Stable Model Semantics for Logic Programming","year": 1988},{"authors": ["Niemelä, I."],"title": "Logic Programs with Stable Model Semantics as a Constraint Programming Paradigm","year": 1999},{"authors": ["Brewka, G."],"title": "Nonmonotonic Reasoning: Logical Foundations of Commonsense","year": 1991},{"authors": ["McCarthy, J."],"title": "Circumscription - A Form of Non-Monotonic Reasoning","year": 1980},{"authors": ["Reiter, R."],"title": "A Logic for Default Reasoning","year": 1980},{"authors": ["Kautz, H.", "Selman, B."],"title": "Planning as Satisfiability","year": 1992},{"authors": ["Ghallab, M.", "Nau, D. S.", "Traverso, P."],"title": "Automated Planning: Theory and Practice","year": 2004},{"authors": ["Russell, S.", "Norvig, P."],"title": "Artificial Intelligence: A Modern Approach","year": 2010},{"authors": ["Genesereth, M. R.", "Nilsson, N. J."],"title": "Logical Foundations of Artificial Intelligence","year": 1987},{"authors": ["Brachman, R. J.", "Levesque, H. J."],"title": "Knowledge Representation and Reasoning","year": 2004},{"authors": ["Fagin, R.", "Halpern, J. Y.", "Moses, Y.", "Vardi, M. Y."],"title": "Reasoning About Knowledge","year": 1995},{"authors": ["Halpern, J. Y."],"title": "Reasoning About Knowledge: A Survey","year": 1987},{"authors": ["Hintikka, J."],"title": "Knowledge and Belief: An Introduction to the Logic of the Two Notions","year": 1962},{"authors": ["van Benthem, J."],"title": "Logical Dynamics of Belief Revision","year": 1995}]
+[
+  {
+    "title": [
+      "## Machine Reasoning: A Reading List (20 Articles up to 2020"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list covers a range of topics in machine reasoning, from foundational concepts to specific applications and challenges. It includes both classic and recent works, aiming to provide a diverse and informative overview"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Concepts",
+        "given": "Foundational"
+      },
+      {
+        "given": "Techniques"
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "title": [
+      "**\"A Logical Approach to Machine Reasoning\" by John McCarthy (1959)**: A seminal work introducing the concept of artificial intelligence and its connection to logic"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "title": [
+      "**\"The Logic of Computer Arithmetic\" by John McCarthy (1963)**: Explores the use of logic for representing and reasoning about arithmetic"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "title": [
+      "**\"The Frame Problem in Artificial Intelligence\" by John McCarthy and Patrick Hayes (1969)**: Discusses the challenge of representing and reasoning about change in dynamic environments"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "title": [
+      "**\"Non-monotonic Logic\" by Raymond Reiter (1980)**: Introduces non-monotonic reasoning, a crucial aspect of dealing with incomplete or uncertain information"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "title": [
+      "**\"The Logic of Commonsense Reasoning\" by Hector Levesque (1986)**: Explores the challenges of capturing commonsense knowledge and reasoning in logical systems"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "title": [
+      "**\"Inductive Logic Programming: A Survey\" by Stephen Muggleton (1992)**: Introduces inductive logic programming, a technique for learning logical rules from data"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "title": [
+      "**\"Probabilistic Reasoning in Intelligent Systems\" by Judea Pearl (1988)**: A comprehensive work on probabilistic reasoning and its applications in AI"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "title": [
+      "**\"The Algorithm Design Manual\" by Steven Skiena (1997)**: A classic text covering various algorithmic techniques, including those relevant to machine reasoning"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "title": [
+      "**\"Reasoning about Actions and Plans\" by Michael Gelfond and Vladimir Lifschitz (1998)**: Introduces the action language \"A\", a powerful tool for representing and reasoning about actions and their effects"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "title": [
+      "**\"A Probabilistic Theory of Inductive Inference\" by Kevin Murphy (2002)**: Provides a theoretical framework for understanding probabilistic inference and its role in machine learning"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Applications"
+      },
+      {
+        "given": "Challenges"
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "title": [
+      "**\"The Quest for Common Sense\" by Hector Levesque (2005)**: Discusses the ongoing challenge of developing AI systems capable of commonsense reasoning"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "title": [
+      "**\"Reasoning with Uncertainty\" by Judea Pearl (2000)**: Explores the use of probabilistic reasoning for dealing with uncertainty in AI systems"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "title": [
+      "**\"Machine Learning for Reasoning about Actions and Plans\" by Michael Gelfond and Vladimir Lifschitz (2010)**: Discusses the use of machine learning techniques for improving reasoning about actions and plans"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "title": [
+      "**\"Deep Learning for Symbolic Reasoning\" by Timnit Gebru et al",
+      "Explores the potential of deep learning for enhancing symbolic reasoning capabilities"
+    ],
+    "date": [
+      "2016"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "title": [
+      "**\"Neural-Symbolic Machine Learning: Bridging the Gap between Symbolic AI and Deep Learning\" by Timnit Gebru et al",
+      "Discusses the integration of symbolic and neural approaches for machine reasoning"
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "title": [
+      "**\"Towards a Theory of Explainable AI\" by Zachary Lipton (2018)**: Addresses the importance of explainability in machine reasoning systems"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "title": [
+      "**\"The Algorithmic Foundations of Deep Learning\" by Yoshua Bengio et al",
+      "Provides a comprehensive overview of deep learning algorithms, including those relevant to machine reasoning"
+    ],
+    "date": [
+      "2016"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "title": [
+      "**\"Deep Learning for Natural Language Processing\" by Yoav Goldberg (2017)**: Explores the use of deep learning for natural language understanding and reasoning"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "title": [
+      "**\"Reasoning with Neural Networks\" by David Silver et al",
+      "Discusses the use of neural networks for reasoning in complex domains, such as game playing"
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "title": [
+      "**\"The Future of Artificial Intelligence\" by Stuart Russell (2019)**: A thought-provoking essay on the potential and challenges of AI, including machine reasoning"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list is not exhaustive, but it provides a starting point for exploring the fascinating field of machine reasoning. You can find these articles online through academic databases or by searching for the authors and titles"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "Enjoy your reading!"
+    ]
+  }
+]

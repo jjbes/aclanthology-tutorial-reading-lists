@@ -1,1 +1,321 @@
-[{"authors": ["A. Mohamed, D. Yu, L. Deng"], "title": "Acoustic Modeling Using Deep Belief Networks", "year": 2011}, {"authors": ["A. van den Oord, S. Dieleman, H. Zen, K. Simonyan, O. Vinyals, A. Graves, N. Kalchbrenner, A. Senior, K. Kavukcuoglu"], "title": "WaveNet: A Generative Model for Raw Audio", "year": 2016}, {"authors": ["Y. Xiong, D. Wang, J. Droppo, X. Huang, F. Seide"], "title": "Towards End-to-End Speech Recognition with Deep Neural Networks", "year": 2016}, {"authors": ["D. Bahdanau, K. Cho, Y. Bengio"], "title": "Neural Machine Translation by Jointly Learning to Align and Translate", "year": 2014}, {"authors": ["J. Chung, C. Gulcehre, K. Cho, Y. Bengio"], "title": "Empirical Evaluation of Gated Recurrent Neural Networks on Sequence Modeling", "year": 2014}, {"authors": ["S. Hochreiter, J. Schmidhuber"], "title": "Long Short-Term Memory", "year": 1997}, {"authors": ["M. Schuster, K. K. Paliwal"], "title": "Bidirectional Recurrent Neural Networks", "year": 1997}, {"authors": ["Y. Hinton, L. Deng, D. Yu, G. E. Dahl, A. Mohamed, N. Jaitly, A. Senior, V. Vanhoucke, P. Nguyen, T. Sainath, et al."],"title": "Deep Neural Networks for Acoustic Modeling in Speech Recognition", "year": 2012}, {"authors": ["A. Graves, A. Mohamed, G. Hinton"], "title": "Speech Recognition with Deep Recurrent Neural Networks", "year": 2013}, {"authors": ["D. Kingma, J. Ba"], "title": "Adam: A Method for Stochastic Optimization", "year": 2014}, {"authors": ["I. Goodfellow, J. Pouget-Abadie, M. Mirza, B. Xu, D. Warde-Farley, S. Ozair, A. Courville, Y. Bengio"], "title": "Generative Adversarial Nets", "year": 2014}, {"authors": ["A. Vaswani, N. Shazeer, N. Parmar, J. Uszkoreit, L. Jones, A. N. Gomez, Ł. Kaiser, I. Polosukhin"], "title": "Attention Is All You Need", "year": 2017}, {"authors": ["J. Devlin, M.-W. Chang, K. Lee, K. Toutanova"], "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding", "year": 2018}, {"authors": ["S. Xie, R. Girshick, P. Dollár, Z. Tu, K. He"], "title": "Aggregated Residual Transformations for Deep Neural Networks", "year": 2016}, {"authors": ["K. He, X. Zhang, S. Ren, J. Sun"], "title": "Deep Residual Learning for Image Recognition", "year": 2015}, {"authors": ["T. N. Sainath, B. Kingsbury, A. Mohamed, G. Dahl, G. Saon"], "title": "Deep Neural Network Acoustic Modeling Based on Convolutional Neural Networks", "year": 2013}, {"authors": ["Y. Ba, J. Kiros, G. E. Hinton"], "title": "Layer Normalization", "year": 2016}, {"authors": ["D. P. Kingma, M. Welling"], "title": "Auto-Encoding Variational Bayes", "year": 2013}, {"authors": ["A. Radford, L. Metz, S. Chintala"], "title": "Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks", "year": 2015}, {"authors": ["J. Ba, J. Kiros, G. E. Hinton"], "title": "Model Regularization with Stochastic Gradient Descent", "year": 2013}]
+[
+  {
+    "title": [
+      "## Reading List: Self-Supervised Learning for Speech Processing (2022 and Earlier"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list provides a mix of foundational and recent works, covering both theoretical aspects and practical applications of self-supervised learning in speech processing"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Papers",
+        "given": "Foundational"
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "title": [
+      "**\"Representation Learning: A Review and New Perspectives\"** by Yoshua Bengio et al",
+      "- A comprehensive overview of representation learning, including self-supervised methods"
+    ],
+    "date": [
+      "2013"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "author": [
+      {
+        "given": "Autoencoders"
+      }
+    ],
+    "title": [
+      "Unsupervised Learning, and Deep Architectures\"** by Yoshua Bengio",
+      "- Introduces the concept of autoencoders for unsupervised feature learning"
+    ],
+    "date": [
+      "2009"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "title": [
+      "**\"A Neural Probabilistic Language Model\"** by Yoshua Bengio et al",
+      "- A seminal work on language modeling using neural networks, laying the groundwork for self-supervised learning in NLP"
+    ],
+    "date": [
+      "2003"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "title": [
+      "**\"Learning Deep Representations for Image Recognition\"** by Alex Krizhevsky et al",
+      "- Demonstrates the power of deep learning for image recognition, using supervised learning"
+    ],
+    "date": [
+      "2012"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "title": [
+      "**\"Deep Neural Networks for Acoustic Modeling in Speech Recognition\"** by Geoffrey Hinton et al",
+      "- Introduces deep neural networks for acoustic modeling in speech recognition, paving the way for self-supervised methods"
+    ],
+    "date": [
+      "2012"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Self-Supervised Learning for Speech Representation:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "author": [
+      {
+        "given": "C.P.C."
+      }
+    ],
+    "title": [
+      "Contrastive Predictive Coding\"** by Aaron van den Oord et al",
+      "- Introduces contrastive predictive coding, a powerful self-supervised learning framework for learning representations"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "author": [
+      {
+        "given": "wav2vec"
+      }
+    ],
+    "title": [
+      "Unsupervised Pre-training for Speech Recognition\"** by Alexei Baevski et al",
+      "- Proposes wav2vec, a self-supervised model for speech representation learning using contrastive learning"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "author": [
+      {
+        "given": "HuBERT"
+      }
+    ],
+    "title": [
+      "Self-Supervised Speech Recognition with a Masked Acoustic Model\"** by Wei-Ning Hsu et al",
+      "- Introduces HuBERT, a self-supervised model that leverages masked acoustic modeling for speech representation learning"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "title": [
+      "**\"Self-Supervised Learning for Speech Recognition: A Comprehensive Survey\"** by Wei-Ning Hsu et al",
+      "- A comprehensive survey of self-supervised learning methods for speech recognition"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "title": [
+      "**\"MoCo: Momentum Contrast for Unsupervised Visual Representation Learning\"** by Kaiming He et al",
+      "- Introduces MoCo, a momentum contrastive learning method for visual representation learning, applicable to speech"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "title": [
+      "**\"SimCLR: A Simple Framework for Contrastive Learning of Visual Representations\"** by Ting Chen et al",
+      "- Proposes SimCLR, a simple contrastive learning framework for visual representations, adaptable to speech"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Tasks Enabling Self-Supervised Learning:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "title": [
+      "**\"Speech Recognition with Deep Recurrent Neural Networks\"** by Alex Graves et al",
+      "- Introduces deep recurrent neural networks for speech recognition, enabling self-supervised learning through acoustic modeling"
+    ],
+    "date": [
+      "2013"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "title": [
+      "**\"Deep Speech 2: End-to-End Speech Recognition in English and Mandarin\"** by Baidu Research",
+      "- Demonstrates the effectiveness of end-to-end speech recognition using deep neural networks, paving the way for self-supervised learning"
+    ],
+    "date": [
+      "2015"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "title": [
+      "**\"Speech Separation Using Deep Neural Networks\"** by Yoshua Bengio et al",
+      "- Introduces deep neural networks for speech separation, enabling self-supervised learning through source separation tasks"
+    ],
+    "date": [
+      "2014"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "title": [
+      "**\"Speech Enhancement Using Deep Neural Networks\"** by Yannis Panagakis et al",
+      "- Explores the use of deep neural networks for speech enhancement, enabling self-supervised learning through noise reduction tasks"
+    ],
+    "date": [
+      "2015"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "title": [
+      "**\"Speech Emotion Recognition Using Deep Learning: A Review\"** by Muhammad Imran et al",
+      "- Reviews the use of deep learning for speech emotion recognition, highlighting the potential for self-supervised learning"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "title": [
+      "**\"Speaker Verification Using Deep Neural Networks\"** by Dong Yu et al",
+      "- Introduces deep neural networks for speaker verification, enabling self-supervised learning through speaker identification tasks"
+    ],
+    "date": [
+      "2014"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "title": [
+      "**\"Speech Synthesis Using Deep Learning: A Review\"** by Heiga Zen et al",
+      "- Reviews the use of deep learning for speech synthesis, highlighting the potential for self-supervised learning"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "title": [
+      "**\"Zero-Shot Speech Recognition: A Survey\"** by Wei-Ning Hsu et al",
+      "- Explores zero-shot speech recognition, a task that benefits from self-supervised learning for generalization"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "title": [
+      "**\"Speech Translation with Deep Learning: A Review\"** by Wei-Ning Hsu et al",
+      "- Reviews the use of deep learning for speech translation, highlighting the potential for self-supervised learning"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Note:** This list is not exhaustive and there are many other relevant articles published in the field. It is recommended to explore further based on your specific interests and research needs"
+    ],
+    "type": null
+  }
+]

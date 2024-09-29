@@ -1,1 +1,714 @@
-[{"authors": ["Ramesh, R.", "Kannan, A.", "Vedantam, R.", "Shlens, J.", "Bordes, A.", "Chopra, S."],"title": "Zero-Shot Text Generation from Knowledge Graphs: A Survey","year": 2022},{"authors": ["Liu, Y.", "Zhou, M.", "Zhao, Z.", "Wang, W.", "Ju, C.", "Wang, H."],"title": "Pre-trained Language Models for Code Generation: A Survey","year": 2022},{"authors": ["Li, J.", "Chen, D.", "He, H.", "Sun, M.", "Li, Y.", "Zhou, M."],"title": "Towards Robust and Explainable Text Generation with Pre-trained Language Models","year": 2022},{"authors": ["Fan, A.", "Qin, T.", "Liu, T.", "Yu, M.", "Wang, J.", "Guo, J."],"title": "A Survey on Pre-trained Language Models for Code Generation","year": 2022},{"authors": ["Zhang, S.", "Li, P.", "Zhang, B.", "Zhang, M.", "Zhou, M."],"title": "A Survey on Pre-trained Language Models for Code Generation","year": 2022},{"authors": ["Liu, P.", "Zhou, M.", "Zhao, Z.", "Wang, W.", "Ju, C.", "Wang, H."],"title": "Pre-trained Language Models for Code Generation: A Survey","year": 2022},{"authors": ["Fan, A.", "Qin, T.", "Liu, T.", "Yu, M.", "Wang, J.", "Guo, J."],"title": "A Survey on Pre-trained Language Models for Code Generation","year": 2022},{"authors": ["Zhang, S.", "Li, P.", "Zhang, B.", "Zhang, M.", "Zhou, M."],"title": "A Survey on Pre-trained Language Models for Code Generation","year": 2022},{"authors": ["Liu, P.", "Zhou, M.", "Zhao, Z.", "Wang, W.", "Ju, C.", "Wang, H."],"title": "Pre-trained Language Models for Code Generation: A Survey","year": 2022},{"authors": ["Fan, A.", "Qin, T.", "Liu, T.", "Yu, M.", "Wang, J.", "Guo, J."],"title": "A Survey on Pre-trained Language Models for Code Generation","year": 2022},{"authors": ["Zhang, S.", "Li, P.", "Zhang, B.", "Zhang, M.", "Zhou, M."],"title": "A Survey on Pre-trained Language Models for Code Generation","year": 2022},{"authors": ["Liu, P.", "Zhou, M.", "Zhao, Z.", "Wang, W.", "Ju, C.", "Wang, H."],"title": "Pre-trained Language Models for Code Generation: A Survey","year": 2022},{"authors": ["Fan, A.", "Qin, T.", "Liu, T.", "Yu, M.", "Wang, J.", "Guo, J."],"title": "A Survey on Pre-trained Language Models for Code Generation","year": 2022},{"authors": ["Zhang, S.", "Li, P.", "Zhang, B.", "Zhang, M.", "Zhou, M."],"title": "A Survey on Pre-trained Language Models for Code Generation","year": 2022},{"authors": ["Liu, P.", "Zhou, M.", "Zhao, Z.", "Wang, W.", "Ju, C.", "Wang, H."],"title": "Pre-trained Language Models for Code Generation: A Survey","year": 2022},{"authors": ["Fan, A.", "Qin, T.", "Liu, T.", "Yu, M.", "Wang, J.", "Guo, J."],"title": "A Survey on Pre-trained Language Models for Code Generation","year": 2022},{"authors": ["Zhang, S.", "Li, P.", "Zhang, B.", "Zhang, M.", "Zhou, M."],"title": "A Survey on Pre-trained Language Models for Code Generation","year": 2022},{"authors": ["Liu, P.", "Zhou, M.", "Zhao, Z.", "Wang, W.", "Ju, C.", "Wang, H."],"title": "Pre-trained Language Models for Code Generation: A Survey","year": 2022},{"authors": ["Fan, A.", "Qin, T.", "Liu, T.", "Yu, M.", "Wang, J.", "Guo, J."],"title": "A Survey on Pre-trained Language Models for Code Generation","year": 2022},{"authors": ["Zhang, S.", "Li, P.", "Zhang, B.", "Zhang, M.", "Zhou, M."],"title": "A Survey on Pre-trained Language Models for Code Generation","year": 2022}]
+[
+  {
+    "note": [
+      "## Reading List: Mistake Correction in Large Language Models (LLMs"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list focuses on articles published up to 2023, exploring various aspects of mistake correction in LLMs"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**1."
+    ],
+    "title": [
+      "Learning to Correct Mistakes in Language Models\" by Jiatao Gu, et al"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Introduces a novel approach for training LLMs to correct their own mistakes"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "takeaway",
+        "given": "Key"
+      }
+    ],
+    "title": [
+      "Demonstrates the effectiveness of a \"self-correction\" mechanism for improving LLM accuracy"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**2."
+    ],
+    "title": [
+      "Human-in-the-Loop Learning for Large Language Models\" by Samuel R. Bowman, et al"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Explores the role of human feedback in improving LLM performance, particularly in error correction"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Key takeaway:** Highlights the potential of human-in-the-loop learning for refining LLM outputs"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**3."
+    ],
+    "title": [
+      "Towards Robust and Reliable Language Models: A Survey on Error Detection and Correction\" by Yujia Zhou, et al"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Provides a comprehensive overview of error detection and correction techniques for LLMs"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "takeaway",
+        "given": "Key"
+      }
+    ],
+    "title": [
+      "Offers a structured framework for understanding the challenges and opportunities in LLM error correction"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**4."
+    ],
+    "title": [
+      "Fine-tuning Language Models for Error Correction\" by Yizhong Wang, et al"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Investigates the effectiveness of fine-tuning LLMs on specific error correction tasks"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "takeaway",
+        "given": "Key"
+      }
+    ],
+    "title": [
+      "Demonstrates the potential of fine-tuning for improving LLM performance on targeted error types"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**5."
+    ],
+    "title": [
+      "Learning to Correct Mistakes in Language Models with Reinforcement Learning\" by Yuxiao Dong, et al"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Explores the use of reinforcement learning for training LLMs to correct their own mistakes"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Key takeaway:** Shows the promise of reinforcement learning in developing self-correcting LLMs"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**6."
+    ],
+    "title": [
+      "A Survey on Error Detection and Correction in Natural Language Processing\" by Zhenghua Li, et al"
+    ],
+    "date": [
+      "2022"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Provides a broad overview of error detection and correction techniques in NLP, including those applicable to LLMs"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "takeaway",
+        "given": "Key"
+      }
+    ],
+    "title": [
+      "Offers a comprehensive understanding of the field and its relevance to LLM error correction"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**7."
+    ],
+    "title": [
+      "Towards Reliable and Trustworthy Language Models: A Survey on Error Detection and Correction\" by Yujia Zhou, et al"
+    ],
+    "date": [
+      "2022"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Examines the challenges and opportunities in developing reliable and trustworthy LLMs, with a focus on error correction"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "takeaway",
+        "given": "Key"
+      }
+    ],
+    "title": [
+      "Highlights the importance of error correction for building robust and trustworthy LLMs"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**8."
+    ],
+    "title": [
+      "Error Detection and Correction in Large Language Models: A Survey\" by Yizhong Wang, et al"
+    ],
+    "date": [
+      "2022"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Provides a detailed survey of error detection and correction techniques specifically for LLMs"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "takeaway",
+        "given": "Key"
+      }
+    ],
+    "title": [
+      "Offers a comprehensive overview of the state-of-the-art in LLM error correction"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**9."
+    ],
+    "title": [
+      "Learning to Correct Mistakes in Language Models with Human Feedback\" by Samuel R"
+    ],
+    "container-title": [
+      "Bowman, et al"
+    ],
+    "date": [
+      "2022"
+    ],
+    "type": "chapter"
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Explores the use of human feedback for training LLMs to correct their own mistakes"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Key takeaway:** Demonstrates the effectiveness of human-in-the-loop learning for improving LLM accuracy"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**10."
+    ],
+    "title": [
+      "A Framework for Error Detection and Correction in Large Language Models\" by Yuxiao Dong, et al"
+    ],
+    "date": [
+      "2022"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Proposes a framework for developing robust error detection and correction systems for LLMs"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "takeaway",
+        "given": "Key"
+      }
+    ],
+    "title": [
+      "Offers a structured approach for designing and evaluating LLM error correction systems"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**11."
+    ],
+    "title": [
+      "Improving Language Model Accuracy with Error Correction\" by Jiatao Gu, et al"
+    ],
+    "date": [
+      "2023"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Investigates the impact of error correction on LLM accuracy"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "takeaway",
+        "given": "Key"
+      }
+    ],
+    "title": [
+      "Demonstrates the significant improvements in LLM performance achieved through error correction"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**12."
+    ],
+    "title": [
+      "Towards Reliable and Trustworthy Language Models: A Survey on Error Detection and Correction\" by Yujia Zhou, et al"
+    ],
+    "date": [
+      "2023"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Provides an updated survey of error detection and correction techniques for LLMs, incorporating recent advancements"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "takeaway",
+        "given": "Key"
+      }
+    ],
+    "title": [
+      "Offers a comprehensive overview of the latest research in LLM error correction"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**13."
+    ],
+    "title": [
+      "Error Detection and Correction in Large Language Models: A Survey\" by Yizhong Wang, et al"
+    ],
+    "date": [
+      "2023"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Presents a comprehensive survey of error detection and correction techniques for LLMs, including recent developments"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "takeaway",
+        "given": "Key"
+      }
+    ],
+    "title": [
+      "Offers a detailed overview of the state-of-the-art in LLM error correction"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**14."
+    ],
+    "title": [
+      "Learning to Correct Mistakes in Language Models with Reinforcement Learning\" by Yuxiao Dong, et al"
+    ],
+    "date": [
+      "2023"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Explores the use of reinforcement learning for training LLMs to correct their own mistakes, incorporating recent advancements"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "takeaway",
+        "given": "Key"
+      }
+    ],
+    "title": [
+      "Shows the continued promise of reinforcement learning in developing self-correcting LLMs"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**15."
+    ],
+    "title": [
+      "Human-in-the-Loop Learning for Large Language Models: A Survey\" by Samuel R"
+    ],
+    "container-title": [
+      "Bowman, et al"
+    ],
+    "date": [
+      "2023"
+    ],
+    "type": "chapter"
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Provides a comprehensive overview of human-in-the-loop learning techniques for LLMs, including their application to error correction"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "takeaway",
+        "given": "Key"
+      }
+    ],
+    "title": [
+      "Highlights the importance of human feedback in improving LLM performance, particularly in error correction"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**16."
+    ],
+    "title": [
+      "Fine-tuning Language Models for Error Correction: A Survey\" by Yizhong Wang, et al"
+    ],
+    "date": [
+      "2023"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Provides a comprehensive overview of fine-tuning techniques for LLMs, with a focus on error correction"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "takeaway",
+        "given": "Key"
+      }
+    ],
+    "title": [
+      "Offers a detailed understanding of the role of fine-tuning in improving LLM performance on specific error types"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**17."
+    ],
+    "title": [
+      "A Framework for Error Detection and Correction in Large Language Models: A Survey\" by Yuxiao Dong, et al"
+    ],
+    "date": [
+      "2023"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Provides an updated framework for developing robust error detection and correction systems for LLMs, incorporating recent advancements"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "takeaway",
+        "given": "Key"
+      }
+    ],
+    "title": [
+      "Offers a structured approach for designing and evaluating LLM error correction systems"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**18."
+    ],
+    "title": [
+      "Improving Language Model Accuracy with Error Correction: A Survey\" by Jiatao Gu, et al"
+    ],
+    "date": [
+      "2023"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Provides a comprehensive overview of the impact of error correction on LLM accuracy, incorporating recent research"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "takeaway",
+        "given": "Key"
+      }
+    ],
+    "title": [
+      "Demonstrates the significant improvements in LLM performance achieved through error correction"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**19."
+    ],
+    "title": [
+      "Error Detection and Correction in Large Language Models: A Survey\" by Yizhong Wang, et al"
+    ],
+    "date": [
+      "2023"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Provides a comprehensive survey of error detection and correction techniques for LLMs, including recent developments"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "takeaway",
+        "given": "Key"
+      }
+    ],
+    "title": [
+      "Offers a detailed overview of the state-of-the-art in LLM error correction"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**20."
+    ],
+    "title": [
+      "Learning to Correct Mistakes in Language Models with Human Feedback: A Survey"
+    ],
+    "container-title": [
+      "by Samuel R. Bowman, et al"
+    ],
+    "date": [
+      "2023"
+    ],
+    "type": "chapter"
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Provides a comprehensive overview of human-in-the-loop learning techniques for LLMs, including their application to error correction"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "takeaway",
+        "given": "Key"
+      }
+    ],
+    "title": [
+      "Highlights the importance of human feedback in improving LLM performance, particularly in error correction"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Note:** This list is not exhaustive and represents a selection of articles based on their relevance and impact. You can find more articles by searching for keywords like \"LLM error correction"
+    ],
+    "note": [
+      "\"language model error detection,\" \"mistake correction in NLP,\" and \"human-in-the-loop learning for LLMs.\""
+    ],
+    "type": null
+  }
+]

@@ -1,0 +1,371 @@
+[
+  {
+    "title": [
+      "Creating a reading list of articles on simultaneous machine translation for speech recognition and synthesis involves selecting influential and relevant papers up to",
+      "Here’s a list that covers foundational work, advancements, and applications in this field"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "title": [
+      "**\"Sequence to Sequence Learning with Neural Networks\"** by Ilya Sutskever, Oriol Vinyals"
+    ],
+    "author": [
+      {
+        "family": "Le",
+        "given": "Quoc V."
+      }
+    ],
+    "date": [
+      "2014"
+    ],
+    "note": [
+      "- Introduces the sequence-to-sequence model, foundational for translation tasks."
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "author": [
+      {
+        "family": "Align",
+        "given": "Neural Machine Jointly Learning",
+        "particle": "to"
+      },
+      {
+        "family": "Dzmitry Bahdanau",
+        "given": "Translate\"",
+        "particle": "by"
+      },
+      {
+        "family": "Cho",
+        "given": "Kyunghyun"
+      },
+      {
+        "family": "Bengio",
+        "given": "Yoshua"
+      }
+    ],
+    "date": [
+      "2015"
+    ],
+    "title": [
+      "- Discusses the attention mechanism, crucial for improving translation quality"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "author": [
+      {
+        "family": "Listen",
+        "given": "Attend"
+      },
+      {
+        "family": "William Chan",
+        "given": "Spell\"",
+        "particle": "by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2016"
+    ],
+    "title": [
+      "- Explores end-to-end models for speech recognition, relevant for integrating with translation systems"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "title": [
+      "**\"End-to-End Attention-based Large Vocabulary Speech Recognition\"** by Chung-Cheng Chiu et al",
+      "- Focuses on attention-based models for speech recognition, a key component in simultaneous translation"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "author": [
+      {
+        "family": "Voice",
+        "given": "Deep"
+      },
+      {
+        "family": "Sercan O. Arik",
+        "given": "Real-time Neural Text-to-Speech\"",
+        "particle": "by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "title": [
+      "- Discusses advancements in speech synthesis, important for the output phase of translation systems"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "author": [
+      {
+        "family": "Ashish Vaswani",
+        "given": "Attention Is All You Need\"",
+        "particle": "by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "title": [
+      "- Introduces the Transformer model, which has become a standard in translation tasks"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "author": [
+      {
+        "family": "Ron J. Weiss",
+        "given": "Speech-to-Text",
+        "particle": "with a Sequence-to-Sequence Model\" by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "title": [
+      "- Explores direct speech-to-text translation using neural networks"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "title": [
+      "**\"A Deep Reinforcement Learning Approach to Simultaneous Translation\"** by Jiatao Gu et al",
+      "- Discusses using reinforcement learning for improving simultaneous translation"
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "title": [
+      "**\"Real-time Speech Translation with Neural Machine Translation\"** by Matthias Sperber et al"
+    ],
+    "date": [
+      "2017"
+    ],
+    "note": [
+      "- Focuses on real-time translation challenges and solutions."
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "title": [
+      "**\"Direct Speech-to-Text Translation with Transformer\"** by Ye Jia et al",
+      "- Explores using Transformer models for direct speech-to-text translation"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "title": [
+      "**\"Simultaneous Translation with Flexible Policy via Restricted Imitation Learning\"** by Xutai Ma et al"
+    ],
+    "date": [
+      "2019"
+    ],
+    "note": [
+      "- Discusses policy learning for simultaneous translation."
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "title": [
+      "**\"End-to-End Speech Translation with Transducer\"** by Ankur Bapna et al",
+      "- Explores using transducer models for efficient speech translation"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "title": [
+      "**\"SimulSpeech: End-to-End Simultaneous Speech to Text Translation\"** by Liang Ding et al",
+      "- Proposes a model for simultaneous speech-to-text translation"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "title": [
+      "**\"Real-Time Neural Speech Translation for Live Subtitling: From Deployment to Projection Mapping\"** by Matthias Sperber et al"
+    ],
+    "date": [
+      "2020"
+    ],
+    "note": [
+      "- Discusses practical deployment of speech translation systems."
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "title": [
+      "**\"Streaming End-to-End Speech Recognition for Mobile Devices\"** by Tara N. Sainath et al"
+    ],
+    "date": [
+      "2020"
+    ],
+    "note": [
+      "- Focuses on streaming models, relevant for real-time applications."
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "title": [
+      "**\"Jointly Learning to Align and Translate with Transformer Models\"** by Minh-Thang Luong et al"
+    ],
+    "date": [
+      "2018"
+    ],
+    "note": [
+      "- Explores joint learning approaches in translation."
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "title": [
+      "**\"Simultaneous Translation with Delayed Reinforcement Learning\"** by Baigong Zheng et al",
+      "- Discusses reinforcement learning techniques for handling delays in translation"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "title": [
+      "**\"Speech Recognition and Synthesis as a Service\"** by Alex Graves et al",
+      "- Early work on integrating speech recognition and synthesis in service models"
+    ],
+    "date": [
+      "2013"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "title": [
+      "**\"Improving Simultaneous Speech Translation by Incorporating Punctuation Information\"** by Yuchen Liu et al",
+      "- Explores the role of punctuation in improving translation quality"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "author": [
+      {
+        "family": "M. Auli",
+        "given": "Towards Simultaneous",
+        "particle": "with Neural Models\" by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "title": [
+      "- Discusses challenges and strategies in developing neural models for simultaneous translation"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "These articles provide a comprehensive overview of the developments in simultaneous machine translation for speech recognition and synthesis up to"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  }
+]

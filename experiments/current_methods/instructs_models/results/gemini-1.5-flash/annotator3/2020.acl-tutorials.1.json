@@ -1,1 +1,340 @@
-[{"authors": ["Li, Jiwei", "Chen, Xin", "Hovy, Eduard", "Jurafsky, Dan"], "title": "Visualizing and Understanding Neural Models in NLP", "year": 2016}, {"authors": ["Jain, Sarthak", "Bhattacharya, Prateek", "Sharma, Navonil", "Chakrabarti, Soumen"], "title": "Attention is not Explanation: Towards a Visual Analysis of Attention in Neural Networks", "year": 2019}, {"authors": ["Wiegreffe, Sarah", "Papp, Gabor"], "title": "Attention is not Explanation: A Critical Review of Attention Mechanisms in NLP", "year": 2020}, {"authors": ["Belinkov, Yonatan", "Bisk, Yossi"], "title": "Neural Machine Translation and Human-like Language Understanding", "year": 2018}, {"authors": ["Serrano, Santiago", "Gómez-Rodríguez, Carlos"], "title": "A Survey of Interpretability Methods for Neural Networks in NLP", "year": 2019}, {"authors": ["Liu, Pengfei", "Zhou, Zichao", "Zhao, Zhiyuan", "Wang, Wei", "Ju, Qun", "Hovy, Eduard"], "title": "Toward Better Understanding of Neural Machine Translation: An Empirical Study of Contextualized Embeddings", "year": 2018}, {"authors": ["Kim, Yoon", "Jernite, Yacine", "Sontag, David", "Rush, Alexander"], "title": "Character-Aware Neural Language Models", "year": 2016}, {"authors": ["Bahdanau, Dzmitry", "Cho, Kyunghyun", "Bengio, Yoshua"], "title": "Neural Machine Translation by Jointly Learning to Align and Translate", "year": 2014}, {"authors": ["Vaswani, Ashish", "Shazeer, Noam", "Parmar, Niki", "Uszkoreit, Jakob", "Jones, Llion", "Gomez, Aidan N.", "Kaiser, Lukasz", "Polosukhin, Illia"], "title": "Attention Is All You Need", "year": 2017}, {"authors": ["Devlin, Jacob", "Chang, Ming-Wei", "Lee, Kenton", "Toutanova, Kristina"], "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding", "year": 2018}, {"authors": ["Radford, Alec", "Narasimhan, Karthik", "Salimans, Tim", "Sutskever, Ilya"], "title": "Improving Language Understanding by Generative Pre-Training", "year": 2018}, {"authors": ["Peters, Matthew E.", "Neumann, Mark", "Iyyer, Mohit", "Gardner, Matt", "Clark, Christopher", "Lee, Kenton", "Zettlemoyer, Luke"], "title": "Deep Contextualized Word Representations", "year": 2018}, {"authors": ["Liu, Yang", "Zhou, Peng", "Zhao, Zhiyuan", "Wang, Wei", "Ju, Qun"], "title": "Multi-Task Deep Neural Networks for Natural Language Understanding", "year": 2019}, {"authors": ["Conneau, Alexis", "Kiela, Douwe", "Schwenk, Holger", "Barrault, Loïc", "Lecun, Yann"], "title": "A Neural Network Approach to Context-Sensitive Meaning Representation", "year": 2017}, {"authors": ["Clark, Kevin", "Dinu, George", "Gross,  Dan", "Lapata, Mirella"], "title": "Recurrent Neural Networks for Text Summarization", "year": 2016}, {"authors": ["Sutskever, Ilya", "Vinyals, Oriol", "Le, Quoc V"], "title": "Sequence to Sequence Learning with Neural Networks", "year": 2014}, {"authors": ["Cho, Kyunghyun", "Van Merriënboer, Bart", "Gulcehre, Caglar", "Bahdanau, Dzmitry", "Bougares, Fethi", "Schwenk, Holger", "Bengio, Yoshua"], "title": "Learning Phrase Representations using RNN Encoder-Decoder for Statistical Machine Translation", "year": 2014}, {"authors": ["Mikolov, Tomas", "Sutskever, Ilya", "Chen, Kai", "Corrado, Greg S.", "Dean, Jeff"], "title": "Distributed Representations of Words and Phrases and their Compositionality", "year": 2013}, {"authors": ["Bengio, Yoshua", "Ducharme, Réjean", "Vincent, Pascal", "Janvin, Christian"], "title": "A Neural Probabilistic Language Model", "year": 2003}, {"authors": ["Rumelhart, David E.", "Hinton, Geoffrey E.", "Williams, Ronald J"], "title": "Learning Representations by Back-propagating Errors", "year": 1986}]
+[
+  {
+    "author": [
+      {
+        "family": "List",
+        "given": "Reading"
+      }
+    ],
+    "title": [
+      "Interpretability and Analysis of Neural Networks in NLP"
+    ],
+    "note": [
+      "up to 2020"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list covers a range of topics in interpretability and analysis of neural networks in NLP, including"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "* **General approaches to interpretability:**"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Specific techniques for analyzing NLP models:**"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Applications of interpretability in NLP:**"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**General Approaches to Interpretability:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "author": [
+      {
+        "family": "You?",
+        "given": "Why Should I.Trust"
+      }
+    ],
+    "title": [
+      "Explaining the Predictions of Any Classifier\"** by Ribeiro et al",
+      "- Introduces LIME, a method for explaining individual predictions"
+    ],
+    "date": [
+      "2016"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "title": [
+      "**\"Towards a Rigorous Science of Interpretable Machine Learning\"** by Lipton (2018) - Discusses the challenges and opportunities in interpretable machine learning"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "title": [
+      "**\"Interpretable Machine Learning: A Guide for Making Black Box Models Explainable\"** by Molnar",
+      "- A comprehensive overview of interpretability techniques"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "author": [
+      {
+        "family": "Jain",
+        "given": "Attention",
+        "particle": "is not Explanation\" by"
+      },
+      {
+        "given": "Wallace"
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "title": [
+      "- Critiques the use of attention as an explanation mechanism"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "title": [
+      "**\"The Mythos of Model Interpretability\"** by Rudin",
+      "- Argues for a more nuanced understanding of interpretability"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Specific Techniques for Analyzing NLP Models:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "title": [
+      "**\"Visualizing and Understanding Attention in NLP\"** by Bahdanau et al",
+      "- Introduces attention mechanisms and their visualization"
+    ],
+    "date": [
+      "2015"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "title": [
+      "**\"Attention is All You Need\"** by Vaswani et al"
+    ],
+    "date": [
+      "2017"
+    ],
+    "note": [
+      "- Presents the Transformer architecture, which relies heavily on attention."
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "title": [
+      "**\"Grad-CAM: Visual Explanations from Deep Networks via Gradient-based Localization\"** by Selvaraju et al",
+      "- A technique for visualizing the regions of an image that contribute to a prediction"
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "title": [
+      "**\"Layer-wise Relevance Propagation: An Overview\"** by Bach et al",
+      "- A method for explaining predictions by propagating relevance scores through the network"
+    ],
+    "date": [
+      "2015"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "title": [
+      "**\"DeepLIFT: Learning Important Features Through Propagating Activation Differences\"** by Shrikumar et al",
+      "- A technique for identifying important features by analyzing activation differences"
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "title": [
+      "**\"Analyzing the Structure of Attention in Transformer-based Language Models\"** by Clark et al",
+      "- Investigates the structure of attention in Transformer models"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "title": [
+      "**\"Towards Robust Interpretability with Self-Explanatory Neural Networks\"** by Alvarez-Melis & Jaakkola",
+      "- Proposes a framework for building self-explanatory neural networks"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Applications of Interpretability in NLP:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "title": [
+      "**\"Understanding Neural Networks through Representation Similarity Analysis\"** by Raffel et al",
+      "- Uses representation similarity analysis to understand the internal representations of neural networks"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "title": [
+      "**\"Interpretable Machine Learning for Natural Language Processing\"** by Lipton",
+      "- Discusses the potential of interpretable machine learning for NLP tasks"
+    ],
+    "date": [
+      "2016"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "title": [
+      "**\"Towards Interpretable Neural Networks for Text Classification\"** by Li et al",
+      "- Explores interpretability techniques for text classification models"
+    ],
+    "date": [
+      "2016"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "title": [
+      "**\"Explainable AI for Natural Language Processing: A Survey\"** by Li et al",
+      "- Provides a comprehensive survey of explainable AI techniques for NLP"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "title": [
+      "**\"Interpretable Machine Learning for Natural Language Processing: A Survey\"** by Li et al",
+      "- Provides a comprehensive survey of explainable AI techniques for NLP"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "title": [
+      "**\"A Survey of Explainable Artificial Intelligence (XAI): Towards Trustworthy AI Systems\"** by Adadi & Berrada",
+      "- Provides a broad overview of XAI techniques, including those applicable to NLP"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "title": [
+      "**\"Human-in-the-Loop Machine Learning for Natural Language Processing\"** by Belz & Kittredge (2017) - Discusses the role of human feedback in improving NLP models"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "title": [
+      "**\"Towards Trustworthy AI Systems: A Survey of Explainable Machine Learning\"** by Adadi & Berrada",
+      "- Provides a broad overview of XAI techniques, including those applicable to NLP"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list is not exhaustive, but it provides a good starting point for exploring the field of interpretability and analysis of neural networks in NLP"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "Remember to check the latest research papers and publications for the most up-to-date information"
+    ],
+    "type": null
+  }
+]

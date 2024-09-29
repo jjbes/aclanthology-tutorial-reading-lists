@@ -1,1 +1,270 @@
-[{"authors": ["Chomsky, Noam"], "title": "Syntactic Structures", "year": 1957}, {"authors": ["Brown, Peter F., Vincent J. Della Pietra, Stephen A. Della Pietra, and Robert L. Mercer"], "title": "The mathematics of statistical machine translation: Parameter estimation", "year": 1993}, {"authors": ["Brill, Eric"], "title": "Automatic grammar correction for text understanding", "year": 1995}, {"authors": ["Goldberg, David E., and Michael R. Genesereth"], "title": "Models of shared, distributed, and hierarchical knowledge", "year": 1997}, {"authors": ["Collins, Michael John"], "title": "Head-driven statistical models for natural language parsing", "year": 1999}, {"authors": ["Och, Franz Josef, and Hermann Ney"], "title": "Improved statistical alignment models", "year": 2000}, {"authors": ["Dagan, Ido, and Alon Itai"], "title": "Word sense disambiguation using a second language", "year": 2001}, {"authors": ["Toutanova, Kristina, Dan Klein, Christopher D. Manning, and Yoram Singer"], "title": "Feature-rich part-of-speech tagging with a cyclic dependency network", "year": 2003}, {"authors": ["Chelba, Ciprian, and Frederick Jelinek"], "title": "Structured language modeling", "year": 2003}, {"authors": ["Brants, Thorsten, Alex Franz, and Sabine Thater"], "title": "LARF: A large-scale, automatically generated, highly parallel corpus", "year": 2007}, {"authors": ["Dyer, Chris, Adam Lopez, Johnathan Weese, and Noah A. Smith"], "title": "Unsupervised parsing with a context-free dependency grammar", "year": 2008}, {"authors": ["Chang, Ming-Wei, Dan Jurafsky, and Christopher D. Manning"], "title": "A compositional and discriminative approach to natural language inference", "year": 2008}, {"authors": ["Goldberg, Yoav, and Michael Elhadad"], "title": "An efficient algorithm for discriminative parsing using a factored model", "year": 2008}, {"authors": ["Huang, Liang, and David Chiang"], "title": "A hierarchical phrase-based model for statistical machine translation", "year": 2009}, {"authors": ["Sutskever, Ilya, James Martens, and Geoffrey Hinton"], "title": "Generating text with recurrent neural networks", "year": 2011}, {"authors": ["Collobert, Ronan, Jason Weston, Léon Bottou, Michael Karlen, Koray Kavukcuoglu, and Pavel Kuksa"], "title": "Natural language processing (almost) from scratch", "year": 2011}, {"authors": ["Bahdanau, Dzmitry, Kyunghyun Cho, and Yoshua Bengio"], "title": "Neural machine translation by jointly learning to align and translate", "year": 2014}, {"authors": ["Luong, Minh-Thang, Hieu Pham, and Christopher D. Manning"], "title": "Effective approaches to attention-based neural machine translation", "year": 2015}, {"authors": ["Vaswani, Ashish, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez, Lukasz Kaiser, and Illia Polosukhin"], "title": "Attention is all you need", "year": 2017}, {"authors": ["Devlin, Jacob, Ming-Wei Chang, Kenton Lee, and Kristina Toutanova"], "title": "BERT: Pre-training of deep bidirectional transformers for language understanding", "year": 2018}]
+[
+  {
+    "title": [
+      "## Automatic Grammatical Error Correction: A Reading List"
+    ],
+    "note": [
+      "up to 2020"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list provides a diverse selection of articles covering various aspects of Automatic Grammatical Error Correction (GEC) research up to",
+      "It includes foundational works, recent advancements, and discussions on specific challenges and applications"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Works",
+        "given": "Foundational"
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "title": [
+      "**\"A Statistical Approach to Grammatical Error Correction\" by Dale, 2000:** This paper introduces a statistical approach to GEC, laying the groundwork for future research"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "title": [
+      "**\"Automatic Grammatical Error Correction: A Survey\" by Chan, 2007:** A comprehensive survey of GEC techniques up to 2007, covering rule-based, statistical, and machine learning approaches"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "title": [
+      "**\"A Survey of Machine Translation Evaluation Metrics\" by Papineni et al., 2002:** This paper introduces BLEU, a widely used evaluation metric for GEC systems"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "**Recent Advancements:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "author": [
+      {
+        "family": "Machine",
+        "given": "Neural"
+      },
+      {
+        "family": "Sutskever",
+        "given": "Sequence-to-Sequence Learning\"",
+        "particle": "by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2014"
+    ],
+    "title": [
+      "This paper introduces the concept of sequence-to-sequence learning, which revolutionized GEC by enabling end-to-end training of neural models"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "author": [
+      {
+        "family": "Vaswani",
+        "given": "Attention Is All You Need\"",
+        "particle": "by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "title": [
+      "This paper introduces the Transformer architecture, a powerful neural network model that has significantly improved GEC performance"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "title": [
+      "**\"Deep Learning for Grammatical Error Correction\" by Briscoe and Schulte im Walde, 2017:** A review of deep learning techniques for GEC, highlighting their advantages and limitations"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "title": [
+      "**\"A Survey of Deep Learning for Grammatical Error Correction\" by Li et al., 2019:** A comprehensive survey of deep learning approaches for GEC, covering various architectures and training strategies"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Specific Challenges and Applications:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "title": [
+      "**\"The Importance of Context in Grammatical Error Correction\" by Dale, 2003:** This paper emphasizes the importance of context in GEC, highlighting the need for models that can understand the meaning of sentences"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "title": [
+      "**\"Grammatical Error Correction for Non-Native English Writers\" by Chodorow et al., 2003:** This paper focuses on the specific challenges of GEC for non-native English writers, discussing the need for language-specific models"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "title": [
+      "**\"Automatic Grammatical Error Correction for Second Language Learners\" by Ng and Chan, 2010:** This paper explores the use of GEC systems for second language learners, highlighting the potential benefits and challenges"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "title": [
+      "**\"A Study of Grammatical Error Correction for Code-Switching\" by Li et al., 2018:** This paper investigates the challenges of GEC for code-switching, where writers mix different languages within a single sentence"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "title": [
+      "**\"Grammatical Error Correction for Social Media Text\" by Liu et al., 2019:** This paper explores the challenges of GEC for social media text, which often contains informal language and grammatical errors"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Evaluation and Datasets:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "note": [
+      "**\"The CoNLL-2014 Shared Task on Grammatical Error Correction\" by Zeman et al., 2014:** This paper describes the CoNLL-2014 shared task on GEC, which provided a benchmark dataset and evaluation framework for the field."
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "note": [
+      "**\"The CoNLL-2015 Shared Task on Grammatical Error Correction\" by Zeman et al., 2015:** This paper describes the CoNLL-2015 shared task on GEC, which focused on improving the evaluation metrics and datasets."
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "note": [
+      "**\"The CoNLL-2017 Shared Task on Grammatical Error Correction\" by Zeman et al., 2017:** This paper describes the CoNLL-2017 shared task on GEC, which introduced new datasets and evaluation metrics."
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "note": [
+      "**\"The CoNLL-2018 Shared Task on Grammatical Error Correction\" by Zeman et al., 2018:** This paper describes the CoNLL-2018 shared task on GEC, which focused on improving the robustness of GEC systems."
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Other Relevant Articles:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "title": [
+      "**\"A Survey of Automatic Grammatical Error Correction Systems\" by Dale, 2000:** This paper provides a comprehensive overview of GEC systems up to 2000, covering various approaches and techniques"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "title": [
+      "**\"Automatic Grammatical Error Correction: A Review\" by Chan, 2007:** This paper reviews the state-of-the-art in GEC, highlighting the challenges and future directions"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "title": [
+      "**\"Grammatical Error Correction: A Review of the Literature\" by Briscoe and Schulte im Walde, 2010:** This paper provides a comprehensive review of GEC research, covering various aspects of the field"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "title": [
+      "**\"Automatic Grammatical Error Correction: A Survey of Recent Advances\" by Li et al., 2019:** This paper reviews recent advancements in GEC, focusing on deep learning techniques and their applications"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list provides a starting point for exploring the field of Automatic Grammatical Error Correction. You can find more articles by searching online databases like Google Scholar and ACM Digital Library"
+    ],
+    "type": null
+  }
+]

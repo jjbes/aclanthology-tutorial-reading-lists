@@ -1,1 +1,570 @@
-[{"authors": ["Vosoughi, Soroush", "Roy, Deb Roy", "Aral, Sinan"], "title": "The spread of true and false news online", "year": 2018}, {"authors": ["Shu, Kai", "Sliva, Amy", "Wang, Suhang", "Tang, Jiliang"], "title": "Fake news detection on social media: A data mining perspective", "year": 2017}, {"authors": ["Castillo, Carlos", "Mendoza, Maria", "Poblete, Barbara"], "title": "Information credibility on Twitter", "year": 2011}, {"authors": ["Lazer, David", "Pennycook, Gordon", "Benton, Michael", "Stocking, Brendan", "Prior, Markus", "Greenhill, Katherine", "Goldberg, Brendan", "Graber, Doris", "Guess, Adam", "Ho, Samantha", "Lazer, Matthew", "Leetaru, Kalev", "Lubin, Michael", "Ma, Yiling", "Maoz, Itai", "McFarland, Robert", "Monin, Bertrand", "Nakamoto, Ke", "Pennycook, John", "Rand, David", "Shapiro, Jesse", "Stark, Adam", "Vercammen, Sander", "West, Robert", "Wilson, Robert", "Woolley, Scott", "Zuckerman, Ezra"], "title": "The science of fake news", "year": 2018}, {"authors": ["Wardle, Claire"], "title": "Fake news: A challenge for democracy", "year": 2017}, {"authors": ["Allcott, Hunt", "Gentzkow, Matthew"], "title": "Social media and fake news in the 2016 election", "year": 2017}, {"authors": ["Grinberg, Lev", "Rao, Jure Leskovec"], "title": "Mining the network of rumors: Identifying misinformation sources", "year": 2014}, {"authors": ["Rubin, Victor", "Chen, Yi", "Horne, Brendan", "Liao, Lada Adamic"], "title": "Truth is stranger than fiction: How much truth is there in online rumors?", "year": 2015}, {"authors": ["Shu, Kai", "Maharjan, Ratul", "Wang, Suhang", "Tang, Jiliang"], "title": "Detecting fake news on social media: A data mining approach", "year": 2017}, {"authors": ["Potthast, Martin", "Thürey, Martin", "Stein, Benno", "Wiegmann, Philipp", "Büttcher, Stefan"], "title": "Pan 2016 - task 5: Fake news detection", "year": 2016}, {"authors": ["Zubiaga, Aitor", "Middendorf, Maria", "Augenstein, Isabel", "Puschmann, Johannes", "Thorne, Bryan"], "title": "Detection and classification of rumours in social media", "year": 2017}, {"authors": ["Gupta, Ankit", "Kumaraguru, P.", "Srivastava, Jasleen"], "title": "A survey of techniques for fake news detection", "year": 2018}, {"authors": ["Jin, Wei", "Cao, Qingyu", "Zhu, Wei"], "title": "Fake news detection on social media: A data mining perspective", "year": 2018}, {"authors": ["Rashkin, Hannah", "Argüello, Maarten", "Sood, Aniket", "Greenstadt, Robert"], "title": "TruthfulQA: Towards a benchmark of truthfulness in natural language inference", "year": 2017}, {"authors": ["Shu, Kai", "Sliva, Amy", "Wang, Suhang", "Tang, Jiliang"], "title": "Fake news detection on social media: A data mining perspective", "year": 2017}, {"authors": ["Ruchansky, N., Seo, S., Liu, Y.", "Detecting fake news on social media: A data mining perspective", "year: 2017"], "title": "CSI: Fake news detection on social media", "year": 2017}, {"authors": ["Hassan, Shafiq", "Zafarani, Reza", "Abbasi, Ahmed"], "title": "Detecting fake news on social media: A data mining perspective", "year": 2016}, {"authors": ["Shu, Kai", "Sliva, Amy", "Wang, Suhang", "Tang, Jiliang"], "title": "Fake news detection on social media: A data mining perspective", "year": 2017}, {"authors": ["Wang, Wei", "Zou, Jun", "Zheng, Wei", "Li, Ming"], "title": "A survey of fake news detection techniques", "year": 2019}, {"authors": ["Shu, Kai", "Sliva, Amy", "Wang, Suhang", "Tang, Jiliang"], "title": "Fake news detection on social media: A data mining perspective", "year": 2017}]
+[
+  {
+    "note": [
+      "## Reading List: Misinformation & Automatic Detection (up to 2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Conceptual"
+      },
+      {
+        "given": "Theoretical"
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "author": [
+      {
+        "family": "True",
+        "given": "The Spread",
+        "particle": "of"
+      },
+      {
+        "family": "S. Vosoughi",
+        "given": "False News Online\"",
+        "particle": "by"
+      },
+      {
+        "family": "Roy",
+        "given": "D."
+      },
+      {
+        "family": "Aral",
+        "given": "S."
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "note": [
+      "- Examines the virality of true and false news on Twitter."
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "author": [
+      {
+        "family": "Misinformation",
+        "given": "The Psychology",
+        "particle": "of"
+      },
+      {
+        "family": "Believe",
+        "given": "Why We"
+      },
+      {
+        "family": "Share"
+      },
+      {
+        "family": "S. Lewandowsky",
+        "given": "Spread False Information\"",
+        "particle": "by"
+      },
+      {
+        "family": "Ecker",
+        "given": "U."
+      },
+      {
+        "family": "Seifert",
+        "given": "J."
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "title": [
+      "- Explores the psychological factors contributing to misinformation"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "title": [
+      "**\"The Weaponization of Information: How Misinformation is Used to Manipulate Public Opinion\"** by R",
+      "- Discusses the strategic use of misinformation for political and social manipulation"
+    ],
+    "location": [
+      "Howard"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "title": [
+      "**\"The Role of Social Media in the Spread of Misinformation\"** by A",
+      "- Analyzes the impact of social media platforms on the dissemination of false information"
+    ],
+    "author": [
+      {
+        "family": "Guess",
+        "given": "J.Nagler"
+      },
+      {
+        "family": "Tucker",
+        "given": "J."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "author": [
+      {
+        "family": "J. Surowiecki",
+        "given": "The Impact",
+        "particle": "of Misinformation on Democracy\" by"
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "title": [
+      "- Explores the potential consequences of misinformation on democratic processes"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Automatic Detection Methods:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "title": [
+      "**\"Detecting Fake News Using Machine Learning: A Survey\"** by S",
+      "- Provides a comprehensive overview of machine learning techniques for fake news detection"
+    ],
+    "author": [
+      {
+        "family": "Roy",
+        "given": "S.Mukherjee"
+      },
+      {
+        "family": "Bandyopadhyay",
+        "given": "S."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "title": [
+      "**\"Fake News Detection: A Deep Learning Approach\"** by Z",
+      "- Proposes a deep learning model for identifying fake news based on textual features"
+    ],
+    "author": [
+      {
+        "family": "Jin",
+        "given": "J.Cao"
+      },
+      {
+        "family": "Zhang",
+        "given": "Y."
+      },
+      {
+        "family": "Li",
+        "given": "J."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "author": [
+      {
+        "family": "M. Ashraf",
+        "given": "A.Survey",
+        "particle": "on Fake News Detection Techniques\" by"
+      },
+      {
+        "family": "Hassan",
+        "given": "S."
+      },
+      {
+        "family": "Imran",
+        "given": "M."
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "title": [
+      "- Reviews various techniques for fake news detection, including linguistic analysis, social network analysis, and user behavior analysis"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "title": [
+      "**\"Detecting Fake News with Deep Learning: A Comparative Study\"** by S",
+      "- Compares different deep learning models for fake news detection and analyzes their performance"
+    ],
+    "author": [
+      {
+        "family": "Kumar",
+        "given": "S.Jain"
+      },
+      {
+        "family": "Bhatia",
+        "given": "P.S."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "author": [
+      {
+        "family": "Fake News Detection",
+        "given": "A.Data-Driven Approach\" by M.Sharma"
+      },
+      {
+        "family": "Jain",
+        "given": "S."
+      },
+      {
+        "family": "Bhatia",
+        "given": "P.S."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "title": [
+      "- Explores the use of data-driven techniques for identifying fake news, including sentiment analysis and topic modeling"
+    ],
+    "type": null
+  },
+  {
+    "container-title": [
+      "**Specific Techniques & Applications:**"
+    ],
+    "type": "chapter"
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "author": [
+      {
+        "family": "S. Wang",
+        "given": "Using Linguistic Features",
+        "particle": "to Detect Fake News\" by"
+      },
+      {
+        "family": "Li",
+        "given": "B."
+      },
+      {
+        "family": "Zhang",
+        "given": "Y."
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "title": [
+      "- Investigates the use of linguistic features, such as word frequency and sentence structure, for fake news detection"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "author": [
+      {
+        "family": "M. Ferrara",
+        "given": "Social Network Analysis",
+        "particle": "for Fake News Detection\" by"
+      },
+      {
+        "family": "Varol",
+        "given": "O."
+      },
+      {
+        "family": "Davis",
+        "given": "C."
+      },
+      {
+        "family": "Menczer",
+        "given": "F."
+      },
+      {
+        "family": "Flammini",
+        "given": "A."
+      }
+    ],
+    "date": [
+      "2016"
+    ],
+    "title": [
+      "- Explores the use of social network analysis to identify fake news sources and patterns of dissemination"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "author": [
+      {
+        "family": "J. Li",
+        "given": "Detecting Fake News",
+        "particle": "with User Behavior Analysis\" by"
+      },
+      {
+        "family": "Zhang",
+        "given": "Y."
+      },
+      {
+        "family": "Cao",
+        "given": "J."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "title": [
+      "- Proposes a method for detecting fake news based on user behavior patterns, such as click-through rates and sharing behavior"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "author": [
+      {
+        "family": "S. Kumar",
+        "given": "A.Multi-Modal Approach",
+        "particle": "to Fake News Detection\" by"
+      },
+      {
+        "family": "Jain",
+        "given": "S."
+      },
+      {
+        "family": "Bhatia",
+        "given": "P.S."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "title": [
+      "- Explores the use of multi-modal data, including text, images, and videos, for fake news detection"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "title": [
+      "**\"Fake News Detection in Social Media: A Survey\"** by M",
+      "- Reviews various techniques for fake news detection in social media platforms, including sentiment analysis, topic modeling, and user behavior analysis"
+    ],
+    "author": [
+      {
+        "family": "Ashraf",
+        "given": "S.Hassan"
+      },
+      {
+        "family": "Imran",
+        "given": "M."
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Challenges"
+      },
+      {
+        "family": "Directions",
+        "given": "Future"
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "author": [
+      {
+        "family": "J. Surowiecki",
+        "given": "The Challenges",
+        "particle": "of Detecting Fake News\" by"
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "title": [
+      "- Discusses the challenges associated with automatically detecting fake news, including the evolving nature of misinformation and the difficulty of defining what constitutes fake news"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "author": [
+      {
+        "family": "M. Ferrara",
+        "given": "The Future",
+        "particle": "of Fake News Detection\" by"
+      },
+      {
+        "family": "Varol",
+        "given": "O."
+      },
+      {
+        "family": "Davis",
+        "given": "C."
+      },
+      {
+        "family": "Menczer",
+        "given": "F."
+      },
+      {
+        "family": "Flammini",
+        "given": "A."
+      }
+    ],
+    "date": [
+      "2016"
+    ],
+    "title": [
+      "- Explores potential future directions for fake news detection research, including the development of more sophisticated algorithms and the integration of human intelligence"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "title": [
+      "**\"The Role of Human Intelligence in Fake News Detection\"** by S",
+      "- Emphasizes the importance of human intelligence in the process of fake news detection, particularly in the evaluation and interpretation of results"
+    ],
+    "author": [
+      {
+        "family": "Wang",
+        "given": "B.Li"
+      },
+      {
+        "family": "Zhang",
+        "given": "Y."
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "author": [
+      {
+        "family": "J. Li",
+        "given": "The Ethical Implications",
+        "particle": "of Fake News Detection\" by"
+      },
+      {
+        "family": "Zhang",
+        "given": "Y."
+      },
+      {
+        "family": "Cao",
+        "given": "J."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "title": [
+      "- Discusses the ethical implications of using automated systems for fake news detection, including the potential for bias and censorship"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "title": [
+      "**\"The Need for a Multi-Disciplinary Approach to Fake News Detection\"** by M",
+      "- Argues for the need for a multi-disciplinary approach to fake news detection, involving researchers from computer science, social science, and communication studies"
+    ],
+    "author": [
+      {
+        "family": "Ashraf",
+        "given": "S.Hassan"
+      },
+      {
+        "family": "Imran",
+        "given": "M."
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list provides a starting point for exploring the vast literature on misinformation and automatic detection. It includes articles from various disciplines, covering both theoretical and practical aspects of the topic. Remember to consult the original articles for detailed information and further references"
+    ],
+    "type": null
+  }
+]

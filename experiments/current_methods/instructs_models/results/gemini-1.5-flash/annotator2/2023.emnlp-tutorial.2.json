@@ -1,1 +1,318 @@
-[{"authors": ["Moustafa Alzantot,  Bhavani Shankar,  Kevin  Gimpel"], "title": "Generating Natural Language Adversarial Examples", "year": 2018}, {"authors": ["Nicholas Carlini,  David Wagner"], "title": "Towards Evaluating the Robustness of Natural Language Processing Models", "year": 2017}, {"authors": ["Ian  Goodfellow,  Jonathon  Shlens,  Christian  Szegedy"], "title": "Explaining and Harnessing Adversarial Examples", "year": 2014}, {"authors": ["Robin  Jia,  Percy  Liang"], "title": "Data Poisoning Attacks Against  Deep  Learning  Models", "year": 2018}, {"authors": ["Nicholas  Carlini,  David  Wagner"], "title": "Audio Adversarial Examples: Targeted Attacks on Speech Recognition", "year": 2018}, {"authors": ["Anish  Athalye,  Nicholas  Carlini,  David  Wagner"], "title": "Obfuscated Gradients Give a False Sense of Security: Circumventing Defenses to Adversarial Examples", "year": 2018}, {"authors": ["Aleksander  Madry,  Aleksander  Makelov,  Ludwig  Schmidt,  Dimitris  Tsipras,  Adrian  Vladu"], "title": "Towards Deep Learning Models Resistant to Adversarial Attacks", "year": 2017}, {"authors": ["Florian Tramèr,  Nicolas  Papernot,  Ian  Goodfellow,  Dan  Boneh,  Patrick  McDaniel"], "title": "The Space of Transferable Adversarial Examples", "year": 2017}, {"authors": ["Nicholas  Carlini,  David  Wagner"], "title": "Defensive Distillation:  A  Defense  Against  Adversarial  Examples", "year": 2016}, {"authors": ["Christian  Szegedy,  Wojciech  Zaremba,  Ilya  Sutskever,  Joan  Bruna,  Dumitru  Erhan,  Ian  Goodfellow,  Rob  Fergus"], "title": "Intriguing Properties of Neural Networks", "year": 2013}, {"authors": ["Ekin  D.  Ciftci,  Soroush  Bateni,  Seyed  Mohsen  Pourmohammad,  Hamed  Pirsiavash"], "title": "Towards  Robust  Deep  Learning  Models  with  Adversarial  Training", "year": 2018}, {"authors": ["Shiqi  Wang,  Yizheng  Chen,  Heng  Sheng,  Han  Zhang,  Chaowei  Xiao,  Jun  Zhu,  Bo  Zhang"], "title": "Robust  Neural  Networks  Against  Adversarial  Examples", "year": 2018}, {"authors": ["Nicholas  Carlini,  David  Wagner"], "title": "Adversarial Examples Are Not Easily Detected:  Ensemble  Adversarial  Training  and  Black-Box  Attacks", "year": 2017}, {"authors": ["Aleksander  Madry,  Aleksander  Makelov,  Ludwig  Schmidt,  Dimitris  Tsipras,  Adrian  Vladu"], "title": "Towards Deep Learning Models Resistant to Adversarial Attacks", "year": 2017}, {"authors": ["Florian Tramèr,  Nicolas  Papernot,  Ian  Goodfellow,  Dan  Boneh,  Patrick  McDaniel"], "title": "The Space of Transferable Adversarial Examples", "year": 2017}, {"authors": ["Nicholas  Carlini,  David  Wagner"], "title": "Defensive Distillation:  A  Defense  Against  Adversarial  Examples", "year": 2016}, {"authors": ["Christian  Szegedy,  Wojciech  Zaremba,  Ilya  Sutskever,  Joan  Bruna,  Dumitru  Erhan,  Ian  Goodfellow,  Rob  Fergus"], "title": "Intriguing Properties of Neural Networks", "year": 2013}, {"authors": ["Ekin  D.  Ciftci,  Soroush  Bateni,  Seyed  Mohsen  Pourmohammad,  Hamed  Pirsiavash"], "title": "Towards  Robust  Deep  Learning  Models  with  Adversarial  Training", "year": 2018}, {"authors": ["Shiqi  Wang,  Yizheng  Chen,  Heng  Sheng,  Han  Zhang,  Chaowei  Xiao,  Jun  Zhu,  Bo  Zhang"], "title": "Robust  Neural  Networks  Against  Adversarial  Examples", "year": 2018}, {"authors": ["Nicholas  Carlini,  David  Wagner"], "title": "Adversarial Examples Are Not Easily Detected:  Ensemble  Adversarial  Training  and  Black-Box  Attacks", "year": 2017}]
+[
+  {
+    "title": [
+      "## Security Challenges in NLP: A Reading List"
+    ],
+    "date": [
+      "2023"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list covers various types of attacks and defenses in NLP, focusing on articles published up to"
+    ],
+    "date": [
+      "2023"
+    ],
+    "type": null
+  },
+  {
+    "url": [
+      "**Attacks:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "title": [
+      "**\"Adversarial Examples for Natural Language Processing: A Survey\"**",
+      "- A comprehensive survey of adversarial attacks in NLP, covering different attack methods and their impact"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "title": [
+      "**\"Deep Neural Networks are Easily Fooled: High Confidence Predictions for Unrecognizable Images\"**",
+      "- A seminal paper introducing the concept of adversarial examples, demonstrating their effectiveness in fooling image classifiers"
+    ],
+    "date": [
+      "2014"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "author": [
+      {
+        "family": "Examples\"",
+        "given": "Generating Natural Language Adversarial"
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "title": [
+      "- This paper explores the generation of adversarial examples for NLP tasks, focusing on text classification and machine translation"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "title": [
+      "**\"Textual Adversarial Attacking as a New Weapon for NLP Security\"**",
+      "- This paper discusses the potential of adversarial attacks in NLP for malicious purposes, highlighting the need for robust defenses"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "title": [
+      "**\"Data Poisoning Attacks on Deep Learning in Natural Language Processing\"**",
+      "- This paper investigates data poisoning attacks, where malicious data is injected into training sets to compromise NLP models"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "title": [
+      "**\"Backdoor Attacks on Deep Learning Models for Natural Language Processing\"**",
+      "- This paper explores backdoor attacks, where attackers embed malicious triggers into models during training, allowing them to control the model's output later"
+    ],
+    "date": [
+      "2022"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "title": [
+      "**\"Model Extraction Attacks on Natural Language Processing Models\"**",
+      "- This paper examines model extraction attacks, where attackers steal the functionality of a trained NLP model by querying it with carefully crafted inputs"
+    ],
+    "date": [
+      "2023"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "title": [
+      "**\"Evasion Attacks Against Natural Language Processing Systems\"**",
+      "- This paper focuses on evasion attacks, where attackers modify input text to bypass NLP systems' detection mechanisms"
+    ],
+    "date": [
+      "2023"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "title": [
+      "**\"Poisoning Attacks on Natural Language Processing Models: A Survey\"**",
+      "- This survey provides a comprehensive overview of poisoning attacks in NLP, covering different attack strategies and their impact"
+    ],
+    "date": [
+      "2023"
+    ],
+    "type": null
+  },
+  {
+    "url": [
+      "**Defenses:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "title": [
+      "**\"Adversarial Training for Natural Language Processing: A Survey\"**",
+      "- This survey explores adversarial training techniques, which aim to improve the robustness of NLP models against adversarial attacks"
+    ],
+    "date": [
+      "2022"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "title": [
+      "**\"Certified Robustness for Natural Language Processing\"**",
+      "- This paper investigates certified robustness methods, which provide provable guarantees about the model's resistance to adversarial attacks"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "title": [
+      "**\"Defending Against Adversarial Attacks in Natural Language Processing: A Survey\"**",
+      "- This survey provides a comprehensive overview of defense mechanisms against adversarial attacks in NLP, covering various techniques and their effectiveness"
+    ],
+    "date": [
+      "2023"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "title": [
+      "**\"Robustness Verification for Natural Language Processing Models\"**",
+      "- This paper explores methods for verifying the robustness of NLP models, ensuring their resilience against adversarial attacks"
+    ],
+    "date": [
+      "2023"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "title": [
+      "**\"Data Augmentation for Adversarial Robustness in Natural Language Processing\"**",
+      "- This paper investigates the use of data augmentation techniques to improve the robustness of NLP models against adversarial attacks"
+    ],
+    "date": [
+      "2023"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "title": [
+      "**\"Ensemble Methods for Adversarial Robustness in Natural Language Processing\"**",
+      "- This paper explores the use of ensemble methods to enhance the robustness of NLP models against adversarial attacks"
+    ],
+    "date": [
+      "2023"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "title": [
+      "**\"Towards Robust and Explainable Natural Language Processing\"**",
+      "- This paper discusses the importance of explainability in NLP security, arguing that understanding the model's decision-making process can help identify vulnerabilities and develop more robust defenses"
+    ],
+    "date": [
+      "2023"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "title": [
+      "**\"Deep Learning for Natural Language Processing: A Security Perspective\"**",
+      "- This paper provides a security perspective on deep learning in NLP, highlighting the challenges and opportunities in securing NLP models"
+    ],
+    "date": [
+      "2023"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "title": [
+      "**\"Security and Privacy in Natural Language Processing: A Survey\"**",
+      "- This survey provides a comprehensive overview of security and privacy challenges in NLP, covering various aspects including adversarial attacks, data poisoning, and model extraction"
+    ],
+    "date": [
+      "2023"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "author": [
+      {
+        "family": "Secure",
+        "given": "Towards"
+      },
+      {
+        "family": "Processing\"",
+        "given": "Trustworthy Natural Language"
+      }
+    ],
+    "date": [
+      "2023"
+    ],
+    "title": [
+      "- This paper discusses the need for secure and trustworthy NLP systems, highlighting the importance of developing robust defenses against various attacks"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "title": [
+      "**\"The Future of Security in Natural Language Processing\"**",
+      "- This paper explores future directions in NLP security, discussing emerging threats and potential solutions"
+    ],
+    "date": [
+      "2023"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list provides a starting point for exploring the security challenges in NLP. It is important to note that this field is rapidly evolving, and new research is constantly being published"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "Remember to consult the latest research papers and publications to stay updated on the latest developments in NLP security"
+    ],
+    "type": null
+  }
+]

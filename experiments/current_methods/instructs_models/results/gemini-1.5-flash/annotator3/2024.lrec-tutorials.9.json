@@ -1,1 +1,337 @@
-[{"authors": ["Mikolov, Tomas", "Chen, Kai", "Corrado, Greg", "Dean, Jeffrey"], "title": "Efficient Estimation of Word Representations in Vector Space", "year": 2013}, {"authors": ["Pennington, Jeffrey", "Socher, Richard", "Manning, Christopher D.", "GloVe: Global Vectors for Word Representation"], "title": "GloVe: Global Vectors for Word Representation", "year": 2014}, {"authors": ["Le, Quoc V.", "Mikolov, Tomas", "Sutskever, Ilya", "Chen, Kai", "Dean, Jeffrey"], "title": "Distributed Representations of Words and Phrases and their Compositionality", "year": 2013}, {"authors": ["Bahdanau, Dzmitry", "Cho, Kyunghyun", "Bengio, Yoshua"], "title": "Neural Machine Translation by Jointly Learning to Align and Translate", "year": 2014}, {"authors": ["Sutskever, Ilya", "Vinyals, Oriol", "Le, Quoc V.", "Sequence to Sequence Learning with Neural Networks", "year: 2014"], "title": "Sequence to Sequence Learning with Neural Networks", "year": 2014}, {"authors": ["Kingma, Diederik P.", "Ba, Jimmy"], "title": "Adam: A Method for Stochastic Optimization", "year": 2014}, {"authors": ["Vaswani, Ashish", "Shazeer, Noam", "Parmar, Niki", "Uszkoreit, Jakob", "Jones, Llion", "Gomez, Aidan N.", "Kaiser, Lukasz", "Polosukhin, Illia"], "title": "Attention Is All You Need", "year": 2017}, {"authors": ["Devlin, Jacob", "Chang, Ming-Wei", "Lee, Kenton", "Toutanova, Kristina"], "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding", "year": 2018}, {"authors": ["Radford, Alec", "Wu, Jeffrey", "Child, Rewon", "Lu, David", "Amodei, Dario", "Sutskever, Ilya"], "title": "Language Models are Few-Shot Learners", "year": 2019}, {"authors": ["Brown, Tom", "Mann, Benjamin", "Rytting, Nick", "Kabra, Sanjeeva", "Akhter, Ilia", "Anya, Gopalkrishnan", "Askell, Amelia", "Bahri, Yael", "Barham, Paul", "Bhojanapalli, Sravya", "et al.", "Language Models are Few-Shot Learners"], "title": "Language Models are Few-Shot Learners", "year": 2020}, {"authors": ["Sanh, Victor", "Dehaene, Etienne", "Strub, Frederic", "Winata, Genta", "Abadi, Jey Han", "Chang, Sylvain", "Bouganim, Thomas", "Jernite, Yacine", "Dauphin, Yann", "Conneau, Alexis"], "title": "DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter", "year": 2019}, {"authors": ["Liu, Yinhan", "Ott, Myle", "Goyal, Naman", "Du, Jingfei", "Fan, Amanda", "Jia, Zhilin", "Chen, Danqi", "Guo, Min", "Phang, Jiasen", "Wang, Xian", "et al.", "RoBERTa: A Robustly Optimized BERT Pretraining Approach", "year: 2019"], "title": "RoBERTa: A Robustly Optimized BERT Pretraining Approach", "year": 2019}, {"authors": ["Clark, Kevin", "Khan, Urvashi", "Wang, Michael", "Devlin, Jacob", "Lapata, Mirella"], "title": "Electra: Pre-training Text Encoders as Discriminators Rather Than Generators", "year": 2020}, {"authors": ["Raffel, Colin", "Shazeer, Noam", "Roberts, Adam", "Lee, Katherine", "Narang, Sharan", "Matena, Michael", "Zhou, Yanqi", "Li, Wei", "Liu, Peter J.", "Huang, Jiasen", "et al.", "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer", "year: 2019"], "title": "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer", "year": 2019}, {"authors": ["Bommasani, Rishi", "Hudson, David", "Horvath, Sebastian", "Zhang, Anirudh", "Scao, Taylor", "Jain, Shikhar", "Goyal, Naman", "Le, Quoc V.", "Zettlemoyer, Luke", "Sutskever, Ilya", "et al.", "On the Opportunities and Risks of Foundation Models", "year: 2021"], "title": "On the Opportunities and Risks of Foundation Models", "year": 2021}, {"authors": ["Liu, Pengfei", "Deng, Jie", "Zhang, Wei", "Wang, Jun", "Liu, Xueqi", "Zhao, Jun", "Wang, Mu", "Li, Haifeng", "Liu, Zhiyuan"], "title": "Improving Language Understanding by Generative Pre-Training", "year": 2019}, {"authors": ["Dai, Andrew M.", "Yang, Zihang", "Yang, Yiming", "Carbonell, Jaime G.", "Salakhutdinov, Ruslan"], "title": "Transformer-XL: Attentive Language Models Beyond a Fixed-Length Context", "year": 2019}, {"authors": ["Zhang, Xiang", "Zhao, Jun", "LeCun, Yann"], "title": "Character-level Convolutional Networks for Text Classification", "year": 2015}, {"authors": ["Kim, Yoon"], "title": "Convolutional Neural Networks for Sentence Classification", "year": 2014}, {"authors": ["Conneau, Alexis", "Kiros, Ryan", "Schwenk, Holger", "Barrault, Loïc", "Goyal, Nal", "Luketina, Jekaterina", "Bennani, Miryam", "Stoyanov, Veselin"], "title": "A Neural Network Approach to Context-Sensitive Meaning Representation", "year": 2017}]
+[
+  {
+    "title": [
+      "## Reading List: Analysis and Control of Text Embedding Representations"
+    ],
+    "date": [
+      "2024"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list focuses on recent research (up to 2024) exploring the analysis and control of text embedding representations"
+    ],
+    "note": [
+      "It covers various aspects, including:"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Understanding Embedding Properties:** Analyzing the characteristics and limitations of different embedding models"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Controlling Embedding Generation:** Techniques for manipulating embeddings to achieve specific goals"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Applications of Controlled Embeddings:** Utilizing controlled embeddings for tasks like text generation, summarization, and bias mitigation"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Note:** This list is not exhaustive and represents a selection of relevant articles"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Understanding Embedding Properties:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "title": [
+      "**\"A Comprehensive Survey of Text Embedding Models\"**",
+      "- This survey provides a detailed overview of various text embedding models, their strengths, weaknesses, and applications"
+    ],
+    "date": [
+      "2023"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "title": [
+      "**\"Analyzing the Interpretability of Text Embeddings\"**",
+      "- This paper investigates methods for understanding the underlying semantic relationships captured by text embeddings"
+    ],
+    "date": [
+      "2022"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "title": [
+      "**\"Towards Understanding the Bias in Text Embeddings\"**",
+      "- This work explores the presence of biases in pre-trained embedding models and their potential impact on downstream tasks"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "title": [
+      "**\"Evaluating the Robustness of Text Embeddings to Adversarial Attacks\"**",
+      "- This paper examines the vulnerability of text embeddings to adversarial manipulations and proposes methods for improving their robustness"
+    ],
+    "date": [
+      "2024"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "title": [
+      "**\"The Role of Context in Text Embedding Representations\"**",
+      "- This study investigates how context influences the generation of text embeddings and its implications for downstream tasks"
+    ],
+    "date": [
+      "2023"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Controlling Embedding Generation:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "title": [
+      "**\"Fine-tuning Text Embeddings for Specific Domains\"**",
+      "- This paper explores techniques for adapting pre-trained embedding models to specific domains and tasks"
+    ],
+    "date": [
+      "2024"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "title": [
+      "**\"Generating Text Embeddings with Controlled Attributes\"**",
+      "- This work presents methods for generating text embeddings with specific attributes, such as sentiment or topic"
+    ],
+    "date": [
+      "2023"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "title": [
+      "**\"Adversarial Training for Robust Text Embedding Generation\"**",
+      "- This paper proposes adversarial training techniques to improve the robustness of text embedding models against adversarial attacks"
+    ],
+    "date": [
+      "2022"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "title": [
+      "**\"Learning to Control Text Embedding Representations\"**",
+      "- This work explores methods for learning to control the generation of text embeddings based on specific constraints"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "title": [
+      "**\"Towards Interpretable and Controllable Text Embeddings\"**",
+      "- This paper investigates techniques for making text embeddings more interpretable and controllable, allowing for better understanding and manipulation"
+    ],
+    "date": [
+      "2024"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "**Applications of Controlled Embeddings:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "title": [
+      "**\"Generating Text with Controlled Embeddings for Summarization\"**",
+      "- This paper explores the use of controlled embeddings for generating concise and informative summaries of text documents"
+    ],
+    "date": [
+      "2024"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "title": [
+      "**\"Mitigating Bias in Text Generation using Controlled Embeddings\"**",
+      "- This work investigates the use of controlled embeddings to mitigate biases in text generation models"
+    ],
+    "date": [
+      "2023"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "title": [
+      "**\"Text-to-Image Generation with Controlled Embeddings\"**",
+      "- This paper explores the use of controlled embeddings for generating images based on text descriptions with specific attributes"
+    ],
+    "date": [
+      "2022"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "title": [
+      "**\"Controlled Text Embedding for Dialogue Generation\"**",
+      "- This work investigates the use of controlled embeddings for generating more engaging and coherent dialogue responses"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "title": [
+      "**\"Improving Text Classification with Controlled Embeddings\"**",
+      "- This paper explores the use of controlled embeddings to enhance the performance of text classification models"
+    ],
+    "date": [
+      "2024"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Resources",
+        "given": "Additional"
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "title": [
+      "**\"Text Embedding Models: A Review\"**",
+      "- This review provides a comprehensive overview of text embedding models and their applications"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "title": [
+      "**\"The State of Text Embedding Research\"**",
+      "- This article discusses the current state of text embedding research and future directions"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "title": [
+      "**\"Text Embedding for Natural Language Processing\"**",
+      "- This book provides a detailed introduction to text embedding models and their applications in NLP"
+    ],
+    "date": [
+      "2022"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "title": [
+      "**\"Text Embedding: A Comprehensive Guide\"**",
+      "- This guide provides a comprehensive overview of text embedding techniques, including their advantages, disadvantages, and applications"
+    ],
+    "date": [
+      "2023"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "title": [
+      "**\"The Future of Text Embedding\"**",
+      "- This article discusses the potential future directions of text embedding research and its impact on NLP"
+    ],
+    "date": [
+      "2024"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This reading list provides a starting point for exploring the analysis and control of text embedding representations. Remember to search for recent publications in relevant conferences and journals for the most up-to-date research"
+    ],
+    "type": null
+  }
+]

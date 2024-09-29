@@ -1,1 +1,348 @@
-[{"authors": ["Wang, Alex, et al.", "ACL 2023"], "title": "Chain-of-Thought Prompting Elicits Reasoning in Large Language Models", "year": 2023}, {"authors": ["Liu, Pengfei, et al.", "ACL 2023"], "title": "Improving Robustness of Language Models via Contrastive Learning with Semantic Augmentation", "year": 2023}, {"authors": ["Minervini, Paul, et al.", "ACL 2023"], "title": "Reasoning with Language Models: Towards a Unified Framework for Evaluating and Improving Reasoning Abilities", "year": 2023}, {"authors": ["Zhao, Tianyi, et al.", "ACL 2023"], "title": "Towards Robust and Explainable Language Models: A Contrastive Learning Approach", "year": 2023}, {"authors": ["Schick, Tim, et al.", "EMNLP 2022"], "title": "Improving Reasoning in Language Models with Contrastive Learning", "year": 2022}, {"authors": ["Zhou, Danyang, et al.", "EMNLP 2022"], "title": "Reasoning with Language Models: A Survey", "year": 2022}, {"authors": ["Gehrmann, Sebastian, et al.", "NAACL 2022"], "title": "Improving Robustness of Language Models by Learning to Detect and Correct Errors", "year": 2022}, {"authors": ["McCann, Bryan, et al.", "ICLR 2022"], "title": "Improving Language Model Robustness with Adversarial Training", "year": 2022}, {"authors": ["Hendrycks, Dan, et al.", "ICLR 2022"], "title": "Measuring and Improving the Robustness of Language Models", "year": 2022}, {"authors": ["Liu, Yelong, et al.", "ACL 2021"], "title": "Pre-training Language Models with Contrastive Sentence-Pair Learning", "year": 2021}, {"authors": ["Gururangan, Suchin, et al.", "ACL 2020"], "title": "Don't Stop Pretraining: Adapt Language Models to Domains and Tasks", "year": 2020}, {"authors": ["Radford, Alec, et al.", "OpenAI 2019"], "title": "Language Models are Unsupervised Multitask Learners", "year": 2019}, {"authors": ["Devlin, Jacob, et al.", "NAACL 2019"], "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding", "year": 2019}, {"authors": ["Peters, Matthew E., et al.", "EMNLP 2018"], "title": "Deep Contextualized Word Representations", "year": 2018}, {"authors": ["Dai, Andrew M., et al.", "ICLR 2018"], "title": "Transformer-XL: Attentive Language Models Beyond a Fixed-Length Context", "year": 2018}, {"authors": ["Vaswani, Ashish, et al.", "NIPS 2017"], "title": "Attention Is All You Need", "year": 2017}, {"authors": ["Bahdanau, Dzmitry, et al.", "ICLR 2015"], "title": "Neural Machine Translation by Jointly Learning to Align and Translate", "year": 2015}, {"authors": ["Sutskever, Ilya, et al.", "NIPS 2014"], "title": "Sequence to Sequence Learning with Neural Networks", "year": 2014}, {"authors": ["Mikolov, Tomas, et al.", "ICLR 2013"], "title": "Efficient Estimation of Word Representations in Vector Space", "year": 2013}, {"authors": ["Collobert, Ronan, et al.", "ICML 2011"], "title": "Natural Language Processing (Almost) from Scratch", "year": 2011}]
+[
+  {
+    "title": [
+      "## Reading List: Improving NLP Model Reasoning and Robustness (2023 and Earlier"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list covers a range of topics related to improving NLP model reasoning and robustness, including"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**1."
+    ],
+    "title": [
+      "Reasoning and Commonsense:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "title": [
+      "**\"Commonsense Reasoning in Natural Language Inference\"** by Liu, et al",
+      "- Explores the use of commonsense knowledge graphs for improving NLI performance"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "title": [
+      "**\"Reasoning about Actions and Their Effects in Natural Language\"** by Bisk, et al",
+      "- Focuses on modeling actions and their consequences in NLP tasks"
+    ],
+    "date": [
+      "2016"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "title": [
+      "**\"Towards Robust and Interpretable Neural Networks for Natural Language Inference\"** by Nie, et al",
+      "- Investigates the use of attention mechanisms for improving interpretability and robustness in NLI"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "title": [
+      "**\"Learning to Reason: Leveraging Knowledge Graphs for Natural Language Inference\"** by Dhingra, et al",
+      "- Explores the integration of knowledge graphs into NLI models"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "title": [
+      "**\"A Survey of Commonsense Reasoning in Natural Language Processing\"** by Liu, et al",
+      "- Provides a comprehensive overview of commonsense reasoning in NLP"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**2."
+    ],
+    "publisher": [
+      "Robustness and Adversarial Training:**"
+    ],
+    "type": "book"
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "title": [
+      "**\"Adversarial Training for Robust Natural Language Processing\"** by Ebrahimi, et al",
+      "- Introduces adversarial training techniques for improving NLP model robustness"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "title": [
+      "**\"Evaluating the Robustness of Natural Language Processing Models\"** by Wallace, et al",
+      "- Discusses methods for evaluating the robustness of NLP models against adversarial attacks"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "title": [
+      "**\"Towards Robust and Interpretable Neural Networks for Natural Language Inference\"** by Nie, et al"
+    ],
+    "date": [
+      "2019"
+    ],
+    "pages": [
+      "–"
+    ],
+    "note": [
+      "Also mentioned above) - Investigates the use of attention mechanisms for improving interpretability and robustness in NLI."
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "title": [
+      "**\"A Survey of Adversarial Machine Learning for Natural Language Processing\"** by Li, et al",
+      "- Provides a comprehensive overview of adversarial machine learning techniques for NLP"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "title": [
+      "**\"Robustness of Neural Networks to Adversarial Examples\"** by Szegedy, et al",
+      "- A seminal paper on adversarial examples and their impact on neural networks"
+    ],
+    "date": [
+      "2013"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**3."
+    ],
+    "publisher": [
+      "Data Augmentation and Pre-training:**"
+    ],
+    "type": "book"
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "title": [
+      "**\"Data Augmentation for Natural Language Processing: A Survey\"** by Wei, et al",
+      "- Provides a comprehensive overview of data augmentation techniques for NLP"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "author": [
+      {
+        "given": "B.E.R.T."
+      }
+    ],
+    "title": [
+      "Pre-training of Deep Bidirectional Transformers for Language Understanding\"** by Devlin, et al",
+      "- Introduces BERT, a powerful pre-training method for NLP models"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "title": [
+      "**\"XLNet: Generalized Autoregressive Pretraining for Language Understanding\"** by Yang, et al"
+    ],
+    "date": [
+      "2019"
+    ],
+    "note": [
+      "- Introduces XLNet, an alternative pre-training method that outperforms BERT on several NLP tasks."
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "title": [
+      "**\"RoBERTa: A Robustly Optimized BERT Pretraining Approach\"** by Liu, et al",
+      "- Introduces RoBERTa, an improved version of BERT with better pre-training techniques"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "title": [
+      "**\"GPT-3: Language Models are Few-Shot Learners\"** by Brown, et al",
+      "- Introduces GPT-3, a massive language model with impressive few-shot learning capabilities"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**4."
+    ],
+    "title": [
+      "Interpretability and Explainability:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "author": [
+      {
+        "family": "Vaswani",
+        "given": "Attention",
+        "particle": "is All You Need\" by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "title": [
+      "- Introduces the Transformer architecture, which has become a cornerstone of modern NLP models and provides insights into model reasoning"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "title": [
+      "**\"Towards Robust and Interpretable Neural Networks for Natural Language Inference\"** by Nie, et al"
+    ],
+    "date": [
+      "2019"
+    ],
+    "pages": [
+      "–"
+    ],
+    "note": [
+      "Also mentioned above) - Investigates the use of attention mechanisms for improving interpretability and robustness in NLI."
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "title": [
+      "**\"Explainable Artificial Intelligence (XAI): Concepts, Techniques, and Applications\"** by Adadi, et al",
+      "- Provides a comprehensive overview of explainable AI techniques"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "title": [
+      "**\"Interpretable Machine Learning: A Guide for Making Black Box Models Explainable\"** by Molnar",
+      "- Offers a practical guide to interpreting machine learning models"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "title": [
+      "**\"The Explainability Challenge in Natural Language Processing\"** by Li, et al",
+      "- Discusses the challenges and opportunities for explainability in NLP"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list provides a starting point for exploring the vast literature on improving NLP model reasoning and robustness. It is important to note that this is not an exhaustive list, and there are many other valuable resources available"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "Remember to consider the specific NLP task you are interested in and the desired level of reasoning and robustness when selecting articles to read"
+    ],
+    "type": null
+  }
+]

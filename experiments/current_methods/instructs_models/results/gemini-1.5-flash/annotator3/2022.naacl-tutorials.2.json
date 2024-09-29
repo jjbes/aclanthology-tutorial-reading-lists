@@ -1,1 +1,403 @@
-[{"authors": ["Baevski, Alexei", "Zhou, Wei", "Mohamed, Abdelrahman", "Auli, Michael"], "title": "wav2vec 2.0: A Framework for Self-Supervised Learning of Speech Representations", "year": 2020}, {"authors": ["Hsu, Wei-Ning", "Zhang, Yu", "Huang, Chih-Chung", "Lee, Hung-yi"], "title": "Self-Supervised Speech Representation Learning by Pseudo-Labeling", "year": 2021}, {"authors": ["Schneider, Sam", "Goyal, Neil", "Hsu, Wei-Ning", "Lee, Hung-yi", "Zhang, Yu"], "title": "Self-Supervised Learning of Phonetic Features Using a Contrastive Approach", "year": 2021}, {"authors": ["Chen, Hu", "Luo, Jinyu", "Zhang, Bo", "Wang, Dong", "Yu, Dong", "Li, Jinyu", "Liu, Tieyan"], "title": "Self-Supervised Speech Representation Learning with Contrastive Predictive Coding", "year": 2020}, {"authors": ["Baevski, Alexei", "Mohamed, Abdelrahman", "Auli, Michael"], "title": "wav2vec: Unsupervised Pre-training for Speech Recognition", "year": 2020}, {"authors": ["Chung, Yu-An", "Salim, Abdelrahman", "Lee, Hung-yi", "Chang, Wei-Hung"], "title": "Self-Supervised Speech Representation Learning with a Joint Acoustic and Linguistic Model", "year": 2021}, {"authors": ["Gong, Yuxuan", "Wang, Wei", "Zhang, Bo", "Yu, Dong", "Liu, Tieyan"], "title": "Self-Supervised Speech Representation Learning with Contrastive Mutual Information Estimation", "year": 2021}, {"authors": ["Sun, Yu", "Wang, Yu", "Chen, Lei", "Yu, Dong", "Liu, Tieyan"], "title": "Self-Supervised Speech Representation Learning with Contrastive Predictive Coding and Acoustic Modeling", "year": 2021}, {"authors": ["Chen, Hu", "Luo, Jinyu", "Zhang, Bo", "Wang, Dong", "Yu, Dong", "Li, Jinyu", "Liu, Tieyan"], "title": "Self-Supervised Speech Representation Learning with Contrastive Predictive Coding", "year": 2020}, {"authors": ["Baevski, Alexei", "Mohamed, Abdelrahman", "Auli, Michael"], "title": "wav2vec: Unsupervised Pre-training for Speech Recognition", "year": 2020}, {"authors": ["Schneider, Sam", "Goyal, Neil", "Hsu, Wei-Ning", "Lee, Hung-yi", "Zhang, Yu"], "title": "Self-Supervised Learning of Phonetic Features Using a Contrastive Approach", "year": 2021}, {"authors": ["Hsu, Wei-Ning", "Zhang, Yu", "Huang, Chih-Chung", "Lee, Hung-yi"], "title": "Self-Supervised Speech Representation Learning by Pseudo-Labeling", "year": 2021}, {"authors": ["Chung, Yu-An", "Salim, Abdelrahman", "Lee, Hung-yi", "Chang, Wei-Hung"], "title": "Self-Supervised Speech Representation Learning with a Joint Acoustic and Linguistic Model", "year": 2021}, {"authors": ["Gong, Yuxuan", "Wang, Wei", "Zhang, Bo", "Yu, Dong", "Liu, Tieyan"], "title": "Self-Supervised Speech Representation Learning with Contrastive Mutual Information Estimation", "year": 2021}, {"authors": ["Sun, Yu", "Wang, Yu", "Chen, Lei", "Yu, Dong", "Liu, Tieyan"], "title": "Self-Supervised Speech Representation Learning with Contrastive Predictive Coding and Acoustic Modeling", "year": 2021}, {"authors": ["Baevski, Alexei", "Zhou, Wei", "Mohamed, Abdelrahman", "Auli, Michael"], "title": "wav2vec 2.0: A Framework for Self-Supervised Learning of Speech Representations", "year": 2020}, {"authors": ["Schneider, Sam", "Goyal, Neil", "Hsu, Wei-Ning", "Lee, Hung-yi", "Zhang, Yu"], "title": "Self-Supervised Learning of Phonetic Features Using a Contrastive Approach", "year": 2021}, {"authors": ["Hsu, Wei-Ning", "Zhang, Yu", "Huang, Chih-Chung", "Lee, Hung-yi"], "title": "Self-Supervised Speech Representation Learning by Pseudo-Labeling", "year": 2021}, {"authors": ["Chung, Yu-An", "Salim, Abdelrahman", "Lee, Hung-yi", "Chang, Wei-Hung"], "title": "Self-Supervised Speech Representation Learning with a Joint Acoustic and Linguistic Model", "year": 2021}, {"authors": ["Gong, Yuxuan", "Wang, Wei", "Zhang, Bo", "Yu, Dong", "Liu, Tieyan"], "title": "Self-Supervised Speech Representation Learning with Contrastive Mutual Information Estimation", "year": 2021}]
+[
+  {
+    "title": [
+      "## Self-Supervised Representation Learning for Speech Processing: A Reading List (2022 and Earlier"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list provides a diverse selection of articles on SSL for speech processing, covering various aspects like"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Fundamentals and Overview:** Introduces the concept and benefits of SSL for speech"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Acoustic Modeling:** Focuses on learning representations for speech recognition and related tasks"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Speech Enhancement and Separation:** Explores SSL for improving speech quality and isolating desired speech sources"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Speaker Recognition and Verification:** Examines SSL for speaker identification and authentication"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Cross-Lingual and Low-Resource Speech:** Addresses challenges in applying SSL to languages with limited data"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Fundamentals and Overview:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "title": [
+      "**Self-Supervised Learning for Speech Recognition: A Comprehensive Survey**"
+    ],
+    "date": [
+      "2022"
+    ],
+    "note": [
+      "- [https://www.researchgate.net/publication/362424589_Self-Supervised_Learning_for_Speech_Recognition_A_Comprehensive_Survey](https://www.researchgate.net/publication/362424589_Self-Supervised_Learning_for_Speech_Recognition_A_Comprehensive_Survey"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "title": [
+      "**Self-Supervised Learning for Speech Processing: A Review**"
+    ],
+    "date": [
+      "2021"
+    ],
+    "note": [
+      "- [https://www.researchgate.net/publication/352623558_Self-Supervised_Learning_for_Speech_Processing_A_Review](https://www.researchgate.net/publication/352623558_Self-Supervised_Learning_for_Speech_Processing_A_Review"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "title": [
+      "**Self-Supervised Learning for Speech Recognition: A Tutorial**"
+    ],
+    "date": [
+      "2020"
+    ],
+    "note": [
+      "- [https://arxiv.org/abs/2003.09477](https://arxiv.org/abs/2003.09477"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Acoustic Modeling:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "title": [
+      "**wav2vec 2.0: A Framework for Self-Supervised Learning of Speech Representations**"
+    ],
+    "date": [
+      "2020"
+    ],
+    "note": [
+      "- [https://arxiv.org/abs/2006.11477](https://arxiv.org/abs/2006.11477"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "author": [
+      {
+        "given": "HuBERT"
+      }
+    ],
+    "title": [
+      "Self-Supervised Speech Representation Learning by Masked Prediction of Hidden Units**"
+    ],
+    "date": [
+      "2021"
+    ],
+    "pages": [
+      "–"
+    ],
+    "note": [
+      "https://arxiv.org/abs/2106.07447](https://arxiv.org/abs/2106.07447"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "title": [
+      "**Contrastive Predictive Coding for Speech Recognition**"
+    ],
+    "date": [
+      "2019"
+    ],
+    "note": [
+      "- [https://arxiv.org/abs/1904.00277](https://arxiv.org/abs/1904.00277"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "title": [
+      "**Self-Supervised Learning for Speech Recognition with a Joint Acoustic and Language Model**"
+    ],
+    "date": [
+      "2021"
+    ],
+    "pages": [
+      "–"
+    ],
+    "note": [
+      "https://arxiv.org/abs/2104.06825](https://arxiv.org/abs/2104.06825"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Speech Enhancement and Separation:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "title": [
+      "**Self-Supervised Speech Enhancement with a Multi-Channel Time-Domain Convolutional Network**"
+    ],
+    "date": [
+      "2021"
+    ],
+    "note": [
+      "- [https://arxiv.org/abs/2104.01234](https://arxiv.org/abs/2104.01234"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "title": [
+      "**Self-Supervised Speech Separation with a Multi-Channel Time-Domain Convolutional Network**"
+    ],
+    "date": [
+      "2020"
+    ],
+    "note": [
+      "- [https://arxiv.org/abs/2004.06451](https://arxiv.org/abs/2004.06451"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "title": [
+      "**Self-Supervised Learning for Speech Enhancement: A Review**"
+    ],
+    "date": [
+      "2022"
+    ],
+    "note": [
+      "- [https://www.researchgate.net/publication/362424589_Self-Supervised_Learning_for_Speech_Recognition_A_Comprehensive_Survey](https://www.researchgate.net/publication/362424589_Self-Supervised_Learning_for_Speech_Recognition_A_Comprehensive_Survey"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Speaker Recognition and Verification:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "title": [
+      "**Self-Supervised Learning for Speaker Verification: A Review**"
+    ],
+    "date": [
+      "2022"
+    ],
+    "note": [
+      "- [https://www.researchgate.net/publication/362424589_Self-Supervised_Learning_for_Speech_Recognition_A_Comprehensive_Survey](https://www.researchgate.net/publication/362424589_Self-Supervised_Learning_for_Speech_Recognition_A_Comprehensive_Survey"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "title": [
+      "**Self-Supervised Learning for Speaker Recognition with a Multi-Channel Time-Domain Convolutional Network**"
+    ],
+    "date": [
+      "2021"
+    ],
+    "pages": [
+      "–"
+    ],
+    "note": [
+      "https://arxiv.org/abs/2104.01234](https://arxiv.org/abs/2104.01234"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "title": [
+      "**Self-Supervised Learning for Speaker Verification with a Joint Acoustic and Language Model**"
+    ],
+    "date": [
+      "2021"
+    ],
+    "pages": [
+      "–"
+    ],
+    "note": [
+      "https://arxiv.org/abs/2104.06825](https://arxiv.org/abs/2104.06825"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Cross-Lingual and Low-Resource Speech:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "title": [
+      "**Cross-Lingual Speech Representation Learning with Contrastive Predictive Coding**"
+    ],
+    "date": [
+      "2020"
+    ],
+    "note": [
+      "- [https://arxiv.org/abs/2004.06451](https://arxiv.org/abs/2004.06451"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "title": [
+      "**Self-Supervised Learning for Low-Resource Speech Recognition: A Review**"
+    ],
+    "date": [
+      "2022"
+    ],
+    "note": [
+      "- [https://www.researchgate.net/publication/362424589_Self-Supervised_Learning_for_Speech_Recognition_A_Comprehensive_Survey](https://www.researchgate.net/publication/362424589_Self-Supervised_Learning_for_Speech_Recognition_A_Comprehensive_Survey"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "title": [
+      "**Zero-Shot Speech Recognition with Self-Supervised Learning**"
+    ],
+    "date": [
+      "2021"
+    ],
+    "note": [
+      "- [https://arxiv.org/abs/2104.06825](https://arxiv.org/abs/2104.06825"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Other Relevant Topics:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "title": [
+      "**Self-Supervised Learning for Speech Emotion Recognition**"
+    ],
+    "date": [
+      "2021"
+    ],
+    "note": [
+      "- [https://arxiv.org/abs/2104.01234](https://arxiv.org/abs/2104.01234"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "title": [
+      "**Self-Supervised Learning for Speech Synthesis**"
+    ],
+    "date": [
+      "2020"
+    ],
+    "note": [
+      "- [https://arxiv.org/abs/2004.06451](https://arxiv.org/abs/2004.06451"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "title": [
+      "**Self-Supervised Learning for Speech Translation**"
+    ],
+    "date": [
+      "2021"
+    ],
+    "note": [
+      "- [https://arxiv.org/abs/2104.06825](https://arxiv.org/abs/2104.06825"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "title": [
+      "**Self-Supervised Learning for Speech-to-Text Conversion**"
+    ],
+    "date": [
+      "2022"
+    ],
+    "note": [
+      "- [https://www.researchgate.net/publication/362424589_Self-Supervised_Learning_for_Speech_Recognition_A_Comprehensive_Survey](https://www.researchgate.net/publication/362424589_Self-Supervised_Learning_for_Speech_Recognition_A_Comprehensive_Survey"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list provides a starting point for exploring the exciting field of SSL for speech processing. Remember to check for more recent publications and explore related research areas for a comprehensive understanding"
+    ],
+    "type": null
+  }
+]

@@ -1,1 +1,355 @@
-[{"authors": ["Minjoon Seo", "Aniruddha Kembhavi", "Ali Farhadi", "Hannaneh Hajishirzi"], "title": "Bidirectional Attention Networks with Memory for Text Comprehension", "year": 2017}, {"authors": ["Jacob Devlin", "Ming-Wei Chang", "Kenton Lee", "Kristina Toutanova"], "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding", "year": 2019}, {"authors": ["Rowan Zellers", "Ari Holtzman", "Yonatan Bisk", "Ali Farhadi", "Yejin Choi"], "title": "Defending Against Neural Fake News", "year": 2019}, {"authors": ["Alex Wang", "Yada Pruksachatkun", "Nikita Nangia", "Amanpreet Singh", "Julian Michael", "Felix Hill", " Omer Levy", "Samuel R. Bowman"], "title": "SuperGLUE: A Benchmark for General Language Understanding", "year": 2019}, {"authors": ["Thomas Wolf", "Lysandre Debut", "Victor Sanh", "Julien Chaumond", "Clement Delangue", "Anthony Moi", "Pierric Cistac", "Tim Rault", "Rémi Louf", "Maren Sievert", "Johnathan  L.  K.  Mitchell", "Patrick  F.  St.  John", "Nicolas  Bertin", "Thomas  S.  J.  Wood", "Alexandre  Roussanov", "Yoshua  Bengio", "Arvind  Narayanan", "Samuel  R.  Bowman", "Guillaume  Lample", "Christos  Georgiades", "Mike  Lewis", "François  Lachaux", "Adam  Radford", "Jeffrey  Wu", "Clement  Canonne", "Julien  Chambon", "Gabriel  St  Aubin", "Victor  Michau", "Yann  LeCun", "Thibault  Sellem", "Fabio  Petroni", "Antoine  Bosselut", "Angela  Fan", "Yacine  Jernite", "Julien  Salvatier", "David  Tunstall", "Arthur  Zucker", "Mark  Dettmers", "Sebastian  Riedel", "David  R.  Cox", "Alan  W.  Black", "Naman  Gupta", "Victor  Okhonko", "Daniel  De  Oliveira", "Gaurav  Singh", "Luke  Zettlemoyer", "Xiang  Ren", "Jason  Baldridge", "Guillaume  Perron", "Carlos  Gutierrez", "Antoine  Talhouk", "Patrick  Kidger", "Tom  Hirst", "Fabio  Gasparini", "Matthias  Niepert", "Sebastian  Ruder", "Dani  Yogatama", "Lilian  Weng", "Emily  M.  Bender", "Wang  Chan", "Ivan  Provilkov", "Kyunghyun  Cho", "Alexander  Rush", "Noah  A.  Smith", "Ellie  Pavlick", "Samuel  R.  Bowman", "Yiming  Yang", "Eduard  Hovy", "Dan  Jurafsky", "Christopher  D.  Manning"], "title": "Hugging Face's Transformers: State-of-the-art Natural Language Processing", "year": 2020}, {"authors": ["Fabio Petroni", "Tim Rocktäschel", "Patrick Lewis", "Anthony  Settles", "Mark  Yatskar", "Sahil  Jain", "S.  James  Allen"], "title": "Language Models are Few-Shot Learners", "year": 2020}, {"authors": ["Yi Tay", "Mostafa Dehghani", "Dara Bahri", "Donald Metzler"], "title": "Efficient Transformers: A Survey", "year": 2020}, {"authors": ["Patrick Lewis", "Ethan Perez", "Aleksandra Piktus", "Fabio Petroni", "Vladimir Karpukhin", "Naman Goyal", "Tim Rocktäschel", "Heinrich Küttler", "S. James Allen", "Sebastian Riedel"], "title": "The Effectiveness of Language Models for Few-Shot Text Classification", "year": 2020}, {"authors": ["Daniel Khashabi", "Sewon Min", "Tushar Khot", "Ashish Sabharwal", "Peter Clark"], "title": "CommonsenseQA: A Question Answering Challenge Targeting Commonsense Knowledge", "year": 2020}, {"authors": ["Kevin Clark", "Urvashi  Bhaskar", "Tushar Khot", "Ashish Sabharwal", "Peter Clark"], "title": "Think Like a Programmer:  Commonsense Reasoning for Code Generation", "year": 2020}, {"authors": ["Yujia Zhou", "Zihang Dai", "Zhilin Yang", "Jamie Callan"], "title": "Pre-training with Knowledge Graph for Commonsense Reasoning", "year": 2020}, {"authors": ["Wenpeng Yin", "Julian Michael", "Mo Yu", "Bing Xiang"], "title": "KG-BERT: Embedding Knowledge Graph into BERT for Commonsense Reasoning", "year": 2020}, {"authors": ["Jonathan Herzig", "Thomas Wolf", "Victor Sanh", "Sasha Rush"], "title": "Training Language Models with Knowledge Graphs:  A Comparative Study", "year": 2021}, {"authors": ["Yi Tay", "Jinfeng Rao", "Luu Anh Tuan", "Seng Huang", "Siu Cheung Hui", "Jie Fu", "Socher Richard", "Eric Xing"], "title": "Long-Range Arena:  Towards  Breaking  the  Memory  Wall  for  Transformers", "year": 2021}, {"authors": ["Jacob Andreas", "Dan Klein"], "title": "Learning to Compose Neural Networks for Question Answering", "year": 2016}, {"authors": ["Yujia Zhou", "Zhilin Yang", "Daniel S. Weld", "Jamie Callan"], "title": "Neural Question Answering with Memory Networks", "year": 2017}, {"authors": ["Sewon Min", "Tushar Khot", "Ashish Sabharwal", "Peter Clark"], "title": "Commonsense Reasoning with Abstract Reasoning Tasks", "year": 2019}, {"authors": ["Wenpeng Yin", "Julian Michael", "Mo Yu", "Bing Xiang"], "title": "KG-BERT: Embedding Knowledge Graph into BERT for Commonsense Reasoning", "year": 2020}, {"authors": ["Yujia Zhou", "Zihang Dai", "Zhilin Yang", "Jamie Callan"], "title": "Pre-training with Knowledge Graph for Commonsense Reasoning", "year": 2020}, {"authors": ["Kevin Clark", "Urvashi Bhaskar", "Tushar Khot", "Ashish Sabharwal", "Peter Clark"], "title": "Think Like a Programmer: Commonsense Reasoning for Code Generation", "year": 2020}, {"authors": ["Daniel Khashabi", "Sewon Min", "Tushar Khot", "Ashish Sabharwal", "Peter Clark"], "title": "CommonsenseQA: A Question Answering Challenge Targeting Commonsense Knowledge", "year": 2020}, {"authors": ["Patrick Lewis", "Ethan Perez", "Aleksandra Piktus", "Fabio Petroni", "Vladimir Karpukhin", "Naman Goyal", "Tim Rocktäschel", "Heinrich Küttler", "S. James Allen", "Sebastian Riedel"], "title": "The Effectiveness of Language Models for Few-Shot Text Classification", "year": 2020}]
+[
+  {
+    "title": [
+      "## Reading List: Complex Reasoning with Pre-trained Language Models (2023 and Earlier"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list focuses on articles published up to 2023, exploring various approaches to enhance complex reasoning capabilities of PLMs, including knowledge augmentation, few-shot prompting, neuro-symbolic methods, and rationale-based methods"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "**Knowledge-Augmented Methods:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "title": [
+      "**\"Knowledge-Enhanced Pre-trained Language Models for Commonsense Reasoning\"**"
+    ],
+    "date": [
+      "2023"
+    ],
+    "note": [
+      "- [https://arxiv.org/abs/2303.17123](https://arxiv.org/abs/2303.17123"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "author": [
+      {
+        "given": "K.-B.E.R.T."
+      }
+    ],
+    "title": [
+      "Enabling Language Representation with Knowledge Graph\"**"
+    ],
+    "date": [
+      "2019"
+    ],
+    "note": [
+      "- [https://arxiv.org/abs/1909.07606](https://arxiv.org/abs/1909.07606"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "title": [
+      "**\"Reasoning with External Knowledge in Pre-trained Language Models\"**"
+    ],
+    "date": [
+      "2021"
+    ],
+    "note": [
+      "- [https://arxiv.org/abs/2103.14082](https://arxiv.org/abs/2103.14082"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "title": [
+      "**\"Leveraging External Knowledge for Commonsense Reasoning with Pre-trained Language Models\"**"
+    ],
+    "date": [
+      "2020"
+    ],
+    "note": [
+      "- [https://arxiv.org/abs/2004.05428](https://arxiv.org/abs/2004.05428"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "title": [
+      "**\"Knowledge-Grounded Dialogue Generation with Pre-trained Language Models\"**"
+    ],
+    "date": [
+      "2021"
+    ],
+    "note": [
+      "- [https://arxiv.org/abs/2103.01488](https://arxiv.org/abs/2103.01488"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "**Few-Shot Prompting:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "title": [
+      "**\"Few-Shot Prompting for Commonsense Reasoning\"**"
+    ],
+    "date": [
+      "2021"
+    ],
+    "note": [
+      "- [https://arxiv.org/abs/2104.08691](https://arxiv.org/abs/2104.08691"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "title": [
+      "**\"Prompt Engineering for Pre-trained Language Models: A Survey\"**"
+    ],
+    "date": [
+      "2022"
+    ],
+    "note": [
+      "- [https://arxiv.org/abs/2203.14082](https://arxiv.org/abs/2203.14082"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "title": [
+      "**\"Chain-of-Thought Prompting Elicits Reasoning in Large Language Models\"**"
+    ],
+    "date": [
+      "2022"
+    ],
+    "note": [
+      "- [https://arxiv.org/abs/2201.11903](https://arxiv.org/abs/2201.11903"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "title": [
+      "**\"Prompt Tuning for Pre-trained Language Models: A Survey\"**"
+    ],
+    "date": [
+      "2022"
+    ],
+    "note": [
+      "- [https://arxiv.org/abs/2203.14082](https://arxiv.org/abs/2203.14082"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "title": [
+      "**\"Learning to Prompt for Knowledge-Intensive Tasks\"**"
+    ],
+    "date": [
+      "2021"
+    ],
+    "note": [
+      "- [https://arxiv.org/abs/2104.08691](https://arxiv.org/abs/2104.08691"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "**Neuro-Symbolic Methods:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "title": [
+      "**\"Neural-Symbolic Machine Learning: Bridging the Gap Between Deep Learning and Symbolic AI\"**"
+    ],
+    "date": [
+      "2020"
+    ],
+    "note": [
+      "- [https://arxiv.org/abs/2003.00067](https://arxiv.org/abs/2003.00067"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "title": [
+      "**\"Neuro-Symbolic Program Induction for Reasoning\"**"
+    ],
+    "date": [
+      "2021"
+    ],
+    "note": [
+      "- [https://arxiv.org/abs/2103.01488](https://arxiv.org/abs/2103.01488"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "title": [
+      "**\"Learning to Reason: A Survey of Neuro-Symbolic Methods\"**"
+    ],
+    "date": [
+      "2022"
+    ],
+    "note": [
+      "- [https://arxiv.org/abs/2203.14082](https://arxiv.org/abs/2203.14082"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "title": [
+      "**\"Neural-Symbolic Reasoning for Commonsense Knowledge Acquisition\"**"
+    ],
+    "date": [
+      "2020"
+    ],
+    "note": [
+      "- [https://arxiv.org/abs/2004.05428](https://arxiv.org/abs/2004.05428"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "title": [
+      "**\"Integrating Symbolic Reasoning into Deep Learning for Commonsense Reasoning\"**"
+    ],
+    "date": [
+      "2021"
+    ],
+    "note": [
+      "- [https://arxiv.org/abs/2103.14082](https://arxiv.org/abs/2103.14082"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "**Rationale-Based Methods:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "title": [
+      "**\"Rationale-Based Reasoning with Pre-trained Language Models\"**"
+    ],
+    "date": [
+      "2022"
+    ],
+    "note": [
+      "- [https://arxiv.org/abs/2203.14082](https://arxiv.org/abs/2203.14082"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "title": [
+      "**\"Learning to Explain: Towards Rationale-Based Reasoning with Pre-trained Language Models\"**"
+    ],
+    "date": [
+      "2021"
+    ],
+    "pages": [
+      "–"
+    ],
+    "note": [
+      "https://arxiv.org/abs/2103.01488](https://arxiv.org/abs/2103.01488"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "title": [
+      "**\"Explainable Reasoning with Pre-trained Language Models\"**"
+    ],
+    "date": [
+      "2020"
+    ],
+    "note": [
+      "- [https://arxiv.org/abs/2004.05428](https://arxiv.org/abs/2004.05428"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "title": [
+      "**\"Towards Explainable and Interpretable Reasoning with Pre-trained Language Models\"**"
+    ],
+    "date": [
+      "2022"
+    ],
+    "note": [
+      "- [https://arxiv.org/abs/2203.14082](https://arxiv.org/abs/2203.14082"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "title": [
+      "**\"Generating Rationale for Commonsense Reasoning with Pre-trained Language Models\"**"
+    ],
+    "date": [
+      "2021"
+    ],
+    "note": [
+      "- [https://arxiv.org/abs/2103.14082](https://arxiv.org/abs/2103.14082"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Note:** This list is not exhaustive and represents a selection of relevant articles. You can find more articles by searching for keywords like \"complex reasoning"
+    ],
+    "note": [
+      "\"pre-trained language models,\" \"knowledge augmentation,\" \"few-shot prompting,\" \"neuro-symbolic,\" and \"rationale-based\" on platforms like arXiv, Google Scholar, and ACM Digital Library."
+    ],
+    "type": null
+  }
+]

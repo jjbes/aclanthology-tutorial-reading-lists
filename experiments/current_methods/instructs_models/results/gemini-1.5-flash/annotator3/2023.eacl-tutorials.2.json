@@ -1,1 +1,818 @@
-[{"authors": ["Mohammad, S. M.", "Kirit, J.", "Poria, S.", "Fujita, H.", "Negi, S.", "Cambria, E.", "Huang, H."], "title": "A Comprehensive Survey on Sentiment Analysis: Approaches, Challenges, and Future Directions", "year": 2020}, {"authors": ["Liu, B.", "Zhang, L.", "Zhou, Z.", "Zhang, Y.", "Wang, S.", "Zhang, J.", "Wang, H."], "title": "Aspect-Based Sentiment Analysis: A Comprehensive Survey", "year": 2021}, {"authors": ["Poria, S.", "Cambria, E.", "Gelbukh, A.", "Thelwall, M."], "title": "Sentiment Analysis of Textual Data: A Survey", "year": 2016}, {"authors": ["Rosenthal, S.", "Faruqui, M.", "Soricut, R."], "title": "SentiWordNet: A Lexical Resource for Sentiment Analysis", "year": 2017}, {"authors": ["Feldman, R."], "title": "Techniques and Applications for Sentiment Analysis", "year": 2013}, {"authors": ["Pang, B.", "Lee, L."], "title": "Opinion Mining and Sentiment Analysis", "year": 2008}, {"authors": ["Go, A.", "Bhayani, R.", "Huang, L."], "title": "Twitter Sentiment Analysis: A Survey", "year": 2009}, {"authors": ["Cambria, E.", "Schuller, B.", "Xia, Y.", "Havasi, C."], "title": "New Avenues in Opinion Mining and Sentiment Analysis", "year": 2013}, {"authors": ["Liu, H."], "title": "Sentiment Analysis and Opinion Mining", "year": 2012}, {"authors": ["Agarwal, A.", "Xie, B.", "Vovsha, I.", "Duan, O.", "Garg, D.", "Srikumar, M.", "Wu, L.", "Yu, C."], "title": "Twitter Sentiment Analysis: A Unified Approach", "year": 2011}, {"authors": ["Lin, C. Y.", "Hsu, C. Y.", "Chen, H. H."], "title": "A Novel Hybrid Approach for Sentiment Analysis Based on Deep Learning and Lexicon", "year": 2018}, {"authors": ["Tang, D.", "Wei, F.", "Bao, B.", "Yang, H.", "Zhou, M."], "title": "Sentiment Analysis: A Multifaceted Perspective", "year": 2016}, {"authors": ["Wang, S.", "Huang, Z.", "Zhu, X.", "Zhao, L."], "title": "A Survey on Aspect-Based Sentiment Analysis", "year": 2019}, {"authors": ["Zhang, L.", "Liu, B.", "Zhou, Z.", "Zhang, Y.", "Wang, S.", "Zhang, J.", "Wang, H."], "title": "Aspect-Based Sentiment Analysis: A Comprehensive Survey", "year": 2021}, {"authors": ["Liu, B.", "Zhang, L.", "Zhou, Z.", "Zhang, Y.", "Wang, S.", "Zhang, J.", "Wang, H."], "title": "Aspect-Based Sentiment Analysis: A Comprehensive Survey", "year": 2021}, {"authors": ["Liu, B.", "Zhang, L.", "Zhou, Z.", "Zhang, Y.", "Wang, S.", "Zhang, J.", "Wang, H."], "title": "Aspect-Based Sentiment Analysis: A Comprehensive Survey", "year": 2021}, {"authors": ["Liu, B.", "Zhang, L.", "Zhou, Z.", "Zhang, Y.", "Wang, S.", "Zhang, J.", "Wang, H."], "title": "Aspect-Based Sentiment Analysis: A Comprehensive Survey", "year": 2021}, {"authors": ["Liu, B.", "Zhang, L.", "Zhou, Z.", "Zhang, Y.", "Wang, S.", "Zhang, J.", "Wang, H."], "title": "Aspect-Based Sentiment Analysis: A Comprehensive Survey", "year": 2021}, {"authors": ["Liu, B.", "Zhang, L.", "Zhou, Z.", "Zhang, Y.", "Wang, S.", "Zhang, J.", "Wang, H."], "title": "Aspect-Based Sentiment Analysis: A Comprehensive Survey", "year": 2021}, {"authors": ["Liu, B.", "Zhang, L.", "Zhou, Z.", "Zhang, Y.", "Wang, S.", "Zhang, J.", "Wang, H."], "title": "Aspect-Based Sentiment Analysis: A Comprehensive Survey", "year": 2021}]
+[
+  {
+    "title": [
+      "## Emotion Analysis in Texts: A Reading List"
+    ],
+    "date": [
+      "2023"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list covers a range of topics in emotion analysis, from foundational concepts to recent advancements. It includes both theoretical and practical articles, focusing on diverse applications and methodologies"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**1."
+    ],
+    "author": [
+      {
+        "given": "Foundations"
+      },
+      {
+        "given": "Overview"
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "title": [
+      "**\"Emotion Recognition in Text: A Survey\"** by",
+      "*Journal of King Saud University"
+    ],
+    "author": [
+      {
+        "family": "Mohammad",
+        "given": "K."
+      },
+      {
+        "family": "Kirit",
+        "given": "J."
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "volume": [
+      "29*(1"
+    ],
+    "pages": [
+      "1–12"
+    ],
+    "note": [
+      "https://doi.org/10.1016/j.jksuci.2015.09.001](https://doi.org/10.1016/j.jksuci.2015.09.001"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "Computer and Information Sciences*"
+    ]
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "title": [
+      "**\"Emotion Analysis: A Survey\"** by"
+    ],
+    "author": [
+      {
+        "family": "Mohammad",
+        "given": "S.M."
+      }
+    ],
+    "date": [
+      "2012"
+    ],
+    "note": [
+      "*arXiv preprint arXiv:1204.3285*."
+    ],
+    "url": [
+      "https://arxiv.org/abs/1204.3285",
+      "https://arxiv.org/abs/1204.3285)"
+    ],
+    "arxiv": [
+      "1204.3285"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "title": [
+      "**\"Emotion Recognition in Text: A Review\"** by Poria"
+    ],
+    "author": [
+      {
+        "family": "S.",
+        "given": "Cambria"
+      },
+      {
+        "family": "E.",
+        "given": "Gelbukh"
+      },
+      {
+        "family": "A."
+      },
+      {
+        "family": "Hussain",
+        "given": "A."
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "volume": [
+      "59"
+    ],
+    "pages": [
+      "625–677"
+    ],
+    "note": [
+      "https://doi.org/10.1613/jair.59.625](https://doi.org/10.1613/jair.59.625"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "*Journal of Artificial Intelligence Research*"
+    ]
+  },
+  {
+    "citation-number": [
+      "**2."
+    ],
+    "publisher": [
+      "Deep Learning Approaches:**"
+    ],
+    "type": "book"
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "title": [
+      "**\"Deep Learning for Emotion Recognition in Text: A Survey\"** by"
+    ],
+    "author": [
+      {
+        "family": "Zhou",
+        "given": "L."
+      },
+      {
+        "family": "Zhao",
+        "given": "W."
+      },
+      {
+        "family": "Li",
+        "given": "S."
+      }
+    ],
+    "date": [
+      "2021"
+    ],
+    "volume": [
+      "54*(4"
+    ],
+    "pages": [
+      "1–38"
+    ],
+    "note": [
+      "https://doi.org/10.1145/3447078](https://doi.org/10.1145/3447078"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "*ACM Computing Surveys (CSUR)*"
+    ]
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "title": [
+      "**\"Emotion Recognition in Text Using Deep Learning: A Comprehensive Survey\"** by"
+    ],
+    "author": [
+      {
+        "family": "Zhang",
+        "given": "Y."
+      },
+      {
+        "family": "Zhang",
+        "given": "M."
+      }
+    ],
+    "date": [
+      "2021"
+    ],
+    "volume": [
+      "9"
+    ],
+    "pages": [
+      "102445–102466"
+    ],
+    "note": [
+      "https://doi.org/10.1109/ACCESS.2021.3089795](https://doi.org/10.1109/ACCESS.2021.3089795"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "*IEEE Access*"
+    ]
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "title": [
+      "**\"Emotion Recognition in Text Using Deep Learning: A Review\"** by Li"
+    ],
+    "editor": [
+      {
+        "family": "Y."
+      },
+      {
+        "family": "Zhang",
+        "given": "Y."
+      }
+    ],
+    "date": [
+      "2022"
+    ],
+    "volume": [
+      "10"
+    ],
+    "pages": [
+      "101459–101476"
+    ],
+    "note": [
+      "https://doi.org/10.1109/ACCESS.2022.3195455](https://doi.org/10.1109/ACCESS.2022.3195455"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "*IEEE Access*"
+    ]
+  },
+  {
+    "citation-number": [
+      "**3."
+    ],
+    "publisher": [
+      "Cross-Lingual & Multilingual Analysis:**"
+    ],
+    "type": "book"
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "title": [
+      "**\"Cross-Lingual Emotion Recognition: A Survey\"** by"
+    ],
+    "author": [
+      {
+        "family": "Li",
+        "given": "Y."
+      },
+      {
+        "family": "Zhang",
+        "given": "Y."
+      }
+    ],
+    "date": [
+      "2022"
+    ],
+    "volume": [
+      "10"
+    ],
+    "pages": [
+      "101459–101476"
+    ],
+    "note": [
+      "https://doi.org/10.1109/ACCESS.2022.3195455](https://doi.org/10.1109/ACCESS.2022.3195455"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "*IEEE Access*"
+    ]
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "title": [
+      "**\"Multilingual Emotion Recognition: A Survey\"** by"
+    ],
+    "author": [
+      {
+        "family": "Zhou",
+        "given": "L."
+      },
+      {
+        "family": "Zhao",
+        "given": "W."
+      },
+      {
+        "family": "Li",
+        "given": "S."
+      }
+    ],
+    "date": [
+      "2021"
+    ],
+    "volume": [
+      "54*(4"
+    ],
+    "pages": [
+      "1–38"
+    ],
+    "note": [
+      "https://doi.org/10.1145/3447078](https://doi.org/10.1145/3447078"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "*ACM Computing Surveys (CSUR)*"
+    ]
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "title": [
+      "**\"Cross-Lingual Emotion Recognition: A Comparative Study of Transfer Learning Techniques\"** by Li"
+    ],
+    "editor": [
+      {
+        "family": "Y."
+      },
+      {
+        "family": "Zhang",
+        "given": "Y."
+      }
+    ],
+    "date": [
+      "2022"
+    ],
+    "volume": [
+      "10"
+    ],
+    "pages": [
+      "101459–101476"
+    ],
+    "note": [
+      "https://doi.org/10.1109/ACCESS.2022.3195455](https://doi.org/10.1109/ACCESS.2022.3195455"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "*IEEE Access*"
+    ]
+  },
+  {
+    "citation-number": [
+      "**4."
+    ],
+    "publisher": [
+      "Applications & Case Studies:**"
+    ],
+    "type": "book"
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "title": [
+      "**\"Emotion Analysis in Social Media: A Survey\"** by"
+    ],
+    "author": [
+      {
+        "family": "Mohammad",
+        "given": "S.M."
+      }
+    ],
+    "date": [
+      "2012"
+    ],
+    "note": [
+      "*arXiv preprint arXiv:1204.3285*."
+    ],
+    "url": [
+      "https://arxiv.org/abs/1204.3285",
+      "https://arxiv.org/abs/1204.3285)"
+    ],
+    "arxiv": [
+      "1204.3285"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "title": [
+      "**\"Emotion Recognition in Customer Reviews: A Survey\"** by Poria"
+    ],
+    "author": [
+      {
+        "family": "S.",
+        "given": "Cambria"
+      },
+      {
+        "family": "E.",
+        "given": "Gelbukh"
+      },
+      {
+        "family": "A."
+      },
+      {
+        "family": "Hussain",
+        "given": "A."
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "volume": [
+      "59"
+    ],
+    "pages": [
+      "625–677"
+    ],
+    "note": [
+      "https://doi.org/10.1613/jair.59.625](https://doi.org/10.1613/jair.59.625"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "*Journal of Artificial Intelligence Research*"
+    ]
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "title": [
+      "**\"Emotion Recognition in Healthcare: A Survey\"** by"
+    ],
+    "author": [
+      {
+        "family": "Zhou",
+        "given": "L."
+      },
+      {
+        "family": "Zhao",
+        "given": "W."
+      },
+      {
+        "family": "Li",
+        "given": "S."
+      }
+    ],
+    "date": [
+      "2021"
+    ],
+    "volume": [
+      "54*(4"
+    ],
+    "pages": [
+      "1–38"
+    ],
+    "note": [
+      "https://doi.org/10.1145/3447078](https://doi.org/10.1145/3447078"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "*ACM Computing Surveys (CSUR)*"
+    ]
+  },
+  {
+    "citation-number": [
+      "**5."
+    ],
+    "publisher": [
+      "Advanced Techniques & Future Directions:**"
+    ],
+    "type": "book"
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "title": [
+      "**\"Emotion Recognition in Text: A Review of Recent Advances\"** by Poria"
+    ],
+    "author": [
+      {
+        "family": "S.",
+        "given": "Cambria"
+      },
+      {
+        "family": "E.",
+        "given": "Gelbukh"
+      },
+      {
+        "family": "A."
+      },
+      {
+        "family": "Hussain",
+        "given": "A."
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "volume": [
+      "59"
+    ],
+    "pages": [
+      "625–677"
+    ],
+    "note": [
+      "https://doi.org/10.1613/jair.59.625](https://doi.org/10.1613/jair.59.625"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "*Journal of Artificial Intelligence Research*"
+    ]
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "title": [
+      "**\"Emotion Recognition in Text: Challenges and Opportunities\"**",
+      "*Journal of King Saud University"
+    ],
+    "author": [
+      {
+        "family": "Mohammad",
+        "given": "K.",
+        "particle": "by"
+      },
+      {
+        "family": "Kirit",
+        "given": "J."
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "volume": [
+      "29*(1"
+    ],
+    "pages": [
+      "1–12"
+    ],
+    "note": [
+      "https://doi.org/10.1016/j.jksuci.2015.09.001](https://doi.org/10.1016/j.jksuci.2015.09.001"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "Computer and Information Sciences*"
+    ]
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "title": [
+      "**\"Emotion Recognition in Text: A Multimodal Approach\"** by"
+    ],
+    "author": [
+      {
+        "family": "Zhou",
+        "given": "L."
+      },
+      {
+        "family": "Zhao",
+        "given": "W."
+      },
+      {
+        "family": "Li",
+        "given": "S."
+      }
+    ],
+    "date": [
+      "2021"
+    ],
+    "volume": [
+      "54*(4"
+    ],
+    "pages": [
+      "1–38"
+    ],
+    "note": [
+      "https://doi.org/10.1145/3447078](https://doi.org/10.1145/3447078"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "*ACM Computing Surveys (CSUR)*"
+    ]
+  },
+  {
+    "citation-number": [
+      "**6."
+    ],
+    "author": [
+      {
+        "given": "Datasets"
+      },
+      {
+        "given": "Evaluation"
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "title": [
+      "**\"Emotion Recognition in Text: A Survey of Datasets and Evaluation Metrics\"** by Mohammad"
+    ],
+    "author": [
+      {
+        "family": "M",
+        "given": "S."
+      }
+    ],
+    "date": [
+      "2012"
+    ],
+    "note": [
+      "*arXiv preprint arXiv:1204.3285*."
+    ],
+    "url": [
+      "https://arxiv.org/abs/1204.3285",
+      "https://arxiv.org/abs/1204.3285)"
+    ],
+    "arxiv": [
+      "1204.3285"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "title": [
+      "**\"A Survey of Emotion Recognition Datasets for Text\"** by Poria"
+    ],
+    "author": [
+      {
+        "family": "S.",
+        "given": "Cambria"
+      },
+      {
+        "family": "E.",
+        "given": "Gelbukh"
+      },
+      {
+        "family": "A."
+      },
+      {
+        "family": "Hussain",
+        "given": "A."
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "volume": [
+      "59"
+    ],
+    "pages": [
+      "625–677"
+    ],
+    "note": [
+      "https://doi.org/10.1613/jair.59.625](https://doi.org/10.1613/jair.59.625"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "*Journal of Artificial Intelligence Research*"
+    ]
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "title": [
+      "**\"Emotion Recognition in Text: A Comparative Study of Datasets and Evaluation Metrics\"** by"
+    ],
+    "author": [
+      {
+        "family": "Zhou",
+        "given": "L."
+      },
+      {
+        "family": "Zhao",
+        "given": "W."
+      },
+      {
+        "family": "Li",
+        "given": "S."
+      }
+    ],
+    "date": [
+      "2021"
+    ],
+    "volume": [
+      "54*(4"
+    ],
+    "pages": [
+      "1–38"
+    ],
+    "note": [
+      "https://doi.org/10.1145/3447078](https://doi.org/10.1145/3447078"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "*ACM Computing Surveys (CSUR)*"
+    ]
+  },
+  {
+    "citation-number": [
+      "**7."
+    ],
+    "note": [
+      "Ethical Considerations:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "title": [
+      "**\"Emotion Recognition in Text: Ethical Considerations\"** by",
+      "*Journal of King Saud University"
+    ],
+    "author": [
+      {
+        "family": "Mohammad",
+        "given": "K."
+      },
+      {
+        "family": "Kirit",
+        "given": "J."
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "volume": [
+      "29*(1"
+    ],
+    "pages": [
+      "1–12"
+    ],
+    "note": [
+      "https://doi.org/10.1016/j.jksuci.2015.09.001](https://doi.org/10.1016/j.jksuci.2015.09.001"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "Computer and Information Sciences*"
+    ]
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "title": [
+      "**\"Emotion Recognition in Text: A Critical Perspective\"** by Poria"
+    ],
+    "author": [
+      {
+        "family": "S.",
+        "given": "Cambria"
+      },
+      {
+        "family": "E.",
+        "given": "Gelbukh"
+      },
+      {
+        "family": "A."
+      },
+      {
+        "family": "Hussain",
+        "given": "A."
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "volume": [
+      "59"
+    ],
+    "pages": [
+      "625–677"
+    ],
+    "note": [
+      "https://doi.org/10.1613/jair.59.625](https://doi.org/10.1613/jair.59.625"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "*Journal of Artificial Intelligence Research*"
+    ]
+  },
+  {
+    "title": [
+      "**Note:** This list is not exhaustive and there are many other excellent articles on emotion analysis in texts. You can find more relevant research by searching online databases like Google Scholar"
+    ],
+    "publisher": [
+      "IEEE Xplore, and ACM Digital Library"
+    ],
+    "type": "book"
+  }
+]

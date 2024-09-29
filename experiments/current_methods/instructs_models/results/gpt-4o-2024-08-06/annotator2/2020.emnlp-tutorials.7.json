@@ -1,0 +1,410 @@
+[
+  {
+    "title": [
+      "Creating a reading list of articles on current issues in natural language generation (NLG) up to 2020, focusing on the lack of diversity, non-factuality of generated text, and evaluation metrics, involves selecting influential and relevant papers"
+    ],
+    "note": [
+      "Here’s a list that covers these topics:"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "title": [
+      "**Lack of Diversity in NLG:**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Li",
+        "given": "Jiwei"
+      },
+      {
+        "others": true
+      }
+    ],
+    "title": [
+      "A diversity-promoting objective function for neural conversation models"
+    ],
+    "note": [
+      "*arXiv preprint arXiv:1510.03055*"
+    ],
+    "date": [
+      "2015"
+    ],
+    "arxiv": [
+      "1510.03055"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Zhang",
+        "given": "Tianxing"
+      },
+      {
+        "others": true
+      }
+    ],
+    "title": [
+      "Generating informative and diverse conversational responses via adversarial information maximization"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "*NeurIPS*"
+    ]
+  },
+  {
+    "author": [
+      {
+        "family": "Ippolito",
+        "given": "Daphne"
+      },
+      {
+        "others": true
+      }
+    ],
+    "title": [
+      "Automatic detection of generated text is easiest when humans are fooled"
+    ],
+    "note": [
+      "*arXiv preprint arXiv:1911.00650*"
+    ],
+    "date": [
+      "2019"
+    ],
+    "arxiv": [
+      "1911.00650"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "publisher": [
+      "**Non-Factuality of Generated Text:**"
+    ],
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "family": "Maynez",
+        "given": "Joshua"
+      },
+      {
+        "others": true
+      }
+    ],
+    "title": [
+      "On faithfulness and factuality in abstractive summarization"
+    ],
+    "container-title": [
+      "*Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics*"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "author": [
+      {
+        "family": "Kryscinski",
+        "given": "Wojciech"
+      },
+      {
+        "others": true
+      }
+    ],
+    "title": [
+      "Evaluating the factual consistency of abstractive text summarization"
+    ],
+    "container-title": [
+      "*Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)*"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "author": [
+      {
+        "family": "Goodrich",
+        "given": "Ben"
+      },
+      {
+        "others": true
+      }
+    ],
+    "title": [
+      "Assessing the factual accuracy of generated text"
+    ],
+    "container-title": [
+      "*Proceedings of the 25th ACM SIGKDD International Conference on Knowledge Discovery & Data Mining*"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "container-title": [
+      "**Evaluation Metrics in NLG:**"
+    ],
+    "type": "chapter"
+  },
+  {
+    "author": [
+      {
+        "family": "Papineni",
+        "given": "Kishore"
+      },
+      {
+        "others": true
+      }
+    ],
+    "title": [
+      "BLEU: a method for automatic evaluation of machine translation"
+    ],
+    "container-title": [
+      "*Proceedings of the 40th annual meeting on association for computational linguistics*"
+    ],
+    "date": [
+      "2002"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "author": [
+      {
+        "family": "Lin",
+        "given": "Chin-Yew"
+      }
+    ],
+    "title": [
+      "ROUGE: A package for automatic evaluation of summaries"
+    ],
+    "container-title": [
+      "*Text summarization branches out*"
+    ],
+    "date": [
+      "2004"
+    ],
+    "type": "chapter"
+  },
+  {
+    "author": [
+      {
+        "family": "Novikova",
+        "given": "Jekaterina"
+      },
+      {
+        "others": true
+      }
+    ],
+    "title": [
+      "Why we need new evaluation metrics for NLG"
+    ],
+    "container-title": [
+      "*Proceedings of the 2017 Conference on Empirical Methods in Natural Language Processing*"
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "author": [
+      {
+        "family": "Celikyilmaz",
+        "given": "Asli"
+      },
+      {
+        "others": true
+      }
+    ],
+    "title": [
+      "Evaluation of text generation: A survey"
+    ],
+    "note": [
+      "*arXiv preprint arXiv:2006.14799*"
+    ],
+    "date": [
+      "2020"
+    ],
+    "arxiv": [
+      "2006.14799"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "note": [
+      "**General Issues in NLG:**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Radford",
+        "given": "Alec"
+      },
+      {
+        "others": true
+      }
+    ],
+    "title": [
+      "Language models are unsupervised multitask learners"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "*OpenAI Blog*"
+    ]
+  },
+  {
+    "author": [
+      {
+        "family": "Holtzman",
+        "given": "Ari"
+      },
+      {
+        "others": true
+      }
+    ],
+    "title": [
+      "The curious case of neural text degeneration"
+    ],
+    "container-title": [
+      "*International Conference on Learning Representations*"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "author": [
+      {
+        "family": "Gehrmann",
+        "given": "Sebastian"
+      },
+      {
+        "others": true
+      }
+    ],
+    "title": [
+      "The GEM benchmark: Natural language generation, its evaluation and metrics"
+    ],
+    "note": [
+      "*arXiv preprint arXiv:2010.03992*"
+    ],
+    "date": [
+      "2020"
+    ],
+    "arxiv": [
+      "2010.03992"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "title": [
+      "**Additional Relevant Articles:**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "See",
+        "given": "Abigail"
+      },
+      {
+        "others": true
+      }
+    ],
+    "title": [
+      "Get to the point: Summarization with pointer-generator networks"
+    ],
+    "container-title": [
+      "*Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics*"
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "author": [
+      {
+        "family": "Clark",
+        "given": "Elizabeth"
+      },
+      {
+        "others": true
+      }
+    ],
+    "title": [
+      "Creative writing with a machine in the loop: Case studies on slogans and stories"
+    ],
+    "container-title": [
+      "*Proceedings of the 23rd International Conference on Intelligent User Interfaces*"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "author": [
+      {
+        "family": "Dinan",
+        "given": "Emily"
+      },
+      {
+        "others": true
+      }
+    ],
+    "title": [
+      "Safety recipes for building conversational agents"
+    ],
+    "note": [
+      "*arXiv preprint arXiv:1911.12315*"
+    ],
+    "date": [
+      "2019"
+    ],
+    "arxiv": [
+      "1911.12315"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "These articles provide a comprehensive overview of the challenges and developments in NLG related to diversity, factuality, and evaluation metrics. They include foundational works as well as more recent studies that address ongoing issues in the field"
+    ],
+    "type": null
+  }
+]

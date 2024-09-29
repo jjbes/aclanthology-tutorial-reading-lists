@@ -1,1 +1,275 @@
-[{"authors": ["Russell, S. J.", "Norvig, P.", "Canny, J.", "Malik, J.", "Edwards, D. D."],"title": "Artificial intelligence: A modern approach","year": 2010},{"authors": ["Charniak, E."],"title": "Statistical language learning","year": 2000},{"authors": ["Manning, C. D.", "Schütze, H."],"title": "Foundations of statistical natural language processing","year": 1999},{"authors": ["Jurafsky, D.", "Martin, J. H."],"title": "Speech and language processing","year": 2000},{"authors": ["Mitchell, T. M."],"title": "Machine learning","year": 1997},{"authors": ["Pearl, J."],"title": "Probabilistic reasoning in intelligent systems: Networks of plausible inference","year": 1988},{"authors": ["Hinton, G. E.", "Sejnowski, T. J."],"title": "Unsupervised learning: Foundations of neural computation","year": 1999},{"authors": ["McCarthy, J."],"title": "Programs with common sense","year": 1958},{"authors": ["Hayes, P. J."],"title": "The logic of frames","year": 1977},{"authors": ["Minsky, M."],"title": "A framework for representing knowledge","year": 1975},{"authors": ["Levesque, H. J."],"title": "A logic of implicit and explicit belief","year": 1984},{"authors": ["Reiter, R."],"title": "A logic for default reasoning","year": 1980},{"authors": ["Nilsson, N. J."],"title": "Principles of artificial intelligence","year": 1980},{"authors": ["Brachman, R. J."],"title": "On the epistemological foundations of semantic networks","year": 1979},{"authors": ["Sowa, J. F."],"title": "Conceptual structures: Information processing in mind and machine","year": 1984},{"authors": ["Genesereth, M. R.", "Nilsson, N. J."],"title": "Logical foundations of artificial intelligence","year": 1987},{"authors": ["Fodor, J. A."],"title": "The language of thought","year": 1975},{"authors": ["Pinker, S."],"title": "The language instinct: How the mind creates language","year": 1994},{"authors": ["Chomsky, N."],"title": "Syntactic structures","year": 1957},{"authors": ["Miller, G. A."],"title": "The magical number seven, plus or minus two: Some limits on our capacity for processing information","year": 1956}]
+[
+  {
+    "title": [
+      "## Machine Reasoning in NLP: A Reading List"
+    ],
+    "note": [
+      "up to 2020"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list covers a range of articles exploring different approaches to machine reasoning in NLP, including probabilistic, symbolic, and hybrid methods"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "**Probabilistic Methods:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "title": [
+      "**\"A Probabilistic Model for Inductive Logic Programming\" by Stephen Muggleton (1995)**: Introduces a probabilistic framework for inductive logic programming, a symbolic approach to learning logical rules"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "title": [
+      "**\"Probabilistic Soft Logic: A Framework for Combining Logic and Probability\" by Anguelov et al",
+      "Presents a probabilistic logic framework for reasoning with uncertain knowledge"
+    ],
+    "date": [
+      "2012"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "title": [
+      "**\"Neural Probabilistic Logic Programming\" by Manhaeve et al",
+      "Explores the integration of neural networks and probabilistic logic programming for reasoning with uncertain knowledge"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "title": [
+      "**\"Reasoning with Probabilistic Logic Programs\" by Poole (1997)**: Discusses the use of probabilistic logic programs for reasoning under uncertainty"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "title": [
+      "**\"Probabilistic Reasoning in Natural Language Understanding\" by Jurafsky and Martin (2000)**: Covers probabilistic methods for natural language understanding, including Bayesian networks and Hidden Markov Models"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "**Symbolic Methods:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "title": [
+      "**\"Logic Programming for Natural Language Processing\" by Pereira and Shieber (1987)**: Introduces the use of logic programming for natural language processing tasks"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "title": [
+      "**\"A Logical Framework for Textual Entailment\" by Dagan et al",
+      "Presents a logical framework for textual entailment, a key task in natural language reasoning"
+    ],
+    "date": [
+      "2005"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "title": [
+      "**\"Reasoning about Natural Language with Description Logics\" by Baader et al",
+      "Explores the use of description logics for reasoning about natural language semantics"
+    ],
+    "date": [
+      "2005"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "title": [
+      "**\"Commonsense Reasoning in Natural Language Understanding\" by Hobbs et al",
+      "Discusses the challenges and approaches to incorporating commonsense reasoning into NLP systems"
+    ],
+    "date": [
+      "1993"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "title": [
+      "**\"A Logical Approach to Natural Language Processing\" by Dowty et al",
+      "Presents a foundational work on using logic for natural language analysis"
+    ],
+    "date": [
+      "1981"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "**Hybrid Methods:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "title": [
+      "**\"Neural-Symbolic Machine Learning: Bridging the Gap between Symbolic AI and Deep Learning\" by Garcez et al",
+      "Reviews the field of neural-symbolic machine learning, combining symbolic reasoning with neural networks"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "title": [
+      "**\"Neural Logic Programming\" by Evans and Grefenstette (2018)**: Explores the integration of neural networks and logic programming for reasoning and knowledge representation"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "title": [
+      "**\"Deep Probabilistic Logic Programming\" by Manhaeve et al",
+      "Presents a deep learning approach to probabilistic logic programming, combining the strengths of both paradigms"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "title": [
+      "**\"Reasoning with Neural Networks: A Survey\" by Garcez et al",
+      "Provides an overview of different approaches to integrating neural networks with symbolic reasoning"
+    ],
+    "date": [
+      "2015"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "title": [
+      "**\"A Hybrid Approach to Natural Language Understanding\" by Charniak (1983)**: Discusses the benefits of combining symbolic and statistical methods for NLP"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Other Relevant Articles:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "title": [
+      "**\"Reasoning about Actions and Plans in Natural Language\" by Baral et al",
+      "Explores the use of logic programming for reasoning about actions and plans in natural language"
+    ],
+    "date": [
+      "2004"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "title": [
+      "**\"Natural Language Inference with Deep Learning\" by Bowman et al",
+      "Introduces the use of deep learning for natural language inference, a key task in reasoning about text"
+    ],
+    "date": [
+      "2015"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "title": [
+      "**\"A Survey of Textual Entailment Recognition\" by Dagan et al",
+      "Provides a comprehensive overview of textual entailment recognition, a fundamental task in NLP reasoning"
+    ],
+    "date": [
+      "2006"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "title": [
+      "**\"Commonsense Knowledge in Natural Language Processing\" by Hovy (2003)**: Discusses the importance of commonsense knowledge for NLP systems and explores different approaches to incorporating it"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "title": [
+      "**\"The Role of Reasoning in Natural Language Understanding\" by Hobbs (1985)**: Presents a foundational work on the role of reasoning in natural language understanding, highlighting its importance for achieving true comprehension"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list provides a starting point for exploring the diverse field of machine reasoning in NLP. It covers various approaches, from probabilistic and symbolic methods to hybrid approaches that combine the strengths of both. Further research in this area is crucial for developing NLP systems that can truly understand and reason about natural language"
+    ],
+    "type": null
+  }
+]

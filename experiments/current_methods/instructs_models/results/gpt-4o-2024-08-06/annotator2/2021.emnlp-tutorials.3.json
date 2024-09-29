@@ -1,0 +1,493 @@
+[
+  {
+    "title": [
+      "Creating a reading list of articles on representing knowledge and guiding natural language generation using external knowledge involves selecting influential and foundational works in the fields of natural language processing (NLP"
+    ],
+    "container-title": [
+      "knowledge representation, and NLG"
+    ],
+    "note": [
+      "Here is a list of 20 articles up to 2021 that cover these topics:"
+    ],
+    "type": "chapter"
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "author": [
+      {
+        "given": "Word2Vec"
+      }
+    ],
+    "title": [
+      "Efficient Estimation of Word Representations in Vector Space\"** by Tomas Mikolov et al"
+    ],
+    "date": [
+      "2013"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Introduces Word2Vec, a method for learning vector representations of words from large datasets"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "title": [
+      "**\"GloVe: Global Vectors for Word Representation\"** by Jeffrey Pennington et al"
+    ],
+    "date": [
+      "2014"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Proposes GloVe, a model for distributed word representation that captures global corpus statistics"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "author": [
+      {
+        "given": "B.E.R.T."
+      }
+    ],
+    "title": [
+      "Pre-training of Deep Bidirectional Transformers for Language Understanding\"** by Jacob Devlin et al"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Describes BERT, a model that uses transformers for pre-training on a large corpus to improve NLP tasks"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "title": [
+      "**\"Attention is All You Need\"** by Ashish Vaswani et al"
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Introduces the transformer model, which has become foundational for many NLP tasks, including NLG"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "title": [
+      "**\"Knowledge Graph Embedding: A Survey of Approaches and Applications\"** by Antoine Bordes et al"
+    ],
+    "date": [
+      "2013"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Surveys methods for embedding knowledge graphs into continuous vector spaces"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "title": [
+      "**\"Translating Embeddings for Modeling Multi-relational Data\"** by Antoine Bordes et al"
+    ],
+    "date": [
+      "2013"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Introduces TransE, a method for embedding entities and relationships of knowledge graphs"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "title": [
+      "**\"A Survey on Knowledge Graphs: Representation, Acquisition, and Applications\"** by Fei Zhu et al"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Provides a comprehensive overview of knowledge graph representation and applications"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "title": [
+      "**\"Neural Approaches to Conversational AI: Question Answering, Task-Oriented Dialogues, and Social Chatbots\"** by Jianfeng Gao et al"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Reviews neural network approaches to conversational AI, including the use of external knowledge"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "title": [
+      "**\"Commonsense Knowledge in Word Representations\"** by Nasrin Mostafazadeh et al"
+    ],
+    "date": [
+      "2016"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Discusses integrating commonsense knowledge into word representations for improved NLP"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "title": [
+      "**\"A Survey on Contextual Embeddings\"** by Emily Alsentzer et al"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Surveys the development and application of contextual embeddings in NLP"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "title": [
+      "**\"OpenIE: Extracting Open Domain Information from Text\"** by Michele Banko et al"
+    ],
+    "date": [
+      "2007"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Introduces Open Information Extraction (OpenIE) for extracting structured information from text"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "title": [
+      "**\"Knowledge Graphs and Knowledge Networks: The Story in Brief\"** by Gerhard Weikum et al"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Provides an overview of the development and impact of knowledge graphs and networks"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "title": [
+      "**\"A Survey on Neural Network-Based Architectures for Text Generation\"** by Asli Celikyilmaz et al"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Reviews neural network architectures for text generation, including the use of external knowledge"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "title": [
+      "**\"Integrating Knowledge Graphs into Natural Language Processing\"** by Isabelle Augenstein et al"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Discusses methods for integrating knowledge graphs into NLP tasks"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "title": [
+      "**\"The Role of Knowledge in Natural Language Processing\"** by Martha Palmer et al"
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Explores the role of knowledge in enhancing NLP systems"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "title": [
+      "**\"Knowledge-Augmented Language Model and its Application to Unsupervised Named-Entity Recognition\"** by Yao Fu et al"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Proposes a knowledge-augmented language model for improved named-entity recognition"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "title": [
+      "**\"A Survey on Knowledge-Enhanced Pre-trained Language Models\"** by Yiming Cui et al"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Surveys pre-trained language models enhanced with external knowledge"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "title": [
+      "**\"Graph Neural Networks: A Review of Methods and Applications\"** by Jie Zhou et al"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Reviews graph neural networks, which are used for processing graph-structured data"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "title": [
+      "**\"Knowledge Graphs: Opportunities and Challenges\"** by Paul Groth et al"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Discusses the opportunities and challenges in the development and application of knowledge graphs"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "title": [
+      "**\"Guiding Text Generation with External Knowledge\"** by Wenhu Chen et al"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Explores methods for guiding text generation using external knowledge sources"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "These articles provide a comprehensive overview of the methods and applications of knowledge representation and natural language generation"
+    ],
+    "note": [
+      "focusing on both unstructured and structured data."
+    ],
+    "type": null
+  }
+]

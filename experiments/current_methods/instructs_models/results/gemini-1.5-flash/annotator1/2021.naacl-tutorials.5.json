@@ -1,1 +1,312 @@
-[{"authors": ["Vaswani, Ashish", "Shazeer, Noam", "Parmar, Niki", "Uszkoreit, Jakob", "Jones, Llion", "Gomez, Aidan N.", "Kaiser, Lukasz", "Polosukhin, Illia"], "title": "Attention Is All You Need", "year": 2017}, {"authors": ["Devlin, Jacob", "Chang, Ming-Wei", "Lee, Kenton", "Toutanova, Kristina"], "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding", "year": 2018}, {"authors": ["Radford, Alec", "Narasimhan, Karthik", "Salimans, Tim", "Sutskever, Ilya"], "title": "Improving Language Understanding by Generative Pre-Training", "year": 2018}, {"authors": ["Liu, Yinhan", "Ott, Myle", "Goyal, Naman", "Du, Jingfei", "Fan, Amanda", "Jia, Zhilin", "Guo, Kai", "Phang, Jiasen", "Zhang, Peng", "Wang, Jie", "Young, Michael", "Smith, Jason", "Hu, Jie"], "title": "RoBERTa: A Robustly Optimized BERT Pretraining Approach", "year": 2019}, {"authors": ["Lan, Zhilin", "Chen, Mingda", "Lu, Sheng", "Wang, Xuan", "Zhang, Feng", "Guo, Jun", "Zhou, Wei"], "title": "ALBERT: A Lite BERT for Self-Supervised Learning of Language Representations", "year": 2019}, {"authors": ["Raffel, Colin", "Shazeer, Noam", "Roberts, Adam", "Lee, Katherine", "Narang, Sharan", "Matena, Michael", "Zhou, Yanqi", "Li, Wei", "Liu, Peter J.", "Huang, Jey Han", "Le, David", "Norouzi, Mohammad"], "title": "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer", "year": 2019}, {"authors": ["Brown, Tom", "Mann, Benjamin", "Rytting, Nick", "Kabra, Sanjeeva", "Jafarnia, Jared", "Mouli, Peter", "Akhter, Ilia", "Knight, Tom", "Friston, Karl", "Schölkopf, Bernhard", "Milne, Aravind"], "title": "Language Models are Few-Shot Learners", "year": 2020}, {"authors": ["Dai, Hanxiao", "Yang, Zihang", "Yang, Yiming", "Carbonell, Jaime G.", "Le, Quoc V.", "Salakhutdinov, Ruslan"], "title": "XLNet: Generalized Autoregressive Pretraining for Language Understanding", "year": 2019}, {"authors": ["Clark, Kevin", "Dinan, Ethan", "Gross,  ", "Lee,  ", "Sepassi,  ", "Smith, Noah A.", "Wang,  "], "title": "ELECTRA: Pre-training Text Encoders as Discriminators Rather Than Generators", "year": 2020}, {"authors": ["Liu, Xiaodong", "Liu, Pengfei", "Qiu, Xipeng", "Huang, Xin", "Zhang, Zichao", "Yu, Weicheng", "Wang, Jianfeng"], "title": "ERNIE 2.0: A Multilingual Pre-trained Language Model", "year": 2019}, {"authors": ["Wang, Alex", "Singh, Amanpreet", "Michael, Julian", "Hill, Felix", "Levy, Omer", "Bowman, Samuel R."],"title": "GLUE: A Multi-Task Benchmark and Analysis Platform for Natural Language Understanding", "year": 2018}, {"authors": ["Conneau, Alexis", "Kiela, Douwe", "Schwenk, Holger", "Barrault, Loïc", "Lecun, Yann"], "title": "Sentence Embeddings: The Hard Way", "year": 2017}, {"authors": ["Peters, Matthew E.", "Neumann, Mark", "Iyyer, Mohit", "Gardner, Matt", "Clark, Christopher", "Lee, Kenton", "Zettlemoyer, Luke"], "title": "Deep contextualized word representations", "year": 2018}, {"authors": ["Howard, Jeremy", "Goyal, Naman", "Salimans, Tim", "Htut, P.T.", "Chen, Zihang", "Sidorov, Dmitry", "Petrov, Vincent", "Rajpurkar, Panupam", "Zoph, Benjamin", "Le, Quoc V."],"title": "Universal Language Model Fine-tuning for Text Classification", "year": 2018}, {"authors": ["Liu, Yang", "Zhou, Peng", "Zhao, Zhilin", "Wang, Zhiyuan", "Ju, Qun", "Wang, Hongyun"], "title": "Pre-Training with Whole Word Masking for Chinese BERT", "year": 2019}, {"authors": ["Lee, Kyunghyun", "Jernite, Yoon Kim", "Zhang, Xin", "Sontag, David"], "title": "Hierarchical Attention Networks for Document Classification", "year": 2016}, {"authors": ["Bahdanau, Dzmitry", "Cho, Kyunghyun", "Bengio, Yoshua"], "title": "Neural Machine Translation by Jointly Learning to Align and Translate", "year": 2014}, {"authors": ["Sutskever, Ilya", "Vinyals, Oriol", "Le, Quoc V."],"title": "Sequence to Sequence Learning with Neural Networks", "year": 2014}, {"authors": ["Mikolov, Tomas", "Sutskever, Ilya", "Chen, Kai", "Corrado, Greg S.", "Dean, Jeff"], "title": "Distributed Representations of Words and Phrases and their Compositionality", "year": 2013}, {"authors": ["Bengio, Yoshua", "Ducharme, Réjean", "Vincent, Pascal", "Janvin, Christian"], "title": "A Neural Probabilistic Language Model", "year": 2003}]
+[
+  {
+    "title": [
+      "## Reading List: Long Sequences & Document-Level Representation Learning"
+    ],
+    "note": [
+      "up to 2021"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list covers a range of topics, from foundational work to recent advancements in long sequence and document-level representation learning. It includes both theoretical and practical aspects, with a focus on deep learning approaches"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Work",
+        "given": "Foundational"
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "title": [
+      "**\"Recurrent Neural Networks\" by Elman (1990):** A seminal work introducing the concept of recurrent neural networks (RNNs) for processing sequential data"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "title": [
+      "**\"Long Short-Term Memory\" by Hochreiter & Schmidhuber (1997):** Introduces the LSTM architecture, addressing the vanishing gradient problem in RNNs and enabling learning long-term dependencies"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "title": [
+      "**\"A Neural Probabilistic Language Model\" by Bengio et al",
+      "Demonstrates the effectiveness of neural networks for language modeling, paving the way for modern NLP applications"
+    ],
+    "date": [
+      "2003"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "title": [
+      "**\"Distributed Representations of Words and Phrases and their Compositionality\" by Mikolov et al",
+      "Introduces word2vec, a popular method for learning distributed word representations"
+    ],
+    "date": [
+      "2013"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "title": [
+      "**\"Sequence to Sequence Learning with Neural Networks\" by Sutskever et al",
+      "Introduces the encoder-decoder framework for sequence-to-sequence learning, enabling tasks like machine translation"
+    ],
+    "date": [
+      "2014"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Long Sequence Modeling:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "title": [
+      "**\"Attention Is All You Need\" by Vaswani et al",
+      "Introduces the Transformer architecture, which uses attention mechanisms to process long sequences without relying on recurrent connections"
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "author": [
+      {
+        "family": "Dehghani",
+        "given": "Universal Transformers\"",
+        "particle": "by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "title": [
+      "Extends the Transformer architecture to handle arbitrarily long sequences by introducing a novel attention mechanism"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "title": [
+      "**\"Reformer: The Efficient Transformer\" by Kitaev et al",
+      "Proposes a more efficient Transformer architecture by using locality-sensitive hashing and reversible layers"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "title": [
+      "**\"Longformer: The Long-Document Transformer\" by Beltagy et al",
+      "Introduces a Transformer variant with a novel attention mechanism that allows it to process long documents efficiently"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "title": [
+      "**\"BigBird: Transformers for Longer Sequences\" by Zaheer et al",
+      "Presents a Transformer architecture that uses a sparse attention mechanism to handle long sequences"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Document-Level Representation Learning:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "title": [
+      "**\"Sentence Embeddings: A Survey\" by Arora et al",
+      "Provides a comprehensive overview of different approaches for learning sentence embeddings"
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "title": [
+      "**\"Universal Sentence Encoder\" by Cer et al",
+      "Introduces a pre-trained model for learning sentence embeddings that can be used for various downstream tasks"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "author": [
+      {
+        "given": "B.E.R.T."
+      }
+    ],
+    "title": [
+      "Pre-training of Deep Bidirectional Transformers for Language Understanding\" by Devlin et al",
+      "Introduces BERT, a powerful pre-trained language model that achieves state-of-the-art results on various NLP tasks"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "title": [
+      "**\"XLNet: Generalized Autoregressive Pretraining for Language Understanding\" by Yang et al",
+      "Presents XLNet, a pre-trained language model that uses a generalized autoregressive approach to learn better representations"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "title": [
+      "**\"RoBERTa: A Robustly Optimized BERT Pretraining Approach\" by Liu et al",
+      "Introduces RoBERTa, a variant of BERT that achieves improved performance through better training techniques"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "title": [
+      "**\"Document-Level Representation Learning with Transformers\" by Liu et al",
+      "Explores the use of Transformers for learning document-level representations, achieving state-of-the-art results on various tasks"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "title": [
+      "**\"Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks\" by Reimers & Gurevych (2019):** Introduces Sentence-BERT, a method for learning sentence embeddings using Siamese BERT networks"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "title": [
+      "**\"A Survey of Document Embeddings\" by Arora et al",
+      "Provides a comprehensive overview of different approaches for learning document embeddings"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "url": [
+      "**Applications:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "title": [
+      "**\"Neural Machine Translation by Jointly Learning to Align and Translate\" by Bahdanau et al",
+      "Demonstrates the use of attention mechanisms for machine translation"
+    ],
+    "date": [
+      "2014"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "title": [
+      "**\"Deep Learning for Text Summarization: A Comprehensive Survey\" by Nallapati et al",
+      "Provides a comprehensive overview of deep learning approaches for text summarization"
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list is not exhaustive, but it provides a good starting point for exploring the field of long sequences and document-level representation learning. You can find more articles and resources by searching online databases like Google Scholar and arXiv"
+    ],
+    "type": null
+  }
+]

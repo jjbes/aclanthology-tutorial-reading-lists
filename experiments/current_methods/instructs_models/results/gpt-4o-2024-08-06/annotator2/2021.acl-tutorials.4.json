@@ -1,0 +1,321 @@
+[
+  {
+    "title": [
+      "Creating a reading list of articles on transfer learning in the context of machine translation, specifically focusing on pre-training models, involves selecting influential and informative papers. Here’s a list of 20 articles up to 2021 that you might find useful"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "author": [
+      {
+        "family": "Vaswani",
+        "given": "Attention Is All You Need\"",
+        "particle": "by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "title": [
+      "- This foundational paper introduces the Transformer model, which is crucial for understanding modern pre-training techniques"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "author": [
+      {
+        "given": "B.E.R.T."
+      }
+    ],
+    "title": [
+      "Pre-training of Deep Bidirectional Transformers for Language Understanding\"** by Devlin et al"
+    ],
+    "date": [
+      "2018"
+    ],
+    "note": [
+      "- While focused on language understanding, BERT's pre-training approach has influenced machine translation models."
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "title": [
+      "**\"Massively Multilingual Neural Machine Translation in the Wild: Findings and Challenges\"** by Arivazhagan et al",
+      "- Discusses multilingual NMT and transfer learning"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "title": [
+      "**\"Unsupervised Machine Translation Using Monolingual Corpora Only\"** by Lample et al"
+    ],
+    "date": [
+      "2018"
+    ],
+    "note": [
+      "- Explores unsupervised pre-training methods for translation."
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "title": [
+      "**\"Cross-lingual Language Model Pretraining\"** by Conneau and Lample"
+    ],
+    "date": [
+      "2019"
+    ],
+    "note": [
+      "- Introduces XLM, a model that pre-trains on multiple languages for improved translation."
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "title": [
+      "**\"mBART: Multilingual Denoising Pre-training for Neural Machine Translation\"** by Liu et al"
+    ],
+    "date": [
+      "2020"
+    ],
+    "note": [
+      "- Discusses mBART, a model pre-trained for multilingual translation tasks."
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "title": [
+      "**\"T5: Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer\"** by Raffel et al"
+    ],
+    "date": [
+      "2019"
+    ],
+    "note": [
+      "- T5's text-to-text framework is relevant for translation pre-training."
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "title": [
+      "**\"Pre-training via Paraphrasing\"** by Wieting and Gimpel"
+    ],
+    "date": [
+      "2018"
+    ],
+    "note": [
+      "- Investigates pre-training through paraphrasing, relevant for translation tasks."
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "title": [
+      "**\"Language Model Pre-training for Hierarchical Document Representations\"** by Yang et al"
+    ],
+    "date": [
+      "2020"
+    ],
+    "note": [
+      "- Discusses hierarchical pre-training, applicable to translation."
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "title": [
+      "**\"Improving Zero-Shot Translation by Disentangling Positional Information\"** by Wang et al"
+    ],
+    "date": [
+      "2020"
+    ],
+    "note": [
+      "- Focuses on zero-shot translation improvements through pre-training."
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "title": [
+      "**\"Multilingual Denoising Pre-training for Neural Machine Translation\"** by Song et al"
+    ],
+    "date": [
+      "2019"
+    ],
+    "note": [
+      "- Explores denoising pre-training for multilingual NMT."
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "title": [
+      "**\"Pre-training Multilingual Neural Machine Translation by Leveraging Alignment Information\"** by Chen et al"
+    ],
+    "date": [
+      "2020"
+    ],
+    "note": [
+      "- Discusses leveraging alignment in pre-training."
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "title": [
+      "**\"Unsupervised Cross-lingual Representation Learning at Scale\"** by Conneau et al",
+      "- Introduces XLM-R, a model for cross-lingual pre-training"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "title": [
+      "**\"Pre-training with Whole Word Masking for Chinese BERT\"** by Cui et al"
+    ],
+    "date": [
+      "2019"
+    ],
+    "note": [
+      "- While focused on Chinese, the pre-training techniques are applicable to translation."
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "title": [
+      "**\"Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer\"** by Raffel et al"
+    ],
+    "date": [
+      "2020"
+    ],
+    "note": [
+      "- Discusses the T5 model, relevant for translation pre-training."
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "title": [
+      "**\"Pre-training Text Encoders as Discriminators Rather Than Generators\"** by Clark et al",
+      "- Explores alternative pre-training methods"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "title": [
+      "**\"Pre-training Transformers as Energy-based Cloze Models\"** by Wang et al"
+    ],
+    "date": [
+      "2020"
+    ],
+    "note": [
+      "- Investigates energy-based pre-training approaches."
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "title": [
+      "**\"Pre-training Multilingual Neural Machine Translation by Leveraging Alignment Information\"** by Chen et al"
+    ],
+    "date": [
+      "2020"
+    ],
+    "note": [
+      "- Focuses on alignment-based pre-training."
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "title": [
+      "**\"Pre-training with Electra: A New Approach to Self-Supervised Language Representation Learning\"** by Clark et al",
+      "- Introduces Electra, a model with novel pre-training techniques"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "title": [
+      "**\"Pre-training with Extracted Gap-sentences for Abstractive Summarization\"** by Zhang et al"
+    ],
+    "date": [
+      "2019"
+    ],
+    "note": [
+      "- While focused on summarization, the pre-training methods are relevant for translation."
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "These articles cover a range of approaches and innovations in pre-training models for machine translation, providing a comprehensive overview of the field up to"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  }
+]

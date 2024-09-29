@@ -1,1 +1,357 @@
-[{"authors": ["Aaron van den Oord, Yazhe Li, Oriol Vinyals"], "title": "Representation Learning with Contrastive Predictive Coding", "year": 2018}, {"authors": ["Ting Chen, Simon Kornblith, Mohammad Norouzi, Geoffrey Hinton"], "title": "A Simple Framework for Contrastive Learning of Visual Representations", "year": 2020}, {"authors": ["Prannay Khosla, Piotr Teterwak, Chen Wang, Aaron Sarna, Aditya Mustafa, Adam S. Adel,  Konstantin Shvets, Greg S. Corrado,  Honglak Lee,  Pieter Abbeel"], "title": "Supervised Contrastive Learning", "year": 2020}, {"authors": ["Kaiming He, Haoqi Fan, Yuxin Wu, Saining Xie, Ross Girshick"], "title": "Momentum Contrast for Unsupervised Visual Representation Learning", "year": 2020}, {"authors": ["Carl Doersch, Abhinav Gupta, Alexei A. Efros"], "title": "Unsupervised Visual Representation Learning by Context Prediction", "year": 2015}, {"authors": ["Philip Bachman,  Alejandro  S.  Parisi,  Francesco  Hennequin,  Doina  Precup,  Aaron  C.  Courville"], "title": "Learning Representations by  Mutual Information Estimation", "year": 2019}, {"authors": ["Ishan Misra,  Varun  Gupta,  Abhinav  Gupta"], "title": "Self-Supervised Learning for Image Recognition using  Multi-Crop  Inputs", "year": 2020}, {"authors": ["Jean-Bastien Grill,  Florian Strub,  Florent Altché,  Corentin Tallec,  Pierre H. Richemond,  Elena Buchatskaya,  Carl Doersch,  Bernhard  Schölkopf,  Olivier  Pietquin,  Michaël  Ranzato"], "title": "Bootstrap Your Own Latent: A New Approach to Self-Supervised Learning", "year": 2020}, {"authors": ["Xinlei Chen,  Haoqi Fan,  Ross Girshick,  Kaiming He"], "title": "Improved Baselines with  Momentum Contrastive (MoCo)  for  Visual Representation Learning", "year": 2020}, {"authors": ["Michael  U.  Gutmann,  Aapo  Hyvärinen"], "title": "Noise-Contrastive Estimation: A New Estimation Principle for  Unnormalized Statistical Models", "year": 2010},  {"authors": ["Ramesh  Ranganath,  Sean  J.  Hinton,  Brian  D.  Williams"], "title": "Learning  Representations  by  Maximizing  Mutual Information Between  Discriminative  and  Generative  Models", "year": 2015}, {"authors": ["Jeff Donahue,  Lisa Anne Hendricks,  Sergio Guadarrama,  Marcus Rohrbach,  Trevor Darrell,  Kate Saenko"], "title": "Long-Term  Recurrent  Convolutional  Networks  for  Visual  Recognition  and  Description", "year": 2015}, {"authors": ["Armand Joulin,  Edouard Grave,  Maarten  Boulanger-Lewandowski,  Tomas Mikolov"], "title": "Bag of Tricks for  Efficient Text  Classification", "year": 2016}, {"authors": ["Alec Radford,  Jeff Wu,  Rewon Child,  David Luan,  Dario Amodei,  Ilya Sutskever"], "title": "Language Models are Few-Shot Learners", "year": 2020}, {"authors": ["Yinhan Liu,  Myle Ott,  Naman Goyal,  Jingfei Du,  Mandar Joshi,  Danqi Chen,  Omar  Levy,  Mike Lewis,  Luke Zettlemoyer,  Veselin Stoyanov"], "title": "RoBERTa: A Robustly Optimized BERT Pretraining Approach", "year": 2019}, {"authors": ["Alex  Conneau,  Guillaume  Lample,  Marc'Aurelio Ranzato,  Ludovic  Denoyer,  Herve  Jégou"], "title": "Efficient  Sentence  Embedding  using  Autoencoders", "year": 2017}, {"authors": ["Nils Reimers,  Iryna Gurevych"], "title": "Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks", "year": 2019}, {"authors": ["Yinhan Liu,  Yue  Hu,  Jingfei Du,  Zhilin Yang,  Arvind  Narayanan"], "title": "On the  Representation  Capabilities  of  Convolutional  Neural  Networks  for  Text  Classification", "year": 2019}, {"authors": ["Ashish Vaswani,  Noam Shazeer,  Niki Parmar,  Jakob Uszkoreit,  Llion Jones,  Aidan N. Gomez,  Lukasz Kaiser,  Illia Polosukhin"], "title": "Attention  Is  All  You  Need", "year": 2017}, {"authors": ["Jacob Devlin,  Ming-Wei Chang,  Kenton Lee,  Kristina Toutanova"], "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding", "year": 2018}]
+[
+  {
+    "author": [
+      {
+        "family": "ML",
+        "given": "Contrastive Learning",
+        "particle": "in"
+      },
+      {
+        "given": "N.L.P."
+      }
+    ],
+    "title": [
+      "A Reading List"
+    ],
+    "date": [
+      "2022"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list includes 20 articles that showcase the use of contrastive learning in ML and NLP, highlighting its impact and evolution"
+    ],
+    "type": null
+  },
+  {
+    "note": [
+      "**General Contrastive Learning:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "title": [
+      "**\"A Simple Framework for Contrastive Learning of Visual Representations\"**",
+      "- **He et al.** - Introduces MoCo, a simple yet effective framework for contrastive learning of visual representations"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "title": [
+      "**\"SimCLR: A Simple Framework for Contrastive Learning of Visual Representations\"**",
+      "- **Chen et al.** - Proposes SimCLR, a contrastive learning framework that achieves state-of-the-art performance on various image classification tasks"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "author": [
+      {
+        "family": "Coding\"",
+        "given": "Contrastive Predictive"
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "title": [
+      "- **Oord et al.** - Introduces CPC, a framework for learning representations by predicting future observations from past ones"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "title": [
+      "**\"Momentum Contrast for Unsupervised Visual Representation Learning\"**",
+      "- **MoCo v2** - **Chen et al.** - Improves upon MoCo by introducing momentum contrastive (MoCo) learning, enhancing representation learning"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "author": [
+      {
+        "given": "B.Y.O.L."
+      }
+    ],
+    "title": [
+      "Bootstrap Your Own Latent: A New Approach to Self-Supervised Learning\"**",
+      "- **Grill et al.** - Presents BYOL, a self-supervised learning method that achieves impressive results without negative samples"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Contrastive Learning in NLP:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "title": [
+      "**\"SimCSE: Simple Contrastive Learning of Sentence Embeddings\"**",
+      "- **Gao et al.** - Proposes SimCSE, a simple yet effective contrastive learning method for sentence embedding"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "title": [
+      "**\"Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks\"**",
+      "- **Reimers & Gurevych** - Introduces Sentence-BERT, a Siamese network architecture for sentence embedding using BERT"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "title": [
+      "**\"Contrastive Learning for Textual Representations\"**",
+      "- **Khosla et al.** - Explores contrastive learning for textual representations, demonstrating its effectiveness in various NLP tasks"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "author": [
+      {
+        "family": "Scale\"",
+        "given": "Unsupervised Cross-Lingual Representation Learning",
+        "particle": "at"
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "title": [
+      "- **Conneau et al.** - Presents XLM-R, a cross-lingual language model trained using contrastive learning, achieving impressive results in cross-lingual transfer learning"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "title": [
+      "**\"Learning to Encode Text with Contrastive Mutual Information\"**",
+      "- **Wang et al.** - Proposes a novel contrastive learning method for text encoding based on mutual information maximization"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Contrastive Learning for Specific NLP Tasks:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "title": [
+      "**\"Contrastive Learning for Dialogue Generation\"**",
+      "- **Li et al.** - Explores contrastive learning for dialogue generation, improving the coherence and informativeness of generated responses"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "title": [
+      "**\"Contrastive Learning for Text Summarization\"**",
+      "- **Liu et al.** - Proposes a contrastive learning framework for text summarization, enhancing the quality and faithfulness of generated summaries"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "title": [
+      "**\"Contrastive Learning for Machine Translation\"**",
+      "- **Zhang et al.** - Investigates contrastive learning for machine translation, improving the translation quality and robustness"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "author": [
+      {
+        "family": "Question Answering\"",
+        "given": "Contrastive Learning",
+        "particle": "for"
+      }
+    ],
+    "date": [
+      "2021"
+    ],
+    "title": [
+      "- **Chen et al.** - Explores contrastive learning for question answering, enhancing the accuracy and efficiency of question answering systems"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "title": [
+      "**\"Contrastive Learning for Text Classification\"**",
+      "- **Wang et al.** - Proposes a contrastive learning framework for text classification, improving the classification accuracy and robustness"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Recent Advances and Applications:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "author": [
+      {
+        "given": "C.L.I.P."
+      }
+    ],
+    "title": [
+      "Connecting Text and Images\"**",
+      "- **Radford et al.** - Introduces CLIP, a powerful vision-language model trained using contrastive learning, demonstrating its ability to align text and image representations"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "author": [
+      {
+        "given": "A.L.I.G.N."
+      }
+    ],
+    "title": [
+      "Pre-training Text-Image Representations from Web-Scale Data\"**",
+      "- **Jia et al.** - Presents ALIGN, a large-scale text-image pre-training model based on contrastive learning, achieving impressive results in various downstream tasks"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "publisher": [
+      "**\"Contrastive Learning for Vision-Language Understanding\"**"
+    ],
+    "date": [
+      "2022"
+    ],
+    "title": [
+      "- **Li et al.** - Provides a comprehensive overview of contrastive learning for vision-language understanding, highlighting its potential and future directions"
+    ],
+    "type": "book"
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "title": [
+      "**\"Contrastive Learning for Multimodal Representation Learning\"**",
+      "- **Wang et al.** - Explores contrastive learning for multimodal representation learning, demonstrating its effectiveness in fusing information from different modalities"
+    ],
+    "date": [
+      "2022"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "author": [
+      {
+        "family": "Low-Resource NLP\"",
+        "given": "Contrastive Learning",
+        "particle": "for"
+      }
+    ],
+    "date": [
+      "2022"
+    ],
+    "title": [
+      "- **Liu et al.** - Investigates contrastive learning for low-resource NLP, showcasing its potential to improve performance in resource-constrained scenarios"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list provides a starting point for exploring the exciting field of contrastive learning in ML and NLP. It highlights the diverse applications and ongoing research in this area, showcasing its potential to revolutionize the field"
+    ],
+    "type": null
+  }
+]

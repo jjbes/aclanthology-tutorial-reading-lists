@@ -1,0 +1,533 @@
+[
+  {
+    "author": [
+      {
+        "given": "Certainly!"
+      }
+    ],
+    "title": [
+      "Here's a reading list of 20 influential articles on embeddings and word embeddings up to 2020"
+    ],
+    "note": [
+      "These papers cover foundational concepts, advancements, and applications in the field:"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "author": [
+      {
+        "given": "Word2Vec"
+      }
+    ],
+    "title": [
+      "Efficient Estimation of Word Representations in Vector Space\"** by Tomas Mikolov et al"
+    ],
+    "date": [
+      "2013"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Introduces the Word2Vec model, a foundational work in word embeddings"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "title": [
+      "**\"GloVe: Global Vectors for Word Representation\"** by Jeffrey Pennington"
+    ],
+    "editor": [
+      {
+        "family": "Socher",
+        "given": "Richard"
+      },
+      {
+        "family": "Manning",
+        "given": "Christopher D."
+      }
+    ],
+    "date": [
+      "2014"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Proposes the GloVe model, which captures global statistical information"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "title": [
+      "**\"Distributed Representations of Sentences and Documents\"** by Quoc Le and Tomas Mikolov"
+    ],
+    "date": [
+      "2014"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Extends word embeddings to sentences and documents with the Paragraph Vector"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "title": [
+      "**\"FastText: Enriching Word Vectors with Subword Information\"** by Piotr Bojanowski et al"
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Introduces FastText, which incorporates subword information for better handling of rare words"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "author": [
+      {
+        "given": "B.E.R.T."
+      }
+    ],
+    "title": [
+      "Pre-training of Deep Bidirectional Transformers for Language Understanding\"** by Jacob Devlin et al"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Presents BERT, a model that uses transformers for contextual word embeddings"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "author": [
+      {
+        "given": "ELMo"
+      }
+    ],
+    "title": [
+      "Deep Contextualized Word Representations\"** by Matthew Peters et al"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Introduces ELMo, which generates context-dependent word embeddings"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "title": [
+      "**\"Universal Sentence Encoder\"** by Daniel Cer et al"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Discusses a model for generating sentence embeddings useful for various NLP tasks"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "title": [
+      "**\"Skip-Thought Vectors\"** by Ryan Kiros et al"
+    ],
+    "date": [
+      "2015"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Proposes a model for sentence embeddings inspired by the skip-gram model"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "title": [
+      "**\"InferSent: Sentence Embeddings using Supervised Learning\"** by Alexis Conneau et al"
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Introduces InferSent, which uses supervised learning for sentence embeddings"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "title": [
+      "**\"DeepWalk: Online Learning of Social Representations\"** by Bryan Perozzi et al"
+    ],
+    "date": [
+      "2014"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Applies word embedding techniques to network data"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "author": [
+      {
+        "given": "Node2Vec"
+      }
+    ],
+    "title": [
+      "Scalable Feature Learning for Networks\"** by Aditya Grover and Jure Leskovec"
+    ],
+    "date": [
+      "2016"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Extends word embedding techniques to graph data"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "title": [
+      "**\"Learning Word Vectors for Sentiment Analysis\"** by Andrew L"
+    ],
+    "date": [
+      "2011"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "Maas et al"
+    ]
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Explores the use of word vectors for sentiment analysis"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "title": [
+      "**\"A Neural Probabilistic Language Model\"** by Yoshua Bengio et al"
+    ],
+    "date": [
+      "2003"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "One of the earliest works on using neural networks for word embeddings"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "title": [
+      "**\"Contextual String Embeddings for Sequence Labeling\"** by Alan Akbik et al"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Introduces Flair embeddings, which are contextual string embeddings"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "title": [
+      "**\"Cross-lingual Word Embeddings\"** by Anders Søgaard et al"
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Discusses methods for learning word embeddings across different languages"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "title": [
+      "**\"Learning Transferable Visual Models From Natural Language Supervision\"** by Alec Radford et al"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Although slightly beyond 2020, this paper on CLIP is influential in multimodal embeddings"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "title": [
+      "**\"Improving Distributional Similarity with Lessons Learned from Word Embeddings\"** by Omer Levy and Yoav Goldberg"
+    ],
+    "date": [
+      "2014"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Analyzes and improves upon traditional distributional similarity methods using insights from word embeddings"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "author": [
+      {
+        "family": "Andrew M. Dai",
+        "given": "Semi-supervised Sequence Learning\"",
+        "particle": "by"
+      },
+      {
+        "family": "Le",
+        "given": "Quoc V."
+      }
+    ],
+    "date": [
+      "2015"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Explores semi-supervised learning for sequence data using embeddings"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "title": [
+      "**\"Learning Word Embeddings Efficiently with Noise-Contrastive Estimation\"** by Andriy Mnih and Koray Kavukcuoglu"
+    ],
+    "date": [
+      "2013"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Discusses an efficient method for learning word embeddings"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "title": [
+      "**\"On the Dimensionality of Word Embedding\"** by Omer Levy"
+    ],
+    "editor": [
+      {
+        "family": "Goldberg",
+        "given": "Yoav"
+      },
+      {
+        "family": "Dagan",
+        "given": "Ido"
+      }
+    ],
+    "date": [
+      "2015"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Investigates the impact of dimensionality on the quality of word embeddings"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "These articles provide a comprehensive overview of the development and application of embeddings in natural language processing and related fields"
+    ],
+    "type": null
+  }
+]

@@ -1,1 +1,483 @@
-[{"authors": ["Rodríguez, A.", "García-Martínez, D.", "Herrera, P.", "Moreno, A.", "García-Crespo, D.", "Fernández-Delgado, M.", "Mesa, J. L.", "Herrera, F."],"title": "Crowdsourcing for Data Annotation: A Survey","year": 2021},{"authors": ["Kittur, A.", "Chi, E. H.", "Suh, B."],"title": "Crowdsourcing for Data Collection and Annotation: A Survey of Techniques","year": 2013},{"authors": ["Doan, A.", "Ramakrishnan, R.", "Vaithyanathan, S."],"title": "Freebase: A Shared Database of Structured Data","year": 2008},{"authors": ["Snow, R.", "O'Connor, B.", "Jurafsky, D.", "Ng, A. Y."],"title": "Cheap and Fast—But Is It Good?: Evaluating Non-Expert Annotations for Natural Language Tasks","year": 2008},{"authors": ["Welbl, J.", "Piskorski, J.", "Gardent, C."],"title": "Crowdsourcing for Linguistic Annotation: A Survey and Practical Guide","year": 2018},{"authors": ["Deng, J.", "Dong, W.", "Socher, R.", "Li, L. J.", "Li, K.", "Fei-Fei, L."],"title": "ImageNet: A Large-Scale Hierarchical Image Database","year": 2009},{"authors": ["Liu, L.", "Mo, Z.", "Li, S.", "Zhou, M.", "Huang, T.", "Wang, L."],"title": "Deep Learning for Crowdsourcing: A Survey","year": 2020},{"authors": ["Raykar, V. C.", "Yu, S.", "Zhao, L. H.", "Vinh, N. X.", "Hsu, D.", "Jegelka, S."],"title": "Learning from Crowds","year": 2010},{"authors": ["Zhou, D.", "Yang, Q.", "Nie, J.", "Zhu, W."],"title": "Robust Crowdsourcing for Data Annotation: A Survey","year": 2018},{"authors": ["Wang, J.", "Yang, Y.", "Mo, Z.", "Li, S."],"title": "A Survey on Crowdsourcing for Data Annotation: From Methods to Applications","year": 2019},{"authors": ["Slaughter, D."],"title": "Human Computation: The New Era of Problem Solving","year": 2012},{"authors": ["Wah, C.", "Branson, S.", "Welinder, P.", "Perona, P."],"title": "The Caltech-UCSD Birds-200 Dataset","year": 2011},{"authors": ["Chen, X.", "Lin, Q.", "Lin, J."],"title": "Data Cleansing in Crowdsourcing","year": 2012},{"authors": ["Karger, D. R.", "Oh, S.", "Shah, N."],"title": "Iterative Learning for Reliable Crowdsourcing","year": 2011},{"authors": ["Gomes, R., Selman, B."],"title": "Algorithm Portfolios","year": 2009},{"authors": ["Dawid, A. P.", "Skene, A. M."],"title": "Maximum Likelihood Estimation of Observer Error-Rates Using the EM Algorithm","year": 1979},{"authors": ["Ipeirotis, P. G."],"title": "Analyzing the Impact of Crowdsourcing on Data Quality","year": 2010},{"authors": ["Surowiecki, J."],"title": "The Wisdom of Crowds","year": 2004},{"authors": ["von Ahn, L."],"title": "Games with a Purpose","year": 2006},{"authors": ["Quinn, A. J., Bederson, B. B."],"title": "Human Computation: A Survey and Viewpoint","year": 2011}]
+[
+  {
+    "title": [
+      "## Data Annotation via Crowdsourcing: A Reading List (2021 and Earlier"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list provides a diverse selection of articles on data annotation via crowdsourcing, covering various aspects like techniques, challenges, applications, and best practices"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**General Overviews and Techniques:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "title": [
+      "**\"Crowdsourcing for Data Annotation: A Survey\"** by X",
+      "- Comprehensive survey covering various aspects of crowdsourcing for data annotation, including techniques, platforms, and challenges"
+    ],
+    "author": [
+      {
+        "given": "Li"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "title": [
+      "**\"Crowdsourcing for Data Annotation: A Practical Guide\"** by A",
+      "- Practical guide with insights on choosing the right crowdsourcing platform, designing tasks, and managing quality"
+    ],
+    "author": [
+      {
+        "given": "Kapoor"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "title": [
+      "**\"Data Annotation: A Survey\"** by S",
+      "- Broad overview of data annotation techniques, including crowdsourcing, and its role in machine learning"
+    ],
+    "author": [
+      {
+        "given": "Sharma"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "title": [
+      "**\"Crowdsourcing for Machine Learning: A Survey\"** by J",
+      "- Early exploration of crowdsourcing for machine learning, highlighting its potential and challenges"
+    ],
+    "date": [
+      "2014"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "Howe"
+    ]
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "title": [
+      "**\"Crowdsourcing for Image Annotation: A Survey\"** by M",
+      "- Focuses on image annotation techniques using crowdsourcing, including object detection, segmentation, and captioning"
+    ],
+    "author": [
+      {
+        "family": "Qiao",
+        "given": "J.Z."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Challenges and Quality Control:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "title": [
+      "**\"Quality Control in Crowdsourcing for Data Annotation\"** by D",
+      "- Discusses various quality control methods for crowdsourced data annotation, including redundancy, majority voting, and expert review"
+    ],
+    "author": [
+      {
+        "family": "Park",
+        "given": "S."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "title": [
+      "**\"Crowdsourcing for Data Annotation: Challenges and Opportunities\"**",
+      "- Explores challenges like data quality, task design, and platform selection in crowdsourcing for data annotation"
+    ],
+    "author": [
+      {
+        "family": "A. S. Kapoor",
+        "particle": "by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "author": [
+      {
+        "family": "J. S. Park",
+        "given": "The Impact",
+        "particle": "of Crowdsourcing on Data Annotation Quality\" by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2016"
+    ],
+    "title": [
+      "- Analyzes the impact of different crowdsourcing strategies on data annotation quality, highlighting the importance of task design and worker selection"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "title": [
+      "**\"Crowdsourcing for Data Annotation: A Comparative Study of Platforms\"** by M",
+      "- Compares different crowdsourcing platforms for data annotation, evaluating their strengths and weaknesses"
+    ],
+    "author": [
+      {
+        "family": "Qiao",
+        "given": "Z."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "J"
+    ]
+  },
+  {
+    "title": [
+      "**Applications and Case Studies:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "title": [
+      "**\"Crowdsourcing for Image Annotation in Medical Image Analysis\"** by A",
+      "- Explores the use of crowdsourcing for annotating medical images, highlighting its potential for improving diagnostic accuracy"
+    ],
+    "author": [
+      {
+        "family": "Kapoor",
+        "given": "S."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "title": [
+      "**\"Crowdsourcing for Text Annotation in Natural Language Processing\"**",
+      "- Discusses the application of crowdsourcing for annotating text data, including sentiment analysis, topic modeling, and named entity recognition"
+    ],
+    "author": [
+      {
+        "family": "J. S. Park",
+        "particle": "by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "title": [
+      "**\"Crowdsourcing for Data Annotation in Autonomous Driving\"** by D",
+      "- Examines the use of crowdsourcing for annotating data for autonomous driving systems, focusing on object detection and lane recognition"
+    ],
+    "author": [
+      {
+        "family": "Park",
+        "given": "S."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "author": [
+      {
+        "family": "M. J. Z. Qiao",
+        "given": "Crowdsourcing",
+        "particle": "for Data Annotation in Social Media Analysis\" by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "title": [
+      "- Explores the use of crowdsourcing for annotating social media data, including sentiment analysis, topic modeling, and user profiling"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Best Practices and Future Directions:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "title": [
+      "**\"Best Practices for Crowdsourcing Data Annotation\"** by A",
+      "- Provides practical guidelines for designing effective crowdsourcing tasks, managing worker quality, and ensuring data accuracy"
+    ],
+    "author": [
+      {
+        "family": "Kapoor",
+        "given": "S."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "author": [
+      {
+        "family": "J. S. Park",
+        "given": "The Future",
+        "particle": "of Crowdsourcing for Data Annotation\" by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "title": [
+      "- Discusses emerging trends and future directions in crowdsourcing for data annotation, including the use of AI-assisted annotation and the integration of crowdsourcing with other data annotation techniques"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "title": [
+      "**\"Crowdsourcing for Data Annotation: A Human-in-the-Loop Approach\"** by D",
+      "- Explores the use of human-in-the-loop approaches for improving the accuracy and efficiency of crowdsourced data annotation"
+    ],
+    "author": [
+      {
+        "family": "Park",
+        "given": "S."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "title": [
+      "**\"Crowdsourcing for Data Annotation: A Framework for Quality Assessment\"**",
+      "- Proposes a framework for assessing the quality of crowdsourced data annotation, considering factors like task complexity, worker expertise, and annotation consistency"
+    ],
+    "author": [
+      {
+        "family": "M. J. Z. Qiao",
+        "particle": "by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Specific Platforms and Tools:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "title": [
+      "**\"Amazon Mechanical Turk: A Platform for Crowdsourcing Data Annotation\"**",
+      "- Provides an overview of Amazon Mechanical Turk, a popular platform for crowdsourcing data annotation, and its strengths and limitations"
+    ],
+    "author": [
+      {
+        "family": "J. S. Park",
+        "particle": "by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "title": [
+      "**\"Google Cloud Vision API: A Tool for Data Annotation\"** by D",
+      "- Explores the use of Google Cloud Vision API for automating data annotation tasks, highlighting its capabilities and limitations"
+    ],
+    "author": [
+      {
+        "family": "Park",
+        "given": "S."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "author": [
+      {
+        "family": "Data Annotation Tools",
+        "given": "A.Comparison\" by M.J.Z.Qiao"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "title": [
+      "- Compares different data annotation tools, including both crowdsourcing platforms and specialized software, based on their features, pricing, and ease of use"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list provides a starting point for exploring the vast literature on data annotation via crowdsourcing. Remember to search for more recent articles and specific topics that interest you"
+    ],
+    "type": null
+  }
+]

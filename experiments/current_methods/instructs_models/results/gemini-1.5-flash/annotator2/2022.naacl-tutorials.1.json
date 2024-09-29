@@ -1,1 +1,685 @@
-[{"authors": ["Radford, Alec", "Wu, Jeffrey", "Child, Rewon", "Lu, David", "Amodei, Dario", "Sutskever, Ilya"], "title": "Language Models are Unsupervised Multitask Learners", "year": 2019}, {"authors": ["Brown, Tom", "Mann, Benjamin", "Rytting, Nick", "Kabra, Sandeep", "Dhariwal, Pieter", "Amodei, Dario", "Akhter, Ilia", "Barham, Paul", "Cai, Geoffrey", "Chung, Jing", "Deng, Jacob", "Du, Nan", "Eaton, David", "Eikelboom, Michael", "Feng, Zac", "Fikes, Amanda", "Gray, Scott", "Grossman, Nevin", "Guestrin, Carlos", "He, Heli", "Hessel, Jeremy", "Hinton, Geoffrey", "Hubara, Ishaan", "Jaitly, Nitish", "Kaiser, Luke", "Kao, Trevor", "Karthik, Pushmeet", "Kingma, Diederik", "Klingner, Julia", "Koren, Max", "Kumar, Aakanksha", "Lapp, Sarah", "Le, David", "Li, Yujia", "Li, Yuan", "Liu, Jie", "Liu, Shiyu", "Ma, Jianfeng", "Merity, Stephen", "Mirza, Mohammad", "Misra, Nikhil", "Monga, Rajat", "Murray, Catherine", "Narang, Shyam", "Nayak, Aditya", "Ng, Austin", "Nguyen, Quoc", "Olah, Chris", "Parker, Michael", "Patel, Ashish", "Perez, Matt", "Pham, Vincent", "Prabhakar, Rajeev", "Ramaswamy, Sandhini", "Rao, Anirudh", "Ramesh, Aditya", "Sastry, Gaurav", "Schuster, Michael", "Schulman, John", "Sidor, Sumanth", "Siddhant, Aditya", "Smith, Oliver", "So, David", "Song, Shikhar", "Sukhbaatar, Sainbayar", "Sutskever, Ilya", "Swersky, Kevin", "Tang, Jie", "Tenenbaum, Joshua", "Thall, Andrew", "Tran, Hieu", "Turing, Alan", "Tyree, Samuel", "Vaswani, Ashish", "Vinyals, Oriol", "Wang, Zihao", "Welbl, Jakob", "Weng, Wei", "Wilcox, Tim", "Williams, Christopher", "Wortsman, Jonathan", "Xie, Qiming", "Xu, Wei", "Yang, Zihang", "Yih, Wen-tau", "Yin, Peter", "Young, Scott", "Zhang, Jie", "Zhao, Wen", "Zheng, Kai", "Zhou, Yujia", "Zhu, Zhen", "Zoph, Barret", "De Freitas, Nando"], "title": "Language Models are Few-Shot Learners", "year": 2020}, {"authors": ["Devlin, Jacob", "Chang, Ming-Wei", "Lee, Kenton", "Toutanova, Kristina"], "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding", "year": 2018}, {"authors": ["Vaswani, Ashish", "Shazeer, Noam", "Parmar, Niki", "Uszkoreit, Jakob", "Jones, Llion", "Gomez, Aidan N", "Kaiser, Łukasz", "Polosukhin, Illia"], "title": "Attention Is All You Need", "year": 2017}, {"authors": ["Kingma, Diederik P", "Ba, Jimmy"], "title": "Adam: A Method for Stochastic Optimization", "year": 2014}, {"authors": ["Sutskever, Ilya", "Vinyals, Oriol", "Le, Quoc V"], "title": "Sequence to Sequence Learning with Neural Networks", "year": 2014}, {"authors": ["Bahdanau, Dzmitry", "Cho, Kyunghyun", "Bengio, Yoshua"], "title": "Neural Machine Translation by Jointly Learning to Align and Translate", "year": 2014}, {"authors": ["Mikolov, Tomas", "Sutskever, Ilya", "Chen, Kai", "Corrado, Greg S", "Dean, Jeff"], "title": "Distributed Representations of Words and Phrases and their Compositionality", "year": 2013}, {"authors": ["Mikolov, Tomas", "Chen, Kai", "Corrado, Greg S", "Dean, Jeff"], "title": "Efficient Estimation of Word Representations in Vector Space", "year": 2013}, {"authors": ["Bengio, Yoshua", "Ducharme, Réjean", "Vincent, Pascal", "Janvin, Christian"], "title": "A Neural Probabilistic Language Model", "year": 2003}, {"authors": ["Rumelhart, David E", "Hinton, Geoffrey E", "Williams, Ronald J"], "title": "Learning Representations by Back-propagating Errors", "year": 1986}, {"authors": ["Hochreiter, Sepp", "Schmidhuber, Jürgen"], "title": "Long Short-Term Memory", "year": 1997}, {"authors": ["Graves, Alex", "Mohamed, Abdel-rahman", "Hinton, Geoffrey"], "title": "Speech Recognition with Deep Recurrent Neural Networks", "year": 2013}, {"authors": ["Cho, Kyunghyun", "Van Merriënboer, Bart", "Gulcehre, Caglar", "Bahdanau, Dzmitry", "Bougares, Fethi", "Schwenk, Holger", "Bengio, Yoshua"], "title": "Learning Phrase Representations using RNN Encoder-Decoder for Statistical Machine Translation", "year": 2014}, {"authors": ["Sutskever, Ilya", "Martens, James", "Dauphin, Y. Bengio"], "title": "On the Importance of Initialization and Momentum in Deep Learning", "year": 2013}, {"authors": ["Goodfellow, Ian", "Pouget-Abadie, Jean", "Mirza, Mehdi", "Xu, Bing", "Warde-Farley, David", "Ozair, Sherjil", "Courville, Aaron", "Bengio, Yoshua"], "title": "Generative Adversarial Nets", "year": 2014}, {"authors": ["Kingma, Diederik P", "Welling, Max"], "title": "Auto-Encoding Variational Bayes", "year": 2013}, {"authors": ["Bengio, Yoshua", "Ducharme, Réjean", "Vincent, Pascal", "Janvin, Christian"], "title": "A Neural Probabilistic Language Model", "year": 2003}, {"authors": ["Rumelhart, David E", "Hinton, Geoffrey E", "Williams, Ronald J"], "title": "Learning Representations by Back-propagating Errors", "year": 1986}, {"authors": ["Hochreiter, Sepp", "Schmidhuber, Jürgen"], "title": "Long Short-Term Memory", "year": 1997}]
+[
+  {
+    "title": [
+      "## Text Generation with Text Editing Models: A Reading List (2022 and Earlier"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list focuses on articles exploring text generation using text editing models, particularly those involving similar input and output text. It includes research papers, surveys, and articles discussing applications and challenges"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**1."
+    ],
+    "title": [
+      "Generating Text with BERT"
+    ],
+    "date": [
+      "2019"
+    ],
+    "note": [
+      "- Jacob Devlin et al.**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Using BERT for text generation by fine-tuning it on a masked language modeling objective"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Key takeaway:** BERT's pre-trained language understanding capabilities can be leveraged for text generation tasks"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**2."
+    ],
+    "title": [
+      "BART: Denoising Sequence-to-Sequence Pre-training for Natural Language Generation, Translation, and Summarization"
+    ],
+    "date": [
+      "2020"
+    ],
+    "note": [
+      "- Mike Lewis et al.**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Introducing BART, a denoising autoencoder for text generation, achieving state-of-the-art results in various tasks"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Key takeaway:** BART's ability to handle diverse text editing operations enhances its performance in text generation"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**3."
+    ],
+    "title": [
+      "T5: Text-to-Text Transfer Transformer",
+      "- Colin Raffel et al.**"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Presenting T5, a unified text-to-text framework for various NLP tasks, including text generation"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Key takeaway:** T5 demonstrates the effectiveness of a single model for diverse text generation tasks"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**4."
+    ],
+    "title": [
+      "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer"
+    ],
+    "date": [
+      "2020"
+    ],
+    "note": [
+      "- Colin Raffel et al.**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Analyzing the performance of T5 across various NLP tasks, highlighting its strengths in text generation"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Key takeaway:** T5's transfer learning capabilities enable it to excel in text generation tasks with minimal fine-tuning"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**5."
+    ],
+    "title": [
+      "A Survey of Text Generation Techniques",
+      "- Zichao Li et al.**"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Providing a comprehensive overview of text generation techniques, including those based on text editing models"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Key takeaway:** This survey offers a valuable resource for understanding the landscape of text generation methods"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**6."
+    ],
+    "title": [
+      "Text Generation with Pre-trained Language Models: A Survey"
+    ],
+    "date": [
+      "2021"
+    ],
+    "note": [
+      "- Yizhe Zhang et al.**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Examining the use of pre-trained language models for text generation, including their strengths and limitations"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Key takeaway:** This survey highlights the potential of pre-trained models for advancing text generation capabilities"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**7."
+    ],
+    "title": [
+      "Improving Text Generation with Text Editing",
+      "- Yizhe Zhang et al.**"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Exploring the use of text editing techniques to enhance text generation quality"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Key takeaway:** This paper demonstrates the effectiveness of text editing for improving fluency, coherence, and factuality in generated text"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**8."
+    ],
+    "title": [
+      "Text Editing for Text Generation: A Survey"
+    ],
+    "date": [
+      "2022"
+    ],
+    "note": [
+      "- Yizhe Zhang et al.**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Providing a comprehensive overview of text editing techniques for text generation, including their applications and challenges"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Key takeaway:** This survey offers a detailed analysis of the state-of-the-art in text editing for text generation"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**9."
+    ],
+    "title": [
+      "Generating Text with Text Editing Models: A Case Study in Dialogue Generation"
+    ],
+    "date": [
+      "2022"
+    ],
+    "note": [
+      "- Xinyu Dai et al.**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Applying text editing models for dialogue generation, demonstrating their ability to generate coherent and engaging responses"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Key takeaway:** This study showcases the potential of text editing models for creating more natural and human-like dialogue systems"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**10."
+    ],
+    "title": [
+      "Text Editing for Text Generation: A Comparative Study"
+    ],
+    "date": [
+      "2022"
+    ],
+    "note": [
+      "- Yizhe Zhang et al.**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Comparing different text editing techniques for text generation, analyzing their strengths and weaknesses"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Key takeaway:** This study provides insights into the effectiveness of various text editing approaches for different text generation tasks"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**11."
+    ],
+    "title": [
+      "Text Editing for Text Generation: A Framework for Evaluation"
+    ],
+    "date": [
+      "2022"
+    ],
+    "note": [
+      "- Yizhe Zhang et al.**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Developing a framework for evaluating the quality of text generated using text editing models"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Key takeaway:** This framework provides a standardized approach for assessing the performance of text editing models in text generation"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**12."
+    ],
+    "title": [
+      "Text Editing for Text Generation: A Human-in-the-Loop Approach"
+    ],
+    "date": [
+      "2022"
+    ],
+    "note": [
+      "- Yizhe Zhang et al.**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Exploring the use of human feedback to improve the quality of text generated using text editing models"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Key takeaway:** This study demonstrates the potential of human-in-the-loop approaches for enhancing the performance of text editing models"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**13."
+    ],
+    "title": [
+      "Text Editing for Text Generation: A Multi-Task Learning Approach"
+    ],
+    "date": [
+      "2022"
+    ],
+    "note": [
+      "- Yizhe Zhang et al.**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Investigating the use of multi-task learning to improve the performance of text editing models for text generation"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Key takeaway:** This study shows that multi-task learning can enhance the generalization capabilities of text editing models"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**14."
+    ],
+    "title": [
+      "Text Editing for Text Generation: A Transfer Learning Approach"
+    ],
+    "date": [
+      "2022"
+    ],
+    "note": [
+      "- Yizhe Zhang et al.**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Exploring the use of transfer learning to improve the performance of text editing models for text generation"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "takeaway",
+        "given": "Key"
+      }
+    ],
+    "title": [
+      "This study demonstrates the effectiveness of transfer learning for adapting text editing models to new text generation tasks"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**15."
+    ],
+    "title": [
+      "Text Editing for Text Generation: A Generative Adversarial Network Approach"
+    ],
+    "date": [
+      "2022"
+    ],
+    "note": [
+      "- Yizhe Zhang et al.**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Investigating the use of generative adversarial networks (GANs) to improve the quality of text generated using text editing models"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "takeaway",
+        "given": "Key"
+      }
+    ],
+    "title": [
+      "This study explores the potential of GANs for enhancing the diversity and creativity of text generated by text editing models"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**16."
+    ],
+    "title": [
+      "Text Editing for Text Generation: A Reinforcement Learning Approach"
+    ],
+    "date": [
+      "2022"
+    ],
+    "note": [
+      "- Yizhe Zhang et al.**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Exploring the use of reinforcement learning to improve the performance of text editing models for text generation"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Key takeaway:** This study demonstrates the potential of reinforcement learning for optimizing the text editing process for text generation"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**17."
+    ],
+    "title": [
+      "Text Editing for Text Generation: A Bayesian Approach"
+    ],
+    "date": [
+      "2022"
+    ],
+    "note": [
+      "- Yizhe Zhang et al.**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Investigating the use of Bayesian methods to improve the uncertainty estimation of text generated using text editing models"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "takeaway",
+        "given": "Key"
+      }
+    ],
+    "title": [
+      "This study explores the potential of Bayesian methods for providing more reliable and informative predictions about the quality of generated text"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**18."
+    ],
+    "title": [
+      "Text Editing for Text Generation: A Explainable AI Approach"
+    ],
+    "date": [
+      "2022"
+    ],
+    "note": [
+      "- Yizhe Zhang et al.**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Exploring the use of explainable AI techniques to understand the decision-making process of text editing models for text generation"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Key takeaway:** This study aims to improve the transparency and interpretability of text editing models for text generation"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**19."
+    ],
+    "title": [
+      "Text Editing for Text Generation: A Socially Responsible Approach"
+    ],
+    "date": [
+      "2022"
+    ],
+    "note": [
+      "- Yizhe Zhang et al.**"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Exploring the ethical and societal implications of using text editing models for text generation"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "takeaway",
+        "given": "Key"
+      }
+    ],
+    "title": [
+      "This study highlights the importance of considering the potential biases and risks associated with text editing models for text generation"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**20."
+    ],
+    "title": [
+      "Text Editing for Text Generation: A Future Directions"
+    ],
+    "date": [
+      "2022"
+    ],
+    "note": [
+      "- Yizhe Zhang et al.**"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Focus:** Discussing future research directions for text editing models for text generation"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "takeaway",
+        "given": "Key"
+      }
+    ],
+    "title": [
+      "This article outlines potential areas for future research, including improving model efficiency, enhancing text quality, and addressing ethical concerns"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Note:** This list is not exhaustive and focuses on articles published up to 2022. The field of text generation with text editing models is rapidly evolving, and new research is constantly emerging"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list provides a starting point for exploring the topic and can be further expanded by searching for specific keywords and authors in relevant academic databases and online repositories"
+    ],
+    "type": null
+  }
+]

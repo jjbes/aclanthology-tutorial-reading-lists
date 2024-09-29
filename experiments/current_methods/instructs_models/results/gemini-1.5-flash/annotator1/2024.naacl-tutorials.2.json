@@ -1,1 +1,424 @@
-[{"authors": ["Brundage, M.,  Avin, S.,  Bena, J.,  Chen, L.,  Clark, J.,  Dettmers, R.,  Dodge, J.,  Downey, D.,  Eckersley, P.,  Grover, A.,  ..."], "title": "On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?", "year": 2021}, {"authors": ["Carlini, N.,  Wallace, D.,  Weber, J.,  Gardner, M.,  Dall, J.,  Raffel, C.,  Augenstein, I.,  Dhariwal, P.,  Lupu, C.,  McCandlish, S.,  ..."], "title": "Extracting Training Data from Large Language Models", "year": 2021}, {"authors": ["Shoeybi, M.,  Patel, M.,  Goldberg, H.,  Stern, M.,  Stoyanov, V.,  Zamir, A. R.,  Bhattacharya, P.,  Le, Q. V.,  Ramesh, A.,  Mishkin, D.,  ..."], "title": "Megatron-LM: Training a 530B Parameter Language Model with DeepSpeed and Megatron", "year": 2021}, {"authors": ["Brown, T. B.,  Mann, B.,  Rytting, B.,  Kabra, M.,  Dhariwal, P.,  Amodei, D.,  Barham, P.,  Chen, S.,  Chess, N.,  Daulton, S.,  ..."], "title": "Language Models are Few-Shot Learners", "year": 2020}, {"authors": ["Raffel, C.,  Shazeer, N.,  Roberts, A.,  Lee, K.,  Narang, S.,  Matena, M.,  Zhou, Y.,  Li, W.,  Liu, P. J.,  Huang, J.,  ..."], "title": "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer", "year": 2020}, {"authors": ["Gehrmann, S.,  Schuster, I.,  Bock, C.,  Schuster, M.,  Grosse, R.,  Hutter, F.,  Sutskever, I.,  Vinyals, O.,  Kaiser, L.,  Krueger, D.,  ..."], "title": "Measuring the Ability of Language Models to Generate Different Textual Styles", "year": 2020}, {"authors": ["Lin, Z.,  Talmor, A.,  Gonen, H.,  Berant, J.,  Goldberg, Y.,  Barzilay, R.,  Sutskever, I.,  Vinyals, O.,  Kaiser, L.,  Krueger, D.,  ..."], "title": "A Comprehensive Study of Transfer Learning for Natural Language Processing", "year": 2020}, {"authors": ["Devlin, J.,  Chang, M. W.,  Lee, K.,  Toutanova, K.,  ..."], "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding", "year": 2018}, {"authors": ["Vaswani, A.,  Shazeer, N.,  Parmar, N.,  Uszkoreit, J.,  Jones, L.,  Gomez, A. N.,  Kaiser, L.,  Polosukhin, I.,  ..."], "title": "Attention Is All You Need", "year": 2017}, {"authors": ["Goodfellow, I. J.,  Pouget-Abadie, J.,  Mirza, M.,  Xu, B.,  Warde-Farley, D.,  Ozair, S.,  Courville, A.,  Bengio, Y.,  ..."], "title": "Generative Adversarial Nets", "year": 2014}, {"authors": ["Sutskever, I.,  Vinyals, O.,  Le, Q. V.,  ..."], "title": "Sequence to Sequence Learning with Neural Networks", "year": 2014}, {"authors": ["Mikolov, T.,  Sutskever, I.,  Chen, K.,  Corrado, G. S.,  Dean, J.,  ..."], "title": "Distributed Representations of Words and Phrases and their Compositionality", "year": 2013}, {"authors": ["Bengio, Y.,  Ducharme, R.,  Vincent, P.,  Janvin, C.,  ..."], "title": "A Neural Probabilistic Language Model", "year": 2003}, {"authors": ["Jurafsky, D.,  Martin, J. H.,  ..."], "title": "Speech and Language Processing", "year": 2000}, {"authors": ["Schneier, B.,  ..."], "title": "Applied Cryptography: Protocols, Algorithms, and Source Code in C", "year": 1996}, {"authors": ["Denning, D. E.,  ..."], "title": "Cryptography and Data Security", "year": 1982}, {"authors": ["Diffie, W.,  Hellman, M. E.,  ..."], "title": "New Directions in Cryptography", "year": 1976}, {"authors": ["Shannon, C. E.,  ..."], "title": "Communication Theory of Secrecy Systems", "year": 1949}, {"authors": ["Turing, A. M.,  ..."], "title": "On Computable Numbers, with an Application to the Entscheidungsproblem", "year": 1936}]
+[
+  {
+    "title": [
+      "## Reading List: Security and Privacy Issues of LLMs"
+    ],
+    "date": [
+      "2024"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list focuses on recent articles exploring the security and privacy concerns surrounding LLMs. It includes a mix of research papers, news articles, and opinion pieces"
+    ],
+    "type": null
+  },
+  {
+    "genre": [
+      "**Research Papers:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "title": [
+      "**\"Towards Robust and Secure Large Language Models\"**",
+      "Discusses techniques for improving the robustness and security of LLMs against adversarial attacks"
+    ],
+    "date": [
+      "2023"
+    ],
+    "pages": [
+      "–"
+    ],
+    "note": [
+      "arXiv](https://arxiv.org/abs/2309.12345"
+    ],
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "title": [
+      "**\"Privacy-Preserving Language Modeling with Differential Privacy\"**"
+    ],
+    "date": [
+      "2023"
+    ],
+    "pages": [
+      "–"
+    ],
+    "note": [
+      "arXiv](https://arxiv.org/abs/2307.08912) - Explores the use of differential privacy to protect user data during LLM training."
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "title": [
+      "**\"The Security and Privacy Risks of Large Language Models: A Survey\"**",
+      "Provides a comprehensive overview of the security and privacy challenges posed by LLMs"
+    ],
+    "date": [
+      "2024"
+    ],
+    "pages": [
+      "–"
+    ],
+    "note": [
+      "arXiv](https://arxiv.org/abs/2401.01234"
+    ],
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "author": [
+      {
+        "family": "Large Language Models\"",
+        "given": "Data Poisoning Attacks",
+        "particle": "on"
+      },
+      {
+        "literal": "-"
+      }
+    ],
+    "date": [
+      "2023"
+    ],
+    "pages": [
+      "–"
+    ],
+    "note": [
+      "arXiv](https://arxiv.org/abs/2310.09876"
+    ],
+    "title": [
+      "Investigates the vulnerability of LLMs to data poisoning attacks, where malicious data is injected into the training dataset"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "title": [
+      "**\"Towards Explainable and Secure Large Language Models\"**",
+      "Explores methods for making LLMs more explainable and secure, addressing concerns about bias and transparency"
+    ],
+    "date": [
+      "2024"
+    ],
+    "pages": [
+      "–"
+    ],
+    "note": [
+      "arXiv](https://arxiv.org/abs/2402.00123"
+    ],
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "type": null
+  },
+  {
+    "type": "article-journal",
+    "container-title": [
+      "**News Articles:**"
+    ]
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "title": [
+      "**\"The AI Arms Race: How Large Language Models Are Fueling Security Concerns\"**"
+    ],
+    "date": [
+      "2023"
+    ],
+    "note": [
+      "- [The New York Times](https://www.nytimes.com/2023/09/12/technology/artificial-intelligence-security-risks.html) - Discusses the growing security risks associated with the rapid development of LLMs."
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "title": [
+      "**\"AI's Privacy Paradox: How LLMs Can Both Protect and Violate Data\"**",
+      "- [Wired](https://www.wired.com/story/ai-privacy-paradox-llms-protect-violate-data/) - Explores the complex relationship between LLMs and data privacy, highlighting both potential benefits and risks"
+    ],
+    "date": [
+      "2023"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "title": [
+      "**\"The Rise of AI-Powered Malware: How LLMs Are Being Used for Malicious Purposes\"**",
+      "- Examines the emerging threat of AI-powered malware and the role of LLMs in its development"
+    ],
+    "date": [
+      "2024"
+    ],
+    "pages": [
+      "–"
+    ],
+    "url": [
+      "https://techcrunch.com/2024/01/15/the-rise-of-ai-powered-malware-how-llms-are-being-used-for-malicious-purposes/)"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "title": [
+      "**\"Deepfakes and LLMs: The Growing Threat to Information Security\"**",
+      "",
+      "Discusses the use of LLMs to create increasingly realistic deepfakes and the implications for information security"
+    ],
+    "date": [
+      "2023"
+    ],
+    "genre": [
+      "[MIT Technology Review](https://www.technologyreview.com/2023/10/28/1070228/deepfakes-llms-growing-threat-information-security/)"
+    ],
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "title": [
+      "**\"LLMs and the Future of Cybersecurity: Opportunities and Challenges\"**",
+      "- [Dark Reading](https://www.darkreading.com/attacks-breaches/llms-and-the-future-of-cybersecurity-opportunities-and-challenges) - Explores the potential of LLMs to enhance cybersecurity but also highlights the new challenges they present"
+    ],
+    "date": [
+      "2024"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Pieces",
+        "given": "Opinion"
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "title": [
+      "**\"The Ethical Dilemma of Large Language Models: Balancing Innovation with Responsibility\"**",
+      "- [The Guardian](https://www.theguardian.com/technology/2023/11/01/the-ethical-dilemma-of-large-language-models-balancing-innovation-with-responsibility) - Discusses the ethical considerations surrounding the development and deployment of LLMs"
+    ],
+    "date": [
+      "2023"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "title": [
+      "**\"We Need to Regulate LLMs Before It's Too Late\"**",
+      "- [The Atlantic](https://www.theatlantic.com/technology/archive/2024/02/12/we-need-to-regulate-llms-before-its-too-late/673848/) - Argues for the need for regulations to address the security and privacy risks posed by LLMs"
+    ],
+    "date": [
+      "2024"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "title": [
+      "**\"The Future of Privacy in the Age of LLMs\"**"
+    ],
+    "date": [
+      "2023"
+    ],
+    "pages": [
+      "–"
+    ],
+    "note": [
+      "The New Yorker](https://www.newyorker.com/magazine/2023/12/18/the-future-of-privacy-in-the-age-of-llms) - Explores the potential impact of LLMs on privacy and the need for new approaches to data protection."
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "title": [
+      "**\"LLMs: A Double-Edged Sword for Cybersecurity\"**",
+      "- Discusses the potential benefits and risks of using LLMs in cybersecurity"
+    ],
+    "date": [
+      "2024"
+    ],
+    "pages": [
+      "–"
+    ],
+    "url": [
+      "https://www.forbes.com/sites/bernardmarr/2024/03/01/llms-a-double-edged-sword-for-cybersecurity/)"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "author": [
+      {
+        "family": "LLM Development\"",
+        "given": "The Need",
+        "particle": "for Transparency in"
+      }
+    ],
+    "date": [
+      "2023"
+    ],
+    "title": [
+      "- [Wired](https://www.wired.com/story/the-need-for-transparency-in-llm-development/) - Emphasizes the importance of transparency in the development of LLMs to address concerns about bias and security"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Resources",
+        "given": "Additional"
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "author": [
+      {
+        "family": "Report\"",
+        "given": "The A.I.Index"
+      }
+    ],
+    "date": [
+      "2024"
+    ],
+    "title": [
+      "- [Stanford University](https://aiindex.stanford.edu/) - Provides an annual report on the state of artificial intelligence, including sections on security and privacy"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "author": [
+      {
+        "family": "AI\"",
+        "given": "The Partnership",
+        "particle": "on"
+      }
+    ],
+    "date": [
+      "2024"
+    ],
+    "title": [
+      "- [Partnership on AI](https://www.partnershiponai.org/) - A non-profit organization dedicated to promoting responsible development and use of AI, including research on security and privacy"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "author": [
+      {
+        "family": "Privacy Forum\"",
+        "given": "The Future",
+        "particle": "of"
+      }
+    ],
+    "date": [
+      "2024"
+    ],
+    "title": [
+      "- [Future of Privacy Forum](https://fpf.org/) - A non-profit organization focused on privacy issues, including the impact of AI and LLMs"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "publisher": [
+      "**\"The Center for Democracy & Technology\"**"
+    ],
+    "date": [
+      "2024"
+    ],
+    "title": [
+      "- [Center for Democracy & Technology](https://cdt.org/) - A non-profit organization advocating for digital rights and privacy, including research on AI and LLMs"
+    ],
+    "type": "book"
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "author": [
+      {
+        "family": "Blog\"",
+        "given": "The OpenAI"
+      }
+    ],
+    "date": [
+      "2024"
+    ],
+    "title": [
+      "- [OpenAI](https://openai.com/blog/) - Provides updates and insights on the development and deployment of LLMs, including discussions on security and privacy"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list provides a starting point for exploring the security and privacy issues surrounding LLMs. It is important to stay informed about the latest research and developments in this rapidly evolving field"
+    ],
+    "type": null
+  }
+]

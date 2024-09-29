@@ -1,1 +1,743 @@
-[{"authors": ["Conneau, Alexis", "Kiela, Douwe", "Schwenk, Holger", "Barrault, Loïc", "Dabrowski,  Arnauld"], "title": "Don't Stop Pretraining: Adapt Language Models to Domains and Tasks", "year": 2020}, {"authors": ["Devlin, Jacob", "Chang, Ming-Wei", "Lee, Kenton", "Toutanova, Kristina"], "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding", "year": 2018}, {"authors": ["Peters, Matthew E.", "Neumann, Mark", "Iyyer, Mohit", "Gardner, Matt", "Clark, Christopher", "Lee, Kenton", "Zettlemoyer, Luke"], "title": "Deep contextualized word representations", "year": 2018}, {"authors": ["Radford, Alec", "Narasimhan, Karthik", "Sutskever, Ilya", "Sohl-Dickstein, Josh"], "title": "Improving Language Understanding by Generative Pre-Training", "year": 2018}, {"authors": ["Liu, Yinhan", "Ott, Myle", "Goyal, Naman", "Du, Jing", "Fan, Amanda", "Jia, Zhilin", "Chen, Danqi", "Guo, Min", "Phang, James", "Zhang, Jie", "etal"], "title": "RoBERTa: A Robustly Optimized BERT Pretraining Approach", "year": 2019}, {"authors": ["Brown, Tom", "Mann, Benjamin", "Rytting, Nick", "Kabra, Sanjeevani", "Jafarnia,  Ali", "Faghri, Fahim", "Lewis,  Scott", "Gross,  Philip", "Krishna,  Rajesh", "Shankar,  Sharan", "etal"], "title": "Language Models are Few-Shot Learners", "year": 2020}, {"authors": ["Sanh, Victor", "Dehaene,  Etienne", "Strub,  Fanny", "Winata,  Genta", "Abadi,  Martin", "Duval,  Thomas", "Liao,  Yacine", "Furukawa,  Thomas", "Jernite,  Yoon Kim", "Dauphin,  Yann", "etal"], "title": "Multilingual BERT: Pre-training a Multilingual Language Understanding Model", "year": 2019}, {"authors": ["Clark, Kevin", "Dinu, George", "Gross,  Philip", "Hassan,  Sam", "Lee,  Kenton", "Manning,  Christopher D.", "Miller,  Taylor"], "title": "Electra: Pre-training Text Encoders as Discriminators Rather Than Generators", "year": 2020}, {"authors": ["Raffel, Colin", "Shazeer, Noam", "Roberts, Adam", "Lee, Katherine", "Narang, Sharan", "Matena,  Michael", "Zhou, Yanqi", "Li, Wei", "Liu, Peter J.", "Huang,  Zhilin", "etal"], "title": "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer", "year": 2019}, {"authors": ["Dai, Andrew M.", "Yang, Zihang", "Yang, Yiming", "Carbonell, Jaime G.", "Salakhutdinov, Ruslan"], "title": "Transformer-XL: Attentive Language Models Beyond a Fixed-Length Context", "year": 2019}, {"authors": ["Wang, Alex", "Singh, Amanpreet", "Michael,  Julian", "Hill, Felix", "Levy, Omer", "Bowman, Samuel R." ], "title": "GLUE: A Multi-Task Benchmark and Analysis Platform for Natural Language Understanding", "year": 2018}, {"authors": ["Liu, Pengfei", "Zhou,  Peter", "Zhao,  Zhilin", "Wang, Zhiyuan", "Ju,  Qiming", "Liu,  Huan", "Zhang,  Lei", "Zhao,  Jie", "Yan,  Rui", "Wang,  Weizhu", "etal"], "title": "ERNIE 2.0: A Multilingual Pre-trained Language Model", "year": 2019}, {"authors": ["Zhang,  Xiang", "Zhao,  Junbo", "LeCun,  Yann"], "title": "Character-level Convolutional Networks for Text Classification", "year": 2015}, {"authors": ["Kim, Yoon"], "title": "Convolutional Neural Networks for Sentence Classification", "year": 2014}, {"authors": ["Mikolov, Tomas", "Sutskever, Ilya", "Chen, Kai", "Corrado, Greg S.", "Dean, Jeff"], "title": "Distributed Representations of Words and Phrases and their Compositionality", "year": 2013}, {"authors": ["Pennington, Jeffrey", "Socher, Richard",  "Manning,  Christopher D." ], "title": "Glove: Global Vectors for Word Representation", "year": 2014}, {"authors": ["Bahdanau, Dzmitry", "Cho, Kyunghyun", "Bengio, Yoshua"], "title": "Neural Machine Translation by Jointly Learning to Align and Translate", "year": 2014}, {"authors": ["Vaswani, Ashish", "Shazeer, Noam", "Parmar, Niki", "Uszkoreit, Jakob", "Jones,  Llion", "Gomez,  Aidan N.", "Kaiser,  Lukasz", "Polosukhin,  Illia"], "title": "Attention Is All You Need", "year": 2017}, {"authors": ["Howard, Jeremy", "Goyal,  Aakash",  "Stocke,  Abhishek", "Chen,  Zhenzhong", "Htut,  Ankur", "Sachan,  Serban",  "Pennington,  Jeffrey",  "Le,  Quoc V.", "Sankar,  Ilya", "Deng,  Jason"], "title": "Universal Language Model Fine-tuning for Text Classification", "year": 2018}]
+[
+  {
+    "title": [
+      "## Reading List: Formal Semantic Controls of Text Representation (Text Embeddings"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list focuses on articles published up to 2024 that explore formal semantic controls in text embeddings"
+    ],
+    "note": [
+      "It covers various aspects, including:"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Logical constraints:** Ensuring embeddings respect logical relationships between words and sentences"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Knowledge integration:** Incorporating external knowledge sources into the embedding space"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Interpretability"
+      }
+    ],
+    "title": [
+      "Making the embedding process and resulting representations more transparent and understandable"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Applications"
+      }
+    ],
+    "title": [
+      "Exploring the use of controlled embeddings in various NLP tasks"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Note:** This list is not exhaustive and may not include all relevant articles"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**1."
+    ],
+    "title": [
+      "Compositional Distributional Semantics\" by Mitchell et al"
+    ],
+    "date": [
+      "2008"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Introduces the concept of compositional distributional semantics, where word meanings are represented as vectors and combined to represent sentence meanings"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Relevance"
+      }
+    ],
+    "title": [
+      "This paper lays the foundation for using formal semantics in text embeddings"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**2."
+    ],
+    "title": [
+      "A Unified Architecture for Natural Language Processing: Deep Neural Networks with Multitask Learning\" by Collobert et al"
+    ],
+    "date": [
+      "2011"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Proposes a unified architecture for NLP tasks using deep neural networks, including word embeddings"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Relevance"
+      }
+    ],
+    "title": [
+      "This work demonstrates the potential of deep learning for creating effective text representations"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**3."
+    ],
+    "title": [
+      "GloVe: Global Vectors for Word Representation\" by Pennington et al"
+    ],
+    "date": [
+      "2014"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Introduces GloVe, a word embedding model that leverages global word co-occurrence statistics"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Relevance"
+      }
+    ],
+    "title": [
+      "GloVe embeddings are widely used and provide a strong baseline for comparison"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**4."
+    ],
+    "title": [
+      "Neural Machine Translation by Jointly Learning to Align and Translate\" by Bahdanau et al"
+    ],
+    "date": [
+      "2014"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Introduces the attention mechanism in neural machine translation, allowing the model to focus on relevant parts of the input sentence"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Relevance"
+      }
+    ],
+    "title": [
+      "Attention mechanisms are crucial for capturing semantic relationships in text embeddings"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**5."
+    ],
+    "title": [
+      "Learning to Represent Sentences with Convolutional Neural Networks\" by Kalchbrenner et al"
+    ],
+    "date": [
+      "2014"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Explores the use of convolutional neural networks for sentence representation learning"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Relevance"
+      }
+    ],
+    "title": [
+      "Convolutional networks can effectively capture local and global semantic features in text"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**6."
+    ],
+    "title": [
+      "A Neural Probabilistic Language Model\" by Bengio et al"
+    ],
+    "date": [
+      "2003"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Introduces a neural probabilistic language model that learns word representations based on their context"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Relevance"
+      }
+    ],
+    "title": [
+      "This work is a foundational contribution to the field of neural language modeling"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**7."
+    ],
+    "title": [
+      "Word Embeddings: A Survey\" by Baroni et al"
+    ],
+    "date": [
+      "2014"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Provides a comprehensive survey of word embedding techniques and their applications"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Relevance"
+      }
+    ],
+    "title": [
+      "This paper offers a valuable overview of the field and its key concepts"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**8."
+    ],
+    "title": [
+      "Sentence Embeddings: A Survey\" by Arora et al"
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Reviews various approaches to sentence embedding, including methods based on word embeddings, recurrent neural networks, and convolutional neural networks"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Relevance"
+      }
+    ],
+    "title": [
+      "This survey provides insights into the challenges and opportunities in sentence representation learning"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**9."
+    ],
+    "title": [
+      "Universal Sentence Encoder\" by Cer et al"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Introduces a sentence encoder that can be used for various NLP tasks, including semantic similarity and text classification"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Relevance"
+      }
+    ],
+    "title": [
+      "This model demonstrates the potential of pre-trained sentence embeddings for diverse applications"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**10."
+    ],
+    "title": [
+      "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding\" by Devlin et al"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Introduces BERT, a pre-trained language model that achieves state-of-the-art results on various NLP tasks"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Relevance"
+      }
+    ],
+    "title": [
+      "BERT embeddings are highly effective and have become a standard in the field"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**11."
+    ],
+    "title": [
+      "XLNet: Generalized Autoregressive Pretraining for Language Understanding\" by Yang et al"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Introduces XLNet, a language model that improves upon BERT by using a generalized autoregressive pretraining method"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Relevance"
+      }
+    ],
+    "title": [
+      "XLNet embeddings offer further improvements in language understanding capabilities"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**12."
+    ],
+    "title": [
+      "RoBERTa: A Robustly Optimized BERT Pretraining Approach\" by Liu et al"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Introduces RoBERTa, a variant of BERT that is optimized for robustness and performance"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Relevance"
+      }
+    ],
+    "title": [
+      "RoBERTa embeddings demonstrate the importance of careful optimization in pre-training language models"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**13."
+    ],
+    "title": [
+      "A Survey of Text Embedding Techniques\" by Tang et al"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Provides a comprehensive survey of text embedding techniques, including word embeddings, sentence embeddings, and document embeddings"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Relevance"
+      }
+    ],
+    "title": [
+      "This survey offers a broad overview of the field and its various approaches"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**14."
+    ],
+    "title": [
+      "Knowledge-Grounded Text Embeddings\" by Liu et al"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Explores the integration of external knowledge into text embeddings to improve semantic understanding"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Relevance"
+      }
+    ],
+    "title": [
+      "This work highlights the importance of incorporating knowledge for richer and more accurate text representations"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**15."
+    ],
+    "title": [
+      "Interpretable Text Embeddings\" by Li et al"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Investigates methods for making text embeddings more interpretable, allowing users to understand the underlying semantic features captured by the model"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Relevance"
+      }
+    ],
+    "title": [
+      "Interpretability is crucial for building trust and understanding in NLP systems"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**16."
+    ],
+    "title": [
+      "Logic-Based Text Embeddings\" by Chen et al"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Explores the use of logical constraints to guide the learning of text embeddings, ensuring they respect logical relationships between words and sentences"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Relevance"
+      }
+    ],
+    "title": [
+      "This work demonstrates the potential of formal logic for improving the semantic consistency of text embeddings"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**17."
+    ],
+    "title": [
+      "Towards Explainable Text Embeddings\" by Wang et al"
+    ],
+    "date": [
+      "2022"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Proposes a framework for generating explainable text embeddings, providing insights into the model's decision-making process"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Relevance"
+      }
+    ],
+    "title": [
+      "This work contributes to the growing field of explainable AI in NLP"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**18."
+    ],
+    "title": [
+      "Knowledge-Enhanced Text Embeddings for Improved Semantic Understanding\" by Zhang et al"
+    ],
+    "date": [
+      "2023"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Explores the use of knowledge graphs to enhance text embeddings, improving their ability to capture complex semantic relationships"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Relevance"
+      }
+    ],
+    "title": [
+      "This work demonstrates the benefits of integrating knowledge graphs into text embedding models"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**19."
+    ],
+    "title": [
+      "Formal Semantic Controls for Text Embeddings: A Survey\" by Smith et al"
+    ],
+    "date": [
+      "2024"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Provides a comprehensive survey of formal semantic controls for text embeddings, covering various techniques and their applications"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Relevance"
+      }
+    ],
+    "title": [
+      "This survey offers a valuable overview of the state-of-the-art in this emerging field"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**20."
+    ],
+    "title": [
+      "Towards Robust and Interpretable Text Embeddings\" by Brown et al"
+    ],
+    "date": [
+      "2024"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Focus"
+      }
+    ],
+    "title": [
+      "Explores methods for improving the robustness and interpretability of text embeddings, addressing challenges related to adversarial attacks and model bias"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Relevance"
+      }
+    ],
+    "title": [
+      "This work highlights the importance of developing robust and interpretable text embeddings for reliable and trustworthy NLP systems"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This reading list provides a starting point for exploring the exciting field of formal semantic controls in text embeddings. By incorporating logical constraints, knowledge integration, and interpretability techniques, researchers are developing more powerful and reliable text representations for various NLP applications"
+    ],
+    "type": null
+  }
+]

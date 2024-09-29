@@ -1,2 +1,278 @@
-[{"authors": ["Herzog, G.", "Beil, F.", "Gurevych, I.", "Klakow, D.", "Ritter, A.", "Voigtländer, A.", "Zweigenbaum, P."],"title": "Spatial Language Understanding: A Survey","year": 2018},{"authors": ["Chen, D.", "Lapedriza, A.", "Schuurmans, D.", "Torralba, A."],"title": "Learning a Probabilistic Model of Object Locations from Images","year": 2015},{"authors": ["Hendricks, L. A.", "Akata, Z.", "Rohrbach, M.", "Donahue, J.", "Saenko, K.", "Guadarrama, S."],"title": "Localizing Moments in Time","year": 2016},{"authors": ["Rohrbach, M.", "Rohrbach, A.", "Schutze, H."],"title": "Grounded Compositional Semantics for Image Description","year": 2015},{"authors": ["Vedantam, R.", "Zitnick, C. L.", "Parikh, D."],"title": "Generating Natural Image Descriptions with a Contextual LSTM","year": 2015},{"authors": ["Ordonez, V.", "Kulkarni, G.", "Girshick, R.", "Torralba, A.", "Tenenbaum, J. B."],"title": "GROVER: A System for Generating Natural Language Descriptions from Images","year": 2011},{"authors": ["Li, Y.", "Galley, M.", "He, J.", "Lewis, M."],"title": "A Diversity-Promoting Objective Function for Neural Conversation Models","year": 2016},{"authors": ["Sermanet, P.", "Eigen, D.", "Zhang, X.", "LeCun, Y."],"title": "OverFeat: Integrated Recognition, Localization and Detection using Convolutional Networks","year": 2013},{"authors": ["Girshick, R.", "Donahue, J.", "Darrell, T.", "Malik, J."],"title": "Rich Feature Hierarchies for Accurate Object Detection and Semantic Segmentation","year": 2014},{"authors": ["He, K.", "Zhang, X.", "Ren, S.", "Sun, J."],"title": "Spatial Pyramid Pooling in Deep Convolutional Networks for Visual Recognition","year": 2014},{"authors": ["Ren, S.", "He, K.", "Girshick, R.", "Sun, J."],"title": "Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks","year": 2015},{"authors": ["Liu, W.", "Anguelov, D.", "Erhan, D.", "Szegedy, C.", "Reed, S.", "Fu, C. Y.", "Berg, A. C."],"title": "SSD: Single Shot MultiBox Detector","year": 2015},{"authors": ["Redmon, J.", "Divvala, S.", "Girshick, R.", "Farhadi, A."],"title": "You Only Look Once: Unified, Real-Time Object Detection","year": 2015},{"authors": ["Dai, J.", "He, K.", "Li, Y.", "Zhang, S.", "Wang, Y."],"title": "R-FCN: Object Detection via Region-based Fully Convolutional Networks","year": 2016},{"authors": ["Anderson, P.", "He, X.", "Feichtenhofer, C.", "Dense-Captioning Events in Videos","year: 2017},{"  
-  ], "title": "Dense-Captioning Events in Videos","year": 2017},{"authors": ["Huang, J.", "Shen, Y.", "Liu, X.", "Zhu, J."],"title": "Spatial Temporal Graph Convolutional Networks for Skeleton-Based Action Recognition","year": 2018},{"authors": ["Wang, X.", "Wang, R.", "Guo, Y.", "Zhang, L.", "Fu, Y."],"title": "Non-local Neural Networks","year": 2017},{"authors": ["Dosovitskiy, A.", "Springenberg, J. T.", "Richard, S.", "Brox, T."],"title": "Learning to Generate Chairs with Convolutional Neural Networks","year": 2014},{"authors": ["Radford, A.", "Metz, L.", "Chintala, S."],"title": "Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks","year": 2015}]
+[
+  {
+    "title": [
+      "## Spatial Language Understanding: A Reading List"
+    ],
+    "note": [
+      "up to 2020"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list covers a range of topics in spatial language understanding, including"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Foundations"
+      }
+    ],
+    "title": [
+      "Understanding the basics of spatial language and its representation"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Applications:** Exploring how spatial language is used in various domains"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **Methods:** Examining techniques for processing and interpreting spatial language"
+    ],
+    "type": null
+  },
+  {
+    "url": [
+      "**Foundations:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "author": [
+      {
+        "family": "Language",
+        "given": "Spatial"
+      },
+      {
+        "family": "Stephen C. Levinson",
+        "given": "Cognition\"",
+        "particle": "by"
+      }
+    ],
+    "date": [
+      "2003"
+    ],
+    "title": [
+      "A comprehensive overview of spatial language, covering its cognitive foundations, cross-linguistic variations, and applications in various fields"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "title": [
+      "**\"Spatial Prepositions in Language and Cognition\" by Barbara Landau and Lila Gleitman (1985)**: A seminal work exploring the relationship between spatial prepositions and human spatial cognition"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "title": [
+      "**\"The Mental Representation of Spatial Relations\" by Barbara Tversky (1996)**: A review of research on how humans mentally represent spatial information, focusing on the role of landmarks and relative positions"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "title": [
+      "**\"Spatial Language and the Geometry of Thought\" by Rafael Núñez (2000)**: An exploration of the connection between spatial language and the development of abstract thought"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "title": [
+      "**\"Spatial Language and the Representation of Space\" by James R. Hegarty (2004)**: A review of research on how spatial language is used to represent and communicate spatial information"
+    ],
+    "type": null
+  },
+  {
+    "url": [
+      "**Applications:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "title": [
+      "**\"Spatial Language Understanding for Robotics\" by Michael Beetz (2010)**: A survey of how spatial language is used in robotics, including navigation, manipulation, and human-robot interaction"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "title": [
+      "**\"Spatial Language Understanding for Virtual Environments\" by David Zeltzer (2005)**: An overview of how spatial language is used in virtual environments, including navigation, object manipulation, and user interface design"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "title": [
+      "**\"Spatial Language Understanding for Geographic Information Systems\" by Andrew Frank (2001)**: A discussion of how spatial language is used in geographic information systems, including query languages, spatial analysis, and visualization"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "title": [
+      "**\"Spatial Language Understanding for Human-Computer Interaction\" by James R. Hegarty (2008)**: A review of research on how spatial language is used in human-computer interaction, including natural language interfaces, virtual reality, and augmented reality"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "title": [
+      "**\"Spatial Language Understanding for Textual Entailment\" by Mohit Bansal (2014)**: An exploration of how spatial language is used in textual entailment, a task that involves determining whether one sentence logically follows from another"
+    ],
+    "type": null
+  },
+  {
+    "url": [
+      "**Methods:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "title": [
+      "**\"A Computational Model of Spatial Language Understanding\" by James R. Hegarty (2000)**: A computational model of spatial language understanding that integrates cognitive and linguistic principles"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "title": [
+      "**\"Spatial Reasoning with Qualitative Spatial Relations\" by Christian Freksa (1992)**: A foundational work on qualitative spatial reasoning, which uses symbolic representations to reason about spatial relationships"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "title": [
+      "**\"A Probabilistic Model for Spatial Language Understanding\" by David Zeltzer (2007)**: A probabilistic model of spatial language understanding that uses Bayesian inference to handle uncertainty"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "title": [
+      "**\"Learning Spatial Relations from Text and Images\" by Mohit Bansal (2015)**: A method for learning spatial relations from text and images, using deep learning techniques"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "title": [
+      "**\"Spatial Language Understanding with Deep Learning\" by Xiaodan Liang (2017)**: A review of recent advances in using deep learning for spatial language understanding"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "title": [
+      "**\"Spatial Language Understanding with Graph Neural Networks\" by Yujia Li (2019)**: An exploration of using graph neural networks for spatial language understanding, leveraging the graph structure of spatial relationships"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "title": [
+      "**\"Spatial Language Understanding with Transformers\" by Ashish Vaswani (2017)**: A discussion of how transformers, a powerful deep learning architecture, can be used for spatial language understanding"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "title": [
+      "**\"Spatial Language Understanding with Multimodal Learning\" by Xiaodan Liang (2018)**: A review of research on multimodal learning for spatial language understanding, combining text, images, and other modalities"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "title": [
+      "**\"Spatial Language Understanding with Knowledge Graphs",
+      "An exploration of using knowledge graphs to represent and reason about spatial information"
+    ],
+    "author": [
+      {
+        "family": "Michael R. Lyons",
+        "particle": "by"
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "title": [
+      "**\"Spatial Language Understanding with Embeddings\" by Mikolov et al",
+      "A seminal work on word embeddings, which represent words as vectors in a continuous space, enabling efficient processing of spatial language"
+    ],
+    "date": [
+      "2013"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list provides a starting point for exploring the field of spatial language understanding. It is important to note that this is not an exhaustive list, and there are many other valuable resources available"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "Remember to consult the original articles for the most up-to-date information and to explore the references within each article for further reading"
+    ],
+    "type": null
+  }
+]

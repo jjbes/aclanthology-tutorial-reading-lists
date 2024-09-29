@@ -1,0 +1,522 @@
+[
+  {
+    "title": [
+      "Here's a reading list of 20 articles up to 2022 that focus on self-supervised representation learning and model pre-training in the context of speech processing, along with tasks that enable such learning"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "author": [
+      {
+        "given": "wav2vec"
+      }
+    ],
+    "title": [
+      "Unsupervised Pre-training for Speech Recognition\"**"
+    ],
+    "publisher": [
+      "Schneider et al"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Introduces the wav2vec framework for unsupervised pre-training of speech representations"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "title": [
+      "**\"wav2vec 2.0: A Framework for Self-Supervised Learning of Speech Representations\"**"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "Baevski et al"
+    ]
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "An extension of wav2vec that improves performance by using a contrastive loss and transformer architecture"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "author": [
+      {
+        "given": "HuBERT"
+      }
+    ],
+    "title": [
+      "Self-Supervised Speech Representation Learning by Masked Prediction of Hidden Units\"**"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "Hsu et al"
+    ]
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Proposes a masked prediction task for learning speech representations"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "title": [
+      "**\"Data2vec: A General Framework for Self-supervised Learning in Speech, Vision and Language\"**"
+    ],
+    "date": [
+      "2022"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "Baevski et al"
+    ]
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Introduces a unified framework for self-supervised learning across different modalities, including speech"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "title": [
+      "**\"Self-Supervised Learning for Speech and Audio Processing\"** - Liu et al"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "A comprehensive survey of self-supervised learning techniques applied to speech and audio"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "title": [
+      "**\"Unsupervised Pretraining Transfers Well Across Languages\"** - Conneau et al"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Discusses the transferability of self-supervised models across different languages"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "title": [
+      "**\"Learning Robust and Multilingual Speech Representations\"** - Rivière et al"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Explores multilingual pre-training for robust speech representation learning"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "title": [
+      "**\"Self-Supervised Learning of Audio Representations from Permutations\"** - Saeed et al"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Investigates permutation-based tasks for self-supervised audio representation learning"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "author": [
+      {
+        "given": "T.E.R.A."
+      }
+    ],
+    "title": [
+      "Self-Supervised Learning of Transformer Encoder Representation for Speech\"**"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "Liu et al"
+    ]
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Proposes a transformer-based model for self-supervised speech representation learning"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "title": [
+      "**\"Self-Supervised Learning of Speech Representations using Graph-based Contrastive Learning\"** - Kharitonov et al"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Introduces graph-based contrastive learning for speech representations"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "title": [
+      "**\"Self-Supervised Learning of Speech Representations with Transformer Encoders\"**"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "Jiang et al"
+    ]
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Explores transformer encoders for self-supervised speech learning"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "title": [
+      "**\"Contrastive Predictive Coding for Speech Processing\"** - Oord et al"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Introduces contrastive predictive coding, a foundational method for self-supervised learning"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "title": [
+      "**\"Self-Supervised Learning of Speech Representations with Deep Clustering\"** - Kharitonov et al"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Combines deep clustering with self-supervised learning for speech"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "title": [
+      "**\"Self-Supervised Learning of Speech Representations with Variational Autoencoders\"**"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "Chuang et al"
+    ]
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Utilizes variational autoencoders for self-supervised speech learning"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "title": [
+      "**\"Self-Supervised Learning of Speech Representations with Multi-Task Learning\"** - Ravanelli et al"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Explores multi-task learning for enhancing self-supervised speech representations"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "title": [
+      "**\"Self-Supervised Learning of Speech Representations with Masked Acoustic Modeling\"**"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "Liu et al"
+    ]
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Proposes masked acoustic modeling as a self-supervised task"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "title": [
+      "**\"Self-Supervised Learning of Speech Representations with Contrastive Loss\"**"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "Chung et al"
+    ]
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Investigates the use of contrastive loss for self-supervised speech learning"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "title": [
+      "**\"Self-Supervised Learning of Speech Representations with Temporal Contextualization\"**"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "Liu et al"
+    ]
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Focuses on temporal contextualization for self-supervised speech learning"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "title": [
+      "**\"Self-Supervised Learning of Speech Representations with Predictive Coding\"**"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "Oord et al"
+    ]
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Discusses predictive coding as a self-supervised learning approach"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "title": [
+      "**\"Self-Supervised Learning of Speech Representations with Cross-Modal Learning\"** - Harwath et al"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Explores cross-modal learning for enhancing speech representations"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "These articles cover a range of methods and approaches in self-supervised learning for speech processing, providing a solid foundation for understanding the current state of the field"
+    ],
+    "type": null
+  }
+]

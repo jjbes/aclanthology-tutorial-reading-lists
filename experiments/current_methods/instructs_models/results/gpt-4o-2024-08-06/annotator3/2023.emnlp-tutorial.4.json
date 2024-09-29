@@ -1,0 +1,303 @@
+[
+  {
+    "title": [
+      "Creating a reading list on LLM-driven instruction following involves selecting articles that cover the development, application, and implications of large language models (LLMs) in understanding and executing instructions. Here’s a list of 20 articles and papers that you might find useful"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "author": [
+      {
+        "family": "Vaswani",
+        "given": "Attention Is All You Need\"",
+        "particle": "by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "title": [
+      "- This foundational paper introduces the Transformer architecture, which is crucial for understanding LLMs"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "author": [
+      {
+        "given": "B.E.R.T."
+      }
+    ],
+    "title": [
+      "Pre-training of Deep Bidirectional Transformers for Language Understanding\"** by Devlin et al",
+      "- Discusses BERT, a model that has influenced many LLMs"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "title": [
+      "**\"Language Models are Few-Shot Learners\"** by Brown et al",
+      "- Introduces GPT-3, a significant advancement in LLMs with instruction-following capabilities"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "title": [
+      "**\"T5: Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer\"** by Raffel et al",
+      "- Explores a model that frames all NLP tasks as text-to-text tasks"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "title": [
+      "**\"Instruction Induction: From Few Examples to Natural Language Task Descriptions\"** by Mishra et al",
+      "- Focuses on how LLMs can be guided by instructions"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "title": [
+      "**\"Prompt Programming for Large Language Models: Beyond the Few-Shot Paradigm\"** by Liu et al",
+      "- Discusses techniques for improving LLM instruction following through prompt engineering"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "title": [
+      "**\"The Power of Scale for Parameter-Efficient Prompt Tuning\"** by Lester et al",
+      "- Explores parameter-efficient methods for tuning LLMs to follow instructions"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "title": [
+      "**\"Aligning Language Models to Follow Instructions\"** by Ouyang et al",
+      "- Discusses methods for aligning LLMs with human instructions"
+    ],
+    "date": [
+      "2022"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "title": [
+      "**\"Evaluating Large Language Models Trained on Code\"** by Chen et al"
+    ],
+    "date": [
+      "2021"
+    ],
+    "note": [
+      "- Examines LLMs trained on code, which are often used for instruction following in programming tasks."
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "author": [
+      {
+        "family": "Learning",
+        "given": "In-Context"
+      },
+      {
+        "family": "Olsson",
+        "given": "Induction Heads\"",
+        "particle": "by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2022"
+    ],
+    "title": [
+      "- Investigates how LLMs learn to follow instructions through context"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "title": [
+      "**\"Chain of Thought Prompting Elicits Reasoning in Large Language Models\"** by Wei et al",
+      "- Explores how prompting can improve reasoning and instruction following in LLMs"
+    ],
+    "date": [
+      "2022"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "title": [
+      "**\"Self-Consistency Improves Chain of Thought Reasoning in Language Models\"** by Wang et al",
+      "- Discusses methods to enhance the reasoning capabilities of LLMs"
+    ],
+    "date": [
+      "2022"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "title": [
+      "**\"Interactive Language: Talking to Robots in Real Time\"** by Thomason et al",
+      "- Explores real-time instruction following in interactive settings"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "title": [
+      "**\"Learning to Follow Directions in Street View\"** by Chen et al",
+      "- Discusses instruction following in the context of navigation tasks"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "title": [
+      "**\"Emergent Abilities of Large Language Models\"** by Wei et al",
+      "- Investigates unexpected capabilities of LLMs, including instruction following"
+    ],
+    "date": [
+      "2022"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "title": [
+      "**\"The Case for a Single Model that can Both Generate and Follow Instructions\"** by Sanh et al",
+      "- Argues for unified models capable of both generating and following instructions"
+    ],
+    "date": [
+      "2022"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "title": [
+      "**\"Instruction Tuning with GPT-4\"** by OpenAI",
+      "- Details the latest advancements in instruction tuning with GPT-4"
+    ],
+    "date": [
+      "2023"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "title": [
+      "**\"Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer\"** by Raffel et al",
+      "- Discusses the T5 model and its implications for instruction following"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "title": [
+      "**\"Towards a Human-like Open-Domain Chatbot\"** by Adiwardana et al",
+      "- Explores conversational models that can follow complex instructions"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "title": [
+      "**\"The Role of Memory in Language Models\"** by Dai et al",
+      "- Investigates how memory mechanisms in LLMs affect their ability to follow instructions"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "These articles provide a comprehensive overview of the field, covering both theoretical foundations and practical applications of LLMs in instruction following"
+    ],
+    "type": null
+  }
+]

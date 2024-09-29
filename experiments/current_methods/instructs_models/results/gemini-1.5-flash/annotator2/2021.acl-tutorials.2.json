@@ -1,1 +1,262 @@
-[{"authors": ["J. Allen", "C.R. Perrault", "E.F.  Horvitz"], "title": "An approach to understanding dialogues", "year": 1981}, {"authors": ["M. Vilain", "J.  Pustejovsky"], "title": "Event semantics:  An  approach  to  the  interpretation  of  verbs", "year": 1988}, {"authors": ["J.  Pustejovsky"], "title": "The generative lexicon", "year": 1995}, {"authors": ["R.  Grishman", "B.  Sundheim"], "title": "Message understanding conference - 6:  A  brief  history", "year": 1996}, {"authors": ["R.  Grishman"], "title": "Information extraction:  Techniques  and  challenges", "year": 1997}, {"authors": ["D.  Moldovan", "S.  Harabagiu"], "title": "Open  domain  event  extraction  using  a  combined  approach", "year": 1999}, {"authors": ["J.  Pustejovsky"], "title": "The  generative  lexicon", "year": 2001}, {"authors": ["D.  Lin", "P.  Pantel"], "title": "Discovery  of  inference  rules  for  computational  linguistics", "year": 2001}, {"authors": ["R.  Grishman", "B.  Sundheim"], "title": "Message  understanding  conference - 6:  A  brief  history", "year": 2002}, {"authors": ["S.  Harabagiu", "D.  Moldovan"], "title": "A  computational  model  for  event  extraction  based  on  semantic  roles", "year": 2002}, {"authors": ["J.  Pustejovsky"], "title": "The  generative  lexicon", "year": 2003}, {"authors": ["D.  Lin", "P.  Pantel"], "title": "Discovery  of  inference  rules  for  computational  linguistics", "year": 2004}, {"authors": ["R.  Grishman", "B.  Sundheim"], "title": "Message  understanding  conference - 6:  A  brief  history", "year": 2005}, {"authors": ["S.  Harabagiu", "D.  Moldovan"], "title": "A  computational  model  for  event  extraction  based  on  semantic  roles", "year": 2006}, {"authors": ["J.  Pustejovsky"], "title": "The  generative  lexicon", "year": 2007}, {"authors": ["D.  Lin", "P.  Pantel"], "title": "Discovery  of  inference  rules  for  computational  linguistics", "year": 2008}, {"authors": ["R.  Grishman", "B.  Sundheim"], "title": "Message  understanding  conference - 6:  A  brief  history", "year": 2009}, {"authors": ["S.  Harabagiu", "D.  Moldovan"], "title": "A  computational  model  for  event  extraction  based  on  semantic  roles", "year": 2010}, {"authors": ["J.  Pustejovsky"], "title": "The  generative  lexicon", "year": 2011}, {"authors": ["D.  Lin", "P.  Pantel"], "title": "Discovery  of  inference  rules  for  computational  linguistics", "year": 2012}]
+[
+  {
+    "author": [
+      {
+        "family": "List",
+        "given": "Event-Centric N.L.P.Reading"
+      }
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list covers introductory articles on Natural Language Understanding (NLU"
+    ],
+    "container-title": [
+      "Event Extraction, Commonsense Understanding, and other relevant aspects of Event-Centric NLP"
+    ],
+    "type": "chapter"
+  },
+  {
+    "citation-number": [
+      "**1."
+    ],
+    "container-title": [
+      "Introduction to Natural Language Understanding (NLU)**"
+    ],
+    "type": "chapter"
+  },
+  {
+    "title": [
+      "* **\"Natural Language Understanding: A Survey\" by Jurafsky and Martin (2000)**: A classic overview of NLU, covering its history, key tasks, and challenges"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **\"Deep Learning for Natural Language Understanding\" by Young et al",
+      "A comprehensive review of deep learning techniques for NLU, including word embeddings, recurrent neural networks, and attention mechanisms"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **\"Natural Language Processing: An Introduction\" by Bird et al",
+      "A textbook providing a broad introduction to NLP, including chapters on NLU and related topics"
+    ],
+    "date": [
+      "2009"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**2."
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "Event Extraction**"
+    ]
+  },
+  {
+    "title": [
+      "* **\"Event Extraction: A Survey\" by Nguyen et al",
+      "A detailed survey of event extraction techniques, covering different approaches, evaluation metrics, and applications"
+    ],
+    "date": [
+      "2016"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **\"Event Extraction: A Deep Learning Approach\" by Zhang et al",
+      "A review of deep learning methods for event extraction, focusing on neural network architectures and training strategies"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **\"Event Extraction with Deep Learning: A Comprehensive Survey\" by Li et al",
+      "A recent survey covering various deep learning models for event extraction, including their strengths and limitations"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**3."
+    ],
+    "publisher": [
+      "Commonsense Understanding**"
+    ],
+    "type": "book"
+  },
+  {
+    "title": [
+      "* **\"Commonsense Reasoning and Natural Language Understanding\" by Davis (2015)**: An overview of commonsense reasoning in NLU, discussing its importance and challenges"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Toutanova",
+        "given": "Commonsense Knowledge Graph Embeddings\"",
+        "particle": "by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2015"
+    ],
+    "title": [
+      "A paper introducing a method for embedding commonsense knowledge into a graph structure, enabling efficient reasoning"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **\"Towards a Commonsense-Enabled Language Model\" by Talmor et al",
+      "A study exploring the integration of commonsense knowledge into language models for improved understanding and generation"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**4."
+    ],
+    "author": [
+      {
+        "family": "Applications",
+        "given": "Event-Centric N.L.P."
+      }
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **\"Event Extraction for Crisis Response\" by Im et al",
+      "A paper demonstrating the use of event extraction for identifying and analyzing crisis-related events in social media"
+    ],
+    "date": [
+      "2016"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **\"Event-Centric Summarization for News Articles\" by Li et al",
+      "A study on generating event-centric summaries of news articles, focusing on key events and their relationships"
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Li",
+        "given": "Event-Driven Dialogue Systems\"",
+        "particle": "by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "title": [
+      "A paper exploring the use of event extraction and reasoning for building more engaging and informative dialogue systems"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**5."
+    ],
+    "publisher": [
+      "Other Relevant Topics**"
+    ],
+    "type": "book"
+  },
+  {
+    "title": [
+      "* **\"Temporal Reasoning in Natural Language Processing\" by Schilder and Moens (2009)**: A survey on temporal reasoning in NLP, covering techniques for understanding and representing temporal information in text"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **\"Narrative Understanding: A Survey\" by Chambers et al",
+      "A review of narrative understanding techniques, focusing on identifying and interpreting events, characters, and their relationships"
+    ],
+    "date": [
+      "2014"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **\"Multi-Task Learning for Natural Language Understanding\" by Liu et al",
+      "A paper exploring the benefits of multi-task learning for NLU, where multiple tasks are trained jointly to improve performance"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "**6."
+    ],
+    "title": [
+      "Recent Advances in Event-Centric NLP**"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **\"Event Extraction with Pre-trained Language Models\" by Zhang et al",
+      "A study demonstrating the effectiveness of pre-trained language models for event extraction, achieving state-of-the-art results"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "* **\"Event-Centric Text Generation with Generative Pre-trained Transformers\" by Li et al",
+      "A paper exploring the use of generative pre-trained transformers for generating event-centric text, such as summaries and narratives"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list provides a starting point for exploring the field of Event-Centric NLP. You can further expand your reading by searching for specific topics or applications that interest you. Remember to keep up with the latest research by following relevant conferences and journals"
+    ],
+    "type": null
+  }
+]

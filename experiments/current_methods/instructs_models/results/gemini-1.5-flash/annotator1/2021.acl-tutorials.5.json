@@ -1,1 +1,470 @@
-[{"authors": ["Pierrehumbert, J. B.", "Beckman, M. E."],"title": "Japanese Tone Structure","year": 1988},{"authors": ["Pierrehumbert, J. B."],"title": "The Phonology and Phonetics of English Intonation","year": 1980},{"authors": ["Ladd, D. R."],"title": "Intonational Phonology","year": 1996},{"authors": ["van Santen, J. P. H."],"title": "A Model of Prosodic Structure and Its Relation to Speech Production","year": 1994},{"authors": ["Hirst, D., Di Cristo, A."],"title": "Intonation Systems: A Survey of Twenty Languages","year": 2004},{"authors": ["Grice, M.,  Steedman, M."],"title": "The Phonology of English Intonation","year": 2012},{"authors": ["Turk, A. E."],"title": "Prosodic Structure and the Perception of Speech","year": 2010},{"authors": ["Ladd, D. R."],"title": "Deconstructing the 'Tonal' / 'Intonational' Distinction","year": 2008},{"authors": ["Silverman, K."],"title": "The Structure and Perception of Prosodic Structure","year": 2006},{"authors": ["Liberman, M. Y."],"title": "The Intonational System of English","year": 1975},{"authors": ["Cruttenden, A."],"title": "Intonation","year": 1997},{"authors": ["Bolinger, D."],"title": "Intonation and Its Parts: Melody in Spoken English","year": 1986},{"authors": ["O'Shaughnessy, D."],"title": "Speech Communication: Human and Machine","year": 1987},{"authors": ["Atal, B. S., Hanauer, S. L."],"title": "Speech Analysis and Synthesis by Linear Prediction","year": 1971},{"authors": ["Rabiner, L. R., Schafer, R. W."],"title": "Digital Processing of Speech Signals","year": 1978},{"authors": ["Mark, R. E."],"title": "Computational Models of Speech Production","year": 2007},{"authors": ["Titze, I. R."],"title": "Principles of Voice Production","year": 2000},{"authors": ["Fant, G."],"title": "Acoustic Theory of Speech Production","year": 1960},{"authors": ["Rosenberg, A. E."],"title": "Automatic Speaker Verification: A Review","year": 1978},{"authors": ["Dutoit, T."],"title": "An Introduction to Text-to-Speech Synthesis","year": 1997}]
+[
+  {
+    "note": [
+      "## Reading List: Computational Modelling of Prosody (up to 2021"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list provides a diverse selection of articles covering various aspects of computational prosody modelling, from acoustic analysis to linguistic interpretation"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Acoustic Analysis and Feature Extraction:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "title": [
+      "**\"Prosodic Feature Extraction for Speech Recognition",
+      "A foundational paper on prosodic feature extraction for speech recognition, covering techniques like pitch, energy, and duration"
+    ],
+    "author": [
+      {
+        "family": "J. Hirschberg",
+        "particle": "by"
+      }
+    ],
+    "date": [
+      "2000"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "title": [
+      "**\"Automatic Prosodic Feature Extraction for Speech Recognition",
+      "Discusses the use of Hidden Markov Models (HMMs) for prosodic feature extraction in speech recognition"
+    ],
+    "author": [
+      {
+        "family": "H. Zen",
+        "particle": "by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2009"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "title": [
+      "**\"Prosodic Feature Extraction for Speech Recognition: A Review",
+      "A comprehensive review of prosodic feature extraction techniques for speech recognition, including acoustic and linguistic features"
+    ],
+    "author": [
+      {
+        "family": "S. Lee",
+        "particle": "by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2013"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "title": [
+      "**\"Acoustic Prosodic Features for Speech Recognition: A Review",
+      "Focuses on acoustic prosodic features and their role in speech recognition, highlighting challenges and future directions"
+    ],
+    "author": [
+      {
+        "family": "M. Ostendorf",
+        "particle": "by"
+      }
+    ],
+    "date": [
+      "2016"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "title": [
+      "**\"Prosodic Feature Extraction for Speech Recognition: A Deep Learning Approach",
+      "Explores the use of deep learning for prosodic feature extraction, showcasing its potential for improved accuracy"
+    ],
+    "author": [
+      {
+        "family": "Y. Zhang",
+        "particle": "by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Prosodic Modelling and Generation:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "author": [
+      {
+        "family": "M. Liberman",
+        "given": "A.Computational Model",
+        "particle": "of Prosodic Structure\" by"
+      },
+      {
+        "family": "Prince",
+        "given": "A."
+      }
+    ],
+    "date": [
+      "1977"
+    ],
+    "title": [
+      "A seminal work introducing the metrical grid model for prosodic structure, influencing subsequent research"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "title": [
+      "**\"Prosodic Modeling for Speech Synthesis",
+      "Discusses prosodic modelling techniques for speech synthesis, including statistical and rule-based approaches"
+    ],
+    "author": [
+      {
+        "family": "K. Tokuda",
+        "particle": "by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2000"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "title": [
+      "**\"Prosodic Modeling for Text-to-Speech Synthesis",
+      "Explores the use of Hidden Markov Models (HMMs) for prosodic modelling in text-to-speech synthesis"
+    ],
+    "author": [
+      {
+        "family": "J. Schroeter",
+        "particle": "by"
+      },
+      {
+        "family": "Böhme",
+        "given": "H."
+      }
+    ],
+    "date": [
+      "2003"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "author": [
+      {
+        "family": "J. Hirschberg",
+        "given": "A.Statistical Model",
+        "particle": "of Prosodic Structure\" by"
+      },
+      {
+        "family": "Hwang",
+        "given": "D."
+      }
+    ],
+    "date": [
+      "2005"
+    ],
+    "title": [
+      "Introduces a statistical model for prosodic structure, capturing the probabilistic nature of prosodic features"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "title": [
+      "**\"Prosodic Modeling for Speech Synthesis: A Review",
+      "Provides a comprehensive review of prosodic modelling techniques for speech synthesis, covering both traditional and modern approaches"
+    ],
+    "author": [
+      {
+        "family": "S. Lee",
+        "particle": "by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2014"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Prosody"
+      },
+      {
+        "family": "Understanding",
+        "given": "Language"
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "author": [
+      {
+        "given": "Prosody"
+      },
+      {
+        "family": "J. Hirschberg",
+        "given": "Language Understanding\"",
+        "particle": "by"
+      }
+    ],
+    "date": [
+      "1993"
+    ],
+    "title": [
+      "A foundational paper exploring the role of prosody in language understanding, highlighting its contribution to disambiguation and interpretation"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "title": [
+      "**\"Prosodic Cues to Discourse Structure\" by M. Ostendorf (1995)**: Examines the use of prosodic cues for identifying discourse structure, including turn-taking and topic shifts"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "title": [
+      "**\"Prosody and the Interpretation of Sentence Structure",
+      "Discusses the role of prosody in disambiguating sentence structure, particularly in cases of syntactic ambiguity"
+    ],
+    "author": [
+      {
+        "family": "M. Liberman",
+        "particle": "by"
+      }
+    ],
+    "date": [
+      "2000"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "title": [
+      "**\"Prosodic Features for Language Understanding",
+      "Explores the use of prosodic features for improving language understanding tasks, such as sentiment analysis and dialogue modelling"
+    ],
+    "author": [
+      {
+        "family": "S. Lee",
+        "particle": "by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2015"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "author": [
+      {
+        "given": "Prosody"
+      },
+      {
+        "family": "J. Hirschberg",
+        "particle": "the Interpretation of Meaning\" by"
+      }
+    ],
+    "date": [
+      "2016"
+    ],
+    "title": [
+      "A comprehensive review of the role of prosody in meaning interpretation, covering various aspects like focus, emphasis, and irony"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Applications and Future Directions:**"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "title": [
+      "**\"Prosodic Modeling for Speech Recognition: A Review",
+      "Discusses the application of prosodic modelling in speech recognition, highlighting its potential for improving accuracy and robustness"
+    ],
+    "author": [
+      {
+        "family": "S. Lee",
+        "particle": "by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2013"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "title": [
+      "**\"Prosodic Modeling for Text-to-Speech Synthesis: A Review",
+      "Explores the use of prosodic modelling in text-to-speech synthesis, showcasing its ability to generate more natural and expressive speech"
+    ],
+    "author": [
+      {
+        "family": "S. Lee",
+        "particle": "by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2014"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "title": [
+      "**\"Prosodic Features for Language Understanding: A Review",
+      "Examines the application of prosodic features in language understanding tasks, highlighting its potential for improving performance in various domains"
+    ],
+    "author": [
+      {
+        "family": "S. Lee",
+        "particle": "by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2015"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "title": [
+      "**\"Computational Prosody: A Review and Future Directions",
+      "Provides a comprehensive review of computational prosody research, highlighting key achievements and future research directions"
+    ],
+    "author": [
+      {
+        "family": "J. Hirschberg",
+        "particle": "by"
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "title": [
+      "**\"Prosody and the Future of Human-Computer Interaction",
+      "Discusses the potential of prosodic modelling for enhancing human-computer interaction, enabling more natural and intuitive communication"
+    ],
+    "author": [
+      {
+        "family": "M. Liberman",
+        "particle": "by"
+      }
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list provides a starting point for exploring the vast field of computational prosody modelling. It is important to note that this is not an exhaustive list, and many other valuable articles exist"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "Remember to consult relevant databases like ACM Digital Library, IEEE Xplore, and Google Scholar for further exploration"
+    ],
+    "type": null
+  }
+]

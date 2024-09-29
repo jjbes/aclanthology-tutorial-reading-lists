@@ -1,0 +1,776 @@
+[
+  {
+    "title": [
+      "Creating a comprehensive reading list on automatic grammatical error correction (GEC) that covers both historical and neural approaches up to 2020 involves selecting key papers that have contributed significantly to the field. Here is a list of 20 articles that should provide a solid foundation"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "author": [
+      {
+        "family": "Knight",
+        "given": "K."
+      },
+      {
+        "family": "Chander",
+        "given": "I."
+      }
+    ],
+    "date": [
+      "1994"
+    ],
+    "title": [
+      "Automated postediting of documents"
+    ],
+    "container-title": [
+      "*National Conference on Artificial Intelligence*"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Early work on rule-based approaches to error correction"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "author": [
+      {
+        "family": "Nagata",
+        "given": "M."
+      },
+      {
+        "family": "Nakatani",
+        "given": "T."
+      }
+    ],
+    "date": [
+      "2010"
+    ],
+    "title": [
+      "Evaluating performance of grammatical error detection to maximize learning effect"
+    ],
+    "publisher": [
+      "*ACL*"
+    ],
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Discusses evaluation metrics and their impact on learning"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "author": [
+      {
+        "family": "Dahlmeier",
+        "given": "D."
+      },
+      {
+        "family": "Ng",
+        "given": "H.T."
+      },
+      {
+        "family": "Wu",
+        "given": "S.M."
+      }
+    ],
+    "date": [
+      "2013"
+    ],
+    "title": [
+      "Building a large annotated corpus of learner English"
+    ],
+    "container-title": [
+      "The NUS Corpus of Learner English.\" *BEA*"
+    ],
+    "type": "chapter"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Introduction of a significant corpus for GEC research"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "author": [
+      {
+        "family": "Ng",
+        "given": "H.T."
+      },
+      {
+        "family": "Wu",
+        "given": "S.M."
+      },
+      {
+        "family": "Briscoe",
+        "given": "T."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2013"
+    ],
+    "note": [
+      "\"The CoNLL-2013 shared task on grammatical error correction.\" *CoNLL*."
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Overview of a shared task that spurred research in GEC"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "author": [
+      {
+        "family": "Rozovskaya",
+        "given": "A."
+      },
+      {
+        "family": "Roth",
+        "given": "D."
+      }
+    ],
+    "date": [
+      "2014"
+    ],
+    "title": [
+      "Grammatical error correction in ESL writing: A benchmark of the state-of-the-art"
+    ],
+    "type": "article-journal",
+    "container-title": [
+      "*ACL*"
+    ]
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Benchmarking various approaches to GEC"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "author": [
+      {
+        "family": "Felice",
+        "given": "M."
+      },
+      {
+        "family": "Yuan",
+        "given": "Z."
+      }
+    ],
+    "date": [
+      "2014"
+    ],
+    "title": [
+      "Generating artificial errors for grammatical error correction"
+    ],
+    "publisher": [
+      "*BEA*"
+    ],
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Discusses methods for generating training data for GEC systems"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "author": [
+      {
+        "family": "Junczys-Dowmunt",
+        "given": "M."
+      },
+      {
+        "family": "Grundkiewicz",
+        "given": "R."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2016"
+    ],
+    "title": [
+      "Phrase-based machine translation is state-of-the-art for automatic grammatical error correction"
+    ],
+    "publisher": [
+      "*EMNLP*"
+    ],
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Demonstrates the effectiveness of phrase-based MT for GEC"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "author": [
+      {
+        "family": "Yuan",
+        "given": "Z."
+      },
+      {
+        "family": "Briscoe",
+        "given": "T."
+      },
+      {
+        "family": "Felice",
+        "given": "M."
+      }
+    ],
+    "date": [
+      "2016"
+    ],
+    "title": [
+      "A neural network approach to grammatical error correction"
+    ],
+    "publisher": [
+      "*NAACL*"
+    ],
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Early application of neural networks to GEC"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "author": [
+      {
+        "family": "Chollampatt",
+        "given": "S."
+      },
+      {
+        "family": "Ng",
+        "given": "H.T."
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "title": [
+      "A multilayer convolutional encoder-decoder neural network for grammatical error correction"
+    ],
+    "publisher": [
+      "*AAAI*"
+    ],
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Explores convolutional networks for GEC"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "author": [
+      {
+        "family": "Ge",
+        "given": "T."
+      },
+      {
+        "family": "Wei",
+        "given": "F."
+      },
+      {
+        "family": "Zhou",
+        "given": "M."
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "title": [
+      "Fluency boost learning and inference for neural grammatical error correction"
+    ],
+    "publisher": [
+      "*ACL*"
+    ],
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Introduces fluency boost learning for improving GEC"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "author": [
+      {
+        "family": "Chollampatt",
+        "given": "S."
+      },
+      {
+        "family": "Ng",
+        "given": "H.T."
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "title": [
+      "Connecting the dots: Towards human-level grammatical error correction"
+    ],
+    "publisher": [
+      "*ACL*"
+    ],
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Discusses bridging the gap between human and machine performance"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "author": [
+      {
+        "family": "Grundkiewicz",
+        "given": "R."
+      },
+      {
+        "family": "Junczys-Dowmunt",
+        "given": "M."
+      },
+      {
+        "family": "Gillian",
+        "given": "E."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "title": [
+      "Neural grammatical error correction systems with unsupervised pre-training on synthetic data"
+    ],
+    "publisher": [
+      "*BEA*"
+    ],
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Utilizes unsupervised pre-training for GEC"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "author": [
+      {
+        "family": "Zhao",
+        "given": "W."
+      },
+      {
+        "family": "Wang",
+        "given": "H."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "title": [
+      "Improving grammatical error correction via pre-training a copy-augmented architecture with unlabeled data"
+    ],
+    "publisher": [
+      "*NAACL*"
+    ],
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Explores pre-training techniques for GEC"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "author": [
+      {
+        "family": "Kaneko",
+        "given": "M."
+      },
+      {
+        "family": "Komachi",
+        "given": "M."
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "title": [
+      "Multi-head multi-layer attention to deep language representations for grammatical error detection"
+    ],
+    "publisher": [
+      "*ACL*"
+    ],
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Focuses on attention mechanisms in GEC"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "author": [
+      {
+        "family": "Lichtarge",
+        "given": "J."
+      },
+      {
+        "family": "Alberti",
+        "given": "C."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "title": [
+      "Corpora generation for grammatical error correction"
+    ],
+    "publisher": [
+      "*NAACL*"
+    ],
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Discusses methods for generating corpora for GEC"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "author": [
+      {
+        "family": "Zhao",
+        "given": "W."
+      },
+      {
+        "family": "Wang",
+        "given": "H."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "title": [
+      "Improving grammatical error correction with data augmentation by editing latent space representations"
+    ],
+    "publisher": [
+      "*ACL*"
+    ],
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Introduces data augmentation techniques for GEC"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "author": [
+      {
+        "family": "Kiyono",
+        "given": "S."
+      },
+      {
+        "family": "Suzuki",
+        "given": "J."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "title": [
+      "An empirical study of incorporating pseudo data into grammatical error correction"
+    ],
+    "publisher": [
+      "*EMNLP*"
+    ],
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Examines the use of pseudo data in training GEC models"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "author": [
+      {
+        "family": "Omelianchuk",
+        "given": "K."
+      },
+      {
+        "family": "Atrasevych",
+        "given": "V."
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "title": [
+      "GECToR"
+    ],
+    "note": [
+      "Grammatical Error Correction: Tag, Not Rewrite.\" *BEA*."
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Proposes a tagging approach to GEC"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "author": [
+      {
+        "family": "Zhou",
+        "given": "Y."
+      },
+      {
+        "family": "Li",
+        "given": "J."
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "title": [
+      "A review of neural networks for grammatical error correction"
+    ],
+    "container-title": [
+      "*Journal of Physics: Conference Series*"
+    ],
+    "type": "paper-conference"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "A review article summarizing neural approaches to GEC"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "author": [
+      {
+        "family": "Rothe",
+        "given": "S."
+      },
+      {
+        "family": "Narayan",
+        "given": "S."
+      },
+      {
+        "family": "Severyn",
+        "given": "A."
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "title": [
+      "Leveraging pre-trained checkpoints for sequence generation tasks"
+    ],
+    "publisher": [
+      "*TACL*"
+    ],
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Discusses leveraging pre-trained models for sequence generation, applicable to GEC"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "These articles provide a mix of foundational work, significant advancements, and reviews in the field of grammatical error correction, covering both traditional and neural approaches"
+    ],
+    "type": null
+  }
+]

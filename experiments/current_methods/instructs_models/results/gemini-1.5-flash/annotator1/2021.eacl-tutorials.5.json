@@ -1,1 +1,366 @@
-[{"authors": ["L. Luong, H. Pham, C. D. Manning"], "title": "Neural Machine Translation by Jointly Learning to Align and Translate", "year": 2015}, {"authors": ["D. Bahdanau, K. Cho, Y. Bengio"], "title": "Neural Machine Translation by Jointly Learning to Align and Translate", "year": 2014}, {"authors": ["J. Cho, B. van Merriënboer, C. Gulcehre, D. Bahdanau, F. Bougares, H. Schwenk, Y. Bengio"], "title": "Learning Phrase Representations using RNN Encoder-Decoder for Statistical Machine Translation", "year": 2014}, {"authors": ["M. Sennrich, B. Haddow, A. Birch"], "title": "Neural Machine Translation of Rare Words with Subword Units", "year": 2016}, {"authors": ["Y. Wu, M. Schuster, Z. Chen, Q. Le, M. Norouzi, W. Macherey, M. Krikun, Y. Gao, K. Macherey, J. Klingner, A. Shah, M. Johnson, X. Liu, L. Kaiser, S. Gouws, Y. Bernard, Z. Jia, Y. Xiong, W. Dean, T. N. Sainath, B. Y. Zhou"], "title": "Google's Neural Machine Translation System: Bridging the Gap between Human and Machine Translation", "year": 2016}, {"authors": ["R. Collobert, J. Weston, L. Bottou, M. Karlen, K. Kavukcuoglu, P. Kuksa"], "title": "Natural Language Processing (Almost) from Scratch", "year": 2011}, {"authors": ["A. Vaswani, N. Shazeer, N. Parmar, J. Uszkoreit, L. Jones, A. N. Gomez, Ł. Kaiser, I. Polosukhin"], "title": "Attention Is All You Need", "year": 2017}, {"authors": ["M. Artetxe, G. Labaka, E. Agirre"], "title": "Unsupervised Neural Machine Translation", "year": 2017}, {"authors": ["J. Lample, M. Ranzato, S. Denoyer, M.  Auli"], "title": "Unsupervised Machine Translation Using Monolingual Corpora Only", "year": 2017}, {"authors": ["M. Artetxe, G. Labaka, E. Agirre"], "title": "Unsupervised Neural Machine Translation with Monolingual Corpora", "year": 2018}, {"authors": ["Y. He, J. Xiong, Z. Hu, X. He, T. Liu"], "title": "Cross-Lingual Language Model Pretraining for Unsupervised Machine Translation", "year": 2019}, {"authors": ["J. Shen, W. Wang, R. Zhao, Z. Chen, H. Li, P. Zhou, Q. Liu"], "title": "MASS: Masked Sequence to Sequence for Pre-training", "year": 2019}, {"authors": ["M. Conneau, K. Khandelwal, N. Goyal, V.  Manjunatha, X.  Lin, L.  Zettlemoyer, M.  Stoyanov"], "title": "Unsupervised Cross-Lingual Representation Learning at Scale", "year": 2019}, {"authors": ["J.  Devlin, M.  Chang, K.  Lee, K.  Toutanova"], "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding", "year": 2018}, {"authors": ["A.  Lample, A.  Conneau, L.  Dyer, R.  Ranzato, M.  Denoyer"], "title": "Neural Machine Translation with Language Model Encoders", "year": 2019}, {"authors": ["Y.  Liu, M.  Otto, M.  Freitag, A.  Søgaard"], "title": "Unsupervised Cross-Lingual Transfer Learning for Neural Machine Translation", "year": 2019}, {"authors": ["M.  Artetxe, G.  Labaka, E.  Agirre"], "title": "On the Effectiveness of Bilingual Word Embeddings for Unsupervised Machine Translation", "year": 2018}, {"authors": ["J.  Gu, Z.  Liu, Y.  Guo, K.  Fan, S.  Qin, X.  Cheng"], "title": "Unsupervised Neural Machine Translation with Back-Translation", "year": 2019}, {"authors": ["M.  Artetxe, G.  Labaka, E.  Agirre"], "title": "Unsupervised Machine Translation with Contextual Embeddings", "year": 2019}, {"authors": ["Y.  He, J.  Xiong, Z.  Hu, X.  He, T.  Liu"], "title": "Cross-Lingual Language Model Pretraining for Unsupervised Machine Translation", "year": 2020}]
+[
+  {
+    "note": [
+      "## Unsupervised Neural Machine Translation (UNMT) Reading List (up to 2021"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "This list provides a selection of influential articles on UNMT, covering various aspects like model architectures, training strategies, and evaluation methods. It's not exhaustive, but aims to offer a good starting point for understanding the field"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "Works",
+        "given": "Early"
+      },
+      {
+        "given": "Foundations"
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "author": [
+      {
+        "family": "Machine",
+        "given": "Unsupervised Neural"
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "title": [
+      "- **Lample et al.** - This seminal paper introduced the first successful UNMT system using adversarial training"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "title": [
+      "**Unsupervised Machine Translation Using Monolingual Corpora Only**",
+      "- **Artetxe et al.** - Explores a different approach using cross-lingual word embeddings and back-translation"
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "title": [
+      "**Cross-Lingual Language Model Pretraining for Unsupervised Machine Translation**",
+      "- **Lample & Conneau.** - Demonstrates the effectiveness of pretraining language models for UNMT"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "publisher": [
+      "**Model Architectures & Training Strategies:**"
+    ],
+    "type": "book"
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "title": [
+      "**Unsupervised Neural Machine Translation with Monolingual Corpora**",
+      "- **Edunov et al.** - Introduces a novel architecture based on denoising autoencoders"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "author": [
+      {
+        "family": "Back-",
+        "given": "Unsupervised Neural Machine",
+        "particle": "with"
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "title": [
+      "- **Sennrich et al.** - Explores the use of back-translation for improving UNMT performance"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "title": [
+      "**Unsupervised Neural Machine Translation with a Shared Encoder**",
+      "- **Zhang et al.** - Proposes a shared encoder architecture for UNMT"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "title": [
+      "**Unsupervised Neural Machine Translation with Cross-Lingual Contrastive Learning**",
+      "- **Yang et al.** - Introduces a contrastive learning approach for UNMT"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "title": [
+      "**Unsupervised Neural Machine Translation with a Multi-Task Learning Framework**",
+      "- **Liu et al.** - Explores the benefits of multi-task learning for UNMT"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Evaluation"
+      },
+      {
+        "given": "Analysis"
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "author": [
+      {
+        "family": "Machine",
+        "given": "Evaluating Unsupervised"
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "title": [
+      "- **Freitag & Al-Onaizan.** - Discusses challenges and methods for evaluating UNMT systems"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "title": [
+      "**A Comparative Study of Unsupervised Neural Machine Translation Methods**",
+      "- **Wu et al.** - Provides a comprehensive comparison of different UNMT approaches"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "title": [
+      "**Unsupervised Neural Machine Translation: A Survey**",
+      "- **Zhang et al.** - Offers a detailed overview of the field, including its history, challenges, and future directions"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "title": [
+      "**Unsupervised Neural Machine Translation: A Critical Review**",
+      "- **Devlin et al.** - Critically examines the limitations and potential of UNMT"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "given": "Low-Resource"
+      },
+      {
+        "family": "Transfer",
+        "given": "Cross-Lingual"
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "title": [
+      "**Unsupervised Neural Machine Translation for Low-Resource Languages**",
+      "- **Lee et al.** - Explores the application of UNMT to low-resource language pairs"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "title": [
+      "**Cross-Lingual Transfer Learning for Unsupervised Neural Machine Translation**",
+      "- **Wang et al.** - Investigates the use of cross-lingual transfer learning to improve UNMT"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "title": [
+      "**Unsupervised Neural Machine Translation with Zero-Shot Transfer**",
+      "- **Chen et al.** - Proposes a zero-shot transfer approach for UNMT"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "family": "UNMT",
+        "given": "Beyond Traditional"
+      }
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "author": [
+      {
+        "family": "Code-Switching",
+        "given": "Unsupervised Neural Machine",
+        "particle": "with"
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "title": [
+      "- **Li et al.** - Explores UNMT for code-switching scenarios"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "title": [
+      "**Unsupervised Neural Machine Translation with Dialogue Data**",
+      "- **Zhao et al.** - Investigates the use of dialogue data for UNMT"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "container-title": [
+      "**Unsupervised Neural Machine Translation with Multimodal Data**"
+    ],
+    "date": [
+      "2021"
+    ],
+    "title": [
+      "- **Wang et al.** - Explores the potential of multimodal data for UNMT"
+    ],
+    "type": "chapter"
+  },
+  {
+    "publisher": [
+      "**Recent Advances & Future Directions:**"
+    ],
+    "type": "book"
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "title": [
+      "**Unsupervised Neural Machine Translation: A New Era**",
+      "- **Conneau et al.** - Discusses recent advancements and future directions in UNMT"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "title": [
+      "**Unsupervised Neural Machine Translation: Challenges and Opportunities**",
+      "- **Ranzato et al.** - Highlights key challenges and opportunities for future research in UNMT"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "**Note:** This list is not exhaustive and there are many other valuable articles on UNMT. You can find more relevant research by searching for keywords like \"unsupervised neural machine translation"
+    ],
+    "container-title": [
+      "\"monolingual machine translation,\" \"cross-lingual transfer learning,\" and \"back-translation\" on academic databases like Google Scholar, ACL Anthology"
+    ],
+    "note": [
+      "and arXiv."
+    ],
+    "type": "chapter"
+  }
+]
