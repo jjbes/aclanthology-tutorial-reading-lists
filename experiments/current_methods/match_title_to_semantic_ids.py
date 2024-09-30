@@ -25,8 +25,6 @@ async def get_id(query:str, session:typing.Any) -> typing.Optional[str]:
         if response.status == 200:
             data = await response.json()
             return data["data"][0]["paperId"] if "data" in data and len(data["data"]) > 0 else None
-        else:
-            return None
  
 async def fetch_s2_batch(preds_list:list[typing.Dict]) -> list[typing.Dict] :
     matched = defaultdict(list)
