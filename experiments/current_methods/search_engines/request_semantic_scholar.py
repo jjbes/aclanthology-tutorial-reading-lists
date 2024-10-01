@@ -35,11 +35,10 @@ def fetch_s2(query:str, max_year:typing.Optional[int]=None) -> list:
     return results     
 
 def process_s2_request() -> None :
-    for annotator_i in [1, 2, 3]:
-        print(f"Requesting S2's top 20 results")
-        annotator_queries = pd.read_csv(f"../../../annotations/annotation_{annotator_i}.csv")[["id", "year", "query_keywords"]].to_dict(orient='records')
-        preds_annot = {query["id"]: fetch_s2(query["query_keywords"], max_year=query["year"]) for query in tqdm(annotator_queries)}
-        with open(f"preds/semantic_scholar/preds_annot{annotator_i}.json", "w") as fp:
+    for annotator_num in [1, 2, 3]:
+        annotator_queries = pd.read_csv(f"../../../annotations/annotation_{annotator_num}.csv")[["id", "year", "query_keywords"]].to_dict(orient='records')
+        preds_annot = {query["id"]: fetch_s2(query["query_keywords"], max_year=query["year"]) for query in tqdm(annotator_queries, desc=f"Semantic Scholar (A{annotator_num})")}
+        with open(f"preds/semantic_scholar/preds_annot{annotator_num}.json", "w") as fp:
             json.dump(preds_annot , fp) 
 
 if __name__ == "__main__":

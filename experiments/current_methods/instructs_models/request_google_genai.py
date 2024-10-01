@@ -53,18 +53,17 @@ async def generate_content_json(model_name:str, query: str, max_year: int) -> st
 
 
 # Process a batch of queries asynchronously
-async def fetch_completions_batch(model_name:str, queries:list[typing.Dict], generation_func:typing.Callable) -> typing.Dict:
+async def fetch_completions_batch(model_name:str, queries:list[typing.Dict], generation_func:typing.Callable, desc:typing.Optional[str]=None) -> typing.Dict:
     tasks = [
         (query["id"], asyncio.create_task(generation_func(model_name, query["query_sentence"], query["year"]))) 
         for query in queries
     ]
-    results = await tqdm_asyncio.gather(*[task for _, task in tasks])
+    results = await tqdm_asyncio.gather(*[task for _, task in tasks], desc=desc)
     return {k: results[i] for i, (k, _) in enumerate(tasks) if results[i]}
 
 # Process requests for a specific model and save results
 def process_model_requests(model_name:str, generation_func:typing.Callable, folder:str = "", format:str = "json") -> None:
     folder = folder or model_name
-    print(f"Requesting completions from model: {model_name}")
     for annotator_num in [1, 2, 3]:
         # Load annotator queries from CSV
         query_file = f"../../../annotations/annotation_{annotator_num}.csv"
@@ -76,7 +75,7 @@ def process_model_requests(model_name:str, generation_func:typing.Callable, fold
             if not os.path.exists(f"{folder_path}/{query['id']}.{format}")
         ]
         # Fetch completions for the batch
-        predictions = asyncio.run(fetch_completions_batch(model_name, annotator_queries, generation_func))
+        predictions = asyncio.run(fetch_completions_batch(model_name, annotator_queries, generation_func, desc=f"{model_name} (A{annotator_num})"))
         # Save each result as a markdown file
         for query_id, content in predictions.items():
             os.makedirs(folder_path, exist_ok=True)

@@ -75,7 +75,6 @@ def parse_html(pathlist:list[str]) -> typing.Dict:
     return preds         
 
 def process_parse_results(results_name:str, model_type:str, parse_func:typing.Callable) -> None:
-    print(f"Parsing predictions from results of model: {results_name}")
     for annotator_num in [1, 2, 3]:
         # Save file location
         folder_path = f"{model_type}/preds/{results_name}"
@@ -84,7 +83,7 @@ def process_parse_results(results_name:str, model_type:str, parse_func:typing.Ca
         # Load annotator queries from CSV
         if not os.path.exists(file_path):
             results_paths = sorted(Path(f"{model_type}/results/{results_name}/annotator{annotator_num}/").glob(f'*.json'))
-            results = {path.parts[-1].replace(f".json", ""): list(parse_func(path)) for path in tqdm(results_paths)}
+            results = {path.parts[-1].replace(f".json", ""): list(parse_func(path)) for path in tqdm(results_paths, desc=f"{results_name} (A{annotator_num})")}
             with open(file_path, "w") as file:
                 json.dump(results , file) 
 

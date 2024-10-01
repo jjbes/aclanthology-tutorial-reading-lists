@@ -1,20 +1,18 @@
 import os
 import json
+import dotenv
 import requests
 import pandas as pd
 from tqdm import tqdm
-from pathlib import Path
 from collections import defaultdict
+import typing_extensions as typing 
 
-from dotenv import load_dotenv
-load_dotenv()
+dotenv.load_dotenv()
 
-from functools import partial
-tqdm = partial(tqdm, position=0, leave=True)
+# S2 API rate limit is 1RPM, async is not needed
 
-def query_scholar(query, max_year=None, offset=0, limit=20):   
+def get_papers(query:str, max_year:typing.Optional[int]=None, offset:int=0, limit:int=20) -> typing.Dict:   
     apiKey = os.environ['SEMANTIC_SCHOLAR_API']
-
     payload = {
         "query":query,
         "offset":offset,
@@ -22,49 +20,47 @@ def query_scholar(query, max_year=None, offset=0, limit=20):
         "fields":"title,year,externalIds",
         "year": f"-{max_year}" if max_year else "",
     }
-    
     r = requests.get('https://api.semanticscholar.org/graph/v1/paper/search', params=payload, headers={"x-api-key":apiKey})
     return r.json()
 
-def generate(query, max_year=None): # Ensure 20 results
+def fetch_s2(query:str, max_year:typing.Optional[int]=None) -> list:
     results_acl = []
     results_any = []
     offset = 0
     while len(results_any) < 20 and offset < 1000:
-        response = query_scholar(query, max_year=max_year, offset=offset, limit=100)
+        response = get_papers(query, max_year=max_year, offset=offset, limit=100)
         if "data" in response :
             for paper in response["data"]:
-                if "ACL" in paper["externalIds"].keys() and len(results_any) < 20:
+                # Try to get 20 ACL results out of 1000 first results
+                if "ACL" in paper["externalIds"].keys() and len(results_any) < 20: 
                     results_acl.append({
                         "id": paper["paperId"],
                         "title": paper["title"],
                         "year": paper["year"]
                     })
-                if len(results_acl) < 20:
+                # first 20 results for comparison
+                if len(results_acl) < 20: 
                     results_any.append({
                         "id": paper["paperId"],
                         "title": paper["title"],
                         "year": paper["year"]
                     })
         offset += 100
-    return {"semantic_scholar_any":results_any, "semantic_scholar_acl":results_acl} 
+    return {"semantic_scholar_any":results_any, "semantic_scholar_acl":results_acl}    
 
-for annotator_i in [1,2,3]:
-    print(f"Requesting annotator {annotator_i}")
-    annotator_queries = pd.read_csv(f"../../annotations/annotation_{annotator_i}.csv")[["id", "year", "query_keywords"]].to_dict(orient='records')
+def process_s2_request() -> None :
+    for annotator_i in [1, 2, 3]:
+        print(f"Requesting S2's top 20 results")
+        annotator_queries = pd.read_csv(f"../../annotations/annotation_{annotator_i}.csv")[["id", "year", "query_keywords"]].to_dict(orient='records')
+        preds = defaultdict(lambda : defaultdict(list))
+        for query in tqdm(annotator_queries):
+            generation = fetch_s2(query["query_keywords"], max_year=query["year"])
+            preds["semantic_scholar_any"][query["id"]] = generation["semantic_scholar_any"]
+            preds["semantic_scholar_acl"][query["id"]] = generation["semantic_scholar_acl"]
+        with open(f"preds/semantic_scholar_any/preds_annot{annotator_i}.json", "w") as fp:
+            json.dump(preds["semantic_scholar_any"] , fp)
+        with open(f"preds/semantic_scholar_acl/preds_annot{annotator_i}.json", "w") as fp:
+            json.dump(preds["semantic_scholar_acl"] , fp)  
 
-    preds = defaultdict(lambda : defaultdict(list))
-    for query in tqdm(annotator_queries):
-        generation = generate(query["query_keywords"], max_year=query["year"])
-        preds["semantic_scholar_any"][query["id"]] = generation["semantic_scholar_any"]
-        preds["semantic_scholar_acl"][query["id"]] = generation["semantic_scholar_acl"]
-    
-    for model in ["semantic_scholar_any", "semantic_scholar_acl"]:
-        FOLDER_PATH = f"preds/{model}/"
-        if not os.path.exists(FOLDER_PATH):
-            os.makedirs(FOLDER_PATH)
-        FILE_PATH = f"{FOLDER_PATH}/preds_annot{annotator_i}.json"
-
-        if not Path(FILE_PATH).is_file():
-            with open(FILE_PATH, "w") as fp:
-                json.dump(preds[model] , fp) 
+if __name__ == "__main__":
+    process_s2_request()
