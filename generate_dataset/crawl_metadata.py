@@ -1,15 +1,15 @@
 import time
 import json
 import dotenv
+import argparse
 from tqdm import tqdm
-from typing_extensions import Dict, List 
 from common import load_metadata, request_metadata, gather_paths_years, load_json
 
 dotenv.load_dotenv()
    
 """Process all JSON files in the pathlist and fetch metadata for unique references."""
-def process_references(pathlist:List, references:Dict) -> Dict:
-    for path in tqdm(pathlist, desc="Requesting S2"):
+def process_references(pathlist:list, references:dict) -> dict:
+    for path in tqdm(pathlist, desc="Requesting"):
         if ".proceedings.json" not in path.name:
             tutorial_metadata = list(load_json(path).values())[0]
             reading_list = tutorial_metadata.get("readingList") 
@@ -34,11 +34,18 @@ def process_references(pathlist:List, references:Dict) -> Dict:
     return references
 
 if __name__ == "__main__":
-    years = ["before_2020", "2020", "2021", "2022", "2023", "2024"]
-    pathlist = gather_paths_years("../data", years)
+    parser = argparse.ArgumentParser(description='Crawl Semantic Scholar for the dataset metadata')
+    parser.add_argument('--data', required=True,
+                        help='path of the data folder')
+    args = parser.parse_args()
 
-    references = load_metadata('../data/references_metadata.json')
+    years = ["before_2020", "2020", "2021", "2022", "2023", "2024"]
+    pathlist = gather_paths_years(f"{args.data}", years)
+
+    print("Populating metadata")
+    references = load_metadata(f'{args.data}/references_metadata.json')
     references = process_references(pathlist, references)
 
-    with open('../data/references_metadata.json', 'w') as f:
+    with open(f'{args.data}/references_metadata.json', 'w') as f:
         json.dump(references, f, indent=2)
+    print("Populated.")

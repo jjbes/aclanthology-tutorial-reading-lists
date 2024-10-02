@@ -6,7 +6,6 @@ import json
 import dotenv
 import requests
 from pathlib import Path
-from typing import Dict, List
 
 dotenv.load_dotenv()
 
@@ -15,7 +14,7 @@ def clean_string(string:str) -> str:
     return re.sub(r'\W+', '', string).lower()
 
 """ Request S2 API for metadata of a list of IDs """
-def request_metadata(ids:List, fields:str="paperId") -> List:
+def request_metadata(ids:list, fields:str="paperId") -> list:
     response = requests.post(
         'https://api.semanticscholar.org/graph/v1/paper/batch',
         params={'fields': fields},
@@ -28,12 +27,12 @@ def request_metadata(ids:List, fields:str="paperId") -> List:
     return response.json()
 
 """ Load a JSON file """
-def load_json(path:str) -> Dict:
+def load_json(path:str) -> dict:
     with open(path, 'r') as f:
         return json.load(f)
 
 """ Load metadata files as JSON or create file if it doesn't exists """
-def load_metadata(file_path:str) -> Dict:
+def load_metadata(file_path:str) -> dict:
     Path(file_path).touch(exist_ok=True) # Ensure the file exists
     try:
         with open(file_path, 'r') as f:
@@ -42,7 +41,7 @@ def load_metadata(file_path:str) -> Dict:
         return {}
     
 """ Gather sorted list of paths for JSON files of selected years """
-def gather_paths_years(path:str, years:List[str]) -> List[Path]:
+def gather_paths_years(path:str, years:list[str]) -> list[Path]:
     paths = []
     for year in years:
         paths.extend(sorted(Path(f"{path}/{year}").glob('**/*.json')))

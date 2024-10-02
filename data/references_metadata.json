@@ -69,7 +69,7 @@
     "abstract": "We investigate how neural networks can learn and process languages with hierarchical, compositional semantics. To this end, we define the artificial task of processing nested arithmetic expressions, and study whether different types of neural networks can learn to compute their meaning. We find that recursive neural networks can find a generalising solution to this problem, and we visualise this solution by breaking it up in three steps: project, sum and squash. As a next step, we investigate recurrent neural networks, and show that a gated recurrent unit, that processes its input incrementally, also performs very well on this task. To develop an understanding of what the recurrent network encodes, visualisation techniques alone do not suffice. Therefore, we develop an approach where we formulate and test multiple hypotheses on the information encoded and processed by the network. For each hypothesis, we derive predictions about features of the hidden state representations at each time step, and train 'diagnostic classifiers' to test those predictions. Our results indicate that the networks follow a strategy similar to our hypothesised 'cumulative strategy', which explains the high accuracy of the network on novel expressions, the generalisation to longer expressions than seen in training, and the mild deterioration with increasing length. This is turn shows that diagnostic classifiers can be a useful technique for opening up the black box of neural networks. We argue that diagnostic classification, unlike most visualisation techniques, does scale up from small networks in a toy domain, to larger and deeper recurrent networks dealing with real-life data, and may therefore contribute to a better understanding of the internal dynamics of current state-of-the-art models in natural language processing.",
     "year": 2017,
     "referenceCount": 43,
-    "citationCount": 238,
+    "citationCount": 239,
     "isOpenAccess": true,
     "s2FieldsOfStudy": [
       {
@@ -104,7 +104,7 @@
     "abstract": "Contextualized representation models such as ELMo (Peters et al., 2018a) and BERT (Devlin et al., 2018) have recently achieved state-of-the-art results on a diverse array of downstream NLP tasks. Building on recent token-level probing work, we introduce a novel edge probing task design and construct a broad suite of sub-sentence tasks derived from the traditional structured NLP pipeline. We probe word-level contextual representations from four recent models and investigate how they encode sentence structure across a range of syntactic, semantic, local, and long-range phenomena. We find that existing models trained on language modeling and translation produce strong representations for syntactic phenomena, but only offer comparably small improvements on semantic tasks over a non-contextual baseline.",
     "year": 2019,
     "referenceCount": 57,
-    "citationCount": 795,
+    "citationCount": 796,
     "isOpenAccess": false,
     "s2FieldsOfStudy": [
       {
@@ -228,7 +228,7 @@
     "abstract": "Neural machine translation is a recently proposed approach to machine translation. Unlike the traditional statistical machine translation, the neural machine translation aims at building a single neural network that can be jointly tuned to maximize the translation performance. The models proposed recently for neural machine translation often belong to a family of encoder-decoders and consists of an encoder that encodes a source sentence into a fixed-length vector from which a decoder generates a translation. In this paper, we conjecture that the use of a fixed-length vector is a bottleneck in improving the performance of this basic encoder-decoder architecture, and propose to extend this by allowing a model to automatically (soft-)search for parts of a source sentence that are relevant to predicting a target word, without having to form these parts as a hard segment explicitly. With this new approach, we achieve a translation performance comparable to the existing state-of-the-art phrase-based system on the task of English-to-French translation. Furthermore, qualitative analysis reveals that the (soft-)alignments found by the model agree well with our intuition.",
     "year": 2014,
     "referenceCount": 33,
-    "citationCount": 25864,
+    "citationCount": 25865,
     "isOpenAccess": false,
     "s2FieldsOfStudy": [
       {
@@ -559,7 +559,7 @@
     "abstract": "What does it mean for an algorithm to be biased? In U.S. law, unintentional bias is encoded via disparate impact, which occurs when a selection process has widely different outcomes for different groups, even as it appears to be neutral. This legal determination hinges on a definition of a protected class (ethnicity, gender) and an explicit description of the process. When computers are involved, determining disparate impact (and hence bias) is harder. It might not be possible to disclose the process. In addition, even if the process is open, it might be hard to elucidate in a legal setting how the algorithm makes its decisions. Instead of requiring access to the process, we propose making inferences based on the data it uses. We present four contributions. First, we link disparate impact to a measure of classification accuracy that while known, has received relatively little attention. Second, we propose a test for disparate impact based on how well the protected class can be predicted from the other attributes. Third, we describe methods by which data might be made unbiased. Finally, we present empirical evidence supporting the effectiveness of our test for disparate impact and our approach for both masking bias and preserving relevant information in the data. Interestingly, our approach resembles some actual selection practices that have recently received legal scrutiny.",
     "year": 2014,
     "referenceCount": 31,
-    "citationCount": 1803,
+    "citationCount": 1804,
     "isOpenAccess": true,
     "s2FieldsOfStudy": [
       {
@@ -856,7 +856,7 @@
     "abstract": "Dozens of open-access journals targeted in an elaborate Science sting accepted a spoof research article, raising questions about peer-review practices in much of the open-access world.",
     "year": 2013,
     "referenceCount": 0,
-    "citationCount": 881,
+    "citationCount": 880,
     "isOpenAccess": true,
     "s2FieldsOfStudy": [
       {
@@ -930,7 +930,7 @@
     "abstract": null,
     "year": 2016,
     "referenceCount": 49,
-    "citationCount": 41,
+    "citationCount": 42,
     "isOpenAccess": true,
     "s2FieldsOfStudy": [
       {
@@ -1580,7 +1580,7 @@
     "abstract": "\n \n Machine learning about language can be improved by supplying it with specific knowledge and sources of external information. We present here a new version of the linked open data resource ConceptNet that is particularly well suited to be used with modern NLP techniques such as word embeddings. ConceptNet is a knowledge graph that connects words and phrases of natural language with labeled edges. Its knowledge is collected from many sources that include expert-created resources, crowd-sourcing, and games with a purpose. It is designed to represent the general knowledge involved in understanding language, improving natural language applications by allowing the application to better understand the meanings behind the words people use. When ConceptNet is combined with word embeddings acquired from distributional semantics (such as word2vec), it provides applications with understanding that they would not acquire from distributional semantics alone, nor from narrower resources such as WordNet or DBPedia. We demonstrate this with state-of-the-art results on intrinsic evaluations of word relatedness that translate into improvements on applications of word vectors, including solving SAT-style analogies.\n \n",
     "year": 2016,
     "referenceCount": 38,
-    "citationCount": 2554,
+    "citationCount": 2556,
     "isOpenAccess": true,
     "s2FieldsOfStudy": [
       {
@@ -1703,7 +1703,7 @@
     "abstract": "When answering a question, people often draw upon their rich world knowledge in addition to the particular context. Recent work has focused primarily on answering questions given some relevant document or context, and required very little general background. To investigate question answering with prior knowledge, we present CommonsenseQA: a challenging new dataset for commonsense question answering. To capture common sense beyond associations, we extract from ConceptNet (Speer et al., 2017) multiple target concepts that have the same semantic relation to a single source concept. Crowd-workers are asked to author multiple-choice questions that mention the source concept and discriminate in turn between each of the target concepts. This encourages workers to create questions with complex semantics that often require prior knowledge. We create 12,247 questions through this procedure and demonstrate the difficulty of our task with a large number of strong baselines. Our best baseline is based on BERT-large (Devlin et al., 2018) and obtains 56% accuracy, well below human performance, which is 89%.",
     "year": 2019,
     "referenceCount": 44,
-    "citationCount": 1251,
+    "citationCount": 1253,
     "isOpenAccess": false,
     "s2FieldsOfStudy": [
       {
@@ -2107,7 +2107,7 @@
     "abstract": "Computers understand very little of the meaning of human language. This profoundly limits our ability to give instructions to computers, the ability of computers to explain their actions to us, and the ability of computers to analyse and process text. Vector space models (VSMs) of semantics are beginning to address these limits. This paper surveys the use of VSMs for semantic processing of text. We organize the literature on VSMs according to the structure of the matrix in a VSM. There are currently three broad classes of VSMs, based on term-document, word-context, and pair-pattern matrices, yielding three classes of applications. We survey a broad range of applications in these three categories and we take a detailed look at a specific open source project in each category. Our goal in this survey is to show the breadth of applications of VSMs for semantics, to provide a new perspective on VSMs for those who are already familiar with the area, and to provide pointers into the literature for those who are less familiar with the field.",
     "year": 2010,
     "referenceCount": 199,
-    "citationCount": 2926,
+    "citationCount": 2927,
     "isOpenAccess": true,
     "s2FieldsOfStudy": [
       {
@@ -2146,7 +2146,7 @@
     "abstract": "We propose two novel model architectures for computing continuous vector\nrepresentations of words from very large data sets. The quality of these\nrepresentations is measured in a word similarity task, and the results are\ncompared to the previously best performing techniques based on different types\nof neural networks. We observe large improvements in accuracy at much lower\ncomputational cost, i.e. it takes less than a day to learn high quality word\nvectors from a 1.6 billion words data set. Furthermore, we show that these\nvectors provide state-of-the-art performance on our test set for measuring\nsyntactic and semantic word similarities.",
     "year": 2013,
     "referenceCount": 36,
-    "citationCount": 29656,
+    "citationCount": 29659,
     "isOpenAccess": false,
     "s2FieldsOfStudy": [
       {
@@ -2184,7 +2184,7 @@
     "abstract": "Recent methods for learning vector space representations of words have succeeded in capturing fine-grained semantic and syntactic regularities using vector arithmetic, but the origin of these regularities has remained opaque. We analyze and make explicit the model properties needed for such regularities to emerge in word vectors. The result is a new global logbilinear regression model that combines the advantages of the two major model families in the literature: global matrix factorization and local context window methods. Our model efficiently leverages statistical information by training only on the nonzero elements in a word-word cooccurrence matrix, rather than on the entire sparse matrix or on individual context windows in a large corpus. The model produces a vector space with meaningful substructure, as evidenced by its performance of 75% on a recent word analogy task. It also outperforms related models on similarity tasks and named entity recognition.",
     "year": 2014,
     "referenceCount": 32,
-    "citationCount": 30405,
+    "citationCount": 30407,
     "isOpenAccess": true,
     "s2FieldsOfStudy": [
       {
@@ -2390,7 +2390,7 @@
     "abstract": "We introduce a new language representation model called BERT, which stands for Bidirectional Encoder Representations from Transformers. Unlike recent language representation models (Peters et al., 2018a; Radford et al., 2018), BERT is designed to pre-train deep bidirectional representations from unlabeled text by jointly conditioning on both left and right context in all layers. As a result, the pre-trained BERT model can be fine-tuned with just one additional output layer to create state-of-the-art models for a wide range of tasks, such as question answering and language inference, without substantial task-specific architecture modifications. BERT is conceptually simple and empirically powerful. It obtains new state-of-the-art results on eleven natural language processing tasks, including pushing the GLUE score to 80.5 (7.7 point absolute improvement), MultiNLI accuracy to 86.7% (4.6% absolute improvement), SQuAD v1.1 question answering Test F1 to 93.2 (1.5 point absolute improvement) and SQuAD v2.0 Test F1 to 83.1 (5.1 point absolute improvement).",
     "year": 2019,
     "referenceCount": 63,
-    "citationCount": 81681,
+    "citationCount": 81718,
     "isOpenAccess": false,
     "s2FieldsOfStudy": [
       {
@@ -3344,7 +3344,7 @@
     "abstract": "Social media for news consumption is a double-edged sword. On the one hand, its low cost, easy access, and rapid dissemination of information lead people to seek out and consume news from social media. On the other hand, it enables the wide spread of \\fake news\", i.e., low quality news with intentionally false information. The extensive spread of fake news has the potential for extremely negative impacts on individuals and society. Therefore, fake news detection on social media has recently become an emerging research that is attracting tremendous attention. Fake news detection on social media presents unique characteristics and challenges that make existing detection algorithms from traditional news media ine ective or not applicable. First, fake news is intentionally written to mislead readers to believe false information, which makes it difficult and nontrivial to detect based on news content; therefore, we need to include auxiliary information, such as user social engagements on social media, to help make a determination. Second, exploiting this auxiliary information is challenging in and of itself as users' social engagements with fake news produce data that is big, incomplete, unstructured, and noisy. Because the issue of fake news detection on social media is both challenging and relevant, we conducted this survey to further facilitate research on the problem. In this survey, we present a comprehensive review of detecting fake news on social media, including fake news characterizations on psychology and social theories, existing algorithms from a data mining perspective, evaluation metrics and representative datasets. We also discuss related research areas, open problems, and future research directions for fake news detection on social media.",
     "year": 2017,
     "referenceCount": 106,
-    "citationCount": 2472,
+    "citationCount": 2473,
     "isOpenAccess": false,
     "s2FieldsOfStudy": [
       {
@@ -3592,7 +3592,7 @@
     "abstract": "Automatic elicitation of semantic information from natural language texts is an important research problem with many practical application areas. Especially after the recent proliferation of online content through channels such as social media sites, news portals, and forums; solutions to problems such as sentiment analysis, sarcasm/controversy/veracity/rumour/fake news detection, and argument mining gained increasing impact and significance, revealed with large volumes of related scientific publications. In this article, we tackle an important problem from the same family and present a survey of stance detection in social media posts and (online) regular texts. Although stance detection is defined in different ways in different application settings, the most common definition is \u201cautomatic classification of the stance of the producer of a piece of text, towards a target, into one of these three classes: {Favor, Against, Neither}.\u201d Our survey includes definitions of related problems and concepts, classifications of the proposed approaches so far, descriptions of the relevant datasets and tools, and related outstanding issues. Stance detection is a recent natural language processing topic with diverse application areas, and our survey article on this newly emerging topic will act as a significant resource for interested researchers and practitioners.",
     "year": 2020,
     "referenceCount": 193,
-    "citationCount": 124,
+    "citationCount": 125,
     "isOpenAccess": true,
     "s2FieldsOfStudy": [
       {
@@ -3678,7 +3678,7 @@
     "abstract": "Today's social bots are sophisticated and sometimes menacing. Indeed, their presence can endanger online ecosystems as well as our society.",
     "year": 2014,
     "referenceCount": 52,
-    "citationCount": 1733,
+    "citationCount": 1734,
     "isOpenAccess": true,
     "s2FieldsOfStudy": [
       {
@@ -3811,7 +3811,7 @@
     "abstract": "As machine learning systems become ubiquitous, there has been a surge of interest in interpretable machine learning: systems that provide explanation for their outputs. These explanations are often used to qualitatively assess other criteria such as safety or non-discrimination. However, despite the interest in interpretability, there is very little consensus on what interpretable machine learning is and how it should be measured. In this position paper, we first define interpretability and describe when interpretability is needed (and when it is not). Next, we suggest a taxonomy for rigorous evaluation and expose open questions towards a more rigorous science of interpretable machine learning.",
     "year": 2017,
     "referenceCount": 57,
-    "citationCount": 3217,
+    "citationCount": 3216,
     "isOpenAccess": false,
     "s2FieldsOfStudy": [
       {
@@ -3858,7 +3858,7 @@
     "abstract": "In machine learning, the concept of interpretability is both important and slippery.",
     "year": 2016,
     "referenceCount": 40,
-    "citationCount": 3311,
+    "citationCount": 3310,
     "isOpenAccess": true,
     "s2FieldsOfStudy": [
       {
@@ -3979,7 +3979,7 @@
     "abstract": "Despite widespread adoption, machine learning models remain mostly black boxes. Understanding the reasons behind predictions is, however, quite important in assessing trust, which is fundamental if one plans to take action based on a prediction, or when choosing whether to deploy a new model. Such understanding also provides insights into the model, which can be used to transform an untrustworthy model or prediction into a trustworthy one. In this work, we propose LIME, a novel explanation technique that explains the predictions of any classifier in an interpretable and faithful manner, by learning an interpretable model locally varound the prediction. We also propose a method to explain models by presenting representative individual predictions and their explanations in a non-redundant way, framing the task as a submodular optimization problem. We demonstrate the flexibility of these methods by explaining different models for text (e.g. random forests) and image classification (e.g. neural networks). We show the utility of explanations via novel experiments, both simulated and with human subjects, on various scenarios that require trust: deciding if one should trust a prediction, choosing between models, improving an untrustworthy classifier, and identifying why a classifier should not be trusted.",
     "year": 2016,
     "referenceCount": 41,
-    "citationCount": 14452,
+    "citationCount": 14456,
     "isOpenAccess": true,
     "s2FieldsOfStudy": [
       {
@@ -4018,7 +4018,7 @@
     "abstract": "This paper addresses the visualisation of image classification models, learnt using deep Convolutional Networks (ConvNets). We consider two visualisation techniques, based on computing the gradient of the class score with respect to the input image. The first one generates an image, which maximises the class score [Erhan et al., 2009], thus visualising the notion of the class, captured by a ConvNet. The second technique computes a class saliency map, specific to a given image and class. We show that such maps can be employed for weakly supervised object segmentation using classification ConvNets. Finally, we establish the connection between the gradient-based ConvNet visualisation methods and deconvolutional networks [Zeiler et al., 2013].",
     "year": 2013,
     "referenceCount": 13,
-    "citationCount": 6708,
+    "citationCount": 6710,
     "isOpenAccess": false,
     "s2FieldsOfStudy": [
       {
@@ -4093,7 +4093,7 @@
     "abstract": "The dominant sequence transduction models are based on complex recurrent or convolutional neural networks in an encoder-decoder configuration. The best performing models also connect the encoder and decoder through an attention mechanism. We propose a new simple network architecture, the Transformer, based solely on attention mechanisms, dispensing with recurrence and convolutions entirely. Experiments on two machine translation tasks show these models to be superior in quality while being more parallelizable and requiring significantly less time to train. Our model achieves 28.4 BLEU on the WMT 2014 English-to-German translation task, improving over the existing best results, including ensembles by over 2 BLEU. On the WMT 2014 English-to-French translation task, our model establishes a new single-model state-of-the-art BLEU score of 41.8 after training for 3.5 days on eight GPUs, a small fraction of the training costs of the best models from the literature. We show that the Transformer generalizes well to other tasks by applying it successfully to English constituency parsing both with large and limited training data.",
     "year": 2017,
     "referenceCount": 41,
-    "citationCount": 104997,
+    "citationCount": 105033,
     "isOpenAccess": false,
     "s2FieldsOfStudy": [
       {
@@ -4129,7 +4129,7 @@
     "abstract": "Recent work has demonstrated substantial gains on many NLP tasks and benchmarks by pre-training on a large corpus of text followed by fine-tuning on a specific task. While typically task-agnostic in architecture, this method still requires task-specific fine-tuning datasets of thousands or tens of thousands of examples. By contrast, humans can generally perform a new language task from only a few examples or from simple instructions - something which current NLP systems still largely struggle to do. Here we show that scaling up language models greatly improves task-agnostic, few-shot performance, sometimes even reaching competitiveness with prior state-of-the-art fine-tuning approaches. Specifically, we train GPT-3, an autoregressive language model with 175 billion parameters, 10x more than any previous non-sparse language model, and test its performance in the few-shot setting. For all tasks, GPT-3 is applied without any gradient updates or fine-tuning, with tasks and few-shot demonstrations specified purely via text interaction with the model. GPT-3 achieves strong performance on many NLP datasets, including translation, question-answering, and cloze tasks, as well as several tasks that require on-the-fly reasoning or domain adaptation, such as unscrambling words, using a novel word in a sentence, or performing 3-digit arithmetic. At the same time, we also identify some datasets where GPT-3's few-shot learning still struggles, as well as some datasets where GPT-3 faces methodological issues related to training on large web corpora. Finally, we find that GPT-3 can generate samples of news articles which human evaluators have difficulty distinguishing from articles written by humans. We discuss broader societal impacts of this finding and of GPT-3 in general.",
     "year": 2020,
     "referenceCount": 146,
-    "citationCount": 30858,
+    "citationCount": 30871,
     "isOpenAccess": false,
     "s2FieldsOfStudy": [
       {
@@ -4208,7 +4208,7 @@
     "abstract": "We show that a variety of modern deep learning tasks exhibit a \u2018double-descent\u2019 phenomenon where, as we increase model size, performance first gets worse and then gets better. Moreover, we show that double descent occurs not just as a function of model size, but also as a function of the number of training epochs. We unify the above phenomena by defining a new complexity measure we call the effective model complexity and conjecture a generalized double descent with respect to this measure. Furthermore, our notion of model complexity allows us to identify certain regimes where increasing (even quadrupling) the number of train samples actually hurts test performance.",
     "year": 2019,
     "referenceCount": 50,
-    "citationCount": 816,
+    "citationCount": 815,
     "isOpenAccess": true,
     "s2FieldsOfStudy": [
       {
@@ -4254,7 +4254,7 @@
     "abstract": "A very simple way to improve the performance of almost any machine learning algorithm is to train many different models on the same data and then to average their predictions. Unfortunately, making predictions using a whole ensemble of models is cumbersome and may be too computationally expensive to allow deployment to a large number of users, especially if the individual models are large neural nets. Caruana and his collaborators have shown that it is possible to compress the knowledge in an ensemble into a single model which is much easier to deploy and we develop this approach further using a different compression technique. We achieve some surprising results on MNIST and we show that we can significantly improve the acoustic model of a heavily used commercial system by distilling the knowledge in an ensemble of models into a single model. We also introduce a new type of ensemble composed of one or more full models and many specialist models which learn to distinguish fine-grained classes that the full models confuse. Unlike a mixture of experts, these specialist models can be trained rapidly and in parallel.",
     "year": 2015,
     "referenceCount": 9,
-    "citationCount": 17084,
+    "citationCount": 17096,
     "isOpenAccess": false,
     "s2FieldsOfStudy": [
       {
@@ -4416,7 +4416,7 @@
     "abstract": "Neural network pruning techniques can reduce the parameter counts of trained networks by over 90%, decreasing storage requirements and improving computational performance of inference without compromising accuracy. However, contemporary experience is that the sparse architectures produced by pruning are difficult to train from the start, which would similarly improve training performance. \nWe find that a standard pruning technique naturally uncovers subnetworks whose initializations made them capable of training effectively. Based on these results, we articulate the \"lottery ticket hypothesis:\" dense, randomly-initialized, feed-forward networks contain subnetworks (\"winning tickets\") that - when trained in isolation - reach test accuracy comparable to the original network in a similar number of iterations. The winning tickets we find have won the initialization lottery: their connections have initial weights that make training particularly effective. \nWe present an algorithm to identify winning tickets and a series of experiments that support the lottery ticket hypothesis and the importance of these fortuitous initializations. We consistently find winning tickets that are less than 10-20% of the size of several fully-connected and convolutional feed-forward architectures for MNIST and CIFAR10. Above this size, the winning tickets that we find learn faster than the original network and reach higher test accuracy.",
     "year": 2018,
     "referenceCount": 68,
-    "citationCount": 3019,
+    "citationCount": 3022,
     "isOpenAccess": false,
     "s2FieldsOfStudy": [
       {
@@ -4724,7 +4724,7 @@
     "abstract": "Transformers achieve remarkable performance in several tasks but due to their quadratic complexity, with respect to the input's length, they are prohibitively slow for very long sequences. To address this limitation, we express the self-attention as a linear dot-product of kernel feature maps and make use of the associativity property of matrix products to reduce the complexity from $\\mathcal{O}\\left(N^2\\right)$ to $\\mathcal{O}\\left(N\\right)$, where $N$ is the sequence length. We show that this formulation permits an iterative implementation that dramatically accelerates autoregressive transformers and reveals their relationship to recurrent neural networks. Our linear transformers achieve similar performance to vanilla transformers and they are up to 4000x faster on autoregressive prediction of very long sequences.",
     "year": 2020,
     "referenceCount": 43,
-    "citationCount": 1255,
+    "citationCount": 1256,
     "isOpenAccess": false,
     "s2FieldsOfStudy": [
       {
@@ -4764,7 +4764,7 @@
     "abstract": "Transformers-based models, such as BERT, have been one of the most successful deep learning models for NLP. Unfortunately, one of their core limitations is the quadratic dependency (mainly in terms of memory) on the sequence length due to their full attention mechanism. To remedy this, we propose, BigBird, a sparse attention mechanism that reduces this quadratic dependency to linear. We show that BigBird is a universal approximator of sequence functions and is Turing complete, thereby preserving these properties of the quadratic, full attention model. Along the way, our theoretical analysis reveals some of the benefits of having $O(1)$ global tokens (such as CLS), that attend to the entire sequence as part of the sparse attention mechanism. The proposed sparse attention can handle sequences of length up to 8x of what was previously possible using similar hardware. As a consequence of the capability to handle longer context, BigBird drastically improves performance on various NLP tasks such as question answering and summarization. We also propose novel applications to genomics data.",
     "year": 2020,
     "referenceCount": 118,
-    "citationCount": 1720,
+    "citationCount": 1721,
     "isOpenAccess": false,
     "s2FieldsOfStudy": [
       {
@@ -5076,7 +5076,7 @@
     "abstract": "BERT (Devlin et al., 2018) and RoBERTa (Liu et al., 2019) has set a new state-of-the-art performance on sentence-pair regression tasks like semantic textual similarity (STS). However, it requires that both sentences are fed into the network, which causes a massive computational overhead: Finding the most similar pair in a collection of 10,000 sentences requires about 50 million inference computations (~65 hours) with BERT. The construction of BERT makes it unsuitable for semantic similarity search as well as for unsupervised tasks like clustering. In this publication, we present Sentence-BERT (SBERT), a modification of the pretrained BERT network that use siamese and triplet network structures to derive semantically meaningful sentence embeddings that can be compared using cosine-similarity. This reduces the effort for finding the most similar pair from 65 hours with BERT / RoBERTa to about 5 seconds with SBERT, while maintaining the accuracy from BERT. We evaluate SBERT and SRoBERTa on common STS tasks and transfer learning tasks, where it outperforms other state-of-the-art sentence embeddings methods.",
     "year": 2019,
     "referenceCount": 38,
-    "citationCount": 9375,
+    "citationCount": 9377,
     "isOpenAccess": true,
     "s2FieldsOfStudy": [
       {
@@ -5180,7 +5180,7 @@
     "abstract": "I present a new way to parallelize the training of convolutional neural networks across multiple GPUs. The method scales significantly better than all alternatives when applied to modern convolutional neural networks.",
     "year": 2014,
     "referenceCount": 8,
-    "citationCount": 1222,
+    "citationCount": 1223,
     "isOpenAccess": false,
     "s2FieldsOfStudy": [
       {
@@ -5252,7 +5252,7 @@
     "abstract": "We study empirical scaling laws for language model performance on the cross-entropy loss. The loss scales as a power-law with model size, dataset size, and the amount of compute used for training, with some trends spanning more than seven orders of magnitude. Other architectural details such as network width or depth have minimal effects within a wide range. Simple equations govern the dependence of overfitting on model/dataset size and the dependence of training speed on model size. These relationships allow us to determine the optimal allocation of a fixed compute budget. Larger models are significantly more sample-efficient, such that optimally compute-efficient training involves training very large models on a relatively modest amount of data and stopping significantly before convergence.",
     "year": 2020,
     "referenceCount": 59,
-    "citationCount": 3074,
+    "citationCount": 3075,
     "isOpenAccess": false,
     "s2FieldsOfStudy": [
       {
@@ -5999,7 +5999,7 @@
     "abstract": "Natural language processing tasks, such as question answering, machine translation, reading comprehension, and summarization, are typically approached with supervised learning on taskspecific datasets. We demonstrate that language models begin to learn these tasks without any explicit supervision when trained on a new dataset of millions of webpages called WebText. When conditioned on a document plus questions, the answers generated by the language model reach 55 F1 on the CoQA dataset matching or exceeding the performance of 3 out of 4 baseline systems without using the 127,000+ training examples. The capacity of the language model is essential to the success of zero-shot task transfer and increasing it improves performance in a log-linear fashion across tasks. Our largest model, GPT-2, is a 1.5B parameter Transformer that achieves state of the art results on 7 out of 8 tested language modeling datasets in a zero-shot setting but still underfits WebText. Samples from the model reflect these improvements and contain coherent paragraphs of text. These findings suggest a promising path towards building language processing systems which learn to perform tasks from their naturally occurring demonstrations.",
     "year": 2019,
     "referenceCount": 75,
-    "citationCount": 18460,
+    "citationCount": 18466,
     "isOpenAccess": false,
     "s2FieldsOfStudy": [
       {
@@ -6072,7 +6072,7 @@
     "abstract": "Despite considerable advancements with deep neural language models, the enigma of neural text degeneration persists when these models are tested as text generators. The counter-intuitive empirical observation is that even though the use of likelihood as training objective leads to high quality models for a broad range of language understanding tasks, using likelihood as a decoding objective leads to text that is bland and strangely repetitive. \nIn this paper, we reveal surprising distributional differences between human text and machine text. In addition, we find that decoding strategies alone can dramatically effect the quality of machine text, even when generated from exactly the same neural language model. Our findings motivate Nucleus Sampling, a simple but effective method to draw the best out of neural generation. By sampling text from the dynamic nucleus of the probability distribution, which allows for diversity while effectively truncating the less reliable tail of the distribution, the resulting text better demonstrates the quality of human text, yielding enhanced diversity without sacrificing fluency and coherence.",
     "year": 2019,
     "referenceCount": 44,
-    "citationCount": 2636,
+    "citationCount": 2637,
     "isOpenAccess": false,
     "s2FieldsOfStudy": [
       {
@@ -7045,7 +7045,7 @@
     "abstract": "We propose an algorithm for meta-learning that is model-agnostic, in the sense that it is compatible with any model trained with gradient descent and applicable to a variety of different learning problems, including classification, regression, and reinforcement learning. The goal of meta-learning is to train a model on a variety of learning tasks, such that it can solve new learning tasks using only a small number of training samples. In our approach, the parameters of the model are explicitly trained such that a small number of gradient steps with a small amount of training data from a new task will produce good generalization performance on that task. In effect, our method trains the model to be easy to fine-tune. We demonstrate that this approach leads to state-of-the-art performance on two few-shot image classification benchmarks, produces good results on few-shot regression, and accelerates fine-tuning for policy gradient reinforcement learning with neural network policies.",
     "year": 2017,
     "referenceCount": 52,
-    "citationCount": 10456,
+    "citationCount": 10459,
     "isOpenAccess": false,
     "s2FieldsOfStudy": [
       {
@@ -7081,7 +7081,7 @@
     "abstract": "We propose Prototypical Networks for the problem of few-shot classification, where a classifier must generalize to new classes not seen in the training set, given only a small number of examples of each new class. Prototypical Networks learn a metric space in which classification can be performed by computing distances to prototype representations of each class. Compared to recent approaches for few-shot learning, they reflect a simpler inductive bias that is beneficial in this limited-data regime, and achieve excellent results. We provide an analysis showing that some simple design decisions can yield substantial improvements over recent approaches involving complicated architectural choices and meta-learning. We further extend Prototypical Networks to zero-shot learning and achieve state-of-the-art results on the CU-Birds dataset.",
     "year": 2017,
     "referenceCount": 38,
-    "citationCount": 7165,
+    "citationCount": 7169,
     "isOpenAccess": false,
     "s2FieldsOfStudy": [
       {
@@ -7121,7 +7121,7 @@
     "abstract": "Learning from a few examples remains a key challenge in machine learning. Despite recent advances in important domains such as vision and language, the standard supervised deep learning paradigm does not offer a satisfactory solution for learning new concepts rapidly from little data. In this work, we employ ideas from metric learning based on deep neural features and from recent advances that augment neural networks with external memories. Our framework learns a network that maps a small labelled support set and an unlabelled example to its label, obviating the need for fine-tuning to adapt to new class types. We then define one-shot learning problems on vision (using Omniglot, ImageNet) and language tasks. Our algorithm improves one-shot accuracy on ImageNet from 87.6% to 93.2% and from 88.0% to 93.8% on Omniglot compared to competing approaches. We also demonstrate the usefulness of the same model on language modeling by introducing a one-shot task on the Penn Treebank.",
     "year": 2016,
     "referenceCount": 30,
-    "citationCount": 6670,
+    "citationCount": 6671,
     "isOpenAccess": false,
     "s2FieldsOfStudy": [
       {
@@ -7240,7 +7240,7 @@
     "abstract": "We propose a simple solution to use a single Neural Machine Translation (NMT) model to translate between multiple languages. Our solution requires no changes to the model architecture from a standard NMT system but instead introduces an artificial token at the beginning of the input sentence to specify the required target language. Using a shared wordpiece vocabulary, our approach enables Multilingual NMT systems using a single model. On the WMT\u201914 benchmarks, a single multilingual model achieves comparable performance for English\u2192French and surpasses state-of-theart results for English\u2192German. Similarly, a single multilingual model surpasses state-of-the-art results for French\u2192English and German\u2192English on WMT\u201914 and WMT\u201915 benchmarks, respectively. On production corpora, multilingual models of up to twelve language pairs allow for better translation of many individual pairs. Our models can also learn to perform implicit bridging between language pairs never seen explicitly during training, showing that transfer learning and zero-shot translation is possible for neural translation. Finally, we show analyses that hints at a universal interlingua representation in our models and also show some interesting examples when mixing languages.",
     "year": 2016,
     "referenceCount": 35,
-    "citationCount": 1980,
+    "citationCount": 1981,
     "isOpenAccess": true,
     "s2FieldsOfStudy": [
       {
@@ -7300,7 +7300,7 @@
     "abstract": "We show for the first time that learning powerful representations from speech audio alone followed by fine-tuning on transcribed speech can outperform the best semi-supervised methods while being conceptually simpler. wav2vec 2.0 masks the speech input in the latent space and solves a contrastive task defined over a quantization of the latent representations which are jointly learned. Experiments using all labeled data of Librispeech achieve 1.8/3.3 WER on the clean/other test sets. When lowering the amount of labeled data to one hour, wav2vec 2.0 outperforms the previous state of the art on the 100 hour subset while using 100 times less labeled data. Using just ten minutes of labeled data and pre-training on 53k hours of unlabeled data still achieves 4.8/8.2 WER. This demonstrates the feasibility of speech recognition with limited amounts of labeled data.",
     "year": 2020,
     "referenceCount": 62,
-    "citationCount": 4417,
+    "citationCount": 4422,
     "isOpenAccess": false,
     "s2FieldsOfStudy": [
       {
@@ -7543,7 +7543,7 @@
     "abstract": "Increasing model size when pretraining natural language representations often results in improved performance on downstream tasks. However, at some point further model increases become harder due to GPU/TPU memory limitations and longer training times. To address these problems, we present two parameter-reduction techniques to lower memory consumption and increase the training speed of BERT. Comprehensive empirical evidence shows that our proposed methods lead to models that scale much better compared to the original BERT. We also use a self-supervised loss that focuses on modeling inter-sentence coherence, and show it consistently helps downstream tasks with multi-sentence inputs. As a result, our best model establishes new state-of-the-art results on the GLUE, RACE, and \\squad benchmarks while having fewer parameters compared to BERT-large. The code and the pretrained models are available at this https URL.",
     "year": 2019,
     "referenceCount": 72,
-    "citationCount": 5809,
+    "citationCount": 5810,
     "isOpenAccess": false,
     "s2FieldsOfStudy": [
       {
@@ -7592,7 +7592,7 @@
     "abstract": "Transfer learning, where a model is first pre-trained on a data-rich task before being fine-tuned on a downstream task, has emerged as a powerful technique in natural language processing (NLP). The effectiveness of transfer learning has given rise to a diversity of approaches, methodology, and practice. In this paper, we explore the landscape of transfer learning techniques for NLP by introducing a unified framework that converts every language problem into a text-to-text format. Our systematic study compares pre-training objectives, architectures, unlabeled datasets, transfer approaches, and other factors on dozens of language understanding tasks. By combining the insights from our exploration with scale and our new \"Colossal Clean Crawled Corpus\", we achieve state-of-the-art results on many benchmarks covering summarization, question answering, text classification, and more. To facilitate future work on transfer learning for NLP, we release our dataset, pre-trained models, and code.",
     "year": 2019,
     "referenceCount": 134,
-    "citationCount": 15986,
+    "citationCount": 15992,
     "isOpenAccess": false,
     "s2FieldsOfStudy": [
       {
@@ -7676,7 +7676,7 @@
     "abstract": "We present ViLBERT (short for Vision-and-Language BERT), a model for learning task-agnostic joint representations of image content and natural language. We extend the popular BERT architecture to a multi-modal two-stream model, pro-cessing both visual and textual inputs in separate streams that interact through co-attentional transformer layers. We pretrain our model through two proxy tasks on the large, automatically collected Conceptual Captions dataset and then transfer it to multiple established vision-and-language tasks -- visual question answering, visual commonsense reasoning, referring expressions, and caption-based image retrieval -- by making only minor additions to the base architecture. We observe significant improvements across tasks compared to existing task-specific models -- achieving state-of-the-art on all four tasks. Our work represents a shift away from learning groundings between vision and language only as part of task training and towards treating visual grounding as a pretrainable and transferable capability.",
     "year": 2019,
     "referenceCount": 51,
-    "citationCount": 3203,
+    "citationCount": 3206,
     "isOpenAccess": false,
     "s2FieldsOfStudy": [
       {
@@ -7904,7 +7904,7 @@
     "abstract": "Videos are a rich source of multi-modal supervision. In this work, we learn representations using self-supervision by leveraging three modalities naturally present in videos: vision, audio and language. To this end, we introduce the notion of a multimodal versatile network -- a network that can ingest multiple modalities and whose representations enable downstream tasks in multiple modalities. In particular, we explore how best to combine the modalities, such that fine-grained representations of audio and vision can be maintained, whilst also integrating text into a common embedding. Driven by versatility, we also introduce a novel process of deflation, so that the networks can be effortlessly applied to the visual data in the form of video or a static image. We demonstrate how such networks trained on large collections of unlabelled video data can be applied on video, video-text, image and audio tasks. Equipped with these representations, we obtain state-of-the-art performance on multiple challenging benchmarks including UCF101, HMDB51 and ESC-50 when compared to previous self-supervised work.",
     "year": 2020,
     "referenceCount": 101,
-    "citationCount": 349,
+    "citationCount": 350,
     "isOpenAccess": false,
     "s2FieldsOfStudy": [
       {
@@ -8866,7 +8866,7 @@
     "abstract": "Machine-learning technology powers many aspects of modern society: from web searches to content filtering on social networks to recommendations on e-commerce websites, and it is increasingly present in consumer products such as cameras and smartphones. Machine-learning systems are used to identify objects in images, transcribe speech into text, match news items, posts or products with users\u2019 interests, and select relevant results of search. Increasingly, these applications make use of a class of techniques called deep learning. Conventional machine-learning techniques were limited in their ability to process natural data in their raw form. For decades, constructing a pattern-recognition or machine-learning system required careful engineering and considerable domain expertise to design a feature extractor that transformed the raw data (such as the pixel values of an image) into a suitable internal representation or feature vector from which the learning subsystem, often a classifier, could detect or classify patterns in the input. Representation learning is a set of methods that allows a machine to be fed with raw data and to automatically discover the representations needed for detection or classification. Deep-learning methods are representation-learning methods with multiple levels of representation, obtained by composing simple but non-linear modules that each transform the representation at one level (starting with the raw input) into a representation at a higher, slightly more abstract level. With the composition of enough such transformations, very complex functions can be learned. For classification tasks, higher layers of representation amplify aspects of the input that are important for discrimination and suppress irrelevant variations. An image, for example, comes in the form of an array of pixel values, and the learned features in the first layer of representation typically represent the presence or absence of edges at particular orientations and locations in the image. The second layer typically detects motifs by spotting particular arrangements of edges, regardless of small variations in the edge positions. The third layer may assemble motifs into larger combinations that correspond to parts of familiar objects, and subsequent layers would detect objects as combinations of these parts. The key aspect of deep learning is that these layers of features are not designed by human engineers: they are learned from data using a general-purpose learning procedure. Deep learning is making major advances in solving problems that have resisted the best attempts of the artificial intelligence community for many years. It has turned out to be very good at discovering intricate structures in high-dimensional data and is therefore applicable to many domains of science, business and government. In addition to beating records in image recognition and speech recognition, it has beaten other machine-learning techniques at predicting the activity of potential drug molecules, analysing particle accelerator data, reconstructing brain circuits, and predicting the effects of mutations in non-coding DNA on gene expression and disease. Perhaps more surprisingly, deep learning has produced extremely promising results for various tasks in natural language understanding, particularly topic classification, sentiment analysis, question answering and language translation. We think that deep learning will have many more successes in the near future because it requires very little engineering by hand, so it can easily take advantage of increases in the amount of available computation and data. New learning algorithms and architectures that are currently being developed for deep neural networks will only accelerate this progress.",
     "year": 2015,
     "referenceCount": 1,
-    "citationCount": 40905,
+    "citationCount": 40899,
     "isOpenAccess": false,
     "s2FieldsOfStudy": [
       {
@@ -9247,7 +9247,7 @@
     "abstract": "Previous research uses negative word counts to measure the tone of a text. We show that word lists developed for other disciplines misclassify common words in financial text. In a large sample of 10 Ks during 1994 to 2008, almost three-fourths of the words identified as negative by the widely used Harvard Dictionary are words typically not considered negative in financial contexts. We develop an alternative negative word list, along with five other word lists, that better reflect tone in financial text. We link the word lists to 10 K filing returns, trading volume, return volatility, fraud, material weakness, and unexpected earnings.",
     "year": 2010,
     "referenceCount": 56,
-    "citationCount": 4018,
+    "citationCount": 4019,
     "isOpenAccess": false,
     "s2FieldsOfStudy": [
       {
@@ -10105,7 +10105,7 @@
     "abstract": "Statistical natural language inference (NLI) models are susceptible to learning dataset bias: superficial cues that happen to associate with the label on a particular dataset, but are not useful in general, e.g., negation words indicate contradiction. As exposed by several recent challenge datasets, these models perform poorly when such association is absent, e.g., predicting that \u201cI love dogs.\u201d contradicts \u201cI don\u2019t love cats.\u201d. Our goal is to design learning algorithms that guard against known dataset bias. We formalize the concept of dataset bias under the framework of distribution shift and present a simple debiasing algorithm based on residual fitting, which we call DRiFt. We first learn a biased model that only uses features that are known to relate to dataset bias. Then, we train a debiased model that fits to the residual of the biased model, focusing on examples that cannot be predicted well by biased features only. We use DRiFt to train three high-performing NLI models on two benchmark datasets, SNLI and MNLI. Our debiased models achieve significant gains over baseline models on two challenge test sets, while maintaining reasonable performance on the original test sets.",
     "year": 2019,
     "referenceCount": 46,
-    "citationCount": 184,
+    "citationCount": 183,
     "isOpenAccess": true,
     "s2FieldsOfStudy": [
       {
@@ -10784,7 +10784,7 @@
     "abstract": "Several recent studies have shown that strong natural language understanding (NLU) models are prone to relying on unwanted dataset biases without learning the underlying task, resulting in models that fail to generalize to out-of-domain datasets and are likely to perform poorly in real-world scenarios. We propose two learning strategies to train neural models, which are more robust to such biases and transfer better to out-of-domain datasets. The biases are specified in terms of one or more bias-only models, which learn to leverage the dataset biases. During training, the bias-only models\u2019 predictions are used to adjust the loss of the base model to reduce its reliance on biases by down-weighting the biased examples and focusing the training on the hard examples. We experiment on large-scale natural language inference and fact verification benchmarks, evaluating on out-of-domain datasets that are specifically designed to assess the robustness of models against known biases in the training data. Results show that our debiasing methods greatly improve robustness in all settings and better transfer to other textual entailment datasets. Our code and data are publicly available in https://github.com/rabeehk/robust-nli.",
     "year": 2019,
     "referenceCount": 40,
-    "citationCount": 162,
+    "citationCount": 163,
     "isOpenAccess": true,
     "s2FieldsOfStudy": [
       {
@@ -11281,7 +11281,7 @@
     "abstract": "We describe a procedure for explaining neurons in deep representations by identifying compositional logical concepts that closely approximate neuron behavior. Compared to prior work that uses atomic labels as explanations, analyzing neurons compositionally allows us to more precisely and expressively characterize their behavior. We use this procedure to answer several questions on interpretability in models for vision and natural language processing. First, we examine the kinds of abstractions learned by neurons. In image classification, we find that many neurons learn highly abstract but semantically coherent visual concepts, while other polysemantic neurons detect multiple unrelated features; in natural language inference (NLI), neurons learn shallow lexical heuristics from dataset biases. Second, we see whether compositional explanations give us insight into model performance: vision neurons that detect human-interpretable concepts are positively correlated with task performance, while NLI neurons that fire for shallow heuristics are negatively correlated with task performance. Finally, we show how compositional explanations provide an accessible way for end users to produce simple \"copy-paste\" adversarial examples that change model behavior in predictable ways.",
     "year": 2020,
     "referenceCount": 43,
-    "citationCount": 144,
+    "citationCount": 145,
     "isOpenAccess": false,
     "s2FieldsOfStudy": [
       {
@@ -11355,7 +11355,7 @@
     "abstract": "Understanding why a model makes a certain prediction can be as crucial as the prediction's accuracy in many applications. However, the highest accuracy for large modern datasets is often achieved by complex models that even experts struggle to interpret, such as ensemble or deep learning models, creating a tension between accuracy and interpretability. In response, various methods have recently been proposed to help users interpret the predictions of complex models, but it is often unclear how these methods are related and when one method is preferable over another. To address this problem, we present a unified framework for interpreting predictions, SHAP (SHapley Additive exPlanations). SHAP assigns each feature an importance value for a particular prediction. Its novel components include: (1) the identification of a new class of additive feature importance measures, and (2) theoretical results showing there is a unique solution in this class with a set of desirable properties. The new class unifies six existing methods, notable because several recent methods in the class lack the proposed desirable properties. Based on insights from this unification, we present new methods that show improved computational performance and/or better consistency with human intuition than previous approaches.",
     "year": 2017,
     "referenceCount": 10,
-    "citationCount": 16602,
+    "citationCount": 16608,
     "isOpenAccess": false,
     "s2FieldsOfStudy": [
       {
@@ -11568,7 +11568,7 @@
     "abstract": "We present a scalable approach for semi-supervised learning on graph-structured data that is based on an efficient variant of convolutional neural networks which operate directly on graphs. We motivate the choice of our convolutional architecture via a localized first-order approximation of spectral graph convolutions. Our model scales linearly in the number of graph edges and learns hidden layer representations that encode both local graph structure and features of nodes. In a number of experiments on citation networks and on a knowledge graph dataset we demonstrate that our approach outperforms related methods by a significant margin.",
     "year": 2016,
     "referenceCount": 38,
-    "citationCount": 25293,
+    "citationCount": 25298,
     "isOpenAccess": false,
     "s2FieldsOfStudy": [
       {
@@ -11611,7 +11611,7 @@
     "abstract": "Abstract: Graph-structured data appears frequently in domains including chemistry, natural language semantics, social networks, and knowledge bases. In this work, we study feature learning techniques for graph-structured inputs. Our starting point is previous work on Graph Neural Networks (Scarselli et al., 2009), which we modify to use gated recurrent units and modern optimization techniques and then extend to output sequences. The result is a flexible and broadly useful class of neural network models that has favorable inductive biases relative to purely sequence-based models (e.g., LSTMs) when the problem is graph-structured. We demonstrate the capabilities on some simple AI (bAbI) and graph algorithm learning tasks. We then show it achieves state-of-the-art performance on a problem from program verification, in which subgraphs need to be matched to abstract data structures.",
     "year": 2015,
     "referenceCount": 39,
-    "citationCount": 3078,
+    "citationCount": 3077,
     "isOpenAccess": false,
     "s2FieldsOfStudy": [
       {
@@ -11655,7 +11655,7 @@
     "abstract": "Low-dimensional embeddings of nodes in large graphs have proved extremely useful in a variety of prediction tasks, from content recommendation to identifying protein functions. However, most existing approaches require that all nodes in the graph are present during training of the embeddings; these previous approaches are inherently transductive and do not naturally generalize to unseen nodes. Here we present GraphSAGE, a general, inductive framework that leverages node feature information (e.g., text attributes) to efficiently generate node embeddings for previously unseen data. Instead of training individual embeddings for each node, we learn a function that generates embeddings by sampling and aggregating features from a node's local neighborhood. Our algorithm outperforms strong baselines on three inductive node-classification benchmarks: we classify the category of unseen nodes in evolving information graphs based on citation and Reddit post data, and we show that our algorithm generalizes to completely unseen graphs using a multi-graph dataset of protein-protein interactions.",
     "year": 2017,
     "referenceCount": 42,
-    "citationCount": 12813,
+    "citationCount": 12815,
     "isOpenAccess": false,
     "s2FieldsOfStudy": [
       {
@@ -11975,7 +11975,7 @@
     "abstract": "We propose a hierarchical attention network for document classification. Our model has two distinctive characteristics: (i) it has a hierarchical structure that mirrors the hierarchical structure of documents; (ii) it has two levels of attention mechanisms applied at the wordand sentence-level, enabling it to attend differentially to more and less important content when constructing the document representation. Experiments conducted on six large scale text classification tasks demonstrate that the proposed architecture outperform previous methods by a substantial margin. Visualization of the attention layers illustrates that the model selects qualitatively informative words and sentences.",
     "year": 2016,
     "referenceCount": 42,
-    "citationCount": 4266,
+    "citationCount": 4267,
     "isOpenAccess": true,
     "s2FieldsOfStudy": [
       {
@@ -12055,7 +12055,7 @@
     "abstract": "Transformer model architectures have garnered immense interest lately due to their effectiveness across a range of domains like language, vision, and reinforcement learning. In the field of natural language processing for example, Transformers have become an indispensable staple in the modern deep learning stack. Recently, a dizzying number of \u201cX-former\u201d models have been proposed\u2014Reformer, Linformer, Performer, Longformer, to name a few\u2014which improve upon the original Transformer architecture, many of which make improvements around computational and memory efficiency. With the aim of helping the avid researcher navigate this flurry, this article characterizes a large and thoughtful selection of recent efficiency-flavored \u201cX-former\u201d models, providing an organized and comprehensive overview of existing work and models across multiple domains.",
     "year": 2020,
     "referenceCount": 105,
-    "citationCount": 940,
+    "citationCount": 941,
     "isOpenAccess": true,
     "s2FieldsOfStudy": [
       {
@@ -12578,7 +12578,7 @@
     "abstract": "Natural language understanding comprises a wide range of diverse tasks such as textual entailment, question answering, semantic similarity assessment, and document classi\ufb01cation. Although large unlabeled text corpora are abundant, labeled data for learning these speci\ufb01c tasks is scarce, making it challenging for discriminatively trained models to perform adequately. We demonstrate that large gains on these tasks can be realized by generative pre-training of a language model on a diverse corpus of unlabeled text, followed by discriminative \ufb01ne-tuning on each speci\ufb01c task. In contrast to previous approaches, we make use of task-aware input transformations during \ufb01ne-tuning to achieve effective transfer while requiring minimal changes to the model architecture. We demonstrate the effectiveness of our approach on a wide range of benchmarks for natural language understanding. Our general task-agnostic model outperforms discriminatively trained models that use architectures speci\ufb01cally crafted for each task, signi\ufb01cantly improving upon the state of the art in 9 out of the 12 tasks studied. For instance, we achieve absolute improvements of 8.9% on commonsense reasoning (Stories Cloze Test), 5.7% on question answering (RACE), and 1.5% on textual entailment (MultiNLI).",
     "year": 2018,
     "referenceCount": 73,
-    "citationCount": 9710,
+    "citationCount": 9712,
     "isOpenAccess": false,
     "s2FieldsOfStudy": [
       {
@@ -12677,7 +12677,7 @@
     "abstract": "Language model pretraining has led to significant performance gains but careful comparison between different approaches is challenging. Training is computationally expensive, often done on private datasets of different sizes, and, as we will show, hyperparameter choices have significant impact on the final results. We present a replication study of BERT pretraining (Devlin et al., 2019) that carefully measures the impact of many key hyperparameters and training data size. We find that BERT was significantly undertrained, and can match or exceed the performance of every model published after it. Our best model achieves state-of-the-art results on GLUE, RACE and SQuAD. These results highlight the importance of previously overlooked design choices, and raise questions about the source of recently reported improvements. We release our models and code.",
     "year": 2019,
     "referenceCount": 68,
-    "citationCount": 20965,
+    "citationCount": 20973,
     "isOpenAccess": false,
     "s2FieldsOfStudy": [
       {
@@ -13701,7 +13701,7 @@
     "abstract": null,
     "year": 2016,
     "referenceCount": 4,
-    "citationCount": 2897,
+    "citationCount": 2898,
     "isOpenAccess": true,
     "s2FieldsOfStudy": [
       {
@@ -14172,7 +14172,7 @@
     "abstract": "Large pre-trained language models have been shown to store factual knowledge in their parameters, and achieve state-of-the-art results when fine-tuned on downstream NLP tasks. However, their ability to access and precisely manipulate knowledge is still limited, and hence on knowledge-intensive tasks, their performance lags behind task-specific architectures. Additionally, providing provenance for their decisions and updating their world knowledge remain open research problems. Pre-trained models with a differentiable access mechanism to explicit non-parametric memory can overcome this issue, but have so far been only investigated for extractive downstream tasks. We explore a general-purpose fine-tuning recipe for retrieval-augmented generation (RAG) -- models which combine pre-trained parametric and non-parametric memory for language generation. We introduce RAG models where the parametric memory is a pre-trained seq2seq model and the non-parametric memory is a dense vector index of Wikipedia, accessed with a pre-trained neural retriever. We compare two RAG formulations, one which conditions on the same retrieved passages across the whole generated sequence, the other can use different passages per token. We fine-tune and evaluate our models on a wide range of knowledge-intensive NLP tasks and set the state-of-the-art on three open domain QA tasks, outperforming parametric seq2seq models and task-specific retrieve-and-extract architectures. For language generation tasks, we find that RAG models generate more specific, diverse and factual language than a state-of-the-art parametric-only seq2seq baseline.",
     "year": 2020,
     "referenceCount": 67,
-    "citationCount": 3124,
+    "citationCount": 3126,
     "isOpenAccess": false,
     "s2FieldsOfStudy": [
       {
@@ -14577,7 +14577,7 @@
     "abstract": "Existing approaches to neural machine translation condition each output word on previously generated outputs. We introduce a model that avoids this autoregressive property and produces its outputs in parallel, allowing an order of magnitude lower latency during inference. Through knowledge distillation, the use of input token fertilities as a latent variable, and policy gradient fine-tuning, we achieve this at a cost of as little as 2.0 BLEU points relative to the autoregressive Transformer network used as a teacher. We demonstrate substantial cumulative improvements associated with each of the three aspects of our training strategy, and validate our approach on IWSLT 2016 English-German and two WMT language pairs. By sampling fertilities in parallel at inference time, our non-autoregressive model achieves near-state-of-the-art performance of 29.8 BLEU on WMT 2016 English-Romanian.",
     "year": 2017,
     "referenceCount": 32,
-    "citationCount": 744,
+    "citationCount": 745,
     "isOpenAccess": false,
     "s2FieldsOfStudy": [
       {
@@ -14619,7 +14619,7 @@
     "abstract": "Most machine translation systems generate text autoregressively from left to right. We, instead, use a masked language modeling objective to train a model to predict any subset of the target words, conditioned on both the input text and a partially masked target translation. This approach allows for efficient iterative decoding, where we first predict all of the target words non-autoregressively, and then repeatedly mask out and regenerate the subset of words that the model is least confident about. By applying this strategy for a constant number of iterations, our model improves state-of-the-art performance levels for non-autoregressive and parallel decoding translation models by over 4 BLEU on average. It is also able to reach within about 1 BLEU point of a typical left-to-right transformer model, while decoding significantly faster.",
     "year": 2019,
     "referenceCount": 19,
-    "citationCount": 520,
+    "citationCount": 521,
     "isOpenAccess": true,
     "s2FieldsOfStudy": [
       {
@@ -14745,7 +14745,7 @@
     "abstract": "This paper presents MixText, a semi-supervised learning method for text classification, which uses our newly designed data augmentation method called TMix. TMix creates a large amount of augmented training samples by interpolating text in hidden space. Moreover, we leverage recent advances in data augmentation to guess low-entropy labels for unlabeled data, hence making them as easy to use as labeled data. By mixing labeled, unlabeled and augmented data, MixText significantly outperformed current pre-trained and fined-tuned models and other state-of-the-art semi-supervised learning methods on several text classification benchmarks. The improvement is especially prominent when supervision is extremely limited. We have publicly released our code at https://github.com/GT-SALT/MixText.",
     "year": 2020,
     "referenceCount": 48,
-    "citationCount": 317,
+    "citationCount": 318,
     "isOpenAccess": true,
     "s2FieldsOfStudy": [
       {
@@ -14785,7 +14785,7 @@
     "abstract": "Recent studies have demonstrated the efficiency of generative pretraining for English natural language understanding. In this work, we extend this approach to multiple languages and show the effectiveness of cross-lingual pretraining. We propose two methods to learn cross-lingual language models (XLMs): one unsupervised that only relies on monolingual data, and one supervised that leverages parallel data with a new cross-lingual language model objective. We obtain state-of-the-art results on cross-lingual classification, unsupervised and supervised machine translation. On XNLI, our approach pushes the state of the art by an absolute gain of 4.9% accuracy. On unsupervised machine translation, we obtain 34.3 BLEU on WMT\u201916 German-English, improving the previous state of the art by more than 9 BLEU. On supervised machine translation, we obtain a new state of the art of 38.5 BLEU on WMT\u201916 Romanian-English, outperforming the previous best approach by more than 4 BLEU. Our code and pretrained models will be made publicly available.",
     "year": 2019,
     "referenceCount": 52,
-    "citationCount": 2547,
+    "citationCount": 2550,
     "isOpenAccess": false,
     "s2FieldsOfStudy": [
       {
@@ -14865,7 +14865,7 @@
     "abstract": "While there has been substantial research using adversarial attacks to analyze NLP models, each attack is implemented in its own code repository. It remains challenging to develop NLP attacks and utilize them to improve model performance. This paper introduces TextAttack, a Python framework for adversarial attacks, data augmentation, and adversarial training in NLP. TextAttack builds attacks from four components: a goal function, a set of constraints, a transformation, and a search method. TextAttack\u2019s modular design enables researchers to easily construct attacks from combinations of novel and existing components. TextAttack provides implementations of 16 adversarial attacks from the literature and supports a variety of models and datasets, including BERT and other transformers, and all GLUE tasks. TextAttack also includes data augmentation and adversarial training modules for using components of adversarial attacks to improve model accuracy and robustness.TextAttack is democratizing NLP: anyone can try data augmentation and adversarial training on any model or dataset, with just a few lines of code. Code and tutorials are available at https://github.com/QData/TextAttack.",
     "year": 2020,
     "referenceCount": 43,
-    "citationCount": 632,
+    "citationCount": 631,
     "isOpenAccess": true,
     "s2FieldsOfStudy": [
       {
@@ -14973,7 +14973,7 @@
     "abstract": "This paper explores a simple method for improving the zero-shot learning abilities of language models. We show that instruction tuning -- finetuning language models on a collection of tasks described via instructions -- substantially improves zero-shot performance on unseen tasks. We take a 137B parameter pretrained language model and instruction-tune it on over 60 NLP tasks verbalized via natural language instruction templates. We evaluate this instruction-tuned model, which we call FLAN, on unseen task types. FLAN substantially improves the performance of its unmodified counterpart and surpasses zero-shot 175B GPT-3 on 20 of 25 tasks that we evaluate. FLAN even outperforms few-shot GPT-3 by a large margin on ANLI, RTE, BoolQ, AI2-ARC, OpenbookQA, and StoryCloze. Ablation studies reveal that number of finetuning datasets, model scale, and natural language instructions are key to the success of instruction tuning.",
     "year": 2021,
     "referenceCount": 169,
-    "citationCount": 2808,
+    "citationCount": 2810,
     "isOpenAccess": false,
     "s2FieldsOfStudy": [
       {
@@ -15048,7 +15048,7 @@
     "abstract": null,
     "year": 2015,
     "referenceCount": 83,
-    "citationCount": 1772,
+    "citationCount": 1774,
     "isOpenAccess": true,
     "s2FieldsOfStudy": [
       {
@@ -15086,7 +15086,7 @@
     "abstract": "In this paper we introduce a new game to crowd-source natural language referring expressions. By designing a two player game, we can both collect and verify referring expressions directly within the game. To date, the game has produced a dataset containing 130,525 expressions, referring to 96,654 distinct objects, in 19,894 photographs of natural scenes. This dataset is larger and more varied than previous REG datasets and allows us to study referring expressions in real-world scenes. We provide an in depth analysis of the resulting dataset. Based on our findings, we design a new optimization based model for generating referring expressions and perform experimental evaluations on 3 test sets.",
     "year": 2014,
     "referenceCount": 47,
-    "citationCount": 1077,
+    "citationCount": 1076,
     "isOpenAccess": true,
     "s2FieldsOfStudy": [
       {
@@ -15126,7 +15126,7 @@
     "abstract": "We propose a method that can generate an unambiguous description (known as a referring expression) of a specific object or region in an image, and which can also comprehend or interpret such an expression to infer which object is being described. We show that our method outperforms previous methods that generate descriptions of objects without taking into account other potentially ambiguous objects in the scene. Our model is inspired by recent successes of deep learning methods for image captioning, but while image captioning is difficult to evaluate, our task allows for easy objective evaluation. We also present a new large-scale dataset for referring expressions, based on MSCOCO. We have released the dataset and a toolbox for visualization and evaluation, see https://github.com/ mjhucla/Google_Refexp_toolbox.",
     "year": 2015,
     "referenceCount": 60,
-    "citationCount": 1140,
+    "citationCount": 1141,
     "isOpenAccess": true,
     "s2FieldsOfStudy": [
       {
@@ -15160,7 +15160,7 @@
     "abstract": "In this paper we describe the Microsoft COCO Caption dataset and evaluation server. When completed, the dataset will contain over one and a half million captions describing over 330,000 images. For the training and validation images, five independent human generated captions will be provided. To ensure consistency in evaluation of automatic caption generation algorithms, an evaluation server is used. The evaluation server receives candidate captions and scores them using several popular metrics, including BLEU, METEOR, ROUGE and CIDEr. Instructions for using the evaluation server are provided.",
     "year": 2015,
     "referenceCount": 46,
-    "citationCount": 2183,
+    "citationCount": 2184,
     "isOpenAccess": false,
     "s2FieldsOfStudy": [
       {
@@ -15200,7 +15200,7 @@
     "abstract": null,
     "year": 2015,
     "referenceCount": 72,
-    "citationCount": 4860,
+    "citationCount": 4861,
     "isOpenAccess": true,
     "s2FieldsOfStudy": [
       {
@@ -15240,7 +15240,7 @@
     "abstract": null,
     "year": 2016,
     "referenceCount": 130,
-    "citationCount": 5092,
+    "citationCount": 5095,
     "isOpenAccess": true,
     "s2FieldsOfStudy": [
       {
@@ -15283,7 +15283,7 @@
     "abstract": "We introduce GQA, a new dataset for real-world visual reasoning and compositional question answering, seeking to address key shortcomings of previous VQA datasets. We have developed a strong and robust question engine that leverages Visual Genome scene graph structures to create 22M diverse reasoning questions, which all come with functional programs that represent their semantics. We use the programs to gain tight control over the answer distribution and present a new tunable smoothing technique to mitigate question biases. Accompanying the dataset is a suite of new metrics that evaluate essential qualities such as consistency, grounding and plausibility. A careful analysis is performed for baselines as well as state-of-the-art models, providing fine-grained results for different question types and topologies. Whereas a blind LSTM obtains a mere 42.1%, and strong VQA models achieve 54.1%, human performance tops at 89.3%, offering ample opportunity for new research to explore. We hope GQA will provide an enabling resource for the next generation of models with enhanced robustness, improved consistency, and deeper semantic understanding of vision and language.",
     "year": 2019,
     "referenceCount": 44,
-    "citationCount": 1440,
+    "citationCount": 1441,
     "isOpenAccess": true,
     "s2FieldsOfStudy": [
       {
@@ -15390,7 +15390,7 @@
     "abstract": "Top-down visual attention mechanisms have been used extensively in image captioning and visual question answering (VQA) to enable deeper image understanding through fine-grained analysis and even multiple steps of reasoning. In this work, we propose a combined bottom-up and top-down attention mechanism that enables attention to be calculated at the level of objects and other salient image regions. This is the natural basis for attention to be considered. Within our approach, the bottom-up mechanism (based on Faster R-CNN) proposes image regions, each with an associated feature vector, while the top-down mechanism determines feature weightings. Applying this approach to image captioning, our results on the MSCOCO test server establish a new state-of-the-art for the task, achieving CIDEr / SPICE / BLEU-4 scores of 117.9, 21.5 and 36.9, respectively. Demonstrating the broad applicability of the method, applying the same approach to VQA we obtain first place in the 2017 VQA Challenge.",
     "year": 2017,
     "referenceCount": 67,
-    "citationCount": 3916,
+    "citationCount": 3917,
     "isOpenAccess": true,
     "s2FieldsOfStudy": [
       {
@@ -15429,7 +15429,7 @@
     "abstract": "Modeling textual or visual information with vector representations trained from large language or visual datasets has been successfully explored in recent years. However, tasks such as visual question answering require combining these vector representations with each other. Approaches to multimodal pooling include element-wise product or sum, as well as concatenation of the visual and textual representations. We hypothesize that these methods are not as expressive as an outer product of the visual and textual vectors. As the outer product is typically infeasible due to its high dimensionality, we instead propose utilizing Multimodal Compact Bilinear pooling (MCB) to efficiently and expressively combine multimodal features. We extensively evaluate MCB on the visual question answering and grounding tasks. We consistently show the benefit of MCB over ablations without MCB. For visual question answering, we present an architecture which uses MCB twice, once for predicting attention over spatial features and again to combine the attended representation with the question representation. This model outperforms the state-of-the-art on the Visual7W dataset and the VQA challenge.",
     "year": 2016,
     "referenceCount": 57,
-    "citationCount": 1405,
+    "citationCount": 1404,
     "isOpenAccess": true,
     "s2FieldsOfStudy": [
       {
@@ -15612,7 +15612,7 @@
     "abstract": "Existing methods for vision-and-language learning typically require designing task-specific architectures and objectives for each task. For example, a multi-label answer classifier for visual question answering, a region scorer for referring expression comprehension, and a language decoder for image captioning, etc. To alleviate these hassles, in this work, we propose a unified framework that learns different tasks in a single architecture with the same language modeling objective, i.e., multimodal conditional text generation, where our models learn to generate labels in text based on the visual and textual inputs. On 7 popular vision-and-language benchmarks, including visual question answering, referring expression comprehension, visual commonsense reasoning, most of which have been previously modeled as discriminative tasks, our generative approach (with a single unified architecture) reaches comparable performance to recent task-specific state-of-the-art vision-and-language models. Moreover, our generative approach shows better generalization ability on questions that have rare answers. Also, we show that our framework allows multi-task learning in a single architecture with a single set of parameters, achieving similar performance to separately optimized single-task models. Our code is publicly available at: https://github.com/j-min/VL-T5",
     "year": 2021,
     "referenceCount": 85,
-    "citationCount": 463,
+    "citationCount": 464,
     "isOpenAccess": false,
     "s2FieldsOfStudy": [
       {
@@ -15680,7 +15680,7 @@
     "abstract": "State-of-the-art computer vision systems are trained to predict a fixed set of predetermined object categories. This restricted form of supervision limits their generality and usability since additional labeled data is needed to specify any other visual concept. Learning directly from raw text about images is a promising alternative which leverages a much broader source of supervision. We demonstrate that the simple pre-training task of predicting which caption goes with which image is an efficient and scalable way to learn SOTA image representations from scratch on a dataset of 400 million (image, text) pairs collected from the internet. After pre-training, natural language is used to reference learned visual concepts (or describe new ones) enabling zero-shot transfer of the model to downstream tasks. We study the performance of this approach by benchmarking on over 30 different existing computer vision datasets, spanning tasks such as OCR, action recognition in videos, geo-localization, and many types of fine-grained object classification. The model transfers non-trivially to most tasks and is often competitive with a fully supervised baseline without the need for any dataset specific training. For instance, we match the accuracy of the original ResNet-50 on ImageNet zero-shot without needing to use any of the 1.28 million training examples it was trained on. We release our code and pre-trained model weights at https://github.com/OpenAI/CLIP.",
     "year": 2021,
     "referenceCount": 220,
-    "citationCount": 18887,
+    "citationCount": 18930,
     "isOpenAccess": false,
     "s2FieldsOfStudy": [
       {
@@ -15795,7 +15795,7 @@
     "abstract": "We present M3P, a Multitask Multilingual Multimodal Pre-trained model that combines multilingual pre-training and multimodal pre-training into a unified framework via multitask pre-training. Our goal is to learn universal representations that can map objects occurred in different modalities or texts expressed in different languages into a common semantic space. In addition, to explicitly encourage fine-grained alignment between images and non-English languages, we also propose Multimodal Code-switched Training (MCT) to combine monolingual pre-training and multimodal pre-training via a code-switch strategy. Experiments are performed on the multilingual image retrieval task across two benchmark datasets, including MSCOCO and Multi30K. M3P can achieve comparable results for English and new state-of-the-art results for non-English languages.",
     "year": 2021,
     "referenceCount": 38,
-    "citationCount": 89,
+    "citationCount": 90,
     "isOpenAccess": true,
     "s2FieldsOfStudy": [
       {
@@ -16066,7 +16066,7 @@
     "abstract": "We present VILLA, the first known effort on large-scale adversarial training for vision-and-language (V+L) representation learning. VILLA consists of two training stages: (i) task-agnostic adversarial pre-training; followed by (ii) task-specific adversarial finetuning. Instead of adding adversarial perturbations on image pixels and textual tokens, we propose to perform adversarial training in the embedding space of each modality. To enable large-scale training, we adopt the \"free\" adversarial training strategy, and combine it with KL-divergence-based regularization to promote higher invariance in the embedding space. We apply VILLA to current best-performing V+L models, and achieve new state of the art on a wide range of tasks, including Visual Question Answering, Visual Commonsense Reasoning, Image-Text Retrieval, Referring Expression Comprehension, Visual Entailment, and NLVR2.",
     "year": 2020,
     "referenceCount": 92,
-    "citationCount": 447,
+    "citationCount": 448,
     "isOpenAccess": false,
     "s2FieldsOfStudy": [
       {
@@ -16224,7 +16224,7 @@
     "abstract": "Although essential to revealing biased performance, well intentioned attempts at algorithmic auditing can have effects that may harm the very populations these measures are meant to protect. This concern is even more salient while auditing biometric systems such as facial recognition, where the data is sensitive and the technology is often used in ethically questionable manners. We demonstrate a set of fiveethical concerns in the particular case of auditing commercial facial processing technology, highlighting additional design considerations and ethical tensions the auditor needs to be aware of so as not exacerbate or complement the harms propagated by the audited system. We go further to provide tangible illustrations of these concerns, and conclude by reflecting on what these concerns mean for the role of the algorithmic audit and the fundamental product limitations they reveal.",
     "year": 2020,
     "referenceCount": 47,
-    "citationCount": 241,
+    "citationCount": 242,
     "isOpenAccess": true,
     "s2FieldsOfStudy": [
       {
@@ -16342,7 +16342,7 @@
     "abstract": "Visual Question Answering (VQA) is the task of answering questions about an image. Some VQA models often exploit unimodal biases to provide the correct answer without using the image information. As a result, they suffer from a huge drop in performance when evaluated on data outside their training set distribution. This critical issue makes them unsuitable for real-world settings. \nWe propose RUBi, a new learning strategy to reduce biases in any VQA model. It reduces the importance of the most biased examples, i.e. examples that can be correctly classified without looking at the image. It implicitly forces the VQA model to use the two input modalities instead of relying on statistical regularities between the question and the answer. We leverage a question-only model that captures the language biases by identifying when these unwanted regularities are used. It prevents the base VQA model from learning them by influencing its predictions. This leads to dynamically adjusting the loss in order to compensate for biases. We validate our contributions by surpassing the current state-of-the-art results on VQA-CP v2. This dataset is specifically designed to assess the robustness of VQA models when exposed to different question biases at test time than what was seen during training. \nOur code is available: this http URL",
     "year": 2019,
     "referenceCount": 45,
-    "citationCount": 325,
+    "citationCount": 329,
     "isOpenAccess": false,
     "s2FieldsOfStudy": [
       {
@@ -16378,7 +16378,7 @@
     "abstract": "Modern Visual Question Answering (VQA) models have been shown to rely heavily on superficial correlations between question and answer words learned during training such as overwhelmingly reporting the type of room as kitchen or the sport being played as tennis, irrespective of the image. Most alarmingly, this shortcoming is often not well reflected during evaluation because the same strong priors exist in test distributions; however, a VQA system that fails to ground questions in image content would likely perform poorly in real-world settings. In this work, we present a novel regularization scheme for VQA that reduces this effect. We introduce a question-only model that takes as input the question encoding from the VQA model and must leverage language biases in order to succeed. We then pose training as an adversarial game between the VQA model and this question-only adversary -- discouraging the VQA model from capturing language biases in its question encoding. Further,we leverage this question-only model to estimate the increase in model confidence after considering the image, which we maximize explicitly to encourage visual grounding. Our approach is a model agnostic training procedure and simple to implement. We show empirically that it can improve performance significantly on a bias-sensitive split of the VQA dataset for multiple base models -- achieving state-of-the-art on this task. Further, on standard VQA tasks, our approach shows significantly less drop in accuracy compared to existing bias-reducing VQA models.",
     "year": 2018,
     "referenceCount": 31,
-    "citationCount": 206,
+    "citationCount": 208,
     "isOpenAccess": false,
     "s2FieldsOfStudy": [
       {
@@ -16452,7 +16452,7 @@
     "abstract": "We introduce Invariant Risk Minimization (IRM), a learning paradigm to estimate invariant correlations across multiple training distributions. To achieve this goal, IRM learns a data representation such that the optimal classifier, on top of that data representation, matches for all training distributions. Through theory and experiments, we show how the invariances learned by IRM relate to the causal structures governing the data and enable out-of-distribution generalization.",
     "year": 2019,
     "referenceCount": 76,
-    "citationCount": 1862,
+    "citationCount": 1863,
     "isOpenAccess": false,
     "s2FieldsOfStudy": [
       {
@@ -16537,7 +16537,7 @@
     "abstract": "While progress has been made on the visual question answering leaderboards, models often utilize spurious correlations and priors in datasets under the i.i.d. setting. As such, evaluation on out-of-distribution (OOD) test samples has emerged as a proxy for generalization. In this paper, we present MUTANT, a training paradigm that exposes the model to perceptually similar, yet semantically distinct mutations of the input, to improve OOD generalization, such as the VQA-CP challenge. Under this paradigm, models utilize a consistency-constrained training objective to understand the effect of semantic changes in input (question-image pair) on the output (answer). Unlike existing methods on VQA-CP, MUTANT does not rely on the knowledge about the nature of train and test answer distributions. MUTANT establishes a new state-of-the-art accuracy on VQA-CP with a $10.57\\%$ improvement. Our work opens up avenues for the use of semantic input mutations for OOD generalization in question answering.",
     "year": 2020,
     "referenceCount": 53,
-    "citationCount": 118,
+    "citationCount": 121,
     "isOpenAccess": true,
     "s2FieldsOfStudy": [
       {
@@ -16809,7 +16809,7 @@
     "abstract": "The Proposition Bank project takes a practical approach to semantic representation, adding a layer of predicate-argument information, or semantic role labels, to the syntactic structures of the Penn Treebank. The resulting resource can be thought of as shallow, in that it does not represent coreference, quantification, and many other higher-order phenomena, but also broad, in that it covers every instance of every verb in the corpus and allows representative statistics to be calculated. We discuss the criteria used to define the sets of semantic roles used in the annotation process and to analyze the frequency of syntactic/semantic alternations in the corpus. We describe an automatic system for semantic role tagging trained on the corpus and discuss the effect on its performance of various types of information, including a comparison of full syntactic parsing with a flat representation and the contribution of the empty trace categories of the treebank.",
     "year": 2005,
     "referenceCount": 60,
-    "citationCount": 2575,
+    "citationCount": 2576,
     "isOpenAccess": true,
     "s2FieldsOfStudy": [
       {
@@ -17345,7 +17345,7 @@
     "abstract": "Many real-world sequence learning tasks require the prediction of sequences of labels from noisy, unsegmented input data. In speech recognition, for example, an acoustic signal is transcribed into words or sub-word units. Recurrent neural networks (RNNs) are powerful sequence learners that would seem well suited to such tasks. However, because they require pre-segmented training data, and post-processing to transform their outputs into label sequences, their applicability has so far been limited. This paper presents a novel method for training RNNs to label un-segmented sequences directly, thereby solving both problems. An experiment on the TIMIT speech corpus demonstrates its advantages over both a baseline HMM and a hybrid HMM-RNN.",
     "year": null,
     "referenceCount": 18,
-    "citationCount": 4455,
+    "citationCount": 4454,
     "isOpenAccess": false,
     "s2FieldsOfStudy": [
       {
@@ -17915,7 +17915,7 @@
     "abstract": "This article surveys and organizes research works in a new paradigm in natural language processing, which we dub \u201cprompt-based learning.\u201d Unlike traditional supervised learning, which trains a model to take in an input x and predict an output y as P(y|x), prompt-based learning is based on language models that model the probability of text directly. To use these models to perform prediction tasks, the original input x is modified using a template into a textual string prompt x\u2032 that has some unfilled slots, and then the language model is used to probabilistically fill the unfilled information to obtain a final string x\u0302, from which the final output y can be derived. This framework is powerful and attractive for a number of reasons: It allows the language model to be pre-trained on massive amounts of raw text, and by defining a new prompting function the model is able to perform few-shot or even zero-shot learning, adapting to new scenarios with few or no labeled data. In this article, we introduce the basics of this promising paradigm, describe a unified set of mathematical notations that can cover a wide variety of existing work, and organize existing work along several dimensions, e.g., the choice of pre-trained language models, prompts, and tuning strategies. To make the field more accessible to interested beginners, we not only make a systematic review of existing works and a highly structured typology of prompt-based concepts but also release other resources, e.g., a website NLPedia\u2013Pretrain including constantly updated survey and paperlist.",
     "year": 2021,
     "referenceCount": 222,
-    "citationCount": 2973,
+    "citationCount": 2978,
     "isOpenAccess": true,
     "s2FieldsOfStudy": [
       {
@@ -18033,7 +18033,7 @@
     "abstract": "Pretrained Transformers achieve remarkable performance when training and test data are from the same distribution. However, in real-world scenarios, the model often faces out-of-distribution (OOD) instances that can cause severe semantic shift problems at inference time. Therefore, in practice, a reliable model should identify such instances, and then either reject them during inference or pass them over to models that handle another distribution. In this paper, we develop an unsupervised OOD detection method, in which only the in-distribution (ID) data are used in training. We propose to fine-tune the Transformers with a contrastive loss, which improves the compactness of representations, such that OOD instances can be better differentiated from ID ones. These OOD instances can then be accurately detected using the Mahalanobis distance in the model\u2019s penultimate layer. We experiment with comprehensive settings and achieve near-perfect OOD detection performance, outperforming baselines drastically. We further investigate the rationales behind the improvement, finding that more compact representations through margin-based contrastive learning bring the improvement. We release our code to the community for future research.",
     "year": 2021,
     "referenceCount": 54,
-    "citationCount": 86,
+    "citationCount": 87,
     "isOpenAccess": true,
     "s2FieldsOfStudy": [
       {
@@ -18911,7 +18911,7 @@
     "abstract": "In this work, we develop a technique to produce counterfactual visual explanations. Given a 'query' image $I$ for which a vision system predicts class $c$, a counterfactual visual explanation identifies how $I$ could change such that the system would output a different specified class $c'$. To do this, we select a 'distractor' image $I'$ that the system predicts as class $c'$ and identify spatial regions in $I$ and $I'$ such that replacing the identified region in $I$ with the identified region in $I'$ would push the system towards classifying $I$ as $c'$. We apply our approach to multiple image classification datasets generating qualitative results showcasing the interpretability and discriminativeness of our counterfactual explanations. To explore the effectiveness of our explanations in teaching humans, we present machine teaching experiments for the task of fine-grained bird classification. We find that users trained to distinguish bird species fare better when given access to counterfactual explanations in addition to training examples.",
     "year": 2019,
     "referenceCount": 31,
-    "citationCount": 459,
+    "citationCount": 458,
     "isOpenAccess": false,
     "s2FieldsOfStudy": [
       {
@@ -19028,7 +19028,7 @@
     "abstract": "Confidence calibration -- the problem of predicting probability estimates representative of the true correctness likelihood -- is important for classification models in many applications. We discover that modern neural networks, unlike those from a decade ago, are poorly calibrated. Through extensive experiments, we observe that depth, width, weight decay, and Batch Normalization are important factors influencing calibration. We evaluate the performance of various post-processing calibration methods on state-of-the-art architectures with image and document classification datasets. Our analysis and experiments not only offer insights into neural network learning, but also provide a simple and straightforward recipe for practical settings: on most datasets, temperature scaling -- a single-parameter variant of Platt Scaling -- is surprisingly effective at calibrating predictions.",
     "year": 2017,
     "referenceCount": 52,
-    "citationCount": 4984,
+    "citationCount": 4989,
     "isOpenAccess": false,
     "s2FieldsOfStudy": [
       {
@@ -19071,7 +19071,7 @@
     "abstract": "One way to interpret neural model predictions is to highlight the most important input features\u2014for example, a heatmap visualization over the words in an input sentence. In existing interpretation methods for NLP, a word\u2019s importance is determined by either input perturbation\u2014measuring the decrease in model confidence when that word is removed\u2014or by the gradient with respect to that word. To understand the limitations of these methods, we use input reduction, which iteratively removes the least important word from the input. This exposes pathological behaviors of neural models: the remaining words appear nonsensical to humans and are not the ones determined as important by interpretation methods. As we confirm with human experiments, the reduced examples lack information to support the prediction of any label, but models still make the same predictions with high confidence. To explain these counterintuitive results, we draw connections to adversarial examples and confidence calibration: pathological behaviors reveal difficulties in interpreting neural models trained with maximum likelihood. To mitigate their deficiencies, we fine-tune the models by encouraging high entropy outputs on reduced examples. Fine-tuned models become more interpretable under input reduction, without accuracy loss on regular examples.",
     "year": 2018,
     "referenceCount": 50,
-    "citationCount": 305,
+    "citationCount": 306,
     "isOpenAccess": true,
     "s2FieldsOfStudy": [
       {
@@ -19151,7 +19151,7 @@
     "abstract": "Explainable artificially intelligent (XAI) systems form part of sociotechnical systems, e.g., human+AI teams tasked with making decisions. Yet, current XAI systems are rarely evaluated by measuring the performance of human+AI teams on actual decision-making tasks. We conducted two online experiments and one in-person think-aloud study to evaluate two currently common techniques for evaluating XAI systems: (1) using proxy, artificial tasks such as how well humans predict the AI's decision from the given explanations, and (2) using subjective measures of trust and preference as predictors of actual performance. The results of our experiments demonstrate that evaluations with proxy tasks did not predict the results of the evaluations with the actual decision-making tasks. Further, the subjective measures on evaluations with actual decision-making tasks did not predict the objective performance on those same tasks. Our results suggest that by employing misleading evaluation methods, our field may be inadvertently slowing its progress toward developing human+AI teams that can reliably perform better than humans or AIs alone.",
     "year": 2020,
     "referenceCount": 50,
-    "citationCount": 224,
+    "citationCount": 225,
     "isOpenAccess": true,
     "s2FieldsOfStudy": [
       {
@@ -19234,7 +19234,7 @@
     "abstract": "A surge of interest in explainable AI (XAI) has led to a vast collection of algorithmic work on the topic. While many recognize the necessity to incorporate explainability features in AI systems, how to address real-world user needs for understanding AI remains an open question. By interviewing 20 UX and design practitioners working on various AI products, we seek to identify gaps between the current XAI algorithmic work and practices to create explainable AI products. To do so, we develop an algorithm-informed XAI question bank in which user needs for explainability are represented as prototypical questions users might ask about the AI, and use it as a study probe. Our work contributes insights into the design space of XAI, informs efforts to support design practices in this space, and identifies opportunities for future XAI work. We also provide an extended XAI question bank and discuss how it can be used for creating user-centered XAI.",
     "year": 2020,
     "referenceCount": 107,
-    "citationCount": 584,
+    "citationCount": 586,
     "isOpenAccess": true,
     "s2FieldsOfStudy": [
       {
@@ -19457,7 +19457,7 @@
     "abstract": "Evidence suggests that consumers often hesitate to transact with Web-based vendors because of uncertainty about vendor behavior or the perceived risk of having personal information stolen by hackers. Trust plays a central role in helping consumers overcome perceptions of risk and insecurity. Trust makes consumers comfortable sharing personal information, making purchases, and acting on Web vendor advice--behaviors essential to widespread adoption of e-commerce. Therefore, trust is critical to both researchers and practitioners. Prior research on e-commerce trust has used diverse, incomplete, and inconsistent definitions of trust, making it difficult to compare results across studies. This paper contributes by proposing and validating measures for a multidisciplinary, multidimensional model of trust in e-commerce. The model includes four high-level constructs--disposition to trust, institution-based trust, trusting beliefs, and trusting intentions--which are further delineated into 16 measurable, literature-grounded subconstructs. The psychometric properties of the measures are demonstrated through use of a hypothetical, legal advice Web site. The results show that trust is indeed a multidimensional concept. Proposed relationships among the trust constructs are tested (for internal nomological validity), as are relationships between the trust constructs and three other e-commerce constructs (for external nomological validity)--Web experience, personal innovativeness, and Web site quality. Suggestions for future research as well as implications for practice are discussed.",
     "year": 2002,
     "referenceCount": 124,
-    "citationCount": 4933,
+    "citationCount": 4934,
     "isOpenAccess": true,
     "s2FieldsOfStudy": [
       {
@@ -19504,7 +19504,7 @@
     "abstract": "Increasingly, algorithms are used to make important decisions across society. However, these algorithms are usually poorly understood, which can reduce transparency and evoke negative emotions. In this research, we seek to learn design principles for explanation interfaces that communicate how decision-making algorithms work, in order to help organizations explain their decisions to stakeholders, or to support users' \"right to explanation\". We conducted an online experiment where 199 participants used different explanation interfaces to understand an algorithm for making university admissions decisions. We measured users' objective and self-reported understanding of the algorithm. Our results show that both interactive explanations and \"white-box\" explanations (i.e. that show the inner workings of an algorithm) can improve users' comprehension. Although the interactive approach is more effective at improving comprehension, it comes with a trade-off of taking more time. Surprisingly, we also find that users' trust in algorithmic decisions is not affected by the explanation interface or their level of comprehension of the algorithm.",
     "year": 2019,
     "referenceCount": 56,
-    "citationCount": 279,
+    "citationCount": 281,
     "isOpenAccess": false,
     "s2FieldsOfStudy": [
       {
@@ -20022,7 +20022,7 @@
     "abstract": "Our experience of the world is multimodal - we see objects, hear sounds, feel texture, smell odors, and taste flavors. Modality refers to the way in which something happens or is experienced and a research problem is characterized as multimodal when it includes multiple such modalities. In order for Artificial Intelligence to make progress in understanding the world around us, it needs to be able to interpret such multimodal signals together. Multimodal machine learning aims to build models that can process and relate information from multiple modalities. It is a vibrant multi-disciplinary field of increasing importance and with extraordinary potential. Instead of focusing on specific multimodal applications, this paper surveys the recent advances in multimodal machine learning itself and presents them in a common taxonomy. We go beyond the typical early and late fusion categorization and identify broader challenges that are faced by multimodal machine learning, namely: representation, translation, alignment, fusion, and co-learning. This new taxonomy will enable researchers to better understand the state of the field and identify directions for future research.",
     "year": 2017,
     "referenceCount": 273,
-    "citationCount": 2433,
+    "citationCount": 2435,
     "isOpenAccess": true,
     "s2FieldsOfStudy": [
       {
@@ -20067,7 +20067,7 @@
     "abstract": "The success of machine learning algorithms generally depends on data representation, and we hypothesize that this is because different representations can entangle and hide more or less the different explanatory factors of variation behind the data. Although specific domain knowledge can be used to help design representations, learning with generic priors can also be used, and the quest for AI is motivating the design of more powerful representation-learning algorithms implementing such priors. This paper reviews recent work in the area of unsupervised feature learning and deep learning, covering advances in probabilistic models, autoencoders, manifold learning, and deep networks. This motivates longer term unanswered questions about the appropriate objectives for learning good representations, for computing representations (i.e., inference), and the geometrical connections between representation learning, density estimation, and manifold learning.",
     "year": 2012,
     "referenceCount": 264,
-    "citationCount": 11613,
+    "citationCount": 11614,
     "isOpenAccess": true,
     "s2FieldsOfStudy": [
       {
@@ -20162,7 +20162,7 @@
     "abstract": "Data often consists of multiple diverse modalities. For example, images are tagged with textual information and videos are accompanied by audio. Each modality is characterized by having distinct statistical properties. We propose a Deep Boltzmann Machine for learning a generative model of such multimodal data. We show that the model can be used to create fused representations by combining features across modalities. These learned representations are useful for classification and information retrieval. By sampling from the conditional distributions over each data modality, it is possible to create these representations even when some data modalities are missing. We conduct experiments on bimodal image-text and audio-video data. The fused representation achieves good classification results on the MIR-Flickr data set matching or outperforming other deep models as well as SVM based models that use Multiple Kernel Learning. We further demonstrate that this multimodal model helps classification and retrieval even when only unimodal data is available at test time.",
     "year": 2012,
     "referenceCount": 44,
-    "citationCount": 1679,
+    "citationCount": 1680,
     "isOpenAccess": false,
     "s2FieldsOfStudy": [
       {
@@ -20201,7 +20201,7 @@
     "abstract": "Learning multimodal representations is a fundamentally complex research problem due to the presence of multiple heterogeneous sources of information. Although the presence of multiple modalities provides additional valuable information, there are two key challenges to address when learning from multimodal data: 1) models must learn the complex intra-modal and cross-modal interactions for prediction and 2) models must be robust to unexpected missing or noisy modalities during testing. In this paper, we propose to optimize for a joint generative-discriminative objective across multimodal data and labels. We introduce a model that factorizes representations into two sets of independent factors: multimodal discriminative and modality-specific generative factors. Multimodal discriminative factors are shared across all modalities and contain joint multimodal features required for discriminative tasks such as sentiment prediction. Modality-specific generative factors are unique for each modality and contain the information required for generating data. Experimental results show that our model is able to learn meaningful multimodal representations that achieve state-of-the-art or competitive performance on six multimodal datasets. Our model demonstrates flexible generative capabilities by conditioning on independent factors and can reconstruct missing modalities without significantly impacting performance. Lastly, we interpret our factorized representations to understand the interactions that influence multimodal learning.",
     "year": 2018,
     "referenceCount": 81,
-    "citationCount": 350,
+    "citationCount": 351,
     "isOpenAccess": false,
     "s2FieldsOfStudy": [
       {
@@ -20474,7 +20474,7 @@
     "abstract": "Text-to-image generation has traditionally focused on finding better modeling assumptions for training on a fixed dataset. These assumptions might involve complex architectures, auxiliary losses, or side information such as object part labels or segmentation masks supplied during training. We describe a simple approach for this task based on a transformer that autoregressively models the text and image tokens as a single stream of data. With sufficient data and scale, our approach is competitive with previous domain-specific models when evaluated in a zero-shot fashion.",
     "year": 2021,
     "referenceCount": 64,
-    "citationCount": 3802,
+    "citationCount": 3805,
     "isOpenAccess": false,
     "s2FieldsOfStudy": [
       {
@@ -20500,7 +20500,7 @@
     "abstract": "Learning multimodal representations involves integrating information from multiple heterogeneous sources of data. It is a challenging yet crucial area with numerous real-world applications in multimedia, affective computing, robotics, finance, human-computer interaction, and healthcare. Unfortunately, multimodal research has seen limited resources to study (1) generalization across domains and modalities, (2) complexity during training and inference, and (3) robustness to noisy and missing modalities. In order to accelerate progress towards understudied modalities and tasks while ensuring real-world robustness, we release MultiBench, a systematic and unified large-scale benchmark for multimodal learning spanning 15 datasets, 10 modalities, 20 prediction tasks, and 6 research areas. MultiBench provides an automated end-to-end machine learning pipeline that simplifies and standardizes data loading, experimental setup, and model evaluation. To enable holistic evaluation, MultiBench offers a comprehensive methodology to assess (1) generalization, (2) time and space complexity, and (3) modality robustness. MultiBench introduces impactful challenges for future research, including scalability to large-scale multimodal datasets and robustness to realistic imperfections. To accompany this benchmark, we also provide a standardized implementation of 20 core approaches in multimodal learning spanning innovations in fusion paradigms, optimization objectives, and training approaches. Simply applying methods proposed in different research areas can improve the state-of-the-art performance on 9/15 datasets. Therefore, MultiBench presents a milestone in unifying disjoint efforts in multimodal machine learning research and paves the way towards a better understanding of the capabilities and limitations of multimodal models, all the while ensuring ease of use, accessibility, and reproducibility. MultiBench, our standardized implementations, and leaderboards are publicly available, will be regularly updated, and welcomes inputs from the community.",
     "year": 2021,
     "referenceCount": 190,
-    "citationCount": 126,
+    "citationCount": 127,
     "isOpenAccess": false,
     "s2FieldsOfStudy": [
       {
@@ -20623,7 +20623,7 @@
     "abstract": "This paper presents SimCLR: a simple framework for contrastive learning of visual representations. We simplify recently proposed contrastive self-supervised learning algorithms without requiring specialized architectures or a memory bank. In order to understand what enables the contrastive prediction tasks to learn useful representations, we systematically study the major components of our framework. We show that (1) composition of data augmentations plays a critical role in defining effective predictive tasks, (2) introducing a learnable nonlinear transformation between the representation and the contrastive loss substantially improves the quality of the learned representations, and (3) contrastive learning benefits from larger batch sizes and more training steps compared to supervised learning. By combining these findings, we are able to considerably outperform previous methods for self-supervised and semi-supervised learning on ImageNet. A linear classifier trained on self-supervised representations learned by SimCLR achieves 76.5% top-1 accuracy, which is a 7% relative improvement over previous state-of-the-art, matching the performance of a supervised ResNet-50. When fine-tuned on only 1% of the labels, we achieve 85.8% top-5 accuracy, outperforming AlexNet with 100X fewer labels.",
     "year": 2020,
     "referenceCount": 67,
-    "citationCount": 15538,
+    "citationCount": 15551,
     "isOpenAccess": false,
     "s2FieldsOfStudy": [
       {
@@ -20665,7 +20665,7 @@
     "abstract": "This paper presents SimCSE, a simple contrastive learning framework that greatly advances the state-of-the-art sentence embeddings. We first describe an unsupervised approach, which takes an input sentence and predicts itself in a contrastive objective, with only standard dropout used as noise. This simple method works surprisingly well, performing on par with previous supervised counterparts. We find that dropout acts as minimal data augmentation and removing it leads to a representation collapse. Then, we propose a supervised approach, which incorporates annotated pairs from natural language inference datasets into our contrastive learning framework, by using \u201centailment\u201d pairs as positives and \u201ccontradiction\u201d pairs as hard negatives. We evaluate SimCSE on standard semantic textual similarity (STS) tasks, and our unsupervised and supervised models using BERT base achieve an average of 76.3% and 81.6% Spearman\u2019s correlation respectively, a 4.2% and 2.2% improvement compared to previous best results. We also show\u2014both theoretically and empirically\u2014that contrastive learning objective regularizes pre-trained embeddings\u2019 anisotropic space to be more uniform, and it better aligns positive pairs when supervised signals are available.",
     "year": 2021,
     "referenceCount": 68,
-    "citationCount": 2679,
+    "citationCount": 2681,
     "isOpenAccess": true,
     "s2FieldsOfStudy": [
       {
@@ -21210,7 +21210,7 @@
     "abstract": "Large language models (LLMs) have recently demonstrated an impressive ability to perform arithmetic and symbolic reasoning tasks, when provided with a few examples at test time (\"few-shot prompting\"). Much of this success can be attributed to prompting methods such as\"chain-of-thought'', which employ LLMs for both understanding the problem description by decomposing it into steps, as well as solving each step of the problem. While LLMs seem to be adept at this sort of step-by-step decomposition, LLMs often make logical and arithmetic mistakes in the solution part, even when the problem is decomposed correctly. In this paper, we present Program-Aided Language models (PAL): a novel approach that uses the LLM to read natural language problems and generate programs as the intermediate reasoning steps, but offloads the solution step to a runtime such as a Python interpreter. With PAL, decomposing the natural language problem into runnable steps remains the only learning task for the LLM, while solving is delegated to the interpreter. We demonstrate this synergy between a neural LLM and a symbolic interpreter across 13 mathematical, symbolic, and algorithmic reasoning tasks from BIG-Bench Hard and other benchmarks. In all these natural language reasoning tasks, generating code using an LLM and reasoning using a Python interpreter leads to more accurate results than much larger models. For example, PAL using Codex achieves state-of-the-art few-shot accuracy on the GSM8K benchmark of math word problems, surpassing PaLM-540B which uses chain-of-thought by absolute 15% top-1. Our code and data are publicly available at http://reasonwithpal.com/ .",
     "year": 2022,
     "referenceCount": 67,
-    "citationCount": 322,
+    "citationCount": 323,
     "isOpenAccess": true,
     "s2FieldsOfStudy": [
       {
@@ -21645,7 +21645,7 @@
     "abstract": "We enhance auto-regressive language models by conditioning on document chunks retrieved from a large corpus, based on local similarity with preceding tokens. With a $2$ trillion token database, our Retrieval-Enhanced Transformer (RETRO) obtains comparable performance to GPT-3 and Jurassic-1 on the Pile, despite using 25$\\times$ fewer parameters. After fine-tuning, RETRO performance translates to downstream knowledge-intensive tasks such as question answering. RETRO combines a frozen Bert retriever, a differentiable encoder and a chunked cross-attention mechanism to predict tokens based on an order of magnitude more data than what is typically consumed during training. We typically train RETRO from scratch, yet can also rapidly RETROfit pre-trained transformers with retrieval and still achieve good performance. Our work opens up new avenues for improving language models through explicit memory at unprecedented scale.",
     "year": 2021,
     "referenceCount": 65,
-    "citationCount": 761,
+    "citationCount": 762,
     "isOpenAccess": false,
     "s2FieldsOfStudy": [
       {
@@ -22616,7 +22616,7 @@
     "abstract": "This paper introduces the SAMSum Corpus, a new dataset with abstractive dialogue summaries. We investigate the challenges it poses for automated summarization by testing several models and comparing their results with those obtained on a corpus of news articles. We show that model-generated summaries of dialogues achieve higher ROUGE scores than the model-generated summaries of news \u2013 in contrast with human evaluators\u2019 judgement. This suggests that a challenging task of abstractive dialogue summarization requires dedicated models and non-standard quality measures. To our knowledge, our study is the first attempt to introduce a high-quality chat-dialogues corpus, manually annotated with abstractive summarizations, which can be used by the research community for further studies.",
     "year": 2019,
     "referenceCount": 32,
-    "citationCount": 502,
+    "citationCount": 503,
     "isOpenAccess": true,
     "s2FieldsOfStudy": [
       {
@@ -23060,7 +23060,7 @@
     "abstract": "A key part of the NLP ethics movement is responsible use of data, but exactly what that means or how it can be best achieved remain unclear. This position paper discusses the core legal and ethical principles for collection and sharing of textual data, and the tensions between them. We propose a potential checklist for responsible data (re-)use that could both standardise the peer review of conference submissions, as well as enable a more in-depth view of published research across the community. Our proposal aims to contribute to the development of a consistent standard for data (re-)use, embraced across NLP conferences.",
     "year": 2021,
     "referenceCount": 78,
-    "citationCount": 55,
+    "citationCount": 56,
     "isOpenAccess": true,
     "s2FieldsOfStudy": [
       {
@@ -24172,7 +24172,7 @@
     "abstract": "The problem of privacy-preserving data analysis has a long history spanning multiple disciplines. As electronic data about individuals becomes increasingly detailed, and as technology enables ever more powerful collection and curation of these data, the need increases for a robust, meaningful, and mathematically rigorous definition of privacy, together with a computationally rich class of algorithms that satisfy this definition. Differential Privacy is such a definition.After motivating and discussing the meaning of differential privacy, the preponderance of this monograph is devoted to fundamental techniques for achieving differential privacy, and application of these techniques in creative combinations, using the query-release problem as an ongoing example. A key point is that, by rethinking the computational goal, one can often obtain far better results than would be achieved by methodically replacing each step of a non-private computation with a differentially private implementation. Despite some astonishingly powerful computational results, there are still fundamental limitations \u2014 not just on what can be achieved with differential privacy but on what can be achieved with any method that protects against a complete breakdown in privacy. Virtually all the algorithms discussed herein maintain differential privacy against adversaries of arbitrary computational power. Certain algorithms are computationally intensive, others are efficient. Computational complexity for the adversary and the algorithm are both discussed.We then turn from fundamentals to applications other than queryrelease, discussing differentially private methods for mechanism design and machine learning. The vast majority of the literature on differentially private algorithms considers a single, static, database that is subject to many analyses. Differential privacy in other models, including distributed databases and computations on data streams is discussed.Finally, we note that this work is meant as a thorough introduction to the problems and techniques of differential privacy, but is not intended to be an exhaustive survey \u2014 there is by now a vast amount of work in differential privacy, and we can cover only a small portion of it.",
     "year": 2014,
     "referenceCount": 96,
-    "citationCount": 6778,
+    "citationCount": 6780,
     "isOpenAccess": true,
     "s2FieldsOfStudy": [
       {
@@ -24210,7 +24210,7 @@
     "abstract": "Deep learning-based techniques have achieved state-of-the-art performance on a wide variety of recognition and classification tasks. However, these networks are typically computationally expensive to train, requiring weeks of computation on many GPUs; as a result, many users outsource the training procedure to the cloud or rely on pre-trained models that are then fine-tuned for a specific task. In this paper we show that outsourced training introduces new security risks: an adversary can create a maliciously trained network (a backdoored neural network, or a \\emph{BadNet}) that has state-of-the-art performance on the user's training and validation samples, but behaves badly on specific attacker-chosen inputs. We first explore the properties of BadNets in a toy example, by creating a backdoored handwritten digit classifier. Next, we demonstrate backdoors in a more realistic scenario by creating a U.S. street sign classifier that identifies stop signs as speed limits when a special sticker is added to the stop sign; we then show in addition that the backdoor in our US street sign detector can persist even if the network is later retrained for another task and cause a drop in accuracy of {25}\\% on average when the backdoor trigger is present. These results demonstrate that backdoors in neural networks are both powerful and---because the behavior of neural networks is difficult to explicate---stealthy. This work provides motivation for further research into techniques for verifying and inspecting neural networks, just as we have developed tools for verifying and debugging software.",
     "year": 2017,
     "referenceCount": 52,
-    "citationCount": 1510,
+    "citationCount": 1511,
     "isOpenAccess": false,
     "s2FieldsOfStudy": [
       {
@@ -24359,7 +24359,7 @@
     "abstract": "It has become common to publish large (billion parameter) language models that have been trained on private datasets. This paper demonstrates that in such settings, an adversary can perform a training data extraction attack to recover individual training examples by querying the language model. \nWe demonstrate our attack on GPT-2, a language model trained on scrapes of the public Internet, and are able to extract hundreds of verbatim text sequences from the model's training data. These extracted examples include (public) personally identifiable information (names, phone numbers, and email addresses), IRC conversations, code, and 128-bit UUIDs. Our attack is possible even though each of the above sequences are included in just one document in the training data. \nWe comprehensively evaluate our extraction attack to understand the factors that contribute to its success. For example, we find that larger models are more vulnerable than smaller models. We conclude by drawing lessons and discussing possible safeguards for training large language models.",
     "year": 2020,
     "referenceCount": 75,
-    "citationCount": 1391,
+    "citationCount": 1392,
     "isOpenAccess": false,
     "s2FieldsOfStudy": [
       {
@@ -24580,7 +24580,7 @@
     "abstract": "Once users have shared their data online, it is generally difficult for them to revoke access and ask for the data to be deleted. Machine learning (ML) exacerbates this problem because any model trained with said data may have memorized it, putting users at risk of a successful privacy attack exposing their information. Yet, having models unlearn is notoriously difficult.We introduce SISA training, a framework that expedites the unlearning process by strategically limiting the influence of a data point in the training procedure. While our framework is applicable to any learning algorithm, it is designed to achieve the largest improvements for stateful algorithms like stochastic gradient descent for deep neural networks. SISA training reduces the computational overhead associated with unlearning, even in the worst-case setting where unlearning requests are made uniformly across the training set. In some cases, the service provider may have a prior on the distribution of unlearning requests that will be issued by users. We may take this prior into account to partition and order data accordingly, and further decrease overhead from unlearning.Our evaluation spans several datasets from different domains, with corresponding motivations for unlearning. Under no distributional assumptions, for simple learning tasks, we observe that SISA training improves time to unlearn points from the Purchase dataset by 4.63\u00d7, and 2.45\u00d7 for the SVHN dataset, over retraining from scratch. SISA training also provides a speed-up of 1.36\u00d7 in retraining for complex learning tasks such as ImageNet classification; aided by transfer learning, this results in a small degradation in accuracy. Our work contributes to practical data governance in machine unlearning.",
     "year": 2019,
     "referenceCount": 68,
-    "citationCount": 590,
+    "citationCount": 591,
     "isOpenAccess": false,
     "s2FieldsOfStudy": [
       {
@@ -24728,7 +24728,7 @@
     "abstract": "Artificial Intelligence (AI) plays an increasingly important role in improving HCI and user experience. Yet many challenges persist in designing and innovating valuable human-AI interactions. For example, AI systems can make unpredictable errors, and these errors damage UX and even lead to undesired societal impact. However, HCI routinely grapples with complex technologies and mitigates their unintended consequences. What makes AI different? What makes human-AI interaction appear particularly difficult to design? This paper investigates these questions. We synthesize prior research, our own design and research experience, and our observations when teaching human-AI interaction. We identify two sources of AI's distinctive design challenges: 1) uncertainty surrounding AI's capabilities, 2) AI's output complexity, spanning from simple to adaptive complex. We identify four levels of AI systems. On each level, designers encounter a different subset of the design challenges. We demonstrate how these findings reveal new insights for designers, researchers, and design tool makers in productively addressing the challenges of human-AI interaction going forward.",
     "year": 2020,
     "referenceCount": 68,
-    "citationCount": 356,
+    "citationCount": 357,
     "isOpenAccess": true,
     "s2FieldsOfStudy": [
       {
@@ -24850,7 +24850,7 @@
     "abstract": "Advances in artificial intelligence (AI) frame opportunities and challenges for user interface design. Principles for human-AI interaction have been discussed in the human-computer interaction community for over two decades, but more study and innovation are needed in light of advances in AI and the growing uses of AI technologies in human-facing applications. We propose 18 generally applicable design guidelines for human-AI interaction. These guidelines are validated through multiple rounds of evaluation including a user study with 49 design practitioners who tested the guidelines against 20 popular AI-infused products. The results verify the relevance of the guidelines over a spectrum of interaction scenarios and reveal gaps in our knowledge, highlighting opportunities for further research. Based on the evaluations, we believe the set of design guidelines can serve as a resource to practitioners working on the design of applications and features that harness AI technologies, and to researchers interested in the further development of human-AI interaction design principles.",
     "year": 2019,
     "referenceCount": 45,
-    "citationCount": 1060,
+    "citationCount": 1062,
     "isOpenAccess": false,
     "s2FieldsOfStudy": [
       {
@@ -24885,7 +24885,7 @@
     "abstract": "Making language models bigger does not inherently make them better at following a user's intent. For example, large language models can generate outputs that are untruthful, toxic, or simply not helpful to the user. In other words, these models are not aligned with their users. In this paper, we show an avenue for aligning language models with user intent on a wide range of tasks by fine-tuning with human feedback. Starting with a set of labeler-written prompts and prompts submitted through the OpenAI API, we collect a dataset of labeler demonstrations of the desired model behavior, which we use to fine-tune GPT-3 using supervised learning. We then collect a dataset of rankings of model outputs, which we use to further fine-tune this supervised model using reinforcement learning from human feedback. We call the resulting models InstructGPT. In human evaluations on our prompt distribution, outputs from the 1.3B parameter InstructGPT model are preferred to outputs from the 175B GPT-3, despite having 100x fewer parameters. Moreover, InstructGPT models show improvements in truthfulness and reductions in toxic output generation while having minimal performance regressions on public NLP datasets. Even though InstructGPT still makes simple mistakes, our results show that fine-tuning with human feedback is a promising direction for aligning language models with human intent.",
     "year": 2022,
     "referenceCount": 83,
-    "citationCount": 8495,
+    "citationCount": 8504,
     "isOpenAccess": false,
     "s2FieldsOfStudy": [
       {
@@ -24921,7 +24921,7 @@
     "abstract": "As language models become more powerful, training and evaluation are increasingly bottlenecked by the data and metrics used for a particular task. For example, summarization models are often trained to predict human reference summaries and evaluated using ROUGE, but both of these metrics are rough proxies for what we really care about---summary quality. In this work, we show that it is possible to significantly improve summary quality by training a model to optimize for human preferences. We collect a large, high-quality dataset of human comparisons between summaries, train a model to predict the human-preferred summary, and use that model as a reward function to fine-tune a summarization policy using reinforcement learning. We apply our method to a version of the TL;DR dataset of Reddit posts and find that our models significantly outperform both human reference summaries and much larger models fine-tuned with supervised learning alone. Our models also transfer to CNN/DM news articles, producing summaries nearly as good as the human reference without any news-specific fine-tuning. We conduct extensive analyses to understand our human feedback dataset and fine-tuned models We establish that our reward model generalizes to new datasets, and that optimizing our reward model results in better summaries than optimizing ROUGE according to humans. We hope the evidence from our paper motivates machine learning researchers to pay closer attention to how their training loss affects the model behavior they actually want.",
     "year": 2020,
     "referenceCount": 84,
-    "citationCount": 1418,
+    "citationCount": 1420,
     "isOpenAccess": false,
     "s2FieldsOfStudy": [
       {
@@ -25847,7 +25847,7 @@
     "abstract": "Narrative, and in particular storytelling, is an important part of the human experience. Consequently, computational systems that can reason about narrative can be more effective communicators, entertainers, educators, and trainers. One of the central challenges in computational narrative reasoning is narrative generation, the automated creation of meaningful event sequences. There are many factors - logical and aesthetic - that contribute to the success of a narrative artifact. Central to this success is its understandability. We argue that the following two attributes of narratives are universal: (a) the logical causal progression of plot, and (b) character believability. Character believability is the perception by the audience that the actions performed by characters do not negatively impact the audience's suspension of disbelief. Specifically, characters must be perceived by the audience to be intentional agents. In this article, we explore the use of refinement search as a technique for solving the narrative generation problem - to find a sound and believable sequence of character actions that transforms an initial world state into a world state in which goal propositions hold. We describe a novel refinement search planning algorithm - the Intent-based Partial Order Causal Link (IPOCL) planner - that, in addition to creating causally sound plot progression, reasons about character intentionality by identifying possible character goals that explain their actions and creating plan structures that explain why those characters commit to their goals. We present the results of an empirical evaluation that demonstrates that narrative plans generated by the IPOCL algorithm support audience comprehension of character intentions better than plans generated by conventional partial-order planners.",
     "year": 2010,
     "referenceCount": 96,
-    "citationCount": 557,
+    "citationCount": 558,
     "isOpenAccess": true,
     "s2FieldsOfStudy": [
       {
@@ -26004,7 +26004,7 @@
     "abstract": "We present high quality image synthesis results using diffusion probabilistic models, a class of latent variable models inspired by considerations from nonequilibrium thermodynamics. Our best results are obtained by training on a weighted variational bound designed according to a novel connection between diffusion probabilistic models and denoising score matching with Langevin dynamics, and our models naturally admit a progressive lossy decompression scheme that can be interpreted as a generalization of autoregressive decoding. On the unconditional CIFAR10 dataset, we obtain an Inception score of 9.46 and a state-of-the-art FID score of 3.17. On 256x256 LSUN, we obtain sample quality similar to ProgressiveGAN. Our implementation is available at this https URL",
     "year": 2020,
     "referenceCount": 72,
-    "citationCount": 10780,
+    "citationCount": 10795,
     "isOpenAccess": false,
     "s2FieldsOfStudy": [
       {
@@ -26221,7 +26221,7 @@
     "abstract": "Driven by the goal of eradicating language barriers on a global scale, machine translation has solidified itself as a key focus of artificial intelligence research today. However, such efforts have coalesced around a small subset of languages, leaving behind the vast majority of mostly low-resource languages. What does it take to break the 200 language barrier while ensuring safe, high quality results, all while keeping ethical considerations in mind? In No Language Left Behind, we took on this challenge by first contextualizing the need for low-resource language translation support through exploratory interviews with native speakers. Then, we created datasets and models aimed at narrowing the performance gap between low and high-resource languages. More specifically, we developed a conditional compute model based on Sparsely Gated Mixture of Experts that is trained on data obtained with novel and effective data mining techniques tailored for low-resource languages. We propose multiple architectural and training improvements to counteract overfitting while training on thousands of tasks. Critically, we evaluated the performance of over 40,000 different translation directions using a human-translated benchmark, Flores-200, and combined human evaluation with a novel toxicity benchmark covering all languages in Flores-200 to assess translation safety. Our model achieves an improvement of 44% BLEU relative to the previous state-of-the-art, laying important groundwork towards realizing a universal translation system. Finally, we open source all contributions described in this work, accessible at https://github.com/facebookresearch/fairseq/tree/nllb.",
     "year": 2022,
     "referenceCount": 0,
-    "citationCount": 844,
+    "citationCount": 845,
     "isOpenAccess": true,
     "s2FieldsOfStudy": [
       {
@@ -26364,7 +26364,7 @@
     "abstract": "Large pre-trained language models (LMs) have demonstrated the ability to obtain good performance on downstream tasks with limited examples in cross-lingual settings. However, this was mostly studied for relatively resource-rich languages, where at least enough unlabeled data is available to be included in pre-training a multilingual language model. In this paper, we explore the problem of cross-lingual transfer in unseen languages, where no unlabeled data is available for pre-training a model. We use a downstream sentiment analysis task across 12 languages, including 8 unseen languages, to analyze the effectiveness of several few-shot learning strategies across the three major types of model architectures and their learning dynamics. We also compare strategies for selecting languages for transfer and contrast findings across languages seen in pre-training compared to those that are not. Our findings contribute to the body of knowledge on cross-lingual models for low-resource settings that is paramount to increasing coverage, diversity, and equity in access to NLP technology. We show that, in few-shot learning, linguistically similar and geographically similar languages are useful for cross-lingual adaptation, but taking the context from a mixture of random source languages is surprisingly more effective. We also compare different model architectures and show that the encoder-only model, XLM-R, gives the best downstream task performance.",
     "year": 2022,
     "referenceCount": 57,
-    "citationCount": 27,
+    "citationCount": 28,
     "isOpenAccess": false,
     "s2FieldsOfStudy": [
       {
@@ -26923,7 +26923,7 @@
     "abstract": null,
     "year": 2010,
     "referenceCount": 35,
-    "citationCount": 3193,
+    "citationCount": 3195,
     "isOpenAccess": true,
     "s2FieldsOfStudy": [
       {
@@ -26988,7 +26988,7 @@
     "abstract": "Machine learning is one of the fastest growing areas of computer science, with far-reaching applications. The aim of this textbook is to introduce machine learning, and the algorithmic paradigms it offers, in a principled way. The book provides an extensive theoretical account of the fundamental ideas underlying machine learning and the mathematical derivations that transform these principles into practical algorithms. Following a presentation of the basics of the field, the book covers a wide array of central topics that have not been addressed by previous textbooks. These include a discussion of the computational complexity of learning and the concepts of convexity and stability ; important algorithmic paradigms including stochastic gradient descent, neural networks, and structured output learning ; and emerging theoretical concepts such as the PACBayes approach and compression-based bounds. Designed for an advanced undergraduate or beginning graduate course, the text makes the fundamentals and algorithms of machine learning accessible to students and nonexpert readers in statistics, computer science, mathematics, and engineering.",
     "year": 2014,
     "referenceCount": 0,
-    "citationCount": 2687,
+    "citationCount": 2688,
     "isOpenAccess": false,
     "s2FieldsOfStudy": [
       {
@@ -27118,7 +27118,7 @@
     "abstract": null,
     "year": 2015,
     "referenceCount": 67,
-    "citationCount": 8363,
+    "citationCount": 8368,
     "isOpenAccess": false,
     "s2FieldsOfStudy": [
       {
@@ -27622,7 +27622,7 @@
     "abstract": "Automatic sentiment classification has been extensively studied and applied in recent years. However, sentiment is expressed differently in different domains, and annotating corpora for every possible domain of interest is impractical. We investigate domain adaptation for sentiment classifiers, focusing on online reviews for different types of products. First, we extend to sentiment classification the recently-proposed structural correspondence learning (SCL) algorithm, reducing the relative error due to adaptation between domains by an average of 30% over the original SCL algorithm and 46% over a supervised baseline. Second, we identify a measure of domain similarity that correlates well with the potential for adaptation of a classifier from one domain to another. This measure could for instance be used to select a small set of domains to annotate whose trained classifiers would transfer well to many other domains.",
     "year": 2007,
     "referenceCount": 12,
-    "citationCount": 2316,
+    "citationCount": 2317,
     "isOpenAccess": false,
     "s2FieldsOfStudy": [
       {
@@ -27814,7 +27814,7 @@
     "abstract": "Conversational agents such as chatbots have emerged as a useful resource to access real-time health information online. Perceptions of trust and credibility among chatbots have been attributed to the anthropomorphism and humanness of the chatbot design, with gender and race influencing their reception. Few existing studies have looked specifically at the diversity of chatbot avatar design related to both race, age, and gender, which may have particular significance for racially minoritized users like Black older adults. In this paper, we explored perceptions of chatbots with varying identities for health information seeking in a diary and interview study with 30 Black older adults. Our findings suggest that while racial and age likeness influence feelings of trust and comfort with chatbots, constructs such as professionalism and likeability and overall familiarity also influence reception. Based on these findings, we provide implications for designing text-based chatbots that consider Black older adults.",
     "year": 2023,
     "referenceCount": 86,
-    "citationCount": 9,
+    "citationCount": 10,
     "isOpenAccess": true,
     "s2FieldsOfStudy": [
       {
@@ -27969,7 +27969,7 @@
     "abstract": ",",
     "year": 2023,
     "referenceCount": 51,
-    "citationCount": 54,
+    "citationCount": 55,
     "isOpenAccess": true,
     "s2FieldsOfStudy": [
       {
@@ -28009,7 +28009,7 @@
     "abstract": "Large pre-trained language models contain societal biases and carry along these biases to downstream tasks. Current in-processing bias mitigation approaches (like adversarial training) impose debiasing by updating a model\u2019s parameters, effectively transferring the model to a new, irreversible debiased state. In this work, we propose a novel approach to develop stand-alone debiasing functionalities separate from the model, which can be integrated into the model on-demand, while keeping the core model untouched. Drawing from the concept of AdapterFusion in multi-task learning, we introduce DAM (Debiasing with Adapter Modules) \u2013 a debiasing approach to first encapsulate arbitrary bias mitigation functionalities into separate adapters, and then add them to the model on-demand in order to deliver fairness qualities. We conduct a large set of experiments on three classification tasks with gender, race, and age as protected attributes. Our results show that DAM improves or maintains the effectiveness of bias mitigation, avoids catastrophic forgetting in a multi-attribute scenario, and maintains on-par task performance, while granting parameter-efficiency and easy switching between the original and debiased models.",
     "year": 2023,
     "referenceCount": 58,
-    "citationCount": 20,
+    "citationCount": 21,
     "isOpenAccess": true,
     "s2FieldsOfStudy": [
       {
@@ -28495,7 +28495,7 @@
     "abstract": "We analyze the storage and recall of factual associations in autoregressive transformer language models, finding evidence that these associations correspond to localized, directly-editable computations. We first develop a causal intervention for identifying neuron activations that are decisive in a model's factual predictions. This reveals a distinct set of steps in middle-layer feed-forward modules that mediate factual predictions while processing subject tokens. To test our hypothesis that these computations correspond to factual association recall, we modify feed-forward weights to update specific factual associations using Rank-One Model Editing (ROME). We find that ROME is effective on a standard zero-shot relation extraction (zsRE) model-editing task, comparable to existing methods. To perform a more sensitive evaluation, we also evaluate ROME on a new dataset of counterfactual assertions, on which it simultaneously maintains both specificity and generalization, whereas other methods sacrifice one or another. Our results confirm an important role for mid-layer feed-forward modules in storing factual associations and suggest that direct manipulation of computational mechanisms may be a feasible approach for model editing. The code, dataset, visualizations, and an interactive demo notebook are available at https://rome.baulab.info/",
     "year": 2022,
     "referenceCount": 59,
-    "citationCount": 737,
+    "citationCount": 736,
     "isOpenAccess": false,
     "s2FieldsOfStudy": [
       {
@@ -29980,7 +29980,7 @@
     "abstract": "Molecule property prediction has gained significant attention in recent years. The main bottleneck is the label insufficiency caused by expensive lab experiments. In order to alleviate this issue and to better leverage textual knowledge for tasks, this study investigates the feasibility of employing natural language instructions to accomplish molecule-related tasks in a zero-shot setting. We discover that existing molecule-text models perform poorly in this setting due to inadequate treatment of instructions and limited capacity for graphs. To overcome these issues, we propose GIMLET, which unifies language models for both graph and text data. By adopting generalized position embedding, our model is extended to encode both graph structures and instruction text without additional graph encoding modules. GIMLET also decouples encoding of the graph from tasks instructions in the attention mechanism, enhancing the generalization of graph features across novel tasks. We construct a dataset consisting of more than two thousand molecule tasks with corresponding instructions derived from task descriptions. We pretrain GIMLET on the molecule tasks along with instructions, enabling the model to transfer effectively to a broad range of tasks. Experimental results demonstrate that GIMLET significantly outperforms molecule-text baselines in instruction-based zero-shot learning, even achieving closed results to supervised GNN models on tasks such as toxcast and muv.1",
     "year": 2023,
     "referenceCount": 89,
-    "citationCount": 39,
+    "citationCount": 40,
     "isOpenAccess": true,
     "s2FieldsOfStudy": [
       {
@@ -30666,7 +30666,7 @@
     "abstract": "\u2014Prompt engineering is a technique that involves augmenting a large pre-trained model with task-speci\ufb01c hints, known as prompts, to adapt the model to new tasks. Prompts can be created manually as natural language instructions or generated automatically as either natural language instructions or vector representations. Prompt engineering enables the ability to perform predictions based solely on prompts without updating model parameters, and the easier application of large pre-trained models in real-world tasks. In past years, Prompt engineering has been well-studied in natural language processing. Recently, it has also been intensively studied in vision-language modeling. However, there is currently a lack of a systematic overview of prompt engineering on pre-trained vision-language models. This paper aims to provide a comprehensive survey of cutting-edge research in prompt engineering on three types of vision-language models: multimodal-to-text generation models ( e.g., Flamingo), image-text matching models ( e.g., CLIP), and text-to-image generation models ( e.g., Stable Diffusion). For each type of model, a brief model summary, prompting methods, prompting-based applications, and the corresponding responsibility and integrity issues are summarized and discussed. Furthermore, the commonalities and differences between prompting on vision-language models, language models, and vision models are also discussed. The challenges, future directions, and research opportunities are summarized to foster future research on this topic.",
     "year": 2023,
     "referenceCount": 217,
-    "citationCount": 90,
+    "citationCount": 89,
     "isOpenAccess": true,
     "s2FieldsOfStudy": [
       {
@@ -30729,7 +30729,7 @@
     "abstract": "Language models (LMs) like GPT\u20103, PaLM, and ChatGPT are the foundation for almost all major language technologies, but their capabilities, limitations, and risks are not well understood. We present Holistic Evaluation of Language Models (HELM) to improve the transparency of LMs. LMs can serve many purposes and their behavior should satisfy many desiderata. To navigate the vast space of potential scenarios and metrics, we taxonomize the space and select representative subsets. We evaluate models on 16 core scenarios and 7 metrics, exposing important trade\u2010offs. We supplement our core evaluation with seven targeted evaluations to deeply analyze specific aspects (including world knowledge, reasoning, regurgitation of copyrighted content, and generation of disinformation). We benchmark 30 LMs, from OpenAI, Microsoft, Google, Meta, Cohere, AI21 Labs, and others. Prior to HELM, models were evaluated on just 17.9% of the core HELM scenarios, with some prominent models not sharing a single scenario in common. We improve this to 96.0%: all 30 models are now benchmarked under the same standardized conditions. Our evaluation surfaces 25 top\u2010level findings. For full transparency, we release all raw model prompts and completions publicly. HELM is a living benchmark for the community, continuously updated with new scenarios, metrics, and models https://crfm.stanford.edu/helm/latest/.",
     "year": 2023,
     "referenceCount": 69,
-    "citationCount": 677,
+    "citationCount": 676,
     "isOpenAccess": true,
     "s2FieldsOfStudy": [
       {
@@ -30761,7 +30761,7 @@
     "abstract": "We report the development of GPT-4, a large-scale, multimodal model which can accept image and text inputs and produce text outputs. While less capable than humans in many real-world scenarios, GPT-4 exhibits human-level performance on various professional and academic benchmarks, including passing a simulated bar exam with a score around the top 10% of test takers. GPT-4 is a Transformer-based model pre-trained to predict the next token in a document. The post-training alignment process results in improved performance on measures of factuality and adherence to desired behavior. A core component of this project was developing infrastructure and optimization methods that behave predictably across a wide range of scales. This allowed us to accurately predict some aspects of GPT-4's performance based on models trained with no more than 1/1,000th the compute of GPT-4.",
     "year": 2023,
     "referenceCount": 0,
-    "citationCount": 7054,
+    "citationCount": 7065,
     "isOpenAccess": false,
     "s2FieldsOfStudy": [
       {
@@ -30796,7 +30796,7 @@
     "abstract": "Building models that can be rapidly adapted to novel tasks using only a handful of annotated examples is an open challenge for multimodal machine learning research. We introduce Flamingo, a family of Visual Language Models (VLM) with this ability. We propose key architectural innovations to: (i) bridge powerful pretrained vision-only and language-only models, (ii) handle sequences of arbitrarily interleaved visual and textual data, and (iii) seamlessly ingest images or videos as inputs. Thanks to their flexibility, Flamingo models can be trained on large-scale multimodal web corpora containing arbitrarily interleaved text and images, which is key to endow them with in-context few-shot learning capabilities. We perform a thorough evaluation of our models, exploring and measuring their ability to rapidly adapt to a variety of image and video tasks. These include open-ended tasks such as visual question-answering, where the model is prompted with a question which it has to answer; captioning tasks, which evaluate the ability to describe a scene or an event; and close-ended tasks such as multiple-choice visual question-answering. For tasks lying anywhere on this spectrum, a single Flamingo model can achieve a new state of the art with few-shot learning, simply by prompting the model with task-specific examples. On numerous benchmarks, Flamingo outperforms models fine-tuned on thousands of times more task-specific data.",
     "year": 2022,
     "referenceCount": 182,
-    "citationCount": 2312,
+    "citationCount": 2313,
     "isOpenAccess": false,
     "s2FieldsOfStudy": [
       {
@@ -30831,7 +30831,7 @@
     "abstract": "The cost of vision-and-language pre-training has become increasingly prohibitive due to end-to-end training of large-scale models. This paper proposes BLIP-2, a generic and efficient pre-training strategy that bootstraps vision-language pre-training from off-the-shelf frozen pre-trained image encoders and frozen large language models. BLIP-2 bridges the modality gap with a lightweight Querying Transformer, which is pre-trained in two stages. The first stage bootstraps vision-language representation learning from a frozen image encoder. The second stage bootstraps vision-to-language generative learning from a frozen language model. BLIP-2 achieves state-of-the-art performance on various vision-language tasks, despite having significantly fewer trainable parameters than existing methods. For example, our model outperforms Flamingo80B by 8.7% on zero-shot VQAv2 with 54x fewer trainable parameters. We also demonstrate the model's emerging capabilities of zero-shot image-to-text generation that can follow natural language instructions.",
     "year": 2023,
     "referenceCount": 48,
-    "citationCount": 2574,
+    "citationCount": 2576,
     "isOpenAccess": true,
     "s2FieldsOfStudy": [
       {
@@ -30867,7 +30867,7 @@
     "abstract": "Instruction tuning large language models (LLMs) using machine-generated instruction-following data has improved zero-shot capabilities on new tasks, but the idea is less explored in the multimodal field. In this paper, we present the first attempt to use language-only GPT-4 to generate multimodal language-image instruction-following data. By instruction tuning on such generated data, we introduce LLaVA: Large Language and Vision Assistant, an end-to-end trained large multimodal model that connects a vision encoder and LLM for general-purpose visual and language understanding.Our early experiments show that LLaVA demonstrates impressive multimodel chat abilities, sometimes exhibiting the behaviors of multimodal GPT-4 on unseen images/instructions, and yields a 85.1% relative score compared with GPT-4 on a synthetic multimodal instruction-following dataset. When fine-tuned on Science QA, the synergy of LLaVA and GPT-4 achieves a new state-of-the-art accuracy of 92.53%. We make GPT-4 generated visual instruction tuning data, our model and code base publicly available.",
     "year": 2023,
     "referenceCount": 63,
-    "citationCount": 2100,
+    "citationCount": 2102,
     "isOpenAccess": true,
     "s2FieldsOfStudy": [
       {
@@ -31255,7 +31255,7 @@
     "abstract": "The recent GPT-4 has demonstrated extraordinary multi-modal abilities, such as directly generating websites from handwritten text and identifying humorous elements within images. These features are rarely observed in previous vision-language models. However, the technical details behind GPT-4 continue to remain undisclosed. We believe that the enhanced multi-modal generation capabilities of GPT-4 stem from the utilization of sophisticated large language models (LLM). To examine this phenomenon, we present MiniGPT-4, which aligns a frozen visual encoder with a frozen advanced LLM, Vicuna, using one projection layer. Our work, for the first time, uncovers that properly aligning the visual features with an advanced large language model can possess numerous advanced multi-modal abilities demonstrated by GPT-4, such as detailed image description generation and website creation from hand-drawn drafts. Furthermore, we also observe other emerging capabilities in MiniGPT-4, including writing stories and poems inspired by given images, teaching users how to cook based on food photos, and so on. In our experiment, we found that the model trained on short image caption pairs could produce unnatural language outputs (e.g., repetition and fragmentation). To address this problem, we curate a detailed image description dataset in the second stage to finetune the model, which consequently improves the model's generation reliability and overall usability. Our code, pre-trained model, and collected dataset are available at https://minigpt-4.github.io/.",
     "year": 2023,
     "referenceCount": 62,
-    "citationCount": 1215,
+    "citationCount": 1218,
     "isOpenAccess": true,
     "s2FieldsOfStudy": [
       {
@@ -31357,7 +31357,7 @@
     "abstract": "Thanks to the emerging of foundation models, the large language and vision models are integrated to acquire the multimodal ability of visual captioning, question answering, etc. Although existing multimodal models present impressive performance of visual understanding and reasoning, their limits are still largely under-explored due to the scarcity of high-quality instruction tuning data. To push the limits of multimodal capability, we Scale up Visual Instruction Tuning (SVIT) by constructing a dataset of 4.2 million visual instruction tuning data including 1.6M conversation question-answer (QA) pairs, 1.6M complex reasoning QA pairs, 1.0M referring QA pairs and 106K detailed image descriptions. Besides the volume, the proposed dataset is also featured by the high quality and rich diversity, which is generated by prompting GPT-4 with the abundant manual annotations of images. We also propose a new data recipe to select subset with better diversity and balance, which evokes model's superior capabilities. Extensive experiments verify that SVIT-v1.5, trained on the proposed dataset, outperforms state-of-the-art Multimodal Large Language Models on popular benchmarks. The data and code are publicly available at https://github.com/BAAI-DCAI/Visual-Instruction-Tuning.",
     "year": 2023,
     "referenceCount": 55,
-    "citationCount": 79,
+    "citationCount": 80,
     "isOpenAccess": true,
     "s2FieldsOfStudy": [
       {
@@ -31391,7 +31391,7 @@
     "abstract": "Large language models (LLMs) have demonstrated impressive zero-shot abilities on a variety of open-ended tasks, while recent research has also explored the use of LLMs for multi-modal generation. In this study, we introduce mPLUG-Owl, a novel training paradigm that equips LLMs with multi-modal abilities through modularized learning of foundation LLM, a visual knowledge module, and a visual abstractor module. This approach can support multiple modalities and facilitate diverse unimodal and multimodal abilities through modality collaboration. The training paradigm of mPLUG-Owl involves a two-stage method for aligning image and text, which learns visual knowledge with the assistance of LLM while maintaining and even improving the generation abilities of LLM. In the first stage, the visual knowledge module and abstractor module are trained with a frozen LLM module to align the image and text. In the second stage, language-only and multi-modal supervised datasets are used to jointly fine-tune a low-rank adaption (LoRA) module on LLM and the abstractor module by freezing the visual knowledge module. We carefully build a visually-related instruction evaluation set OwlEval. Experimental results show that our model outperforms existing multi-modal models, demonstrating mPLUG-Owl's impressive instruction and visual understanding ability, multi-turn conversation ability, and knowledge reasoning ability. Besides, we observe some unexpected and exciting abilities such as multi-image correlation and scene text understanding, which makes it possible to leverage it for harder real scenarios, such as vision-only document comprehension. Our code, pre-trained model, instruction-tuned models, and evaluation set are available at https://github.com/X-PLUG/mPLUG-Owl. The online demo is available at https://www.modelscope.cn/studios/damo/mPLUG-Owl.",
     "year": 2023,
     "referenceCount": 36,
-    "citationCount": 648,
+    "citationCount": 651,
     "isOpenAccess": true,
     "s2FieldsOfStudy": [
       {
@@ -31452,7 +31452,7 @@
     "abstract": "Since the resurgence of deep learning, vision-language models (VLMs) enhanced by large language models (LLMs) have grown exponentially in popularity. However, while LLMs can utilize extensive background knowledge and task information with in-context learning, most VLMs still struggle with understanding complex multi-modal prompts with multiple images, making VLMs less effective in downstream vision-language tasks. In this paper, we address the limitation above by 1) introducing vision-language Model with Multi-Modal In-Context Learning(MMICL), a new approach to allow the VLM to deal with multi-modal inputs efficiently; 2) proposing a novel context scheme to augment the in-context learning ability of the VLM; 3) constructing the Multi-modal In-Context Learning (MIC) dataset, designed to enhance the VLM's ability to understand complex multi-modal prompts. Our experiments confirm that MMICL achieves new state-of-the-art zero-shot performance on a wide range of general vision-language tasks, especially for complex benchmarks, including MME and MMBench. Our analysis demonstrates that MMICL effectively tackles the challenge of complex multi-modal prompt understanding and emerges the impressive ICL ability. Furthermore, we observe that MMICL successfully alleviates language bias in VLMs, a common issue for VLMs that often leads to hallucination when faced with extensive textual context. Our code, dataset, dataset tool, and model are available at https://github.com/PKUnlp-icler/MIC",
     "year": 2023,
     "referenceCount": 140,
-    "citationCount": 95,
+    "citationCount": 96,
     "isOpenAccess": true,
     "s2FieldsOfStudy": [
       {
@@ -31556,7 +31556,7 @@
     "abstract": "An important paradigm of natural language processing consists of large-scale pre-training on general domain data and adaptation to particular tasks or domains. As we pre-train larger models, full fine-tuning, which retrains all model parameters, becomes less feasible. Using GPT-3 175B as an example -- deploying independent instances of fine-tuned models, each with 175B parameters, is prohibitively expensive. We propose Low-Rank Adaptation, or LoRA, which freezes the pre-trained model weights and injects trainable rank decomposition matrices into each layer of the Transformer architecture, greatly reducing the number of trainable parameters for downstream tasks. Compared to GPT-3 175B fine-tuned with Adam, LoRA can reduce the number of trainable parameters by 10,000 times and the GPU memory requirement by 3 times. LoRA performs on-par or better than fine-tuning in model quality on RoBERTa, DeBERTa, GPT-2, and GPT-3, despite having fewer trainable parameters, a higher training throughput, and, unlike adapters, no additional inference latency. We also provide an empirical investigation into rank-deficiency in language model adaptation, which sheds light on the efficacy of LoRA. We release a package that facilitates the integration of LoRA with PyTorch models and provide our implementations and model checkpoints for RoBERTa, DeBERTa, and GPT-2 at https://github.com/microsoft/LoRA.",
     "year": 2021,
     "referenceCount": 65,
-    "citationCount": 5651,
+    "citationCount": 5659,
     "isOpenAccess": false,
     "s2FieldsOfStudy": [
       {
@@ -31592,7 +31592,7 @@
     "abstract": "We present QLoRA, an efficient finetuning approach that reduces memory usage enough to finetune a 65B parameter model on a single 48GB GPU while preserving full 16-bit finetuning task performance. QLoRA backpropagates gradients through a frozen, 4-bit quantized pretrained language model into Low Rank Adapters~(LoRA). Our best model family, which we name Guanaco, outperforms all previous openly released models on the Vicuna benchmark, reaching 99.3% of the performance level of ChatGPT while only requiring 24 hours of finetuning on a single GPU. QLoRA introduces a number of innovations to save memory without sacrificing performance: (a) 4-bit NormalFloat (NF4), a new data type that is information theoretically optimal for normally distributed weights (b) double quantization to reduce the average memory footprint by quantizing the quantization constants, and (c) paged optimziers to manage memory spikes. We use QLoRA to finetune more than 1,000 models, providing a detailed analysis of instruction following and chatbot performance across 8 instruction datasets, multiple model types (LLaMA, T5), and model scales that would be infeasible to run with regular finetuning (e.g. 33B and 65B parameter models). Our results show that QLoRA finetuning on a small high-quality dataset leads to state-of-the-art results, even when using smaller models than the previous SoTA. We provide a detailed analysis of chatbot performance based on both human and GPT-4 evaluations showing that GPT-4 evaluations are a cheap and reasonable alternative to human evaluation. Furthermore, we find that current chatbot benchmarks are not trustworthy to accurately evaluate the performance levels of chatbots. A lemon-picked analysis demonstrates where Guanaco fails compared to ChatGPT. We release all of our models and code, including CUDA kernels for 4-bit training.",
     "year": 2023,
     "referenceCount": 73,
-    "citationCount": 1381,
+    "citationCount": 1385,
     "isOpenAccess": true,
     "s2FieldsOfStudy": [
       {
@@ -31917,7 +31917,7 @@
     "abstract": "This article discusses OpenAI's ChatGPT, a generative pre\u2010trained transformer, which uses natural language processing to fulfill text\u2010based user requests (i.e., a \u201cchatbot\u201d). The history and principles behind ChatGPT and similar models are discussed. This technology is then discussed in relation to its potential impact on academia and scholarly research and publishing. ChatGPT is seen as a potential model for the automated preparation of essays and other types of scholarly manuscripts. Potential ethical issues that could arise with the emergence of large language models like GPT\u20103, the underlying technology behind ChatGPT, and its usage by academics and researchers, are discussed and situated within the context of broader advancements in artificial intelligence, machine learning, and natural language processing for research and scholarly publishing.",
     "year": 2023,
     "referenceCount": 106,
-    "citationCount": 328,
+    "citationCount": 329,
     "isOpenAccess": true,
     "s2FieldsOfStudy": [
       {
@@ -32313,7 +32313,7 @@
     "abstract": null,
     "year": 2022,
     "referenceCount": 101,
-    "citationCount": 28,
+    "citationCount": 29,
     "isOpenAccess": true,
     "s2FieldsOfStudy": [
       {
@@ -32381,7 +32381,7 @@
     "abstract": "While large language models (LLMs) have demonstrated remarkable capabilities across a range of downstream tasks, a significant concern revolves around their propensity to exhibit hallucinations: LLMs occasionally generate content that diverges from the user input, contradicts previously generated context, or misaligns with established world knowledge. This phenomenon poses a substantial challenge to the reliability of LLMs in real-world scenarios. In this paper, we survey recent efforts on the detection, explanation, and mitigation of hallucination, with an emphasis on the unique challenges posed by LLMs. We present taxonomies of the LLM hallucination phenomena and evaluation benchmarks, analyze existing approaches aiming at mitigating LLM hallucination, and discuss potential directions for future research.",
     "year": 2023,
     "referenceCount": 215,
-    "citationCount": 299,
+    "citationCount": 300,
     "isOpenAccess": true,
     "s2FieldsOfStudy": [
       {
@@ -32735,7 +32735,7 @@
     "abstract": "Deep Neural Networks (DNNs) are powerful models that have achieved excellent performance on difficult learning tasks. Although DNNs work well whenever large labeled training sets are available, they cannot be used to map sequences to sequences. In this paper, we present a general end-to-end approach to sequence learning that makes minimal assumptions on the sequence structure. Our method uses a multilayered Long Short-Term Memory (LSTM) to map the input sequence to a vector of a fixed dimensionality, and then another deep LSTM to decode the target sequence from the vector. Our main result is that on an English to French translation task from the WMT-14 dataset, the translations produced by the LSTM achieve a BLEU score of 34.8 on the entire test set, where the LSTM's BLEU score was penalized on out-of-vocabulary words. Additionally, the LSTM did not have difficulty on long sentences. For comparison, a phrase-based SMT system achieves a BLEU score of 33.3 on the same dataset. When we used the LSTM to rerank the 1000 hypotheses produced by the aforementioned SMT system, its BLEU score increases to 36.5, which is close to the previous state of the art. The LSTM also learned sensible phrase and sentence representations that are sensitive to word order and are relatively invariant to the active and the passive voice. Finally, we found that reversing the order of the words in all source sentences (but not target sentences) improved the LSTM's performance markedly, because doing so introduced many short term dependencies between the source and the target sentence which made the optimization problem easier.",
     "year": 2014,
     "referenceCount": 41,
-    "citationCount": 19454,
+    "citationCount": 19455,
     "isOpenAccess": false,
     "s2FieldsOfStudy": [
       {
@@ -33270,7 +33270,7 @@
     "abstract": "Large, pre-trained language models (PLMs) such as BERT and GPT have drastically changed the Natural Language Processing (NLP) field. For numerous NLP tasks, approaches leveraging PLMs have achieved state-of-the-art performance. The key idea is to learn a generic, latent representation of language from a generic task once, then share it across disparate NLP tasks. Language modeling serves as the generic task, one with abundant self-supervised text available for extensive training. This article presents the key fundamental concepts of PLM architectures and a comprehensive view of the shift to PLM-driven NLP techniques. It surveys work applying the pre-training then fine-tuning, prompting, and text generation approaches. In addition, it discusses PLM limitations and suggested directions for future research.",
     "year": 2021,
     "referenceCount": 362,
-    "citationCount": 643,
+    "citationCount": 644,
     "isOpenAccess": true,
     "s2FieldsOfStudy": [
       {
@@ -33353,7 +33353,7 @@
     "abstract": "In this work, we explore \u201cprompt tuning,\u201d a simple yet effective mechanism for learning \u201csoft prompts\u201d to condition frozen language models to perform specific downstream tasks. Unlike the discrete text prompts used by GPT-3, soft prompts are learned through backpropagation and can be tuned to incorporate signals from any number of labeled examples. Our end-to-end learned approach outperforms GPT-3\u2019s few-shot learning by a large margin. More remarkably, through ablations on model size using T5, we show that prompt tuning becomes more competitive with scale: as models exceed billions of parameters, our method \u201ccloses the gap\u201d and matches the strong performance of model tuning (where all model weights are tuned). This finding is especially relevant because large models are costly to share and serve and the ability to reuse one frozen model for multiple downstream tasks can ease this burden. Our method can be seen as a simplification of the recently proposed \u201cprefix tuning\u201d of Li and Liang (2021) and we provide a comparison to this and other similar approaches. Finally, we show that conditioning a frozen model with soft prompts confers benefits in robustness to domain transfer and enables efficient \u201cprompt ensembling.\u201d We release code and model checkpoints to reproduce our experiments.",
     "year": 2021,
     "referenceCount": 61,
-    "citationCount": 3012,
+    "citationCount": 3013,
     "isOpenAccess": true,
     "s2FieldsOfStudy": [
       {
@@ -33619,7 +33619,7 @@
     "abstract": "Evaluating large language model (LLM) based chat assistants is challenging due to their broad capabilities and the inadequacy of existing benchmarks in measuring human preferences. To address this, we explore using strong LLMs as judges to evaluate these models on more open-ended questions. We examine the usage and limitations of LLM-as-a-judge, including position, verbosity, and self-enhancement biases, as well as limited reasoning ability, and propose solutions to mitigate some of them. We then verify the agreement between LLM judges and human preferences by introducing two benchmarks: MT-bench, a multi-turn question set; and Chatbot Arena, a crowdsourced battle platform. Our results reveal that strong LLM judges like GPT-4 can match both controlled and crowdsourced human preferences well, achieving over 80% agreement, the same level of agreement between humans. Hence, LLM-as-a-judge is a scalable and explainable way to approximate human preferences, which are otherwise very expensive to obtain. Additionally, we show our benchmark and traditional benchmarks complement each other by evaluating several variants of LLaMA and Vicuna. The MT-bench questions, 3K expert votes, and 30K conversations with human preferences are publicly available at https://github.com/lm-sys/FastChat/tree/main/fastchat/llm_judge.",
     "year": 2023,
     "referenceCount": 59,
-    "citationCount": 2057,
+    "citationCount": 2060,
     "isOpenAccess": true,
     "s2FieldsOfStudy": [
       {
@@ -34624,7 +34624,7 @@
     "abstract": null,
     "year": 2019,
     "referenceCount": 430,
-    "citationCount": 4971,
+    "citationCount": 4975,
     "isOpenAccess": true,
     "s2FieldsOfStudy": [
       {
@@ -35407,7 +35407,7 @@
     "abstract": null,
     "year": 2017,
     "referenceCount": 200,
-    "citationCount": 3692,
+    "citationCount": 3695,
     "isOpenAccess": true,
     "s2FieldsOfStudy": [
       {
@@ -35567,7 +35567,7 @@
     "abstract": "Recent years have seen a surge of interest in the field of explainable AI (XAI), with a plethora of algorithms proposed in the literature. However, a lack of consensus on how to evaluate XAI hinders the advancement of the field. We highlight that XAI is not a monolithic set of technologies---researchers and practitioners have begun to leverage XAI algorithms to build XAI systems that serve different usage contexts, such as model debugging and decision-support. Algorithmic research of XAI, however, often does not account for these diverse downstream usage contexts, resulting in limited effectiveness or even unintended consequences for actual users, as well as difficulties for practitioners to make technical choices. We argue that one way to close the gap is to develop evaluation methods that account for different user requirements in these usage contexts. Towards this goal, we introduce a perspective of contextualized XAI evaluation by considering the relative importance of XAI evaluation criteria for prototypical usage contexts of XAI. To explore the context dependency of XAI evaluation criteria, we conduct two survey studies, one with XAI topical experts and another with crowd workers. Our results urge for responsible AI research with usage-informed evaluation practices, and provide a nuanced understanding of user requirements for XAI in different usage contexts.",
     "year": 2022,
     "referenceCount": 60,
-    "citationCount": 57,
+    "citationCount": 58,
     "isOpenAccess": true,
     "s2FieldsOfStudy": [
       {
@@ -37099,7 +37099,7 @@
     "abstract": "A critical part of reading is being able to understand the temporal relationships between events described in a passage of text, even when those relationships are not explicitly stated. However, current machine reading comprehension benchmarks have practically no questions that test temporal phenomena, so systems trained on these benchmarks have no capacity to answer questions such as \"what happened before/after [some event]?\" We introduce TORQUE, a new English reading comprehension benchmark built on 3.2k news snippets with 21k human-generated questions querying temporal relationships. Results show that RoBERTa-large achieves an exact-match score of 51% on the test set of TORQUE, about 30% behind human performance.",
     "year": 2020,
     "referenceCount": 51,
-    "citationCount": 96,
+    "citationCount": 97,
     "isOpenAccess": true,
     "s2FieldsOfStudy": [
       {
@@ -37560,7 +37560,7 @@
     "abstract": "Politics and political conflict often occur in the written and spoken word. Scholars have long recognized this, but the massive costs of analyzing even moderately sized collections of texts have hindered their use in political science research. Here lies the promise of automated text analysis: it substantially reduces the costs of analyzing large collections of text. We provide a guide to this exciting new area of research and show how, in many instances, the methods have already obtained part of their promise. But there are pitfalls to using automated methods\u2014they are no substitute for careful thought and close reading and require extensive and problem-specific validation. We survey a wide range of new methods, provide guidance on how to validate the output of the models, and clarify misconceptions and errors in the literature. To conclude, we argue that for automated text methods to become a standard tool for political scientists, methodologists must contribute new methods and new methods of validation.",
     "year": 2013,
     "referenceCount": 109,
-    "citationCount": 2463,
+    "citationCount": 2464,
     "isOpenAccess": true,
     "s2FieldsOfStudy": [
       {

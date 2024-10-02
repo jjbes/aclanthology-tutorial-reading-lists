@@ -1,11 +1,11 @@
+import argparse
 import pandas as pd
 from pathlib import Path
-from typing import Dict, List, Tuple
 
 from common import load_metadata, load_json, gather_paths_years, clean_string
 
 """Load and combine all proceedings and tutorial data from the JSON files."""
-def load_proceedings_and_tutorials(pathlist: List[Path]) -> Tuple[Dict, Dict]:
+def load_proceedings_and_tutorials(pathlist: list[Path]) -> tuple[dict, dict]:
     proceedings = {}
     tutorials = {}
 
@@ -20,10 +20,10 @@ def load_proceedings_and_tutorials(pathlist: List[Path]) -> Tuple[Dict, Dict]:
 """Retrieve and return the reference data for a reference ID and section """
 def get_reference_metadata(
         ref_id:str, 
-        section:Dict, 
-        references_metadata:Dict, 
-        references_missing_metadata:Dict
-    ) -> Dict:
+        section:dict, 
+        references_metadata:dict, 
+        references_missing_metadata:dict
+    ) -> dict:
 
     ref = references_metadata[ref_id]
     return {
@@ -40,10 +40,10 @@ def get_reference_metadata(
 
 """Generate a flat reading list with reference data for each tutorial."""   
 def get_tutorial_reading_list(
-        reading_list_ids:List, 
-        references_metadata:Dict, 
-        references_missing_metadata:Dict
-    ) -> List:
+        reading_list_ids:list, 
+        references_metadata:dict, 
+        references_missing_metadata:dict
+    ) -> list:
 
     return [
         get_reference_metadata(ref_id, section, references_metadata, references_missing_metadata)
@@ -53,13 +53,13 @@ def get_tutorial_reading_list(
 
 """Retrieve and return the reference data for a tutorial """
 def generate_dataset(
-        proceedings:Dict, 
-        tutorials:Dict, 
-        references_metadata:Dict, 
-        references_missing_metadata:Dict, 
+        proceedings:dict, 
+        tutorials:dict, 
+        references_metadata:dict, 
+        references_missing_metadata:dict, 
         min_refs:int=3, 
         max_refs:int=20
-    ) -> Dict:
+    ) -> dict:
 
     dataset = {}
     for proceeding in proceedings.values():
@@ -80,11 +80,19 @@ def generate_dataset(
     return dataset
     
 if __name__ == "__main__":
-    years = ["before_2020", "2020", "2021", "2022", "2023", "2024"]
-    pathlist = gather_paths_years("../data", years)
+    parser = argparse.ArgumentParser(description='Crawl Semantic Scholar for the dataset metadata')
+    parser.add_argument('--data', required=True,
+                        help='path of the data folder')
+    parser.add_argument('--output', required=True,
+                        help='path of the output folder')
+    args = parser.parse_args()
 
-    references_metadata = load_metadata('../data/references_metadata.json')
-    references_missing_metadata = load_metadata('../data/references_missing_metadata.json')
+    years = ["before_2020", "2020", "2021", "2022", "2023", "2024"]
+    pathlist = gather_paths_years(f"{args.data}", years)
+
+    print("Exporting dataset as csv.") 
+    references_metadata = load_metadata(f'{args.data}/references_metadata.json')
+    references_missing_metadata = load_metadata(f'{args.data}/references_missing_metadata.json')
     proceedings, tutorials = load_proceedings_and_tutorials(pathlist)
 
     nb_tutorials = sum(len(proceeding["tutorials"]) for proceeding in proceedings.values())
@@ -95,4 +103,5 @@ if __name__ == "__main__":
         min_refs=3, max_refs=20
     )
     print(f"{len(dataset)} tutorials remain after the filtering: [min:3 - max:20] references in their reading lists")
-    pd.DataFrame.from_dict(dataset, orient='index').to_csv('../reading_lists.csv', index=False)
+    pd.DataFrame.from_dict(dataset, orient='index').to_csv(f'{args.output}/reading_lists.csv', index=False)
+    print("Exported.") 

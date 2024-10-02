@@ -84,7 +84,7 @@ if __name__ == "__main__":
     corpus_tokens = bm25s.tokenize(corpus, stopwords="en", stemmer=stemmer)
     retriever = bm25s.BM25(corpus=corpus)
     retriever.index(corpus_tokens)
-    print(f"Generating.")
+    print(f"Generated.")
     
     print(f"Predicting BM25 most similar documents.")   
     process_retrieval(args.annotations, args.output, retriever, stemmer, inverted_documents)
