@@ -54,34 +54,35 @@ def generate_list(queries):
             preds_embeddings[k] = []
     return preds_embeddings
 
-device = "mps" #'cuda' for Nvidia GPU / 'mps' for Apple M-series
-tokenizer = AutoTokenizer.from_pretrained('allenai/specter2_base')
-model = AutoAdapterModel.from_pretrained('allenai/specter2_base')
-model.load_adapter("allenai/specter2", source="hf", load_as="specter2", set_active=True)
-model.to(device)
-model.eval()
+if __name__ == "__main__":
+    device = "mps" #'cuda' for Nvidia GPU / 'mps' for Apple M-series
+    tokenizer = AutoTokenizer.from_pretrained('allenai/specter2_base')
+    model = AutoAdapterModel.from_pretrained('allenai/specter2_base')
+    model.load_adapter("allenai/specter2", source="hf", load_as="specter2", set_active=True)
+    model.to(device)
+    model.eval()
 
-with open('acl_anthology_dataset/acl_anthology_dataset.json', 'r') as file: 
-    acl_anthology_dataset = json.load(file) 
-documents = { k: tokenizer.sep_token.join(filter(None, [val['title'], (val['abstract'] if val['abstract'] else None)])) for k, val in acl_anthology_dataset.items()}
-# Uncomment below to regenerate index
-#acl_anthology_faiss_index = faiss.IndexFlatIP(768)
-#embed_dict_and_store(acl_anthology_faiss_index, documents)
-#faiss.write_index(acl_anthology_faiss_index, "acl_anthology_dataset/acl_anthology_faiss_index_cosine")
-acl_anthology_faiss_index = faiss.read_index("acl_anthology_dataset/acl_anthology_faiss_index_cosine")
-embedding_keys_index = {i: k for k, i in zip(documents.keys(), range(acl_anthology_faiss_index.ntotal))}
+    with open('acl_anthology_dataset/acl_anthology_dataset.json', 'r') as file: 
+        acl_anthology_dataset = json.load(file) 
+    documents = { k: tokenizer.sep_token.join(filter(None, [val['title'], (val['abstract'] if val['abstract'] else None)])) for k, val in acl_anthology_dataset.items()}
+    # Uncomment below to regenerate index
+    #acl_anthology_faiss_index = faiss.IndexFlatIP(768)
+    #embed_dict_and_store(acl_anthology_faiss_index, documents)
+    #faiss.write_index(acl_anthology_faiss_index, "acl_anthology_dataset/acl_anthology_faiss_index_cosine")
+    acl_anthology_faiss_index = faiss.read_index("acl_anthology_dataset/acl_anthology_faiss_index_cosine")
+    embedding_keys_index = {i: k for k, i in zip(documents.keys(), range(acl_anthology_faiss_index.ntotal))}
 
-MODEL_NAME = "specterv2"
-for annotator_i in [1,2,3]:
-    print(f"Requesting annotator {annotator_i}")
-    annotator_queries = pd.read_csv(f"../../annotations/annotation_{annotator_i}.csv")[["id", "year", "query_keywords"]].replace(np.nan, None).to_dict(orient='records')
-    annotator_queries = {query["id"]: query for query in annotator_queries}
-    for query in tqdm(annotator_queries):
-        FOLDER_PATH = f"preds/{MODEL_NAME}/"
-        if not os.path.exists(FOLDER_PATH):
-            os.makedirs(FOLDER_PATH)
-        FILE_PATH = f"{FOLDER_PATH}/preds_annot{annotator_i}.json"
-        if not Path(FILE_PATH).is_file():
-            preds = generate_list(annotator_queries)
-            with open(FILE_PATH, "w") as f:
-                json.dump(preds, f) 
+    MODEL_NAME = "specterv2"
+    for annotator_i in [1,2,3]:
+        print(f"Requesting annotator {annotator_i}")
+        annotator_queries = pd.read_csv(f"../../annotations/annotation_{annotator_i}.csv")[["id", "year", "query_keywords"]].replace(np.nan, None).to_dict(orient='records')
+        annotator_queries = {query["id"]: query for query in annotator_queries}
+        for query in tqdm(annotator_queries):
+            FOLDER_PATH = f"preds/{MODEL_NAME}/"
+            if not os.path.exists(FOLDER_PATH):
+                os.makedirs(FOLDER_PATH)
+            FILE_PATH = f"{FOLDER_PATH}/preds_annot{annotator_i}.json"
+            if not Path(FILE_PATH).is_file():
+                preds = generate_list(annotator_queries)
+                with open(FILE_PATH, "w") as f:
+                    json.dump(preds, f) 

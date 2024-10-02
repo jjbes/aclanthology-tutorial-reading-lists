@@ -3,7 +3,7 @@ import json
 import dotenv
 import numpy as np
 import pandas as pd   
-import typing_extensions as typing 
+from typing import Dict, List, Callable, Optional
 from pydantic import BaseModel
 import openai
 import asyncio
@@ -15,7 +15,7 @@ dotenv.load_dotenv()
 # 5000 RPM
 RATE_LIMITER = StrictLimiter(5000/60)
 
-# Async function to get a basic completion from the OpenAI API
+""" Async basic completion from the OpenAI API """
 async def get_completion_base(model_name:str, query:str, max_year:int) -> str:
     await RATE_LIMITER.wait()
     async with openai.AsyncOpenAI() as client:
@@ -42,7 +42,7 @@ async def get_completion_base(model_name:str, query:str, max_year:int) -> str:
 
     return response.choices[0].message.content
 
-# Async function to get a JSON-Mode completion from the OpenAI API  
+""" Async JSON-Mode completion from the OpenAI API """
 async def get_completion_json(model_name:str, query:str, max_year:int) -> str:
     await RATE_LIMITER.wait()
     async with openai.AsyncOpenAI() as client:
@@ -105,17 +105,17 @@ async def get_completion_json(model_name:str, query:str, max_year:int) -> str:
         )
         return json.dumps(json.loads(response.choices[0].message.function_call.arguments)["reading_list"])
 
-# Async function to get a Structured Output completion from the OpenAI API  
+""" Async Structured Output completion from the OpenAI API  """
 async def get_completion_structured_output(model_name:str, query:str, max_year:int) -> str:
     await RATE_LIMITER.wait()
 
     class Article(BaseModel):
         title: str
-        authors: list[str]
+        authors: List[str]
         year: int
 
     class ReadingList(BaseModel):
-        reading_list: list[Article]
+        reading_list: List[Article]
 
     async with openai.AsyncOpenAI() as client:
         query = query.replace("Give me a reading list", f"Give me a reading list of 20 articles up to {max_year}")
@@ -141,8 +141,14 @@ async def get_completion_structured_output(model_name:str, query:str, max_year:i
         )
     return json.dumps(response.choices[0].message.parsed.model_dump()["reading_list"])
 
-# Process a batch of queries asynchronously
-async def fetch_completions_batch(model_name:str, queries:str, completion_func:typing.Callable, desc:typing.Optional[str]=None) -> typing.Dict:
+""" Process a batch of queries asynchronously """
+async def fetch_completions_batch(
+        model_name:str, 
+        queries:str, 
+        completion_func:Callable, 
+        desc:Optional[str]=None
+    ) -> Dict:
+
     tasks = [
         (query["id"], asyncio.create_task(completion_func(model_name, query["query_sentence"], query["year"]))) 
         for query in queries
@@ -150,8 +156,13 @@ async def fetch_completions_batch(model_name:str, queries:str, completion_func:t
     results = await tqdm_asyncio.gather(*[task for _, task in tasks], desc=desc)
     return {k: results[i] for i, (k, _) in enumerate(tasks)}
 
-# Process requests for a specific model and save results
-def process_model_requests(model_name:str, completion_func:typing.Callable, path_name:str = "", format:str = "json") -> None:
+""" Process requests for a specific model and save results """
+def process_model_requests(
+        model_name:str, 
+        completion_func:Callable, 
+        path_name:str = "", 
+        format:str = "json"
+    ) -> None:
     path_name = path_name or model_name
     for annotator_num in [1, 2, 3]:
         # Load annotator queries from CSV

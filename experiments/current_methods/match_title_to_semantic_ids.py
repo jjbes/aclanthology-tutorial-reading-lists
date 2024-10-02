@@ -4,7 +4,7 @@ import dotenv
 import asyncio
 import aiohttp
 from pathlib import Path
-import typing_extensions as typing 
+from typing import Optional, List, Dict, Any
 from collections import defaultdict
 from tqdm.asyncio import tqdm_asyncio
 from asynciolimiter import StrictLimiter
@@ -14,8 +14,8 @@ dotenv.load_dotenv()
 # 500 RPM
 RATE_LIMITER = StrictLimiter(499/60)
 
-async def get_id(query:str, session:typing.Any) -> typing.Optional[str]:
-
+"""  Async request ids from semantic scholar API """
+async def get_id(query:str, session:aiohttp.ClientSession) -> Optional[str]:
     await RATE_LIMITER.wait()
     async with session.get(
                             'https://api.semanticscholar.org/graph/v1/paper/search/match', 
@@ -26,7 +26,8 @@ async def get_id(query:str, session:typing.Any) -> typing.Optional[str]:
             data = await response.json()
             return data["data"][0]["paperId"] if "data" in data and len(data["data"]) > 0 else None
  
-async def fetch_s2_batch(preds_list:list[typing.Dict], desc:typing.Optional[str]=None) -> list[typing.Dict] :
+"""  Fetch semantic scholar API """
+async def fetch_s2_batch(preds_list:List[Dict], desc:Optional[str]=None) -> List[Dict] :
     matched = defaultdict(list)
     async with aiohttp.ClientSession() as session:
         tasks = []
@@ -47,6 +48,7 @@ async def fetch_s2_batch(preds_list:list[typing.Dict], desc:typing.Optional[str]
             })
     return matched
 
+"""  Matching predicted articles to an existing S2's ids """
 def process_s2_match(preds_name:str, model_type:str) -> None:
     for annotator_num in [1, 2, 3]:
         file_path = f'{model_type}/preds/{preds_name}/preds_annot{annotator_num}.json'

@@ -5,13 +5,13 @@ import requests
 import pandas as pd
 from tqdm import tqdm
 from collections import defaultdict
-import typing_extensions as typing 
-
+from typing import List, Dict, Optional
 dotenv.load_dotenv()
 
 # S2 API rate limit is 1RPM, async is not needed
 
-def get_papers(query:str, max_year:typing.Optional[int]=None, offset:int=0, limit:int=20) -> typing.Dict:   
+""" Retrieve articles from S2 API"""
+def get_papers(query:str, max_year:Optional[int]=None, offset:int=0, limit:int=20) -> Dict:   
     apiKey = os.environ['SEMANTIC_SCHOLAR_API']
     payload = {
         "query":query,
@@ -23,7 +23,8 @@ def get_papers(query:str, max_year:typing.Optional[int]=None, offset:int=0, limi
     r = requests.get('https://api.semanticscholar.org/graph/v1/paper/search', params=payload, headers={"x-api-key":apiKey})
     return r.json()
 
-def fetch_s2(query:str, max_year:typing.Optional[int]=None) -> list:
+""" Fetch S2 API using query and a maximum year to request """
+def fetch_s2(query:str, max_year:Optional[int]=None) -> List:
     results_acl = []
     results_any = []
     offset = 0
@@ -48,6 +49,7 @@ def fetch_s2(query:str, max_year:typing.Optional[int]=None) -> list:
         offset += 100
     return {"semantic_scholar_any":results_any, "semantic_scholar_acl":results_acl}    
 
+""" Request S2 for each annotations, both all results and ACL only results  """
 def process_s2_request() -> None :
     for annotator_i in [1, 2, 3]:
         print(f"Requesting S2's top 20 results")

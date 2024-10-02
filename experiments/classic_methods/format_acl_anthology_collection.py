@@ -4,6 +4,7 @@ import re
 import json
 from tqdm import tqdm
 
+""" Format bibtex data to json """
 def format_bibdata(bib_data):
     formated_data = []
 
@@ -17,18 +18,20 @@ def format_bibdata(bib_data):
         })
     return formated_data
 
+""" Clean the string by removing non-alphanumeric characters and converting to lowercase """
 def clean_string(string):
     return re.sub(r'\W+','', string).lower() 
 
-print("Loading ACL Anthology file")
-#https://aclanthology.org/anthology+abstracts.bib.gz - collected on 24.07.2024
-acl_collection = parse_file('acl_anthology_dataset/anthology+abstracts.bib')
+if __name__ == "__main__":
+    print("Loading ACL Anthology file")
+    #https://aclanthology.org/anthology+abstracts.bib.gz - collected on 24.07.2024
+    acl_collection = parse_file('acl_anthology_dataset/anthology+abstracts.bib')
 
-# Format content of acl anthology
-print("Formatting content")
-acl_references_list = format_bibdata(acl_collection)
-acl_anthology_dataset = {item["id"]: item for item in acl_references_list}
+    # Format content of acl anthology
+    print("Formatting content")
+    acl_references_list = format_bibdata(acl_collection)
+    acl_anthology_dataset = {item["id"]: item for item in acl_references_list}
 
-print(f"Formated {len(acl_anthology_dataset)} entries")
-with open('acl_anthology_dataset/acl_anthology_dataset.json', 'w') as file: 
-    json.dump(acl_anthology_dataset, file) 
+    print(f"Formated {len(acl_anthology_dataset)} entries")
+    with open('acl_anthology_dataset/acl_anthology_dataset.json', 'w') as file: 
+        json.dump(acl_anthology_dataset, file) 

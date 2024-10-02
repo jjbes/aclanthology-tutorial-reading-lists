@@ -4,13 +4,14 @@ import dotenv
 import requests
 import pandas as pd
 from tqdm import tqdm
-import typing_extensions as typing 
+from typing import Optional, Dict, List
 
 dotenv.load_dotenv()
 
 # S2 API rate limit is 1RPM, async is not needed
 
-def get_papers(query:str, max_year:typing.Optional[int]=None) -> typing.Dict:   
+""" Retrieve articles from S2 API"""
+def get_papers(query:str, max_year:Optional[int]=None) -> Dict:   
     apiKey = os.environ['SEMANTIC_SCHOLAR_API']
     payload = {
         "query":query,
@@ -22,7 +23,8 @@ def get_papers(query:str, max_year:typing.Optional[int]=None) -> typing.Dict:
     r = requests.get('https://api.semanticscholar.org/graph/v1/paper/search', params=payload, headers={"x-api-key":apiKey})
     return r.json()
 
-def fetch_s2(query:str, max_year:typing.Optional[int]=None) -> list:
+""" Fetch S2 API using query and a maximum year to request """
+def fetch_s2(query:str, max_year:Optional[int]=None) -> List:
     results = []
     response = get_papers(query, max_year=max_year)
     if "data" in response :
@@ -34,6 +36,7 @@ def fetch_s2(query:str, max_year:typing.Optional[int]=None) -> list:
             })
     return results     
 
+""" Request S2 for each annotations """
 def process_s2_request() -> None :
     for annotator_num in [1, 2, 3]:
         annotator_queries = pd.read_csv(f"../../../annotations/annotation_{annotator_num}.csv")[["id", "year", "query_keywords"]].to_dict(orient='records')

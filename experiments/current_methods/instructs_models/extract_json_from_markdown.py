@@ -2,6 +2,7 @@ from tqdm import tqdm
 import os
 from pathlib import Path
 
+""" Extract references as .json from .md files using anystyle """
 def extract_json(results_name:str) -> None:
     for annotator_num in [1, 2, 3]:
         files = sorted(Path(f"results/{results_name}/annotator{annotator_num}/").glob(f'*.md'))
