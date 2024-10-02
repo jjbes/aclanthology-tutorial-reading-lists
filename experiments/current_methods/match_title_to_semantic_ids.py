@@ -3,8 +3,9 @@ import json
 import dotenv
 import asyncio
 import aiohttp
+import argparse
 from pathlib import Path
-from typing import Optional, List, Dict, Any
+from typing import Optional
 from collections import defaultdict
 from tqdm.asyncio import tqdm_asyncio
 from asynciolimiter import StrictLimiter
@@ -14,7 +15,7 @@ dotenv.load_dotenv()
 # 500 RPM
 RATE_LIMITER = StrictLimiter(499/60)
 
-"""  Async request ids from semantic scholar API """
+"""  Async request ids from Semantic Scholar API """
 async def get_id(query:str, session:aiohttp.ClientSession) -> Optional[str]:
     await RATE_LIMITER.wait()
     async with session.get(
@@ -26,8 +27,8 @@ async def get_id(query:str, session:aiohttp.ClientSession) -> Optional[str]:
             data = await response.json()
             return data["data"][0]["paperId"] if "data" in data and len(data["data"]) > 0 else None
  
-"""  Fetch semantic scholar API """
-async def fetch_s2_batch(preds_list:List[Dict], desc:Optional[str]=None) -> List[Dict] :
+"""  Fetch Semantic Scholar API """
+async def fetch_s2_batch(preds_list:list[dict], desc:Optional[str]=None) -> list[dict] :
     matched = defaultdict(list)
     async with aiohttp.ClientSession() as session:
         tasks = []
@@ -48,21 +49,21 @@ async def fetch_s2_batch(preds_list:List[Dict], desc:Optional[str]=None) -> List
             })
     return matched
 
-"""  Matching predicted articles to an existing S2's ids """
-def process_s2_match(preds_name:str, model_type:str) -> None:
+"""  Matching predicted articles to an existing Semantic Scholar's ids """
+def process_s2_match(folder_path:str) -> None:
     for annotator_num in [1, 2, 3]:
-        file_path = f'{model_type}/preds/{preds_name}/preds_annot{annotator_num}.json'
+        file_path = f'{folder_path}/preds_annot{annotator_num}.json'
         preds = json.loads(Path(file_path).read_text())
-        preds_ids = asyncio.run(fetch_s2_batch(preds, desc=f"{preds_name} (A{annotator_num})"))
+        preds_ids = asyncio.run(fetch_s2_batch(preds, desc=f"A{annotator_num}"))
         with open(file_path, 'w') as f:
             json.dump(preds_ids, f)
 
 if __name__ == "__main__":
-    process_s2_match("google_scholar", "search_engines")
-    process_s2_match("gpt-4o", "instructs_models")
-    process_s2_match("gpt-4o_json", "instructs_models")
-    process_s2_match("gpt-4o-2024-08-06", "instructs_models")
-    process_s2_match("gpt-4o-2024-08-06_json", "instructs_models")
-    process_s2_match("gpt-4o-2024-08-06_structured_output", "instructs_models")
-    process_s2_match("gemini-1.5-flash", "instructs_models")
-    process_s2_match("gemini-1.5-flash_json", "instructs_models")
+    parser = argparse.ArgumentParser(description='Parse results of a models to a predictions file')
+    parser.add_argument('--folder', required=True,
+                        help='path of the folder to process')
+    args = parser.parse_args()
+
+    print(f"Matching predictions titles to Semantic Scholar. ({args.folder})")
+    process_s2_match(args.folder)
+    print(f"Matched.")

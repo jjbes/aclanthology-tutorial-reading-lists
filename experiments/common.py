@@ -4,7 +4,6 @@ import pandas as pd
 from pathlib import Path
 import matplotlib.pyplot as plt
 from collections import defaultdict
-from typing import Dict, List
 
 from metrics import compute_score, recall, ndcg, mrr
 
@@ -15,11 +14,11 @@ def clean_string(string:str) -> str:
     return re.sub(r'\W+','', string).lower() 
 
 """ Load predictions files based on field """ 
-def load_preds(preds_path:str, use_title_instead_of_id:bool=False) -> Dict:
+def load_preds(preds_path:str, use_title_instead_of_id:bool=False) -> dict:
     preds = defaultdict(lambda: defaultdict(dict))
     for annotator_i in [1,2,3]:
         path_annots = Path(f'{preds_path}/preds_annot{annotator_i}.json')
-        if use_title_instead_of_id == "id":
+        if use_title_instead_of_id:
             preds[f"A{annotator_i}"] = { id_:[clean_string(ref["title"]) for ref in references] for id_, references in json.loads(path_annots.read_text()).items()}
         else:
             preds[f"A{annotator_i}"] = { id_:[ref["id"] for ref in references] for id_, references in json.loads(path_annots.read_text()).items()}
@@ -27,14 +26,14 @@ def load_preds(preds_path:str, use_title_instead_of_id:bool=False) -> Dict:
     return json.loads(json.dumps(preds))
 
 """ Compute metrics bteween ground-thruth and predictions """ 
-def process_scores(trues:Dict, preds_dict:Dict) -> Dict:
+def process_scores(trues:dict, preds_dict:dict) -> dict:
     data = {}
     for k, preds in preds_dict.items():
         data[k] = compute_score(trues, preds, [recall, ndcg, mrr], k=20)
     return data
 
 """ Select specific years valeus from predictions """ 
-def select_year(preds_dict:Dict, year:int) -> Dict:
+def select_year(preds_dict:dict, year:int) -> dict:
     reading_lists = pd.read_csv("../reading_lists.csv")
     selected_ids = reading_lists[reading_lists["year"] == year]["id"].to_list()
     preds_year = {}
@@ -43,7 +42,7 @@ def select_year(preds_dict:Dict, year:int) -> Dict:
     return preds_year
 
 """ Compute metrics of predictionc for each year """  
-def process_scores_years(trues:Dict, preds_dict:Dict) -> Dict:
+def process_scores_years(trues:dict, preds_dict:dict) -> dict:
     years = [2020, 2021, 2022, 2023, 2024]
     data = {k: {} for k in years}
     for year in years:
@@ -53,14 +52,14 @@ def process_scores_years(trues:Dict, preds_dict:Dict) -> Dict:
     return data
 
 """ Convert a dict of scores to a flat list """  
-def convert_scores_to_list(data:Dict) -> list:
+def convert_scores_to_list(data:dict) -> list:
     df = pd.DataFrame(data)
     mean_values = df.mean(axis=1)
     df['mean'] = mean_values
     return df.values.flatten().tolist()
     
 """ Compute a dict of scores to a flat list for each year """  
-def convert_scores_to_list_years(data:Dict) -> Dict:
+def convert_scores_to_list_years(data:dict) -> dict:
     years = [2020, 2021, 2022, 2023, 2024]
     score_list_years = []
     for year in years:
@@ -71,13 +70,13 @@ def convert_scores_to_list_years(data:Dict) -> Dict:
     return score_list_years
     
 """ Compute DataFrame of models predictions """  
-def compute_table_scores(model_scores:Dict) -> pd.DataFrame:
+def compute_table_scores(model_scores:dict) -> pd.DataFrame:
     multi_columns = pd.MultiIndex.from_product([['recall', 'ndcg', 'mrr'],['A1', 'A2', 'A3', 'Mean']])
     df = pd.DataFrame(model_scores.values(), columns=multi_columns, index=model_scores.keys())
     return df
 
 """ Compute DataFrame of models predictions per years """  
-def compute_table_scores_years(models_scores:Dict) -> pd.DataFrame:
+def compute_table_scores_years(models_scores:dict) -> pd.DataFrame:
     dfs = []
     for k, model_scores in models_scores.items():
         multi_columns = pd.MultiIndex.from_product([['recall', 'ndcg', 'mrr'],['A1', 'A2', 'A3', 'Mean']])
@@ -87,8 +86,8 @@ def compute_table_scores_years(models_scores:Dict) -> pd.DataFrame:
 
 """ Compute scores of models predictions """   
 def score_models(
-        trues:Dict, 
-        models:Dict, 
+        trues:dict, 
+        models:dict, 
         paths:str,
         split_by_years:bool=False, 
         use_title_instead_of_id:bool=False
@@ -105,7 +104,7 @@ def draw_bar_plot(
         xlabel:str="", 
         ylabel:str="", 
         figsize: tuple = (12, 6), 
-        colormap:List =['#18dcff', '#ffaf40', '#ff7979', "#a29bfe", "#2bebb6"]
+        colormap:list =['#18dcff', '#ffaf40', '#ff7979', "#a29bfe", "#2bebb6"]
     ) -> None:
 
     ax = df.plot.bar(x="year", color=colormap, figsize=figsize, width=0.85)

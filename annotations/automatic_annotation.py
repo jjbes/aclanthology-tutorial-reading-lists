@@ -7,7 +7,7 @@ tokenizer = AutoTokenizer.from_pretrained("bart-large-kp20k", local_files_only=T
 model = AutoModelForSeq2SeqLM.from_pretrained("bart-large-kp20k", local_files_only=True)
 
 
-def embed(text):
+def embed(text:str)->str:
     input_ids = tokenizer(text, return_tensors="pt")
     outputs = model.generate(**input_ids, max_new_tokens=128)
     return tokenizer.decode(outputs[0], skip_special_tokens=True).replace(";",',')

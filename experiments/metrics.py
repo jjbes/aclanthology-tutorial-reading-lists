@@ -1,5 +1,5 @@
 import numpy as np
-from typing import Callable, Dict
+from typing import Callable
 from collections import defaultdict
 
 """ Measure recall between a ground-thruth and predictions """ 
@@ -24,7 +24,7 @@ def mrr(trues:list, preds:list) -> float:
     return 0
 
 """ Compute multiple metrics @k """ 
-def compute_score(trues:list, preds:list, metrics:list[Callable], k:int=20) -> Dict:
+def compute_score(trues:list, preds:list, metrics:list[Callable], k:int=20) -> dict:
     scores = defaultdict(list)
     for key, pred in preds.items():
         true = trues[key]
