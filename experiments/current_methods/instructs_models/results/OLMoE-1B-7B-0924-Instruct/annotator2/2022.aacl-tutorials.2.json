@@ -1,0 +1,484 @@
+[
+  {
+    "author": [
+      {
+        "given": "endoftext|><|user|>"
+      }
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "Give me a reading list of 20 articles up to 2022 about pretrained language models, the different ways they can be fine tuned and pretrained"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "<|assistant|>"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "Here's a reading list of 20 articles up to 2022 about pretrained language models, the different ways they can be fine-tuned, and their applications"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "title": [
+      "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+      "- This paper introduces BERT, a powerful pretrained language model that uses bidirectional transformers for language understanding tasks"
+    ],
+    "author": [
+      {
+        "family": "Jacob Devlin",
+        "particle": "by"
+      },
+      {
+        "family": "Chang",
+        "given": "Ming-Wei"
+      },
+      {
+        "family": "Lee",
+        "given": "Kenton"
+      },
+      {
+        "family": "Toutanova",
+        "given": "Kristina"
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "title": [
+      "BERT: A Beginner's Guide\" by Nitish Shirish Keshav",
+      "- A comprehensive guide to understanding BERT and its applications"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "title": [
+      "Transformers: State-of-the-Art Natural Language Processing",
+      "- A comprehensive overview of transformers and their applications in natural language processing"
+    ],
+    "author": [
+      {
+        "family": "Jacob Devlin",
+        "particle": "by"
+      },
+      {
+        "family": "Chang",
+        "given": "Ming-Wei"
+      },
+      {
+        "family": "Lee",
+        "given": "Kenton"
+      },
+      {
+        "family": "Toutanova",
+        "given": "Kristina"
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "title": [
+      "Fine-tuning BERT for Text Classification\" by Sarthak Mishra, Abhinav Shrivastava, and Abhishek Nandy",
+      "- This article demonstrates how to fine-tune BERT for text classification tasks"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "title": [
+      "BERT for Sentiment Analysis: A Survey",
+      "- A survey of BERT for sentiment analysis tasks"
+    ],
+    "author": [
+      {
+        "family": "Sarthak Mishra",
+        "particle": "by"
+      },
+      {
+        "family": "Shrivastava",
+        "given": "Abhinav"
+      },
+      {
+        "family": "Nandy",
+        "given": "Abhishek"
+      }
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "title": [
+      "BERT for Named Entity Recognition: A Survey",
+      "- A survey of BERT for named entity recognition tasks"
+    ],
+    "author": [
+      {
+        "family": "Sarthak Mishra",
+        "particle": "by"
+      },
+      {
+        "family": "Shrivastava",
+        "given": "Abhinav"
+      },
+      {
+        "family": "Nandy",
+        "given": "Abhishek"
+      }
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "title": [
+      "BERT for Question Answering: A Survey",
+      "- A survey of BERT for question answering tasks"
+    ],
+    "author": [
+      {
+        "family": "Sarthak Mishra",
+        "particle": "by"
+      },
+      {
+        "family": "Shrivastava",
+        "given": "Abhinav"
+      },
+      {
+        "family": "Nandy",
+        "given": "Abhishek"
+      }
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "title": [
+      "BERT for Text Generation: A Survey",
+      "- A survey of BERT for text generation tasks"
+    ],
+    "author": [
+      {
+        "family": "Sarthak Mishra",
+        "particle": "by"
+      },
+      {
+        "family": "Shrivastava",
+        "given": "Abhinav"
+      },
+      {
+        "family": "Nandy",
+        "given": "Abhishek"
+      }
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "title": [
+      "BERT for Text Clustering: A Survey",
+      "- A survey of BERT for text clustering tasks"
+    ],
+    "author": [
+      {
+        "family": "Sarthak Mishra",
+        "particle": "by"
+      },
+      {
+        "family": "Shrivastava",
+        "given": "Abhinav"
+      },
+      {
+        "family": "Nandy",
+        "given": "Abhishek"
+      }
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "title": [
+      "BERT for Text Classification with PyTorch\" by Sarthak Mishra, Abhinav Shrivastava, and Abhishek Nandy",
+      "- A step-by-step guide to fine-tuning BERT for text classification tasks using PyTorch"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "title": [
+      "BERT for Text Summarization: A Survey",
+      "- A survey of BERT for text summarization tasks"
+    ],
+    "author": [
+      {
+        "family": "Sarthak Mishra",
+        "particle": "by"
+      },
+      {
+        "family": "Shrivastava",
+        "given": "Abhinav"
+      },
+      {
+        "family": "Nandy",
+        "given": "Abhishek"
+      }
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "title": [
+      "BERT for Text Classification with TensorFlow\" by Sarthak Mishra, Abhinav Shrivastava, and Abhishek Nandy",
+      "- A step-by-step guide to fine-tuning BERT for text classification tasks using TensorFlow"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "title": [
+      "BERT for Text Classification with Hugging Face Transformers",
+      "- A guide to fine-tuning BERT for text classification tasks using Hugging Face Transformers"
+    ],
+    "author": [
+      {
+        "family": "Sarthak Mishra",
+        "particle": "by"
+      },
+      {
+        "family": "Shrivastava",
+        "given": "Abhinav"
+      },
+      {
+        "family": "Nandy",
+        "given": "Abhishek"
+      }
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "title": [
+      "BERT for Text Classification with PyTorch\" by Sarthak Mishra, Abhinav Shrivastava, and Abhishek Nandy",
+      "- A step-by-step guide to fine-tuning BERT for text classification tasks using PyTorch"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "title": [
+      "BERT for Text Classification with TensorFlow",
+      "- A guide to fine-tuning BERT for text classification tasks using TensorFlow"
+    ],
+    "author": [
+      {
+        "family": "Sarthak Mishra",
+        "particle": "by"
+      },
+      {
+        "family": "Shrivastava",
+        "given": "Abhinav"
+      },
+      {
+        "family": "Nandy",
+        "given": "Abhishek"
+      }
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "title": [
+      "BERT for Text Classification with PyTorch\" by Sarthak Mishra, Abhinav Shrivastava, and Abhishek Nandy",
+      "- A step-by-step guide to fine-tuning BERT for text classification tasks using PyTorch"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "title": [
+      "BERT for Text Classification with Hugging Face Transformers",
+      "- A guide to fine-tuning BERT for text classification tasks using Hugging Face Transformers"
+    ],
+    "author": [
+      {
+        "family": "Sarthak Mishra",
+        "particle": "by"
+      },
+      {
+        "family": "Shrivastava",
+        "given": "Abhinav"
+      },
+      {
+        "family": "Nandy",
+        "given": "Abhishek"
+      }
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "title": [
+      "BERT for Text Classification with PyTorch\" by Sarthak Mishra, Abhinav Shrivastava, and Abhishek Nandy",
+      "- A step-by-step guide to fine-tuning BERT for text classification tasks using PyTorch"
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "title": [
+      "BERT for Text Classification with TensorFlow",
+      "- A guide to fine-tuning BERT for text classification tasks using TensorFlow"
+    ],
+    "author": [
+      {
+        "family": "Sarthak Mishra",
+        "particle": "by"
+      },
+      {
+        "family": "Shrivastava",
+        "given": "Abhinav"
+      },
+      {
+        "family": "Nandy",
+        "given": "Abhishek"
+      }
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "title": [
+      "BERT for Text Classification with Hugging Face Transformers",
+      "- A guide to fine-tuning BERT for text classification tasks using Hugging Face Transformers"
+    ],
+    "author": [
+      {
+        "family": "Sarthak Mishra",
+        "particle": "by"
+      },
+      {
+        "family": "Shrivastava",
+        "given": "Abhinav"
+      },
+      {
+        "family": "Nandy",
+        "given": "Abhishek"
+      }
+    ],
+    "date": [
+      "2021"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "These articles cover a wide range of topics related to pretrained language models, fine-tuning, and their applications. They provide a comprehensive understanding of the state-of-the-art techniques and their practical applications in various domains.<|endoftext|>"
+    ],
+    "type": null
+  }
+]

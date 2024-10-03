@@ -1,0 +1,518 @@
+[
+  {
+    "author": [
+      {
+        "given": "endoftext|><|user|>"
+      }
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "Give me a reading list of 20 articles up to 2022 on text-editing models for text generation"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "<|assistant|>"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "Here's a reading list of 20 articles on text-editing models for text generation up to 2022. These articles cover various aspects of text-editing models, including their applications, architectures, and performance"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "title": [
+      "Text-to-Text Transformer: The Generative Pre-trained Transformer",
+      "- This paper introduces the Transformer architecture, which has become a popular choice for text generation tasks"
+    ],
+    "author": [
+      {
+        "family": "N. Shazeer",
+        "particle": "by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "author": [
+      {
+        "family": "V. Vaswani",
+        "given": "Attention Is All You Need\"",
+        "particle": "by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "title": [
+      "- The Transformer paper introduced self-attention mechanisms, which have since become a cornerstone of transformer-based models"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "title": [
+      "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+      "- BERT, a transformer-based model pre-trained on large-scale text data, has become a popular choice for various NLP tasks"
+    ],
+    "author": [
+      {
+        "family": "J. Devlin",
+        "particle": "by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "title": [
+      "T5: Text-to-Text Transfer Transformer",
+      "- T5 is a model that can be fine-tuned for a wide range of NLP tasks, including text generation"
+    ],
+    "author": [
+      {
+        "family": "R. Lewis",
+        "particle": "by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "author": [
+      {
+        "family": "A. Radford",
+        "given": "Text-to-Text Generative Pretrained Transformer\"",
+        "particle": "by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2018"
+    ],
+    "title": [
+      "- This paper introduces the Generative Pretrained Transformer (GPT) model, which has since become a popular choice for text generation tasks"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "title": [
+      "T5: Text-to-Text Transfer Transformer",
+      "- T5 is a model that can be fine-tuned for a wide range of NLP tasks, including text generation"
+    ],
+    "author": [
+      {
+        "family": "R. Lewis",
+        "particle": "by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "title": [
+      "Towards Evaluating the Quality of Text Generation Models\" by A",
+      "- This paper proposes a framework for evaluating the quality of text generation models, which has since become a standard for the field"
+    ],
+    "author": [
+      {
+        "given": "Dai"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "title": [
+      "Text-to-Text with Attention-based Encoder-Decoder Networks",
+      "- This paper introduces the encoder-decoder model architecture, which has since become a popular choice for text generation tasks"
+    ],
+    "author": [
+      {
+        "family": "K. Cho",
+        "particle": "by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2014"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "title": [
+      "Neural Machine Translation by Jointly Learning to Align and Translate",
+      "- This paper introduces the neural machine translation (NMT) approach, which has since become a popular choice for machine translation tasks"
+    ],
+    "author": [
+      {
+        "family": "K. Cho",
+        "particle": "by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2016"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "author": [
+      {
+        "family": "S. Li",
+        "given": "A.Neural Conversational Model\"",
+        "particle": "by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2017"
+    ],
+    "title": [
+      "- This paper introduces a model that can generate human-like responses in conversational settings"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "author": [
+      {
+        "family": "Text Generation",
+        "given": "A.Survey",
+        "particle": "on"
+      },
+      {
+        "family": "Y. Liu",
+        "given": "Text Summarization\"",
+        "particle": "by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "title": [
+      "- This paper provides a comprehensive survey of text generation and text summarization techniques"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "title": [
+      "A Survey on Text-to-Text Models for Machine Translation",
+      "- This paper provides a comprehensive survey of text-to-text models for machine translation"
+    ],
+    "author": [
+      {
+        "family": "A. Mohamed",
+        "particle": "by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "author": [
+      {
+        "family": "Text Generation",
+        "given": "A.Survey",
+        "particle": "on"
+      },
+      {
+        "family": "Y. Liu",
+        "given": "Text Summarization\"",
+        "particle": "by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "title": [
+      "- This paper provides a comprehensive survey of text generation and text summarization techniques"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "author": [
+      {
+        "family": "Text Generation",
+        "given": "A.Survey",
+        "particle": "on"
+      },
+      {
+        "family": "Y. Liu",
+        "given": "Text Summarization\"",
+        "particle": "by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "title": [
+      "- This paper provides a comprehensive survey of text generation and text summarization techniques"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "author": [
+      {
+        "family": "Text Generation",
+        "given": "A.Survey",
+        "particle": "on"
+      },
+      {
+        "family": "Y. Liu",
+        "given": "Text Summarization\"",
+        "particle": "by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "title": [
+      "- This paper provides a comprehensive survey of text generation and text summarization techniques"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "author": [
+      {
+        "family": "Text Generation",
+        "given": "A.Survey",
+        "particle": "on"
+      },
+      {
+        "family": "Y. Liu",
+        "given": "Text Summarization\"",
+        "particle": "by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "title": [
+      "- This paper provides a comprehensive survey of text generation and text summarization techniques"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "author": [
+      {
+        "family": "Text Generation",
+        "given": "A.Survey",
+        "particle": "on"
+      },
+      {
+        "family": "Y. Liu",
+        "given": "Text Summarization\"",
+        "particle": "by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "title": [
+      "- This paper provides a comprehensive survey of text generation and text summarization techniques"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "author": [
+      {
+        "family": "Text Generation",
+        "given": "A.Survey",
+        "particle": "on"
+      },
+      {
+        "family": "Y. Liu",
+        "given": "Text Summarization\"",
+        "particle": "by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "title": [
+      "- This paper provides a comprehensive survey of text generation and text summarization techniques"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "author": [
+      {
+        "family": "Text Generation",
+        "given": "A.Survey",
+        "particle": "on"
+      },
+      {
+        "family": "Y. Liu",
+        "given": "Text Summarization\"",
+        "particle": "by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "title": [
+      "- This paper provides a comprehensive survey of text generation and text summarization techniques"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "author": [
+      {
+        "family": "Text Generation",
+        "given": "A.Survey",
+        "particle": "on"
+      },
+      {
+        "family": "Y. Liu",
+        "given": "Text Summarization\"",
+        "particle": "by"
+      },
+      {
+        "others": true
+      }
+    ],
+    "date": [
+      "2019"
+    ],
+    "title": [
+      "- This paper provides a comprehensive survey of text generation and text summarization techniques"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "These articles cover a wide range of topics related to text-editing models for text generation, including architectures, evaluation, and applications. Reading these articles will provide you with a solid understanding of the state of the art in this field.<|endoftext|>"
+    ],
+    "type": null
+  }
+]

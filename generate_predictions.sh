@@ -93,6 +93,20 @@ python experiments/current_methods/parse_results_json_preds.py \
 python experiments/current_methods/match_title_to_semantic_ids.py \
     --folder experiments/current_methods/instructs_models/preds/gemini-1.5-pro_json
 
+## OLMoE 1B-7B-0924-Instruct
+pyhton experiments/current_methods/instructs_models/request_transformer.py \
+    --model allenai/OLMoE-1B-7B-0924-Instruct \
+    --annotations annotations \
+    --output experiments/current_methods/instructs_models/results/OLMoE-1B-7B-0924-Instruct
+python experiments/current_methods/instructs_models/extract_json_from_markdown.py \
+    --folder experiments/current_methods/instructs_models/results/OLMoE-1B-7B-0924-Instruct
+python experiments/current_methods/parse_results_json_preds.py \
+    --input experiments/current_methods/instructs_models/results/OLMoE-1B-7B-0924-Instruct \
+    --output experiments/current_methods/instructs_models/preds/OLMoE-1B-7B-0924-Instruct \
+    --parsing_type md_to_json
+python experiments/current_methods/match_title_to_semantic_ids.py \
+    --folder experiments/current_methods/instructs_models/preds/OLMoE-1B-7B-0924-Instruct
+
 # Classic methods
 
 ## Format ACL Dataset
