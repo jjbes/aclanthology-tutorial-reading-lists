@@ -16,7 +16,7 @@ def get_papers(query:str, max_year:Optional[int]=None) -> dict:
         "query":query,
         "offset":0,
         "limit":20,
-        "fields":"title,year",
+        "fields":"externalIds,title,year",
         "year": f"-{max_year}" if max_year else "",
     }
     r = requests.get('https://api.semanticscholar.org/graph/v1/paper/search', params=payload, headers={"x-api-key":apiKey})
@@ -29,7 +29,7 @@ def fetch_s2(query:str, max_year:Optional[int]=None) -> list:
     if "data" in response :
         for paper in response["data"]:
             results.append({
-                "id": paper["paperId"],
+                "id": paper["externalIds"]["CorpusId"],
                 "title": paper["title"],
                 "year": paper["year"]
             })

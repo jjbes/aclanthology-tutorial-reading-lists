@@ -1,0 +1,474 @@
+[
+  {
+    "title": [
+      "Creating a reading list of 20 articles on unsupervised neural machine translation (UNMT) up to 2021 involves selecting key papers that have contributed significantly to the field. Here’s a list that includes foundational works, improvements, and various approaches to UNMT"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "1."
+    ],
+    "title": [
+      "**\"Unsupervised Machine Translation Using Monolingual Corpora Only\"** - Lample et al"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "This paper is one of the pioneering works in UNMT, introducing a method that relies solely on monolingual data"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "2."
+    ],
+    "title": [
+      "**\"Phrase-Based & Neural Unsupervised Machine Translation\"** - Artetxe et al"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "This work explores both phrase-based and neural approaches to unsupervised translation, providing a comprehensive analysis"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "3."
+    ],
+    "title": [
+      "**\"On the Cross-lingual Transferability of Monolingual Representations\"** - Conneau et al"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "This paper investigates the transferability of monolingual embeddings across languages, which is crucial for UNMT"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "4."
+    ],
+    "title": [
+      "**\"Unsupervised Neural Machine Translation with SMT as Posterior Regularization\"** - Ren et al"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "The authors propose using statistical machine translation (SMT) to regularize neural models in an unsupervised setting"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "5."
+    ],
+    "title": [
+      "**\"Improving Unsupervised Word-by-Word Translation with Language Model and Denoising Autoencoder\"** - Lample et al"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "This paper enhances word-by-word translation using language models and denoising autoencoders"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "6."
+    ],
+    "title": [
+      "**\"Unsupervised Neural Machine Translation with Weight Sharing\"** - Yang et al"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "The authors introduce a weight-sharing mechanism to improve the performance of UNMT models"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "7."
+    ],
+    "container-title": [
+      "**\"Massively Multilingual Neural Machine Translation in the Wild: Findings and Challenges\"** - Arivazhagan et al"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": "chapter"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "This paper discusses the challenges and findings from deploying multilingual NMT systems, relevant for understanding UNMT in diverse settings"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "8."
+    ],
+    "title": [
+      "**\"Unsupervised Neural Machine Translation with Generative Language Models Only\"** - Song et al"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "The authors propose a method that leverages generative language models for UNMT"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "9."
+    ],
+    "container-title": [
+      "**\"Unsupervised Neural Machine Translation with SMT\"** - Marie et al"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": "chapter"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "This work integrates SMT into the training of neural models for unsupervised translation"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "10."
+    ],
+    "title": [
+      "**\"Pre-training via Paraphrasing\"** - Wieting et al"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "This paper explores the use of paraphrasing as a pre-training task for improving translation models"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "11."
+    ],
+    "title": [
+      "**\"Unsupervised Neural Machine Translation with Denoising Autoencoders\"** - Lample et al"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "The authors use denoising autoencoders to improve the robustness of UNMT models"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "12."
+    ],
+    "title": [
+      "**\"Cross-lingual Language Model Pretraining\"** - Conneau and Lample"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "This influential work introduces the XLM model, which pretrains language models for cross-lingual tasks, including UNMT"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "13."
+    ],
+    "title": [
+      "**\"Unsupervised Neural Machine Translation with Back-Translation\"** - Sennrich et al"
+    ],
+    "date": [
+      "2016"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "Although primarily about back-translation, this technique is crucial for improving UNMT systems"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "14."
+    ],
+    "title": [
+      "**\"Unsupervised Neural Machine Translation with Monolingual Data\"** - Artetxe et al"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "This paper further explores the use of monolingual data in training UNMT models"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "15."
+    ],
+    "title": [
+      "**\"Improving Unsupervised Neural Machine Translation with Pseudo-Parallel Data\"** - Kim et al"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "The authors propose generating pseudo-parallel data to enhance UNMT performance"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "16."
+    ],
+    "title": [
+      "**\"Unsupervised Neural Machine Translation with Cross-lingual Language Model Pretraining\"** - Lample and Conneau"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "This work combines cross-lingual pretraining with UNMT, showing significant improvements"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "17."
+    ],
+    "container-title": [
+      "**\"Unsupervised Neural Machine Translation with Adversarial Training\"** - Wu et al"
+    ],
+    "date": [
+      "2019"
+    ],
+    "type": "chapter"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "The paper introduces adversarial training techniques to improve the quality of UNMT"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "18."
+    ],
+    "container-title": [
+      "**\"Unsupervised Neural Machine Translation with Multilingual Pretraining\"** - Liu et al"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": "chapter"
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "This research explores the benefits of multilingual pretraining for UNMT"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "19."
+    ],
+    "title": [
+      "**\"Unsupervised Neural Machine Translation with Language Model Fusion\"** - He et al"
+    ],
+    "date": [
+      "2020"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "The authors propose a method that fuses language models with translation models in an unsupervised setting"
+    ],
+    "type": null
+  },
+  {
+    "citation-number": [
+      "20."
+    ],
+    "title": [
+      "**\"Unsupervised Neural Machine Translation with Iterative Back-Translation\"** - Edunov et al"
+    ],
+    "date": [
+      "2018"
+    ],
+    "type": null
+  },
+  {
+    "author": [
+      {
+        "literal": "-"
+      }
+    ],
+    "title": [
+      "This paper discusses iterative back-translation, a technique that iteratively refines translations in an unsupervised manner"
+    ],
+    "type": null
+  },
+  {
+    "title": [
+      "These articles provide a comprehensive overview of the developments in unsupervised neural machine translation up to 2021. They cover various methodologies, improvements, and applications in the field"
+    ],
+    "type": null
+  }
+]

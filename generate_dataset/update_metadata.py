@@ -9,12 +9,14 @@ def update_references(references:dict, field:str="citationCount") -> dict:
     keys_batches = [keys[i:i + 500] for i in range(0, len(keys), 500)]#Batches of 500
 
     for batch in tqdm(keys_batches, desc="Requesting"):
-        reponse = request_metadata(batch, fields=f"paperId,{field}")
+        batch = [f"CorpusId:{item}" for item in batch]
+        reponse = request_metadata(batch, fields=f"externalIds,{field}")
         for reference in reponse:
-            if reference["paperId"] in references:# S2 may return unwanted ids, this check prevents this behaviour
-                if references[reference["paperId"]][field] != reference[field]:
-                    print(f"Updated {reference['paperId']}: {references[reference['paperId']][field]} -> {reference[field]}" )
-                    references[reference["paperId"]][field] = reference[field]
+            corpusId = str(reference["externalIds"]["CorpusId"])
+            if corpusId in references:# S2 may return unwanted ids, this check prevents this behaviour
+                if references[corpusId][field] != reference[field]:
+                    print(f"Updated {corpusId}: {references[corpusId][field]} -> {reference[field]}" )
+                    references[corpusId][field] = reference[field]
                 
     return references
 

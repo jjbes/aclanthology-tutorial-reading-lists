@@ -7,6 +7,7 @@ from common import load_metadata, request_metadata, gather_paths_years, load_jso
 
 dotenv.load_dotenv()
    
+
 """Process all JSON files in the pathlist and fetch metadata for unique references."""
 def process_references(pathlist:list, references:dict) -> dict:
     for path in tqdm(pathlist, desc="Requesting"):
@@ -17,20 +18,21 @@ def process_references(pathlist:list, references:dict) -> dict:
             references_ids = [
                 reference for section in reading_list
                 for reference in section.get("referencesIds")
-                if reference and reference not in references
+                if reference and str(reference) not in references.keys()
             ]
+
             if references_ids:
                 response = request_metadata(
-                    references_ids, 
-                    fields='paperId,externalIds,title,abstract,year,publicationVenue,s2FieldsOfStudy,referenceCount,citationCount,isOpenAccess'
+                    [f"CorpusId:{item}" for item in references_ids], 
+                    fields='externalIds,title,authors,abstract,year,venue,publicationVenue,s2FieldsOfStudy,referenceCount,citationCount,isOpenAccess'
                 )
                 time.sleep(1.0) #Rate-limiting
             else:
                 response = []
 
             for reference in response:
-                if reference.get("paperId") not in references:
-                    references[reference.get("paperId")] = reference
+                if reference["externalIds"]["CorpusId"] not in references:
+                    references[reference["externalIds"]["CorpusId"]] = reference
     return references
 
 if __name__ == "__main__":

@@ -20,12 +20,15 @@ async def get_id(query:str, session:aiohttp.ClientSession) -> Optional[str]:
     await RATE_LIMITER.wait()
     async with session.get(
                             'https://api.semanticscholar.org/graph/v1/paper/search/match', 
-                            params={"query": query}, 
+                            params={
+                                "query": query,
+                                "fields":"externalIds",
+                            }, 
                             headers={"x-api-key": os.environ['SEMANTIC_SCHOLAR_API']}
                         ) as response:
         if response.status == 200:
             data = await response.json()
-            return data["data"][0]["paperId"] if "data" in data and len(data["data"]) > 0 else None
+            return data["data"][0]["externalIds"]["CorpusId"] if "data" in data and len(data["data"]) > 0 else None
  
 """  Fetch Semantic Scholar API """
 async def fetch_s2_batch(preds_list:list[dict], desc:Optional[str]=None) -> list[dict] :

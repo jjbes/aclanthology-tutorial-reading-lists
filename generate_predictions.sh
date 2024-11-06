@@ -5,6 +5,14 @@ python experiments/current_methods/search_engines/request_semantic_scholar.py \
     --annotations annotations \
     --output experiments/current_methods/search_engines/preds/semantic_scholar
 
+## Google Scholar
+python experiments/current_methods/parse_results_json_preds.py \
+    --input experiments/current_methods/search_engines/results/google_scholar \
+    --output experiments/current_methods/search_engines/preds/google_scholar \
+    --parsing_type html
+python experiments/current_methods/match_title_to_semantic_ids.py \
+    --folder experiments/current_methods/search_engines/preds/google_scholar
+
 ## GPT-4o Base
 python experiments/current_methods/instructs_models/request_openai_completion.py \
     --model gpt-4o-2024-08-06 \
@@ -94,7 +102,7 @@ python experiments/current_methods/match_title_to_semantic_ids.py \
     --folder experiments/current_methods/instructs_models/preds/gemini-1.5-pro_json
 
 ## OLMoE 1B-7B-0924-Instruct
-pyhton experiments/current_methods/instructs_models/request_transformer.py \
+python experiments/current_methods/instructs_models/request_transformer.py \
     --model allenai/OLMoE-1B-7B-0924-Instruct \
     --annotations annotations \
     --output experiments/current_methods/instructs_models/results/OLMoE-1B-7B-0924-Instruct

@@ -36,7 +36,7 @@ Each conference folder contains tutorials metadata ordered following ACL numberi
 }
 ```
 
-Tutorial files (e.g. `2020.acl-tutorials.1.json`) contains metadata of tutorial papers aswell as the article reading list (`readingList`). Reading lists objects are presented following the structure provided by the authors of the tutorial and indexed by their Semantic Scholar Academic Graph API `paperId` identifier. When articles where not present in the Semantic Scholar Academic Graph API, a `null` field is filled to preserve informations of list size and order.
+Tutorial files (e.g. `2020.acl-tutorials.1.json`) contains metadata of tutorial papers aswell as the article reading list (`readingList`). Reading lists objects are presented following the structure provided by the authors of the tutorial and indexed by their Semantic Scholar Academic Graph API `corpusId` identifier. When articles where not present in the Semantic Scholar Academic Graph API, a `null` field is filled to preserve informations of list size and order.
 
 
 ```

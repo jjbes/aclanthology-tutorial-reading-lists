@@ -14,7 +14,7 @@ def clean_string(string:str) -> str:
     return re.sub(r'\W+', '', string).lower()
 
 """ Request S2 API for metadata of a list of IDs """
-def request_metadata(ids:list, fields:str="paperId") -> list:
+def request_metadata(ids:list, fields:str="corpusId") -> list:
     response = requests.post(
         'https://api.semanticscholar.org/graph/v1/paper/batch',
         params={'fields': fields},
