@@ -6,83 +6,79 @@ import argparse
 import pandas as pd
 from tqdm import tqdm
 from typing import Optional
+from collections import defaultdict
 dotenv.load_dotenv()
 
 # S2 API rate limit is 1RPM, async is not needed
 """ Retrieve articles from S2 API"""
-def get_papers(query:str, max_year:Optional[int]=None, offset:int=0, limit:int=20) -> dict:   
+def search_papers(query:str, max_year:Optional[int]=None, offset:int=0, limit:int=20) -> dict:   
     apiKey = os.environ['SEMANTIC_SCHOLAR_API']
     payload = {
         "query":query,
         "offset":offset,
         "limit":limit,
-        "fields":"title,year,externalIds,citationCount",
-        "year": f"-{max_year}" if max_year else "",
+        "fields":"title,year,externalIds,citationCount"
     }
+    if max_year:
+        payload["year"] = f"-{max_year}"
+
     r = requests.get('https://api.semanticscholar.org/graph/v1/paper/search', params=payload, headers={"x-api-key":apiKey})
     return r.json()
 
-""" Fetch S2 API using query and a maximum year to request """
-def fetch_s2(query:str, max_year:Optional[int]=None) -> list:
-    results_acl = []
-    results_any = []
-    results_top100 = []
-    for offset in range(0, 1100, 100):
-        if(results_acl == 20):
-            break
-        response = get_papers(query, max_year=max_year, offset=offset, limit=100)
+""" Fetch S2 API top k results using query and a maximum year to request """
+def fetch_s2(query:str, k:int=1000, max_year:Optional[int]=None) -> list:
+    if k > 1000:
+        k = 1000
+    results_topk = []
+    for offset in range(0, k, 100):
+        response = search_papers(query, max_year=max_year, offset=offset, limit=100)
         if "data" in response :
             for paper in response["data"]:
-                # Try to get 20 ACL results out of 1000 first results
-                if "ACL" in paper["externalIds"].keys() and len(results_acl) < 20: 
-                    results_acl.append({
-                        "id": paper["externalIds"]["CorpusId"],
-                        "title": paper["title"],
-                        "year": paper["year"]
-                    })
-                # first 20 results for comparison
-                if len(results_any) < 20: 
-                    results_any.append({
-                        "id": paper["externalIds"]["CorpusId"],
-                        "title": paper["title"],
-                        "year": paper["year"]
-                    })
-                # first 100 results for most cited
-                if len(results_any) < 100: 
-                    results_top100.append({
-                        "id": paper["externalIds"]["CorpusId"],
-                        "title": paper["title"],
-                        "year": paper["year"],
-                        "citationCount": paper["citationCount"]
-                    })
-    results_most_cited = sorted(results_top100, key=lambda d: d['citationCount'], reverse=True)[0:20]
-    return {"semantic_scholar_any":results_any, "semantic_scholar_acl":results_acl, "semantic_scholar_most_cited":results_most_cited}    
+                results_topk.append({
+                    "id": paper["externalIds"]["CorpusId"],
+                    "externalIds": paper["externalIds"],
+                    "title": paper["title"],
+                    "year": paper["year"],
+                    "citationCount": paper["citationCount"]
+                })
+        if "next" not in response:
+            break
+    return results_topk
 
-""" Request S2 for each annotations, both all results and ACL only results  """
+def get_top_papers(papers:list, k:int=20, acl_only:bool=False) -> list:
+    if acl_only:
+        return [paper for paper in papers if "ACL" in paper["externalIds"].keys()][0:k]
+    else:
+        return [paper for paper in papers][0:k]
+    
+def filter_cols(papers:list, cols:list=["id", "title", "year"]) -> list:
+    return [{key: paper[key] for key in cols} for paper in papers]
+
+""" Request S2 for each annotations """
 def process_s2_request(annotations_folder:str, output_folder:str) -> None :
     for annotator_num in [1, 2, 3]:
         annotator_queries = pd.read_csv(f"{annotations_folder}/annotation_{annotator_num}.csv")[["id", "year", "query_keywords"]].to_dict(orient='records')
-        semantic_scholar_any = {}
-        semantic_scholar_acl = {}
-        semantic_scholar_most_cited = {}
+        result = defaultdict(lambda: defaultdict(dict))
 
         for query in tqdm(annotator_queries, desc=f"Requesting S2 (A{annotator_num})"):
-            generation = fetch_s2(query["query_keywords"], max_year=query["year"])
-            semantic_scholar_any[query["id"]] = generation["semantic_scholar_any"]
-            semantic_scholar_acl[query["id"]] = generation["semantic_scholar_acl"]
-            semantic_scholar_most_cited[query["id"]] = generation["semantic_scholar_most_cited"]
-        
-        os.makedirs(f"{output_folder}/any/", exist_ok=True)
-        with open(f"{output_folder}/any/preds_annot{annotator_num}.json", "w") as file:
-            json.dump(semantic_scholar_any, file)
-        
-        os.makedirs(f"{output_folder}/acl/", exist_ok=True)
-        with open(f"{output_folder}/acl/preds_annot{annotator_num}.json", "w") as file:
-            json.dump(semantic_scholar_acl, file)  
+            top1000 = fetch_s2(query["query_keywords"], k=1000, max_year=query["year"])
+            result["any"][query["id"]] = filter_cols(get_top_papers(top1000, k=20, acl_only=False), cols=["id", "title", "year", "citationCount"])
+            result["acl"][query["id"]] = filter_cols(get_top_papers(top1000, k=20, acl_only=True), cols=["id", "title", "year", "citationCount"])
+            result["any_most_cited"][query["id"]] = filter_cols(
+                sorted(
+                    get_top_papers(top1000, k=100, acl_only=False), 
+                    key=lambda d: d['citationCount'], reverse=True)[0:20], 
+                cols=["id", "title", "year", "citationCount"])
+            result["acl_most_cited"][query["id"]] = filter_cols(
+                sorted(
+                    get_top_papers(top1000, k=100, acl_only=True), 
+                    key=lambda d: d['citationCount'], reverse=True)[0:20], 
+                cols=["id", "title", "year", "citationCount"])
 
-        os.makedirs(f"{output_folder}/most_cited/", exist_ok=True)
-        with open(f"{output_folder}/most_cited/preds_annot{annotator_num}.json", "w") as file:
-            json.dump(semantic_scholar_most_cited, file)  
+        for k, v in result.items(): 
+            os.makedirs(f"{output_folder}/{k}/", exist_ok=True)
+            with open(f"{output_folder}/{k}/preds_annot{annotator_num}.json", "w") as file:
+                json.dump(v, file)
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Request Semantic Scholar API for the generation of a reading list')
