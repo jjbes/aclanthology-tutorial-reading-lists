@@ -27,15 +27,14 @@ def get_reference_metadata(
 
     ref = references_metadata[str(ref_id)]
     return {
+        "id": ref["externalIds"]["CorpusId"],
         "paperId": ref["paperId"],
-        "corpusId": ref["externalIds"]["CorpusId"],
-        "key": clean_string(ref["title"] + str(ref["year"])),
-        "acl_id": ref["externalIds"]["ACL"] if "ACL" in ref["externalIds"] else "",
         "title": ref["title"],
         "authors": ref["authors"],
         "venue": ref["venue"],
         "abstract": ref["abstract"] if ref["abstract"] else references_missing_metadata[str(ref_id)]["abstract"],
         "year": ref["year"] if ref["year"] else references_missing_metadata[str(ref_id)]["year"],
+        "in_acl": True if "ACL" in ref["externalIds"] else False,
         "citationCount": ref["citationCount"],
         "section": section["sectionName"],
         "subsection": section["subsectionName"]
