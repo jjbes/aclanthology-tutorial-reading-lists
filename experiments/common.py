@@ -1,6 +1,7 @@
 import re
 import ast
 import json
+import numpy as np
 import pandas as pd
 from pathlib import Path
 import matplotlib.pyplot as plt
@@ -167,7 +168,7 @@ def score_models(
 
 
 # Draw graphs functions
-""" Draw an histogram plot """    
+""" Draw a bar plot """    
 def draw_bar_plot(
         df:pd.DataFrame, 
         xlabel:str="", 
@@ -192,4 +193,26 @@ def draw_bar_plot(
     ax.set_ylabel(ylabel, fontsize="xx-large", fontfamily="Helvetica Neue")
     ax.tick_params(axis='x', labelrotation=0)
     ax.tick_params(axis='both', which='major', labelsize="xx-large", labelfontfamily="Helvetica Neue", direction="out")
+    plt.show()
+
+""" Plot a distribution of years of publication for predicted articles"""
+def draw_distribution_predictions(
+    data:list,
+    xlabel:str="", 
+    ylabel:str="",
+    figsize: tuple = (12, 6), 
+    color:str ='#18dcff'
+) -> None :
+    unique, counts = np.unique(data, return_counts=True)
+    
+    #Plot
+    fig, ax = plt.subplots(figsize=figsize)
+    ax.bar(unique, counts, color=color)
+    for container in ax.containers:# Add bar labels
+        ax.bar_label(container, padding=3, fontweight="bold", fontsize="x-small", color=color)
+    ax.spines['top'].set_visible(False)
+    ax.spines['right'].set_visible(False)
+    ax.set_xlabel(xlabel, fontsize="x-large", fontfamily="Helvetica Neue")
+    ax.set_ylabel(ylabel, fontsize="x-large", fontfamily="Helvetica Neue")
+    ax.tick_params(axis='both', which='major', labelsize="x-large", labelfontfamily="Helvetica Neue", direction="out")
     plt.show()
