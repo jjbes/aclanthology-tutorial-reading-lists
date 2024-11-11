@@ -17,7 +17,7 @@ def search_papers(query:str, max_year:Optional[int]=None, offset:int=0, limit:in
         "query":query,
         "offset":offset,
         "limit":limit,
-        "fields":"title,year,externalIds,citationCount"
+        "fields":"title,year,externalIds,citationCount,authors"
     }
     if max_year:
         payload["year"] = f"-{max_year}"
@@ -39,7 +39,8 @@ def fetch_s2(query:str, k:int=1000, max_year:Optional[int]=None) -> list:
                     "externalIds": paper["externalIds"],
                     "title": paper["title"],
                     "year": paper["year"],
-                    "citationCount": paper["citationCount"]
+                    "citationCount": paper["citationCount"],
+                    "authors": [author["authorId"] for author in paper["authors"]]
                 })
         if "next" not in response:
             break
@@ -51,7 +52,7 @@ def get_top_papers(papers:list, k:int=20, acl_only:bool=False) -> list:
     else:
         return [paper for paper in papers][0:k]
     
-def filter_cols(papers:list, cols:list=["id", "title", "year"]) -> list:
+def filter_cols(papers:list, cols:list=["id", "title", "year", "citationCount", "authors"]) -> list:
     return [{key: paper[key] for key in cols} for paper in papers]
 
 """ Request S2 for each annotations """
@@ -62,18 +63,16 @@ def process_s2_request(annotations_folder:str, output_folder:str) -> None :
 
         for query in tqdm(annotator_queries, desc=f"Requesting S2 (A{annotator_num})"):
             top1000 = fetch_s2(query["query_keywords"], k=1000, max_year=query["year"])
-            result["any"][query["id"]] = filter_cols(get_top_papers(top1000, k=20, acl_only=False), cols=["id", "title", "year", "citationCount"])
-            result["acl"][query["id"]] = filter_cols(get_top_papers(top1000, k=20, acl_only=True), cols=["id", "title", "year", "citationCount"])
+            result["any"][query["id"]] = filter_cols(get_top_papers(top1000, k=20, acl_only=False))
+            result["acl"][query["id"]] = filter_cols(get_top_papers(top1000, k=20, acl_only=True))
             result["any_most_cited"][query["id"]] = filter_cols(
                 sorted(
                     get_top_papers(top1000, k=100, acl_only=False), 
-                    key=lambda d: d['citationCount'], reverse=True)[0:20], 
-                cols=["id", "title", "year", "citationCount"])
+                    key=lambda d: d['citationCount'], reverse=True)[0:20])
             result["acl_most_cited"][query["id"]] = filter_cols(
                 sorted(
                     get_top_papers(top1000, k=100, acl_only=True), 
-                    key=lambda d: d['citationCount'], reverse=True)[0:20], 
-                cols=["id", "title", "year", "citationCount"])
+                    key=lambda d: d['citationCount'], reverse=True)[0:20])
 
         for k, v in result.items(): 
             os.makedirs(f"{output_folder}/{k}/", exist_ok=True)

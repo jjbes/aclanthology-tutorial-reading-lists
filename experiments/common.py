@@ -1,54 +1,111 @@
 import re
+import ast
 import json
 import pandas as pd
 from pathlib import Path
 import matplotlib.pyplot as plt
-from collections import defaultdict
 
 from metrics import compute_score, recall, ndcg, mrr
 
+# Formating functions
 """ Clean the string by removing non-alphanumeric characters and converting to lowercase """
 def clean_string(string:str) -> str:
     if not string:
         return ""
     return re.sub(r'\W+','', string).lower() 
 
-""" Load predictions files based on field """ 
-def load_preds(preds_path:str, use_title_instead_of_id:bool=False) -> dict:
-    preds = defaultdict(lambda: defaultdict(dict))
-    for annotator_i in [1,2,3]:
-        path_annots = Path(f'{preds_path}/preds_annot{annotator_i}.json')
-        if use_title_instead_of_id:
-            preds[f"A{annotator_i}"] = { id_:[clean_string(ref["title"]) for ref in references] for id_, references in json.loads(path_annots.read_text()).items()}
+
+# Loading functions
+""" Format references list for trues """
+def format_reference_trues(reference:dict) -> dict:
+    return {
+        "id_title": clean_string(reference["title"]),
+        "id_s2": reference.get("id"),
+        "year": reference["year"],
+        "authors": [author["authorId"] for author in reference["authors"]],
+        "citationCount": reference.get("citationCount")
+    }
+
+""" Format references list for preds """
+def format_reference_preds(reference:dict) -> dict:
+    return {
+        "id_title": clean_string(reference["title"]),
+        "id_s2": reference.get("id"),
+        "year": reference["year"],
+        "authors": reference.get("authors"),
+        "citationCount": reference.get("citationCount")
+    }
+
+""" Select specific key from references list """
+def select_keys_references(references:list, keys=["acl_s2"]) -> list:
+    if len(keys) == 1:
+        references = [reference[keys[0]] for reference in references]
+    else :
+        references = [{key: reference[key] for key in keys} for reference in references]
+    return references
+
+def load_trues(trues_path:str, keys=["id_s2"], acl_only=False) -> dict:
+    reading_lists = pd.read_csv(trues_path)
+    reading_lists['reading_list'] = reading_lists['reading_list'].apply(ast.literal_eval)
+
+    trues = {}
+    for key, references in zip(reading_lists["id"], reading_lists["reading_list"]):
+        if acl_only:
+            references = [format_reference_trues(reference) for reference in references if reference["in_acl"]]
         else:
-            preds[f"A{annotator_i}"] = { id_:[ref["id"] for ref in references] for id_, references in json.loads(path_annots.read_text()).items()}
+            references = [format_reference_trues(reference) for reference in references]
+        trues[key] = select_keys_references(references, keys=keys)
+    return trues
 
-    return json.loads(json.dumps(preds))
+""" Load predictions files based on field """ 
+def load_predictions(preds_paths:list[str], annotator_ids = [1,2,3], keys=["id_s2"]) -> dict:
+    preds_list = []
+    for preds_path in preds_paths:
+        preds = {}
+        for annotator_id in annotator_ids:
+            path_annots = Path(f'{preds_path}/preds_annot{annotator_id}.json')
+            preds_annotator = {}
+            for key, references in json.loads(path_annots.read_text()).items():
+                references = [format_reference_preds(reference) for reference in references]
+                preds_annotator[key] = select_keys_references(references, keys=keys)
+            preds[f"A{annotator_id}"] = preds_annotator
+        preds_list.append(preds)
+    return preds_list
 
+
+# Compute tables functions
 """ Compute metrics bteween ground-thruth and predictions """ 
-def process_scores(trues:dict, preds_dict:dict) -> dict:
+def process_scores(
+        trues:dict, 
+        preds_annotators:dict, 
+        metrics:list=[recall, ndcg, mrr]
+        ) -> dict:
     data = {}
-    for k, preds in preds_dict.items():
-        data[k] = compute_score(trues, preds, [recall, ndcg, mrr], k=20)
+    for k, preds in preds_annotators.items():
+        data[k] = compute_score(trues, preds, metrics, k=20)
     return data
 
 """ Select specific years valeus from predictions """ 
-def select_year(preds_dict:dict, year:int) -> dict:
+def select_year(preds_annotators:dict, year:int) -> dict:
     reading_lists = pd.read_csv("../reading_lists.csv")
     selected_ids = reading_lists[reading_lists["year"] == year]["id"].to_list()
     preds_year = {}
-    for annotator_num, preds_annotator in preds_dict.items():
+    for annotator_num, preds_annotator in preds_annotators.items():
         preds_year[annotator_num] = {id: preds_annotator[id] for id in selected_ids if id in preds_annotator}
     return preds_year
 
 """ Compute metrics of predictionc for each year """  
-def process_scores_years(trues:dict, preds_dict:dict) -> dict:
+def process_scores_years(
+        trues:dict, 
+        preds_annotators:dict, 
+        metrics:list=[recall, ndcg, mrr]
+    ) -> dict:
     years = [2020, 2021, 2022, 2023, 2024]
     data = {k: {} for k in years}
     for year in years:
-        preds_dict_year = select_year(preds_dict, year)
-        for k, preds_year in preds_dict_year.items():
-            data[year][k] = compute_score(trues, preds_year, [recall, ndcg, mrr], k=20)
+        preds_annotators_year = select_year(preds_annotators, year)
+        for k, preds_year in preds_annotators_year.items():
+            data[year][k] = compute_score(trues, preds_year, metrics, k=20)
     return data
 
 """ Convert a dict of scores to a flat list """  
@@ -70,16 +127,21 @@ def convert_scores_to_list_years(data:dict) -> dict:
     return score_list_years
     
 """ Compute DataFrame of models predictions """  
-def compute_table_scores(model_scores:dict) -> pd.DataFrame:
-    multi_columns = pd.MultiIndex.from_product([['recall', 'ndcg', 'mrr'],['A1', 'A2', 'A3', 'Mean']])
+def compute_table_scores(
+        model_scores:dict,
+        metrics:list) -> pd.DataFrame:
+    multi_columns = pd.MultiIndex.from_product([metrics,['A1', 'A2', 'A3', 'Mean']])
     df = pd.DataFrame(model_scores.values(), columns=multi_columns, index=model_scores.keys())
     return df
 
 """ Compute DataFrame of models predictions per years """  
-def compute_table_scores_years(models_scores:dict) -> pd.DataFrame:
+def compute_table_scores_years(
+        models_scores:dict, 
+        metrics:list
+    ) -> pd.DataFrame:
     dfs = []
     for k, model_scores in models_scores.items():
-        multi_columns = pd.MultiIndex.from_product([['recall', 'ndcg', 'mrr'],['A1', 'A2', 'A3', 'Mean']])
+        multi_columns = pd.MultiIndex.from_product([metrics,['A1', 'A2', 'A3', 'Mean']])
         multi_index = pd.MultiIndex.from_product([[k],['2020', '2021', '2022', '2023', '2024']])
         dfs.append(pd.DataFrame(model_scores, columns=multi_columns, index=multi_index))
     return pd.concat(dfs) 
@@ -87,17 +149,24 @@ def compute_table_scores_years(models_scores:dict) -> pd.DataFrame:
 """ Compute scores of models predictions """   
 def score_models(
         trues:dict, 
-        models:dict, 
-        paths:str,
+        preds_list:list, 
+        model_names:list,
         split_by_years:bool=False, 
-        use_title_instead_of_id:bool=False
+        metrics:list=[recall, ndcg, mrr]
     ) -> pd.DataFrame:
 
     compute_table_scores_func = compute_table_scores_years if split_by_years else compute_table_scores
     convert_scores_to_list_func = convert_scores_to_list_years if split_by_years else convert_scores_to_list
     process_scores_func = process_scores_years if split_by_years else process_scores
-    return compute_table_scores_func({model:convert_scores_to_list_func(process_scores_func(trues, load_preds(path,use_title_instead_of_id=use_title_instead_of_id))) for model, path in zip(models, paths)})
 
+    data = {}
+    for model_name, preds_annotators in zip(model_names, preds_list):
+        data[model_name] = convert_scores_to_list_func(process_scores_func(trues, preds_annotators, metrics=metrics))
+
+    return compute_table_scores_func(data, [metric.__name__ for metric in metrics])
+
+
+# Draw graphs functions
 """ Draw an histogram plot """    
 def draw_bar_plot(
         df:pd.DataFrame, 

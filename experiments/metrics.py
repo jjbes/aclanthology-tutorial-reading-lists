@@ -4,7 +4,7 @@ from collections import defaultdict
 
 """ Measure recall between a ground-thruth and predictions """ 
 def recall(trues:list, preds:list) -> float:
-    matches = set(trues) & set(preds)
+    matches = [true for true in trues if true in preds]# Looking for trues in preds ensure matches are unique
     return len(matches)/len(trues)
 
 """ Measure NDCG between a ground-thruth and predictions """ 
